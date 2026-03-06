@@ -1,0 +1,190 @@
+/* ===== Toast ===== */
+.toast-container {
+  position: fixed;
+  top: var(--sp-md);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+  pointer-events: none;
+}
+.toast {
+  background: var(--c-surface);
+  color: var(--c-text);
+  padding: var(--sp-sm) var(--sp-md);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 12px var(--c-shadow);
+  font-size: 0.9rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.toast--visible { opacity: 1; transform: translateY(0); }
+.toast--success { border-left: 4px solid var(--c-success); }
+.toast--error { border-left: 4px solid var(--c-danger); }
+.toast--info { border-left: 4px solid var(--c-accent); }
+
+/* ===== Modal ===== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--sp-md);
+}
+.modal {
+  background: var(--c-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-lg);
+  max-width: 400px;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+.modal__title { font-size: 1.1rem; font-weight: 700; margin-bottom: var(--sp-md); }
+.modal__actions { display: flex; gap: var(--sp-sm); margin-top: var(--sp-lg); justify-content: flex-end; }
+
+/* ===== Timer Bar ===== */
+.timer-bar {
+  width: 100%;
+  height: 4px;
+  background: var(--c-surface-alt);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-bottom: var(--sp-sm);
+}
+.timer-bar__fill {
+  height: 100%;
+  background: var(--c-accent);
+  transition: width 1s linear;
+  border-radius: 2px;
+}
+.timer-bar__fill--warning { background: var(--c-warning); }
+.timer-bar__fill--danger { background: var(--c-danger); }
+
+/* ===== Progress Bar ===== */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: var(--c-surface-alt);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress-bar__fill {
+  height: 100%;
+  background: var(--c-success);
+  border-radius: 4px;
+  transition: width var(--transition);
+}
+
+/* ===== Choice Grid (MCQ) ===== */
+.choice-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+  margin-top: var(--sp-md);
+}
+.choice-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-sm);
+  padding: var(--sp-md);
+  background: var(--c-surface);
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.95rem;
+  transition: border-color var(--transition), background var(--transition);
+}
+.choice-btn:hover { border-color: var(--c-accent); }
+.choice-btn__label {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--c-surface-alt);
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+.choice-btn--correct {
+  border-color: var(--c-success);
+  background: rgba(40,167,69,0.08);
+}
+.choice-btn--correct .choice-btn__label { background: var(--c-success); color: #fff; }
+.choice-btn--wrong {
+  border-color: var(--c-danger);
+  background: rgba(220,53,69,0.08);
+}
+.choice-btn--wrong .choice-btn__label { background: var(--c-danger); color: #fff; }
+.choice-btn--disabled { pointer-events: none; opacity: 0.7; }
+
+/* ===== Hawker Collection ===== */
+.hawker-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--sp-sm);
+}
+.hawker-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-xs);
+  padding: var(--sp-sm);
+  border-radius: var(--radius);
+  background: var(--c-surface-alt);
+  font-size: 0.75rem;
+  text-align: center;
+  transition: transform var(--transition);
+}
+.hawker-item--locked { opacity: 0.3; filter: grayscale(1); }
+.hawker-item__icon { font-size: 2rem; }
+
+/* ===== Trivia Card ===== */
+.trivia-card {
+  background: linear-gradient(135deg, var(--c-accent), #006b9e);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: var(--sp-md);
+  margin-bottom: var(--sp-md);
+}
+.trivia-card__label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  margin-bottom: var(--sp-xs);
+}
+.trivia-card__text { font-size: 0.95rem; line-height: 1.5; }
+
+/* ===== Glossary List ===== */
+.glossary-list { list-style: none; }
+.glossary-item {
+  padding: var(--sp-sm) 0;
+  border-bottom: 1px solid var(--c-border);
+}
+.glossary-item__term { font-weight: 700; color: var(--c-primary); }
+.glossary-item__def { font-size: 0.9rem; color: var(--c-text-secondary); margin-top: 2px; }
+.glossary-item__jp { font-size: 0.85rem; color: var(--c-accent); margin-top: 2px; }
+
+/* ===== Search Box ===== */
+.search-box {
+  width: 100%;
+  padding: var(--sp-sm) var(--sp-md);
+  border: 2px solid var(--c-border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  background: var(--c-surface);
+  color: var(--c-text);
+  outline: none;
+  transition: border-color var(--transition);
+}
+.search-box:focus { border-color: var(--c-accent); }

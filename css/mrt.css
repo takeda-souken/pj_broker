@@ -1,0 +1,94 @@
+/* ===== MRT Progress Map ===== */
+.mrt-map {
+  padding: var(--sp-md) 0;
+}
+.mrt-line {
+  margin-bottom: var(--sp-lg);
+}
+.mrt-line__header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-sm);
+}
+.mrt-line__color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.mrt-line__name {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.mrt-line__progress {
+  font-size: 0.8rem;
+  color: var(--c-text-secondary);
+  margin-left: auto;
+}
+
+.mrt-stations {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 12px;
+}
+
+.mrt-track {
+  position: absolute;
+  left: 17px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--c-border);
+  border-radius: 2px;
+}
+.mrt-track__fill {
+  width: 100%;
+  border-radius: 2px;
+  transition: height 0.5s ease;
+}
+
+.mrt-station {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  padding: var(--sp-sm) 0;
+  padding-left: 24px;
+  position: relative;
+}
+.mrt-station__dot {
+  position: absolute;
+  left: 12px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 3px solid var(--c-border);
+  background: var(--c-bg);
+  z-index: 1;
+}
+.mrt-station--completed .mrt-station__dot {
+  border-color: currentColor;
+  background: currentColor;
+}
+.mrt-station--current .mrt-station__dot {
+  border-color: currentColor;
+  background: var(--c-bg);
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.1);
+}
+.mrt-station__name {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.mrt-station__accuracy {
+  font-size: 0.75rem;
+  color: var(--c-text-secondary);
+  margin-left: auto;
+}
+.mrt-station--completed .mrt-station__name { font-weight: 700; }
+.mrt-station--locked .mrt-station__name { color: var(--c-text-secondary); }
+
+/* Vertical layout for stations */
+.mrt-stations--vertical {
+  flex-direction: column;
+  align-items: stretch;
+}

@@ -1,0 +1,55 @@
+/* ===== Color Tokens ===== */
+:root {
+  /* Singapore-inspired palette */
+  --c-primary: #e4002b;      /* SG red */
+  --c-primary-light: #ff3d5a;
+  --c-primary-dark: #b80023;
+  --c-accent: #009cde;       /* Merlion water blue */
+  --c-accent-light: #4db8e8;
+  --c-gold: #f5a623;         /* Hawker reward gold */
+  --c-success: #28a745;
+  --c-danger: #dc3545;
+  --c-warning: #ffc107;
+
+  /* Neutrals */
+  --c-bg: #fafafa;
+  --c-surface: #ffffff;
+  --c-surface-alt: #f0f2f5;
+  --c-text: #1a1a2e;
+  --c-text-secondary: #555;
+  --c-border: #ddd;
+  --c-shadow: rgba(0,0,0,0.08);
+
+  /* MRT line colors */
+  --mrt-red: #e4002b;
+  --mrt-green: #009645;
+  --mrt-purple: #9e28b4;
+  --mrt-yellow: #faa61a;
+  --mrt-blue: #005da2;
+  --mrt-brown: #9d5b25;
+
+  /* Spacing */
+  --sp-xs: 4px;
+  --sp-sm: 8px;
+  --sp-md: 16px;
+  --sp-lg: 24px;
+  --sp-xl: 32px;
+
+  /* Radius */
+  --radius: 8px;
+  --radius-lg: 16px;
+
+  /* Transition */
+  --transition: 0.2s ease;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --c-bg: #0f0f1a;
+  --c-surface: #1a1a2e;
+  --c-surface-alt: #25253e;
+  --c-text: #e8e8f0;
+  --c-text-secondary: #aaa;
+  --c-border: #333;
+  --c-shadow: rgba(0,0,0,0.3);
+}

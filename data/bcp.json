@@ -1,0 +1,322 @@
+[
+  {
+    "id": "bcp-001",
+    "topic": "Risks & Insurance Principles",
+    "question": "Which of the following is NOT a requirement for a risk to be insurable?",
+    "choices": [
+      "The risk must be pure, not speculative",
+      "The loss must be determinable and measurable",
+      "The risk must have occurred at least once before",
+      "There must be a large number of similar exposure units"
+    ],
+    "answer": 2,
+    "explanation": "Insurable risks must be pure (not speculative), determinable, measurable, and involve a large number of similar exposures. There is no requirement that the risk must have occurred before — otherwise, novel risks could never be insured.",
+    "jpComparison": "日本でも付保適格リスクの要件は同じ（純粋リスク・測定可能・大数の法則）。「過去に発生実績があること」は要件ではない点も共通。",
+    "keywords": ["insurable risk", "pure risk", "law of large numbers"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-002",
+    "topic": "Risks & Insurance Principles",
+    "question": "The principle of utmost good faith (uberrimae fidei) requires the insured to:",
+    "choices": [
+      "Pay premiums on time",
+      "Disclose all material facts to the insurer",
+      "Accept the first quotation offered",
+      "Insure for the full replacement value"
+    ],
+    "answer": 1,
+    "explanation": "Utmost good faith requires both parties (insured and insurer) to disclose all material facts. A material fact is one that would influence the judgment of a prudent insurer in assessing the risk.",
+    "jpComparison": "日本の保険法でも「告知義務」として同概念が存在する（保険法4条・37条・66条）。ただし日本は2008年改正で「自発的告知義務」から「質問応答義務」に変更された点がSGと異なる。",
+    "keywords": ["utmost good faith", "uberrimae fidei", "material fact", "disclosure"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-003",
+    "topic": "Risks & Insurance Principles",
+    "question": "Under the principle of indemnity, the insured is entitled to:",
+    "choices": [
+      "Receive the sum insured regardless of the loss amount",
+      "Be restored to the same financial position as before the loss",
+      "Receive double the loss amount as compensation",
+      "Claim from multiple insurers for the full amount each"
+    ],
+    "answer": 1,
+    "explanation": "The principle of indemnity ensures the insured is restored to the same financial position they were in immediately before the loss — no better, no worse. This prevents profiting from insurance.",
+    "jpComparison": "日本の損害保険でも「利得禁止原則」として同一の概念。実損填補が原則。ただし生命保険・傷害保険は定額給付で利得禁止原則の適用外（SGも同様）。",
+    "keywords": ["indemnity", "restoration", "no profit"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-004",
+    "topic": "Risks & Insurance Principles",
+    "question": "Subrogation allows the insurer to:",
+    "choices": [
+      "Cancel the policy at any time",
+      "Recover the loss amount from a third party responsible for the loss",
+      "Increase the premium after a claim",
+      "Reject any claim below the deductible"
+    ],
+    "answer": 1,
+    "explanation": "After paying a claim, the insurer 'steps into the shoes' of the insured and can pursue recovery from the negligent third party. This prevents the insured from recovering twice (from insurer and from the third party).",
+    "jpComparison": "日本でも「保険代位」（保険法25条）として同一の概念。請求権代位と残存物代位の2種がある点はSGと共通。",
+    "keywords": ["subrogation", "recovery", "third party"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-005",
+    "topic": "The Insurance Market",
+    "question": "Which body is responsible for the regulation of insurance companies and intermediaries in Singapore?",
+    "choices": [
+      "Ministry of Finance (MOF)",
+      "Monetary Authority of Singapore (MAS)",
+      "Singapore Exchange (SGX)",
+      "Accounting and Corporate Regulatory Authority (ACRA)"
+    ],
+    "answer": 1,
+    "explanation": "The Monetary Authority of Singapore (MAS) is the integrated financial regulator that supervises all financial institutions in Singapore, including insurance companies, reinsurers, and insurance intermediaries.",
+    "jpComparison": "日本では金融庁（FSA）が保険業の監督を担う。MASは中央銀行機能も兼ねる統合型金融規制当局で、日本の金融庁＋日本銀行の一部機能を持つ。",
+    "keywords": ["MAS", "financial regulator", "Insurance Act"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-006",
+    "topic": "The Insurance Market",
+    "question": "In Singapore, insurance intermediaries include all of the following EXCEPT:",
+    "choices": [
+      "Insurance agents",
+      "Insurance brokers",
+      "Financial advisers",
+      "Loss adjusters"
+    ],
+    "answer": 3,
+    "explanation": "Loss adjusters assess and settle claims on behalf of insurers — they are not intermediaries who arrange insurance contracts. Insurance agents, brokers, and financial advisers are all classified as intermediaries under the Insurance Act.",
+    "jpComparison": "日本でも損害査定人（損害保険登録鑑定人）は保険仲介者には分類されない。保険仲介者は保険代理店・保険仲立人・保険募集人。",
+    "keywords": ["intermediary", "agent", "broker", "loss adjuster"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-007",
+    "topic": "Regulatory Landscape",
+    "question": "Under MAS Notice 502, what is the minimum qualification required for broking staff dealing in general insurance?",
+    "choices": [
+      "Diploma in Business Administration",
+      "Certificate in General Insurance (CGI)",
+      "Chartered Insurance Professional (CIP)",
+      "Bachelor's degree in any discipline"
+    ],
+    "answer": 1,
+    "explanation": "MAS Notice 502 requires broking staff to hold the Certificate in General Insurance (CGI), which comprises BCP + PGI (personal) or BCP + ComGI (commercial) modules.",
+    "jpComparison": "日本では保険仲立人試験（JIBA実施、4科目）の合格が必要。CGIとは試験構成が異なるが、実務要件としてのブローカー資格という位置づけは同じ。",
+    "keywords": ["Notice 502", "CGI", "broking staff", "qualification"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-008",
+    "topic": "Regulatory Landscape",
+    "question": "The Insurance Act 1966 in Singapore governs:",
+    "choices": [
+      "Only life insurance business",
+      "Only general insurance business",
+      "Both life and general insurance business, including intermediaries",
+      "Only reinsurance business"
+    ],
+    "answer": 2,
+    "explanation": "The Insurance Act 1966 is the principal legislation governing the entire insurance industry in Singapore, covering life insurance, general insurance, reinsurance, and all intermediaries including agents and brokers.",
+    "jpComparison": "日本の保険業法（1995年全面改正）も生保・損保・再保険・仲介業者すべてを包括的に規制する点はSGのInsurance Actと同構造。",
+    "keywords": ["Insurance Act 1966", "legislation", "MAS"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-009",
+    "topic": "Law of Contract & Agency",
+    "question": "For an insurance contract to be valid, which of the following elements is NOT required?",
+    "choices": [
+      "Offer and acceptance",
+      "Consideration (premium)",
+      "Written documentation signed by both parties",
+      "Legal capacity of both parties"
+    ],
+    "answer": 2,
+    "explanation": "While most insurance contracts are written, a written document signed by both parties is not a legal requirement for a valid contract. Verbal contracts can be binding. The essential elements are: offer and acceptance, consideration, legal capacity, and legality of purpose.",
+    "jpComparison": "日本の保険法でも契約の成立に書面は不要（諾成契約）。ただし実務上は保険証券を交付する。2008年保険法改正で明確化された。",
+    "keywords": ["contract", "offer", "acceptance", "consideration"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-010",
+    "topic": "Law of Contract & Agency",
+    "question": "In the context of insurance, an agent who acts for the insurer has a duty to:",
+    "choices": [
+      "Always secure the cheapest premium for the client",
+      "Act within the scope of authority granted by the principal (insurer)",
+      "Advise the insured on tax optimization",
+      "Guarantee that all claims will be paid"
+    ],
+    "answer": 1,
+    "explanation": "An agent must act within the scope of authority (actual or apparent) granted by their principal. Acting beyond this authority may not bind the insurer, though the doctrine of apparent authority may protect third parties.",
+    "jpComparison": "日本でも代理店は保険会社（委託者）から授権された範囲で行動する義務がある。表見代理（民法109条・110条・112条）の法理も同様に機能する。",
+    "keywords": ["agency", "authority", "principal", "scope"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-011",
+    "topic": "Insurance Documents",
+    "question": "Which document serves as evidence of the insurance contract and outlines the terms and conditions?",
+    "choices": [
+      "Proposal form",
+      "Cover note",
+      "Insurance policy",
+      "Claim form"
+    ],
+    "answer": 2,
+    "explanation": "The insurance policy is the formal document that serves as evidence of the contract, detailing the terms, conditions, exclusions, and the scope of cover. A cover note provides temporary evidence of cover, while the proposal form is the application.",
+    "jpComparison": "日本の「保険証券」に相当。カバーノート（仮保険証券）は日本の海上保険実務でも使用される。",
+    "keywords": ["policy", "cover note", "proposal form"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-012",
+    "topic": "Insurance Documents",
+    "question": "A warranty in an insurance contract is:",
+    "choices": [
+      "A guarantee that the insurer will pay all claims",
+      "A condition that must be strictly complied with by the insured",
+      "An optional recommendation from the insurer",
+      "A discount offered for good claims history"
+    ],
+    "answer": 1,
+    "explanation": "A warranty is a fundamental term of the insurance contract that must be strictly complied with by the insured. Breach of warranty entitles the insurer to avoid the contract, regardless of whether the breach is related to the loss.",
+    "jpComparison": "日本の保険法には英米法的な「warranty（担保条項）」の概念はない。最も近いのは「告知義務」と「通知義務」だが、効果は異なる。SGで重要なコンセプト。",
+    "keywords": ["warranty", "condition", "strict compliance"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-013",
+    "topic": "Claims",
+    "question": "The doctrine of proximate cause in insurance means that:",
+    "choices": [
+      "The nearest cause in time is always the proximate cause",
+      "The dominant and effective cause of the loss determines whether a claim is payable",
+      "Only the first cause in a chain of events matters",
+      "The insured can choose which cause to claim under"
+    ],
+    "answer": 1,
+    "explanation": "Proximate cause is the dominant, operative, and effective cause of the loss — not necessarily the closest in time or the last in the chain. The insurer pays only if the proximate cause is a covered peril.",
+    "jpComparison": "日本でも「近因主義」として同一の概念が適用される。相当因果関係説との関連で議論されるが、実務的には「主たる原因」で判断する点はSGと共通。",
+    "keywords": ["proximate cause", "dominant cause", "chain of causation"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-014",
+    "topic": "Claims",
+    "question": "FIDReC in Singapore provides:",
+    "choices": [
+      "Financial advisory services to insurance companies",
+      "An independent dispute resolution channel for consumers against financial institutions",
+      "Reinsurance capacity for the local market",
+      "Training courses for insurance professionals"
+    ],
+    "answer": 1,
+    "explanation": "The Financial Industry Disputes Resolution Centre (FIDReC) is an independent body that provides an affordable and accessible avenue for consumers to resolve disputes with financial institutions, including insurers.",
+    "jpComparison": "日本では「そんぽADRセンター」（損害保険）「生命保険相談所」（生保）が同様の機能を果たす。金融ADR制度として2010年に整備された。",
+    "keywords": ["FIDReC", "dispute resolution", "consumer protection"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-015",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "What is the primary purpose of reinsurance?",
+    "choices": [
+      "To eliminate all risk for the insurer",
+      "To spread risk and increase underwriting capacity",
+      "To reduce premiums for policyholders",
+      "To replace the original insurance policy"
+    ],
+    "answer": 1,
+    "explanation": "Reinsurance allows insurers to transfer portions of risk to reinsurers, thereby spreading risk, increasing capacity to write larger risks, stabilizing results, and protecting against catastrophic losses.",
+    "jpComparison": "日本でも再保険の目的は同一（リスク分散・引受能力拡大・収支安定化）。日本では東京が再保険市場として機能し、SGはアジアの再保険ハブ。",
+    "keywords": ["reinsurance", "risk transfer", "capacity", "catastrophe"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-016",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In co-insurance, each insurer:",
+    "choices": [
+      "Is liable for the full amount of the loss",
+      "Is liable only for its agreed proportion of the risk",
+      "Must consult with other co-insurers before paying claims",
+      "Shares a single policy document with all co-insurers"
+    ],
+    "answer": 1,
+    "explanation": "In co-insurance, each insurer accepts a specified share (percentage) of the risk and is liable only for that proportion. The lead insurer typically manages the policy and claims on behalf of all co-insurers.",
+    "jpComparison": "日本の共同保険も同一の仕組み（各社が引受割合に応じた責任を負う）。幹事会社制度も共通。",
+    "keywords": ["co-insurance", "proportion", "lead insurer"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-017",
+    "topic": "Ethics & Data Protection",
+    "question": "Under Singapore's Personal Data Protection Act (PDPA), organizations must:",
+    "choices": [
+      "Obtain consent before collecting personal data",
+      "Store all data on servers physically located in Singapore",
+      "Delete all customer data after 30 days",
+      "Share customer data with all government agencies upon request"
+    ],
+    "answer": 0,
+    "explanation": "The PDPA requires organizations to obtain consent before collecting, using, or disclosing personal data. It also mandates reasonable security measures and gives individuals the right to access and correct their data.",
+    "jpComparison": "日本の個人情報保護法も利用目的の特定・同意取得・安全管理措置を要求。2022年改正で域外適用も強化された。PDPAとの大きな違いはDo Not Call規定がSGにはある点。",
+    "keywords": ["PDPA", "consent", "personal data", "data protection"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-018",
+    "topic": "Ethics & Data Protection",
+    "question": "An insurance broker who recommends a policy primarily because it generates the highest commission is violating:",
+    "choices": [
+      "The principle of subrogation",
+      "The duty of utmost good faith",
+      "The duty to act in the best interest of the client",
+      "The principle of indemnity"
+    ],
+    "answer": 2,
+    "explanation": "Insurance brokers have a fiduciary duty to act in the best interest of their clients. Recommending a policy based on commission rather than suitability violates this duty and may result in regulatory action.",
+    "jpComparison": "日本の保険仲立人にも「誠実義務（ベストアドバイス義務）」が課されている（保険業法299条）。顧客の利益を最優先する点はSGと共通。",
+    "keywords": ["best interest", "fiduciary duty", "conflict of interest"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-019",
+    "topic": "Risks & Insurance Principles",
+    "question": "The doctrine of contribution applies when:",
+    "choices": [
+      "An insured has only one policy covering the risk",
+      "Two or more policies cover the same risk, same insured, and same interest",
+      "The insured fails to pay the premium on time",
+      "A reinsurer disputes a claim"
+    ],
+    "answer": 1,
+    "explanation": "Contribution applies when there are two or more policies covering the same risk, same insured, same subject matter, and same interest. Each insurer contributes ratably to the loss to prevent the insured from profiting.",
+    "jpComparison": "日本でも重複保険時の「保険金分担」として同一の原則が適用される。按分方式は独立責任額按分が一般的。",
+    "keywords": ["contribution", "double insurance", "ratable proportion"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-020",
+    "topic": "The Insurance Market",
+    "question": "Lloyd's of London is best described as:",
+    "choices": [
+      "A single insurance company",
+      "A government-owned insurer",
+      "A marketplace where syndicates of underwriters accept insurance risks",
+      "A reinsurance broker"
+    ],
+    "answer": 2,
+    "explanation": "Lloyd's is not an insurance company but a marketplace where multiple syndicates of underwriters come together to accept and share insurance risks. It operates under a unique structure dating back to Edward Lloyd's coffee house in 1688.",
+    "jpComparison": "ロイズは日本市場でも活動しており、日本のロイズ・ジャパンを通じて保険引受を行っている。シンジケート構造は日本の保険市場にはない独特の仕組み。",
+    "keywords": ["Lloyd's", "syndicate", "underwriter", "marketplace"],
+    "difficulty": 1
+  }
+]

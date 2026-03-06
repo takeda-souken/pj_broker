@@ -1,0 +1,88 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.6;
+  min-height: 100dvh;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+input, textarea, select { user-select: text; -webkit-user-select: text; }
+
+#app {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--sp-md);
+  padding-bottom: 80px;
+}
+
+a { color: var(--c-accent); text-decoration: none; }
+
+/* ===== Typography ===== */
+h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: var(--sp-md); }
+h2 { font-size: 1.2rem; font-weight: 600; margin-bottom: var(--sp-sm); }
+h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
+
+/* ===== Buttons ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-xs);
+  padding: var(--sp-sm) var(--sp-md);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), transform var(--transition);
+}
+.btn:active { transform: scale(0.97); }
+
+.btn--primary { background: var(--c-primary); color: #fff; }
+.btn--primary:hover { background: var(--c-primary-dark); }
+
+.btn--accent { background: var(--c-accent); color: #fff; }
+
+.btn--outline {
+  background: transparent;
+  border: 2px solid var(--c-border);
+  color: var(--c-text);
+}
+
+.btn--block { display: flex; width: 100%; }
+
+.btn--back {
+  background: none;
+  border: none;
+  color: var(--c-text-secondary);
+  font-size: 0.9rem;
+  padding: var(--sp-xs) 0;
+  cursor: pointer;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: var(--c-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-lg);
+  box-shadow: 0 2px 8px var(--c-shadow);
+  margin-bottom: var(--sp-md);
+}
+
+/* ===== Utility ===== */
+.text-center { text-align: center; }
+.text-secondary { color: var(--c-text-secondary); }
+.text-sm { font-size: 0.85rem; }
+.mt-sm { margin-top: var(--sp-sm); }
+.mt-md { margin-top: var(--sp-md); }
+.mt-lg { margin-top: var(--sp-lg); }
+.mb-md { margin-bottom: var(--sp-md); }
+.gap-sm { gap: var(--sp-sm); }
+.flex-col { display: flex; flex-direction: column; }
+.flex-row { display: flex; flex-direction: row; align-items: center; }
+.hidden { display: none !important; }

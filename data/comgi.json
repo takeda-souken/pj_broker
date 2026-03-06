@@ -1,0 +1,242 @@
+[
+  {
+    "id": "comgi-001",
+    "topic": "Property Insurance",
+    "question": "In a Standard Fire Policy, which of the following perils is typically covered?",
+    "choices": [
+      "Earthquake",
+      "Fire and lightning",
+      "Wear and tear",
+      "Gradual deterioration"
+    ],
+    "answer": 1,
+    "explanation": "A Standard Fire Policy covers fire (including lightning) as a basic peril. Earthquake, wear and tear, and gradual deterioration are standard exclusions. Extended perils can be added by endorsement.",
+    "jpComparison": "日本の火災保険も火災・落雷は基本補償。地震は別契約（地震保険）。SGも同様に地震は基本的に除外だが、SG自体の地震リスクは極めて低い。",
+    "keywords": ["fire policy", "peril", "lightning", "exclusion"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-002",
+    "topic": "Property Insurance",
+    "question": "The 'average clause' (condition of average) in a property policy means:",
+    "choices": [
+      "The insurer pays the average of all claims in the year",
+      "If underinsured, the insured bears a proportionate share of the loss",
+      "The premium is calculated as an average of market rates",
+      "The policy covers average quality goods only"
+    ],
+    "answer": 1,
+    "explanation": "If the sum insured is less than the actual value of the property (underinsurance), the average clause applies proportionally. For example, if property worth $1M is insured for only $500K (50%), the insurer pays only 50% of any partial loss.",
+    "jpComparison": "日本では「比例填補（プロラタ方式）」として同一概念。実損払いの保険も増えているが、SGの企業保険では比例填補が一般的。",
+    "keywords": ["average clause", "underinsurance", "proportional", "sum insured"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-003",
+    "topic": "Business Interruption Insurance",
+    "question": "Business Interruption (BI) insurance covers:",
+    "choices": [
+      "Physical damage to the insured property",
+      "Loss of gross profit due to interruption caused by an insured peril",
+      "Employee injuries during business operations",
+      "Legal liability to third parties"
+    ],
+    "answer": 1,
+    "explanation": "BI insurance covers the financial loss (loss of gross profit) resulting from interruption of business due to physical damage caused by an insured peril. It does not cover the physical damage itself — that is covered by the property policy.",
+    "jpComparison": "日本の「利益保険」に相当。粗利益（Gross Profit）を填補する点は共通。SGでは「Material Damage Proviso」により、BI保険は物的損害保険の存在が前提条件。",
+    "keywords": ["business interruption", "gross profit", "indemnity period"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-004",
+    "topic": "Business Interruption Insurance",
+    "question": "The 'Material Damage Proviso' in a BI policy requires that:",
+    "choices": [
+      "A minimum amount of material must be damaged",
+      "There must be a valid and paid property insurance policy in force covering the same peril",
+      "The damage must be material to the business operations",
+      "The business must have material assets on the premises"
+    ],
+    "answer": 1,
+    "explanation": "The Material Damage Proviso states that a BI claim is only payable if there is a property insurance policy in force at the time of the loss, covering the same peril, and the property insurer has paid or admitted liability.",
+    "jpComparison": "日本の利益保険にも同様の前提条件がある（物的損害保険の付保が前提）。ただし日本では約款上の要件として規定されることが多い。",
+    "keywords": ["material damage proviso", "prerequisite", "property policy"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-005",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Public liability insurance protects the insured against:",
+    "choices": [
+      "Loss of their own property",
+      "Legal liability for injury or damage to third parties arising from the insured's operations",
+      "Claims from employees for workplace injuries",
+      "Liability arising from the use of motor vehicles"
+    ],
+    "answer": 1,
+    "explanation": "Public liability insurance covers the insured's legal liability for bodily injury or property damage to third parties arising out of the insured's business operations or premises. Employee claims and motor vehicle liability are covered under separate policies.",
+    "jpComparison": "日本の「施設賠償責任保険」「請負業者賠償責任保険」に相当。従業員災害は労災保険、自動車は自賠責＋任意保険で別管理という構造もSGと類似。",
+    "keywords": ["public liability", "third party", "negligence", "damages"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-006",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Directors & Officers (D&O) insurance 'Side A' coverage provides:",
+    "choices": [
+      "Coverage for the company's own financial losses",
+      "Personal protection for directors when the company cannot indemnify them",
+      "Coverage for employment practices liability",
+      "Protection against cyber attacks"
+    ],
+    "answer": 1,
+    "explanation": "Side A coverage acts as a personal safety net for directors and officers when the company cannot (e.g., insolvency) or is not permitted to indemnify them. Side B reimburses the company for indemnifying D&Os. Side C covers the entity itself (securities claims).",
+    "jpComparison": "日本のD&O保険（会社役員賠償責任保険）も同様のSide A/B/C構造。2021年の会社法改正でD&O保険に関する開示規制が強化された。",
+    "keywords": ["D&O", "Side A", "indemnification", "directors"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-007",
+    "topic": "Commercial Motor Insurance",
+    "question": "In Singapore, Third Party Only (TPO) motor insurance provides:",
+    "choices": [
+      "Comprehensive coverage for the insured vehicle",
+      "Coverage for damage to the insured vehicle and third-party liability",
+      "Coverage only for legal liability to third parties for bodily injury and property damage",
+      "Coverage for theft of the insured vehicle"
+    ],
+    "answer": 2,
+    "explanation": "TPO is the minimum level of motor insurance required by law in Singapore. It covers only the policyholder's legal liability to third parties for bodily injury and property damage. It does not cover damage to the insured's own vehicle.",
+    "jpComparison": "日本の「自賠責保険」に近いが、自賠責は対人のみ。SGのTPOは対人＋対物を含む。日本で対物も含むのは任意保険の「対物賠償責任保険」。",
+    "keywords": ["TPO", "third party only", "compulsory", "motor"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-008",
+    "topic": "Marine & Aviation Insurance",
+    "question": "In marine insurance, 'General Average' refers to:",
+    "choices": [
+      "The average value of all goods on a vessel",
+      "A voluntary sacrifice of cargo to save the vessel, shared proportionally by all parties",
+      "The average premium charged for marine policies",
+      "Normal wear and tear of a vessel during voyage"
+    ],
+    "answer": 1,
+    "explanation": "General Average is a principle where a voluntary and intentional sacrifice (e.g., jettisoning cargo) made to preserve the vessel and remaining cargo is shared proportionally among all parties with an interest in the maritime venture.",
+    "jpComparison": "日本の海上保険法でも「共同海損（General Average）」は同一の概念（商法788条以下）。ヨーク・アントワープ規則が国際的に適用される点も共通。",
+    "keywords": ["general average", "sacrifice", "marine", "York-Antwerp"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-009",
+    "topic": "Construction & Machinery Insurance",
+    "question": "A Contractors' All Risks (CAR) policy typically covers:",
+    "choices": [
+      "Only liability to third parties during construction",
+      "Only the contract works and materials",
+      "The contract works, materials, construction plant, and third-party liability during the construction period",
+      "Only professional liability of the architect and engineers"
+    ],
+    "answer": 2,
+    "explanation": "A CAR policy provides comprehensive coverage during the construction period, including: the contract works, materials and equipment on site, construction plant and machinery, and third-party liability. It is typically arranged on an all-risks basis.",
+    "jpComparison": "日本の「建設工事保険」に相当。工事物件・仮設物・工事用資材等を包括的に補償する点は同じ。SGではCAR（Contractors' All Risks）の名称が一般的。",
+    "keywords": ["CAR", "contractors all risks", "construction", "all risks"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-010",
+    "topic": "Pecuniary Insurance",
+    "question": "Which of the following is an example of pecuniary insurance?",
+    "choices": [
+      "Fire insurance",
+      "Marine cargo insurance",
+      "Fidelity guarantee insurance",
+      "Motor comprehensive insurance"
+    ],
+    "answer": 2,
+    "explanation": "Pecuniary insurance covers financial losses not arising from physical damage. Fidelity guarantee insurance protects against financial loss caused by dishonest acts of employees. Other examples include credit insurance and business interruption insurance.",
+    "jpComparison": "日本の「身元信用保険」に相当。従業員の不誠実行為による損失を填補する。日本では利用が減少しているが、SGでは企業保険として一般的。",
+    "keywords": ["pecuniary", "fidelity guarantee", "financial loss", "dishonesty"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-011",
+    "topic": "Foreign Worker Insurance",
+    "question": "Under Singapore's Work Injury Compensation Act (WICA), employers are required to:",
+    "choices": [
+      "Provide only medical insurance for foreign workers",
+      "Compensate employees for work-related injuries or diseases, regardless of fault",
+      "Purchase insurance only for workers earning above SGD 2,600 per month",
+      "Report injuries only if the worker is hospitalized for more than 7 days"
+    ],
+    "answer": 1,
+    "explanation": "WICA provides a no-fault compensation framework for employees who suffer work-related injuries or occupational diseases. Employers must insure all employees performing manual work, and non-manual employees earning up to a prescribed salary cap.",
+    "jpComparison": "日本の労災保険（労働者災害補償保険法）に相当。日本は全事業所に強制適用（一部例外あり）。SGのWICAは無過失責任制度である点が共通。",
+    "keywords": ["WICA", "work injury", "no-fault", "compensation"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-012",
+    "topic": "Foreign Worker Insurance",
+    "question": "For S Pass and Work Permit holders in Singapore, employers must maintain medical insurance with a minimum coverage of:",
+    "choices": [
+      "SGD 15,000 per year",
+      "SGD 30,000 per year",
+      "SGD 60,000 per year",
+      "SGD 100,000 per year"
+    ],
+    "answer": 2,
+    "explanation": "From 1 July 2023, employers must maintain medical insurance with a minimum coverage of SGD 60,000 per year for each Work Permit or S Pass holder. This is a requirement under the Employment of Foreign Manpower Act.",
+    "jpComparison": "日本では外国人労働者も健康保険に加入するため、別途の医療保険義務はない。SGの制度は雇用主負担の強制医療保険という独自の枠組み。",
+    "keywords": ["medical insurance", "foreign worker", "SGD 60000", "MOM"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-013",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Group Personal Accident (GPA) insurance differs from WICA in that GPA:",
+    "choices": [
+      "Covers only work-related injuries",
+      "Provides 24-hour coverage including non-work-related accidents",
+      "Is mandated by law for all employers",
+      "Only covers death benefit"
+    ],
+    "answer": 1,
+    "explanation": "Unlike WICA which covers only work-related injuries, GPA provides 24-hour accident coverage for employees, including off-duty hours. It typically covers accidental death, permanent disability, and medical expenses from accidents occurring anywhere.",
+    "jpComparison": "日本の「団体傷害保険」に相当。24時間補償で業務外の事故も対象とする点は同じ。労災保険の上乗せとして活用される。",
+    "keywords": ["GPA", "group personal accident", "24-hour", "WICA"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-014",
+    "topic": "Property Insurance",
+    "question": "Which of the following is typically excluded from a fire insurance policy?",
+    "choices": [
+      "Damage caused by firefighting operations",
+      "Damage caused by lightning",
+      "Damage from riot and strike",
+      "Loss by theft during a fire"
+    ],
+    "answer": 2,
+    "explanation": "Riot and strike damage is not covered under a basic fire policy — it requires an extension (Special Perils). Damage from firefighting operations and lightning are covered as standard fire perils. Theft during a fire may be covered as a consequence of the fire peril.",
+    "jpComparison": "日本の火災保険でも暴動・騒擾は基本補償外で、総合保険や特約で付帯する構造。消火活動による損害は火災保険で補償される点はSGと同じ。",
+    "keywords": ["fire exclusion", "riot", "special perils", "extension"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-015",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Product liability insurance covers the insured against claims arising from:",
+    "choices": [
+      "Failure to deliver products on time",
+      "Defective products causing bodily injury or property damage to third parties",
+      "Damage to the insured's own products during manufacturing",
+      "Loss of market share due to competitor products"
+    ],
+    "answer": 1,
+    "explanation": "Product liability insurance covers the manufacturer's, distributor's, or retailer's legal liability for bodily injury or property damage caused to third parties by defective products. It does not cover the cost of recalling or replacing the defective products themselves.",
+    "jpComparison": "日本の「生産物賠償責任保険（PL保険）」に相当。製造物責任法（PL法、1995年施行）に基づく賠償責任を填補。SG版も同様の構造。",
+    "keywords": ["product liability", "defective product", "PL", "third party"],
+    "difficulty": 1
+  }
+]
