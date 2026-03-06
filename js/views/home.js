@@ -7,6 +7,7 @@ import { SettingsStore } from '../models/settings-store.js';
 import { RecordStore } from '../models/record-store.js';
 import { getRandomTrivia } from '../data/trivia.js';
 import { loadTrivia } from '../data/trivia.js';
+import { getSavedSessionInfo } from './quiz.js';
 
 registerRoute('#home', (app) => {
   const settings = SettingsStore.load();
@@ -18,6 +19,16 @@ registerRoute('#home', (app) => {
   header.appendChild(el('p', { className: 'text-secondary' },
     isKataoka ? 'BCP & ComGI — For Japanese Brokers' : 'BCP & ComGI Study App'));
   app.appendChild(header);
+
+  // Resume banner
+  const saved = getSavedSessionInfo();
+  if (saved) {
+    const banner = el('div', { className: 'resume-banner mt-md', onClick: () => navigate('#quiz?resume=1') });
+    banner.appendChild(el('div', { className: 'resume-banner__title' }, `Continue ${saved.module.toUpperCase()} ${saved.mode}`));
+    banner.appendChild(el('div', { className: 'resume-banner__detail' },
+      `Question ${saved.currentIndex + 1} of ${saved.total} (${saved.answered} answered)`));
+    app.appendChild(banner);
+  }
 
   // Quick stats
   const bcpStats = RecordStore.getModuleStats('bcp');

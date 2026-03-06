@@ -125,3 +125,42 @@
 .exam-timer__time--danger { color: var(--c-danger); animation: pulse 1s infinite; }
 
 @keyframes pulse { 50% { opacity: 0.5; } }
+
+/* ===== Keyword Highlighting in Explanations ===== */
+.keyword-highlight {
+  color: var(--c-accent);
+  font-weight: 700;
+  border-bottom: 2px solid var(--c-accent);
+  padding-bottom: 1px;
+}
+.explanation__jp-comparison .keyword-highlight {
+  color: var(--c-gold);
+  border-bottom-color: var(--c-gold);
+}
+
+/* ===== Pause / Home Button ===== */
+.quiz-home-btn {
+  border: none;
+  background: none;
+  color: var(--c-text-secondary);
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--radius);
+  transition: background var(--transition);
+}
+.quiz-home-btn:hover { background: var(--c-surface-alt); }
+
+/* ===== Resume Banner ===== */
+.resume-banner {
+  background: linear-gradient(135deg, var(--c-accent), #006b9e);
+  color: #fff;
+  border-radius: var(--radius-lg);
+  padding: var(--sp-md);
+  margin-bottom: var(--sp-md);
+  cursor: pointer;
+  transition: transform var(--transition);
+}
+.resume-banner:hover { transform: scale(1.02); }
+.resume-banner__title { font-weight: 700; font-size: 1rem; }
+.resume-banner__detail { font-size: 0.85rem; opacity: 0.9; margin-top: var(--sp-xs); }

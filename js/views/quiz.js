@@ -14,21 +14,32 @@ import { showToast } from '../components/toast.js';
 import { formatDuration } from '../utils/date-utils.js';
 import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
 
+const SAVED_SESSION_KEY = 'sg_broker_saved_session';
 let triviaData = null;
 
 registerRoute('#quiz', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
-  const module = params.get('module') || 'bcp';
-  const mode = params.get('mode') || 'practice';
-  const count = params.get('count') ? parseInt(params.get('count')) : null;
+  const resume = params.get('resume') === '1';
 
-  const settings = SettingsStore.load();
+  let session;
+  let settings = SettingsStore.load();
 
-  // Loading
-  app.appendChild(el('div', { className: 'text-center mt-lg' }, 'Loading questions...'));
+  if (resume) {
+    session = restoreSession();
+    if (!session) {
+      navigate('#home');
+      return;
+    }
+  } else {
+    const module = params.get('module') || 'bcp';
+    const mode = params.get('mode') || 'practice';
+    const count = params.get('count') ? parseInt(params.get('count')) : null;
 
-  const session = new QuizSession({ module, mode, questionCount: count });
-  await session.init();
+    app.appendChild(el('div', { className: 'text-center mt-lg' }, 'Loading questions...'));
+
+    session = new QuizSession({ module, mode, questionCount: count });
+    await session.init();
+  }
 
   if (!triviaData && settings.triviaEnabled) {
     triviaData = await loadTrivia().catch(() => null);
@@ -44,13 +55,20 @@ registerRoute('#quiz', async (app) => {
   renderQuestion(app, session, settings);
 
   // Mock exam timer
-  let examTimerInterval = null;
-  if (mode === 'mock') {
-    examTimerInterval = startExamTimer(app, session);
+  let examTimerCleanup = null;
+  if (session.mode === 'mock') {
+    examTimerCleanup = startExamTimer(app, session);
   }
 
+  // Listen for JP toggle changes
+  const onJpToggle = (e) => {
+    settings = SettingsStore.load();
+  };
+  window.addEventListener('jp-toggle-changed', onJpToggle);
+
   return () => {
-    if (examTimerInterval) clearInterval(examTimerInterval);
+    if (examTimerCleanup) examTimerCleanup();
+    window.removeEventListener('jp-toggle-changed', onJpToggle);
   };
 });
 
@@ -58,15 +76,29 @@ function renderQuestion(app, session, settings) {
   app.innerHTML = '';
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
+    clearSavedSession();
     showResults(app, session);
     return;
   }
 
+  // Save session state for resume
+  saveSession(session);
+
   const moduleLabel = session.module.toUpperCase();
 
-  // Header
+  // Header with home button
   const header = el('div', { className: 'quiz-header' });
-  header.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
+  const headerLeft = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
+  headerLeft.appendChild(el('button', {
+    className: 'quiz-home-btn',
+    onClick: () => {
+      saveSession(session);
+      showToast('Progress saved', 'info');
+      navigate('#home');
+    },
+  }, '\u25C0'));
+  headerLeft.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
+  header.appendChild(headerLeft);
   header.appendChild(el('span', { className: 'quiz-header__count' }, `${session.currentIndex + 1} / ${session.total}`));
   app.appendChild(header);
 
@@ -117,16 +149,22 @@ function renderQuestion(app, session, settings) {
       }
     }
 
-    // Explanation
-    if (settings.showExplanation && q.explanation) {
+    // Explanation with keyword highlighting
+    const currentSettings = SettingsStore.load();
+    if (currentSettings.showExplanation && q.explanation) {
       const expPanel = el('div', { className: 'explanation mt-md' });
       expPanel.appendChild(el('div', { className: 'explanation__title' },
         isCorrect ? 'Correct!' : 'Incorrect'));
-      expPanel.appendChild(el('div', {}, q.explanation));
+
+      const expText = el('div', {});
+      expText.innerHTML = highlightKeywords(q.explanation, q.keywords);
+      expPanel.appendChild(expText);
 
       // JP comparison (kataoka mode)
-      if (settings.mode === 'kataoka' && settings.showJpComparison && q.jpComparison) {
-        expPanel.appendChild(el('div', { className: 'explanation__jp-comparison' }, q.jpComparison));
+      if (currentSettings.mode === 'kataoka' && currentSettings.showJpComparison && q.jpComparison) {
+        const jpEl = el('div', { className: 'explanation__jp-comparison' });
+        jpEl.innerHTML = highlightKeywords(q.jpComparison, q.keywords);
+        expPanel.appendChild(jpEl);
       }
 
       // Keywords
@@ -140,7 +178,7 @@ function renderQuestion(app, session, settings) {
     }
 
     // Trivia (between questions, sometimes)
-    if (triviaData && settings.triviaEnabled && Math.random() < 0.3) {
+    if (triviaData && currentSettings.triviaEnabled && Math.random() < 0.3) {
       const t = getRandomTrivia(triviaData);
       if (t) {
         const card = el('div', { className: 'trivia-card mt-md' });
@@ -153,15 +191,112 @@ function renderQuestion(app, session, settings) {
     // Next button
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block mt-md',
-      onClick: () => { session.next(); renderQuestion(app, session, settings); },
+      onClick: () => { session.next(); renderQuestion(app, session, currentSettings); },
     }, session.currentIndex + 1 >= session.total ? 'See Results' : 'Next');
     app.appendChild(nextBtn);
   }
 }
 
+/**
+ * Highlight keywords in text by wrapping them in <span class="keyword-highlight">
+ */
+function highlightKeywords(text, keywords) {
+  if (!keywords || !keywords.length) return escapeHtml(text);
+  let html = escapeHtml(text);
+  for (const kw of keywords) {
+    const escaped = escapeHtml(kw);
+    const regex = new RegExp(`(${escapeRegex(escaped)})`, 'gi');
+    html = html.replace(regex, '<span class="keyword-highlight">$1</span>');
+  }
+  return html;
+}
+
+function escapeHtml(str) {
+  return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+/**
+ * Save session state to localStorage for resume
+ */
+function saveSession(session) {
+  const data = {
+    module: session.module,
+    mode: session.mode,
+    questions: session.questions,
+    currentIndex: session.currentIndex,
+    answers: session.answers,
+    startTime: session.startTime,
+    timeLimit: session.timeLimit,
+    questionCount: session.questionCount,
+    savedAt: Date.now(),
+  };
+  localStorage.setItem(SAVED_SESSION_KEY, JSON.stringify(data));
+}
+
+/**
+ * Restore session from localStorage
+ */
+function restoreSession() {
+  try {
+    const raw = localStorage.getItem(SAVED_SESSION_KEY);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    // Don't restore sessions older than 24 hours
+    if (Date.now() - data.savedAt > 24 * 60 * 60 * 1000) {
+      clearSavedSession();
+      return null;
+    }
+    const session = new QuizSession({
+      module: data.module,
+      mode: data.mode,
+      questionCount: data.questionCount,
+    });
+    session.questions = data.questions;
+    session.currentIndex = data.currentIndex;
+    session.answers = data.answers;
+    session.startTime = data.startTime;
+    session.timeLimit = data.timeLimit;
+    return session;
+  } catch {
+    clearSavedSession();
+    return null;
+  }
+}
+
+function clearSavedSession() {
+  localStorage.removeItem(SAVED_SESSION_KEY);
+}
+
+/**
+ * Check if there's a saved session (used by home view)
+ */
+export function getSavedSessionInfo() {
+  try {
+    const raw = localStorage.getItem(SAVED_SESSION_KEY);
+    if (!raw) return null;
+    const data = JSON.parse(raw);
+    if (Date.now() - data.savedAt > 24 * 60 * 60 * 1000) {
+      clearSavedSession();
+      return null;
+    }
+    return {
+      module: data.module,
+      mode: data.mode,
+      currentIndex: data.currentIndex,
+      total: data.questions.length,
+      answered: data.answers.length,
+    };
+  } catch {
+    return null;
+  }
+}
+
 function showResults(app, session) {
   const results = session.getResults();
-  // Store results in sessionStorage for result view
   sessionStorage.setItem('sg_broker_last_result', JSON.stringify(results));
   navigate(`#result`);
 }

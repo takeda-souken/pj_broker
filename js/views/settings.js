@@ -65,6 +65,7 @@ registerRoute('#settings', (app) => {
         localStorage.removeItem('sg_broker_records');
         localStorage.removeItem('sg_broker_topic_stats');
         localStorage.removeItem('sg_broker_hawker');
+        localStorage.removeItem('sg_broker_saved_session');
         showToast('Records cleared', 'info');
       }
     },

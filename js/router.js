@@ -18,7 +18,8 @@ function handleRoute() {
     currentCleanup = null;
   }
 
-  const hash = window.location.hash || '#home';
+  const raw = window.location.hash || '#home';
+  const hash = raw.split('?')[0];   // strip query params
   const app = document.getElementById('app');
   app.innerHTML = '';
 
@@ -28,22 +29,21 @@ function handleRoute() {
   }
 }
 
-export function initRouter() {
+export async function initRouter() {
   // Import all views to register routes
-  import('./views/home.js');
-  import('./views/module-select.js');
-  import('./views/mode-select.js');
-  import('./views/quiz.js');
-  import('./views/result.js');
-  import('./views/records.js');
-  import('./views/glossary-view.js');
-  import('./views/trivia-view.js');
-  import('./views/mrt-view.js');
-  import('./views/settings.js');
+  await Promise.all([
+    import('./views/home.js'),
+    import('./views/module-select.js'),
+    import('./views/mode-select.js'),
+    import('./views/quiz.js'),
+    import('./views/result.js'),
+    import('./views/records.js'),
+    import('./views/glossary-view.js'),
+    import('./views/trivia-view.js'),
+    import('./views/mrt-view.js'),
+    import('./views/settings.js'),
+  ]);
 
-  // Start routing after a tick to let views register
-  setTimeout(() => {
-    window.addEventListener('hashchange', handleRoute);
-    handleRoute();
-  }, 0);
+  window.addEventListener('hashchange', handleRoute);
+  handleRoute();
 }

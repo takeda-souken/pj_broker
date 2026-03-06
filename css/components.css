@@ -49,14 +49,40 @@
 .modal__title { font-size: 1.1rem; font-weight: 700; margin-bottom: var(--sp-md); }
 .modal__actions { display: flex; gap: var(--sp-sm); margin-top: var(--sp-lg); justify-content: flex-end; }
 
+/* ===== JP Toggle ===== */
+.jp-toggle {
+  position: fixed;
+  top: var(--sp-sm);
+  right: var(--sp-sm);
+  z-index: 500;
+  padding: 4px 10px;
+  border: 2px solid var(--c-accent);
+  border-radius: var(--radius);
+  background: var(--c-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition);
+}
+.jp-toggle--off {
+  background: transparent;
+  color: var(--c-accent);
+}
+
 /* ===== Timer Bar ===== */
+.timer-bar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-sm);
+}
 .timer-bar {
-  width: 100%;
+  flex: 1;
   height: 4px;
   background: var(--c-surface-alt);
   border-radius: 2px;
   overflow: hidden;
-  margin-bottom: var(--sp-sm);
 }
 .timer-bar__fill {
   height: 100%;
@@ -66,6 +92,16 @@
 }
 .timer-bar__fill--warning { background: var(--c-warning); }
 .timer-bar__fill--danger { background: var(--c-danger); }
+.timer-bar__time {
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  min-width: 36px;
+  text-align: right;
+  color: var(--c-text-secondary);
+}
+.timer-bar__time--warning { color: var(--c-warning); }
+.timer-bar__time--danger { color: var(--c-danger); }
 
 /* ===== Progress Bar ===== */
 .progress-bar {

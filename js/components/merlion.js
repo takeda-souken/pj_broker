@@ -26,13 +26,16 @@ export function showMerlionCelebration({ type, streak = 0, topicName = '' }) {
   const intensity = type === 'mastered' ? 3 : type === 'streak' ? 2 : 1;
   for (let i = 0; i < WATER_PARTICLES * intensity; i++) {
     const drop = el('span', { className: `merlion-drop merlion-drop--${type}` });
-    const angle = -30 + Math.random() * 60; // spray arc
+    const angleDeg = -30 + Math.random() * 60;
+    const angleRad = angleDeg * Math.PI / 180;
     const dist = 60 + Math.random() * (80 * intensity);
+    const tx = Math.cos(angleRad) * dist;
+    const ty = -Math.sin(angleRad) * dist;
     const delay = Math.random() * 0.4;
     const size = 4 + Math.random() * 6;
     drop.style.cssText = `
-      --angle: ${angle}deg;
-      --dist: ${dist}px;
+      --tx: ${tx}px;
+      --ty: ${ty}px;
       --delay: ${delay}s;
       --size: ${size}px;
     `;
@@ -144,10 +147,7 @@ style.textContent = `
 }
 @keyframes spray {
   0% { transform: translate(0,0) scale(1); opacity: 0.8; }
-  100% { transform: translate(
-    calc(cos(var(--angle)) * var(--dist)),
-    calc(sin(var(--angle)) * var(--dist) * -1)
-  ) scale(0.3); opacity: 0; }
+  100% { transform: translate(var(--tx), var(--ty)) scale(0.3); opacity: 0; }
 }
 `;
 document.head.appendChild(style);
