@@ -4,18 +4,36 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { loadTrivia } from '../data/trivia.js';
-import { SettingsStore } from '../models/settings-store.js';
+import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
+
+const CAT_LABELS = {
+  insurance: { en: 'Insurance', ja: '保険' },
+  life: { en: 'SG Life', ja: 'SG生活' },
+  fun: { en: 'Fun Facts', ja: '豆知識' },
+  sightseeing: { en: 'Sightseeing', ja: '観光' },
+  transport: { en: 'Transport', ja: '交通' },
+  exam: { en: 'Exam Tips', ja: '試験のコツ' },
+  food: { en: 'Food', ja: 'グルメ' },
+};
+
+function catLabel(cat) {
+  const entry = CAT_LABELS[cat];
+  if (!entry) return cat;
+  return tr(`home.${cat}`, entry.en) || entry.en;
+}
 
 registerRoute('#trivia', async (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 Back'));
-  app.appendChild(el('h1', { className: 'mt-md' }, 'Singapore Tips & Trivia'));
+  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
+  const h1 = el('h1', { className: 'mt-md' });
+  h1.appendChild(trNode('trivia.title', 'Singapore Tips & Trivia'));
+  app.appendChild(h1);
 
-  const isKataoka = SettingsStore.isKataokaMode();
+  const showJp = shouldShowJp();
   let triviaList = [];
   try { triviaList = await loadTrivia(); } catch { }
 
   if (triviaList.length === 0) {
-    app.appendChild(el('div', { className: 'text-secondary mt-md' }, 'No trivia available.'));
+    app.appendChild(el('div', { className: 'text-secondary mt-md' }, tr('trivia.noData', 'No trivia available.')));
     return;
   }
 
@@ -24,11 +42,11 @@ registerRoute('#trivia', async (app) => {
   let activeCategory = null;
 
   const tabRow = el('div', { className: 'flex-row gap-sm mt-md mb-md', style: 'flex-wrap:wrap;' });
-  const allTab = el('button', { className: 'btn btn--primary', onClick: () => filter(null) }, 'All');
+  const allTab = el('button', { className: 'btn btn--primary', onClick: () => filter(null) }, tr('trivia.all', 'All'));
   tabRow.appendChild(allTab);
   const catBtns = {};
   for (const cat of categories) {
-    const btn = el('button', { className: 'btn btn--outline', onClick: () => filter(cat) }, cat);
+    const btn = el('button', { className: 'btn btn--outline', onClick: () => filter(cat) }, catLabel(cat));
     catBtns[cat] = btn;
     tabRow.appendChild(btn);
   }
@@ -51,9 +69,9 @@ registerRoute('#trivia', async (app) => {
     const items = category ? triviaList.filter(t => t.category === category) : triviaList;
     for (const t of items) {
       const card = el('div', { className: 'trivia-card' });
-      card.appendChild(el('div', { className: 'trivia-card__label' }, t.category));
+      card.appendChild(el('div', { className: 'trivia-card__label' }, catLabel(t.category)));
       card.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
-      if (isKataoka && t.textJp) {
+      if (showJp && t.textJp) {
         card.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8;' }, t.textJp));
       }
       cont.appendChild(card);

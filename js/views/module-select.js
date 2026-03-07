@@ -1,20 +1,22 @@
 /**
  * Module select view — choose BCP or ComGI
- * (Accessed from home, but also directly linkable)
  */
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
+import { tr, trNode } from '../utils/i18n.js';
 
 registerRoute('#module-select', (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 Back'));
-  app.appendChild(el('h1', { className: 'mt-md' }, 'Choose Module'));
+  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
+  const h1 = el('h1', { className: 'mt-md' });
+  h1.appendChild(trNode('module.title', 'Choose Module'));
+  app.appendChild(h1);
 
   const grid = el('div', { className: 'flex-col gap-sm mt-md' });
 
-  grid.appendChild(moduleCard('BCP', 'Basic Concepts & Principles',
-    '40 MCQ \u2022 45 min \u2022 70% to pass', 'bcp'));
-  grid.appendChild(moduleCard('ComGI', 'Commercial General Insurance',
-    '50 MCQ \u2022 75 min \u2022 70% to pass', 'comgi'));
+  grid.appendChild(moduleCard('BCP', tr('module.bcpFull', 'Basic Concepts & Principles'),
+    tr('module.bcpDetail', '40 MCQ \u2022 45 min \u2022 70% to pass'), 'bcp'));
+  grid.appendChild(moduleCard('ComGI', tr('module.comgiFull', 'Commercial General Insurance'),
+    tr('module.comgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass'), 'comgi'));
 
   app.appendChild(grid);
 });

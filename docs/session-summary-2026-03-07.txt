@@ -1,0 +1,78 @@
+セッションサマリー: 2026-03-07
+トランスクリプト: C:\Users\武田修一\.claude\projects\c--pj-kana\fc840a05-e865-437b-9e9e-9f20ae52a2e4.jsonl
+
+=== 概要 ===
+
+pj_broker（SG保険ブローカー試験学習アプリ）のサポーターキャラ「春野さくら」の
+フルデザインセッション。白石真夏ペルソナを起動し、千秋の接客6技法・シナセン知見を
+総動員して、学習アプリの中に物語を埋め込む設計を行った。
+
+=== 実施内容 ===
+
+1. CSS重複削除（main.css）
+   - .result-score, .result-breakdown 等がquiz.cssと重複 → main.cssから削除
+   - .seg-control 系がcomponents.cssと重複 → main.cssから削除
+
+2. QuizSession mixed対応（quiz-session.js）
+   - module='mixed' でBCP+ComGI両方を読み込み・マージ
+   - レコードのmoduleトラッキング修正
+   - 間隔反復がmixed時に両モジュールを含むよう修正
+
+3. サポーターキャラ「春野さくら」全面設計
+   - supporter.js を博多弁・3段ギア・保険知識対応にリライト
+   - sakura-character-sheet.md 新規作成（v1.1）
+   - sakura-events.md 新規作成（v2.0）
+
+=== さくらストーリー設計の要点 ===
+
+【コンセプト】
+- 「応援キャラ」ではなく「物語の登場人物」
+- 学習進捗＝物語の時間軸。合格＝喪失（さくらが消える）
+
+【フェーズ構成】
+- Phase 1: Japan（0〜50問）— 出会い。勉強仲間。奥さんにも普通に触れる
+- Phase 2: Singapore（50〜200問）— アプリの中で二人きり。距離が近づく
+- Phase 3: Post-Confession（200問〜模試合格）— 告白後の宙ぶらりん
+- Phase 4: Farewell — 模試合格で別れ。さくらが消える
+- Phase 5: Gone — 不在が最大の存在証明
+
+【キーデザイン要素】
+- 告白の核心: 「答えは聞かんけん。奥さんがおる人やって、わかっとるけん」
+- 3択選択肢（ありがとう/ごめん/沈黙）→ どれを選んでも同じ返答
+- 運命の結合点5つ: 外大、留学、保険、大阪、海外志向
+- メタクイズ: 保険問題に紛れてさくら問題が出現（15問に1回）
+- アプリ告白: 「このアプリ、うちが作ったっちゃ」（第四の壁破壊）
+- 敬語グラデーション: ですます → 崩れ → タメ口 → 別れで一瞬敬語戻り
+- 千秋の6技法を転用（特に「傷の片鱗（禁じ手）」が物語全体の軸）
+
+【片岡賢司プロフィール】
+- 37歳、大阪出身、京都外大卒、オレゴン2年留学
+- MUFG系列保険代理店→MSRリスクコンサルティング→SG赴任
+- 妻、4歳、2歳。2019年にステージ4甲状腺癌→2020年寛解（健康ネタ厳禁）
+
+=== 作成・更新ファイル ===
+
+【作成】
+- c:\pj_broker\docs\sakura-character-sheet.md（v1.1）
+- c:\pj_broker\docs\sakura-events.md（v2.0）
+
+【更新】
+- c:\pj_broker\css\main.css（重複CSS削除）
+- c:\pj_broker\js\models\quiz-session.js（mixed対応）
+- c:\pj_broker\js\components\supporter.js（博多弁・3段ギア・時間帯対応リライト）
+
+=== 未実装・次ステップ ===
+
+- sakura-state.js 新規作成（ストーリー状態管理）
+- sakura-story.js 新規作成（フェーズ転換モーダル）
+- supporter.js のフェーズ対応リライト（現在はフェーズ非対応版）
+- quiz.js へのメタクイズ・選択肢システム統合
+- home.js へのさくら表示統合
+- 先生による台詞監修待ち
+- 背景スクロール変更（素材受領待ち）
+
+=== セッション末尾の作業 ===
+
+- sakura-events.md v2.0 書き出し完了
+- git-rules.md 新規作成（メモリに保存）
+- MEMORY.md にgit-rulesへのリンク追加

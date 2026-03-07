@@ -1,94 +1,64 @@
 /* ===== MRT Progress Map ===== */
-.mrt-map {
-  padding: var(--sp-md) 0;
-}
-.mrt-line {
-  margin-bottom: var(--sp-lg);
-}
-.mrt-line__header {
+.mrt-legend {
   display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
+  flex-wrap: wrap;
+  gap: var(--sp-sm) var(--sp-lg);
   margin-bottom: var(--sp-sm);
 }
-.mrt-line__color {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-}
-.mrt-line__name {
-  font-weight: 700;
-  font-size: 0.9rem;
-}
-.mrt-line__progress {
+.mrt-legend__item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-xs);
   font-size: 0.8rem;
   color: var(--c-text-secondary);
-  margin-left: auto;
 }
-
-.mrt-stations {
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding-left: 12px;
-}
-
-.mrt-track {
-  position: absolute;
-  left: 17px;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-  background: var(--c-border);
-  border-radius: 2px;
-}
-.mrt-track__fill {
-  width: 100%;
-  border-radius: 2px;
-  transition: height 0.5s ease;
-}
-
-.mrt-station {
-  display: flex;
-  align-items: center;
-  gap: var(--sp-sm);
-  padding: var(--sp-sm) 0;
-  padding-left: 24px;
-  position: relative;
-}
-.mrt-station__dot {
-  position: absolute;
-  left: 12px;
-  width: 14px;
-  height: 14px;
+.mrt-legend__dot {
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
-  border: 3px solid var(--c-border);
-  background: var(--c-bg);
-  z-index: 1;
+  flex-shrink: 0;
 }
-.mrt-station--completed .mrt-station__dot {
-  border-color: currentColor;
-  background: currentColor;
-}
-.mrt-station--current .mrt-station__dot {
-  border-color: currentColor;
-  background: var(--c-bg);
-  box-shadow: 0 0 0 4px rgba(0,0,0,0.1);
-}
-.mrt-station__name {
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-.mrt-station__accuracy {
-  font-size: 0.75rem;
-  color: var(--c-text-secondary);
-  margin-left: auto;
-}
-.mrt-station--completed .mrt-station__name { font-weight: 700; }
-.mrt-station--locked .mrt-station__name { color: var(--c-text-secondary); }
 
-/* Vertical layout for stations */
-.mrt-stations--vertical {
-  flex-direction: column;
-  align-items: stretch;
+/* Map container — scrollable on small screens */
+.mrt-map-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-lg);
+  background: var(--c-surface);
+  padding: var(--sp-md);
+}
+
+.mrt-map {
+  width: 100%;
+  min-width: 440px;
+  height: auto;
+  display: block;
+}
+
+/* SVG text styles */
+.mrt-map__label {
+  font-size: 7px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.mrt-map__topic {
+  font-size: 5.5px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  opacity: 0.8;
+}
+.mrt-map__accuracy {
+  font-size: 5.5px;
+  font-weight: 700;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.mrt-map__interchange-label {
+  font-size: 6.5px;
+  font-weight: 600;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Dark mode */
+[data-theme="dark"] .mrt-map-container {
+  background: var(--c-surface);
+  border-color: var(--c-border);
 }

@@ -62,6 +62,29 @@ js/
 data/        bcp.json, comgi.json, glossary.json, trivia.json
 ```
 
+## Git運用ルール
+
+### ブランチ戦略
+- **main**: 本番デプロイ対象。常にデプロイ可能な状態を保つ
+- **機能ブランチ**: 大きな変更は `feature/<名前>` で切る。小さな修正は main 直コミットOK
+
+### コミットメッセージ
+- 日本語OK。簡潔に
+- 形式: `v26: アカウントシステム刷新` や `fix: 同期プログレス表示修正` 等
+- バージョンタグがある場合はプレフィックスに使う
+- 複数の変更を一括コミットする場合は箇条書きで列挙
+
+### 権限
+- **commit**: 確認なしで実行してよい
+- **push**: 通常pushは確認なしでOK
+- **force-push**: 必ず先生に確認を取る
+- **ブランチ削除**: マージ済みブランチの削除は確認不要。未マージは確認必須
+
+### やらないこと
+- `.gitignore` に含まれるファイルを追跡しない
+- 秘密情報（GAS URL、パスワード等）をコミットしない
+- 先生の作業中のブランチを勝手にリベースしない
+
 ## Permissions for this project
 - File operations (read/write/create) and web search: proceed without individual confirmation
-- Git operations: proceed without confirmation for commits; confirm before force-push
+- Git operations: commit・pushは確認なしでOK。force-pushのみ確認必須

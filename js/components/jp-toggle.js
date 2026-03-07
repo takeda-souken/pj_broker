@@ -1,8 +1,12 @@
 /**
- * JP Toggle Button — floating top-right button to toggle Japanese text display
+ * Language Toggle Button — floating top-right button to cycle language modes
+ * Modes: 'ja' (日本語) → 'en' (EN) → 'bilingual' (EN/JA) → 'ja' ...
  */
 import { el } from '../utils/dom-helpers.js';
 import { SettingsStore } from '../models/settings-store.js';
+
+const CYCLE = ['ja', 'bilingual', 'en'];
+const LABELS = { ja: 'JA', bilingual: 'EN/JA', en: 'EN' };
 
 let toggleEl = null;
 
@@ -13,20 +17,24 @@ export function initJpToggle() {
   updateLabel();
 
   toggleEl.addEventListener('click', () => {
-    const current = SettingsStore.get('showJpComparison');
-    SettingsStore.set('showJpComparison', !current);
+    const current = SettingsStore.get('langMode') || 'bilingual';
+    const idx = CYCLE.indexOf(current);
+    const next = CYCLE[(idx + 1) % CYCLE.length];
+    SettingsStore.set('langMode', next);
     updateLabel();
-    // Dispatch event so quiz view can react
-    window.dispatchEvent(new CustomEvent('jp-toggle-changed', { detail: { enabled: !current } }));
+    window.dispatchEvent(new CustomEvent('lang-mode-changed', { detail: { mode: next } }));
   });
+
+  window.addEventListener('lang-mode-changed', () => updateLabel());
 
   document.body.appendChild(toggleEl);
 }
 
 function updateLabel() {
-  const enabled = SettingsStore.get('showJpComparison');
-  toggleEl.textContent = enabled ? 'JP ON' : 'JP OFF';
-  toggleEl.classList.toggle('jp-toggle--off', !enabled);
+  if (!toggleEl) return;
+  const mode = SettingsStore.get('langMode') || 'bilingual';
+  toggleEl.textContent = LABELS[mode] || 'EN/JA';
+  toggleEl.classList.toggle('jp-toggle--off', mode === 'en');
 }
 
 export function showJpToggle(visible) {

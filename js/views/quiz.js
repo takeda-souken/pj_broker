@@ -13,9 +13,16 @@ import { getDishForTopic } from '../data/hawker.js';
 import { showToast } from '../components/toast.js';
 import { formatDuration } from '../utils/date-utils.js';
 import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
+import { getEncouragement } from '../data/kataoka-messages.js';
+import { BookmarkStore } from '../models/bookmark-store.js';
+import { loadGlossary } from '../data/glossary.js';
+import { getSupporterMessage, createSupporterBubble } from '../components/supporter.js';
+import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
+import { GamificationStore } from '../models/gamification-store.js';
 
 const SAVED_SESSION_KEY = 'sg_broker_saved_session';
 let triviaData = null;
+let glossaryData = null;
 
 registerRoute('#quiz', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
@@ -34,21 +41,29 @@ registerRoute('#quiz', async (app) => {
     const module = params.get('module') || 'bcp';
     const mode = params.get('mode') || 'practice';
     const count = params.get('count') ? parseInt(params.get('count')) : null;
+    const topic = params.get('topic') || null;
+    const reviewIds = params.get('review') ? params.get('review').split(',') : null;
 
-    app.appendChild(el('div', { className: 'text-center mt-lg' }, 'Loading questions...'));
+    app.appendChild(el('div', { className: 'text-center mt-lg' },
+      el('div', { className: 'spinner spinner--lg', style: 'margin:0 auto;' }),
+      el('div', { className: 'text-sm text-secondary mt-sm' }, tr('quiz.loading', 'Loading questions...')),
+    ));
 
-    session = new QuizSession({ module, mode, questionCount: count });
+    session = new QuizSession({ module, mode, questionCount: count, topic, reviewIds });
     await session.init();
   }
 
   if (!triviaData && settings.triviaEnabled) {
     triviaData = await loadTrivia().catch(() => null);
   }
+  if (!glossaryData) {
+    glossaryData = await loadGlossary().catch(() => null);
+  }
 
   if (session.total === 0) {
     app.innerHTML = '';
-    app.appendChild(el('div', { className: 'text-center mt-lg' }, 'No questions available yet.'));
-    app.appendChild(el('button', { className: 'btn btn--primary btn--block mt-md', onClick: () => navigate('#home') }, 'Back to Home'));
+    app.appendChild(el('div', { className: 'text-center mt-lg' }, tr('quiz.noQuestions', 'No questions available yet.')));
+    app.appendChild(el('button', { className: 'btn btn--primary btn--block mt-md', onClick: () => navigate('#home') }, tr('quiz.backHome', 'Back to Home')));
     return;
   }
 
@@ -60,15 +75,61 @@ registerRoute('#quiz', async (app) => {
     examTimerCleanup = startExamTimer(app, session);
   }
 
-  // Listen for JP toggle changes
-  const onJpToggle = (e) => {
-    settings = SettingsStore.load();
+  // Keyboard shortcuts (#41)
+  let answered = false;
+  const onKeyDown = (e) => {
+    if (answered) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        const nextBtn = app.querySelector('.quiz-next-btn');
+        if (nextBtn) nextBtn.click();
+      }
+      return;
+    }
+    // Skip key
+    if (e.key.toLowerCase() === 's') {
+      e.preventDefault();
+      const skipBtn = app.querySelector('.quiz-skip-btn');
+      if (skipBtn) skipBtn.click();
+      return;
+    }
+    const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3, a: 0, b: 1, c: 2, d: 3 };
+    const idx = keyMap[e.key.toLowerCase()];
+    if (idx !== undefined) {
+      e.preventDefault();
+      const btns = app.querySelectorAll('.choice-btn:not(.choice-btn--disabled)');
+      if (btns[idx]) btns[idx].click();
+    }
   };
-  window.addEventListener('jp-toggle-changed', onJpToggle);
+  window.addEventListener('keydown', onKeyDown);
+
+  // Swipe gestures (#42)
+  let touchStartX = 0;
+  let touchStartY = 0;
+  const onTouchStart = (e) => { touchStartX = e.touches[0].clientX; touchStartY = e.touches[0].clientY; };
+  const onTouchEnd = (e) => {
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx)) return; // not a horizontal swipe
+    if (dx < -60 && answered) {
+      // Swipe left = next question (when answered)
+      const nextBtn = app.querySelector('.quiz-next-btn');
+      if (nextBtn) nextBtn.click();
+    }
+  };
+  app.addEventListener('touchstart', onTouchStart, { passive: true });
+  app.addEventListener('touchend', onTouchEnd, { passive: true });
+
+  // Listen for language mode changes
+  const onLangChange = () => { settings = SettingsStore.load(); };
+  window.addEventListener('lang-mode-changed', onLangChange);
 
   return () => {
     if (examTimerCleanup) examTimerCleanup();
-    window.removeEventListener('jp-toggle-changed', onJpToggle);
+    app.removeEventListener('touchstart', onTouchStart);
+    app.removeEventListener('touchend', onTouchEnd);
+    window.removeEventListener('lang-mode-changed', onLangChange);
+    window.removeEventListener('keydown', onKeyDown);
   };
 });
 
@@ -84,6 +145,9 @@ function renderQuestion(app, session, settings) {
   // Save session state for resume
   saveSession(session);
 
+  // Start per-question timer for time tracking (#13)
+  session.startQuestionTimer();
+
   const moduleLabel = session.module.toUpperCase();
 
   // Header with home button
@@ -93,86 +157,233 @@ function renderQuestion(app, session, settings) {
     className: 'quiz-home-btn',
     onClick: () => {
       saveSession(session);
-      showToast('Progress saved', 'info');
+      showToast(tr('quiz.progressSaved', 'Progress saved'), 'info');
       navigate('#home');
     },
   }, '\u25C0'));
   headerLeft.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
   header.appendChild(headerLeft);
-  header.appendChild(el('span', { className: 'quiz-header__count' }, `${session.currentIndex + 1} / ${session.total}`));
+
+  // Right side: count + streak (#12)
+  const headerRight = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
+  const currentStreak = getCurrentStreak(session);
+  if (currentStreak >= 2) {
+    headerRight.appendChild(el('span', { className: 'quiz-streak' }, `\uD83D\uDD25 ${currentStreak}`));
+  }
+  // Elapsed time display (#14)
+  if (session.startTime && session.mode !== 'mock') {
+    const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
+    const mins = Math.floor(elapsed / 60);
+    const secs = elapsed % 60;
+    headerRight.appendChild(el('span', { className: 'text-sm text-secondary' }, `${mins}:${secs.toString().padStart(2, '0')}`));
+  }
+  headerRight.appendChild(el('span', { className: 'quiz-header__count' }, `${session.currentIndex + 1} / ${session.total}`));
+  header.appendChild(headerRight);
   app.appendChild(header);
 
-  // Progress bar
-  const progress = el('div', { className: 'progress-bar' });
-  const progressFill = el('div', { className: 'progress-bar__fill' });
-  progressFill.style.width = `${session.progress * 100}%`;
-  progress.appendChild(progressFill);
-  app.appendChild(progress);
+  // Progress dots
+  const dotsRow = el('div', { className: 'quiz-dots' });
+  for (let i = 0; i < session.total; i++) {
+    const dot = el('div', { className: 'quiz-dot' });
+    if (i < session.currentIndex) {
+      const ans = session.answers[i];
+      dot.classList.add(ans && ans.isCorrect ? 'quiz-dot--correct' : 'quiz-dot--wrong');
+    } else if (i === session.currentIndex) {
+      dot.classList.add('quiz-dot--current');
+    }
+    dotsRow.appendChild(dot);
+  }
+  app.appendChild(dotsRow);
 
   // Timer bar (per-question, practice mode)
   let timerBar = null;
   if (settings.timerEnabled && session.mode !== 'mock') {
     const timePerQ = session.module === 'bcp' ? 67000 : 90000; // ms
-    timerBar = createTimerBar(timePerQ, () => handleAnswer(-1));
+    timerBar = createTimerBar(timePerQ, () => handleAnswer(-1), { dramatic: settings.timerDramatic !== false });
     app.appendChild(timerBar.el);
     timerBar.start();
   }
 
-  // Topic
-  app.appendChild(el('div', { className: 'quiz-topic' }, q.topic));
+  // Topic + difficulty indicator (#19)
+  const topicRow = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
+  topicRow.appendChild(el('div', { className: 'quiz-topic' }, q.topic));
+  if (q.difficulty) {
+    const diffLabel = q.difficulty <= 1 ? 'Easy' : q.difficulty <= 2 ? 'Medium' : 'Hard';
+    const diffColor = q.difficulty <= 1 ? 'var(--c-success)' : q.difficulty <= 2 ? 'var(--c-warning)' : 'var(--c-danger)';
+    topicRow.appendChild(el('span', { className: 'badge', style: `color:${diffColor};font-size:0.65rem;` }, diffLabel));
+  }
+  app.appendChild(topicRow);
 
   // Question
   app.appendChild(el('div', { className: 'quiz-question' }, q.question));
 
-  // Choices
+  // Skip button (#20) — practice mode only
+  if (session.mode !== 'mock') {
+    const skipBtn = el('button', {
+      className: 'btn btn--outline quiz-skip-btn',
+      style: 'float:right;font-size:0.8rem;padding:4px 12px;margin-bottom:8px;',
+      onClick: () => {
+        if (localAnswered) return;
+        localAnswered = true;
+        if (timerBar) timerBar.stop();
+        session.answer(-1); // skip = no answer
+        session.next();
+        renderQuestion(app, session, settings);
+      },
+    });
+    skipBtn.appendChild(document.createTextNode(tr('quiz.skip', 'Skip')));
+    const kbdS = el('span', { className: 'kbd-hint' }, '[S]');
+    skipBtn.appendChild(kbdS);
+    app.appendChild(skipBtn);
+  }
+
+  // Choices with keyboard hints (#41)
   const choiceGrid = createChoiceGrid(q.choices, (idx) => handleAnswer(idx));
+  // Add keyboard hints
+  const choiceBtns = choiceGrid.el.querySelectorAll('.choice-btn');
+  choiceBtns.forEach((btn, i) => {
+    const hint = el('span', { className: 'kbd-hint' }, `[${i + 1}]`);
+    btn.appendChild(hint);
+  });
   app.appendChild(choiceGrid.el);
 
+  // Track if answered for keyboard handler
+  let localAnswered = false;
+
   function handleAnswer(choiceIndex) {
+    if (localAnswered) return;
+    localAnswered = true;
+    answered = true; // signal to keyboard/swipe handlers
+
     if (timerBar) timerBar.stop();
 
     const record = session.answer(choiceIndex === -1 ? -1 : choiceIndex);
     const isCorrect = record && record.isCorrect;
+
+    // Vibration feedback (#5)
+    if (!isCorrect && navigator.vibrate) {
+      navigator.vibrate([50, 30, 50]);
+    }
+
+    // Update gamification (#33)
+    const topicStats = RecordStore.getTopicStats()[`${session.module}::${q.topic}`];
+    const streak = topicStats ? topicStats.streak : 0;
+    GamificationStore.addAnswer(isCorrect, session.module, streak);
 
     // Reveal correct/wrong
     choiceGrid.reveal(q.answer, choiceIndex);
 
     // Merlion celebration for streaks
     if (isCorrect) {
-      const topicStats = RecordStore.getTopicStats()[`${session.module}::${q.topic}`];
       if (topicStats && topicStats.mastered && topicStats.streak === 5) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
+        GamificationStore.addMastery();
         showMerlionCelebration({ type: 'mastered', topicName: q.topic });
       } else if (topicStats && topicStats.streak >= 3 && topicStats.streak % 3 === 0) {
         showMerlionCelebration({ type: 'streak', streak: topicStats.streak });
       }
     }
 
-    // Explanation with keyword highlighting
+    // Encouragement (Kataoka mode)
     const currentSettings = SettingsStore.load();
+    if (currentSettings.mode === 'kataoka') {
+      const msg = getEncouragement(isCorrect ? 'correct' : 'wrong');
+      const encourageEl = el('div', { className: `encouragement encouragement--${isCorrect ? 'correct' : 'wrong'} mt-sm` }, msg);
+      app.appendChild(encourageEl);
+    }
+
+    // Virtual supporter (Sakura)
+    const supporterMsg = streak >= 3
+      ? getSupporterMessage('streak', { n: streak })
+      : getSupporterMessage(isCorrect ? 'correct' : 'wrong');
+    const bubble = createSupporterBubble(supporterMsg);
+    if (bubble) app.appendChild(bubble);
+
+    // Explanation with keyword highlighting
     if (currentSettings.showExplanation && q.explanation) {
       const expPanel = el('div', { className: 'explanation mt-md' });
       expPanel.appendChild(el('div', { className: 'explanation__title' },
-        isCorrect ? 'Correct!' : 'Incorrect'));
+        isCorrect ? tr('quiz.correct', 'Correct!') : tr('quiz.incorrect', 'Incorrect')));
 
+      const showJp = shouldShowJp();
       const expText = el('div', {});
-      expText.innerHTML = highlightKeywords(q.explanation, q.keywords);
+      expText.innerHTML = highlightKeywords(q.explanation, q.keywords, showJp);
       expPanel.appendChild(expText);
 
-      // JP comparison (kataoka mode)
-      if (currentSettings.mode === 'kataoka' && currentSettings.showJpComparison && q.jpComparison) {
+      // Per-choice explanations (#5)
+      if (q.choiceExplanations && q.choiceExplanations.length > 0) {
+        const choiceExpEl = el('div', { className: 'explanation__choices mt-sm' });
+        q.choices.forEach((choice, i) => {
+          if (!q.choiceExplanations[i]) return;
+          const isCorrectChoice = i === q.answer;
+          const wasSelected = i === choiceIndex;
+          const marker = isCorrectChoice ? '\u2713' : wasSelected ? '\u2717' : '\u2022';
+          const cls = isCorrectChoice ? 'explanation__choice--correct' : wasSelected ? 'explanation__choice--wrong' : '';
+          const line = el('div', { className: `explanation__choice ${cls}` });
+          line.textContent = `${marker} ${choice}: ${q.choiceExplanations[i]}`;
+          choiceExpEl.appendChild(line);
+        });
+        expPanel.appendChild(choiceExpEl);
+      }
+
+      // JP comparison (shown when JP toggle is ON, independent of mode)
+      if (showJp && q.jpComparison) {
         const jpEl = el('div', { className: 'explanation__jp-comparison' });
-        jpEl.innerHTML = highlightKeywords(q.jpComparison, q.keywords);
+        jpEl.innerHTML = highlightKeywords(q.jpComparison, q.keywords, showJp);
         expPanel.appendChild(jpEl);
       }
 
       // Keywords
       if (q.keywords && q.keywords.length) {
         const kw = el('div', { className: 'explanation__keywords' });
-        q.keywords.forEach(k => kw.appendChild(el('span', { className: 'keyword-tag' }, k)));
+        q.keywords.forEach(k => {
+          const tag = el('span', { className: 'keyword-tag' }, k);
+          // Tooltip
+          const tooltip = getKeywordTooltip(k, showJp);
+          if (tooltip) {
+            tag.setAttribute('data-tooltip', tooltip);
+            tag.setAttribute('tabindex', '0');
+          }
+          // Bookmark individual keyword on long-press or tap
+          const bookmarked = BookmarkStore.has(k);
+          if (bookmarked) tag.classList.add('keyword-tag--bookmarked');
+          tag.addEventListener('click', () => {
+            const added = BookmarkStore.toggle(k);
+            tag.classList.toggle('keyword-tag--bookmarked', added);
+            showToast(added ? `Bookmarked "${k}"` : `Removed "${k}"`, 'info');
+          });
+          tag.style.cursor = 'pointer';
+          kw.appendChild(tag);
+        });
         expPanel.appendChild(kw);
       }
+
+      // Bookmark question button
+      const bmTerms = [q.topic, ...(q.keywords || [])];
+      const anyBookmarked = bmTerms.some(t => BookmarkStore.has(t));
+      const bmBtn = el('button', {
+        className: 'btn-bookmark mt-sm' + (anyBookmarked ? ' btn-bookmark--active' : ''),
+        onClick: () => {
+          if (anyBookmarked) {
+            bmTerms.forEach(t => BookmarkStore.remove(t));
+            bmBtn.classList.remove('btn-bookmark--active');
+            bmBtn.textContent = '\u2606 ' + tr('quiz.bookmark', 'Bookmark keywords');
+            showToast('Bookmarks removed', 'info');
+          } else {
+            bmTerms.forEach(t => BookmarkStore.add(t));
+            bmBtn.classList.add('btn-bookmark--active');
+            bmBtn.textContent = '\u2605 Bookmarked';
+            showToast(`${bmTerms.length} keywords bookmarked`, 'info');
+          }
+          // Update individual keyword tags
+          expPanel.querySelectorAll('.keyword-tag').forEach(tag => {
+            tag.classList.toggle('keyword-tag--bookmarked', BookmarkStore.has(tag.textContent));
+          });
+        },
+      });
+      bmBtn.textContent = anyBookmarked ? '\u2605 ' + tr('quiz.bookmarked', 'Bookmarked') : '\u2606 ' + tr('quiz.bookmark', 'Bookmark keywords');
+      expPanel.appendChild(bmBtn);
 
       app.appendChild(expPanel);
     }
@@ -182,33 +393,85 @@ function renderQuestion(app, session, settings) {
       const t = getRandomTrivia(triviaData);
       if (t) {
         const card = el('div', { className: 'trivia-card mt-md' });
-        card.appendChild(el('div', { className: 'trivia-card__label' }, t.category === 'life' ? 'SG Life Tip' : 'Did You Know?'));
+        const catLabels = { life: tr('home.lifeTip', 'SG Life Tip'), sightseeing: tr('home.sightseeing', 'Sightseeing'), transport: tr('home.transport', 'Transport'), exam: 'Exam Tips', food: 'Food' };
+        let label = catLabels[t.category] || tr('home.didYouKnow', 'Did You Know?');
+        if (t.examRelevant) label += ' \u2B50 ' + tr('quiz.examRelevant', 'Exam Relevant');
+        card.appendChild(el('div', { className: 'trivia-card__label' }, label));
         card.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
+        if (shouldShowJp() && t.textJp) {
+          card.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8' }, t.textJp));
+        }
         app.appendChild(card);
       }
     }
 
-    // Next button
+    // Next button (sticky at top after answering)
     const nextBtn = el('button', {
-      className: 'btn btn--primary btn--block mt-md',
+      className: 'btn btn--primary btn--block quiz-next-btn',
       onClick: () => { session.next(); renderQuestion(app, session, currentSettings); },
-    }, session.currentIndex + 1 >= session.total ? 'See Results' : 'Next');
-    app.appendChild(nextBtn);
+    });
+    const isLast = session.currentIndex + 1 >= session.total;
+    nextBtn.appendChild(trNode(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
+    nextBtn.appendChild(document.createTextNode(' \u25B6'));
+    const kbdHint = el('span', { className: 'kbd-hint', style: 'margin-left:8px;' }, '[Enter]');
+    nextBtn.appendChild(kbdHint);
+    // Insert after choice grid, before explanation
+    const choiceEl = app.querySelector('.choice-grid');
+    if (choiceEl && choiceEl.nextSibling) {
+      app.insertBefore(nextBtn, choiceEl.nextSibling);
+    } else {
+      app.appendChild(nextBtn);
+    }
   }
+}
+
+function getCurrentStreak(session) {
+  let streak = 0;
+  for (let i = session.answers.length - 1; i >= 0; i--) {
+    if (session.answers[i].isCorrect) streak++;
+    else break;
+  }
+  return streak;
 }
 
 /**
  * Highlight keywords in text by wrapping them in <span class="keyword-highlight">
+ * If glossary data is available, adds tooltip via data-tooltip attribute.
  */
-function highlightKeywords(text, keywords) {
+function highlightKeywords(text, keywords, showJp) {
   if (!keywords || !keywords.length) return escapeHtml(text);
   let html = escapeHtml(text);
   for (const kw of keywords) {
     const escaped = escapeHtml(kw);
+    const tooltip = getKeywordTooltip(kw, showJp);
+    const tooltipAttr = tooltip ? ` data-tooltip="${escapeHtml(tooltip)}" tabindex="0"` : '';
     const regex = new RegExp(`(${escapeRegex(escaped)})`, 'gi');
-    html = html.replace(regex, '<span class="keyword-highlight">$1</span>');
+    html = html.replace(regex, `<span class="keyword-highlight"${tooltipAttr}>$1</span>`);
   }
   return html;
+}
+
+/**
+ * Look up a keyword in glossary and return tooltip text.
+ * JP mode (ja/bilingual): shows jpTerm + jp description
+ * EN mode: shows English definition
+ */
+function getKeywordTooltip(keyword, showJp) {
+  if (!glossaryData) return '';
+  const kLower = keyword.toLowerCase();
+  // Precision matching (#16): exact match first, then whole-word substring
+  const entry = glossaryData.find(g => g.term.toLowerCase() === kLower)
+    || glossaryData.find(g => {
+      const term = g.term.toLowerCase();
+      // Only match if the keyword or term is at least 4 chars and one contains the other as a word boundary
+      if (kLower.length < 4 && term.length < 4) return false;
+      return term.includes(kLower) || kLower.includes(term);
+    });
+  if (!entry) return '';
+  if (showJp && entry.jpTerm) {
+    return entry.jpTerm + (entry.jp ? ' \u2014 ' + entry.jp : '');
+  }
+  return entry.definition;
 }
 
 function escapeHtml(str) {
@@ -297,6 +560,24 @@ export function getSavedSessionInfo() {
 
 function showResults(app, session) {
   const results = session.getResults();
+  // Collect wrong question IDs for review (#4)
+  results.wrongIds = session.answers.filter(a => !a.isCorrect && a.answer !== -1).map(a => a.questionId);
+  // Find weakest topic for drill suggestion (#9)
+  const topicEntries = Object.entries(results.byTopic);
+  if (topicEntries.length > 0) {
+    const weakest = topicEntries.reduce((worst, [topic, data]) => {
+      const pct = data.correct / data.total;
+      return pct < worst.pct ? { topic, pct } : worst;
+    }, { topic: null, pct: 1 });
+    if (weakest.pct < 1) results.weakestTopic = weakest.topic;
+  }
+
+  // Complete quiz in gamification (#33)
+  const newAchievements = GamificationStore.completeQuiz(results.accuracy, session.mode);
+  if (newAchievements.length > 0) {
+    results.newAchievements = newAchievements.map(a => ({ name: a.name, icon: a.icon, desc: a.desc }));
+  }
+
   sessionStorage.setItem('sg_broker_last_result', JSON.stringify(results));
   navigate(`#result`);
 }
@@ -304,7 +585,7 @@ function showResults(app, session) {
 function startExamTimer(app, session) {
   const timerEl = el('div', { className: 'exam-timer' });
   const timeDisplay = el('span', { className: 'exam-timer__time' });
-  timerEl.appendChild(el('span', {}, `${session.module.toUpperCase()} Mock Exam`));
+  timerEl.appendChild(el('span', {}, tr('quiz.mockExamLabel', `${session.module.toUpperCase()} Mock Exam`, session.module.toUpperCase())));
   timerEl.appendChild(timeDisplay);
   document.body.appendChild(timerEl);
 
@@ -318,7 +599,7 @@ function startExamTimer(app, session) {
 
     if (session.isTimeUp) {
       clearInterval(interval);
-      showToast('Time\'s up!', 'error');
+      showToast(tr('quiz.timesUp', 'Time\'s up!'), 'error');
       showResults(app, session);
     }
   }, 1000);

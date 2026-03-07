@@ -5,72 +5,114 @@ import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { SettingsStore } from '../models/settings-store.js';
 import { showToast } from '../components/toast.js';
+import { tr } from '../utils/i18n.js';
+import { GamificationStore } from '../models/gamification-store.js';
 
 registerRoute('#settings', (app) => {
   const settings = SettingsStore.load();
 
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 Back'));
-  app.appendChild(el('h1', { className: 'mt-md' }, 'Settings'));
+  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('result.home', 'Back')));
+  app.appendChild(el('h1', { className: 'mt-md' }, tr('settings.title', 'Settings')));
+
+  // Language Mode
+  const langCard = el('div', { className: 'card' });
+  langCard.appendChild(el('h3', {}, tr('settings.language', 'Language Mode')));
+  langCard.appendChild(createSelect('langMode', [
+    { value: 'ja', label: '\u65E5\u672C\u8A9E\uFF08\u554F\u984C\u6587\u306F\u82F1\u8A9E\uFF09' },
+    { value: 'en', label: 'English Only' },
+    { value: 'bilingual', label: '\u4F75\u8A18\uFF08EN + \u65E5\u672C\u8A9E\uFF09' },
+  ], settings.langMode || 'bilingual', (v) => {
+    SettingsStore.set('langMode', v);
+    window.dispatchEvent(new CustomEvent('lang-mode-changed', { detail: { mode: v } }));
+    navigate('#settings');
+  }));
+  app.appendChild(langCard);
 
   // Study Mode
   const modeCard = el('div', { className: 'card' });
-  modeCard.appendChild(el('h3', {}, 'Study Mode'));
+  modeCard.appendChild(el('h3', {}, tr('settings.studyMode', 'Study Mode')));
   modeCard.appendChild(createSelect('mode', [
-    { value: 'kataoka', label: 'Kataoka Mode (JP comparison)' },
-    { value: 'standard', label: 'Standard (English only)' },
+    { value: 'kataoka', label: tr('settings.kataokaMode', 'Kataoka Mode') },
+    { value: 'standard', label: tr('settings.standardMode', 'Standard') },
   ], settings.mode, (v) => { SettingsStore.set('mode', v); }));
+  modeCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
+    settings.mode === 'kataoka'
+      ? tr('settings.kataokaDesc', 'Personal encouragement & Kataoka-san extras')
+      : tr('settings.standardDesc', 'Standard study mode')));
   app.appendChild(modeCard);
 
   // Theme
   const themeCard = el('div', { className: 'card' });
-  themeCard.appendChild(el('h3', {}, 'Theme'));
-  themeCard.appendChild(createSelect('theme', [
-    { value: 'light', label: 'Light' },
-    { value: 'dark', label: 'Dark' },
-  ], settings.theme, (v) => {
-    SettingsStore.set('theme', v);
-    document.documentElement.setAttribute('data-theme', v === 'dark' ? 'dark' : '');
+  themeCard.appendChild(el('h3', {}, tr('settings.theme', 'Theme')));
+  themeCard.appendChild(createToggle(tr('settings.darkMode', 'Dark mode'), settings.theme === 'dark', (v) => {
+    const theme = v ? 'dark' : 'light';
+    SettingsStore.set('theme', theme);
+    document.documentElement.setAttribute('data-theme', v ? 'dark' : '');
   }));
   app.appendChild(themeCard);
 
   // Quiz options
   const quizCard = el('div', { className: 'card' });
-  quizCard.appendChild(el('h3', {}, 'Quiz Options'));
-  quizCard.appendChild(createToggle('Per-question timer', settings.timerEnabled, (v) => SettingsStore.set('timerEnabled', v)));
-  quizCard.appendChild(createToggle('Show explanation after answer', settings.showExplanation, (v) => SettingsStore.set('showExplanation', v)));
-  quizCard.appendChild(createToggle('Show JP comparison (Kataoka mode)', settings.showJpComparison, (v) => SettingsStore.set('showJpComparison', v)));
-  quizCard.appendChild(createToggle('Show SG trivia', settings.triviaEnabled, (v) => SettingsStore.set('triviaEnabled', v)));
+  quizCard.appendChild(el('h3', {}, tr('settings.quizOptions', 'Quiz Options')));
+  quizCard.appendChild(createToggle(tr('settings.timer', 'Per-question timer'), settings.timerEnabled, (v) => SettingsStore.set('timerEnabled', v)));
+  quizCard.appendChild(createToggle(tr('settings.timerDramatic', 'Timer dramatic effects'), settings.timerDramatic !== false, (v) => SettingsStore.set('timerDramatic', v)));
+  quizCard.appendChild(createToggle(tr('settings.showExplanation', 'Show explanation after answer'), settings.showExplanation, (v) => SettingsStore.set('showExplanation', v)));
+  quizCard.appendChild(createToggle(tr('settings.trivia', 'SG trivia between questions'), settings.triviaEnabled, (v) => SettingsStore.set('triviaEnabled', v)));
+  quizCard.appendChild(createToggle(tr('settings.weakFocus', 'Weak focus (prioritize weak topics)'), settings.weakFocusEnabled !== false, (v) => SettingsStore.set('weakFocusEnabled', v)));
+  quizCard.appendChild(createToggle(tr('settings.supporter', 'Sakura (virtual supporter)'), settings.supporterEnabled, (v) => SettingsStore.set('supporterEnabled', v)));
   app.appendChild(quizCard);
 
-  // User
-  const userCard = el('div', { className: 'card' });
-  userCard.appendChild(el('h3', {}, 'User'));
-  const nameInput = el('input', {
-    className: 'search-box',
-    type: 'text',
-    placeholder: 'Your name',
-    value: settings.userName,
-  });
-  nameInput.addEventListener('change', () => SettingsStore.set('userName', nameInput.value.trim()));
-  userCard.appendChild(nameInput);
-  app.appendChild(userCard);
+  // Daily goal (#13)
+  const goalCard = el('div', { className: 'card' });
+  goalCard.appendChild(el('h3', {}, tr('settings.dailyGoal', 'Daily Goal')));
+  const gameData = GamificationStore.load();
+  goalCard.appendChild(createSelect('dailyGoal', [
+    { value: '10', label: tr('settings.goal10', '10 questions/day') },
+    { value: '20', label: tr('settings.goal20', '20 questions/day') },
+    { value: '30', label: tr('settings.goal30', '30 questions/day') },
+    { value: '50', label: tr('settings.goal50', '50 questions/day') },
+    { value: '0', label: tr('settings.goalOff', 'Off') },
+  ], (gameData.dailyGoal || 20).toString(), (v) => {
+    GamificationStore.setDailyGoal(parseInt(v));
+    showToast(tr('settings.goalUpdated', 'Daily goal updated'), 'success');
+  }));
+  app.appendChild(goalCard);
+
+  // Achievements link (#31)
+  app.appendChild(el('button', {
+    className: 'btn btn--outline btn--block mt-md',
+    onClick: () => navigate('#achievements'),
+  }, `\uD83C\uDFC6 ${tr('settings.achievements', 'Achievements')}`));
+
+  // Wrong answer journal link (#16)
+  app.appendChild(el('button', {
+    className: 'btn btn--outline btn--block mt-sm',
+    onClick: () => navigate('#journal'),
+  }, `\uD83D\uDCD3 ${tr('settings.journal', 'Wrong Answer Journal')}`));
 
   // Data
   const dataCard = el('div', { className: 'card' });
-  dataCard.appendChild(el('h3', {}, 'Data'));
+  dataCard.appendChild(el('h3', {}, tr('settings.data', 'Data')));
   dataCard.appendChild(el('button', {
     className: 'btn btn--outline btn--block mt-sm',
     onClick: () => {
-      if (confirm('Clear all study records? This cannot be undone.')) {
+      if (confirm(tr('settings.clearConfirm', 'Clear all study records? This cannot be undone.'))) {
         localStorage.removeItem('sg_broker_records');
         localStorage.removeItem('sg_broker_topic_stats');
         localStorage.removeItem('sg_broker_hawker');
         localStorage.removeItem('sg_broker_saved_session');
-        showToast('Records cleared', 'info');
+        localStorage.removeItem('sg_broker_game');
+        showToast(tr('settings.cleared', 'Records cleared'), 'info');
       }
     },
-  }, 'Clear All Records'));
+  }, tr('settings.clearRecords', 'Clear All Records')));
   app.appendChild(dataCard);
+
+  // About / Version History
+  app.appendChild(el('button', {
+    className: 'btn btn--outline btn--block mt-md',
+    onClick: () => navigate('#about'),
+  }, tr('settings.about', 'About / Version History')));
 });
 
 function createSelect(name, options, current, onChange) {
@@ -85,7 +127,7 @@ function createSelect(name, options, current, onChange) {
 }
 
 function createToggle(label, value, onChange) {
-  const row = el('label', { className: 'flex-row', style: 'justify-content:space-between;padding:8px 0;cursor:pointer;' });
+  const row = el('label', { className: 'toggle-row' });
   row.appendChild(el('span', { className: 'text-sm' }, label));
   const input = el('input', { type: 'checkbox' });
   input.checked = value;

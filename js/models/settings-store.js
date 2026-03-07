@@ -4,20 +4,29 @@
 const STORAGE_KEY = 'sg_broker_settings';
 
 const DEFAULTS = {
-  mode: 'kataoka',          // 'kataoka' (JP comparison) or 'standard' (EN only)
+  mode: 'kataoka',          // 'kataoka' (personal encouragement + extras) or 'standard'
   theme: 'light',           // 'light' or 'dark'
   timerEnabled: true,
+  timerDramatic: true,    // Timer bar color transitions (warning/danger). OFF = calm bar
   showExplanation: true,
-  showJpComparison: true,   // Only effective in kataoka mode
+  langMode: 'bilingual',    // 'ja' (JP UI, EN questions), 'en' (EN only), 'bilingual' (EN + small JP)
   triviaEnabled: true,      // Show SG trivia between questions
-  userName: '',
+  weakFocusEnabled: true,   // Bias practice questions toward weak topics
+  supporterEnabled: false,  // Virtual supporter character (Hakata dialect)
 };
 
 export class SettingsStore {
   static load() {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
-      return raw ? { ...DEFAULTS, ...JSON.parse(raw) } : { ...DEFAULTS };
+      const s = raw ? { ...DEFAULTS, ...JSON.parse(raw) } : { ...DEFAULTS };
+      // Migrate old showJpComparison boolean → langMode
+      if ('showJpComparison' in s && !raw?.includes('langMode')) {
+        s.langMode = s.showJpComparison ? 'bilingual' : 'en';
+        delete s.showJpComparison;
+        this.save(s);
+      }
+      return s;
     } catch {
       return { ...DEFAULTS };
     }

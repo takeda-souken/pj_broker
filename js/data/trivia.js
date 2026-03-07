@@ -5,9 +5,15 @@ let cache = null;
 
 export async function loadTrivia() {
   if (cache) return cache;
-  const resp = await fetch('data/trivia.json');
-  cache = await resp.json();
-  return cache;
+  try {
+    const resp = await fetch('data/trivia.json');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    cache = await resp.json();
+    return cache;
+  } catch (e) {
+    console.error('Failed to load trivia:', e);
+    return [];
+  }
 }
 
 export function getRandomTrivia(triviaList, category = null) {

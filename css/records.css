@@ -49,3 +49,116 @@
   border-radius: 3px;
   background: var(--c-success);
 }
+
+/* ===== Chart Containers ===== */
+.chart-container {
+  background: var(--c-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-md);
+  box-shadow: 0 1px 4px var(--c-shadow);
+}
+.chart-container h3 {
+  font-size: 0.85rem;
+  color: var(--c-text-secondary);
+  margin-bottom: var(--sp-sm);
+  font-weight: 600;
+}
+.chart-container--donut {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.chart-container canvas {
+  max-width: 100%;
+}
+[data-theme="dark"] .chart-container {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* ===== Weakness Analysis ===== */
+.analysis-card {
+  border-left: 4px solid var(--c-danger);
+}
+.analysis-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: var(--sp-xs);
+}
+.analysis-label--danger { color: var(--c-danger); }
+.analysis-label--warning { color: var(--c-warning); }
+.analysis-label--success { color: var(--c-success); }
+.analysis-item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  padding: 4px 0;
+  font-size: 0.85rem;
+}
+.analysis-item__name {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.analysis-item__pct {
+  font-weight: 700;
+  font-size: 0.8rem;
+  min-width: 36px;
+  text-align: right;
+  color: var(--c-danger);
+}
+.analysis-bar {
+  width: 60px;
+  height: 6px;
+  background: var(--c-surface-alt);
+  border-radius: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.analysis-bar__fill {
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* ===== Result Screen Extras ===== */
+.result-score {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.result-breakdown {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: var(--sp-sm);
+  margin-top: var(--sp-md);
+}
+.result-stat {
+  text-align: center;
+  padding: var(--sp-sm);
+  border-radius: var(--radius);
+  background: var(--c-surface);
+  box-shadow: 0 1px 4px var(--c-shadow);
+}
+.result-stat__value { font-size: 1.2rem; font-weight: 700; }
+.result-stat__label { font-size: 0.7rem; color: var(--c-text-secondary); }
+
+.btn-drill {
+  display: inline-block;
+  margin-left: var(--sp-sm);
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border: 1px solid var(--c-accent);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--c-accent);
+  cursor: pointer;
+  vertical-align: middle;
+  transition: background var(--transition), color var(--transition);
+}
+.btn-drill:hover { background: var(--c-accent); color: #fff; }
