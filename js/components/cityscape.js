@@ -32,27 +32,22 @@ export function initCityscape() {
 function renderScene(scene, animate) {
   const src = scene === 'jp' ? 'img/jp-skyline.png' : 'img/sg-skyline.png';
 
-  const apply = () => {
-    // Remove old skyline div if any
-    const old = containerEl.querySelector('.cityscape__skyline');
-    if (old) old.remove();
-
-    const skyline = el('div', { className: 'cityscape__skyline' });
-    skyline.style.backgroundImage = `url('${src}')`;
-    containerEl.appendChild(skyline);
-  };
-
   const oldSkyline = containerEl.querySelector('.cityscape__skyline');
+  const newSkyline = el('div', { className: 'cityscape__skyline' });
+  newSkyline.style.backgroundImage = `url('${src}')`;
+
   if (animate && oldSkyline) {
+    // Crossfade: new fades in on top while old fades out simultaneously
+    newSkyline.style.opacity = '0';
+    containerEl.appendChild(newSkyline);
     oldSkyline.classList.add('cityscape__skyline--fade-out');
-    setTimeout(() => {
-      apply();
-      const newSkyline = containerEl.querySelector('.cityscape__skyline');
-      newSkyline.classList.add('cityscape__skyline--fade-in');
-      setTimeout(() => newSkyline.classList.remove('cityscape__skyline--fade-in'), 500);
-    }, 400);
+    // Trigger reflow then fade in
+    newSkyline.offsetHeight;
+    newSkyline.style.opacity = '1';
+    setTimeout(() => oldSkyline.remove(), 500);
   } else {
-    apply();
+    if (oldSkyline) oldSkyline.remove();
+    containerEl.appendChild(newSkyline);
   }
   currentScene = scene;
 }

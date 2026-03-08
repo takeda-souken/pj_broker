@@ -208,17 +208,10 @@
   100% { transform: translate(-10px, 180px) rotate(360deg); opacity: 0; }
 }
 
-/* ===== Scene Fade Transition ===== */
+/* ===== Scene Crossfade Transition ===== */
 .cityscape__skyline {
-  transition: opacity 0.4s ease;
+  transition: opacity 0.5s ease;
 }
 .cityscape__skyline--fade-out {
   opacity: 0;
-}
-.cityscape__skyline--fade-in {
-  animation: skylineFadeIn 0.5s ease forwards;
-}
-@keyframes skylineFadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
 }
