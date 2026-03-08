@@ -44,7 +44,7 @@ function renderScene(scene, animate) {
     // Trigger reflow then fade in
     newSkyline.offsetHeight;
     newSkyline.style.opacity = '1';
-    setTimeout(() => oldSkyline.remove(), 500);
+    setTimeout(() => oldSkyline.remove(), 1500);
   } else {
     if (oldSkyline) oldSkyline.remove();
     containerEl.appendChild(newSkyline);

@@ -210,7 +210,7 @@
 
 /* ===== Scene Crossfade Transition ===== */
 .cityscape__skyline {
-  transition: opacity 0.5s ease;
+  transition: opacity 1.5s linear;
 }
 .cityscape__skyline--fade-out {
   opacity: 0;
