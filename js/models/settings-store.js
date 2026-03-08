@@ -20,6 +20,9 @@ const DEFAULTS = {
   homeShowStats: true,
   homeShowCountdown: true,
   homeShowTrivia: true,
+  // Auto theme time range (light mode hours)
+  themeLightStart: 6,       // Light mode starts at 6:00
+  themeLightEnd: 17,        // Light mode ends at 17:00 (dark from 17:00)
 };
 
 export class SettingsStore {

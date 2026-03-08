@@ -14,11 +14,14 @@ setInterval(applyTheme, 60_000); // re-check every minute for auto mode
 window.addEventListener('theme-changed', applyTheme);
 
 function applyTheme() {
-  const theme = SettingsStore.get('theme') || 'auto';
+  const settings = SettingsStore.load();
+  const theme = settings.theme || 'auto';
   let dark;
   if (theme === 'auto') {
     const h = new Date().getHours();
-    dark = h < 6 || h >= 18; // 18:00–05:59 = dark
+    const start = settings.themeLightStart ?? 6;
+    const end = settings.themeLightEnd ?? 17;
+    dark = h < start || h >= end;
   } else {
     dark = theme === 'dark';
   }

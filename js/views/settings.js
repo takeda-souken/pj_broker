@@ -51,9 +51,11 @@ registerRoute('#settings', (app) => {
   ], settings.theme || 'auto', (v) => {
     SettingsStore.set('theme', v);
     window.dispatchEvent(new Event('theme-changed'));
+    navigate('#settings');
   }));
-  const themeDesc = { auto: tr('settings.themeAutoDesc', 'Switches at 6 AM / 6 PM'), light: tr('settings.themeLightDesc', 'Always light'), dark: tr('settings.themeDarkDesc', 'Always dark') };
-  themeCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' }, themeDesc[settings.theme || 'auto']));
+  if ((settings.theme || 'auto') === 'auto') {
+    themeCard.appendChild(buildTimeRangeBar(settings));
+  }
   app.appendChild(themeCard);
 
   // Quiz options
@@ -156,6 +158,91 @@ function createSelect(name, options, current, onChange) {
   }
   select.addEventListener('change', () => onChange(select.value));
   return select;
+}
+
+function buildTimeRangeBar(settings) {
+  const lightStart = settings.themeLightStart ?? 6;
+  const lightEnd = settings.themeLightEnd ?? 17;
+
+  const wrap = el('div', { className: 'time-range mt-sm' });
+
+  // Label
+  const label = el('div', { className: 'text-sm text-secondary', style: 'margin-bottom:8px;' });
+  const updateLabel = (s, e) => {
+    label.textContent = `${formatHour(s)} - ${formatHour(e)}`;
+  };
+  updateLabel(lightStart, lightEnd);
+  wrap.appendChild(label);
+
+  // Visual bar
+  const barWrap = el('div', { className: 'time-range__bar' });
+  const darkLeft = el('div', { className: 'time-range__dark' });
+  const lightZone = el('div', { className: 'time-range__light' });
+  const darkRight = el('div', { className: 'time-range__dark' });
+
+  const updateBar = (s, e) => {
+    const sp = (s / 24) * 100;
+    const ep = (e / 24) * 100;
+    darkLeft.style.width = `${sp}%`;
+    lightZone.style.width = `${ep - sp}%`;
+    darkRight.style.width = `${100 - ep}%`;
+  };
+  updateBar(lightStart, lightEnd);
+
+  barWrap.appendChild(darkLeft);
+  barWrap.appendChild(lightZone);
+  barWrap.appendChild(darkRight);
+  wrap.appendChild(barWrap);
+
+  // Hour ticks
+  const ticks = el('div', { className: 'time-range__ticks' });
+  for (const h of [0, 6, 12, 18, 24]) {
+    const tick = el('span', { className: 'time-range__tick' }, h === 24 ? '0' : String(h));
+    tick.style.left = `${(h / 24) * 100}%`;
+    ticks.appendChild(tick);
+  }
+  wrap.appendChild(ticks);
+
+  // Sliders (dual range)
+  const sliderRow = el('div', { className: 'time-range__sliders' });
+  const startSlider = el('input', { type: 'range', min: '0', max: '23', step: '1', className: 'time-range__input' });
+  startSlider.value = lightStart;
+  const endSlider = el('input', { type: 'range', min: '1', max: '24', step: '1', className: 'time-range__input' });
+  endSlider.value = lightEnd;
+
+  startSlider.addEventListener('input', () => {
+    let s = parseInt(startSlider.value);
+    let e = parseInt(endSlider.value);
+    if (s >= e) { s = e - 1; startSlider.value = s; }
+    updateBar(s, e);
+    updateLabel(s, e);
+  });
+  startSlider.addEventListener('change', () => {
+    SettingsStore.set('themeLightStart', parseInt(startSlider.value));
+    window.dispatchEvent(new Event('theme-changed'));
+  });
+  endSlider.addEventListener('input', () => {
+    let s = parseInt(startSlider.value);
+    let e = parseInt(endSlider.value);
+    if (e <= s) { e = s + 1; endSlider.value = e; }
+    updateBar(s, e);
+    updateLabel(s, e);
+  });
+  endSlider.addEventListener('change', () => {
+    SettingsStore.set('themeLightEnd', parseInt(endSlider.value));
+    window.dispatchEvent(new Event('theme-changed'));
+  });
+
+  sliderRow.appendChild(startSlider);
+  sliderRow.appendChild(endSlider);
+  wrap.appendChild(sliderRow);
+
+  return wrap;
+}
+
+function formatHour(h) {
+  if (h === 0 || h === 24) return '0:00';
+  return `${h}:00`;
 }
 
 function createToggle(label, value, onChange) {

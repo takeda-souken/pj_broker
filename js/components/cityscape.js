@@ -37,13 +37,10 @@ function renderScene(scene, animate) {
   newSkyline.style.backgroundImage = `url('${src}')`;
 
   if (animate && oldSkyline) {
-    // Crossfade: new fades in on top while old fades out simultaneously
-    newSkyline.style.opacity = '0';
-    containerEl.appendChild(newSkyline);
+    // Crossfade: insert new UNDER old, then fade old out to reveal new
+    containerEl.insertBefore(newSkyline, oldSkyline);
+    oldSkyline.offsetHeight; // reflow
     oldSkyline.classList.add('cityscape__skyline--fade-out');
-    // Trigger reflow then fade in
-    newSkyline.offsetHeight;
-    newSkyline.style.opacity = '1';
     setTimeout(() => oldSkyline.remove(), 1500);
   } else {
     if (oldSkyline) oldSkyline.remove();
