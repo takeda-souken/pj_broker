@@ -28,7 +28,7 @@ const JA = {
   'home.glossarySub': '保険用語 (英/日)',
   'home.mrt': 'MRT 進捗マップ',
   'home.mrtSub': '学習の旅を追跡',
-  'home.records': 'きろく',
+  'home.records': '学習記録',
   'home.recordsSub': '学習履歴と統計',
   'home.settings': '設定',
   'home.continue': '{0} {1} を続ける',
