@@ -4,8 +4,8 @@
   --c-primary: #e4002b;      /* SG red */
   --c-primary-light: #ff3d5a;
   --c-primary-dark: #b80023;
-  --c-accent: #009cde;       /* Merlion water blue */
-  --c-accent-light: #4db8e8;
+  --c-accent: #0077b6;       /* Merlion water blue — AA contrast with white */
+  --c-accent-light: #009cde;
   --c-gold: #f5a623;         /* Hawker reward gold */
   --c-success: #28a745;
   --c-danger: #dc3545;
@@ -120,10 +120,20 @@
   }
 }
 [data-theme="dark"] .btn--primary {
+  background: var(--c-primary-dark);
   box-shadow: 0 2px 16px rgba(255, 64, 112, 0.3);
 }
 [data-theme="dark"] .btn--back {
   color: var(--c-text-secondary);
+}
+[data-theme="dark"] .btn--accent {
+  background: #1578a8;
+}
+[data-theme="dark"] .btn-drill {
+  background: #1578a8;
+}
+[data-theme="dark"] .feedback-fab {
+  background: #1578a8;
 }
 
 /* ===== CHOICE BUTTONS (Quiz MCQ) ===== */
@@ -241,7 +251,8 @@
 /* ===== JP TOGGLE ===== */
 [data-theme="dark"] .jp-toggle {
   border-color: var(--c-accent);
-  background: var(--c-accent);
+  background: #1578a8;
+  color: #fff;
 }
 [data-theme="dark"] .jp-toggle--off {
   background: var(--c-surface);
@@ -250,7 +261,7 @@
 }
 
 /* ===== KEYWORD TAGS ===== */
-[data-theme="dark"] .keyword-tag { background: var(--c-accent); color: #fff; }
+[data-theme="dark"] .keyword-tag { background: #1578a8; color: #fff; }
 [data-theme="dark"] .keyword-tag--bookmarked { background: var(--c-gold); color: #fff; }
 [data-theme="dark"] .keyword-highlight { color: var(--c-accent); border-bottom-color: var(--c-accent); }
 
@@ -308,7 +319,7 @@
 }
 [data-theme="dark"] .seg-control__item { color: var(--c-text-secondary); }
 [data-theme="dark"] .seg-control__item--active {
-  background: var(--c-accent);
+  background: #1578a8;
   color: #fff;
   box-shadow: 0 2px 8px rgba(80, 204, 255, 0.2);
 }
@@ -343,7 +354,7 @@
 /* ===== A-Z BAR ===== */
 [data-theme="dark"] .az-bar__letter { color: var(--c-text-secondary); }
 [data-theme="dark"] .az-bar__letter--active {
-  background: var(--c-accent);
+  background: #1578a8;
   color: #fff;
 }
 [data-theme="dark"] .az-bar__letter:not(.az-bar__letter--disabled):hover {

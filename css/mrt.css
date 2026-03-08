@@ -19,42 +19,40 @@
   flex-shrink: 0;
 }
 
-/* Map container — scrollable on small screens */
+/* Map container — no scrolling, fits viewport */
 .mrt-map-container {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
   border: 1px solid var(--c-border);
   border-radius: var(--radius-lg);
   background: var(--c-surface);
-  padding: var(--sp-md);
+  padding: var(--sp-sm);
 }
 
 .mrt-map {
   width: 100%;
-  min-width: 440px;
   height: auto;
   display: block;
 }
 
 /* SVG text styles */
 .mrt-map__label {
-  font-size: 7px;
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
-}
-.mrt-map__topic {
   font-size: 5.5px;
-  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
-  opacity: 0.8;
-}
-.mrt-map__accuracy {
-  font-size: 5.5px;
-  font-weight: 700;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 .mrt-map__interchange-label {
-  font-size: 6.5px;
+  font-size: 6px;
   font-weight: 600;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* CC station styles */
+.mrt-map__cc-label {
+  font-size: 4.5px;
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+  opacity: 0.6;
+}
+.mrt-map__cc-ring {
+  pointer-events: none;
 }
 
 /* Dark mode */

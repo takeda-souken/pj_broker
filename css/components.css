@@ -72,6 +72,10 @@
   opacity: 0.25;
   pointer-events: none;
 }
+.az-bar--sub {
+  padding-top: 0;
+  animation: fadeSlideUp 0.2s ease;
+}
 @media (hover: hover) {
   .az-bar__letter:not(.az-bar__letter--disabled):hover {
     background: var(--c-surface-alt);

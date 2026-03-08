@@ -1,210 +1,155 @@
 /**
- * MRT Progress Map — SVG schematic of Singapore MRT
- * NS (Red) = BCP topics, EW (Green) = ComGI topics.
- * Stations unlock as topics are mastered.
+ * MRT Progress Map — all real NS/EW stations, sequential unlock from City Hall.
+ * Unlock count = uniqueCorrectAnswers / totalQuestions * totalStations.
+ * Stations expand outward from City Hall, alternating directions.
  */
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
-import { MRT_LINES } from '../data/mrt-lines.js';
+import { MRT_LINES, CIRCLE_LINE, DECO_LINES } from '../data/mrt-lines.js';
 import { RecordStore } from '../models/record-store.js';
 import { HAWKER_DISHES } from '../data/hawker.js';
 import { tr, trNode } from '../utils/i18n.js';
+import { loadQuestions } from '../data/questions.js';
 
-registerRoute('#mrt', (app) => {
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+// --- Layout constants ---
+const VIEW_W = 520;
+const VIEW_H = 500;
+const NS_X = 200;                       // NS line x-coordinate
+const EW_Y = 310;                       // EW line y-coordinate (City Hall vertical center-ish)
+const CITY_HALL = { x: NS_X, y: EW_Y }; // intersection point
+
+// Compute station positions along each line
+function computePositions(line) {
+  const stations = line.stations;
+  const n = stations.length;
+
+  if (line.id === 'ns') {
+    // Vertical line: NS1 at top, NS28 at bottom
+    const margin = 20;
+    const spacing = (VIEW_H - 2 * margin) / (n - 1);
+    return stations.map((s, i) => ({
+      ...s,
+      x: NS_X,
+      y: margin + i * spacing,
+    }));
+  } else {
+    // Horizontal line: EW1 (east) at right, EW33 (west) at left
+    // EW_STATIONS is ordered EW1→EW33 (east→west), but on map east=right.
+    // So EW1 should be at the right side, EW33 at the left.
+    const margin = 14;
+    const spacing = (VIEW_W - 2 * margin) / (n - 1);
+    return stations.map((s, i) => ({
+      ...s,
+      x: VIEW_W - margin - i * spacing, // EW1 at right, EW33 at left
+      y: EW_Y,
+    }));
+  }
+}
+
+registerRoute('#mrt', async (app) => {
   app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
   const h1 = el('h1', { className: 'mt-md' });
   h1.appendChild(trNode('mrt.title', 'MRT Progress Map'));
   app.appendChild(h1);
 
-  const topicStats = RecordStore.getTopicStats();
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+
+  // Load question counts per module
+  const questionCounts = {};
+  for (const line of MRT_LINES) {
+    const questions = await loadQuestions(line.module);
+    questionCounts[line.module] = questions.length;
+  }
+
+  // Compute positions for each line
+  const lineLayouts = MRT_LINES.map(line => ({
+    ...line,
+    positioned: computePositions(line),
+  }));
+
+  // Compute unlock sets per line
+  const unlockSets = {};
+  for (const line of MRT_LINES) {
+    const totalQ = questionCounts[line.module] || 1;
+    const totalS = line.stations.length;
+    const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
+    // City Hall is always unlocked (+1), rest scales with progress
+    const stationsToUnlock = Math.min(totalS, 1 + Math.floor(uniqueCorrect / totalQ * (totalS - 1)));
+    // Build set of unlocked station indices
+    const set = new Set();
+    for (let i = 0; i < stationsToUnlock; i++) {
+      set.add(line.unlockOrder[i]);
+    }
+    unlockSets[line.id] = set;
+  }
 
   // Legend
   const legend = el('div', { className: 'mrt-legend' });
-  for (const line of MRT_LINES) {
-    const item = el('div', { className: 'mrt-legend__item' });
-    const color = isDark ? line.darkColor : line.color;
-    item.appendChild(el('span', { className: 'mrt-legend__dot', style: `background:${color};` }));
-    const completed = line.stations.filter(s => s.topic && isUnlocked(line.module, s.topic, topicStats)).length;
-    const total = line.stations.filter(s => s.topic).length;
-    item.appendChild(el('span', {}, `${line.name} (${line.module.toUpperCase()}) — ${completed}/${total}`));
-    legend.appendChild(item);
+  for (const ll of lineLayouts) {
+    const color = isDark ? ll.darkColor : ll.color;
+    const unlocked = unlockSets[ll.id].size;
+    const total = ll.stations.length;
+    legend.appendChild(legendItem(color, `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${total}`));
+  }
+  const ccColor = isDark ? CIRCLE_LINE.darkColor : CIRCLE_LINE.color;
+  legend.appendChild(legendItem(ccColor, CIRCLE_LINE.name));
+  for (const dl of DECO_LINES) {
+    legend.appendChild(legendItem(isDark ? dl.darkColor : dl.color, dl.name));
   }
   app.appendChild(legend);
 
   // SVG Map
-  const svgNS = 'http://www.w3.org/2000/svg';
-  const svg = document.createElementNS(svgNS, 'svg');
-  svg.setAttribute('viewBox', '0 0 480 280');
+  const svg = document.createElementNS(SVG_NS, 'svg');
+  svg.setAttribute('viewBox', `0 0 ${VIEW_W} ${VIEW_H}`);
   svg.setAttribute('class', 'mrt-map');
 
-  // Draw lines (paths connecting stations)
-  for (const line of MRT_LINES) {
-    const color = isDark ? line.darkColor : line.color;
-    const points = line.stations.map(s => `${s.x},${s.y}`).join(' ');
-    const polyline = document.createElementNS(svgNS, 'polyline');
-    polyline.setAttribute('points', points);
-    polyline.setAttribute('fill', 'none');
-    polyline.setAttribute('stroke', color);
-    polyline.setAttribute('stroke-width', '5');
-    polyline.setAttribute('stroke-linecap', 'round');
-    polyline.setAttribute('stroke-linejoin', 'round');
-    polyline.setAttribute('opacity', '0.25');
-    polyline.setAttribute('class', 'mrt-map__line');
-    svg.appendChild(polyline);
+  // Layer 1: Decorative background lines
+  drawDecoLines(svg, lineLayouts, isDark);
 
-    // Colored overlay for unlocked segments
-    const unlockedPoints = [];
-    for (const s of line.stations) {
-      const unlocked = !s.topic || isUnlocked(line.module, s.topic, topicStats);
-      if (unlocked || s.interchange) {
-        unlockedPoints.push(`${s.x},${s.y}`);
-      } else {
-        if (unlockedPoints.length > 1) {
-          const overlay = document.createElementNS(svgNS, 'polyline');
-          overlay.setAttribute('points', unlockedPoints.join(' '));
-          overlay.setAttribute('fill', 'none');
-          overlay.setAttribute('stroke', color);
-          overlay.setAttribute('stroke-width', '5');
-          overlay.setAttribute('stroke-linecap', 'round');
-          overlay.setAttribute('stroke-linejoin', 'round');
-          overlay.setAttribute('opacity', '0.8');
-          svg.appendChild(overlay);
-        }
-        unlockedPoints.length = 0;
-        unlockedPoints.push(`${s.x},${s.y}`);
-      }
-    }
-    if (unlockedPoints.length > 1) {
-      const overlay = document.createElementNS(svgNS, 'polyline');
-      overlay.setAttribute('points', unlockedPoints.join(' '));
-      overlay.setAttribute('fill', 'none');
-      overlay.setAttribute('stroke', color);
-      overlay.setAttribute('stroke-width', '5');
-      overlay.setAttribute('stroke-linecap', 'round');
-      overlay.setAttribute('stroke-linejoin', 'round');
-      overlay.setAttribute('opacity', '0.8');
-      svg.appendChild(overlay);
-    }
+  // Layer 2: Circle Line
+  drawCircleLine(svg, lineLayouts, isDark, unlockSets);
+
+  // Layer 3: Functional lines (NS, EW) with bright overlay for unlocked segments
+  for (const ll of lineLayouts) {
+    drawFunctionalLine(svg, ll, isDark, unlockSets[ll.id]);
   }
 
-  // Draw stations
-  for (const line of MRT_LINES) {
-    const color = isDark ? line.darkColor : line.color;
-    for (const s of line.stations) {
-      // Skip duplicate City Hall (drawn once)
-      if (s.name === 'City Hall' && line.id === 'ew') continue;
-
-      const unlocked = !s.topic || isUnlocked(line.module, s.topic, topicStats);
-      const hasAttempts = s.topic && hasBeenAttempted(line.module, s.topic, topicStats);
-      const isInterchange = !!s.interchange;
-
-      // Station dot
-      const r = isInterchange ? 7 : 5;
-      const circle = document.createElementNS(svgNS, 'circle');
-      circle.setAttribute('cx', s.x);
-      circle.setAttribute('cy', s.y);
-      circle.setAttribute('r', r);
-
-      if (unlocked && s.topic) {
-        circle.setAttribute('fill', color);
-        circle.setAttribute('stroke', '#fff');
-        circle.setAttribute('stroke-width', '2');
-      } else if (hasAttempts) {
-        circle.setAttribute('fill', isDark ? '#252540' : '#fff');
-        circle.setAttribute('stroke', color);
-        circle.setAttribute('stroke-width', '2.5');
-      } else {
-        circle.setAttribute('fill', isDark ? '#252540' : '#eee');
-        circle.setAttribute('stroke', isDark ? '#404068' : '#ccc');
-        circle.setAttribute('stroke-width', '2');
-      }
-
-      if (isInterchange && !s.topic) {
-        // Interchange-only station (City Hall)
-        circle.setAttribute('fill', isDark ? '#252540' : '#fff');
-        circle.setAttribute('stroke', isDark ? '#888' : '#666');
-        circle.setAttribute('stroke-width', '2.5');
-      }
-
-      svg.appendChild(circle);
-
-      // Station name label (#19: offset EW labels near City Hall to prevent overlap)
-      const text = document.createElementNS(svgNS, 'text');
-      const labelLeft = s.x < 100;
-      const labelRight = s.x > 380;
-      const isEwNearCH = line.id === 'ew' && s.x >= 140 && s.x <= 310 && s.name !== 'City Hall';
-      const lx = s.x + (labelLeft ? -10 : labelRight ? -10 : 10);
-      const ly = s.y + (isEwNearCH ? 20 : 4);
-      text.setAttribute('x', lx);
-      text.setAttribute('y', ly);
-      text.setAttribute('text-anchor', labelLeft ? 'end' : labelRight ? 'end' : 'start');
-      text.setAttribute('class', 'mrt-map__label');
-
-      if (unlocked || !s.topic) {
-        text.textContent = s.name;
-        text.setAttribute('fill', isDark ? '#ccc' : '#333');
-        text.setAttribute('font-weight', unlocked && s.topic ? '600' : '400');
-      } else {
-        text.textContent = s.code;
-        text.setAttribute('fill', isDark ? '#555' : '#bbb');
-        text.setAttribute('font-weight', '400');
-      }
-
-      svg.appendChild(text);
-
-      // Topic label (small, below station name) for unlocked stations
-      if (unlocked && s.topic) {
-        const topicText = document.createElementNS(svgNS, 'text');
-        topicText.setAttribute('x', lx);
-        topicText.setAttribute('y', ly + 10);
-        topicText.setAttribute('text-anchor', labelLeft ? 'end' : labelRight ? 'end' : 'start');
-        topicText.setAttribute('class', 'mrt-map__topic');
-        topicText.setAttribute('fill', color);
-        topicText.textContent = s.topic;
-        svg.appendChild(topicText);
-
-        // Accuracy badge
-        const key = `${line.module}::${s.topic}`;
-        const stat = topicStats[key];
-        if (stat && stat.attempts > 0) {
-          const acc = Math.round((stat.correct / stat.attempts) * 100);
-          const accText = document.createElementNS(svgNS, 'text');
-          accText.setAttribute('x', lx);
-          accText.setAttribute('y', ly + 20);
-          accText.setAttribute('text-anchor', labelLeft ? 'end' : labelRight ? 'end' : 'start');
-          accText.setAttribute('class', 'mrt-map__accuracy');
-          accText.setAttribute('fill', acc >= 80 ? (isDark ? '#50e088' : '#28a745') : (isDark ? '#ffc840' : '#f5a623'));
-          accText.textContent = `${acc}%`;
-          svg.appendChild(accText);
-        }
-      }
-    }
+  // Layer 4: Station dots & labels
+  for (const ll of lineLayouts) {
+    drawStations(svg, ll, isDark, unlockSets[ll.id]);
   }
 
-  // Interchange label for City Hall
-  const chLabel = document.createElementNS(svgNS, 'text');
-  chLabel.setAttribute('x', 254);
-  chLabel.setAttribute('y', 152);
-  chLabel.setAttribute('text-anchor', 'start');
-  chLabel.setAttribute('class', 'mrt-map__interchange-label');
-  chLabel.setAttribute('fill', isDark ? '#888' : '#666');
-  chLabel.textContent = 'City Hall';
-  svg.appendChild(chLabel);
+  // City Hall interchange label
+  const chPos = getCityHallPos(lineLayouts);
+  svg.appendChild(svgText(chPos.x + 10, chPos.y - 8, 'City Hall', {
+    anchor: 'start',
+    cls: 'mrt-map__interchange-label',
+    fill: isDark ? '#aaa' : '#555',
+  }));
 
   const mapContainer = el('div', { className: 'mrt-map-container mt-md' });
   mapContainer.appendChild(svg);
   app.appendChild(mapContainer);
 
   // Stats summary
-  const totalTopics = MRT_LINES.reduce((sum, l) => sum + l.stations.filter(s => s.topic).length, 0);
-  const totalUnlocked = MRT_LINES.reduce((sum, l) =>
-    sum + l.stations.filter(s => s.topic && isUnlocked(l.module, s.topic, topicStats)).length, 0);
+  const totalStations = MRT_LINES.reduce((sum, l) => sum + l.stations.length, 0);
+  const totalUnlocked = MRT_LINES.reduce((sum, l) => sum + unlockSets[l.id].size, 0);
   const summaryEl = el('div', { className: 'text-center text-secondary mt-md text-sm' });
-  summaryEl.textContent = `${totalUnlocked} of ${totalTopics} stations unlocked \u2014 Master topics (5 correct streak) to unlock!`;
+  summaryEl.textContent = `${totalUnlocked} of ${totalStations} stations unlocked \u2014 Answer questions correctly to expand the line!`;
   app.appendChild(summaryEl);
 
-  // Hawker collection (#22: unlock animation for newly collected dishes)
+  // Per-line progress detail
+  for (const line of MRT_LINES) {
+    const totalQ = questionCounts[line.module] || 0;
+    const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
+    const detail = el('div', { className: 'text-center text-secondary text-sm' });
+    detail.textContent = `${line.name}: ${uniqueCorrect}/${totalQ} unique questions correct`;
+    app.appendChild(detail);
+  }
+
+  // Hawker collection
   app.appendChild(el('h2', { className: 'mt-lg' }, 'Hawker Collection'));
   const unlockedIds = RecordStore.getHawkerCollection();
   const seenIds = JSON.parse(sessionStorage.getItem('sg_broker_hawker_seen') || '[]');
@@ -226,18 +171,260 @@ registerRoute('#mrt', (app) => {
     grid.appendChild(item);
   }
   app.appendChild(grid);
-  // Mark all as seen
   sessionStorage.setItem('sg_broker_hawker_seen', JSON.stringify(unlockedIds));
 });
 
-function isUnlocked(module, topic, topicStats) {
-  const key = `${module}::${topic}`;
-  const stat = topicStats[key];
-  return stat && stat.mastered;
+// ─── Drawing helpers ──────────────────────────────────────────────
+
+function legendItem(color, text) {
+  const item = el('div', { className: 'mrt-legend__item' });
+  item.appendChild(el('span', { className: 'mrt-legend__dot', style: `background:${color};` }));
+  item.appendChild(el('span', {}, text));
+  return item;
 }
 
-function hasBeenAttempted(module, topic, topicStats) {
-  const key = `${module}::${topic}`;
-  const stat = topicStats[key];
-  return stat && stat.attempts > 0;
+function getCityHallPos(lineLayouts) {
+  const nsLayout = lineLayouts.find(l => l.id === 'ns');
+  const nsIdx = nsLayout.cityHallIndex;
+  return { x: nsLayout.positioned[nsIdx].x, y: nsLayout.positioned[nsIdx].y };
+}
+
+/** Find positioned station by code across all line layouts */
+function findStation(lineLayouts, code) {
+  for (const ll of lineLayouts) {
+    const s = ll.positioned.find(s => s.code === code);
+    if (s) return s;
+  }
+  return null;
+}
+
+function drawPolyline(svg, points, color, width, opacity) {
+  const poly = document.createElementNS(SVG_NS, 'polyline');
+  poly.setAttribute('points', points.map(p => `${p.x},${p.y}`).join(' '));
+  poly.setAttribute('fill', 'none');
+  poly.setAttribute('stroke', color);
+  poly.setAttribute('stroke-width', width);
+  poly.setAttribute('stroke-linecap', 'round');
+  poly.setAttribute('stroke-linejoin', 'round');
+  poly.setAttribute('opacity', opacity);
+  svg.appendChild(poly);
+}
+
+// --- Decorative lines: approximate paths based on real interchange positions ---
+function drawDecoLines(svg, lineLayouts, isDark) {
+  const bishan = findStation(lineLayouts, 'NS17');
+  const newton = findStation(lineLayouts, 'NS21');
+  const dhobyGhaut = findStation(lineLayouts, 'NS24');
+  const outramPark = findStation(lineLayouts, 'EW16');
+  const bugis = findStation(lineLayouts, 'EW12');
+  const payaLebar = findStation(lineLayouts, 'EW8');
+  const buonaVista = findStation(lineLayouts, 'EW21');
+  const marinaBay = findStation(lineLayouts, 'NS27');
+
+  // NE Line (Purple): Punggol → HarbourFront (diagonal)
+  const neColor = isDark ? '#b850d8' : '#9016b2';
+  if (dhobyGhaut && outramPark) {
+    const nePath = [
+      { x: VIEW_W - 30, y: 20 },  // Punggol (top-right)
+      { x: bishan ? bishan.x + 80 : 320, y: bishan ? bishan.y + 20 : 100 },
+      { x: dhobyGhaut.x + 40, y: dhobyGhaut.y - 20 },
+      { x: dhobyGhaut.x, y: dhobyGhaut.y },
+      { x: outramPark.x + 10, y: outramPark.y - 10 },
+      { x: outramPark.x, y: outramPark.y },
+      { x: outramPark.x - 20, y: outramPark.y + 50 },
+      { x: outramPark.x - 20, y: EW_Y + 80 }, // HarbourFront
+    ];
+    drawPolyline(svg, nePath, neColor, 3, 0.12);
+  }
+
+  // DT Line (Blue): Bukit Panjang → Expo (diagonal)
+  const dtColor = isDark ? '#4090f0' : '#005ec4';
+  if (newton && bugis) {
+    const dtPath = [
+      { x: 30, y: 20 },           // Bukit Panjang (top-left)
+      { x: buonaVista ? buonaVista.x : 80, y: newton.y - 30 },
+      { x: newton.x - 20, y: newton.y - 10 },
+      { x: newton.x, y: newton.y },
+      { x: bugis.x - 10, y: bugis.y - 50 },
+      { x: bugis.x, y: bugis.y },
+      { x: payaLebar ? payaLebar.x : 350, y: payaLebar ? payaLebar.y - 30 : 280 },
+      { x: marinaBay ? marinaBay.x + 60 : 290, y: marinaBay ? marinaBay.y + 10 : VIEW_H - 40 },
+      { x: VIEW_W - 40, y: VIEW_H - 20 }, // Expo
+    ];
+    drawPolyline(svg, dtPath, dtColor, 3, 0.12);
+  }
+}
+
+// --- Circle Line: geometric loop through interchange stations ---
+function drawCircleLine(svg, lineLayouts, isDark, unlockSets) {
+  const color = isDark ? CIRCLE_LINE.darkColor : CIRCLE_LINE.color;
+
+  // Build CC path through interchange positions + extra points for the loop
+  const bishan = findStation(lineLayouts, 'NS17');
+  const buonaVista = findStation(lineLayouts, 'EW21');
+  const payaLebar = findStation(lineLayouts, 'EW8');
+  const marinaBay = findStation(lineLayouts, 'NS27');
+  const dhobyGhaut = findStation(lineLayouts, 'NS24');
+
+  if (!bishan || !buonaVista || !payaLebar || !marinaBay || !dhobyGhaut) return;
+
+  const ccPath = [
+    { x: dhobyGhaut.x, y: dhobyGhaut.y },
+    { x: dhobyGhaut.x + 50, y: dhobyGhaut.y },
+    { x: payaLebar.x, y: payaLebar.y - 40 },
+    { x: payaLebar.x, y: payaLebar.y },
+    { x: payaLebar.x + 30, y: payaLebar.y - 50 },
+    { x: payaLebar.x + 30, y: bishan.y + 20 },
+    { x: bishan.x + 40, y: bishan.y },
+    { x: bishan.x, y: bishan.y },
+    { x: bishan.x - 40, y: bishan.y + 15 },
+    { x: buonaVista.x - 10, y: dhobyGhaut.y - 20 },
+    { x: buonaVista.x - 10, y: buonaVista.y },
+    { x: buonaVista.x, y: buonaVista.y },
+    { x: buonaVista.x - 10, y: buonaVista.y + 40 },
+    { x: marinaBay.x - 40, y: marinaBay.y + 15 },
+    { x: marinaBay.x, y: marinaBay.y },
+    { x: marinaBay.x - 25, y: dhobyGhaut.y + 30 },
+    { x: dhobyGhaut.x - 20, y: dhobyGhaut.y + 15 },
+  ];
+
+  // Draw faint loop
+  const allPoints = ccPath.map(p => `${p.x},${p.y}`);
+  allPoints.push(`${ccPath[0].x},${ccPath[0].y}`); // close loop
+  const poly = document.createElementNS(SVG_NS, 'polyline');
+  poly.setAttribute('points', allPoints.join(' '));
+  poly.setAttribute('fill', 'none');
+  poly.setAttribute('stroke', color);
+  poly.setAttribute('stroke-width', '3');
+  poly.setAttribute('stroke-linecap', 'round');
+  poly.setAttribute('stroke-linejoin', 'round');
+  poly.setAttribute('opacity', '0.15');
+  svg.appendChild(poly);
+
+  // Draw interchange rings on CC interchange stations
+  for (const code of CIRCLE_LINE.interchanges) {
+    const station = findStation(lineLayouts, code);
+    if (!station) continue;
+
+    // Check if this station is unlocked on its parent line
+    const parentLine = lineLayouts.find(ll =>
+      ll.positioned.some(s => s.code === code)
+    );
+    const idx = parentLine.stations.findIndex(s => s.code === code);
+    const unlocked = unlockSets[parentLine.id].has(idx);
+
+    const ring = document.createElementNS(SVG_NS, 'circle');
+    ring.setAttribute('cx', station.x);
+    ring.setAttribute('cy', station.y);
+    ring.setAttribute('r', '6');
+    ring.setAttribute('fill', 'none');
+    ring.setAttribute('stroke', color);
+    ring.setAttribute('stroke-width', unlocked ? '2' : '1.2');
+    ring.setAttribute('opacity', unlocked ? '0.85' : '0.2');
+    ring.setAttribute('class', 'mrt-map__cc-ring');
+    svg.appendChild(ring);
+  }
+}
+
+// --- Functional line with bright overlay for unlocked segments ---
+function drawFunctionalLine(svg, ll, isDark, unlockSet) {
+  const color = isDark ? ll.darkColor : ll.color;
+  const pts = ll.positioned;
+
+  // Faint full line
+  drawPolyline(svg, pts, color, 4, 0.2);
+
+  // Bright overlay: find contiguous unlocked ranges
+  // Since unlock is from City Hall outward, unlocked stations form a contiguous block
+  // around City Hall. Collect them in index order.
+  const unlockedIndices = [...unlockSet].sort((a, b) => a - b);
+  if (unlockedIndices.length > 1) {
+    const brightPts = unlockedIndices.map(i => pts[i]);
+    drawPolyline(svg, brightPts, color, 4, 0.8);
+  }
+}
+
+// --- Station dots & labels ---
+function drawStations(svg, ll, isDark, unlockSet) {
+  const color = isDark ? ll.darkColor : ll.color;
+  const isNS = ll.id === 'ns';
+  const pts = ll.positioned;
+  const totalStations = pts.length;
+
+  pts.forEach((s, idx) => {
+    const unlocked = unlockSet.has(idx);
+    const isCityHall = s.name === 'City Hall';
+    const isInterchange = !!s.interchange;
+
+    // Station dot
+    const r = isCityHall ? 4.5 : isInterchange ? 3.5 : 2.5;
+    const circle = document.createElementNS(SVG_NS, 'circle');
+    circle.setAttribute('cx', s.x);
+    circle.setAttribute('cy', s.y);
+    circle.setAttribute('r', r);
+
+    if (isCityHall) {
+      // City Hall always prominent
+      circle.setAttribute('fill', isDark ? '#fff' : '#333');
+      circle.setAttribute('stroke', isDark ? '#888' : '#666');
+      circle.setAttribute('stroke-width', '1.5');
+    } else if (unlocked) {
+      circle.setAttribute('fill', color);
+      circle.setAttribute('stroke', isDark ? '#1a1a2e' : '#fff');
+      circle.setAttribute('stroke-width', '1');
+    } else {
+      circle.setAttribute('fill', isDark ? '#252540' : '#e8e8e8');
+      circle.setAttribute('stroke', isDark ? '#353560' : '#ccc');
+      circle.setAttribute('stroke-width', '0.8');
+    }
+
+    svg.appendChild(circle);
+
+    // Skip City Hall labels for EW (drawn once from NS)
+    if (isCityHall && !isNS) return;
+
+    // Label: show name for unlocked + key stations; show code for locked
+    const showLabel = unlocked || isCityHall || isInterchange;
+
+    let lx, ly, anchor;
+    if (isNS) {
+      lx = s.x + 8;
+      ly = s.y + 2.5;
+      anchor = 'start';
+    } else {
+      // EW: alternate label position above/below to reduce overlap
+      const stagger = idx % 2 === 0 ? -8 : 10;
+      lx = s.x;
+      ly = s.y + stagger;
+      anchor = 'middle';
+    }
+
+    if (showLabel) {
+      svg.appendChild(svgText(lx, ly, s.name, {
+        anchor,
+        cls: 'mrt-map__label',
+        fill: unlocked ? (isDark ? '#ccc' : '#333') : (isDark ? '#666' : '#aaa'),
+        weight: unlocked ? '600' : '400',
+      }));
+    } else {
+      // Locked non-interchange: show station code only
+      svg.appendChild(svgText(lx, ly, s.code, {
+        anchor,
+        cls: 'mrt-map__label',
+        fill: isDark ? '#444' : '#ccc',
+      }));
+    }
+  });
+}
+
+function svgText(x, y, content, opts = {}) {
+  const text = document.createElementNS(SVG_NS, 'text');
+  text.setAttribute('x', x);
+  text.setAttribute('y', y);
+  text.setAttribute('text-anchor', opts.anchor || 'start');
+  if (opts.cls) text.setAttribute('class', opts.cls);
+  if (opts.fill) text.setAttribute('fill', opts.fill);
+  if (opts.weight) text.setAttribute('font-weight', opts.weight);
+  text.textContent = content;
+  return text;
 }

@@ -363,6 +363,34 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
   transition: width 0.5s ease;
 }
 
+/* ===== Dismissible Home Sections ===== */
+.home-dismissible {
+  position: relative;
+}
+.home-dismissible__close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 22px;
+  height: 22px;
+  border: none;
+  background: var(--c-surface-alt);
+  color: var(--c-text-secondary);
+  border-radius: 50%;
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  transition: opacity var(--transition), background var(--transition);
+  z-index: 2;
+}
+.home-dismissible__close:hover { opacity: 1; background: var(--c-border); }
+[data-theme="dark"] .home-dismissible__close { background: var(--c-surface); }
+[data-theme="dark"] .home-dismissible__close:hover { background: var(--c-border); }
+
 /* ===== Utility ===== */
 .text-center { text-align: center; }
 .text-secondary { color: var(--c-text-secondary); }
@@ -567,6 +595,12 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
   color: var(--c-text-secondary);
   opacity: 0.5;
   margin-left: 4px;
+}
+/* Inside filled buttons, inherit the button's text color */
+.btn--primary .kbd-hint,
+.btn--accent .kbd-hint {
+  color: inherit;
+  opacity: 0.7;
 }
 @media (hover: hover) and (pointer: fine) {
   .kbd-hint { display: inline; }

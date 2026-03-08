@@ -68,6 +68,48 @@ async function handleRoute() {
   }
 }
 
+/**
+ * Cascading crossfade on language switch:
+ * Clone old cards as fixed overlays → re-render new content → cascade-fade clones out.
+ * New cards use the existing cardEnter CSS animation underneath.
+ */
+function cascadeLangSwitch() {
+  // During quiz, don't re-render — quiz handles lang switch internally
+  const hash = (window.location.hash || '#home').split('?')[0];
+  if (hash === '#quiz') return;
+
+  const app = document.getElementById('app');
+  const cards = [...app.querySelectorAll('.menu-card, .mode-card, .card')];
+
+  if (cards.length === 0) {
+    handleRoute();
+    return;
+  }
+
+  // Snapshot old cards as fixed-position clones
+  const clones = cards.map(card => {
+    const rect = card.getBoundingClientRect();
+    const clone = card.cloneNode(true);
+    clone.style.cssText = `position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;height:${rect.height}px;margin:0;z-index:999;pointer-events:none;animation:none;`;
+    document.body.appendChild(clone);
+    return clone;
+  });
+
+  // Re-render with new language (new cards appear underneath with cardEnter animation)
+  handleRoute();
+
+  // Cascade fade-out of old clones, revealing new content
+  const STAGGER = 60;
+  const FADE = 200;
+  clones.forEach((clone, i) => {
+    setTimeout(() => {
+      clone.style.transition = `opacity ${FADE}ms ease`;
+      clone.style.opacity = '0';
+      setTimeout(() => clone.remove(), FADE);
+    }, i * STAGGER);
+  });
+}
+
 export async function initRouter() {
   // Core views loaded eagerly — others load on demand (#27)
   await Promise.all([
@@ -79,5 +121,6 @@ export async function initRouter() {
   ]);
 
   window.addEventListener('hashchange', handleRoute);
+  window.addEventListener('lang-mode-changed', () => cascadeLangSwitch());
   handleRoute();
 }

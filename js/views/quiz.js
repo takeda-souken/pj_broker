@@ -12,7 +12,6 @@ import { RecordStore } from '../models/record-store.js';
 import { getDishForTopic } from '../data/hawker.js';
 import { showToast } from '../components/toast.js';
 import { formatDuration } from '../utils/date-utils.js';
-import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
 import { getEncouragement } from '../data/kataoka-messages.js';
 import { BookmarkStore } from '../models/bookmark-store.js';
 import { loadGlossary } from '../data/glossary.js';
@@ -21,8 +20,8 @@ import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
 
 const SAVED_SESSION_KEY = 'sg_broker_saved_session';
-let triviaData = null;
 let glossaryData = null;
+let answered = false;
 
 registerRoute('#quiz', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
@@ -53,9 +52,6 @@ registerRoute('#quiz', async (app) => {
     await session.init();
   }
 
-  if (!triviaData && settings.triviaEnabled) {
-    triviaData = await loadTrivia().catch(() => null);
-  }
   if (!glossaryData) {
     glossaryData = await loadGlossary().catch(() => null);
   }
@@ -76,7 +72,7 @@ registerRoute('#quiz', async (app) => {
   }
 
   // Keyboard shortcuts (#41)
-  let answered = false;
+  answered = false;
   const onKeyDown = (e) => {
     if (answered) {
       if (e.key === 'Enter' || e.key === ' ') {
@@ -84,13 +80,6 @@ registerRoute('#quiz', async (app) => {
         const nextBtn = app.querySelector('.quiz-next-btn');
         if (nextBtn) nextBtn.click();
       }
-      return;
-    }
-    // Skip key
-    if (e.key.toLowerCase() === 's') {
-      e.preventDefault();
-      const skipBtn = app.querySelector('.quiz-skip-btn');
-      if (skipBtn) skipBtn.click();
       return;
     }
     const keyMap = { '1': 0, '2': 1, '3': 2, '4': 3, a: 0, b: 1, c: 2, d: 3 };
@@ -135,6 +124,7 @@ registerRoute('#quiz', async (app) => {
 
 function renderQuestion(app, session, settings) {
   app.innerHTML = '';
+  answered = false;
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
     clearSavedSession();
@@ -150,10 +140,9 @@ function renderQuestion(app, session, settings) {
 
   const moduleLabel = session.module.toUpperCase();
 
-  // Header with home button
+  // Header: ◀ [left] | MODULE BADGE [center] | count [right]
   const header = el('div', { className: 'quiz-header' });
-  const headerLeft = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
-  headerLeft.appendChild(el('button', {
+  header.appendChild(el('button', {
     className: 'quiz-home-btn',
     onClick: () => {
       saveSession(session);
@@ -161,16 +150,13 @@ function renderQuestion(app, session, settings) {
       navigate('#home');
     },
   }, '\u25C0'));
-  headerLeft.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
-  header.appendChild(headerLeft);
+  header.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
 
-  // Right side: count + streak (#12)
   const headerRight = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
   const currentStreak = getCurrentStreak(session);
   if (currentStreak >= 2) {
     headerRight.appendChild(el('span', { className: 'quiz-streak' }, `\uD83D\uDD25 ${currentStreak}`));
   }
-  // Elapsed time display (#14)
   if (session.startTime && session.mode !== 'mock') {
     const elapsed = Math.floor((Date.now() - session.startTime) / 1000);
     const mins = Math.floor(elapsed / 60);
@@ -216,26 +202,6 @@ function renderQuestion(app, session, settings) {
 
   // Question
   app.appendChild(el('div', { className: 'quiz-question' }, q.question));
-
-  // Skip button (#20) — practice mode only
-  if (session.mode !== 'mock') {
-    const skipBtn = el('button', {
-      className: 'btn btn--outline quiz-skip-btn',
-      style: 'float:right;font-size:0.8rem;padding:4px 12px;margin-bottom:8px;',
-      onClick: () => {
-        if (localAnswered) return;
-        localAnswered = true;
-        if (timerBar) timerBar.stop();
-        session.answer(-1); // skip = no answer
-        session.next();
-        renderQuestion(app, session, settings);
-      },
-    });
-    skipBtn.appendChild(document.createTextNode(tr('quiz.skip', 'Skip')));
-    const kbdS = el('span', { className: 'kbd-hint' }, '[S]');
-    skipBtn.appendChild(kbdS);
-    app.appendChild(skipBtn);
-  }
 
   // Choices with keyboard hints (#41)
   const choiceGrid = createChoiceGrid(q.choices, (idx) => handleAnswer(idx));
@@ -334,78 +300,71 @@ function renderQuestion(app, session, settings) {
         expPanel.appendChild(jpEl);
       }
 
-      // Keywords
+      // Keywords — tap to bookmark individual, Bookmark All on the right
       if (q.keywords && q.keywords.length) {
-        const kw = el('div', { className: 'explanation__keywords' });
+        const kwSection = el('div', { className: 'explanation__keywords' });
+        kwSection.appendChild(el('div', { className: 'text-sm text-secondary', style: 'width:100%;margin-bottom:4px;' },
+          tr('quiz.tapToBookmark', 'Tap to bookmark')));
+
+        const kwRow = el('div', { style: 'display:flex;align-items:flex-start;gap:8px;flex-wrap:wrap;' });
+        const tagsWrap = el('div', { style: 'display:flex;flex-wrap:wrap;gap:4px;flex:1;' });
+
         q.keywords.forEach(k => {
           const tag = el('span', { className: 'keyword-tag' }, k);
-          // Tooltip
           const tooltip = getKeywordTooltip(k, showJp);
           if (tooltip) {
             tag.setAttribute('data-tooltip', tooltip);
             tag.setAttribute('tabindex', '0');
           }
-          // Bookmark individual keyword on long-press or tap
-          const bookmarked = BookmarkStore.has(k);
-          if (bookmarked) tag.classList.add('keyword-tag--bookmarked');
+          if (BookmarkStore.has(k)) tag.classList.add('keyword-tag--bookmarked');
           tag.addEventListener('click', () => {
             const added = BookmarkStore.toggle(k);
             tag.classList.toggle('keyword-tag--bookmarked', added);
             showToast(added ? `Bookmarked "${k}"` : `Removed "${k}"`, 'info');
           });
           tag.style.cursor = 'pointer';
-          kw.appendChild(tag);
+          tagsWrap.appendChild(tag);
         });
-        expPanel.appendChild(kw);
-      }
+        kwRow.appendChild(tagsWrap);
 
-      // Bookmark question button
-      const bmTerms = [q.topic, ...(q.keywords || [])];
-      const anyBookmarked = bmTerms.some(t => BookmarkStore.has(t));
-      const bmBtn = el('button', {
-        className: 'btn-bookmark mt-sm' + (anyBookmarked ? ' btn-bookmark--active' : ''),
-        onClick: () => {
-          if (anyBookmarked) {
-            bmTerms.forEach(t => BookmarkStore.remove(t));
-            bmBtn.classList.remove('btn-bookmark--active');
-            bmBtn.textContent = '\u2606 ' + tr('quiz.bookmark', 'Bookmark keywords');
-            showToast('Bookmarks removed', 'info');
-          } else {
-            bmTerms.forEach(t => BookmarkStore.add(t));
-            bmBtn.classList.add('btn-bookmark--active');
-            bmBtn.textContent = '\u2605 Bookmarked';
-            showToast(`${bmTerms.length} keywords bookmarked`, 'info');
-          }
-          // Update individual keyword tags
-          expPanel.querySelectorAll('.keyword-tag').forEach(tag => {
-            tag.classList.toggle('keyword-tag--bookmarked', BookmarkStore.has(tag.textContent));
-          });
-        },
-      });
-      bmBtn.textContent = anyBookmarked ? '\u2605 ' + tr('quiz.bookmarked', 'Bookmarked') : '\u2606 ' + tr('quiz.bookmark', 'Bookmark keywords');
-      expPanel.appendChild(bmBtn);
+        // Bookmark All button
+        const bmAllBtn = el('button', {
+          className: 'btn-bookmark',
+          style: 'white-space:nowrap;flex-shrink:0;',
+          onClick: () => {
+            const allTerms = [q.topic, ...q.keywords];
+            const allBookmarked = allTerms.every(t => BookmarkStore.has(t));
+            if (allBookmarked) {
+              allTerms.forEach(t => BookmarkStore.remove(t));
+              bmAllBtn.textContent = '\u2606 All';
+              bmAllBtn.classList.remove('btn-bookmark--active');
+              showToast('Bookmarks removed', 'info');
+            } else {
+              allTerms.forEach(t => BookmarkStore.add(t));
+              bmAllBtn.textContent = '\u2605 All';
+              bmAllBtn.classList.add('btn-bookmark--active');
+              showToast(`${allTerms.length} keywords bookmarked`, 'info');
+            }
+            tagsWrap.querySelectorAll('.keyword-tag').forEach(tag => {
+              tag.classList.toggle('keyword-tag--bookmarked', BookmarkStore.has(tag.textContent));
+            });
+          },
+        });
+        const allTerms = [q.topic, ...q.keywords];
+        const allBm = allTerms.every(t => BookmarkStore.has(t));
+        bmAllBtn.textContent = allBm ? '\u2605 All' : '\u2606 All';
+        if (allBm) bmAllBtn.classList.add('btn-bookmark--active');
+        kwRow.appendChild(bmAllBtn);
+
+        kwSection.appendChild(kwRow);
+        expPanel.appendChild(kwSection);
+      }
 
       app.appendChild(expPanel);
     }
 
-    // Trivia (between questions, sometimes)
-    if (triviaData && currentSettings.triviaEnabled && Math.random() < 0.3) {
-      const t = getRandomTrivia(triviaData);
-      if (t) {
-        const card = el('div', { className: 'trivia-card mt-md' });
-        const catLabels = { life: tr('home.lifeTip', 'SG Life Tip'), sightseeing: tr('home.sightseeing', 'Sightseeing'), transport: tr('home.transport', 'Transport'), exam: 'Exam Tips', food: 'Food' };
-        let label = catLabels[t.category] || tr('home.didYouKnow', 'Did You Know?');
-        if (t.examRelevant) label += ' \u2B50 ' + tr('quiz.examRelevant', 'Exam Relevant');
-        card.appendChild(el('div', { className: 'trivia-card__label' }, label));
-        card.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
-        if (shouldShowJp() && t.textJp) {
-          card.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8' }, t.textJp));
-        }
-        app.appendChild(card);
-      }
-    }
-
-    // Next button (sticky at top after answering)
+    // Next button (after answering) — guard against duplicates
+    if (app.querySelector('.quiz-next-btn')) return;
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
       onClick: () => { session.next(); renderQuestion(app, session, currentSettings); },
@@ -444,7 +403,8 @@ function highlightKeywords(text, keywords, showJp) {
   for (const kw of keywords) {
     const escaped = escapeHtml(kw);
     const tooltip = getKeywordTooltip(kw, showJp);
-    const tooltipAttr = tooltip ? ` data-tooltip="${escapeHtml(tooltip)}" tabindex="0"` : '';
+    if (!tooltip) continue; // only highlight keywords with glossary entries
+    const tooltipAttr = ` data-tooltip="${escapeHtml(tooltip)}" tabindex="0"`;
     const regex = new RegExp(`(${escapeRegex(escaped)})`, 'gi');
     html = html.replace(regex, `<span class="keyword-highlight"${tooltipAttr}>$1</span>`);
   }

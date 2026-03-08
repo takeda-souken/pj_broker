@@ -32,7 +32,7 @@ Both are CBT (computer-based), held at IBF Assessment Centre (20 Anson Road, Sin
 ### Singapore Gimmicks (Reward System)
 1. **Merlion Animation**: Water spray on correct answers; rainbow spray + crown on topic mastery
 2. **Hawker Collection**: Each mastered topic unlocks a Singaporean dish (17 dishes mapped to topics)
-3. **MRT Progress Map**: BCP = Blue Line (8 stations), ComGI = Red Line (9 stations). Stations light up as topics are mastered.
+3. **MRT Progress Map**: Based on real Singapore MRT. NS Line (Red) = BCP, EW Line (Green) = ComGI. Circle Line (Orange) connects both at interchange stations, lighting up as linked topics are mastered. NE (Purple) and DT (Blue) lines drawn as decorative background for atmosphere.
 
 ### Sakurai-style Game Design Notes
 - Refer to the game design document in the project root for reward system, feedback loop, and UX principles

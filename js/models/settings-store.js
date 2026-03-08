@@ -13,6 +13,13 @@ const DEFAULTS = {
   triviaEnabled: true,      // Show SG trivia between questions
   weakFocusEnabled: true,   // Bias practice questions toward weak topics
   supporterEnabled: false,  // Virtual supporter character (Hakata dialect)
+  // Home screen section visibility
+  homeShowXp: true,
+  homeShowGoal: true,
+  homeShowStreak: true,
+  homeShowStats: true,
+  homeShowCountdown: true,
+  homeShowTrivia: true,
 };
 
 export class SettingsStore {

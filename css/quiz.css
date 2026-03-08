@@ -14,6 +14,8 @@
   border-radius: var(--radius);
   color: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  min-width: 120px;
+  text-align: center;
 }
 .quiz-header__module--bcp { background: var(--mrt-blue); }
 .quiz-header__module--comgi { background: var(--mrt-red); }
@@ -233,7 +235,7 @@
 }
 .resume-banner:hover { transform: scale(1.02); }
 .resume-banner__title { font-weight: 700; font-size: 1rem; }
-.resume-banner__detail { font-size: 0.85rem; opacity: 0.9; margin-top: var(--sp-xs); }
+.resume-banner__detail { font-size: 0.85rem; opacity: 0.9; margin-top: var(--sp-xs); color: inherit; }
 
 /* ===== Keyword Tag States ===== */
 .keyword-tag--bookmarked {
@@ -310,6 +312,7 @@
 /* ===== Trivia Card (in quiz & home) ===== */
 .trivia-card {
   background: linear-gradient(135deg, rgba(0,156,222,0.06), rgba(40,167,69,0.06));
+  color: var(--c-text);
   border: 1px solid var(--c-border);
   border-radius: var(--radius-lg);
   padding: var(--sp-md);
@@ -321,7 +324,7 @@
   color: var(--c-accent);
   margin-bottom: 4px;
 }
-.trivia-card__text { font-size: 0.9rem; line-height: 1.5; }
+.trivia-card__text { font-size: 0.9rem; line-height: 1.5; color: var(--c-text); }
 
 /* ===== Skip Button ===== */
 .quiz-skip-btn {

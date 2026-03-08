@@ -14,13 +14,13 @@ registerRoute('#settings', (app) => {
   app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('result.home', 'Back')));
   app.appendChild(el('h1', { className: 'mt-md' }, tr('settings.title', 'Settings')));
 
-  // Language Mode
+  // Language Mode (segmented control)
   const langCard = el('div', { className: 'card' });
   langCard.appendChild(el('h3', {}, tr('settings.language', 'Language Mode')));
-  langCard.appendChild(createSelect('langMode', [
-    { value: 'ja', label: '\u65E5\u672C\u8A9E\uFF08\u554F\u984C\u6587\u306F\u82F1\u8A9E\uFF09' },
-    { value: 'en', label: 'English Only' },
-    { value: 'bilingual', label: '\u4F75\u8A18\uFF08EN + \u65E5\u672C\u8A9E\uFF09' },
+  langCard.appendChild(createSegControl([
+    { value: 'ja', label: '\u65E5\u672C\u8A9E' },
+    { value: 'bilingual', label: 'EN/JA' },
+    { value: 'en', label: 'English' },
   ], settings.langMode || 'bilingual', (v) => {
     SettingsStore.set('langMode', v);
     window.dispatchEvent(new CustomEvent('lang-mode-changed', { detail: { mode: v } }));
@@ -28,10 +28,10 @@ registerRoute('#settings', (app) => {
   }));
   app.appendChild(langCard);
 
-  // Study Mode
+  // Study Mode (segmented control)
   const modeCard = el('div', { className: 'card' });
   modeCard.appendChild(el('h3', {}, tr('settings.studyMode', 'Study Mode')));
-  modeCard.appendChild(createSelect('mode', [
+  modeCard.appendChild(createSegControl([
     { value: 'kataoka', label: tr('settings.kataokaMode', 'Kataoka Mode') },
     { value: 'standard', label: tr('settings.standardMode', 'Standard') },
   ], settings.mode, (v) => { SettingsStore.set('mode', v); }));
@@ -61,6 +61,17 @@ registerRoute('#settings', (app) => {
   quizCard.appendChild(createToggle(tr('settings.weakFocus', 'Weak focus (prioritize weak topics)'), settings.weakFocusEnabled !== false, (v) => SettingsStore.set('weakFocusEnabled', v)));
   quizCard.appendChild(createToggle(tr('settings.supporter', 'Sakura (virtual supporter)'), settings.supporterEnabled, (v) => SettingsStore.set('supporterEnabled', v)));
   app.appendChild(quizCard);
+
+  // Home screen sections
+  const homeCard = el('div', { className: 'card' });
+  homeCard.appendChild(el('h3', {}, tr('settings.homeScreen', 'Home Screen')));
+  homeCard.appendChild(createToggle(tr('settings.showXp', 'XP Bar'), settings.homeShowXp !== false, (v) => SettingsStore.set('homeShowXp', v)));
+  homeCard.appendChild(createToggle(tr('settings.showGoal', 'Daily Goal'), settings.homeShowGoal !== false, (v) => SettingsStore.set('homeShowGoal', v)));
+  homeCard.appendChild(createToggle(tr('settings.showStreak', 'Study Streak'), settings.homeShowStreak !== false, (v) => SettingsStore.set('homeShowStreak', v)));
+  homeCard.appendChild(createToggle(tr('settings.showStats', 'Quick Stats'), settings.homeShowStats !== false, (v) => SettingsStore.set('homeShowStats', v)));
+  homeCard.appendChild(createToggle(tr('settings.showCountdown', 'Exam Countdown'), settings.homeShowCountdown !== false, (v) => SettingsStore.set('homeShowCountdown', v)));
+  homeCard.appendChild(createToggle(tr('settings.showTrivia', 'SG Trivia'), settings.homeShowTrivia !== false, (v) => SettingsStore.set('homeShowTrivia', v)));
+  app.appendChild(homeCard);
 
   // Daily goal (#13)
   const goalCard = el('div', { className: 'card' });
@@ -114,6 +125,22 @@ registerRoute('#settings', (app) => {
     onClick: () => navigate('#about'),
   }, tr('settings.about', 'About / Version History')));
 });
+
+function createSegControl(options, current, onChange) {
+  const seg = el('div', { className: 'seg-control mt-sm' });
+  for (const opt of options) {
+    const btn = el('button', {
+      className: 'seg-control__item' + (opt.value === current ? ' seg-control__item--active' : ''),
+      onClick: () => {
+        seg.querySelectorAll('.seg-control__item').forEach(b => b.classList.remove('seg-control__item--active'));
+        btn.classList.add('seg-control__item--active');
+        onChange(opt.value);
+      },
+    }, opt.label);
+    seg.appendChild(btn);
+  }
+  return seg;
+}
 
 function createSelect(name, options, current, onChange) {
   const select = el('select', { className: 'search-box mt-sm', name });

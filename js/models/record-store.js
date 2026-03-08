@@ -193,6 +193,22 @@ export class RecordStore {
     return archived;
   }
 
+  // --- Unique correct count (for MRT progress) ---
+
+  /**
+   * Count distinct questionIds answered correctly at least once for a module.
+   */
+  static getUniqueCorrectCount(module) {
+    const records = this.getRecords();
+    const seen = new Set();
+    for (const r of records) {
+      if (r.module === module && r.isCorrect && r.questionId) {
+        seen.add(r.questionId);
+      }
+    }
+    return seen.size;
+  }
+
   // --- Hawker collection ---
   static getHawkerCollection() {
     try {
