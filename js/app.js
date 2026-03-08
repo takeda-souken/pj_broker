@@ -8,10 +8,21 @@ import { showToast } from './components/toast.js';
 import { initJpToggle } from './components/jp-toggle.js';
 import { initCityscape } from './components/cityscape.js';
 
-// Apply saved theme
-const settings = SettingsStore.load();
-if (settings.theme === 'dark') {
-  document.documentElement.setAttribute('data-theme', 'dark');
+// Apply theme (auto / light / dark)
+applyTheme();
+setInterval(applyTheme, 60_000); // re-check every minute for auto mode
+window.addEventListener('theme-changed', applyTheme);
+
+function applyTheme() {
+  const theme = SettingsStore.get('theme') || 'auto';
+  let dark;
+  if (theme === 'auto') {
+    const h = new Date().getHours();
+    dark = h < 6 || h >= 18; // 18:00–05:59 = dark
+  } else {
+    dark = theme === 'dark';
+  }
+  document.documentElement.setAttribute('data-theme', dark ? 'dark' : '');
 }
 
 // JP toggle

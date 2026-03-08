@@ -41,14 +41,19 @@ registerRoute('#settings', (app) => {
       : tr('settings.standardDesc', 'Standard study mode')));
   app.appendChild(modeCard);
 
-  // Theme
+  // Theme (segmented: auto / light / dark)
   const themeCard = el('div', { className: 'card' });
   themeCard.appendChild(el('h3', {}, tr('settings.theme', 'Theme')));
-  themeCard.appendChild(createToggle(tr('settings.darkMode', 'Dark mode'), settings.theme === 'dark', (v) => {
-    const theme = v ? 'dark' : 'light';
-    SettingsStore.set('theme', theme);
-    document.documentElement.setAttribute('data-theme', v ? 'dark' : '');
+  themeCard.appendChild(createSegControl([
+    { value: 'auto', label: tr('settings.themeAuto', 'Auto') },
+    { value: 'light', label: tr('settings.themeLight', 'Light') },
+    { value: 'dark', label: tr('settings.themeDark', 'Dark') },
+  ], settings.theme || 'auto', (v) => {
+    SettingsStore.set('theme', v);
+    window.dispatchEvent(new Event('theme-changed'));
   }));
+  const themeDesc = { auto: tr('settings.themeAutoDesc', 'Switches at 6 AM / 6 PM'), light: tr('settings.themeLightDesc', 'Always light'), dark: tr('settings.themeDarkDesc', 'Always dark') };
+  themeCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' }, themeDesc[settings.theme || 'auto']));
   app.appendChild(themeCard);
 
   // Quiz options

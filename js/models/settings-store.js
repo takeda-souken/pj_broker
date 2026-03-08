@@ -5,7 +5,7 @@ const STORAGE_KEY = 'sg_broker_settings';
 
 const DEFAULTS = {
   mode: 'kataoka',          // 'kataoka' (personal encouragement + extras) or 'standard'
-  theme: 'light',           // 'light' or 'dark'
+  theme: 'auto',            // 'auto' (time-based), 'light', or 'dark'
   timerEnabled: true,
   timerDramatic: true,    // Timer bar color transitions (warning/danger). OFF = calm bar
   showExplanation: true,
