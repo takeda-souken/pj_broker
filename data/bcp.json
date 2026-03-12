@@ -1,322 +1,1442 @@
 [
   {
     "id": "bcp-001",
-    "topic": "Risks & Insurance Principles",
-    "question": "Which of the following is NOT a requirement for a risk to be insurable?",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "Which legislation primarily governs the regulation of insurance in Singapore?",
     "choices": [
-      "The risk must be pure, not speculative",
-      "The loss must be determinable and measurable",
-      "The risk must have occurred at least once before",
-      "There must be a large number of similar exposure units"
+      "Monetary Authority of Singapore Act 1970",
+      "Insurance Act 1966",
+      "Companies Act 1967",
+      "Financial Advisers Act 2001"
     ],
-    "answer": 2,
-    "explanation": "Insurable risks must be pure (not speculative), determinable, measurable, and involve a large number of similar exposures. There is no requirement that the risk must have occurred before — otherwise, novel risks could never be insured.",
-    "jpComparison": "日本でも付保適格リスクの要件は同じ（純粋リスク・測定可能・大数の法則）。「過去に発生実績があること」は要件ではない点も共通。",
-    "keywords": ["insurable risk", "pure risk", "law of large numbers"],
+    "answer": 1,
+    "explanation": "The Insurance Act 1966 is the primary legislation governing insurance regulation in Singapore. The MAS Act 1970 governs MAS itself, not insurance directly.",
+    "jpComparison": "日本の保険業法（1995年）に相当。シンガポールでは1966年制定の Insurance Act が根拠法。",
+    "keywords": ["Insurance Act", "1966", "regulation"],
     "difficulty": 1
   },
   {
     "id": "bcp-002",
-    "topic": "Risks & Insurance Principles",
-    "question": "The principle of utmost good faith (uberrimae fidei) requires the insured to:",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "A reinsurer licensed in Singapore differs from a direct insurer in which fundamental way?",
     "choices": [
-      "Pay premiums on time",
-      "Disclose all material facts to the insurer",
-      "Accept the first quotation offered",
-      "Insure for the full replacement value"
+      "A reinsurer may only accept risks from overseas insurers, not local ones",
+      "A reinsurer cannot write direct insurance business and may only assume risks from other insurers",
+      "A reinsurer is not regulated by MAS and operates under the Companies Act only",
+      "A reinsurer must maintain a higher minimum paid-up capital than a direct insurer"
     ],
     "answer": 1,
-    "explanation": "Utmost good faith requires both parties (insured and insurer) to disclose all material facts. A material fact is one that would influence the judgment of a prudent insurer in assessing the risk.",
-    "jpComparison": "日本の保険法でも「告知義務」として同概念が存在する（保険法4条・37条・66条）。ただし日本は2008年改正で「自発的告知義務」から「質問応答義務」に変更された点がSGと異なる。",
-    "keywords": ["utmost good faith", "uberrimae fidei", "material fact", "disclosure"],
-    "difficulty": 1
+    "explanation": "Reinsurers are licensed specifically to assume risks ceded by other insurers (cedants). They are prohibited from writing direct business with policyholders.",
+    "jpComparison": "日本の再保険会社も直接保険を引き受けることはできない。元受保険会社（元請）からリスクを引き受ける点は同じ。",
+    "keywords": ["reinsurer", "direct business", "cedant"],
+    "difficulty": 2
   },
   {
     "id": "bcp-003",
-    "topic": "Risks & Insurance Principles",
-    "question": "Under the principle of indemnity, the insured is entitled to:",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "A captive insurer in Singapore is defined under which legislation, and what is its primary characteristic?",
     "choices": [
-      "Receive the sum insured regardless of the loss amount",
-      "Be restored to the same financial position as before the loss",
-      "Receive double the loss amount as compensation",
-      "Claim from multiple insurers for the full amount each"
+      "Insurance Act 1966; it insures only risks of unrelated third parties",
+      "Companies Act 1967 Section 6; it writes principally the risks of its parent or related companies",
+      "MAS Act 1970; it reinsures only marine and aviation risks",
+      "Financial Advisers Act 2001; it provides both insurance and financial advisory services"
     ],
     "answer": 1,
-    "explanation": "The principle of indemnity ensures the insured is restored to the same financial position they were in immediately before the loss — no better, no worse. This prevents profiting from insurance.",
-    "jpComparison": "日本の損害保険でも「利得禁止原則」として同一の概念。実損填補が原則。ただし生命保険・傷害保険は定額給付で利得禁止原則の適用外（SGも同様）。",
-    "keywords": ["indemnity", "restoration", "no profit"],
-    "difficulty": 1
+    "explanation": "Captive insurers are defined under Section 6 of the Companies Act 1967. Their key characteristic is that they write principally the risks of their parent company or related group companies.",
+    "jpComparison": "日本ではキャプティブ保険会社の設立規制が厳しく、多くの日系企業はシンガポールや欧州でキャプティブを設立している。",
+    "keywords": ["captive insurer", "Companies Act 1967", "parent company"],
+    "difficulty": 2
   },
   {
     "id": "bcp-004",
-    "topic": "Risks & Insurance Principles",
-    "question": "Subrogation allows the insurer to:",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "Lloyd's of London was formed in 1686 and has a distinctive corporate structure. Which statement about Lloyd's is correct?",
     "choices": [
-      "Cancel the policy at any time",
-      "Recover the loss amount from a third party responsible for the loss",
-      "Increase the premium after a claim",
-      "Reject any claim below the deductible"
+      "Lloyd's is a single composite insurance company regulated solely by MAS",
+      "Lloyd's introduced corporate capital in January 1994; it operates through syndicates and is not a single company",
+      "Lloyd's only writes life insurance business and has no general insurance presence",
+      "Lloyd's syndicates are prohibited from accepting Singapore-originated risks"
     ],
     "answer": 1,
-    "explanation": "After paying a claim, the insurer 'steps into the shoes' of the insured and can pursue recovery from the negligent third party. This prevents the insured from recovering twice (from insurer and from the third party).",
-    "jpComparison": "日本でも「保険代位」（保険法25条）として同一の概念。請求権代位と残存物代位の2種がある点はSGと共通。",
-    "keywords": ["subrogation", "recovery", "third party"],
-    "difficulty": 1
+    "explanation": "Lloyd's was formed in 1686 but is not a single company. It operates through syndicates. Corporate capital was admitted from January 1994, supplementing the traditional individual (Name) capital.",
+    "jpComparison": "ロイズはロンドン保険市場の象徴。日本では損保各社がファカルタティブ再保険やスペシャルティリスクをロイズに出再することが多い。",
+    "keywords": ["Lloyd's", "1686", "syndicates", "corporate capital", "1994"],
+    "difficulty": 2
   },
   {
     "id": "bcp-005",
-    "topic": "The Insurance Market",
-    "question": "Which body is responsible for the regulation of insurance companies and intermediaries in Singapore?",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "An insurance agent in Singapore is registered through which body, and how many principals may an agent represent?",
     "choices": [
-      "Ministry of Finance (MOF)",
-      "Monetary Authority of Singapore (MAS)",
-      "Singapore Exchange (SGX)",
-      "Accounting and Corporate Regulatory Authority (ACRA)"
+      "MAS directly; unlimited number of principals",
+      "SIBA; up to 2 principals",
+      "GIA's Agent Registration Board (ARB); up to 3 principals",
+      "SCI; up to 5 principals"
     ],
-    "answer": 1,
-    "explanation": "The Monetary Authority of Singapore (MAS) is the integrated financial regulator that supervises all financial institutions in Singapore, including insurance companies, reinsurers, and insurance intermediaries.",
-    "jpComparison": "日本では金融庁（FSA）が保険業の監督を担う。MASは中央銀行機能も兼ねる統合型金融規制当局で、日本の金融庁＋日本銀行の一部機能を持つ。",
-    "keywords": ["MAS", "financial regulator", "Insurance Act"],
+    "answer": 2,
+    "explanation": "Insurance agents for general insurance are registered through the GIA's Agent Registration Board (ARB). An agent may represent up to 3 principal insurers.",
+    "jpComparison": "日本の損保代理店は損害保険会社と委託契約を結ぶ形式だが、複数代理店の場合も規制がある。シンガポールでは最大3社という上限が明確に定められている。",
+    "keywords": ["insurance agent", "GIA", "ARB", "3 principals"],
     "difficulty": 1
   },
   {
     "id": "bcp-006",
-    "topic": "The Insurance Market",
-    "question": "In Singapore, insurance intermediaries include all of the following EXCEPT:",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "Under the Insurance Act, what is the minimum paid-up capital requirement for a licensed insurance broker in Singapore?",
     "choices": [
-      "Insurance agents",
-      "Insurance brokers",
-      "Financial advisers",
-      "Loss adjusters"
+      "S$50,000",
+      "S$100,000",
+      "S$25,000",
+      "S$300,000"
     ],
     "answer": 3,
-    "explanation": "Loss adjusters assess and settle claims on behalf of insurers — they are not intermediaries who arrange insurance contracts. Insurance agents, brokers, and financial advisers are all classified as intermediaries under the Insurance Act.",
-    "jpComparison": "日本でも損害査定人（損害保険登録鑑定人）は保険仲介者には分類されない。保険仲介者は保険代理店・保険仲立人・保険募集人。",
-    "keywords": ["intermediary", "agent", "broker", "loss adjuster"],
+    "explanation": "Licensed insurance brokers must maintain a minimum paid-up capital of S$300,000. Corporate agents have a lower requirement of S$25,000.",
+    "jpComparison": "日本の保険仲立人（ブローカー）は保険業法で資本金要件が設定されている。シンガポールでは代理店（S$25,000）とブローカー（S$300,000）で大きく異なる点が特徴。",
+    "keywords": ["broker", "paid-up capital", "S$300,000", "Insurance Act"],
     "difficulty": 1
   },
   {
     "id": "bcp-007",
-    "topic": "Regulatory Landscape",
-    "question": "Under MAS Notice 502, what is the minimum qualification required for broking staff dealing in general insurance?",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "FIDReC was launched in August 2005 to resolve insurance disputes. As of 1 July 2024, what is the adjudication limit per claim?",
     "choices": [
-      "Diploma in Business Administration",
-      "Certificate in General Insurance (CGI)",
-      "Chartered Insurance Professional (CIP)",
-      "Bachelor's degree in any discipline"
+      "S$100,000",
+      "S$120,000",
+      "S$150,000",
+      "S$200,000"
     ],
-    "answer": 1,
-    "explanation": "MAS Notice 502 requires broking staff to hold the Certificate in General Insurance (CGI), which comprises BCP + PGI (personal) or BCP + ComGI (commercial) modules.",
-    "jpComparison": "日本では保険仲立人試験（JIBA実施、4科目）の合格が必要。CGIとは試験構成が異なるが、実務要件としてのブローカー資格という位置づけは同じ。",
-    "keywords": ["Notice 502", "CGI", "broking staff", "qualification"],
+    "answer": 2,
+    "explanation": "FIDReC (Financial Industry Disputes Resolution Centre) handles insurance disputes. The adjudication limit was increased to S$150,000 per claim from 1 July 2024.",
+    "jpComparison": "日本では金融ADR制度として「そんぽADRセンター」が保険の苦情・紛争解決を担う。シンガポールのFIDReCに相当するが、上限額の設定方法が異なる。",
+    "keywords": ["FIDReC", "adjudication limit", "S$150,000", "2024"],
     "difficulty": 2
   },
   {
     "id": "bcp-008",
-    "topic": "Regulatory Landscape",
-    "question": "The Insurance Act 1966 in Singapore governs:",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "Which of the following correctly describes the difference in remuneration between insurance agents and insurance brokers?",
     "choices": [
-      "Only life insurance business",
-      "Only general insurance business",
-      "Both life and general insurance business, including intermediaries",
-      "Only reinsurance business"
+      "Agents are paid a salary by MAS; brokers earn commission from insurers",
+      "Agents earn commission from the insurer they represent; brokers earn brokerage or fee (from the insured or insurer)",
+      "Both agents and brokers are exclusively paid by the insured",
+      "Agents earn a fixed fee per policy; brokers earn commission only on renewals"
     ],
-    "answer": 2,
-    "explanation": "The Insurance Act 1966 is the principal legislation governing the entire insurance industry in Singapore, covering life insurance, general insurance, reinsurance, and all intermediaries including agents and brokers.",
-    "jpComparison": "日本の保険業法（1995年全面改正）も生保・損保・再保険・仲介業者すべてを包括的に規制する点はSGのInsurance Actと同構造。",
-    "keywords": ["Insurance Act 1966", "legislation", "MAS"],
-    "difficulty": 1
+    "answer": 1,
+    "explanation": "Insurance agents are remunerated by commission paid by the insurer (their principal). Brokers represent the insured and earn brokerage (commission) or a fee, which may come from the insurer or the insured.",
+    "jpComparison": "日本の代理店手数料は損保会社から支払われる。日本には保険仲立人制度もあるが普及しておらず、ブローカー文化が根付くシンガポールとは対照的。",
+    "keywords": ["commission", "brokerage", "agent", "broker", "remuneration"],
+    "difficulty": 2
   },
   {
     "id": "bcp-009",
-    "topic": "Law of Contract & Agency",
-    "question": "For an insurance contract to be valid, which of the following elements is NOT required?",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "SCI (Singapore College of Insurance) was set up in 1974. Which of the following examinations does SCI administer?",
     "choices": [
-      "Offer and acceptance",
-      "Consideration (premium)",
-      "Written documentation signed by both parties",
-      "Legal capacity of both parties"
-    ],
-    "answer": 2,
-    "explanation": "While most insurance contracts are written, a written document signed by both parties is not a legal requirement for a valid contract. Verbal contracts can be binding. The essential elements are: offer and acceptance, consideration, legal capacity, and legality of purpose.",
-    "jpComparison": "日本の保険法でも契約の成立に書面は不要（諾成契約）。ただし実務上は保険証券を交付する。2008年保険法改正で明確化された。",
-    "keywords": ["contract", "offer", "acceptance", "consideration"],
-    "difficulty": 2
-  },
-  {
-    "id": "bcp-010",
-    "topic": "Law of Contract & Agency",
-    "question": "In the context of insurance, an agent who acts for the insurer has a duty to:",
-    "choices": [
-      "Always secure the cheapest premium for the client",
-      "Act within the scope of authority granted by the principal (insurer)",
-      "Advise the insured on tax optimization",
-      "Guarantee that all claims will be paid"
+      "ACII and FCII only",
+      "CGI, CMFAS, and HI examinations",
+      "CAIA and CFA examinations",
+      "Only BCP examination; ComGI is administered by GIA"
     ],
     "answer": 1,
-    "explanation": "An agent must act within the scope of authority (actual or apparent) granted by their principal. Acting beyond this authority may not bind the insurer, though the doctrine of apparent authority may protect third parties.",
-    "jpComparison": "日本でも代理店は保険会社（委託者）から授権された範囲で行動する義務がある。表見代理（民法109条・110条・112条）の法理も同様に機能する。",
-    "keywords": ["agency", "authority", "principal", "scope"],
-    "difficulty": 2
-  },
-  {
-    "id": "bcp-011",
-    "topic": "Insurance Documents",
-    "question": "Which document serves as evidence of the insurance contract and outlines the terms and conditions?",
-    "choices": [
-      "Proposal form",
-      "Cover note",
-      "Insurance policy",
-      "Claim form"
-    ],
-    "answer": 2,
-    "explanation": "The insurance policy is the formal document that serves as evidence of the contract, detailing the terms, conditions, exclusions, and the scope of cover. A cover note provides temporary evidence of cover, while the proposal form is the application.",
-    "jpComparison": "日本の「保険証券」に相当。カバーノート（仮保険証券）は日本の海上保険実務でも使用される。",
-    "keywords": ["policy", "cover note", "proposal form"],
+    "explanation": "SCI was established in 1974 and administers the CGI (Certificate in General Insurance), CMFAS (Capital Markets and Financial Advisory Services), and HI (Health Insurance) examinations.",
+    "jpComparison": "日本の損害保険募集人試験は損保協会が実施する。シンガポールのSCIは日本の損保協会・生保協会の教育機能に相当する専門機関。",
+    "keywords": ["SCI", "1974", "CGI", "CMFAS", "HI"],
     "difficulty": 1
   },
   {
-    "id": "bcp-012",
-    "topic": "Insurance Documents",
-    "question": "A warranty in an insurance contract is:",
+    "id": "bcp-010",
+    "topic": "The Insurance & Reinsurance Market",
+    "question": "In reinsurance terminology, when a reinsurer itself cedes part of an assumed risk to another reinsurer, the transaction is called:",
     "choices": [
-      "A guarantee that the insurer will pay all claims",
-      "A condition that must be strictly complied with by the insured",
-      "An optional recommendation from the insurer",
-      "A discount offered for good claims history"
+      "Facultative reinsurance",
+      "Retrocession, and the receiving reinsurer is called the retrocessionaire",
+      "Treaty reinsurance",
+      "Proportional cession"
     ],
     "answer": 1,
-    "explanation": "A warranty is a fundamental term of the insurance contract that must be strictly complied with by the insured. Breach of warranty entitles the insurer to avoid the contract, regardless of whether the breach is related to the loss.",
-    "jpComparison": "日本の保険法には英米法的な「warranty（担保条項）」の概念はない。最も近いのは「告知義務」と「通知義務」だが、効果は異なる。SGで重要なコンセプト。",
-    "keywords": ["warranty", "condition", "strict compliance"],
+    "explanation": "When a reinsurer passes on part of its accepted reinsurance risk, this is called retrocession. The reinsurer that cedes is the retrocedant, and the one that accepts is the retrocessionaire.",
+    "jpComparison": "日本語では「再々保険」とも呼ばれる。原保険会社→再保険会社（再保険）、再保険会社→別の再保険会社（レトロセッション）という連鎖構造。",
+    "keywords": ["retrocession", "retrocessionaire", "reinsurance", "cedant"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-011",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "MAS issues several types of regulatory instruments. Which of the following is considered NON-BINDING but still impacts an insurer's risk assessment by MAS?",
+    "choices": [
+      "Directions (Notices)",
+      "Subsidiary Legislation",
+      "Guidelines",
+      "Acts of Parliament"
+    ],
+    "answer": 2,
+    "explanation": "Guidelines issued by MAS are non-binding. However, non-compliance is taken into account in MAS's risk assessment of the regulated entity, making them practically significant.",
+    "jpComparison": "日本の金融庁も「監督指針」という非法令ガイドラインを発出する。法的拘束力はないが、監督検査で参照されるため実質的な拘束力を持つ点はシンガポールと同様。",
+    "keywords": ["MAS", "guidelines", "non-binding", "risk assessment"],
     "difficulty": 2
   },
   {
-    "id": "bcp-013",
-    "topic": "Claims",
-    "question": "The doctrine of proximate cause in insurance means that:",
+    "id": "bcp-012",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "Under Singapore's nomination of beneficiaries framework, an irrevocable (trust) nomination under Section 132 of the Insurance Act has which key consequence for the policy owner?",
     "choices": [
-      "The nearest cause in time is always the proximate cause",
-      "The dominant and effective cause of the loss determines whether a claim is payable",
-      "Only the first cause in a chain of events matters",
-      "The insured can choose which cause to claim under"
+      "The policy owner retains all rights and can change nominees at any time",
+      "The policy owner relinquishes policy rights; only spouse or child is eligible as nominee; proceeds are protected from creditors",
+      "The nomination automatically lapses if the nominated beneficiary predeceases the policy owner",
+      "The policy owner must obtain MAS approval before making any changes"
     ],
     "answer": 1,
-    "explanation": "Proximate cause is the dominant, operative, and effective cause of the loss — not necessarily the closest in time or the last in the chain. The insurer pays only if the proximate cause is a covered peril.",
-    "jpComparison": "日本でも「近因主義」として同一の概念が適用される。相当因果関係説との関連で議論されるが、実務的には「主たる原因」で判断する点はSGと共通。",
-    "keywords": ["proximate cause", "dominant cause", "chain of causation"],
+    "explanation": "Under Section 132, a trust/irrevocable nomination means the policy owner gives up policy rights. Only a spouse or child can be nominated. The policy proceeds are protected from the owner's creditors — unlike a revocable nomination under Section 133.",
+    "jpComparison": "日本の生命保険では受取人指定は原則いつでも変更可能（撤回可能指定に近い）。シンガポールのSection 132は信託構造で債権者から保護される点が特徴的。",
+    "keywords": ["Section 132", "irrevocable nomination", "trust", "spouse", "child", "creditors"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-013",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "The Policy Owners' Protection Scheme in Singapore is administered by SDIC and became effective on which date?",
+    "choices": [
+      "1 January 2004",
+      "1 September 2009",
+      "1 May 2011",
+      "1 July 2016"
+    ],
+    "answer": 2,
+    "explanation": "The Policy Owners' Protection Scheme, governed by the Deposit Insurance and Policy Owners' Protection Scheme Act 2011, became effective on 1 May 2011 and is administered by SDIC.",
+    "jpComparison": "日本の損害保険契約者保護機構（損保機構）に相当。保険会社破綻時の契約者保護制度で、シンガポールではSDICが日本の機構に相当する役割を担う。",
+    "keywords": ["PPSA", "SDIC", "1 May 2011", "Policy Owners' Protection"],
     "difficulty": 2
   },
   {
     "id": "bcp-014",
-    "topic": "Claims",
-    "question": "FIDReC in Singapore provides:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "Under the Policy Owners' Protection Scheme for general insurance, what is the coverage limit for property damage claims?",
     "choices": [
-      "Financial advisory services to insurance companies",
-      "An independent dispute resolution channel for consumers against financial institutions",
-      "Reinsurance capacity for the local market",
-      "Training courses for insurance professionals"
+      "100% coverage with no cap",
+      "100% coverage, capped at SGD 50,000",
+      "100% coverage, capped at SGD 300,000",
+      "90% coverage, capped at SGD 500,000"
     ],
-    "answer": 1,
-    "explanation": "The Financial Industry Disputes Resolution Centre (FIDReC) is an independent body that provides an affordable and accessible avenue for consumers to resolve disputes with financial institutions, including insurers.",
-    "jpComparison": "日本では「そんぽADRセンター」（損害保険）「生命保険相談所」（生保）が同様の機能を果たす。金融ADR制度として2010年に整備された。",
-    "keywords": ["FIDReC", "dispute resolution", "consumer protection"],
+    "answer": 2,
+    "explanation": "General insurance under the PPSA provides 100% coverage. Motor own damage is capped at SGD 50,000, while property damage has a higher cap of SGD 300,000.",
+    "jpComparison": "日本の損保機構では自動車保険（強制）は100%、その他は90%補償という仕組み。シンガポールのPPSAはカテゴリーごとに上限額が設定されている点が異なる。",
+    "keywords": ["PPSA", "property damage", "SGD 300,000", "100% coverage"],
     "difficulty": 2
   },
   {
     "id": "bcp-015",
-    "topic": "Reinsurance & Co-Insurance",
-    "question": "What is the primary purpose of reinsurance?",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "Singapore adopted the Risk-Based Capital (RBC) framework for insurers in which year?",
     "choices": [
-      "To eliminate all risk for the insurer",
-      "To spread risk and increase underwriting capacity",
-      "To reduce premiums for policyholders",
-      "To replace the original insurance policy"
+      "1999",
+      "2004",
+      "2008",
+      "2011"
     ],
     "answer": 1,
-    "explanation": "Reinsurance allows insurers to transfer portions of risk to reinsurers, thereby spreading risk, increasing capacity to write larger risks, stabilizing results, and protecting against catastrophic losses.",
-    "jpComparison": "日本でも再保険の目的は同一（リスク分散・引受能力拡大・収支安定化）。日本では東京が再保険市場として機能し、SGはアジアの再保険ハブ。",
-    "keywords": ["reinsurance", "risk transfer", "capacity", "catastrophe"],
+    "explanation": "Singapore adopted the Risk-Based Capital (RBC) framework for insurers in 2004. This framework ties capital requirements to the actual risk profile of the insurer.",
+    "jpComparison": "日本でもソルベンシーマージン比率制度（1996年導入）からERM・内部モデルへの移行が進んでいる。シンガポールのRBC導入は2004年で、日本より先進的な枠組みとして注目された。",
+    "keywords": ["RBC", "Risk-Based Capital", "2004"],
     "difficulty": 1
   },
   {
     "id": "bcp-016",
-    "topic": "Reinsurance & Co-Insurance",
-    "question": "In co-insurance, each insurer:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "The Premium Payment Framework effective 1 September 2016 introduced 'Payment Before Cover' for personal lines. What does this require?",
     "choices": [
-      "Is liable for the full amount of the loss",
-      "Is liable only for its agreed proportion of the risk",
-      "Must consult with other co-insurers before paying claims",
-      "Shares a single policy document with all co-insurers"
+      "Premium must be paid within 30 days after policy inception",
+      "Premium must be paid on or before the policy inception date",
+      "Premium may be paid within 60 days from commencement, same as commercial lines",
+      "Premium must be paid within 14 days after the insurer issues the policy document"
     ],
     "answer": 1,
-    "explanation": "In co-insurance, each insurer accepts a specified share (percentage) of the risk and is liable only for that proportion. The lead insurer typically manages the policy and claims on behalf of all co-insurers.",
-    "jpComparison": "日本の共同保険も同一の仕組み（各社が引受割合に応じた責任を負う）。幹事会社制度も共通。",
-    "keywords": ["co-insurance", "proportion", "lead insurer"],
-    "difficulty": 1
+    "explanation": "Under Payment Before Cover for personal lines, premium must be received on or before the policy inception date. Coverage does not attach until payment is made.",
+    "jpComparison": "日本では保険料先払い原則が基本だが、実務では請求書発行後払いも多い。シンガポールの個人向けPBC（Payment Before Cover）はより厳格な先払い制度。",
+    "keywords": ["Payment Before Cover", "personal lines", "1 September 2016", "inception"],
+    "difficulty": 2
   },
   {
     "id": "bcp-017",
-    "topic": "Ethics & Data Protection",
-    "question": "Under Singapore's Personal Data Protection Act (PDPA), organizations must:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "Under the Premium Payment Framework, for commercial lines insurance, what is the maximum payment warranty period allowed?",
     "choices": [
-      "Obtain consent before collecting personal data",
-      "Store all data on servers physically located in Singapore",
-      "Delete all customer data after 30 days",
-      "Share customer data with all government agencies upon request"
+      "30 days from commencement",
+      "45 days from commencement",
+      "60 days from commencement",
+      "90 days from commencement"
     ],
-    "answer": 0,
-    "explanation": "The PDPA requires organizations to obtain consent before collecting, using, or disclosing personal data. It also mandates reasonable security measures and gives individuals the right to access and correct their data.",
-    "jpComparison": "日本の個人情報保護法も利用目的の特定・同意取得・安全管理措置を要求。2022年改正で域外適用も強化された。PDPAとの大きな違いはDo Not Call規定がSGにはある点。",
-    "keywords": ["PDPA", "consent", "personal data", "data protection"],
+    "answer": 2,
+    "explanation": "For commercial lines, the Premium Payment Framework allows a 60-day payment warranty from the commencement date. Brokers must then remit to insurers within 90 days from commencement.",
+    "jpComparison": "日本の企業向け保険では保険料の支払い猶予期間が設けられることがある。シンガポールでは商業系60日、ブローカーの保険会社への送金は90日以内という明確なルールがある。",
+    "keywords": ["commercial lines", "60 days", "payment warranty", "Premium Payment Framework"],
     "difficulty": 2
   },
   {
     "id": "bcp-018",
-    "topic": "Ethics & Data Protection",
-    "question": "An insurance broker who recommends a policy primarily because it generates the highest commission is violating:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "Under the Insurance Act, which of the following is a mandatory requirement for a licensed insurance broker (Section 77)?",
     "choices": [
-      "The principle of subrogation",
-      "The duty of utmost good faith",
-      "The duty to act in the best interest of the client",
-      "The principle of indemnity"
+      "Membership of the Singapore Exchange (SGX)",
+      "Maintaining Professional Indemnity Insurance",
+      "Employing at least one Fellow of the Chartered Insurance Institute",
+      "Publishing annual accounts on the MAS website"
     ],
-    "answer": 2,
-    "explanation": "Insurance brokers have a fiduciary duty to act in the best interest of their clients. Recommending a policy based on commission rather than suitability violates this duty and may result in regulatory action.",
-    "jpComparison": "日本の保険仲立人にも「誠実義務（ベストアドバイス義務）」が課されている（保険業法299条）。顧客の利益を最優先する点はSGと共通。",
-    "keywords": ["best interest", "fiduciary duty", "conflict of interest"],
-    "difficulty": 1
+    "answer": 1,
+    "explanation": "Section 77(1)(c) of the Insurance Act requires licensed insurance brokers to maintain Professional Indemnity Insurance (PII) as a condition of their licence.",
+    "jpComparison": "日本の保険仲立人も賠償責任保険の付保が義務付けられている。ブローカーが顧客に損害を与えた場合の補償手段として、PI保険は国際的に標準的な要件。",
+    "keywords": ["Section 77", "Professional Indemnity Insurance", "broker", "licence condition"],
+    "difficulty": 2
   },
   {
     "id": "bcp-019",
-    "topic": "Risks & Insurance Principles",
-    "question": "The doctrine of contribution applies when:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "FIDReC-NIMA handles a specific category of disputes. What type of claims fall under the NIMA scheme?",
     "choices": [
-      "An insured has only one policy covering the risk",
-      "Two or more policies cover the same risk, same insured, and same interest",
-      "The insured fails to pay the premium on time",
-      "A reinsurer disputes a claim"
+      "Non-injury motor accident claims below S$3,000",
+      "All motor insurance disputes above S$50,000",
+      "Life insurance claim disputes involving nominees",
+      "Marine cargo claims under S$10,000"
     ],
-    "answer": 1,
-    "explanation": "Contribution applies when there are two or more policies covering the same risk, same insured, same subject matter, and same interest. Each insurer contributes ratably to the loss to prevent the insured from profiting.",
-    "jpComparison": "日本でも重複保険時の「保険金分担」として同一の原則が適用される。按分方式は独立責任額按分が一般的。",
-    "keywords": ["contribution", "double insurance", "ratable proportion"],
+    "answer": 0,
+    "explanation": "FIDReC-NIMA (Non-Injury Motor Accident) handles disputes arising from non-injury motor accidents where the claim amount is below S$3,000.",
+    "jpComparison": "日本では自動車事故の物損示談には保険会社が代理交渉するが、小額紛争の簡易解決制度はADR機関が担う。シンガポールのNIMAは物損小額案件に特化した制度。",
+    "keywords": ["FIDReC", "NIMA", "non-injury motor accident", "S$3,000"],
     "difficulty": 2
   },
   {
     "id": "bcp-020",
-    "topic": "The Insurance Market",
-    "question": "Lloyd's of London is best described as:",
+    "topic": "Regulatory Landscape & Industry Frameworks",
+    "question": "SIBA plays a specific role in the Singapore insurance market. What is SIBA's primary function?",
     "choices": [
-      "A single insurance company",
-      "A government-owned insurer",
-      "A marketplace where syndicates of underwriters accept insurance risks",
-      "A reinsurance broker"
+      "SIBA licenses and disciplines insurance brokers under the Insurance Act",
+      "SIBA is the trade association representing the interests of insurance brokers in Singapore",
+      "SIBA administers the premium payment framework on behalf of MAS",
+      "SIBA sets minimum premium rates for all commercial lines products"
+    ],
+    "answer": 1,
+    "explanation": "SIBA (Singapore Insurance Brokers' Association) is a trade association that represents the interests of insurance brokers. Licensing and discipline of brokers is the responsibility of MAS under the Insurance Act.",
+    "jpComparison": "日本損害保険ブローカー協会（JIBA）に相当。業界団体は会員ブローカーの利益代表・自主規制を行うが、法的な免許付与権限はない点は同じ。",
+    "keywords": ["SIBA", "trade association", "insurance brokers"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-021",
+    "topic": "Risks & Insurance",
+    "question": "Which of the following best explains why only 'pure risks' are insurable, while 'speculative risks' are not?",
+    "choices": [
+      "Pure risks involve large financial amounts, making them worth insuring",
+      "Pure risks present only the possibility of loss or no loss; speculative risks include the possibility of gain, creating moral hazard issues for insurers",
+      "Pure risks are regulated by MAS; speculative risks fall under the Securities Act",
+      "Pure risks are always fortuitous; speculative risks are deliberately caused by the insured"
+    ],
+    "answer": 1,
+    "explanation": "Pure risks (e.g., fire, accident) offer only two outcomes: loss or no loss. Speculative risks (e.g., investment, gambling) include the possibility of profit. Insurers cannot cover speculative risks because the insured might benefit from the outcome, undermining the indemnity principle.",
+    "jpComparison": "日本の保険も純粋リスクのみが対象。投機リスクは金融商品として規制される。火災・賠償等は純粋リスクの典型例。",
+    "keywords": ["pure risk", "speculative risk", "insurable", "moral hazard"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-022",
+    "topic": "Risks & Insurance",
+    "question": "A large-scale earthquake affecting an entire region, causing losses to thousands of unrelated policyholders simultaneously, is best classified as which type of risk?",
+    "choices": [
+      "Particular risk",
+      "Moral hazard",
+      "Fundamental risk",
+      "Speculative risk"
     ],
     "answer": 2,
-    "explanation": "Lloyd's is not an insurance company but a marketplace where multiple syndicates of underwriters come together to accept and share insurance risks. It operates under a unique structure dating back to Edward Lloyd's coffee house in 1688.",
-    "jpComparison": "ロイズは日本市場でも活動しており、日本のロイズ・ジャパンを通じて保険引受を行っている。シンジケート構造は日本の保険市場にはない独特の仕組み。",
-    "keywords": ["Lloyd's", "syndicate", "underwriter", "marketplace"],
+    "explanation": "Fundamental risks affect large numbers of people simultaneously and arise from causes beyond any individual's control (e.g., earthquakes, floods, pandemics). Particular risks, by contrast, affect individuals or small groups.",
+    "jpComparison": "日本では地震リスクは「巨大リスク」として通常の損害保険では対応困難なため、地震保険は政府再保険スキームが必須。ファンダメンタルリスクの典型例。",
+    "keywords": ["fundamental risk", "particular risk", "earthquake", "catastrophe"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-023",
+    "topic": "Risks & Insurance",
+    "question": "Which of the following is NOT one of the seven characteristics that make a risk insurable?",
+    "choices": [
+      "The risk must be of a fortuitous nature",
+      "There must be a large number of similar risk units",
+      "The risk must offer a possibility of financial gain to the insured",
+      "The insured must have an insurable interest in the subject matter"
+    ],
+    "answer": 2,
+    "explanation": "The seven characteristics of an insurable risk are: pure risk, financial risk, particular risk, fortuitous, measurable/quantifiable, large number of similar units, and insurable interest. The possibility of financial gain disqualifies a risk (that would be speculative).",
+    "jpComparison": "保険可能リスクの要件は日本の損害保険実務でも同様に教育される。「偶発性」「経済的損失」「多数同質リスク」「被保険利益」が核心要件。",
+    "keywords": ["insurable risk", "7 characteristics", "fortuitous", "insurable interest"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-024",
+    "topic": "Risks & Insurance",
+    "question": "A warehouse manager who becomes careless about fire safety after obtaining insurance coverage, reasoning that any loss will be covered, is exhibiting which type of hazard?",
+    "choices": [
+      "Physical hazard",
+      "Moral hazard",
+      "Morale hazard",
+      "Fundamental hazard"
+    ],
+    "answer": 2,
+    "explanation": "Morale hazard arises from indifference or carelessness due to having insurance coverage — not deliberate fraud, but a change in attitude. Moral hazard involves deliberate dishonesty or fraudulent intent. Physical hazard refers to tangible, physical conditions.",
+    "jpComparison": "日本語では「モラルハザード」に両方の概念を含めることがあるが、英語では意図的詐欺（moral hazard）と態度の緩み（morale hazard）は明確に区別される。試験上重要な区別。",
+    "keywords": ["morale hazard", "moral hazard", "carelessness", "indifference"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-025",
+    "topic": "Risks & Insurance",
+    "question": "A company decides not to insure its fleet of 500 bicycles, setting aside funds internally to cover any losses, because the cost of individual losses is manageable. Which risk management method is this?",
+    "choices": [
+      "Risk avoidance",
+      "Risk transfer",
+      "Risk retention",
+      "Risk reduction"
+    ],
+    "answer": 2,
+    "explanation": "Risk retention means the entity consciously accepts and finances a risk internally, either through a self-insurance fund or by simply absorbing losses. This is appropriate when losses are frequent but small and manageable.",
+    "jpComparison": "日本企業でも小額・高頻度のリスクは自家保険（リテンション）で処理することがある。大規模な自家保険ファンドを設けるキャプティブ保険も広義のリテンション手法。",
+    "keywords": ["risk retention", "self-insurance", "risk management methods"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-026",
+    "topic": "Risks & Insurance",
+    "question": "Under the classification of general insurance (GI) products, which category covers the risk of financial loss arising from the dishonesty of employees?",
+    "choices": [
+      "Property insurance",
+      "Liability insurance",
+      "Pecuniary insurance",
+      "Marine insurance"
+    ],
+    "answer": 2,
+    "explanation": "Pecuniary insurance covers financial losses that are not directly linked to physical damage or liability — including fidelity guarantee (employee dishonesty), credit insurance, and business interruption.",
+    "jpComparison": "日本では「身元保証保険」「取引信用保険」が金銭的損失（pecuniary）保険に相当。財物・賠償・金銭的損失の3分類はシンガポールGI試験の基本的な分類軸。",
+    "keywords": ["pecuniary insurance", "fidelity guarantee", "GI classification"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-027",
+    "topic": "Risks & Insurance",
+    "question": "What distinguishes a 'peril' from a 'hazard' in insurance terminology?",
+    "choices": [
+      "A peril is the financial consequence of a loss; a hazard is the insurance policy that covers it",
+      "A peril is the cause of loss (e.g., fire, flood); a hazard is a condition that increases the probability or severity of a loss",
+      "A peril is always physical in nature; a hazard always involves human behaviour",
+      "There is no meaningful distinction; both terms are used interchangeably in Singapore regulation"
+    ],
+    "answer": 1,
+    "explanation": "A peril is the actual cause of a loss (e.g., fire, theft, storm). A hazard is a condition that makes a peril more likely or more severe (e.g., faulty wiring increases fire risk).",
+    "jpComparison": "日本の保険教育でも「事故原因（ペリル）」と「危険増加要因（ハザード）」は区別される。引受審査（アンダーライティング）では両者の評価が不可欠。",
+    "keywords": ["peril", "hazard", "cause of loss", "underwriting"],
     "difficulty": 1
+  },
+  {
+    "id": "bcp-028",
+    "topic": "Risks & Insurance",
+    "question": "Which of the following represents a benefit of insurance to SOCIETY as a whole, beyond the individual policyholder?",
+    "choices": [
+      "It allows the insured to avoid paying taxes on business losses",
+      "It enables banks to lend against insured assets, facilitating credit and economic activity",
+      "It guarantees that all claims will be paid in full regardless of policy conditions",
+      "It eliminates the need for businesses to implement risk management programmes"
+    ],
+    "answer": 1,
+    "explanation": "Insurance provides social benefits including enabling credit (lenders require insurance on mortgaged assets), facilitating trade and investment, and contributing to economic stability.",
+    "jpComparison": "保険の社会的機能として「信用補完機能」は日本の保険論でも強調される。担保物件への火災保険付保が融資条件となる慣行は日本でも同様。",
+    "keywords": ["benefit of insurance", "society", "credit", "economic activity"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-029",
+    "topic": "Risks & Insurance",
+    "question": "A manufacturing company buys a single policy covering all its 5,000 employees for group personal accident insurance. How does GROUP insurance differ from INDIVIDUAL insurance?",
+    "choices": [
+      "Group insurance has no underwriting process; individual insurance always requires a medical examination",
+      "Group insurance covers multiple insured persons under one policy, typically without individual underwriting; individual insurance covers one person with specific underwriting",
+      "Group insurance can only be purchased directly from MAS; individual insurance is sold through brokers",
+      "Group insurance pays benefits only to the employer; individual insurance pays directly to the insured person"
+    ],
+    "answer": 1,
+    "explanation": "Group insurance covers a defined group of people under a master policy, often using simplified or no individual underwriting because the risk is spread across the group.",
+    "jpComparison": "日本でも「団体保険」と「個人保険」の区別は同様。団体の場合は告知義務が簡略化され、団体割引が適用される。",
+    "keywords": ["group insurance", "individual insurance", "underwriting", "master policy"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-030",
+    "topic": "Risks & Insurance",
+    "question": "A risk management consultant advises a client to install sprinkler systems and conduct regular fire drills. This is an example of which method of handling risk?",
+    "choices": [
+      "Risk avoidance — the client is avoiding fire risk entirely",
+      "Risk transfer — the client is transferring fire risk to the sprinkler company",
+      "Risk reduction / minimisation — the client is taking steps to reduce probability and severity of loss",
+      "Risk retention — the client is choosing not to insure the risk"
+    ],
+    "answer": 2,
+    "explanation": "Risk reduction (minimisation) involves taking active steps to lower the frequency or severity of potential losses — such as installing fire suppression systems or training employees.",
+    "jpComparison": "日本語では「リスク軽減」または「リスクコントロール」と呼ばれる。損害防止活動（スプリンクラー設置等）は保険料割引の対象になる場合もある。",
+    "keywords": ["risk reduction", "minimisation", "sprinkler", "risk management methods"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-031",
+    "topic": "Principles of Insurance",
+    "question": "In general insurance, at what point must insurable interest exist?",
+    "choices": [
+      "At inception of the policy only",
+      "At the time of loss only",
+      "At both inception and time of loss",
+      "Either at inception or at time of loss"
+    ],
+    "answer": 1,
+    "explanation": "In general insurance, insurable interest must exist at the time of loss. This is different from life insurance, where insurable interest is only required at inception.",
+    "jpComparison": "日本の損害保険でも保険事故発生時（損害発生時）に被保険利益が存在することが必要。生命保険は契約時のみ必要という点はシンガポールと同様。",
+    "keywords": ["insurable interest", "general insurance", "time of loss"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-032",
+    "topic": "Principles of Insurance",
+    "question": "A policyholder takes out a fire policy on a warehouse. Six months later, he sells the warehouse but keeps the policy. When the warehouse burns down, the insurer refuses to pay. What is the most likely legal basis for refusal?",
+    "choices": [
+      "The policy has expired",
+      "The insured failed to notify the insurer of the sale",
+      "The insured had no insurable interest at the time of loss",
+      "The sale constituted a material misrepresentation"
+    ],
+    "answer": 2,
+    "explanation": "In general insurance, insurable interest must exist at the time of loss. Once the warehouse was sold, the insured no longer had a legal or financial interest in it.",
+    "jpComparison": "日本でも物件売却後に保険を継続したまま保険金請求しても、被保険利益が消滅しているため支払われない。譲渡時には保険の移転手続きが必要。",
+    "keywords": ["insurable interest", "time of loss", "property sold"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-033",
+    "topic": "Principles of Insurance",
+    "question": "Which of the following BEST describes a 'material fact' in the context of utmost good faith?",
+    "choices": [
+      "Any fact that the insured considers important",
+      "A fact that increases the premium by more than 10%",
+      "A fact that would influence the judgment of a prudent insurer in fixing the premium or deciding to accept the risk",
+      "A fact that is listed in the proposal form questions"
+    ],
+    "answer": 2,
+    "explanation": "A material fact is one that would influence a prudent insurer's decision to accept the risk or determine the premium. It is not limited to what the insured thinks is important or what is listed in the proposal form.",
+    "jpComparison": "日本の告知義務でも「重要な事項」は保険会社が質問した事項が基本だが、シンガポールでは自発的開示（ボランタリー・ディスクロージャー）の概念が強い。",
+    "keywords": ["material fact", "utmost good faith", "uberrimae fidei", "prudent insurer"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-034",
+    "topic": "Principles of Insurance",
+    "question": "Under the principle of utmost good faith, when does the duty of disclosure continue?",
+    "choices": [
+      "Only at the time of the original application",
+      "Throughout the entire policy period",
+      "At inception and at each renewal",
+      "Only when a claim is made"
+    ],
+    "answer": 2,
+    "explanation": "The duty of disclosure applies at inception of the policy and continues at each renewal. Renewal is treated as a new contract, so all material facts must be disclosed again.",
+    "jpComparison": "日本の損害保険でも更新時（継続契約時）には告知義務が生じる。特に通知義務（危険増加の場合の告知）は契約期間中も継続する。",
+    "keywords": ["duty of disclosure", "renewal", "utmost good faith"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-035",
+    "topic": "Principles of Insurance",
+    "question": "An insured deliberately conceals a previous criminal conviction when applying for a liability policy. This is BEST described as:",
+    "choices": [
+      "Innocent non-disclosure",
+      "Negligent non-disclosure",
+      "Fraudulent non-disclosure",
+      "Innocent misrepresentation"
+    ],
+    "answer": 2,
+    "explanation": "Deliberately concealing a known material fact constitutes fraudulent non-disclosure. The insured knew about the conviction and chose not to reveal it, demonstrating intent to deceive.",
+    "jpComparison": "日本でも告知義務違反には「故意または重過失」が必要だが、故意（詐欺的）の場合は告知義務違反による解除に加え、詐欺による取消しも主張できる。",
+    "keywords": ["non-disclosure", "fraudulent", "misrepresentation", "utmost good faith"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-036",
+    "topic": "Principles of Insurance",
+    "question": "The principle of indemnity aims to:",
+    "choices": [
+      "Ensure the insured profits from a loss",
+      "Restore the insured to the same financial position as immediately before the loss",
+      "Guarantee the insured receives the full sum insured on any claim",
+      "Prevent the insurer from making a profit on premiums"
+    ],
+    "answer": 1,
+    "explanation": "Indemnity means placing the insured in the same financial position as before the loss — no better, no worse. It prevents the insured from profiting from insurance.",
+    "jpComparison": "日本損害保険の実損填補の原則と同じ。「損害保険は賭博ではない」という原則で、モラルハザードを防ぐ。",
+    "keywords": ["indemnity", "pre-loss position", "no better no worse"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-037",
+    "topic": "Principles of Insurance",
+    "question": "A building is insured for S$500,000 but its actual value at time of loss is S$1,000,000. A fire causes S$200,000 of damage. Under the average clause, how much will the insurer pay?",
+    "choices": [
+      "S$200,000",
+      "S$100,000",
+      "S$150,000",
+      "S$500,000"
+    ],
+    "answer": 1,
+    "explanation": "Under the average clause, the insurer pays in proportion to the sum insured vs actual value: (500,000 / 1,000,000) × 200,000 = S$100,000. The insured bears the remaining S$100,000 as co-insurer.",
+    "jpComparison": "日本では「一部保険」と呼ばれ、比例填補が適用される。比例填補条項はシンガポールの average clause と同じ機能。",
+    "keywords": ["under-insurance", "average clause", "proportional indemnity"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-038",
+    "topic": "Principles of Insurance",
+    "question": "Which of the following conditions must be met for the doctrine of subrogation to apply?",
+    "choices": [
+      "The policy must be a life insurance policy",
+      "The insurer must have paid the claim and the insured must have a right of action against a third party",
+      "The loss must be caused by the insured's own negligence",
+      "The insured must request subrogation in writing before the claim is settled"
+    ],
+    "answer": 1,
+    "explanation": "Subrogation requires: (1) the policy must be a contract of indemnity, (2) the insurer must have paid the claim, and (3) the insured must have a right of action against a third party. Life insurance is not a contract of indemnity, so subrogation does not apply.",
+    "jpComparison": "日本の代位（サブロゲーション）と同じ。損害保険では保険金支払後、被保険者の第三者への損害賠償請求権が保険者に移転する（保険法25条）。",
+    "keywords": ["subrogation", "third party", "indemnity", "right of action"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-039",
+    "topic": "Principles of Insurance",
+    "question": "Two insurers each cover the same property for S$600,000. The property is worth S$600,000 and suffers a total loss. Under the respective sums insured method of contribution, how much does each insurer pay?",
+    "choices": [
+      "S$600,000 each",
+      "S$300,000 each",
+      "The first insurer pays in full; the second pays nothing",
+      "Each pays S$400,000"
+    ],
+    "answer": 1,
+    "explanation": "Under the respective sums insured method, each insurer contributes in proportion to their sum insured. Both sums insured are equal, so each pays 50% of the S$600,000 loss = S$300,000 each.",
+    "jpComparison": "日本では「重複保険」と呼ばれ、独立責任額按分方式が一般的。シンガポールのrespective sums insured methodは日本の保険金額比例按分に近い。",
+    "keywords": ["contribution", "double insurance", "respective sums insured", "pro rata"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-040",
+    "topic": "Principles of Insurance",
+    "question": "A cargo ship sinks due to a simultaneous storm (insured peril) and an excluded war risk. Under proximate cause analysis, the court will look for:",
+    "choices": [
+      "The cause nearest in time to the loss",
+      "The most recent cause of the loss",
+      "The dominant, operative, and effective cause of the loss",
+      "The cause that was easiest to prevent"
+    ],
+    "answer": 2,
+    "explanation": "Proximate cause is the dominant, operative, and effective cause of the loss — not the nearest in time. Courts examine which cause was the real and effective cause.",
+    "jpComparison": "日本でも「近因主義」が採用されており、時間的に最も近い原因ではなく支配的・有効的な原因を探る。",
+    "keywords": ["proximate cause", "dominant cause", "concurrent causes", "peril"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-041",
+    "topic": "Law of Contract & Agency",
+    "question": "Which of the following represents the consideration provided by the insured in an insurance contract?",
+    "choices": [
+      "The signed proposal form",
+      "The insurance premium",
+      "The insured's promise to maintain the property",
+      "The certificate of insurance"
+    ],
+    "answer": 1,
+    "explanation": "In an insurance contract, the insured's consideration is the payment of the premium. The insurer's consideration is the promise to indemnify the insured against covered losses.",
+    "jpComparison": "英米法の「約因（consideration）」の概念は日本法にはないが、保険料が契約の対価であることは日本でも同じ。",
+    "keywords": ["consideration", "premium", "contract elements"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-042",
+    "topic": "Law of Contract & Agency",
+    "question": "Under Singapore law, a minor who is between 10 and 16 years old wishes to purchase an insurance policy. What is required?",
+    "choices": [
+      "The minor cannot purchase insurance under any circumstances",
+      "The minor can purchase insurance without any restriction",
+      "The minor requires parental consent",
+      "The minor must wait until age 18 to purchase any insurance"
+    ],
+    "answer": 2,
+    "explanation": "Under Singapore law, minors aged 10 to 16 require parental consent to enter into an insurance contract. Minors aged 16 and above may purchase insurance without parental consent.",
+    "jpComparison": "日本では未成年者（18歳未満）の契約は原則として法定代理人の同意が必要（民法5条）。シンガポールでは16歳以上は親の同意なく保険加入できる点が異なる。",
+    "keywords": ["minor", "capacity", "parental consent", "age 16"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-043",
+    "topic": "Law of Contract & Agency",
+    "question": "A contract entered into under duress is:",
+    "choices": [
+      "Void ab initio",
+      "Voidable at the option of the innocent party",
+      "Illegal and unenforceable",
+      "Valid and fully binding"
+    ],
+    "answer": 1,
+    "explanation": "Duress is a vitiating factor that makes a contract voidable, not void. The innocent party has the option to affirm or rescind the contract.",
+    "jpComparison": "日本民法では強迫（kyohaku）による意思表示は取消可能（民法96条）。英法の「voidable」は日本法の「取り消しうる」に相当。",
+    "keywords": ["duress", "vitiating factors", "voidable", "void"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-044",
+    "topic": "Law of Contract & Agency",
+    "question": "Under the Civil Law Act 1909 in Singapore, gaming and wagering contracts are:",
+    "choices": [
+      "Voidable at the insurer's option",
+      "Valid only if both parties are licensed",
+      "Void",
+      "Enforceable only in civil court"
+    ],
+    "answer": 2,
+    "explanation": "Under Section 5 of the Civil Law Act 1909, gaming and wagering contracts are void in Singapore. This underpins the requirement for insurable interest — without it, an insurance contract would be a mere wager.",
+    "jpComparison": "日本でも賭博は公序良俗違反で無効（民法90条）。保険契約で被保険利益が必要な理由の一つは、利益なしの保険は賭博と同質になるため。",
+    "keywords": ["Civil Law Act 1909", "gaming", "wagering", "void", "Section 5"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-045",
+    "topic": "Law of Contract & Agency",
+    "question": "Which of the following is NOT a method by which an agency relationship can be created?",
+    "choices": [
+      "By express agreement",
+      "By ratification",
+      "By operation of statute",
+      "By necessity"
+    ],
+    "answer": 2,
+    "explanation": "Agency can be created by agreement (express or implied), by ratification, by necessity, and by estoppel. 'By operation of statute' is not a recognized method of creating agency.",
+    "jpComparison": "日本の代理は任意代理と法定代理に分かれるが、シンガポールの保険代理はコモン・ロー上の代理法理が中心で、追認（ratification）や表見代理（estoppel）が重要概念。",
+    "keywords": ["agency", "ratification", "estoppel", "necessity", "express agreement"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-046",
+    "topic": "Law of Contract & Agency",
+    "question": "Under Section 64 of the Insurance Act in Singapore, what document is required for a person to act as an insurance agent?",
+    "choices": [
+      "A Certificate of Insurance",
+      "A Cover Note",
+      "An Agency Agreement",
+      "A Proposal Form"
+    ],
+    "answer": 2,
+    "explanation": "Section 64 of the Insurance Act requires that an Agency Agreement must be in place between the insurer and the agent before a person can legally act as an insurance agent.",
+    "jpComparison": "日本では保険代理店の委託契約（代理店委託契約書）が必要で、保険業法で規定されている。シンガポールのSection 64の要求と実質的に同等。",
+    "keywords": ["Insurance Act", "Section 64", "Agency Agreement", "insurance agent"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-047",
+    "topic": "Law of Contract & Agency",
+    "question": "An insurance agent exceeds his actual authority and issues a cover note on behalf of the insurer to a client. The insurer has, in the past, consistently ratified similar actions by this agent. The insurer will likely be bound because of:",
+    "choices": [
+      "Express authority",
+      "Implied authority",
+      "Apparent (ostensible) authority",
+      "Authority by necessity"
+    ],
+    "answer": 2,
+    "explanation": "Apparent or ostensible authority arises when the principal's conduct leads a third party to reasonably believe the agent has authority. Consistent past ratification creates this appearance, binding the principal.",
+    "jpComparison": "日本の表見代理（民法109条・110条・112条）と同じ概念。保険代理店が権限外の行為をしても、保険会社がそのような外観を作り出していた場合、責任を負う。",
+    "keywords": ["apparent authority", "ostensible authority", "agent", "principal"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-048",
+    "topic": "Law of Contract & Agency",
+    "question": "Which of the following is a DUTY of an insurance agent towards the principal (insurer)?",
+    "choices": [
+      "Right to remuneration",
+      "Right to a lien over documents",
+      "Fiduciary duty to act in the principal's interest",
+      "Right to indemnity for expenses"
+    ],
+    "answer": 2,
+    "explanation": "The fiduciary duty to act in the principal's interest is a duty of the agent. Remuneration, lien, and indemnity for expenses are rights of the agent, not duties.",
+    "jpComparison": "日本の代理商・保険代理店にも善管注意義務や忠実義務がある。フィデューシャリー義務はコモン・ロー特有だが、日本法の善管注意義務と機能的に対応する。",
+    "keywords": ["fiduciary duty", "agent duties", "agent rights", "principal"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-049",
+    "topic": "Law of Contract & Agency",
+    "question": "An insurance agent's actual authority terminates upon the death of the principal. What happens to apparent authority in this situation?",
+    "choices": [
+      "Apparent authority also terminates immediately upon the principal's death",
+      "Apparent authority continues until third parties receive notice of the principal's death",
+      "Apparent authority is unaffected and continues indefinitely",
+      "Apparent authority transfers to the agent's next of kin"
+    ],
+    "answer": 1,
+    "explanation": "Upon the death of a principal, actual authority terminates automatically. However, apparent authority continues to bind the estate until third parties have been given notice.",
+    "jpComparison": "日本民法では代理権は本人の死亡で消滅するが（111条1項）、表見代理的保護は相手方が死亡を知らない場合に一定程度機能しうる。",
+    "keywords": ["apparent authority", "termination of agency", "death of principal", "notice"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-050",
+    "topic": "Law of Contract & Agency",
+    "question": "For a misrepresentation to vitiate a contract, which of the following conditions does NOT need to be satisfied?",
+    "choices": [
+      "It must be a statement of fact",
+      "It must be material",
+      "It must have induced the other party to enter the contract",
+      "It must have been made with fraudulent intent"
+    ],
+    "answer": 3,
+    "explanation": "A misrepresentation only needs to be a statement of fact, material, and must have induced the contract. Fraudulent intent is NOT required — innocent and negligent misrepresentation can also vitiate a contract.",
+    "jpComparison": "日本民法の詐欺（96条）は故意が必要だが、英法の misrepresentation は innocent/negligent でも契約取消事由となりうる。",
+    "keywords": ["misrepresentation", "vitiating factors", "fraudulent intent"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-051",
+    "topic": "Insurance Documents",
+    "question": "Who CANNOT sign the proposal form on behalf of the proposer?",
+    "choices": [
+      "The proposer's authorized legal representative",
+      "The insurance agent handling the application",
+      "The proposer's spouse with written authorization",
+      "A company director signing on behalf of a corporate proposer"
+    ],
+    "answer": 1,
+    "explanation": "While an agent may assist in completing the proposal form, the agent cannot sign the proposal form on the proposer's behalf. The proposer or their duly authorized representative must sign it.",
+    "jpComparison": "日本でも告知書は被保険者・契約者本人が記入・署名するものであり、代理店が代筆・代署することは告知義務違反につながるリスクがある。",
+    "keywords": ["proposal form", "agent", "signature", "proposer"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-052",
+    "topic": "Insurance Documents",
+    "question": "What is the primary legal purpose of the declaration at the end of a proposal form?",
+    "choices": [
+      "To confirm the proposer's identity for KYC purposes",
+      "To strengthen the proposal form's status as the basis of the insurance contract",
+      "To waive the insurer's right to investigate the claim",
+      "To authorize the agent to bind coverage immediately"
+    ],
+    "answer": 1,
+    "explanation": "The declaration signed by the proposer confirms the truth and completeness of all answers, strengthening the proposal form's status as the basis of the contract.",
+    "jpComparison": "日本の保険申込書末尾の「記載事項はすべて真実です」という署名欄と同じ機能。告知義務の基礎となる。",
+    "keywords": ["declaration", "proposal form", "basis of contract"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-053",
+    "topic": "Insurance Documents",
+    "question": "A cover note is BEST described as:",
+    "choices": [
+      "A summary document issued after the policy is printed",
+      "Temporary insurance cover with the same legal status as a full policy",
+      "A document confirming only that a proposal has been received",
+      "A non-binding indication of premium terms"
+    ],
+    "answer": 1,
+    "explanation": "A cover note provides temporary insurance coverage and has the same legal standing as the actual policy. It is typically valid for 15–30 days while the formal policy is being prepared.",
+    "jpComparison": "日本の「仮保険証券」に相当する。日本でも仮保険証券は正式な保険証券と同様の法的効力を持つ。",
+    "keywords": ["cover note", "temporary cover", "legal status", "15-30 days"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-054",
+    "topic": "Insurance Documents",
+    "question": "Under which legislation is a Certificate of Insurance required for motor vehicles in Singapore?",
+    "choices": [
+      "Road Traffic Act 1961",
+      "Motor Vehicles (Third-Party Risks and Compensation) Act 1960",
+      "Insurance Act (Cap. 142)",
+      "Civil Law Act 1909"
+    ],
+    "answer": 1,
+    "explanation": "The Motor Vehicles (Third-Party Risks and Compensation) Act 1960 requires a Certificate of Insurance for motor vehicles to be used on public roads in Singapore.",
+    "jpComparison": "日本の自動車損害賠償保障法（自賠法）に相当する強制保険の根拠法。日本では「自賠責保険証明書」の携帯が義務付けられている。",
+    "keywords": ["certificate of insurance", "motor vehicle", "compulsory insurance", "Motor Vehicles Act 1960"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-055",
+    "topic": "Insurance Documents",
+    "question": "Where must a Work Injury Compensation (WIC) Certificate of Insurance be displayed?",
+    "choices": [
+      "Submitted to MAS electronically",
+      "At the insured's place of business",
+      "Carried by the insured's HR manager at all times",
+      "Posted on the insurer's website"
+    ],
+    "answer": 1,
+    "explanation": "A WIC Certificate of Insurance must be displayed at the insured's place of business, so that employees can see evidence of the compulsory coverage.",
+    "jpComparison": "日本の労災は政府管掌の強制保険のため証明書掲示義務はないが、シンガポールのWICは民間保険での強制加入制度であり、掲示義務がある。",
+    "keywords": ["WIC", "Work Injury Compensation", "certificate", "display"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-056",
+    "topic": "Insurance Documents",
+    "question": "The operative clause in an insurance policy is BEST described as:",
+    "choices": [
+      "The section listing all exclusions from coverage",
+      "The core section stating what events are covered and the insurer's promise to pay",
+      "The schedule identifying the insured's name and premium amount",
+      "The conditions the insured must comply with"
+    ],
+    "answer": 1,
+    "explanation": "The operative clause (also called the insuring clause) is the core of the policy — it defines the insurer's promise, specifying the events covered and the insurer's obligation to pay.",
+    "jpComparison": "日本の保険証券の「保険金支払条項」「補償条項」に相当。保険者の主たる義務（保険金支払義務）の根拠となる条項。",
+    "keywords": ["operative clause", "insuring clause", "policy sections", "coverage"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-057",
+    "topic": "Insurance Documents",
+    "question": "The rule of 'contra proferentem' in insurance policy interpretation means:",
+    "choices": [
+      "The insured must prove loss before the insurer pays",
+      "Any ambiguity in the policy wording is construed against the party who drafted it (the insurer)",
+      "The insurer's interpretation of a claim always prevails",
+      "Policy exclusions override all other clauses"
+    ],
+    "answer": 1,
+    "explanation": "Contra proferentem is the principle that ambiguous terms are interpreted against the party who drafted the document — in insurance, this means ambiguity is construed against the insurer.",
+    "jpComparison": "日本でも「作成者不利の原則」として保険約款の不明確な条項は保険会社に不利に解釈される傾向がある。",
+    "keywords": ["contra proferentem", "ambiguity", "policy interpretation", "insurer"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-058",
+    "topic": "Insurance Documents",
+    "question": "An insured breaches a warranty in their fire policy by storing prohibited chemicals on the premises. The insurer discovers this six months later. What is the legal consequence?",
+    "choices": [
+      "The insurer may void only claims related to the chemicals",
+      "The insurer is discharged from liability from the date of breach",
+      "The insurer must give 30 days notice before the policy can be cancelled",
+      "The insured loses coverage only after a formal warning from the insurer"
+    ],
+    "answer": 1,
+    "explanation": "A warranty must be strictly complied with. Breach of warranty discharges the insurer from liability from the date of breach — regardless of whether the breach is connected to the loss.",
+    "jpComparison": "日本の保険法では特約違反の場合、損害との因果関係がなくても保険金支払義務が免除されることがある。ただし日本法はwarranty違反への対応がやや柔軟。",
+    "keywords": ["warranty", "breach", "discharged from liability", "strict compliance"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-059",
+    "topic": "Insurance Documents",
+    "question": "Under the GIA Code of Practice, how many business days' advance notice should an insurer give for renewal of a personal lines policy?",
+    "choices": [
+      "7 business days",
+      "14 business days",
+      "30 business days",
+      "60 business days"
+    ],
+    "answer": 2,
+    "explanation": "Under the GIA Code of Practice, insurers should give at least 30 business days' advance notice of renewal for personal lines policies, although sending a renewal notice is not a strict legal requirement.",
+    "jpComparison": "日本の損害保険では更新案内を期日前に送る慣行があるが、法定の提示期日は保険種目によって異なる。シンガポールのGIAコードは30営業日という具体的基準。",
+    "keywords": ["GIA Code", "renewal notice", "30 business days", "personal lines"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-060",
+    "topic": "Insurance Documents",
+    "question": "When an insurer issues a claim form to an insured, what does this action signify?",
+    "choices": [
+      "The insurer has accepted liability for the claim",
+      "The insurer is initiating legal proceedings against the insured",
+      "The claim form is issued without admission of liability",
+      "The insured's coverage has been confirmed as valid"
+    ],
+    "answer": 2,
+    "explanation": "A claim form is issued to gather information. It is issued without any admission of liability by the insurer — the insurer is still investigating at this stage.",
+    "jpComparison": "日本でも事故受付後に送付する「保険金請求書」には免責文言が付されることが多く、シンガポールの「without admission of liability」と同趣旨。",
+    "keywords": ["claim form", "admission of liability", "claims process"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-061",
+    "topic": "Claims",
+    "question": "When a loss occurs, what is the insured's primary duty regarding loss minimization?",
+    "choices": [
+      "Wait for the loss adjuster to arrive before taking any action",
+      "Act as if uninsured and take all reasonable steps to minimize the loss",
+      "Immediately file a police report regardless of the type of loss",
+      "Contact the loss assessor before notifying the insurer"
+    ],
+    "answer": 1,
+    "explanation": "The insured has a duty to act as if uninsured — meaning they must take all reasonable steps to minimize or prevent further loss, just as any prudent uninsured person would.",
+    "jpComparison": "日本の損害保険でも「損害防止義務」があり、被保険者は損害の拡大を防ぐために合理的な措置を取る義務がある。",
+    "keywords": ["duty of insured", "loss minimization", "claims"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-062",
+    "topic": "Claims",
+    "question": "Regarding the burden of proof in a general insurance claim, which of the following correctly describes the insured's onus?",
+    "choices": [
+      "The insured must prove that the insurer acted in bad faith",
+      "The insured must prove both that the peril insured arose and the amount of the loss",
+      "The insured only needs to submit a completed claim form; proof lies with the insurer",
+      "The insured must prove the loss was not caused by their own negligence"
+    ],
+    "answer": 1,
+    "explanation": "The insured bears the onus of proving two things: (1) that the insured peril occurred, and (2) the amount of the loss claimed.",
+    "jpComparison": "日本でも保険金請求では被保険者が保険事故の発生と損害額を立証する必要がある。「証明責任は請求者にあり」という原則は同様。",
+    "keywords": ["onus of proof", "burden of proof", "claims"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-063",
+    "topic": "Claims",
+    "question": "A loss adjuster and a loss assessor play different roles in the claims process. Which statement correctly distinguishes them?",
+    "choices": [
+      "Loss adjusters are appointed by the insured; loss assessors are appointed by the insurer",
+      "Both are independent professionals, but loss adjusters specialize in large commercial claims only",
+      "Loss adjusters are appointed and paid by the insurer; loss assessors are appointed and paid by the insured",
+      "Loss assessors are regulated by MAS; loss adjusters are self-regulated"
+    ],
+    "answer": 2,
+    "explanation": "Loss adjusters are independent specialists appointed and paid by the insurer. Loss assessors are appointed and paid by the insured to represent the insured's interests in negotiating the claim.",
+    "jpComparison": "日本では「損害調査員（アジャスター）」は保険会社側の専門家。被保険者側の「ロスアセッサー」に相当する職種は日本では一般的ではない。",
+    "keywords": ["loss adjuster", "loss assessor", "claims professionals"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-064",
+    "topic": "Claims",
+    "question": "Under the GIA Motor Claims Framework, within what timeframe must a motor accident be reported at an approved reporting centre?",
+    "choices": [
+      "Within 12 hours of the accident",
+      "Within 24 hours or the next working day after the accident",
+      "Within 48 hours of the accident",
+      "Within 3 working days of the accident"
+    ],
+    "answer": 1,
+    "explanation": "The GIA Motor Claims Framework requires motor accidents to be reported at an approved reporting centre within 24 hours or the next working day.",
+    "jpComparison": "日本の自動車保険でも事故発生後の速やかな報告義務があるが、シンガポールでは24時間以内という具体的な時限が定められている。",
+    "keywords": ["GIA Motor Claims Framework", "motor claims", "reporting requirement"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-065",
+    "topic": "Claims",
+    "question": "The BOLA (Barometer of Liability Agreement) is used in Singapore's motor insurance industry for which purpose?",
+    "choices": [
+      "Determining premium rates for high-risk drivers",
+      "Apportioning liability among motor insurers involved in an accident",
+      "Setting minimum reserve requirements for motor claim funds",
+      "Regulating the appointment of loss adjusters for motor claims"
+    ],
+    "answer": 1,
+    "explanation": "BOLA is used by all Singapore motor insurers to apportion liability between the insurers of vehicles involved in an accident using predetermined charts.",
+    "jpComparison": "日本では自動車事故の過失割合は「別冊判例タイムズ」等の基準を参考に決定される。シンガポールのBOLAは保険会社間の自主的な協定。",
+    "keywords": ["BOLA", "liability apportionment", "motor insurance"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-066",
+    "topic": "Claims",
+    "question": "Under the Limitation Act 1959 (Section 24A), what are the limitation periods for personal injuries versus other insurance claims?",
+    "choices": [
+      "Personal injuries: 2 years; others: 5 years",
+      "Personal injuries: 3 years; others: 6 years",
+      "Personal injuries: 5 years; others: 10 years",
+      "Personal injuries: 1 year; others: 3 years"
+    ],
+    "answer": 1,
+    "explanation": "Under the Limitation Act 1959 Section 24A, personal injury claims have a 3-year limitation and other claims have a 6-year limitation.",
+    "jpComparison": "日本民法では不法行為の損害賠償請求権は原則3年（人身損害）または5年（財産損害）。シンガポールの人身3年は日本と同じだが、財産6年は日本より長い。",
+    "keywords": ["Limitation Act", "limitation period", "3 years", "6 years"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-067",
+    "topic": "Claims",
+    "question": "In the context of claims, what is the key difference between mediation and arbitration?",
+    "choices": [
+      "Mediation is legally binding; arbitration is advisory only",
+      "A mediator facilitates settlement without imposing a decision; an arbitrator makes a binding decision",
+      "Arbitration is always cheaper than mediation for resolving insurance disputes",
+      "Mediation applies only to motor claims; arbitration applies to all other classes"
+    ],
+    "answer": 1,
+    "explanation": "A mediator facilitates discussions and helps parties reach a mutually agreed settlement. An arbitrator hears both sides and makes a binding decision, similar to a private judge.",
+    "jpComparison": "日本でも調停（mediation）と仲裁（arbitration）は区別される。仲裁法による仲裁判断は確定判決と同一の効力を持つ。",
+    "keywords": ["mediation", "arbitration", "dispute resolution"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-068",
+    "topic": "Claims",
+    "question": "Singapore's GIA launched the GIFT (GIA Insurance Fraud Tip-off) scheme to combat insurance fraud. What is the maximum reward offered?",
+    "choices": [
+      "S$5,000",
+      "S$10,000",
+      "S$20,000",
+      "S$50,000"
+    ],
+    "answer": 1,
+    "explanation": "The GIA GIFT scheme offers rewards of up to S$10,000 for tip-offs leading to successful prosecution. This is complemented by FMS (2017, using AI) and CIB (launched June 2020).",
+    "jpComparison": "日本損害保険協会も「不正請求110番」等の通報制度を持つが、金銭的報奨制度はシンガポールのGIFTほど明確ではない。",
+    "keywords": ["GIFT scheme", "insurance fraud", "GIA", "S$10,000"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-069",
+    "topic": "Claims",
+    "question": "After an insurer pays a total loss claim and takes possession of the damaged property, the remaining value of that property is referred to as:",
+    "choices": [
+      "Subrogation proceeds",
+      "Abandonment premium",
+      "Salvage value",
+      "Reinstatement credit"
+    ],
+    "answer": 2,
+    "explanation": "After paying a total loss claim, the insurer becomes entitled to the salvage value — the residual worth of the damaged or recovered property.",
+    "jpComparison": "日本でも全損払い後の残存物（サルベージ）は保険会社に帰属する。これは「残存物代位」と呼ばれ、保険法24条に規定がある。",
+    "keywords": ["salvage", "total loss", "claims settlement"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-070",
+    "topic": "Claims",
+    "question": "The four basic methods of claim settlement are:",
+    "choices": [
+      "Mediation, arbitration, litigation, and negotiation",
+      "Repair, replacement, reinstatement, and cash payment",
+      "Total loss, partial loss, constructive total loss, and salvage",
+      "Contribution, subrogation, indemnity, and average"
+    ],
+    "answer": 1,
+    "explanation": "The four basic claim settlement methods are: (1) Repair — restoring the damaged item, (2) Replacement — providing a new item, (3) Reinstatement — rebuilding to pre-loss condition, and (4) Cash payment — direct monetary settlement.",
+    "jpComparison": "日本の損害保険でも「修理」「交換」「再築」「金銭支払」という保険金支払方法の区分は基本的に同じ。自動車保険では修理が多く、火災保険では金銭支払が一般的。",
+    "keywords": ["claim settlement", "repair", "replacement", "reinstatement", "cash payment"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-071",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "What is the fundamental principle governing the relationship between a policyholder and a reinsurer?",
+    "choices": [
+      "The policyholder can claim directly from the reinsurer if the insurer becomes insolvent",
+      "The policyholder has no direct contractual relationship with the reinsurer",
+      "The reinsurer shares joint liability with the insurer for all claims",
+      "The reinsurer must be notified within 30 days of any major claim"
+    ],
+    "answer": 1,
+    "explanation": "A fundamental principle of reinsurance is that the policyholder has no direct relationship with the reinsurer. The contract exists only between the cedant and the reinsurer.",
+    "jpComparison": "日本の再保険でも同様。被保険者���再保険会社の間に直接の法律関係はなく、元受保険会社が倒産しても再保険会社に直接請求できない。",
+    "keywords": ["reinsurance", "cedant", "policyholder relationship"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-072",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "What is 'retrocession' in the context of reinsurance?",
+    "choices": [
+      "The process by which a cedant cancels a reinsurance treaty",
+      "When a reinsurer cedes part of its assumed risk to another reinsurer (retrocessionaire)",
+      "The return of unearned premium when a reinsurance contract is terminated early",
+      "A proportional sharing arrangement between two direct insurers"
+    ],
+    "answer": 1,
+    "explanation": "Retrocession occurs when a reinsurer purchases reinsurance — passing some of its assumed risk to another reinsurer called a retrocessionaire.",
+    "jpComparison": "日本でも「再再保険」または「レトロセッション」として知られている。大規模自然災害リスク等は連鎖的にリスクが分散される。",
+    "keywords": ["retrocession", "retrocessionaire", "reinsurance chain"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-073",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Which of the following is a key characteristic of facultative reinsurance that distinguishes it from treaty reinsurance?",
+    "choices": [
+      "The reinsurer must automatically accept all risks submitted by the cedant",
+      "It covers an entire class of business rather than individual risks",
+      "Both the ceding company and reinsurer have the freedom to offer and decline individual risks",
+      "Premium rates are fixed annually regardless of individual risk quality"
+    ],
+    "answer": 2,
+    "explanation": "Facultative reinsurance is arranged on a case-by-case basis. The ceding company is free to offer any risk, and the reinsurer is free to accept or decline. Treaty reinsurance involves automatic acceptance.",
+    "jpComparison": "日本でも「任意再保険（ファカルタティブ）」と「特約再保険（トリーティ）」の区別は同じ。ファカルタティブは大型・特殊リスクに使われる。",
+    "keywords": ["facultative reinsurance", "treaty reinsurance", "risk cession"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-074",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Under a quota share treaty, an insurer retains 40% of all premiums and claims for a class of business. If a claim of S$500,000 arises, how much does the reinsurer pay?",
+    "choices": [
+      "S$200,000",
+      "S$300,000",
+      "S$400,000",
+      "S$500,000"
+    ],
+    "answer": 1,
+    "explanation": "If the insurer retains 40%, the reinsurer's share is 60%. On a S$500,000 claim: 60% × S$500,000 = S$300,000.",
+    "jpComparison": "日本の「比例再保険」のクォータシェアと同じ仕組み。一定割合を機械的に分担するため計算が単純明快。",
+    "keywords": ["quota share", "proportional reinsurance", "claims calculation"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-075",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "An insurer has an excess of loss reinsurance arrangement with a retention of S$1,000,000. A claim of S$1,400,000 arises. How much does the reinsurer pay?",
+    "choices": [
+      "S$1,000,000",
+      "S$1,400,000",
+      "S$400,000",
+      "S$700,000"
+    ],
+    "answer": 2,
+    "explanation": "Under excess of loss reinsurance, the reinsurer only pays the amount exceeding the retention: S$1,400,000 − S$1,000,000 = S$400,000.",
+    "jpComparison": "日本の「超過損害再保険（エクセス・オブ・ロス）」と同じ。一定額を超えた部分のみ再保険が発動する仕組み。",
+    "keywords": ["excess of loss", "non-proportional reinsurance", "retention"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-076",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "What are the four main objectives of reinsurance?",
+    "choices": [
+      "Profit sharing, regulatory compliance, market expansion, customer retention",
+      "Security/confidence, stability, capacity, catastrophe protection",
+      "Premium reduction, claims acceleration, fraud prevention, capital efficiency",
+      "Risk transfer, tax optimization, liquidity management, brand enhancement"
+    ],
+    "answer": 1,
+    "explanation": "The four main objectives are: (1) Security/confidence, (2) Stability, (3) Capacity, (4) Catastrophe protection.",
+    "jpComparison": "日本でも再保険の目的は「支払能力の確保」「損益の安定化」「引受容量の拡大」「巨大災害への対応」として整理されている。",
+    "keywords": ["reinsurance objectives", "capacity", "catastrophe protection"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-077",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In a co-insurance arrangement, which statement best describes the nature of each co-insurer's liability?",
+    "choices": [
+      "Each co-insurer is jointly and severally liable for the full policy amount",
+      "The leading insurer bears 100% liability; others act as guarantors",
+      "Each co-insurer's liability is several — limited to their own percentage share only",
+      "Co-insurers are collectively liable and must agree before any payment is made"
+    ],
+    "answer": 2,
+    "explanation": "In co-insurance, each insurer's liability is several (not joint). Each co-insurer is only liable for their own percentage share. If one fails, the others are not obligated to cover the shortfall.",
+    "jpComparison": "日本の「共同保険」でも各保険者の責任は分割責任（several liability）。連帯保証とは異なり、一社が倒産しても他社が代わりに支払う義務はない。",
+    "keywords": ["co-insurance", "several liability", "co-insurer"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-078",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "What happens to the insured's claim if one co-insurer in a co-insurance arrangement becomes insolvent?",
+    "choices": [
+      "The lead insurer automatically covers the insolvent co-insurer's share",
+      "The other co-insurers proportionally absorb the defaulting co-insurer's share",
+      "The insured suffers the shortfall equivalent to the insolvent co-insurer's share",
+      "The reinsurer steps in to cover the insolvent co-insurer's portion"
+    ],
+    "answer": 2,
+    "explanation": "Because each co-insurer's liability is several, if one fails, the others have no obligation to cover the gap. The insured bears the shortfall.",
+    "jpComparison": "日本の共同保険でも同様。一社の倒産により他社が代わりに支払う義務はない。共同保険参加会社の信用力確認が重要な理由。",
+    "keywords": ["co-insurance", "insolvency", "several liability"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-079",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In a co-insurance arrangement, what is the role of the leading insurer?",
+    "choices": [
+      "The leading insurer bears all losses first and recovers from other co-insurers later",
+      "The leading insurer, typically holding the largest share, handles negotiations, surveys, premiums, and policy issuance",
+      "The leading insurer is appointed by MAS and is responsible for regulatory reporting",
+      "The leading insurer provides a guarantee for the other co-insurers' shares"
+    ],
+    "answer": 1,
+    "explanation": "The leading insurer (usually the one with the largest share) acts as the administrator — handling surveys, negotiations, policy issuance, and claims coordination. Their financial responsibility is still limited to their own share.",
+    "jpComparison": "日本の共同保険における「幹事会社」と同じ役割。幹事会社は手続きを一元管理するが、リスク負担は各社のシェアに限定される。",
+    "keywords": ["leading insurer", "co-insurance", "policy administration"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-080",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "A key distinction between co-insurance and reinsurance is what happens when the other party becomes insolvent. Which statement is correct?",
+    "choices": [
+      "In both cases, the insured can still recover 100% from the remaining parties",
+      "If a reinsurer fails, the cedant insurer remains fully liable; if a co-insurer fails, other co-insurers cover the gap",
+      "If a reinsurer fails, the cedant insurer remains fully liable to the insured; if a co-insurer fails, the insured bears the shortfall",
+      "In both cases, MAS's policyholder protection fund compensates the insured"
+    ],
+    "answer": 2,
+    "explanation": "If a reinsurer fails, the cedant insurer still remains fully liable to the original insured. If a co-insurer fails, the other co-insurers are NOT required to cover the failed share — the insured bears the shortfall.",
+    "jpComparison": "再保険と共同保険の倒産時の扱いは日本でも同様。再保険者倒産→元受会社が100%責任。共同保険では各社の分割責任のため欠落シェアは被保険者の負担。",
+    "keywords": ["reinsurance vs co-insurance", "insolvency", "cedant liability"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-081",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "In insurance ethics, which statement correctly describes the relationship between ethics and legal compliance?",
+    "choices": [
+      "Ethics and legal compliance are identical — if an act is legal, it is automatically ethical",
+      "Ethics is a subset of law — all ethical obligations are codified in legislation",
+      "Ethics goes beyond compliance — fulfilling legal obligations does not exhaust all moral obligations",
+      "Legal compliance supersedes ethics — in conflicts, the law always takes precedence"
+    ],
+    "answer": 2,
+    "explanation": "Ethics is NOT compliance. Fulfilling legal obligations is the minimum, but ethical obligations extend further. An insurance professional may act legally but still unethically.",
+    "jpComparison": "日本の保険業界でも「コンプライアンスと倫理は別物」という認識が広まっている。法令遵守だけでは不十分な場面が多い。",
+    "keywords": ["ethics", "compliance", "moral obligations"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-082",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The ETHICS acronym used in the Singapore insurance industry stands for which values?",
+    "choices": [
+      "Efficiency, Transparency, Honesty, Integrity, Compliance, Sustainability",
+      "Excellence, Trustworthiness, Honesty, Integrity, Caring, Selflessness",
+      "Equity, Trust, Humility, Innovation, Commitment, Service",
+      "Empathy, Transparency, Helpfulness, Impartiality, Candor, Standards"
+    ],
+    "answer": 1,
+    "explanation": "The ETHICS acronym stands for: Excellence, Trustworthiness, Honesty, Integrity, Caring, and Selflessness.",
+    "jpComparison": "日本損害保険協会の「行動規範」でも誠実性・顧客本位・透明性等が強調されている。シンガポールのETHICSの「S（Selflessness）」は顧客利益優先の姿勢を示す。",
+    "keywords": ["ETHICS acronym", "professional values"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-083",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which of the following is considered an unethical act under Singapore's insurance Code of Practice?",
+    "choices": [
+      "Recommending a higher-premium policy when a lower-cost option would equally meet the client's needs, motivated primarily by commission",
+      "Explaining policy exclusions in detail even when the client did not ask",
+      "Recommending a competitor's policy that better suits the client's needs",
+      "Declining to sell a policy to a client whose risk profile falls outside the insurer's appetite"
+    ],
+    "answer": 0,
+    "explanation": "Being motivated primarily by commission rather than the client's best interest is a clear ethical violation under the Singapore GI Code of Practice.",
+    "jpComparison": "日本でも「乗換募集」や「不適切な推奨」は保険業法や監督指針で規制されている。顧客本位の業務運営の観点からも問題行為。",
+    "keywords": ["unethical acts", "commission motivation", "Code of Practice"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-084",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Singapore's Personal Data Protection Act (PDPA) came into force on which date?",
+    "choices": [
+      "1 January 2012",
+      "2 July 2014",
+      "1 February 2021",
+      "1 October 2022"
+    ],
+    "answer": 1,
+    "explanation": "The PDPA was enacted in 2012 but came into force on 2 July 2014. Key subsequent dates: 1 February 2021 (enhanced PDPA) and 1 October 2022 (increased penalties).",
+    "jpComparison": "日本の個人情報保護法は2003年制定・2005年全面施行で、シンガポールのPDPAより約9年早い。",
+    "keywords": ["PDPA", "Personal Data Protection Act", "2 July 2014"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-085",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The three core concepts of Singapore's PDPA are:",
+    "choices": [
+      "Notification, Access, Correction",
+      "Consent, Purpose, Reasonableness",
+      "Collection, Use, Disclosure",
+      "Security, Retention, Accuracy"
+    ],
+    "answer": 1,
+    "explanation": "The three core concepts are: (1) Consent, (2) Purpose, (3) Reasonableness. All other PDPA obligations flow from these three pillars.",
+    "jpComparison": "日本の個人情報保護法でも「利用目的の特定」「本人同意」「必要な範囲での利用」という概念は同様。シンガポールの「Reasonableness」は日本法の「必要性の原則」に相当。",
+    "keywords": ["PDPA", "consent", "purpose", "reasonableness"],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-086",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the enhanced PDPA (effective 1 February 2021), when is a data breach considered 'notifiable'?",
+    "choices": [
+      "Any breach involving financial data, regardless of the number of individuals affected",
+      "Only when customer complaints are received following the breach",
+      "When the breach is likely to cause significant harm OR affects 500 or more individuals",
+      "Only when the breach results in confirmed identity theft or financial loss"
+    ],
+    "answer": 2,
+    "explanation": "A data breach is notifiable if it: (1) is likely to cause significant harm, OR (2) affects 500 or more individuals. Organizations must notify PDPC within 72 hours of assessment.",
+    "jpComparison": "日本の改正個人情報保護法（2022年）でも漏洩報告義務が強化された。シンガポールの「500人以上」という数値基準は日本法にはない特徴的な定量基準。",
+    "keywords": ["data breach notification", "PDPA", "notifiable breach", "500 individuals"],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-087",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "How long does an organization have to notify the PDPC after assessing that a data breach is notifiable?",
+    "choices": [
+      "24 hours",
+      "48 hours",
+      "72 hours (3 business days)",
+      "7 calendar days"
+    ],
+    "answer": 2,
+    "explanation": "Organizations must notify the PDPC within 72 hours of assessing that a breach is notifiable.",
+    "jpComparison": "日本の個人情報保護委員会への漏洩報告は「速やかに（3～5日以内が目安）」とされている。シンガポールの72時間はEUのGDPRと同様のアプローチ。",
+    "keywords": ["PDPC notification", "72 hours", "data breach response"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-088",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "What are the maximum financial penalties under the PDPA (effective from 1 October 2022)?",
+    "choices": [
+      "S$500,000 flat fine for any breach",
+      "Up to 5% of annual Singapore turnover or S$500,000, whichever is higher",
+      "Up to 10% of annual Singapore turnover (if >S$10M) or S$1,000,000, whichever is higher",
+      "Up to S$100,000 per affected individual, capped at S$10,000,000"
+    ],
+    "answer": 2,
+    "explanation": "From 1 October 2022, organizations can be fined up to 10% of annual Singapore turnover (if exceeding S$10M) or S$1,000,000, whichever is higher.",
+    "jpComparison": "日本の個人情報保護法違反は最高1億円（法人）。シンガポールは売上高の10%という比例的アプローチで、EUのGDPR（売上高4%）と類似。",
+    "keywords": ["PDPA penalties", "financial penalty", "10%", "S$1,000,000"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-089",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "MAS Notice 132 on Cyber Hygiene requires six practices. Which of the following is NOT one of them?",
+    "choices": [
+      "Securing administrative accounts with privileged access",
+      "Applying security patches in a timely manner",
+      "Mandatory cyber insurance coverage for all digital assets",
+      "Implementing multi-factor authentication for critical systems"
+    ],
+    "answer": 2,
+    "explanation": "The six practices are: (1) securing admin accounts, (2) security patches, (3) security standards, (4) malware protection, (5) network controls, (6) multi-factor authentication. Mandatory cyber insurance is NOT one of them.",
+    "jpComparison": "金融庁の「金融機関等コンピュータシステムの安全対策基準」と類似したアプローチ。MFAの義務化は日本の金融規制でも強調されている。",
+    "keywords": ["MAS Notice 132", "cyber hygiene", "cybersecurity"],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-090",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines for agents (LIA & GIA, effective 1 January 2020), what are the password requirements?",
+    "choices": [
+      "Minimum 6 characters, changed every 6 months, not reused for 5 cycles",
+      "Minimum 8 characters, changed every 3 months, not reused for 10 cycles",
+      "Minimum 10 characters, changed annually, not reused for 3 cycles",
+      "Minimum 8 characters, changed monthly, not reused for 6 cycles"
+    ],
+    "answer": 1,
+    "explanation": "The DLP Guidelines specify: minimum 8 characters, changed every 3 months, not reused for at least 10 password cycles.",
+    "jpComparison": "日本の生損保協会の情報セキュリティガイドラインでもパスワード管理基準はあるが、「10サイクル再利用禁止」はシンガポール特有の具体的基準。",
+    "keywords": ["DLP Guidelines", "password policy", "LIA GIA", "8 characters", "3 months"],
+    "difficulty": 3
   }
 ]
