@@ -2,241 +2,1441 @@
   {
     "id": "comgi-001",
     "topic": "Property Insurance",
-    "question": "In a Standard Fire Policy, which of the following perils is typically covered?",
+    "question": "A Standard Fire Policy covers damage caused by fire, lightning, and which other peril?",
     "choices": [
-      "Earthquake",
-      "Fire and lightning",
-      "Wear and tear",
-      "Gradual deterioration"
+      "Explosion of gas used for lighting or domestic purposes",
+      "Earthquake and volcanic eruption",
+      "Flood and storm damage",
+      "Theft during or after a fire"
     ],
-    "answer": 1,
-    "explanation": "A Standard Fire Policy covers fire (including lightning) as a basic peril. Earthquake, wear and tear, and gradual deterioration are standard exclusions. Extended perils can be added by endorsement.",
-    "jpComparison": "日本の火災保険も火災・落雷は基本補償。地震は別契約（地震保険）。SGも同様に地震は基本的に除外だが、SG自体の地震リスクは極めて低い。",
-    "keywords": ["fire policy", "peril", "lightning", "exclusion"],
+    "answer": 0,
+    "explanation": "A Standard Fire Policy covers Fire, Lightning, and Explosion of gas used for lighting/domestic purposes (collectively known as FLEX). Earthquake, flood, and theft are excluded from the basic fire policy.",
+    "jpComparison": "日本の火災保険も火災・落雷・爆発が基本補償。ただし日本ではガス爆発に限定せず「破裂・爆発」全般をカバー。シンガポールは照明用・家庭用ガス爆発のみが基本補償。",
+    "keywords": ["fire policy", "FLEX", "gas explosion", "lighting", "domestic"],
     "difficulty": 1
   },
   {
     "id": "comgi-002",
     "topic": "Property Insurance",
-    "question": "The 'average clause' (condition of average) in a property policy means:",
+    "question": "In fire insurance, property damage caused by the insured property's own fermentation, natural heating, or spontaneous combustion is:",
     "choices": [
-      "The insurer pays the average of all claims in the year",
-      "If underinsured, the insured bears a proportionate share of the loss",
-      "The premium is calculated as an average of market rates",
-      "The policy covers average quality goods only"
+      "Excluded, but if fire spreads from such property to other insured items, the spread damage IS covered",
+      "Fully covered under the standard fire policy",
+      "Covered only if a Special Perils extension is purchased",
+      "Excluded entirely, including any resulting spread of fire"
     ],
-    "answer": 1,
-    "explanation": "If the sum insured is less than the actual value of the property (underinsurance), the average clause applies proportionally. For example, if property worth $1M is insured for only $500K (50%), the insurer pays only 50% of any partial loss.",
-    "jpComparison": "日本では「比例填補（プロラタ方式）」として同一概念。実損払いの保険も増えているが、SGの企業保険では比例填補が一般的。",
-    "keywords": ["average clause", "underinsurance", "proportional", "sum insured"],
+    "answer": 0,
+    "explanation": "Damage from fermentation, natural heating, or spontaneous combustion of the property itself is excluded. However, if fire spreads from such property to other insured items, the resulting damage IS covered under the policy.",
+    "jpComparison": "日本の火災保険でも自然発火・自然発熱による物自体の損害は免責だが、そこから延焼した他の保険目的物への損害はカバーされる。シンガポールも同様の取扱い。",
+    "keywords": ["spontaneous combustion", "fermentation", "natural heating", "fire spread", "exclusion"],
     "difficulty": 2
   },
   {
     "id": "comgi-003",
-    "topic": "Business Interruption Insurance",
-    "question": "Business Interruption (BI) insurance covers:",
+    "topic": "Property Insurance",
+    "question": "Special Perils in fire insurance are classified into four categories. Which of the following is NOT one of them?",
     "choices": [
-      "Physical damage to the insured property",
-      "Loss of gross profit due to interruption caused by an insured peril",
-      "Employee injuries during business operations",
-      "Legal liability to third parties"
+      "Cyber Perils",
+      "Chemical Perils",
+      "Social Perils",
+      "Perils of Nature"
     ],
-    "answer": 1,
-    "explanation": "BI insurance covers the financial loss (loss of gross profit) resulting from interruption of business due to physical damage caused by an insured peril. It does not cover the physical damage itself — that is covered by the property policy.",
-    "jpComparison": "日本の「利益保険」に相当。粗利益（Gross Profit）を填補する点は共通。SGでは「Material Damage Proviso」により、BI保険は物的損害保険の存在が前提条件。",
-    "keywords": ["business interruption", "gross profit", "indemnity period"],
-    "difficulty": 1
-  },
-  {
-    "id": "comgi-004",
-    "topic": "Business Interruption Insurance",
-    "question": "The 'Material Damage Proviso' in a BI policy requires that:",
-    "choices": [
-      "A minimum amount of material must be damaged",
-      "There must be a valid and paid property insurance policy in force covering the same peril",
-      "The damage must be material to the business operations",
-      "The business must have material assets on the premises"
-    ],
-    "answer": 1,
-    "explanation": "The Material Damage Proviso states that a BI claim is only payable if there is a property insurance policy in force at the time of the loss, covering the same peril, and the property insurer has paid or admitted liability.",
-    "jpComparison": "日本の利益保険にも同様の前提条件がある（物的損害保険の付保が前提）。ただし日本では約款上の要件として規定されることが多い。",
-    "keywords": ["material damage proviso", "prerequisite", "property policy"],
+    "answer": 0,
+    "explanation": "The four categories of Special Perils are: (1) Chemical Perils (explosion, spontaneous combustion), (2) Social Perils (riots, strikes, malicious damage), (3) Perils of Nature (earthquake, flood, typhoon), and (4) Miscellaneous (sprinkler leakage, vehicle impact, aircraft). Cyber Perils is not a classification.",
+    "jpComparison": "日本の火災保険でも基本補償外の追加危険は特約として付帯する。風水害・地震・暴動等を別途カバーする構造はシンガポールと類似。",
+    "keywords": ["Special Perils", "Chemical", "Social", "Perils of Nature", "Miscellaneous"],
     "difficulty": 2
   },
   {
-    "id": "comgi-005",
-    "topic": "Liability & Contingency Insurance",
-    "question": "Public liability insurance protects the insured against:",
+    "id": "comgi-004",
+    "topic": "Property Insurance",
+    "question": "Under a fire insurance policy, the insurance ceases immediately if:",
     "choices": [
-      "Loss of their own property",
-      "Legal liability for injury or damage to third parties arising from the insured's operations",
-      "Claims from employees for workplace injuries",
-      "Liability arising from the use of motor vehicles"
+      "The building falls or is displaced in a way that impairs its usefulness or increases fire risk (unless caused by fire)",
+      "The policyholder changes their business premises address",
+      "The premium payment is 7 days late",
+      "A neighbouring building catches fire"
     ],
-    "answer": 1,
-    "explanation": "Public liability insurance covers the insured's legal liability for bodily injury or property damage to third parties arising out of the insured's business operations or premises. Employee claims and motor vehicle liability are covered under separate policies.",
-    "jpComparison": "日本の「施設賠償責任保険」「請負業者賠償責任保険」に相当。従業員災害は労災保険、自動車は自賠責＋任意保険で別管理という構造もSGと類似。",
-    "keywords": ["public liability", "third party", "negligence", "damages"],
-    "difficulty": 1
+    "answer": 0,
+    "explanation": "The 'Fall or Displacement' condition states that insurance ceases immediately if the building falls or is displaced, impairing its usefulness or increasing fire risk — unless the fall is a consequence of fire itself.",
+    "jpComparison": "日本の火災保険にも建物の構造変更や用途変更による危険増加時の通知義務がある。シンガポールは建物の倒壊・変位で即座に保険が失効する点がより厳格。",
+    "keywords": ["Fall or Displacement", "cessation", "fire risk", "building condition"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-005",
+    "topic": "Property Insurance",
+    "question": "Theft insurance in Singapore requires evidence of 'forcible and violent entry.' What does this mean?",
+    "choices": [
+      "Entry must involve both force (any force used) AND violence (aggression with extra force causing damage)",
+      "Any theft from the premises is covered regardless of entry method",
+      "Only armed robbery with weapons qualifies",
+      "The thief must have broken a window or door lock specifically"
+    ],
+    "answer": 0,
+    "explanation": "'Forcible' means mere use of any force, while 'violent' means aggression with extra force accompanied by damage. Standard theft insurance requires evidence of both elements for a valid claim. Full Theft Cover extension removes this requirement.",
+    "jpComparison": "日本の盗難保険では「不法侵入」の証拠が必要で、施錠された建物への侵入が基本。シンガポールの「forcible and violent entry」は暴力的手段の証拠を厳格に要求する点が特徴。",
+    "keywords": ["forcible", "violent", "entry", "theft", "burglary"],
+    "difficulty": 2
   },
   {
     "id": "comgi-006",
-    "topic": "Liability & Contingency Insurance",
-    "question": "Directors & Officers (D&O) insurance 'Side A' coverage provides:",
+    "topic": "Property Insurance",
+    "question": "A theft insurance policy ceases if the insured premises are unoccupied for more than:",
     "choices": [
-      "Coverage for the company's own financial losses",
-      "Personal protection for directors when the company cannot indemnify them",
-      "Coverage for employment practices liability",
-      "Protection against cyber attacks"
+      "30 consecutive days (some insurers allow 60 days)",
+      "7 consecutive days",
+      "14 consecutive days",
+      "90 consecutive days"
     ],
-    "answer": 1,
-    "explanation": "Side A coverage acts as a personal safety net for directors and officers when the company cannot (e.g., insolvency) or is not permitted to indemnify them. Side B reimburses the company for indemnifying D&Os. Side C covers the entity itself (securities claims).",
-    "jpComparison": "日本のD&O保険（会社役員賠償責任保険）も同様のSide A/B/C構造。2021年の会社法改正でD&O保険に関する開示規制が強化された。",
-    "keywords": ["D&O", "Side A", "indemnification", "directors"],
+    "answer": 0,
+    "explanation": "Standard theft insurance policies cease coverage if premises are unoccupied for more than 30 consecutive days. Some insurers extend this to 60 days. Prolonged vacancy significantly increases theft risk.",
+    "jpComparison": "日本の盗難保険でも長期不在は告知事項。一般的に30日以上の空き家状態は保険会社への通知が必要で、無通知の場合は免責となる可能性がある。",
+    "keywords": ["unoccupied", "30 days", "vacancy", "theft policy", "cessation"],
     "difficulty": 2
   },
   {
     "id": "comgi-007",
-    "topic": "Commercial Motor Insurance",
-    "question": "In Singapore, Third Party Only (TPO) motor insurance provides:",
+    "topic": "Property Insurance",
+    "question": "Under a 'First Loss Basis' theft policy, the insured has stock worth S$500,000 but insures for only S$100,000. If the entire stock is stolen, how much does the insurer pay?",
     "choices": [
-      "Comprehensive coverage for the insured vehicle",
-      "Coverage for damage to the insured vehicle and third-party liability",
-      "Coverage only for legal liability to third parties for bodily injury and property damage",
-      "Coverage for theft of the insured vehicle"
+      "S$100,000 — the maximum liability agreed in the policy",
+      "S$500,000 — the full value of the stock",
+      "S$50,000 — reduced by the condition of average",
+      "S$20,000 — proportional to the ratio of insured to actual value"
     ],
-    "answer": 2,
-    "explanation": "TPO is the minimum level of motor insurance required by law in Singapore. It covers only the policyholder's legal liability to third parties for bodily injury and property damage. It does not cover damage to the insured's own vehicle.",
-    "jpComparison": "日本の「自賠責保険」に近いが、自賠責は対人のみ。SGのTPOは対人＋対物を含む。日本で対物も含むのは任意保険の「対物賠償責任保険」。",
-    "keywords": ["TPO", "third party only", "compulsory", "motor"],
-    "difficulty": 1
+    "answer": 0,
+    "explanation": "Under First Loss Basis, the insurer pays up to the agreed first loss amount (S$100,000) regardless of the total stock value. The condition of average does NOT apply. This provides premium savings when a total loss is considered unlikely.",
+    "jpComparison": "日本でも「第一損害填補方式」として同じ概念がある。比例填補（比例てん補）を適用せず、約定保険金額を上限に実損を支払う方式。保険料の効率化に有効。",
+    "keywords": ["First Loss", "no average", "maximum liability", "premium savings"],
+    "difficulty": 2
   },
   {
     "id": "comgi-008",
-    "topic": "Marine & Aviation Insurance",
-    "question": "In marine insurance, 'General Average' refers to:",
+    "topic": "Property Insurance",
+    "question": "Electronic Equipment Insurance is described as 'All Risks' coverage. If the sum insured does not equal the replacement cost of the equipment, what happens?",
     "choices": [
-      "The average value of all goods on a vessel",
-      "A voluntary sacrifice of cargo to save the vessel, shared proportionally by all parties",
-      "The average premium charged for marine policies",
-      "Normal wear and tear of a vessel during voyage"
+      "The condition of average (under-insurance) applies, and claims are reduced proportionally",
+      "The insurer pays the full claim up to the sum insured",
+      "The policy is void from inception",
+      "The insurer pays only the depreciated value"
     ],
-    "answer": 1,
-    "explanation": "General Average is a principle where a voluntary and intentional sacrifice (e.g., jettisoning cargo) made to preserve the vessel and remaining cargo is shared proportionally among all parties with an interest in the maritime venture.",
-    "jpComparison": "日本の海上保険法でも「共同海損（General Average）」は同一の概念（商法788条以下）。ヨーク・アントワープ規則が国際的に適用される点も共通。",
-    "keywords": ["general average", "sacrifice", "marine", "York-Antwerp"],
+    "answer": 0,
+    "explanation": "Electronic Equipment Insurance requires the sum insured to equal the replacement cost with new items of the same kind and capacity, including freight, installation, and customs duties. If under-insured, the condition of average applies.",
+    "jpComparison": "日本の動産総合保険でも再調達価額（新品価額）での付保が基本。過少付保の場合は比例填補が適用される点はシンガポールと同じ。",
+    "keywords": ["Electronic Equipment", "All Risks", "replacement cost", "average", "under-insurance"],
     "difficulty": 2
   },
   {
     "id": "comgi-009",
-    "topic": "Construction & Machinery Insurance",
-    "question": "A Contractors' All Risks (CAR) policy typically covers:",
+    "topic": "Property Insurance",
+    "question": "Glass Insurance covers 'breakage or destruction' of fixed glass. Which of the following is NOT covered?",
     "choices": [
-      "Only liability to third parties during construction",
-      "Only the contract works and materials",
-      "The contract works, materials, construction plant, and third-party liability during the construction period",
-      "Only professional liability of the architect and engineers"
+      "Scratching or chipping of glass",
+      "Breakage of plate glass windows",
+      "Breakage of glass doors",
+      "Destruction of lettering or logos on glass panels"
     ],
-    "answer": 2,
-    "explanation": "A CAR policy provides comprehensive coverage during the construction period, including: the contract works, materials and equipment on site, construction plant and machinery, and third-party liability. It is typically arranged on an all-risks basis.",
-    "jpComparison": "日本の「建設工事保険」に相当。工事物件・仮設物・工事用資材等を包括的に補償する点は同じ。SGではCAR（Contractors' All Risks）の名称が一般的。",
-    "keywords": ["CAR", "contractors all risks", "construction", "all risks"],
+    "answer": 0,
+    "explanation": "Glass Insurance covers only breakage and destruction, NOT scratching or chipping. Coverage includes lettering/logos on glass. Replacement costs for frames and fittings are excluded unless covered by extension.",
+    "jpComparison": "日本のガラス保険も破損のみが対象で、傷やひび割れ（クラック）は除外されることが多い。ガラス上の文字やロゴの補償有無はシンガポール独自の規定。",
+    "keywords": ["Glass Insurance", "breakage", "scratching", "chipping", "exclusion"],
     "difficulty": 1
   },
   {
     "id": "comgi-010",
-    "topic": "Pecuniary Insurance",
-    "question": "Which of the following is an example of pecuniary insurance?",
+    "topic": "Property Insurance",
+    "question": "Property Terrorism Insurance defines an 'occurrence' duration as a maximum of:",
     "choices": [
-      "Fire insurance",
-      "Marine cargo insurance",
-      "Fidelity guarantee insurance",
-      "Motor comprehensive insurance"
+      "72 consecutive hours for all losses at the insured property",
+      "24 consecutive hours",
+      "7 consecutive days",
+      "30 consecutive days"
     ],
-    "answer": 2,
-    "explanation": "Pecuniary insurance covers financial losses not arising from physical damage. Fidelity guarantee insurance protects against financial loss caused by dishonest acts of employees. Other examples include credit insurance and business interruption insurance.",
-    "jpComparison": "日本の「身元信用保険」に相当。従業員の不誠実行為による損失を填補する。日本では利用が減少しているが、SGでは企業保険として一般的。",
-    "keywords": ["pecuniary", "fidelity guarantee", "financial loss", "dishonesty"],
-    "difficulty": 2
+    "answer": 0,
+    "explanation": "An 'occurrence' under Property Terrorism Insurance is defined as any one loss or series of losses arising from one Act of Terrorism, limited to 72 consecutive hours. This period cannot extend beyond policy expiration unless physical damage occurred before expiry.",
+    "jpComparison": "日本のテロ保険では72時間条項は一般的ではなく、保険約款上の「一事故」の定義による。シンガポールの72時間ルールはロンドン市場のテロ保険（Pool Re等）の影響を受けた規定。",
+    "keywords": ["terrorism", "72 hours", "occurrence", "consecutive hours"],
+    "difficulty": 3
   },
   {
     "id": "comgi-011",
-    "topic": "Foreign Worker Insurance",
-    "question": "Under Singapore's Work Injury Compensation Act (WICA), employers are required to:",
+    "topic": "Business Interruption Insurance",
+    "question": "Business Interruption (BI) insurance cannot be purchased alone. What is the mandatory prerequisite?",
     "choices": [
-      "Provide only medical insurance for foreign workers",
-      "Compensate employees for work-related injuries or diseases, regardless of fault",
-      "Purchase insurance only for workers earning above SGD 2,600 per month",
-      "Report injuries only if the worker is hospitalized for more than 7 days"
+      "A material damage (property) insurance policy must be in force covering the same perils",
+      "A public liability policy must be in force",
+      "The business must have been profitable for at least 3 years",
+      "An annual audit by an independent accountant must be completed"
     ],
-    "answer": 1,
-    "explanation": "WICA provides a no-fault compensation framework for employees who suffer work-related injuries or occupational diseases. Employers must insure all employees performing manual work, and non-manual employees earning up to a prescribed salary cap.",
-    "jpComparison": "日本の労災保険（労働者災害補償保険法）に相当。日本は全事業所に強制適用（一部例外あり）。SGのWICAは無過失責任制度である点が共通。",
-    "keywords": ["WICA", "work injury", "no-fault", "compensation"],
-    "difficulty": 2
+    "answer": 0,
+    "explanation": "The Material Damage Warranty requires that a property insurance policy covering the same perils must be in force before a BI policy can respond. The material damage insurer must admit liability before the BI insurer pays.",
+    "jpComparison": "日本の利益保険（営業継続費用保険）も火災保険等の物的損害保険の付帯が前提。独立した利益保険の単独契約は一般的ではない点はシンガポールと同様。",
+    "keywords": ["Material Damage Warranty", "prerequisite", "BI", "property policy"],
+    "difficulty": 1
   },
   {
     "id": "comgi-012",
-    "topic": "Foreign Worker Insurance",
-    "question": "For S Pass and Work Permit holders in Singapore, employers must maintain medical insurance with a minimum coverage of:",
+    "topic": "Business Interruption Insurance",
+    "question": "In BI insurance, the insurer's definition of 'Gross Profit' differs from the accounting definition. What is the insurer's formula?",
     "choices": [
-      "SGD 15,000 per year",
-      "SGD 30,000 per year",
-      "SGD 60,000 per year",
-      "SGD 100,000 per year"
+      "Net Profit + Standing Charges (insured fixed costs)",
+      "Sales - Cost of Goods Sold",
+      "Revenue - All Operating Expenses",
+      "Net Profit + Depreciation + Amortisation"
     ],
-    "answer": 2,
-    "explanation": "From 1 July 2023, employers must maintain medical insurance with a minimum coverage of SGD 60,000 per year for each Work Permit or S Pass holder. This is a requirement under the Employment of Foreign Manpower Act.",
-    "jpComparison": "日本では外国人労働者も健康保険に加入するため、別途の医療保険義務はない。SGの制度は雇用主負担の強制医療保険という独自の枠組み。",
-    "keywords": ["medical insurance", "foreign worker", "SGD 60000", "MOM"],
+    "answer": 0,
+    "explanation": "For BI insurance, Gross Profit = Net Profit + Standing Charges (costs that continue during interruption, such as rent, salaries, insurance premiums). This differs from the accounting definition (Sales - Cost of Goods Sold).",
+    "jpComparison": "日本の利益保険でも「経常費」＝営業利益＋経常費（固定費）として計算する。会計上の粗利益とは異なる保険独自の定義である点はシンガポールと共通。",
+    "keywords": ["Gross Profit", "Net Profit", "Standing Charges", "insurer definition"],
     "difficulty": 2
   },
   {
     "id": "comgi-013",
-    "topic": "Group PA & Corporate Travel",
-    "question": "Group Personal Accident (GPA) insurance differs from WICA in that GPA:",
+    "topic": "Business Interruption Insurance",
+    "question": "The 'Difference Basis' is now the predominant method of arranging BI Gross Profit cover. How does it work?",
     "choices": [
-      "Covers only work-related injuries",
-      "Provides 24-hour coverage including non-work-related accidents",
-      "Is mandated by law for all employers",
-      "Only covers death benefit"
+      "The insured lists working expenses to EXCLUDE; everything not excluded is automatically insured",
+      "The insured lists every standing charge to INCLUDE; anything omitted is not covered",
+      "The insurer calculates the difference between pre-loss and post-loss profits",
+      "The premium is the difference between fire and BI policy rates"
     ],
-    "answer": 1,
-    "explanation": "Unlike WICA which covers only work-related injuries, GPA provides 24-hour accident coverage for employees, including off-duty hours. It typically covers accidental death, permanent disability, and medical expenses from accidents occurring anywhere.",
-    "jpComparison": "日本の「団体傷害保険」に相当。24時間補償で業務外の事故も対象とする点は同じ。労災保険の上乗せとして活用される。",
-    "keywords": ["GPA", "group personal accident", "24-hour", "WICA"],
-    "difficulty": 1
+    "answer": 0,
+    "explanation": "Under the Difference Basis, Gross Profit = Sales + Closing Stock - Opening Stock - Uninsured Working Expenses. The insured lists only the variable costs to exclude. Any cost not explicitly excluded is automatically covered. This is simpler and safer than the Addition Basis.",
+    "jpComparison": "日本の利益保険でも「差額方式」（売上高−変動費）と「加算方式」（営業利益＋固定費）の2つがある。近年は差額方式が主流で、SGの Difference Basis と同じ考え方。",
+    "keywords": ["Difference Basis", "Addition Basis", "uninsured working expenses", "automatic cover"],
+    "difficulty": 3
   },
   {
     "id": "comgi-014",
-    "topic": "Property Insurance",
-    "question": "Which of the following is typically excluded from a fire insurance policy?",
+    "topic": "Business Interruption Insurance",
+    "question": "A BI policy has a Maximum Indemnity Period of 18 months. If the fire rate is 0.20% and annual gross profit is S$1,000,000, what is the premium?",
     "choices": [
-      "Damage caused by firefighting operations",
-      "Damage caused by lightning",
-      "Damage from riot and strike",
-      "Loss by theft during a fire"
+      "S$2,640 (rate × 88% loading × S$1.5M sum insured)",
+      "S$3,000 (rate × S$1.5M sum insured)",
+      "S$2,000 (rate × S$1M annual gross profit)",
+      "S$1,760 (rate × 88% loading × S$1M)"
     ],
-    "answer": 2,
-    "explanation": "Riot and strike damage is not covered under a basic fire policy — it requires an extension (Special Perils). Damage from firefighting operations and lightning are covered as standard fire perils. Theft during a fire may be covered as a consequence of the fire peril.",
-    "jpComparison": "日本の火災保険でも暴動・騒擾は基本補償外で、総合保険や特約で付帯する構造。消火活動による損害は火災保険で補償される点はSGと同じ。",
-    "keywords": ["fire exclusion", "riot", "special perils", "extension"],
-    "difficulty": 2
+    "answer": 0,
+    "explanation": "For 18-month IP: Sum Insured = S$1M × 18/12 = S$1.5M. Loading for 18-month IP = 88%. Premium = 0.20% × 88% × S$1,500,000 = S$2,640. The loading reflects that longer IPs have different risk profiles.",
+    "jpComparison": "日本の利益保険の保険料も填補期間に応じた料率調整がある。SGでは12ヶ月IP=100%をベースに、それ以上は段階的なローディング率を適用する明確な体系がある。",
+    "keywords": ["premium calculation", "loading", "88%", "indemnity period", "18 months"],
+    "difficulty": 3
   },
   {
     "id": "comgi-015",
-    "topic": "Liability & Contingency Insurance",
-    "question": "Product liability insurance covers the insured against claims arising from:",
+    "topic": "Business Interruption Insurance",
+    "question": "Why must a business with a 24-month Maximum Indemnity Period look 3 years ahead when setting the Sum Insured?",
     "choices": [
-      "Failure to deliver products on time",
-      "Defective products causing bodily injury or property damage to third parties",
-      "Damage to the insured's own products during manufacturing",
-      "Loss of market share due to competitor products"
+      "Because the loss could occur on the last day of the policy, and the indemnity period would then extend 2 years beyond",
+      "Because the insurer requires 3 years of audited financial statements",
+      "Because inflation typically requires a 3-year forward projection",
+      "Because the premium is calculated based on 3-year average gross profit"
     ],
-    "answer": 1,
-    "explanation": "Product liability insurance covers the manufacturer's, distributor's, or retailer's legal liability for bodily injury or property damage caused to third parties by defective products. It does not cover the cost of recalling or replacing the defective products themselves.",
-    "jpComparison": "日本の「生産物賠償責任保険（PL保険）」に相当。製造物責任法（PL法、1995年施行）に基づく賠償責任を填補。SG版も同様の構造。",
-    "keywords": ["product liability", "defective product", "PL", "third party"],
+    "answer": 0,
+    "explanation": "A fire could occur on the very last day of the 12-month policy period. With a 24-month indemnity period, the loss would extend 2 years beyond that date — totaling 3 years from policy inception. The Sum Insured must account for projected earnings over that entire period.",
+    "jpComparison": "日本の利益保険でも填補期間の設定と保険金額の計算には同様の考慮が必要。特に季節変動のある業種では、実際の逸失利益が年間平均を大幅に上回る可能性がある。",
+    "keywords": ["Sum Insured", "look ahead", "last day", "indemnity period", "future projection"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-016",
+    "topic": "Business Interruption Insurance",
+    "question": "Which of the following BI extensions does NOT require an additional premium?",
+    "choices": [
+      "Interdependency clause (covers BI at undamaged premises caused by damage at another insured premises)",
+      "Specified Suppliers extension",
+      "Prevention of Access extension",
+      "Public Utilities extension"
+    ],
+    "answer": 0,
+    "explanation": "Interdependency, Payment On Account, Material Damage Proviso Waiver, Accumulation of Stock, and New Business extensions typically do not require additional premium. Specified Suppliers, Prevention of Access, and Public Utilities require additional premium.",
+    "jpComparison": "日本の利益保険でも仕入先・得意先条項は追加保険料が必要。SGの無料エクステンション（相互依存条項等）は日本では約款上の基本補償に含まれていることが多い。",
+    "keywords": ["Interdependency", "free extension", "no additional premium", "BI extension"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-017",
+    "topic": "Business Interruption Insurance",
+    "question": "A toy shop earns 60% of annual revenue during the Christmas season. If it suffers a fire in October with a 12-month Maximum Indemnity Period, what special concern arises?",
+    "choices": [
+      "The Sum Insured based on annual gross profit may be insufficient because the seasonal peak is concentrated",
+      "The policy automatically doubles the sum insured for seasonal businesses",
+      "Seasonal businesses are excluded from BI insurance",
+      "The indemnity period is automatically extended to 24 months"
+    ],
+    "answer": 0,
+    "explanation": "Seasonal businesses may have concentrated income that exceeds the annual average during peak periods. A toy shop with 60% of revenue at Christmas may need a sum insured exceeding the annual gross profit figure to be adequately covered during the peak season disruption.",
+    "jpComparison": "日本の利益保険でも季節変動の大きい業種（観光業、農業等）では、年間平均を超える約定保険金額の設定が必要。実際の逸失利益を正確に見積もることが重要。",
+    "keywords": ["seasonal business", "Sum Insured", "peak season", "concentrated income"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-018",
+    "topic": "Business Interruption Insurance",
+    "question": "What is 'Advance Loss of Profits' (also called 'Delay in Start Up') insurance?",
+    "choices": [
+      "Insurance for future business earnings lost when a NEW business or major extension is delayed by insured damage",
+      "An advance payment made by the insurer before a BI claim is settled",
+      "Insurance covering losses before the material damage policy inception date",
+      "A premium discount for businesses that have never made a claim"
+    ],
+    "answer": 0,
+    "explanation": "Advance Loss of Profits / Delay in Start Up (DSU) protects future earning capacity for businesses being contemplated or under construction. It covers delays caused by damage to works, supplier premises, or equipment in transit. Unlike standard BI which protects existing earnings.",
+    "jpComparison": "日本の「操業開始遅延利益保険」に相当。新規プラント建設や大規模増設が遅延した場合の逸失利益をカバー。建設工事保険とセットで手配されることが多い。",
+    "keywords": ["Advance Loss of Profits", "DSU", "Delay in Start Up", "new business", "future earnings"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-019",
+    "topic": "Business Interruption Insurance",
+    "question": "In a BI policy, 'Increased Cost of Working' covers:",
+    "choices": [
+      "Additional expenses incurred to restore trading and minimise business disruption after damage",
+      "The increased cost of raw materials due to inflation",
+      "Higher insurance premiums after a claim",
+      "Overtime pay for employees during normal business operations"
+    ],
+    "answer": 0,
+    "explanation": "Increased Cost of Working (ICOW) covers additional expenses to resume operations — such as hiring alternative premises, contracting competitors, paying overtime. These are costs above normal operating expenses incurred specifically to minimise the interruption.",
+    "jpComparison": "日本の利益保険の「収益減少防止費用」に相当。損害を最小化するための臨時的支出（仮店舗賃料、外注費等）を補償する。",
+    "keywords": ["ICOW", "Increased Cost of Working", "additional expenses", "alternative premises"],
     "difficulty": 1
+  },
+  {
+    "id": "comgi-020",
+    "topic": "Business Interruption Insurance",
+    "question": "What BI coverage approach is recommended for professional firms (solicitors, accountants, doctors)?",
+    "choices": [
+      "Loss of fees/revenue + Additional Cost of Working Insurance (instead of traditional gross profit)",
+      "Standard gross profit BI policy only",
+      "Professional Indemnity insurance, which includes BI automatically",
+      "No BI insurance is needed as professionals can relocate easily"
+    ],
+    "answer": 0,
+    "explanation": "Professional firms typically have few variable costs, making traditional gross profit calculations less applicable. Instead, they benefit from Loss of Fees/Revenue + Additional Cost of Working coverage, which covers extra expenses (relocation, advertising, overtime) during disruption.",
+    "jpComparison": "日本の専門職向け利益保険でも、売上（報酬）の逸失と追加費用をカバーする形式が一般的。製造業向けの粗利益方式よりもサービス業の収益構造に適した設計。",
+    "keywords": ["professional firms", "Loss of Fees", "Additional Cost of Working", "solicitors", "accountants"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-021",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Under WICA 2019, what is the penalty for an employer who fails to provide Work Injury Compensation insurance?",
+    "choices": [
+      "Fine up to S$10,000 and/or imprisonment up to 12 months",
+      "Fine up to S$5,000 only",
+      "Warning letter from MOM with no financial penalty",
+      "Fine up to S$50,000 and/or imprisonment up to 24 months"
+    ],
+    "answer": 0,
+    "explanation": "Under Section 25(1) of WICA 2019, employers who fail to provide mandatory WIC insurance face a maximum fine of S$10,000 and/or up to 12 months imprisonment. This applies to all employers with mandatory coverage requirements.",
+    "jpComparison": "日本の労災保険未加入も罰則対象（労災保険法違反：6ヶ月以下の懲役又は30万円以下の罰金）。シンガポールのS$10,000罰金・12ヶ月以下の禁錮はより重い制裁。",
+    "keywords": ["WICA penalty", "S$10,000", "12 months", "imprisonment", "non-compliance"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-022",
+    "topic": "Liability & Contingency Insurance",
+    "question": "WICA 2019 mandates insurance coverage for which categories of employees?",
+    "choices": [
+      "All manual workers (regardless of salary) and non-manual workers earning ≤ S$2,600/month",
+      "All employees regardless of salary or job type",
+      "Only foreign workers on Work Permits",
+      "Only employees in construction and manufacturing"
+    ],
+    "answer": 0,
+    "explanation": "WICA mandates coverage for all employees performing manual work (regardless of salary level) and non-manual employees earning up to S$2,600 per month. Employers may optionally insure non-manual workers earning above this threshold.",
+    "jpComparison": "日本の労災保険は原則として全従業員に適用（パート・アルバイト含む）。シンガポールは非肉体労働者にS$2,600の給与上限がある点が日本との大きな違い。",
+    "keywords": ["WICA", "manual workers", "S$2,600", "non-manual", "mandatory coverage"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-023",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Under WICA 2019, what is the maximum medical expense limit for work injuries occurring on or after 1 January 2020?",
+    "choices": [
+      "S$45,000 or 1 year from the accident, whichever is reached first",
+      "S$36,000 or 1 year from the accident",
+      "S$60,000 or 2 years from the accident",
+      "Unlimited medical expenses"
+    ],
+    "answer": 0,
+    "explanation": "For accidents on or after 1 January 2020, the medical expense limit is S$45,000 or 1 year from the date of accident, whichever is reached first. The previous limit was S$36,000. The Commissioner can extend this if treatment reasonably needs to continue.",
+    "jpComparison": "日本の労災保険は医療費に上限なし（療養補償給付は完治まで全額）。シンガポールのS$45,000上限は日本より制限が厳しい。",
+    "keywords": ["WICA medical", "S$45,000", "1 year", "medical expenses", "2020"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-024",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Under WICA 2019, the maximum lump sum compensation for permanent total incapacity (accidents on/after 1 Jan 2020) is:",
+    "choices": [
+      "S$289,000",
+      "S$262,000",
+      "S$225,000",
+      "S$204,000"
+    ],
+    "answer": 0,
+    "explanation": "The maximum compensation for permanent total incapacity is S$289,000 (from 1 Jan 2020). The minimum is S$97,000. For death, the maximum is S$225,000 and minimum is S$76,000. An additional 25% is payable for 100% permanent total incapacity.",
+    "jpComparison": "日本の労災保険は障害等級に応じた年金または一時金（1級＝給付基礎日額313日分の年金）。シンガポールは一時金のみで、日本のような年金方式はない。",
+    "keywords": ["WICA compensation", "S$289,000", "permanent total incapacity", "maximum", "2020"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-025",
+    "topic": "Liability & Contingency Insurance",
+    "question": "An employee can claim compensation under WICA or sue under Common Law, but cannot do both. Under WICA, the employee must claim within:",
+    "choices": [
+      "1 year from the date of the accident",
+      "3 years from the date of the accident",
+      "6 months from the date of the accident",
+      "2 years from the date of the accident"
+    ],
+    "answer": 0,
+    "explanation": "Under WICA, the employee must make a claim within 1 year from the date of accident. For Common Law claims, the limitation period is 3 years. The employee must elect one route — they cannot claim under both WICA and Common Law.",
+    "jpComparison": "日本の労災保険請求は2年（療養・休業補償）または5年（障害・遺族補償）の時効。民事訴訟は不法行為の3年。SGのWICA 1年は日本より短い制限期間。",
+    "keywords": ["WICA claim", "1 year", "Common Law", "3 years", "election"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-026",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Which of the following is excluded from WICA coverage?",
+    "choices": [
+      "Injury directly attributable to being under the influence of alcohol or unprescribed drugs",
+      "Injury sustained while travelling in employer-provided transport",
+      "Occupational disease contracted during employment",
+      "Injury from saving life during a workplace emergency"
+    ],
+    "answer": 0,
+    "explanation": "WICA excludes injuries directly attributable to alcohol or unprescribed drug influence. Injuries during employer transport, occupational diseases, and injuries from saving lives during emergencies are all covered under WICA.",
+    "jpComparison": "日本の労災保険でも飲酒に起因する業務災害は不支給事由となる場合がある。シンガポールは薬物使用も明確に除外している点が特徴。",
+    "keywords": ["WICA exclusion", "alcohol", "drugs", "self-inflicted"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-027",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Under Public Liability Insurance, a series of bodily injuries arising from continuous or repeated exposure to the same conditions is treated as:",
+    "choices": [
+      "One occurrence for the purpose of applying the Limit of Indemnity",
+      "Separate occurrences, each with its own limit",
+      "A gradual damage claim excluded from coverage",
+      "A catastrophe claim subject to the aggregate annual limit"
+    ],
+    "answer": 0,
+    "explanation": "Public Liability policies define that continuous or repeated exposure to substantially the same conditions constitutes one occurrence. This means a single per-occurrence limit of indemnity applies to all related claims.",
+    "jpComparison": "日本の施設賠償責任保険でも「連続または反復する同一原因」は一事故として扱われる。支払限度額の適用方法はシンガポールと同様。",
+    "keywords": ["one occurrence", "continuous exposure", "Limit of Indemnity", "Public Liability"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-028",
+    "topic": "Liability & Contingency Insurance",
+    "question": "From 1 December 2020, businesses using active mobility device riders must ensure third-party liability insurance with a minimum sum insured of:",
+    "choices": [
+      "S$200,000 per claim, with an excess not exceeding S$500",
+      "S$100,000 per claim, with no excess allowed",
+      "S$500,000 per claim, with an excess of S$1,000",
+      "S$1,000,000 per claim, with an excess of S$2,000"
+    ],
+    "answer": 0,
+    "explanation": "Under the Active Mobility Act 2017 Section 58A, LTA-approved policies must provide minimum S$200,000 per claim coverage with a maximum excess of S$500. Non-compliance penalties are up to S$10,000 fine and/or 12 months imprisonment for individuals.",
+    "jpComparison": "日本でも電動キックボード等の保険義務化が2023年7月から進んでいるが、シンガポールは2020年12月から先行して法制化。保険金額の要件も明確に規定されている。",
+    "keywords": ["Personal Mobility", "S$200,000", "S$500 excess", "Active Mobility Act", "PMD"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-029",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Products Liability Insurance uses a 'claims-made' basis. This means:",
+    "choices": [
+      "Coverage is triggered when the claim is made during the policy period, regardless of when the damage occurred",
+      "Coverage is triggered by the occurrence of damage during the policy period, regardless of when the claim is filed",
+      "The insured must make the claim within 30 days of the incident",
+      "Only claims above a minimum threshold are covered"
+    ],
+    "answer": 0,
+    "explanation": "Unlike Public Liability (occurrence basis), Products Liability uses claims-made basis — the claim must be made during the policy period, even if the damage occurred earlier (on or after the retroactive date). This is important for long-tail product defect claims.",
+    "jpComparison": "日本のPL保険（生産物賠償責任保険）は事故発生ベース（オカレンスベース）が一般的。SGのクレームメイドベースは損害賠償請求がなされた時点のポリシーが適用される点が大きく異なる。",
+    "keywords": ["claims-made", "occurrence basis", "retroactive date", "Products Liability", "trigger"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-030",
+    "topic": "Liability & Contingency Insurance",
+    "question": "Under Public Liability Insurance, the coverage trigger is on an 'occurrence' basis. If damage occurs on 15 December 2021 but the claim is filed on 16 January 2022, which policy responds?",
+    "choices": [
+      "The 2021 policy (1 Jan - 31 Dec 2021), because the damage occurred during that period",
+      "The 2022 policy (1 Jan - 31 Dec 2022), because the claim was filed during that period",
+      "Both policies share the liability equally",
+      "Neither policy — there is a gap in coverage"
+    ],
+    "answer": 0,
+    "explanation": "On an occurrence basis, the policy in force when the damage occurred responds. Since damage occurred on 15 December 2021, the 2021 policy applies, even though the claim was not filed until January 2022. This differs from claims-made basis (used for Products Liability).",
+    "jpComparison": "日本の賠償責任保険もオカレンスベースが主流で、事故発生時点の保険契約が適用される。請求ベース（クレームメイド）との違いは保険ブローカーの重要な説明事項。",
+    "keywords": ["occurrence basis", "claims-made", "coverage trigger", "damage date", "claim date"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-031",
+    "topic": "Commercial Motor Insurance",
+    "question": "Under the Motor Vehicles (Third-Party Risks and Compensation) Act 1960, what is the minimum level of insurance required for a vehicle to be legally used on Singapore roads?",
+    "choices": [
+      "Act Liability Only (Third-Party Bodily Injury)",
+      "Third-Party Only (Bodily Injury and Property Damage)",
+      "Third-Party Fire and Theft",
+      "Comprehensive cover"
+    ],
+    "answer": 0,
+    "explanation": "The Act mandates a minimum of Act Liability Only, which covers third-party bodily injury and death. Third-party property damage is not legally required but is commonly added under Third-Party Only policies.",
+    "jpComparison": "日本の自賠責保険に相当。日本も最低限の人身損害補償が義務付けられており、対物賠償は任意保険でカバーする。シンガポールも同様の構造。",
+    "keywords": ["Act Liability", "MV Act 1960", "compulsory insurance", "minimum cover"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-032",
+    "topic": "Commercial Motor Insurance",
+    "question": "What is the third-party property damage limit under a commercial vehicle Third-Party Only policy in Singapore?",
+    "choices": [
+      "SGD 500,000",
+      "SGD 1,000,000",
+      "SGD 5,000,000",
+      "Unlimited"
+    ],
+    "answer": 0,
+    "explanation": "For commercial vehicles, the third-party property damage limit is SGD 500,000. Private vehicles have a higher limit of SGD 5,000,000. Third-party bodily injury is unlimited for both.",
+    "jpComparison": "日本の任意保険では対物賠償は無制限設定が一般的。シンガポールの商用車は50万SGDと上限があり、日本より制限が厳しい点に注意。",
+    "keywords": ["third-party property damage", "SGD 500,000", "commercial vehicle", "liability limit"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-033",
+    "topic": "Commercial Motor Insurance",
+    "question": "Under Singapore's commercial vehicle NCD (No Claims Discount) structure, what is the maximum NCD a commercial vehicle can accumulate?",
+    "choices": [
+      "20%",
+      "30%",
+      "40%",
+      "50%"
+    ],
+    "answer": 0,
+    "explanation": "Commercial vehicles earn 10% NCD after the first claim-free year, then 5% for each subsequent claim-free year, up to a maximum of 20%. Private vehicles can earn up to 50% NCD.",
+    "jpComparison": "日本のノンフリート等級制度では最大63%割引（20等級）まで可能。シンガポール商用車の最大20%は日本と比べて限定的な制度。",
+    "keywords": ["NCD", "no claims discount", "commercial vehicle", "20%", "maximum"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-034",
+    "topic": "Commercial Motor Insurance",
+    "question": "A commercial vehicle policy holder makes a claim for windscreen replacement only. What is the effect on the NCD?",
+    "choices": [
+      "NCD is not affected",
+      "NCD is reduced by 30%",
+      "NCD is reset to 0%",
+      "NCD is reduced by 5%"
+    ],
+    "answer": 0,
+    "explanation": "Windscreen damage claims alone do NOT affect the NCD under Singapore motor insurance rules. The NCD is only affected by claims involving other damage or third-party liability.",
+    "jpComparison": "日本でもウィンドシールド単独の保険請求は等級に影響しない特約（ガラス保険）がある。シンガポールも同様にフロントガラス請求はNCD保護の対象。",
+    "keywords": ["windscreen", "NCD", "no claims discount", "exemption"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-035",
+    "topic": "Commercial Motor Insurance",
+    "question": "Under the Motor Claims Framework (MCF), within what timeframe must an accident be reported to the insurer?",
+    "choices": [
+      "Within 24 hours or by the next working day",
+      "Within 48 hours",
+      "Within 72 hours",
+      "Within 7 days"
+    ],
+    "answer": 0,
+    "explanation": "The MCF, which came into effect on 1 June 2008, requires accidents to be reported within 24 hours or by the next working day. Reporting under the MCF is free of charge.",
+    "jpComparison": "日本でも事故発生後速やかな報告義務があるが、具体的な時間規定は保険会社ごとに異なる。シンガポールのMCFは24時間以内と明確に規定されている点が特徴。",
+    "keywords": ["MCF", "Motor Claims Framework", "24 hours", "reporting", "2008"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-036",
+    "topic": "Commercial Motor Insurance",
+    "question": "What is the geographical coverage area under a standard Singapore commercial vehicle insurance policy?",
+    "choices": [
+      "Singapore, West Malaysia, and within 80 km of the Thailand-Malaysia border",
+      "Singapore and West Malaysia only",
+      "Singapore, Malaysia, and Thailand",
+      "Singapore only"
+    ],
+    "answer": 0,
+    "explanation": "Standard Singapore motor policies cover Singapore, West Malaysia, and areas within 80 km of the Thailand-Malaysia border. Coverage does not extend throughout Thailand.",
+    "jpComparison": "日本の自動車保険は国内のみが基本で、海外使用は別途手配が必要。シンガポールはマレーシア乗り入れが生活圏のため、隣国への自動的な適用範囲が設定されている。",
+    "keywords": ["geographical coverage", "West Malaysia", "80 km", "Thailand border"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-037",
+    "topic": "Commercial Motor Insurance",
+    "question": "A business client wants fleet insurance for their vehicles. What is the traditionally accepted minimum number of vehicles to qualify for a fleet policy?",
+    "choices": [
+      "10 vehicles (some insurers accept 5)",
+      "5 vehicles",
+      "15 vehicles",
+      "20 vehicles"
+    ],
+    "answer": 0,
+    "explanation": "Fleet insurance traditionally requires a minimum of 10 vehicles, though some insurers will accept as few as 5 vehicles. Fleet vehicles are NOT eligible for individual NCD.",
+    "jpComparison": "日本のフリート契約は10台以上が一般的で、9台以下はノンフリートとして扱われる。シンガポールも同様の基準を採用しているが、一部保険会社は5台から受け付ける。",
+    "keywords": ["fleet", "minimum vehicles", "10 vehicles", "fleet discount"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-038",
+    "topic": "Commercial Motor Insurance",
+    "question": "Under a commercial motor policy, Section II (Liability) excludes death or injury to employees. Which of the following correctly describes this exclusion?",
+    "choices": [
+      "Death or bodily injury to any person employed by the insured arising from their employment",
+      "Death or bodily injury to any third-party pedestrian",
+      "Damage to property owned by a third party",
+      "Death or bodily injury caused by an uninsured driver"
+    ],
+    "answer": 0,
+    "explanation": "Section II of the commercial motor policy excludes death or bodily injury to employees of the insured arising out of and in the course of their employment. Such injuries are covered under Work Injury Compensation insurance instead.",
+    "jpComparison": "日本でも業務中の従業員への補償は労災保険が優先し、自動車保険の対人賠償からは除外される。シンガポールも同様にWork Injury Compensationとの棲み分けがある。",
+    "keywords": ["Section II", "exclusion", "employee", "employment", "liability"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-039",
+    "topic": "Commercial Motor Insurance",
+    "question": "Under a motor comprehensive policy, which of the following perils is specifically exempt from the application of the policy excess?",
+    "choices": [
+      "Fire, explosion, self-ignition, lightning, burglary, housebreaking, and theft",
+      "Accidental collision damage",
+      "Flood damage",
+      "Malicious damage by third parties"
+    ],
+    "answer": 0,
+    "explanation": "The policy excess does NOT apply to claims arising from fire, explosion, self-ignition, lightning, burglary, housebreaking, or theft. For all other covered perils such as collision, the excess applies.",
+    "jpComparison": "日本の車両保険では免責金額（エクセス）の適用除外規定は保険会社により異なるが、盗難や火災は免責なしのプランが多い。シンガポールでは明確に規定されている。",
+    "keywords": ["excess", "exemption", "fire", "theft", "burglary", "lightning"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-040",
+    "topic": "Commercial Motor Insurance",
+    "question": "A Motor Trade policy covers a garage business. Which section covers vehicles belonging to customers that are in the garage's custody for repair?",
+    "choices": [
+      "Internal Risks (Garage) section",
+      "Road Risks section",
+      "Combined section",
+      "Third-Party Only section"
+    ],
+    "answer": 0,
+    "explanation": "Motor Trade policies have three covers: Road Risks (vehicles driven on public roads), Internal Risks/Garage (customers' vehicles in custody and the premises), and Combined (both). Customer vehicles in the garage for repair fall under Internal Risks.",
+    "jpComparison": "日本の自動車修理業者向け保険（受託者賠償責任保険や預かり自動車特約）に相当。顧客から預かった車両への損害補償は修理業者の重要なリスク管理。",
+    "keywords": ["Motor Trade", "Internal Risks", "Garage", "Road Risks", "Combined"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-041",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Which legislation governs marine insurance in Singapore?",
+    "choices": [
+      "Marine Insurance Act 1906",
+      "Marine Insurance Act 1980",
+      "Merchant Shipping Act 1995",
+      "Maritime and Port Authority Act 1996"
+    ],
+    "answer": 0,
+    "explanation": "Singapore marine insurance is governed by the Marine Insurance Act 1906 (MIA 1906), which originated in the UK and was adopted by Singapore. Under this Act, the policyholder is referred to as the 'assured,' not the 'insured.'",
+    "jpComparison": "日本の海上保険は商法（第676条以下）と保険法が根拠法。英国MIA1906をベースにした国際標準に基づくシンガポールとは法体系が異なるが、実務上のカバー内容は類似している。",
+    "keywords": ["MIA 1906", "Marine Insurance Act", "assured", "Singapore marine law"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-042",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Under CIF INCOTERMS, who is responsible for arranging marine cargo insurance?",
+    "choices": [
+      "The seller",
+      "The buyer",
+      "The shipping line",
+      "The freight forwarder"
+    ],
+    "answer": 0,
+    "explanation": "Under CIF (Cost, Insurance and Freight), the seller arranges and pays for insurance. Under FOB (Free On Board) and CFR (Cost and Freight), the buyer is responsible for arranging insurance from the point of loading.",
+    "jpComparison": "日本の輸出取引でもCIF条件では売主が保険手配。FOB条件では買主手配。輸出入に関わるブローカーはINCOTERMSと保険責任の関係を熟知する必要がある。",
+    "keywords": ["CIF", "INCOTERMS", "seller", "buyer", "FOB", "CFR"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-043",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Which Institute Cargo Clause (ICC) provides the broadest coverage and is most commonly required by banks for Letters of Credit?",
+    "choices": [
+      "ICC (A) — All Risks",
+      "ICC (B) — Named Perils",
+      "ICC (C) — Most Restricted",
+      "ICC (D) — Extended Perils"
+    ],
+    "answer": 0,
+    "explanation": "ICC (A) provides 'All Risks' coverage, covering all losses except those specifically excluded. It is the broadest form and the one most commonly required by banks when financing shipments under Letters of Credit. ICC (B) and (C) cover only named/listed perils.",
+    "jpComparison": "日本でも貨物保険の最広補償は協会貨物約款A（旧オールリスク）が使われる。信用状（LC）付き取引ではICC(A)が銀行から要求されることが多い点は日本も同様。",
+    "keywords": ["ICC A", "All Risks", "Letter of Credit", "broadest cover", "marine cargo"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-044",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Which of the following perils is covered under ICC (B) but NOT under ICC (C)?",
+    "choices": [
+      "Earthquake, volcanic eruption, and lightning",
+      "Stranding, grounding, sinking, or capsizing of vessel",
+      "Fire or explosion on the vessel",
+      "Collision of vessel with another object"
+    ],
+    "answer": 0,
+    "explanation": "ICC (B) covers earthquake, volcanic eruption, and lightning in addition to the perils in ICC (C). ICC (C) is the most restricted and does NOT cover these natural perils. Both cover vessel stranding, collision, and fire.",
+    "jpComparison": "協会貨物約款B（旧WA）は地震・噴火・落雷をカバーするが、C（旧FPA）はこれらを除く。日本でも地震は別途特約が必要なケースが多く、カバー範囲の確認が重要。",
+    "keywords": ["ICC B", "ICC C", "earthquake", "volcanic eruption", "lightning", "named perils"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-045",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Under a Voyage Policy for marine cargo, what is the maximum period allowed after discharge for the goods to reach their final warehouse?",
+    "choices": [
+      "60 days",
+      "30 days",
+      "90 days",
+      "45 days"
+    ],
+    "answer": 0,
+    "explanation": "Under a standard Voyage Policy, coverage continues for a maximum of 60 days after discharge at the final port of discharge for the goods to reach their final warehouse or place of storage.",
+    "jpComparison": "日本の積荷保険の航海保険では、仕向地到着後の保険期間は約款上30〜60日が一般的。シンガポールは60日が標準で、陸揚げ後の内陸輸送リスクをカバーする重要な規定。",
+    "keywords": ["Voyage Policy", "60 days", "discharge", "warehouse", "cargo policy"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-046",
+    "topic": "Marine & Aviation Insurance",
+    "question": "A ship sustains damage and the estimated repair cost exceeds the insured value of the vessel. What type of loss is this, and what must the assured do?",
+    "choices": [
+      "Constructive Total Loss; the assured must give Notice of Abandonment to the insurer",
+      "Actual Total Loss; the assured must submit a claim without notice",
+      "Particular Average; the assured must pay the excess and claim the remainder",
+      "General Average; all cargo owners must contribute proportionally"
+    ],
+    "answer": 0,
+    "explanation": "When repair costs exceed the insured value, it is a Constructive Total Loss (CTL). Under MIA 1906, the assured must give a formal Notice of Abandonment to the insurer to claim as a total loss. If not given, the loss can only be treated as a partial loss.",
+    "jpComparison": "日本の海上保険でも推定全損（構成的全損）の概念は同様。修繕費が保険価額を超える場合は委付（abandonment）通知が必要で、これにより全損保険金が支払われる。",
+    "keywords": ["Constructive Total Loss", "CTL", "Notice of Abandonment", "repair cost", "insured value"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-047",
+    "topic": "Marine & Aviation Insurance",
+    "question": "Which of the following is a standard exclusion under ALL Institute Cargo Clauses (A, B, and C)?",
+    "choices": [
+      "Loss caused by the assured's willful misconduct",
+      "Loss caused by fire or explosion",
+      "Loss caused by washing overboard",
+      "Loss caused by earthquake"
+    ],
+    "answer": 0,
+    "explanation": "Willful misconduct by the assured is a standard exclusion under all ICC clauses (A, B, and C). Other common exclusions include ordinary leakage, unsuitable packing, inherent vice, delay, and insolvency of the carrier.",
+    "jpComparison": "日本の貨物保険でも被保険者の故意・重大な過失は免責。これは保険の基本原則（モラルハザード防止）に基づくもので、国際的に共通した除外事項。",
+    "keywords": ["ICC exclusion", "willful misconduct", "common exclusion", "all ICC clauses"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-048",
+    "topic": "Marine & Aviation Insurance",
+    "question": "When a marine cargo claim arises, which of the following is one of the three mandatory actions the assured must take?",
+    "choices": [
+      "Take reasonable steps to minimize the loss",
+      "Abandon the cargo immediately",
+      "Refuse delivery until the insurer approves",
+      "File a police report within 24 hours"
+    ],
+    "answer": 0,
+    "explanation": "The three mandatory claim actions are: (1) take reasonable steps to minimize the loss, (2) notify the insurer or their appointed survey agent promptly, and (3) file a claim against the carrier to preserve subrogation rights.",
+    "jpComparison": "日本の貨物保険でも損害防止軽減義務は保険法上の義務。損害を拡大させた場合には保険金が減額されることがある。キャリアへの求償権保全も日本の実務と同様に重要。",
+    "keywords": ["mandatory claim actions", "minimize loss", "survey agent", "claim against carrier"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-049",
+    "topic": "Marine & Aviation Insurance",
+    "question": "For a Builders' Risks policy covering a vessel under construction, what is the typical limit for sea trials coverage?",
+    "choices": [
+      "Up to 250 nautical miles (approximately 402 km) from the shipyard",
+      "Up to 100 nautical miles from the shipyard",
+      "Up to 500 nautical miles from the shipyard",
+      "No sea trial coverage; a separate policy is required"
+    ],
+    "answer": 0,
+    "explanation": "Builders' Risks policies, which are typically 'All Risks' including latent defects, extend to cover sea trials up to 250 nautical miles (approximately 402 km) from the shipyard.",
+    "jpComparison": "日本の船舶建造保険も試運転中の事故をカバーするが、航行範囲の制限は造船所から一定水域内とされる。具体的な海里数（250海里）はシンガポール試験の重要ポイント。",
+    "keywords": ["Builders' Risks", "sea trials", "250 nautical miles", "402 km"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-050",
+    "topic": "Marine & Aviation Insurance",
+    "question": "What is an Open Cover in marine cargo insurance?",
+    "choices": [
+      "A facility where the insurer agrees to cover all shipments by the assured within agreed parameters, declared as they occur",
+      "A policy that covers all risks with no exclusions whatsoever",
+      "A short-term cargo policy for a single voyage",
+      "A policy where the sum insured is left open until the voyage is completed"
+    ],
+    "answer": 0,
+    "explanation": "An Open Cover is a standing arrangement under which the insurer agrees in advance to cover all shipments made by the assured within the agreed terms. Individual shipments are declared as they occur, providing automatic protection for regular shippers.",
+    "jpComparison": "日本では「包括予定保険」に相当。定期的・大量に貨物を輸送する企業が個別に保険を手配する手間を省くための仕組みで、シンガポールでも広く活用されている。",
+    "keywords": ["Open Cover", "standing arrangement", "declarations", "cargo facility"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-051",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "A Contractors' All Risks (CAR) policy typically covers three parties. Who are they?",
+    "choices": [
+      "The principal (project owner), the main contractor, and all sub-contractors",
+      "The principal, the architect, and the quantity surveyor",
+      "The main contractor, the engineer, and the insurer",
+      "The project owner, the financier, and the contractor only"
+    ],
+    "answer": 0,
+    "explanation": "A CAR policy typically covers three parties: the principal (project owner), the main contractor, and all sub-contractors. This joint insurance approach ensures all parties working on the project are protected under one policy.",
+    "jpComparison": "日本の建設工事保険も施主（発注者）、元請業者、下請業者を被保険者とすることが多い。現場の全関係者を一括でカバーする仕組みは日本でも同様。",
+    "keywords": ["CAR", "principal", "contractor", "sub-contractors", "three parties"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-052",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "Under a CAR policy, a contractor uses poor workmanship on a wall section, causing it to collapse and damage an adjacent, properly-built section. Which damage is covered?",
+    "choices": [
+      "Damage to the adjacent properly-constructed section only; the badly-built wall section is not covered",
+      "Both sections are covered under the All Risks clause",
+      "Neither section is covered as the loss arose from workmanship",
+      "Only the badly-built section is covered as it suffered the direct loss"
+    ],
+    "answer": 0,
+    "explanation": "CAR policies exclude damage directly caused by defective workmanship (the defective section itself). However, damage caused to other properly-constructed parts of the works as a consequence is covered.",
+    "jpComparison": "日本の建設工事保険でも施工不良部分そのものは補償対象外だが、不良施工が原因で他の適切な施工部分に生じた損害はカバーされる。「欠陥部分の補修費用は除外、結果損害はカバー」の原則は国際共通。",
+    "keywords": ["CAR", "defective workmanship", "exclusion", "consequential damage"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-053",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "What is the key difference between a CAR (Contractors' All Risks) policy and an EAR (Erection All Risks) policy?",
+    "choices": [
+      "CAR covers building and civil engineering construction; EAR covers the erection and installation of machinery and plant",
+      "CAR is for residential projects only; EAR is for commercial projects",
+      "CAR has no liability section; EAR includes full public liability",
+      "CAR is a named perils policy; EAR is an all risks policy"
+    ],
+    "answer": 0,
+    "explanation": "CAR is designed for building and civil engineering construction projects. EAR is specifically for the erection, installation, and testing of machinery, plant, and equipment. Both are 'All Risks' policies but cover different types of projects.",
+    "jpComparison": "日本でも建設工事保険（CAR相当）と組立保険（EAR相当）は別商品として存在する。機械・設備の据付工事には組立保険が適用され、建築工事との区別は実務上重要。",
+    "keywords": ["CAR", "EAR", "building construction", "machinery installation"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-054",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "Under a Boiler & Pressure Vessel policy, what is the correct definition of 'explosion'?",
+    "choices": [
+      "A sudden violent rupture of the boiler or pressure vessel due to internal pressure",
+      "The inward collapse of a vessel due to external pressure exceeding internal pressure",
+      "Any fire damage caused by ignition of flammable gases",
+      "Damage caused by gradual deterioration of the vessel walls"
+    ],
+    "answer": 0,
+    "explanation": "Under Boiler & Pressure Vessel insurance, 'explosion' means a sudden violent rupture due to internal pressure. 'Collapse,' by contrast, means an inward collapse due to external pressure. This distinction is a key exam concept.",
+    "jpComparison": "日本のボイラー保険でも「爆発」と「破裂」の定義は重要。内圧による外向きの破裂が爆発、外圧による内向きの変形が崩壊（インプロージョン）として区別される。",
+    "keywords": ["Boiler", "Pressure Vessel", "explosion", "sudden violent rupture", "internal pressure"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-055",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "A manufacturing plant's production machine suddenly breaks down due to an unexpected mechanical failure. Which policy would cover this loss?",
+    "choices": [
+      "Machinery Breakdown insurance",
+      "Property All Risks insurance",
+      "Business Interruption insurance",
+      "Contractors' All Risks insurance"
+    ],
+    "answer": 0,
+    "explanation": "Machinery Breakdown insurance covers sudden and unexpected breakdown of machinery due to mechanical or electrical causes. It does NOT cover gradual wear and tear. Property All Risks typically covers external perils, not internal mechanical failure.",
+    "jpComparison": "日本の機械保険（機械損害保険）に相当。突発的・偶発的な機械の損壊をカバーし、漸進的な摩耗・劣化は除外される点は日本と同様。",
+    "keywords": ["Machinery Breakdown", "sudden breakdown", "mechanical failure", "gradual wear exclusion"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-056",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "Machinery Breakdown Consequential Loss insurance covers which of the following?",
+    "choices": [
+      "Gross profit loss, increased operating costs, and standing charges during the indemnity period",
+      "The cost of repairing or replacing the broken machine",
+      "Third-party liability arising from the breakdown",
+      "Employee wages paid during forced overtime to catch up on lost production"
+    ],
+    "answer": 0,
+    "explanation": "Machinery Breakdown Consequential Loss (MBCL) covers the financial consequences of a breakdown: loss of gross profit, increased costs of working, and standing charges. The physical repair cost is covered under the Machinery Breakdown policy itself.",
+    "jpComparison": "日本の機械利益保険に相当。機械故障による生産停止で失われた利益と増加費用をカバーする。機械損害保険（物的損害）と利益保険（結果損害）をセットで手配するのが実務の基本。",
+    "keywords": ["MBCL", "Consequential Loss", "gross profit", "standing charges"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-057",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "In an Insurance Bond arrangement, who are the three parties involved?",
+    "choices": [
+      "The principal (contractor), the obligee (project owner), and the surety (insurer)",
+      "The insured, the insurer, and the broker",
+      "The borrower, the lender, and the guarantor",
+      "The employer, the employee, and the bonding company"
+    ],
+    "answer": 0,
+    "explanation": "An Insurance Bond involves three parties: the principal (who must perform), the obligee (who requires the bond), and the surety (the insurer who guarantees the principal's performance). If the principal defaults, the surety compensates the obligee.",
+    "jpComparison": "日本の履行保証保険も3者構造：主債務者（請負者）、債権者（発注者）、保証人（保険会社）。工事請負や公共工事での履行確保に使われ、シンガポールの制度と構造は同じ。",
+    "keywords": ["Insurance Bond", "principal", "obligee", "surety", "three parties"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-058",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "What is the typical premium range for an Insurance Bond as a percentage of the bond amount?",
+    "choices": [
+      "0.5% to 3%",
+      "5% to 10%",
+      "10% to 15%",
+      "0.01% to 0.1%"
+    ],
+    "answer": 0,
+    "explanation": "Insurance Bond premiums are typically between 0.5% and 3% of the bond amount. The exact rate depends on the type of bond, the contractor's financial strength, and the project risk.",
+    "jpComparison": "日本の履行保証保険の保険料率も契約金額の数%程度が目安。銀行保証状と比べて保険会社の保証は運転資金を拘束しないため、請負業者にとってコスト効率が高い。",
+    "keywords": ["bond premium", "0.5%", "3%", "bond amount"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-059",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "Which event would typically trigger a bond call (demand on the surety to pay the obligee)?",
+    "choices": [
+      "The contractor becomes insolvent and is unable to complete the project",
+      "The project owner decides to change the project scope",
+      "The architect certifies a minor variation to the works",
+      "The contractor requests an extension of time due to adverse weather"
+    ],
+    "answer": 0,
+    "explanation": "A bond call is triggered when the principal (contractor) defaults. Common triggers include insolvency, inadequate resources, poor management, or failure to maintain schedule. Scope changes or extensions by the contractor are not default events.",
+    "jpComparison": "日本の履行保証でも請負者の倒産や工事放棄が保証履行の主要トリガー。発注者の都合による設計変更や工期延長は保証対象外。",
+    "keywords": ["bond call", "insolvency", "default", "trigger"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-060",
+    "topic": "Construction, Machinery & Bond Insurance",
+    "question": "What is 'Novation' in the context of Insurance Bonds?",
+    "choices": [
+      "The transfer of the original contractor's obligations and rights under the contract to a replacement contractor",
+      "The cancellation of a bond when a project is completed successfully",
+      "The increase in bond amount when project costs escalate",
+      "The renewal of a bond for a subsequent phase of a project"
+    ],
+    "answer": 0,
+    "explanation": "Novation is the legal process of transferring the defaulting contractor's contractual obligations to a replacement contractor. It substitutes one contractor for another with the project owner's consent, allowing the project to continue.",
+    "jpComparison": "日本の建設業法上の「工事完成保証」でも保証人が代替施工者を手配する仕組みに相当。Novationは既存の契約関係を新しい請負者に引き継ぐ法的手続き。",
+    "keywords": ["Novation", "replacement contractor", "transfer obligations", "default"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-061",
+    "topic": "Pecuniary Insurance",
+    "question": "Fidelity Guarantee Insurance indemnifies the employer against which type of loss?",
+    "choices": [
+      "Direct pecuniary loss from employee defalcation (embezzlement), forgery, or fraudulent acts",
+      "Loss of business revenue due to employee resignation",
+      "Physical damage to company property by employees",
+      "Third-party claims arising from employee negligence"
+    ],
+    "answer": 0,
+    "explanation": "Fidelity Guarantee Insurance covers employers against direct financial loss from employees' dishonest acts including defalcation (embezzlement), forgery, and fraud. It does not cover consequential losses, interest, or physical damage.",
+    "jpComparison": "日本の身元信用保険に相当。従業員の不正行為（横領・偽造等）による直接的な金銭損失を填補する。日本では利用が減少しているが、SGでは企業保険として一般的。",
+    "keywords": ["Fidelity Guarantee", "defalcation", "embezzlement", "forgery", "employee dishonesty"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-062",
+    "topic": "Pecuniary Insurance",
+    "question": "A Fidelity Guarantee 'Floating Policy' differs from a 'Collective Policy' in that:",
+    "choices": [
+      "A single sum insured 'floats' over all named employees, with one maximum regardless of how many default",
+      "It covers unnamed employees by job category rather than by name",
+      "It covers only one employee at a time",
+      "The premium floats with market rates and is adjusted quarterly"
+    ],
+    "answer": 0,
+    "explanation": "A Floating Policy covers multiple named employees with one single sum insured that 'floats' over all of them. The maximum liability applies regardless of how many employees default. A Collective Policy covers named employees with individual specified amounts. A Blanket Policy covers unnamed employees by category.",
+    "jpComparison": "日本の身元信用保険には個別指名方式と包括方式がある。SGのFloating Policyは指名＋一括上限という中間的な形態で、日本にはあまり見られない独自の設計。",
+    "keywords": ["Floating Policy", "Collective Policy", "Blanket Policy", "FG types"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-063",
+    "topic": "Pecuniary Insurance",
+    "question": "Under a Fidelity Guarantee policy, losses must be discovered within the 'discovery period.' What is the maximum discovery period for an Individual Policy?",
+    "choices": [
+      "24 months after the policy terminates or after the employee leaves",
+      "12 months",
+      "6 months",
+      "36 months"
+    ],
+    "answer": 0,
+    "explanation": "For Individual FG Policies, losses must be discovered within a maximum of 24 months after policy termination or after the employee's resignation/retirement/dismissal/death (whichever comes first). Once discovered, losses must be reported within 12 months.",
+    "jpComparison": "日本の身元信用保険では発見期間は保険期間中または保険期間終了後一定期間内。SGの個別保険で最大24ヶ月の発見期間は比較的長い設定。",
+    "keywords": ["discovery period", "24 months", "Individual Policy", "FG", "reporting"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-064",
+    "topic": "Pecuniary Insurance",
+    "question": "Crime Insurance differs from traditional Fidelity Guarantee in several ways. Which of the following is an advantage of Crime Insurance?",
+    "choices": [
+      "It covers losses by unidentifiable employees and does not require prosecution of the guilty person",
+      "It only covers named employees with specified job functions",
+      "It has a lower premium than Fidelity Guarantee",
+      "It excludes electronic medium losses"
+    ],
+    "answer": 0,
+    "explanation": "Crime Insurance covers 'conduct' (broader than 'act'), covers losses even when the guilty employee cannot be identified, does not require prosecution, covers electronic medium losses, and covers overseas employees. Traditional FG is more restrictive in all these areas.",
+    "jpComparison": "日本でも企業総合保険（犯罪補償特約）が身元信用保険の代替として普及しつつある。犯人不特定でも補償される点が大きなメリットで、SGのCrime Insuranceと同様の進化。",
+    "keywords": ["Crime Insurance", "Fidelity Guarantee", "unidentifiable", "no prosecution", "electronic"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-065",
+    "topic": "Pecuniary Insurance",
+    "question": "Money Insurance covers 'all risks' for money. Which of the following is NOT included in the definition of 'money' under this policy?",
+    "choices": [
+      "Inventory stock or merchandise",
+      "Cash and bank notes",
+      "Cheques and bank drafts",
+      "Current postage stamps"
+    ],
+    "answer": 0,
+    "explanation": "Under Money Insurance, 'money' is defined as cash, bank notes, cheques, bank drafts, money orders, credit company sales vouchers, and current postage stamps. Physical goods, inventory, or merchandise are NOT money and would be covered under separate property insurance.",
+    "jpComparison": "日本の現金保険も「現金・小切手・手形・金券等」を対象とし、商品在庫は含まない。SGのMoney Insuranceも同様に金銭類のみをカバーする。",
+    "keywords": ["Money Insurance", "cash", "bank notes", "cheques", "postage stamps"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-066",
+    "topic": "Pecuniary Insurance",
+    "question": "Under a Money Insurance policy, a loss of cash from a safe that was opened with a key or duplicate key is:",
+    "choices": [
+      "Excluded, unless the key was obtained by threats or violence against the key holder",
+      "Covered as a standard theft claim",
+      "Covered only if the safe was also physically damaged",
+      "Excluded in all circumstances"
+    ],
+    "answer": 0,
+    "explanation": "Money Insurance excludes losses from a safe opened by key or duplicate key — UNLESS the key was obtained through threats or violence to the person holding it. This addresses the moral hazard of insider theft using legitimately obtained keys.",
+    "jpComparison": "日本の現金保険でも鍵を使った開錠による盗難は原則免責。暴力・脅迫による鍵の奪取は例外的にカバーされる点はSGと共通の設計思想。",
+    "keywords": ["Money Insurance", "safe", "key", "duplicate", "threats", "violence"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-067",
+    "topic": "Pecuniary Insurance",
+    "question": "Credit Insurance typically indemnifies the insured (seller) for up to what percentage of the loss?",
+    "choices": [
+      "Up to 90% of the loss",
+      "100% of the loss",
+      "Up to 50% of the loss",
+      "Up to 75% of the loss"
+    ],
+    "answer": 0,
+    "explanation": "Credit Insurance generally indemnifies up to 90% of the loss, not 100%. The remaining 10% acts as a retention by the insured, incentivising them to exercise proper credit management and pursue debt recovery.",
+    "jpComparison": "日本の取引信用保険も填補率は通常90〜95%で、被保険者に一定の自己負担を残す。SGも同様に90%填補が一般的で、モラルハザード防止の観点から100%カバーはしない。",
+    "keywords": ["Credit Insurance", "90%", "indemnity", "retention", "credit management"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-068",
+    "topic": "Pecuniary Insurance",
+    "question": "Credit Insurance covers both commercial and political risks. Which of the following is a political risk?",
+    "choices": [
+      "Foreign exchange transfer restrictions imposed by the buyer's government",
+      "Buyer insolvency due to poor management",
+      "Buyer's refusal to pay due to a quality dispute",
+      "Buyer's delayed payment due to cash flow problems"
+    ],
+    "answer": 0,
+    "explanation": "Political risks include: foreign exchange transfer restrictions, export/import licence cancellation, war, and civil disturbances in the buyer's country. Commercial risks include buyer insolvency and payment default. Credit Insurance can cover both.",
+    "jpComparison": "日本の貿易保険（NEXI）も政治リスク（送金規制・戦争等）と信用リスク（取引先倒産等）の両方をカバー。SGのCredit Insuranceも同様の二元構造。",
+    "keywords": ["Credit Insurance", "political risk", "commercial risk", "exchange restrictions"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-069",
+    "topic": "Pecuniary Insurance",
+    "question": "Political Risks Insurance for overseas investments includes 'CEND' cover. What does CEND stand for?",
+    "choices": [
+      "Confiscation, Expropriation, Nationalisation, Deprivation",
+      "Commercial, Economic, National, Diplomatic risks",
+      "Currency, Exchange, Negotiation, Default risks",
+      "Contract, Embargo, Non-payment, Dispute risks"
+    ],
+    "answer": 0,
+    "explanation": "CEND covers the risk of a host government seizing or depriving the insured of their overseas assets through Confiscation, Expropriation, Nationalisation, or Deprivation. This is a core coverage in Political Risks Insurance for foreign investments.",
+    "jpComparison": "日本のNEXI（日本貿易保険）が提供する海外投資保険でも収用リスク（国有化・接収等）は主要カバー項目。SGのCENDカバーと同様の保護を提供する。",
+    "keywords": ["CEND", "Confiscation", "Expropriation", "Nationalisation", "Deprivation"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-070",
+    "topic": "Pecuniary Insurance",
+    "question": "Under a Money Insurance claim, within how many days must a written claim be submitted to the insurer?",
+    "choices": [
+      "Within 7 days (or further time as allowed by the insurer)",
+      "Within 24 hours",
+      "Within 30 days",
+      "Within 14 days"
+    ],
+    "answer": 0,
+    "explanation": "Money Insurance claims must be reported to the police AND the insurer immediately. A written claim must then be submitted within 7 days, unless the insurer grants additional time. The insured must also take all practical steps to discover the guilty person.",
+    "jpComparison": "日本の現金保険も事故発生後速やかな通知と所定期間内の書面請求が必要。SGの7日以内という規定は比較的短い期限設定。",
+    "keywords": ["Money Insurance", "7 days", "written claim", "police report"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-071",
+    "topic": "Foreign Worker Insurance",
+    "question": "From 1 July 2023 (Stage 1), what is the minimum annual medical insurance claim limit for foreign workers in Singapore?",
+    "choices": [
+      "S$60,000 per worker per policy year",
+      "S$15,000 per worker per policy year",
+      "S$45,000 per worker per policy year",
+      "S$100,000 per worker per policy year"
+    ],
+    "answer": 0,
+    "explanation": "Stage 1 (effective 1 July 2023) raised the minimum annual claim limit from S$15,000 to S$60,000 per insured worker. Employers co-pay 25% of claims above the first S$15,000 up to the S$60,000 limit.",
+    "jpComparison": "日本では外国人労働者も健康保険・労災保険に加入するため、別途の上限付き医療保険義務はない。SGは雇用主負担のS$60,000上限という独自の制度。",
+    "keywords": ["foreign worker", "S$60,000", "Stage 1", "2023", "medical insurance"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-072",
+    "topic": "Foreign Worker Insurance",
+    "question": "Under Stage 1 of the Foreign Worker Medical Insurance reforms, the employer co-pay structure is:",
+    "choices": [
+      "25% of claims above the first S$15,000, up to the S$60,000 annual limit",
+      "50% of all claims from the first dollar",
+      "10% of claims above S$30,000",
+      "No co-pay; the insurer covers 100% of all claims"
+    ],
+    "answer": 0,
+    "explanation": "Employers co-pay 25% of medical claims exceeding S$15,000 up to the S$60,000 limit. For example, on a S$60,000 bill, the employer pays S$11,250 (25% of S$45,000) and the insurer covers S$48,750.",
+    "jpComparison": "日本の健康保険は自己負担3割が基本。SGの外国人労働者保険は最初のS$15,000まで全額保険負担、超過分の25%が雇用主負担という独自の分担構造。",
+    "keywords": ["co-pay", "25%", "S$15,000", "S$60,000", "employer"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-073",
+    "topic": "Foreign Worker Insurance",
+    "question": "What is the Security Bond amount required per foreign worker (except Malaysian workers)?",
+    "choices": [
+      "S$5,000",
+      "S$2,500",
+      "S$10,000",
+      "S$15,000"
+    ],
+    "answer": 0,
+    "explanation": "A Security Bond of S$5,000 per worker is required (except for Malaysian workers). It takes the form of an insurance or banker's guarantee between the employer and the Government of Singapore. The employer cannot ask the worker to pay for it.",
+    "jpComparison": "日本には同等の保証金制度はない。SGでは外国人労働者のWork Permit条件遵守を担保するための制度で、労働者失踪時にはS$2,500が没収される。",
+    "keywords": ["Security Bond", "S$5,000", "Malaysian exempt", "Work Permit"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-074",
+    "topic": "Foreign Worker Insurance",
+    "question": "If a foreign worker goes missing, how much of the Security Bond is forfeited if the employer made reasonable effort and filed a police report?",
+    "choices": [
+      "S$2,500 (half the bond amount)",
+      "The full S$5,000",
+      "S$1,000",
+      "No forfeiture if the employer cooperated"
+    ],
+    "answer": 0,
+    "explanation": "If a foreign worker is not found within 1 month of Work Permit cancellation, S$2,500 (half) is forfeited for repatriation costs. If the employer made reasonable efforts and filed a police report, only S$2,500 is forfeited (not the full S$5,000).",
+    "jpComparison": "日本には同等の制度がないが、技能実習制度では失踪者が出た場合に監理団体・実習実施者に報告義務がある。SGは金銭的ペナルティで遵守を確保する仕組み。",
+    "keywords": ["missing worker", "S$2,500", "forfeiture", "police report", "Security Bond"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-075",
+    "topic": "Foreign Worker Insurance",
+    "question": "Pre-hospitalisation diagnostic tests under Foreign Worker Medical Insurance are covered within what timeframe prior to hospitalisation?",
+    "choices": [
+      "Within 90 days before hospitalisation or surgery",
+      "Within 30 days before hospitalisation",
+      "Within 7 days before hospitalisation",
+      "Only on the day of admission"
+    ],
+    "answer": 0,
+    "explanation": "Pre-hospitalisation diagnostic X-ray/lab tests and specialist consultation fees are covered within 90 days prior to hospitalisation or surgery. Post-hospitalisation treatment is also covered within 90 days following discharge.",
+    "jpComparison": "日本の健康保険では入院前検査は診療の一部として保険適用され、特に日数制限はない。SGの90日という具体的な期限は試験で頻出する数値。",
+    "keywords": ["pre-hospitalisation", "90 days", "diagnostic tests", "foreign worker"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-076",
+    "topic": "Foreign Worker Insurance",
+    "question": "Which of the following is covered under Foreign Worker Medical Insurance?",
+    "choices": [
+      "Day surgery and surgical fees",
+      "Traditional Chinese Medicine",
+      "Cosmetic surgery",
+      "Vaccination costs"
+    ],
+    "answer": 0,
+    "explanation": "FW Medical Insurance covers hospitalisation and surgical expenses including day surgery, ICU, doctor's visits, and miscellaneous hospital expenses. TCM, cosmetic surgery, vaccination, and preventive treatment are among the standard exclusions.",
+    "jpComparison": "日本の健康保険では美容整形は対象外だが予防接種は一部公費負担がある。SGの外国人労働者保険は入院・手術中心で予防医療は除外される点が特徴。",
+    "keywords": ["covered expenses", "day surgery", "ICU", "exclusions", "TCM"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-077",
+    "topic": "Foreign Worker Insurance",
+    "question": "From 1 July 2025 (Stage 2), what major change is introduced for Foreign Worker Medical Insurance?",
+    "choices": [
+      "Direct hospital reimbursement by the insurer (no upfront payment by employer) and age-differentiated premiums",
+      "The minimum claim limit is raised to S$100,000",
+      "Employers no longer need to purchase medical insurance",
+      "Coverage is extended to include Traditional Chinese Medicine"
+    ],
+    "answer": 0,
+    "explanation": "Stage 2 (1 July 2025) introduces direct hospital reimbursement (eliminating upfront employer payment), a standard list of allowable exclusions, and age-differentiated premiums (workers ≤50 years vs. >50 years).",
+    "jpComparison": "日本の健康保険は元から医療機関への直接支払い（現物給付）が基本。SGは2025年Stage 2でようやく同様の仕組みを導入する段階。",
+    "keywords": ["Stage 2", "2025", "direct reimbursement", "age-differentiated", "premiums"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-078",
+    "topic": "Foreign Worker Insurance",
+    "question": "Under the Foreign Worker Medical Insurance policy, pre-existing illnesses are excluded for:",
+    "choices": [
+      "The first 12 months of employment under the same employer",
+      "The entire duration of employment",
+      "The first 6 months only",
+      "Pre-existing illnesses are never excluded"
+    ],
+    "answer": 0,
+    "explanation": "Pre-existing illnesses are excluded within the first 12 months of employment under the same employer. After 12 months, some insurers waive this exclusion. This prevents adverse selection while ensuring long-term workers have adequate coverage.",
+    "jpComparison": "日本の健康保険には既往症の待機期間はないが、民間医療保険では「告知義務」と「既往症不担保期間」がある。SGの12ヶ月ルールは民間保険的なアプローチ。",
+    "keywords": ["pre-existing", "12 months", "exclusion", "same employer", "waiting period"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-079",
+    "topic": "Foreign Worker Insurance",
+    "question": "S Pass holders require Foreign Worker Medical Insurance but differ from Work Permit holders in one key aspect:",
+    "choices": [
+      "S Pass holders do NOT require a Security Bond",
+      "S Pass holders do not need medical insurance",
+      "S Pass holders require double the Security Bond amount",
+      "S Pass holders can opt out of medical insurance"
+    ],
+    "answer": 0,
+    "explanation": "S Pass holders require medical insurance but are exempt from the Security Bond requirement. Work Permit holders (except Malaysians) require both medical insurance AND a S$5,000 Security Bond.",
+    "jpComparison": "日本の就労ビザ（技術・人文知識・国際業務等）には保証金制度はない。SGではビザの種類（WP/SP）により保証金の要否が異なる点がブローカーの実務知識として重要。",
+    "keywords": ["S Pass", "Security Bond", "exempt", "Work Permit", "medical insurance"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-080",
+    "topic": "Foreign Worker Insurance",
+    "question": "An employer's Foreign Worker Medical Insurance policy can be cancelled by either party with how many days' written notice?",
+    "choices": [
+      "30 days",
+      "7 days",
+      "14 days",
+      "60 days"
+    ],
+    "answer": 0,
+    "explanation": "Either party can cancel the policy with 30 days' written notice. If cancelled by the insurer, a pro-rata refund applies (unless there was a claim or breach). If cancelled by the insured, short-term premium rates apply with a minimum of approximately S$25.",
+    "jpComparison": "日本の保険契約も解約は双方から可能で、保険会社からの解除は一般に30日前通知が必要。SGの30日規定は日本の慣行と同様。",
+    "keywords": ["cancellation", "30 days", "written notice", "pro-rata refund"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-081",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Group Personal Accident (GPA) insurance is a 'benefit' policy. What does this mean?",
+    "choices": [
+      "It pays a fixed sum regardless of the actual financial loss suffered by the insured person",
+      "It reimburses only the actual financial loss proven by the insured",
+      "It provides benefits only to employees who have been with the company for over a year",
+      "It covers only work-related accidents, similar to WICA"
+    ],
+    "answer": 0,
+    "explanation": "GPA is a benefit policy — it pays the specified capital sum irrespective of actual financial loss. For example, if a sales manager loses a toe but can still work with no income loss, the policy pays the scheduled benefit. This differs from indemnity-based policies.",
+    "jpComparison": "日本の団体傷害保険も定額払い（給付金方式）で、実損填補ではない。障害等級に応じた保険金が支払われる点はSGのGPAと同じ構造。",
+    "keywords": ["benefit policy", "GPA", "fixed sum", "indemnity", "capital sum"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-082",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA insurance, death or Total & Permanent Disability (TPD) must occur within what timeframe from the accident date?",
+    "choices": [
+      "Within 12 months",
+      "Within 6 months",
+      "Within 24 months",
+      "Within 3 months"
+    ],
+    "answer": 0,
+    "explanation": "For a GPA claim to be valid, death or TPD must occur within 12 months from the date of the accident. This time limit establishes the causal link between the accident and the resulting death or disability.",
+    "jpComparison": "日本の傷害保険では事故から180日以内の後遺障害認定が一般的。SGの12ヶ月は日本の180日より長い期限設定。",
+    "keywords": ["12 months", "GPA", "death", "TPD", "time limit"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-083",
+    "topic": "Group PA & Corporate Travel",
+    "question": "In a GPA Table of Compensation, loss of both limbs pays 150% of the capital sum. If an employee previously received 50% for loss of four fingers, and later loses two legs in a separate accident, what is the maximum total benefit?",
+    "choices": [
+      "100% of the capital sum insured (the policy's maximum aggregate limit)",
+      "200% (50% + 150%)",
+      "150% (the higher single benefit only)",
+      "50% (only the remaining balance after the first claim)"
+    ],
+    "answer": 0,
+    "explanation": "Total benefits are limited to the highest benefit for any one disability (regardless of separate accidents). The insurance ceases when total benefits paid equal 100% of the capital sum insured. Previous payments reduce the remaining entitlement.",
+    "jpComparison": "日本の傷害保険でも後遺障害保険金の合計は保険金額が上限。複数回の事故でも累計が保険金額を超えて支払われることはない点はSGと同様。",
+    "keywords": ["aggregate limit", "100%", "capital sum", "multiple claims", "cessation"],
+    "difficulty": 3
+  },
+  {
+    "id": "comgi-084",
+    "topic": "Group PA & Corporate Travel",
+    "question": "GPA temporary disability benefits have a combined duration limit. What is the typical maximum?",
+    "choices": [
+      "52 or 104 weeks for total and partial disability combined",
+      "26 weeks for total disability only",
+      "Unlimited for total disability, 52 weeks for partial",
+      "12 months maximum with no partial disability benefit"
+    ],
+    "answer": 0,
+    "explanation": "Temporary disability benefits (total + partial combined) are limited to either 52 or 104 weeks depending on the policy. For example, if 104 weeks is the limit and 60 weeks of total disability are paid, only 44 weeks of partial disability remain.",
+    "jpComparison": "日本の傷害保険の休業損害補償は通常1,000日（約3年）が限度。SGの52-104週（1-2年）はやや短い設定だが、per accidentで新規事故は別カウントされる点は同じ。",
+    "keywords": ["temporary disability", "52 weeks", "104 weeks", "combined limit", "per accident"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-085",
+    "topic": "Group PA & Corporate Travel",
+    "question": "GPA insurance covers persons aged:",
+    "choices": [
+      "16 to 70 years",
+      "18 to 65 years",
+      "21 to 60 years",
+      "16 to 65 years"
+    ],
+    "answer": 0,
+    "explanation": "GPA insurance typically covers insured persons aged 16 to 70 years. This age range is broader than many other insurance products and reflects the working population demographic.",
+    "jpComparison": "日本の団体傷害保険は一般に15歳〜70歳前後が加入可能年齢。SGの16-70歳とほぼ同じ範囲。高齢化に伴い上限年齢を引き上げる保険会社も増えている。",
+    "keywords": ["age range", "16-70", "GPA", "insured persons"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-086",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Which of the following is NOT typically excluded from GPA insurance?",
+    "choices": [
+      "Natural disasters such as earthquakes and floods",
+      "Skydiving and mountaineering",
+      "Self-inflicted injuries or suicide",
+      "Driving under the influence of alcohol or drugs"
+    ],
+    "answer": 0,
+    "explanation": "Natural disasters are generally NOT excluded from GPA policies. Standard exclusions include: self-inflicted injury/suicide, hazardous activities (skydiving, mountaineering), driving under influence, war/nuclear risks, and criminal/unlawful acts.",
+    "jpComparison": "日本の傷害保険でも地震・噴火・津波は天災危険補償特約で補償可能（基本は免責）。SGのGPAでは自然災害が基本的にカバーされる点は日本より幅広い。",
+    "keywords": ["GPA exclusions", "natural disasters", "skydiving", "self-inflicted", "hazardous"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-087",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA, if the insured person disappears as a passenger on an aircraft or vessel and the body is not found after a specified period, what benefit is triggered?",
+    "choices": [
+      "The Disappearance benefit pays the death benefit, typically after 1 year",
+      "No benefit is payable until the body is recovered",
+      "A partial disability benefit is paid immediately",
+      "The policy is suspended until the person is found"
+    ],
+    "answer": 0,
+    "explanation": "The Disappearance extended benefit provides that if the insured person disappears as a passenger on an aircraft or vessel and the body is not found after a specified period (typically 1 year), the death benefit is payable.",
+    "jpComparison": "日本の傷害保険にも「行方不明」の場合の死亡保険金支払い規定がある。日本では民法上の失踪宣告（普通失踪7年、特別失踪1年）との関係で判断される。",
+    "keywords": ["Disappearance", "death benefit", "1 year", "aircraft", "vessel", "extended benefit"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-088",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Corporate Travel Insurance covers business trips of up to what maximum duration?",
+    "choices": [
+      "182 days per trip",
+      "90 days per trip",
+      "365 days per trip",
+      "30 days per trip"
+    ],
+    "answer": 0,
+    "explanation": "Corporate Travel Insurance covers overseas business trips of up to 182 days per trip. It also covers personal deviation during business trips and may include leisure travel extensions. Home Leave Extension covers up to 30 days for expatriates.",
+    "jpComparison": "日本の海外旅行保険は一般に90日〜1年が契約期間。SGのCorporate Travelの182日上限は業務渡航としては十分な期間設定。",
+    "keywords": ["Corporate Travel", "182 days", "business trip", "maximum duration"],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-089",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Corporate Travel Insurance includes a unique 'Employee Replacement Benefit.' When does this apply?",
+    "choices": [
+      "When a substitute must be sent because the insured employee is certified unfit to continue due to injury or sickness",
+      "When an employee resigns during a business trip",
+      "When the company decides to rotate staff on a long-term assignment",
+      "When the original flight is overbooked and the employee is bumped"
+    ],
+    "answer": 0,
+    "explanation": "The Employee Replacement Benefit covers transportation costs (economy airfare, travel, accommodation) when a substitute employee must be sent because the original employee is: (1) certified unfit due to injury/sickness, or (2) encounters unexpected death/serious illness of a family member.",
+    "jpComparison": "日本の海外旅行保険には「救援者費用」があるが、代替要員の派遣費用をカバーする特約は珍しい。SGのEmployee Replacementは企業向け旅行保険ならではの実務的な補償。",
+    "keywords": ["Employee Replacement", "substitute", "unfit", "transportation costs", "Corporate Travel"],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-090",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under Corporate Travel Insurance, COVID-19 related overseas hospitalisation and overseas quarantine allowances are:",
+    "choices": [
+      "Covered separately — either hospitalisation OR quarantine allowance is paid, not both",
+      "Both paid simultaneously if the insured is hospitalised and then quarantined",
+      "Excluded entirely from all corporate travel policies",
+      "Covered only for trips to ASEAN countries"
+    ],
+    "answer": 0,
+    "explanation": "COVID-19 coverage includes overseas hospitalisation allowance and overseas quarantine allowance, but the insured receives either one or the other — not both. Coverage applies if COVID-19 is diagnosed within 90 days of the trip start.",
+    "jpComparison": "日本の海外旅行保険もCOVID-19関連費用をカバーする商品が増えたが、入院と隔離の給付金を「いずれか一方」とする規定はSG独自。日本では治療費実費補償が中心。",
+    "keywords": ["COVID-19", "quarantine", "hospitalisation", "either or", "90 days"],
+    "difficulty": 3
   }
 ]
