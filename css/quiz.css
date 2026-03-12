@@ -19,6 +19,8 @@
 }
 .quiz-header__module--bcp { background: var(--mrt-blue); }
 .quiz-header__module--comgi { background: var(--mrt-red); }
+.quiz-header__module--pgi { background: var(--mrt-green); }
+.quiz-header__module--hi { background: var(--mrt-purple); }
 
 .quiz-header__count {
   font-size: 0.85rem;
@@ -293,21 +295,9 @@
   animation: fadeSlideUp 0.2s ease;
 }
 
-/* ===== Supporter Bubble ===== */
-.supporter-bubble {
-  display: flex;
-  gap: var(--sp-sm);
-  align-items: flex-start;
-  padding: var(--sp-sm) var(--sp-md);
-  background: var(--c-surface);
-  border-radius: var(--radius-lg);
-  box-shadow: 0 2px 8px var(--c-shadow);
-  margin-top: var(--sp-sm);
-  animation: fadeSlideUp 0.4s ease;
-}
-.supporter-bubble__avatar { font-size: 1.3rem; }
-.supporter-bubble__name { font-size: 0.7rem; font-weight: 700; color: var(--c-accent); }
-.supporter-bubble__text { font-size: 0.85rem; line-height: 1.4; }
+/* ===== Supporter Bubble (quiz-specific overrides) ===== */
+/* Base styles in components.css; quiz context just adjusts avatar size */
+.quiz-feedback .supporter-bubble__avatar { font-size: 1.3rem; }
 
 /* ===== Trivia Card (in quiz & home) ===== */
 .trivia-card {

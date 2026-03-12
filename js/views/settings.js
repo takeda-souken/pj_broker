@@ -80,6 +80,14 @@ registerRoute('#settings', (app) => {
   homeCard.appendChild(createToggle(tr('settings.showTrivia', 'SG Trivia'), settings.homeShowTrivia !== false, (v) => SettingsStore.set('homeShowTrivia', v)));
   app.appendChild(homeCard);
 
+  // Extra modules (PGI & HI)
+  const extraCard = el('div', { className: 'card' });
+  extraCard.appendChild(el('h3', {}, tr('settings.extraModules', 'Extra Modules')));
+  extraCard.appendChild(createToggle(tr('settings.extraModulesToggle', 'PGI & HI modules'), settings.extraModules, (v) => SettingsStore.set('extraModules', v)));
+  extraCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
+    tr('settings.extraModulesDesc', 'Show Personal General Insurance & Health Insurance modules')));
+  app.appendChild(extraCard);
+
   // Daily goal (#13)
   const goalCard = el('div', { className: 'card' });
   goalCard.appendChild(el('h3', {}, tr('settings.dailyGoal', 'Daily Goal')));

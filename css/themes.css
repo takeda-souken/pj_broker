@@ -281,6 +281,8 @@
 /* ===== QUIZ HEADER ===== */
 [data-theme="dark"] .quiz-header__module--bcp { background: var(--mrt-blue); color: #fff; }
 [data-theme="dark"] .quiz-header__module--comgi { background: var(--mrt-red); color: #fff; }
+[data-theme="dark"] .quiz-header__module--pgi { background: var(--mrt-green); color: #fff; }
+[data-theme="dark"] .quiz-header__module--hi { background: var(--mrt-purple); color: #fff; }
 [data-theme="dark"] .quiz-header__count { color: var(--c-text-secondary); }
 [data-theme="dark"] .quiz-topic { color: var(--c-text-secondary); }
 [data-theme="dark"] .quiz-question { color: var(--c-text); }

@@ -4,6 +4,7 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { tr, trNode } from '../utils/i18n.js';
+import { SettingsStore } from '../models/settings-store.js';
 
 registerRoute('#module-select', (app) => {
   app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
@@ -17,6 +18,13 @@ registerRoute('#module-select', (app) => {
     tr('module.bcpDetail', '40 MCQ \u2022 45 min \u2022 70% to pass'), 'bcp'));
   grid.appendChild(moduleCard('ComGI', tr('module.comgiFull', 'Commercial General Insurance'),
     tr('module.comgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass'), 'comgi'));
+
+  if (SettingsStore.get('extraModules')) {
+    grid.appendChild(moduleCard('PGI', tr('module.pgiFull', 'Personal General Insurance'),
+      tr('module.pgiDetail', 'Supplementary module'), 'pgi'));
+    grid.appendChild(moduleCard('HI', tr('module.hiFull', 'Health Insurance'),
+      tr('module.hiDetail', 'Supplementary module'), 'hi'));
+  }
 
   app.appendChild(grid);
 });
