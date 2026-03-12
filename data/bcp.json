@@ -7052,5 +7052,126 @@
       "Code of Practice"
     ],
     "difficulty": 2
+  },
+  {
+    "id": "bcp-345",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "When a reinsurer transfers part of its assumed risks to another reinsurer, what is this process called?",
+    "choices": [
+      "A) Cession",
+      "B) Retrocession",
+      "C) Co-insurance",
+      "D) Facultative placement"
+    ],
+    "answer": 1,
+    "explanation": "When a reinsurer passes risks to other reinsurers, it is called retrocession. The assuming reinsurer is the retrocessionaire, and the ceding reinsurer is the retrocedent.",
+    "jpComparison": "日本でも再再保険（retrocession）の仕組みは同じ。再保険者がさらにリスクを移転する行為を指す。日本語では「再々保険」または「レトロセッション」と呼ばれる。",
+    "keywords": [
+      "retrocession",
+      "retrocessionaire",
+      "retrocedent"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-346",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In a co-insurance arrangement, if one of the co-insurers becomes insolvent before paying its share of a claim, what happens to the shortfall?",
+    "choices": [
+      "A) The leading insurer must cover the insolvent co-insurer's share",
+      "B) The remaining co-insurers must share the insolvent co-insurer's portion equally",
+      "C) The policyholder bears the loss for the insolvent co-insurer's share",
+      "D) The reinsurer of the insolvent co-insurer must pay the claim"
+    ],
+    "answer": 2,
+    "explanation": "Under co-insurance, each co-insurer has a separate contract with the insured, and liability is several but not joint. If a co-insurer goes out of business, the remaining co-insurers have no responsibility for that co-insurer's share, so the policyholder bears the shortfall.",
+    "jpComparison": "日本の共同保険でも各保険会社の責任は按分的（several）であり、連帯責任（joint）ではない。ただし日本では保険契約者保護機構があるため、保険会社の破綻時にも一定の保護がある。シンガポールにはSDIC（Singapore Deposit Insurance Corporation）がPPF Lifeスキームを運営しているが、損害保険の共同保険には直接適用されない。",
+    "keywords": [
+      "co-insurance",
+      "insolvency",
+      "several liability"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-347",
+    "topic": "Claims",
+    "question": "Under Singapore's Limitation Act 1959 (Section 24A), what is the limitation period for bringing legal action in respect of personal injuries caused by negligence?",
+    "choices": [
+      "A) 1 year",
+      "B) 3 years",
+      "C) 6 years",
+      "D) 12 years"
+    ],
+    "answer": 1,
+    "explanation": "Under Section 24A of the Limitation Act 1959, damages for negligence, nuisance or breach of duty in respect of personal injuries must be commenced within 3 years from the date on which the cause of action accrued. For other than personal injuries, the period is 6 years.",
+    "jpComparison": "日本の不法行為に基づく損害賠償請求権の消滅時効は、損害及び加害者を知った時から3年（人の生命・身体を害する場合は5年）。シンガポールの人身傷害3年・その他6年の区分と類似するが、日本は2020年の民法改正で人身傷害の時効が5年に延長された点が異なる。",
+    "keywords": [
+      "limitation period",
+      "Limitation Act 1959",
+      "personal injuries",
+      "3 years"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-348",
+    "topic": "Claims",
+    "question": "What is the key difference between a loss adjuster and a loss assessor?",
+    "choices": [
+      "A) Loss adjusters handle only property claims while loss assessors handle liability claims",
+      "B) Loss adjusters are appointed by insurers while loss assessors are appointed by the insured",
+      "C) Loss adjusters investigate fraud while loss assessors calculate the claim amount",
+      "D) Loss adjusters work only on small claims while loss assessors handle large claims"
+    ],
+    "answer": 1,
+    "explanation": "Loss adjusters are usually appointed by insurers to investigate and adjust claims impartially. Loss assessors, on the other hand, are appointed by the insured to prepare and negotiate claims on the insured's behalf. The insured pays the fees for appointing loss assessors.",
+    "jpComparison": "日本では「損害鑑定人」が保険会社側から任命され損害額を査定する役割を担う（loss adjuster に相当）。「損害査定人」は保険会社の社内で査定を行う。被保険者側が独自に鑑定人を立てる文化はシンガポールほど一般的ではないが、大型クレームでは公認会計士等が被保険者側のアドバイザーとなることがある。",
+    "keywords": [
+      "loss adjuster",
+      "loss assessor",
+      "claims professionals"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-349",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The acronym ETHICS represents the six general ethical principles for insurance professionals. What does the \"I\" stand for?",
+    "choices": [
+      "A) Innovation",
+      "B) Independence",
+      "C) Integrity",
+      "D) Intelligence"
+    ],
+    "answer": 2,
+    "explanation": "ETHICS stands for: E-xcellence, T-rustworthiness, H-onesty, I-ntegrity, C-aring, S-elflessness. Integrity means consistency between what one believes and how one acts.",
+    "jpComparison": "日本の保険業界でも「倫理」は重視されるが、シンガポールのようにETHICSという頭字語で体系化した教育は珍しい。日本では金融庁の「顧客本位の業務運営に関する原則」（フィデューシャリー・デューティー）が近い概念。",
+    "keywords": [
+      "ETHICS",
+      "integrity",
+      "ethical principles"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-350",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which of the following is considered an unethical act for an insurance agent according to the BCP textbook?",
+    "choices": [
+      "A) Recommending a policy from a competitor insurer that better suits the client",
+      "B) Mixing clients' premium money with one's own personal funds",
+      "C) Advising a client that their current coverage is adequate and no changes are needed",
+      "D) Declining to write a risk that falls outside the agent's area of expertise"
+    ],
+    "answer": 1,
+    "explanation": "Mixing clients' money with one's own is explicitly listed as an unethical act. Other listed unethical acts include misrepresenting cover, unauthorised alteration of proposal forms, fraud, being motivated primarily by commissions, padding premiums, and failure to disclose material information.",
+    "jpComparison": "日本でも保険業法で保険料の分別管理が義務付けられており、顧客の保険料と代理店の自己資金の混同は法令違反となる。シンガポールでも同様に倫理違反として教科書で明記されている。",
+    "keywords": [
+      "unethical acts",
+      "mixing funds",
+      "client money"
+    ],
+    "difficulty": 1
   }
 ]
