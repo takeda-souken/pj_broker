@@ -27,7 +27,7 @@ registerRoute('#records', (app) => {
   let activeTab = 'total';
   const seg = el('div', { className: 'seg-control mt-md' });
   const tabs = [
-    { id: 'total', label: 'Total' },
+    { id: 'total', label: tr('records.total', 'Total') },
     { id: 'bcp', label: 'BCP' },
     { id: 'comgi', label: 'ComGI' },
   ];
@@ -77,15 +77,15 @@ function renderTotal(container) {
 
   // Stats grid
   const grid = el('div', { className: 'stats-grid' });
-  grid.appendChild(statCard(totalAttempts.toString(), 'Attempts'));
-  grid.appendChild(statCard(totalAccuracy + '%', 'Accuracy'));
-  grid.appendChild(statCard(totalMastered.toString(), 'Mastered'));
+  grid.appendChild(statCard(totalAttempts.toString(), tr('records.attempts', 'Attempts')));
+  grid.appendChild(statCard(totalAccuracy + '%', tr('records.accuracy', 'Accuracy')));
+  grid.appendChild(statCard(totalMastered.toString(), tr('records.mastered', 'Mastered')));
   container.appendChild(grid);
 
   // Donut chart: correct / wrong
   if (totalAttempts > 0) {
     const donutWrap = el('div', { className: 'chart-container chart-container--donut mt-md' });
-    donutWrap.appendChild(el('h3', {}, 'Correct vs Wrong'));
+    donutWrap.appendChild(el('h3', {}, tr('records.correctVsWrong', 'Correct vs Wrong')));
     const canvas = el('canvas', {});
     donutWrap.appendChild(canvas);
     container.appendChild(donutWrap);
@@ -96,14 +96,14 @@ function renderTotal(container) {
 
   // Daily accuracy line chart
   const dailyWrap = el('div', { className: 'chart-container mt-md' });
-  dailyWrap.appendChild(el('h3', {}, 'Daily Accuracy'));
+  dailyWrap.appendChild(el('h3', {}, tr('records.dailyAccuracy', 'Daily Accuracy')));
   const dailyCanvas = el('canvas', {});
   dailyWrap.appendChild(dailyCanvas);
   container.appendChild(dailyWrap);
   renderDailyChart(dailyCanvas, null);
 
   // Per-module summary cards
-  container.appendChild(el('h3', { className: 'mt-lg' }, 'By Module'));
+  container.appendChild(el('h3', { className: 'mt-lg' }, tr('records.byModule', 'By Module')));
   const moduleGrid = el('div', { className: 'flex-col gap-sm' });
   moduleGrid.appendChild(moduleSummaryCard('BCP', bcpStats, 'var(--mrt-blue)'));
   moduleGrid.appendChild(moduleSummaryCard('ComGI', comgiStats, 'var(--mrt-red)'));
@@ -119,9 +119,9 @@ function renderModuleStats(container, module) {
   const stats = RecordStore.getModuleStats(module);
 
   const grid = el('div', { className: 'stats-grid' });
-  grid.appendChild(statCard(stats.attempts.toString(), 'Attempts'));
-  grid.appendChild(statCard(stats.accuracy + '%', 'Accuracy'));
-  grid.appendChild(statCard(stats.mastered.toString(), 'Mastered'));
+  grid.appendChild(statCard(stats.attempts.toString(), tr('records.attempts', 'Attempts')));
+  grid.appendChild(statCard(stats.accuracy + '%', tr('records.accuracy', 'Accuracy')));
+  grid.appendChild(statCard(stats.mastered.toString(), tr('records.mastered', 'Mastered')));
   container.appendChild(grid);
 
   // Topic breakdown table
@@ -135,7 +135,7 @@ function renderModuleStats(container, module) {
 
   // Per-topic horizontal bar chart
   const barWrap = el('div', { className: 'chart-container mt-md' });
-  barWrap.appendChild(el('h3', {}, 'Topic Accuracy'));
+  barWrap.appendChild(el('h3', {}, tr('records.topicAccuracy', 'Topic Accuracy')));
   const barCanvas = el('canvas', {});
   barWrap.appendChild(barCanvas);
   container.appendChild(barWrap);
@@ -143,7 +143,7 @@ function renderModuleStats(container, module) {
 
   // Daily accuracy line chart
   const dailyWrap = el('div', { className: 'chart-container mt-md' });
-  dailyWrap.appendChild(el('h3', {}, 'Daily Accuracy'));
+  dailyWrap.appendChild(el('h3', {}, tr('records.dailyAccuracy', 'Daily Accuracy')));
   const dailyCanvas = el('canvas', {});
   dailyWrap.appendChild(dailyCanvas);
   container.appendChild(dailyWrap);
@@ -152,9 +152,9 @@ function renderModuleStats(container, module) {
   // Topic table
   const table = el('table', { className: 'topic-table mt-md' });
   table.appendChild(el('tr', {},
-    el('th', {}, 'Topic'),
-    el('th', {}, 'Acc.'),
-    el('th', {}, 'Streak'),
+    el('th', {}, tr('records.topic', 'Topic')),
+    el('th', {}, tr('records.acc', 'Acc.')),
+    el('th', {}, tr('records.streak', 'Streak')),
   ));
 
   moduleTopics.sort((a, b) => (a.correct / a.attempts) - (b.correct / b.attempts));
@@ -190,11 +190,11 @@ function renderWeaknessAnalysis(container, module) {
   if (weakTopics.length === 0 && declining.length === 0 && improving.length === 0) return;
 
   const section = el('div', { className: 'card analysis-card mt-lg' });
-  section.appendChild(el('h3', { style: 'margin-bottom:12px;' }, 'Weakness Analysis'));
+  section.appendChild(el('h3', { style: 'margin-bottom:12px;' }, tr('records.weaknessAnalysis', 'Weakness Analysis')));
 
   // Weak topics
   if (weakTopics.length > 0) {
-    section.appendChild(el('div', { className: 'analysis-label analysis-label--danger' }, 'Weak Topics'));
+    section.appendChild(el('div', { className: 'analysis-label analysis-label--danger' }, tr('records.weakTopics', 'Weak Topics')));
     for (const w of weakTopics) {
       const pct = Math.round((w.correct / w.attempts) * 100);
       const item = el('div', { className: 'analysis-item' });
@@ -213,7 +213,7 @@ function renderWeaknessAnalysis(container, module) {
 
   // Declining topics
   if (declining.length > 0) {
-    section.appendChild(el('div', { className: 'analysis-label analysis-label--warning mt-md' }, 'Declining'));
+    section.appendChild(el('div', { className: 'analysis-label analysis-label--warning mt-md' }, tr('records.declining', 'Declining')));
     for (const t of declining) {
       const item = el('div', { className: 'analysis-item' });
       item.appendChild(el('div', { className: 'analysis-item__name' }, t.topic));
@@ -227,7 +227,7 @@ function renderWeaknessAnalysis(container, module) {
 
   // Improving topics
   if (improving.length > 0) {
-    section.appendChild(el('div', { className: 'analysis-label analysis-label--success mt-md' }, 'Improving'));
+    section.appendChild(el('div', { className: 'analysis-label analysis-label--success mt-md' }, tr('records.improving', 'Improving')));
     for (const t of improving) {
       const item = el('div', { className: 'analysis-item' });
       item.appendChild(el('div', { className: 'analysis-item__name' }, t.topic));
@@ -243,8 +243,8 @@ function renderWeaknessAnalysis(container, module) {
   const weakFocus = SettingsStore.load().weakFocusEnabled !== false;
   const statusEl = el('div', { className: 'text-sm mt-md', style: 'opacity:0.7;' });
   statusEl.textContent = weakFocus
-    ? 'Weak Focus ON — practice sessions prioritize weak topics'
-    : 'Weak Focus OFF — practice sessions use random selection';
+    ? tr('records.weakFocusOn', 'Weak Focus ON — practice sessions prioritize weak topics')
+    : tr('records.weakFocusOff', 'Weak Focus OFF — practice sessions use random selection');
   section.appendChild(statusEl);
 
   container.appendChild(section);
@@ -277,7 +277,7 @@ function renderDonutChart(canvas, correct, wrong) {
     const chart = new Chart(canvas, {
       type: 'doughnut',
       data: {
-        labels: ['Correct', 'Wrong'],
+        labels: [tr('records.chartCorrect', 'Correct'), tr('records.chartWrong', 'Wrong')],
         datasets: [{
           data: [correct, wrong],
           backgroundColor: [c.success, c.danger],
@@ -308,14 +308,14 @@ function renderDonutChart(canvas, correct, wrong) {
     });
     activeCharts.push(chart);
   }).catch(() => {
-    canvas.parentElement.innerHTML = '<div class="text-sm text-secondary text-center">Chart unavailable</div>';
+    canvas.parentElement.innerHTML = `<div class="text-sm text-secondary text-center">${tr('records.chartUnavailable', 'Chart unavailable')}</div>`;
   });
 }
 
 function renderDailyChart(canvas, module) {
   const records = RecordStore.getRecords();
   if (records.length === 0) {
-    canvas.parentElement.innerHTML = '<div class="text-sm text-secondary text-center">No data yet</div>';
+    canvas.parentElement.innerHTML = `<div class="text-sm text-secondary text-center">${tr('records.noData', 'No data yet')}</div>`;
     return;
   }
 
@@ -332,7 +332,7 @@ function renderDailyChart(canvas, module) {
 
   const sortedDates = Object.keys(byDate).sort();
   if (sortedDates.length === 0) {
-    canvas.parentElement.innerHTML = '<div class="text-sm text-secondary text-center">No data yet</div>';
+    canvas.parentElement.innerHTML = `<div class="text-sm text-secondary text-center">${tr('records.noData', 'No data yet')}</div>`;
     return;
   }
 
@@ -387,7 +387,7 @@ function renderDailyChart(canvas, module) {
         labels: displayLabels,
         datasets: [
           {
-            label: 'Accuracy %',
+            label: tr('records.chartAccuracy', 'Accuracy %'),
             data: accuracyData,
             borderColor: c.accent,
             backgroundColor: c.accent + '22',
@@ -401,7 +401,7 @@ function renderDailyChart(canvas, module) {
             yAxisID: 'y',
           },
           {
-            label: 'Questions',
+            label: tr('records.chartQuestions', 'Questions'),
             data: countData,
             borderColor: c.textSecondary + '80',
             backgroundColor: c.textSecondary + '15',
@@ -476,12 +476,12 @@ function renderDailyChart(canvas, module) {
           className: 'chart-today-marker text-sm',
           style: `color:${c.primary};font-weight:700;text-align:center;margin-top:4px;`,
         });
-        todayLabel.textContent = `Today \u2192 Goal: Apr 30`;
+        todayLabel.textContent = tr('records.todayGoal', 'Today \u2192 Goal: Apr 30');
         canvas.parentElement.appendChild(todayLabel);
       }
     }
   }).catch(() => {
-    canvas.parentElement.innerHTML = '<div class="text-sm text-secondary text-center">Chart unavailable</div>';
+    canvas.parentElement.innerHTML = `<div class="text-sm text-secondary text-center">${tr('records.chartUnavailable', 'Chart unavailable')}</div>`;
   });
 }
 
@@ -511,7 +511,7 @@ function renderTopicBarChart(canvas, moduleTopics, module) {
       data: {
         labels,
         datasets: [{
-          label: 'Accuracy %',
+          label: tr('records.chartAccuracy', 'Accuracy %'),
           data,
           backgroundColor: bgColors,
           borderRadius: 4,
@@ -567,7 +567,7 @@ function renderTopicBarChart(canvas, moduleTopics, module) {
     const h = Math.max(180, sorted.length * 36 + 40);
     canvas.parentElement.style.height = h + 'px';
   }).catch(() => {
-    canvas.parentElement.innerHTML = '<div class="text-sm text-secondary text-center">Chart unavailable</div>';
+    canvas.parentElement.innerHTML = `<div class="text-sm text-secondary text-center">${tr('records.chartUnavailable', 'Chart unavailable')}</div>`;
   });
 }
 
@@ -582,7 +582,7 @@ function moduleSummaryCard(name, stats, color) {
   const row = el('div', { className: 'flex-row', style: 'justify-content:space-between;' });
   row.appendChild(el('div', { style: 'font-weight:700;' }, name));
   row.appendChild(el('div', { className: 'text-sm text-secondary' },
-    `${stats.attempts} attempts \u00B7 ${stats.accuracy}% \u00B7 ${stats.mastered} mastered`));
+    tr('records.moduleSummary', `${stats.attempts} attempts \u00B7 ${stats.accuracy}% \u00B7 ${stats.mastered} mastered`, stats.attempts, stats.accuracy, stats.mastered)));
   card.appendChild(row);
 
   if (stats.attempts > 0) {
