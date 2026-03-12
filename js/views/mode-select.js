@@ -30,7 +30,7 @@ registerRoute('#mode-select', async (app) => {
     app.appendChild(hint);
   }
 
-  const grid = el('div', { className: 'flex-col gap-sm mt-md' });
+  const grid = el('div', { className: 'mode-select-grid mt-md' });
 
   grid.appendChild(modeCardBi('mode.practice10', 'Practice (10 Q)', 'mode.practice10sub', 'Random questions, no timer',
     () => navigate(`#quiz?module=${module}&mode=practice&count=10`)));
@@ -61,7 +61,7 @@ registerRoute('#mode-select', async (app) => {
       const h2 = el('h2', { className: 'mt-lg' });
       h2.appendChild(trNode('mode.byTopic', 'Practice by Topic'));
       app.appendChild(h2);
-      const topicGrid = el('div', { className: 'flex-col gap-sm' });
+      const topicGrid = el('div', { className: 'mode-topic-grid' });
       const topicStats = RecordStore.getTopicStats();
 
       for (const topic of topics) {

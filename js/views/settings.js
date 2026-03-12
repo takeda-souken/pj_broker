@@ -14,6 +14,9 @@ registerRoute('#settings', (app) => {
   app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('result.home', 'Back')));
   app.appendChild(el('h1', { className: 'mt-md' }, tr('settings.title', 'Settings')));
 
+  // ─── Settings grid (2-column on desktop) ───
+  const grid = el('div', { className: 'settings-grid' });
+
   // Language Mode (segmented control)
   const langCard = el('div', { className: 'card' });
   langCard.appendChild(el('h3', {}, tr('settings.language', 'Language Mode')));
@@ -26,20 +29,7 @@ registerRoute('#settings', (app) => {
     window.dispatchEvent(new CustomEvent('lang-mode-changed', { detail: { mode: v } }));
     navigate('#settings');
   }));
-  app.appendChild(langCard);
-
-  // Study Mode (segmented control)
-  const modeCard = el('div', { className: 'card' });
-  modeCard.appendChild(el('h3', {}, tr('settings.studyMode', 'Study Mode')));
-  modeCard.appendChild(createSegControl([
-    { value: 'kataoka', label: tr('settings.kataokaMode', 'Kataoka Mode') },
-    { value: 'standard', label: tr('settings.standardMode', 'Standard') },
-  ], settings.mode, (v) => { SettingsStore.set('mode', v); }));
-  modeCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
-    settings.mode === 'kataoka'
-      ? tr('settings.kataokaDesc', 'Personal encouragement & Kataoka-san extras')
-      : tr('settings.standardDesc', 'Standard study mode')));
-  app.appendChild(modeCard);
+  grid.appendChild(langCard);
 
   // Theme (segmented: auto / light / dark)
   const themeCard = el('div', { className: 'card' });
@@ -56,7 +46,7 @@ registerRoute('#settings', (app) => {
   if ((settings.theme || 'auto') === 'auto') {
     themeCard.appendChild(buildTimeRangeBar(settings));
   }
-  app.appendChild(themeCard);
+  grid.appendChild(themeCard);
 
   // Quiz options
   const quizCard = el('div', { className: 'card' });
@@ -67,18 +57,44 @@ registerRoute('#settings', (app) => {
   quizCard.appendChild(createToggle(tr('settings.trivia', 'SG trivia between questions'), settings.triviaEnabled, (v) => SettingsStore.set('triviaEnabled', v)));
   quizCard.appendChild(createToggle(tr('settings.weakFocus', 'Weak focus (prioritize weak topics)'), settings.weakFocusEnabled !== false, (v) => SettingsStore.set('weakFocusEnabled', v)));
   quizCard.appendChild(createToggle(tr('settings.supporter', 'Sakura (virtual supporter)'), settings.supporterEnabled, (v) => SettingsStore.set('supporterEnabled', v)));
-  app.appendChild(quizCard);
+  grid.appendChild(quizCard);
 
   // Home screen sections
   const homeCard = el('div', { className: 'card' });
   homeCard.appendChild(el('h3', {}, tr('settings.homeScreen', 'Home Screen')));
   homeCard.appendChild(createToggle(tr('settings.showXp', 'XP Bar'), settings.homeShowXp !== false, (v) => SettingsStore.set('homeShowXp', v)));
   homeCard.appendChild(createToggle(tr('settings.showGoal', 'Daily Goal'), settings.homeShowGoal !== false, (v) => SettingsStore.set('homeShowGoal', v)));
-  homeCard.appendChild(createToggle(tr('settings.showStreak', 'Study Streak'), settings.homeShowStreak !== false, (v) => SettingsStore.set('homeShowStreak', v)));
   homeCard.appendChild(createToggle(tr('settings.showStats', 'Quick Stats'), settings.homeShowStats !== false, (v) => SettingsStore.set('homeShowStats', v)));
   homeCard.appendChild(createToggle(tr('settings.showCountdown', 'Exam Countdown'), settings.homeShowCountdown !== false, (v) => SettingsStore.set('homeShowCountdown', v)));
   homeCard.appendChild(createToggle(tr('settings.showTrivia', 'SG Trivia'), settings.homeShowTrivia !== false, (v) => SettingsStore.set('homeShowTrivia', v)));
-  app.appendChild(homeCard);
+  grid.appendChild(homeCard);
+
+  // Exam date
+  const examCard = el('div', { className: 'card' });
+  examCard.appendChild(el('h3', {}, tr('settings.examDate', 'Exam Date')));
+  const examInput = el('input', { type: 'date', className: 'search-box mt-sm' });
+  examInput.value = settings.examDate || '';
+  examInput.addEventListener('change', () => {
+    SettingsStore.set('examDate', examInput.value);
+    showToast(tr('settings.examDateUpdated', 'Exam date updated'), 'success');
+  });
+  examCard.appendChild(examInput);
+  if (settings.examDate) {
+    const d = new Date(settings.examDate + 'T00:00:00');
+    const now = new Date();
+    const days = Math.ceil((d - now) / (1000 * 60 * 60 * 24));
+    if (days > 0) {
+      examCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
+        tr('settings.examDaysLeft', `${days} days until exam`, days)));
+    } else if (days === 0) {
+      examCard.appendChild(el('div', { className: 'text-sm mt-sm', style: 'color:var(--c-warning);font-weight:700;' },
+        tr('settings.examToday', 'Today is exam day! Good luck!')));
+    }
+  } else {
+    examCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
+      tr('settings.examDateHint', 'Set your exam date for countdown & special messages')));
+  }
+  grid.appendChild(examCard);
 
   // Extra modules (PGI & HI)
   const extraCard = el('div', { className: 'card' });
@@ -86,7 +102,7 @@ registerRoute('#settings', (app) => {
   extraCard.appendChild(createToggle(tr('settings.extraModulesToggle', 'PGI & HI modules'), settings.extraModules, (v) => SettingsStore.set('extraModules', v)));
   extraCard.appendChild(el('div', { className: 'text-sm text-secondary mt-sm' },
     tr('settings.extraModulesDesc', 'Show Personal General Insurance & Health Insurance modules')));
-  app.appendChild(extraCard);
+  grid.appendChild(extraCard);
 
   // Daily goal (#13)
   const goalCard = el('div', { className: 'card' });
@@ -102,7 +118,11 @@ registerRoute('#settings', (app) => {
     GamificationStore.setDailyGoal(parseInt(v));
     showToast(tr('settings.goalUpdated', 'Daily goal updated'), 'success');
   }));
-  app.appendChild(goalCard);
+  grid.appendChild(goalCard);
+
+  app.appendChild(grid);
+
+  // ─── Full-width action buttons (below the grid) ───
 
   // Achievements link (#31)
   app.appendChild(el('button', {
@@ -122,14 +142,14 @@ registerRoute('#settings', (app) => {
   dataCard.appendChild(el('button', {
     className: 'btn btn--outline btn--block mt-sm',
     onClick: () => {
-      if (confirm(tr('settings.clearConfirm', 'Clear all study records? This cannot be undone.'))) {
-        localStorage.removeItem('sg_broker_records');
-        localStorage.removeItem('sg_broker_topic_stats');
-        localStorage.removeItem('sg_broker_hawker');
-        localStorage.removeItem('sg_broker_saved_session');
-        localStorage.removeItem('sg_broker_game');
-        showToast(tr('settings.cleared', 'Records cleared'), 'info');
-      }
+      if (!confirm(tr('settings.clearConfirm', 'Clear all study records? This cannot be undone.'))) return;
+      if (!confirm('ちょ、ちょっと待って！！ほんっとに全部消すと！？\nホーカーもMRTもXPも全部なくなるっちゃけど！？\n……ほんなこつ、よかと？')) return;
+      localStorage.removeItem('sg_broker_records');
+      localStorage.removeItem('sg_broker_topic_stats');
+      localStorage.removeItem('sg_broker_hawker');
+      localStorage.removeItem('sg_broker_saved_session');
+      localStorage.removeItem('sg_broker_game');
+      showToast(tr('settings.cleared', 'Records cleared'), 'info');
     },
   }, tr('settings.clearRecords', 'Clear All Records')));
   app.appendChild(dataCard);

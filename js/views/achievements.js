@@ -26,8 +26,8 @@ registerRoute('#achievements', (app) => {
   summaryCard.appendChild(el('div', { className: 'text-sm mt-sm' }, `${gameData.xp} XP \u2022 ${gameData.totalQuizzes} quizzes \u2022 ${gameData.totalCorrect} correct`));
   app.appendChild(summaryCard);
 
-  // Achievement grid
-  const grid = el('div', { className: 'flex-col gap-sm mt-md' });
+  // Achievement grid (2-col on tablet, 3-col on wide desktop)
+  const grid = el('div', { className: 'achievements-grid mt-md' });
   for (const a of allAch) {
     const card = el('div', {
       className: `card ${a.unlocked ? '' : 'achievement--locked'}`,
@@ -57,8 +57,6 @@ registerRoute('#achievements', (app) => {
     ['Perfect Quizzes', gameData.perfectQuizzes],
     ['Mock Passes', gameData.mockPasses],
     ['Topics Mastered', gameData.topicsMastered],
-    ['Study Days', (gameData.studyDays || []).length],
-    ['Longest Streak', `${gameData.longestDailyStreak || 0} days`],
   ];
   for (const [label, value] of statsList) {
     const row = el('div', { className: 'flex-row', style: 'justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--c-surface-alt);' });

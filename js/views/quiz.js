@@ -12,7 +12,6 @@ import { RecordStore } from '../models/record-store.js';
 import { getDishForTopic } from '../data/hawker.js';
 import { showToast } from '../components/toast.js';
 import { formatDuration } from '../utils/date-utils.js';
-import { getEncouragement } from '../data/kataoka-messages.js';
 import { BookmarkStore } from '../models/bookmark-store.js';
 import { loadGlossary } from '../data/glossary.js';
 import { getSupporterMessage, createSupporterBubble } from '../components/supporter.js';
@@ -61,6 +60,19 @@ registerRoute('#quiz', async (app) => {
     app.appendChild(el('div', { className: 'text-center mt-lg' }, tr('quiz.noQuestions', 'No questions available yet.')));
     app.appendChild(el('button', { className: 'btn btn--primary btn--block mt-md', onClick: () => navigate('#home') }, tr('quiz.backHome', 'Back to Home')));
     return;
+  }
+
+  // Sakura session start message (new sessions only)
+  if (!resume) {
+    const startEvent = session.mode === 'mock' ? 'mockStart' : 'sessionStart';
+    const startMsg = getSupporterMessage(startEvent);
+    const startBubble = createSupporterBubble(startMsg, { typing: true });
+    if (startBubble) {
+      app.innerHTML = '';
+      app.appendChild(startBubble);
+      // Show for 2 seconds, then render the first question
+      await new Promise(resolve => setTimeout(resolve, 2000));
+    }
   }
 
   renderQuestion(app, session, settings);
@@ -132,6 +144,10 @@ function renderQuestion(app, session, settings) {
     return;
   }
 
+  // Desktop: wrap all quiz content for centering
+  const wrap = el('div', { className: 'quiz-content-area' });
+  app.appendChild(wrap);
+
   // Save session state for resume
   saveSession(session);
 
@@ -165,7 +181,7 @@ function renderQuestion(app, session, settings) {
   }
   headerRight.appendChild(el('span', { className: 'quiz-header__count' }, `${session.currentIndex + 1} / ${session.total}`));
   header.appendChild(headerRight);
-  app.appendChild(header);
+  wrap.appendChild(header);
 
   // Progress dots
   const dotsRow = el('div', { className: 'quiz-dots' });
@@ -179,14 +195,14 @@ function renderQuestion(app, session, settings) {
     }
     dotsRow.appendChild(dot);
   }
-  app.appendChild(dotsRow);
+  wrap.appendChild(dotsRow);
 
   // Timer bar (per-question, practice mode)
   let timerBar = null;
   if (settings.timerEnabled && session.mode !== 'mock') {
     const timePerQ = session.module === 'bcp' ? 67000 : 90000; // ms
     timerBar = createTimerBar(timePerQ, () => handleAnswer(-1), { dramatic: settings.timerDramatic !== false });
-    app.appendChild(timerBar.el);
+    wrap.appendChild(timerBar.el);
     timerBar.start();
   }
 
@@ -198,10 +214,10 @@ function renderQuestion(app, session, settings) {
     const diffColor = q.difficulty <= 1 ? 'var(--c-success)' : q.difficulty <= 2 ? 'var(--c-warning)' : 'var(--c-danger)';
     topicRow.appendChild(el('span', { className: 'badge', style: `color:${diffColor};font-size:0.65rem;` }, diffLabel));
   }
-  app.appendChild(topicRow);
+  wrap.appendChild(topicRow);
 
   // Question
-  app.appendChild(el('div', { className: 'quiz-question' }, q.question));
+  wrap.appendChild(el('div', { className: 'quiz-question' }, q.question));
 
   // Choices with keyboard hints (#41)
   const choiceGrid = createChoiceGrid(q.choices, (idx) => handleAnswer(idx));
@@ -211,7 +227,7 @@ function renderQuestion(app, session, settings) {
     const hint = el('span', { className: 'kbd-hint' }, `[${i + 1}]`);
     btn.appendChild(hint);
   });
-  app.appendChild(choiceGrid.el);
+  wrap.appendChild(choiceGrid.el);
 
   // Track if answered for keyboard handler
   let localAnswered = false;
@@ -251,20 +267,12 @@ function renderQuestion(app, session, settings) {
       }
     }
 
-    // Encouragement (Kataoka mode)
-    const currentSettings = SettingsStore.load();
-    if (currentSettings.mode === 'kataoka') {
-      const msg = getEncouragement(isCorrect ? 'correct' : 'wrong');
-      const encourageEl = el('div', { className: `encouragement encouragement--${isCorrect ? 'correct' : 'wrong'} mt-sm` }, msg);
-      app.appendChild(encourageEl);
-    }
-
     // Virtual supporter (Sakura)
     const supporterMsg = streak >= 3
       ? getSupporterMessage('streak', { n: streak })
       : getSupporterMessage(isCorrect ? 'correct' : 'wrong');
     const bubble = createSupporterBubble(supporterMsg);
-    if (bubble) app.appendChild(bubble);
+    if (bubble) wrap.appendChild(bubble);
 
     // Explanation with keyword highlighting
     if (currentSettings.showExplanation && q.explanation) {
@@ -360,11 +368,11 @@ function renderQuestion(app, session, settings) {
         expPanel.appendChild(kwSection);
       }
 
-      app.appendChild(expPanel);
+      wrap.appendChild(expPanel);
     }
 
     // Next button (after answering) — guard against duplicates
-    if (app.querySelector('.quiz-next-btn')) return;
+    if (wrap.querySelector('.quiz-next-btn')) return;
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
       onClick: () => { session.next(); renderQuestion(app, session, currentSettings); },
@@ -375,11 +383,11 @@ function renderQuestion(app, session, settings) {
     const kbdHint = el('span', { className: 'kbd-hint', style: 'margin-left:8px;' }, '[Enter]');
     nextBtn.appendChild(kbdHint);
     // Insert after choice grid, before explanation
-    const choiceEl = app.querySelector('.choice-grid');
+    const choiceEl = wrap.querySelector('.choice-grid');
     if (choiceEl && choiceEl.nextSibling) {
-      app.insertBefore(nextBtn, choiceEl.nextSibling);
+      wrap.insertBefore(nextBtn, choiceEl.nextSibling);
     } else {
-      app.appendChild(nextBtn);
+      wrap.appendChild(nextBtn);
     }
   }
 }

@@ -40,7 +40,7 @@ registerRoute('#records', (app) => {
   tabBtns.forEach(b => seg.appendChild(b));
   app.appendChild(seg);
 
-  const content = el('div', { className: 'mt-md' });
+  const content = el('div', { className: 'records-layout mt-md' });
   app.appendChild(content);
 
   function switchTab(tab) {
@@ -82,25 +82,30 @@ function renderTotal(container) {
   grid.appendChild(statCard(totalMastered.toString(), tr('records.mastered', 'Mastered')));
   container.appendChild(grid);
 
+  // Charts section (side by side on desktop)
+  const chartsRow = el('div', { className: 'records-charts' });
+
   // Donut chart: correct / wrong
   if (totalAttempts > 0) {
-    const donutWrap = el('div', { className: 'chart-container chart-container--donut mt-md' });
+    const donutWrap = el('div', { className: 'chart-container chart-container--donut' });
     donutWrap.appendChild(el('h3', {}, tr('records.correctVsWrong', 'Correct vs Wrong')));
     const canvas = el('canvas', {});
     donutWrap.appendChild(canvas);
-    container.appendChild(donutWrap);
+    chartsRow.appendChild(donutWrap);
 
     const totalWrong = totalAttempts - totalCorrect;
     renderDonutChart(canvas, totalCorrect, totalWrong);
   }
 
   // Daily accuracy line chart
-  const dailyWrap = el('div', { className: 'chart-container mt-md' });
+  const dailyWrap = el('div', { className: 'chart-container' });
   dailyWrap.appendChild(el('h3', {}, tr('records.dailyAccuracy', 'Daily Accuracy')));
   const dailyCanvas = el('canvas', {});
   dailyWrap.appendChild(dailyCanvas);
-  container.appendChild(dailyWrap);
+  chartsRow.appendChild(dailyWrap);
   renderDailyChart(dailyCanvas, null);
+
+  container.appendChild(chartsRow);
 
   // Per-module summary cards
   container.appendChild(el('h3', { className: 'mt-lg' }, tr('records.byModule', 'By Module')));
@@ -133,21 +138,26 @@ function renderModuleStats(container, module) {
     return;
   }
 
+  // Charts section (side by side on desktop)
+  const chartsRow = el('div', { className: 'records-charts' });
+
   // Per-topic horizontal bar chart
-  const barWrap = el('div', { className: 'chart-container mt-md' });
+  const barWrap = el('div', { className: 'chart-container' });
   barWrap.appendChild(el('h3', {}, tr('records.topicAccuracy', 'Topic Accuracy')));
   const barCanvas = el('canvas', {});
   barWrap.appendChild(barCanvas);
-  container.appendChild(barWrap);
+  chartsRow.appendChild(barWrap);
   renderTopicBarChart(barCanvas, moduleTopics, module);
 
   // Daily accuracy line chart
-  const dailyWrap = el('div', { className: 'chart-container mt-md' });
+  const dailyWrap = el('div', { className: 'chart-container' });
   dailyWrap.appendChild(el('h3', {}, tr('records.dailyAccuracy', 'Daily Accuracy')));
   const dailyCanvas = el('canvas', {});
   dailyWrap.appendChild(dailyCanvas);
-  container.appendChild(dailyWrap);
+  chartsRow.appendChild(dailyWrap);
   renderDailyChart(dailyCanvas, module);
+
+  container.appendChild(chartsRow);
 
   // Topic table
   const table = el('table', { className: 'topic-table mt-md' });
