@@ -5646,5 +5646,1411 @@
       "police report"
     ],
     "difficulty": 1
+  },
+  {
+    "id": "bcp-271",
+    "topic": "Claims",
+    "question": "What is the primary purpose of an insurer maintaining a 'claim register'?",
+    "choices": [
+      "To calculate annual premium adjustments",
+      "To hold a central record of all claims for checking claim history, underwriting, and fraud detection",
+      "To comply with MAS quarterly reporting",
+      "To determine the reinsurer's share of each loss"
+    ],
+    "answer": 1,
+    "explanation": "The claim register serves as a central record enabling the insurer to access claim history for underwriting, processing, and fraud detection.",
+    "jpComparison": "日本の保険会社でも「事故受付台帳」で同様の管理を行う。",
+    "keywords": [
+      "claim register",
+      "fraud detection"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-272",
+    "topic": "Claims",
+    "question": "Which is NOT part of the insurer's preliminary validation checklist upon receiving a claim?",
+    "choices": [
+      "Whether the policy was in force",
+      "Whether the loss is from an insured peril",
+      "Whether the insured's annual income exceeds the deductible",
+      "Whether notice was received within the notification period"
+    ],
+    "answer": 2,
+    "explanation": "The checklist includes: policy in force, insured peril, property covered, claimant entitlement, location covered, timely notification. Insured's income is not checked.",
+    "jpComparison": "日本の損害保険でも初期確認項目は類似している。",
+    "keywords": [
+      "preliminary validation",
+      "checklist"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-273",
+    "topic": "Claims",
+    "question": "Small claims where fraud is not suspected are typically handled by:",
+    "choices": [
+      "An external loss adjuster",
+      "The insurer's in-house claims officer",
+      "A loss assessor appointed by the insured",
+      "The GIA investigation unit"
+    ],
+    "answer": 1,
+    "explanation": "Small claims are handled in-house; large or complicated losses go to independent loss adjusters.",
+    "jpComparison": "日本でも少額請求は社内査定、大型案件は外部鑑定人に委託する。",
+    "keywords": [
+      "small claims",
+      "claims officer"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-274",
+    "topic": "Claims",
+    "question": "What is the correct first four steps in a loss adjuster's investigation plan?",
+    "choices": [
+      "Meet insured → inspect → check coverage → determine cause",
+      "Check coverage → meet insured → inspect property → protect from further damage",
+      "Determine cause → check coverage → determine value → meet insured",
+      "Inspect → protect → meet insured → check coverage"
+    ],
+    "answer": 1,
+    "explanation": "Correct sequence: (1) check coverage, (2) meet insured, (3) inspect property, (4) protect from further damage.",
+    "jpComparison": "日本の損害調査でも同様の手順を踏む。",
+    "keywords": [
+      "plan of investigation",
+      "loss adjuster"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-275",
+    "topic": "Claims",
+    "question": "For a death claim under PA Insurance without beneficiary nomination, what document must the legal representative submit?",
+    "choices": [
+      "Certified employment contract",
+      "Grant of probate or letter of administration",
+      "Statutory declaration",
+      "Medical certificate of death only"
+    ],
+    "answer": 1,
+    "explanation": "A grant of probate or letter of administration is required unless there is a nomination under Section 132 or 133 of the Insurance Act 1966.",
+    "jpComparison": "日本では戸籍謄本・死亡診断書等が必要。",
+    "keywords": [
+      "death claim",
+      "grant of probate",
+      "Section 132"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-276",
+    "topic": "Claims",
+    "question": "When the insured signs the discharge form or cashes the settlement cheque:",
+    "choices": [
+      "They can reopen the claim within 12 months",
+      "Further rights to pursue the claim are waived",
+      "They may claim additional amounts later",
+      "The discharge is only binding if witnessed"
+    ],
+    "answer": 1,
+    "explanation": "Signing the discharge or cashing the cheque waives further rights to pursue the claim.",
+    "jpComparison": "日本でも免責証書に署名すれば追加請求権は放棄される。",
+    "keywords": [
+      "discharge",
+      "claim waiver"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-277",
+    "topic": "Claims",
+    "question": "Which is an insurer's responsibility (NOT the insured's) during claims?",
+    "choices": [
+      "Proving the insured peril arose",
+      "Proving the amount of loss",
+      "Ascertaining that no exclusion applies",
+      "Submitting the claim form"
+    ],
+    "answer": 2,
+    "explanation": "The insurer must check that no exclusion applies. The insured bears the burden of proving the peril and loss amount.",
+    "jpComparison": "日本でも免責事由の立証は保険会社側の責任。",
+    "keywords": [
+      "onus of proof",
+      "exclusions"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-278",
+    "topic": "Claims",
+    "question": "The insured's duties after a loss are divided into:",
+    "choices": [
+      "Statutory and contractual duties",
+      "Implied and express duties",
+      "Primary and secondary duties",
+      "Notification and documentation duties"
+    ],
+    "answer": 1,
+    "explanation": "Implied duties (Common Law) and express duties (written policy conditions).",
+    "jpComparison": "日本の保険法でも法定義務と約定義務に類似した区分がある。",
+    "keywords": [
+      "implied duties",
+      "express duties"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-279",
+    "topic": "Claims",
+    "question": "Under express notification conditions, written claims must typically be submitted within:",
+    "choices": [
+      "7 or 14 days",
+      "21 or 30 days",
+      "45 or 60 days",
+      "90 days"
+    ],
+    "answer": 1,
+    "explanation": "Typically within 21 or 30 days with full details and documentary evidence.",
+    "jpComparison": "日本の約款でも通常30日または60日以内。",
+    "keywords": [
+      "notification period",
+      "21 days",
+      "30 days"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-280",
+    "topic": "Claims",
+    "question": "Which claims professional performs dehumidification for water damage and machinery reinstatement?",
+    "choices": [
+      "Loss assessors",
+      "Forensic scientists",
+      "Restoration specialist engineers",
+      "Claims recovery agents"
+    ],
+    "answer": 2,
+    "explanation": "Restoration specialist engineers handle dehumidification and machinery reinstatement.",
+    "jpComparison": "日本でもレストレーション業者が水害後の復旧を担当する。",
+    "keywords": [
+      "restoration specialist",
+      "dehumidification"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-281",
+    "topic": "Claims",
+    "question": "Insurance surveyors are appointed to:",
+    "choices": [
+      "Represent the insured's interests",
+      "Inspect damaged vehicles and negotiate repair costs with workshops",
+      "Determine legal liability",
+      "Provide forensic fire analysis"
+    ],
+    "answer": 1,
+    "explanation": "Surveyors inspect damaged vehicles and negotiate repair costs with authorised workshops.",
+    "jpComparison": "日本の「アジャスター」が同様の役割を担う。",
+    "keywords": [
+      "surveyors",
+      "motor claims",
+      "repair costs"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-282",
+    "topic": "Claims",
+    "question": "Using 'Respective Sums Insured' method: Insurer A covers S$60K, B covers S$40K. Loss is S$20K. How much does A pay?",
+    "choices": [
+      "S$8,000",
+      "S$10,000",
+      "S$12,000",
+      "S$20,000"
+    ],
+    "answer": 2,
+    "explanation": "A's share = (60K/100K) × 20K = S$12,000.",
+    "jpComparison": "日本の「独立責任額按分」に相当する計算方法。",
+    "keywords": [
+      "contribution",
+      "respective sums insured"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-283",
+    "topic": "Claims",
+    "question": "For liability insurance, contribution between co-insurers is calculated on which basis?",
+    "choices": [
+      "Respective sums insured",
+      "Independent liability method",
+      "Market value",
+      "Equal split"
+    ],
+    "answer": 1,
+    "explanation": "For liability insurance, the independent liability basis is used.",
+    "jpComparison": "日本でも独立責任額比例方式が一般的。",
+    "keywords": [
+      "independent liability",
+      "contribution"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-284",
+    "topic": "Claims",
+    "question": "A Fire Insurance limitation clause bars claims after how many months from the loss?",
+    "choices": [
+      "6 months",
+      "12 months",
+      "24 months",
+      "36 months"
+    ],
+    "answer": 1,
+    "explanation": "12 months from the loss, unless pending action or arbitration.",
+    "jpComparison": "日本の火災保険の時効は3年。シンガポールの12ヶ月は短い。",
+    "keywords": [
+      "limitation clause",
+      "12 months"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-285",
+    "topic": "Claims",
+    "question": "The most common type of insurance fraud in Singapore is:",
+    "choices": [
+      "Marine cargo fraud",
+      "Fire insurance fraud",
+      "Motor, travel, and personal accident fraud",
+      "Professional indemnity fraud"
+    ],
+    "answer": 2,
+    "explanation": "Motor, travel, and personal accident are the most common fraud segments.",
+    "jpComparison": "日本でも自動車保険の不正請求が最も多い。",
+    "keywords": [
+      "insurance fraud",
+      "motor fraud"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-286",
+    "topic": "Claims",
+    "question": "The GIA Fraud Management System (FMS) uses:",
+    "choices": [
+      "Manual review",
+      "Blockchain",
+      "Data analytics and AI",
+      "Biometric scanning"
+    ],
+    "answer": 2,
+    "explanation": "FMS uses data analytics and AI for fraud detection (implemented 2017).",
+    "jpComparison": "日本損保協会もAI・データ分析を導入している。",
+    "keywords": [
+      "FMS",
+      "AI",
+      "2017"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-287",
+    "topic": "Claims",
+    "question": "When was the GIA Centralised Investigation Bureau (CIB) launched?",
+    "choices": [
+      "March 2017",
+      "March 2019",
+      "June 2020",
+      "January 2021"
+    ],
+    "answer": 2,
+    "explanation": "CIB was launched in June 2020.",
+    "jpComparison": "シンガポールのCIBは比較的新しい取り組み。",
+    "keywords": [
+      "CIB",
+      "June 2020"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-288",
+    "topic": "Claims",
+    "question": "The CIB comprises how many investigation teams?",
+    "choices": [
+      "Two from MAS",
+      "Three from law enforcement",
+      "Four from GIA member SIUs",
+      "Six from loss adjusters"
+    ],
+    "answer": 2,
+    "explanation": "Four teams from Special Investigation Units of member companies on rotation.",
+    "jpComparison": "日本では各社SIUと損保協会が連携するが合同ローテーションはない。",
+    "keywords": [
+      "CIB",
+      "four teams",
+      "SIU"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-289",
+    "topic": "Claims",
+    "question": "To avoid payment on fraud grounds, what proof standard must the insurer meet?",
+    "choices": [
+      "Balance of probabilities",
+      "Reasonable suspicion",
+      "Beyond reasonable doubt",
+      "Signed confession"
+    ],
+    "answer": 2,
+    "explanation": "Fraud is a serious allegation requiring proof beyond reasonable doubt.",
+    "jpComparison": "日本でも詐欺の立証には高い基準が求められる。",
+    "keywords": [
+      "fraud",
+      "beyond reasonable doubt"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-290",
+    "topic": "Claims",
+    "question": "What is the difference between 'replacement' and 'reinstatement' for buildings?",
+    "choices": [
+      "Replacement = rebuild pre-loss; reinstatement = cash",
+      "Replacement = new building with modern materials or buy existing; reinstatement = rebuild to same pre-loss condition",
+      "Both identical",
+      "Reinstatement = machinery only"
+    ],
+    "answer": 1,
+    "explanation": "Replacement allows modern materials or buying existing. Reinstatement means same pre-loss condition.",
+    "jpComparison": "日本でも「新価保険」と「再築」の概念は区別される。",
+    "keywords": [
+      "replacement",
+      "reinstatement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-291",
+    "topic": "Claims",
+    "question": "Under the Treasury Agreement, if damage to either vehicle ≤ S$500:",
+    "choices": [
+      "Government pays all",
+      "Each party bears its own loss",
+      "Insurer pays both",
+      "Referred to BOLA"
+    ],
+    "answer": 1,
+    "explanation": "Each party bears its own loss if damage ≤ S$500.",
+    "jpComparison": "日本にはこのような政府車両との特別協定はない。",
+    "keywords": [
+      "Treasury Agreement",
+      "S$500"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-292",
+    "topic": "Claims",
+    "question": "The Treasury Agreement excludes claims exceeding:",
+    "choices": [
+      "S$1,000",
+      "S$5,000",
+      "S$10,000",
+      "S$50,000"
+    ],
+    "answer": 2,
+    "explanation": "Claims over S$10,000 and personal injury claims are excluded.",
+    "jpComparison": "日本には同等の制度はない。",
+    "keywords": [
+      "Treasury Agreement",
+      "S$10,000"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-293",
+    "topic": "Claims",
+    "question": "After a partial loss payment in Fire Insurance, what happens to the sum insured?",
+    "choices": [
+      "Remains unchanged",
+      "Reduced by amount paid; extra premium needed to reinstate",
+      "Doubles",
+      "Policy cancelled"
+    ],
+    "answer": 1,
+    "explanation": "Sum insured is reduced and extra premium needed to reinstate.",
+    "jpComparison": "日本では自動復元特約があれば追加保険料なしで復元される。",
+    "keywords": [
+      "reinstatement of sum insured",
+      "fire insurance"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-294",
+    "topic": "Claims",
+    "question": "In Marine Insurance, after a partial loss payment the sum insured:",
+    "choices": [
+      "Is reduced like Fire Insurance",
+      "Remains unchanged",
+      "Is reduced by 50%",
+      "Policy cancelled"
+    ],
+    "answer": 1,
+    "explanation": "Unlike Fire Insurance, Marine partial losses do NOT reduce subsequent cover.",
+    "jpComparison": "日本の海上保険でも一部損支払後も保険金額は減額されない。",
+    "keywords": [
+      "marine insurance",
+      "partial loss",
+      "automatic reinstatement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-295",
+    "topic": "Claims",
+    "question": "FIDReC is involved in claim disputes when:",
+    "choices": [
+      "Dispute concerns quantum only",
+      "Dispute involves denial of claims by insurers",
+      "Both parties agree to arbitration",
+      "Claim exceeds S$1M"
+    ],
+    "answer": 1,
+    "explanation": "Quantum disputes use arbitration; denial disputes involve FIDReC.",
+    "jpComparison": "日本の「そんぽADRセンター」が同様の役割を担う。",
+    "keywords": [
+      "FIDReC",
+      "denial of claims"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-296",
+    "topic": "Claims",
+    "question": "Reinstatement work on a building must typically be completed within:",
+    "choices": [
+      "6 months",
+      "12 months",
+      "24 months",
+      "No limit"
+    ],
+    "answer": 1,
+    "explanation": "Typically 12 months as specified in the policy.",
+    "jpComparison": "日本では通常2年以内。シンガポールの12ヶ月は短い。",
+    "keywords": [
+      "reinstatement",
+      "12 months"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-297",
+    "topic": "Claims",
+    "question": "In Cumberland v. Albert Insurance Co (1866), the insurer was liable for trespass because:",
+    "choices": [
+      "Entered without consent",
+      "Occupied premises for unreasonable length of time",
+      "Removed salvage without documentation",
+      "Refused to pay within limitation"
+    ],
+    "answer": 1,
+    "explanation": "The insurer occupied premises for an unreasonable time.",
+    "jpComparison": "日本でも損害調査が不当に長引けば不法行為となりうる。",
+    "keywords": [
+      "Cumberland case",
+      "trespass"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-298",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Reinsurance is best defined as:",
+    "choices": [
+      "Supplementary coverage for policyholders",
+      "A risk transfer mechanism where the insurer cedes risks to another insurer",
+      "A government guarantee fund",
+      "A joint policy arrangement"
+    ],
+    "answer": 1,
+    "explanation": "Reinsurance is a risk transfer from the cedant to the reinsurer.",
+    "jpComparison": "日本でも再保険は「保険会社の保険」として同じ定義。",
+    "keywords": [
+      "reinsurance",
+      "cedant"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-299",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In retrocession, the ceding reinsurer is called the:",
+    "choices": [
+      "Cedant",
+      "Retrocessionaire",
+      "Retrocedent",
+      "Primary insurer"
+    ],
+    "answer": 2,
+    "explanation": "The retrocedent cedes; the retrocessionaire assumes.",
+    "jpComparison": "日本でも同じ用語が使われる。",
+    "keywords": [
+      "retrocedent",
+      "retrocession"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-300",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Which is NOT a reinsurer advisory service?",
+    "choices": [
+      "Defining reinsurance needs",
+      "Supplying technical/IT support",
+      "Setting premium rates for direct policyholders",
+      "Risk modelling expertise"
+    ],
+    "answer": 2,
+    "explanation": "Setting direct policyholder rates is NOT a reinsurer service.",
+    "jpComparison": "日本の再保険ブローカーも同様のアドバイザリー機能を持つ。",
+    "keywords": [
+      "reinsurer advisory"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-301",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "A 'blind' treaty means:",
+    "choices": [
+      "Reinsurer doesn't know the insured's identity",
+      "Reinsurer accepts risks without prior knowledge of each risk",
+      "Ceding company can't see reinsurer's financials",
+      "Neither knows final premium"
+    ],
+    "answer": 1,
+    "explanation": "Blind = reinsurer bound to accept without prior assessment.",
+    "jpComparison": "日本のトリーティでも同様にブラインド。",
+    "keywords": [
+      "blind treaty"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-302",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Facultative reinsurance is used for:",
+    "choices": [
+      "Small routine risks",
+      "Automatic class-wide cessions",
+      "Complex/hazardous risks beyond capacity",
+      "Government-mandated risks"
+    ],
+    "answer": 2,
+    "explanation": "Facultative is for complex, hazardous, or beyond-capacity risks.",
+    "jpComparison": "日本でも大型・特殊リスクにファカルタティブを利用。",
+    "keywords": [
+      "facultative",
+      "complex risks"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-303",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Facultative reinsurance can be placed on:",
+    "choices": [
+      "Treaty or pool basis",
+      "Proportional or non-proportional basis",
+      "Quota share only",
+      "Aggregate excess only"
+    ],
+    "answer": 1,
+    "explanation": "Proportional or non-proportional (Facultative Excess of Loss).",
+    "jpComparison": "日本でも両方式が利用される。",
+    "keywords": [
+      "facultative",
+      "proportional",
+      "non-proportional"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-304",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Under quota share: cedes 30%, premium S$5M, claims S$3M. Reinsurer pays:",
+    "choices": [
+      "S$500K",
+      "S$900K",
+      "S$1.5M",
+      "S$3M"
+    ],
+    "answer": 1,
+    "explanation": "30% × S$3M = S$900K.",
+    "jpComparison": "クォータシェアでは保険料・保険金は同割合で按分。",
+    "keywords": [
+      "quota share",
+      "calculation"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-305",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Excess of loss: S$1M retention. Claims: S$400K, S$1.4M, S$2M, S$2.5M, S$3M. Total reinsurer pays:",
+    "choices": [
+      "S$4M",
+      "S$4.9M",
+      "S$5.4M",
+      "S$9.3M"
+    ],
+    "answer": 1,
+    "explanation": "0 + 400K + 1M + 1.5M + 2M = S$4.9M.",
+    "jpComparison": "日本のXoLでも同様の計算。",
+    "keywords": [
+      "excess of loss",
+      "retention calculation"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-306",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Key advantage of treaty over facultative reinsurance:",
+    "choices": [
+      "Individual risk assessment",
+      "Less cumbersome and less costly",
+      "Higher commission",
+      "Only for catastrophes"
+    ],
+    "answer": 1,
+    "explanation": "Treaty is administratively simpler due to automatic acceptance.",
+    "jpComparison": "日本でもトリーティは事務効率が高い。",
+    "keywords": [
+      "treaty vs facultative"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-307",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "A 'collective policy' in co-insurance means:",
+    "choices": [
+      "A reinsurance pool policy",
+      "One policy issued to policyholder by multiple co-insurers",
+      "A group employee policy",
+      "Government scheme"
+    ],
+    "answer": 1,
+    "explanation": "One policy from multiple co-insurers rather than separate policies.",
+    "jpComparison": "日本の共同保険でも1通の証券が発行される。",
+    "keywords": [
+      "collective policy",
+      "co-insurance"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-308",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Co-insurers signify agreement by returning a:",
+    "choices": [
+      "Letter of intent",
+      "Signing slip",
+      "Bordereau",
+      "Binder certificate"
+    ],
+    "answer": 1,
+    "explanation": "Signing slip authorises the leader to sign on behalf.",
+    "jpComparison": "日本では「共同保険引受通知書」に相当。",
+    "keywords": [
+      "signing slip"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-309",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Co-insurance: A:50%, B:30%, C:10%, D:7%, E:3%. C goes insolvent. S$1M claim. Policyholder recovers:",
+    "choices": [
+      "S$1M — others cover shortfall",
+      "S$900K",
+      "S$970K",
+      "S$0"
+    ],
+    "answer": 1,
+    "explanation": "Several liability means C's 10% is lost. Recovery = S$900K.",
+    "jpComparison": "日本でも分割責任の原則で同様。",
+    "keywords": [
+      "several liability",
+      "co-insurance insolvency"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-310",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "If a co-insurer disagrees with the leader's payment recommendation:",
+    "choices": [
+      "Must follow the leader",
+      "May voice concerns and raise relevant points",
+      "Can withdraw unilaterally",
+      "Must appeal to MAS"
+    ],
+    "answer": 1,
+    "explanation": "Each co-insurer has a separate contract and may raise concerns.",
+    "jpComparison": "日本でも各社は異議申立権を有する。",
+    "keywords": [
+      "co-insurer disagreement"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-311",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Reinsurer solvency matters because:",
+    "choices": [
+      "MAS requires triple-A ratings",
+      "If reinsurer fails, cedant remains liable but cannot recover",
+      "Reinsurer pays insured directly",
+      "Cedant is released when reinsurance purchased"
+    ],
+    "answer": 1,
+    "explanation": "The cedant remains fully liable even if the reinsurer becomes insolvent.",
+    "jpComparison": "日本でも再保険者の信用リスク管理は重要。",
+    "keywords": [
+      "reinsurer solvency",
+      "credit risk"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-312",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Reinsurance does NOT discharge the cedant from liability. This means:",
+    "choices": [
+      "Cedant pays only after reinsurer funds received",
+      "Policyholder claims from reinsurer",
+      "Insurer remains fully responsible to policyholders",
+      "Reinsurer has joint liability"
+    ],
+    "answer": 2,
+    "explanation": "The insurer remains fully responsible regardless of reinsurance.",
+    "jpComparison": "日本の保険業法でも同様の原則。",
+    "keywords": [
+      "cedant liability"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-313",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "XoL reinsurance: S$1M retention. Claim S$900K. Reinsurer pays:",
+    "choices": [
+      "S$900K",
+      "S$100K",
+      "Nothing — within retention",
+      "S$450K"
+    ],
+    "answer": 2,
+    "explanation": "S$900K < S$1M retention, so nothing recoverable.",
+    "jpComparison": "リテンション以下は元受会社の全額負担。",
+    "keywords": [
+      "excess of loss",
+      "below retention"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-314",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "In co-insurance vs reinsurance, the insured's relationship:",
+    "choices": [
+      "Direct with all in both",
+      "Direct with co-insurers; no relationship with reinsurer",
+      "Direct with reinsurer; only knows leader in co-insurance",
+      "Only knows broker in both"
+    ],
+    "answer": 1,
+    "explanation": "Co-insurance: direct with each co-insurer. Reinsurance: no relationship with reinsurer.",
+    "jpComparison": "日本でも同じ原則。",
+    "keywords": [
+      "co-insurance vs reinsurance"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-315",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "'Closing instructions' from the leader carry:",
+    "choices": [
+      "Retrocession details",
+      "Sum insured and premium for co-insurers to book",
+      "10-year claims history",
+      "MAS compliance requirements"
+    ],
+    "answer": 1,
+    "explanation": "Details of sum insured and premium for booking purposes.",
+    "jpComparison": "日本では「分割通知書」に相当。",
+    "keywords": [
+      "closing instructions"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-316",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "A disadvantage of co-insurance is:",
+    "choices": [
+      "Cannot share premium proportionally",
+      "Individual payments at different times can be cumbersome",
+      "Inadequate capacity",
+      "Leader bears 100% initially"
+    ],
+    "answer": 1,
+    "explanation": "Multiple individual payments at different times is cumbersome.",
+    "jpComparison": "日本でも同様の事務負担がある。",
+    "keywords": [
+      "co-insurance disadvantage"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-317",
+    "topic": "Reinsurance & Co-Insurance",
+    "question": "Reinsurance brokers are involved in transactions:",
+    "choices": [
+      "Always",
+      "Only per MAS requirement",
+      "Usually but not always",
+      "Only for non-proportional"
+    ],
+    "answer": 2,
+    "explanation": "Usually but not always involved.",
+    "jpComparison": "日本でも大半で介在するが直接取引もある。",
+    "keywords": [
+      "reinsurance brokers"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-318",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Ethics focuses on three key questions. Which is NOT one?",
+    "choices": [
+      "What does 'good' mean?",
+      "What do we owe others?",
+      "How to maximise shareholder value?",
+      "How to respond to conflicting obligations?"
+    ],
+    "answer": 2,
+    "explanation": "The three are about good, obligations, and conflicts. Not shareholder value.",
+    "jpComparison": "日本でも顧客本位の業務運営が重視される。",
+    "keywords": [
+      "ethics definition"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-319",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "'Courage' in insurance ethics means:",
+    "choices": [
+      "Taking financial risks",
+      "Converting ethical intention into ethical action",
+      "Negotiating higher premiums",
+      "Resisting regulation"
+    ],
+    "answer": 1,
+    "explanation": "Courage converts intention into action against pressure for unethical behaviour.",
+    "jpComparison": "日本でも「正しいことを実行する勇気」が重要とされる。",
+    "keywords": [
+      "courage",
+      "ethical action"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-320",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "'Padding the Premium' means:",
+    "choices": [
+      "Offering discounts",
+      "Quoting above insurer's rate and pocketing the difference",
+      "Recommending expensive coverage",
+      "Charging disclosed admin fees"
+    ],
+    "answer": 1,
+    "explanation": "Padding = quoting above the principal's rate and keeping the difference. Criminal offence.",
+    "jpComparison": "日本でも保険料上乗せは保険業法違反。",
+    "keywords": [
+      "padding premium",
+      "criminal offence"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-321",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The GI Code of Practice effective dates are:",
+    "choices": [
+      "1 Jan 2000; revised 1 Jan 2020",
+      "1 June 2004; revised 25 October 2022",
+      "1 April 2010; revised 1 Feb 2021",
+      "1 Sept 2014; revised 1 Jan 2023"
+    ],
+    "answer": 1,
+    "explanation": "Effective 1 June 2004, last revised 25 October 2022.",
+    "jpComparison": "日本損保協会の行動規範も定期的に改訂される。",
+    "keywords": [
+      "Code of Practice",
+      "1 June 2004",
+      "25 October 2022"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-322",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The 'Free Look' period under the GI Code is at least:",
+    "choices": [
+      "7 business days",
+      "14 business days",
+      "21 business days",
+      "30 business days"
+    ],
+    "answer": 1,
+    "explanation": "At least 14 business days from receipt of policy document.",
+    "jpComparison": "日本の損害保険にはクーリングオフは基本適用されない。",
+    "keywords": [
+      "Free Look",
+      "14 business days"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-323",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Free Look does NOT apply to:",
+    "choices": [
+      "3-year household insurance",
+      "Motor insurance",
+      "2-year commercial property",
+      "1-year PA insurance"
+    ],
+    "answer": 1,
+    "explanation": "Motor, Travel, Domestic Maid, short-term (<1yr), renewals, and compulsory insurance are excluded.",
+    "jpComparison": "日本でも自動車保険はクーリングオフ適用外。",
+    "keywords": [
+      "Free Look exclusions",
+      "motor"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-324",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "If a policyholder reports an incident, the agent must inform their principal within:",
+    "choices": [
+      "1 working day",
+      "3 working days",
+      "5 working days",
+      "7 working days"
+    ],
+    "answer": 1,
+    "explanation": "Within 3 working days under the Code of Practice for Agents.",
+    "jpComparison": "日本でも代理店は遅滞なく報告する義務がある。",
+    "keywords": [
+      "3 working days",
+      "agent notification"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-325",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "SIBA Code of Conduct 2023 commenced:",
+    "choices": [
+      "1 January 2023",
+      "1 June 2023",
+      "1 September 2023",
+      "1 January 2024"
+    ],
+    "answer": 2,
+    "explanation": "Commenced 1 September 2023.",
+    "jpComparison": "日本の保険仲立人協会の行動規範は同様の役割。",
+    "keywords": [
+      "SIBA",
+      "1 September 2023"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-326",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "SIBA members must keep training records for at least:",
+    "choices": [
+      "3 years",
+      "5 years",
+      "6 years",
+      "10 years"
+    ],
+    "answer": 2,
+    "explanation": "Minimum 6 years.",
+    "jpComparison": "日本でも教育記録の保管義務があるが6年は長い。",
+    "keywords": [
+      "SIBA",
+      "6 years",
+      "training records"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-327",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The PDPA's Do Not Call Registry covers:",
+    "choices": [
+      "All advertising including online",
+      "Marketing phone calls, SMS/MMS, faxes",
+      "Government communications",
+      "Email only"
+    ],
+    "answer": 1,
+    "explanation": "Phone calls, SMS/MMS, and faxes.",
+    "jpComparison": "日本には一元的DNC登録制度はない。",
+    "keywords": [
+      "DNC Registry",
+      "PDPA"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-328",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Enhanced PDPA criminal penalty for unauthorised disclosure:",
+    "choices": [
+      "S$2K or 1yr",
+      "S$5K or 2yr or both",
+      "S$10K or 3yr",
+      "S$50K or 5yr"
+    ],
+    "answer": 1,
+    "explanation": "Fine ≤ S$5,000 or imprisonment ≤ 2 years or both.",
+    "jpComparison": "日本は個人に1年以下の懲役または100万円以下の罰金。",
+    "keywords": [
+      "PDPA",
+      "S$5,000",
+      "2 years"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-329",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "New PDPA criminal offence introduced Feb 2021:",
+    "choices": [
+      "Failure to appoint DPO",
+      "Unauthorised re-identification of anonymised data",
+      "No website privacy policy",
+      "No annual audit"
+    ],
+    "answer": 1,
+    "explanation": "Three new offences: unauthorised disclosure, use for wrongful gain, and re-identification of anonymised data.",
+    "jpComparison": "日本のPDPAにも匿名加工情報のルールがあるが刑事罰は限定的。",
+    "keywords": [
+      "re-identification",
+      "anonymised data"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-330",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "MAS Notice 132 (Cyber Hygiene) was issued and took effect:",
+    "choices": [
+      "Jan 2018; effective Jan 2019",
+      "6 Aug 2019; effective 1 Aug 2020",
+      "Feb 2020; effective Feb 2021",
+      "Oct 2021; effective Oct 2022"
+    ],
+    "answer": 1,
+    "explanation": "Issued 6 August 2019, effective 1 August 2020.",
+    "jpComparison": "金融庁のサイバーセキュリティ通達は段階的に発出されている。",
+    "keywords": [
+      "MAS Notice 132",
+      "6 August 2019",
+      "1 August 2020"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-331",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Section 23(5) Insurance Act 1966 requires proposal forms to display:",
+    "choices": [
+      "Insurer's rating",
+      "Warning that non-disclosure may void benefits",
+      "Agent's commission",
+      "PPF limits"
+    ],
+    "answer": 1,
+    "explanation": "A prominent warning about non-disclosure consequences.",
+    "jpComparison": "日本には法定の定型警告文義務はない。",
+    "keywords": [
+      "Section 23(5)",
+      "proposal form"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-332",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Huebner's 1915 professional characteristics include:",
+    "choices": [
+      "Maximise revenue",
+      "Abandon selfish commercial view; keep client's advantage in mind",
+      "Prioritise company loyalty",
+      "Focus on technical expertise only"
+    ],
+    "answer": 1,
+    "explanation": "One of four: abandon selfish view and keep client's advantage in mind.",
+    "jpComparison": "日本でも「顧客利益の優先」が強調される。",
+    "keywords": [
+      "Huebner",
+      "professionalism",
+      "1915"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-333",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "DLP Guidelines were introduced and became mandatory:",
+    "choices": [
+      "Jan 2015; mandatory Jan 2018",
+      "6 Feb 2017; mandatory 1 Jan 2020",
+      "Sep 2019; mandatory Aug 2020",
+      "Jan 2020; mandatory Feb 2021"
+    ],
+    "answer": 1,
+    "explanation": "Introduced 6 February 2017; mandatory from 1 January 2020.",
+    "jpComparison": "日本でもガイドラインが後に義務化される傾向。",
+    "keywords": [
+      "DLP Guidelines",
+      "6 February 2017",
+      "1 January 2020"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-334",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "GI Code service standard: acknowledge claim within:",
+    "choices": [
+      "1 business day",
+      "3 business days",
+      "5 business days",
+      "7 business days"
+    ],
+    "answer": 1,
+    "explanation": "3 business days; payment within 10 business days of settlement agreement.",
+    "jpComparison": "日本は支払事由確認後30日以内が標準。",
+    "keywords": [
+      "3 business days",
+      "service standards"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-335",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which is NOT a benefit of ethical behaviour?",
+    "choices": [
+      "Self-respect",
+      "Higher commission rates",
+      "Prestige and esteem",
+      "Continuity of business"
+    ],
+    "answer": 1,
+    "explanation": "Six benefits: self-respect, freedom from fear, prestige, peer respect, continuity, industry image.",
+    "jpComparison": "手数料向上は倫理的行動の動機とされない。",
+    "keywords": [
+      "ethical behaviour benefits"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-336",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Sub-agency practice means an agent must not:",
+    "choices": [
+      "Represent multiple insurers",
+      "Allow anyone (unless Nominee Agent) to solicit on their behalf",
+      "Sell unlicensed classes",
+      "Accept referrals"
+    ],
+    "answer": 1,
+    "explanation": "Cannot let non-registered persons solicit insurance business.",
+    "jpComparison": "日本でも保険募集の再委託は厳しく制限。",
+    "keywords": [
+      "sub-agency",
+      "Nominee Agent"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-337",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under Code of Practice for Agents, insurance rates:",
+    "choices": [
+      "Adjustable by agent up to 10%",
+      "Fixed by principal (except agents with binders)",
+      "Set lower by agent to compete",
+      "Set by MAS"
+    ],
+    "answer": 1,
+    "explanation": "All rates fixed by the principal. No quoting above or below.",
+    "jpComparison": "日本でも代理店は保険会社の料率に従う義務がある。",
+    "keywords": [
+      "rates fixed by principal"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-338",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Enhanced PDPA consent framework expanded to cover:",
+    "choices": [
+      "Financial necessity; government directive",
+      "Contractual necessity; deemed consent by notification",
+      "Medical emergency; deemed consent by employment",
+      "Parental authority; age verification"
+    ],
+    "answer": 1,
+    "explanation": "(1) Contractual necessity and (2) deemed consent by notification.",
+    "jpComparison": "日本にも契約履行に必要な場合の例外規定がある。",
+    "keywords": [
+      "consent framework",
+      "contractual necessity"
+    ],
+    "difficulty": 3
+  },
+  {
+    "id": "bcp-339",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "PDPA data portability requires transmission in:",
+    "choices": [
+      "PDF only",
+      "Commonly used machine-readable format",
+      "Encrypted hard copy",
+      "Original format"
+    ],
+    "answer": 1,
+    "explanation": "Machine-readable format at the individual's request.",
+    "jpComparison": "EUのGDPRにも同様の権利がある。",
+    "keywords": [
+      "data portability",
+      "machine-readable"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "bcp-340",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "SIBA Code of Conduct 2023 is divided into:",
+    "choices": [
+      "3 sections",
+      "4 sections",
+      "5 sections",
+      "7 sections"
+    ],
+    "answer": 2,
+    "explanation": "Five sections: scope, standards, complaints, status, contacts.",
+    "jpComparison": "日本の仲立人協会も同様の構成。",
+    "keywords": [
+      "SIBA",
+      "five sections"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-341",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "SIBA cooling-off period is at least:",
+    "choices": [
+      "7 working days",
+      "14 working days",
+      "21 working days",
+      "30 working days"
+    ],
+    "answer": 1,
+    "explanation": "14 working days from receipt of policy document.",
+    "jpComparison": "GIAの14 business daysと実質同等。",
+    "keywords": [
+      "cooling-off",
+      "14 working days",
+      "SIBA"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-342",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which is NOT a requirement for a profession?",
+    "choices": [
+      "Specialised knowledge",
+      "Entry barriers (exams)",
+      "Political party membership",
+      "Continuing education"
+    ],
+    "answer": 2,
+    "explanation": "Four requirements: knowledge, barriers, education, code of ethics.",
+    "jpComparison": "日本の保険募集人資格制度も同様の要件。",
+    "keywords": [
+      "profession requirements"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-343",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Insurance is a 'public-interest industry' because:",
+    "choices": [
+      "Companies are government-owned",
+      "The public benefits substantially from insurance availability",
+      "Premiums are tax-deductible",
+      "MAS approves all products"
+    ],
+    "answer": 1,
+    "explanation": "The public obtains substantial benefit from insurance availability.",
+    "jpComparison": "日本でも保険業は公共性の高い事業。",
+    "keywords": [
+      "public-interest industry"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "bcp-344",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the Code, agents with insurance rates must:",
+    "choices": [
+      "Offer competitive discounts",
+      "Not quote above or below rates set by their principal",
+      "Set rates based on market conditions",
+      "Negotiate rates with each client"
+    ],
+    "answer": 1,
+    "explanation": "Agents must not quote above or below the principal's rates (except binder holders).",
+    "jpComparison": "日本でも保険料率の独自変更は禁止。",
+    "keywords": [
+      "rates",
+      "principal",
+      "Code of Practice"
+    ],
+    "difficulty": 2
   }
 ]
