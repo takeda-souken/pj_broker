@@ -1,6 +1,6 @@
 /**
  * Home view — main landing page
- * Optional sections are dismissible (×) and can be toggled in Settings.
+ * Redesigned: compact header, fixed-bottom sakura/trivia, first-launch tutorial
  */
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
@@ -8,109 +8,61 @@ import { SettingsStore } from '../models/settings-store.js';
 import { RecordStore } from '../models/record-store.js';
 import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
 import { getSavedSessionInfo } from './quiz.js';
-import { getEncouragement, shouldShowTakedaMessage } from '../data/kataoka-messages.js';
 import { tr, trNode, showJp as shouldShowJp, getLangMode } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
+import { getHomeGreeting, recordVisit, createSupporterBubble } from '../components/supporter.js';
+
+const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
 registerRoute('#home', (app) => {
   const settings = SettingsStore.load();
-  const isKataoka = settings.mode === 'kataoka';
 
-  // Header
-  const header = el('div', { className: 'text-center mt-md' });
+  // ─── Header row: Title + Countdown (desktop: side by side) ───
+  const headerRow = el('div', { className: 'home-header-row' });
+
+  const titleBlock = el('div', { className: 'home-title-block' });
   const titleEl = el('h1', { className: 'home-title' });
   titleEl.innerHTML = 'Broker<span class="home-title__accent">Pass</span> SG';
-  header.appendChild(titleEl);
-  if (isKataoka) {
-    header.appendChild(el('p', { className: 'home-greeting' }, getEncouragement('greeting')));
-    if (shouldShowTakedaMessage()) {
-      header.appendChild(el('p', { className: 'home-takeda-msg' }, getEncouragement('takeda')));
-    }
-  } else {
-    const sub = el('p', { className: 'home-subtitle' });
-    sub.appendChild(trNode('home.subtitle', 'BCP & ComGI Study Guide'));
-    header.appendChild(sub);
-  }
-  app.appendChild(header);
+  titleBlock.appendChild(titleEl);
+  const sub = el('p', { className: 'home-subtitle home-subtitle--compact' });
+  sub.appendChild(trNode('home.subtitle', 'CGI Exam Study Guide'));
+  titleBlock.appendChild(sub);
+  headerRow.appendChild(titleBlock);
 
-  // --- Optional section: Exam countdown ---
-  if (isKataoka && settings.homeShowCountdown !== false) {
+  // Countdown beside title on desktop
+  if (settings.homeShowCountdown !== false) {
     const countdown = buildCountdown();
-    if (countdown) app.appendChild(dismissible(countdown, 'homeShowCountdown'));
+    if (countdown) {
+      countdown.classList.add('home-countdown--header');
+      headerRow.appendChild(countdown);
+    }
   }
 
-  // --- Optional section: XP bar ---
+  app.appendChild(headerRow);
+
+  // ─── XP / Level bar (center, below header) ───
   if (settings.homeShowXp !== false) {
     const gameData = GamificationStore.load();
     const levelInfo = GamificationStore.getLevel(gameData.xp);
-    const xpSection = el('div', { className: 'xp-bar mt-sm' });
-    xpSection.appendChild(el('div', { className: 'xp-bar__level' }, `Lv.${levelInfo.level}`));
+    const xpSection = el('div', { className: 'xp-bar home-xp-center' });
+    xpSection.appendChild(el('div', { className: 'xp-bar__level' }, `Lv.${levelInfo.level} ${levelInfo.title}`));
     const track = el('div', { className: 'xp-bar__track' });
     const xpFill = el('div', { className: 'xp-bar__fill' });
     xpFill.style.width = `${Math.round(levelInfo.progress * 100)}%`;
     track.appendChild(xpFill);
     xpSection.appendChild(track);
-    xpSection.appendChild(el('div', { className: 'xp-bar__label' }, `${gameData.xp} XP`));
-    const xpWrap = el('div', {});
+    const xpInLevel = gameData.xp - levelInfo.currentLevelXp;
+    const xpNeeded = levelInfo.nextLevelXp - levelInfo.currentLevelXp;
+    xpSection.appendChild(el('div', { className: 'xp-bar__label' }, `${xpInLevel}/${xpNeeded} XP`));
+    const xpWrap = el('div', { className: 'home-xp-wrap' });
     xpWrap.appendChild(xpSection);
-    xpWrap.appendChild(el('div', { className: 'text-center text-sm text-secondary' }, levelInfo.title));
-    app.appendChild(dismissible(xpWrap, 'homeShowXp'));
+    app.appendChild(xpWrap);
   }
 
-  // --- Optional section: Daily goal ---
-  if (settings.homeShowGoal !== false) {
-    const gameData = GamificationStore.load();
-    const todayProgress = GamificationStore.getTodayProgress();
-    if (gameData.dailyGoal > 0) {
-      const goalSection = el('div', { className: 'daily-goal mt-sm' });
-      const goalPct = Math.min(100, Math.round((todayProgress.done / gameData.dailyGoal) * 100));
-      const goalDone = todayProgress.done >= gameData.dailyGoal;
-      goalSection.appendChild(el('div', { className: 'daily-goal__icon' }, goalDone ? '\u2705' : '\uD83C\uDFAF'));
-      const goalInfo = el('div', { className: 'daily-goal__info', style: 'flex:1;' });
-      goalInfo.appendChild(el('div', { className: 'text-sm' },
-        goalDone
-          ? tr('home.goalDone', 'Daily goal reached!', todayProgress.done, gameData.dailyGoal)
-          : tr('home.goalProgress', `${todayProgress.done}/${gameData.dailyGoal} questions today`, todayProgress.done, gameData.dailyGoal)));
-      const goalBar = el('div', { className: 'xp-bar__track', style: 'height:6px;' });
-      const goalFillEl = el('div', { className: 'xp-bar__fill' });
-      goalFillEl.style.width = `${goalPct}%`;
-      if (goalDone) goalFillEl.style.background = 'var(--c-success)';
-      goalBar.appendChild(goalFillEl);
-      goalInfo.appendChild(goalBar);
-      goalSection.appendChild(goalInfo);
-      app.appendChild(dismissible(goalSection, 'homeShowGoal'));
-    }
-  }
-
-  // --- Optional section: Study streak ---
-  if (settings.homeShowStreak !== false) {
-    const studyDaysArr = GamificationStore.getStudyDays();
-    const studyDaysSet = new Set(studyDaysArr);
-    if (studyDaysArr.length > 0) {
-      const gameData = GamificationStore.load();
-      const calSection = el('div', { className: 'card mt-sm', style: 'text-align:center;' });
-      const streakCount = gameData.longestDailyStreak || 0;
-      calSection.appendChild(el('div', { className: 'text-sm', style: 'font-weight:700;margin-bottom:6px;' },
-        tr('home.studyStreak', `Study Streak: ${streakCount} days`, streakCount)));
-      const cal = el('div', { className: 'streak-calendar' });
-      const today = new Date();
-      for (let i = 27; i >= 0; i--) {
-        const d = new Date(today);
-        d.setDate(d.getDate() - i);
-        const key = d.toISOString().slice(0, 10);
-        const cell = el('div', { className: `streak-calendar__day ${studyDaysSet.has(key) ? 'streak-calendar__day--active' : ''}` });
-        if (i === 0) cell.style.outline = '1px solid var(--c-accent)';
-        cal.appendChild(cell);
-      }
-      calSection.appendChild(cal);
-      app.appendChild(dismissible(calSection, 'homeShowStreak'));
-    }
-  }
-
-  // Resume banner (always shown if available)
+  // Resume banner
   const saved = getSavedSessionInfo();
   if (saved) {
-    const banner = el('div', { className: 'resume-banner mt-md', onClick: () => navigate('#quiz?resume=1') });
+    const banner = el('div', { className: 'resume-banner mt-sm', onClick: () => navigate('#quiz?resume=1') });
     const titleDiv = el('div', { className: 'resume-banner__title' });
     titleDiv.appendChild(trNode('home.continue', `Continue ${saved.module.toUpperCase()} ${saved.mode}`, saved.module.toUpperCase(), saved.mode));
     banner.appendChild(titleDiv);
@@ -122,36 +74,42 @@ registerRoute('#home', (app) => {
     app.appendChild(banner);
   }
 
-  // --- Optional section: Quick stats ---
+  // ─── Menu grid ───
+  // PC middle row: 練習, 模試, 単語集 (3 cols)
+  // PC bottom row: 記録, おたのしみ, 設定 (3 cols)
+  // Mobile: vertical stack
+  const menuUpper = el('div', { className: 'home-menu-row' });
+  menuUpper.appendChild(menuBtn('home.practice', 'Practice', 'home.practiceSub', 'Choose module & study', 'practice', () => navigate('#module-select')));
+  menuUpper.appendChild(menuBtn('home.mock', 'Mock Exam', 'home.mockSub', 'Timed exam simulation', 'mock', () => navigate('#module-select?mode=mock')));
+  menuUpper.appendChild(menuBtn('home.glossary', 'Glossary', 'home.glossarySub', 'Insurance Terms (EN/JP)', 'glossary', () => navigate('#glossary')));
+
+  const menuLower = el('div', { className: 'home-menu-row' });
+  menuLower.appendChild(menuBtn('home.records', 'Records', 'home.recordsSub', 'Study history & stats', 'records', () => navigate('#records')));
+  menuLower.appendChild(menuBtn('home.fun', 'Fun', 'home.funSub', 'MRT map, hawker & more', 'fun', () => navigate('#mrt')));
+  menuLower.appendChild(menuBtn('home.settings', 'Settings', null, '', 'settings', () => navigate('#settings')));
+
+  app.appendChild(menuUpper);
+  app.appendChild(menuLower);
+
+  // ─── Quick stats (compact, below menu) ───
   if (settings.homeShowStats !== false) {
-    const bcpStats = RecordStore.getModuleStats('bcp');
-    const comgiStats = RecordStore.getModuleStats('comgi');
-    const totalAttempts = bcpStats.attempts + comgiStats.attempts;
+    const modules = ['bcp', 'comgi', 'pgi', 'hi'];
+    const allStats = modules.map(m => RecordStore.getModuleStats(m));
+    const totalAttempts = allStats.reduce((s, st) => s + st.attempts, 0);
 
     if (totalAttempts > 0) {
-      const statsWrap = el('div', { className: 'mt-md' });
+      const statsWrap = el('div', { className: 'home-stats-section' });
       const stats = el('div', { className: 'stats-grid' });
-      stats.appendChild(statCard(bcpStats.accuracy + '%', tr('home.bcpAccuracy', 'BCP Accuracy')));
-      stats.appendChild(statCard(comgiStats.accuracy + '%', tr('home.comgiAccuracy', 'ComGI Accuracy')));
-      stats.appendChild(statCard(
-        (bcpStats.mastered + comgiStats.mastered).toString(),
-        tr('home.topicsMastered', 'Topics Mastered')
-      ));
+      for (let i = 0; i < modules.length; i++) {
+        if (allStats[i].attempts > 0) {
+          stats.appendChild(statCard(allStats[i].accuracy + '%', `${modules[i].toUpperCase()} Accuracy`));
+        }
+      }
+      const totalMastered = allStats.reduce((s, st) => s + st.mastered, 0);
+      stats.appendChild(statCard(totalMastered.toString(), tr('home.topicsMastered', 'Topics Mastered')));
       statsWrap.appendChild(stats);
 
-      const todayInfo = getTodayProgress();
-      if (todayInfo.today > 0) {
-        const strip = el('div', { className: 'home-today-strip mt-sm' });
-        strip.appendChild(el('span', {}, tr('home.today', `Today: ${todayInfo.today} questions`, todayInfo.today)));
-        if (todayInfo.todayAccuracy !== null) {
-          strip.appendChild(el('span', { style: `color:${todayInfo.todayAccuracy >= 70 ? 'var(--c-success)' : 'var(--c-warning)'}` },
-            tr('home.accuracy', `${todayInfo.todayAccuracy}% accuracy`, todayInfo.todayAccuracy)));
-        }
-        statsWrap.appendChild(strip);
-      }
-
-      const totalTopics = bcpStats.topicCount + comgiStats.topicCount;
-      const totalMastered = bcpStats.mastered + comgiStats.mastered;
+      const totalTopics = allStats.reduce((s, st) => s + st.topicCount, 0);
       if (totalTopics > 0) {
         const pct = Math.round((totalMastered / totalTopics) * 100);
         const progress = el('div', { className: 'home-progress mt-sm' });
@@ -164,102 +122,252 @@ registerRoute('#home', (app) => {
         progress.appendChild(bar);
         statsWrap.appendChild(progress);
       }
-      app.appendChild(dismissible(statsWrap, 'homeShowStats'));
+      app.appendChild(statsWrap);
     }
   }
 
-  // Quick quiz button
-  const quickBtn = el('button', {
-    className: 'btn btn--primary btn--block mt-lg',
-    style: 'font-size:1.05rem;padding:14px;',
-    onClick: () => {
-      const modules = ['bcp', 'comgi'];
-      const mod = modules[Math.floor(Math.random() * modules.length)];
-      navigate(`#quiz?module=${mod}&mode=practice&count=5`);
-    },
-  });
-  quickBtn.appendChild(trNode('home.quickQuiz', 'Quick Quiz (5 Q)'));
-  app.appendChild(quickBtn);
+  recordVisit();
 
-  // Main navigation
-  const nav = el('div', { className: 'flex-col gap-sm mt-md' });
-  nav.appendChild(menuBtn('home.studyBcp', 'Study BCP', 'home.bcpSub', 'Basic Concepts & Principles', 'bcp', () => navigate('#mode-select?module=bcp')));
-  nav.appendChild(menuBtn('home.studyComgi', 'Study ComGI', 'home.comgiSub', 'Commercial General Insurance', 'comgi', () => navigate('#mode-select?module=comgi')));
-  nav.appendChild(menuBtn('home.mixedPractice', 'Mixed Practice', 'home.mixedSub', 'Random from both modules', 'mixed', () => navigate('#quiz?module=mixed&mode=practice&count=10')));
-  nav.appendChild(menuBtn('home.glossary', 'Glossary', 'home.glossarySub', 'Insurance Terms (EN/JP)', 'glossary', () => navigate('#glossary')));
-  nav.appendChild(menuBtn('home.mrt', 'MRT Progress', 'home.mrtSub', 'Track your journey', 'mrt', () => navigate('#mrt')));
-  nav.appendChild(menuBtn('home.records', 'Records', 'home.recordsSub', 'Study history & stats', 'records', () => navigate('#records')));
-  nav.appendChild(menuBtn('home.settings', 'Settings', null, '', 'settings', () => navigate('#settings')));
-  app.appendChild(nav);
+  // ─── First launch tutorial (LINE-style) ───
+  if (!localStorage.getItem(FIRST_LAUNCH_KEY)) {
+    localStorage.setItem(FIRST_LAUNCH_KEY, '1');
+    showFirstLaunchTutorial();
+    return; // don't show sakura/trivia on first launch
+  }
 
-  // --- Optional section: Trivia card ---
-  if (settings.homeShowTrivia !== false) {
-    loadTrivia().then(triviaList => {
-      if (!triviaList) return;
-      const t = getRandomTrivia(triviaList);
-      if (!t) return;
-      const card = el('div', { className: 'trivia-card mt-lg' });
-      card.appendChild(el('div', { className: 'trivia-card__label' }, triviaLabel(t.category)));
-      card.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
-      if (shouldShowJp() && t.textJp) {
-        card.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8' }, t.textJp));
-      }
-      app.appendChild(dismissible(card, 'homeShowTrivia'));
-    }).catch(() => {});
+  // ─── Fixed-bottom: Sakura popup ───
+  if (settings.supporterEnabled) {
+    setTimeout(() => {
+      showSakuraPopup(settings);
+    }, 1000);
+  } else if (settings.homeShowTrivia !== false) {
+    // If sakura is OFF, show trivia after 1s
+    setTimeout(() => {
+      showTriviaSlide(settings);
+    }, 1000);
   }
 });
 
-// ─── Dismissible wrapper ─────────────────────────────────────────
-// Wraps content in a container with a × button. Clicking × hides the section
-// and saves the preference so it stays hidden on next visit.
-function dismissible(content, settingsKey) {
-  const wrapper = el('div', { className: 'home-dismissible', style: 'position:relative;' });
+// ─── Fixed-bottom Sakura popup ────────────────────────────────────
+function showSakuraPopup(settings) {
+  // Remove existing if any
+  const existing = document.querySelector('.home-sakura-fixed');
+  if (existing) existing.remove();
+
+  const sakuraGreeting = getHomeGreeting();
+  if (!sakuraGreeting) {
+    // No greeting (50% chance skip) — show trivia instead
+    if (settings.homeShowTrivia !== false) {
+      setTimeout(() => showTriviaSlide(settings), 500);
+    }
+    return;
+  }
+
+  const container = el('div', { className: 'home-sakura-fixed' });
+  const bubble = createSupporterBubble(sakuraGreeting, { typing: true });
+  if (!bubble) return;
+
+  container.appendChild(bubble);
+  document.body.appendChild(container);
+
+  // Animate in from bottom
+  requestAnimationFrame(() => container.classList.add('home-sakura-fixed--visible'));
+
+  // Tap to dismiss, then show trivia
+  container.addEventListener('click', () => {
+    container.classList.remove('home-sakura-fixed--visible');
+    container.classList.add('home-sakura-fixed--hiding');
+    setTimeout(() => {
+      container.remove();
+      if (settings.homeShowTrivia !== false) {
+        setTimeout(() => showTriviaSlide(settings), 500);
+      }
+    }, 400);
+  });
+}
+
+// ─── Fixed-bottom DID YOU KNOW slide ───────────────────────────────
+function showTriviaSlide(settings) {
+  loadTrivia().then(triviaList => {
+    if (!triviaList) return;
+    showNextTrivia(triviaList, settings);
+  }).catch(() => {});
+}
+
+function showNextTrivia(triviaList, settings) {
+  const existing = document.querySelector('.home-trivia-fixed');
+  if (existing) {
+    existing.classList.add('home-trivia-fixed--exit');
+    setTimeout(() => existing.remove(), 400);
+  }
+
+  const t = getRandomTrivia(triviaList);
+  if (!t) return;
+
+  const container = el('div', { className: 'home-trivia-fixed' });
+
+  // Close button (just hides, no more tips)
   const closeBtn = el('button', {
-    className: 'home-dismissible__close',
+    className: 'home-trivia-fixed__close',
     onClick: (e) => {
       e.stopPropagation();
-      SettingsStore.set(settingsKey, false);
-      wrapper.style.transition = 'opacity 0.2s, max-height 0.3s';
-      wrapper.style.opacity = '0';
-      wrapper.style.maxHeight = '0';
-      wrapper.style.overflow = 'hidden';
-      setTimeout(() => wrapper.remove(), 300);
+      container.classList.add('home-trivia-fixed--exit');
+      setTimeout(() => container.remove(), 400);
     },
   }, '\u00D7');
-  wrapper.appendChild(closeBtn);
-  wrapper.appendChild(content);
-  return wrapper;
+  container.appendChild(closeBtn);
+
+  const label = el('div', { className: 'trivia-card__label' }, triviaLabel(t.category));
+  container.appendChild(label);
+  container.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
+  if (shouldShowJp() && t.textJp) {
+    container.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8' }, t.textJp));
+  }
+
+  document.body.appendChild(container);
+  requestAnimationFrame(() => container.classList.add('home-trivia-fixed--visible'));
+
+  // Tap the card body → slide out right, then show next
+  container.addEventListener('click', (e) => {
+    if (e.target === closeBtn) return;
+    container.classList.add('home-trivia-fixed--exit');
+    setTimeout(() => {
+      container.remove();
+      showNextTrivia(triviaList, settings);
+    }, 400);
+  });
+}
+
+// ─── First launch LINE-style tutorial ──────────────────────────────
+function showFirstLaunchTutorial() {
+  // Prevent scrollbar during tutorial
+  document.body.style.overflow = 'hidden';
+
+  const overlay = el('div', { className: 'tutorial-overlay' });
+  const chatArea = el('div', { className: 'tutorial-chat' });
+  overlay.appendChild(chatArea);
+
+  // Hint element (below chat area, centered)
+  const hintEl = el('div', { className: 'tutorial-hint', style: 'display:none' }, 'タップしてください');
+  overlay.appendChild(hintEl);
+
+  document.body.appendChild(overlay);
+
+  const messages = [
+    'はじめまして、片岡さん！',
+    'お会いできるのを楽しみにしていました。',
+    'わたしはあなたの試験をサポートする、エージェント「春山さくら」です 🌸',
+    '精一杯サポートしていきますから、がんばってくださいね！ 💪',
+  ];
+
+  let idx = 0;
+  let hintTimer = null;
+
+  function addMessage() {
+    if (idx >= messages.length) {
+      // Change hint to closing prompt
+      hintEl.textContent = 'タップして始める';
+      hintEl.style.display = '';
+      // Final tap closes tutorial
+      overlay.addEventListener('click', () => {
+        overlay.style.opacity = '0';
+        setTimeout(() => {
+          overlay.remove();
+          document.body.style.overflow = '';
+        }, 300);
+      }, { once: true });
+      return;
+    }
+
+    const msgEl = el('div', { className: 'tutorial-msg' });
+    const avatar = el('span', { className: 'tutorial-msg__avatar' }, '\uD83C\uDF38');
+    const text = el('div', { className: 'tutorial-msg__text' }, messages[idx]);
+    msgEl.appendChild(avatar);
+    msgEl.appendChild(text);
+    chatArea.appendChild(msgEl);
+
+    idx++;
+
+    // Show hint after first message with delay
+    if (idx === 1) {
+      hintTimer = setTimeout(() => {
+        if (idx === 1) hintEl.style.display = '';
+      }, 3000);
+    }
+
+    // Advance on tap
+    overlay.addEventListener('click', () => {
+      hintEl.style.display = 'none';
+      if (hintTimer) { clearTimeout(hintTimer); hintTimer = null; }
+      addMessage();
+    }, { once: true });
+  }
+
+  // Start with first message after a short delay
+  setTimeout(addMessage, 500);
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────
 
-function buildCountdown() {
-  const now = new Date();
-  const year = now.getFullYear();
-  const apr30 = new Date(year, 3, 30);
-  if (now > apr30) return null;
-  const days = Math.ceil((apr30 - now) / (1000 * 60 * 60 * 24));
-  const countdown = el('div', { className: 'home-countdown mt-sm' });
-  const mode = getLangMode();
-  if (mode === 'ja') {
-    countdown.innerHTML = `\u8A66\u9A13\u307E\u3067 <span class="home-countdown__days">${days}</span> <span class="home-countdown__label">\u65E5</span> (4\u670830\u65E5)`;
-  } else if (mode === 'bilingual') {
-    countdown.innerHTML = `Exam in <span class="home-countdown__days">${days}</span> <span class="home-countdown__label">${days === 1 ? 'day' : 'days'}</span> (April 30) <span class="bilingual-sub">\u8A66\u9A13\u307E\u3067${days}\u65E5</span>`;
+function updateCountdownDisplay(display, examDate) {
+  if (!examDate) {
+    const mode = getLangMode();
+    if (mode === 'ja') {
+      display.innerHTML = '<span class="home-countdown__prompt">試験日をタップして設定</span>';
+    } else if (mode === 'bilingual') {
+      display.innerHTML = '<span class="home-countdown__prompt">Tap to set exam date</span> <span class="bilingual-sub">試験日をタップして設定</span>';
+    } else {
+      display.innerHTML = '<span class="home-countdown__prompt">Tap to set exam date</span>';
+    }
   } else {
-    countdown.innerHTML = `Exam in <span class="home-countdown__days">${days}</span> <span class="home-countdown__label">${days === 1 ? 'day' : 'days'}</span> (April 30)`;
+    const now = new Date();
+    const target = new Date(examDate + 'T00:00:00');
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
+    const dateLabel = `${target.getMonth() + 1}/${target.getDate()}`;
+    const mode = getLangMode();
+
+    if (diff <= 0) {
+      display.innerHTML = `<span class="home-countdown__days" style="color:var(--c-warning)">Today!</span> <span class="home-countdown__label">(${dateLabel})</span>`;
+    } else if (mode === 'ja') {
+      display.innerHTML = `試験まで <span class="home-countdown__days">${diff}</span> <span class="home-countdown__label">日</span> (${dateLabel})`;
+    } else if (mode === 'bilingual') {
+      display.innerHTML = `Exam in <span class="home-countdown__days">${diff}</span> <span class="home-countdown__label">${diff === 1 ? 'day' : 'days'}</span> (${dateLabel}) <span class="bilingual-sub">試験まで${diff}日</span>`;
+    } else {
+      display.innerHTML = `Exam in <span class="home-countdown__days">${diff}</span> <span class="home-countdown__label">${diff === 1 ? 'day' : 'days'}</span> (${dateLabel})`;
+    }
   }
-  return countdown;
 }
 
-function getTodayProgress() {
-  const records = RecordStore.getRecords();
-  const today = new Date().toISOString().slice(0, 10);
-  const todayRecords = records.filter(r => r.timestamp && r.timestamp.startsWith(today));
-  const correct = todayRecords.filter(r => r.isCorrect).length;
-  return {
-    today: todayRecords.length,
-    todayAccuracy: todayRecords.length > 0 ? Math.round((correct / todayRecords.length) * 100) : null,
-  };
+function buildCountdown() {
+  const examDate = SettingsStore.get('examDate');
+  const wrapper = el('div', { className: 'home-countdown', style: 'cursor:pointer;position:relative;' });
+
+  const dateInput = el('input', { type: 'date', style: 'position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);opacity:0;width:1px;height:1px;pointer-events:none;' });
+  dateInput.value = examDate || '';
+  dateInput.addEventListener('change', () => {
+    if (dateInput.value) {
+      SettingsStore.set('examDate', dateInput.value);
+      // Update display immediately without full re-render
+      updateCountdownDisplay(display, dateInput.value);
+    }
+  });
+
+  const display = el('span', {});
+
+  updateCountdownDisplay(display, examDate);
+
+  wrapper.appendChild(display);
+  wrapper.appendChild(dateInput);
+  wrapper.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (dateInput.showPicker) {
+      try { dateInput.showPicker(); } catch { dateInput.click(); }
+    } else {
+      dateInput.click();
+    }
+  });
+  return wrapper;
 }
 
 function statCard(value, label) {
@@ -297,9 +405,10 @@ function triviaLabel(category) {
 
 function getMenuIcon(type) {
   const icons = {
-    bcp: '\uD83D\uDCD8', comgi: '\uD83D\uDCD5', glossary: '\uD83D\uDD0D',
-    mrt: '\uD83D\uDE87', records: '\uD83D\uDCCA', settings: '\u2699\uFE0F',
-    mixed: '\uD83C\uDFB2', trivia: '\uD83E\uDD81',
+    practice: '\uD83D\uDCDD', mock: '\u23F1\uFE0F', glossary: '\uD83D\uDD0D',
+    records: '\uD83D\uDCCA', fun: '\uD83C\uDF89', settings: '\u2699\uFE0F',
+    bcp: '\uD83D\uDCD8', comgi: '\uD83D\uDCD5', pgi: '\uD83D\uDCD7', hi: '\uD83D\uDCD9',
+    mrt: '\uD83D\uDE87', mixed: '\uD83C\uDFB2', trivia: '\uD83E\uDD81',
   };
   return icons[type] || '';
 }

@@ -1,12 +1,14 @@
 /**
- * MRT map data — all real stations on NS and EW lines.
- * Stations unlock sequentially from City Hall outward based on study progress.
+ * MRT map data — all functional lines (NS, EW, NE, DT).
+ * Stations unlock sequentially from a central station outward based on study progress.
  * No topic-to-station mapping; unlock count = uniqueCorrect / totalQuestions * totalStations.
  *
- * NS Line: 27 stations (NS1–NS28, no NS6)
- * EW Line: 33 stations (EW1–EW33)
- * CC (Orange) = Circle Line geometric loop connecting interchanges.
- * NE (Purple) and DT (Blue) are decorative background lines.
+ * NS Line (Red)   = BCP   — 27 stations (NS1–NS28, no NS6)
+ * EW Line (Green)  = ComGI — 33 stations (EW1–EW33)
+ * NE Line (Purple) = PGI   — 16 stations (NE1, NE3–NE17, no NE2)
+ * DT Line (Blue)   = HI    — 32 stations (DT1–DT35, no DT4)
+ *
+ * CC (Orange) = Circle Line connecting interchanges across all functional lines.
  */
 
 // --- NS Line: ordered NS1 (top) → NS28 (bottom) ---
@@ -77,20 +79,78 @@ export const EW_STATIONS = [
   { code: 'EW33', name: 'Tuas Link' },
 ];
 
-// City Hall indices (0-based)
-export const NS_CITY_HALL = NS_STATIONS.findIndex(s => s.code === 'NS25'); // 23
-export const EW_CITY_HALL = EW_STATIONS.findIndex(s => s.code === 'EW13'); // 12
+// --- NE Line: ordered NE1 → NE17 (no NE2) ---
+export const NE_STATIONS = [
+  { code: 'NE1',  name: 'HarbourFront', interchange: 'cc' },
+  { code: 'NE3',  name: 'Outram Park', interchange: 'ew' },
+  { code: 'NE4',  name: 'Chinatown', interchange: 'dt' },
+  { code: 'NE5',  name: 'Clarke Quay' },
+  { code: 'NE6',  name: 'Dhoby Ghaut', interchange: 'ns' },
+  { code: 'NE7',  name: 'Little India', interchange: 'dt' },
+  { code: 'NE8',  name: 'Farrer Park' },
+  { code: 'NE9',  name: 'Boon Keng' },
+  { code: 'NE10', name: 'Potong Pasir' },
+  { code: 'NE11', name: 'Woodleigh' },
+  { code: 'NE12', name: 'Serangoon', interchange: 'cc' },
+  { code: 'NE13', name: 'Kovan' },
+  { code: 'NE14', name: 'Hougang' },
+  { code: 'NE15', name: 'Buangkok' },
+  { code: 'NE16', name: 'Sengkang' },
+  { code: 'NE17', name: 'Punggol' },
+];
+
+// --- DT Line: ordered DT1 → DT35 (no DT4) ---
+export const DT_STATIONS = [
+  { code: 'DT1',  name: 'Bukit Panjang' },
+  { code: 'DT2',  name: 'Cashew' },
+  { code: 'DT3',  name: 'Hillview' },
+  { code: 'DT5',  name: 'Beauty World' },
+  { code: 'DT6',  name: 'King Albert Park' },
+  { code: 'DT7',  name: 'Sixth Avenue' },
+  { code: 'DT8',  name: 'Tan Kah Kee' },
+  { code: 'DT9',  name: 'Botanic Gardens', interchange: 'cc' },
+  { code: 'DT10', name: 'Stevens' },
+  { code: 'DT11', name: 'Newton', interchange: 'ns' },
+  { code: 'DT12', name: 'Little India', interchange: 'ne' },
+  { code: 'DT13', name: 'Rochor' },
+  { code: 'DT14', name: 'Bugis', interchange: 'ew' },
+  { code: 'DT15', name: 'Promenade', interchange: 'cc' },
+  { code: 'DT16', name: 'Bayfront' },
+  { code: 'DT17', name: 'Downtown' },
+  { code: 'DT18', name: 'Telok Ayer' },
+  { code: 'DT19', name: 'Chinatown', interchange: 'ne' },
+  { code: 'DT20', name: 'Fort Canning' },
+  { code: 'DT21', name: 'Bencoolen' },
+  { code: 'DT22', name: 'Jalan Besar' },
+  { code: 'DT23', name: 'Bendemeer' },
+  { code: 'DT24', name: 'Geylang Bahru' },
+  { code: 'DT25', name: 'Mattar' },
+  { code: 'DT26', name: 'MacPherson', interchange: 'cc' },
+  { code: 'DT27', name: 'Ubi' },
+  { code: 'DT28', name: 'Kaki Bukit' },
+  { code: 'DT29', name: 'Bedok North' },
+  { code: 'DT30', name: 'Bedok Reservoir' },
+  { code: 'DT31', name: 'Tampines West' },
+  { code: 'DT32', name: 'Tampines', interchange: 'ew' },
+  { code: 'DT33', name: 'Tampines East' },
+  { code: 'DT34', name: 'Upper Changi' },
+  { code: 'DT35', name: 'Expo' },
+];
+
+// Central station indices (0-based) — unlock starts from these stations outward
+export const NS_CITY_HALL = NS_STATIONS.findIndex(s => s.code === 'NS25'); // City Hall
+export const EW_CITY_HALL = EW_STATIONS.findIndex(s => s.code === 'EW13'); // City Hall
+export const NE_CENTER = NE_STATIONS.findIndex(s => s.code === 'NE6');     // Dhoby Ghaut
+export const DT_CENTER = DT_STATIONS.findIndex(s => s.code === 'DT14');    // Bugis
 
 /**
- * Build unlock order from City Hall outward, alternating directions.
- * NS: up (toward NS1) first, then down (toward NS28), alternating.
- * EW: east/right (toward EW1) first, then west/left (toward EW33), alternating.
- * City Hall itself is always unlocked (index 0 in the order).
+ * Build unlock order from a central station outward, alternating directions.
+ * Central station itself is always unlocked (index 0 in the order).
  */
-export function buildUnlockOrder(stations, cityHallIndex) {
-  const order = [cityHallIndex];
-  let up = cityHallIndex - 1;   // toward index 0
-  let down = cityHallIndex + 1; // toward end
+export function buildUnlockOrder(stations, centerIndex) {
+  const order = [centerIndex];
+  let up = centerIndex - 1;   // toward index 0
+  let down = centerIndex + 1; // toward end
   let goUp = true;
 
   while (up >= 0 || down < stations.length) {
@@ -111,6 +171,8 @@ export function buildUnlockOrder(stations, cityHallIndex) {
 // Pre-computed unlock orders
 export const NS_UNLOCK_ORDER = buildUnlockOrder(NS_STATIONS, NS_CITY_HALL);
 export const EW_UNLOCK_ORDER = buildUnlockOrder(EW_STATIONS, EW_CITY_HALL);
+export const NE_UNLOCK_ORDER = buildUnlockOrder(NE_STATIONS, NE_CENTER);
+export const DT_UNLOCK_ORDER = buildUnlockOrder(DT_STATIONS, DT_CENTER);
 
 /**
  * MRT_LINES — used by mrt-view for rendering.
@@ -137,11 +199,31 @@ export const MRT_LINES = [
     cityHallIndex: EW_CITY_HALL,
     unlockOrder: EW_UNLOCK_ORDER,
   },
+  {
+    id: 'ne',
+    module: 'pgi',
+    name: 'North-East Line',
+    color: '#9016b2',
+    darkColor: '#b850d8',
+    stations: NE_STATIONS,
+    cityHallIndex: NE_CENTER,
+    unlockOrder: NE_UNLOCK_ORDER,
+  },
+  {
+    id: 'dt',
+    module: 'hi',
+    name: 'Downtown Line',
+    color: '#005ec4',
+    darkColor: '#4090f0',
+    stations: DT_STATIONS,
+    cityHallIndex: DT_CENTER,
+    unlockOrder: DT_UNLOCK_ORDER,
+  },
 ];
 
 /**
- * Circle Line — geometric loop connecting NS and EW at interchange stations.
- * Interchange rings light up when the corresponding NS/EW station is unlocked.
+ * Circle Line — geometric loop connecting interchanges across all functional lines.
+ * Interchange rings light up when the corresponding station is unlocked.
  */
 export const CIRCLE_LINE = {
   id: 'cc',
@@ -149,22 +231,8 @@ export const CIRCLE_LINE = {
   color: '#fa9e0d',
   darkColor: '#ffc040',
   loop: true,
-  // Interchange station codes on NS/EW that CC connects to
-  interchanges: ['NS17', 'EW21', 'EW8', 'NS27'],
+  interchanges: ['NS17', 'EW21', 'EW8', 'NS27', 'NE1', 'NE12', 'DT9', 'DT15', 'DT26'],
 };
 
 /** Decorative lines — drawn in background for atmosphere, no functional tracking */
-export const DECO_LINES = [
-  {
-    id: 'ne',
-    name: 'North-East Line',
-    color: '#9016b2',
-    darkColor: '#b850d8',
-  },
-  {
-    id: 'dt',
-    name: 'Downtown Line',
-    color: '#005ec4',
-    darkColor: '#4090f0',
-  },
-];
+export const DECO_LINES = [];

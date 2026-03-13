@@ -27,8 +27,9 @@ export class QuizSession {
   async init() {
     let allQ;
     if (this.module === 'mixed') {
-      const [bcp, comgi] = await Promise.all([loadQuestions('bcp'), loadQuestions('comgi')]);
-      allQ = [...bcp.map(q => ({ ...q, _module: 'bcp' })), ...comgi.map(q => ({ ...q, _module: 'comgi' }))];
+      const modules = ['bcp', 'comgi', 'pgi', 'hi'];
+      const loaded = await Promise.all(modules.map(m => loadQuestions(m)));
+      allQ = loaded.flatMap((qs, i) => qs.map(q => ({ ...q, _module: modules[i] })));
     } else {
       allQ = await loadQuestions(this.module);
     }

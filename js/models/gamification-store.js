@@ -1,6 +1,6 @@
 /**
- * Gamification Store — XP, levels, achievements, daily goals, streak calendar
- * (#13 daily goal, #31 achievements, #32 streak calendar, #33 XP/levels)
+ * Gamification Store — XP, levels, achievements, daily goals
+ * (#13 daily goal, #31 achievements, #33 XP/levels)
  */
 const GAME_KEY = 'sg_broker_game';
 
@@ -32,10 +32,9 @@ const ACHIEVEMENTS = [
   { id: 'perfect_10', name: 'Perfect 10', desc: 'Score 100% on a 10-question quiz', icon: '\uD83D\uDCAF', check: (g) => g.perfectQuizzes >= 1 },
   { id: 'mock_pass', name: 'Exam Ready', desc: 'Pass a mock exam (70%+)', icon: '\uD83C\uDF93', check: (g) => g.mockPasses >= 1 },
   { id: 'mock_ace', name: 'Ace', desc: 'Score 90%+ on a mock exam', icon: '\uD83C\uDFC6', check: (g) => g.mockAces >= 1 },
-  { id: 'both_modules', name: 'Well-Rounded', desc: 'Practice both BCP and ComGI', icon: '\uD83C\uDF0F', check: (g) => g.bcpAttempts > 0 && g.comgiAttempts > 0 },
+  { id: 'both_modules', name: 'Well-Rounded', desc: 'Practice all 4 modules', icon: '\uD83C\uDF0F', check: (g) => g.bcpAttempts > 0 && g.comgiAttempts > 0 && (g.pgiAttempts || 0) > 0 && (g.hiAttempts || 0) > 0 },
   { id: 'five_topics', name: 'Explorer', desc: 'Master 5 topics', icon: '\uD83D\uDDFA\uFE0F', check: (g) => g.topicsMastered >= 5 },
   { id: 'all_topics', name: 'Completionist', desc: 'Master all topics', icon: '\u2B50', check: (g) => g.topicsMastered >= 17 },
-  { id: 'seven_days', name: 'Weekly Warrior', desc: 'Study 7 days in a row', icon: '\uD83D\uDCC5', check: (g) => g.longestDailyStreak >= 7 },
   { id: 'hundred_correct', name: 'Century', desc: 'Answer 100 questions correctly', icon: '\uD83D\uDCAA', check: (g) => g.totalCorrect >= 100 },
   { id: 'five_hundred', name: 'Marathon', desc: 'Answer 500 questions total', icon: '\uD83C\uDFC3', check: (g) => g.totalAnswered >= 500 },
 ];
@@ -63,8 +62,6 @@ export class GamificationStore {
       comgiAttempts: 0,
       topicsMastered: 0,
       dailyGoal: 20,
-      studyDays: [], // ISO date strings
-      longestDailyStreak: 0,
       unlockedAchievements: [],
     };
   }
@@ -90,13 +87,8 @@ export class GamificationStore {
     }
     if (module === 'bcp') g.bcpAttempts++;
     if (module === 'comgi') g.comgiAttempts++;
-
-    // Record study day
-    const today = new Date().toISOString().slice(0, 10);
-    if (!g.studyDays.includes(today)) {
-      g.studyDays.push(today);
-      g.longestDailyStreak = this._calcDailyStreak(g.studyDays);
-    }
+    if (module === 'pgi') g.pgiAttempts = (g.pgiAttempts || 0) + 1;
+    if (module === 'hi') g.hiAttempts = (g.hiAttempts || 0) + 1;
 
     this.save(g);
     return g;
@@ -165,6 +157,35 @@ export class GamificationStore {
     return newOnes;
   }
 
+  static getStudyDays() {
+    try {
+      const records = JSON.parse(localStorage.getItem('sg_broker_records') || '[]');
+      const days = new Set();
+      for (const r of records) {
+        if (r.timestamp) days.add(r.timestamp.slice(0, 10));
+      }
+      return [...days].sort();
+    } catch { return []; }
+  }
+
+  static getLongestDailyStreak() {
+    const days = this.getStudyDays();
+    if (days.length === 0) return 0;
+    let longest = 1, current = 1;
+    for (let i = 1; i < days.length; i++) {
+      const prev = new Date(days[i - 1]);
+      const curr = new Date(days[i]);
+      const diff = (curr - prev) / (1000 * 60 * 60 * 24);
+      if (diff === 1) {
+        current++;
+        if (current > longest) longest = current;
+      } else if (diff > 1) {
+        current = 1;
+      }
+    }
+    return longest;
+  }
+
   static getAllAchievements() {
     const g = this.load();
     return ACHIEVEMENTS.map(a => ({
@@ -173,21 +194,4 @@ export class GamificationStore {
     }));
   }
 
-  static getStudyDays() {
-    return this.load().studyDays || [];
-  }
-
-  static _calcDailyStreak(days) {
-    if (!days || days.length === 0) return 0;
-    const sorted = [...days].sort().reverse();
-    let streak = 1;
-    for (let i = 1; i < sorted.length; i++) {
-      const prev = new Date(sorted[i - 1]);
-      const curr = new Date(sorted[i]);
-      const diff = (prev - curr) / (1000 * 60 * 60 * 24);
-      if (diff === 1) streak++;
-      else break;
-    }
-    return streak;
-  }
 }
