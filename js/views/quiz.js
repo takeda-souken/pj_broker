@@ -15,8 +15,11 @@ import { formatDuration } from '../utils/date-utils.js';
 import { BookmarkStore } from '../models/bookmark-store.js';
 import { loadGlossary } from '../data/glossary.js';
 import { getSupporterMessage, createSupporterBubble } from '../components/supporter.js';
-import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
+import { showReportModal } from '../components/report-modal.js';
+import { showJp as shouldShowJp, tr, triText, triContent, triHtml } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
+import { sendSessionSummary, sendQuizLog } from '../utils/gas-client.js';
+import { shouldShowLineIntro, showLineIntro, moduleToLineId } from '../components/mrt-tutorial.js';
 
 const SAVED_SESSION_KEY = 'sg_broker_saved_session';
 let glossaryData = null;
@@ -60,19 +63,6 @@ registerRoute('#quiz', async (app) => {
     app.appendChild(el('div', { className: 'text-center mt-lg' }, tr('quiz.noQuestions', 'No questions available yet.')));
     app.appendChild(el('button', { className: 'btn btn--primary btn--block mt-md', onClick: () => navigate('#home') }, tr('quiz.backHome', 'Back to Home')));
     return;
-  }
-
-  // Sakura session start message (new sessions only)
-  if (!resume) {
-    const startEvent = session.mode === 'mock' ? 'mockStart' : 'sessionStart';
-    const startMsg = getSupporterMessage(startEvent);
-    const startBubble = createSupporterBubble(startMsg, { typing: true });
-    if (startBubble) {
-      app.innerHTML = '';
-      app.appendChild(startBubble);
-      // Show for 2 seconds, then render the first question
-      await new Promise(resolve => setTimeout(resolve, 2000));
-    }
   }
 
   renderQuestion(app, session, settings);
@@ -136,6 +126,7 @@ registerRoute('#quiz', async (app) => {
 
 function renderQuestion(app, session, settings) {
   app.innerHTML = '';
+  document.querySelectorAll('.sakura-bottom-popup').forEach(e => e.remove());
   answered = false;
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
@@ -216,11 +207,13 @@ function renderQuestion(app, session, settings) {
   }
   wrap.appendChild(topicRow);
 
-  // Question
-  wrap.appendChild(el('div', { className: 'quiz-question' }, q.question));
+  // Question (bilingual)
+  const questionEl = el('div', { className: 'quiz-question' });
+  questionEl.appendChild(triContent(q.question, q.questionJP));
+  wrap.appendChild(questionEl);
 
   // Choices with keyboard hints (#41)
-  const choiceGrid = createChoiceGrid(q.choices, (idx) => handleAnswer(idx));
+  const choiceGrid = createChoiceGrid(q.choices, (idx) => handleAnswer(idx), q.choicesJP);
   // Add keyboard hints
   const choiceBtns = choiceGrid.el.querySelectorAll('.choice-btn');
   choiceBtns.forEach((btn, i) => {
@@ -239,8 +232,21 @@ function renderQuestion(app, session, settings) {
 
     if (timerBar) timerBar.stop();
 
+    // Check MRT line intro eligibility BEFORE recording (first correct triggers it)
+    const lineId = moduleToLineId(session.module);
+    const wasFirstCorrectPending = lineId && shouldShowLineIntro(lineId)
+      && RecordStore.getUniqueCorrectCount(session.module) === 0;
+
     const record = session.answer(choiceIndex === -1 ? -1 : choiceIndex);
     const isCorrect = record && record.isCorrect;
+
+    // MRT line tutorial — show once on first correct answer for this module
+    if (isCorrect && wasFirstCorrectPending) {
+      showLineIntro(lineId);
+    }
+
+    // Send per-question log to GAS
+    if (record) sendQuizLog(record);
 
     // Vibration feedback (#5)
     if (!isCorrect && navigator.vibrate) {
@@ -267,22 +273,38 @@ function renderQuestion(app, session, settings) {
       }
     }
 
-    // Virtual supporter (Sakura)
-    const supporterMsg = streak >= 3
-      ? getSupporterMessage('streak', { n: streak })
-      : getSupporterMessage(isCorrect ? 'correct' : 'wrong');
-    const bubble = createSupporterBubble(supporterMsg);
-    if (bubble) wrap.appendChild(bubble);
+    // Virtual supporter (Sakura) — non-blocking bottom popup, skip in mock exam
+    if (session.mode !== 'mock') {
+      const supporterMsg = streak >= 3
+        ? getSupporterMessage('streak', { n: streak })
+        : getSupporterMessage(isCorrect ? 'correct' : 'wrong', { difficulty: q.difficulty });
+      if (supporterMsg) {
+        document.querySelectorAll('.sakura-bottom-popup').forEach(e => e.remove());
+        const popup = el('div', { className: 'sakura-bottom-popup' });
+        const bubble = createSupporterBubble(supporterMsg);
+        if (bubble) {
+          popup.appendChild(bubble);
+          document.body.appendChild(popup);
+          requestAnimationFrame(() => popup.classList.add('sakura-bottom-popup--visible'));
+          popup.addEventListener('click', () => {
+            popup.classList.add('sakura-bottom-popup--hiding');
+            setTimeout(() => popup.remove(), 300);
+          });
+        }
+      }
+    }
 
     // Explanation with keyword highlighting
-    if (currentSettings.showExplanation && q.explanation) {
+    if (settings.showExplanation && q.explanation) {
       const expPanel = el('div', { className: 'explanation mt-md' });
       expPanel.appendChild(el('div', { className: 'explanation__title' },
         isCorrect ? tr('quiz.correct', 'Correct!') : tr('quiz.incorrect', 'Incorrect')));
 
       const showJp = shouldShowJp();
       const expText = el('div', {});
-      expText.innerHTML = highlightKeywords(q.explanation, q.keywords, showJp);
+      const enHtml = highlightKeywords(q.explanation, q.keywords, showJp);
+      const jaHtml = q.explanationJP ? highlightKeywords(q.explanationJP, q.keywords, showJp) : null;
+      expText.appendChild(triHtml(enHtml, jaHtml));
       expPanel.appendChild(expText);
 
       // Per-choice explanations (#5)
@@ -301,12 +323,27 @@ function renderQuestion(app, session, settings) {
         expPanel.appendChild(choiceExpEl);
       }
 
-      // JP comparison (shown when JP toggle is ON, independent of mode)
-      if (showJp && q.jpComparison) {
+      // JP comparison (bilingual: EN main + JA sub; JA mode: JA only; EN mode: EN only)
+      if (q.jpComparison || q.jpComparisonEN) {
         const jpEl = el('div', { className: 'explanation__jp-comparison' });
-        jpEl.innerHTML = highlightKeywords(q.jpComparison, q.keywords, showJp);
+        const jpEnHtml = q.jpComparisonEN ? highlightKeywords(q.jpComparisonEN, q.keywords, showJp) : null;
+        const jpJaHtml = q.jpComparison ? highlightKeywords(q.jpComparison, q.keywords, showJp) : null;
+        // EN text as "main", JA text as "ja/sub" — triHtml handles mode visibility
+        jpEl.appendChild(triHtml(jpEnHtml || jpJaHtml, jpJaHtml));
         expPanel.appendChild(jpEl);
       }
+
+      // Source reference + report button
+      const sourceRow = el('div', { className: 'explanation__source-row' });
+      if (q.source) {
+        sourceRow.appendChild(el('span', { className: 'explanation__source' }, `\uD83D\uDCD6 ${q.source}`));
+      }
+      const reportBtn = el('button', {
+        className: 'btn-report',
+        onClick: () => showReportModal({ module: session.module, questionId: q.id, question: q.question }),
+      }, '\u26A0 Report');
+      sourceRow.appendChild(reportBtn);
+      expPanel.appendChild(sourceRow);
 
       // Keywords — tap to bookmark individual, Bookmark All on the right
       if (q.keywords && q.keywords.length) {
@@ -375,10 +412,10 @@ function renderQuestion(app, session, settings) {
     if (wrap.querySelector('.quiz-next-btn')) return;
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
-      onClick: () => { session.next(); renderQuestion(app, session, currentSettings); },
+      onClick: () => { session.next(); renderQuestion(app, session, settings); },
     });
     const isLast = session.currentIndex + 1 >= session.total;
-    nextBtn.appendChild(trNode(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
+    nextBtn.appendChild(triText(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
     nextBtn.appendChild(document.createTextNode(' \u25B6'));
     const kbdHint = el('span', { className: 'kbd-hint', style: 'margin-left:8px;' }, '[Enter]');
     nextBtn.appendChild(kbdHint);
@@ -530,6 +567,23 @@ function showResults(app, session) {
   const results = session.getResults();
   // Collect wrong question IDs for review (#4)
   results.wrongIds = session.answers.filter(a => !a.isCorrect && a.answer !== -1).map(a => a.questionId);
+  // Per-question details for result review + frequency bar
+  results.questionDetails = session.questions.slice(0, session.answers.length).map((q, i) => ({
+    id: q.id,
+    question: q.question,
+    questionJP: q.questionJP || '',
+    topic: q.topic,
+    isCorrect: session.answers[i]?.isCorrect ?? false,
+    userAnswer: session.answers[i]?.answer ?? -1,
+    correctAnswer: q.answer,
+    choices: q.choices,
+    choicesJP: q.choicesJP || null,
+    explanation: q.explanation || '',
+    explanationJP: q.explanationJP || '',
+    jpComparison: q.jpComparison || '',
+    jpComparisonEN: q.jpComparisonEN || '',
+    source: q.source || '',
+  }));
   // Find weakest topic for drill suggestion (#9)
   const topicEntries = Object.entries(results.byTopic);
   if (topicEntries.length > 0) {
@@ -547,6 +601,8 @@ function showResults(app, session) {
   }
 
   sessionStorage.setItem('sg_broker_last_result', JSON.stringify(results));
+  sessionStorage.removeItem('sg_broker_result_sakura_shown');  // allow sakura on new result
+  sendSessionSummary(results);
   navigate(`#result`);
 }
 
@@ -557,13 +613,33 @@ function startExamTimer(app, session) {
   timerEl.appendChild(timeDisplay);
   document.body.appendChild(timerEl);
 
+  // Pacing message checkpoints (shown once each)
+  const pacingShown = { half: false, quarter: false, final: false };
+
   const interval = setInterval(() => {
     const remaining = session.remaining;
     if (remaining === null) { clearInterval(interval); return; }
+    const elapsed = session.timeLimit - remaining;
+    const progress = elapsed / session.timeLimit; // 0..1
+
     timeDisplay.textContent = formatDuration(remaining);
     timeDisplay.classList.remove('exam-timer__time--warning', 'exam-timer__time--danger');
     if (remaining < 60000) timeDisplay.classList.add('exam-timer__time--danger');
     else if (remaining < 300000) timeDisplay.classList.add('exam-timer__time--warning');
+
+    // Sakura pacing messages as toasts
+    if (!pacingShown.half && progress >= 0.5) {
+      pacingShown.half = true;
+      showToast('🌸 折り返しですよ！ このペースなら大丈夫です 💪', 'info', 3500);
+    }
+    if (!pacingShown.quarter && progress >= 0.75) {
+      pacingShown.quarter = true;
+      showToast('🌸 残り時間が少なくなってきました。落ち着いて進めましょう 🍀', 'info', 3500);
+    }
+    if (!pacingShown.final && progress >= 0.9) {
+      pacingShown.final = true;
+      showToast('🌸 ラストスパートです！ 最後まで諦めないで 🔥', 'info', 3500);
+    }
 
     if (session.isTimeUp) {
       clearInterval(interval);

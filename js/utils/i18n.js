@@ -52,6 +52,14 @@ const JA = {
   'home.goalDone': '今日の目標達成！ ({0}/{1})',
   'home.goalProgress': '今日: {0}/{1}問',
   'home.quickQuiz': 'クイック手習 (5問)',
+  'home.practice': '練習',
+  'home.practiceSub': 'モジュールを選んで学習',
+  'home.mock': '模擬試験',
+  'home.mockSub': '本番形式のタイマー付き',
+  'home.fun': 'お楽しみ',
+  'home.funSub': 'MRT・ホーカーなど',
+  'home.questionBank': '問題一覧',
+  'home.questionBankSub': '出題頻度の管理',
   'result.share': '結果をシェア',
 
   // Mode select
@@ -67,6 +75,8 @@ const JA = {
   'mode.mock': '模擬試験',
   'mode.mockBcpSub': '40問 / 45分 — 本番シミュレーション',
   'mode.mockComgiSub': '50問 / 75分 — 本番シミュレーション',
+  'mode.mockPgiSub': '50問 / 75分 — 本番シミュレーション',
+  'mode.mockHiSub': '50問 / 75分 — 本番シミュレーション',
   'mode.byTopic': 'トピック別練習',
   'mode.questions': '{0}問',
   'mode.accuracyPct': '正答率{0}%',
@@ -106,6 +116,14 @@ const JA = {
   'result.reviewWrong': '間違えた{0}問を復習',
   'result.studyAgain': 'もう一度学ぶ',
   'result.home': 'ホーム',
+  'result.questionReview': '問題レビュー',
+  'result.expandAll': 'すべて展開',
+  'result.collapseAll': 'すべて折りたたむ',
+  'result.nextQuestion': '次の問題',
+  'result.backToQBank': '問題一覧に戻る',
+  'result.explanation': '解説',
+  'result.achievementUnlocked': '実績解除！',
+  'result.levelTitle': 'レベル称号',
 
   // Settings
   'settings.title': '設定',
@@ -181,10 +199,15 @@ const JA = {
 
   // Module select
   'module.title': 'モジュールを選ぶ',
+  'module.mockTitle': 'モジュールを選ぶ（模擬試験）',
   'module.bcpFull': '基本概念と原則',
   'module.comgiFull': '企業総合保険',
+  'module.pgiFull': '個人総合保険',
+  'module.hiFull': '健康保険',
   'module.bcpDetail': '40問 \u2022 45分 \u2022 70%で合格',
   'module.comgiDetail': '50問 \u2022 75分 \u2022 70%で合格',
+  'module.pgiDetail': '50問 \u2022 75分 \u2022 70%で合格',
+  'module.hiDetail': '50問 \u2022 75分 \u2022 70%で合格',
 
   // Quiz extras
   'quiz.skip': 'スキップ',
@@ -213,6 +236,13 @@ const JA = {
   // Journal
   'journal.title': '誤答ノート',
   'journal.empty': 'まだ誤答がありません！この調子で！',
+
+  // Report
+  'report.title': '問題を報告',
+  'report.placeholder': '問題の内容を記入してください...',
+  'report.send': '送信',
+  'report.cancel': 'キャンセル',
+  'report.sent': '報告を送信しました。ありがとうございます！',
 
   // Common
   'common.back': '戻る',
@@ -267,64 +297,116 @@ function jpOf(key, ...args) {
 
 /**
  * Create a bilingual-aware text node or fragment.
- * - ja mode:        returns Japanese text
- * - en mode:        returns English text
- * - bilingual mode: returns English text + small JP annotation below
+ * Now delegates to triText() for CSS-based i18n — no re-render needed on language switch.
  *
  * Usage: parent.appendChild(trNode('key', 'English text', ...args))
- * Returns a Node (Text or DocumentFragment)
+ * Returns a DocumentFragment with .i18n-ja / .i18n-en / .i18n-sub spans.
  */
 export function trNode(key, fallback, ...args) {
-  const mode = getLangMode();
-  if (mode === 'ja') {
-    let str = JA[key] || fallback;
-    for (let i = 0; i < args.length; i++) {
-      str = str.replace(`{${i}}`, args[i]);
-    }
-    return document.createTextNode(str);
-  }
-  if (mode === 'bilingual') {
-    const jp = jpOf(key, ...args);
-    if (jp && jp !== fallback) {
-      const frag = document.createDocumentFragment();
-      frag.appendChild(document.createTextNode(fallback));
-      const sub = document.createElement('span');
-      sub.className = 'bilingual-sub';
-      sub.textContent = jp;
-      frag.appendChild(sub);
-      return frag;
-    }
-  }
-  return document.createTextNode(fallback);
+  return triText(key, fallback, ...args);
 }
 
 /**
- * Create an element with bilingual text support.
- * Wrapper around el() that handles language modes.
- * - ja: element with JP text
- * - en: element with EN text
- * - bilingual: element with EN text + small JP annotation
+ * Create a pre-rendered trilingual node (CSS-based i18n).
+ * All three language variants are in the DOM simultaneously;
+ * visibility is controlled by [data-lang] on <html>.
+ *
+ *   ① .i18n-ja  — Japanese main text    (visible in JA mode)
+ *   ② .i18n-en  — English main text     (visible in EN & bilingual)
+ *   ③ .i18n-sub — Japanese sub-annotation (visible in bilingual only)
+ *
+ * Returns a DocumentFragment. No re-render needed on language switch.
+ */
+export function triText(key, enText, ...args) {
+  // Resolve English text with args
+  let enStr = enText;
+
+  // Resolve Japanese text
+  let jaStr = JA[key] || enText;
+  for (let i = 0; i < args.length; i++) {
+    jaStr = jaStr.replace(`{${i}}`, args[i]);
+  }
+
+  const frag = document.createDocumentFragment();
+
+  // ① Japanese main
+  const ja = document.createElement('span');
+  ja.className = 'i18n-ja';
+  ja.textContent = jaStr;
+  frag.appendChild(ja);
+
+  // ② English main
+  const en = document.createElement('span');
+  en.className = 'i18n-en';
+  en.textContent = enStr;
+  frag.appendChild(en);
+
+  // ③ Japanese sub-annotation (only if JP text differs from EN)
+  if (jaStr !== enStr) {
+    const sub = document.createElement('span');
+    sub.className = 'i18n-sub';
+    sub.textContent = jaStr;
+    frag.appendChild(sub);
+  }
+
+  return frag;
+}
+
+/**
+ * Create an element with trilingual text (CSS-based i18n).
+ * Wrapper around el() + triText() — no re-render needed on language switch.
  */
 export function trEl(tag, attrs, key, fallback, ...args) {
-  const mode = getLangMode();
   const element = el(tag, attrs);
-  if (mode === 'ja') {
-    let str = JA[key] || fallback;
-    for (let i = 0; i < args.length; i++) {
-      str = str.replace(`{${i}}`, args[i]);
-    }
-    element.textContent = str;
-    return element;
-  }
-  element.textContent = fallback;
-  if (mode === 'bilingual') {
-    const jp = jpOf(key, ...args);
-    if (jp && jp !== fallback) {
-      const sub = document.createElement('span');
-      sub.className = 'bilingual-sub';
-      sub.textContent = jp;
-      element.appendChild(sub);
-    }
-  }
+  element.appendChild(triText(key, fallback, ...args));
   return element;
+}
+
+/**
+ * Create trilingual node from dynamic content (not dictionary-keyed).
+ * Same CSS-based pattern as triText but takes EN/JA strings directly.
+ * If jaText is falsy, renders enText only (graceful fallback for untranslated data).
+ */
+export function triContent(enText, jaText) {
+  if (!jaText || jaText === enText) return document.createTextNode(enText);
+  const frag = document.createDocumentFragment();
+  const ja = document.createElement('span');
+  ja.className = 'i18n-ja';
+  ja.textContent = jaText;
+  frag.appendChild(ja);
+  const en = document.createElement('span');
+  en.className = 'i18n-en';
+  en.textContent = enText;
+  frag.appendChild(en);
+  const sub = document.createElement('span');
+  sub.className = 'i18n-sub';
+  sub.textContent = jaText;
+  frag.appendChild(sub);
+  return frag;
+}
+
+/**
+ * Like triContent but sets innerHTML instead of textContent.
+ * Use for content with embedded HTML (e.g. keyword highlights).
+ */
+export function triHtml(enHtml, jaHtml) {
+  if (!jaHtml || jaHtml === enHtml) {
+    const span = document.createElement('span');
+    span.innerHTML = enHtml;
+    return span;
+  }
+  const frag = document.createDocumentFragment();
+  const ja = document.createElement('span');
+  ja.className = 'i18n-ja';
+  ja.innerHTML = jaHtml;
+  frag.appendChild(ja);
+  const en = document.createElement('span');
+  en.className = 'i18n-en';
+  en.innerHTML = enHtml;
+  frag.appendChild(en);
+  const sub = document.createElement('span');
+  sub.className = 'i18n-sub';
+  sub.innerHTML = jaHtml;
+  frag.appendChild(sub);
+  return frag;
 }

@@ -2,25 +2,30 @@
  * MCQ choice grid component
  */
 import { el } from '../utils/dom-helpers.js';
+import { triContent } from '../utils/i18n.js';
 
 const LABELS = ['A', 'B', 'C', 'D'];
 
 /**
  * @param {string[]} choices
  * @param {function} onSelect - callback(choiceIndex)
+ * @param {string[]} [choicesJP] - optional Japanese translations
  * @returns {{ el: HTMLElement, reveal: function(correctIndex, selectedIndex) }}
  */
-export function createChoiceGrid(choices, onSelect) {
+export function createChoiceGrid(choices, onSelect, choicesJP) {
   const grid = el('div', { className: 'choice-grid' });
   const buttons = [];
 
   choices.forEach((text, i) => {
+    const textSpan = el('span', { className: 'choice-btn__text' });
+    const jpText = choicesJP ? choicesJP[i] : null;
+    textSpan.appendChild(triContent(text, jpText));
     const btn = el('button', {
       className: 'choice-btn',
       onClick: () => onSelect(i),
     },
       el('span', { className: 'choice-btn__label' }, LABELS[i]),
-      el('span', { className: 'choice-btn__text' }, text),
+      textSpan,
     );
     buttons.push(btn);
     grid.appendChild(btn);
