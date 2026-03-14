@@ -9983,5 +9983,467 @@
     ],
     "difficulty": 3,
     "source": "Ch13 Appendix 13A §29(d), p.287"
+  },
+  {
+    "id": "hi-468",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Which of the following is NOT cited in the textbook as a reason contributing to rising healthcare costs?",
+    "choices": [
+      "A) Advances in medical sciences",
+      "B) Greater use of expensive medical technology and drugs",
+      "C) Decreasing life expectancy in developed countries",
+      "D) An ageing population with longer life expectancy"
+    ],
+    "answer": 2,
+    "explanation": "The textbook identifies advances in medical sciences, greater use of expensive medical technology and drugs, and an ageing population with longer life expectancy as reasons for rising healthcare costs. Decreasing life expectancy is the opposite of what is stated — it is longer life expectancy that contributes to the cost increase.",
+    "source": "Ch1 §1.1, p.11"
+  },
+  {
+    "id": "hi-469",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "According to Singapore's healthcare philosophy, the government will intervene directly in the healthcare sector under which circumstance?",
+    "choices": [
+      "A) When private hospitals expand beyond government-approved capacity",
+      "B) When market failures lead to unsustainable growth of healthcare costs for all",
+      "C) When insurance companies refuse to cover pre-existing conditions",
+      "D) When healthcare workers demand higher wages"
+    ],
+    "answer": 1,
+    "explanation": "One of the five fundamental objectives of Singapore's healthcare philosophy is 'to intervene directly in the health care sector, when necessary, should market failures lead to unsustainable growth of healthcare costs for all.' This represents the government's role as a backstop when market mechanisms fail.",
+    "source": "Ch1 §2.1(e), p.11"
+  },
+  {
+    "id": "hi-470",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "How many new hospitals did MOH open from 2012 to 2016 under the Healthcare 2020 Masterplan?",
+    "choices": [
+      "A) 2",
+      "B) 3",
+      "C) 4",
+      "D) 6"
+    ],
+    "answer": 2,
+    "explanation": "Under Healthcare 2020's Improved Accessibility strategy, MOH opened 4 new hospitals from 2012 to 2016, resulting in more than 1,800 additional beds serving acute and community healthcare needs.",
+    "source": "Ch1 §3.3(a), p.12"
+  },
+  {
+    "id": "hi-471",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Which national basic health insurance scheme was launched in 2015 under the Healthcare 2020 Masterplan?",
+    "choices": [
+      "A) CareShield Life",
+      "B) MediShield Life",
+      "C) ElderShield",
+      "D) MediFund"
+    ],
+    "answer": 1,
+    "explanation": "MediShield Life was launched in 2015 as the national basic health insurance scheme under the Enhanced Affordability strategy of Healthcare 2020. It covers large hospitalisation bills and selected costly outpatient treatments for all Singaporeans, including the elderly and those with pre-existing conditions.",
+    "source": "Ch1 §3.3(c)(iii), p.12"
+  },
+  {
+    "id": "hi-472",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "The Pioneer Generation (PG) package was launched in which year?",
+    "choices": [
+      "A) 2012",
+      "B) 2014",
+      "C) 2015",
+      "D) 2019"
+    ],
+    "answer": 1,
+    "explanation": "The Pioneer Generation (PG) package was launched in 2014, and the Merdeka Generation (MG) package was launched in 2019. Both packages provide seniors with MediSave top-ups, additional subsidies for outpatient care, and additional premium subsidies for MediShield Life.",
+    "source": "Ch1 §3.3(c)(iv), p.12"
+  },
+  {
+    "id": "hi-473",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under Beyond Healthcare 2020, six regional health systems were reorganised into how many fully integrated clusters in 2017?",
+    "choices": [
+      "A) Two",
+      "B) Three",
+      "C) Four",
+      "D) Five"
+    ],
+    "answer": 1,
+    "explanation": "In 2017, six regional health systems were reorganised into three fully integrated clusters, each with a mix of acute hospitals, community hospitals and polyclinics. This was part of the Beyond Healthcare 2020 initiative to improve integrated care delivery.",
+    "source": "Ch1 §3.4, p.13"
+  },
+  {
+    "id": "hi-474",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under the 'Beyond Healthcare to Health' initiative, the minimum legal age for tobacco use was raised to 21 years effective from when?",
+    "choices": [
+      "A) January 2019",
+      "B) January 2020",
+      "C) January 2021",
+      "D) January 2023"
+    ],
+    "answer": 2,
+    "explanation": "As part of tightened tobacco controls under 'Beyond Healthcare to Health,' the minimum legal age for tobacco use was raised to 21 years since January 2021.",
+    "source": "Ch1 §3.4(a)(iii), p.13"
+  },
+  {
+    "id": "hi-475",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Which scheme was developed to expand the role of private GP clinics to include holistic and team-based care for patients with chronic diseases?",
+    "choices": [
+      "A) Community Health Assist Scheme (CHAS)",
+      "B) Chronic Disease Management Programme (CDMP)",
+      "C) Primary Care Networks (PCN) scheme",
+      "D) Healthier Dining programme"
+    ],
+    "answer": 2,
+    "explanation": "The Primary Care Networks (PCN) scheme was developed under 'Beyond Hospital to Community' to expand the role of private GP clinics to include holistic and team-based care for patients with chronic diseases.",
+    "source": "Ch1 §3.4(b)(i), p.13"
+  },
+  {
+    "id": "hi-476",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "CareShield Life, launched in 2020, is a national long-term care insurance scheme that covers all Singaporeans born in which year or after?",
+    "choices": [
+      "A) 1970",
+      "B) 1975",
+      "C) 1980",
+      "D) 1985"
+    ],
+    "answer": 2,
+    "explanation": "CareShield Life was launched in 2020 as a national long-term care insurance scheme covering all Singaporeans born in 1980 or after, including those with pre-existing disabilities. Singaporeans born before 1980 may also opt into the scheme.",
+    "source": "Ch1 §3.4(b)(vi), p.14"
+  },
+  {
+    "id": "hi-477",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Which agency was established as the national Health Technology Assessment (HTA) and Clinical Guidance Agency in Singapore under the 'Beyond Quality to Value' initiative?",
+    "choices": [
+      "A) Health Promotion Board (HPB)",
+      "B) Agency for Integrated Care (AIC)",
+      "C) Agency for Care Effectiveness (ACE)",
+      "D) Health Sciences Authority (HSA)"
+    ],
+    "answer": 2,
+    "explanation": "The Agency for Care Effectiveness (ACE) was established as the national Health Technology Assessment (HTA) and Clinical Guidance Agency under 'Beyond Quality to Value.' ACE supports providers, patients, and payers in making better-informed decisions through health technology assessments, healthcare guidance, and education to drive evidence-based care.",
+    "source": "Ch1 §3.4(c)(i), p.14"
+  },
+  {
+    "id": "hi-478",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under Healthier SG, which application enables residents to access key points from discussions with their family doctor and track health outcomes?",
+    "choices": [
+      "A) Healthy 365",
+      "B) HealthHub",
+      "C) SingPass",
+      "D) TraceTogether"
+    ],
+    "answer": 1,
+    "explanation": "Residents participating in Healthier SG will have a digitally enabled health plan on the HealthHub application, enabling them to access key points of discussions with their family doctor and track health outcomes. The Healthy 365 application, separately, is used to track physical activities and diets.",
+    "source": "Ch1 §3.6(b), p.15"
+  },
+  {
+    "id": "hi-479",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under Healthier SG, which of the following incentives is offered to residents who enrol with a GP clinic?",
+    "choices": [
+      "A) Free private hospital admissions for enrolled residents",
+      "B) Fully subsidised nationally recommended screenings and vaccinations for Singapore Citizens",
+      "C) Complete waiver of all healthcare costs for residents above age 65",
+      "D) Free annual health check-ups at specialist outpatient clinics"
+    ],
+    "answer": 1,
+    "explanation": "Under Healthier SG, to encourage residents to follow their health plan and seek care with their enrolled family doctor, MOH will fully subsidise nationally recommended screenings and vaccinations for Singapore Citizens. Other incentives include waiving cash co-payment requirements when using MediSave for chronic care management.",
+    "source": "Ch1 §3.6(d)(i), p.15"
+  },
+  {
+    "id": "hi-480",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "How many residents does each healthcare cluster care for approximately under the Healthier SG capitation-based funding model?",
+    "choices": [
+      "A) 500,000 residents",
+      "B) 1.0 million residents",
+      "C) 1.5 million residents",
+      "D) 2.0 million residents"
+    ],
+    "answer": 2,
+    "explanation": "Under the capitation-based funding model introduced by Healthier SG, each cluster cares for approximately 1.5 million residents. The pre-determined fee per resident is adjusted based on the age of the residents in each cluster's geographical region.",
+    "source": "Ch1 §3.6(e)(iii), p.16"
+  },
+  {
+    "id": "hi-481",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Which of the following is NOT one of the three public hospital clusters in Singapore?",
+    "choices": [
+      "A) National University Health System (NUHS)",
+      "B) National Healthcare Group (NHG)",
+      "C) SingHealth",
+      "D) Alexandra Health System (AHS)"
+    ],
+    "answer": 3,
+    "explanation": "The public hospitals in Singapore are structured into three clusters: National University Health System (NUHS), National Healthcare Group (NHG), and SingHealth. Alexandra Health System is not named as a separate cluster in the textbook.",
+    "source": "Ch1 §4.6, p.17"
+  },
+  {
+    "id": "hi-482",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "How many community hospitals are currently operating in Singapore?",
+    "choices": [
+      "A) Five",
+      "B) Seven",
+      "C) Nine",
+      "D) Twelve"
+    ],
+    "answer": 2,
+    "explanation": "There are currently nine community hospitals in Singapore, run by either VWOs (Voluntary Welfare Organisations) or by healthcare clusters. Community hospitals provide rehabilitation and continuing care to patients, typically after their discharge from acute hospitals.",
+    "source": "Ch1 §4.7, p.17"
+  },
+  {
+    "id": "hi-483",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Public hospitals in Singapore are operated as what type of entity?",
+    "choices": [
+      "A) Government departments directly under MOH",
+      "B) Government-owned private companies with management autonomy",
+      "C) Fully privatised for-profit corporations",
+      "D) Joint ventures between government and private healthcare groups"
+    ],
+    "answer": 1,
+    "explanation": "The Government has restructured all its acute hospitals and specialty centres to be operated as government-owned private companies. This enables public hospitals to have more management autonomy and flexibility to respond more promptly to patient needs, while remaining subject to broad policy guidance by MOH and managed as non-profit organisations.",
+    "source": "Ch1 §4.9, p.17"
+  },
+  {
+    "id": "hi-484",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under Flexi-MediSave, how much additional amount per year can seniors use for outpatient medical treatment at public healthcare institutions and CHAS GP clinics?",
+    "choices": [
+      "A) S$200",
+      "B) S$300",
+      "C) S$500",
+      "D) S$700"
+    ],
+    "answer": 1,
+    "explanation": "Flexi-MediSave allows seniors to use an additional S$300 per year for outpatient medical treatment at public healthcare institutions and CHAS general practitioner clinics. Separately, individuals may withdraw up to S$700 per year for outpatient treatment of 23 chronic conditions.",
+    "source": "Ch1 §5.2, p.19"
+  },
+  {
+    "id": "hi-485",
+    "topic": "Healthcare Environment in Singapore",
+    "question": "Under the CHAS scheme, the colour of the CHAS card indicates the subsidy tier. Which of the following is NOT a valid CHAS card tier?",
+    "choices": [
+      "A) CHAS Blue",
+      "B) CHAS Orange",
+      "C) CHAS Green",
+      "D) CHAS Yellow"
+    ],
+    "answer": 3,
+    "explanation": "The CHAS card comes in three tiers indicated by colour: CHAS Blue, CHAS Orange, and CHAS Green. There is no CHAS Yellow tier. CHAS Blue and CHAS Orange cardholders, along with MG and PG cardholders, are entitled to subsidised referrals to the National Dental Centre Singapore and National University Centre for Oral Health Singapore.",
+    "source": "Ch1 §4.4, p.17"
+  },
+  {
+    "id": "hi-486",
+    "topic": "Health Insurance Pricing",
+    "question": "Which of the following is included in the operating expenses that insurers must cover through premium collection?",
+    "choices": [
+      "Only claim payouts and reserves",
+      "Staff salaries, commissions, taxes, office rent, advertising, and computer systems",
+      "Only reinsurance costs and investment management fees",
+      "Only the cost of medical treatments for policyholders"
+    ],
+    "answer": 1,
+    "explanation": "Operating expenses increase the price of insurance. Insurers collect premiums not only to cover the costs of insurance claims, but also to cover the costs of operating the company, such as staff salaries, commissions for sellers, taxes, office rent, advertising, computer systems, and supplies. These are all factored into the premium that policyholders pay.",
+    "source": "Ch11 §2.6, p.239"
+  },
+  {
+    "id": "hi-487",
+    "topic": "Health Insurance Pricing",
+    "question": "How has the Covid-19 pandemic influenced health insurance pricing practices?",
+    "choices": [
+      "Insurers have stopped considering pandemic risk as it is a one-time event",
+      "Insurers are beginning to consider the change in health of the general demographics and its potential impact on health insurance claims when pricing",
+      "Premiums have been permanently reduced due to improved vaccination coverage",
+      "Pandemic risk is excluded from all health insurance pricing models"
+    ],
+    "answer": 1,
+    "explanation": "Given that the world has recently witnessed the profound impact of Covid-19 and the consequences including new vaccination developments and mandatory rules by government, insurers are beginning to take into consideration the change in health of the general demographics and its potential impact on health insurance claims when pricing health insurance. This represents a new factor in premium computation.",
+    "source": "Ch11 §2.9, p.240"
+  },
+  {
+    "id": "hi-488",
+    "topic": "Health Insurance Pricing",
+    "question": "How do insurers typically classify occupations for health insurance premium rating purposes?",
+    "choices": [
+      "All occupations are charged the same premium rate regardless of risk",
+      "Occupations are grouped into various risk classes according to the risk of accident or illness, and premium rates are set based on occupational hazard",
+      "Only manual labour occupations are classified; all office jobs are excluded from rating",
+      "Occupation is only considered for group plans, not individual health insurance"
+    ],
+    "answer": 1,
+    "explanation": "Insurers group occupations into various classes according to the risk of accident or illness and use this classification to establish premium rates based upon the occupational hazard. For example, a high-rise construction worker could be more likely to suffer an injury than an office administrator. Not every occupation can be found on the list, but most jobs can be broadly classified. The higher the risk of injury or illness resulting from an occupation, the higher the premium.",
+    "source": "Ch11 §3.7–3.10, p.242"
+  },
+  {
+    "id": "hi-489",
+    "topic": "Health Insurance Pricing",
+    "question": "If the persistency rate of a particular type of health insurance coverage is expected to be high, what is the likely effect on premiums?",
+    "choices": [
+      "The insurer will increase the premium to compensate for longer exposure",
+      "The insurer will reduce the amount of premium charged",
+      "Persistency has no effect on premium levels",
+      "The insurer will add a surcharge for policies renewed beyond 5 years"
+    ],
+    "answer": 1,
+    "explanation": "If the persistency rate of a type of coverage is expected to be high, then the insurer will reduce the amount of premium charged. This is because high persistency means customers renew their policies for longer periods, providing a more stable and predictable revenue stream. Persistency usually improves as policies age, and older insureds tend to have better persistency because they see the policy as more valuable and may have difficulty satisfying underwriting requirements for a new policy.",
+    "source": "Ch11 §3.11–3.13, p.242"
+  },
+  {
+    "id": "hi-490",
+    "topic": "Health Insurance Pricing",
+    "question": "For group health insurance plans, what happens to the importance of claims experience data in pricing as the group size increases?",
+    "choices": [
+      "The importance decreases because larger groups are less predictable",
+      "The importance remains the same regardless of group size",
+      "The importance of claims experience data becomes greater as the group size gets bigger and more years of data are available",
+      "Claims experience data is only used for groups with fewer than 100 employees"
+    ],
+    "answer": 2,
+    "explanation": "For group plans, the claims experience of the group is a key factor affecting the premium rate charged. The importance of the claims experience data in pricing becomes greater as the group size gets bigger and more years of data are available. This is because larger groups and longer data histories provide more statistically credible experience for actuarial pricing. For example, for group outpatient plans, claims experience demonstrates the general health condition of the group and the propensity of the group members to file claims.",
+    "source": "Ch11 §3.14–3.17, p.242–243"
+  },
+  {
+    "id": "hi-491",
+    "topic": "Other Types of Health Insurance",
+    "question": "Under a Travel Insurance policy, what does repatriation of remains refer to?",
+    "choices": [
+      "Transportation of the insured's personal belongings back to Singapore",
+      "Return of the insured to a hospital in his country of origin for continued treatment",
+      "Transportation and return of the deceased insured's mortal remains to his country of origin",
+      "Evacuation of the insured from a conflict zone to the nearest safe country"
+    ],
+    "answer": 2,
+    "explanation": "Repatriation of remains means the transportation of and return of the deceased insured's mortal remains to his country of origin. This is distinct from emergency medical repatriation, which involves returning a living insured person to their home country for further treatment. For the higher coverage plan, the coverage amount for repatriation is usually unlimited, while the lower coverage plan has a maximum benefit limit.",
+    "source": "Ch7 §4.16, p.144"
+  },
+  {
+    "id": "hi-492",
+    "topic": "Other Types of Health Insurance",
+    "question": "A traveller is hospitalised overseas while covered under a Travel Insurance policy. Which of the following correctly describes the hospital confinement allowance benefit?",
+    "choices": [
+      "It replaces any medical expense reimbursement for the hospitalisation",
+      "It is a daily cash benefit paid on top of any medical expenses claimed",
+      "It is only payable if the insured is hospitalised for more than 30 days",
+      "It is only available for hospitalisation due to accidents, not illness"
+    ],
+    "answer": 1,
+    "explanation": "Under a Travel Insurance policy, the insured person is entitled to a daily hospital cash benefit when hospitalised abroad, up to a certain period or amount. This benefit is paid on top of any medical expenses which the insured has claimed — it does not replace medical expense reimbursement. Some insurers also provide double benefit for overseas hospitalisation in an Intensive Care Unit due to an accident.",
+    "source": "Ch7 §4.7–4.9, p.143"
+  },
+  {
+    "id": "hi-493",
+    "topic": "Other Types of Health Insurance",
+    "question": "Which of the following is a benefit that a Maternity Insurance policy may provide for the newborn?",
+    "choices": [
+      "Reimbursement of routine vaccination costs in the first year",
+      "Outpatient cash benefit for each day of phototherapy machine rented",
+      "Coverage for childcare expenses during the mother's hospitalisation",
+      "Free paediatric consultations for the first three months after birth"
+    ],
+    "answer": 1,
+    "explanation": "Among the benefits Maternity Insurance provides for the newborn are: medical expenses due to congenital illnesses, death benefit, hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses, and outpatient cash benefit for each day of phototherapy machine rented. Routine vaccinations, childcare expenses, and free paediatric consultations are not covered benefits under Maternity Insurance.",
+    "source": "Ch7 §3.2, p.141"
+  },
+  {
+    "id": "hi-494",
+    "topic": "Other Types of Health Insurance",
+    "question": "A Hospital Cash Insurance policyholder has maintained a claims-free record for several consecutive policy years. What benefit might the insurer offer at renewal?",
+    "choices": [
+      "Automatic upgrade to the next higher benefit tier",
+      "A No Claim Discount on the renewal premium",
+      "Waiver of the waiting period for illness-related claims",
+      "Extension of the per-lifetime day limit by an additional 180 days"
+    ],
+    "answer": 1,
+    "explanation": "For a Hospital Cash Insurance policy that has been in force for a consecutive period and is free of any claim, a no claim discount may be given at renewal. The insurer deducts a percentage from the next renewal premium as a reward for the claims-free record. The policy does not offer automatic tier upgrades, waiting period waivers, or lifetime limit extensions for claims-free records.",
+    "source": "Ch7 §2.9(l), p.138"
+  },
+  {
+    "id": "hi-495",
+    "topic": "Other Types of Health Insurance",
+    "question": "Which of the following is a common exclusion under a Group Dental Care Insurance policy?",
+    "choices": [
+      "Wisdom tooth extraction",
+      "Root canal treatment",
+      "Replacement of broken, lost or stolen dentures",
+      "Scaling and polishing"
+    ],
+    "answer": 2,
+    "explanation": "Common exclusions under Group Dental Care Insurance include: dental procedures not specified in the Schedule of Allowances, hospital charges, war-related injuries, medicine given, purely cosmetic treatment, self-inflicted injury, and replacement of broken, lost or stolen dentures. Wisdom tooth extraction, root canal treatment, and scaling and polishing are all procedures typically covered under the Schedule of Allowances.",
+    "source": "Ch7 §5.6, p.146"
+  },
+  {
+    "id": "hi-496",
+    "topic": "Long-Term Care Insurance",
+    "question": "What are the TWO key factors that underwriters focus on when assessing a Long-Term Care (LTC) Insurance application?",
+    "choices": [
+      "A) Financial status of the applicant and family medical history",
+      "B) Detection of early cognitive impairment and morbidity risk",
+      "C) Occupational hazards and smoking habits",
+      "D) Age of the applicant and residency status"
+    ],
+    "answer": 1,
+    "explanation": "According to the textbook, the two key factors for underwriting LTC Insurance are: (1) detection of any early cognitive impairment, because cognitive impairment can prolong LTC claims, and (2) morbidity risk — the chance of a person suffering any physical disability that will affect their ability to perform activities of daily living. This distinguishes LTC underwriting from other types of health insurance underwriting.",
+    "source": "Ch12 §3.20, p.250"
+  },
+  {
+    "id": "hi-497",
+    "topic": "Long-Term Care Insurance",
+    "question": "Why do some insurers require the life insured to undergo a cognitive assessment during the underwriting stage for Long-Term Care Insurance?",
+    "choices": [
+      "A) To determine if the applicant can understand the policy terms and conditions",
+      "B) To assess the applicant's mental fitness for employment purposes",
+      "C) Because cognitive impairment can prolong LTC claims, making it a critical risk factor",
+      "D) Because MAS regulations mandate cognitive testing for all health insurance applications"
+    ],
+    "answer": 2,
+    "explanation": "The textbook states that cognitive impairment can prolong LTC claims, which is why some insurers require the life insured to undergo cognitive assessment during the underwriting stage. Signs of cognitive (psychological) impairments may indicate that the life insured is a high or uninsurable risk for LTC Insurance. This is listed as one of the specific medical tests an insurer may request, alongside ECGs, blood tests, and urinalysis.",
+    "source": "Ch12 §3.20, p.250; §4.12, p.259"
+  },
+  {
+    "id": "hi-498",
+    "topic": "Long-Term Care Insurance",
+    "question": "A 55-year-old applicant for LTC Insurance has a history of musculoskeletal conditions (chronic back pain and knee osteoarthritis). How would an underwriter most likely view this application?",
+    "choices": [
+      "A) Accept at standard rates, as musculoskeletal conditions are not relevant to LTC coverage",
+      "B) Recognise it as a potential risk for LTC coverage, as musculoskeletal conditions may affect the ability to perform activities of daily living",
+      "C) Automatically decline the application, as musculoskeletal conditions are permanently uninsurable",
+      "D) Refer the application for a cognitive assessment only"
+    ],
+    "answer": 1,
+    "explanation": "The textbook specifically notes that some conditions which may not be significant in the assessment of a mortality risk will be critical for an LTC risk. A musculoskeletal condition is cited as an example of a potential risk for LTC coverage, because it can affect the individual's ability to perform activities of daily living. The underwriter would not automatically decline but would carefully assess the morbidity risk.",
+    "source": "Ch12 §3.20, p.250"
+  },
+  {
+    "id": "hi-499",
+    "topic": "Long-Term Care Insurance",
+    "question": "Which of the following underwriting methods is NOT typically used for Long-Term Care Insurance?",
+    "choices": [
+      "A) Full Medical Underwriting",
+      "B) Moratorium Underwriting",
+      "C) Simplified Issuance Offer (SIO)",
+      "D) Guaranteed Issuance Offer (GIO)"
+    ],
+    "answer": 1,
+    "explanation": "Moratorium Underwriting (also known as Point-of-Claim Underwriting) is specifically described in the textbook as being 'used for Medical Expense Insurance' (section heading D2). Under this method, the insurer declares a moratorium period during which pre-existing conditions are excluded. Since Moratorium Underwriting is designated for Medical Expense Insurance, it is not applicable to LTC Insurance. LTC Insurance underwriting typically involves Full Medical Underwriting, which may include cognitive assessments and medical examinations to evaluate the risk of physical disability affecting activities of daily living.",
+    "source": "Ch12 §3.25–3.35, p.251–253"
+  },
+  {
+    "id": "hi-500",
+    "topic": "Long-Term Care Insurance",
+    "question": "In health insurance underwriting, morbidity risk is particularly important for LTC Insurance. What does 'morbidity risk' specifically mean in the context of LTC underwriting?",
+    "choices": [
+      "A) The risk of the insured dying within a given period",
+      "B) The chance of a person suffering any physical disability which will affect the individual's ability to perform activities of daily living",
+      "C) The probability of the insured being hospitalised for acute medical treatment",
+      "D) The likelihood of the insured developing a critical illness such as cancer or stroke"
+    ],
+    "answer": 1,
+    "explanation": "The textbook defines morbidity risk in the LTC context as 'the chance of a person suffering any physical disability which will affect the individual's ability to perform his activities of daily living.' This is distinct from mortality risk (risk of death), which is the primary concern in Life Insurance underwriting. Health Insurance underwriting as a whole is concerned with morbidity, but for LTC specifically, the focus is on physical disabilities affecting ADL performance.",
+    "source": "Ch12 §3.20, p.250"
   }
 ]

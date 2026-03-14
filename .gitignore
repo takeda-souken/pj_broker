@@ -3,3 +3,24 @@ Thumbs.db
 *.log
 node_modules/
 .env
+
+# 教科書PDF（著作権物）
+*.pdf
+
+# PDF変換物・作業用データ
+md/
+MRT.csv
+MRT.xlsx
+convert_mrt.py
+convert_pdf_to_md.py
+
+# 中間生成ファイル（マージ済み）
+data/*-sources-*.json
+data/*-gen.json
+data/*-new*.json
+data/*-batch*.json
+data/comgi-new-*.json
+scripts/gen_*.py
+scripts/merge_*.py
+scripts/fix_*.py
+gen_*.py
