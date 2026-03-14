@@ -7523,5 +7523,369 @@
     ],
     "difficulty": 1,
     "source": "Ch9 §7, p.212-216"
+  },
+  {
+    "id": "bcp-351",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "MAS Notice 132 on Cyber Hygiene was issued pursuant to which legislation?",
+    "choices": [
+      "A) Financial Advisers Act 2001",
+      "B) Personal Data Protection Act 2012",
+      "C) Section 64(2) of the Insurance Act 1966",
+      "D) Monetary Authority of Singapore Act 1970"
+    ],
+    "answer": 2,
+    "explanation": "MAS Notice 132 was issued pursuant to Section 64(2) of the Insurance Act 1966.",
+    "source": "Ch9 §14.13, p.229"
+  },
+  {
+    "id": "bcp-352",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "MAS Notice 132 on Cyber Hygiene applies to which of the following?",
+    "choices": [
+      "A) All licensed insurers only",
+      "B) All licensed insurers and all insurance agents",
+      "C) All financial institutions in Singapore",
+      "D) Insurance brokers only"
+    ],
+    "answer": 1,
+    "explanation": "MAS Notice 132 applies to (a) all licensed insurers and (b) all insurance agents.",
+    "source": "Ch9 §14.13, p.229"
+  },
+  {
+    "id": "bcp-353",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which of the following persons is NOT subject to MAS Notice 132 on Cyber Hygiene?",
+    "choices": [
+      "A) A licensed insurer",
+      "B) An insurance agent registered with ARB",
+      "C) An individual exempted under Section 20(1)(f) of the Financial Advisers Act 2001",
+      "D) A corporate insurance agency"
+    ],
+    "answer": 2,
+    "explanation": "MAS Notice 132 on Cyber Hygiene does not apply to three categories of persons: (a) an individual (i.e. a natural person acting in a personal capacity), (b) a person exempted under section 20(1)(f) of the Financial Advisers Act 2001, and (c) persons exempted under section 100(1) or (2) of the Financial Advisers Act 2001. Licensed insurers and registered insurance agents are subject to the Notice.",
+    "source": "Ch9 §14.14, p.229"
+  },
+  {
+    "id": "bcp-354",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under MAS Notice 132, multi-factor authentication must be implemented for which of the following?",
+    "choices": [
+      "A) All user accounts on every device",
+      "B) All administrative accounts on critical systems and all accounts accessing customer information through the internet",
+      "C) Only accounts accessing customer information through the internet",
+      "D) Only email and social media accounts used for business"
+    ],
+    "answer": 1,
+    "explanation": "Under Section 4.6, MFA must be implemented for (a) all administrative accounts on critical systems and (b) all accounts on any system used to access customer information through the internet.",
+    "source": "Ch9 §14.17 (Notice 132 §4.6), p.230"
+  },
+  {
+    "id": "bcp-355",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under MAS Notice 132, when a security patch is NOT available to address a vulnerability, a relevant entity must:",
+    "choices": [
+      "A) Shut down the affected system immediately",
+      "B) Institute controls to reduce any risk posed by such vulnerability",
+      "C) Report the vulnerability to MAS within 72 hours",
+      "D) Replace the affected system within 30 days"
+    ],
+    "answer": 1,
+    "explanation": "Where no security patch is available, the relevant entity must ensure that controls are instituted to reduce any risk posed by such vulnerability.",
+    "source": "Ch9 §14.15 (Notice 132 §4.2b), p.230"
+  },
+  {
+    "id": "bcp-356",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under MAS Notice 132, a relevant entity must ensure that there is a written set of _____ for every system.",
+    "choices": [
+      "A) Security patches",
+      "B) User access logs",
+      "C) Security standards",
+      "D) Incident response plans"
+    ],
+    "answer": 2,
+    "explanation": "A relevant entity must ensure that there is a written set of security standards for every system, and that every system conforms to those standards.",
+    "source": "Ch9 §14.15 (Notice 132 §4.3), p.230"
+  },
+  {
+    "id": "bcp-357",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The DLP Guidelines for Insurance Agents were developed by which body?",
+    "choices": [
+      "A) Monetary Authority of Singapore (MAS)",
+      "B) Personal Data Protection Commission (PDPC)",
+      "C) Joint LIA-GIA Insurance Standing Committee on Cyber Security (ISCCS)",
+      "D) Singapore Computer Emergency Response Team (SingCERT)"
+    ],
+    "answer": 2,
+    "explanation": "The DLP Guidelines are the work of the Joint LIA-GIA Insurance Standing Committee on Cyber Security (ISCCS), which was formed in 2015, with MAS as an Observer.",
+    "source": "Ch9 §14.19, p.231"
+  },
+  {
+    "id": "bcp-358",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The ISCCS (Insurance Standing Committee on Cyber Security) was formed in which year?",
+    "choices": [
+      "A) 2012",
+      "B) 2015",
+      "C) 2017",
+      "D) 2019"
+    ],
+    "answer": 1,
+    "explanation": "The ISCCS was formed in 2015, with MAS as an Observer.",
+    "source": "Ch9 §14.19, p.231"
+  },
+  {
+    "id": "bcp-359",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, laptop or desktop hard disks containing customer data should be:",
+    "choices": [
+      "A) Password-protected only",
+      "B) Encrypted (e.g. using Windows BitLocker)",
+      "C) Backed up to cloud storage daily",
+      "D) Physically locked in a secure cabinet when not in use"
+    ],
+    "answer": 1,
+    "explanation": "Laptop or desktop hard disk containing customer data should be encrypted. Agents can use Windows BitLocker or third-party encryption software recommended by insurers.",
+    "source": "Ch9 §14.37, p.233"
+  },
+  {
+    "id": "bcp-360",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, before disposing of a device containing customer data, agents must:",
+    "choices": [
+      "A) Simply delete all files and empty the recycle bin",
+      "B) Physically destroy the device",
+      "C) Securely erase data using data destruction software",
+      "D) Return the device to the insurer for disposal"
+    ],
+    "answer": 2,
+    "explanation": "Customer data or payment information should be securely erased using data destruction software before disposal of the devices.",
+    "source": "Ch9 §14.39, p.233"
+  },
+  {
+    "id": "bcp-361",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, agents should NOT use which type of network to send customer data?",
+    "choices": [
+      "A) Corporate VPN",
+      "B) Home broadband with encryption",
+      "C) Untrusted public wireless networks",
+      "D) Mobile data networks"
+    ],
+    "answer": 2,
+    "explanation": "Agents should not use untrusted public wireless network to send customer data or payment information as they may not be secured.",
+    "source": "Ch9 §14.51, p.234"
+  },
+  {
+    "id": "bcp-362",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, mobile devices used by agents should NOT be:",
+    "choices": [
+      "A) Protected with biometric authentication",
+      "B) Jail-broken or rooted",
+      "C) Updated with the latest OS",
+      "D) Used for personal purposes"
+    ],
+    "answer": 1,
+    "explanation": "Mobile devices should not be jail-broken or rooted. Jail-breaking removes iOS security restrictions, while rooting enables privileged rights on Android devices.",
+    "source": "Ch9 Appendix 9C §3.3, p.263"
+  },
+  {
+    "id": "bcp-363",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, if an agent must share a device (e.g. a family device), they should:",
+    "choices": [
+      "A) Only use the device during business hours",
+      "B) Set up separate accounts for each individual user",
+      "C) Install a separate anti-virus for business use",
+      "D) Ensure other users sign a non-disclosure agreement"
+    ],
+    "answer": 1,
+    "explanation": "If sharing of devices cannot be avoided (e.g. family devices), agents should set up separate accounts for each individual using the device. Administrative accounts should not be given to another person.",
+    "source": "Ch9 §14.32, p.232"
+  },
+  {
+    "id": "bcp-364",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, customer data transferred to portable storage devices or cloud-based storage must be:",
+    "choices": [
+      "A) Password-protected only",
+      "B) Compressed using ZIP format",
+      "C) Encrypted before being transferred",
+      "D) Transferred only via secure email"
+    ],
+    "answer": 2,
+    "explanation": "Customer data or payment information should be encrypted before being transferred to any storage media including portable storage devices and cloud-based storage.",
+    "source": "Ch9 §14.38, p.233"
+  },
+  {
+    "id": "bcp-365",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the DLP Guidelines, which software feature should be installed and enabled on mobile devices to protect customer data if the device is lost?",
+    "choices": [
+      "A) Anti-virus software",
+      "B) Remote wipe capability (e.g. Find My Phone)",
+      "C) VPN client",
+      "D) Cloud backup service"
+    ],
+    "answer": 1,
+    "explanation": "Software with remote wipe capability should be installed and enabled on mobile devices (e.g. iPhone users can enable 'Find My Phone'; Android users can enable 'Android Device Manager').",
+    "source": "Ch9 Appendix 9C §3.3, p.263"
+  },
+  {
+    "id": "bcp-366",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Which of the following is a responsibility of professionals in the insurance industry?",
+    "choices": [
+      "A) Maximising premium revenue for their principal",
+      "B) Fiduciary responsibility to clients",
+      "C) Reporting competitors' unethical behaviour to MAS",
+      "D) Ensuring all clients purchase maximum coverage"
+    ],
+    "answer": 1,
+    "explanation": "Being a professional demands increased responsibilities to clients: delivering high quality informed service, being aware of ethical and compliance issues, and fiduciary responsibility.",
+    "source": "Ch9 §10.1, p.217"
+  },
+  {
+    "id": "bcp-367",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, insurers must provide a quotation within how many business days after receiving the required information?",
+    "choices": [
+      "A) 3 business days",
+      "B) 5 business days",
+      "C) 7 business days",
+      "D) 14 business days"
+    ],
+    "answer": 2,
+    "explanation": "Under the GI Code service standards, insurers will provide an insurance quotation within 7 business days after receipt of the required information.",
+    "source": "Ch9 Appendix 9A §4.1, p.238"
+  },
+  {
+    "id": "bcp-368",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, policy documents must be despatched to the policyholder within how many business days from confirmation of cover?",
+    "choices": [
+      "A) 3 business days",
+      "B) 7 business days",
+      "C) 15 business days",
+      "D) 30 business days"
+    ],
+    "answer": 2,
+    "explanation": "Insurers will despatch the policy documents within 15 business days from the date of confirmation of cover.",
+    "source": "Ch9 Appendix 9A §4.3, p.238"
+  },
+  {
+    "id": "bcp-369",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, once an insurer agrees to settle a claim and receives all relevant documents, payment must be issued within:",
+    "choices": [
+      "A) 3 business days",
+      "B) 7 business days",
+      "C) 10 business days",
+      "D) 15 business days"
+    ],
+    "answer": 2,
+    "explanation": "Once the insurer has agreed to settle the claim and received all relevant documents, payment will be issued within 10 business days.",
+    "source": "Ch9 Appendix 9A §6.2, p.239"
+  },
+  {
+    "id": "bcp-370",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, insurers must inform the policyholder about policy renewal at least how many business days before expiry?",
+    "choices": [
+      "A) 7 business days",
+      "B) 14 business days",
+      "C) 30 business days",
+      "D) 60 business days"
+    ],
+    "answer": 2,
+    "explanation": "Insurers must inform policyholders when they need to renew or when the policy will expire at least 30 business days before expiry.",
+    "source": "Ch9 Appendix 9A §5.2, p.239"
+  },
+  {
+    "id": "bcp-371",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, refunds of premiums due to endorsement or cancellation must be returned within:",
+    "choices": [
+      "A) 7 business days",
+      "B) 15 business days",
+      "C) 30 business days",
+      "D) 60 business days"
+    ],
+    "answer": 2,
+    "explanation": "Refunds of premiums, fees or charges due to the policyholder must be returned within 30 business days from the date of endorsement/cancellation.",
+    "source": "Ch9 Appendix 9A §5.1, p.239"
+  },
+  {
+    "id": "bcp-372",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, if a policyholder's complaint takes longer to resolve, the insurer must update the policyholder within how many business days of the last communication?",
+    "choices": [
+      "A) 3 business days",
+      "B) 7 business days",
+      "C) 15 business days",
+      "D) 30 business days"
+    ],
+    "answer": 2,
+    "explanation": "If a complaint takes longer to resolve, the insurer will update the policyholder within 15 business days of the last communication.",
+    "source": "Ch9 Appendix 9A §7.1, p.240"
+  },
+  {
+    "id": "bcp-373",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the GI Code of Practice, if a policyholder is dissatisfied with the insurer's Chief Executive's response to a complaint, the matter can be referred to which body?",
+    "choices": [
+      "A) Singapore Mediation Centre only",
+      "B) Financial Industry Disputes Resolution Centre (FIDReC)",
+      "C) Monetary Authority of Singapore (MAS) directly",
+      "D) General Insurance Association (GIA) Ethics Board"
+    ],
+    "answer": 1,
+    "explanation": "If still dissatisfied with the Chief Executive's response, the insurer will refer the policyholder to the Financial Industry Disputes Resolution Centre (FIDReC).",
+    "source": "Ch9 Appendix 9A §8.1, p.240"
+  },
+  {
+    "id": "bcp-374",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the PDPA, the legitimate interests and business improvement exceptions were introduced as part of which set of changes?",
+    "choices": [
+      "A) The original PDPA enacted in 2012",
+      "B) Amendments effective 2 July 2014",
+      "C) Enhanced PDPA amendments effective 1 February 2021",
+      "D) Penalties amendment effective 1 October 2022"
+    ],
+    "answer": 2,
+    "explanation": "The legitimate interests and business improvement exceptions were introduced with the enhanced PDPA amendments that took effect on 1 February 2021. These exceptions allow organisations to collect, use, or disclose personal data without consent in certain circumstances, such as for fraud detection or improving products and services.",
+    "source": "Ch9 §14.6, p.227"
+  },
+  {
+    "id": "bcp-375",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "The DLP Guidelines were first introduced in February 2017 as:",
+    "choices": [
+      "A) Mandatory requirements",
+      "B) Industry best practices",
+      "C) MAS regulatory notices",
+      "D) Legal obligations under the Insurance Act"
+    ],
+    "answer": 1,
+    "explanation": "The DLP Guidelines were first introduced on 6 February 2017 as 'industry best practices'. They were subsequently reclassified from best practices to basic requirements in June 2018, and adoption became mandatory effective 1 January 2020.",
+    "source": "Ch9 §14.20, p.231"
+  },
+  {
+    "id": "bcp-376",
+    "topic": "Ethics, Data Protection & Cyber Hygiene",
+    "question": "Under the Code of Practice for Agents, an agent must not publish any advertisements concerning their principal's products or services unless:",
+    "choices": [
+      "A) The advertisement complies with MAS guidelines",
+      "B) A copy has been approved by a duly authorised official of the agent's principal",
+      "C) The agent has obtained written consent from PDPC",
+      "D) The advertisement has been reviewed by GIA's compliance team"
+    ],
+    "answer": 1,
+    "explanation": "No advertisements concerning an Agent's Principal or its products shall be published unless a copy has first been approved by a duly authorised official of the Agent's Principal.",
+    "source": "Ch9 §12.4(h), p.221"
   }
 ]

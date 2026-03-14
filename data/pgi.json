@@ -7420,5 +7420,285 @@
     ],
     "difficulty": 2,
     "source": "Ch7 §3.9, p.238"
+  },
+  {
+    "id": "pgi-351",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Security Bond conditions, the employer must inform the Controller of Work Passes in writing within how many days of the FDW's completion or termination of employment?",
+    "choices": [
+      "A) 3 days",
+      "B) 7 days",
+      "C) 14 days",
+      "D) 30 days"
+    ],
+    "answer": 1,
+    "explanation": "According to the Security Bond Form (Appendix 7A), the employer must inform the Controller of Work Passes in writing within seven days of completion, termination, or resignation from employment.",
+    "source": "Ch7 Appendix 7A, p.242"
+  },
+  {
+    "id": "pgi-352",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "A Work Permit holder is prohibited from marrying a Singapore citizen or permanent resident without whose approval?",
+    "choices": [
+      "A) The employer's approval",
+      "B) MOM's approval",
+      "C) The Immigration & Checkpoints Authority's approval",
+      "D) No approval is needed"
+    ],
+    "answer": 1,
+    "explanation": "A FDW must not marry a Singapore citizen or permanent resident in or outside Singapore without MOM's approval. This restriction applies even after their Work Permits have expired, been cancelled or revoked.",
+    "source": "Ch7 §2.3(e), p.221"
+  },
+  {
+    "id": "pgi-353",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Are Central Provident Fund (CPF) contributions required for any FDW employed in Singapore?",
+    "choices": [
+      "A) Yes, at the standard employee rate",
+      "B) Yes, but at a reduced rate",
+      "C) No, CPF contributions are not required for any FDW",
+      "D) Only if the FDW has worked more than 2 years"
+    ],
+    "answer": 2,
+    "explanation": "Central Provident Fund contributions are not required for any FDW, as explicitly stated in the textbook.",
+    "source": "Ch7 §2.5, p.222"
+  },
+  {
+    "id": "pgi-354",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "The Security Bond will be discharged if the employer meets all conditions EXCEPT which of the following?",
+    "choices": [
+      "A) The Work Permit has been cancelled",
+      "B) The helper has returned home",
+      "C) The employer has paid a discharge fee to MOM",
+      "D) The employer did not breach any security bond conditions"
+    ],
+    "answer": 2,
+    "explanation": "The Security Bond is discharged if: (1) the employer has cancelled the Work Permit, (2) the helper has returned home, and (3) the employer did not breach any security bond conditions. There is no requirement to pay a discharge fee.",
+    "source": "Ch7 §2.11, p.223"
+  },
+  {
+    "id": "pgi-355",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Which of the following is a condition under which the Security Bond may be forfeited?",
+    "choices": [
+      "A) The FDW changes her nationality",
+      "B) The employer fails to pay the FDW's salary on time",
+      "C) The FDW learns a new language",
+      "D) The employer moves to a new address"
+    ],
+    "answer": 1,
+    "explanation": "The Security Bond may be forfeited if: the employer or helper violates WP/bond conditions, the employer does not pay salary on time, the employer fails to send the helper home when the WP expires/is revoked/cancelled, or the helper goes missing.",
+    "source": "Ch7 §2.12, p.223"
+  },
+  {
+    "id": "pgi-356",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under what condition will the employer NOT be liable for the FDW's violation of Work Permit conditions (such as pregnancy)?",
+    "choices": [
+      "A) If the employer has purchased Waiver of Counter Indemnity",
+      "B) If the employer can prove he informed the FDW of WP conditions and reported the violation when first aware",
+      "C) If the violation occurred during the FDW's home leave",
+      "D) If the employer has purchased enhanced medical insurance"
+    ],
+    "answer": 1,
+    "explanation": "The employer will not be liable for the helper's violations if he can prove that he (1) informed her of the Work Permit conditions she must comply with, and (2) reported a violation when he first became aware of it.",
+    "source": "Ch7 §2.13, p.223"
+  },
+  {
+    "id": "pgi-357",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "The insurer's Letter of Guarantee for the Security Bond is considered what type of arrangement?",
+    "choices": [
+      "A) An insurance benefit with full risk transfer",
+      "B) Not an insurance benefit, since there is no real transfer of risk",
+      "C) A statutory indemnity mandated by MOM",
+      "D) A form of life insurance coverage"
+    ],
+    "answer": 1,
+    "explanation": "The insurer's offer of the Letter of Guarantee to the Controller is not an insurance benefit, since there is no real transfer of risk. The employer must reimburse the insurer for amounts paid to MOM, unless the Waiver of Counter Indemnity extension is purchased.",
+    "source": "Ch7 §2.14, p.223"
+  },
+  {
+    "id": "pgi-358",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the MOM-stipulated PA exclusions, which of the following is specifically excluded from the definition of 'accident' for FDW PA cover?",
+    "choices": [
+      "A) Slipping on a wet floor",
+      "B) Being hit by a vehicle",
+      "C) Hazardous sports such as skiing, scuba diving, or motor racing",
+      "D) Falling from a ladder"
+    ],
+    "answer": 2,
+    "explanation": "MOM has stipulated that 'accident' does not include hazardous sports engaged in by the FDW, including winter sports (skiing, snowboarding), underwater activities (snorkelling, scuba diving), aerial activities (helicopter tours, para-gliding), or motor sports (motorcycle racing, motor car racing).",
+    "source": "Ch7 §2.43(g), p.230"
+  },
+  {
+    "id": "pgi-359",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Accidental Outpatient Medical Expenses section, treatment by a Traditional Chinese Medicine physician is typically subject to what kind of limit?",
+    "choices": [
+      "A) No limit applies",
+      "B) A sub-limit (e.g. S$500 per accident)",
+      "C) The same limit as western medical treatment",
+      "D) TCM treatment is always excluded"
+    ],
+    "answer": 1,
+    "explanation": "Some policies extend the outpatient medical expenses section to include TCM treatment (acupuncturist, bonesetter, chiropractor, herbalist, physiotherapist), but this is usually subject to a sub-limit (e.g. S$500 per accident).",
+    "source": "Ch7 §2.45, p.231"
+  },
+  {
+    "id": "pgi-360",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Hospital & Surgical Expenses section, expenses related to the hospital stay can be claimed if incurred within how many days before or after confinement?",
+    "choices": [
+      "A) 30 days",
+      "B) 60 days",
+      "C) 90 days",
+      "D) 120 days"
+    ],
+    "answer": 2,
+    "explanation": "The textbook narrative (§2.48) states that hospital and surgical expenses can be claimed if incurred within 90 days before or after the hospital confinement. Note that the specimen policy in Appendix 7D uses a 60-day window; the exam may reference either figure depending on context.",
+    "source": "Ch7 §2.48, p.231"
+  },
+  {
+    "id": "pgi-361",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the allowable exclusions for FDW Medical Insurance (Annex B), dental work is excluded EXCEPT in what circumstance?",
+    "choices": [
+      "A) When recommended by a specialist",
+      "B) When due to accidental injuries",
+      "C) When the FDW is under 30 years old",
+      "D) Dental work is always excluded"
+    ],
+    "answer": 1,
+    "explanation": "Under Group A of the MOM allowable exclusions list, dental work is excluded except when it is due to accidental injuries.",
+    "source": "Ch7 §2.33, Annex B Group A, p.226"
+  },
+  {
+    "id": "pgi-362",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the MOM allowable exclusions (Annex B), Traditional Chinese Medicine is classified under which group?",
+    "choices": [
+      "A) Group A: Treatment that is elective and not medically necessary",
+      "B) Group B: Treatment resulting from employers'/workers' acts",
+      "C) Group C: Others",
+      "D) It is not listed as an allowable exclusion"
+    ],
+    "answer": 2,
+    "explanation": "Traditional Chinese medicine or any forms of alternative treatment is listed under Group C: Others in the MOM standard list of allowable exclusions.",
+    "source": "Ch7 §2.33, Annex B Group C, p.227"
+  },
+  {
+    "id": "pgi-363",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "The Wages & Levy Compensation extension under FDWI compensates the employer for a nominal sum per day when the FDW is hospitalised, subject to a maximum period of typically how many days?",
+    "choices": [
+      "A) 14 days",
+      "B) 30 days",
+      "C) 60 days",
+      "D) 90 days"
+    ],
+    "answer": 2,
+    "explanation": "The textbook narrative (§2.63) states the Wages & Levy Compensation extension compensates the employer for a nominal sum (e.g. S$30 per day) for each day the FDW is hospitalised, subject to a maximum period of e.g. 60 days. Note that the specimen policy in Appendix 7D Section 6 uses a 30-day maximum; the exam may reference either figure.",
+    "source": "Ch7 §2.63, p.235"
+  },
+  {
+    "id": "pgi-364",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "The FDW's Belongings extension covers the FDW's personal effects against what type of peril?",
+    "choices": [
+      "A) Theft by a third party",
+      "B) Fire and related perils while in the employer's home",
+      "C) Loss during travel",
+      "D) All risks including mysterious disappearance"
+    ],
+    "answer": 1,
+    "explanation": "The FDW's Belongings extension covers the FDW's personal effects while contained in the employer's home, in the event of their loss or damage caused by fire and related perils, usually subject to a limit (e.g. S$500).",
+    "source": "Ch7 §2.66, p.235"
+  },
+  {
+    "id": "pgi-365",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "When does FDWI coverage cease according to the policy conditions?",
+    "choices": [
+      "A) When the FDW's work permit is renewed",
+      "B) When the FDW returns to her home country (e.g. home leave)",
+      "C) After 12 months regardless of employment status",
+      "D) Only when the policy is formally cancelled"
+    ],
+    "answer": 1,
+    "explanation": "According to the policy conditions, coverage ceases when the FDW returns to her home country, e.g. home leave.",
+    "source": "Ch7 §2.70, p.236"
+  },
+  {
+    "id": "pgi-366",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "The additional two months' coverage in a 14- or 26-month FDWI policy serves what purpose?",
+    "choices": [
+      "A) To cover the FDW during training before employment starts",
+      "B) To ensure coverage if the FDW overstays after her work permit expires",
+      "C) To provide a grace period for premium payment",
+      "D) To cover the employer's liability after policy expiry"
+    ],
+    "answer": 1,
+    "explanation": "The additional two months' cover (making it 14 or 26 months instead of 12 or 24) is MOM's safeguard requirement to ensure insurance remains in place should the FDW default and overstay in Singapore upon completion of her term of employment.",
+    "source": "Ch7 §2.75(a), p.236-237"
+  },
+  {
+    "id": "pgi-367",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Golfer's Insurance, what is the typical territorial limit of coverage?",
+    "choices": [
+      "A) Singapore only",
+      "B) ASEAN countries only",
+      "C) Asia-Pacific region",
+      "D) Worldwide"
+    ],
+    "answer": 3,
+    "explanation": "The territorial limit of Golfer's Insurance is usually worldwide.",
+    "source": "Ch7 §3.7, p.238"
+  },
+  {
+    "id": "pgi-368",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Golfing Equipment section, which of the following is specifically excluded from coverage?",
+    "choices": [
+      "A) Golf clubs",
+      "B) Golf bags",
+      "C) Watches, jewellery, mobile phones, and cameras",
+      "D) Umbrellas"
+    ],
+    "answer": 2,
+    "explanation": "The Golfing Equipment section excludes loss of or damage to valuables such as watches, jewellery, trinkets, notebooks, mobile phones, cameras, audio-visual equipment, money, securities, stamps, field and other glasses.",
+    "source": "Ch7 §3.17(c), p.239"
+  },
+  {
+    "id": "pgi-369",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "To claim under the Hole-In-One section of Golfer's Insurance, what verification does the insurer typically require?",
+    "choices": [
+      "A) Video evidence of the hole-in-one",
+      "B) A properly authenticated certificate from the golf club plus bills/receipts for food and beverages",
+      "C) A statutory declaration witnessed by a lawyer",
+      "D) Testimony from at least three other golfers"
+    ],
+    "answer": 1,
+    "explanation": "To claim under the Hole-In-One section, the insurer will usually need verification from the golf club, such as a properly authenticated certificate, as well as the bills or receipts for the food and beverages purchased.",
+    "source": "Ch7 §3.26, p.241"
+  },
+  {
+    "id": "pgi-370",
+    "topic": "Foreign Domestic Worker & Golfer Insurance",
+    "question": "Under the Golfer's Insurance extension for Club Subscription Fees, the insurer reimburses fees if the insured cannot play golf due to injury or illness lasting more than what period?",
+    "choices": [
+      "A) 7 days",
+      "B) 14 days",
+      "C) 30 days",
+      "D) 60 days"
+    ],
+    "answer": 1,
+    "explanation": "The Club Subscription Fees extension is subject to a time excess: the policy pays only if the injury or illness lasts for more than a certain period. The textbook gives 14 days as a typical example (§3.21(c) uses 'e.g. 14 days'). The actual period may vary by policy.",
+    "source": "Ch7 §3.21(c), p.240"
   }
 ]

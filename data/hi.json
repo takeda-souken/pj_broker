@@ -10445,5 +10445,355 @@
     "answer": 1,
     "explanation": "The textbook defines morbidity risk in the LTC context as 'the chance of a person suffering any physical disability which will affect the individual's ability to perform his activities of daily living.' This is distinct from mortality risk (risk of death), which is the primary concern in Life Insurance underwriting. Health Insurance underwriting as a whole is concerned with morbidity, but for LTC specifically, the focus is on physical disabilities affecting ADL performance.",
     "source": "Ch12 §3.20, p.250"
+  },
+  {
+    "id": "hi-501",
+    "topic": "Financial Needs Analysis",
+    "question": "Which of the following best describes the key difference between needs selling and product selling?",
+    "choices": [
+      "A) Needs selling is service-oriented and relationship-based, while product selling assumes the client needs the product and creates pressure to buy",
+      "B) Product selling is more effective because it focuses on the features of the product",
+      "C) Needs selling requires less knowledge of the client's personal circumstances",
+      "D) Product selling establishes longer-term relationships with clients than needs selling"
+    ],
+    "answer": 0,
+    "explanation": "According to the textbook, needs selling is more desirable than product selling because it is (a) service-oriented, (b) not pressure selling, and (c) relationship based. Product selling assumes the client needs the product and goes straight into selling, which can create pressure and give the impression that the main concern is just to close a sale.",
+    "source": "Ch14 §2.1-2.2, p.306-307"
+  },
+  {
+    "id": "hi-502",
+    "topic": "Financial Needs Analysis",
+    "question": "Under the Fact-Find Document, how many Application Types are available for the prospective client to choose from?",
+    "choices": [
+      "A) Two",
+      "B) Three",
+      "C) Four",
+      "D) Five"
+    ],
+    "answer": 1,
+    "explanation": "The Fact-Find Document provides three Application Types: (1) comprehensive planning with full fact-find, (2) specific need(s) planning with partial fact-find, and (3) no needs analysis where the client takes responsibility for product suitability.",
+    "source": "Ch14 §3.3(b), p.308"
+  },
+  {
+    "id": "hi-503",
+    "topic": "Financial Needs Analysis",
+    "question": "For Application Type 3 in the Fact-Find Document (where the client did not undergo any needs analysis), which of the following is a mandatory requirement?",
+    "choices": [
+      "A) Completing a full needs analysis for at least one need",
+      "B) Gathering information on dependants",
+      "C) Explaining product features, fees and charges to the client",
+      "D) Completing the existing health policies section"
+    ],
+    "answer": 2,
+    "explanation": "For Application Type 3, where the client did not undergo any needs analysis, it is mandatory to explain product features, fees and charges to the client. The client must also acknowledge the Application Type. Needs analysis, dependant information, and existing health policies are not applicable for this type.",
+    "source": "Ch14 §3.3(b), p.308"
+  },
+  {
+    "id": "hi-504",
+    "topic": "Financial Needs Analysis",
+    "question": "Why is Disability Income Insurance (DII) NOT issued to unemployed persons or those without a stable job?",
+    "choices": [
+      "A) Because they cannot afford the premiums",
+      "B) Because DII replaces lost income, and there is no income to replace if the person is not employed",
+      "C) Because unemployed persons are considered too high-risk",
+      "D) Because DII is only available through employer-sponsored group plans"
+    ],
+    "answer": 1,
+    "explanation": "The textbook states that DII is not issued to any unemployed person, nor anyone who does not have a stable job (e.g. an odd job labourer). This is because DII is designed to protect earnings, and eligibility requires having a stable income to replace in the event of disability.",
+    "source": "Ch14 §3.3(d), p.309"
+  },
+  {
+    "id": "hi-505",
+    "topic": "Financial Needs Analysis",
+    "question": "When determining the deferred period for a Disability Income Insurance policy, why might a self-employed person need a shorter deferred period compared to an employee?",
+    "choices": [
+      "A) Self-employed persons have higher medical costs",
+      "B) Self-employed persons will not continue to receive pay from a company while disabled, so they need cover as soon as possible",
+      "C) Self-employed persons are more likely to become disabled",
+      "D) Self-employed persons pay lower DII premiums"
+    ],
+    "answer": 1,
+    "explanation": "The textbook explains that a self-employed person will need the insurance cover as soon as possible, while an employee may afford a longer deferred period as he may continue to receive his pay from his company for a period of time (e.g. six months) while he is disabled.",
+    "source": "Ch14 §3.3(d), p.309"
+  },
+  {
+    "id": "hi-506",
+    "topic": "Financial Needs Analysis",
+    "question": "Which of the following is NOT one of the questions a representative should ask when going through the Fact-Find Document to identify a client's needs?",
+    "choices": [
+      "A) Does he have an emergency fund in place?",
+      "B) Which life stage is he in?",
+      "C) What is his investment portfolio allocation?",
+      "D) Has he stated his priorities correctly?"
+    ],
+    "answer": 2,
+    "explanation": "The textbook lists eight questions to ask during needs identification: (a) emergency fund, (b) employment status and occupation, (c) life stage, (d) dependants, (e) existing insurance, (f) need for health insurance, (g) affordability, and (h) priorities. Investment portfolio allocation is not among these questions.",
+    "source": "Ch14 §4.1, p.312"
+  },
+  {
+    "id": "hi-507",
+    "topic": "Financial Needs Analysis",
+    "question": "What is the purpose of an emergency fund in the context of financial needs analysis?",
+    "choices": [
+      "A) To pay insurance premiums during retirement",
+      "B) To guard against the breadwinner's loss of a job or a short-term disability that interrupts the financial flow of income to the family",
+      "C) To serve as collateral for obtaining insurance policies",
+      "D) To provide investment returns to supplement insurance coverage"
+    ],
+    "answer": 1,
+    "explanation": "The textbook states that an emergency fund is useful to guard against the breadwinner's loss of a job or a short-term disability that interrupts the financial flow of income to the family. It also provides for certain expenses not covered by insurance, such as the costs of a child's tuition.",
+    "source": "Ch14 §4.2, p.312"
+  },
+  {
+    "id": "hi-508",
+    "topic": "Financial Needs Analysis",
+    "question": "At which stage of a prospective client's life cycle is it MOST crucial to protect earnings against disability resulting from injury or long-term sickness?",
+    "choices": [
+      "A) Childhood",
+      "B) Retirement",
+      "C) Active employment years",
+      "D) Pre-retirement"
+    ],
+    "answer": 2,
+    "explanation": "The textbook states that during active employment years, it is crucial to ensure that one protects his earnings against disability resulting from injury or long-term sickness.",
+    "source": "Ch14 §4.6, p.313"
+  },
+  {
+    "id": "hi-509",
+    "topic": "Financial Needs Analysis",
+    "question": "Using Method 1 to quantify Disability Income Protection Needs, what percentage of the monthly salary represents the income protection need?",
+    "choices": [
+      "A) 50%",
+      "B) 65%",
+      "C) 75%",
+      "D) 80%"
+    ],
+    "answer": 2,
+    "explanation": "Method 1 uses 75% of the monthly salary as the income protection need in the event of disability. The formula is: Disability Income Protection = 75% x monthly income, less existing disability benefit per month.",
+    "source": "Ch14 §4.13, p.316"
+  },
+  {
+    "id": "hi-510",
+    "topic": "Financial Needs Analysis",
+    "question": "Method 2 for quantifying Disability Income Protection Needs uses which basis instead of income?",
+    "choices": [
+      "A) Total assets",
+      "B) Monthly expenses",
+      "C) Annual savings",
+      "D) Net worth"
+    ],
+    "answer": 1,
+    "explanation": "Method 2 uses monthly expenses instead of income to determine the coverage needed. Monthly expenses should include the amount that the prospective client spends on himself, as well as on his family, providing the minimum amount required to sustain living expenses in the event of a disability.",
+    "source": "Ch14 §4.13, p.316"
+  },
+  {
+    "id": "hi-511",
+    "topic": "Financial Needs Analysis",
+    "question": "In Example 14.1, Allison has a total hospital bill of S$22,400 and has already received S$11,000 from her Group Medical Expense Insurance. Her Private Medical Insurance (PMI) covers up to S$12,000. Applying the Co-ordination of Benefit Clause, how much can she claim from her PMI?",
+    "choices": [
+      "A) S$12,000",
+      "B) S$11,400",
+      "C) S$22,400",
+      "D) S$10,000"
+    ],
+    "answer": 1,
+    "explanation": "Applying the Co-ordination of Benefit Clause, the amount claimable from PMI is the minimum of: (a) balance bill = S$22,400 - S$11,000 = S$11,400, or (b) amount covered under PMI = S$12,000. Since S$11,400 < S$12,000, she can claim S$11,400 from her PMI.",
+    "source": "Ch14 §4.9(c), p.314"
+  },
+  {
+    "id": "hi-512",
+    "topic": "Financial Needs Analysis",
+    "question": "Which of the following is NOT one of the three basic principles to be aware of before making any product recommendation?",
+    "choices": [
+      "A) Recommend products only if the prospective client needs them",
+      "B) Recommend products which are the most suitable given the client's existing circumstances",
+      "C) Recommend the product with the highest commission to maximise earnings",
+      "D) If the client needs a product your company does not carry, let him know so he can find alternatives"
+    ],
+    "answer": 2,
+    "explanation": "The three basic principles are: (a) recommend products only if the client needs them, (b) recommend products which are only the most suitable for the client given his existing circumstances, and (c) if the client needs a product your company does not carry, let him know so that he can find alternatives. Maximising commission is not a stated principle.",
+    "source": "Ch14 §5.1, p.320"
+  },
+  {
+    "id": "hi-513",
+    "topic": "Financial Needs Analysis",
+    "question": "Why is affordability an important factor when selecting a suitable health insurance product to recommend?",
+    "choices": [
+      "A) It determines the commission earned by the representative",
+      "B) Policies that lapse early harm the client (loss of coverage), the representative (loss of goodwill and commission), and the insurer (high initial underwriting costs)",
+      "C) Affordable products always have better coverage",
+      "D) MAS requires that only the cheapest product be recommended"
+    ],
+    "answer": 1,
+    "explanation": "The textbook emphasises that being able to afford the initial premium does not mean the client can sustain regular payments. Early policy lapses are harmful: the client loses coverage, the representative loses goodwill and commission, and the insurer has to absorb the high initial cost of underwriting the policy.",
+    "source": "Ch14 §5.4, p.321"
+  },
+  {
+    "id": "hi-514",
+    "topic": "Financial Needs Analysis",
+    "question": "What is the correct sequential process for presenting product recommendations to a prospective client?",
+    "choices": [
+      "A) Product description → Benefits → Premium quote → Sign application",
+      "B) State the purpose of the product → Describe the product → Brief on benefits and limitations → Explain options → Summarise reasons → Explain benefit illustration → Disclose distribution costs",
+      "C) Compare competitors → Recommend the cheapest → Explain exclusions → Close the sale",
+      "D) Identify needs → Skip explanation → Submit application forms → Collect premium"
+    ],
+    "answer": 1,
+    "explanation": "The textbook outlines a seven-step systematic process: (1) State the purpose of the product, (2) Give a description of the product, (3) Brief on benefits and limitations, (4) Explain options within the product, (5) Summarise reasons for recommendation, (6) Explain benefit illustration with guaranteed and non-guaranteed benefits, (7) Disclose distribution costs, charges and expenses.",
+    "source": "Ch14 §6.3, p.323"
+  },
+  {
+    "id": "hi-515",
+    "topic": "Financial Needs Analysis",
+    "question": "Under which of the following circumstances should a periodic client review be conducted?",
+    "choices": [
+      "A) Only when the client requests one in writing",
+      "B) Only at the annual policy renewal date",
+      "C) When there is a change in the client's personal circumstances, such as the birth of a child",
+      "D) Only when the policy premium increases"
+    ],
+    "answer": 2,
+    "explanation": "The textbook lists four circumstances for review: (a) change in client's personal circumstances such as birth of a child, (b) external developments such as changes in CPF ruling, (c) original products are no longer adequate, and (d) launching of new products in the financial services market.",
+    "source": "Ch14 §7.2, p.323-324"
+  },
+  {
+    "id": "hi-516",
+    "topic": "Financial Needs Analysis",
+    "question": "When a prospective client has answered 'Yes' to having an existing health condition, which of the following is NOT mentioned as information the representative should find out?",
+    "choices": [
+      "A) The medical term of the illness",
+      "B) The date of onset of the medical condition",
+      "C) The client's blood type",
+      "D) Whether there has been any recurrence"
+    ],
+    "answer": 2,
+    "explanation": "When the client has an existing health condition, the representative should find out: (i) medical term, (ii) date of onset, (iii) type of treatment, (iv) whether still undergoing treatment, (v) hospitalisation details, (vi) recurrence, (vii) whether fully recovered, and (viii) any medical report. Blood type is not mentioned.",
+    "source": "Ch14 §3.3(h), p.310-311"
+  },
+  {
+    "id": "hi-517",
+    "topic": "Financial Needs Analysis",
+    "question": "According to the textbook, needs quantification for health insurance is:",
+    "choices": [
+      "A) Mandatory under MAS regulations",
+      "B) Required by all insurers before issuing a policy",
+      "C) Not mandatory, but an industry 'best practice'",
+      "D) Only required for Disability Income Insurance"
+    ],
+    "answer": 2,
+    "explanation": "The textbook explicitly states that needs quantification is not mandatory, but an industry 'best practice'.",
+    "source": "Ch14 §4.11, p.316"
+  },
+  {
+    "id": "hi-518",
+    "topic": "Financial Needs Analysis",
+    "question": "Hospital Cash Insurance pays on top of all other Health Insurance plans. How is the daily Hospital Cash Insurance amount calculated?",
+    "choices": [
+      "A) Monthly income divided by 30 days",
+      "B) Total monthly expenses less existing hospital cash benefit per month, then divided by 30 days",
+      "C) 75% of monthly salary divided by 30 days",
+      "D) Total annual income divided by 365 days"
+    ],
+    "answer": 1,
+    "explanation": "The textbook shows the formula: Total monthly expenses less existing hospital cash benefit per month = estimated level of income protection needed. This is then divided by 30 days. In the example, Eugene's monthly expenses of S$3,600 with no existing benefit = S$3,600 ÷ 30 = S$120 per day.",
+    "source": "Ch14 §4.18, p.319"
+  },
+  {
+    "id": "hi-519",
+    "topic": "Financial Needs Analysis",
+    "question": "If a prospective client has an Endowment type of Critical Illness Insurance policy, what key risk should the representative highlight?",
+    "choices": [
+      "A) The premiums will increase every year",
+      "B) The CI cover will terminate once the policy matures, usually at a time when the client needs coverage most",
+      "C) The policy cannot be renewed after age 50",
+      "D) The policy does not cover hospitalisation"
+    ],
+    "answer": 1,
+    "explanation": "The textbook warns that if the prospective client has an Endowment type of Critical Illness Insurance policy, his CI cover will terminate once the policy matures. Usually, this will happen at a time when he needs the cover most (i.e., at an older age when CI risk is higher).",
+    "source": "Ch14 §4.9(d), p.314-315"
+  },
+  {
+    "id": "hi-520",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Case Study 1 (Tommy Tang), what deferred period was proposed for Tommy's Disability Income Insurance policy, and why?",
+    "choices": [
+      "A) Three months, because it is the industry standard",
+      "B) Six months, because his employer will continue to pay his salary up to six months during disability",
+      "C) Twelve months, because Tommy wanted to minimise premiums",
+      "D) Zero months (immediate), because Tommy is the sole breadwinner"
+    ],
+    "answer": 1,
+    "explanation": "Angela proposed a DII policy with a six-month deferred period because Tommy's employer will continue to pay his salary up to six months in the event that he is disabled. This allows a longer deferred period, which reduces the premium.",
+    "source": "Ch15 §2.7, p.328"
+  },
+  {
+    "id": "hi-521",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Tommy Tang case study, what was the amount of DII benefit proposed, and how was it calculated?",
+    "choices": [
+      "A) S$3,000, being 50% of his S$6,000 monthly income",
+      "B) S$4,500, being 75% of his S$6,000 monthly income",
+      "C) S$6,000, being 100% of his monthly income",
+      "D) S$3,000, being his family's average monthly expenditure"
+    ],
+    "answer": 1,
+    "explanation": "Angela proposed a DII policy with benefit at 75% of Tommy's monthly salary: 75% x S$6,000 = S$4,500, with an escalation benefit of 5%.",
+    "source": "Ch15 §2.7, p.328"
+  },
+  {
+    "id": "hi-522",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Tommy Tang case study, why was Mrs Tang not eligible for Disability Income Insurance?",
+    "choices": [
+      "A) She was over the maximum age limit",
+      "B) She had a pre-existing medical condition",
+      "C) She was a housewife and not working, making her ineligible for DII",
+      "D) Her husband's policy already covered her"
+    ],
+    "answer": 2,
+    "explanation": "Mrs Tang, a housewife, is not eligible for Disability Income Insurance because DII requires the insured to be employed and earning an income. Instead, Angela proposed protection through TPD benefits under Life Insurance and a Personal Accident Insurance policy.",
+    "source": "Ch15 §2.7, p.328"
+  },
+  {
+    "id": "hi-523",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Tommy Tang case study, what was the estimated funds required to provide Mrs Tang's maintenance costs in the event of her disability, given yearly income needed of S$18,000, 21 years, and an expected annual rate of return (adjusted for inflation) of 3%?",
+    "choices": [
+      "A) S$378,000",
+      "B) S$285,795",
+      "C) S$358,596",
+      "D) S$200,000"
+    ],
+    "answer": 1,
+    "explanation": "The calculation uses the Present Value of Annuity Due factor from Table A2: S$18,000 x 15.8775 (PVAD factor for 21 years at 3%) = S$285,795. With no existing funds available, the full S$285,795 is required.",
+    "source": "Ch15 §2.8, p.328"
+  },
+  {
+    "id": "hi-524",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Group Health Insurance case study, what are the two common methods used to determine the sum assured for Group Term Life Insurance for each category of employees?",
+    "choices": [
+      "A) By age and by gender",
+      "B) By rank, or by a multiple of the employee's basic salary",
+      "C) By length of service and by department",
+      "D) By medical history and by job hazard level"
+    ],
+    "answer": 1,
+    "explanation": "The textbook describes two common methods: (a) according to rank, and (b) number of times of the employee's basic salary. The rank method is easier to manage but does not account for length of service, while the salary-multiple method is more equitable as it reflects seniority through salary levels.",
+    "source": "Ch15 §3.4, p.334"
+  },
+  {
+    "id": "hi-525",
+    "topic": "Financial Needs Analysis",
+    "question": "In the Tommy Tang case study, what was the total monthly premium payable with cash for the entire family's insurance package, and was it within Tommy's budget of S$700?",
+    "choices": [
+      "A) S$505.50, well within budget",
+      "B) S$695.50, within the S$700 budget",
+      "C) S$750.00, slightly over budget",
+      "D) S$880.50, significantly over budget"
+    ],
+    "answer": 1,
+    "explanation": "The total premium payable with cash is S$695.50 (Tommy's S$505.50 + Mrs Tang's S$190.00). The children's Enhanced IncomeShield plans are fully funded by Medisave. The S$695.50 total is within Tommy's S$700 budget.",
+    "source": "Ch15 §2.16, p.331"
   }
 ]

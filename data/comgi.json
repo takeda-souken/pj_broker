@@ -11167,5 +11167,215 @@
     ],
     "difficulty": 3,
     "source": "Ch9 §9.10, p.321"
+  },
+  {
+    "id": "comgi-501",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Which of the following is a common exclusion under GPA Insurance policies?",
+    "choices": [
+      "A) Self-inflicted injury, suicide or attempted suicide, while sane or insane",
+      "B) Injuries sustained while commuting to work by public transport",
+      "C) Injuries sustained during normal office duties",
+      "D) Injuries sustained while walking on a public sidewalk"
+    ],
+    "answer": 0,
+    "explanation": "Self-inflicted injury, suicide or attempted suicide (while sane or insane) is a standard exclusion under GPA policies. This falls under the category of injuries not deemed to be caused by accidents.",
+    "source": "Ch9 §7.1(a), p.316"
+  },
+  {
+    "id": "comgi-502",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA Insurance, injuries resulting from which of the following are excluded as being against public policy?",
+    "choices": [
+      "A) Committing or attempting to commit a criminal or unlawful act",
+      "B) Crossing a pedestrian crossing",
+      "C) Playing recreational football on the weekend",
+      "D) Travelling on a scheduled commercial aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Injuries resulting from committing or attempting to commit any criminal or unlawful act, and driving or operating any mechanical device while under the influence of alcohol or drugs, are excluded as being against public policy.",
+    "source": "Ch9 §7.1(b), p.316"
+  },
+  {
+    "id": "comgi-503",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Which hazardous activity is commonly excluded from GPA Insurance coverage?",
+    "choices": [
+      "A) Sky diving, mountaineering, and racing on wheels",
+      "B) Swimming in a hotel pool",
+      "C) Jogging in a public park",
+      "D) Playing badminton at a recreation centre"
+    ],
+    "answer": 0,
+    "explanation": "Commonly excluded hazardous activities include sky diving, mountaineering, driving or riding in any kind of race, and aerial activity or private flying other than as a fare-paying passenger of a commercial aircraft. Full-time police and armed forces personnel duties are also usually excluded.",
+    "source": "Ch9 §7.1(c), p.316"
+  },
+  {
+    "id": "comgi-504",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Notice of claim under a GPA policy must generally be given to the insurer within what period after an accident?",
+    "choices": [
+      "A) 30 days",
+      "B) 7 days",
+      "C) 90 days",
+      "D) 14 days"
+    ],
+    "answer": 0,
+    "explanation": "Notice of claim must be given to the insurer within a certain reasonable period of time, usually 30 days after the happening of an accident. Failure to give timely notice does not automatically invalidate the claim if it was not reasonably possible to do so.",
+    "source": "Ch9 §8.1, p.317"
+  },
+  {
+    "id": "comgi-505",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA Insurance, the insurer has the right to arrange which of the following at its own expense?",
+    "choices": [
+      "A) A medical examination of the insured person and a post-mortem examination in case of death",
+      "B) A financial audit of the policyholder's accounts",
+      "C) A home visit to the insured person's residence",
+      "D) A workplace inspection of the employer's office"
+    ],
+    "answer": 0,
+    "explanation": "The insurer has the right (but not the obligation) to arrange a medical examination at its own expense to verify that the accident caused the injuries, that the injuries prevent work, or that the disability is as described. The insurer also has the right to a post-mortem examination if not forbidden by law.",
+    "source": "Ch9 §8.4–8.5, p.318"
+  },
+  {
+    "id": "comgi-506",
+    "topic": "Group PA & Corporate Travel",
+    "question": "What underwriting information must accompany a request for a GPA Insurance quotation under regulatory and industry guidelines?",
+    "choices": [
+      "A) A completed Group Insurance Fact-Finding (GIFF) Form",
+      "B) Individual medical examination reports for all employees",
+      "C) A copy of the company's annual financial report",
+      "D) A list of all employees' personal bank account details"
+    ],
+    "answer": 0,
+    "explanation": "Under regulatory and industry guidelines, any request for a quotation for certain group insurance (including GPA Insurance) must be accompanied by a completed Group Insurance Fact-Finding (GIFF) Form, which serves as a means for collecting basic underwriting information and documenting recommendations.",
+    "source": "Ch9 §6.3, p.315"
+  },
+  {
+    "id": "comgi-507",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA Insurance, what happens to the sum insured if a partial benefit (less than the full capital sum) has been paid for a disability?",
+    "choices": [
+      "A) The insurance continues but the remaining sum insured is reduced by the amount of benefit paid",
+      "B) The policy is immediately terminated",
+      "C) The original sum insured remains unchanged",
+      "D) The sum insured doubles to compensate for the loss"
+    ],
+    "answer": 0,
+    "explanation": "Where the benefit paid is less than the full capital sum insured, the insurance for the insured person concerned may continue, but the sum insured during the remaining period will equal the original capital sum insured reduced by the amount of benefit paid.",
+    "source": "Ch9 §4.5, p.308"
+  },
+  {
+    "id": "comgi-508",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA Insurance, the 'disappearance' extended benefit covers death payment when the insured person disappears in which situation?",
+    "choices": [
+      "A) An accident involving an aircraft or vessel where the body cannot be found after a certain period (e.g. one year)",
+      "B) The insured person fails to report to work for one week",
+      "C) The insured person is uncontactable for 48 hours",
+      "D) The insured person misses a scheduled medical examination"
+    ],
+    "answer": 0,
+    "explanation": "The textbook (§4.16(e)) states that the disappearance benefit 'usually relates to an accident of an aircraft or vessel' in which the insured person is travelling, and the body cannot be found after a certain period (e.g. one year). The specimen policy (Appendix 9A Part III §2) uses broader language, covering any disappearance where it is reasonable to believe death resulted from accidental bodily injury, with a 365-day waiting period.",
+    "source": "Ch9 §4.16(e), p.311; Appendix 9A Part III §2, p.323"
+  },
+  {
+    "id": "comgi-509",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under GPA Insurance, the weekly benefit duration limit for temporary disability (e.g. 104 weeks) applies to:",
+    "choices": [
+      "A) Total and partial disability benefits combined, not separately",
+      "B) Total disability benefits only — partial disability has no time limit",
+      "C) Each type of disability separately (104 weeks each)",
+      "D) The first accident only — subsequent accidents have no limit"
+    ],
+    "answer": 0,
+    "explanation": "The 104-week (or 52-week) limit applies to both total and partial disability benefits together, not separately. For example, 60 weeks of total disability leaves only 44 weeks of partial disability. However, this limit usually applies per accident — a new accident restarts the entitlement.",
+    "source": "Ch9 §4.19, p.311"
+  },
+  {
+    "id": "comgi-510",
+    "topic": "Group PA & Corporate Travel",
+    "question": "What is the maximum duration of a single overseas business trip covered under a Corporate Travel Insurance policy?",
+    "choices": [
+      "A) 182 days",
+      "B) 90 days",
+      "C) 365 days",
+      "D) 60 days"
+    ],
+    "answer": 0,
+    "explanation": "The Corporate Travel Insurance policy covers single overseas trips not exceeding 182 days. The coverage period is on an annual basis, during which all trips by each employee are covered.",
+    "source": "Ch9 §9.4(iv)–9.5, p.319"
+  },
+  {
+    "id": "comgi-511",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under the Corporate Travel Insurance Employee Replacement Benefit, the insurer pays for a substitute employee when the original employee is unfit to continue a trip. What expenses are covered?",
+    "choices": [
+      "A) Economy airfare, travel, and accommodation expenses for the substitute employee",
+      "B) Business class airfare and five-star hotel for the substitute",
+      "C) The original employee's full salary during the absence",
+      "D) Penalty fees for missed business meetings"
+    ],
+    "answer": 0,
+    "explanation": "Insurers will indemnify the insured for all reasonable transportation costs necessarily incurred for sending a substitute employee, limited to economy airfare, travel, and accommodation expenses for the substitute employee.",
+    "source": "Ch9 §9.6–9.7, p.319"
+  },
+  {
+    "id": "comgi-512",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under the GPA specimen policy, the Premium Payment Warranty requires that premiums for policies of 60 days or more must be paid within:",
+    "choices": [
+      "A) 60 days of the inception date, failing which coverage is automatically terminated",
+      "B) 30 days of the inception date",
+      "C) 90 days of the inception date",
+      "D) 14 days of the inception date"
+    ],
+    "answer": 0,
+    "explanation": "For policies of 60 days or more, premiums must be paid and received in full within 60 days of inception. If not paid within this period, coverage is automatically terminated, though the insurer remains liable for claims within the 60-day period and is entitled to pro-rata premium subject to a minimum of S$25.",
+    "source": "Ch9 Appendix 9A Part VI §4, p.324–325"
+  },
+  {
+    "id": "comgi-513",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under the GPA specimen policy, no legal action may be brought to recover on the policy after how many years from the date of loss?",
+    "choices": [
+      "A) 2 years",
+      "B) 6 years",
+      "C) 1 year",
+      "D) 5 years"
+    ],
+    "answer": 0,
+    "explanation": "No legal action may be brought to recover on the policy until 60 days after written proof of loss has been given to the Company, and no such action may be brought after 2 years from the date of loss.",
+    "source": "Ch9 Appendix 9A Part VI §6, p.325"
+  },
+  {
+    "id": "comgi-514",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Which of the following is an additional benefit that some GPA insurers offer to differentiate their products?",
+    "choices": [
+      "A) Daily hospital income benefits and reimbursement for Traditional Chinese Medicine (TCM) treatment",
+      "B) Annual bonus payments to all insured persons",
+      "C) Free overseas holiday trips for claim-free years",
+      "D) Guaranteed investment returns on premiums paid"
+    ],
+    "answer": 0,
+    "explanation": "Some insurers offer daily hospital income benefits (a fixed cash amount per day of hospital confinement, sometimes extended to non-accident causes) and reimbursement for alternative therapists like TCM practitioners, subject to a relatively low maximum amount.",
+    "source": "Ch9 §4.15, p.310"
+  },
+  {
+    "id": "comgi-515",
+    "topic": "Group PA & Corporate Travel",
+    "question": "Under the GPA specimen policy, the insured person must be within what age range on the first day of the policy period?",
+    "choices": [
+      "A) Between 16 and 70 years",
+      "B) Between 18 and 65 years",
+      "C) Between 21 and 60 years",
+      "D) Between 16 and 55 years"
+    ],
+    "answer": 0,
+    "explanation": "The specimen policy defines an Insured Person as person(s) named in the Declarations who is aged between sixteen (16) and seventy (70) years on the first day of the Policy period. Coverage terminates at the end of the Policy period during which the insured person attains age 70.",
+    "source": "Ch9 Appendix 9A Part I Definitions & Part II §1(b), p.322"
   }
 ]
