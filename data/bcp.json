@@ -7381,10 +7381,10 @@
     "topic": "Reinsurance & Co-Insurance",
     "question": "When a reinsurer transfers part of its assumed risks to another reinsurer, what is this process called?",
     "choices": [
-      "A) Cession",
-      "B) Retrocession",
-      "C) Co-insurance",
-      "D) Facultative placement"
+      "Cession",
+      "Retrocession",
+      "Co-insurance",
+      "Facultative placement"
     ],
     "answer": 1,
     "explanation": "When a reinsurer passes risks to other reinsurers, it is called retrocession. The assuming reinsurer is the retrocessionaire, and the ceding reinsurer is the retrocedent.",
@@ -7402,10 +7402,10 @@
     "topic": "Reinsurance & Co-Insurance",
     "question": "In a co-insurance arrangement, if one of the co-insurers becomes insolvent before paying its share of a claim, what happens to the shortfall?",
     "choices": [
-      "A) The leading insurer must cover the insolvent co-insurer's share",
-      "B) The remaining co-insurers must share the insolvent co-insurer's portion equally",
-      "C) The policyholder bears the loss for the insolvent co-insurer's share",
-      "D) The reinsurer of the insolvent co-insurer must pay the claim"
+      "The leading insurer must cover the insolvent co-insurer's share",
+      "The remaining co-insurers must share the insolvent co-insurer's portion equally",
+      "The policyholder bears the loss for the insolvent co-insurer's share",
+      "The reinsurer of the insolvent co-insurer must pay the claim"
     ],
     "answer": 2,
     "explanation": "Under co-insurance, each co-insurer has a separate contract with the insured, and liability is several but not joint. If a co-insurer goes out of business, the remaining co-insurers have no responsibility for that co-insurer's share, so the policyholder bears the shortfall.",
@@ -7423,10 +7423,10 @@
     "topic": "Claims",
     "question": "Under Singapore's Limitation Act 1959 (Section 24A), what is the limitation period for bringing legal action in respect of personal injuries caused by negligence?",
     "choices": [
-      "A) 1 year",
-      "B) 3 years",
-      "C) 6 years",
-      "D) 12 years"
+      "1 year",
+      "3 years",
+      "6 years",
+      "12 years"
     ],
     "answer": 1,
     "explanation": "Under Section 24A of the Limitation Act 1959, damages for negligence, nuisance or breach of duty in respect of personal injuries must be commenced within 3 years from the date on which the cause of action accrued. For other than personal injuries, the period is 6 years.",
@@ -7445,10 +7445,10 @@
     "topic": "Claims",
     "question": "What is the key difference between a loss adjuster and a loss assessor?",
     "choices": [
-      "A) Loss adjusters handle only property claims while loss assessors handle liability claims",
-      "B) Loss adjusters are appointed by insurers while loss assessors are appointed by the insured",
-      "C) Loss adjusters investigate fraud while loss assessors calculate the claim amount",
-      "D) Loss adjusters work only on small claims while loss assessors handle large claims"
+      "Loss adjusters handle only property claims while loss assessors handle liability claims",
+      "Loss adjusters are appointed by insurers while loss assessors are appointed by the insured",
+      "Loss adjusters investigate fraud while loss assessors calculate the claim amount",
+      "Loss adjusters work only on small claims while loss assessors handle large claims"
     ],
     "answer": 1,
     "explanation": "Loss adjusters are usually appointed by insurers to investigate and adjust claims impartially. Loss assessors, on the other hand, are appointed by the insured to prepare and negotiate claims on the insured's behalf. The insured pays the fees for appointing loss assessors.",
@@ -7466,10 +7466,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "The acronym ETHICS represents the six general ethical principles for insurance professionals. What does the \"I\" stand for?",
     "choices": [
-      "A) Innovation",
-      "B) Independence",
-      "C) Integrity",
-      "D) Intelligence"
+      "Innovation",
+      "Independence",
+      "Integrity",
+      "Intelligence"
     ],
     "answer": 2,
     "explanation": "ETHICS stands for: E-xcellence, T-rustworthiness, H-onesty, I-ntegrity, C-aring, S-elflessness. Integrity means consistency between what one believes and how one acts.",
@@ -7487,10 +7487,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Which of the following is considered an unethical act for an insurance agent according to the BCP textbook?",
     "choices": [
-      "A) Recommending a policy from a competitor insurer that better suits the client",
-      "B) Mixing clients' premium money with one's own personal funds",
-      "C) Advising a client that their current coverage is adequate and no changes are needed",
-      "D) Declining to write a risk that falls outside the agent's area of expertise"
+      "Recommending a policy from a competitor insurer that better suits the client",
+      "Mixing clients' premium money with one's own personal funds",
+      "Advising a client that their current coverage is adequate and no changes are needed",
+      "Declining to write a risk that falls outside the agent's area of expertise"
     ],
     "answer": 1,
     "explanation": "Mixing clients' money with one's own is explicitly listed as an unethical act. Other listed unethical acts include misrepresenting cover, unauthorised alteration of proposal forms, fraud, being motivated primarily by commissions, padding premiums, and failure to disclose material information.",
@@ -7508,10 +7508,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "MAS Notice 132 on Cyber Hygiene was issued pursuant to which legislation?",
     "choices": [
-      "A) Financial Advisers Act 2001",
-      "B) Personal Data Protection Act 2012",
-      "C) Section 64(2) of the Insurance Act 1966",
-      "D) Monetary Authority of Singapore Act 1970"
+      "Financial Advisers Act 2001",
+      "Personal Data Protection Act 2012",
+      "Section 64(2) of the Insurance Act 1966",
+      "Monetary Authority of Singapore Act 1970"
     ],
     "answer": 2,
     "explanation": "MAS Notice 132 was issued pursuant to Section 64(2) of the Insurance Act 1966.",
@@ -7522,10 +7522,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "MAS Notice 132 on Cyber Hygiene applies to which of the following?",
     "choices": [
-      "A) All licensed insurers only",
-      "B) All licensed insurers and all insurance agents",
-      "C) All financial institutions in Singapore",
-      "D) Insurance brokers only"
+      "All licensed insurers only",
+      "All licensed insurers and all insurance agents",
+      "All financial institutions in Singapore",
+      "Insurance brokers only"
     ],
     "answer": 1,
     "explanation": "MAS Notice 132 applies to (a) all licensed insurers and (b) all insurance agents.",
@@ -7536,10 +7536,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Which of the following persons is NOT subject to MAS Notice 132 on Cyber Hygiene?",
     "choices": [
-      "A) A licensed insurer",
-      "B) An insurance agent registered with ARB",
-      "C) An individual exempted under Section 20(1)(f) of the Financial Advisers Act 2001",
-      "D) A corporate insurance agency"
+      "A licensed insurer",
+      "An insurance agent registered with ARB",
+      "An individual exempted under Section 20(1)(f) of the Financial Advisers Act 2001",
+      "A corporate insurance agency"
     ],
     "answer": 2,
     "explanation": "MAS Notice 132 on Cyber Hygiene does not apply to three categories of persons: (a) an individual (i.e. a natural person acting in a personal capacity), (b) a person exempted under section 20(1)(f) of the Financial Advisers Act 2001, and (c) persons exempted under section 100(1) or (2) of the Financial Advisers Act 2001. Licensed insurers and registered insurance agents are subject to the Notice.",
@@ -7550,10 +7550,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under MAS Notice 132, multi-factor authentication must be implemented for which of the following?",
     "choices": [
-      "A) All user accounts on every device",
-      "B) All administrative accounts on critical systems and all accounts accessing customer information through the internet",
-      "C) Only accounts accessing customer information through the internet",
-      "D) Only email and social media accounts used for business"
+      "All user accounts on every device",
+      "All administrative accounts on critical systems and all accounts accessing customer information through the internet",
+      "Only accounts accessing customer information through the internet",
+      "Only email and social media accounts used for business"
     ],
     "answer": 1,
     "explanation": "Under Section 4.6, MFA must be implemented for (a) all administrative accounts on critical systems and (b) all accounts on any system used to access customer information through the internet.",
@@ -7564,10 +7564,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under MAS Notice 132, when a security patch is NOT available to address a vulnerability, a relevant entity must:",
     "choices": [
-      "A) Shut down the affected system immediately",
-      "B) Institute controls to reduce any risk posed by such vulnerability",
-      "C) Report the vulnerability to MAS within 72 hours",
-      "D) Replace the affected system within 30 days"
+      "Shut down the affected system immediately",
+      "Institute controls to reduce any risk posed by such vulnerability",
+      "Report the vulnerability to MAS within 72 hours",
+      "Replace the affected system within 30 days"
     ],
     "answer": 1,
     "explanation": "Where no security patch is available, the relevant entity must ensure that controls are instituted to reduce any risk posed by such vulnerability.",
@@ -7578,10 +7578,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under MAS Notice 132, a relevant entity must ensure that there is a written set of _____ for every system.",
     "choices": [
-      "A) Security patches",
-      "B) User access logs",
-      "C) Security standards",
-      "D) Incident response plans"
+      "Security patches",
+      "User access logs",
+      "Security standards",
+      "Incident response plans"
     ],
     "answer": 2,
     "explanation": "A relevant entity must ensure that there is a written set of security standards for every system, and that every system conforms to those standards.",
@@ -7592,10 +7592,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "The DLP Guidelines for Insurance Agents were developed by which body?",
     "choices": [
-      "A) Monetary Authority of Singapore (MAS)",
-      "B) Personal Data Protection Commission (PDPC)",
-      "C) Joint LIA-GIA Insurance Standing Committee on Cyber Security (ISCCS)",
-      "D) Singapore Computer Emergency Response Team (SingCERT)"
+      "Monetary Authority of Singapore (MAS)",
+      "Personal Data Protection Commission (PDPC)",
+      "Joint LIA-GIA Insurance Standing Committee on Cyber Security (ISCCS)",
+      "Singapore Computer Emergency Response Team (SingCERT)"
     ],
     "answer": 2,
     "explanation": "The DLP Guidelines are the work of the Joint LIA-GIA Insurance Standing Committee on Cyber Security (ISCCS), which was formed in 2015, with MAS as an Observer.",
@@ -7606,10 +7606,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "The ISCCS (Insurance Standing Committee on Cyber Security) was formed in which year?",
     "choices": [
-      "A) 2012",
-      "B) 2015",
-      "C) 2017",
-      "D) 2019"
+      "2012",
+      "2015",
+      "2017",
+      "2019"
     ],
     "answer": 1,
     "explanation": "The ISCCS was formed in 2015, with MAS as an Observer.",
@@ -7620,10 +7620,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, laptop or desktop hard disks containing customer data should be:",
     "choices": [
-      "A) Password-protected only",
-      "B) Encrypted (e.g. using Windows BitLocker)",
-      "C) Backed up to cloud storage daily",
-      "D) Physically locked in a secure cabinet when not in use"
+      "Password-protected only",
+      "Encrypted (e.g. using Windows BitLocker)",
+      "Backed up to cloud storage daily",
+      "Physically locked in a secure cabinet when not in use"
     ],
     "answer": 1,
     "explanation": "Laptop or desktop hard disk containing customer data should be encrypted. Agents can use Windows BitLocker or third-party encryption software recommended by insurers.",
@@ -7634,10 +7634,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, before disposing of a device containing customer data, agents must:",
     "choices": [
-      "A) Simply delete all files and empty the recycle bin",
-      "B) Physically destroy the device",
-      "C) Securely erase data using data destruction software",
-      "D) Return the device to the insurer for disposal"
+      "Simply delete all files and empty the recycle bin",
+      "Physically destroy the device",
+      "Securely erase data using data destruction software",
+      "Return the device to the insurer for disposal"
     ],
     "answer": 2,
     "explanation": "Customer data or payment information should be securely erased using data destruction software before disposal of the devices.",
@@ -7648,10 +7648,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, agents should NOT use which type of network to send customer data?",
     "choices": [
-      "A) Corporate VPN",
-      "B) Home broadband with encryption",
-      "C) Untrusted public wireless networks",
-      "D) Mobile data networks"
+      "Corporate VPN",
+      "Home broadband with encryption",
+      "Untrusted public wireless networks",
+      "Mobile data networks"
     ],
     "answer": 2,
     "explanation": "Agents should not use untrusted public wireless network to send customer data or payment information as they may not be secured.",
@@ -7662,10 +7662,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, mobile devices used by agents should NOT be:",
     "choices": [
-      "A) Protected with biometric authentication",
-      "B) Jail-broken or rooted",
-      "C) Updated with the latest OS",
-      "D) Used for personal purposes"
+      "Protected with biometric authentication",
+      "Jail-broken or rooted",
+      "Updated with the latest OS",
+      "Used for personal purposes"
     ],
     "answer": 1,
     "explanation": "Mobile devices should not be jail-broken or rooted. Jail-breaking removes iOS security restrictions, while rooting enables privileged rights on Android devices.",
@@ -7676,10 +7676,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, if an agent must share a device (e.g. a family device), they should:",
     "choices": [
-      "A) Only use the device during business hours",
-      "B) Set up separate accounts for each individual user",
-      "C) Install a separate anti-virus for business use",
-      "D) Ensure other users sign a non-disclosure agreement"
+      "Only use the device during business hours",
+      "Set up separate accounts for each individual user",
+      "Install a separate anti-virus for business use",
+      "Ensure other users sign a non-disclosure agreement"
     ],
     "answer": 1,
     "explanation": "If sharing of devices cannot be avoided (e.g. family devices), agents should set up separate accounts for each individual using the device. Administrative accounts should not be given to another person.",
@@ -7690,10 +7690,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, customer data transferred to portable storage devices or cloud-based storage must be:",
     "choices": [
-      "A) Password-protected only",
-      "B) Compressed using ZIP format",
-      "C) Encrypted before being transferred",
-      "D) Transferred only via secure email"
+      "Password-protected only",
+      "Compressed using ZIP format",
+      "Encrypted before being transferred",
+      "Transferred only via secure email"
     ],
     "answer": 2,
     "explanation": "Customer data or payment information should be encrypted before being transferred to any storage media including portable storage devices and cloud-based storage.",
@@ -7704,10 +7704,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the DLP Guidelines, which software feature should be installed and enabled on mobile devices to protect customer data if the device is lost?",
     "choices": [
-      "A) Anti-virus software",
-      "B) Remote wipe capability (e.g. Find My Phone)",
-      "C) VPN client",
-      "D) Cloud backup service"
+      "Anti-virus software",
+      "Remote wipe capability (e.g. Find My Phone)",
+      "VPN client",
+      "Cloud backup service"
     ],
     "answer": 1,
     "explanation": "Software with remote wipe capability should be installed and enabled on mobile devices (e.g. iPhone users can enable 'Find My Phone'; Android users can enable 'Android Device Manager').",
@@ -7718,10 +7718,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Which of the following is a responsibility of professionals in the insurance industry?",
     "choices": [
-      "A) Maximising premium revenue for their principal",
-      "B) Fiduciary responsibility to clients",
-      "C) Reporting competitors' unethical behaviour to MAS",
-      "D) Ensuring all clients purchase maximum coverage"
+      "Maximising premium revenue for their principal",
+      "Fiduciary responsibility to clients",
+      "Reporting competitors' unethical behaviour to MAS",
+      "Ensuring all clients purchase maximum coverage"
     ],
     "answer": 1,
     "explanation": "Being a professional demands increased responsibilities to clients: delivering high quality informed service, being aware of ethical and compliance issues, and fiduciary responsibility.",
@@ -7732,10 +7732,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, insurers must provide a quotation within how many business days after receiving the required information?",
     "choices": [
-      "A) 3 business days",
-      "B) 5 business days",
-      "C) 7 business days",
-      "D) 14 business days"
+      "3 business days",
+      "5 business days",
+      "7 business days",
+      "14 business days"
     ],
     "answer": 2,
     "explanation": "Under the GI Code service standards, insurers will provide an insurance quotation within 7 business days after receipt of the required information.",
@@ -7746,10 +7746,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, policy documents must be despatched to the policyholder within how many business days from confirmation of cover?",
     "choices": [
-      "A) 3 business days",
-      "B) 7 business days",
-      "C) 15 business days",
-      "D) 30 business days"
+      "3 business days",
+      "7 business days",
+      "15 business days",
+      "30 business days"
     ],
     "answer": 2,
     "explanation": "Insurers will despatch the policy documents within 15 business days from the date of confirmation of cover.",
@@ -7760,10 +7760,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, once an insurer agrees to settle a claim and receives all relevant documents, payment must be issued within:",
     "choices": [
-      "A) 3 business days",
-      "B) 7 business days",
-      "C) 10 business days",
-      "D) 15 business days"
+      "3 business days",
+      "7 business days",
+      "10 business days",
+      "15 business days"
     ],
     "answer": 2,
     "explanation": "Once the insurer has agreed to settle the claim and received all relevant documents, payment will be issued within 10 business days.",
@@ -7774,10 +7774,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, insurers must inform the policyholder about policy renewal at least how many business days before expiry?",
     "choices": [
-      "A) 7 business days",
-      "B) 14 business days",
-      "C) 30 business days",
-      "D) 60 business days"
+      "7 business days",
+      "14 business days",
+      "30 business days",
+      "60 business days"
     ],
     "answer": 2,
     "explanation": "Insurers must inform policyholders when they need to renew or when the policy will expire at least 30 business days before expiry.",
@@ -7788,10 +7788,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, refunds of premiums due to endorsement or cancellation must be returned within:",
     "choices": [
-      "A) 7 business days",
-      "B) 15 business days",
-      "C) 30 business days",
-      "D) 60 business days"
+      "7 business days",
+      "15 business days",
+      "30 business days",
+      "60 business days"
     ],
     "answer": 2,
     "explanation": "Refunds of premiums, fees or charges due to the policyholder must be returned within 30 business days from the date of endorsement/cancellation.",
@@ -7802,10 +7802,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, if a policyholder's complaint takes longer to resolve, the insurer must update the policyholder within how many business days of the last communication?",
     "choices": [
-      "A) 3 business days",
-      "B) 7 business days",
-      "C) 15 business days",
-      "D) 30 business days"
+      "3 business days",
+      "7 business days",
+      "15 business days",
+      "30 business days"
     ],
     "answer": 2,
     "explanation": "If a complaint takes longer to resolve, the insurer will update the policyholder within 15 business days of the last communication.",
@@ -7816,10 +7816,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the GI Code of Practice, if a policyholder is dissatisfied with the insurer's Chief Executive's response to a complaint, the matter can be referred to which body?",
     "choices": [
-      "A) Singapore Mediation Centre only",
-      "B) Financial Industry Disputes Resolution Centre (FIDReC)",
-      "C) Monetary Authority of Singapore (MAS) directly",
-      "D) General Insurance Association (GIA) Ethics Board"
+      "Singapore Mediation Centre only",
+      "Financial Industry Disputes Resolution Centre (FIDReC)",
+      "Monetary Authority of Singapore (MAS) directly",
+      "General Insurance Association (GIA) Ethics Board"
     ],
     "answer": 1,
     "explanation": "If still dissatisfied with the Chief Executive's response, the insurer will refer the policyholder to the Financial Industry Disputes Resolution Centre (FIDReC).",
@@ -7830,10 +7830,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the PDPA, the legitimate interests and business improvement exceptions were introduced as part of which set of changes?",
     "choices": [
-      "A) The original PDPA enacted in 2012",
-      "B) Amendments effective 2 July 2014",
-      "C) Enhanced PDPA amendments effective 1 February 2021",
-      "D) Penalties amendment effective 1 October 2022"
+      "The original PDPA enacted in 2012",
+      "Amendments effective 2 July 2014",
+      "Enhanced PDPA amendments effective 1 February 2021",
+      "Penalties amendment effective 1 October 2022"
     ],
     "answer": 2,
     "explanation": "The legitimate interests and business improvement exceptions were introduced with the enhanced PDPA amendments that took effect on 1 February 2021. These exceptions allow organisations to collect, use, or disclose personal data without consent in certain circumstances, such as for fraud detection or improving products and services.",
@@ -7844,10 +7844,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "The DLP Guidelines were first introduced in February 2017 as:",
     "choices": [
-      "A) Mandatory requirements",
-      "B) Industry best practices",
-      "C) MAS regulatory notices",
-      "D) Legal obligations under the Insurance Act"
+      "Mandatory requirements",
+      "Industry best practices",
+      "MAS regulatory notices",
+      "Legal obligations under the Insurance Act"
     ],
     "answer": 1,
     "explanation": "The DLP Guidelines were first introduced on 6 February 2017 as 'industry best practices'. They were subsequently reclassified from best practices to basic requirements in June 2018, and adoption became mandatory effective 1 January 2020.",
@@ -7858,10 +7858,10 @@
     "topic": "Ethics, Data Protection & Cyber Hygiene",
     "question": "Under the Code of Practice for Agents, an agent must not publish any advertisements concerning their principal's products or services unless:",
     "choices": [
-      "A) The advertisement complies with MAS guidelines",
-      "B) A copy has been approved by a duly authorised official of the agent's principal",
-      "C) The agent has obtained written consent from PDPC",
-      "D) The advertisement has been reviewed by GIA's compliance team"
+      "The advertisement complies with MAS guidelines",
+      "A copy has been approved by a duly authorised official of the agent's principal",
+      "The agent has obtained written consent from PDPC",
+      "The advertisement has been reviewed by GIA's compliance team"
     ],
     "answer": 1,
     "explanation": "No advertisements concerning an Agent's Principal or its products shall be published unless a copy has first been approved by a duly authorised official of the Agent's Principal.",
