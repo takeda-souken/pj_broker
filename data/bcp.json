@@ -52,7 +52,7 @@
       "Financial Advisers Act 2001; it provides both insurance and financial advisory services"
     ],
     "answer": 1,
-    "explanation": "Captive insurers are defined under Section 6 of the Companies Act 1967. Their key characteristic is that they write principally the risks of their parent company or related group companies.",
+    "explanation": "Captive insurers are licensed under the Insurance Act to insure principally the risks of their parent company or related companies. The textbook (Ch1 §2.9) references Section 6 of the Companies Act 1967, which defines 'related companies' — not captive insurers themselves. The key characteristic is writing risks for the parent/related group.",
     "jpComparison": "日本ではキャプティブ保険会社の設立規制が厳しく、多くの日系企業はシンガポールや欧州でキャプティブを設立している。",
     "keywords": [
       "captive insurer",
@@ -394,7 +394,7 @@
       "licence condition"
     ],
     "difficulty": 2,
-    "source": "Ch2 §1.16, p.28"
+    "source": "Ch1 §2.29, p.12"
   },
   {
     "id": "bcp-019",
@@ -416,7 +416,7 @@
       "S$3,000"
     ],
     "difficulty": 2,
-    "source": "Ch2 §1.2, p.25"
+    "source": "Ch1 §7.13, p.20"
   },
   {
     "id": "bcp-020",
@@ -1069,7 +1069,7 @@
       "notice"
     ],
     "difficulty": 3,
-    "source": "Ch5 §9.5, p.119"
+    "source": "Ch5 §9.6, p.119"
   },
   {
     "id": "bcp-050",
@@ -1103,7 +1103,7 @@
       "A company director signing on behalf of a corporate proposer"
     ],
     "answer": 1,
-    "explanation": "While an agent may assist in completing the proposal form, the agent cannot sign the proposal form on the proposer's behalf. The proposer or their duly authorized representative must sign it.",
+    "explanation": "While an agent may assist in completing the proposal form, the agent cannot sign the proposal form on the proposer's behalf. The proposer or their duly authorized representative must sign it. Note: the principle that an agent cannot sign on behalf of the proposer is based on general insurance practice as described in the textbook.",
     "jpComparison": "日本でも告知書は被保険者・契約者本人が記入・署名するものであり、代理店が代筆・代署することは告知義務違反につながるリスクがある。",
     "keywords": [
       "proposal form",
@@ -1146,7 +1146,7 @@
       "A non-binding indication of premium terms"
     ],
     "answer": 1,
-    "explanation": "A cover note provides temporary insurance coverage and has the same legal standing as the actual policy. It is typically valid for 15–30 days while the formal policy is being prepared.",
+    "explanation": "A cover note provides temporary insurance coverage and has the same legal standing as the actual policy. It is issued while the formal policy is being prepared. The textbook describes cover notes as providing 'temporary' cover without specifying an exact duration, which may vary by insurer.",
     "jpComparison": "日本の「仮保険証券」に相当する。日本でも仮保険証券は正式な保険証券と同様の法的効力を持つ。",
     "keywords": [
       "cover note",
@@ -6434,7 +6434,7 @@
       "No limit"
     ],
     "answer": 1,
-    "explanation": "Typically 12 months as specified in the policy.",
+    "explanation": "Typically 12 months as specified in the policy. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本では通常2年以内。シンガポールの12ヶ月は短い。",
     "keywords": [
       "reinstatement",
@@ -6691,7 +6691,7 @@
       "S$0"
     ],
     "answer": 1,
-    "explanation": "Several liability means C's 10% is lost. Recovery = S$900K.",
+    "explanation": "Each co-insurer's liability is several (not joint). If co-insurer C (10%) becomes insolvent, the remaining co-insurers (A: 50%, B: 40%) have no obligation to cover C's share. The insured can only recover S$900K from A and B combined. C's S$100K share is lost unless recovered through C's liquidation proceedings.",
     "jpComparison": "日本でも分割責任の原則で同様。",
     "keywords": [
       "several liability",
@@ -6884,7 +6884,7 @@
       "Resisting regulation"
     ],
     "answer": 1,
-    "explanation": "Courage converts intention into action against pressure for unethical behaviour.",
+    "explanation": "Courage is the quality that converts ethical intention into ethical action (Ch9 §5.3). The textbook emphasises that courage specifically means standing up against pressure from clients, colleagues, or superiors who may push for unethical behaviour.",
     "jpComparison": "日本でも「正しいことを実行する勇気」が重要とされる。",
     "keywords": [
       "courage",
@@ -6945,7 +6945,7 @@
       "30 business days"
     ],
     "answer": 1,
-    "explanation": "At least 14 business days from receipt of policy document.",
+    "explanation": "At least 14 business days from receipt of policy document. Note: the GI Code uses '14 business days'; the SIBA Code (Appendix 9B §2.4) uses '14 working days'. These terms are slightly different in some jurisdictions.",
     "jpComparison": "日本の損害保険にはクーリングオフは基本適用されない。",
     "keywords": [
       "Free Look",

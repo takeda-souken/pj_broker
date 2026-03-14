@@ -7850,7 +7850,7 @@
       "Controller of Immigration"
     ],
     "difficulty": 2,
-    "source": "Ch6 §9.7, p.238"
+    "source": "Ch6 §9.7–9.8, p.238"
   },
   {
     "id": "comgi-354",
@@ -8254,7 +8254,7 @@
       "Relating to property damage caused by natural disasters"
     ],
     "answer": 0,
-    "explanation": "The word 'pecuniary' means 'relating to money'. Pecuniary Insurance covers businesses against purely financial losses (e.g. from fraud, legal expenses or business interruption) rather than physical damage to property.",
+    "explanation": "The word 'pecuniary' means 'relating to money'. Pecuniary Insurance covers businesses against purely financial losses (e.g. from fraud or business interruption) rather than physical damage or bodily injury. The three main classes discussed in the textbook are Fidelity Guarantee, Money, and Credit Insurance.",
     "jpComparison": "日本語では「金銭的損害保険」に相当。物的損害ではなく、詐欺・法的費用・営業中断等による純粋な金銭的損失をカバーする保険のカテゴリー。",
     "keywords": [
       "pecuniary",
@@ -9774,7 +9774,7 @@
       "Employer pays S$30,000; insurer pays S$30,000"
     ],
     "answer": 0,
-    "explanation": "The insurer covers the first S$15,000 in full. For the remaining S$45,000 (S$60,000 - S$15,000), the employer co-pays 25% = S$11,250. The insurer pays S$48,750 (S$15,000 + S$33,750).",
+    "explanation": "The insurer covers the first S$15,000 in full. For the remaining S$45,000 (S$60,000 − S$15,000), the employer co-pays 25% = S$11,250 and the insurer pays 75% = S$33,750. Total insurer payment: S$15,000 + S$33,750 = S$48,750. Total employer payment: S$11,250.",
     "jpComparison": "日本の健康保険は自己負担3割が基本。SGの方式は最初のS$15,000全額カバー＋超過分25%雇用主負担という段階的設計で、日本とは異なるアプローチ。",
     "keywords": [
       "S$11,250",
@@ -10272,7 +10272,7 @@
       "55 years old"
     ],
     "answer": 0,
-    "explanation": "Cover ceases upon the insured person attaining the specified age, such as 60 years old (maximum age limit as allowed by MOM).",
+    "explanation": "Cover ceases upon the insured person attaining the specified age, such as 60 years old (maximum age limit as allowed by MOM). Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の健康保険に年齢上限はないが、SGのFWMIは60歳でカバーが終了。これはWork Permitの年齢制限と連動している。",
     "keywords": [
       "60 years",
@@ -10340,7 +10340,7 @@
       "Within 14 days"
     ],
     "answer": 0,
-    "explanation": "The insured or insured person must inform the insurer within the specific number of days (usually 30 days) following the date of hospital discharge or surgery.",
+    "explanation": "The insured or insured person must inform the insurer within the specific number of days (usually 30 days) following the date of hospital discharge or surgery. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の健康保険は原則として医療機関が直接請求するため患者の通知期限はない。SGのFWMIは退院後30日以内の通知が必要。",
     "keywords": [
       "30 days",
@@ -10771,7 +10771,7 @@
       "75% of the capital sum insured"
     ],
     "answer": 0,
-    "explanation": "Loss of four fingers (without thumb) pays 40%. Loss of four fingers AND thumb pays 50%. These percentages are specified in the Table of Compensation.",
+    "explanation": "Loss of four fingers (without thumb) pays 40%. Loss of four fingers AND thumb pays 50%. These percentages are specified in the Table of Compensation. Note: the specimen policy in Appendix 9A gives different percentages — right hand 55%, left hand 45% — which differ from Table 9.1's flat 40%.",
     "jpComparison": "日本の傷害保険では手の4指喪失は後遺障害等級表に基づき約60%前後。SGの40%は日本より低い設定。",
     "keywords": [
       "four fingers",
@@ -10817,7 +10817,7 @@
       "100% of the capital sum insured"
     ],
     "answer": 0,
-    "explanation": "Loss of four fingers and thumb of the right hand pays 85%. For the left hand, it pays 65%. For left-handed persons, the percentages are reversed.",
+    "explanation": "Loss of four fingers and thumb of the right hand pays 85%. For the left hand, it pays 65%. For left-handed persons, the percentages are reversed. Note: Table 9.1 in the textbook body gives a flat 50% for loss of four fingers and thumb of 'one hand' without distinguishing right/left.",
     "jpComparison": "日本の傷害保険は利き手による区別をしないのが一般的。SGのGPAでは右手85%・左手65%と利き手を考慮した細かい補償率設定がある。",
     "keywords": [
       "right hand",
@@ -10840,7 +10840,7 @@
       "Left-handed persons are excluded from finger-related claims"
     ],
     "answer": 0,
-    "explanation": "For left-handed insured persons, the compensation percentage in the table is reversed, with the greater percentage applying to the left hand and parts thereof.",
+    "explanation": "For left-handed insured persons, the compensation percentage in the table is reversed, with the greater percentage applying to the left hand and parts thereof. Note: this left-handed reversal rule comes from Appendix 9A Special Conditions (d), not from the main text Table 9.1.",
     "jpComparison": "日本の傷害保険では利き手による給付金の差はない。SGのGPAでは利き手で補償率を逆転させる独自の設計が約款に明記されている。",
     "keywords": [
       "left-handed",
@@ -11221,7 +11221,7 @@
       "D) 14 days"
     ],
     "answer": 0,
-    "explanation": "Notice of claim must be given to the insurer within a certain reasonable period of time, usually 30 days after the happening of an accident. Failure to give timely notice does not automatically invalidate the claim if it was not reasonably possible to do so.",
+    "explanation": "Notice of claim must be given to the insurer within a certain reasonable period of time, usually 30 days after the happening of an accident. Failure to give timely notice does not automatically invalidate the claim if it was not reasonably possible to do so. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "source": "Ch9 §8.1, p.317"
   },
   {

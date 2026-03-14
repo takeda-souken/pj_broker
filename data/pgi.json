@@ -318,7 +318,7 @@
       "72 hours"
     ],
     "answer": 1,
-    "explanation": "Under the MCF, accidents must be reported within 24 hours.",
+    "explanation": "Under the MCF, accidents must be reported within 24 hours or by the next working day (Ch1 §7.7). The 'next working day' qualifier is important for accidents occurring on weekends or public holidays.",
     "jpComparison": "Japan: No strict 24-hour deadline but prompt notification required.",
     "keywords": [
       "MCF",
@@ -806,7 +806,7 @@
       "All of Southeast Asia"
     ],
     "answer": 2,
-    "explanation": "Singapore, West Malaysia, and within 80.5 km of the Thailand-Malaysia border.",
+    "explanation": "Singapore, West Malaysia, and within 80.5 km of the Thailand-Malaysia border. Note: the Appendix 1B specimen policy uses '80 km' in some versions, while the textbook narrative (§5.26) specifies '80.5 km (50 miles)'.",
     "jpComparison": "Japan: Motor insurance covers Japan only.",
     "keywords": [
       "geographical coverage",
@@ -869,7 +869,7 @@
       "Only at period end"
     ],
     "answer": 2,
-    "explanation": "Written notice, typically 7 days.",
+    "explanation": "The insurer may cancel the policy by giving seven days' written notice by registered letter (Ch1 §5.40(f) / Appendix 1B Condition 9(a)).",
     "jpComparison": "Japan: 30 days notice required.",
     "keywords": [
       "cancellation",
@@ -909,7 +909,7 @@
       "Windscreen, sunroof, and all windows"
     ],
     "answer": 2,
-    "explanation": "Covers the windscreen and all windows.",
+    "explanation": "Covers the windscreen and all window glass. The textbook notes that a glass roof or sunroof may also be included under this extension (Ch1 §5.55).",
     "jpComparison": "Japan: Part of standard vehicle damage cover.",
     "keywords": [
       "windscreen extension",
@@ -1009,7 +1009,7 @@
       "Defence at an inquest"
     ],
     "answer": 2,
-    "explanation": "Legal defence (up to S$3,000) excludes murder charges.",
+    "explanation": "Legal defence cover (up to S$3,000) is provided for defending any charge of causing death by driving, other than a charge of murder (Ch1 §4.12).",
     "jpComparison": "Japan: Legal expense riders also exclude intentional acts.",
     "keywords": [
       "legal defence",
@@ -1151,7 +1151,7 @@
       "Non-injury accidents need no reporting"
     ],
     "answer": 1,
-    "explanation": "Non-injury accidents go directly to insurers through approved centres.",
+    "explanation": "Under the Non-Injury Motor Accident Reporting Scheme, police reports are not required for non-injury accidents. Motorists exchange details, complete the GIA Singapore Motor Accident Report form, and submit it to their insurers. This can also be done through approved reporting centres (Ch1 §8.6–8.9).",
     "jpComparison": "Japan: All accidents require police reporting regardless of injury.",
     "keywords": [
       "Non-Injury Scheme",
@@ -1652,7 +1652,7 @@
       "D) S$2,000"
     ],
     "answer": 1,
-    "explanation": "Payment for cost of replacing fixed mirrors (other than hand-held mirrors) and glass tops of furniture is usually up to a specific amount, e.g. S$500.",
+    "explanation": "Payment for cost of replacing fixed mirrors (other than hand-held mirrors) and glass tops of furniture is usually up to a specific amount, e.g. S$500. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の家財保険でもガラス破損は補償対象だが、通常は個別の上限額設定はない。",
     "keywords": [
       "fixed mirrors",
@@ -1673,7 +1673,7 @@
       "D) S$5,000"
     ],
     "answer": 2,
-    "explanation": "Spoilage of frozen food in the refrigerator due to breakdown, explosion, or power failure is commonly subject to a sub-limit, e.g. S$2,000.",
+    "explanation": "Spoilage of frozen food in the refrigerator due to breakdown, explosion, or power failure is commonly subject to a sub-limit, e.g. S$2,000. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の火災保険でも冷凍食品の腐敗は「電気的事故」として補償されることがあるが、上限額は保険会社により異なる。",
     "keywords": [
       "frozen food",
@@ -1778,7 +1778,7 @@
       "D) 90 consecutive days"
     ],
     "answer": 2,
-    "explanation": "Under All Risks coverage for Contents, theft is excluded if the house is left unoccupied for more than a stipulated number of days, such as 60 consecutive days.",
+    "explanation": "Under All Risks coverage for Contents, theft is excluded if the house is left unoccupied for more than a stipulated number of days, such as 60 consecutive days. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の火災保険でも長期空き家の場合は通知義務があるが、明確な60日ルールはない。",
     "keywords": [
       "theft exclusion",
@@ -2348,7 +2348,7 @@
       "D) 90 days"
     ],
     "answer": 1,
-    "explanation": "The insured must request coverage for new articles within a specified number of days, e.g. 30 days after acquisition, and must pay additional premium from the date acquired.",
+    "explanation": "The insured must request coverage for new articles within a specified number of days, e.g. 30 days after acquisition, and must pay additional premium from the date acquired. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本でも動産保険の追加通知は速やかに行う必要があるが、具体的な日数制限は保険会社の約款による。",
     "keywords": [
       "newly acquired",
@@ -2474,7 +2474,7 @@
       "D) Travel Insurance"
     ],
     "answer": 2,
-    "explanation": "PA Insurance can be bundled with Motor Insurance, Packaged Household Insurance, Foreign Domestic Worker Insurance, Golfer's Insurance, and Travel Insurance. Marine Cargo Insurance is a commercial line product.",
+    "explanation": "PA Insurance can be bundled with Motor Insurance, Packaged Household Insurance, Foreign Domestic Worker Insurance, Golfer's Insurance, and Travel Insurance. Marine Cargo Insurance is a commercial line product. Note: Marine Cargo Insurance is not explicitly listed in the PGI textbook as a type bundled with PA Insurance; this distractor is based on general insurance classification (Marine Cargo is a commercial line, not personal).",
     "jpComparison": "日本でも傷害保険は自動車保険・旅行保険・ゴルファー保険などに付帯されることが一般的。",
     "keywords": [
       "PA Insurance",
@@ -2601,7 +2601,7 @@
       "D) 24 months"
     ],
     "answer": 2,
-    "explanation": "The death benefit often has a condition that death must occur within a certain period, e.g. 12 months, from the accident that gives rise to the claim.",
+    "explanation": "The death benefit often has a condition that death must occur within a certain period, e.g. 12 months, from the accident that gives rise to the claim. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の傷害保険でも死亡保険金は事故日から180日以内の死亡が条件。シンガポールの12ヶ月は日本より長い。",
     "keywords": [
       "death benefit",
@@ -3216,7 +3216,7 @@
       "D) 180 days"
     ],
     "answer": 2,
-    "explanation": "Hospital Cash/Income provides a daily benefit up to a certain period, e.g. 90 days.",
+    "explanation": "Hospital Cash/Income provides a daily benefit up to a certain period, e.g. 90 days. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の傷害保険の入院保険金は最大180日が一般的。シンガポールの90日はやや短い。",
     "keywords": [
       "hospital cash",
@@ -3469,7 +3469,7 @@
       "D) 60 days"
     ],
     "answer": 2,
-    "explanation": "The insured must provide the insurer with a claim notification within a certain period, usually 30 days, although market practice may vary.",
+    "explanation": "The insured must provide the insurer with a claim notification within a certain period, usually 30 days, although market practice may vary. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の傷害保険でも事故通知は「遅滞なく」が原則。30日の具体的期限設定はシンガポール特有。",
     "keywords": [
       "claim notification",
@@ -3553,7 +3553,7 @@
       "D) At midnight on the day of return"
     ],
     "answer": 1,
-    "explanation": "Per trip Travel Insurance coverage ends when the insured arrives back at his residence, usually up to 3 hours after the return to Singapore.",
+    "explanation": "Per trip Travel Insurance coverage ends when the insured arrives back at his residence, usually up to 3 hours after the return to Singapore. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の海外旅行保険も自宅到着までが補償期間だが、シンガポールでは帰国後3時間以内という明確な時間制限がある点が特徴的。",
     "keywords": [
       "per trip",
@@ -6127,7 +6127,7 @@
       "D) 75 years"
     ],
     "answer": 2,
-    "explanation": "The Additional Benefit CI rider usually expires when the insured reaches a specified age, usually 65 years.",
+    "explanation": "The Additional Benefit CI rider usually expires when the insured reaches a specified age, usually 65 years. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の特定疾病特約も一定年齢で終了するものが多い。シンガポールでは65歳が一般的な満了年齢。",
     "keywords": [
       "Additional Benefit rider",
@@ -7043,7 +7043,7 @@
       "D) MOM is the policyholder"
     ],
     "answer": 2,
-    "explanation": "Under a FDWI policy, the insured person is the FDW. The employer is the insured, policyholder or policy owner.",
+    "explanation": "Under a FDWI policy, the Foreign Domestic Worker is the 'insured person' (the person covered). The employer is the 'policyholder' or 'policy owner' (the person who takes out and pays for the policy). This distinction is important: the FDW is the one whose injuries/illness are covered, while the employer holds the contract.",
     "jpComparison": "日本の労災保険では事業主が保険料を負担し、労働者が被保険者。シンガポールのFDWIも雇用主が契約者、FDWが被保険者。",
     "keywords": [
       "insured person",
@@ -7556,7 +7556,7 @@
       "D) 90 days"
     ],
     "answer": 2,
-    "explanation": "The textbook narrative (§2.63) states the Wages & Levy Compensation extension compensates the employer for a nominal sum (e.g. S$30 per day) for each day the FDW is hospitalised, subject to a maximum period of e.g. 60 days. Note that the specimen policy in Appendix 7D Section 6 uses a 30-day maximum; the exam may reference either figure.",
+    "explanation": "The textbook narrative (§2.63) states the Wages & Levy Compensation extension compensates the employer for a nominal sum (e.g. S$30 per day) for each day the FDW is hospitalised, subject to a maximum period of e.g. 60 days. Note that the specimen policy in Appendix 7D Section 6 uses a 30-day maximum; the exam may reference either figure. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "source": "Ch7 §2.63, p.235"
   },
   {

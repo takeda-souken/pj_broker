@@ -599,7 +599,7 @@
       "D) 365 days"
     ],
     "answer": 2,
-    "explanation": "Most Individual Medical Expense Insurance policies will automatically terminate if the insured resides outside of Singapore for more than a specified period of time, e.g. 180 days.",
+    "explanation": "Most Individual Medical Expense Insurance policies will automatically terminate if the insured resides outside of Singapore for more than a specified period of time, e.g. 180 days. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の医療保険には海外居住による自動終了規定は一般的ではないが、シンガポールでは180日超の海外居住で終了となるケースが多い。",
     "keywords": [
       "geographical limit",
@@ -1055,7 +1055,7 @@
       "D) The insured visits a non-covered geographical area for 30 days"
     ],
     "answer": 1,
-    "explanation": "Most individual Medical Expense Insurance policies will automatically terminate if the insured resides outside of Singapore for more than a specified period of time, such as 180 days. However, some insurers only terminate the policy if the insured is not a Singapore Citizen or SPR.",
+    "explanation": "Most individual Medical Expense Insurance policies will automatically terminate if the insured resides outside of Singapore for more than a specified period of time, such as 180 days. However, some insurers only terminate the policy if the insured is not a Singapore Citizen or SPR. Note: the textbook qualifies this figure with 'e.g.' — actual amounts/periods may vary by insurer.",
     "jpComparison": "日本の民間医療保険には海外居住による自動失効の規定は一般的でないが、シンガポールでは国内居住を前提とした設計のため、長期海外滞在で失効するリスクがある。",
     "keywords": [
       "geographical limit",
@@ -2444,7 +2444,7 @@
       "D) 120 days"
     ],
     "answer": 1,
-    "explanation": "The insured must notify the insurer within a specified period of time, typically 60 days, from the date of commencement of the disability. Failure to comply might cause the claim to be invalidated, unless the insured can prove it was impossible to notify within that period.",
+    "explanation": "The insured must notify the insurer within a specified period of time, typically 60 days, from the date of commencement of the disability. Failure to comply might cause the claim to be invalidated, unless the insured can prove it was impossible to notify within that period. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の所得補償保険では保険事故発生後「遅滞なく」通知が一般的だが、シンガポールでは60日という具体的な日数が示されることが多い。",
     "keywords": [
       "claims notification",
@@ -2573,7 +2573,7 @@
       "D) The deferred period is extended by 90 days"
     ],
     "answer": 2,
-    "explanation": "Under recurrent disability (linked claims), if the insured relapses within a specified period (usually 180 days) from the same cause, most insurers will waive the deferred/elimination period and benefit payments will re-commence immediately. The claim is treated as a continuation of the earlier claim.",
+    "explanation": "Under recurrent disability (linked claims), if the insured relapses within a specified period (usually 180 days) from the same cause, most insurers will waive the deferred/elimination period and benefit payments will re-commence immediately. The claim is treated as a continuation of the earlier claim. Note: the textbook uses 'usually' / 'typically' for this figure — actual terms may vary by insurer.",
     "jpComparison": "日本の所得補償保険にも「再発条項」はあるが、免責期間の免除規定はシンガポールほど明確に規定されていないことが多い。",
     "keywords": [
       "recurrent disability",
