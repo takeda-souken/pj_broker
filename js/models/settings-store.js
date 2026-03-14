@@ -12,15 +12,18 @@ const DEFAULTS = {
   langMode: 'bilingual',    // 'ja' (JP UI, EN questions), 'en' (EN only), 'bilingual' (EN + small JP)
   triviaEnabled: true,      // Show SG trivia between questions
   weakFocusEnabled: true,   // Bias practice questions toward weak topics
-  supporterEnabled: false,  // Virtual supporter character (Hakata dialect)
+  supporterEnabled: true,   // Virtual supporter character (Hakata dialect)
   // Home screen section visibility
   homeShowXp: true,
   homeShowGoal: true,
-  homeShowStreak: true,
   homeShowStats: true,
   homeShowCountdown: true,
   homeShowTrivia: true,
+  examDate: '',              // Exam date (YYYY-MM-DD), set by user
   extraModules: false,      // Show PGI & HI modules (hidden surprise)
+  sakuraNickname: '片岡さん', // Sakura's name for the user (evolves with phase)
+  nicknamePhaseOffered: 1,   // Which phase's nickname options have been offered (1=default only)
+  gasWebAppUrl: 'https://script.google.com/macros/s/AKfycbxJQyh63-nvAK9Aspm-Y8CXO4mQYEqw0PB5cxtBMmB0k8B1lrClPN9O3xhJ9gCqM7VS7g/exec',
   // Auto theme time range (light mode hours)
   themeLightStart: 6,       // Light mode starts at 6:00
   themeLightEnd: 17,        // Light mode ends at 17:00 (dark from 17:00)
