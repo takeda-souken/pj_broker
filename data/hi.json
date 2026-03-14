@@ -1045,28 +1045,6 @@
     "source": "Ch2 §3.28, p.35"
   },
   {
-    "id": "hi-50",
-    "topic": "Medical Expense Insurance",
-    "question": "Under a Medical Expense Insurance policy, the waiting period does NOT apply to which of the following?",
-    "choices": [
-      "A) Pre-existing medical conditions",
-      "B) Elective surgical procedures",
-      "C) Accidental injury",
-      "D) Illnesses diagnosed after policy inception"
-    ],
-    "answer": 2,
-    "explanation": "The waiting period is a period of time stated in the policy which must pass before some or all of the Health Insurance coverage begins. However, the waiting period is not applicable for accidental injury — meaning in the case of injury caused by an accident, the insured will be covered immediately.",
-    "jpComparison": "日本の医療保険でも免責期間（待機期間）が設定されることがあるが、不慮の事故による傷害は即日保障される点はシンガポールと共通している。",
-    "keywords": [
-      "waiting period",
-      "accidental injury",
-      "coverage",
-      "immediate cover"
-    ],
-    "difficulty": 1,
-    "source": "Ch2 §3.42, p.38"
-  },
-  {
     "id": "hi-51",
     "topic": "Medical Expense Insurance",
     "question": "An insured person under an individual Medical Expense Insurance policy resides outside Singapore for an extended period. Under what circumstance would the policy most likely automatically terminate?",
@@ -1435,27 +1413,6 @@
     "source": "Ch3 §5.13 (B2), p.58"
   },
   {
-    "id": "hi-68",
-    "topic": "Group Hospital & Surgical Insurance",
-    "question": "What is a fundamental requirement for a group to be eligible for Group Insurance cover?",
-    "choices": [
-      "A) The group must have been formed for purposes other than obtaining insurance",
-      "B) The group must have at least 100 members",
-      "C) The group must be registered with MAS",
-      "D) The group must consist only of Singapore Citizens"
-    ],
-    "answer": 0,
-    "explanation": "The requirement is that several people must first be members of a group formed for some purposes other than to obtain insurance, such as companies, trade unions, professional associations and clubs.",
-    "jpComparison": "日本でも団体保険の要件として、保険加入を主目的としない既存の団体であることが求められる点は同様です。",
-    "keywords": [
-      "group insurance",
-      "eligibility",
-      "group formation"
-    ],
-    "difficulty": 1,
-    "source": "Ch3 §2.1, p.52"
-  },
-  {
     "id": "hi-69",
     "topic": "Group Hospital & Surgical Insurance",
     "question": "Which of the following is NOT a characteristic of a Group Insurance policy?",
@@ -1669,28 +1626,6 @@
     "source": "Ch3 §4.3, p.56"
   },
   {
-    "id": "hi-79",
-    "topic": "Group Hospital & Surgical Insurance",
-    "question": "An employer wishes to allow co-payment with a Work Permit holder. Which of the following conditions must be met?",
-    "choices": [
-      "A) The co-pay amount must not exceed 10% of the employee's monthly salary and the duration must not exceed 6 months for every 2 years of employment",
-      "B) The co-pay amount must not exceed 25% of the employee's monthly salary and the duration must not exceed 12 months",
-      "C) The co-pay amount must not exceed 5% of the employee's monthly salary and must be approved by MAS",
-      "D) The co-pay amount is unlimited as long as the worker gives written consent"
-    ],
-    "answer": 0,
-    "explanation": "The co-pay amount must be reasonable and not exceed 10% of the employee's monthly salary, the duration must not exceed 6 months for every 2 years of employment, and the option must be explicitly in the employment contract with the worker's full consent.",
-    "jpComparison": "日本では外国人労働者も社会保険に加入するため、このような雇用主との共同負担の取り決めは存在しません。シンガポール独自の外国人労働者保護規定です。",
-    "keywords": [
-      "co-payment",
-      "Work Permit",
-      "10%",
-      "6 months"
-    ],
-    "difficulty": 3,
-    "source": "Ch3 §4.4, p.56"
-  },
-  {
     "id": "hi-80",
     "topic": "Group Hospital & Surgical Insurance",
     "question": "Comparing PMBS and TMIS: under PMBS, coverage continues even when the employee is between jobs as long as the premium is paid. Under TMIS, the employer has full control over the policy. An employee values both portability and employer-customised benefits. Which statement best describes the trade-off?",
@@ -1820,27 +1755,6 @@
     ],
     "difficulty": 3,
     "source": "Ch3 §5.26 (D), p.62"
-  },
-  {
-    "id": "hi-86",
-    "topic": "Group Hospital & Surgical Insurance",
-    "question": "Under the Portable Medical Benefits Scheme (PMBS), what does the employer do instead of providing Group Medical Insurance coverage?",
-    "choices": [
-      "A) Makes additional monthly contributions to employees' Medisave accounts",
-      "B) Purchases an individual health policy for each employee",
-      "C) Reimburses medical bills directly to hospitals",
-      "D) Provides a monthly cash allowance for medical expenses"
-    ],
-    "answer": 0,
-    "explanation": "Under the PMBS, employers make additional monthly contributions to employees' respective Medisave accounts. Employees can then use those contributions to purchase MediShield Life or an Integrated Shield Plan to cover inpatient or hospitalisation needs.",
-    "jpComparison": "日本の健康保険は会社が保険料を折半負担する仕組みだが、PMBSでは雇用主がMedisave口座に拠出し、従業員が自分で保険を選ぶ点が大きく異なる。",
-    "keywords": [
-      "PMBS",
-      "Medisave",
-      "employer contribution"
-    ],
-    "difficulty": 1,
-    "source": "Ch3 §5.3, p.57"
   },
   {
     "id": "hi-87",
@@ -3171,27 +3085,6 @@
     "source": "Ch5 §7.15 (B5), p.118"
   },
   {
-    "id": "hi-149",
-    "topic": "Long-Term Care Insurance",
-    "question": "Which of the following is NOT one of the six Activities of Daily Living (ADLs) used to assess severe disability under ElderShield?",
-    "choices": [
-      "A) Washing",
-      "B) Cooking",
-      "C) Feeding",
-      "D) Transferring"
-    ],
-    "answer": 1,
-    "explanation": "The six ADLs are Washing, Dressing, Feeding, Toileting, Mobility, and Transferring. Cooking is not one of the six ADLs.",
-    "jpComparison": "日本の要介護認定でも食事・入浴・排泄・移動などが評価項目に含まれるが、調理能力はIADL（手段的日常生活動作）に分類される点は共通している。",
-    "keywords": [
-      "ADL",
-      "severe disability",
-      "assessment criteria"
-    ],
-    "difficulty": 1,
-    "source": "Ch5 §3.5(c), p.113"
-  },
-  {
     "id": "hi-150",
     "topic": "Long-Term Care Insurance",
     "question": "CareShield Life was launched on:",
@@ -3425,31 +3318,6 @@
     "source": "Ch5 §3.1(a), p.112 + p.123 (Important Concepts summary)"
   },
   {
-    "id": "hi-161",
-    "topic": "Long-Term Care Insurance",
-    "question": "Which of the following is NOT one of the six Activities of Daily Living (ADLs) used in ElderShield claim assessments?",
-    "choices": [
-      "A) Washing",
-      "B) Cooking",
-      "C) Feeding",
-      "D) Transferring"
-    ],
-    "answer": 1,
-    "explanation": "The six ADLs are: Washing, Dressing, Feeding, Toileting, Mobility, and Transferring. Cooking is not included in the list of ADLs used for ElderShield or CareShield Life assessments.",
-    "jpComparison": "日本の要介護認定では「食事」「排泄」「入浴」「移動」「着替え」などに加え、認知機能や社会的行動も評価対象となり、シンガポールの6項目ADL基準よりも広範囲。",
-    "keywords": [
-      "ADLs",
-      "washing",
-      "dressing",
-      "feeding",
-      "toileting",
-      "mobility",
-      "transferring"
-    ],
-    "difficulty": 1,
-    "source": "Ch5 §3.5(c), p.113"
-  },
-  {
     "id": "hi-162",
     "topic": "Long-Term Care Insurance",
     "question": "A \"disability-based\" LTC policy may pay benefits when the insured is diagnosed with which of the following conditions?",
@@ -3513,28 +3381,6 @@
     ],
     "difficulty": 2,
     "source": "Ch5 §8.6, p.120"
-  },
-  {
-    "id": "hi-165",
-    "topic": "Long-Term Care Insurance",
-    "question": "An insured person wishes to make an ElderShield claim. The disability assessment costs S$100 for a clinic visit and S$250 for a house call. Under what condition is the assessment fee reimbursed?",
-    "choices": [
-      "A) The fee is always reimbursed regardless of the assessment outcome",
-      "B) The fee is reimbursed only if the insured is assessed to be severely disabled",
-      "C) The fee is reimbursed only if the insured has paid all premiums up to age 65",
-      "D) The fee is never reimbursed and must be borne entirely by the insured"
-    ],
-    "answer": 1,
-    "explanation": "The assessment fee (S$100 for clinic, S$250 for house call) is reimbursed if the insured is assessed to be severely disabled. The reimbursement is included with the first pay-out. If the insured is not assessed as severely disabled, the fee is not reimbursed.",
-    "jpComparison": "日本の要介護認定の訪問調査は市区町村が実施し、本人負担はない。シンガポールでは自己負担が先に発生するが、認定されれば初回給付で償還される点が異なる。",
-    "keywords": [
-      "ElderShield claim",
-      "disability assessment",
-      "reimbursement",
-      "MOH-accredited"
-    ],
-    "difficulty": 3,
-    "source": "Ch5 §7.17 (B6), p.118"
   },
   {
     "id": "hi-166",
@@ -4387,27 +4233,6 @@
     "source": "Ch6 §4.12–4.13, p.111–112"
   },
   {
-    "id": "hi-206",
-    "topic": "Critical Illness Insurance",
-    "question": "Which of the following is a common exclusion under a Critical Illness Insurance policy?",
-    "choices": [
-      "A) Illnesses diagnosed after the waiting period",
-      "B) Pre-existing illnesses",
-      "C) Critical illnesses listed in the policy",
-      "D) Conditions confirmed by a specialist doctor"
-    ],
-    "answer": 1,
-    "explanation": "Common exclusions include pre-existing illnesses, self-inflicted injury, wilful misuse of drugs/alcohol, congenital anomalies, AIDS/HIV, certain aircraft injuries, and war or warlike operations.",
-    "jpComparison": "日本の保険でも告知義務違反による既往症の不担保は同様だが、シンガポールではHIV/AIDS、航空機搭乗中の傷害など、より具体的な免責条項が標準的に列挙される点が特徴的。",
-    "keywords": [
-      "exclusions",
-      "pre-existing illness",
-      "common exclusions"
-    ],
-    "difficulty": 1,
-    "source": "Ch6 §8.1, p.119"
-  },
-  {
     "id": "hi-207",
     "topic": "Critical Illness Insurance",
     "question": "For the condition 'Terminal Illness' under the standard CI definitions, what is the expected timeframe within which the illness must result in death, and what is excluded from coverage?",
@@ -4960,50 +4785,6 @@
     "source": "Ch7 §3.4(b)/B, p.141"
   },
   {
-    "id": "hi-233",
-    "topic": "Other Types of Health Insurance",
-    "question": "Which of the following is a feature of Maternity Insurance?",
-    "choices": [
-      "A) It is a yearly renewable term policy with level premiums",
-      "B) It is a single premium term policy valid for three years from the policy start date",
-      "C) It is a whole life policy that provides lifetime coverage for the mother",
-      "D) It is an endowment policy that accumulates cash value over time"
-    ],
-    "answer": 1,
-    "explanation": "Maternity Insurance is a single premium term policy that is valid for three (3) years from the policy start date. It usually has no cash value.",
-    "jpComparison": "日本では妊娠保険は一般的でなく、医療保険の特約として妊娠合併症をカバーする形が主流です。一時払い3年定期という商品設計はシンガポール独特です。",
-    "keywords": [
-      "Maternity Insurance",
-      "single premium",
-      "term policy",
-      "three years"
-    ],
-    "difficulty": 2,
-    "source": "Ch7 §3.4(a)(c)/B, p.141"
-  },
-  {
-    "id": "hi-234",
-    "topic": "Other Types of Health Insurance",
-    "question": "An insured mother under a Maternity Insurance policy gives birth and wants to purchase a whole life plan for her newborn without medical underwriting. Within what timeframe must she exercise this option?",
-    "choices": [
-      "A) Within 30 days of the child's birth",
-      "B) Within 60 days of the child's birth",
-      "C) Within 90 days of the child's birth",
-      "D) Within 120 days of the child's birth"
-    ],
-    "answer": 2,
-    "explanation": "The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investment-linked plan within 90 days of the child's birth, without the need for medical underwriting.",
-    "jpComparison": "日本でも一部の保険会社が出産後の子ども向け保険を無選択で加入できるオプションを提供していますが、90日という期限設定はシンガポール特有です。",
-    "keywords": [
-      "Maternity Insurance",
-      "90 days",
-      "medical underwriting",
-      "conversion option"
-    ],
-    "difficulty": 2,
-    "source": "Ch7 §3.4(n)/B, p.142"
-  },
-  {
     "id": "hi-235",
     "topic": "Other Types of Health Insurance",
     "question": "Under a Group Dental Insurance policy, what happens when an insured employee visits a dentist within the panel of approved dentists?",
@@ -5388,27 +5169,6 @@
     "source": "Ch8 §4C (§4.12), p.157"
   },
   {
-    "id": "hi-253",
-    "topic": "Managed Healthcare",
-    "question": "What is the primary purpose of Managed Healthcare (MHC)?",
-    "choices": [
-      "A) To eliminate all out-of-pocket expenses for members",
-      "B) To contain medical care costs while assuring appropriate medical care",
-      "C) To provide free healthcare to all Singapore residents",
-      "D) To replace government-funded healthcare programmes entirely"
-    ],
-    "answer": 1,
-    "explanation": "MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It pays for most medical bills when an individual sees a GP, specialist or receives hospital treatment.",
-    "jpComparison": "日本の国民皆保険制度とは異なり、MHCは民間主導のコスト管理戦略であり、ネットワーク内の医療提供者を通じて医療費を抑制する仕組みです。",
-    "keywords": [
-      "MHC",
-      "cost containment",
-      "appropriate medical care"
-    ],
-    "difficulty": 1,
-    "source": "Ch8 §2 (§2.1), p.154"
-  },
-  {
     "id": "hi-254",
     "topic": "Managed Healthcare",
     "question": "Which of the following is NOT one of the three components that MHC manages to control healthcare expenditure?",
@@ -5428,48 +5188,6 @@
     ],
     "difficulty": 1,
     "source": "Ch8 §3 (§3.2), p.154"
-  },
-  {
-    "id": "hi-255",
-    "topic": "Managed Healthcare",
-    "question": "Under the capitation payment method, how is the healthcare provider compensated by the MHCO?",
-    "choices": [
-      "A) Based on the actual cost of each medical service provided",
-      "B) A fixed amount per member usually on a monthly basis, regardless of services rendered",
-      "C) A percentage discount on the provider's normal fees",
-      "D) A fixed salary with performance-based bonuses"
-    ],
-    "answer": 1,
-    "explanation": "Under capitation, the MHCO pre-pays its providers a fixed amount for each member's medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that attention.",
-    "jpComparison": "日本の出来高払い（fee-for-service）方式とは対照的に、キャピテーション方式は患者数ベースの定額払いであり、過剰診療の抑制効果があります。",
-    "keywords": [
-      "capitation",
-      "fixed amount",
-      "monthly basis"
-    ],
-    "difficulty": 1,
-    "source": "Ch8 §3B (§3.8a), p.155"
-  },
-  {
-    "id": "hi-256",
-    "topic": "Managed Healthcare",
-    "question": "Which payment method is specifically used in the Staff Model HMO?",
-    "choices": [
-      "A) Capitation",
-      "B) Discounted-fee-for-service",
-      "C) Salary",
-      "D) Fee schedule"
-    ],
-    "answer": 2,
-    "explanation": "The salary method is used in the Staff Model HMO. Under this method, the HMO compensates physicians with a fixed salary based on the average earnings of local physicians in the same field or specialty, plus performance-based bonuses or incentive payments.",
-    "jpComparison": "日本でも勤務医は病院から給与を受け取りますが、Staff Model HMOでは保険組織自体が医師を雇用し、給与に加えて業績連動ボーナスも支給する点が特徴的です。",
-    "keywords": [
-      "salary",
-      "Staff Model HMO",
-      "performance-based bonuses"
-    ],
-    "difficulty": 1,
-    "source": "Ch8 §3B (§3.8c), p.155"
   },
   {
     "id": "hi-257",
@@ -7944,46 +7662,6 @@
     "source": "Ch11 §2.7, p.240"
   },
   {
-    "id": "hi-373",
-    "topic": "Health Insurance Pricing",
-    "question": "What is the PRIMARY consideration in health insurance pricing?",
-    "choices": [
-      "A) Investment income",
-      "B) Morbidity rate",
-      "C) Operating expenses",
-      "D) Insurer's profit margin"
-    ],
-    "answer": 1,
-    "explanation": "Morbidity rate — the rate at which disease or illness occurs within a group of people over a period of time — is the primary consideration in health insurance pricing.",
-    "jpComparison": "日本でも疾病率（罹患率）は健康保険料算出の最重要要素であり、生命保険では死亡率に相当する。",
-    "keywords": [
-      "morbidity rate",
-      "premium computation"
-    ],
-    "difficulty": 1,
-    "source": "Ch11 §2.2, p.239"
-  },
-  {
-    "id": "hi-374",
-    "topic": "Health Insurance Pricing",
-    "question": "How does investment income affect health insurance premiums?",
-    "choices": [
-      "A) It increases the premiums charged",
-      "B) It has no effect on premiums",
-      "C) It helps to reduce the premiums that insurers charge",
-      "D) It only affects group plan premiums"
-    ],
-    "answer": 2,
-    "explanation": "Investment income helps to reduce premiums because insurers invest the premiums they receive and earn additional income, which serves as an additional source of funds to meet obligations.",
-    "jpComparison": "日本の保険会社も運用益（予定利率）を保険料に反映し、運用収益が高いほど保険料を低く設定できる仕組みは共通。",
-    "keywords": [
-      "investment income",
-      "premium reduction"
-    ],
-    "difficulty": 1,
-    "source": "Ch11 §2.3–2.5, p.239"
-  },
-  {
     "id": "hi-375",
     "topic": "Health Insurance Pricing",
     "question": "Which of the following is NOT listed as a key factor used in premium computation for health insurance?",
@@ -8002,26 +7680,6 @@
     ],
     "difficulty": 1,
     "source": "Ch11 §2.1, p.239"
-  },
-  {
-    "id": "hi-376",
-    "topic": "Health Insurance Pricing",
-    "question": "Why does the premium increase slightly as the payment frequency increases (e.g., from annual to monthly)?",
-    "choices": [
-      "A) To penalise policyholders who cannot pay annually",
-      "B) To cover additional billing costs and lost investment income",
-      "C) To account for higher morbidity risk of monthly payers",
-      "D) To comply with regulatory requirements by MAS"
-    ],
-    "answer": 1,
-    "explanation": "The premium increases with higher payment frequency to allow the insurer to recoup (a) the additional billing and handling costs and (b) the lost investment income that could have been earned if the full annual premium was invested all at once.",
-    "jpComparison": "日本でも月払は年払より割高になる。保険会社が分割徴収コストと運用機会損失を上乗せする仕組みは同様。",
-    "keywords": [
-      "modes of premium payment",
-      "payment frequency"
-    ],
-    "difficulty": 2,
-    "source": "Ch11 §2.14, p.240–241"
   },
   {
     "id": "hi-377",
@@ -8147,28 +7805,6 @@
     ],
     "difficulty": 2,
     "source": "Ch11 §2.12, p.240"
-  },
-  {
-    "id": "hi-383",
-    "topic": "Health Insurance Pricing",
-    "question": "For Integrated Shield Plans in Singapore, which type of hospital treatment coverage is more expensive?",
-    "choices": [
-      "A) Public hospital treatment",
-      "B) Private hospital treatment",
-      "C) Day surgery only",
-      "D) They cost the same regardless of hospital type"
-    ],
-    "answer": 1,
-    "explanation": "For H&S Insurance policies such as the Integrated Shield Plans, coverage for private hospital treatments is more expensive than coverage for public hospital treatments.",
-    "jpComparison": "日本は国民皆保険で公的保険が中心だが、民間医療保険でも差額ベッド代や先進医療など私的医療サービスの保障は保険料が高くなる。",
-    "keywords": [
-      "Integrated Shield Plans",
-      "private hospital",
-      "public hospital",
-      "scope of benefits"
-    ],
-    "difficulty": 1,
-    "source": "Ch11 §2.11, p.240"
   },
   {
     "id": "hi-384",
@@ -9878,27 +9514,6 @@
     ],
     "difficulty": 2,
     "source": "Ch13 Appendix 13A §10A, p.280"
-  },
-  {
-    "id": "hi-463",
-    "topic": "MAS 120 Disclosure & Advisory Process",
-    "question": "When assessing whether a policy switch is detrimental to the insured, which of the following factors does MAS consider?",
-    "choices": [
-      "A) Whether the policy owner has held the original policy for at least 5 years",
-      "B) Whether the replacement policy confers a lower level of benefit at a higher or same cost",
-      "C) Whether the original policy was purchased through a bank or insurance agent",
-      "D) Whether the policy owner's employer contributed to the original policy premiums"
-    ],
-    "answer": 1,
-    "explanation": "MAS considers several factors when determining if a switch is detrimental, including whether the replacement policy confers a lower level of benefit at a higher or same cost, whether the policy owner suffers penalties for terminating, whether transaction costs are incurred without real benefit, and whether the replacement is less suitable.",
-    "jpComparison": "日本でも乗換え（転換）に関する規制はあるが、シンガポールのように「不利益な乗換え」の判断基準がMAS通達で具体的に列挙されている点は参考になる。",
-    "keywords": [
-      "switching",
-      "detrimental",
-      "replacement policy"
-    ],
-    "difficulty": 2,
-    "source": "Ch13 Appendix 13A §44, p.290"
   },
   {
     "id": "hi-464",
