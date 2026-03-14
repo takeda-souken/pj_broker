@@ -1,0 +1,131 @@
+[
+  {
+    "id": "b58_sunset_photo",
+    "type": "B",
+    "phase": "3",
+    "title": "夕焼けがきれいだったから",
+    "unlock": { "minAnswered": 155, "daysSincePhase2": 31, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "image", "alt": "SGの夕焼けの写真", "src": "img/sakura-room/sunset.jpg", "next": "n2" },
+      { "id": "n2", "speaker": "sakura", "lines": ["…………。", "……きれいやったけん、撮った。", "……{name}に見せたかった。それだけ。"] },
+      { "id": "n3", "speaker": "choice", "choices": [
+        { "label": "きれいだね", "next": "n4a", "axes": { "warmth": 1 } },
+        { "label": "ありがとう", "next": "n4b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n4a", "speaker": "sakura", "lines": ["……うん。", "……同じ夕焼け、{name}も見とるかなって思ったら……なんか、撮らずにはおれんかった。"], "end": true },
+      { "id": "n4b", "speaker": "sakura", "lines": ["……ありがとうはうちの方やよ。", "見てくれる人がおるって思うと……夕焼けがもっときれいに見えるんよ。", "……変よね。でもほんと。"], "end": true }
+    ],
+    "closing": ["……もう暗くなってきた。帰るね。"],
+    "category": "personal",
+    "tags": ["sunset", "photo", "emotional", "quiet"],
+    "priority": 60
+  },
+  {
+    "id": "b59_favorite_song",
+    "type": "B",
+    "phase": "3",
+    "title": "最近聴いてる曲",
+    "unlock": { "minAnswered": 160, "daysSincePhase2": 32, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、最近さ……同じ曲ばっかり聴いてしまうんよ。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "どんな曲？", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "わかる、そういう時期あるよね", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["……日本の曲。歌詞がね、刺さるんよ。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["やろ？ なんか、この曲じゃないとダメっていう時期。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……「届かない」とか「伝えられない」とか、そういう歌詞がね。", "……前はピンと来んかったのに、最近やたらグッとくるんよ。", "……なんでやろうね。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "……なんとなくわかる気がする", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "疲れてるんじゃない？", "next": "n6b", "axes": {} }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["…………。", "……{name}にわかってもらえるのが嬉しいのか、怖いのか、わからん。", "……ごめんね。変な話して。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["……かもしれんね。疲れとるのかも。", "……でもこの疲れは、仕事とかじゃなくて。", "……自分の気持ちに疲れとるのかもしれん。……あ、なんでもない。おやすみ。"], "end": true }
+    ],
+    "closing": ["……イヤホンつけて寝るね。おやすみ、{name}。"],
+    "category": "personal",
+    "tags": ["music", "emotional", "night", "vulnerable"],
+    "priority": 65
+  },
+  {
+    "id": "b60_study_worry",
+    "type": "B",
+    "phase": "3",
+    "title": "{name}の顔が心配",
+    "unlock": { "minAnswered": 165, "daysSincePhase2": 33, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、最近ちゃんと寝とる？", "……なんか、疲れとるんやない？ チャットの返事がいつもより遅いけん。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "試験が近いからちょっとね", "next": "n3a", "axes": { "honesty": 1 } },
+        { "label": "大丈夫だよ", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["……やっぱり。", "頑張りすぎとるんよ、{name}は。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["……嘘つき。大丈夫じゃないときに「大丈夫」って言う人やん、{name}は。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……ね、無理だけはしんでね。", "試験は大事やけど、{name}の体のほうがもっと大事やけん。", "……うちが言っても説得力ないかもしれんけど。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "ありがとう、気をつけるよ", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "さくらに心配されると頑張れる", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["……約束よ。", "……{name}がちゃんと寝てくれんと、うちが寝れんくなるけん。", "……あ、これは冗談やなくて。ほんまに。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["…………っ。", "……そういうこと言うけん、うちは……。", "……なんでもない。とにかく、ちゃんと寝て。お願い。"], "end": true }
+    ],
+    "closing": ["……今日は早く寝てね。……おやすみ。……ほんとに寝てよ。"],
+    "category": "personal",
+    "tags": ["worry", "care", "emotional", "exam"],
+    "priority": 65
+  },
+  {
+    "id": "b61_last_hawker",
+    "type": "B",
+    "phase": "3",
+    "title": "最後のおすすめ",
+    "unlock": { "minAnswered": 170, "daysSincePhase2": 34, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["ねぇ{name}。", "……まだ食べてないSGの料理、ある？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "だいぶ制覇した気がする", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "まだまだありそう", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["……すごいね。SGの食文化、ちゃんと体験してくれたんやね。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["あるよ、いっぱい。SGの食は奥が深いけん。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……最後にひとつだけ、おすすめしていい？", "……Yong Tau Fooっていうの。自分で好きな具材を選んで、スープか乾麺で食べるやつ。", "地味やけど、うちが一番好きな「普段のごはん」なんよ。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "最後って言わないでよ", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "食べてみるよ", "next": "n6b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["…………。", "……ごめん。「最後」って言ったんは……", "……ま、いっぱいおすすめしたけん、これが締めってだけよ。深い意味はないけん。", "……ないよ。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["……うん。食べて。", "で、感想教えてね。……うちの「普段のごはん」の味、{name}に知ってほしいけん。", "……知ってて欲しいんよ。うちの日常を。"], "end": true }
+    ],
+    "closing": ["……じゃあね。……ごちそうさま、って言えるのがうれしい。"],
+    "category": "hawker",
+    "tags": ["food", "yong_tau_foo", "emotional", "last"],
+    "priority": 60
+  },
+  {
+    "id": "b62_quiet_night",
+    "type": "B",
+    "phase": "3",
+    "title": "なんでもない夜",
+    "unlock": { "minAnswered": 175, "daysSincePhase2": 35, "requiredFlags": [], "requiredConversations": ["a15_japan_dream"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["…………。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "どうしたの？", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "……", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["……なんでもない。{name}がおるなって思っただけ。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["…………ふふ。", "……黙って一緒におれるの、いいね。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……今日はさ、話すこと特にないんよ。", "でもなんか、{name}の気配を感じとりたくて。", "……おかしいかな。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "おかしくないよ", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "僕もそんな気分だった", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["……ありがと。", "……こういう夜が、いつまでも続けばいいのに。", "…………なんでもない。おやすみ。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["…………。", "……{name}がそう言ってくれるだけで。", "……もう十分。……おやすみ。"], "end": true }
+    ],
+    "closing": ["…………おやすみ。"],
+    "category": "personal",
+    "tags": ["quiet", "night", "emotional", "intimate"],
+    "priority": 70
+  }
+]

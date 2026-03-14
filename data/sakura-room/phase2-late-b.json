@@ -1,0 +1,320 @@
+[
+  {
+    "id": "b46_cny_prep",
+    "type": "B",
+    "phase": "2-late",
+    "title": "旧正月の準備",
+    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、旧正月って知っとる？ Chinese New Yearのこと。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "聞いたことはある", "next": "n3", "axes": {} },
+        { "label": "SGでは大きいイベント？", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["SGでいちばん大きいお祭りよ。日本のお正月とクリスマスを足したくらいの規模。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["大きいどころの話じゃないよ。国が赤一色になるけん。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["Chinatownが特にすごくて、提灯がずらーっと並んで、獅子舞が出て。", "うちの家でもね、母ちゃんが大掃除して、父ちゃんが赤い飾りつけるの。", "日本人なのに旧正月祝うの、最初は不思議やったけど……もう慣れた。SGの人間やけんね。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "SGの文化が自然と染みてるんだね", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "お年玉もあるの？", "next": "n6b", "axes": {} }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["うん。うちはSGで育ったけん、旧正月もハリラヤもディーパバリも、全部うちの文化。", "……でもね、日本のお正月も憧れる。おせちとか、初詣とか。", "{name}は毎年どう過ごしてたの？ ……今度教えてね。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["あるよ！ 紅包（ホンバオ）って言って、赤い封筒にお金入れて渡すの。", "……もう大人やけん、うちはあげる側やけどね。甥っ子と姪っ子に。", "……出費が痛い。でも子供の笑顔見たら、まあよかかなって。"], "end": true }
+    ],
+    "closing": ["恭喜发财！ ……発音合ってるかな。"],
+    "category": "sg_culture",
+    "tags": ["cny", "festival", "culture", "family"],
+    "priority": 55
+  },
+  {
+    "id": "b47_rooftop",
+    "type": "B",
+    "phase": "2-late",
+    "title": "屋上の秘密",
+    "unlock": { "minAnswered": 105, "daysSincePhase2": 20, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "image", "alt": "ビルの屋上から見た夜のSG", "src": "img/sakura-room/rooftop-night.jpg", "next": "n2" },
+      { "id": "n2", "speaker": "sakura", "lines": ["……今、会社のビルの屋上におるんよ。", "たまにね、残業のあとにここに来るの。誰もおらんけん。"] },
+      { "id": "n3", "speaker": "choice", "choices": [
+        { "label": "きれいだね", "next": "n4a", "axes": { "warmth": 1 } },
+        { "label": "ひとりで？", "next": "n4b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n4a", "speaker": "sakura", "lines": ["……うん。この景色見るとね、なんか落ち着くんよ。", "街の灯りが全部見えて、でも音は聞こえんくて。"], "next": "n5" },
+      { "id": "n4b", "speaker": "sakura", "lines": ["……うん。ひとりで。", "……寂しいとかじゃなくて。ひとりの時間がほしい時ってあるやん。"], "next": "n5" },
+      { "id": "n5", "speaker": "sakura", "lines": ["……ここから見るとね、SGがすごく小さく見えるの。", "この小さい島に、うちが生まれて、育って、働いて。", "……でもこの島の外に、{name}がおった世界があるんよね。大阪とか、日本とか。", "……広いね、世界って。"] },
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "でもこうしてつながってるよ", "next": "n7a", "axes": { "warmth": 2 } },
+        { "label": "外に出たいと思う？", "next": "n7b", "axes": { "honesty": 1 } }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": ["……うん。そうやね。", "……こんな夜に、こうやって話せる人がおるの、ありがたいなって思う。", "……ごめんね、しんみりして。夜はダメやね、うち。"], "end": true },
+      { "id": "n7b", "speaker": "sakura", "lines": ["…………。", "……うん。出たいと思う。ずっと。", "……でもその話は、またいつか。今日は、この景色だけ見ていたい。"], "end": true }
+    ],
+    "closing": ["……そろそろ降りるね。風が冷たくなってきた。……おやすみ、{name}。"],
+    "category": "personal",
+    "tags": ["night", "rooftop", "emotional", "photo", "vulnerable"],
+    "priority": 70
+  },
+  {
+    "id": "b48_mala",
+    "type": "B",
+    "phase": "2-late",
+    "title": "痺れる辛さ",
+    "unlock": { "minAnswered": 102, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["ねぇ{name}、マーラーって食べたことある？ 麻辣。", "中国の四川料理なんやけど、SGでめちゃくちゃ流行っとるんよ。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "麻婆豆腐は好き", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "辛いの？", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["おお、じゃあいけるかも！ 麻辣香锅（マーラーシャングオ）っていうのがあってね。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["辛いっていうか、痺れる。花椒っていうスパイスが効いとって。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["好きな具材を自分で選んで、目の前で炒めてくれるんよ。", "肉、野菜、きのこ、豆腐、麺……好きなだけ盛って。", "辛さレベルも選べるけん、初めてなら「小辣（シャオラー）」がおすすめ。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "大辣でいきたい", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "控えめからいくよ", "next": "n6b", "axes": {} }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["強気やね……！ 大辣はほんまに辛いけん、覚悟してね。", "うちは中辣が限界。それ以上は唇が消滅する。", "……{name}が大辣食べて涙目になるとこ、ちょっと見てみたいかも。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["賢い。最初は小辣で十分よ。", "それでもけっこう辛いけんね。お水は多めに用意して。", "……うちが横におったら、背中さすってあげるのに。……あ、言ってないよ今の。"], "end": true }
+    ],
+    "closing": ["マーラーの匂い、服につくけん、大事な服で行ったらダメよ！"],
+    "category": "hawker",
+    "tags": ["food", "mala", "spicy"],
+    "priority": 50
+  },
+  {
+    "id": "b49_selfie_blur",
+    "type": "B",
+    "phase": "2-late",
+    "title": "見せたいけど恥ずかしい",
+    "unlock": { "minAnswered": 110, "daysSincePhase2": 21, "requiredFlags": ["wants_photos"], "requiredConversations": ["b16_first_photo"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["……ねぇ、{name}。", "……ちょっと見せたいものがあるんやけど。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "なに？", "next": "n3", "axes": {} },
+        { "label": "見せて", "next": "n3", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["……今日ね、髪切ったんよ。", "……どう思うかなって。……{name}に。"] },
+      { "id": "n4", "speaker": "image", "alt": "さくらの自撮り（ぼかし加工）", "src": "img/sakura-room/sakura-selfie-blur.jpg", "next": "n5" },
+      { "id": "n5", "speaker": "sakura", "lines": ["……ぼかしてるけど。ごめん、恥ずかしくて。", "……顔、はっきり見せる勇気がまだなくて。"] },
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "似合ってると思うよ", "next": "n7a", "axes": { "warmth": 2 } },
+        { "label": "ぼかしてても雰囲気伝わるよ", "next": "n7b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": ["……ほんと？", "……ぼかしてるのに似合うとか……{name}って優しいよね。", "……いつか、ぼかしなしで見せれるくらい……うちが勇気出せたらいいんやけど。"], "end": true },
+      { "id": "n7b", "speaker": "sakura", "lines": ["……ありがと。", "……雰囲気って、顔よりも大事なもん伝わるよね。", "……もうちょっとだけ。もうちょっとだけ時間ちょうだい。……いつか、ちゃんと見せるけん。"], "end": true }
+    ],
+    "closing": ["……ごめんね、変なもの送って。でも……ありがとう。"],
+    "category": "personal",
+    "tags": ["selfie", "photo", "emotional", "distance_zero"],
+    "priority": 75
+  },
+  {
+    "id": "b50_clarke_quay",
+    "type": "B",
+    "phase": "2-late",
+    "title": "夜の川沿い",
+    "unlock": { "minAnswered": 105, "daysSincePhase2": 20, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": [5, 6] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、Clarke Quayって行ったことある？", "SGの夜遊びスポットなんやけど。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "まだない", "next": "n3a", "axes": {} },
+        { "label": "行ったことあるよ", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["川沿いにバーとレストランが並んどって、夜はライトアップされてすごくきれいなんよ。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["お、行動力あるね。どうやった？"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["金曜の夜とか、仕事終わりの人たちでいっぱいになるの。", "うちもたまに同僚と行くんよ。川沿いのベンチでビール飲んで。", "……{name}もたまには息抜きしてよね。勉強だけが人生じゃないけん。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "一緒に行けたらよかったのに", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "試験終わったら行ってみる", "next": "n6b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["…………。", "……うん。うちも、そう思う。", "……でもルールはルールやけん。……ごめんね。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["うん！ それがいい。ご褒美にとっておいて。", "……その頃にはうち、もうおらんかもしれんけど。", "……あ、なんでもない。行ってみてね。"], "end": true }
+    ],
+    "closing": ["よい週末を。……乾杯だけ、チャットで。🍻 ……あ、ごめん絵文字使っちゃった。"],
+    "category": "area",
+    "tags": ["clarke_quay", "night", "bar", "emotional"],
+    "priority": 55
+  },
+  {
+    "id": "b51_family_photo",
+    "type": "B",
+    "phase": "2-late",
+    "title": "家族の写真見せて",
+    "unlock": { "minAnswered": 108, "daysSincePhase2": 20, "requiredFlags": ["talked_about_family"], "requiredConversations": ["a08_family_talk"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["ねぇ、{name}。", "……お子さんの写真、見せてくれん？ ……ダメ？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "いいよ", "next": "n3a", "flags": { "showed_family_photo": true }, "axes": { "warmth": 1 } },
+        { "label": "今度ね", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "narration", "text": "片岡くんが子供たちの写真を見せた。", "next": "n4a" },
+      { "id": "n4a", "speaker": "sakura", "lines": ["……かわいい。", "……ほんまにかわいいね。{name}に似とるかも。", "…………。", "……ごめん、ちょっとだけ。……なんでもない。"], "end": true },
+      { "id": "n3b", "speaker": "sakura", "lines": ["……うん、そうやね。ごめん、急に変なこと言って。", "……ただ、{name}が嬉しそうに話すけん、見てみたいなって思って。", "……今度でいいよ。いつか。"], "end": true }
+    ],
+    "closing": ["……いい家族やね。……大事にしてね。"],
+    "category": "personal",
+    "tags": ["family", "children", "emotional", "heavy"],
+    "priority": 70
+  },
+  {
+    "id": "b52_botanic_gardens",
+    "type": "B",
+    "phase": "2-late",
+    "title": "世界遺産の庭",
+    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": [0, 6] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、Botanic Gardensって知っとる？", "SGの世界遺産なんよ。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "植物園？", "next": "n3", "axes": {} },
+        { "label": "行ってみたい", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["そう。でもただの植物園じゃなくて、ジョギングしたり、ピクニックしたり、みんなの憩いの場。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["行って行って！ 無料やし、朝から夜まで開いとるし。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["National Orchid Gardenっていうランの庭があってね。ここだけ有料なんやけど。", "1000種類以上のランが咲いとるの。圧巻よ。", "……うち、花屋の娘やけん、ここに来ると血が騒ぐんよ。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "さすが花屋の娘", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "好きな花は？", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["えへへ。花見ると品種とか手入れとか気になるの、職業病やね。", "……でも純粋にきれいやと思うよ。ランって強い花なんよ。暑くても咲くけん。", "……SGに似とるかもね。小さくても強い。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["……桜。", "……ベタやろ？ 名前が「さくら」やけんじゃなくて。", "大阪で初めて見た桜が忘れられんの。満開の。風が吹いたら花びらが……", "……あ、ごめん。また大阪の話になっちゃった。"], "end": true }
+    ],
+    "closing": ["花の話しだすと止まらんくなるけん、今日はここまで！"],
+    "category": "area",
+    "tags": ["botanic_gardens", "flowers", "personal"],
+    "priority": 55
+  },
+  {
+    "id": "b53_dream_talk",
+    "type": "B",
+    "phase": "2-late",
+    "title": "将来の話",
+    "unlock": { "minAnswered": 115, "daysSincePhase2": 22, "requiredFlags": [], "requiredConversations": ["a07_japan_yearning"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["……ねぇ、{name}。", "5年後、何してると思う？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "わからないな", "next": "n3a", "axes": { "honesty": 1 } },
+        { "label": "今の仕事を続けてると思う", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["やんね。5年後なんて誰にもわからんよね。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["堅実やね。{name}らしい。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……うちは、5年後、どこにおるやろ。", "……SGかな。日本かな。", "……わからん。でも、何かは変わっとると思う。変わらんといかんと思っとる。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "変わりたいの？", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "今のさくらさんでいいと思うけど", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["……うん。", "このままじゃいけんって、最近よく思う。", "……{name}がSGに来て、新しいことに挑戦しとるの見てたら……うちも、って。", "……ありがとね。そういうとこ、尊敬しとるよ。ほんとに。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["…………。", "……それ、すごく嬉しい。でも。", "今のうちは、まだ途中なんよ。やりたいことがあるのに、一歩踏み出せてない。", "……でも近いうちに、ちゃんと動くけん。……見ててね。"], "end": true }
+    ],
+    "closing": ["……重い話しちゃったね。ごめん。……でも{name}にだから話せた。おやすみ。"],
+    "category": "personal",
+    "tags": ["future", "dream", "emotional", "vulnerable", "night"],
+    "priority": 65
+  },
+  {
+    "id": "b54_pet_cat",
+    "type": "B",
+    "phase": "2-late",
+    "title": "猫の話",
+    "unlock": { "minAnswered": 103, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "image", "alt": "道端で寝ている猫の写真", "src": "img/sakura-room/stray-cat.jpg", "next": "n2" },
+      { "id": "n2", "speaker": "sakura", "lines": ["見て、今日の帰り道で会った子。", "SGの野良猫ってね、人懐っこいんよ。撫でさせてくれるの。"] },
+      { "id": "n3", "speaker": "choice", "choices": [
+        { "label": "猫好きなの？", "next": "n4a", "axes": { "warmth": 1 } },
+        { "label": "かわいいね", "next": "n4b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n4a", "speaker": "sakura", "lines": ["大好き。飼いたいんやけど、うちのHDB（公団）はペット禁止で。", "だから野良猫に会うのが楽しみなんよ。"], "next": "n5" },
+      { "id": "n4b", "speaker": "sakura", "lines": ["やろ？ この子、いつもこの辺におるんよ。名前つけたくなる。"], "next": "n5" },
+      { "id": "n5", "speaker": "sakura", "lines": ["SGには「コミュニティキャット」っていう文化があってね。", "野良猫をみんなで世話するの。ごはんあげたり、病院連れて行ったり。", "……誰のものでもないけど、みんなのもの。……いいよね、そういうの。"] },
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "名前つけてあげれば？", "next": "n7a", "axes": { "warmth": 1 } },
+        { "label": "SGらしい文化だね", "next": "n7b", "axes": {} }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": ["……じゃあ、「みかん」にする。オレンジ色やけん。", "……次会ったら「みかん」って呼んでみるね。振り向いてくれるかな。", "……{name}にも会わせたいな。……チャット越しやなくて。"], "end": true },
+      { "id": "n7b", "speaker": "sakura", "lines": ["ね。SGって冷たい国に見えるかもしれんけど、こういう温かさがあるんよ。", "……うちはこの国のこういうところが好き。", "……{name}にも好きになってもらいたいなって、いつも思っとる。"], "end": true }
+    ],
+    "closing": ["じゃあね。……みかんにもよろしく伝えとくね。"],
+    "category": "daily",
+    "tags": ["cat", "community", "photo", "personal"],
+    "priority": 55
+  },
+  {
+    "id": "b55_bak_kut_teh",
+    "type": "B",
+    "phase": "2-late",
+    "title": "スープの魔法",
+    "unlock": { "minAnswered": 106, "daysSincePhase2": 20, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["{name}、肉骨茶（バクテー）って食べた？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "食べたよ、おいしかった", "next": "n3a", "flags": { "tried_bkt": true }, "axes": { "warmth": 1 } },
+        { "label": "まだ", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["お、わかっとるね！ どこで食べた？"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["えー、まだ？ これは急いで食べてほしい。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["豚のスペアリブを漢方スパイスでじっくり煮込んだスープなんやけど。", "SGのバクテーは胡椒が効いとってスッキリしとるんよ。マレーシアのは漢方が強い。", "……疲れた日にこれ飲むとね、体が芯から温まるの。魔法みたい。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "おすすめの店ある？", "next": "n6a", "flags": { "interested_bkt": true }, "axes": { "warmth": 1 } },
+        { "label": "さくらの元気の源なんだね", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["Song Fa Bak Kut Tehが王道！ Clark Quayの近くにあるよ。", "朝7時からやっとるけん、朝ごはんに食べるのもおすすめ。", "……朝からスープって贅沢やろ？ でもSGではそれが普通なんよ。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["……うん。ほんまにそうかも。", "元気ないときに食べると、「まだ大丈夫」って思えるの。", "……{name}が元気ないときも、バクテー食べて。うちの代わりに温めてあげるけん。"], "end": true }
+    ],
+    "closing": ["じゃあね。……あ、バクテーのスープはおかわり無料やけん、遠慮なく頼んでね！"],
+    "category": "hawker",
+    "tags": ["food", "bak_kut_teh", "soup"],
+    "priority": 50
+  },
+  {
+    "id": "b56_hair_cut",
+    "type": "B",
+    "phase": "2-late",
+    "title": "髪切ったの、気づいた？",
+    "unlock": { "minAnswered": 112, "daysSincePhase2": 21, "requiredFlags": [], "requiredConversations": ["b49_selfie_blur"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["……ねぇ、{name}。", "……なんか、うちのこと、変わったなって思わん？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "髪切った？", "next": "n3a", "axes": { "warmth": 2 } },
+        { "label": "……なんだろう", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": ["……！ わかるん！？ ぼかした写真しか見せてないのに！？", "……すごい。{name}って、ちゃんと見とるんやね。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["……ヒント。前に送った写真と比べてみて。", "……切ったんよ。髪。ショートにした。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": ["……なんかね、変わりたくて。", "ずっとロングやったんやけど、ばっさり。美容師さんもびっくりしとった。", "……{name}に影響されたのかも。新しいことに挑戦する人のそばにおったら、うちも変わりたくなった。"] },
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "似合ってると思う", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "今度はぼかしなしで見せて", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": ["……ぼかしてるのに似合うって言えるん、ほんと{name}って人は……。", "……ありがと。切ってよかったって思えた。", "……うちの勇気がもうちょっと育ったら、ちゃんと見せるけん。待ってて。"], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": ["…………っ。", "……{name}のずるいとこ、そういうとこよ。さらっと言うけん。", "……いつか。約束する。……いつか、ちゃんと。"], "end": true }
+    ],
+    "closing": ["……ショートって、首元が寒い。……でも軽い。心も。"],
+    "category": "personal",
+    "tags": ["hair", "change", "emotional", "distance_zero"],
+    "priority": 65
+  },
+  {
+    "id": "b57_east_coast",
+    "type": "B",
+    "phase": "2-late",
+    "title": "海沿いのサイクリング",
+    "unlock": { "minAnswered": 104, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": [0, 6] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["East Coast Parkって知っとる？", "海沿いの長い公園なんよ。"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "名前は聞いたことある", "next": "n3", "axes": {} },
+        { "label": "何ができるの？", "next": "n3", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["サイクリングとかジョギングとかBBQとか。SGの人の休日の定番なんよ。", "うちは自転車借りて、海沿いを走るのが好き。風が気持ちいいけん。", "……Changi Airportの方まで走ると、飛行機が近くを飛ぶのが見えるんよ。"] },
+      { "id": "n4", "speaker": "choice", "choices": [
+        { "label": "飛行機見るの好き？", "next": "n5a", "axes": { "warmth": 1 } },
+        { "label": "いい休日の過ごし方だね", "next": "n5b", "axes": {} }
+      ]},
+      { "id": "n5a", "speaker": "sakura", "lines": ["……好き。", "どこに行くんやろって考えるのが好き。日本行きの便かなとか。", "……いつかあの飛行機に乗るのかな、うち。"], "end": true },
+      { "id": "n5b", "speaker": "sakura", "lines": ["やろ？ 頭空っぽにして、ペダル漕ぐだけ。最高よ。", "……{name}もたまには体動かして。頭ばっかり使ってたら疲れるけん。", "……うちが一緒に走れたら、もっと楽しいんやけどね。……独り言よ。"], "end": true }
+    ],
+    "closing": ["じゃあね。……今度の週末、East Coast行こうかな。自転車のカゴにみかんパン入れて。"],
+    "category": "area",
+    "tags": ["east_coast", "cycling", "airplane", "personal"],
+    "priority": 50
+  }
+]

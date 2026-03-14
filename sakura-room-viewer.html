@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>さくらの部屋 — 会話ビューア</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', 'Hiragino Sans', 'Meiryo', sans-serif; background: #1a1a2e; color: #e0e0e0; }
+
+.app { display: flex; height: 100vh; }
+
+/* --- sidebar --- */
+.sidebar {
+  width: 300px; min-width: 300px; background: #16213e; border-right: 1px solid #0f3460;
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.sidebar h2 { padding: 16px; font-size: 14px; color: #e94560; border-bottom: 1px solid #0f3460; }
+.file-btn {
+  display: block; width: 100%; padding: 10px 16px; text-align: left; background: none;
+  border: none; border-bottom: 1px solid #0f3460; color: #e0e0e0; cursor: pointer; font-size: 13px;
+}
+.file-btn:hover { background: #0f3460; }
+.file-btn.active { background: #e94560; color: #fff; }
+.conv-list { flex: 1; overflow-y: auto; }
+.conv-btn {
+  display: block; width: 100%; padding: 10px 16px; text-align: left; background: none;
+  border: none; border-bottom: 1px solid #0f3460; color: #e0e0e0; cursor: pointer; font-size: 13px;
+}
+.conv-btn:hover { background: #0f3460; }
+.conv-btn.active { background: #0f3460; border-left: 3px solid #e94560; }
+.conv-btn .conv-id { font-size: 11px; color: #888; }
+.conv-btn .conv-title { margin-top: 2px; }
+.conv-btn .conv-meta { font-size: 11px; color: #666; margin-top: 2px; }
+
+/* --- main --- */
+.main { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+
+/* header */
+.chat-header {
+  padding: 12px 20px; background: #16213e; border-bottom: 1px solid #0f3460;
+  display: flex; align-items: center; gap: 12px;
+}
+.avatar {
+  width: 40px; height: 40px; border-radius: 50%; background: #e94560;
+  display: flex; align-items: center; justify-content: center; font-size: 20px;
+}
+.header-info h3 { font-size: 15px; }
+.header-info .meta { font-size: 11px; color: #888; }
+
+/* toolbar */
+.toolbar {
+  padding: 6px 20px; background: #121a30; border-bottom: 1px solid #0f3460;
+  display: flex; gap: 8px; align-items: center;
+}
+.toolbar button {
+  padding: 4px 12px; border-radius: 6px; border: 1px solid #0f3460;
+  background: #16213e; color: #e0e0e0; cursor: pointer; font-size: 12px;
+}
+.toolbar button:hover { background: #0f3460; }
+.toolbar button.editing { background: #4caf50; color: #fff; border-color: #4caf50; }
+.toolbar .diff-count { font-size: 11px; color: #e94560; margin-left: 8px; }
+.toolbar .spacer { flex: 1; }
+.placeholder-bar { display: flex; gap: 4px; align-items: center; }
+.placeholder-bar .ph-label { font-size: 11px; color: #666; margin-right: 4px; }
+.placeholder-bar button {
+  padding: 2px 8px; font-size: 11px; border-radius: 4px;
+  background: #0f3460; border: 1px solid #1a4a8a; color: #8ab4f8;
+}
+.placeholder-bar button:hover { background: #1a4a8a; }
+
+/* chat area */
+.chat-area { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 8px; }
+
+.bubble-group { display: flex; flex-direction: column; gap: 4px; max-width: 75%; }
+.bubble-group.sakura { align-self: flex-start; }
+.bubble-group.choice { align-self: flex-end; }
+.bubble-group.narration { align-self: center; }
+.bubble-group.image { align-self: flex-start; }
+
+.bubble {
+  padding: 10px 14px; border-radius: 16px; font-size: 14px; line-height: 1.6;
+  word-break: break-word; white-space: pre-wrap;
+}
+.bubble[contenteditable="true"] {
+  outline: 1px dashed #4caf50; cursor: text;
+}
+.bubble[contenteditable="true"]:focus {
+  outline: 2px solid #4caf50; background: #2a3a2a;
+}
+.bubble.modified {
+  border-left: 3px solid #ffa500;
+}
+.sakura .bubble { background: #2a2a4a; border-bottom-left-radius: 4px; color: #f0f0f0; }
+.choice .bubble { background: #e94560; color: #fff; border-bottom-right-radius: 4px; }
+.narration .bubble { background: none; color: #888; font-style: italic; font-size: 13px; }
+.image .bubble { background: #2a2a4a; border-bottom-left-radius: 4px; padding: 8px; }
+.image .bubble .img-placeholder {
+  background: #3a3a5a; border-radius: 8px; padding: 20px; text-align: center;
+  color: #888; font-size: 12px; margin-bottom: 6px;
+}
+.image .bubble .caption { font-size: 13px; color: #ccc; }
+
+.speaker-label { font-size: 11px; color: #888; margin-bottom: 2px; padding-left: 4px; }
+
+/* choice options */
+.choice-options { display: flex; flex-direction: column; gap: 6px; align-self: flex-end; max-width: 75%; }
+.choice-option {
+  padding: 8px 14px; border-radius: 16px; border: 1px solid #e94560; color: #e94560;
+  font-size: 13px; cursor: pointer; text-align: right; transition: all 0.15s;
+}
+.choice-option:hover { background: #e94560; color: #fff; }
+.choice-option.selected { background: #e94560; color: #fff; }
+.choice-option[contenteditable="true"] { cursor: text; }
+.choice-option.modified { border-color: #ffa500; color: #ffa500; }
+.choice-label-text { display: block; }
+.choice-label-text[contenteditable="true"] { outline: 1px dashed #4caf50; border-radius: 4px; padding: 2px 4px; }
+.choice-label-text[contenteditable="true"]:focus { outline: 2px solid #4caf50; background: rgba(76,175,80,0.15); }
+.choice-label-text.modified { color: #ffa500; }
+.choice-flags { font-size: 10px; color: #666; margin-top: 2px; text-align: right; }
+
+/* flow arrow */
+.flow-arrow { text-align: center; color: #444; font-size: 12px; padding: 4px 0; }
+.flow-next { font-size: 10px; color: #555; margin-left: 8px; }
+
+/* branch container */
+.branch-container { border-left: 2px solid #333; margin-left: 20px; padding-left: 12px; margin-top: 4px; }
+.branch-label { font-size: 11px; color: #e94560; margin-bottom: 4px; }
+.node-link { color: #8ab4f8; cursor: pointer; text-decoration: underline; }
+.node-link:hover { color: #bbdaff; }
+.choice-next-link { font-size: 10px; margin-left: 6px; opacity: 0.7; }
+.flow-next .node-link { font-size: 10px; }
+@keyframes node-flash { 0% { background: rgba(138,180,248,0.3); } 100% { background: transparent; } }
+.node-flash { animation: node-flash 1s ease-out; }
+
+/* closing */
+.closing-section {
+  margin-top: 12px; padding-top: 12px; border-top: 1px dashed #333;
+}
+.closing-label { font-size: 11px; color: #e94560; margin-bottom: 4px; }
+
+/* info panel */
+.info-panel {
+  padding: 12px 20px; background: #16213e; border-top: 1px solid #0f3460;
+  font-size: 12px; color: #888; display: flex; gap: 16px; flex-wrap: wrap;
+}
+.info-panel span { white-space: nowrap; }
+.info-panel .tag { background: #0f3460; padding: 2px 8px; border-radius: 8px; font-size: 11px; }
+
+/* diff overlay */
+.diff-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.8); display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+}
+.diff-box {
+  background: #16213e; border: 1px solid #0f3460; border-radius: 12px;
+  padding: 20px; width: 700px; max-height: 80vh; display: flex; flex-direction: column;
+}
+.diff-box h3 { color: #e94560; margin-bottom: 12px; font-size: 15px; }
+.diff-box textarea {
+  flex: 1; min-height: 300px; background: #1a1a2e; color: #e0e0e0; border: 1px solid #0f3460;
+  border-radius: 8px; padding: 12px; font-family: 'Consolas', 'Monaco', monospace; font-size: 13px;
+  line-height: 1.6; resize: none;
+}
+.diff-box .actions { margin-top: 12px; display: flex; gap: 8px; justify-content: flex-end; }
+.diff-box .actions button {
+  padding: 8px 20px; border-radius: 8px; border: none; cursor: pointer; font-size: 13px;
+}
+.diff-box .copy-btn { background: #e94560; color: #fff; }
+.diff-box .close-btn { background: #333; color: #e0e0e0; }
+.diff-box .copied { color: #4caf50; font-size: 12px; margin-right: auto; align-self: center; }
+
+/* reviewed badge */
+.conv-btn .badge-reviewed { display: inline-block; font-size: 9px; padding: 1px 6px; border-radius: 6px; background: #4caf50; color: #fff; margin-left: 6px; }
+.conv-btn .badge-unreviewed { display: inline-block; font-size: 9px; padding: 1px 6px; border-radius: 6px; background: #555; color: #aaa; margin-left: 6px; }
+
+/* filter bar */
+.filter-bar { padding: 8px 16px; border-bottom: 1px solid #0f3460; display: flex; gap: 4px; flex-wrap: wrap; }
+.filter-bar button { padding: 3px 10px; border-radius: 10px; border: 1px solid #333; background: none; color: #888; cursor: pointer; font-size: 11px; }
+.filter-bar button:hover { border-color: #e94560; color: #e94560; }
+.filter-bar button.active { background: #e94560; color: #fff; border-color: #e94560; }
+.filter-bar .count { font-size: 10px; color: #555; margin-left: auto; align-self: center; }
+
+/* list overview */
+.list-view { padding: 20px; overflow-y: auto; flex: 1; }
+.list-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.list-table th { text-align: left; padding: 8px 12px; border-bottom: 2px solid #333; color: #888; font-weight: normal; font-size: 11px; }
+.list-table td { padding: 6px 12px; border-bottom: 1px solid #222; }
+.list-table tr:hover { background: #1a2a4a; cursor: pointer; }
+.list-table .status-dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; }
+.list-table .status-dot.reviewed { background: #4caf50; }
+.list-table .status-dot.unreviewed { background: #555; }
+.list-table .type-badge { font-size: 10px; padding: 1px 6px; border-radius: 4px; }
+.list-table .type-badge.A { background: #e94560; color: #fff; }
+.list-table .type-badge.B { background: #0f3460; color: #8ab4f8; }
+.list-table .type-badge.C { background: #3a2a5a; color: #b388ff; }
+.list-table .type-badge.D { background: #2a4a3a; color: #81c784; }
+
+/* reviewed toggle in toolbar */
+.reviewed-toggle {
+  padding: 4px 12px; border-radius: 6px; border: 1px solid #4caf50;
+  background: none; color: #4caf50; cursor: pointer; font-size: 12px;
+}
+.reviewed-toggle:hover { background: rgba(76,175,80,0.2); }
+.reviewed-toggle.is-reviewed { background: #4caf50; color: #fff; }
+
+/* empty state */
+.empty {
+  flex: 1; display: flex; align-items: center; justify-content: center;
+  color: #444; font-size: 16px;
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sidebar">
+    <h2>🌸 さくらの部屋ビューア</h2>
+    <div id="fileList"></div>
+    <div class="filter-bar" id="filterBar" style="display:none;">
+      <button class="active" onclick="setFilter('all', this)">全て</button>
+      <button onclick="setFilter('unreviewed', this)">未監修</button>
+      <button onclick="setFilter('reviewed', this)">監修済</button>
+      <span class="count" id="filterCount"></span>
+    </div>
+    <div class="conv-list" id="convList"></div>
+  </div>
+  <div class="main">
+    <div class="toolbar" id="toolbar" style="display:none;">
+      <button id="editToggle" onclick="toggleEdit()">✏️ 編集モード</button>
+      <button id="diffBtn" onclick="showDiff()" style="display:none;">📋 変更をコピー</button>
+      <button id="resetBtn" onclick="resetEdits()" style="display:none;">↩️ リセット</button>
+      <span class="diff-count" id="diffCount"></span>
+      <button class="reviewed-toggle" id="reviewedBtn" onclick="toggleReviewed()" style="display:none;">未監修</button>
+      <span class="spacer"></span>
+      <button onclick="showListView()">📋 一覧表</button>
+      <div class="placeholder-bar" id="phBar" style="display:none;">
+        <span class="ph-label">挿入:</span>
+        <button onclick="insertPh('{name}')">&#123;name&#125;</button>
+        <button onclick="insertPh('{sg_days}')">&#123;sg_days&#125;</button>
+      </div>
+    </div>
+    <div class="chat-header" id="chatHeader" style="display:none;">
+      <div class="avatar">🌸</div>
+      <div class="header-info">
+        <h3 id="headerTitle"></h3>
+        <div class="meta" id="headerMeta"></div>
+      </div>
+    </div>
+    <div class="chat-area" id="chatArea">
+      <div class="empty">← 左からファイルと会話を選んでください</div>
+    </div>
+    <div class="info-panel" id="infoPanel" style="display:none;"></div>
+  </div>
+</div>
+
+<script>
+const FILES = [
+  { name: 'A種: Phase2 Early', path: 'data/sakura-room/phase2-early.json' },
+  { name: 'B種: Phase2 Early', path: 'data/sakura-room/phase2-early-b.json' },
+  { name: 'B種: Phase2 Mid', path: 'data/sakura-room/phase2-mid-b.json' },
+  { name: 'B種: Phase2 Late', path: 'data/sakura-room/phase2-late-b.json' },
+  { name: 'B種: Phase3', path: 'data/sakura-room/phase3-b.json' },
+  { name: 'B種: テーマ会話サンプル', path: 'data/sakura-room/b-samples.json' },
+  { name: 'C種: リアクション会話', path: 'data/sakura-room/c-samples.json' },
+  { name: 'D種: 時間帯会話', path: 'data/sakura-room/d-samples.json' },
+  { name: '締めパターン', path: 'data/sakura-room/closings.json' },
+];
+
+let currentConversations = [];
+let allLoadedConversations = []; // all files' conversations for list view
+let currentConv = null;
+let activeFileBtn = null;
+let activeConvBtn = null;
+let editMode = false;
+let currentFilter = 'all';
+
+// --- reviewed tracking (localStorage) ---
+const REVIEWED_KEY = 'sakura-room-reviewed';
+function getReviewedSet() {
+  try { return new Set(JSON.parse(localStorage.getItem(REVIEWED_KEY) || '[]')); } catch { return new Set(); }
+}
+function saveReviewedSet(set) {
+  localStorage.setItem(REVIEWED_KEY, JSON.stringify([...set]));
+}
+function isReviewed(convId) { return getReviewedSet().has(convId); }
+function toggleReviewed() {
+  if (!currentConv) return;
+  const set = getReviewedSet();
+  if (set.has(currentConv.id)) { set.delete(currentConv.id); } else { set.add(currentConv.id); }
+  saveReviewedSet(set);
+  updateReviewedBtn();
+  refreshConvList();
+}
+function updateReviewedBtn() {
+  const btn = document.getElementById('reviewedBtn');
+  if (!currentConv) { btn.style.display = 'none'; return; }
+  btn.style.display = '';
+  const rev = isReviewed(currentConv.id);
+  btn.textContent = rev ? '✅ 監修済' : '未監修';
+  btn.classList.toggle('is-reviewed', rev);
+}
+
+// --- filter ---
+function setFilter(f, btnEl) {
+  currentFilter = f;
+  document.querySelectorAll('.filter-bar button').forEach(b => b.classList.remove('active'));
+  if (btnEl) btnEl.classList.add('active');
+  refreshConvList();
+}
+function refreshConvList() {
+  const convList = document.getElementById('convList');
+  convList.innerHTML = '';
+  const reviewedSet = getReviewedSet();
+  let shown = 0;
+  currentConversations.forEach(conv => {
+    const rev = reviewedSet.has(conv.id);
+    if (currentFilter === 'reviewed' && !rev) return;
+    if (currentFilter === 'unreviewed' && rev) return;
+    shown++;
+    const btn = document.createElement('button');
+    btn.className = 'conv-btn' + (currentConv && currentConv.id === conv.id ? ' active' : '');
+    const badge = rev ? '<span class="badge-reviewed">済</span>' : '<span class="badge-unreviewed">未</span>';
+    btn.innerHTML = `<div class="conv-id">${conv.id} ${badge}</div><div class="conv-title">${conv.title || ''}</div><div class="conv-meta">${conv.type || ''} / ${conv.phase || ''} / ${conv.category || ''}</div>`;
+    btn.onclick = () => { selectConversation(conv, btn); };
+    convList.appendChild(btn);
+  });
+  document.getElementById('filterCount').textContent = `${shown}/${currentConversations.length}`;
+}
+
+// --- edit tracking ---
+// key: "convId > nodeId > lineIndex" or "convId > nodeId > choiceIndex > label"
+// value: { original, current }
+const edits = {};
+
+function trackEdit(key, originalText, element) {
+  const orig = originalText;
+  element.addEventListener('input', () => {
+    const current = element.textContent.trim();
+    if (current !== orig) {
+      edits[key] = { original: orig, current };
+      element.classList.add('modified');
+    } else {
+      delete edits[key];
+      element.classList.remove('modified');
+    }
+    updateDiffCount();
+  });
+}
+
+function updateDiffCount() {
+  const count = Object.keys(edits).length;
+  const el = document.getElementById('diffCount');
+  const diffBtn = document.getElementById('diffBtn');
+  const resetBtn = document.getElementById('resetBtn');
+  el.textContent = count > 0 ? `${count}件の変更` : '';
+  diffBtn.style.display = count > 0 ? '' : 'none';
+  resetBtn.style.display = count > 0 ? '' : 'none';
+}
+
+function toggleEdit() {
+  editMode = !editMode;
+  document.getElementById('editToggle').classList.toggle('editing', editMode);
+  document.getElementById('phBar').style.display = editMode ? 'flex' : 'none';
+  // re-render to apply contenteditable
+  if (currentConv) renderConversation(currentConv);
+}
+
+// --- placeholder insertion ---
+let lastFocusedEditable = null;
+document.addEventListener('focusin', (e) => {
+  if (e.target.getAttribute('contenteditable') === 'true') {
+    lastFocusedEditable = e.target;
+  }
+});
+
+function insertPh(ph) {
+  if (!lastFocusedEditable) return;
+  lastFocusedEditable.focus();
+  const sel = window.getSelection();
+  if (sel.rangeCount) {
+    const range = sel.getRangeAt(0);
+    range.deleteContents();
+    range.insertNode(document.createTextNode(ph));
+    range.collapse(false);
+  } else {
+    lastFocusedEditable.textContent += ph;
+  }
+  lastFocusedEditable.dispatchEvent(new Event('input'));
+}
+
+function resetEdits() {
+  Object.keys(edits).forEach(k => delete edits[k]);
+  updateDiffCount();
+  if (currentConv) renderConversation(currentConv);
+}
+
+function showDiff() {
+  const keys = Object.keys(edits);
+  if (!keys.length) return;
+
+  // group by conversation id (first part of key before " > ")
+  const groups = {};
+  keys.forEach(key => {
+    const convId = key.split(' > ')[0];
+    if (!groups[convId]) groups[convId] = [];
+    groups[convId].push(key);
+  });
+
+  const convIds = Object.keys(groups);
+  let text = `=== さくらの部屋 修正diff ===\n`;
+  text += `日時: ${new Date().toLocaleString('ja-JP')}\n`;
+  text += `会話数: ${convIds.length}　変更: ${keys.length}件\n`;
+  text += `${'─'.repeat(40)}\n`;
+
+  convIds.forEach(convId => {
+    text += `\n【${convId}】（${groups[convId].length}件）\n\n`;
+    groups[convId].forEach(key => {
+      const e = edits[key];
+      text += `[${key}]\n`;
+      text += `旧: ${e.original}\n`;
+      text += `新: ${e.current}\n\n`;
+    });
+  });
+
+  // show overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'diff-overlay';
+  overlay.innerHTML = `
+    <div class="diff-box">
+      <h3>📋 修正diff（${convIds.length}会話 / ${keys.length}件）</h3>
+      <textarea id="diffText" readonly></textarea>
+      <div class="actions">
+        <span class="copied" id="copiedMsg" style="display:none;">✓ コピーしました</span>
+        <button class="copy-btn" onclick="copyDiff()">クリップボードにコピー</button>
+        <button class="close-btn" onclick="this.closest('.diff-overlay').remove()">閉じる</button>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  document.getElementById('diffText').value = text;
+  overlay.addEventListener('click', (ev) => { if (ev.target === overlay) overlay.remove(); });
+}
+
+function copyDiff() {
+  const ta = document.getElementById('diffText');
+  navigator.clipboard.writeText(ta.value).then(() => {
+    document.getElementById('copiedMsg').style.display = '';
+    setTimeout(() => {
+      const msg = document.getElementById('copiedMsg');
+      if (msg) msg.style.display = 'none';
+    }, 2000);
+  });
+}
+
+// --- file list ---
+const fileList = document.getElementById('fileList');
+FILES.forEach(f => {
+  const btn = document.createElement('button');
+  btn.className = 'file-btn';
+  btn.textContent = f.name;
+  btn.dataset.path = f.path;
+  btn.onclick = () => {
+    loadFile(f.path, btn);
+  };
+  fileList.appendChild(btn);
+});
+
+async function loadFile(path, btn) {
+  if (activeFileBtn) activeFileBtn.classList.remove('active');
+  btn.classList.add('active');
+  activeFileBtn = btn;
+
+  const res = await fetch(path + '?t=' + Date.now());
+  const data = await res.json();
+
+  const convList = document.getElementById('convList');
+  convList.innerHTML = '';
+
+  // keep edits across file changes (don't reset)
+  updateDiffCount();
+
+  // closings.json is different structure
+  if (data.closings) {
+    currentConversations = [];
+    currentConv = null;
+    renderClosings(data.closings);
+    return;
+  }
+
+  currentConversations = Array.isArray(data) ? data : [data];
+  document.getElementById('filterBar').style.display = 'flex';
+  currentFilter = 'all';
+  document.querySelectorAll('.filter-bar button').forEach((b,i) => b.classList.toggle('active', i === 0));
+  refreshConvList();
+
+  // auto-select first visible
+  const firstBtn = document.querySelector('#convList .conv-btn');
+  if (firstBtn) firstBtn.click();
+}
+
+function selectConversation(conv, btn) {
+  if (activeConvBtn) activeConvBtn.classList.remove('active');
+  if (btn) { btn.classList.add('active'); activeConvBtn = btn; }
+  renderConversation(conv);
+  updateReviewedBtn();
+}
+
+// --- list view (all files) ---
+async function showListView() {
+  // load all files
+  const allConvs = [];
+  for (const f of FILES) {
+    if (f.path.includes('closings')) continue;
+    try {
+      const res = await fetch(f.path + '?t=' + Date.now());
+      const data = await res.json();
+      const convs = Array.isArray(data) ? data : [data];
+      convs.forEach(c => { c._file = f.name; allConvs.push(c); });
+    } catch(e) { /* skip */ }
+  }
+  allLoadedConversations = allConvs;
+
+  const reviewedSet = getReviewedSet();
+  const area = document.getElementById('chatArea');
+  const header = document.getElementById('chatHeader');
+  const info = document.getElementById('infoPanel');
+  header.style.display = 'none';
+  info.style.display = 'none';
+
+  const total = allConvs.length;
+  const revCount = allConvs.filter(c => reviewedSet.has(c.id)).length;
+
+  let html = `<div class="list-view"><h3 style="color:#e94560;margin-bottom:12px;">全会話一覧（${revCount}/${total} 監修済）</h3>`;
+  html += `<table class="list-table"><thead><tr><th></th><th>種別</th><th>ID</th><th>タイトル</th><th>Phase</th><th>カテゴリ</th><th>ファイル</th></tr></thead><tbody>`;
+
+  allConvs.forEach((c, i) => {
+    const rev = reviewedSet.has(c.id);
+    const dotClass = rev ? 'reviewed' : 'unreviewed';
+    const typeClass = c.type || '';
+    html += `<tr onclick="jumpToConv('${c._file}','${c.id}')">`;
+    html += `<td><span class="status-dot ${dotClass}"></span></td>`;
+    html += `<td><span class="type-badge ${typeClass}">${c.type || '?'}</span></td>`;
+    html += `<td>${c.id}</td>`;
+    html += `<td>${c.title || ''}</td>`;
+    html += `<td>${c.phase || ''}</td>`;
+    html += `<td>${c.category || ''}</td>`;
+    html += `<td style="font-size:11px;color:#666">${c._file}</td>`;
+    html += `</tr>`;
+  });
+
+  html += `</tbody></table></div>`;
+  area.innerHTML = html;
+}
+
+function jumpToConv(fileName, convId) {
+  // find the file button and click it, then find the conv
+  const fileBtn = [...document.querySelectorAll('.file-btn')].find(b => b.textContent === fileName);
+  if (fileBtn) {
+    fileBtn.click();
+    // wait for load, then find conv button
+    setTimeout(() => {
+      const convBtn = [...document.querySelectorAll('.conv-btn')].find(b => b.querySelector('.conv-id')?.textContent?.includes(convId));
+      if (convBtn) convBtn.click();
+    }, 200);
+  }
+}
+
+// --- render conversation ---
+function renderConversation(conv) {
+  currentConv = conv;
+  const area = document.getElementById('chatArea');
+  const header = document.getElementById('chatHeader');
+  const panel = document.getElementById('infoPanel');
+  const toolbar = document.getElementById('toolbar');
+  area.innerHTML = '';
+  header.style.display = 'flex';
+  panel.style.display = 'flex';
+  toolbar.style.display = 'flex';
+
+  document.getElementById('headerTitle').textContent = conv.title;
+  document.getElementById('headerMeta').textContent =
+    `${conv.id} | Phase ${conv.phase} | Type ${conv.type}`;
+  updateReviewedBtn();
+
+  // build node map
+  const nodeMap = {};
+  conv.nodes.forEach(n => { nodeMap[n.id] = n; });
+
+  // render nodes in sequence, following flow
+  const rendered = new Set();
+  function renderNode(nodeId, depth = 0) {
+    if (!nodeId || rendered.has(nodeId)) return;
+    const node = nodeMap[nodeId];
+    if (!node) return;
+    rendered.add(nodeId);
+
+    if (node.speaker === 'sakura') {
+      if (node.lines && node.lines.length > 0) {
+        const group = mkEl('div', 'bubble-group sakura');
+        group.id = 'node-' + node.id;
+        const label = mkEl('div', 'speaker-label', 'さくら');
+        group.appendChild(label);
+        node.lines.forEach((line, li) => {
+          const bubble = mkEl('div', 'bubble', displayName(line));
+          if (editMode) {
+            bubble.setAttribute('contenteditable', 'true');
+            bubble.textContent = line; // raw text for editing
+            const key = `${conv.id} > ${node.id} > line[${li}]`;
+            // restore previous edit if exists
+            if (edits[key]) {
+              bubble.textContent = edits[key].current;
+              bubble.classList.add('modified');
+            }
+            trackEdit(key, line, bubble);
+          }
+          group.appendChild(bubble);
+        });
+        if (node.next) {
+          group.appendChild(flowNextEl(node.next));
+        }
+        area.appendChild(group);
+      }
+      if (node.end) {
+        area.appendChild(mkEl('div', 'flow-arrow', '— 会話終了 —'));
+        renderClosing(conv.closing);
+        return;
+      }
+      // follow next
+      const next = node.next || getNextInArray(conv.nodes, node.id);
+      renderNode(next, depth);
+
+    } else if (node.speaker === 'choice') {
+      // show all choices
+      const optionsDiv = mkEl('div', 'choice-options');
+      optionsDiv.id = 'node-' + node.id;
+      node.choices.forEach((c, ci) => {
+        const opt = mkEl('div', 'choice-option');
+        const labelSpan = mkEl('span', 'choice-label-text', c.label);
+        if (editMode) {
+          labelSpan.setAttribute('contenteditable', 'true');
+          const key = `${conv.id} > ${node.id} > choice[${ci}].label`;
+          if (edits[key]) {
+            labelSpan.textContent = edits[key].current;
+            labelSpan.classList.add('modified');
+          }
+          trackEdit(key, c.label, labelSpan);
+        }
+        opt.appendChild(labelSpan);
+        if (c.next) {
+          const arrow = document.createElement('span');
+          arrow.className = 'choice-next-link';
+          arrow.appendChild(document.createTextNode(' → '));
+          arrow.appendChild(nodeLink(c.next));
+          opt.appendChild(arrow);
+        }
+        const meta = [];
+        if (c.axes && Object.keys(c.axes).length) meta.push('axes:' + JSON.stringify(c.axes));
+        if (c.flags && Object.keys(c.flags).length) meta.push('flags:' + JSON.stringify(c.flags));
+        if (meta.length) {
+          opt.appendChild(mkEl('div', 'choice-flags', meta.join(' ')));
+        }
+        optionsDiv.appendChild(opt);
+      });
+      area.appendChild(optionsDiv);
+
+      // render each branch
+      const branchTargets = [...new Set(node.choices.map(c => c.next))];
+      branchTargets.forEach(target => {
+        const labels = node.choices.filter(c => c.next === target).map(c => `「${c.label}」`);
+        const container = mkEl('div', 'branch-container');
+        container.appendChild(branchLabelEl(labels.join(' / '), target));
+        area.appendChild(container);
+
+        // render the target node inside branch
+        renderBranchNode(target, container, depth + 1);
+      });
+
+    } else if (node.speaker === 'image') {
+      const group = mkEl('div', 'bubble-group image');
+      group.id = 'node-' + node.id;
+      group.appendChild(mkEl('div', 'speaker-label', 'さくら'));
+      const bubble = mkEl('div', 'bubble');
+      const placeholder = mkEl('div', 'img-placeholder', `📷 ${node.src || ''}\n${node.alt || ''}`);
+      bubble.appendChild(placeholder);
+      if (node.caption) {
+        const cap = mkEl('div', 'caption', displayName(node.caption));
+        if (editMode) {
+          cap.setAttribute('contenteditable', 'true');
+          cap.textContent = node.caption;
+          const key = `${conv.id} > ${node.id} > caption`;
+          if (edits[key]) {
+            cap.textContent = edits[key].current;
+            cap.classList.add('modified');
+          }
+          trackEdit(key, node.caption, cap);
+        }
+        bubble.appendChild(cap);
+      }
+      group.appendChild(bubble);
+      area.appendChild(group);
+      const next = node.next || getNextInArray(conv.nodes, node.id);
+      renderNode(next, depth);
+
+    } else if (node.speaker === 'narration') {
+      const group = mkEl('div', 'bubble-group narration');
+      group.id = 'node-' + node.id;
+      const bubble = mkEl('div', 'bubble', node.text);
+      if (editMode) {
+        bubble.setAttribute('contenteditable', 'true');
+        bubble.textContent = node.text;
+        const key = `${conv.id} > ${node.id} > narration`;
+        if (edits[key]) {
+          bubble.textContent = edits[key].current;
+          bubble.classList.add('modified');
+        }
+        trackEdit(key, node.text, bubble);
+      }
+      group.appendChild(bubble);
+      area.appendChild(group);
+      const next = node.next || getNextInArray(conv.nodes, node.id);
+      renderNode(next, depth);
+    }
+  }
+
+  function renderBranchNode(nodeId, container, depth) {
+    if (!nodeId || rendered.has(nodeId)) {
+      if (nodeId && rendered.has(nodeId)) {
+        container.appendChild(flowArrowLink('↩', nodeId));
+      }
+      return;
+    }
+    const node = nodeMap[nodeId];
+    if (!node) return;
+    rendered.add(nodeId);
+
+    if (node.speaker === 'sakura') {
+      if (node.lines && node.lines.length > 0) {
+        const group = mkEl('div', 'bubble-group sakura');
+        group.id = 'node-' + node.id;
+        node.lines.forEach((line, li) => {
+          const bubble = mkEl('div', 'bubble', displayName(line));
+          if (editMode) {
+            bubble.setAttribute('contenteditable', 'true');
+            bubble.textContent = line;
+            const key = `${conv.id} > ${node.id} > line[${li}]`;
+            if (edits[key]) {
+              bubble.textContent = edits[key].current;
+              bubble.classList.add('modified');
+            }
+            trackEdit(key, line, bubble);
+          }
+          group.appendChild(bubble);
+        });
+        container.appendChild(group);
+      }
+      if (node.end) {
+        container.appendChild(mkEl('div', 'flow-arrow', '— 会話終了 —'));
+        renderClosing(conv.closing, container);
+        return;
+      }
+      const next = node.next || getNextInArray(conv.nodes, node.id);
+      if (next && rendered.has(next)) {
+        container.appendChild(flowArrowLink('↩', next));
+        // continue from merge point in main flow
+        renderNode(next, depth - 1);
+      } else {
+        renderBranchNode(next, container, depth);
+      }
+    } else {
+      // choice inside branch — pop back to main
+      renderNode(nodeId, depth - 1);
+    }
+  }
+
+  // start rendering
+  renderNode(conv.nodes[0].id);
+
+  // info panel
+  const unlock = conv.unlock || {};
+  panel.innerHTML = `
+    <span><b>unlock:</b> ${unlock.minAnswered || 0}問〜</span>
+    <span>経過${unlock.daysSincePhase2 || 0}日〜</span>
+    ${unlock.timeWindow ? `<span>⏰ ${unlock.timeWindow.from}–${unlock.timeWindow.to}</span>` : ''}
+    ${unlock.dayOfWeek ? `<span>📅 [${unlock.dayOfWeek}]</span>` : ''}
+    ${unlock.requiredFlags && unlock.requiredFlags.length ? `<span>🚩 ${unlock.requiredFlags.join(', ')}</span>` : ''}
+    ${unlock.requiredConversations && unlock.requiredConversations.length ? `<span>💬 ${unlock.requiredConversations.join(', ')}</span>` : ''}
+    <span><b>tags:</b> ${(conv.tags || []).map(t => `<span class="tag">${t}</span>`).join(' ')}</span>
+  `;
+
+  area.scrollTop = 0;
+}
+
+function renderClosing(closing, parent) {
+  const target = parent || document.getElementById('chatArea');
+  const section = mkEl('div', 'closing-section');
+  section.appendChild(mkEl('div', 'closing-label', '締め（closing）'));
+  if (closing === 'auto') {
+    section.appendChild(mkEl('div', 'bubble-group narration',
+      '⏰ 時間帯に応じてclosings.jsonから自動選択'));
+  } else if (Array.isArray(closing)) {
+    const group = mkEl('div', 'bubble-group sakura');
+    closing.forEach(line => group.appendChild(mkEl('div', 'bubble', displayName(line))));
+    section.appendChild(group);
+  } else if (typeof closing === 'string') {
+    const group = mkEl('div', 'bubble-group sakura');
+    group.appendChild(mkEl('div', 'bubble', displayName(closing)));
+    section.appendChild(group);
+  }
+  target.appendChild(section);
+}
+
+// --- render closings file ---
+function renderClosings(closings) {
+  const area = document.getElementById('chatArea');
+  const header = document.getElementById('chatHeader');
+  const panel = document.getElementById('infoPanel');
+  const toolbar = document.getElementById('toolbar');
+  area.innerHTML = '';
+  header.style.display = 'flex';
+  panel.style.display = 'none';
+  toolbar.style.display = 'flex';
+  document.getElementById('headerTitle').textContent = `締めパターン（${closings.length}種）`;
+  document.getElementById('headerMeta').textContent = 'closings.json';
+
+  closings.forEach(c => {
+    const group = mkEl('div', 'bubble-group sakura');
+    const label = mkEl('div', 'speaker-label',
+      `${c.id}` +
+      (c.timeWindow ? ` ⏰${c.timeWindow.from}–${c.timeWindow.to}` : ' ⏰any') +
+      (c.dayOfWeek ? ` 📅[${c.dayOfWeek}]` : '') +
+      (c.phase ? ` 🌸Phase${c.phase}` : '')
+    );
+    group.appendChild(label);
+    c.lines.forEach(line => {
+      group.appendChild(mkEl('div', 'bubble', displayName(line)));
+    });
+    area.appendChild(group);
+  });
+}
+
+// --- helpers ---
+function mkEl(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text) e.innerHTML = text;
+  return e;
+}
+function displayName(s) {
+  return s.replace(/\{name\}/g, '<b style="color:#e94560">{name}</b>');
+}
+function nodeLink(nodeId) {
+  const a = document.createElement('span');
+  a.className = 'node-link';
+  a.textContent = nodeId;
+  a.onclick = (e) => {
+    e.stopPropagation();
+    const target = document.getElementById('node-' + nodeId);
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      target.classList.add('node-flash');
+      setTimeout(() => target.classList.remove('node-flash'), 1000);
+    }
+  };
+  return a;
+}
+
+function flowNextEl(nodeId) {
+  const div = document.createElement('div');
+  div.className = 'flow-next';
+  div.appendChild(document.createTextNode('→ '));
+  div.appendChild(nodeLink(nodeId));
+  return div;
+}
+
+function branchLabelEl(labels, target) {
+  const div = document.createElement('div');
+  div.className = 'branch-label';
+  div.appendChild(document.createTextNode(labels + ' → '));
+  div.appendChild(nodeLink(target));
+  return div;
+}
+
+function flowArrowLink(text, nodeId) {
+  const div = document.createElement('div');
+  div.className = 'flow-arrow';
+  div.appendChild(document.createTextNode('↩ '));
+  div.appendChild(nodeLink(nodeId));
+  div.appendChild(document.createTextNode(' へ合流'));
+  return div;
+}
+
+function getNextInArray(nodes, currentId) {
+  const idx = nodes.findIndex(n => n.id === currentId);
+  if (idx >= 0 && idx < nodes.length - 1) return nodes[idx + 1].id;
+  return null;
+}
+
+// --- restore from hash on load ---
+(function restoreFromHash() {
+  const hash = location.hash.slice(1); // remove #
+  if (!hash) return;
+  const parts = hash.split('/');
+  // hash format: "data/sakura-room/phase2-early.json/a01_first_room"
+  // find the file path (everything except last part if it's a conv id)
+  const fileBtns = document.querySelectorAll('.file-btn');
+  for (const fb of fileBtns) {
+    const fp = fb.dataset.path;
+    if (hash.startsWith(fp)) {
+      const convId = hash.slice(fp.length + 1); // after "path/"
+      fb.click();
+      // wait for async loadFile to finish, then select conv
+      if (convId) {
+        setTimeout(() => {
+          const convBtns = document.querySelectorAll('.conv-btn');
+          for (const cb of convBtns) {
+            if (cb.querySelector('.conv-id')?.textContent.startsWith(convId)) {
+              cb.click();
+              break;
+            }
+          }
+        }, 200);
+      }
+      break;
+    }
+  }
+})();
+</script>
+</body>
+</html>

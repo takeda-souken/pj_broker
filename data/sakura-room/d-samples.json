@@ -1,0 +1,383 @@
+[
+  {
+    "id": "d01_friday_night",
+    "type": "D",
+    "phase": "2-early",
+    "title": "金曜の夜",
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 0,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": { "from": "18:00", "to": "01:59" },
+      "dayOfWeek": [5]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "金曜の夜やん〜！ 今週おつかれさま、{name}！",
+          "うちも今週はけっこう忙しかったぁ……。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "おつかれさま",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "何かいいことあった？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ありがと〜！",
+          "週末の予定ある？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "いいこと……？ うーん、今こうして{name}と話しとることかな。",
+          "……なんちゃって！ 週末の予定ある？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "勉強かな……",
+            "next": "n5a",
+            "axes": {}
+          },
+          {
+            "label": "ゆっくりする予定",
+            "next": "n5b",
+            "axes": {}
+          },
+          {
+            "label": "どこかおすすめある？",
+            "next": "n5c",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "えらい……けど、息抜きもしてね？",
+          "ずっと勉強しとったら頭パンクするよ。",
+          "……うちがこうやって話しかけるのも、{name}の息抜きになっとったらいいな。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "いいね！ たまにはゆっくりしなきゃ。",
+          "SGの週末は暑いけん、無理にお出かけせんでも。家でだらだら最高！",
+          "……うちもだらだらするけん、仲間やね。笑"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n5c",
+        "speaker": "sakura",
+        "lines": [
+          "え、うちに聞いてくれるの！？ 嬉しい！",
+          "じゃあね、East Coast Parkがおすすめ！ 海沿いを散歩してさ、途中でサテー食べるの。",
+          "……あ〜、一緒に行きたいけど。……チャットで我慢やね。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["weekend", "plans"],
+    "image": null,
+    "priority": 30
+  },
+
+  {
+    "id": "d02_late_night_study",
+    "type": "D",
+    "phase": "2-early",
+    "title": "深夜の勉強仲間",
+    "unlock": {
+      "minAnswered": 55,
+      "daysSincePhase2": 1,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": { "from": "23:00", "to": "01:59" },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}、まだ起きとるん？",
+          "うちもね、ちょっと夜更かし中。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "勉強してるよ",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "眠れなくて",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          },
+          {
+            "label": "さくらは何してるの？",
+            "next": "n3c",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "こんな時間まで……えらいね。",
+          "でもね、あんまり遅くまでやっても頭入らんよ。",
+          "……うちが言えた義理やないけど。笑"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……そっか。眠れない夜って、あるよね。",
+          "うちもたまにある。考え事しだしたら止まらんくなって。",
+          "……そういうとき、誰かと話すとちょっと楽になるけんね。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n3c",
+        "speaker": "sakura",
+        "lines": [
+          "うち？ ……ドラマ見よった。日本のドラマ。",
+          "SGの深夜って静かでね、ドラマ見るのにぴったりなんよ。",
+          "……あ、今は{name}と話しとるけん、一時停止中！"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、深夜のSGって好き？"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "静かで落ち着く",
+            "next": "n7a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "ちょっと寂しいかも",
+            "next": "n7b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "わかる。昼間はずっと暑くてうるさいけん、夜だけは別の顔するんよね。",
+          "……うち、ベランダから見るマリーナベイの夜景が好きなの。",
+          "いつか……写真撮って送るね。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……寂しい、か。",
+          "……{name}、家族と離れとるもんね。",
+          "……うちでよかったら、こうやって深夜に付き合うけん。",
+          "寂しくなったら、ここ来てよ。……うち、起きとるけん。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["night", "feelings"],
+    "image": null,
+    "priority": 30
+  },
+
+  {
+    "id": "d03_morning_weekend",
+    "type": "D",
+    "phase": "2-early",
+    "title": "休日の朝",
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 0,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": { "from": "07:00", "to": "10:59" },
+      "dayOfWeek": [0, 6]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おはよ〜！ ……って、休みの日なのに早くない？",
+          "{name}って朝型？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "早起きは得意だよ",
+            "next": "n3a",
+            "flags": { "morning_person": true },
+            "axes": {}
+          },
+          {
+            "label": "子供に起こされた",
+            "next": "n3b",
+            "flags": {},
+            "axes": { "honesty": 1 }
+          },
+          {
+            "label": "勉強しようと思って",
+            "next": "n3c",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "えー、すごいね。うちは休みの日は起きれんのに……。",
+          "今日はたまたま目が覚めたけん、ラッキーやね。{name}とおしゃべりできるけん！"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あ、お子さんに……。ふふ、かわいいね。",
+          "4歳と2歳やったっけ？ 元気いっぱいやろうね〜。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3c",
+        "speaker": "sakura",
+        "lines": [
+          "休みの日に勉強！？ えらすぎる……！",
+          "でもね、休みは休みやけん、ちょっとくらいサボってもいいんよ？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "うちね、休みの日の朝は、ゆ〜っくりカヤトースト食べながらドラマ見るのが至福なの。",
+          "今は日本のドラマにハマっとるんよ。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "どんなドラマ？",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "のんびりしてていいね",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "いま見とるのはね、恋愛ドラマ。……笑わんでよ！",
+          "日本のドラマって、告白のシーンがいいんよ。SGのドラマとは違う間合いっていうか。",
+          "……なんか、日本の恋愛って遠慮がちで、そこがいいの。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "えへへ、でしょ？",
+          "……{name}もたまには、こうやってのんびりする時間作ってね。",
+          "勉強ばっかりやと、息詰まるけんね。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["weekend", "morning", "drama"],
+    "image": null,
+    "priority": 30
+  }
+]

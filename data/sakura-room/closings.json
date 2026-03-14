@@ -1,0 +1,159 @@
+{
+  "closings": [
+    {
+      "id": "cl_morning_01",
+      "timeWindow": { "from": "07:00", "to": "09:59" },
+      "lines": ["じゃ、仕事行ってくるね！ またね！"]
+    },
+    {
+      "id": "cl_morning_02",
+      "timeWindow": { "from": "07:00", "to": "09:59" },
+      "lines": ["あ、もうこんな時間！ 遅刻する〜！ またね！"]
+    },
+    {
+      "id": "cl_morning_03",
+      "timeWindow": { "from": "07:00", "to": "09:59" },
+      "lines": ["{name}も今日一日がんばってね！ うちも行ってくる！"]
+    },
+    {
+      "id": "cl_morning_04",
+      "timeWindow": { "from": "06:30", "to": "07:59" },
+      "lines": ["ん……まだ眠い……でも行かなきゃ。おはよ、{name}。また今度ね"]
+    },
+    {
+      "id": "cl_lunch_01",
+      "timeWindow": { "from": "10:00", "to": "13:59" },
+      "lines": ["あ、ランチ行かなきゃ！ ホーカー混むけん、急ぐね！"]
+    },
+    {
+      "id": "cl_lunch_02",
+      "timeWindow": { "from": "10:00", "to": "13:59" },
+      "lines": ["お腹すいた〜！ ちょっとご飯食べてくるね！"]
+    },
+    {
+      "id": "cl_lunch_03",
+      "timeWindow": { "from": "10:00", "to": "13:59" },
+      "lines": ["午後の会議やば、まだ準備してない！ ごめん、またね！"]
+    },
+    {
+      "id": "cl_afternoon_01",
+      "timeWindow": { "from": "14:00", "to": "17:59" },
+      "lines": ["あ、上司来た！ またね！"]
+    },
+    {
+      "id": "cl_afternoon_02",
+      "timeWindow": { "from": "14:00", "to": "17:59" },
+      "lines": ["ごめん、電話かかってきた！ また話そうね！"]
+    },
+    {
+      "id": "cl_afternoon_03",
+      "timeWindow": { "from": "14:00", "to": "17:59" },
+      "lines": ["あと少しで定時やけん、もうひと頑張り！ {name}もね！"]
+    },
+    {
+      "id": "cl_evening_01",
+      "timeWindow": { "from": "18:00", "to": "21:59" },
+      "lines": ["そろそろご飯にしよっかな。{name}もちゃんと食べてね？"]
+    },
+    {
+      "id": "cl_evening_02",
+      "timeWindow": { "from": "18:00", "to": "21:59" },
+      "lines": ["母ちゃんから電話きた……またね！"]
+    },
+    {
+      "id": "cl_evening_03",
+      "timeWindow": { "from": "18:00", "to": "21:59" },
+      "lines": ["今日も楽しかった！ また明日ね、{name}！"]
+    },
+    {
+      "id": "cl_evening_04",
+      "timeWindow": { "from": "18:00", "to": "21:59" },
+      "lines": ["お風呂入ってくるね〜。……え、なに想像しとるん！ またね！"]
+    },
+    {
+      "id": "cl_night_01",
+      "timeWindow": { "from": "22:00", "to": "23:59" },
+      "lines": ["そろそろ寝ようかな……おやすみ、{name}"]
+    },
+    {
+      "id": "cl_night_02",
+      "timeWindow": { "from": "22:00", "to": "23:59" },
+      "lines": ["明日も早いけん、おやすみなさい。……いい夢見てね"]
+    },
+    {
+      "id": "cl_night_03",
+      "timeWindow": { "from": "22:00", "to": "23:59" },
+      "lines": ["……もうちょっと話したかったけど。またね"]
+    },
+    {
+      "id": "cl_night_04",
+      "timeWindow": { "from": "22:00", "to": "23:59" },
+      "lines": ["{name}、ちゃんと寝てよ？ 明日に響くけんね。おやすみ"]
+    },
+    {
+      "id": "cl_latenight_01",
+      "timeWindow": { "from": "00:00", "to": "01:59" },
+      "lines": ["……こんな時間まで付き合ってくれてありがと。おやすみ"]
+    },
+    {
+      "id": "cl_latenight_02",
+      "timeWindow": { "from": "00:00", "to": "01:59" },
+      "lines": ["うちもそろそろ限界……ふぁ〜……おやすみ、{name}"]
+    },
+    {
+      "id": "cl_latenight_03",
+      "timeWindow": { "from": "00:00", "to": "01:59" },
+      "lines": ["……ねぇ、明日もここに来てくれる？ ……なんでもない。おやすみ"]
+    },
+    {
+      "id": "cl_friday_01",
+      "timeWindow": { "from": "18:00", "to": "01:59" },
+      "dayOfWeek": [5],
+      "lines": ["金曜の夜やん！ 今週おつかれさま！ ゆっくり休んでね！"]
+    },
+    {
+      "id": "cl_friday_02",
+      "timeWindow": { "from": "18:00", "to": "01:59" },
+      "dayOfWeek": [5],
+      "lines": ["週末なにするん？ ……うちは……ヒミツ。またね！"]
+    },
+    {
+      "id": "cl_weekend_01",
+      "timeWindow": { "from": "07:00", "to": "17:59" },
+      "dayOfWeek": [0, 6],
+      "lines": ["休みの日くらいゆっくりしなよ〜。……うちに付き合ってくれてありがと"]
+    },
+    {
+      "id": "cl_weekend_02",
+      "timeWindow": { "from": "07:00", "to": "17:59" },
+      "dayOfWeek": [0, 6],
+      "lines": ["天気よかね〜。どっか出かけたら？ うちは今日はだらだらする！"]
+    },
+    {
+      "id": "cl_sudden_01",
+      "timeWindow": null,
+      "lines": ["あ、ちょっと待って——ごめん、急用！ またね！"]
+    },
+    {
+      "id": "cl_sudden_02",
+      "timeWindow": null,
+      "lines": ["やば、洗濯物干しっぱなしやった！ また話そう！"]
+    },
+    {
+      "id": "cl_lingering_01",
+      "timeWindow": { "from": "22:00", "to": "01:59" },
+      "lines": ["……じゃあね。", "……また明日、ここで"]
+    },
+    {
+      "id": "cl_lingering_02",
+      "timeWindow": { "from": "22:00", "to": "01:59" },
+      "lines": ["……おやすみ。……{name}も、ちゃんと寝てね"]
+    },
+    {
+      "id": "cl_phase3_01",
+      "timeWindow": { "from": "22:00", "to": "01:59" },
+      "phase": "3",
+      "lines": ["……おやすみ。……うち、ここにおるけん"]
+    }
+  ]
+}

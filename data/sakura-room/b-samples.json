@@ -1,0 +1,494 @@
+[
+  {
+    "id": "b01_laksa",
+    "type": "B",
+    "phase": "2-early",
+    "title": "ラクサって知っとる？",
+    "unlock": {
+      "minAnswered": 55,
+      "daysSincePhase2": 1,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇねぇ、{name}。ラクサって知っとる？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "知ってる、辛いやつだよね",
+            "next": "n3a",
+            "flags": { "knows_laksa": true },
+            "axes": {}
+          },
+          {
+            "label": "名前は聞いたことある",
+            "next": "n3b",
+            "flags": { "knows_laksa": false },
+            "axes": {}
+          },
+          {
+            "label": "知らない",
+            "next": "n3c",
+            "flags": { "knows_laksa": false },
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "お、知っとるん！ そうそう、ココナッツカレーのスープ麺。",
+          "エビの出汁がめっちゃ効いとるんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "ココナッツカレーベースのスープ麺！ エビの出汁がすごいの。",
+          "SGの国民食のひとつやね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3c",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ それは教えがいがあるね！",
+          "ラクサはね、ココナッツカレーベースのスープ麺。エビの出汁が効いとって、けっこう辛いの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "実はうち、小さい頃ラクサ食べれんかったんよ。辛いの苦手で。",
+          "でも中学くらいから、友達に「SGに住んどってラクサ食べれんとかありえん！」って言われて。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "克服したの？",
+            "next": "n6",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "無理しなくてもいいのに",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "したよ！ 毎週ちょっとずつ食べて……今では大好き！",
+          "うちの克服法は、まずスープを一口だけ。次の週は二口。",
+          "……地味やろ？ でもうちそういう性格なんよ。コツコツ系。"
+        ],
+        "next": "n7"
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "やさしいね、{name}は。",
+          "でも克服したんよ！ 今では大好き。",
+          "毎週ちょっとずつ食べて……コツコツ系なの、うち。"
+        ],
+        "next": "n7"
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "{name}は辛いの大丈夫？"
+        ]
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "大阪人なめんなよ",
+            "next": "n9a",
+            "flags": { "likes_spicy": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まぁまぁかな",
+            "next": "n9b",
+            "flags": {},
+            "axes": {}
+          },
+          {
+            "label": "実は苦手……",
+            "next": "n9c",
+            "flags": { "likes_spicy": false },
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n9a",
+        "speaker": "sakura",
+        "lines": [
+          "あはは！ かっこいい！",
+          "じゃあ本場のラクサいけるね。Katong Laksaっていうお店がおすすめ！"
+        ],
+        "next": "n10"
+      },
+      {
+        "id": "n9b",
+        "speaker": "sakura",
+        "lines": [
+          "ふふ、じゃあラクサは「mild」で頼むとよかよ。",
+          "お店によっては辛さ調整できるけん！"
+        ],
+        "next": "n10"
+      },
+      {
+        "id": "n9c",
+        "speaker": "sakura",
+        "lines": [
+          "え、そうなん！？ ……うちと一緒やん、昔の。",
+          "大丈夫、ラクサ・レマ（Lemak）っていうマイルド版もあるけん！",
+          "一緒に克服しよ……って、チャットやけど。笑"
+        ],
+        "next": "n10"
+      },
+      {
+        "id": "n10",
+        "speaker": "sakura",
+        "lines": [
+          "今度食べたら感想聞かせてね！ うち、人の「初ラクサ」の反応見るの好きなんよ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["food", "laksa"],
+    "image": null,
+    "priority": 50
+  },
+
+  {
+    "id": "b02_kaya_toast",
+    "type": "B",
+    "phase": "2-early",
+    "title": "毎朝のカヤトースト",
+    "unlock": {
+      "minAnswered": 60,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "image",
+        "src": "img/sakura/kaya-toast-morning.jpg",
+        "alt": "カヤトーストとコピの写真",
+        "caption": "今朝のうちの朝ごはん！",
+        "next": "n2"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "カヤトーストとコピ！ うちの毎朝の定番！",
+          "これがないと一日始まらんの。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "カヤって何？",
+            "next": "n4a",
+            "flags": { "knows_kaya": false },
+            "axes": {}
+          },
+          {
+            "label": "美味しそうだね",
+            "next": "n4b",
+            "flags": {},
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "朝ちゃんと食べてるんだ",
+            "next": "n4c",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "カヤはね、ココナッツと卵とパンダンリーフで作ったジャム！",
+          "甘くてクリーミーで……日本にはない味。",
+          "バターと一緒にカリカリのトーストに挟むんよ。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "美味しいよ〜！ カリカリのトーストにカヤジャムとバター。",
+          "で、半熟卵をつけて食べるの。最高。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n4c",
+        "speaker": "sakura",
+        "lines": [
+          "朝だけはちゃんと食べるの！ 母ちゃんに「朝は絶対食べなさい」って育てられたけん。",
+          "カヤトーストなら5分で食べれるし、安いし。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "コピも好き？ SGのコーヒー。練乳入っとって甘いの。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "甘いコーヒーは好きだよ",
+            "next": "n7a",
+            "flags": { "likes_kopi": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "ブラック派なんだ",
+            "next": "n7b",
+            "flags": { "likes_kopi": false },
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "お、じゃあコピ合うと思う！",
+          "「コピ」って頼めば練乳入り、「コピ・オー」で砂糖だけ、「コピ・コソン」でブラック。",
+          "……あ、うちいまコーヒーの頼み方講座してる？ ごめんね、おせっかいで。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "ブラック！ 大人やね〜。",
+          "じゃあ「コピ・コソン」って頼んで。ブラックのこと。",
+          "SGのコーヒー、焙煎が深いけん、ブラックでもけっこう濃厚よ。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "sakura",
+        "lines": [
+          "うちはね、毎朝会社の近くのYa Kun Kaya Toastっていうチェーン店で食べるの。",
+          "S$4.80でカヤトースト＋半熟卵＋コピのセット。",
+          "……これが毎朝の小さい幸せ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["food", "breakfast", "coffee"],
+    "image": "img/sakura/kaya-toast-morning.jpg",
+    "priority": 50
+  },
+
+  {
+    "id": "b03_roti_prata",
+    "type": "B",
+    "phase": "2-early",
+    "title": "夜食のロティプラタ",
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 3,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": { "from": "20:00", "to": "01:59" },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "そういえばさ、この前チキンライスの話したやん？",
+          "今日はもうひとつ、うちの推し飯を紹介させて！"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "ロティプラタ！ 知っとる？"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "インドのパンみたいなやつ？",
+            "next": "n4a",
+            "flags": { "knows_roti": true },
+            "axes": {}
+          },
+          {
+            "label": "初めて聞いた",
+            "next": "n4b",
+            "flags": { "knows_roti": false },
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "そうそう！ 薄い生地を焼いたやつ。カレーつけて食べるんよ。",
+          "SGはインド系の文化もあるけん、本格的なのが食べれるの。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "薄い小麦粉の生地を鉄板でパリパリに焼いたやつ！ カレーつけて食べるの。",
+          "インド系の料理やけど、SGではみんな食べる国民食。"
+        ],
+        "next": "n5"
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "でね、ロティプラタの最高の食べ方はね。",
+          "……深夜に食べること。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "深夜に？",
+            "next": "n7",
+            "axes": {}
+          },
+          {
+            "label": "夜食派なんだ",
+            "next": "n7",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "SGのプラタ屋さんって、夜中の2時3時まで開いとるんよ。",
+          "うち、大学のとき試験勉強で煮詰まったら、深夜にプラタ食べに行きよった。",
+          "友達と「もう無理〜」って言いながら、カレーつけてパリパリ食べて。",
+          "……そしたらなんか元気出るんよね。不思議。"
+        ]
+      },
+      {
+        "id": "n8",
+        "speaker": "sakura",
+        "lines": [
+          "{name}も、勉強煮詰まったら深夜プラタ行ってみ？",
+          "The Roti Prataっていう24時間のお店がおすすめ。"
+        ]
+      },
+      {
+        "id": "n9",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "今度行ってみるよ",
+            "next": "n10a",
+            "flags": { "will_try_prata": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "さくらも一緒に……",
+            "next": "n10b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n10a",
+        "speaker": "sakura",
+        "lines": [
+          "行って行って！ 感想待ってるからね！",
+          "プレーンとエッグプラタ、両方頼んでね。比べて食べるのがいいの。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n10b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。",
+          "……うち、行きたい。ほんとに。",
+          "……でもルール的にいかんと。クライアントとは会えんけん。",
+          "……ごめんね。チャットで一緒に食べよ。写真送って！"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": ["food", "roti-prata", "nightlife"],
+    "image": null,
+    "priority": 50
+  }
+]

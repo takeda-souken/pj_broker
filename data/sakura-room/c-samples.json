@@ -1,0 +1,269 @@
+[
+  {
+    "id": "c01_laksa_followup",
+    "type": "C",
+    "phase": "2-early",
+    "title": "ラクサ食べた？（リアクション）",
+    "unlock": {
+      "minAnswered": 70,
+      "daysSincePhase2": 4,
+      "requiredFlags": ["knows_laksa:false"],
+      "requiredConversations": ["b01_laksa"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、そうだ！ {name}！",
+          "この前ラクサの話したやん？ ……食べた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！",
+            "next": "n3a",
+            "flags": { "tried_laksa": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだなんだ……",
+            "next": "n3b",
+            "flags": {},
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "え、ほんと！？ どうやった！？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "めちゃくちゃ美味かった",
+            "next": "n5a",
+            "flags": { "liked_laksa": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "辛かった……",
+            "next": "n5b",
+            "flags": { "liked_laksa": false },
+            "axes": {}
+          },
+          {
+            "label": "不思議な味だった",
+            "next": "n5c",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "やったー！！ うちのおすすめが当たった！",
+          "どこの店で食べたん？ ……って、次はうちがもっとおすすめのとこ教えるからね！",
+          "Katong Laksaっていうお店、ぜったい行って。元祖やけん。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あちゃ〜、辛かったか。笑",
+          "次は「less spicy」って言って頼んでみて！",
+          "うちも最初はそうやったけん。慣れるからね。……うちが保証する！"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n5c",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、不思議ってのは正直でよかね。",
+          "ココナッツとカレーとエビが全部混ざっとるけん、最初は「？？？」ってなるんよ。",
+          "2回目食べたら「あ、これか」ってなるけん。……たぶん。笑"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ まだ食べとらんと！？",
+          "うちがあんなに推したのに……！"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "ごめん、忙しくて",
+            "next": "n7a",
+            "axes": { "honesty": 1 }
+          },
+          {
+            "label": "今週末行くよ",
+            "next": "n7b",
+            "flags": { "promised_laksa": true },
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……しょうがないね、試験勉強もあるけん。",
+          "でも、絶対食べてね！ 次うちが聞くとき、「食べた」って言ってよ？ 約束！"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "約束ね！ 写真撮って送ってね！",
+          "……うちのラクサの話を聞いて食べに行ってくれるの、なんかすごく嬉しいの。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "reaction",
+    "tags": ["food", "laksa", "followup"],
+    "image": null,
+    "priority": 70
+  },
+
+  {
+    "id": "c02_prata_followup",
+    "type": "C",
+    "phase": "2-early",
+    "title": "深夜プラタ行った？（リアクション）",
+    "unlock": {
+      "minAnswered": 80,
+      "daysSincePhase2": 6,
+      "requiredFlags": ["will_try_prata:true"],
+      "requiredConversations": ["b03_roti_prata"],
+      "timeWindow": { "from": "20:00", "to": "01:59" },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、{name}。",
+          "あのさ……ロティプラタ、行った？ 深夜の。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ！",
+            "next": "n3a",
+            "flags": { "tried_late_prata": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "flags": {},
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "行ったん！？ えー、いいな〜！",
+          "どうやった？ パリパリやったっちゃろ？"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "最高だった。ハマりそう",
+            "next": "n5a",
+            "flags": { "liked_prata": true },
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "さくらのこと思い出した",
+            "next": "n5b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょ！？ 深夜プラタ、最高やろ！",
+          "……へへ。{name}がSGの味にハマってくれるの、なんか嬉しい。",
+          "うちの街を好きになってくれとるみたいで。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "……え。",
+          "……うちのこと？",
+          "……っ。……ばか。そういうこと急に言わんでよ。",
+          "……でも、ありがと。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そっか……忙しいもんね。",
+          "でもね、今ちょうどいい時間やん？ 今から行ってきなよ！",
+          "The Roti Prata、今の時間まだ開いとるけん！",
+          "……食べたら、うちに報告してね。"
+        ],
+        "next": "end"
+      },
+      {
+        "id": "end",
+        "speaker": "sakura",
+        "lines": [],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "reaction",
+    "tags": ["food", "roti-prata", "followup"],
+    "image": null,
+    "priority": 70
+  }
+]
