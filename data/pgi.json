@@ -3063,11 +3063,11 @@
     "choices": [
       "A) Permanent total disablement",
       "B) Permanent partial disablement",
-      "C) Temporary disablement",
+      "C) Temporary total disablement",
       "D) No benefit at all"
     ],
     "answer": 2,
-    "explanation": "Under temporary disablement, the requirement is that the insured is unable to perform every duty pertaining to their profession or occupation. The surgeon would qualify as he cannot perform his surgical duties.",
+    "explanation": "The surgeon qualifies for temporary total disablement because he is unable to perform every duty pertaining to his profession (surgery), even though he can still lecture. Under PA Insurance, temporary total disablement means the insured cannot carry out all duties of their occupation, not merely some of them.",
     "jpComparison": "日本の傷害保険でも就業不能は「通常の業務に従事できない」状態で判断され、部分的就業不能も対象。",
     "keywords": [
       "temporary disablement",
@@ -3614,12 +3614,12 @@
     "question": "Under a Family Plan Travel Insurance policy, which of the following statements about children is CORRECT?",
     "choices": [
       "A) Children can travel independently without an adult policyholder",
-      "B) Children must be accompanied by an insured adult on the same trip",
+      "B) Children must generally be accompanied by an insured adult on the same trip",
       "C) Only children under age 12 are eligible for coverage",
       "D) A maximum of two children can be covered per family"
     ],
     "answer": 1,
-    "explanation": "Under a Family Plan, children must be accompanied by an insured adult on the same trip.",
+    "explanation": "Under a Family Plan, there must usually be at least one adult travelling with the child. However, some insurers allow children to travel alone, provided they are above 17 years of age. The general rule is that children must be accompanied by an insured adult.",
     "jpComparison": "日本の家族型海外旅行保険も家族を一括でカバーするが、子供が成人と同行する必要があるかは保険会社により異なる。シンガポールでは同行が条件。",
     "keywords": [
       "family plan",
@@ -3999,28 +3999,6 @@
     "source": "Ch4 §5.36-5.37, p.149"
   },
   {
-    "id": "pgi-192",
-    "topic": "Travel Insurance",
-    "question": "Under a Travel Insurance policy, how is haze classified as a cause of travel delay?",
-    "choices": [
-      "A) Natural disaster",
-      "B) Man-made event",
-      "C) Act of God",
-      "D) Weather-related event"
-    ],
-    "answer": 1,
-    "explanation": "Haze is classified as a man-made event, as it results from human activities such as agricultural burning.",
-    "jpComparison": "日本ではヘイズによる航空便遅延は一般的でないが、東南アジアでは焼畑農業等による越境ヘイズが深刻な問題。人為的事象としての分類は保険適用に影響する。",
-    "keywords": [
-      "haze",
-      "man-made event",
-      "travel delay",
-      "not natural disaster"
-    ],
-    "difficulty": 3,
-    "source": "Ch4 §5.36 fn.3, p.149"
-  },
-  {
     "id": "pgi-193",
     "topic": "Travel Insurance",
     "question": "What is the benefit amount for an Overbooked Flight under a typical Travel Insurance policy?",
@@ -4237,7 +4215,7 @@
   {
     "id": "pgi-203",
     "topic": "Travel Insurance",
-    "question": "Within how many days of an insured event must a Travel Insurance claim generally be submitted?",
+    "question": "Within how many days of returning to Singapore must a Travel Insurance claim generally be submitted?",
     "choices": [
       "A) 7 to 14 days",
       "B) 21 to 30 days",
@@ -4245,7 +4223,7 @@
       "D) 6 months"
     ],
     "answer": 1,
-    "explanation": "Claims must generally be submitted within 21 to 30 days of the insured event.",
+    "explanation": "The policy condition typically requires the insured to submit a claim within 21 or 30 days (the notification period) from the date of return to Singapore, not from the date of the insured event itself.",
     "jpComparison": "日本の損害保険の保険金請求期限は事故発生から3年（保険法第95条）と長い。シンガポールの21～30日以内は非常に短い。",
     "keywords": [
       "claim submission",
@@ -4497,28 +4475,6 @@
     "source": "Ch4 §5.48, p.150 (Baggage Delay: maximum S$1,000)"
   },
   {
-    "id": "pgi-215",
-    "topic": "Travel Insurance",
-    "question": "Which statement about the Financial Collapse of Travel Agency benefit is CORRECT?",
-    "choices": [
-      "A) It covers any travel agency that goes bankrupt",
-      "B) It only applies to travel agencies licensed by STB",
-      "C) It requires a package tour costing at least S$500",
-      "D) Coverage is limited to S$5,000 per claim"
-    ],
-    "answer": 1,
-    "explanation": "The Financial Collapse benefit only applies to travel agencies licensed by the Singapore Tourism Board (STB).",
-    "jpComparison": "日本の旅行業法では営業保証金制度で消費者を保護。シンガポールではSTBライセンスを持つ旅行会社に限定して保険でカバー。",
-    "keywords": [
-      "Financial Collapse",
-      "Travel Agency",
-      "STB",
-      "licensed"
-    ],
-    "difficulty": 3,
-    "source": "Ch4 §5.31 & §5.33, p.148 (Financial Collapse of Travel Agency: applies to STB-licensed travel agents)"
-  },
-  {
     "id": "pgi-216",
     "topic": "Travel Insurance",
     "question": "Some insurers allow two adults (not necessarily husband and wife) under a Family Plan for a single trip. What does this flexibility accommodate?",
@@ -4587,10 +4543,10 @@
     "topic": "Travel Insurance",
     "question": "Under a travel insurance policy, what does the 'Loss of Use of Hotel Facilities' benefit cover?",
     "choices": [
-      "Reimbursement when a hotel overbooks and the insured is relocated to a different hotel",
-      "A daily benefit when the hotel withdraws substantial services (e.g. utilities, meals) for 24+ hours due to industrial action or unexpected strike",
-      "Compensation for theft of personal belongings from the hotel room",
-      "Coverage for damage caused by the insured to hotel property"
+      "A) Reimbursement when a hotel overbooks and the insured is relocated to a different hotel",
+      "B) A daily benefit when the hotel withdraws substantial services (e.g. utilities, meals) for 24+ hours due to industrial action or unexpected strike",
+      "C) Compensation for theft of personal belongings from the hotel room",
+      "D) Coverage for damage caused by the insured to hotel property"
     ],
     "answer": 1,
     "explanation": "Loss of Use of Hotel Facilities covers the situation where a hotel has withdrawn its substantial services continuously for at least 24 hours as a result of an industrial action or unexpected strike. The insurer pays a daily benefit (e.g. S$100 per 24-hour period) up to a limit (e.g. S$200). Substantial services include utilities, meals, and services of waiters and hotel chambermaids (Ch4 S5.58-5.59, p.152).",
@@ -4611,12 +4567,12 @@
     "question": "Under the Terrorism Cover section of a Travel Insurance policy, which of the following is typically covered?",
     "choices": [
       "A) Loss of personal property due to a terrorist attack",
-      "B) Medical expenses arising from injuries sustained in a terrorist attack overseas",
+      "B) All insured benefits (medical, PA, property, etc.) subject to the plan limits",
       "C) Trip cancellation due to a terrorism threat level being raised",
       "D) Loss of income due to travel disruption caused by a terrorist incident"
     ],
     "answer": 1,
-    "explanation": "Terrorism Cover typically covers medical expenses and PA benefits from injuries sustained in an act of terrorism overseas.",
+    "explanation": "The Terrorism Cover section provides coverage for Act of Terrorism, subject to the respective limits of the selected plan as specified by the insurer. This means all insured benefits under the policy — including medical expenses, personal accident, property loss, and trip cancellation — may apply, subject to the plan limits.",
     "jpComparison": "日本の海外旅行保険でもテロによる傷害は補償対象だが、明示的なテロリズム補償セクションを設けているシンガポールの方式は補償範囲が明確。",
     "keywords": [
       "Terrorism Cover",
@@ -5531,15 +5487,15 @@
   {
     "id": "pgi-262",
     "topic": "Critical Illness & Hospital Cash Insurance",
-    "question": "General insurance agents who have passed BCP and PGI can sell CI and hospital income benefits ONLY as part of what?",
+    "question": "General insurance agents who have passed BCP and PGI but NOT the health insurance module are restricted from selling which type of product?",
     "choices": [
-      "A) A stand-alone critical illness policy",
-      "B) A health insurance product",
-      "C) A life insurance policy",
-      "D) An investment-linked policy"
+      "A) A policy that includes CI benefits as a component",
+      "B) A stand-alone Critical Illness insurance product",
+      "C) A personal accident policy with hospital income benefits",
+      "D) A motor policy with personal accident cover"
     ],
     "answer": 1,
-    "explanation": "General insurance agents and brokers are not allowed to sell stand-alone Critical Illness insurance products unless they have passed the health insurance module. They can sell CI and hospital income benefits only as part of a health insurance product.",
+    "explanation": "Under MAS Notice 117, general insurance agents who have not passed the health insurance module are not allowed to sell stand-alone Critical Illness insurance products. However, they may sell products that contain CI or hospital income benefits as the only accident and health benefits within the product (e.g., a PA policy with a CI rider).",
     "jpComparison": "日本の損害保険代理店も、販売できる保険商品は取得した資格の範囲に限定される。",
     "keywords": [
       "general insurance agents",

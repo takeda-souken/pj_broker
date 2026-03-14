@@ -10794,7 +10794,7 @@
       "150% of the capital sum insured"
     ],
     "answer": 0,
-    "explanation": "Loss of hearing in both ears pays 75%. Loss of hearing in one ear pays 15%. Loss of speech pays 50%. Loss of both speech and hearing together pays 150%.",
+    "explanation": "Under the GPA Table of Compensation (Table 9.1), loss of hearing in both ears pays 75% of the capital sum insured. Loss of hearing in one ear pays 15%. Loss of speech pays 50%. Note that the specimen policy in Appendix 9A has a separate entry for combined loss of speech and hearing (item 7), which should not be confused with the figures in Table 9.1.",
     "jpComparison": "日本の傷害保険では両耳聴力喪失は後遺障害4級で約67%。SGの75%は日本よりやや高い給付率。",
     "keywords": [
       "hearing",

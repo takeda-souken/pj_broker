@@ -491,10 +491,10 @@
       "The risk must be of a fortuitous nature",
       "There must be a large number of similar risk units",
       "The risk must offer a possibility of financial gain to the insured",
-      "The insured must have an insurable interest in the subject matter"
+      "The loss must result in a definite financial burden to the insured"
     ],
     "answer": 2,
-    "explanation": "The seven characteristics of an insurable risk are: pure risk, financial risk, particular risk, fortuitous, measurable/quantifiable, large number of similar units, and insurable interest. The possibility of financial gain disqualifies a risk (that would be speculative).",
+    "explanation": "The seven characteristics of an insurable risk are: (1) large number of similar risk units, (2) accidental/fortuitous loss, (3) definite loss, (4) financial burden, (5) affordable insurance, (6) particular risk, and (7) pure risk. The possibility of financial gain contradicts the pure risk requirement — insurable risks must involve only the chance of loss, not gain.",
     "jpComparison": "保険可能リスクの要件は日本の損害保険実務でも同様に教育される。「偶発性」「経済的損失」「多数同質リスク」「被保険利益」が核心要件。",
     "keywords": [
       "insurable risk",
@@ -968,10 +968,10 @@
       "By express agreement",
       "By ratification",
       "By operation of statute",
-      "By necessity"
+      "By estoppel"
     ],
     "answer": 2,
-    "explanation": "Agency can be created by agreement (express or implied), by ratification, by necessity, and by estoppel. 'By operation of statute' is not a recognized method of creating agency.",
+    "explanation": "Agency can be created by: (a) agreement (express or implied), (b) retrospective ratification, (c) necessity, and (d) estoppel. 'By operation of statute' is not listed as a method of creating an agency relationship in the textbook.",
     "jpComparison": "日本の代理は任意代理と法定代理に分かれるが、シンガポールの保険代理はコモン・ロー上の代理法理が中心で、追認（ratification）や表見代理（estoppel）が重要概念。",
     "keywords": [
       "agency",
@@ -981,7 +981,7 @@
       "express agreement"
     ],
     "difficulty": 2,
-    "source": "Ch5 §6.1, p.110"
+    "source": "Ch5 §6.1-6.5, p.110-111"
   },
   {
     "id": "bcp-046",
@@ -1868,7 +1868,7 @@
     "choices": [
       "24 hours",
       "48 hours",
-      "72 hours (3 business days)",
+      "72 hours",
       "7 calendar days"
     ],
     "answer": 2,
@@ -5561,12 +5561,12 @@
     "question": "In Singapore, which of the following classes of insurance does NOT have substantially standardised policy wordings across insurers?",
     "choices": [
       "Fire Insurance",
-      "Motor Insurance",
-      "Personal Accident Insurance using plain English policies",
+      "Work Injury Compensation Insurance",
+      "Personal Accident Insurance",
       "Marine Insurance"
     ],
     "answer": 2,
-    "explanation": "In Singapore, policy wordings for Fire, Work Injury Compensation, Motor, and Marine Insurance do not vary much among insurers. However, some insurers are issuing plain English policies mostly for personal lines such as Foreign Domestic Worker, Golfer's, Health, Home, Motor, Personal Accident, and Travel Insurance.",
+    "explanation": "In Singapore, policy wordings for Fire, Work Injury Compensation, Motor, and Marine Insurance are substantially standardised and do not vary much among insurers. Personal Accident Insurance wordings are less standardised, with some insurers issuing plain English policies that differ significantly in structure and content.",
     "jpComparison": "日本の損害保険でも自動車保険、火災保険等の主要種目は約款がかなり標準化されている。個人向け商品での平易な約款化の動きもシンガポールと同様。",
     "keywords": [
       "policy wordings",
@@ -7375,27 +7375,6 @@
     ],
     "difficulty": 1,
     "source": "Ch9 §3.3, p.207"
-  },
-  {
-    "id": "bcp-344",
-    "topic": "Ethics, Data Protection & Cyber Hygiene",
-    "question": "Under the Code, agents with insurance rates must:",
-    "choices": [
-      "Offer competitive discounts",
-      "Not quote above or below rates set by their principal",
-      "Set rates based on market conditions",
-      "Negotiate rates with each client"
-    ],
-    "answer": 1,
-    "explanation": "Agents must not quote above or below the principal's rates (except binder holders).",
-    "jpComparison": "日本でも保険料率の独自変更は禁止。",
-    "keywords": [
-      "rates",
-      "principal",
-      "Code of Practice"
-    ],
-    "difficulty": 2,
-    "source": "Ch9 §12.4(g), p.221"
   },
   {
     "id": "bcp-345",

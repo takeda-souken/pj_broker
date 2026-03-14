@@ -4651,7 +4651,7 @@
       "D) Coverage applies but with a 50% co-payment for the third baby"
     ],
     "answer": 2,
-    "explanation": "One of the common exclusions of Maternity Insurance is the insured mother carrying three or more babies in a single pregnancy. The policy benefits section states it may cover up to four babies, but the exclusion for three or more babies takes precedence.",
+    "explanation": "Maternity Insurance lists 'the insured mother carrying three or more babies in a single pregnancy' as a common exclusion (section 3.5(d)). Note that the benefits section (section 3.4(b)) states coverage for up to four babies — this is an apparent inconsistency in the textbook. For exam purposes, the exclusion clause is the relevant reference.",
     "jpComparison": "日本の医療保険では多胎妊娠自体は免責事由にならないが、シンガポールのMaternity Insuranceでは3人以上の多胎は除外される。",
     "keywords": [
       "Maternity Insurance",
@@ -5035,7 +5035,7 @@
       "D) The insured mother requires hospitalisation due to a covered pregnancy complication"
     ],
     "answer": 1,
-    "explanation": "Maternity Insurance excludes coverage when the insured mother is carrying three or more babies in a single pregnancy. The policy may cover up to four babies but only when carrying one or two babies. Three or more babies is specifically listed as an exclusion.",
+    "explanation": "Maternity Insurance excludes coverage when the insured mother is carrying three or more babies in a single pregnancy, as listed under the common exclusions (section 3.5(d)). Twins are not excluded. Newborn hospitalisation for congenital illness is a covered benefit (section 3.4(a)), and pregnancy complications are also covered benefits.",
     "jpComparison": "日本の医療保険では多胎妊娠自体を免責とする規定は一般的ではありませんが、シンガポールでは三つ子以上が明確に除外されています。",
     "keywords": [
       "Maternity Insurance",
