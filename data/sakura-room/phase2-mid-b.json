@@ -3071,5 +3071,530 @@
       "noodles"
     ],
     "priority": 50
+  },
+  {
+    "id": "b79_reading_hobby",
+    "type": "B",
+    "phase": "2-mid",
+    "title": "最近読んだ本",
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 10,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ{name}、本って読む？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "たまに読むよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "最近はあんまり……",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと？ なに読むの？ ……あ、聞いていい？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "まぁ試験勉強で精一杯やんね。そりゃそう。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "うちはね、寝る前に30分って決めて読むようにしてて。",
+          "日本語の小説が多いんやけど……いま読んでるのは、SGの本屋で見つけた短編集。",
+          "英語で書かれたSGの話なんやけど、ホーカーが出てきたりMRTが出てきたりして、なんか嬉しくなるんよ。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "SGが舞台の小説って珍しい",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "日本の小説は何を読むの？",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ SGって舞台になること少ないけん、見つけたとき嬉しかった。",
+          "自分の住んどる街が物語になるって、なんかいいよね。",
+          "……{name}の街が舞台の本もあるんかな。あったら教えてよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "村上春樹が好き。……ベタって言わんといてね。",
+          "あと、大阪おった時に梅田の紀伊國屋で買いまくった本がまだ本棚にあるの。",
+          "……大阪の空気が染み込んどる気がして、捨てられんのよ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……本の話できるの嬉しい。おやすみ、{name}。いい夢見てね。"],
+    "category": "personal",
+    "tags": ["reading", "books", "hobby", "night"],
+    "priority": 50
+  },
+  {
+    "id": "b80_night_market",
+    "type": "B",
+    "phase": "2-mid",
+    "title": "夜市に行こうよ",
+    "unlock": {
+      "minAnswered": 60,
+      "daysSincePhase2": 11,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、パサマラムって聞いたことある？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "全然わからない",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "マレー語？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "マレー語で「ナイトマーケット」のことなんよ。pasar malam。",
+          "SGでは不定期にいろんな場所で開かれるの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "おっ、鋭い！ マレー語でナイトマーケットのこと。",
+          "pasarが市場で、malamが夜。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "屋台がずらっと並んで、ラムリーバーガーとかムルタバとか……日本の夏祭りの屋台みたいな感じ。",
+          "あとね、服とかアクセサリーとか雑貨も売っとるの。",
+          "夜風に当たりながら歩くのが最高なんよ。暑いけど。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "楽しそう、行ってみたい",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "ラムリーバーガーって何？",
+            "next": "n6b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "行って行って！ SNSで「pasar malam singapore」って検索すると、次の開催情報が出てくるよ。",
+          "……できたらうちが案内したいくらいやけど。",
+          "まぁ、行ったら感想聞かせてね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "パティにチーズとか卵とかマヨとか、全部乗せ系のバーガー！",
+          "見た目めちゃくちゃなんやけど、味は保証する。B級グルメの王様。",
+          "……カロリーは考えたらいけん。考えたら負け。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["ナイトマーケット、ほんまに楽しいけん。{name}もハマると思う。"],
+    "category": "area",
+    "tags": ["night_market", "pasar_malam", "food", "culture"],
+    "priority": 50
+  },
+  {
+    "id": "b81_jogging",
+    "type": "B",
+    "phase": "2-mid",
+    "title": "朝の6時に何してるかっていうと",
+    "unlock": {
+      "minAnswered": 70,
+      "daysSincePhase2": 12,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "今朝ね、6時に走ってきたんよ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "朝6時！？",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "ジョギング？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "SGは昼間暑すぎて走れんけん、朝しかチャンスないの。",
+          "それでも6時で28度とかあるんやけどね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そう、ジョギング。週3くらいで走っとるんよ。",
+          "といっても、ゆっくりペースやけどね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "East Coast Parkっていう海沿いの公園がお気に入りのコースで。",
+          "朝は風が気持ちいいし、おじいちゃんおばあちゃんが太極拳してるの見えるし。",
+          "走った後にホーカーでカヤトースト食べるのがうちの定番。……走った意味。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "健康的でいいね",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "走った後のご飯は格別だよ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "……健康っていうか、走らんと頭がすっきりせんのよ。",
+          "考え事しながら走ると、なんか整理されるっていうか。",
+          "……{name}のこと考えながら走っとる、って言ったら引く？ ……冗談よ冗談。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "わかっとるやん！ そうなんよ、罪悪感ゼロで食べられるの。",
+          "……まぁ走った以上のカロリー摂ってる気がするけど、気にしたら負けやけん。",
+          "{name}もSGで走ってみたら？ 気持ちいいよ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……明日も6時に起きれるかな。目覚まし3つセットしとこ。"],
+    "category": "personal",
+    "tags": ["jogging", "exercise", "morning", "east_coast"],
+    "priority": 50
+  },
+  {
+    "id": "b82_jb_trip",
+    "type": "B",
+    "phase": "2-mid",
+    "title": "国境の向こう側",
+    "unlock": {
+      "minAnswered": 75,
+      "daysSincePhase2": 14,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、マレーシアって行ったことある？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "まだない",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "SGからすぐ行ける？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "SGからバスで1時間くらいで行けるんよ。国境越えるのに。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "めっちゃ近い。バスで1時間。しかも橋を渡るだけ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "Johor Bahru——みんなJBって呼ぶんやけど、SGの人は日帰りでよく行くの。",
+          "なんでかって、物価がSGの3分の1くらいやけん。",
+          "マッサージが1時間1500円くらいで受けられるし、ご飯も激安。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "物価差すごいね",
+            "next": "n6a",
+            "axes": {}
+          },
+          {
+            "label": "さくらさんもよく行くの？",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "すごいよ。SGでランチ1回分の値段で、JBだとフルコース食べてマッサージして、お土産まで買える。",
+          "……ただし、イミグレが混む日は地獄。2時間待ちとかある。",
+          "金曜の夜と土曜の朝は避けた方がいいよ。うちは日曜の早朝派。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "月1くらいで行っとるよ。友達とマッサージ行って、ご飯食べて帰るの。",
+          "……うちの母ちゃんは「JB行くなら気をつけなさい」ってうるさいけど。",
+          "まぁSGに比べると治安は……うん。でも普通に観光するぶんには大丈夫やけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["JB行くなら週末がおすすめ。パスポートだけ忘れんでね。"],
+    "category": "area",
+    "tags": ["malaysia", "johor_bahru", "day_trip", "travel"],
+    "priority": 50
+  },
+  {
+    "id": "b83_jpop",
+    "type": "B",
+    "phase": "2-mid",
+    "title": "J-POPっていいよね",
+    "unlock": {
+      "minAnswered": 70,
+      "daysSincePhase2": 15,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あのさ、{name}。笑わんといてほしいんやけど。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "なに？",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "笑わないよ",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……うち、J-POPめっちゃ好きなんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……ありがと。えっとね。",
+          "うち、J-POPがめっちゃ好きなの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "大阪おった時にハマって、それからずっと。",
+          "SGに帰ってきてからもSpotifyでずっと聴いてて。",
+          "友達には「また日本の曲？」って言われるんやけど……やめられんのよ。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "誰が好きなの？",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "いい趣味だと思うよ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "あいみょんとか、back numberとか……あとYOASOBI。",
+          "歌詞が物語みたいで、日本語の勉強にもなるんよ。一石二鳥やろ？",
+          "……{name}のおすすめも教えてよ。プレイリストに入れたいけん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと？ 嬉しい。",
+          "SGの友達にはなかなか共感してもらえんけん、{name}にそう言ってもらえると……",
+          "なんかね、自分の好きなもの肯定されるのって、こんなに嬉しいんやね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……帰ったらあいみょん聴こ。{name}もなんか聴いてね。おやすみ。"],
+    "category": "personal",
+    "tags": ["music", "jpop", "hobby", "osaka_memory"],
+    "priority": 55
   }
 ]

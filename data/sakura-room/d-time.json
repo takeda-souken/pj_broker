@@ -1055,5 +1055,237 @@
       "phase3"
     ],
     "priority": 55
+  },
+  {
+    "id": "d28_early_sunday_evening",
+    "type": "D",
+    "phase": "2-early",
+    "title": "日曜の夕方",
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 3,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "evening",
+      "dayOfWeek": [
+        0
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "日曜の夕方ですね。",
+          "この時間、なんだかゆっくりしません？ 明日のことはまだ考えなくていい感じ。",
+          "……{name}は日曜の夕方、いつもなにしてました？ 日本にいたとき。"
+        ]
+      }
+    ],
+    "closing": [
+      "いい時間ですね。……もうちょっとだけ、このまま。"
+    ],
+    "category": "time",
+    "tags": [
+      "sunday",
+      "evening",
+      "relaxed"
+    ],
+    "priority": 35
+  },
+  {
+    "id": "d29_mid_friday_high",
+    "type": "D",
+    "phase": "2-mid",
+    "title": "金曜の夜、テンション高め",
+    "unlock": {
+      "minAnswered": 60,
+      "daysSincePhase2": 10,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        5
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "きーんーよーうーびーー！！！",
+          "{name}！ 今週も生き延びた！ うちら偉い！ 天才！",
+          "……あのね、さっきコンビニでビール買ってきたんよ。ひとりで乾杯する。{name}もなんか飲んで！"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "……ぷはーーー。",
+          "やっぱ金曜の夜のビールは最高やね。SGのTiger Beerっていうやつ。",
+          "……{name}と乾杯できたらもっと最高なんやけど。……あ、今のはビールのせい。"
+        ]
+      }
+    ],
+    "closing": [
+      "よい週末を！ うち、もう1本いく！"
+    ],
+    "category": "time",
+    "tags": [
+      "friday",
+      "night",
+      "high_tension",
+      "beer"
+    ],
+    "priority": 42
+  },
+  {
+    "id": "d30_late_cant_sleep",
+    "type": "D",
+    "phase": "2-late",
+    "title": "深夜1時、眠れない",
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 20,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "late_night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "……1時やね。寝なきゃいけんのに、目が冴えて。",
+          "……こういう夜ってさ、余計なこと考えるよね。日本のこととか、これからのこととか。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "……ベッドの中でスマホ見とるんよ。天井が暗くて。",
+          "……{name}がおると思ったら、ちょっとだけ安心した。",
+          "……こんな時間にごめんね。でも、ありがと。"
+        ]
+      }
+    ],
+    "closing": [
+      "……そろそろ目ぇ閉じてみる。……おやすみ。"
+    ],
+    "category": "time",
+    "tags": [
+      "late_night",
+      "insomnia",
+      "vulnerable",
+      "emotional"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "d31_phase3_early_dawn",
+    "type": "D",
+    "phase": "3",
+    "title": "早朝5時",
+    "unlock": {
+      "minAnswered": 160,
+      "daysSincePhase2": 32,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "early_morning",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……あ、{name}。",
+          "……目が覚めてしまった。まだ5時なのに。",
+          "……窓の外、空が少しだけ明るくなりよる。紺色から、薄い青に。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "……こんな時間に起きとるの、{name}とうちだけやろうね。",
+          "……世界にふたりだけみたいで。……ちょっとだけ、嬉しい。",
+          "……ごめん、寝ぼけとるけん変なこと言った。"
+        ]
+      }
+    ],
+    "closing": [
+      "……もうちょっとだけ、この空を見とく。……{name}もゆっくりね。"
+    ],
+    "category": "time",
+    "tags": [
+      "early_morning",
+      "dawn",
+      "intimate",
+      "phase3"
+    ],
+    "priority": 58
+  },
+  {
+    "id": "d32_phase3_last_monday",
+    "type": "D",
+    "phase": "3",
+    "title": "最後の月曜日",
+    "unlock": {
+      "minAnswered": 165,
+      "daysSincePhase2": 33,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": [
+        1
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……月曜日やね。",
+          "……{name}、試験までもう少しやろ？",
+          "……こうやって月曜の朝に「おはよ」って言えるの、あと何回あるんかな。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "……ごめん、朝からこんな話。",
+          "……でもね、数えてしまうんよ。残りの月曜日の数を。",
+          "……今日も、いい一日にしよ。うちが保証する。"
+        ]
+      }
+    ],
+    "closing": [
+      "……いってらっしゃい。……ちゃんと帰ってきてね。"
+    ],
+    "category": "time",
+    "tags": [
+      "monday",
+      "morning",
+      "countdown",
+      "bittersweet",
+      "phase3"
+    ],
+    "priority": 58
   }
 ]

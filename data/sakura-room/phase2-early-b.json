@@ -2430,5 +2430,535 @@
       "comparison"
     ],
     "priority": 60
+  },
+  {
+    "id": "b74_grab_taxi",
+    "type": "B",
+    "phase": "2-early",
+    "title": "タクシー呼ぶならGrab",
+    "unlock": {
+      "minAnswered": 35,
+      "daysSincePhase2": 3,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、SGでタクシー乗りました？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "まだMRTだけ",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "一度乗ったよ",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "MRTだけでも全然生活できますけど、Grabは入れといた方がいいですよ。",
+          "タクシー配車アプリなんですけど、日本のタクシーアプリと全然違って。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "おお、もう体験済みですか。",
+          "流しで拾いました？ それともGrab使いました？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "SGだとGrabっていうアプリがほぼ必須で。",
+          "行き先入れたら近くの車が来てくれるんですけど、料金が先に表示されるから安心なんです。",
+          "雨の日はみんな一斉に呼ぶから、料金が1.5倍くらいに跳ね上がるんですけどね……。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "Uberみたいなもの？",
+            "next": "n6a",
+            "axes": {}
+          },
+          {
+            "label": "雨の日は我慢してMRT？",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "そうです！ もともとUberもあったんですけど、Grabに買収されちゃって。",
+          "いまはGrabの一強。フードデリバリーもGrabでできますよ。",
+          "……うちはGrabFood使いすぎて反省してるところです。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "それが賢いです。うちもそうしてます。",
+          "……って言いたいところなんですけど、雨の日に限って疲れてるんですよね。",
+          "で、つい高くてもGrab呼んじゃって……給料日前に後悔するパターンです。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["Grabのアプリ、入れてなかったらぜひ。SGの必需品ですよ。"],
+    "category": "daily",
+    "tags": ["transport", "grab", "taxi", "app"],
+    "priority": 50
+  },
+  {
+    "id": "b75_newater",
+    "type": "B",
+    "phase": "2-early",
+    "title": "SGのお水事情",
+    "unlock": {
+      "minAnswered": 40,
+      "daysSincePhase2": 4,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、そうだ。{name}、NEWaterって知ってますか？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "聞いたことない",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "再生水のやつ？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "SGって水資源がほとんどないんですよ。マレーシアから水を買ってるくらいで。",
+          "で、下水を超高度浄化して飲料水レベルにしたのがNEWater。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "お、よく知ってますね！",
+          "そうです。下水を超高度浄化して飲料水レベルにしたやつ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……って聞くと「え、下水？」ってなりますよね。",
+          "でもね、水道水より綺麗なんですよ。NDP……ナショナルデーのイベントでペットボトルが配られたりします。",
+          "小さい国だからこそ、知恵で乗り切るっていうのがSGらしくて。うち、ちょっと誇らしいんです。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "技術力がすごいね",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "飲んだことある？",
+            "next": "n6b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょ？ 小学校の社会見学でNEWaterのビジターセンターに行くんですけど、",
+          "そのときに飲ませてもらって、普通においしくてびっくりしました。",
+          "……SGの子供、全員この体験してるんですよ。なんかいいなって思いません？"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "もちろん！ 小学校の見学で飲みました。味は……正直、普通のお水です。",
+          "でもそれがすごいんですよね。「元は下水なのに普通の水じゃん」って。",
+          "……科学ってすごいなぁ。うち文系なのに感動しちゃいました。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["SGの水道水はそのまま飲めるので、{name}も安心してくださいね。"],
+    "category": "daily",
+    "tags": ["water", "newater", "infrastructure", "sg_pride"],
+    "priority": 45
+  },
+  {
+    "id": "b76_fairprice",
+    "type": "B",
+    "phase": "2-early",
+    "title": "スーパーで買い物",
+    "unlock": {
+      "minAnswered": 35,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、普段の買い物ってどうしてます？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "近くのコンビニかな",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "まだよくわかってない",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "7-Elevenですか？ SGにもあるにはあるんですけど、日本のコンビニと比べると……",
+          "お弁当もおにぎりもクオリティが全然違うんですよね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あ、じゃあちょうどいいです！ 教えますね。",
+          "日本みたいにコンビニで全部済ませるのはちょっと難しくて。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "SGだとFairPriceっていうスーパーが一番メジャーです。どこにでもあります。",
+          "日用品から食材から、だいたい揃いますよ。",
+          "あとCold Storageっていうちょっとお高めのスーパーもあって、輸入品が多いんです。日本のお菓子とか調味料も置いてます。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "FairPrice探してみる",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "日本の食材が買えるのは助かる",
+            "next": "n6b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "MRTの駅の近くにだいたいありますから、すぐ見つかると思います。",
+          "あ、レジ袋は有料なので、エコバッグ持っていくのがおすすめです。",
+          "……うちはいつも忘れて、レジで「あっ」ってなります。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "ですよね。日本から来た人はみんなそこに助けられてます。",
+          "Don Don DonkiもSGにあるんですよ。……あ、ドンキ知ってますよね？",
+          "日本にいたとき通いまくってたので、SGで見つけたときテンション上がりました。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["買い物に困ったらいつでも聞いてくださいね。SGのスーパー事情、けっこう詳しいので。"],
+    "category": "daily",
+    "tags": ["shopping", "supermarket", "fairprice", "convenience"],
+    "priority": 50
+  },
+  {
+    "id": "b77_gecko_bugs",
+    "type": "B",
+    "phase": "2-early",
+    "title": "壁にいるアレ",
+    "unlock": {
+      "minAnswered": 40,
+      "daysSincePhase2": 5,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、お部屋の壁に小さいトカゲ、いませんでした？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いた！ びっくりした",
+            "next": "n3a",
+            "axes": { "honesty": 1 }
+          },
+          {
+            "label": "……トカゲ？",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、やっぱり！",
+          "それ、ヤモリです。英語だとgecko。SGではどこにでもいますよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そのうち出ます。絶対に。",
+          "小さいヤモリなんですけど、夜になると壁とか天井にぺたっと張りついてるんです。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "怖がらなくて大丈夫ですよ。虫を食べてくれるので、むしろありがたい存在なんです。",
+          "……問題はヤモリじゃなくて蚊の方ですね。SGの蚊はデング熱を運ぶことがあるので。",
+          "虫除けスプレーはちゃんと持ってますか？"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "まだ買ってない……",
+            "next": "n6a",
+            "axes": { "honesty": 1 }
+          },
+          {
+            "label": "一応あるよ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "早めに買ってくださいね！ FairPriceとかGuardianで売ってます。",
+          "あと、窓を開けっぱなしにしないこと。エアコンつけて閉めてた方が安全です。",
+          "……心配になってきた。ちゃんと対策してくださいよ？"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "さすがです。準備いいですね。",
+          "あとは水たまりの近くに長時間いないこと。蚊が繁殖するので。",
+          "……ヤモリの方は、慣れたら可愛く見えてきますよ。……たぶん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["ヤモリに名前つけてる人もいるらしいですよ。……うちはまだやってないけど。"],
+    "category": "daily",
+    "tags": ["gecko", "bugs", "dengue", "daily_life"],
+    "priority": 45
+  },
+  {
+    "id": "b78_cashless",
+    "type": "B",
+    "phase": "2-early",
+    "title": "現金いらない国",
+    "unlock": {
+      "minAnswered": 45,
+      "daysSincePhase2": 6,
+      "requiredFlags": [],
+      "requiredConversations": ["a01_first_room"],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "そういえば{name}、SGで現金使ってます？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "けっこう使ってる",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "カードが多いかな",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "あ、日本の感覚だとそうなりますよね。",
+          "でもSGはキャッシュレスがすごく進んでて、現金なしでほぼ生活できるんです。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "おお、もう適応してますね。",
+          "SGはキャッシュレス先進国なので、カード派は正解です。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "PayNowっていうのがあって、電話番号だけで送金できるんです。",
+          "友達との割り勘とか、ホーカーのおじさんへの支払いとか、QRコードでピッ。",
+          "ホーカーのおじちゃんがスマホでQR決済してるの見ると、すごい国だなって思います。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "日本より進んでるかも",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "ホーカーでもQRなんだ",
+            "next": "n6b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "正直、この点はSGの方が便利だと思います。",
+          "……あ、でも日本のSuicaも好きですよ。改札ピッてするの、気持ちいいですよね。",
+          "SGにも似たのあるんですけど……やっぱりSuicaの方が反応速い気がします。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "そうなんです。2ドルのチキンライスでもQR決済。",
+          "おつりを数える手間がないから、おじちゃんも助かるみたいで。",
+          "……まあ、たまにシステムが落ちて「Cash only！」ってなるんですけどね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["PayNowは銀行口座があればすぐ使えますから、セットアップしてみてくださいね。"],
+    "category": "daily",
+    "tags": ["cashless", "paynow", "payment", "technology"],
+    "priority": 50
   }
 ]

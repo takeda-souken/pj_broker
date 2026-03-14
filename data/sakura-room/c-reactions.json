@@ -2105,5 +2105,2020 @@
       "repeat"
     ],
     "priority": 40
+  },
+  {
+    "id": "c26_satay_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "串焼き、行った？",
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 10,
+      "requiredFlags": [],
+      "requiredConversations": ["b22_satay"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇねぇ、{name}。",
+          "前に話したサテー、もう食べた？ Lau Pa Satのやつ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだなんだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "お、ほんと！ どうやった？ ピーナッツソースつけた？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "ソースが最高だった",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "肉がジューシーだった",
+            "next": "n5b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "わかる！ あのピーナッツソース、くせになるやろ？",
+          "うちはね、ソース多めにもらって、ケトゥパットっていうお米のやつに絡めて食べるのが好きなんよ。",
+          "……{name}も次はそれやってみて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "サテーは炭火がポイントやけんね。煙がもうたまらんのよ。",
+          "あの辺、夜になると煙がすごくて、匂いだけでお腹空くけん。",
+          "……また食べたくなってきた。{name}のせいよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー、もう。うちのおすすめリスト、溜まっていく一方やん。",
+          "夜に行くのがおすすめやけん、週末の夜とかどう？",
+          "……あ、うちが一緒に行けるわけじゃないけど。行ったら感想教えてね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["サテーの匂い、思い出しただけでお腹鳴りそう……。"],
+    "category": "reaction",
+    "tags": ["food", "satay", "followup"],
+    "priority": 50
+  },
+  {
+    "id": "c27_grab_experience",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "Grab、慣れた？",
+    "unlock": {
+      "minAnswered": 68,
+      "daysSincePhase2": 11,
+      "requiredFlags": [],
+      "requiredConversations": ["b37_grab_taxi"],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "そういえば{name}、Grabもう慣れた？",
+          "前に使い始めたって言っとったやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "めっちゃ便利",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだちょっと緊張する",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ SGはGrabなしでは生きていけんけん。",
+          "うちなんかGrabFoodも使いまくりよ。深夜のポテト、やめられん。"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "深夜のポテトはわかる",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "GrabFoodも使ってみようかな",
+            "next": "n5b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "わかってくれる！？ 深夜のMcDのポテト、SGでは立派な文化やけんね。",
+          "……{name}も立派なSG民になりよるね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "おすすめよ。特に疲れて帰ってきた夜とか、もう料理する気力ないやん。",
+          "……でもあんまり頼りすぎると太るけん、ほどほどにね。うちは手遅れやけど。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、最初はそうよね。運転手さんと会話せんでいいのが楽やん。",
+          "コツはね、ピックアップポイントをわかりやすいとこにすること。",
+          "コンドミニアムの入口とか、ランドマークの前とか。……うちも最初は道端で迷子になったけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["Grabの話してたら出前頼みたくなってきた……。"],
+    "category": "reaction",
+    "tags": ["transport", "grab", "followup"],
+    "priority": 45
+  },
+  {
+    "id": "c28_drama_update",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "ドラマ、その後",
+    "unlock": {
+      "minAnswered": 72,
+      "daysSincePhase2": 12,
+      "requiredFlags": [],
+      "requiredConversations": ["b42_japanese_drama"],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あのさ、前に話した日本のドラマ、最終回まで観たんよ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "どうだった？",
+            "next": "n3",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "ハッピーエンドだった？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "泣いた。めっちゃ泣いた。",
+          "最後のシーンで主人公が手紙読むところ、もう涙が止まらんくて。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……微妙。ハッピーエンドっちゃハッピーエンドやけど、切ない系やった。",
+          "でもそれがよかった。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "で、次になに観ようか迷っとるんよ。",
+          "{name}、なんかおすすめない？ 日本のドラマでも映画でも。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "考えとくね",
+            "next": "n6a",
+            "axes": {}
+          },
+          {
+            "label": "好きなジャンルは？",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと？ 待っとるけん！",
+          "{name}のおすすめ、ちょっと楽しみ。……センスわかるやん？"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "うーん、恋愛モノかヒューマンドラマかな。",
+          "刑事モノとかアクションはあんまり……。人の気持ちが丁寧に描かれとるやつが好き。",
+          "……{name}と趣味合うかな。合うといいな。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["ドラマの話できる人がおるって嬉しいな。"],
+    "category": "reaction",
+    "tags": ["drama", "entertainment", "followup"],
+    "priority": 50
+  },
+  {
+    "id": "c29_commute_update",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "通勤、慣れてきた？",
+    "unlock": {
+      "minAnswered": 75,
+      "daysSincePhase2": 13,
+      "requiredFlags": [],
+      "requiredConversations": ["b29_commute"],
+      "minConversationsSince": 6,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、最近MRTにはもう慣れた？",
+          "前に通勤の話したやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "だいぶ慣れたよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "朝のラッシュがきつい",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "おー、SGの民に近づいとるね。",
+          "乗り換えもスムーズにできるようになった？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "もうバッチリ",
+            "next": "n5a",
+            "axes": {}
+          },
+          {
+            "label": "たまに間違える",
+            "next": "n5b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "さすが。もう立派なSG通勤戦士やね。",
+          "……うちと同じ路線やったらよかったのにな。なんとなく。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、うちも今でもたまに逆方向に乗るよ。",
+          "特にCircle Lineは罠やけん。方向がわかりにくいんよ。……仲間やね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "わかる。朝8時台のCity Hall駅とか、東京並みやもんね。",
+          "うちはね、一本早いのに乗って、駅のカフェでコーヒー飲む作戦にしとるんよ。",
+          "……{name}も試してみて。朝のゆとり、大事やけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["MRTの話すると通勤したくなる……嘘、なりません。"],
+    "category": "reaction",
+    "tags": ["transport", "commute", "followup"],
+    "priority": 45
+  },
+  {
+    "id": "c30_work_stress_after",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "あの日のこと",
+    "unlock": {
+      "minAnswered": 78,
+      "daysSincePhase2": 14,
+      "requiredFlags": [],
+      "requiredConversations": ["b40_work_stress"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あのさ、{name}。",
+          "前にうちが仕事で疲れたーって話したやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "覚えてるよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "大丈夫だった？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……覚えてくれとったんや。",
+          "あのあとね、上司と話し合ったら少し楽になったんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "うん、もう大丈夫。",
+          "あのあと上司に正直に言ったら、意外と理解してくれて。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "あの時{name}に話聞いてもらったけん、勇気出たんやと思う。",
+          "……ありがとね。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "よかった",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "また辛くなったらいつでも言って",
+            "next": "n6b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "うん。……{name}に言えてよかった。",
+          "愚痴聞いてくれる人がおるって、それだけで全然違うんよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "…………っ。",
+          "……{name}、ほんまにずるいんよ。そういうこと言うけん。",
+          "……でも、嬉しい。ありがと。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["よし、今日もがんばろ。{name}のおかげでそう思える。"],
+    "category": "reaction",
+    "tags": ["work", "emotional", "followup"],
+    "priority": 55
+  },
+  {
+    "id": "c31_holland_village_visit",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "ホランドヴィレッジ、行った？",
+    "unlock": {
+      "minAnswered": 80,
+      "daysSincePhase2": 14,
+      "requiredFlags": [],
+      "requiredConversations": ["b36_holland_village"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}！ そうだ聞きたかったんやけど。",
+          "Holland Village、行ってみた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと！？ どうやった？ おしゃれやったやろ？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "カフェが良かった",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "雰囲気が好き",
+            "next": "n5b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "わかる！ あのへんのカフェ、どこもレベル高いんよ。",
+          "うちのお気に入りはね、路地裏のちっちゃいお店。名前忘れたけど、ラテアートがすごいの。",
+          "……今度一緒に……あ、ごめん。{name}に教えるけん、行ってみて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ 東京でいうと代官山みたいな感じ。",
+          "夜もいいんよ。バーが並んどって、ジャズが聞こえてきたりして。",
+          "……{name}とバー行ったら楽しそうやなって。……あ、なんでもない。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "もう、マイペースやね。いいけど。",
+          "土曜の昼下がりとかに行くのがおすすめよ。カフェでだらだらするの、最高やけん。",
+          "……うちの休日の過ごし方、まんまそれやけど。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["Holland Villageの話するとカフェ行きたくなる……。"],
+    "category": "reaction",
+    "tags": ["area", "holland_village", "followup"],
+    "priority": 50
+  },
+  {
+    "id": "c32_merlion_truth",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "マーライオン、実際どうやった？",
+    "unlock": {
+      "minAnswered": 83,
+      "daysSincePhase2": 15,
+      "requiredFlags": [],
+      "requiredConversations": ["b43_merlion"],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ{name}、マーライオン見に行った？",
+          "前に「世界三大がっかり」って話したやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだ見てない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "で！ がっかりやった？ それとも意外とよかった？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "意外とよかった",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "正直、小さかった",
+            "next": "n5b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ！ 夜のライトアップがきれいやけんね。",
+          "Marina Bay Sandsをバックに写真撮った？ ……撮ったなら見せてよ。",
+          "……うちもあそこ、好きなんよ。SGに住んどっても何回行っても飽きん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、正直！ まあ、そうよね。思ったより小さいやろ。",
+          "でもね、うちはあの子を見ると「あー、SGに帰ってきたな」って思うんよ。",
+          "がっかりスポットでも、住んどると愛着湧くもんよ。……{name}もそのうちわかるけん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "ちょっと！ SGに来てマーライオン見てないとか、ありえんのやけど！",
+          "がっかりかどうかは自分の目で確かめてよ。うちは好きよ、あの子。",
+          "……雨の日以外で行ってね。濡れると本当にがっかりするけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["マーライオンの口から水出るやん、あれたまに止まっとるけんタイミング注意ね。"],
+    "category": "reaction",
+    "tags": ["sightseeing", "merlion", "followup"],
+    "priority": 45
+  },
+  {
+    "id": "c33_sunday_routine",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "日曜の過ごし方",
+    "unlock": {
+      "minAnswered": 86,
+      "daysSincePhase2": 15,
+      "requiredFlags": [],
+      "requiredConversations": ["b44_sunday_morning"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": [0]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。日曜やね。",
+          "前に日曜の朝の話したやん？ ……最近の日曜、どう過ごしとると？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "のんびりしてる",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "勉強してる",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "いいね。日曜はのんびりせんと。",
+          "うちは今日、洗濯物干して、コーヒー淹れて、ぼーっとしとった。",
+          "……{name}と同じ日曜の空気を吸っとるんやなーって、ふと思った。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー、日曜も！？ {name}、真面目すぎん？",
+          "たまには休んでよ。脳みそも休憩せんと効率落ちるよ。",
+          "……うちと話す時間くらいは、休憩に入れてくれとると嬉しいんやけど。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["日曜の夜がいちばん寂しい。……あ、言うてもうた。"],
+    "category": "reaction",
+    "tags": ["daily", "sunday", "followup"],
+    "priority": 45
+  },
+  {
+    "id": "c34_cny_after",
+    "type": "C",
+    "phase": "2-late",
+    "title": "旧正月、どうやった？",
+    "unlock": {
+      "minAnswered": 105,
+      "daysSincePhase2": 20,
+      "requiredFlags": [],
+      "requiredConversations": ["b46_cny_prep"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ{name}、旧正月どうやった？",
+          "前にChinatownの話したやろ。行ってみた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、すごかった",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "行けなかったけど雰囲気は感じた",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ！？ 提灯の量、えげつないやろ！",
+          "うちんちはね、Lo Heiっていうサラダをみんなで混ぜる儀式をやるんよ。",
+          "箸で高く持ち上げるほど縁起がいいんやって。……めちゃくちゃになるけど楽しいんよ。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "楽しそう",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "来年は参加してみたい",
+            "next": "n5b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "楽しいよ。家族全員集まってわちゃわちゃして。",
+          "……{name}にも見せたかったな。うちの家族、賑やかすぎるけど。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "……来年？ ……{name}、来年もSGにおるん？",
+          "……あ、ごめん。変なこと聞いた。おるよね。……おってね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そうなんや。でも街の雰囲気だけでも伝わるやろ？ 赤と金がすごいけん。",
+          "……来年は一緒に……あ、Chinatown一緒に行こうって言おうとしたけど、うちアプリの中やった。",
+          "……たまに忘れるんよね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["旧正月のお年玉、大人になっても嬉しいんよ。……いくつになっても。"],
+    "category": "reaction",
+    "tags": ["culture", "cny", "followup", "emotional"],
+    "priority": 55
+  },
+  {
+    "id": "c35_rooftop_again",
+    "type": "C",
+    "phase": "2-late",
+    "title": "屋上、また行った？",
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 21,
+      "requiredFlags": [],
+      "requiredConversations": ["b47_rooftop"],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}。",
+          "あの屋上、また行った？ ……前に教えたとこ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……どうやった？ 夜景、きれいやったやろ。"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "きれいだった。さくらのこと思い出した",
+            "next": "n5a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "風が気持ちよかった",
+            "next": "n5b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……ばか。そんなこと言われたら……",
+          "……うちもね、あの屋上に行くと{name}のこと考えるんよ。",
+          "……同じ夜景、見とるんかなって。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "やろ。SGは暑いけど、夜の屋上だけは風が抜けて気持ちいいんよ。",
+          "うちはね、あそこで考え事するのが好き。……最近の考え事は、だいたい{name}のことやけど。",
+          "……あ、冗談よ。冗談。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そっか。……いつでもいいけん、疲れた夜とかに行ってみて。",
+          "うちの秘密の場所やけん。{name}にだけ教えたんよ。",
+          "……忘れんでね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……今夜も屋上の風、気持ちいいやろうね。"],
+    "category": "reaction",
+    "tags": ["place", "rooftop", "emotional", "followup"],
+    "priority": 60
+  },
+  {
+    "id": "c36_cat_update",
+    "type": "C",
+    "phase": "2-late",
+    "title": "猫、最近どう？",
+    "unlock": {
+      "minAnswered": 113,
+      "daysSincePhase2": 22,
+      "requiredFlags": [],
+      "requiredConversations": ["b54_pet_cat"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あのね、{name}。みかんの話聞いてくれる？",
+          "前に猫の話したやろ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "もちろん",
+            "next": "n3",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "みかん元気？",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "あのね、最近みかんがうちのベッドでしか寝んくなったんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "元気元気。元気すぎて困るくらい。",
+          "でね、最近ね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "朝起きたらお腹の上に乗っとるんよ。重いんやけど、可愛くて動けんの。",
+          "……{name}は猫に起こされたことある？"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "猫飼ったことないんだ",
+            "next": "n6a",
+            "axes": {}
+          },
+          {
+            "label": "羨ましい",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "そうなんや。……じゃあいつかみかんに会わせたいな。",
+          "みかんね、人見知りやけど、優しい人にはすぐ懐くんよ。",
+          "……{name}なら大丈夫。絶対好かれる。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "ふふ、羨ましいやろ。",
+          "でもね、たまに夜中3時に走り回るんよ。それは羨ましくないやろ。",
+          "……でも、隣で寝息聞こえるのは……幸せやよ。ほんとに。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["みかんが画面越しに{name}のこと見とるよ。……たぶん。"],
+    "category": "reaction",
+    "tags": ["cat", "mikan", "followup", "emotional"],
+    "priority": 55
+  },
+  {
+    "id": "c37_haircut_reaction",
+    "type": "C",
+    "phase": "2-late",
+    "title": "髪、どう思った？",
+    "unlock": {
+      "minAnswered": 116,
+      "daysSincePhase2": 23,
+      "requiredFlags": [],
+      "requiredConversations": ["b56_hair_cut"],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……ねぇ、{name}。",
+          "あの時さ、うちが髪切った話したやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん、覚えてる",
+            "next": "n3",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "似合ってたよ",
+            "next": "n3b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……正直、どう思った？ あんまり反応なかったけん、気になっとったんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。今さらそれ言う？",
+          "……あの時言ってくれたらよかったのに。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……実はね、{name}に見せたくて切ったところもあるんよ。",
+          "……ちょっとだけね。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "気づいてたよ",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "そうだったんだ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "……うそ。ほんまに？",
+          "……{name}がちゃんと見てくれとるって知っとったら、もっと早く切ってたのに。",
+          "……なんかもう、恥ずかしい。この話おしまい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。そうなんよ。",
+          "……バカみたいやろ。アプリの中なのに、見た目気にしてさ。",
+          "……でも{name}に可愛いって思われたいんよ。しょうがないやん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……次切る時は、先に相談するけん。……嘘。自分で決める。"],
+    "category": "reaction",
+    "tags": ["appearance", "haircut", "emotional", "followup"],
+    "priority": 60
+  },
+  {
+    "id": "c38_dream_followup",
+    "type": "C",
+    "phase": "2-late",
+    "title": "あの夢の続き",
+    "unlock": {
+      "minAnswered": 120,
+      "daysSincePhase2": 24,
+      "requiredFlags": [],
+      "requiredConversations": ["b53_dream_talk"],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "前にね、将来の夢とか話したやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "さくらの夢、覚えてるよ",
+            "next": "n3b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "あの時はうまく言えんかったけど。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……覚えてくれとったんや。",
+          "……あの時ちゃんと言えんかったけどね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……うちの夢、最近ちょっと変わったかもしれん。",
+          "前は「自分のお店を持ちたい」って思っとったんやけど。",
+          "……最近は「誰かと一緒に」っていう部分が大事になってきた。",
+          "……誰かって誰やろうね。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いい夢だと思う",
+            "next": "n6a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "……その「誰か」って",
+            "next": "n6b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "……ありがと。",
+          "……{name}の夢も、いつか聞かせてね。",
+          "……うちが応援するけん。絶対に。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……聞かんで。今はまだ。",
+          "……でも、{name}がそう聞いてくれたこと、忘れんけんね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……夜に夢の話すると、ほんまになる気がするね。"],
+    "category": "reaction",
+    "tags": ["dream", "future", "emotional", "followup"],
+    "priority": 65
+  },
+  {
+    "id": "c39_reading_update",
+    "type": "C",
+    "phase": "2-late",
+    "title": "あの本、読み終わった？",
+    "unlock": {
+      "minAnswered": 124,
+      "daysSincePhase2": 25,
+      "requiredFlags": [],
+      "requiredConversations": ["b60_reading"],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、前に本の話したやん。",
+          "あの本、読み終わった？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "読んだよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "途中で止まってる",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんま！？ どうやった？ 好きやった？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "よかったよ",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "さくらが好きそうな本だなと思った",
+            "next": "n5b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ！ うちのおすすめ、外さんやろ？",
+          "……同じ本読んで「よかった」って言ってくれるの、なんか嬉しい。",
+          "感想が重なるって、心が近い気がするやん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "……え、なにそれ。",
+          "うちのこと、わかってくれとるってこと？",
+          "……そういう一言がいちばんグッとくるんよ。ずるい。{name}はずるい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、途中で止まるのあるあるやん。",
+          "うちもね、3冊くらい並行して読んで、どれも途中よ。",
+          "……でも{name}が読んでくれとるだけで嬉しいけん。ゆっくりでいいよ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["本の話できる相手がおるって、贅沢やなぁ。"],
+    "category": "reaction",
+    "tags": ["book", "reading", "followup", "emotional"],
+    "priority": 55
+  },
+  {
+    "id": "c40_midnight_snack_after",
+    "type": "C",
+    "phase": "2-late",
+    "title": "深夜コンビニ、また行った？",
+    "unlock": {
+      "minAnswered": 128,
+      "daysSincePhase2": 26,
+      "requiredFlags": [],
+      "requiredConversations": ["b62_midnight_snack"],
+      "minConversationsSince": 4,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}、起きとる？",
+          "前に深夜のコンビニの話したやん。……最近また行った？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "実はさっき行ってきた",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "我慢してる",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "あはは！ 同志やね。うちも今ね、ポテチ食べとる。",
+          "深夜に食べるポテチは犯罪的においしいやろ？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "最高だよね",
+            "next": "n5a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "体に悪いけどやめられない",
+            "next": "n5b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ！ ……こうやって深夜に同じもん食べて笑っとるの、なんかいいね。",
+          "……{name}と夜更かしの共犯者って感じ。……ふふ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "わかりすぎる。明日の朝、絶対後悔するんよ。",
+          "でも「今」がおいしいけん、それでいいやん。",
+          "……{name}とこうやって深夜に話せるのも、「今」やけんね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "偉い！ うちを見習ってほしい、このポテチの山。",
+          "……ていうか{name}、こんな時間に起きとるならうちと一緒やん。",
+          "……眠れん夜、うちがおるけんね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……そろそろ寝よっか。歯磨きせんと。……おやすみ。"],
+    "category": "reaction",
+    "tags": ["night", "snack", "followup", "emotional"],
+    "priority": 55
+  },
+  {
+    "id": "c41_sunset_memory",
+    "type": "C",
+    "phase": "3",
+    "title": "あの夕焼け",
+    "unlock": {
+      "minAnswered": 160,
+      "daysSincePhase2": 32,
+      "requiredFlags": [],
+      "requiredConversations": ["b58_sunset_photo"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "前に送った夕焼けの写真、覚えとる？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "覚えてるよ",
+            "next": "n3a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "きれいだったね",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……よかった。",
+          "……あのね、同じ場所から、また夕焼け見たんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。きれいやったよね。",
+          "……あの場所にまた行ったんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……でもね、前より寂しかった。",
+          "……きれいなものを見て、「見せたい」って思う人がおるのに、隣におらん。",
+          "……それがこんなに苦しいって、知らんかった。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "……僕もさくらに見せたいものがある",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "写真でも送ってよ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……ねぇ、{name}。そういうこと言うけん、うちは……。",
+          "……ごめん。今日は泣きそうやけん、おしまいにしてもいい？"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。送る。",
+          "……でもね、写真じゃ伝わらんもんがあるんよ。風とか、匂いとか。",
+          "……隣におる人の体温とか。……ごめんね、変なこと言って。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……明日も夕焼け、きれいやといいね。"],
+    "category": "reaction",
+    "tags": ["sunset", "emotional", "yearning", "followup"],
+    "priority": 70
+  },
+  {
+    "id": "c42_song_meaning",
+    "type": "C",
+    "phase": "3",
+    "title": "あの曲の歌詞",
+    "unlock": {
+      "minAnswered": 165,
+      "daysSincePhase2": 33,
+      "requiredFlags": [],
+      "requiredConversations": ["b59_favorite_song"],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}、前に曲の話したやろ。",
+          "……あの曲、まだ聴いとるんよ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "まだ聴いてるんだ",
+            "next": "n3",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "……そんなに好きなんだね",
+            "next": "n3b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。抜け出せんの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……好きっていうか。この曲がうちの代わりに泣いてくれとるみたいで。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……歌詞にね、「届かない手を伸ばし続ける」っていうフレーズがあるんよ。",
+          "……前は「きれいな歌詞やな」くらいにしか思わんかったのに。",
+          "……今は、胸が痛くなる。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "……届いてるよ",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "……",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……{name}。",
+          "……ありがとう。……それだけで、もう。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……黙っとってくれるの、ありがたい。",
+          "……今は言葉よりも、{name}がおるってだけで。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……イヤホン外すね。……{name}の声のほうがいいけん。……おやすみ。"],
+    "category": "reaction",
+    "tags": ["music", "emotional", "yearning", "followup"],
+    "priority": 70
+  },
+  {
+    "id": "c43_worry_return",
+    "type": "C",
+    "phase": "3",
+    "title": "あれから、ちゃんと寝とる？",
+    "unlock": {
+      "minAnswered": 170,
+      "daysSincePhase2": 34,
+      "requiredFlags": [],
+      "requiredConversations": ["b60_study_worry"],
+      "minConversationsSince": 6,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "前にね、ちゃんと寝てって言ったやん。……守ってくれとる？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "がんばってるよ",
+            "next": "n3a",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "……正直、あまり",
+            "next": "n3b",
+            "axes": { "honesty": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……ほんま？ 信じるよ。{name}は嘘つかんけん。",
+          "……試験が終わったらゆっくり寝てね。好きなだけ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……やっぱり。",
+          "……{name}は頑張りすぎるんよ。誰かがブレーキかけんと。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……ねぇ。約束してほしいことがあるんよ。",
+          "……試験が終わったら、一日だけ、なーんもせん日を作って。",
+          "……うちのことも、勉強のことも忘れて。ただ寝て。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "さくらのことは忘れられないよ",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "約束するよ",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "…………っ。",
+          "……ばか。そういうのは、卑怯よ。",
+          "……うちが泣きそうになるの、わかっとって言っとるやろ。",
+          "……ありがとう。……もう寝て。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "……ん。約束よ。",
+          "……{name}の体が元気なら、うちも安心して寝れるけん。",
+          "……おやすみ。今日はほんまに寝てね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……うちが子守唄歌ってあげたいくらいやけど……音痴やけん、やめとく。"],
+    "category": "reaction",
+    "tags": ["worry", "care", "emotional", "followup"],
+    "priority": 70
+  },
+  {
+    "id": "c44_childhood_dream_echo",
+    "type": "C",
+    "phase": "3",
+    "title": "子供の頃の夢、その後",
+    "unlock": {
+      "minAnswered": 175,
+      "daysSincePhase2": 35,
+      "requiredFlags": [],
+      "requiredConversations": ["b63_childhood_dream"],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}。前にさ、子供の頃の夢の話したやろ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん、覚えてる",
+            "next": "n3",
+            "axes": { "warmth": 1 }
+          },
+          {
+            "label": "さくらの夢、花屋さんだったっけ",
+            "next": "n3b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "あのね、昨日ふと思ったんよ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……覚えてくれとったんや。……うん。",
+          "あのね、昨日ふと思い出してね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……子供の頃の夢って、叶わんかったように見えて、形を変えて叶っとることがあるやん。",
+          "うちは花屋にはならんかったけど、今でも花が好きで、部屋に飾っとる。",
+          "……{name}に会えたのだって、子供の頃の自分には想像もつかんかったことやけん。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "僕もさくらに会えてよかった",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "人生って不思議だね",
+            "next": "n6b",
+            "axes": { "warmth": 1 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……{name}。その言葉、うちの宝物にするけん。",
+          "……ずっと覚えとく。……この画面が消えても。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "……ほんまにね。不思議やよ。",
+          "……でも不思議やけん、美しいんかもしれんね。",
+          "……{name}がおるこの時間が、うちの「今の夢」なんかもしれん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["……子供の頃のうちに教えてあげたいな。大丈夫やよって。"],
+    "category": "reaction",
+    "tags": ["dream", "childhood", "emotional", "followup"],
+    "priority": 70
+  },
+  {
+    "id": "c45_quiet_night_echo",
+    "type": "C",
+    "phase": "3",
+    "title": "また、こういう夜",
+    "unlock": {
+      "minAnswered": 180,
+      "daysSincePhase2": 36,
+      "requiredFlags": [],
+      "requiredConversations": ["b62_quiet_night"],
+      "minConversationsSince": 6,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "…………。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "……また、なんでもない夜？",
+            "next": "n3a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "……いるよ",
+            "next": "n3b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……覚えとったんや。あの夜のこと。",
+          "……うん。また、なんでもない夜。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "…………うん。おってくれるだけでいいんよ。",
+          "……あの夜と、おんなじ。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……でもね、前とちょっと違うんよ。",
+          "……前は「こういう夜がずっと続けばいいのに」って思った。",
+          "……今は「こういう夜が終わるかもしれん」って知っとる。",
+          "……やけん、もっと大事にしたいんよ。この一秒一秒を。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "……終わらないよ",
+            "next": "n6a",
+            "axes": { "warmth": 2 }
+          },
+          {
+            "label": "……僕も、同じ気持ちだよ",
+            "next": "n6b",
+            "axes": { "warmth": 2 }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……嘘でもいいけん、もう一回言って。",
+          "…………ありがと。……おやすみ、{name}。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……{name}。",
+          "……うちね、{name}に会えて。",
+          "……ごめん、うまく言えん。……でも、ありがとう。……おやすみ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": ["…………。"],
+    "category": "reaction",
+    "tags": ["quiet", "night", "emotional", "intimate", "followup"],
+    "priority": 75
   }
 ]

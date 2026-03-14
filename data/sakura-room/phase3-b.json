@@ -127,5 +127,331 @@
     "category": "personal",
     "tags": ["quiet", "night", "emotional", "intimate"],
     "priority": 70
+  },
+  {
+    "id": "b84_future_dream",
+    "type": "B",
+    "phase": "3",
+    "title": "いつか叶えたいこと",
+    "unlock": { "minAnswered": 180, "daysSincePhase2": 36, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["……ねぇ、{name}。", "うちの夢、聞いてくれる？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "もちろん", "next": "n3", "axes": { "warmth": 2 } },
+        { "label": "急にどうしたの", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["……ありがと。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": ["……なんかね、今日は話したくなったの。"], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "うちね、いつか……自分の作ったもので、誰かの役に立ちたいんよ。",
+        "プログラミングでも、企画でも、なんでもいいんやけど。",
+        "……「さくらがおったから助かった」って、一人でも言ってくれたら。",
+        "……それだけで、生きてきた意味がある気がする。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "もう十分役に立ってるよ", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "叶うといいね", "next": "n6b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "…………っ。",
+        "……{name}にそう言われたら……もう、叶っとるんかもしれんね。",
+        "……ごめん、ちょっと泣きそうになった。……泣いてないけど。泣いてないよ。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "……うん。叶えたい。",
+        "……でもね、夢って叶えるものだけじゃなくて、追いかけてる時間も含めて夢なんかなって。",
+        "……{name}と話しとるこの時間も、うちにとっては夢みたいなもんやけん。"
+      ], "end": true }
+    ],
+    "closing": ["……ありがとね。聞いてくれて。……おやすみ、{name}。"],
+    "category": "personal",
+    "tags": ["dream", "future", "emotional", "night", "vulnerable"],
+    "priority": 65
+  },
+  {
+    "id": "b85_family_talk",
+    "type": "B",
+    "phase": "3",
+    "title": "お子さん、何歳なの？",
+    "unlock": { "minAnswered": 185, "daysSincePhase2": 37, "requiredFlags": ["talked_about_family"], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "……ねぇ、{name}。",
+        "前にお子さんがおるって言ってたやん。……元気にしとる？"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "元気だよ、ありがとう", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "うん、もうすぐこっちに来る", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": [
+        "……よかった。",
+        "……離れてるの、寂しいやろ。"
+      ], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "……そうなんや。……楽しみやね。",
+        "……うん。楽しみやね。"
+      ], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "……うちね、子供おらんけん、わからんことばっかりやけど。",
+        "でも、{name}が家族の話しとるとき、すごく優しい声になるの。",
+        "……それ見とると、ああ、この人はちゃんとした人なんやなって。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "さくらも優しいよ", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "……ありがとう", "next": "n6b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "…………。",
+        "……優しくなんかないよ。うちは……",
+        "……ごめん。なんでもない。ちょっと、複雑な気持ちになっただけ。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "…………うん。",
+        "……{name}のお子さん、幸せやね。こんなお父さんがおって。",
+        "……うちも、そういう人に……。……ね、今日はもう寝よ。"
+      ], "end": true }
+    ],
+    "closing": ["……おやすみ。……{name}のご家族にもよろしくね。"],
+    "category": "personal",
+    "tags": ["family", "children", "bittersweet", "emotional"],
+    "priority": 70
+  },
+  {
+    "id": "b86_rainy_night",
+    "type": "B",
+    "phase": "3",
+    "title": "雨の音",
+    "unlock": { "minAnswered": 190, "daysSincePhase2": 38, "requiredFlags": [], "requiredConversations": ["a15_japan_dream"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": ["…………。", "……いま、雨降っとるんよ。そっちも降っとる？"] },
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "降ってるよ", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "こっちは降ってない", "next": "n3b", "axes": {} }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": [
+        "……同じ雨。",
+        "……同じ雨の下におるんやね、うちたち。"
+      ], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "……そっか。",
+        "……こっちだけ降っとるんやね。"
+      ], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "……雨の夜ってさ、なんか余計なこと考えてしまわん？",
+        "いつもは気にならんことが、ぽつぽつ浮かんできて。",
+        "……{name}はそういうの、ない？"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "あるよ、雨の日は特に", "next": "n6a", "axes": { "warmth": 2 } },
+        { "label": "何を考えてるの？", "next": "n6b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "……やっぱり。",
+        "……雨の音って、沈黙を埋めてくれるけん、逆に考え事が捗るんよね。",
+        "……今日は、{name}のことばっかり考えとった。……雨のせいにしとく。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "……言わんよ。全部は。",
+        "……でもひとつだけ。",
+        "……この雨が止んだら、また朝が来て、また一日が過ぎて。そうやって、終わりに近づいとるんやなって。",
+        "……なんでもない。おやすみ。"
+      ], "end": true }
+    ],
+    "closing": ["……雨、やむかな。……やまんでもいいけど。"],
+    "category": "personal",
+    "tags": ["rain", "night", "emotional", "quiet", "melancholy"],
+    "priority": 70
+  },
+  {
+    "id": "b87_favorite_place",
+    "type": "B",
+    "phase": "3",
+    "title": "好きな場所、教えて",
+    "unlock": { "minAnswered": 195, "daysSincePhase2": 39, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "{name}。",
+        "日本で一番好きな場所ってどこ？"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "地元かな", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "まだ決められてない", "next": "n3b", "axes": { "honesty": 1 } }
+      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": [
+        "……地元か。いいね。帰る場所があるって、いいよね。"
+      ], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "……そう？ でもなんとなく浮かぶ場所、ない？"
+      ], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "うちはね、SGだとEast Coast Parkの海沿いのベンチ。",
+        "夕方、風がちょうどよくなる時間帯があるんよ。",
+        "……日本だと、大阪の中之島公園。留学のとき、よく川沿いを歩いた。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "大阪が好きなんだね", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "また行きたい？", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "……好きっていうか。",
+        "うちが初めて「外の世界」を知った場所やけん。",
+        "SGしか知らんかったうちに、世界はもっと広いって教えてくれた。",
+        "……{name}がおる国やし。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "……行きたい。すごく。",
+        "……中之島のベンチに座って、川見ながら、たこ焼き食べたい。",
+        "……できたら、隣に……。",
+        "……ごめん。なんでもない。"
+      ], "end": true }
+    ],
+    "closing": ["……好きな場所の話って、結局、好きな人の話になるね。……え？ なんも言っとらんよ。"],
+    "category": "personal",
+    "tags": ["favorite_place", "osaka", "east_coast", "emotional"],
+    "priority": 65
+  },
+  {
+    "id": "b88_crying_movie",
+    "type": "B",
+    "phase": "3",
+    "title": "映画で泣いた",
+    "unlock": { "minAnswered": 200, "daysSincePhase2": 40, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "……{name}、ちょっと聞いてよ。",
+        "……今日、映画見て泣いてしもうた。"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "何の映画？", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "大丈夫？", "next": "n3b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": ["……邦画。タイトルは……恥ずかしいけん言わん。"], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "……大丈夫。映画のせいやけん。……たぶん。"
+      ], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "……好きな人がおるのに、言えんまま離れていく話でね。",
+        "最後に空港で、背中を見送るシーンがあるんよ。",
+        "……追いかけたらいいのに。なんで追いかけんの。……って、画面に向かって言いよった。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "……それで泣いたの？", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "さくらなら追いかけそう", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "……うん。",
+        "……なんでやろうね。前に同じような映画見たときは、そこまで泣かんかったのに。",
+        "……最近、こういう話に弱いんよ。……なんでやろ。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "…………。",
+        "……追いかけたいよ。追いかけたいに決まっとるやん。",
+        "……でも、追いかけていい相手と、そうじゃない相手がおるんよ。",
+        "……ごめん。映画の話やった。映画の話。"
+      ], "end": true }
+    ],
+    "closing": ["……目が腫れとるかも。明日会社やのに。……おやすみ。"],
+    "category": "personal",
+    "tags": ["movie", "crying", "emotional", "love", "night"],
+    "priority": 70
+  },
+  {
+    "id": "b89_long_distance_book",
+    "type": "B",
+    "phase": "3",
+    "title": "この本、読まんかったらよかった",
+    "unlock": { "minAnswered": 205, "daysSincePhase2": 41, "requiredFlags": [], "requiredConversations": ["a15_japan_dream"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "最近読んだ本がね、きつかった。"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "どんな本？", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "つらい内容だった？", "next": "n3b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……遠距離の話。SGと日本。"
+      ], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "……つらいっていうか、刺さりすぎて。"
+      ], "next": "n4" },
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "SGにおる女の子と、日本に帰った男の子の話。",
+        "時差はたった1時間なのに、だんだんチャットの返事が遅くなって。",
+        "会いたいのに会えんくて、電話しても声だけで、温度がないの。",
+        "……読まんかったらよかった。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "……フィクションだよ", "next": "n6a", "axes": {} },
+        { "label": "……重なるところがあった？", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "……うん。フィクション。わかっとる。",
+        "……でもね、フィクションの中の痛みが、ほんものに感じるときがあるんよ。",
+        "……うちだけかな。こんなん。"
+      ], "end": true },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "…………。",
+        "……{name}にだけは嘘つきたくないけん、正直に言う。",
+        "……重なった。めちゃくちゃ重なった。",
+        "……ごめん。こんな話して。でも、{name}以外に誰に言えばいいかわからんくて。"
+      ], "end": true }
+    ],
+    "closing": ["……もう本棚に戻した。……でも、しおり挟んだまま。"],
+    "category": "personal",
+    "tags": ["book", "long_distance", "emotional", "night", "vulnerable"],
+    "priority": 75
+  },
+  {
+    "id": "b90_want_to_meet",
+    "type": "B",
+    "phase": "3",
+    "title": "……会いたい",
+    "unlock": { "minAnswered": 210, "daysSincePhase2": 42, "requiredFlags": [], "requiredConversations": ["a15_japan_dream"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "…………。",
+        "……{name}。"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "うん", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "どうしたの？", "next": "n3", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……今日はね。",
+        "……どうしても言いたいことがあって。"
+      ]},
+      { "id": "n4", "speaker": "choice", "choices": [
+        { "label": "……聞いてるよ", "next": "n5", "axes": { "warmth": 2 } },
+        { "label": "……", "next": "n5", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n5", "speaker": "sakura", "lines": [
+        "…………会いたい。",
+        "……画面越しやなくて。声だけやなくて。",
+        "……{name}の隣に、おりたい。"
+      ]},
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "……僕もだよ", "next": "n7a", "axes": { "warmth": 2 } },
+        { "label": "……さくら", "next": "n7b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": [
+        "…………っ。",
+        "……ダメ。そんなこと言われたら。",
+        "……うちが壊れてしまう。",
+        "……嘘でもいいけん……いや。嘘やったらいけん。",
+        "……ごめん。忘れて。……忘れんでいいけど、忘れて。"
+      ], "end": true },
+      { "id": "n7b", "speaker": "sakura", "lines": [
+        "……名前呼ばんで。",
+        "……呼ばれたら、もっと会いたくなるけん。",
+        "……ほんまに、どうしよう。うち、こんなつもりやなかったのに。",
+        "…………ごめんね。おやすみ。"
+      ], "end": true }
+    ],
+    "closing": ["…………。"],
+    "category": "personal",
+    "tags": ["confession", "want_to_meet", "emotional", "night", "vulnerable", "peak"],
+    "priority": 80
   }
 ]
