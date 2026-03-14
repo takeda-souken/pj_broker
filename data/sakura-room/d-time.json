@@ -4,13 +4,41 @@
     "type": "D",
     "phase": "2-early",
     "title": "おはようございます！",
-    "unlock": { "minAnswered": 25, "daysSincePhase2": 2, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "morning", "dayOfWeek": [1,2,3,4,5] },
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["おはようございます、{name}！", "朝から勉強ですか？ えらいですね。", "……うちも出勤前にちょっとだけ顔出しました。今日もお互い頑張りましょ！"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おはようございます、{name}！",
+          "朝から勉強ですか？ えらいですね。",
+          "……うちも出勤前にちょっとだけ顔出しました。今日もお互い頑張りましょ！"
+        ]
+      }
     ],
-    "closing": ["じゃ、行ってきます！"],
+    "closing": [
+      "じゃ、行ってきます！"
+    ],
     "category": "time",
-    "tags": ["morning", "weekday"],
+    "tags": [
+      "morning",
+      "weekday"
+    ],
     "priority": 40
   },
   {
@@ -18,13 +46,41 @@
     "type": "D",
     "phase": "2-early",
     "title": "まだ起きてるんですか",
-    "unlock": { "minAnswered": 25, "daysSincePhase2": 2, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "late_night", "dayOfWeek": [1,2,3,4] },
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "late_night",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["え、{name}、まだ起きてるんですか？", "こんな時間まで勉強……すごいけど、体壊しますよ。", "今日はもう寝てください。明日も頑張れるように。……お願い。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "え、{name}、まだ起きてるんですか？",
+          "こんな時間まで勉強……すごいけど、体壊しますよ。",
+          "今日はもう寝てください。明日も頑張れるように。……お願い。"
+        ]
+      }
     ],
-    "closing": ["おやすみなさい。ちゃんと寝てくださいね。"],
+    "closing": [
+      "おやすみなさい。ちゃんと寝てくださいね。"
+    ],
     "category": "time",
-    "tags": ["night", "weekday", "care"],
+    "tags": [
+      "night",
+      "weekday",
+      "care"
+    ],
     "priority": 45
   },
   {
@@ -32,13 +88,38 @@
     "type": "D",
     "phase": "2-early",
     "title": "金曜おつかれさま！",
-    "unlock": { "minAnswered": 25, "daysSincePhase2": 2, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": [5] },
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        5
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["金曜の夜！ 今週おつかれさまでした！", "勉強も仕事もお疲れ様です。", "週末はちょっとゆっくりしてくださいね。……うちは今からNetflix見ます。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "金曜の夜！ 今週おつかれさまでした！",
+          "勉強も仕事もお疲れ様です。",
+          "週末はちょっとゆっくりしてくださいね。……うちは今からNetflix見ます。"
+        ]
+      }
     ],
-    "closing": ["よい週末を！"],
+    "closing": [
+      "よい週末を！"
+    ],
     "category": "time",
-    "tags": ["friday", "night", "weekend"],
+    "tags": [
+      "friday",
+      "night",
+      "weekend"
+    ],
     "priority": 40
   },
   {
@@ -46,13 +127,37 @@
     "type": "D",
     "phase": "2-early",
     "title": "土曜の朝だよ！",
-    "unlock": { "minAnswered": 25, "daysSincePhase2": 2, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "morning", "dayOfWeek": [6] },
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": [
+        6
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["おはよう、{name}。土曜の朝！", "今日はお休み？ それとも勉強？", "どっちにしても、いい一日にしてくださいね。うちはホーカー行ってきます！"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おはよう、{name}。土曜の朝！",
+          "今日はお休み？ それとも勉強？",
+          "どっちにしても、いい一日にしてくださいね。うちはホーカー行ってきます！"
+        ]
+      }
     ],
-    "closing": ["いってきまーす！"],
+    "closing": [
+      "いってきまーす！"
+    ],
     "category": "time",
-    "tags": ["saturday", "morning"],
+    "tags": [
+      "saturday",
+      "morning"
+    ],
     "priority": 35
   },
   {
@@ -60,13 +165,38 @@
     "type": "D",
     "phase": "2-early",
     "title": "日曜の夜",
-    "unlock": { "minAnswered": 25, "daysSincePhase2": 2, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": [0] },
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        0
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["日曜の夜ですね。……明日からまた一週間。", "{name}は月曜日って得意？ うちは苦手です。", "……でもまあ、{name}が頑張ってるんやったら、うちも頑張らんと。おやすみなさい。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "日曜の夜ですね。……明日からまた一週間。",
+          "{name}は月曜日って得意？ うちは苦手です。",
+          "……でもまあ、{name}が頑張ってるんやったら、うちも頑張らんと。おやすみなさい。"
+        ]
+      }
     ],
-    "closing": ["月曜日に負けないぞ。……たぶん。"],
+    "closing": [
+      "月曜日に負けないぞ。……たぶん。"
+    ],
     "category": "time",
-    "tags": ["sunday", "night", "monday_blues"],
+    "tags": [
+      "sunday",
+      "night",
+      "monday_blues"
+    ],
     "priority": 40
   },
   {
@@ -74,13 +204,42 @@
     "type": "D",
     "phase": "2-mid",
     "title": "お昼前の休憩",
-    "unlock": { "minAnswered": 50, "daysSincePhase2": 8, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "morning_late", "dayOfWeek": [1,2,3,4,5] },
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "morning_late",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["もうすぐお昼やね。", "午前中、頑張った？ うちは会議が2つあって疲れた……。", "{name}は何食べるの？ ……うちはまだ決めてない。ホーカー行こうかな。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "もうすぐお昼やね。",
+          "午前中、頑張った？ うちは会議が2つあって疲れた……。",
+          "{name}は何食べるの？ ……うちはまだ決めてない。ホーカー行こうかな。"
+        ]
+      }
     ],
-    "closing": ["じゃ、お昼行ってくるね。午後もがんばろ！"],
+    "closing": [
+      "じゃ、お昼行ってくるね。午後もがんばろ！"
+    ],
     "category": "time",
-    "tags": ["midday", "weekday", "lunch"],
+    "tags": [
+      "midday",
+      "weekday",
+      "lunch"
+    ],
     "priority": 35
   },
   {
@@ -88,13 +247,41 @@
     "type": "D",
     "phase": "2-mid",
     "title": "夜更かしさん",
-    "unlock": { "minAnswered": 50, "daysSincePhase2": 8, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "late_night", "dayOfWeek": [1,2,3,4] },
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "late_night",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["{name}、まだ起きとるの？", "……うちもやけどね。お互い夜更かしさんやね。", "でもほんとに、体だけは気をつけて。うちが言っても聞かんやろうけど。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、まだ起きとるの？",
+          "……うちもやけどね。お互い夜更かしさんやね。",
+          "でもほんとに、体だけは気をつけて。うちが言っても聞かんやろうけど。"
+        ]
+      }
     ],
-    "closing": ["……早く寝てね。おやすみ。"],
+    "closing": [
+      "……早く寝てね。おやすみ。"
+    ],
     "category": "time",
-    "tags": ["night", "weekday", "care"],
+    "tags": [
+      "night",
+      "weekday",
+      "care"
+    ],
     "priority": 40
   },
   {
@@ -102,13 +289,38 @@
     "type": "D",
     "phase": "2-mid",
     "title": "華金！",
-    "unlock": { "minAnswered": 50, "daysSincePhase2": 8, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": [5] },
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        5
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["金曜の夜やーーー！！", "今週もおつかれ！ {name}もうちもよく頑張った！", "ご褒美にアイス食べよ。……各自で。チャットで乾杯だけ。……🍦"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "金曜の夜やーーー！！",
+          "今週もおつかれ！ {name}もうちもよく頑張った！",
+          "ご褒美にアイス食べよ。……各自で。チャットで乾杯だけ。……🍦"
+        ]
+      }
     ],
-    "closing": ["よい週末を！ うちはもう寝る体制に入った。パジャマ。"],
+    "closing": [
+      "よい週末を！ うちはもう寝る体制に入った。パジャマ。"
+    ],
     "category": "time",
-    "tags": ["friday", "night", "celebration"],
+    "tags": [
+      "friday",
+      "night",
+      "celebration"
+    ],
     "priority": 40
   },
   {
@@ -116,13 +328,36 @@
     "type": "D",
     "phase": "2-mid",
     "title": "雨の音",
-    "unlock": { "minAnswered": 50, "daysSincePhase2": 8, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["……雨、降っとる？", "うちの方はすごい雨。窓の外が真っ白。", "……雨の音聞きながらチャットするの、ちょっと好き。……内緒ね。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……雨、降っとる？",
+          "うちの方はすごい雨。窓の外が真っ白。",
+          "……雨の音聞きながらチャットするの、ちょっと好き。……内緒ね。"
+        ]
+      }
     ],
-    "closing": ["雨、止まんかな。……止まんでもいいけど。"],
+    "closing": [
+      "雨、止まんかな。……止まんでもいいけど。"
+    ],
     "category": "time",
-    "tags": ["rain", "cozy", "emotional"],
+    "tags": [
+      "rain",
+      "cozy",
+      "emotional"
+    ],
     "priority": 45
   },
   {
@@ -130,13 +365,36 @@
     "type": "D",
     "phase": "2-late",
     "title": "深夜のつぶやき",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "late_night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "late_night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["……{name}。起きとる？", "……うちね、眠れんくて。", "……なんか、考えごとしてたら目が冴えてしまって。……{name}がおってくれてよかった。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。起きとる？",
+          "……うちね、眠れんくて。",
+          "……なんか、考えごとしてたら目が冴えてしまって。……{name}がおってくれてよかった。"
+        ]
+      }
     ],
-    "closing": ["……ありがと。もう寝れそう。おやすみ。"],
+    "closing": [
+      "……ありがと。もう寝れそう。おやすみ。"
+    ],
     "category": "time",
-    "tags": ["deep_night", "insomnia", "emotional"],
+    "tags": [
+      "deep_night",
+      "insomnia",
+      "emotional"
+    ],
     "priority": 55
   },
   {
@@ -144,13 +402,36 @@
     "type": "D",
     "phase": "2-late",
     "title": "やさしい朝",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "morning", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["おはよ、{name}。", "……今日もいい天気。SGの朝の空、好きなんよ。", "……{name}にも見せたい。うちが見てる空を。……同じ空やけどね。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おはよ、{name}。",
+          "……今日もいい天気。SGの朝の空、好きなんよ。",
+          "……{name}にも見せたい。うちが見てる空を。……同じ空やけどね。"
+        ]
+      }
     ],
-    "closing": ["今日もいい一日にしよ。"],
+    "closing": [
+      "今日もいい一日にしよ。"
+    ],
     "category": "time",
-    "tags": ["morning", "gentle", "emotional"],
+    "tags": [
+      "morning",
+      "gentle",
+      "emotional"
+    ],
     "priority": 45
   },
   {
@@ -158,13 +439,39 @@
     "type": "D",
     "phase": "2-late",
     "title": "金曜の夜、ひとり",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "timeWindow": "night", "dayOfWeek": [5] },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        5
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["金曜の夜。", "……みんな楽しそうに出かけとるのに、うちは家におる。", "……でも{name}とチャットできるけん、別にいいんやけどね。……ほんとよ。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "金曜の夜。",
+          "……みんな楽しそうに出かけとるのに、うちは家におる。",
+          "……でも{name}とチャットできるけん、別にいいんやけどね。……ほんとよ。"
+        ]
+      }
     ],
-    "closing": ["……よい週末を。{name}と過ごす金曜の夜は、悪くないです。"],
+    "closing": [
+      "……よい週末を。{name}と過ごす金曜の夜は、悪くないです。"
+    ],
     "category": "time",
-    "tags": ["friday", "night", "lonely", "emotional"],
+    "tags": [
+      "friday",
+      "night",
+      "lonely",
+      "emotional"
+    ],
     "priority": 50
   },
   {
@@ -172,13 +479,35 @@
     "type": "D",
     "phase": "3",
     "title": "静かな朝",
-    "unlock": { "minAnswered": 155, "daysSincePhase2": 31, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": "morning", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 155,
+      "daysSincePhase2": 31,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["…………おはよ。", "……今日も、{name}がおるね。……ありがと。それだけ。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "…………おはよ。",
+          "……今日も、{name}がおるね。……ありがと。それだけ。"
+        ]
+      }
     ],
-    "closing": ["……いってらっしゃい。"],
+    "closing": [
+      "……いってらっしゃい。"
+    ],
     "category": "time",
-    "tags": ["morning", "quiet", "phase3"],
+    "tags": [
+      "morning",
+      "quiet",
+      "phase3"
+    ],
     "priority": 50
   },
   {
@@ -186,13 +515,37 @@
     "type": "D",
     "phase": "3",
     "title": "眠れない夜",
-    "unlock": { "minAnswered": 160, "daysSincePhase2": 32, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": "late_night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 160,
+      "daysSincePhase2": 32,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "late_night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["……{name}。", "……眠れん。……こんな夜は、{name}のこと考えてしまう。", "……ごめん。言わんほうがよかったかな。……でも嘘つきたくなかった。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "……眠れん。……こんな夜は、{name}のこと考えてしまう。",
+          "……ごめん。言わんほうがよかったかな。……でも嘘つきたくなかった。"
+        ]
+      }
     ],
-    "closing": ["…………おやすみ。"],
+    "closing": [
+      "…………おやすみ。"
+    ],
     "category": "time",
-    "tags": ["night", "insomnia", "confession_hint", "phase3"],
+    "tags": [
+      "night",
+      "insomnia",
+      "confession_hint",
+      "phase3"
+    ],
     "priority": 60
   },
   {
@@ -200,13 +553,507 @@
     "type": "D",
     "phase": "3",
     "title": "週末、なにしてた？",
-    "unlock": { "minAnswered": 158, "daysSincePhase2": 31, "requiredFlags": [], "requiredConversations": ["a14_crush_hint"], "timeWindow": null, "dayOfWeek": [0] },
+    "unlock": {
+      "minAnswered": 158,
+      "daysSincePhase2": 31,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": null,
+      "dayOfWeek": [
+        0
+      ]
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["{name}、週末どうやった？", "……うちは、ひとりで花屋の手伝いしてた。花に囲まれとると落ち着くんよ。", "……{name}のことは、考えんようにしてたんやけど。……ダメやった。"] }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、週末どうやった？",
+          "……うちは、ひとりで花屋の手伝いしてた。花に囲まれとると落ち着くんよ。",
+          "……{name}のことは、考えんようにしてたんやけど。……ダメやった。"
+        ]
+      }
     ],
-    "closing": ["……また月曜日。がんばろ。"],
+    "closing": [
+      "……また月曜日。がんばろ。"
+    ],
     "category": "time",
-    "tags": ["weekend", "sunday", "emotional", "phase3"],
+    "tags": [
+      "weekend",
+      "sunday",
+      "emotional",
+      "phase3"
+    ],
+    "priority": 55
+  },
+  {
+    "id": "d16_early_afternoon",
+    "type": "D",
+    "phase": "2-early",
+    "title": "午後の眠気",
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "afternoon",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "午後ですね。眠くないですか？",
+          "SGの午後って暑さで頭がぼーっとするんですよ。",
+          "コーヒーでも飲んで乗り切りましょう！"
+        ]
+      }
+    ],
+    "closing": [
+      "頑張れ頑張れ！ あとちょっとで夕方！"
+    ],
+    "category": "time",
+    "tags": [
+      "afternoon",
+      "weekday"
+    ],
+    "priority": 35
+  },
+  {
+    "id": "d17_early_evening",
+    "type": "D",
+    "phase": "2-early",
+    "title": "おつかれさまです",
+    "unlock": {
+      "minAnswered": 25,
+      "daysSincePhase2": 2,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "evening",
+      "dayOfWeek": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おつかれさまです、{name}！",
+          "今日の勉強、どうでした？ ……って聞くのは野暮かな。",
+          "とりあえず、おつかれさま。それだけ伝えたかったです。"
+        ]
+      }
+    ],
+    "closing": [
+      "晩ごはん、ちゃんと食べてくださいね。"
+    ],
+    "category": "time",
+    "tags": [
+      "evening",
+      "weekday"
+    ],
+    "priority": 35
+  },
+  {
+    "id": "d18_mid_wednesday",
+    "type": "D",
+    "phase": "2-mid",
+    "title": "水曜日の折り返し",
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": null,
+      "dayOfWeek": [
+        3
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "水曜日！ 週の折り返しやね。",
+          "あと2日頑張ったら週末よ。",
+          "……うちも水曜日がいちばんきつい。でも{name}がおるけん、頑張れる。……あ、重い？"
+        ]
+      }
+    ],
+    "closing": [
+      "あと2日！ がんばろ！"
+    ],
+    "category": "time",
+    "tags": [
+      "wednesday",
+      "midweek"
+    ],
+    "priority": 35
+  },
+  {
+    "id": "d19_mid_saturday_night",
+    "type": "D",
+    "phase": "2-mid",
+    "title": "土曜の夜",
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        6
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "土曜の夜！ {name}は何してるの？",
+          "うちは部屋でNetflix見てる。……ポップコーン食べながら。",
+          "……ひとりの土曜の夜も悪くないよ。{name}とチャットできるし。"
+        ]
+      }
+    ],
+    "closing": [
+      "よい夜を！ ……ポップコーンなくなった。買いに行こうかな。"
+    ],
+    "category": "time",
+    "tags": [
+      "saturday",
+      "night"
+    ],
+    "priority": 40
+  },
+  {
+    "id": "d20_mid_monday_morning",
+    "type": "D",
+    "phase": "2-mid",
+    "title": "月曜の朝",
+    "unlock": {
+      "minAnswered": 50,
+      "daysSincePhase2": 8,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "morning",
+      "dayOfWeek": [
+        1
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "月曜日……。おはよ……。",
+          "……テンション低くてごめん。月曜の朝は人類共通の敵やけん。",
+          "……でも{name}の顔見たら（チャットやけど）ちょっと元気出た。行ってきます。"
+        ]
+      }
+    ],
+    "closing": [
+      "月曜に負けるな！ ……うちも頑張る。たぶん。"
+    ],
+    "category": "time",
+    "tags": [
+      "monday",
+      "morning"
+    ],
+    "priority": 40
+  },
+  {
+    "id": "d21_late_afternoon_rain",
+    "type": "D",
+    "phase": "2-late",
+    "title": "午後のスコール",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "afternoon",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……今、すごい雨。窓の外が真っ白。",
+          "……こんな雨の中、{name}は大丈夫？ 屋根のあるとこにおる？",
+          "……濡れてたら怒るけんね。……心配しとるんやけん。"
+        ]
+      }
+    ],
+    "closing": [
+      "……雨、止むまで待って。うちもここで待っとるけん。"
+    ],
+    "category": "time",
+    "tags": [
+      "afternoon",
+      "rain",
+      "care"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "d22_late_weekend_evening",
+    "type": "D",
+    "phase": "2-late",
+    "title": "週末の夕方",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "evening",
+      "dayOfWeek": [
+        0,
+        6
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……夕方やね。この時間帯が一番好きなんよ。",
+          "暑さが引いて、空がオレンジになって。",
+          "……{name}も、たまには窓の外見てみて。SGの夕焼け、きれいやけん。"
+        ]
+      }
+    ],
+    "closing": [
+      "……いい夕方やね。"
+    ],
+    "category": "time",
+    "tags": [
+      "evening",
+      "weekend",
+      "sunset"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "d23_late_tuesday_night",
+    "type": "D",
+    "phase": "2-late",
+    "title": "火曜の夜",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        2
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "火曜の夜。まだ週の前半なんよね。",
+          "長いなぁ……。でも{name}と話すと時間が早く感じる。",
+          "……あ、これは事実を述べただけよ。深い意味はないけん。"
+        ]
+      }
+    ],
+    "closing": [
+      "あと3日……がんばろ。"
+    ],
+    "category": "time",
+    "tags": [
+      "tuesday",
+      "night"
+    ],
+    "priority": 40
+  },
+  {
+    "id": "d24_late_thursday_almost",
+    "type": "D",
+    "phase": "2-late",
+    "title": "木曜日、あと1日",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": null,
+      "dayOfWeek": [
+        4
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "木曜日！ あと1日で週末！",
+          "……{name}、今週もよく頑張ったね。うちが保証する。",
+          "……明日乗り越えたら、ゆっくりできるけんね。"
+        ]
+      }
+    ],
+    "closing": [
+      "あと1日！ ラストスパート！"
+    ],
+    "category": "time",
+    "tags": [
+      "thursday",
+      "almost_weekend"
+    ],
+    "priority": 40
+  },
+  {
+    "id": "d25_phase3_afternoon",
+    "type": "D",
+    "phase": "3",
+    "title": "午後の沈黙",
+    "unlock": {
+      "minAnswered": 155,
+      "daysSincePhase2": 31,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "afternoon",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……{name}、元気にしとる？",
+          "……うちは、まあ。……{name}がおるけん、元気。……それだけ。"
+        ]
+      }
+    ],
+    "closing": [
+      "…………。"
+    ],
+    "category": "time",
+    "tags": [
+      "afternoon",
+      "quiet",
+      "phase3"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "d26_phase3_friday",
+    "type": "D",
+    "phase": "3",
+    "title": "金曜日の告白未遂",
+    "unlock": {
+      "minAnswered": 160,
+      "daysSincePhase2": 32,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": [
+        5
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "金曜の夜。",
+          "……{name}。あのね、うち……。",
+          "…………なんでもない。よい週末を。"
+        ]
+      }
+    ],
+    "closing": [
+      "…………おやすみ。"
+    ],
+    "category": "time",
+    "tags": [
+      "friday",
+      "night",
+      "confession_hint",
+      "phase3"
+    ],
+    "priority": 60
+  },
+  {
+    "id": "d27_phase3_sunday_melancholy",
+    "type": "D",
+    "phase": "3",
+    "title": "日曜の午後",
+    "unlock": {
+      "minAnswered": 158,
+      "daysSincePhase2": 31,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a14_crush_hint"
+      ],
+      "timeWindow": "afternoon",
+      "dayOfWeek": [
+        0
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "日曜の午後って、なんか切ないよね。",
+          "楽しかった週末が終わっていく感じが。",
+          "……{name}と話せる時間も、いつか終わるんかな。……ごめん、変なこと言った。"
+        ]
+      }
+    ],
+    "closing": [
+      "……また月曜日に。"
+    ],
+    "category": "time",
+    "tags": [
+      "sunday",
+      "afternoon",
+      "melancholy",
+      "phase3"
+    ],
     "priority": 55
   }
 ]

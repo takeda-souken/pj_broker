@@ -4,25 +4,116 @@
     "type": "C",
     "phase": "2-early",
     "title": "天天、行った？",
-    "unlock": { "minAnswered": 40, "daysSincePhase2": 5, "requiredFlags": ["promised_tiantian"], "requiredConversations": ["b01_chicken_rice"], "minConversationsSince": 3, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 40,
+      "daysSincePhase2": 5,
+      "requiredFlags": [
+        "promised_tiantian"
+      ],
+      "requiredConversations": [
+        "b01_chicken_rice"
+      ],
+      "minConversationsSince": 3,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["あ、そうだ。{name}！", "天天チキンライス、もう行きました？ 前に「行ってみる」って言ってたやん。"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "行ったよ！", "next": "n3a", "flags": { "visited_tiantian": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ行けてない", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["ほんと！？ で、どうやった？ おいしかった？"] },
-      { "id": "n4a", "speaker": "choice", "choices": [
-        { "label": "おいしかった！", "next": "n5a", "axes": { "warmth": 1 } },
-        { "label": "正直、普通かな", "next": "n5b", "axes": { "honesty": 1 } }
-      ]},
-      { "id": "n5a", "speaker": "sakura", "lines": ["でしょう！？ うちが言った通りやろ！", "ダークソースにした？ ……あ、聞きたいことが多すぎる。", "……{name}がうちのおすすめ食べてくれたの、なんか嬉しいです。"], "end": true },
-      { "id": "n5b", "speaker": "sakura", "lines": ["えー！ ……まあ、好みはあるもんね。", "じゃあ次は違うお店に連れて……あ、連れて行けないけど、教えますね。", "Wee Nam Keeっていうお店も有名ですよ。そっちのほうが合うかも。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["えー、まだ？ 約束したやん！", "……まあ忙しいですもんね。でも忘れんでくださいね。", "うちの一押しなんですから。……食べたら絶対報告してくださいよ？"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、そうだ。{name}！",
+          "天天チキンライス、もう行きました？ 前に「行ってみる」って言ってたやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ！",
+            "next": "n3a",
+            "flags": {
+              "visited_tiantian": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと！？ で、どうやった？ おいしかった？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "おいしかった！",
+            "next": "n5a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "正直、普通かな",
+            "next": "n5b",
+            "axes": {
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょう！？ うちが言った通りやろ！",
+          "ダークソースにした？ ……あ、聞きたいことが多すぎる。",
+          "……{name}がうちのおすすめ食べてくれたの、なんか嬉しいです。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ ……まあ、好みはあるもんね。",
+          "じゃあ次は違うお店に連れて……あ、連れて行けないけど、教えますね。",
+          "Wee Nam Keeっていうお店も有名ですよ。そっちのほうが合うかも。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー、まだ？ 約束したやん！",
+          "……まあ忙しいですもんね。でも忘れんでくださいね。",
+          "うちの一押しなんですから。……食べたら絶対報告してくださいよ？"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["チキンライスの話するとお腹空くんですよね……。"],
+    "closing": [
+      "チキンライスの話するとお腹空くんですよね……。"
+    ],
     "category": "reaction",
-    "tags": ["food", "chicken_rice", "followup"],
+    "tags": [
+      "food",
+      "chicken_rice",
+      "followup"
+    ],
     "priority": 60
   },
   {
@@ -30,25 +121,119 @@
     "type": "C",
     "phase": "2-mid",
     "title": "ドリアン、食べた？",
-    "unlock": { "minAnswered": 60, "daysSincePhase2": 10, "requiredFlags": ["willing_durian"], "requiredConversations": ["b14_durian"], "minConversationsSince": 4, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 60,
+      "daysSincePhase2": 10,
+      "requiredFlags": [
+        "willing_durian"
+      ],
+      "requiredConversations": [
+        "b14_durian"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["ねぇねぇ、{name}。", "ドリアン、挑戦した？ 「してみようかな」って言っとったやん。"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "食べたよ！", "next": "n3a", "flags": { "tried_durian": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ勇気が……", "next": "n3b", "axes": { "honesty": 1 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["えっ！？ ほんまに食べたん！？", "で、で、どうやった！？ 好き？ 嫌い？ もう一回食べたい？"] },
-      { "id": "n4a", "speaker": "choice", "choices": [
-        { "label": "意外とイケた", "next": "n5a", "axes": { "warmth": 2 } },
-        { "label": "二度と食べない", "next": "n5b", "axes": { "honesty": 1 } }
-      ]},
-      { "id": "n5a", "speaker": "sakura", "lines": ["やったー！！ 仲間が増えた！", "次はMao Shan Wang食べてみて。最高峰やけん。", "……{name}がドリアン好きになってくれたの、なんかめちゃくちゃ嬉しい。"], "end": true },
-      { "id": "n5b", "speaker": "sakura", "lines": ["あはは……まあ、そうなるよね……。", "でも挑戦したことがすごいんよ！ 勇者やん。", "……うちは好きやけんなぁ。これだけは分かち合えんかったか……。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["あはは、そっか。まだ怖い？", "じゃあ、ドリアンパフから始めてみたら？ お菓子になっとると匂いが抑えられとるけん。", "……それでもダメやったら……うちが代わりに食べるけん。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇねぇ、{name}。",
+          "ドリアン、挑戦した？ 「してみようかな」って言っとったやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！",
+            "next": "n3a",
+            "flags": {
+              "tried_durian": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ勇気が……",
+            "next": "n3b",
+            "axes": {
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "えっ！？ ほんまに食べたん！？",
+          "で、で、どうやった！？ 好き？ 嫌い？ もう一回食べたい？"
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "意外とイケた",
+            "next": "n5a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "二度と食べない",
+            "next": "n5b",
+            "axes": {
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "やったー！！ 仲間が増えた！",
+          "次はMao Shan Wang食べてみて。最高峰やけん。",
+          "……{name}がドリアン好きになってくれたの、なんかめちゃくちゃ嬉しい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは……まあ、そうなるよね……。",
+          "でも挑戦したことがすごいんよ！ 勇者やん。",
+          "……うちは好きやけんなぁ。これだけは分かち合えんかったか……。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、そっか。まだ怖い？",
+          "じゃあ、ドリアンパフから始めてみたら？ お菓子になっとると匂いが抑えられとるけん。",
+          "……それでもダメやったら……うちが代わりに食べるけん。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["ドリアンの話するだけで幸せなうちって、変かな。……変やね。"],
+    "closing": [
+      "ドリアンの話するだけで幸せなうちって、変かな。……変やね。"
+    ],
     "category": "reaction",
-    "tags": ["food", "durian", "followup"],
+    "tags": [
+      "food",
+      "durian",
+      "followup"
+    ],
     "priority": 55
   },
   {
@@ -56,19 +241,79 @@
     "type": "C",
     "phase": "2-early",
     "title": "Gardens、行ってくれた？",
-    "unlock": { "minAnswered": 42, "daysSincePhase2": 6, "requiredFlags": ["interested_gardens"], "requiredConversations": ["b06_weekend_plan"], "minConversationsSince": 3, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 42,
+      "daysSincePhase2": 6,
+      "requiredFlags": [
+        "interested_gardens"
+      ],
+      "requiredConversations": [
+        "b06_weekend_plan"
+      ],
+      "minConversationsSince": 3,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["{name}、Gardens by the Bay、行ってくれました？", "Supertreeのライトショー見ました？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "行ったよ、すごかった", "next": "n3a", "flags": { "visited_gardens": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ行けてない", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["でしょう！？ あのライトショー、何回見ても鳥肌立つんですよ。", "写真撮りました？ 見せて見せて！ ……あ、チャットで送ってくれたら……。", "……うちがおすすめした場所を{name}が気に入ってくれたの、すごく嬉しいです。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["あー、忙しいですもんね。", "でも夜に行くのがポイントですよ。19:45か20:45のライトショーに合わせて。", "……いつか行ったら教えてくださいね。うちも一緒に行った気分になりたいけん。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、Gardens by the Bay、行ってくれました？",
+          "Supertreeのライトショー見ました？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、すごかった",
+            "next": "n3a",
+            "flags": {
+              "visited_gardens": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょう！？ あのライトショー、何回見ても鳥肌立つんですよ。",
+          "写真撮りました？ 見せて見せて！ ……あ、チャットで送ってくれたら……。",
+          "……うちがおすすめした場所を{name}が気に入ってくれたの、すごく嬉しいです。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あー、忙しいですもんね。",
+          "でも夜に行くのがポイントですよ。19:45か20:45のライトショーに合わせて。",
+          "……いつか行ったら教えてくださいね。うちも一緒に行った気分になりたいけん。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["あ、Cloud Forestっていうドームもおすすめですよ。滝があるんです、室内に！"],
+    "closing": [
+      "あ、Cloud Forestっていうドームもおすすめですよ。滝があるんです、室内に！"
+    ],
     "category": "reaction",
-    "tags": ["gardens", "followup", "sightseeing"],
+    "tags": [
+      "gardens",
+      "followup",
+      "sightseeing"
+    ],
     "priority": 55
   },
   {
@@ -76,19 +321,78 @@
     "type": "C",
     "phase": "2-mid",
     "title": "Bugisどうやった？",
-    "unlock": { "minAnswered": 65, "daysSincePhase2": 11, "requiredFlags": ["interested_bugis"], "requiredConversations": ["b21_bugis_street"], "minConversationsSince": 4, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 11,
+      "requiredFlags": [
+        "interested_bugis"
+      ],
+      "requiredConversations": [
+        "b21_bugis_street"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["あ、{name}。Bugis行った？", "Haji Lane見てくれた？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "行ったよ、いい雰囲気だった", "next": "n3a", "flags": { "visited_bugis": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ行けてない", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["ほんと！ あの壁画とか見た？ カラフルやったやろ？", "……{name}がうちの好きな場所を歩いてくれたんやと思うと、なんか……嬉しい。", "次行くときは、Arab Street側のトルコランプのお店も覗いてみて。きれいやけん。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["そっか～。週末とかにふらっと行けるよ。MRT Bugis駅降りてすぐやけん。", "……うちの「好きな場所」を{name}に知ってもらいたいんよ。わがままかな。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。Bugis行った？",
+          "Haji Lane見てくれた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、いい雰囲気だった",
+            "next": "n3a",
+            "flags": {
+              "visited_bugis": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと！ あの壁画とか見た？ カラフルやったやろ？",
+          "……{name}がうちの好きな場所を歩いてくれたんやと思うと、なんか……嬉しい。",
+          "次行くときは、Arab Street側のトルコランプのお店も覗いてみて。きれいやけん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そっか～。週末とかにふらっと行けるよ。MRT Bugis駅降りてすぐやけん。",
+          "……うちの「好きな場所」を{name}に知ってもらいたいんよ。わがままかな。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["Bugisの話すると行きたくなるなぁ。今度の週末行こうかな。"],
+    "closing": [
+      "Bugisの話すると行きたくなるなぁ。今度の週末行こうかな。"
+    ],
     "category": "reaction",
-    "tags": ["bugis", "followup", "sightseeing"],
+    "tags": [
+      "bugis",
+      "followup",
+      "sightseeing"
+    ],
     "priority": 50
   },
   {
@@ -96,19 +400,82 @@
     "type": "C",
     "phase": "2-mid",
     "title": "写真、もっと送っていい？",
-    "unlock": { "minAnswered": 55, "daysSincePhase2": 9, "requiredFlags": ["wants_photos"], "requiredConversations": ["b16_first_photo"], "minConversationsSince": 3, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 55,
+      "daysSincePhase2": 9,
+      "requiredFlags": [
+        "wants_photos"
+      ],
+      "requiredConversations": [
+        "b16_first_photo"
+      ],
+      "minConversationsSince": 3,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["ねぇ、{name}。", "前に「もっと写真送って」って言ってくれたやん。", "……ほんまにいいの？ 迷惑じゃない？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "いいよ、楽しみにしてる", "next": "n3a", "flags": { "confirmed_photos_ok": true }, "axes": { "warmth": 2 } },
-        { "label": "ご飯時以外でお願い", "next": "n3b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["……ほんと？ やった！", "じゃあ遠慮なく送るね。ご飯だけじゃなくて、街の景色とか、花とか。", "……うちの目で見たSGを、{name}にも見てもらいたいけん。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["あはは、飯テロになるもんね。ごめんごめん。", "じゃあタイミングは考えて送る。……お腹空いてなさそうな時に。", "……でも、おいしいもの見つけたら我慢できんかもしれん。許して。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、{name}。",
+          "前に「もっと写真送って」って言ってくれたやん。",
+          "……ほんまにいいの？ 迷惑じゃない？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いいよ、楽しみにしてる",
+            "next": "n3a",
+            "flags": {
+              "confirmed_photos_ok": true
+            },
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "ご飯時以外でお願い",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……ほんと？ やった！",
+          "じゃあ遠慮なく送るね。ご飯だけじゃなくて、街の景色とか、花とか。",
+          "……うちの目で見たSGを、{name}にも見てもらいたいけん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、飯テロになるもんね。ごめんごめん。",
+          "じゃあタイミングは考えて送る。……お腹空いてなさそうな時に。",
+          "……でも、おいしいもの見つけたら我慢できんかもしれん。許して。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["じゃあ、次の写真、楽しみにしとってね！"],
+    "closing": [
+      "じゃあ、次の写真、楽しみにしとってね！"
+    ],
     "category": "reaction",
-    "tags": ["photo", "permission", "followup"],
+    "tags": [
+      "photo",
+      "permission",
+      "followup"
+    ],
     "priority": 60
   },
   {
@@ -116,19 +483,80 @@
     "type": "C",
     "phase": "2-late",
     "title": "夜景、見てくれた？",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": ["interested_marina_night"], "requiredConversations": ["b35_night_skyline"], "minConversationsSince": 4, "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [
+        "interested_marina_night"
+      ],
+      "requiredConversations": [
+        "b35_night_skyline"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["{name}、マリーナベイの夜景、見に行ってくれた？", "レーザーショー見た？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "見たよ、すごかった", "next": "n3a", "flags": { "visited_marina_night": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["……よかった。", "……あそこはね、うちの「大丈夫」の場所やけん。{name}も見てくれたんやと思うと……", "……なんか、共有できた気がする。同じ景色を。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["……そっか。いつか行ってみてね。", "……うちはあの場所のことを{name}に話したの、初めてやったんよ。", "……だから、行ってくれたらいいなって思ってた。……焦らんでいいけど。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、マリーナベイの夜景、見に行ってくれた？",
+          "レーザーショー見た？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たよ、すごかった",
+            "next": "n3a",
+            "flags": {
+              "visited_marina_night": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……よかった。",
+          "……あそこはね、うちの「大丈夫」の場所やけん。{name}も見てくれたんやと思うと……",
+          "……なんか、共有できた気がする。同じ景色を。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……そっか。いつか行ってみてね。",
+          "……うちはあの場所のことを{name}に話したの、初めてやったんよ。",
+          "……だから、行ってくれたらいいなって思ってた。……焦らんでいいけど。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["……今夜もマリーナベイの夜景はきれいやろうね。"],
+    "closing": [
+      "……今夜もマリーナベイの夜景はきれいやろうね。"
+    ],
     "category": "reaction",
-    "tags": ["marina_bay", "night", "emotional", "followup"],
+    "tags": [
+      "marina_bay",
+      "night",
+      "emotional",
+      "followup"
+    ],
     "priority": 65
   },
   {
@@ -136,19 +564,80 @@
     "type": "C",
     "phase": "2-mid",
     "title": "辛いもの、結局どう？",
-    "unlock": { "minAnswered": 55, "daysSincePhase2": 9, "requiredFlags": ["likes_spicy"], "requiredConversations": ["b07_laksa_story"], "minConversationsSince": 3, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 55,
+      "daysSincePhase2": 9,
+      "requiredFlags": [
+        "likes_spicy"
+      ],
+      "requiredConversations": [
+        "b07_laksa_story"
+      ],
+      "minConversationsSince": 3,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["あ、そうだ{name}。前に辛いもの好きって言ってたやん。", "SGの辛い料理、もう試した？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "ラクサ食べたよ", "next": "n3a", "flags": { "tried_laksa": true }, "axes": { "warmth": 1 } },
-        { "label": "まだチャレンジしてない", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["おお！ Katong Laksa食べた？ それとも他のとこ？", "辛さ大丈夫やった？ ……辛いもの好きやけんいけるか。", "じゃあ次はナシパダン挑戦してみて。マレー系の定食みたいなやつで、サンバルが強烈なんよ。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["えー！ 辛いもの好きなのにもったいない！", "じゃあまずはラクサから。Katong Laksaがおすすめよ。うちが泣いたやつ。", "……おいしくて泣いたやつね。辛くて泣いたんやないよ。……たぶん。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、そうだ{name}。前に辛いもの好きって言ってたやん。",
+          "SGの辛い料理、もう試した？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "ラクサ食べたよ",
+            "next": "n3a",
+            "flags": {
+              "tried_laksa": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだチャレンジしてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "おお！ Katong Laksa食べた？ それとも他のとこ？",
+          "辛さ大丈夫やった？ ……辛いもの好きやけんいけるか。",
+          "じゃあ次はナシパダン挑戦してみて。マレー系の定食みたいなやつで、サンバルが強烈なんよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ 辛いもの好きなのにもったいない！",
+          "じゃあまずはラクサから。Katong Laksaがおすすめよ。うちが泣いたやつ。",
+          "……おいしくて泣いたやつね。辛くて泣いたんやないよ。……たぶん。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["SGの辛い料理は奥が深いけん、全部制覇してね！"],
+    "closing": [
+      "SGの辛い料理は奥が深いけん、全部制覇してね！"
+    ],
     "category": "reaction",
-    "tags": ["food", "spicy", "laksa", "followup"],
+    "tags": [
+      "food",
+      "spicy",
+      "laksa",
+      "followup"
+    ],
     "priority": 50
   },
   {
@@ -156,23 +645,94 @@
     "type": "C",
     "phase": "2-late",
     "title": "あの写真のこと",
-    "unlock": { "minAnswered": 115, "daysSincePhase2": 22, "requiredFlags": ["showed_family_photo"], "requiredConversations": ["b51_family_photo"], "minConversationsSince": 5, "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 115,
+      "daysSincePhase2": 22,
+      "requiredFlags": [
+        "showed_family_photo"
+      ],
+      "requiredConversations": [
+        "b51_family_photo"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["…………。", "……ねぇ、{name}。この前見せてくれた写真のこと。"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "子供たちの？", "next": "n3", "axes": {} },
-        { "label": "うん", "next": "n3", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3", "speaker": "sakura", "lines": ["……可愛かったね。ほんとに。", "……あの写真見てから、ちょっと考えたことがあって。"] },
-      { "id": "n4", "speaker": "choice", "choices": [
-        { "label": "なに？", "next": "n5", "axes": { "warmth": 1 } },
-        { "label": "……", "next": "n5", "axes": {} }
-      ]},
-      { "id": "n5", "speaker": "sakura", "lines": ["……{name}には、帰る場所があるんやなって。", "大切な人たちが待っとる場所が。", "……それって、すごく幸せなことやと思う。……うちは、ちゃんとそう思えたよ。", "……だから、安心して。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……ねぇ、{name}。この前見せてくれた写真のこと。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "子供たちの？",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "うん",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……可愛かったね。ほんとに。",
+          "……あの写真見てから、ちょっと考えたことがあって。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "なに？",
+            "next": "n5",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "……",
+            "next": "n5",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}には、帰る場所があるんやなって。",
+          "大切な人たちが待っとる場所が。",
+          "……それって、すごく幸せなことやと思う。……うちは、ちゃんとそう思えたよ。",
+          "……だから、安心して。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["……ごめんね、急に。でも言いたかった。おやすみ。"],
+    "closing": [
+      "……ごめんね、急に。でも言いたかった。おやすみ。"
+    ],
     "category": "reaction",
-    "tags": ["family", "emotional", "heavy", "followup"],
+    "tags": [
+      "family",
+      "emotional",
+      "heavy",
+      "followup"
+    ],
     "priority": 75
   },
   {
@@ -180,19 +740,80 @@
     "type": "C",
     "phase": "2-early",
     "title": "カヤトースト、食べた？",
-    "unlock": { "minAnswered": 45, "daysSincePhase2": 6, "requiredFlags": ["interested_kaya"], "requiredConversations": ["b04_kaya_toast"], "minConversationsSince": 3, "timeWindow": "morning", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 45,
+      "daysSincePhase2": 6,
+      "requiredFlags": [
+        "interested_kaya"
+      ],
+      "requiredConversations": [
+        "b04_kaya_toast"
+      ],
+      "minConversationsSince": 3,
+      "timeWindow": "morning",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["おはようございます、{name}！", "あ、そうだ。カヤトースト、もう食べました？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "食べたよ！", "next": "n3a", "flags": { "tried_kaya": true }, "axes": { "warmth": 1 } },
-        { "label": "まだ", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["どうでした！？ 半熟卵はつけた？ ダークソイソースは？", "……ちゃんとSGの朝ごはんを体験してくれたんですね。嬉しいです。", "次はTong Ahの炭火焼きも試してみてくださいね。全然違いますよ。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["えー！ 朝ごはんの話したのに！", "今日の朝、Ya Kunに行ってみてください。どこにでもありますよ。", "……うちも今朝食べたんです。カヤトーストで始まる朝は、いい朝です。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "おはようございます、{name}！",
+          "あ、そうだ。カヤトースト、もう食べました？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！",
+            "next": "n3a",
+            "flags": {
+              "tried_kaya": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "どうでした！？ 半熟卵はつけた？ ダークソイソースは？",
+          "……ちゃんとSGの朝ごはんを体験してくれたんですね。嬉しいです。",
+          "次はTong Ahの炭火焼きも試してみてくださいね。全然違いますよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ 朝ごはんの話したのに！",
+          "今日の朝、Ya Kunに行ってみてください。どこにでもありますよ。",
+          "……うちも今朝食べたんです。カヤトーストで始まる朝は、いい朝です。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["よし、今日もいい一日にしましょう！"],
+    "closing": [
+      "よし、今日もいい一日にしましょう！"
+    ],
     "category": "reaction",
-    "tags": ["food", "kaya_toast", "morning", "followup"],
+    "tags": [
+      "food",
+      "kaya_toast",
+      "morning",
+      "followup"
+    ],
     "priority": 55
   },
   {
@@ -200,19 +821,1289 @@
     "type": "C",
     "phase": "2-late",
     "title": "チリクラブの約束",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 19, "requiredFlags": ["interested_chili_crab"], "requiredConversations": ["b34_chili_crab"], "minConversationsSince": 5, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [
+        "interested_chili_crab"
+      ],
+      "requiredConversations": [
+        "b34_chili_crab"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["ねぇ{name}。チリクラブ、食べた？", "「食べないと」って言ってくれとったやん。"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "食べたよ、最高だった", "next": "n3a", "flags": { "tried_chili_crab": true }, "axes": { "warmth": 1 } },
-        { "label": "試験終わったらご褒美にする", "next": "n3b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": ["ほんと！？ マントウもつけた？ ソースは残さんかった？", "……あー、一緒に食べたかったなぁ。手ベトベトにしながら。", "……ごめん。つい。"], "end": true },
-      { "id": "n3b", "speaker": "sakura", "lines": ["……試験のご褒美か。いいね、それ。", "……その時は、うちも心の中で乾杯するね。", "……{name}が「おいしい」って顔してるの、想像するだけでうちも幸せやけん。"], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ{name}。チリクラブ、食べた？",
+          "「食べないと」って言ってくれとったやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ、最高だった",
+            "next": "n3a",
+            "flags": {
+              "tried_chili_crab": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "試験終わったらご褒美にする",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと！？ マントウもつけた？ ソースは残さんかった？",
+          "……あー、一緒に食べたかったなぁ。手ベトベトにしながら。",
+          "……ごめん。つい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……試験のご褒美か。いいね、それ。",
+          "……その時は、うちも心の中で乾杯するね。",
+          "……{name}が「おいしい」って顔してるの、想像するだけでうちも幸せやけん。"
+        ],
+        "end": true
+      }
     ],
-    "closing": ["チリクラブの話すると、手がベトベトになった気がする……。"],
+    "closing": [
+      "チリクラブの話すると、手がベトベトになった気がする……。"
+    ],
     "category": "reaction",
-    "tags": ["food", "chili_crab", "followup", "emotional"],
+    "tags": [
+      "food",
+      "chili_crab",
+      "followup",
+      "emotional"
+    ],
     "priority": 60
+  },
+  {
+    "id": "c11_prata_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "ロティプラタ、食べた？",
+    "unlock": {
+      "minAnswered": 55,
+      "daysSincePhase2": 9,
+      "requiredFlags": [
+        "interested_prata"
+      ],
+      "requiredConversations": [
+        "b11_roti_prata"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。ロティプラタ、食べてくれた？",
+          "夜中に食べるのがポイントやけんね。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！ おいしかった",
+            "next": "n3a",
+            "flags": {
+              "tried_prata": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やった！ カレーつけた？ プレーンで食べた？",
+          "……夜中のロティプラタの背徳感、わかってくれたやろ？",
+          "……{name}と「おいしい」を共有できるの、ほんまに嬉しい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えー、まだ？ Jalan Kayuはちょっと遠いけん、近くの屋台でもいいよ。",
+          "24時間やっとるとこ多いけん、いつでも行ける。",
+          "……食べたら絶対報告してね。うちも一緒に食べた気分になりたいけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "夜中のロティプラタの罪深さ、早く知ってほしいんやけど。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "roti_prata",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c12_cinema_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "映画、行った？",
+    "unlock": {
+      "minAnswered": 70,
+      "daysSincePhase2": 12,
+      "requiredFlags": [
+        "interested_cinema"
+      ],
+      "requiredConversations": [
+        "b28_movie"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、Gold Classの映画館、行ってくれた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、最高だった",
+            "next": "n3a",
+            "flags": {
+              "visited_gold_class": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょう！ あのリクライニング、もう普通の映画館に戻れんよね。",
+          "何観たの？ ……あ、ネタバレはダメよ。うちもまだ観てないやつあるけん。",
+          "……{name}が映画楽しんでくれたの、なんか嬉しい。うちのおすすめやったけん。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "まだかー。試験終わったらのご褒美にとっておいて。",
+          "……その時はうちも心の中で一緒に観るけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "次はなんの映画観よっかな。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "movie",
+      "cinema",
+      "followup"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "c13_cat_mikan",
+    "type": "C",
+    "phase": "2-late",
+    "title": "みかん、元気かな",
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 21,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b54_pet_cat"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "image",
+        "alt": "オレンジ色の猫が日向ぼっこしている",
+        "src": "img/sakura-room/mikan-cat-2.jpg",
+        "next": "n2"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "みかん、今日もおった！",
+          "「みかーん」って呼んだら……振り向いてくれた。うそやけど。",
+          "でもちょっと近づいてくれた気がする。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "仲良くなってるね",
+            "next": "n4a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "いい写真だ",
+            "next": "n4b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "……かな？ 毎日通っとるけん、覚えてくれたんかも。",
+          "……{name}にも会わせたいんやけどなぁ。みかん、人懐っこいけん、きっと好きになるよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "ありがと！ 猫の写真って難しいんよ。動くけん。",
+          "……でもみかんは大人しい子やけん、撮りやすい。",
+          "……{name}のために撮っとるっていうのは、内緒ね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "みかんによろしくね。……チャット越しやけど。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "cat",
+      "mikan",
+      "photo",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c14_bkt_followup",
+    "type": "C",
+    "phase": "2-late",
+    "title": "バクテー、食べた？",
+    "unlock": {
+      "minAnswered": 112,
+      "daysSincePhase2": 21,
+      "requiredFlags": [
+        "interested_bkt"
+      ],
+      "requiredConversations": [
+        "b55_bak_kut_teh"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、Song Faのバクテー、行ってくれた？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、スープ最高だった",
+            "next": "n3a",
+            "flags": {
+              "tried_bkt": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょう！ おかわりした？ スープ。",
+          "あのスープは何杯でも飲めるんよ。うちの最高記録は3杯。",
+          "……{name}が「最高だった」って言ってくれるの、ほんまに嬉しい。うちの味覚、信じてもらえた感じがする。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "朝7時からやっとるけん、朝ごはんに行くのもありよ。",
+          "……疲れた時に食べてね。うちの代わりに温めてくれるけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "バクテーの話すると胡椒の香りが脳に来る……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "bak_kut_teh",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c15_selfie_courage",
+    "type": "C",
+    "phase": "2-late",
+    "title": "あの写真のこと……",
+    "unlock": {
+      "minAnswered": 118,
+      "daysSincePhase2": 23,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b49_selfie_blur",
+        "b56_hair_cut"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "……前にさ、「いつかぼかしなしで見せる」って言ったやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん、覚えてるよ",
+            "next": "n3",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "急がなくていいよ",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……まだ、勇気出んの。ごめんね。",
+          "……でもね、もうちょっとだけ待ってて。あと少しで、うち、覚悟できそうやけん。",
+          "……{name}が待っててくれるって思うだけで、うちは前に進めるんよ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。",
+          "……{name}って、ほんまに優しいよね。",
+          "……急がんでいいって言ってくれるけど、うちは急ぎたい。{name}に、ちゃんと見てもらいたいけん。",
+          "……もうちょっとだけ。待っとって。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "……おやすみ。……次こそ。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "selfie",
+      "courage",
+      "emotional",
+      "followup"
+    ],
+    "priority": 70
+  },
+  {
+    "id": "c16_prawn_mee_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "プラウンミー、どうやった？",
+    "unlock": {
+      "minAnswered": 75,
+      "daysSincePhase2": 12,
+      "requiredFlags": [
+        "interested_prawn_mee"
+      ],
+      "requiredConversations": [
+        "b45_prawn_mee"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、プラウンミー食べた？",
+          "545 Whampoaは行列やったやろ？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！ エビの出汁すごかった",
+            "next": "n3a",
+            "flags": {
+              "tried_prawn_mee": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょう！ あのスープ、一口飲んだ瞬間に「あ、これは本物や」ってわかるやろ？",
+          "……うちのおすすめ、全部制覇してくれとるね。嬉しいな。",
+          "次は何おすすめしようかな……。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "Beach Roadは朝早いほうが並ばんよ。8時くらいがおすすめ。",
+          "……早起きして行く価値、あると思うよ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "エビ出汁の話するとお腹空くんよね……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "prawn_mee",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c17_cooking_progress",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "チキンライス、進捗報告",
+    "unlock": {
+      "minAnswered": 80,
+      "daysSincePhase2": 13,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b23_cooking"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "image",
+        "alt": "自作チキンライスの写真（ちょっと不格好）",
+        "src": "img/sakura-room/homemade-chicken-rice.jpg",
+        "next": "n2"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "……じゃん。",
+          "母ちゃんのチキンライス再現計画、第4回目の成果です。",
+          "……まだ母ちゃんには勝てんけど、前よりマシになったと思う。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "おいしそうだよ",
+            "next": "n4a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "4回目なんだ、すごい根気",
+            "next": "n4b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "……ほんと？ 嬉しい。",
+          "……いつか食べさせてあげたいな。……あ、言っちゃった。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "負けず嫌いなんよ、うち。母ちゃんに「まだまだやね」って言われたら燃えるっちゃ。",
+          "……第5回目は来週の予定。また報告するね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "ごちそうさまでした！ ……自分で作って自分で食べるのは寂しいけど。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "cooking",
+      "chicken_rice",
+      "photo",
+      "followup"
+    ],
+    "priority": 55
+  },
+  {
+    "id": "c18_flower_update",
+    "type": "C",
+    "phase": "2-late",
+    "title": "花屋の近況",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 19,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b25_flower_shop"
+      ],
+      "minConversationsSince": 6,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "image",
+        "alt": "花屋に並ぶ色とりどりの花",
+        "src": "img/sakura-room/flower-shop-2.jpg",
+        "next": "n2"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "今日、実家の手伝い行ってきた。",
+          "新しいランが入ってね。紫のやつ。きれいやったけん撮った。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "きれいだね",
+            "next": "n4a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "お父さん元気？",
+            "next": "n4b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ 紫のラン、花言葉は「あなたを愛してます」なんよ。",
+          "……あ、一般論ね。一般論。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "……！ 父ちゃんのこと聞いてくれるん？",
+          "元気よ。相変わらず朝4時に起きて花の仕入れに行っとる。",
+          "……{name}が父ちゃんのこと気にかけてくれるの、なんかすごく嬉しい。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "花の写真、定期的に送るね。季節ごとに違う花が入るけん。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "flower_shop",
+      "family",
+      "photo",
+      "followup"
+    ],
+    "priority": 55
+  },
+  {
+    "id": "c19_colleague_kueh",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "ミンさんのクエ、もう一回",
+    "unlock": {
+      "minAnswered": 75,
+      "daysSincePhase2": 12,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b32_colleague"
+      ],
+      "minConversationsSince": 5,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "image",
+        "alt": "カラフルな層状のクエラピス",
+        "src": "img/sakura-room/kueh-lapis.jpg",
+        "next": "n2"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "前に話したミンさんのクエラピス、また作ってくれた！",
+          "今回は写真撮ったよ。ほら、この層！ きれいやろ。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "すごい、何層あるの？",
+            "next": "n4a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "ミンさん優しいね",
+            "next": "n4b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "9層あるんよ。1層ずつ焼くけん、めっちゃ時間かかるの。",
+          "それを同僚のために作ってくれるミンさん、ほんまに天使。",
+          "……{name}にも食べさせたかったな。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "ね。ミンさんはうちの会社で一番好きな人。",
+          "……あ、「好き」は同僚としてね。……なんで言い訳しとるんやろ、うち。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "クエラピスのレシピ、ミンさんに教えてもらおうかな。……うちに作れるかな。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "colleague",
+      "kueh_lapis",
+      "photo",
+      "followup"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "c20_east_coast_followup",
+    "type": "C",
+    "phase": "2-late",
+    "title": "East Coast行った？",
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 21,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b57_east_coast"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": [
+        0,
+        6
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}、East Coast Park行ってくれた？",
+          "自転車乗った？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、気持ちよかった",
+            "next": "n3a",
+            "flags": {
+              "visited_east_coast": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ行けてない",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やった！ 飛行機見えた？ Changiの方まで行った？",
+          "……{name}がうちの好きな場所を走ってくれたんやと思うと……なんか、じんわりくる。",
+          "……同じ風を感じてくれたんやね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "天気のいい週末に行ってみて。朝がおすすめよ。",
+          "……うちも久しぶりに行きたいなぁ。飛行機見ながらぼーっとしたい。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "海風の話すると走りたくなる……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "east_coast",
+      "cycling",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c21_mala_challenge",
+    "type": "C",
+    "phase": "2-late",
+    "title": "マーラー、どうやった？",
+    "unlock": {
+      "minAnswered": 108,
+      "daysSincePhase2": 20,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b48_mala"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "そういえば{name}、マーラー食べた？",
+          "大辣にチャレンジした？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "中辣にしたよ、それでも辛かった",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "大辣いったよ",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ食べてない",
+            "next": "n3c",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、中辣でも十分辛いやろ？ うちもそのレベルが限界やけん。",
+          "でもハマるとクセになるんよね。また食べたくなるやろ？"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "えっ！？ 大辣！？ 勇者すぎん！？",
+          "涙目にならんかった？ ……{name}って意外とワイルドなんやね。",
+          "……ちょっと見直した。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3c",
+        "speaker": "sakura",
+        "lines": [
+          "まだかー。辛いもの苦手やったら無理せんでいいよ。",
+          "でもSGにおる間に一回は食べてほしいな。うちのおすすめやけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "マーラーの話すると舌が痺れてきた気がする……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "mala",
+      "followup"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "c22_botanic_visit",
+    "type": "C",
+    "phase": "2-late",
+    "title": "植物園、行った？",
+    "unlock": {
+      "minAnswered": 108,
+      "daysSincePhase2": 20,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b52_botanic_gardens"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "Botanic Gardens、行ってくれた？ ランの庭見た？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、きれいだった",
+            "next": "n3a",
+            "flags": {
+              "visited_botanic": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ほんと！ ランのどれが好きやった？",
+          "……花屋の娘として気になるんよ。{name}の好みが知りたい。",
+          "……今度、{name}が好きそうな花、実家で見つけたら写真送るね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "週末の朝がおすすめよ。涼しいし、人も少ないし。",
+          "……うちの血が騒ぐ場所、{name}にも見てほしいんよね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "花の話するとテンション上がるうち、花屋の娘やなぁって思う。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "botanic_gardens",
+      "flowers",
+      "followup"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "c23_sentosa_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "セントーサ、行った？",
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 11,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "b33_sentosa"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "セントーサ、行ってくれた？ ビーチでぼーっとした？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、よかった",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "まだ",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "よかった！ Palawan Beach行った？",
+          "あそこでぼーっとするの、最高やろ？ 波の音と風だけ。",
+          "……{name}がリフレッシュできたなら、うちも嬉しい。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "試験終わったら行ってみて。ご褒美にぴったりよ。",
+          "……ビーチでぼーっとする時間、大事にしてね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "海の話すると行きたくなるなぁ……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "sentosa",
+      "beach",
+      "followup"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "c24_ice_kachang_followup",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "アイスカチャン食べた？",
+    "unlock": {
+      "minAnswered": 68,
+      "daysSincePhase2": 11,
+      "requiredFlags": [
+        "interested_ice_kachang"
+      ],
+      "requiredConversations": [
+        "b39_ice_kachang"
+      ],
+      "minConversationsSince": 4,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "アイスカチャン、食べてくれた？ 服にシロップつけんかった？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "食べたよ！ つけなかったよ",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "食べたけどつけた……",
+            "next": "n3b",
+            "axes": {
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "えー！ つけんかったん！？ うちより器用やん。",
+          "……負けた。うちの不器用さがバレた。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは！ 仲間やん！！",
+          "……やっぱりつけるよね。あれは構造的につけるようにできとるんよ。うちらのせいやない。",
+          "……でも次はエプロンつけて食べよ。……冗談よ。半分。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "シロップのシミって、なかなか取れんよね……。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "ice_kachang",
+      "followup",
+      "cute"
+    ],
+    "priority": 45
+  },
+  {
+    "id": "c25_tiantian_second",
+    "type": "C",
+    "phase": "2-mid",
+    "title": "天天、2回目行った？",
+    "unlock": {
+      "minAnswered": 65,
+      "daysSincePhase2": 10,
+      "requiredFlags": [
+        "visited_tiantian"
+      ],
+      "requiredConversations": [
+        "c01_chicken_rice_followup"
+      ],
+      "minConversationsSince": 6,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、天天のチキンライス、もう一回行った？",
+          "一回食べたら絶対リピートするやろ。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "行ったよ、ハマった",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "他の店も試してみた",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やっぱり！ ハマったやろ。もうSGの人よ、{name}は。",
+          "……うちの母ちゃんのチキンライスも食べたら、もっとハマるんやけどなぁ。",
+          "……いつか。いつかね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "おお、冒険家やね！ どこ行った？",
+          "SGのチキンライスは店によって全然味が違うけん、食べ比べ楽しいやろ。",
+          "……{name}がSGのグルメを楽しんでくれとるの、ほんまに嬉しい。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": [
+      "チキンライスの話は永遠にできるけん、今日はこのへんで。"
+    ],
+    "category": "reaction",
+    "tags": [
+      "food",
+      "chicken_rice",
+      "followup",
+      "repeat"
+    ],
+    "priority": 40
   }
 ]
