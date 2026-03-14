@@ -20,6 +20,30 @@ export const HAWKER_DISHES = [
   { id: 'teh-tarik', name: 'Teh Tarik', icon: '\ud83c\udf75', topic: 'Claims', desc: '"Pulled tea" \u2014 sweet milky tea poured from a height for frothiness.' },
   { id: 'ondeh-ondeh', name: 'Ondeh Ondeh', icon: '\ud83c\udf6a', topic: 'Reinsurance & Co-Insurance', desc: 'Pandan glutinous rice balls filled with melted palm sugar.' },
   { id: 'kueh-lapis', name: 'Kueh Lapis', icon: '\ud83c\udf70', topic: 'Ethics & Data Protection', desc: 'Colourful layered steamed cake. Each layer is painstakingly added.' },
+
+  // PGI dishes (7)
+  { id: 'bak-chor-mee', name: 'Bak Chor Mee', icon: '\ud83c\udf5c', topic: 'Private Motor Car Insurance', desc: 'Minced pork noodles with vinegar and chili. A hawker staple.' },
+  { id: 'popiah', name: 'Popiah', icon: '\ud83c\udf2f', topic: 'Personal Property Insurance', desc: 'Fresh spring rolls packed with turnip, egg, and sweet sauce.' },
+  { id: 'mee-siam', name: 'Mee Siam', icon: '\ud83c\udf5d', topic: 'Personal Accident Insurance', desc: 'Tangy-sweet rice vermicelli in spicy tamarind gravy.' },
+  { id: 'rojak', name: 'Rojak', icon: '\ud83e\udd57', topic: 'Travel Insurance', desc: 'A wild mix of fruits, vegetables, and dough fritters in shrimp paste.' },
+  { id: 'tau-huay', name: 'Tau Huay', icon: '\ud83c\udf6e', topic: 'Personal Liability Insurance', desc: 'Silky smooth soybean pudding with sweet ginger syrup.' },
+  { id: 'goreng-pisang', name: 'Goreng Pisang', icon: '\ud83c\udf4c', topic: 'Critical Illness & Hospital Cash Insurance', desc: 'Deep-fried banana fritters with crispy batter. Best eaten hot.' },
+  { id: 'vadai', name: 'Vadai', icon: '\ud83e\uddc6', topic: 'Foreign Domestic Worker & Golfer Insurance', desc: 'Crispy fried lentil doughnuts spiced with curry leaves and chili.' },
+
+  // HI dishes (13)
+  { id: 'wanton-mee', name: 'Wanton Mee', icon: '\ud83c\udf5c', topic: 'Healthcare Environment in Singapore', desc: 'Springy egg noodles with char siu pork and plump wanton dumplings.' },
+  { id: 'thunder-tea-rice', name: 'Thunder Tea Rice', icon: '\ud83c\udf3f', topic: 'Medical Expense Insurance', desc: 'Hakka Lei Cha \u2014 rice with green tea soup, veggies, and tofu. Healthy choice.' },
+  { id: 'yong-tau-foo', name: 'Yong Tau Foo', icon: '\ud83c\udf62', topic: 'Group Hospital & Surgical Insurance', desc: 'Pick your own mix of tofu, veggies, and fish paste in clear soup.' },
+  { id: 'ban-mian', name: 'Ban Mian', icon: '\ud83c\udf5c', topic: 'Disability Income Insurance', desc: 'Hand-torn noodles in anchovy broth with minced pork and egg.' },
+  { id: 'soon-kueh', name: 'Soon Kueh', icon: '\ud83e\udd5f', topic: 'Long-Term Care Insurance', desc: 'Steamed rice skin dumplings filled with bamboo shoot and turnip.' },
+  { id: 'tang-yuan', name: 'Tang Yuan', icon: '\ud83c\udf61', topic: 'Critical Illness Insurance', desc: 'Glutinous rice balls in sweet ginger soup. Eaten for reunion and hope.' },
+  { id: 'otak-otak', name: 'Otak Otak', icon: '\ud83d\udc1f', topic: 'Other Types of Health Insurance', desc: 'Grilled spiced fish paste wrapped in banana leaf. Fragrant and smoky.' },
+  { id: 'chwee-kueh', name: 'Chwee Kueh', icon: '\ud83e\uddc1', topic: 'Managed Healthcare', desc: 'Steamed rice cakes topped with preserved radish. Simple and satisfying.' },
+  { id: 'mee-rebus', name: 'Mee Rebus', icon: '\ud83c\udf5d', topic: 'Healthcare Financing', desc: 'Yellow noodles in thick potato-based gravy with egg and lime.' },
+  { id: 'nasi-biryani', name: 'Nasi Biryani', icon: '\ud83c\udf5b', topic: 'Common Policy Provisions', desc: 'Fragrant spiced basmati rice with tender mutton. A Kampong Glam classic.' },
+  { id: 'putu-piring', name: 'Putu Piring', icon: '\ud83c\udf68', topic: 'Health Insurance Pricing', desc: 'Steamed rice flour cake with melted palm sugar centre. Warm and sweet.' },
+  { id: 'murtabak', name: 'Murtabak', icon: '\ud83e\udd5e', topic: 'Health Insurance Underwriting', desc: 'Pan-fried stuffed flatbread with spiced mutton, egg, and onion.' },
+  { id: 'prata-kosong', name: 'Teh Halia', icon: '\ud83c\udf75', topic: 'MAS 120 Disclosure & Advisory Process', desc: 'Ginger-infused milk tea. Warming, soothing, and perfectly balanced.' },
 ];
 
 export function getDishForTopic(topic) {
