@@ -19,7 +19,8 @@
       "lightning",
       "explosion"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.6, p.13"
   },
   {
     "id": "comgi-002",
@@ -32,7 +33,7 @@
       "D) Theft of property occurring after a fire"
     ],
     "answer": 1,
-    "explanation": "A Fire Insurance policy covers property damaged by water or other extinguishing agents used to extinguish a fire, as this is proximately caused by fire. Typhoon damage is not a covered FLEX peril; spontaneous combustion of the property itself is excluded; and theft during or after fire is expressly excluded.",
+    "explanation": "A Fire Insurance policy covers property damaged by water or other extinguishing agents used to put out a fire, as this is proximately caused by fire. Choice C (spontaneous combustion of palm oil seeds) is excluded because damage to the seeds themselves from their own spontaneous heating is not covered (S2.14). However, if the fire spreads to nearby property, that spread damage IS covered -- the question asks about loss to the seeds, not the spread. Typhoon damage requires a separate Perils of Nature extension. Theft during or after fire is expressly excluded (S2.14).",
     "jpComparison": "日本の火災保険でも消火活動による水濡れ損害は補償対象。火災の近因による損害という概念は同様だが、シンガポールの基本ポリシーでは台風や洪水は特殊危険として追加する必要がある点が日本と異なる。",
     "keywords": [
       "proximate cause",
@@ -40,7 +41,8 @@
       "fire insurance",
       "water damage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.7, p.13"
   },
   {
     "id": "comgi-003",
@@ -61,7 +63,8 @@
       "contribution",
       "double insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.9(b), p.14"
   },
   {
     "id": "comgi-004",
@@ -82,7 +85,8 @@
       "exclusion",
       "spreading fire"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.14, p.15"
   },
   {
     "id": "comgi-005",
@@ -103,7 +107,8 @@
       "policy condition",
       "increased risk"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.9(a), p.14"
   },
   {
     "id": "comgi-006",
@@ -125,7 +130,8 @@
       "endorsement",
       "precious stones"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.16, p.15-16"
   },
   {
     "id": "comgi-007",
@@ -147,7 +153,8 @@
       "perils of nature",
       "extensions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.19, p.16"
   },
   {
     "id": "comgi-008",
@@ -168,7 +175,8 @@
       "malicious damage",
       "police notification"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.22, p.17"
   },
   {
     "id": "comgi-009",
@@ -189,7 +197,8 @@
       "loss history",
       "five years"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.11, p.14"
   },
   {
     "id": "comgi-010",
@@ -211,7 +220,8 @@
       "vehicle",
       "aircraft"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.19, p.16"
   },
   {
     "id": "comgi-011",
@@ -233,7 +243,8 @@
       "architects fees",
       "public authorities"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.20, p.16"
   },
   {
     "id": "comgi-012",
@@ -254,7 +265,8 @@
       "statutory declaration",
       "suspicious claim"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §2.24, p.17"
   },
   {
     "id": "comgi-013",
@@ -267,7 +279,7 @@
       "D) Breaking and entering through locked doors or windows"
     ],
     "answer": 1,
-    "explanation": "Under Section 378 of the Singapore Penal Code 1871, theft is defined as: whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property for such taking. Crucially, this definition does NOT require force or violence.",
+    "explanation": "Under Section 378 of the Singapore Penal Code (cited in the textbook as 'Penal Code 1871', now revised as Cap. 224), theft is defined as: whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property for such taking. Crucially, this definition does NOT require force or violence -- that distinguishes theft from robbery.",
     "jpComparison": "日本の刑法235条の窃盗罪も「他人の財物を窃取すること」と定義し、暴力は不要（暴力を伴えば強盗罪）。シンガポールの法的定義と基本的に同様だが、保険では通常、強制的・暴力的な侵入の証拠を要求する点が実務上の差異。",
     "keywords": [
       "theft",
@@ -276,7 +288,8 @@
       "Singapore",
       "Section 378"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.2, p.18"
   },
   {
     "id": "comgi-014",
@@ -298,7 +311,8 @@
       "pilferage",
       "uninsurable"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.3, p.18"
   },
   {
     "id": "comgi-015",
@@ -319,7 +333,8 @@
       "30 days",
       "unoccupied premises"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.11(c), p.19"
   },
   {
     "id": "comgi-016",
@@ -341,7 +356,8 @@
       "employees",
       "inside job"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.18, p.21"
   },
   {
     "id": "comgi-017",
@@ -363,7 +379,8 @@
       "unexplained loss",
       "exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §3.21, p.21"
   },
   {
     "id": "comgi-018",
@@ -386,7 +403,8 @@
       "assault",
       "violence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.20(a), p.21"
   },
   {
     "id": "comgi-019",
@@ -408,7 +426,8 @@
       "reporting period",
       "notification"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §3.24, p.22"
   },
   {
     "id": "comgi-020",
@@ -430,7 +449,8 @@
       "condition of average",
       "S$100,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §3.22-3.23, p.22"
   },
   {
     "id": "comgi-021",
@@ -451,7 +471,8 @@
       "condition of average",
       "theft insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.23, p.22"
   },
   {
     "id": "comgi-022",
@@ -472,7 +493,8 @@
       "data processing",
       "all risks"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.1, p.23"
   },
   {
     "id": "comgi-023",
@@ -494,7 +516,8 @@
       "freight",
       "installation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.7(a), p.24"
   },
   {
     "id": "comgi-024",
@@ -507,7 +530,7 @@
       "D) When the insured failed to maintain a service contract for the equipment"
     ],
     "answer": 2,
-    "explanation": "For total loss (beyond economic repair) or where repair cost equals or exceeds the actual value immediately before damage, settlement is based on actual value (replacement value less depreciation) UNLESS the policy was extended to full replacement value. For partial loss (repairable), the insurer pays the reasonable repair costs including dismantling and transport fees.",
+    "explanation": "For total loss -- either when the equipment is beyond economic repair, OR when the repair cost equals or exceeds the actual value immediately before the damage (S4.7(b)) -- settlement is based on actual value (replacement value less depreciation), UNLESS the policy has been extended to cover full replacement value. For partial loss that can be economically repaired, the insurer pays reasonable repair costs including dismantling, re-erection, and transport fees.",
     "jpComparison": "日本でも全損時の支払基準として「時価払い」か「新価払い（再調達価額払い）」かを選択できることが多い。新価払い特約を付帯することで減価控除なしの補償が可能な点は類似。",
     "keywords": [
       "electronic equipment insurance",
@@ -516,7 +539,8 @@
       "depreciation",
       "replacement value"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §4.7(b), p.24"
   },
   {
     "id": "comgi-025",
@@ -538,7 +562,8 @@
       "corrosion",
       "rust"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.10, p.25"
   },
   {
     "id": "comgi-026",
@@ -559,7 +584,8 @@
       "substitute system",
       "business interruption"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.12(b), p.26"
   },
   {
     "id": "comgi-027",
@@ -581,7 +607,8 @@
       "underwriting",
       "storage media"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.8, p.25"
   },
   {
     "id": "comgi-028",
@@ -602,7 +629,8 @@
       "fixed glass",
       "premises"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §5.1, p.27"
   },
   {
     "id": "comgi-029",
@@ -624,7 +652,8 @@
       "insurer's option",
       "breakage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.4, p.28"
   },
   {
     "id": "comgi-030",
@@ -646,7 +675,8 @@
       "chipping",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.6, p.28"
   },
   {
     "id": "comgi-031",
@@ -668,7 +698,8 @@
       "liquor store",
       "smash-and-grab"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.10(b), p.29"
   },
   {
     "id": "comgi-032",
@@ -690,7 +721,8 @@
       "declared",
       "pre-existing damage"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §5.12, p.30"
   },
   {
     "id": "comgi-033",
@@ -712,7 +744,8 @@
       "boarding up",
       "additional premium"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.14, p.30"
   },
   {
     "id": "comgi-034",
@@ -734,7 +767,8 @@
       "named perils",
       "Commercial Special Risks"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §6.2, p.31"
   },
   {
     "id": "comgi-035",
@@ -756,7 +790,8 @@
       "reinstatement",
       "remaining period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §6.6, p.31"
   },
   {
     "id": "comgi-036",
@@ -778,7 +813,8 @@
       "policy condition",
       "insurer's written admission"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §6.8(a), p.32"
   },
   {
     "id": "comgi-037",
@@ -800,7 +836,8 @@
       "mechanical breakdown",
       "machinery"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §6.14(c), p.33"
   },
   {
     "id": "comgi-038",
@@ -822,20 +859,21 @@
       "housekeeping",
       "underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §6.11, p.33"
   },
   {
     "id": "comgi-039",
     "topic": "Property Insurance",
-    "question": "Under CSR Insurance, which of the following describes why 'breakage of fragile items such as glass and china' is excluded?",
+    "question": "Under CSR Insurance, what is the rule regarding breakage of fragile items such as glass and china?",
     "choices": [
-      "A) Fragile items are too expensive for the standard premium rate to cover",
-      "B) The exclusion prevents claims from gradual deterioration but covers sudden breakage by fire or theft",
-      "C) Breakage of fragile items is considered non-accidental, unavoidable, or more appropriately covered under Glass Insurance",
-      "D) MAS requires separate riders for all fragile items in commercial properties"
+      "Breakage of all fragile items is covered without exception under the All Risks basis",
+      "Breakage of fragile items is excluded, but damage caused by fire or theft IS covered",
+      "Breakage of fragile items is excluded with no exceptions whatsoever",
+      "Breakage of fragile items is covered only if a separate Glass Insurance rider is attached"
     ],
-    "answer": 2,
-    "explanation": "Under CSR Insurance, breakage of fragile items (such as glass and china) is excluded unless caused by fire or theft. This is because fragile item breakage is considered an unavoidable or gradual operating risk, or it falls more appropriately under Glass Insurance. The CSR policy is designed for sudden and unforeseen accidental damage, not routine breakage of inherently fragile items.",
+    "answer": 1,
+    "explanation": "Under CSR Insurance, breakage of fragile items such as glass and china is generally excluded (S6.14(d)). However, if the breakage was caused by fire or theft, it IS covered. This exception recognises that fire and theft are named perils under the policy. The textbook does not provide a specific rationale for the exclusion beyond listing it among standard CSR exclusions (S6.13-6.14).",
     "jpComparison": "日本の動産総合保険でも「こわれもの」の自然な破損は免責となることが多い。ガラスの破損はガラス保険で、機械の破損は機械保険で担保するという縦割り的な設計は日本でも同様。",
     "keywords": [
       "CSR",
@@ -844,7 +882,8 @@
       "glass",
       "china"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §6.14(d), p.33"
   },
   {
     "id": "comgi-040",
@@ -866,7 +905,8 @@
       "outdoor property",
       "situation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §6.14(i), p.33"
   },
   {
     "id": "comgi-041",
@@ -889,7 +929,8 @@
       "Business Interruption",
       "Material Damage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §7.1, p.34"
   },
   {
     "id": "comgi-042",
@@ -911,7 +952,8 @@
       "loss of income",
       "industrial"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §7.1, p.34"
   },
   {
     "id": "comgi-043",
@@ -933,7 +975,8 @@
       "Singapore",
       "withdrawal"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §8.1, p.35"
   },
   {
     "id": "comgi-044",
@@ -956,7 +999,8 @@
       "religious",
       "ideological"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §8.5, p.35"
   },
   {
     "id": "comgi-045",
@@ -978,7 +1022,8 @@
       "influence government",
       "public fear"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.7, p.35"
   },
   {
     "id": "comgi-046",
@@ -1000,7 +1045,8 @@
       "definition",
       "series of acts"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.9-8.10, p.36"
   },
   {
     "id": "comgi-047",
@@ -1022,7 +1068,8 @@
       "claims",
       "sworn"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §8(E)(b), p.37"
   },
   {
     "id": "comgi-048",
@@ -1044,7 +1091,8 @@
       "diplomatic facility",
       "military facility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §8.17, p.38"
   },
   {
     "id": "comgi-049",
@@ -1066,7 +1114,8 @@
       "partial loss",
       "condition"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.15, p.37"
   },
   {
     "id": "comgi-050",
@@ -1089,7 +1138,8 @@
       "land",
       "property definition"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §1.1, p.12"
   },
   {
     "id": "comgi-051",
@@ -1109,7 +1159,8 @@
       "Consequential Loss",
       "Business Interruption"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.2, p.35"
   },
   {
     "id": "comgi-052",
@@ -1129,7 +1180,8 @@
       "Fire Insurance",
       "prerequisite"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.4, p.36"
   },
   {
     "id": "comgi-053",
@@ -1149,7 +1201,8 @@
       "intangible assets",
       "business interruption need"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §1.1, p.35"
   },
   {
     "id": "comgi-054",
@@ -1170,7 +1223,8 @@
       "standing charges",
       "insurer definition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.2(a), p.43"
   },
   {
     "id": "comgi-055",
@@ -1191,7 +1245,8 @@
       "gas explosion",
       "standard perils"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.4, p.44"
   },
   {
     "id": "comgi-056",
@@ -1212,7 +1267,8 @@
       "protection",
       "BI insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.4, p.44"
   },
   {
     "id": "comgi-057",
@@ -1232,7 +1288,8 @@
       "indemnity period",
       "date of loss"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.2, p.45"
   },
   {
     "id": "comgi-058",
@@ -1252,7 +1309,8 @@
       "actual indemnity period",
       "liability limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.3, p.45"
   },
   {
     "id": "comgi-059",
@@ -1274,7 +1332,8 @@
       "36 months",
       "indemnity period adequacy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §5.4, p.45"
   },
   {
     "id": "comgi-060",
@@ -1295,7 +1354,8 @@
       "standing charges",
       "gross profit formula"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §7.6, p.48"
   },
   {
     "id": "comgi-061",
@@ -1316,7 +1376,8 @@
       "standing charges",
       "under-indemnity"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.9, p.48"
   },
   {
     "id": "comgi-062",
@@ -1337,7 +1398,8 @@
       "variable expenses",
       "freight"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §§7.10-7.12, p.48"
   },
   {
     "id": "comgi-063",
@@ -1358,7 +1420,8 @@
       "simpler",
       "safer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.10, p.48"
   },
   {
     "id": "comgi-064",
@@ -1379,7 +1442,8 @@
       "Example 2.2",
       "turnover"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 Example 2.2, p.53"
   },
   {
     "id": "comgi-065",
@@ -1400,7 +1464,8 @@
       "uninsured working expense",
       "automatic"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.14, p.48"
   },
   {
     "id": "comgi-066",
@@ -1421,7 +1486,8 @@
       "dismissal",
       "prolonged interruption"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.16, p.49"
   },
   {
     "id": "comgi-067",
@@ -1442,7 +1508,8 @@
       "retain employees",
       "special skills"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.15, p.48"
   },
   {
     "id": "comgi-068",
@@ -1463,7 +1530,8 @@
       "additional expenses",
       "minimise disruption"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.2(b), p.44"
   },
   {
     "id": "comgi-069",
@@ -1484,7 +1552,8 @@
       "Additional Cost of Working",
       "service businesses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §7.21, p.50"
   },
   {
     "id": "comgi-070",
@@ -1506,7 +1575,8 @@
       "loading",
       "indemnity period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §§8.1-8.2, p.50"
   },
   {
     "id": "comgi-071",
@@ -1527,7 +1597,8 @@
       "100%",
       "premium table"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §8.2 (loading table), p.50"
   },
   {
     "id": "comgi-072",
@@ -1548,7 +1619,8 @@
       "Example 2.1",
       "calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 Example 2.1, p.50"
   },
   {
     "id": "comgi-073",
@@ -1570,7 +1642,8 @@
       "S$2,640",
       "Example 2.1"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 Example 2.1, p.50"
   },
   {
     "id": "comgi-074",
@@ -1591,7 +1664,8 @@
       "indemnity period length",
       "last day"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §9.2, p.51"
   },
   {
     "id": "comgi-075",
@@ -1612,7 +1686,8 @@
       "future projection",
       "last day"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §9.6, p.52"
   },
   {
     "id": "comgi-076",
@@ -1633,7 +1708,8 @@
       "S$176,550",
       "Example 2.2"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 Example 2.2, p.53"
   },
   {
     "id": "comgi-077",
@@ -1654,7 +1730,8 @@
       "concentrated income",
       "inadequate sum insured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §9.5, p.51-52"
   },
   {
     "id": "comgi-078",
@@ -1675,7 +1752,8 @@
       "seepage",
       "contamination"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §11.2, p.56"
   },
   {
     "id": "comgi-079",
@@ -1696,7 +1774,8 @@
       "first x days",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §11.6, p.56"
   },
   {
     "id": "comgi-080",
@@ -1717,7 +1796,8 @@
       "Engineering Consequential Loss",
       "Singapore"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §11.7, p.57"
   },
   {
     "id": "comgi-081",
@@ -1738,7 +1818,8 @@
       "extension",
       "no additional premium"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §12.3(b), p.57-58"
   },
   {
     "id": "comgi-082",
@@ -1759,7 +1840,8 @@
       "undamaged premises",
       "extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §12.3(c), p.58"
   },
   {
     "id": "comgi-083",
@@ -1779,7 +1861,8 @@
       "additional premium",
       "extensions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §§12.3-12.4(a), p.58"
   },
   {
     "id": "comgi-084",
@@ -1800,7 +1883,8 @@
       "named customers",
       "extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §12.4(c), p.59"
   },
   {
     "id": "comgi-085",
@@ -1821,7 +1905,8 @@
       "damage",
       "no direct damage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §12.4(e), p.59"
   },
   {
     "id": "comgi-086",
@@ -1842,7 +1927,8 @@
       "excluded",
       "electricity substation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §12.4(f), p.59"
   },
   {
     "id": "comgi-087",
@@ -1863,7 +1949,8 @@
       "restriction of use",
       "extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §12.4(g), p.59"
   },
   {
     "id": "comgi-088",
@@ -1884,7 +1971,8 @@
       "tracing costs",
       "not recovery failure"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §13.2, p.61"
   },
   {
     "id": "comgi-089",
@@ -1906,7 +1994,8 @@
       "new business",
       "future earnings"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §§13.3-13.5, p.61-62"
   },
   {
     "id": "comgi-090",
@@ -1927,7 +2016,8 @@
       "expiry of indemnity period",
       "submission deadline"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §14.1(d), p.62"
   },
   {
     "id": "comgi-091",
@@ -1948,7 +2038,8 @@
       "Third Schedule",
       "domestic worker"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.6, p.62 (Third Schedule: domestic workers excluded)"
   },
   {
     "id": "comgi-092",
@@ -1969,7 +2060,8 @@
       "excluded persons",
       "Singapore Police Force"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.6, p.62 (Third Schedule: Singapore Police Force excluded)"
   },
   {
     "id": "comgi-093",
@@ -1990,7 +2082,8 @@
       "S$2,600 threshold",
       "manual worker"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.8, p.62 (mandatory WICI scope: all manual + non-manual ≤S$2,600)"
   },
   {
     "id": "comgi-094",
@@ -2012,7 +2105,8 @@
       "fine",
       "imprisonment"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.9, p.62 (Section 25(1): max fine S$10,000 / 12 months imprisonment)"
   },
   {
     "id": "comgi-095",
@@ -2033,7 +2127,8 @@
       "overtime payments",
       "exclusions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.21(1), p.65 (definition of 'earnings': overtime of constant character included)"
   },
   {
     "id": "comgi-096",
@@ -2054,7 +2149,8 @@
       "1 year",
       "limitation period"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.19, p.65 (claim must be made within 1 year from date of accident)"
   },
   {
     "id": "comgi-097",
@@ -2076,7 +2172,8 @@
       "maximum limit",
       "1 January 2020"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.40 & table, p.70-71 (death max S$225,000 from 1 Jan 2020)"
   },
   {
     "id": "comgi-098",
@@ -2097,7 +2194,8 @@
       "S$289,000",
       "maximum limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.34 & table, p.69-71 (total permanent incapacity max S$289,000 from 1 Jan 2020)"
   },
   {
     "id": "comgi-099",
@@ -2118,7 +2216,8 @@
       "25% additional",
       "care cost"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.35, p.69 (permanent total incapacity: additional 25% for cost of care)"
   },
   {
     "id": "comgi-100",
@@ -2139,7 +2238,8 @@
       "S$45,000",
       "1 year limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.23 & table, p.68-71 (medical expenses: S$45,000 or 1 year from 1 Jan 2020)"
   },
   {
     "id": "comgi-101",
@@ -2161,7 +2261,8 @@
       "dependant",
       "Section 2"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.37, p.70 (definition of 'relative': spouse, children, parents, siblings, grandparents, grandchildren)"
   },
   {
     "id": "comgi-102",
@@ -2182,7 +2283,8 @@
       "two-thirds AME",
       "medical leave wages"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.29, p.68 (temporary incapacity: two-thirds AME beyond initial 14/60 days up to 1 year)"
   },
   {
     "id": "comgi-103",
@@ -2204,7 +2306,8 @@
       "Section 35",
       "Commissioner"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.82(b), p.78 (employer must notify Commissioner and insurer within 10 days)"
   },
   {
     "id": "comgi-104",
@@ -2225,7 +2328,8 @@
       "alcohol",
       "not liable"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.21(2), p.66 (employer not liable: injury directly due to alcohol/drug influence)"
   },
   {
     "id": "comgi-105",
@@ -2247,7 +2351,8 @@
       "silicosis",
       "36 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.21, p.67 (occupational disease: asbestosis/silicosis claim within 36 months of leaving employment)"
   },
   {
     "id": "comgi-106",
@@ -2268,7 +2373,8 @@
       "average condition",
       "recovery from insured"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.67-68, p.75 (Average condition: insurer pays in full under Act, recovers rateable proportion from insured)"
   },
   {
     "id": "comgi-107",
@@ -2289,7 +2395,8 @@
       "14 days",
       "notification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.61, p.74 (D5 Change in Nature of Business: notify within 14 days)"
   },
   {
     "id": "comgi-108",
@@ -2310,7 +2417,8 @@
       "common law endorsement",
       "extensions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.80, p.77 (additional benefits: common law endorsement with communicable disease exclusion)"
   },
   {
     "id": "comgi-109",
@@ -2331,7 +2439,8 @@
       "earnings declaration",
       "1 month"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.65, p.74 (D6 Premium Adjustment: actual earnings within 1 month after policy end)"
   },
   {
     "id": "comgi-110",
@@ -2352,7 +2461,8 @@
       "asbestosis",
       "mesothelioma"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.78, p.76 (exclusions: asbestosis and mesothelioma explicitly excluded)"
   },
   {
     "id": "comgi-111",
@@ -2373,7 +2483,8 @@
       "7 days",
       "WIC Regulations 2020"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.76, p.76 (Certificate of Insurance: issued within 7 days after policy commencement/renewal)"
   },
   {
     "id": "comgi-112",
@@ -2394,7 +2505,8 @@
       "self-defence",
       "employer liability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.21(2), p.66-67 (fight exception: employer liable when employee acts in self-defence)"
   },
   {
     "id": "comgi-113",
@@ -2416,7 +2528,8 @@
       "statutory liability",
       "negligence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.16-2.18, p.64-65 (Common Law: negligence must be proved; WICA: no-fault system)"
   },
   {
     "id": "comgi-114",
@@ -2437,7 +2550,8 @@
       "approved policy",
       "additional benefit"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.11, p.63 (approved WICA 2019 policy: NO common law cover; available as additional benefit per Regulations S2(4))"
   },
   {
     "id": "comgi-115",
@@ -2459,7 +2573,8 @@
       "S$30,000",
       "penalty"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.92(iv), p.79-80 (designated insurers: AFP up to S$30,000 per failure)"
   },
   {
     "id": "comgi-116",
@@ -2480,7 +2595,8 @@
       "seventh day",
       "medical leave wages"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.30, p.68 (medical leave wages/medical expenses: by 7th day of following month)"
   },
   {
     "id": "comgi-117",
@@ -2501,7 +2617,8 @@
       "biological agents",
       "work-related"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.93, p.79 (COVID-19: covered if contracted through work; not covered through non-work exposure)"
   },
   {
     "id": "comgi-118",
@@ -2522,7 +2639,8 @@
       "onus of proof",
       "COVID-19"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.94, p.79 (work-from-home coverage: employee must prove injury arose from work activity)"
   },
   {
     "id": "comgi-119",
@@ -2543,7 +2661,8 @@
       "multiplying factor",
       "loss of earning capacity"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.33, p.69 (permanent incapacity formula: monthly earnings × multiplying factor × % loss of earning capacity)"
   },
   {
     "id": "comgi-120",
@@ -2564,7 +2683,8 @@
       "Traditional Chinese Medicine",
       "additional benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.27 & §2.80, p.68 & p.77 (TCM: not eligible under standard WICA; available as additional benefit extension)"
   },
   {
     "id": "comgi-121",
@@ -2585,7 +2705,8 @@
       "negligence",
       "bodily injury"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.1-3.2, p.80 (Public Liability: covers claims from public/third parties due to insured's negligence)"
   },
   {
     "id": "comgi-122",
@@ -2606,7 +2727,8 @@
       "coverage trigger",
       "policy period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.28, p.84 (Public Liability: occurrence basis — coverage trigger is occurrence during policy period)"
   },
   {
     "id": "comgi-123",
@@ -2627,7 +2749,8 @@
       "care custody control",
       "property"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.21, p.84 (Public Liability exclusion: property in care, custody or control of insured excluded)"
   },
   {
     "id": "comgi-124",
@@ -2648,7 +2771,8 @@
       "road use",
       "motor vehicle"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.21, p.84 (Public Liability exclusion: vehicles registered for road use owned/used by insured)"
   },
   {
     "id": "comgi-125",
@@ -2669,7 +2793,8 @@
       "premises inspection",
       "cover suspension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.15, p.83 (B5 Insurer's Access to Premises: inspect and suspend cover if defect/danger detected)"
   },
   {
     "id": "comgi-126",
@@ -2691,7 +2816,8 @@
       "LTA",
       "commercial use"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.35, p.85-86 (LTA-approved PMD third-party liability: minimum S$200,000 per claim)"
   },
   {
     "id": "comgi-127",
@@ -2713,7 +2839,8 @@
       "penalty",
       "S$10,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.38, p.86 (Section 58A Active Mobility Act 2017: S$10,000 fine/12 months prison; S$20,000 for non-individuals)"
   },
   {
     "id": "comgi-128",
@@ -2733,7 +2860,8 @@
       "period of insurance",
       "12 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.3, p.80 (Public Liability: period of insurance usually 12 months)"
   },
   {
     "id": "comgi-129",
@@ -2754,7 +2882,8 @@
       "settlement",
       "personal injury"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.27, p.84 (long tail claims: settled years after incident due to delayed injury assessment)"
   },
   {
     "id": "comgi-130",
@@ -2775,7 +2904,8 @@
       "insurer consent",
       "subrogation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.16, p.83 (B6 Insured Not to Commit Without Insurer's Consent condition)"
   },
   {
     "id": "comgi-131",
@@ -2796,7 +2926,8 @@
       "manufacturer",
       "distributor"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.1, p.86-87 (Products Liability: stand-alone suitable for manufacturers/distributors/wholesalers)"
   },
   {
     "id": "comgi-132",
@@ -2816,7 +2947,8 @@
       "aggregate limit",
       "indemnity limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.8, p.88 (Products Liability: aggregate limit basis — each claim reduces limit)"
   },
   {
     "id": "comgi-133",
@@ -2836,7 +2968,8 @@
       "claims-made basis",
       "coverage trigger"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.16, p.90 (Products Liability: issued on claims-made basis)"
   },
   {
     "id": "comgi-134",
@@ -2857,7 +2990,8 @@
       "product recall",
       "design defect"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.12, p.89 (Products Liability exclusion: product recall costs excluded)"
   },
   {
     "id": "comgi-135",
@@ -2879,7 +3013,8 @@
       "liability exclusion",
       "manufacturer"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.4, p.88 (UCTA Section 5(1): liability for defective consumer goods cannot be excluded)"
   },
   {
     "id": "comgi-136",
@@ -2900,7 +3035,8 @@
       "occurrence",
       "policy year"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.16-4.17, p.90 (Claims Made Basis, Products Liability Insurance)"
   },
   {
     "id": "comgi-137",
@@ -2921,7 +3057,8 @@
       "design errors",
       "formula errors"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.14, p.89 (Products Liability Extensions)"
   },
   {
     "id": "comgi-138",
@@ -2943,7 +3080,8 @@
       "error",
       "professional duties"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.1, p.112 (Professional Indemnity Insurance, Scope of Cover)"
   },
   {
     "id": "comgi-139",
@@ -2964,7 +3102,8 @@
       "Section 77",
       "insurance broker"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.3, p.112 (Section 77 Insurance Act 1966 – insurance broking company)"
   },
   {
     "id": "comgi-140",
@@ -2984,7 +3123,8 @@
       "claims-made basis",
       "retroactive date"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.14, p.114 (PI Insurance – Claims Made Basis, retroactive date)"
   },
   {
     "id": "comgi-141",
@@ -3005,7 +3145,8 @@
       "employee dishonesty",
       "theft"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.12, p.114 (PI Insurance – Exclusions: loss of money by theft/embezzlement)"
   },
   {
     "id": "comgi-142",
@@ -3026,7 +3167,8 @@
       "intellectual property",
       "infringement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.13, p.114 (PI Insurance – Extensions: Infringement of Intellectual Property Rights)"
   },
   {
     "id": "comgi-143",
@@ -3048,7 +3190,8 @@
       "professional duty",
       "wrongful act"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.8, p.116 (D&O vs PI distinction: professional duty vs wrongful act in official capacity)"
   },
   {
     "id": "comgi-144",
@@ -3069,7 +3212,8 @@
       "directors officers",
       "not indemnified by company"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(a), p.115 (D&O Side A: directors/officers not indemnified by company)"
   },
   {
     "id": "comgi-145",
@@ -3090,7 +3234,8 @@
       "company reimbursement",
       "indemnification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(b), p.115 (D&O Side B: company reimbursement cover)"
   },
   {
     "id": "comgi-146",
@@ -3112,7 +3257,8 @@
       "securities claims",
       "employment claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(c), p.115 (D&O Side C: entity cover for securities/employment claims)"
   },
   {
     "id": "comgi-147",
@@ -3134,7 +3280,8 @@
       "void",
       "negligence"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.4, p.115 (Section 172 Companies Act 1967 – exemption provisions void)"
   },
   {
     "id": "comgi-148",
@@ -3156,7 +3303,8 @@
       "indemnity prohibition",
       "D&O"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.5(a), p.116 (Section 172B(1)(a) – payment of criminal fines prohibited)"
   },
   {
     "id": "comgi-149",
@@ -3177,7 +3325,8 @@
       "wrongful act",
       "period of insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.7, p.116 (D&O Insurance – Claims Made Basis)"
   },
   {
     "id": "comgi-150",
@@ -3199,7 +3348,8 @@
       "copyright",
       "unfair competition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.1, p.116 (Libel & Slander Insurance – scope of cover)"
   },
   {
     "id": "comgi-151",
@@ -3220,7 +3370,8 @@
       "Professional Indemnity",
       "standalone"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.2, p.116 (Libel & Slander – standalone or extension to PI policy)"
   },
   {
     "id": "comgi-152",
@@ -3242,7 +3393,8 @@
       "management committee",
       "licensing"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.1, p.116-117 (E&O vs Professional Liability: formal licensing standard distinction)"
   },
   {
     "id": "comgi-153",
@@ -3263,7 +3415,8 @@
       "condominium",
       "duty of care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.1, p.117 (E&O Insurance – management committee members of condominiums)"
   },
   {
     "id": "comgi-154",
@@ -3284,7 +3437,8 @@
       "bailee",
       "warehouse"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §6.1, p.117 (Carriers & Bailees Liability – care, custody or control of property)"
   },
   {
     "id": "comgi-155",
@@ -3304,7 +3458,8 @@
       "Carriers Legal Liability",
       "Marine Insurance department"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §6.2, p.117 (Carriers Legal Liability Insurance – underwritten by Marine dept)"
   },
   {
     "id": "comgi-156",
@@ -3325,7 +3480,8 @@
       "claims",
       "policy period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §6.5, p.118 (Carriers & Bailees – prompt notification of every incident)"
   },
   {
     "id": "comgi-157",
@@ -3346,7 +3502,8 @@
       "trading conditions",
       "claims experience"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §6.3, p.117 (Carriers & Bailees – underwriting information required)"
   },
   {
     "id": "comgi-158",
@@ -3368,7 +3525,8 @@
       "advertising injury",
       "pollution"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §7.1, p.118 (Commercial General Liability – Common Law Liability coverage)"
   },
   {
     "id": "comgi-159",
@@ -3389,7 +3547,8 @@
       "worldwide",
       "territorial limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §7.5, p.119 (CGL – purchased by multi-national companies; worldwide territorial limit)"
   },
   {
     "id": "comgi-160",
@@ -3410,7 +3569,8 @@
       "Section 3",
       "hotel"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §8.1, p.119 (Innkeeper's Liability Insurance – Section 3 Innkeepers Act 1970)"
   },
   {
     "id": "comgi-161",
@@ -3432,7 +3592,8 @@
       "liability limit",
       "notice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §8.2, p.119 (Innkeepers Act 1970 – S$500 liability limit with notice displayed)"
   },
   {
     "id": "comgi-162",
@@ -3454,7 +3615,8 @@
       "refuse",
       "declared value"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §8.3, p.119 (Innkeepers Act 1970 – S$5,000 threshold to refuse safe custody)"
   },
   {
     "id": "comgi-163",
@@ -3476,7 +3638,8 @@
       "safe custody",
       "exception"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §8.4, p.119-120 (Innkeepers Act 1970 – S$500 limit does not apply: wilful act/neglect)"
   },
   {
     "id": "comgi-164",
@@ -3498,7 +3661,8 @@
       "live animal",
       "not liable"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §8.5, p.120 (Innkeepers Act 1970 – not liable for vehicles/animals/gear)"
   },
   {
     "id": "comgi-165",
@@ -3519,7 +3683,8 @@
       "care custody control",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §8.6, p.120 (Innkeeper's Liability as extension to PL – overcomes care/custody exclusion)"
   },
   {
     "id": "comgi-166",
@@ -3540,7 +3705,8 @@
       "remediation costs",
       "civil fines"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §9.4, p.121 (EIL Insurance – standard coverage list)"
   },
   {
     "id": "comgi-167",
@@ -3561,7 +3727,8 @@
       "bodily injury",
       "act of terrorism"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §9.7, p.121 (Terrorism Liability Insurance – third-party bodily injury/property damage)"
   },
   {
     "id": "comgi-168",
@@ -3582,7 +3749,8 @@
       "network security",
       "cyber extortion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §9.9, p.122 (Cyber Liability Insurance – insured events defined)"
   },
   {
     "id": "comgi-169",
@@ -3604,7 +3772,8 @@
       "disease",
       "terrorism"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §10.3, p.122 (Contingency Insurance – risks causing cancellation/abandonment)"
   },
   {
     "id": "comgi-170",
@@ -3626,7 +3795,8 @@
       "ticket refunds",
       "liability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §10.4, p.122 (Contingency Insurance – financial exposures not covered by Liability Insurance)"
   },
   {
     "id": "comgi-171",
@@ -3647,7 +3817,8 @@
       "adverse weather",
       "outdoor event"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §10.6, p.123 (Contingency Insurance – adverse weather exclusion unless agreed in writing)"
   },
   {
     "id": "comgi-172",
@@ -3669,7 +3840,8 @@
       "insured person",
       "sole direct cause"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §10.6, p.123 (Contingency Insurance – communicable disease exclusion with sole/direct cause exception)"
   },
   {
     "id": "comgi-173",
@@ -3691,7 +3863,8 @@
       "prudent behaviour",
       "moral hazard"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §10.6, p.123 (Contingency Insurance – exclusion: lack of care, diligence or prudent behaviour)"
   },
   {
     "id": "comgi-174",
@@ -3712,7 +3885,8 @@
       "notification",
       "loss adjusters"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §10.8, p.124 (Contingency Insurance – claims: notify insurer as soon as possible)"
   },
   {
     "id": "comgi-175",
@@ -3734,7 +3908,8 @@
       "performer",
       "known circumstances"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §10.5, p.122-123 (Contingency Insurance – underwriting information required)"
   },
   {
     "id": "comgi-176",
@@ -3756,7 +3931,8 @@
       "not both",
       "statutory compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.20, p.71 (WICA 2019 – employee may claim under Act OR Common Law, not both)"
   },
   {
     "id": "comgi-177",
@@ -3778,7 +3954,8 @@
       "deemed withdrawn",
       "notification"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.82(c), p.78 (WICA 2019 – Section 35(4)&(5): 1 year notification or claim deemed withdrawn)"
   },
   {
     "id": "comgi-178",
@@ -3799,7 +3976,8 @@
       "employer liability",
       "trade or business"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §2.28-2.29, p.73 (WICA 2019 – employer liable when employee disregards instructions for purpose of trade/business)"
   },
   {
     "id": "comgi-179",
@@ -3821,7 +3999,8 @@
       "Section 26",
       "approved policy"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §D8/§2.69, p.82 (WICA 2019 – No Avoidance of Compulsory Terms: Section 26 of the Act)"
   },
   {
     "id": "comgi-180",
@@ -3843,7 +4022,8 @@
       "MOM guidelines",
       "compensation calculation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.92, p.79 (WICA 2019 – designated WIC insurers process claims per MOM guidelines; compensation basis in WICA Schedule)"
   },
   {
     "id": "comgi-181",
@@ -3863,7 +4043,8 @@
       "compulsory insurance",
       "third-party bodily injury"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §1.2, p.129"
   },
   {
     "id": "comgi-182",
@@ -3884,7 +4065,8 @@
       "registration",
       "compulsory insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §1.2, p.129"
   },
   {
     "id": "comgi-183",
@@ -3904,7 +4086,8 @@
       "MV Act Section 2",
       "public access"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §2.2, p.130"
   },
   {
     "id": "comgi-184",
@@ -3924,7 +4107,8 @@
       "statutory requirement",
       "MV Act"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §1.3, p.129"
   },
   {
     "id": "comgi-185",
@@ -3944,7 +4128,8 @@
       "MV Act",
       "compulsory insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §1.3, p.129"
   },
   {
     "id": "comgi-186",
@@ -3964,7 +4149,8 @@
       "valid licence",
       "disqualification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §1.4, p.129"
   },
   {
     "id": "comgi-187",
@@ -3985,7 +4171,8 @@
       "forklift",
       "commercial vehicles"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §1.6, p.129"
   },
   {
     "id": "comgi-188",
@@ -4006,7 +4193,8 @@
       "offence",
       "compulsory"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §1.2/§1.7, p.129"
   },
   {
     "id": "comgi-189",
@@ -4027,7 +4215,8 @@
       "bodily injury",
       "passengers"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.2/Diagram 4.1, p.130"
   },
   {
     "id": "comgi-190",
@@ -4047,7 +4236,8 @@
       "property damage",
       "coverage comparison"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.1/Diagram 4.1, p.130"
   },
   {
     "id": "comgi-191",
@@ -4068,7 +4258,8 @@
       "theft",
       "own vehicle"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.1/Diagram 4.1, p.130"
   },
   {
     "id": "comgi-192",
@@ -4089,7 +4280,8 @@
       "malicious damage",
       "special perils"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.6/Diagram 4.1, p.132"
   },
   {
     "id": "comgi-193",
@@ -4109,7 +4301,8 @@
       "Third-Party Only",
       "coverage structure"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.3-4.4, p.132"
   },
   {
     "id": "comgi-194",
@@ -4131,7 +4324,8 @@
       "theft",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.3/Appendix 4A Endorsement 3(b), p.132/165"
   },
   {
     "id": "comgi-195",
@@ -4151,7 +4345,8 @@
       "coverage types",
       "commercial motor"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.1, p.130"
   },
   {
     "id": "comgi-196",
@@ -4171,7 +4366,8 @@
       "underwriting",
       "risk assessment"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §3.1 (§3A), p.131"
   },
   {
     "id": "comgi-197",
@@ -4191,7 +4387,8 @@
       "statutory scheme",
       "police"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §3.2/§1.3, p.131/129"
   },
   {
     "id": "comgi-198",
@@ -4211,7 +4408,8 @@
       "interim document",
       "contract of insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §3.3, p.131"
   },
   {
     "id": "comgi-199",
@@ -4231,7 +4429,8 @@
       "contract evidence",
       "proposal form"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §3.4, p.131"
   },
   {
     "id": "comgi-200",
@@ -4251,7 +4450,8 @@
       "policy changes",
       "terms and conditions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §3.5, p.131"
   },
   {
     "id": "comgi-201",
@@ -4271,7 +4471,8 @@
       "no legal obligation",
       "good practice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §3.6, p.131"
   },
   {
     "id": "comgi-202",
@@ -4291,7 +4492,8 @@
       "GIA Record Management Centre",
       "e-filing"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §3.7, p.132"
   },
   {
     "id": "comgi-203",
@@ -4313,7 +4515,8 @@
       "special perils",
       "natural disaster"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.6(c), p.132"
   },
   {
     "id": "comgi-204",
@@ -4333,7 +4536,8 @@
       "market value",
       "maximum liability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.8, p.132"
   },
   {
     "id": "comgi-205",
@@ -4355,7 +4559,8 @@
       "theft",
       "exception"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §4.10(v)/§5.7, p.132/136"
   },
   {
     "id": "comgi-206",
@@ -4376,7 +4581,8 @@
       "bodily injury",
       "property damage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §4.11, p.133"
   },
   {
     "id": "comgi-207",
@@ -4397,7 +4603,8 @@
       "employment",
       "WICA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.12(i), p.133"
   },
   {
     "id": "comgi-208",
@@ -4419,7 +4626,8 @@
       "vibration",
       "weight"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §4.12(iv), p.133"
   },
   {
     "id": "comgi-209",
@@ -4440,7 +4648,8 @@
       "disabled vehicle",
       "reward"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §4.13, p.134"
   },
   {
     "id": "comgi-210",
@@ -4462,7 +4671,8 @@
       "20%",
       "commercial vehicle"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.9/Table 6.8, p.136/145"
   },
   {
     "id": "comgi-211",
@@ -4483,7 +4693,8 @@
       "20%",
       "consecutive years"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.9, p.136"
   },
   {
     "id": "comgi-212",
@@ -4505,7 +4716,8 @@
       "renewal",
       "commercial vehicle"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.10–5.11, p.136"
   },
   {
     "id": "comgi-213",
@@ -4526,7 +4738,8 @@
       "exception",
       "no penalty"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.10, p.136"
   },
   {
     "id": "comgi-214",
@@ -4548,7 +4761,8 @@
       "50%",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §6.8 Table, p.145"
   },
   {
     "id": "comgi-215",
@@ -4569,7 +4783,8 @@
       "penalty",
       "accident reporting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 Appendix 4A Claims Conditions (Non-Reporting NCD Table), p.160"
   },
   {
     "id": "comgi-216",
@@ -4590,7 +4805,8 @@
       "1 June 2008",
       "GIA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.1, p.145"
   },
   {
     "id": "comgi-217",
@@ -4611,7 +4827,8 @@
       "reporting",
       "approved reporting centre"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.7, p.147"
   },
   {
     "id": "comgi-218",
@@ -4632,7 +4849,8 @@
       "repair workshops",
       "accident"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.2, p.146"
   },
   {
     "id": "comgi-219",
@@ -4654,7 +4872,8 @@
       "FIN",
       "insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.3, p.146"
   },
   {
     "id": "comgi-220",
@@ -4675,7 +4894,8 @@
       "no damage",
       "private settlement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.14, p.147"
   },
   {
     "id": "comgi-221",
@@ -4697,7 +4917,8 @@
       "NCD",
       "cancellation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.10, p.147"
   },
   {
     "id": "comgi-222",
@@ -4718,7 +4939,8 @@
       "reporting process",
       "authorised centre"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.17, p.147"
   },
   {
     "id": "comgi-223",
@@ -4740,7 +4962,8 @@
       "restricted roads",
       "book value"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §7.19, p.148"
   },
   {
     "id": "comgi-224",
@@ -4761,7 +4984,8 @@
       "accident scene",
       "licence plate"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.5, p.146"
   },
   {
     "id": "comgi-225",
@@ -4782,7 +5006,8 @@
       "General Insurance Association",
       "Singapore"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.1, p.145"
   },
   {
     "id": "comgi-226",
@@ -4803,7 +5028,8 @@
       "proportionate",
       "motor fleet"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.5, p.149"
   },
   {
     "id": "comgi-227",
@@ -4824,7 +5050,8 @@
       "inflation adjustment",
       "projected claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.5 + Figure 4.1, p.149"
   },
   {
     "id": "comgi-228",
@@ -4845,7 +5072,8 @@
       "10 vehicles",
       "fleet definition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.3, p.149"
   },
   {
     "id": "comgi-229",
@@ -4866,7 +5094,8 @@
       "total losses",
       "vehicle years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.4, p.149"
   },
   {
     "id": "comgi-230",
@@ -4888,7 +5117,8 @@
       "trend factor",
       "calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §8.7 Example 4.1, p.150"
   },
   {
     "id": "comgi-231",
@@ -4909,7 +5139,8 @@
       "fleet discount",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.10–8.11, p.151"
   },
   {
     "id": "comgi-232",
@@ -4930,7 +5161,8 @@
       "administrative savings",
       "single policy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §8.8, p.151"
   },
   {
     "id": "comgi-233",
@@ -4951,7 +5183,8 @@
       "transferor",
       "transferee"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.17–5.18, p.137"
   },
   {
     "id": "comgi-234",
@@ -4972,7 +5205,8 @@
       "car repairers",
       "motor trade"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §9.1, p.151"
   },
   {
     "id": "comgi-235",
@@ -4994,7 +5228,8 @@
       "customers",
       "unsuitable"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §9.2, p.151"
   },
   {
     "id": "comgi-236",
@@ -5016,7 +5251,8 @@
       "Combined",
       "three types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §9.2, p.151"
   },
   {
     "id": "comgi-237",
@@ -5037,7 +5273,8 @@
       "temporarily garaged",
       "motor trade"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §9.3, p.152"
   },
   {
     "id": "comgi-238",
@@ -5058,7 +5295,8 @@
       "malicious acts",
       "exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §9.4(a), p.152"
   },
   {
     "id": "comgi-239",
@@ -5079,7 +5317,8 @@
       "S$500,000",
       "property damage limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §9.4(b), p.152"
   },
   {
     "id": "comgi-240",
@@ -5101,7 +5340,8 @@
       "employee",
       "social domestic"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §9.6(b), p.153"
   },
   {
     "id": "comgi-241",
@@ -5122,7 +5362,8 @@
       "LNG",
       "vessel types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Liquefied Gas Carriers)"
   },
   {
     "id": "comgi-242",
@@ -5142,7 +5383,8 @@
       "road vehicles",
       "vessel types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Ro-Ro Vessels)"
   },
   {
     "id": "comgi-243",
@@ -5164,7 +5406,8 @@
       "grain",
       "ore"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Bulk Carriers)"
   },
   {
     "id": "comgi-244",
@@ -5184,7 +5427,8 @@
       "Project Cargo Vessels",
       "vessel types"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Heavy-Lift/Project Cargo Vessels)"
   },
   {
     "id": "comgi-245",
@@ -5204,7 +5448,8 @@
       "cargo types",
       "versatility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Container Vessels)"
   },
   {
     "id": "comgi-246",
@@ -5225,7 +5470,8 @@
       "towing",
       "port operations"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.3, p.175 (Table: Types of Vessels — Tugs)"
   },
   {
     "id": "comgi-247",
@@ -5246,7 +5492,8 @@
       "hull",
       "engine room"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.1–3.2, p.176 (Parts of a Vessel)"
   },
   {
     "id": "comgi-248",
@@ -5266,7 +5513,8 @@
       "invisible parts",
       "ship structure"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.3–3.4, p.176 (Visible vs Invisible parts — bulkheads listed as invisible)"
   },
   {
     "id": "comgi-249",
@@ -5286,7 +5534,8 @@
       "visible parts",
       "ship structure"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.3, p.176 (Visible parts — bow thrusters listed)"
   },
   {
     "id": "comgi-250",
@@ -5308,7 +5557,8 @@
       "bulkheads",
       "ship structure"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §3.4, p.176 (Invisible structural parts list)"
   },
   {
     "id": "comgi-251",
@@ -5329,7 +5579,8 @@
       "legislation",
       "Singapore"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §1.1, p.174 (Marine Insurance Act 1906 adopted from English Act)"
   },
   {
     "id": "comgi-252",
@@ -5349,7 +5600,8 @@
       "MIA 1906",
       "terminology"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §1.3, p.174 (MIA 1906 uses 'assured' instead of 'insured')"
   },
   {
     "id": "comgi-253",
@@ -5371,7 +5623,8 @@
       "disclosure",
       "avoid"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.41 / H. Underwriting, p.187 (Section 18 MIA 1906 — failure to disclose)"
   },
   {
     "id": "comgi-254",
@@ -5392,7 +5645,8 @@
       "valued policy",
       "cargo claims"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.45 / I. Claims, p.189 (Section 27(3) MIA 1906 — valued policy)"
   },
   {
     "id": "comgi-255",
@@ -5413,7 +5667,8 @@
       "Marine Hull",
       "Marine Liability"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §1.1, p.174 (Three types of Marine Insurance: Cargo, Hull, Liability)"
   },
   {
     "id": "comgi-256",
@@ -5434,7 +5689,8 @@
       "ship's rail",
       "risk transfer"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.12(a) / C1. INCOTERMS, p.185 (FOB — ship's rail as transfer point)"
   },
   {
     "id": "comgi-257",
@@ -5455,7 +5711,8 @@
       "seller insures",
       "insurance obligation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.12(b) / C1. INCOTERMS, p.186 (CIF — seller arranges insurance)"
   },
   {
     "id": "comgi-258",
@@ -5476,7 +5733,8 @@
       "INCOTERMS",
       "carriage responsibility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.12(c) / C1. INCOTERMS, p.186 (CFR — seller arranges carriage; FOB — buyer arranges carriage)"
   },
   {
     "id": "comgi-259",
@@ -5497,7 +5755,8 @@
       "INCOTERMS",
       "buyer's protection"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.12(b) / C1. INCOTERMS, p.186 (CIF — seller required to obtain minimum cover only)"
   },
   {
     "id": "comgi-260",
@@ -5518,7 +5777,8 @@
       "seller insures",
       "INCOTERMS"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.12(b) / C1. INCOTERMS, p.186 (CIF — seller insures against buyer's risk)"
   },
   {
     "id": "comgi-261",
@@ -5538,7 +5798,8 @@
       "Marine Form",
       "policy schedule"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.14 / D1. MAR Form, p.187 (MAR Form = Marine Form)"
   },
   {
     "id": "comgi-262",
@@ -5559,7 +5820,8 @@
       "ICC",
       "terms and conditions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.15 / D1. MAR Form, p.187 (ICC A/B/C attached to MAR Form)"
   },
   {
     "id": "comgi-263",
@@ -5579,7 +5841,8 @@
       "Institute Cargo Clauses",
       "latest version"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.16 / D1. MAR Form, p.187 (Latest ICC = 2009 version, launched January 2009)"
   },
   {
     "id": "comgi-264",
@@ -5600,7 +5863,8 @@
       "fortuitous",
       "accidental"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.18 / D2. ICC A, p.187–188 (All Risks cover — all risks subject to exclusions, accidental/fortuitous)"
   },
   {
     "id": "comgi-265",
@@ -5622,7 +5886,8 @@
       "ICC C",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.23 / D3. ICC B & C, p.182 (ICC A covers malicious damage; excluded under ICC B & C)"
   },
   {
     "id": "comgi-266",
@@ -5643,7 +5908,8 @@
       "washing overboard",
       "named perils"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.22 / D3. ICC B & C, p.182 (Washing overboard marked * = ICC B only, not ICC C)"
   },
   {
     "id": "comgi-267",
@@ -5664,7 +5930,8 @@
       "entry of sea water",
       "named perils"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.22 / D3. ICC B & C, p.182 (Entry of sea/lake/river water marked * = ICC B only, not ICC C)"
   },
   {
     "id": "comgi-268",
@@ -5684,7 +5951,8 @@
       "common exclusions",
       "ICC A B C"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.20 / D2. & Table 5.3, p.182–183 (Inherent vice excluded under ICC A, B, and C)"
   },
   {
     "id": "comgi-269",
@@ -5704,7 +5972,8 @@
       "atomic fission",
       "ICC common exclusions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.20 / D2. & Table 5.3, p.182–183 (Nuclear/atomic weapon exclusion under all three ICC)"
   },
   {
     "id": "comgi-270",
@@ -5725,7 +5994,8 @@
       "ICC exclusions",
       "time of loading"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.20 / D2. & Table 5.3, p.182–183 (Insolvency exclusion — conditional on insured's awareness at time of loading)"
   },
   {
     "id": "comgi-271",
@@ -5746,7 +6016,8 @@
       "most common",
       "cargo policy types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.26–4.27 / E1. Voyage Policy, p.184 (Most common type; warehouse to warehouse)"
   },
   {
     "id": "comgi-272",
@@ -5768,7 +6039,8 @@
       "Voyage Policy",
       "discharge"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.27 / E1. Voyage Policy, p.184 (Transit Clause — 60 days after discharge from vessel)"
   },
   {
     "id": "comgi-273",
@@ -5789,7 +6061,8 @@
       "inland transit",
       "automatic cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.31 / E2. Time Policy, p.185 (Time Policy usually 12 months)"
   },
   {
     "id": "comgi-274",
@@ -5810,7 +6083,8 @@
       "85%",
       "adjustable premium"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.32 / E2. Time Policy, p.185 (Minimum premium at approximately 85% of estimated annual premium)"
   },
   {
     "id": "comgi-275",
@@ -5831,7 +6105,8 @@
       "automatic cover",
       "premium on shipment"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.34–4.35 / F. Open Cover, p.185 (Agreement to cover all shipments within agreed terms; premium on shipment)"
   },
   {
     "id": "comgi-276",
@@ -5852,7 +6127,8 @@
       "all shipments",
       "insured's duty"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.36, p.185 (Open Cover – declaration obligation)"
   },
   {
     "id": "comgi-277",
@@ -5873,7 +6149,8 @@
       "validity",
       "letter of credit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.40, p.186 (Marine Cover Note – three months validity)"
   },
   {
     "id": "comgi-278",
@@ -5895,7 +6172,8 @@
       "underwriting",
       "risk assessment"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §H3(d), p.188 (FCL vs LCL risk assessment)"
   },
   {
     "id": "comgi-279",
@@ -5916,7 +6194,8 @@
       "notify insurer",
       "file claim against carrier"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.46(a)-(c), p.190 (cargo claims – three key actions)"
   },
   {
     "id": "comgi-280",
@@ -5937,7 +6216,8 @@
       "claim documents",
       "cargo insurance claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.47, p.190-191 (Marine Cargo claim documents)"
   },
   {
     "id": "comgi-281",
@@ -5958,7 +6238,8 @@
       "vessel",
       "collision liability"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §5.4-5.5, p.191 (Marine Hull Insurance – scope)"
   },
   {
     "id": "comgi-282",
@@ -5978,7 +6259,8 @@
       "Named Perils",
       "versus All Risks"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.11, p.192 (Named Perils vs All Risks for hull)"
   },
   {
     "id": "comgi-283",
@@ -5999,7 +6281,8 @@
       "hull clauses",
       "Marine Hull Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.12, p.192 (common Hull Clauses – ITC Hulls CL.280)"
   },
   {
     "id": "comgi-284",
@@ -6020,7 +6303,8 @@
       "12 months",
       "period of cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §5.14, p.192 (period of cover – time basis, 12 months)"
   },
   {
     "id": "comgi-285",
@@ -6041,7 +6325,8 @@
       "missing vessel",
       "Marine Hull"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §5.19(a), p.193 (Actual Total Loss definition)"
   },
   {
     "id": "comgi-286",
@@ -6062,7 +6347,8 @@
       "Notice of Abandonment",
       "insured value"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.19(b), p.193 (Constructive Total Loss definition)"
   },
   {
     "id": "comgi-287",
@@ -6083,7 +6369,8 @@
       "new for old",
       "hull repair"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.20, p.193 (Partial Loss – new for old payable in full)"
   },
   {
     "id": "comgi-288",
@@ -6104,7 +6391,8 @@
       "avert loss",
       "Marine Hull"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.22, p.194 (Sue and Labour Charges definition)"
   },
   {
     "id": "comgi-289",
@@ -6125,7 +6413,8 @@
       "partial loss",
       "hull valuation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §5.15(e)(i), p.193 (low insured value implications)"
   },
   {
     "id": "comgi-290",
@@ -6145,7 +6434,8 @@
       "latent defect",
       "coverage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §6.3, p.195 (Builders' Risks – all risks including latent defect)"
   },
   {
     "id": "comgi-291",
@@ -6166,7 +6456,8 @@
       "250 miles",
       "402 km"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §6.5, p.195 (Builders' Risks – sea trials up to 250 miles/402 km)"
   },
   {
     "id": "comgi-292",
@@ -6186,7 +6477,8 @@
       "faulty design",
       "cost of repair excluded"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §6.4, p.195 (Builders' Risks – faulty design coverage)"
   },
   {
     "id": "comgi-293",
@@ -6207,7 +6499,8 @@
       "pollution",
       "contamination"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §6.6, p.196 (Builders' Risks – principal exclusions including pollution)"
   },
   {
     "id": "comgi-294",
@@ -6228,7 +6521,8 @@
       "ship owners",
       "no shareholders"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.2, p.196 (P&I Club – mutual association, no shareholders)"
   },
   {
     "id": "comgi-295",
@@ -6248,7 +6542,8 @@
       "loading and unloading",
       "Stevedores Liability Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.21-7.22, p.201 (Stevedores' Liability Insurance – scope)"
   },
   {
     "id": "comgi-296",
@@ -6269,7 +6564,8 @@
       "ship owner",
       "Charterers Liability Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.9, p.197 (Charter Party definition)"
   },
   {
     "id": "comgi-297",
@@ -6290,7 +6586,8 @@
       "vessel damage",
       "third party"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.11, p.198 (Charterers' Liability – three areas of protection)"
   },
   {
     "id": "comgi-298",
@@ -6311,7 +6608,8 @@
       "extension",
       "cargo damage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.12, p.198 (Charterers' Liability – basic vs extension cover)"
   },
   {
     "id": "comgi-299",
@@ -6331,7 +6629,8 @@
       "environmental protection",
       "natural resources"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.18, p.200 (Port Authorities Liability – environmental protection)"
   },
   {
     "id": "comgi-300",
@@ -6353,7 +6652,8 @@
       "contact damage",
       "machinery damage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.5, p.197 (Ship Repairer's Liability – fire, explosion, contact, machinery)"
   },
   {
     "id": "comgi-301",
@@ -6375,7 +6675,8 @@
       "production",
       "oil and gas"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §8.1, p.202 (Energy Insurance – upstream activities)"
   },
   {
     "id": "comgi-302",
@@ -6397,7 +6698,8 @@
       "stationary",
       "drilling"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.6, p.202 (Energy vs Marine Insurance – key differences)"
   },
   {
     "id": "comgi-303",
@@ -6419,7 +6721,8 @@
       "loss of production",
       "well costs"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.2, p.202 (Energy Insurance – scope of risks covered)"
   },
   {
     "id": "comgi-304",
@@ -6439,7 +6742,8 @@
       "offshore physical damage",
       "underwriting information"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.4, p.202 (Energy Insurance – offshore physical damage underwriting info)"
   },
   {
     "id": "comgi-305",
@@ -6460,7 +6764,8 @@
       "third party liability",
       "passengers"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §9.2, p.203 (Aircraft Hull and Liability Insurance – main aim)"
   },
   {
     "id": "comgi-306",
@@ -6481,7 +6786,8 @@
       "defective materials",
       "third party"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §9.3, p.203 (Aviation Product Liability – faulty design/defective materials)"
   },
   {
     "id": "comgi-307",
@@ -6503,7 +6809,8 @@
       "product liability",
       "three sections"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §9.4, p.203 (Airport Owners' and Operators' Liability – three sections)"
   },
   {
     "id": "comgi-308",
@@ -6523,7 +6830,8 @@
       "war and allied risks",
       "hull and liability exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §9.5, p.203 (War and Allied Risks – aviation)"
   },
   {
     "id": "comgi-309",
@@ -6544,7 +6852,8 @@
       "vessel class",
       "underwriting"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §H4(c), p.188 (Classification Society – IACS membership)"
   },
   {
     "id": "comgi-310",
@@ -6564,7 +6873,8 @@
       "demised charterer",
       "parties to contract"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §5.9, p.192 (Marine Hull – parties to contract including demised charterer)"
   },
   {
     "id": "comgi-311",
@@ -6585,7 +6895,8 @@
       "all risks",
       "sudden and unforeseen"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.A (para 2.1), p.210"
   },
   {
     "id": "comgi-312",
@@ -6606,7 +6917,8 @@
       "property owner",
       "parties"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.B (para 2.4), p.210"
   },
   {
     "id": "comgi-313",
@@ -6628,7 +6940,8 @@
       "principal",
       "insurer"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.B (para 2.3), p.210"
   },
   {
     "id": "comgi-314",
@@ -6649,7 +6962,8 @@
       "vicarious liability",
       "CAR"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.B (para 2.6), p.211"
   },
   {
     "id": "comgi-315",
@@ -6670,7 +6984,8 @@
       "resultant loss",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.A (para 2.2 + fn.1), p.210"
   },
   {
     "id": "comgi-316",
@@ -6691,7 +7006,8 @@
       "CAR",
       "12 months"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.E2 (para 2.14–2.15), p.212"
   },
   {
     "id": "comgi-317",
@@ -6712,7 +7028,8 @@
       "indemnity",
       "monetary payment"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.F1 (para 2.18), p.213"
   },
   {
     "id": "comgi-318",
@@ -6734,7 +7051,8 @@
       "corrosion",
       "absolute exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §2.F2 (para 2.20–2.21), p.213–214"
   },
   {
     "id": "comgi-319",
@@ -6755,7 +7073,8 @@
       "bodily injury",
       "property damage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.F (para 2.16), p.212"
   },
   {
     "id": "comgi-320",
@@ -6777,7 +7096,8 @@
       "third-party liability",
       "Work Injury Compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.F4 (para 2.24), p.214"
   },
   {
     "id": "comgi-321",
@@ -6798,7 +7118,8 @@
       "CAR",
       "expiry"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.G (para 2.28), p.215"
   },
   {
     "id": "comgi-322",
@@ -6819,7 +7140,8 @@
       "professional indemnity",
       "CAR extensions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.I1 (para 2.33–2.34), p.217"
   },
   {
     "id": "comgi-323",
@@ -6841,7 +7163,8 @@
       "erection",
       "distinction"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.A–B (para 3.2–3.3), p.219"
   },
   {
     "id": "comgi-324",
@@ -6863,7 +7186,8 @@
       "erection",
       "engineering projects"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.A (para 3.1), p.219"
   },
   {
     "id": "comgi-325",
@@ -6886,7 +7210,8 @@
       "explosion",
       "risk"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §3.E1 (para 3.12), p.220"
   },
   {
     "id": "comgi-326",
@@ -6909,7 +7234,8 @@
       "commercial use",
       "takeover"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §3.E1 (para 3.13), p.220"
   },
   {
     "id": "comgi-327",
@@ -6931,7 +7257,8 @@
       "30 days",
       "schedule"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §3.F (para 3.15), p.221"
   },
   {
     "id": "comgi-328",
@@ -6953,7 +7280,8 @@
       "sum insured",
       "extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §3.G1 (para 3.17), p.221"
   },
   {
     "id": "comgi-329",
@@ -6975,7 +7303,8 @@
       "extension",
       "Section II"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §3.G5 (para 3.21), p.222"
   },
   {
     "id": "comgi-330",
@@ -6997,7 +7326,8 @@
       "exclusion",
       "endorsement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4 (para 4.4), p.223"
   },
   {
     "id": "comgi-331",
@@ -7019,7 +7349,8 @@
       "cranes",
       "classification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4 (para 4.3), p.223"
   },
   {
     "id": "comgi-332",
@@ -7041,7 +7372,8 @@
       "loss experience",
       "operational condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.A (para 4.5), p.224"
   },
   {
     "id": "comgi-333",
@@ -7063,7 +7395,8 @@
       "definition",
       "steam pressure"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §5.D1 (para 5.9b), p.225"
   },
   {
     "id": "comgi-334",
@@ -7085,7 +7418,8 @@
       "definition",
       "distortion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §5.D1 (para 5.9c), p.226"
   },
   {
     "id": "comgi-335",
@@ -7107,7 +7441,8 @@
       "working pressure",
       "condition"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §5.F (para 5.11d), p.226"
   },
   {
     "id": "comgi-336",
@@ -7130,7 +7465,8 @@
       "collapse",
       "defect"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §5.H (para 5.15–5.16), p.227"
   },
   {
     "id": "comgi-337",
@@ -7151,7 +7487,8 @@
       "repair",
       "condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §5.F (para 5.11b), p.226"
   },
   {
     "id": "comgi-338",
@@ -7173,7 +7510,8 @@
       "dismantled",
       "scope"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.E (para 6.7), p.230"
   },
   {
     "id": "comgi-339",
@@ -7194,7 +7532,8 @@
       "lubrication",
       "defective material"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.E (para 6.8a), p.230"
   },
   {
     "id": "comgi-340",
@@ -7216,7 +7555,8 @@
       "impact",
       "collision"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.E (para 6.8b), p.230"
   },
   {
     "id": "comgi-341",
@@ -7239,7 +7579,8 @@
       "moulds",
       "wear"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.11, p.231"
   },
   {
     "id": "comgi-342",
@@ -7260,7 +7601,8 @@
       "machinery breakdown",
       "cold storage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.16, p.232"
   },
   {
     "id": "comgi-343",
@@ -7281,7 +7623,8 @@
       "machinery breakdown",
       "conjunction"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.18, p.233"
   },
   {
     "id": "comgi-344",
@@ -7302,7 +7645,8 @@
       "business interruption",
       "turnover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.3, p.234"
   },
   {
     "id": "comgi-345",
@@ -7322,7 +7666,8 @@
       "conjunction",
       "Machinery Breakdown Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.2, p.234"
   },
   {
     "id": "comgi-346",
@@ -7343,7 +7688,8 @@
       "turnover",
       "increased cost of working"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §7.3, p.234"
   },
   {
     "id": "comgi-347",
@@ -7365,7 +7711,8 @@
       "10%",
       "Singapore"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §8.1, p.235"
   },
   {
     "id": "comgi-348",
@@ -7388,7 +7735,8 @@
       "surety",
       "suretyship"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §8.4, p.235"
   },
   {
     "id": "comgi-349",
@@ -7410,7 +7758,8 @@
       "bond",
       "default"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §8.7, p.236"
   },
   {
     "id": "comgi-350",
@@ -7432,7 +7781,8 @@
       "pre-purchase",
       "mobilisation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.2, p.237"
   },
   {
     "id": "comgi-351",
@@ -7454,7 +7804,8 @@
       "tender",
       "tendered sum"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.3, p.237"
   },
   {
     "id": "comgi-352",
@@ -7475,7 +7826,8 @@
       "outstanding charges",
       "contractor"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.5, p.238"
   },
   {
     "id": "comgi-353",
@@ -7497,7 +7849,8 @@
       "foreign workers",
       "Controller of Immigration"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.7, p.238"
   },
   {
     "id": "comgi-354",
@@ -7519,7 +7872,8 @@
       "travel agency",
       "licence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.8, p.238"
   },
   {
     "id": "comgi-355",
@@ -7541,7 +7895,8 @@
       "warranty period",
       "6-12 months"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.9, p.238"
   },
   {
     "id": "comgi-356",
@@ -7563,7 +7918,8 @@
       "sub-contractors",
       "wages"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.11, p.239"
   },
   {
     "id": "comgi-357",
@@ -7585,7 +7941,8 @@
       "skills",
       "capabilities"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.12, p.239"
   },
   {
     "id": "comgi-358",
@@ -7607,7 +7964,8 @@
       "shop-houses",
       "deposit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.14, p.239"
   },
   {
     "id": "comgi-359",
@@ -7628,7 +7986,8 @@
       "main contractor",
       "sub-contractor"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §9.15, p.239"
   },
   {
     "id": "comgi-360",
@@ -7649,7 +8008,8 @@
       "contract terms",
       "supply"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.16, p.240"
   },
   {
     "id": "comgi-361",
@@ -7672,7 +8032,8 @@
       "cash deposit",
       "assurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §10.2-10.3, p.240"
   },
   {
     "id": "comgi-362",
@@ -7694,7 +8055,8 @@
       "working capital",
       "premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §10.4, p.240"
   },
   {
     "id": "comgi-363",
@@ -7716,7 +8078,8 @@
       "Capital",
       "bond underwriting"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §11.3-11.8, p.241"
   },
   {
     "id": "comgi-364",
@@ -7738,7 +8101,8 @@
       "cash flow",
       "bond underwriting"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §11.9, p.241"
   },
   {
     "id": "comgi-365",
@@ -7760,7 +8124,8 @@
       "3%",
       "per annum"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §11.14, p.242"
   },
   {
     "id": "comgi-366",
@@ -7782,7 +8147,8 @@
       "insurer",
       "bond pricing"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §11.14, p.242"
   },
   {
     "id": "comgi-367",
@@ -7804,7 +8170,8 @@
       "bond",
       "expiry"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §12.3, p.243"
   },
   {
     "id": "comgi-368",
@@ -7826,7 +8193,8 @@
       "injunction",
       "interference"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §12.6, p.244"
   },
   {
     "id": "comgi-369",
@@ -7848,7 +8216,8 @@
       "another contractor",
       "complete"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §12.8, p.244"
   },
   {
     "id": "comgi-370",
@@ -7871,7 +8240,8 @@
       "bond",
       "calling"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §13.2, p.245"
   },
   {
     "id": "comgi-371",
@@ -7891,7 +8261,8 @@
       "financial loss",
       "definition"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §1.1, p.259"
   },
   {
     "id": "comgi-372",
@@ -7912,7 +8283,8 @@
       "Credit Insurance",
       "three classes"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §1.1, p.259"
   },
   {
     "id": "comgi-373",
@@ -7934,7 +8306,8 @@
       "employee",
       "FG"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.3, p.260"
   },
   {
     "id": "comgi-374",
@@ -7955,7 +8328,8 @@
       "continuance of employment",
       "occupation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.5, p.260"
   },
   {
     "id": "comgi-375",
@@ -7976,7 +8350,8 @@
       "six months",
       "twelve months"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.6, p.260"
   },
   {
     "id": "comgi-376",
@@ -7997,7 +8372,8 @@
       "discovery",
       "notification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.7, p.261"
   },
   {
     "id": "comgi-377",
@@ -8018,7 +8394,8 @@
       "annual limit",
       "FG"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.7, p.261"
   },
   {
     "id": "comgi-378",
@@ -8039,7 +8416,8 @@
       "individual amounts",
       "FG types"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.8 Table 7.1(b), p.261"
   },
   {
     "id": "comgi-379",
@@ -8061,7 +8439,8 @@
       "inside staff",
       "outside staff"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.8 Table 7.1(d), p.261"
   },
   {
     "id": "comgi-380",
@@ -8082,7 +8461,8 @@
       "defaulting employee",
       "retain money"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.10, p.262"
   },
   {
     "id": "comgi-381",
@@ -8104,7 +8484,8 @@
       "employee classification",
       "risk"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.14–2.15, p.262–263"
   },
   {
     "id": "comgi-382",
@@ -8125,7 +8506,8 @@
       "sum insured",
       "no correlation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.16, p.263"
   },
   {
     "id": "comgi-383",
@@ -8147,7 +8529,8 @@
       "unexplained loss",
       "FG"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.19, p.263"
   },
   {
     "id": "comgi-384",
@@ -8168,7 +8551,8 @@
       "interest",
       "indirect loss"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.19, p.263"
   },
   {
     "id": "comgi-385",
@@ -8189,7 +8573,8 @@
       "notification",
       "FG"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.19, p.263"
   },
   {
     "id": "comgi-386",
@@ -8211,7 +8596,8 @@
       "sanction",
       "FG"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.19, p.263"
   },
   {
     "id": "comgi-387",
@@ -8232,7 +8618,8 @@
       "FG",
       "substantiate loss"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.21(a), p.264"
   },
   {
     "id": "comgi-388",
@@ -8254,7 +8641,8 @@
       "classification",
       "year-end"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.21(b), p.264"
   },
   {
     "id": "comgi-389",
@@ -8275,7 +8663,8 @@
       "payroll",
       "Premium Adjustment"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.21(c), p.264"
   },
   {
     "id": "comgi-390",
@@ -8297,7 +8686,8 @@
       "documentary evidence",
       "FG"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.22, p.264"
   },
   {
     "id": "comgi-391",
@@ -8318,7 +8708,8 @@
       "no requirement",
       "FG comparison"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-392",
@@ -8340,7 +8731,8 @@
       "broader coverage",
       "pattern"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-393",
@@ -8361,7 +8753,8 @@
       "electronic medium",
       "Crime Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.26(e), p.265; §2.27 Table, p.266"
   },
   {
     "id": "comgi-394",
@@ -8382,7 +8775,8 @@
       "FG comparison",
       "global coverage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-395",
@@ -8403,7 +8797,8 @@
       "establish quantum",
       "FG comparison"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-396",
@@ -8424,7 +8819,8 @@
       "moneys and securities",
       "Crime Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.26(b), p.265"
   },
   {
     "id": "comgi-397",
@@ -8446,7 +8842,8 @@
       "third party",
       "Crime Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.26(c), p.265"
   },
   {
     "id": "comgi-398",
@@ -8467,7 +8864,8 @@
       "third party",
       "Crime Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.26(d), p.265"
   },
   {
     "id": "comgi-399",
@@ -8488,7 +8886,8 @@
       "audited financial statement",
       "Crime Insurance underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.29, p.266"
   },
   {
     "id": "comgi-400",
@@ -8509,7 +8908,8 @@
       "Crime high limits",
       "stand-alone"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-401",
@@ -8531,7 +8931,8 @@
       "Crime Insurance",
       "FG comparison"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.27 Table (FG vs Crime), p.266"
   },
   {
     "id": "comgi-402",
@@ -8553,7 +8954,8 @@
       "postage stamps",
       "sales vouchers"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.1, p.267"
   },
   {
     "id": "comgi-403",
@@ -8574,7 +8976,8 @@
       "low limit",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.3, p.267"
   },
   {
     "id": "comgi-404",
@@ -8595,7 +8998,8 @@
       "responsible officer",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.3, p.267"
   },
   {
     "id": "comgi-405",
@@ -8616,7 +9020,8 @@
       "next business day",
       "Money Insurance"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §3.3, p.267"
   },
   {
     "id": "comgi-406",
@@ -8637,7 +9042,8 @@
       "safety",
       "Money Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.6(a), p.268"
   },
   {
     "id": "comgi-407",
@@ -8659,7 +9065,8 @@
       "records",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.6(b), p.268"
   },
   {
     "id": "comgi-408",
@@ -8679,7 +9086,8 @@
       "unattended vehicle",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.10, p.269"
   },
   {
     "id": "comgi-409",
@@ -8701,7 +9109,8 @@
       "exclusion",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.10, p.269"
   },
   {
     "id": "comgi-410",
@@ -8722,7 +9131,8 @@
       "specified limit",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.12(a), p.269"
   },
   {
     "id": "comgi-411",
@@ -8743,7 +9153,8 @@
       "sub-limit",
       "Money Insurance extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.12(b), p.269"
   },
   {
     "id": "comgi-412",
@@ -8765,7 +9176,8 @@
       "assault",
       "Money Insurance"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §3.12(c), p.269"
   },
   {
     "id": "comgi-413",
@@ -8788,7 +9200,8 @@
       "bonus",
       "Money Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.12(d), p.269"
   },
   {
     "id": "comgi-414",
@@ -8809,7 +9222,8 @@
       "seller",
       "Credit Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §4.4, p.270"
   },
   {
     "id": "comgi-415",
@@ -8830,7 +9244,8 @@
       "short-term",
       "Credit Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.8, p.271"
   },
   {
     "id": "comgi-416",
@@ -8851,7 +9266,8 @@
       "Singapore",
       "insolvency"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §4.9, p.271"
   },
   {
     "id": "comgi-417",
@@ -8873,7 +9289,8 @@
       "insolvency",
       "manufacturing period"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §4.10, p.271"
   },
   {
     "id": "comgi-418",
@@ -8894,7 +9311,8 @@
       "not covered",
       "buyer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.10, p.271"
   },
   {
     "id": "comgi-419",
@@ -8915,7 +9333,8 @@
       "credit management",
       "S$500,000"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.11, p.272"
   },
   {
     "id": "comgi-420",
@@ -8936,7 +9355,8 @@
       "one to two years",
       "specific contract"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.12, p.272"
   },
   {
     "id": "comgi-421",
@@ -8956,7 +9376,8 @@
       "no political risks",
       "commercial risks only"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.14, p.272"
   },
   {
     "id": "comgi-422",
@@ -8977,7 +9398,8 @@
       "lower premium",
       "short-term"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.13, p.272"
   },
   {
     "id": "comgi-423",
@@ -8998,7 +9420,8 @@
       "terminable",
       "Credit Insurance period"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §4.16, p.272"
   },
   {
     "id": "comgi-424",
@@ -9019,7 +9442,8 @@
       "reasonable care",
       "declare transactions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.17, p.273"
   },
   {
     "id": "comgi-425",
@@ -9043,7 +9467,8 @@
       "US",
       "Russia"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §4.21, p.273"
   },
   {
     "id": "comgi-426",
@@ -9064,7 +9489,8 @@
       "related companies",
       "Credit Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.21, p.273"
   },
   {
     "id": "comgi-427",
@@ -9085,7 +9511,8 @@
       "exclusion",
       "Credit Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.21, p.273"
   },
   {
     "id": "comgi-428",
@@ -9107,7 +9534,8 @@
       "recovery action",
       "Credit Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.24, p.274"
   },
   {
     "id": "comgi-429",
@@ -9128,7 +9556,8 @@
       "recover debts",
       "Credit Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.23–4.24, p.274"
   },
   {
     "id": "comgi-430",
@@ -9149,7 +9578,8 @@
       "Credit Insurance comparison",
       "destruction"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.1, p.274"
   },
   {
     "id": "comgi-431",
@@ -9171,7 +9601,8 @@
       "government restrictions",
       "PRI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.2, p.274"
   },
   {
     "id": "comgi-432",
@@ -9194,7 +9625,8 @@
       "insurrection",
       "PRI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.2, p.274"
   },
   {
     "id": "comgi-433",
@@ -9216,7 +9648,8 @@
       "personnel",
       "PRI"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §5.3, p.275"
   },
   {
     "id": "comgi-434",
@@ -9238,7 +9671,8 @@
       "host government",
       "PRI"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §5.3, p.275"
   },
   {
     "id": "comgi-435",
@@ -9259,7 +9693,8 @@
       "PRI",
       "overseas"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.2, p.274"
   },
   {
     "id": "comgi-436",
@@ -9280,7 +9715,8 @@
       "work pass",
       "administration"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.2, p.278"
   },
   {
     "id": "comgi-437",
@@ -9302,7 +9738,8 @@
       "medical insurance",
       "MDW"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.4(a), p.279"
   },
   {
     "id": "comgi-438",
@@ -9323,7 +9760,8 @@
       "minimum",
       "annual claim limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.4(a), p.279"
   },
   {
     "id": "comgi-439",
@@ -9344,7 +9782,8 @@
       "co-pay calculation",
       "S$60,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §1.4(a), p.279"
   },
   {
     "id": "comgi-440",
@@ -9366,7 +9805,8 @@
       "foreign worker",
       "premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.8, p.284"
   },
   {
     "id": "comgi-441",
@@ -9388,7 +9828,8 @@
       "B2 ward",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.5(a), p.285"
   },
   {
     "id": "comgi-442",
@@ -9409,7 +9850,8 @@
       "discharge",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.3, p.284"
   },
   {
     "id": "comgi-443",
@@ -9430,7 +9872,8 @@
       "not hospitalised",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.5(e), p.285"
   },
   {
     "id": "comgi-444",
@@ -9452,7 +9895,8 @@
       "X-ray",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.5(c), p.285"
   },
   {
     "id": "comgi-445",
@@ -9474,7 +9918,8 @@
       "aggregate maximum",
       "FWMI"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §2.4, p.285"
   },
   {
     "id": "comgi-446",
@@ -9497,7 +9942,8 @@
       "vaccination",
       "FWMI exclusions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a) Annex B Group A, p.281"
   },
   {
     "id": "comgi-447",
@@ -9518,7 +9964,8 @@
       "Group A",
       "FWMI exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a) Annex B Group A, p.281"
   },
   {
     "id": "comgi-448",
@@ -9541,7 +9988,8 @@
       "worker acts",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a) Annex B Group B, p.281"
   },
   {
     "id": "comgi-449",
@@ -9563,7 +10011,8 @@
       "Group B",
       "FWMI"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §1.4(a) Annex B Group B, p.281"
   },
   {
     "id": "comgi-450",
@@ -9584,7 +10033,8 @@
       "physiotherapy",
       "FWMI exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a) Annex B Group C, p.282"
   },
   {
     "id": "comgi-451",
@@ -9606,7 +10056,8 @@
       "Group C",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a) Annex B Group C, p.282"
   },
   {
     "id": "comgi-452",
@@ -9628,7 +10079,8 @@
       "Stage 2",
       "2025"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(a), p.282; §5.1, p.290"
   },
   {
     "id": "comgi-453",
@@ -9649,7 +10101,8 @@
       "Work Permit",
       "FWMI"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.4(a), p.282"
   },
   {
     "id": "comgi-454",
@@ -9671,7 +10124,8 @@
       "additional plans",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.13, p.287"
   },
   {
     "id": "comgi-455",
@@ -9693,7 +10147,8 @@
       "Counter Indemnity",
       "Security Bond"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §3.2, p.288"
   },
   {
     "id": "comgi-456",
@@ -9715,7 +10170,8 @@
       "returned home",
       "no breach"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3.3, p.288"
   },
   {
     "id": "comgi-457",
@@ -9736,7 +10192,8 @@
       "Work Permit conditions",
       "Security Bond"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3.4, p.288"
   },
   {
     "id": "comgi-458",
@@ -9757,7 +10214,8 @@
       "police report",
       "cancel Work Permit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3.4, p.288"
   },
   {
     "id": "comgi-459",
@@ -9778,7 +10236,8 @@
       "left Singapore",
       "missing worker"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3.6, p.288"
   },
   {
     "id": "comgi-460",
@@ -9799,7 +10258,8 @@
       "reported violation",
       "pregnancy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3.8, p.289"
   },
   {
     "id": "comgi-461",
@@ -9821,7 +10281,8 @@
       "MOM",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4.2, p.289"
   },
   {
     "id": "comgi-462",
@@ -9842,7 +10303,8 @@
       "claim made",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4.4, p.289"
   },
   {
     "id": "comgi-463",
@@ -9864,7 +10326,8 @@
       "double recovery",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4.5, p.289"
   },
   {
     "id": "comgi-464",
@@ -9885,7 +10348,8 @@
       "hospital discharge",
       "FWMI"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §6.1, p.290"
   },
   {
     "id": "comgi-465",
@@ -9907,7 +10371,8 @@
       "medical report",
       "FWMI claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §6.1, p.290"
   },
   {
     "id": "comgi-466",
@@ -9928,7 +10393,8 @@
       "work-related",
       "medical expenses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.9-2.10(a), p.285"
   },
   {
     "id": "comgi-467",
@@ -9950,7 +10416,8 @@
       "permanent disablement",
       "FDW"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.10(b), p.285"
   },
   {
     "id": "comgi-468",
@@ -9972,7 +10439,8 @@
       "non-manual",
       "WICI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.6, p.283"
   },
   {
     "id": "comgi-469",
@@ -9994,7 +10462,8 @@
       "different benefits",
       "FWMI"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §2.8, p.285"
   },
   {
     "id": "comgi-470",
@@ -10016,7 +10485,8 @@
       "exclusion",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §2.6, p.285"
   },
   {
     "id": "comgi-471",
@@ -10037,7 +10507,8 @@
       "insurance details",
       "prerequisite"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.4(a), p.278"
   },
   {
     "id": "comgi-472",
@@ -10058,7 +10529,8 @@
       "FWMI both",
       "different requirements"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §1.4(b) and §1.5, p.283"
   },
   {
     "id": "comgi-473",
@@ -10079,7 +10551,8 @@
       "Security Bond",
       "still need FWMI"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §1.4(b), p.283"
   },
   {
     "id": "comgi-474",
@@ -10101,7 +10574,8 @@
       "excluded",
       "same employer"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §1.4(a) Annex B Group C; §2.6, p.285"
   },
   {
     "id": "comgi-475",
@@ -10123,7 +10597,8 @@
       "premiums",
       "FWMI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §5.1, p.290"
   },
   {
     "id": "comgi-476",
@@ -10145,7 +10620,8 @@
       "associations",
       "not savings"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9 §1.2–1.3, p.305"
   },
   {
     "id": "comgi-477",
@@ -10166,7 +10642,8 @@
       "not natural causes",
       "Insurance Act"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §2.2–2.3, p.306"
   },
   {
     "id": "comgi-478",
@@ -10188,7 +10665,8 @@
       "Insurance Act",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §2.2, p.306"
   },
   {
     "id": "comgi-479",
@@ -10210,7 +10688,8 @@
       "visible",
       "definition of accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §3.2, p.306"
   },
   {
     "id": "comgi-480",
@@ -10232,7 +10711,8 @@
       "no benefit",
       "GPA"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 §3.5, p.307"
   },
   {
     "id": "comgi-481",
@@ -10255,7 +10735,8 @@
       "ankle",
       "Table of Compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.3, Table 9.1 item 3, p.308"
   },
   {
     "id": "comgi-482",
@@ -10276,7 +10757,8 @@
       "Table of Compensation",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.3, Table 9.1 item 6, p.308"
   },
   {
     "id": "comgi-483",
@@ -10298,7 +10780,8 @@
       "Table of Compensation",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 Table 9.1 item 11, p.308"
   },
   {
     "id": "comgi-484",
@@ -10320,7 +10803,8 @@
       "one ear 15%",
       "Table of Compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 Table 9.1 item 13, p.308"
   },
   {
     "id": "comgi-485",
@@ -10342,7 +10826,8 @@
       "fingers and thumb",
       "GPA"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 Appendix 9A Table of Benefits item 12(a), p.326"
   },
   {
     "id": "comgi-486",
@@ -10363,7 +10848,8 @@
       "greater percentage",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 Appendix 9A Special Conditions (d), p.326"
   },
   {
     "id": "comgi-487",
@@ -10386,7 +10872,8 @@
       "temporary disability",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.7, p.309"
   },
   {
     "id": "comgi-488",
@@ -10407,7 +10894,8 @@
       "total disability",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.7, p.309"
   },
   {
     "id": "comgi-489",
@@ -10428,7 +10916,8 @@
       "temporary disability already paid",
       "GPA"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 §4.9, p.309"
   },
   {
     "id": "comgi-490",
@@ -10450,7 +10939,8 @@
       "fraction of sum insured",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.14, p.310"
   },
   {
     "id": "comgi-491",
@@ -10472,7 +10962,8 @@
       "benefit vs indemnity",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §4.12, p.310"
   },
   {
     "id": "comgi-492",
@@ -10494,7 +10985,8 @@
       "claim-free",
       "automatic increase"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 Appendix 9A Part III §3, p.323"
   },
   {
     "id": "comgi-493",
@@ -10517,7 +11009,8 @@
       "ramps",
       "GPA"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 Appendix 9A Part III §4, p.323"
   },
   {
     "id": "comgi-494",
@@ -10538,7 +11031,8 @@
       "ground ambulance",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 Appendix 9A Part III §5, p.323"
   },
   {
     "id": "comgi-495",
@@ -10559,7 +11053,8 @@
       "accidental death",
       "GPA"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 Appendix 9A Part III §6, p.323"
   },
   {
     "id": "comgi-496",
@@ -10581,7 +11076,8 @@
       "total compensation",
       "GPA"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 Appendix 9A Special Conditions (a), p.326"
   },
   {
     "id": "comgi-497",
@@ -10602,7 +11098,8 @@
       "cancellation",
       "GPA"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9 §5.14, p.314"
   },
   {
     "id": "comgi-498",
@@ -10623,7 +11120,8 @@
       "no sub-limit",
       "Corporate Travel"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §9.4(i)(iv), p.319"
   },
   {
     "id": "comgi-499",
@@ -10644,7 +11142,8 @@
       "expatriates",
       "Corporate Travel"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9 §9.4(vi), p.319"
   },
   {
     "id": "comgi-500",
@@ -10666,6 +11165,7 @@
       "COVID-19",
       "limited"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9 §9.10, p.321"
   }
 ]

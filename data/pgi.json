@@ -17,7 +17,8 @@
       "compulsory insurance",
       "Act Liability Only"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §1.1, p.12 (sec1.md)"
   },
   {
     "id": "pgi-2",
@@ -36,7 +37,8 @@
       "types of coverage",
       "motor insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.1, p.13 (sec2.md)"
   },
   {
     "id": "pgi-3",
@@ -55,7 +57,8 @@
       "Act Liability Only",
       "scope of cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.2, p.13 (sec2.md)"
   },
   {
     "id": "pgi-4",
@@ -75,7 +78,8 @@
       "fire",
       "theft"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.4(b), p.13 (sec2.md)"
   },
   {
     "id": "pgi-5",
@@ -94,7 +98,8 @@
       "Third-Party Fire and Theft",
       "older cars"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.4(b), p.13 (sec2.md)"
   },
   {
     "id": "pgi-6",
@@ -113,7 +118,8 @@
       "Comprehensive",
       "broadest cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.4(c), p.14 (sec2.md)"
   },
   {
     "id": "pgi-7",
@@ -133,7 +139,8 @@
       "hire purchase",
       "loan"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.4(c), p.14 (sec2.md)"
   },
   {
     "id": "pgi-8",
@@ -152,7 +159,8 @@
       "Certificate of Insurance",
       "motor documents"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §3.4, p.15 (sec2.md)"
   },
   {
     "id": "pgi-9",
@@ -172,7 +180,8 @@
       "Own Damage",
       "exclusions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.6, p.19 (sec3.md)"
   },
   {
     "id": "pgi-10",
@@ -192,7 +201,8 @@
       "unlimited liability",
       "bodily injury"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.9, p.20 (sec3.md)"
   },
   {
     "id": "pgi-11",
@@ -212,7 +222,8 @@
       "death benefit",
       "S$20,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.17(a), p.21 (sec4.md)"
   },
   {
     "id": "pgi-12",
@@ -232,7 +243,8 @@
       "No Claim Discount",
       "10%"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 Table 1.1, p.24 (sec5.md)"
   },
   {
     "id": "pgi-13",
@@ -252,7 +264,8 @@
       "maximum discount",
       "50%"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 Table 1.1, p.24 (sec5.md)"
   },
   {
     "id": "pgi-14",
@@ -271,7 +284,8 @@
       "MIB",
       "uninsured drivers"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §8.1–8.2, p.35 (sec8.md)"
   },
   {
     "id": "pgi-15",
@@ -290,7 +304,8 @@
       "BOLA",
       "Barometer Of Liability Agreement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §8.21, p.39 (sec9.md)"
   },
   {
     "id": "pgi-16",
@@ -309,7 +324,8 @@
       "MCF",
       "24 hours"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §7.7, p.33 (sec8.md)"
   },
   {
     "id": "pgi-17",
@@ -329,7 +345,8 @@
       "deductible",
       "first part"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §5.2, p.22 (sec5.md)"
   },
   {
     "id": "pgi-18",
@@ -349,7 +366,8 @@
       "KFKA",
       "13 May 2003"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §8.21, p.39 (sec9.md)"
   },
   {
     "id": "pgi-19",
@@ -368,7 +386,8 @@
       "Motor Vehicles Act",
       "definition of road"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.2, p.13 (sec2.md)"
   },
   {
     "id": "pgi-20",
@@ -387,7 +406,8 @@
       "Act Liability Only",
       "market practice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.3, p.13 (sec2.md)"
   },
   {
     "id": "pgi-21",
@@ -407,7 +427,8 @@
       "property damage",
       "bodily injury"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §2.4(a), p.13 (sec2.md)"
   },
   {
     "id": "pgi-22",
@@ -426,7 +447,8 @@
       "Certificate of Insurance",
       "statutory declaration"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.5, p.15 (sec2.md)"
   },
   {
     "id": "pgi-23",
@@ -445,7 +467,8 @@
       "cover note",
       "legal force"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.6, p.15 (sec2.md)"
   },
   {
     "id": "pgi-24",
@@ -464,7 +487,8 @@
       "policy document",
       "evidence of contract"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.8, p.15 (sec2.md)"
   },
   {
     "id": "pgi-25",
@@ -485,7 +509,8 @@
       "strike",
       "riot"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.10, p.16 (sec2.md)"
   },
   {
     "id": "pgi-26",
@@ -504,7 +529,8 @@
       "authority to repair",
       "S$300"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.5(d), p.18 (sec3.md)"
   },
   {
     "id": "pgi-27",
@@ -523,7 +549,8 @@
       "Section II",
       "S$5 million"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.9, p.20 (sec3.md)"
   },
   {
     "id": "pgi-28",
@@ -542,7 +569,8 @@
       "authorised driver",
       "unnamed driver"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.10(a), p.20 (sec3.md)"
   },
   {
     "id": "pgi-29",
@@ -561,7 +589,8 @@
       "named drivers",
       "family members"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.10(a), p.20 (sec3.md)"
   },
   {
     "id": "pgi-30",
@@ -580,7 +609,8 @@
       "Section III",
       "medical expenses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.15, p.21 (sec4.md)"
   },
   {
     "id": "pgi-31",
@@ -599,7 +629,8 @@
       "Section IV",
       "loss of sight"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.17, Scale of Compensation (v), p.14 / Appendix 1B Scale (v), p.46"
   },
   {
     "id": "pgi-32",
@@ -619,7 +650,8 @@
       "passengers",
       "half"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.20, p.14 / Appendix 1B Sec IV §1(b), p.45"
   },
   {
     "id": "pgi-33",
@@ -639,7 +671,8 @@
       "exclusions",
       "self-inflicted"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.22, p.15 / Appendix 1B Sec IV §2(a), p.45"
   },
   {
     "id": "pgi-34",
@@ -658,7 +691,8 @@
       "Section IV",
       "multiple policies"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.19, p.14 / Appendix 1B Sec IV §1 note, p.45"
   },
   {
     "id": "pgi-35",
@@ -677,7 +711,8 @@
       "Section IV",
       "seating capacity"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.23, p.15"
   },
   {
     "id": "pgi-36",
@@ -696,7 +731,8 @@
       "NCD",
       "30%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.9 Table 1.1, p.17"
   },
   {
     "id": "pgi-37",
@@ -715,7 +751,8 @@
       "NCD",
       "50% to 20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.10 Table 1.2 (50%, 1 claim → 20%), p.18"
   },
   {
     "id": "pgi-38",
@@ -734,7 +771,8 @@
       "NCD",
       "30% to Nil"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.10 Table 1.2 (30% or less, 1 claim → Nil), p.18"
   },
   {
     "id": "pgi-39",
@@ -754,7 +792,8 @@
       "5%",
       "demerit-free"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.20 (Certificate of Merit Discount), p.19"
   },
   {
     "id": "pgi-40",
@@ -774,7 +813,8 @@
       "West Malaysia",
       "80.5 km"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.26 (Geographical Area), p.20"
   },
   {
     "id": "pgi-41",
@@ -794,27 +834,29 @@
       "writ",
       "summons"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.40(d) / Appendix 1B Condition 5(a)(ii), p.22 / p.47"
   },
   {
     "id": "pgi-42",
     "topic": "Private Motor Car Insurance",
     "question": "Elderly, Young, Inexperienced Drivers excess applies to:",
     "choices": [
-      "Under 25, over 65, or less than 2 years experience",
+      "Under 27, over 70, or less than 2 years driving experience",
       "Reduced excess for elderly",
       "Bonus for experienced drivers",
       "Named drivers only"
     ],
     "answer": 0,
-    "explanation": "Additional excess for young (under 25), elderly (over 65), or inexperienced (under 2 years).",
+    "explanation": "An additional excess applies to young drivers (usually under 27), elderly drivers (usually above 70), or inexperienced drivers (less than 2 years). Some insurers may use lower thresholds (e.g. under 25 or over 65), but the textbook's primary values are under 27 and above 70 (Ch1 S5.6(c), p.16).",
     "jpComparison": "Japan: Age-based rating serves similar purposes.",
     "keywords": [
       "excess",
       "young driver",
       "elderly driver"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.6(c) (Elderly, Young and/or Inexperienced Drivers Excess), p.16"
   },
   {
     "id": "pgi-43",
@@ -833,7 +875,8 @@
       "cancellation",
       "7 days notice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.40(f) / Appendix 1B Condition 9(a), p.22 / p.47"
   },
   {
     "id": "pgi-44",
@@ -852,7 +895,8 @@
       "general exclusions",
       "nuclear risks"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.47 (Nuclear Risks General Exclusion) / Appendix 1B General Exclusion 4, p.24 / p.46"
   },
   {
     "id": "pgi-45",
@@ -871,7 +915,8 @@
       "windscreen extension",
       "windows"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.55 (Windscreen Extension), p.25"
   },
   {
     "id": "pgi-46",
@@ -890,7 +935,8 @@
       "NCD Protector",
       "at-fault claim"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §5.50 F4(f) NCD Protector table (One claim → 50%), p.26"
   },
   {
     "id": "pgi-47",
@@ -909,7 +955,8 @@
       "MCF",
       "1 June 2008"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §7.1 (Motor Claims Framework), p.33"
   },
   {
     "id": "pgi-48",
@@ -928,7 +975,8 @@
       "MIB",
       "22 February 1975"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §8.1 (Motor Insurers' Bureau), p.35"
   },
   {
     "id": "pgi-49",
@@ -947,7 +995,8 @@
       "volenti",
       "dangerous situation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §4.8 (Volenti doctrine), p.12"
   },
   {
     "id": "pgi-50",
@@ -967,7 +1016,8 @@
       "murder exclusion",
       "S$3,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §4.12 (Legal defence S$3,000, other than murder), p.13"
   },
   {
     "id": "pgi-51",
@@ -986,7 +1036,8 @@
       "NCD",
       "two claims"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §5.10 Table 1.2 (50% or less, 2 claims → Nil), p.18"
   },
   {
     "id": "pgi-52",
@@ -1005,7 +1056,8 @@
       "FIDReC",
       "S$150,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.13 (FIDReC adjudication limit $150,000 from 1 July 2024), p.37"
   },
   {
     "id": "pgi-53",
@@ -1024,7 +1076,8 @@
       "FIDReC",
       "August 2005"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.11 (FIDReC launched August 2005), p.37"
   },
   {
     "id": "pgi-54",
@@ -1043,7 +1096,8 @@
       "UBI",
       "telematics"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §6.27 (Telematic UBI), p.31"
   },
   {
     "id": "pgi-55",
@@ -1063,26 +1117,28 @@
       "EV insurance",
       "battery"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §6.33–6.34 (Electric Cars: battery cost, repair cost), p.32"
   },
   {
     "id": "pgi-56",
     "topic": "Private Motor Car Insurance",
-    "question": "What is the GIFT scheme for?",
+    "question": "What is the purpose of the GIA Insurance Fraud Tip-off (GIFT) scheme?",
     "choices": [
-      "Free towing for all",
-      "Standardise towing and storage charges after accidents",
-      "Eliminate towing charges",
-      "Free choice of towing company"
+      "To standardise towing and storage charges after motor accidents",
+      "To reward individuals who report motor insurance fraud leading to successful prosecution",
+      "To provide free legal advice to accident victims",
+      "To track and monitor motor insurance claims electronically"
     ],
     "answer": 1,
-    "explanation": "Standardises towing and storage charges.",
+    "explanation": "GIFT (GIA Insurance Fraud Tip-off) is a scheme that rewards individuals with up to S$10,000 for reporting motor insurance fraud that leads to successful prosecution and conviction (Ch1 S7.17-7.19).",
     "jpComparison": "Japan: JAF provides standardised assistance; towing regulated separately.",
     "keywords": [
       "GIFT",
       "towing"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §7.17–7.19 (GIFT scheme), p.34"
   },
   {
     "id": "pgi-57",
@@ -1101,7 +1157,8 @@
       "Non-Injury Scheme",
       "approved reporting centres"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.6–8.9 (Non-Injury Motor Accident Reporting Scheme), p.36"
   },
   {
     "id": "pgi-58",
@@ -1121,7 +1178,8 @@
       "property damage",
       "S$500,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §9.6 (Motorcycle Section II property damage S$500,000), p.41"
   },
   {
     "id": "pgi-59",
@@ -1141,26 +1199,28 @@
       "overseas theft",
       "S$2,500"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §9.5 (Motorcycle overseas theft 50% up to S$2,500), p.41"
   },
   {
     "id": "pgi-60",
     "topic": "Private Motor Car Insurance",
-    "question": "What is Maco used for?",
+    "question": "What is Maco?",
     "choices": [
-      "Online purchase of motor insurance",
-      "Electronic filing and tracking of motor accident claims",
-      "Automated fault determination",
-      "Online policy renewal"
+      "An online platform for purchasing motor insurance policies",
+      "An online claims-amount simulator that generates approximate motor accident damages figures",
+      "A system for automated fault determination in motor accidents",
+      "An electronic filing system for motor insurance policy renewals"
     ],
     "answer": 1,
-    "explanation": "Electronic filing and tracking of motor accident claims.",
+    "explanation": "Maco is an online motor accident claims simulator developed by the Singapore Courts and the Singapore Academy of Law (SAL) in March 2022. Users answer multiple-choice questions to generate an approximate damages figure for their motor accident claim (Ch1 S8.26-8.31, p.40).",
     "jpComparison": "Japan: Insurers use proprietary portals rather than industry-wide system.",
     "keywords": [
       "Maco",
       "electronic filing"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §8.26–8.31 (Motor Accident Claims Online – Maco), p.40"
   },
   {
     "id": "pgi-61",
@@ -1180,7 +1240,8 @@
       "fortuitous loss",
       "insured peril"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §1.2, p.61"
   },
   {
     "id": "pgi-62",
@@ -1199,7 +1260,8 @@
       "personal property",
       "individuals and families"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §1.3, p.61"
   },
   {
     "id": "pgi-63",
@@ -1219,7 +1281,8 @@
       "compulsory",
       "1 September 1994"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.3, p.62"
   },
   {
     "id": "pgi-64",
@@ -1239,7 +1302,8 @@
       "five years",
       "policy term"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.4, p.62"
   },
   {
     "id": "pgi-65",
@@ -1259,7 +1323,8 @@
       "exclusions",
       "household contents"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.5/3.8, p.62–63"
   },
   {
     "id": "pgi-66",
@@ -1279,7 +1344,8 @@
       "Average Clause",
       "sum insured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.7, p.63"
   },
   {
     "id": "pgi-67",
@@ -1299,7 +1365,8 @@
       "Management Corporation",
       "fire insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.10, p.63"
   },
   {
     "id": "pgi-68",
@@ -1318,7 +1385,8 @@
       "Packaged Household Insurance",
       "most common"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.12, p.64"
   },
   {
     "id": "pgi-69",
@@ -1338,7 +1406,8 @@
       "building cover",
       "Packaged Household"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.7, p.65"
   },
   {
     "id": "pgi-70",
@@ -1358,7 +1427,8 @@
       "unoccupied",
       "60 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.10(e), p.67"
   },
   {
     "id": "pgi-71",
@@ -1379,7 +1449,8 @@
       "S$10,000",
       "10%"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.10(g), p.67"
   },
   {
     "id": "pgi-72",
@@ -1399,7 +1470,8 @@
       "architect fees",
       "reinstatement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.11, p.67–68"
   },
   {
     "id": "pgi-73",
@@ -1419,7 +1491,8 @@
       "10%",
       "alternative accommodation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.12, p.68"
   },
   {
     "id": "pgi-74",
@@ -1439,7 +1512,8 @@
       "forcible entry",
       "violent entry"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.10(f), p.67"
   },
   {
     "id": "pgi-75",
@@ -1459,7 +1533,8 @@
       "deductible",
       "small claims"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.18, p.69"
   },
   {
     "id": "pgi-76",
@@ -1479,7 +1554,8 @@
       "S$100",
       "S$250"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.19, p.69"
   },
   {
     "id": "pgi-77",
@@ -1499,7 +1575,8 @@
       "basis of settlement",
       "no depreciation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.21–4.23, p.69–70"
   },
   {
     "id": "pgi-78",
@@ -1519,7 +1596,8 @@
       "under-insurance",
       "pro-rata"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.25, p.70"
   },
   {
     "id": "pgi-79",
@@ -1539,7 +1617,8 @@
       "exclusions",
       "motor vehicles"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.26, p.70"
   },
   {
     "id": "pgi-80",
@@ -1559,7 +1638,8 @@
       "contents insurance",
       "accidental loss"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.29(b), p.71"
   },
   {
     "id": "pgi-81",
@@ -1579,7 +1659,8 @@
       "sub-limit",
       "S$500"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.30(a), p.71"
   },
   {
     "id": "pgi-82",
@@ -1599,7 +1680,8 @@
       "spoilage",
       "S$2,000"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.30(c), p.71"
   },
   {
     "id": "pgi-83",
@@ -1619,7 +1701,8 @@
       "refrigerator",
       "six years"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.30(c), p.71"
   },
   {
     "id": "pgi-84",
@@ -1639,7 +1722,8 @@
       "15%",
       "Contents sum insured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.30(e), p.71"
   },
   {
     "id": "pgi-85",
@@ -1659,7 +1743,8 @@
       "worldwide",
       "5%"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.30(e), p.71"
   },
   {
     "id": "pgi-86",
@@ -1679,7 +1764,8 @@
       "five days",
       "uninhabitable"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.30(f), p.72"
   },
   {
     "id": "pgi-87",
@@ -1699,7 +1785,8 @@
       "unoccupied",
       "60 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.34(a), p.72"
   },
   {
     "id": "pgi-88",
@@ -1720,7 +1807,8 @@
       "forcible entry",
       "let"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.34(a), p.72"
   },
   {
     "id": "pgi-89",
@@ -1740,7 +1828,8 @@
       "Contents",
       "S$50"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.35, p.72 (sec3)"
   },
   {
     "id": "pgi-90",
@@ -1761,7 +1850,8 @@
       "household linen",
       "settlement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.37, p.72 (sec3)"
   },
   {
     "id": "pgi-91",
@@ -1781,7 +1871,8 @@
       "5%",
       "one article"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.38, p.72 (sec3)"
   },
   {
     "id": "pgi-92",
@@ -1801,7 +1892,8 @@
       "one-third",
       "total limit"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.38, p.72 (sec3)"
   },
   {
     "id": "pgi-93",
@@ -1821,7 +1913,8 @@
       "S$1,000,000",
       "per occurrence"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.42, p.74 (sec4)"
   },
   {
     "id": "pgi-94",
@@ -1841,7 +1934,8 @@
       "dog bite",
       "neighbour"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.44, p.74 (sec4)"
   },
   {
     "id": "pgi-95",
@@ -1861,7 +1955,8 @@
       "visitor",
       "wet floor"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.44–4.46, p.74–75 (sec4)"
   },
   {
     "id": "pgi-96",
@@ -1882,7 +1977,8 @@
       "100%",
       "capital sum"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 Table 2.1, p.75 (sec4)"
   },
   {
     "id": "pgi-97",
@@ -1902,7 +1998,8 @@
       "loss of sight",
       "50%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 Table 2.1 item (d), p.75 (sec4)"
   },
   {
     "id": "pgi-98",
@@ -1922,7 +2019,8 @@
       "pre-existing",
       "self-inflicted"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.51, p.75 (sec4)"
   },
   {
     "id": "pgi-99",
@@ -1942,7 +2040,8 @@
       "S$1,000",
       "per accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.53, p.76 (sec4)"
   },
   {
     "id": "pgi-100",
@@ -1962,7 +2061,8 @@
       "cash excluded",
       "personal effects"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.54, p.76 (sec4)"
   },
   {
     "id": "pgi-101",
@@ -1983,7 +2083,8 @@
       "nuclear",
       "radioactive"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §4.56, p.77 (sec4)"
   },
   {
     "id": "pgi-102",
@@ -2003,7 +2104,8 @@
       "7 days",
       "14 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.59(c), p.77–78 (sec4)"
   },
   {
     "id": "pgi-103",
@@ -2023,7 +2125,8 @@
       "seven days",
       "premium refund"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.59(f), p.78 (sec4)"
   },
   {
     "id": "pgi-104",
@@ -2043,7 +2146,8 @@
       "Arbitration Act 2001",
       "dispute"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.59(i), p.78 (sec4)"
   },
   {
     "id": "pgi-105",
@@ -2063,7 +2167,8 @@
       "three months",
       "litigation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.59(i), p.79 (sec5)"
   },
   {
     "id": "pgi-106",
@@ -2083,7 +2188,8 @@
       "6 months",
       "12 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.59(j), p.79 (sec5)"
   },
   {
     "id": "pgi-107",
@@ -2103,7 +2209,8 @@
       "15%",
       "three years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §4.62(e), p.80 (sec5)"
   },
   {
     "id": "pgi-108",
@@ -2122,7 +2229,8 @@
       "Valuable Articles",
       "All Risks"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §5.4, p.82 (sec6)"
   },
   {
     "id": "pgi-109",
@@ -2142,7 +2250,8 @@
       "per-item limit",
       "S$10,000"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.6(b), p.83 (sec6)"
   },
   {
     "id": "pgi-110",
@@ -2162,7 +2271,8 @@
       "exclusions",
       "wear and tear"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §5.8, p.84 (sec6)"
   },
   {
     "id": "pgi-111",
@@ -2182,7 +2292,8 @@
       "proportionate",
       "S$5,000"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.17 Example 2.3, p.85 (sec6)"
   },
   {
     "id": "pgi-112",
@@ -2202,7 +2313,8 @@
       "surrender",
       "full replacement"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §5.18, p.85 (sec6)"
   },
   {
     "id": "pgi-113",
@@ -2222,7 +2334,8 @@
       "automatic coverage",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.19, p.86 (sec6)"
   },
   {
     "id": "pgi-114",
@@ -2242,7 +2355,8 @@
       "30 days",
       "notification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.19, p.86 (sec6)"
   },
   {
     "id": "pgi-115",
@@ -2262,7 +2376,8 @@
       "security",
       "service contract"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §5.21, p.87 (sec6)"
   },
   {
     "id": "pgi-116",
@@ -2282,7 +2397,8 @@
       "purpose",
       "financial protection"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §1.1, p.110"
   },
   {
     "id": "pgi-117",
@@ -2302,7 +2418,8 @@
       "contract",
       "PA Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §1.3–1.4, p.110"
   },
   {
     "id": "pgi-118",
@@ -2322,7 +2439,8 @@
       "no proof of loss",
       "contingency"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §1.4, p.110"
   },
   {
     "id": "pgi-119",
@@ -2342,7 +2460,8 @@
       "Insurance Act 1966",
       "licence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §2.2, p.111"
   },
   {
     "id": "pgi-120",
@@ -2362,7 +2481,8 @@
       "bundled",
       "types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §1.5, p.110"
   },
   {
     "id": "pgi-121",
@@ -2382,7 +2502,8 @@
       "proximate cause",
       "definition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(a), p.111"
   },
   {
     "id": "pgi-122",
@@ -2402,7 +2523,8 @@
       "chain of causation",
       "pneumonia"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(a) example 1, p.112"
   },
   {
     "id": "pgi-123",
@@ -2422,7 +2544,8 @@
       "infectious disease",
       "hospital"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.2(a) example 2, p.112"
   },
   {
     "id": "pgi-124",
@@ -2442,7 +2565,8 @@
       "internal",
       "physical defects"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2(c), p.112"
   },
   {
     "id": "pgi-125",
@@ -2463,7 +2587,8 @@
       "gas",
       "exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §3.2(d), p.112"
   },
   {
     "id": "pgi-126",
@@ -2483,7 +2608,8 @@
       "12 months",
       "time limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.2, p.113"
   },
   {
     "id": "pgi-127",
@@ -2503,7 +2629,8 @@
       "S$50,000",
       "S$500,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.3, p.113"
   },
   {
     "id": "pgi-128",
@@ -2523,7 +2650,8 @@
       "funeral grant",
       "compassionate cash"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.4, p.113"
   },
   {
     "id": "pgi-129",
@@ -2543,7 +2671,8 @@
       "permanent total disablement",
       "any occupation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.6, p.113"
   },
   {
     "id": "pgi-130",
@@ -2564,7 +2693,8 @@
       "any occupation",
       "lecturer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.6, p.113–114"
   },
   {
     "id": "pgi-131",
@@ -2584,7 +2714,8 @@
       "both eyes",
       "100%"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 Table 3.1 (B), p.115"
   },
   {
     "id": "pgi-132",
@@ -2604,7 +2735,8 @@
       "one eye",
       "50%"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 Table 3.1 (E), p.115"
   },
   {
     "id": "pgi-133",
@@ -2624,7 +2756,8 @@
       "50%",
       "Table of Compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 Table 3.1 (G), p.115"
   },
   {
     "id": "pgi-134",
@@ -2644,7 +2777,8 @@
       "both ears",
       "50%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 Table 3.1 (H), p.115"
   },
   {
     "id": "pgi-135",
@@ -2664,7 +2798,8 @@
       "one ear",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 Table 3.1 (K), p.115"
   },
   {
     "id": "pgi-136",
@@ -2683,7 +2818,8 @@
       "loss of thumb",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 Table 3.1 (L) / §4.11, p.115"
   },
   {
     "id": "pgi-137",
@@ -2702,7 +2838,8 @@
       "loss of finger",
       "10%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 Table 3.1 (M) / §4.11, p.115"
   },
   {
     "id": "pgi-138",
@@ -2721,7 +2858,8 @@
       "loss of big toe",
       "5%"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 Table 3.1 (O) / §4.11, p.115"
   },
   {
     "id": "pgi-139",
@@ -2741,7 +2879,8 @@
       "100%",
       "one accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.16, p.116"
   },
   {
     "id": "pgi-140",
@@ -2761,7 +2900,8 @@
       "150%",
       "enhanced benefit"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.18, p.116"
   },
   {
     "id": "pgi-141",
@@ -2781,7 +2921,8 @@
       "functional loss",
       "definition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.8, p.114"
   },
   {
     "id": "pgi-142",
@@ -2801,7 +2942,8 @@
       "three or more",
       "PTD"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.9, p.114"
   },
   {
     "id": "pgi-143",
@@ -2825,7 +2967,8 @@
       "Mobility",
       "Transferring"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.9, p.114"
   },
   {
     "id": "pgi-144",
@@ -2846,7 +2989,8 @@
       "8%",
       "100%"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.15, p.122 (Table 3.1, item Q(1)(a): Third Degree Burns – Head ≥8% = 100%)"
   },
   {
     "id": "pgi-145",
@@ -2867,7 +3011,8 @@
       "20%",
       "100%"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.15, p.122 (Table 3.1, item Q(2)(a): Third Degree Burns – Body ≥20% = 100%)"
   },
   {
     "id": "pgi-146",
@@ -2887,7 +3032,8 @@
       "104 weeks",
       "weekly benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.19, p.123 (Temporary total disablement weekly benefits payable for up to 104 weeks)"
   },
   {
     "id": "pgi-147",
@@ -2907,7 +3053,8 @@
       "1%",
       "weekly"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.19, p.123 (Amount payable such as 1% of the capital sum insured per week)"
   },
   {
     "id": "pgi-148",
@@ -2927,7 +3074,8 @@
       "surgeon",
       "profession"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.20, p.123 (Surgeon unable to operate but can lecture qualifies for temporary disablement – unable to perform every duty pertaining to profession)"
   },
   {
     "id": "pgi-149",
@@ -2947,7 +3095,8 @@
       "S$1,000",
       "S$15,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.22, p.123 (Medical expenses limit commonly ranging from S$1,000 to S$15,000 per accident)"
   },
   {
     "id": "pgi-150",
@@ -2967,7 +3116,8 @@
       "S$2,000",
       "wheelchair"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.24, p.124 (Some insurers separately cover up to S$2,000 for mobility aids such as wheelchair, crutches, ramps or railings)"
   },
   {
     "id": "pgi-151",
@@ -2988,7 +3138,8 @@
       "sub-limit",
       "alternative medicine"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.25, p.124 (TCM, acupuncturist, bonesetter, chiropractor, herbalist, physiotherapist – sub-limit usually up to 10% of medical expenses limit)"
   },
   {
     "id": "pgi-152",
@@ -3009,7 +3160,8 @@
       "medical expenses",
       "contribution"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.27, p.124 (Medical expenses payable on a strict reimbursement basis / indemnity; contribution applies if more than one policy)"
   },
   {
     "id": "pgi-153",
@@ -3029,7 +3181,8 @@
       "public transport",
       "fare-paying"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.28, p.124 (Double indemnity: accident while travelling as a fare-paying passenger on public transport)"
   },
   {
     "id": "pgi-154",
@@ -3049,7 +3202,8 @@
       "S$100",
       "daily benefit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §4.30, p.124 (Hospital Cash/Income: fixed daily benefit e.g. S$100 per day)"
   },
   {
     "id": "pgi-155",
@@ -3069,7 +3223,8 @@
       "90 days",
       "confinement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.30, p.124 (Hospital Cash/Income payable up to a certain period e.g. 90 days)"
   },
   {
     "id": "pgi-156",
@@ -3089,7 +3244,8 @@
       "double benefit",
       "hospital cash"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.31, p.124 (Double daily benefit if hospital confinement is in an intensive care unit)"
   },
   {
     "id": "pgi-157",
@@ -3109,7 +3265,8 @@
       "14 days",
       "lump sum"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.33, p.124 (Recuperation benefit lump sum e.g. S$500 if confinement exceeds 14 consecutive days)"
   },
   {
     "id": "pgi-158",
@@ -3129,7 +3286,8 @@
       "10%",
       "no claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.35, p.125 (Incremental Sum Insured: additional sums in form of percentages e.g. 10% of original sums insured)"
   },
   {
     "id": "pgi-159",
@@ -3150,7 +3308,8 @@
       "50%",
       "five years"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.35, p.125 (Incremental additions restricted to maximum e.g. five years or maximum percentage e.g. 50%)"
   },
   {
     "id": "pgi-160",
@@ -3170,7 +3329,8 @@
       "three years",
       "consecutive"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.36, p.125 (No Claim Premium Refund: policy in force for minimum of three consecutive years without any claim)"
   },
   {
     "id": "pgi-161",
@@ -3189,7 +3349,8 @@
       "geographical limit",
       "worldwide"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.1, p.125 (PA Insurance cover is normally worldwide)"
   },
   {
     "id": "pgi-162",
@@ -3209,7 +3370,8 @@
       "15 days",
       "85 years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.1, p.125 (Age limits: from children from 15 days old, up to adults aged 85)"
   },
   {
     "id": "pgi-163",
@@ -3230,7 +3392,8 @@
       "spouse",
       "child"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §6.3, p.126 (Family policy: spouse and each child may receive lower benefits e.g. 25% of the insured's capital sum insured)"
   },
   {
     "id": "pgi-164",
@@ -3250,7 +3413,8 @@
       "S$10,000",
       "three children"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §6.4, p.126 (Child education fund: some insurers pay S$10,000 per child with limit of three children)"
   },
   {
     "id": "pgi-165",
@@ -3270,7 +3434,8 @@
       "food poisoning",
       "extension"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §7.2 p.126 (exclusions list) and §8.1 p.127 (extensions list: food and drink poisoning is an extension, not an exclusion)"
   },
   {
     "id": "pgi-166",
@@ -3290,7 +3455,8 @@
       "Enlistment Act 1970",
       "reservist training"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §7.2, p.126 (Exclusion: armed forces service except for peacetime reservist training for national servicemen in accordance with the Enlistment Act 1970)"
   },
   {
     "id": "pgi-167",
@@ -3309,7 +3475,8 @@
       "claim notification",
       "30 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §9.2, p.128 (Claim notification must be provided within a certain period, usually 30 days)"
   },
   {
     "id": "pgi-168",
@@ -3329,7 +3496,8 @@
       "three classes",
       "underwriting"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §10.4, p.130 (Occupation classification: many insurers commonly use three classes)"
   },
   {
     "id": "pgi-169",
@@ -3349,7 +3517,8 @@
       "lowest premium",
       "professionals"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §10.3, p.130 (Class I professionals/office administrators represent lower and better risks → lowest premium rates)"
   },
   {
     "id": "pgi-170",
@@ -3370,7 +3539,8 @@
       "100%",
       "PTD"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §11.1, p.131 (Coverage terminates upon death or injury causing permanent total disability with compensation equalling 100% or 150% of capital sum insured)"
   },
   {
     "id": "pgi-171",
@@ -3391,7 +3561,8 @@
       "3 hours",
       "return"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.3, p.140"
   },
   {
     "id": "pgi-172",
@@ -3412,7 +3583,8 @@
       "180 days",
       "185 days"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.3, p.140"
   },
   {
     "id": "pgi-173",
@@ -3433,7 +3605,8 @@
       "90 days",
       "92 days"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.4, p.140"
   },
   {
     "id": "pgi-174",
@@ -3454,7 +3627,8 @@
       "accompanied",
       "adult"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.5, p.140"
   },
   {
     "id": "pgi-175",
@@ -3476,7 +3650,8 @@
       "full-time student",
       "25"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §3.2, p.140"
   },
   {
     "id": "pgi-176",
@@ -3497,7 +3672,8 @@
       "Asia",
       "Worldwide"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.7, p.140"
   },
   {
     "id": "pgi-177",
@@ -3518,7 +3694,8 @@
       "restricted coverage",
       "elderly"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §3.1, p.140"
   },
   {
     "id": "pgi-178",
@@ -3539,7 +3716,8 @@
       "S$500,000",
       "Personal Accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 Table 4.2, p.143"
   },
   {
     "id": "pgi-179",
@@ -3560,7 +3738,8 @@
       "fare-paying passenger",
       "capital sum"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.5, p.143"
   },
   {
     "id": "pgi-180",
@@ -3580,7 +3759,8 @@
       "S$2,000,000",
       "coverage limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.8, p.144"
   },
   {
     "id": "pgi-181",
@@ -3600,7 +3780,8 @@
       "31 days",
       "return to Singapore"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.7, p.144"
   },
   {
     "id": "pgi-182",
@@ -3621,7 +3802,8 @@
       "S$750",
       "sub-limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.7, p.144"
   },
   {
     "id": "pgi-183",
@@ -3642,7 +3824,8 @@
       "overseas hospitalisation",
       "family member"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.10, p.144"
   },
   {
     "id": "pgi-184",
@@ -3662,7 +3845,8 @@
       "Compassionate Visit",
       "mutually exclusive"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.11, p.144"
   },
   {
     "id": "pgi-185",
@@ -3683,7 +3867,8 @@
       "overseas",
       "S$100 per day"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.13-5.14, p.145"
   },
   {
     "id": "pgi-186",
@@ -3703,7 +3888,8 @@
       "Hospital Confinement",
       "double benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.15, p.145"
   },
   {
     "id": "pgi-187",
@@ -3723,7 +3909,8 @@
       "unlimited",
       "higher-tier plan"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.18, p.146"
   },
   {
     "id": "pgi-188",
@@ -3744,7 +3931,8 @@
       "S$250 per day",
       "S$10,000"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.24, p.146"
   },
   {
     "id": "pgi-189",
@@ -3764,7 +3952,8 @@
       "S$20,000",
       "unused expenses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.27, p.147"
   },
   {
     "id": "pgi-190",
@@ -3784,7 +3973,8 @@
       "S$15,000",
       "irrecoverable deposits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.29, p.148"
   },
   {
     "id": "pgi-191",
@@ -3805,7 +3995,8 @@
       "S$200",
       "S$2,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.36-5.37, p.149"
   },
   {
     "id": "pgi-192",
@@ -3826,7 +4017,8 @@
       "travel delay",
       "not natural disaster"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.36 fn.3, p.149"
   },
   {
     "id": "pgi-193",
@@ -3846,7 +4038,8 @@
       "S$200",
       "denied boarding"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.43, p.150"
   },
   {
     "id": "pgi-194",
@@ -3866,7 +4059,8 @@
       "S$500",
       "connecting flight"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.45, p.150"
   },
   {
     "id": "pgi-195",
@@ -3887,7 +4081,8 @@
       "mutually exclusive",
       "same event"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.47, p.150"
   },
   {
     "id": "pgi-196",
@@ -3908,7 +4103,8 @@
       "S$200",
       "S$1,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.48, p.150 (Baggage Delay: every 6 consecutive hours → S$200, max S$1,000)"
   },
   {
     "id": "pgi-197",
@@ -3928,7 +4124,8 @@
       "per-item limit",
       "S$500"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.49, p.151 (Personal Baggage: per-item/pair/set sub-limit S$500)"
   },
   {
     "id": "pgi-198",
@@ -3948,7 +4145,8 @@
       "S$2,000,000",
       "third party"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.54, p.152 (Personal Liability: up to S$2,000,000)"
   },
   {
     "id": "pgi-199",
@@ -3968,7 +4166,8 @@
       "licensed agency",
       "deductible"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.56, p.152 (Rental Vehicle Excess: vehicle must be rented from a licensed rental agency)"
   },
   {
     "id": "pgi-200",
@@ -3988,7 +4187,8 @@
       "14 days",
       "transport disruption"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §6.1(a), p.153 (Automatic Extension: 14 days for transport disruption)"
   },
   {
     "id": "pgi-201",
@@ -4009,7 +4209,8 @@
       "illness",
       "unable to return"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §6.1(b), p.153 (Automatic Extension: 30 days for illness/injury preventing return)"
   },
   {
     "id": "pgi-202",
@@ -4030,7 +4231,8 @@
       "Section 21(3)(c)",
       "tax treatment"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §9.5 footnote 4, p.155 (GST: zero-rated under Section 21(3)(c) of the GST Act)"
   },
   {
     "id": "pgi-203",
@@ -4051,7 +4253,8 @@
       "30 days",
       "policy condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §10.2, p.156 (Policy condition: claim submitted within 21 or 30 days of return)"
   },
   {
     "id": "pgi-204",
@@ -4073,7 +4276,8 @@
       "S$500 deposit",
       "tour operator"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.34, p.148 (STB: deposit S$500 or more, or package costing S$1,000 or more)"
   },
   {
     "id": "pgi-205",
@@ -4094,7 +4298,8 @@
       "sanctions",
       "war zones"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.1(h) & §9.10, p.154 (General Exclusions / countries excluded: Afghanistan, Cuba, DRC, Iran, Iraq, Liberia, Somalia, Sudan, Syria)"
   },
   {
     "id": "pgi-206",
@@ -4115,7 +4320,8 @@
       "pre-existing conditions",
       "self-inflicted"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.1(c), p.153 (General Exclusions: hazardous/military/sports activities excluded; amateur recreational sports NOT excluded)"
   },
   {
     "id": "pgi-207",
@@ -4135,7 +4341,8 @@
       "3 days",
       "per trip"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.3, p.139 (Per Trip: minimum three days cover)"
   },
   {
     "id": "pgi-208",
@@ -4156,7 +4363,8 @@
       "exclusion",
       "dental"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.7, p.144 (Medical & Other Expenses: covered items listed; elective cosmetic surgery not among them)"
   },
   {
     "id": "pgi-209",
@@ -4177,7 +4385,8 @@
       "capital sum",
       "Personal Accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 Table 4.2, p.143 (Table of Compensation: Classic Plan S$200,000 for insured person up to age 70)"
   },
   {
     "id": "pgi-210",
@@ -4198,7 +4407,8 @@
       "report",
       "loss"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.52, p.151 (Credit Card Indemnity: loss must be reported to card issuer within six hours)"
   },
   {
     "id": "pgi-211",
@@ -4218,7 +4428,8 @@
       "fire only",
       "S$5,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.53, p.151 (Home Contents: damage caused by fire, up to S$5,000 — fire only)"
   },
   {
     "id": "pgi-212",
@@ -4239,7 +4450,8 @@
       "18 hours",
       "S$600"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.37, p.149 (Travel Delay: S$200 per consecutive full 6 hours; 18h = 3×S$200 = S$600)"
   },
   {
     "id": "pgi-213",
@@ -4260,7 +4472,8 @@
       "death",
       "family member"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.28–5.29, p.147 (Travel Cancellation: death/bodily injury/illness of insured or immediate relative; change of mind not covered)"
   },
   {
     "id": "pgi-214",
@@ -4280,7 +4493,8 @@
       "maximum",
       "S$1,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.48, p.150 (Baggage Delay: maximum S$1,000)"
   },
   {
     "id": "pgi-215",
@@ -4301,7 +4515,8 @@
       "STB",
       "licensed"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.31 & §5.33, p.148 (Financial Collapse of Travel Agency: applies to STB-licensed travel agents)"
   },
   {
     "id": "pgi-216",
@@ -4322,7 +4537,8 @@
       "modern family",
       "flexibility"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §2.2(b), p.139 (Family Plan: some companies allow two adults, not necessarily husband and wife, and their children)"
   },
   {
     "id": "pgi-217",
@@ -4342,7 +4558,8 @@
       "S$500,000",
       "lower-tier"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.18, p.146 (Emergency Medical Evacuation: maximum S$500,000 for lower coverage plan; unlimited for higher plan)"
   },
   {
     "id": "pgi-218",
@@ -4362,20 +4579,21 @@
       "Travel Delay",
       "airline confirmation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.40, p.149 (Travel Delay: delay must be verified in writing by transport operators — number of hours and reason)"
   },
   {
     "id": "pgi-219",
     "topic": "Travel Insurance",
-    "question": "Which correctly describes the Loss of Use of Hotel Facilities benefit?",
+    "question": "Under a travel insurance policy, what does the 'Loss of Use of Hotel Facilities' benefit cover?",
     "choices": [
-      "A) Compensation for hotel room damage caused by the insured",
-      "B) Coverage for loss of prepaid hotel facilities (e.g. spa, golf) due to illness or injury during the trip",
-      "C) Reimbursement for hotel overbooking",
-      "D) Coverage for theft of personal items from the hotel room"
+      "Reimbursement when a hotel overbooks and the insured is relocated to a different hotel",
+      "A daily benefit when the hotel withdraws substantial services (e.g. utilities, meals) for 24+ hours due to industrial action or unexpected strike",
+      "Compensation for theft of personal belongings from the hotel room",
+      "Coverage for damage caused by the insured to hotel property"
     ],
     "answer": 1,
-    "explanation": "This benefit covers loss of prepaid, non-refundable hotel facility charges when the insured cannot use them due to illness or injury.",
+    "explanation": "Loss of Use of Hotel Facilities covers the situation where a hotel has withdrawn its substantial services continuously for at least 24 hours as a result of an industrial action or unexpected strike. The insurer pays a daily benefit (e.g. S$100 per 24-hour period) up to a limit (e.g. S$200). Substantial services include utilities, meals, and services of waiters and hotel chambermaids (Ch4 S5.58-5.59, p.152).",
     "jpComparison": "日本の海外旅行保険にはホテル施設利用不能の補償は一般的でない。シンガポールの旅行保険がプリペイド施設費用をカバーする点はきめ細かい補償設計。",
     "keywords": [
       "Loss of Use",
@@ -4384,7 +4602,8 @@
       "illness",
       "injury"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.58–5.59, p.152 (Loss of Use of Hotel Facilities: hotel withdraws substantial services due to industrial action/strike; daily benefit S$100/24h up to S$200) — FAIL: see issues"
   },
   {
     "id": "pgi-220",
@@ -4405,7 +4624,8 @@
       "terrorist attack",
       "overseas"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.60, p.153 (Terrorism Cover: covers Act of Terrorism subject to plan limits; medical expenses and PA benefits)"
   },
   {
     "id": "pgi-221",
@@ -4426,7 +4646,8 @@
       "Contract",
       "liability sources"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.1, p.168"
   },
   {
     "id": "pgi-222",
@@ -4447,7 +4668,8 @@
       "private rights",
       "civil law"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.3, p.169"
   },
   {
     "id": "pgi-223",
@@ -4469,7 +4691,8 @@
       "damage",
       "proximate cause"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.6, p.169"
   },
   {
     "id": "pgi-224",
@@ -4489,7 +4712,8 @@
       "duty of care",
       "reasonable foreseeability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.6(a), p.170"
   },
   {
     "id": "pgi-225",
@@ -4511,7 +4735,8 @@
       "degree of care",
       "property owner"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.6(a), p.170"
   },
   {
     "id": "pgi-226",
@@ -4531,7 +4756,8 @@
       "chain of causation",
       "natural sequence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.6(b), p.170-171"
   },
   {
     "id": "pgi-227",
@@ -4551,7 +4777,8 @@
       "chain of causation",
       "proximate cause"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §2.6(b), p.170-171"
   },
   {
     "id": "pgi-228",
@@ -4572,7 +4799,8 @@
       "hazardous activities",
       "no negligence required"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.7, p.171"
   },
   {
     "id": "pgi-229",
@@ -4593,7 +4821,8 @@
       "dangerous animals",
       "absolute liability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.7, p.171"
   },
   {
     "id": "pgi-230",
@@ -4615,7 +4844,8 @@
       "employee",
       "control"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.10, p.171"
   },
   {
     "id": "pgi-231",
@@ -4636,7 +4866,8 @@
       "second party",
       "liability losses"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §1.4, p.167"
   },
   {
     "id": "pgi-232",
@@ -4656,7 +4887,8 @@
       "Common Law only",
       "scope of cover"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.1, p.173"
   },
   {
     "id": "pgi-233",
@@ -4677,7 +4909,8 @@
       "bodily injury",
       "property damage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.5, p.173"
   },
   {
     "id": "pgi-234",
@@ -4697,7 +4930,8 @@
       "Republic of Singapore",
       "territorial scope"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.6, p.173"
   },
   {
     "id": "pgi-235",
@@ -4718,7 +4952,8 @@
       "family injury",
       "not third party"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.11(a), p.174"
   },
   {
     "id": "pgi-236",
@@ -4739,7 +4974,8 @@
       "care custody control",
       "not third party"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.11(a), p.174"
   },
   {
     "id": "pgi-237",
@@ -4760,7 +4996,8 @@
       "Motor Insurance",
       "compulsory"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.11(b), p.174"
   },
   {
     "id": "pgi-238",
@@ -4781,7 +5018,8 @@
       "exclusion",
       "punishment"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.11(d), p.175"
   },
   {
     "id": "pgi-239",
@@ -4802,7 +5040,8 @@
       "foreign judgments",
       "exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.11(e), p.175; Appendix 5A Jurisdiction Clause, p.178"
   },
   {
     "id": "pgi-240",
@@ -4823,7 +5062,8 @@
       "third party",
       "personal liability"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §1.1, p.167; §4.5, p.173"
   },
   {
     "id": "pgi-241",
@@ -4844,7 +5084,8 @@
       "claim condition",
       "payment prohibition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.15, p.175"
   },
   {
     "id": "pgi-242",
@@ -4865,7 +5106,8 @@
       "summons",
       "forward to insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.15, p.175"
   },
   {
     "id": "pgi-243",
@@ -4885,7 +5127,8 @@
       "compulsory insurance",
       "Section 24(1)"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.2(a), p.172"
   },
   {
     "id": "pgi-244",
@@ -4906,7 +5149,8 @@
       "Professional Indemnity",
       "insurance brokers"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §3.2(e), p.172"
   },
   {
     "id": "pgi-245",
@@ -4927,7 +5171,8 @@
       "PMD",
       "e-scooters"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.19, p.176"
   },
   {
     "id": "pgi-246",
@@ -4949,7 +5194,8 @@
       "S$95",
       "annual"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.20, p.176"
   },
   {
     "id": "pgi-247",
@@ -4970,7 +5216,8 @@
       "November 5 2019",
       "zero-tolerance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.21, p.176"
   },
   {
     "id": "pgi-248",
@@ -4991,7 +5238,8 @@
       "not mandatory",
       "business riders"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.22, p.177"
   },
   {
     "id": "pgi-249",
@@ -5012,7 +5260,8 @@
       "mandatory insurance",
       "public paths"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.23, p.177"
   },
   {
     "id": "pgi-250",
@@ -5033,7 +5282,8 @@
       "S$121",
       "annual premium"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 Appendix 5B, p.182"
   },
   {
     "id": "pgi-251",
@@ -5054,7 +5304,8 @@
       "S$85",
       "annual premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 Appendix 5B, p.182"
   },
   {
     "id": "pgi-252",
@@ -5076,7 +5327,8 @@
       "pets",
       "claims experience"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.17, p.176"
   },
   {
     "id": "pgi-253",
@@ -5097,7 +5349,8 @@
       "level of sum insured",
       "limit of liability"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §4.18, p.176"
   },
   {
     "id": "pgi-254",
@@ -5118,7 +5371,8 @@
       "insurer liability cap",
       "contest claim"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.8, p.174; Appendix 5A Defence Settlement Claims Expenses, p.179"
   },
   {
     "id": "pgi-255",
@@ -5139,7 +5393,8 @@
       "one occurrence",
       "first loss"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 Appendix 5A Claims Series Clause, p.179"
   },
   {
     "id": "pgi-256",
@@ -5160,7 +5415,8 @@
       "third party",
       "covered event"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §1.1, p.167; §4.5, p.173"
   },
   {
     "id": "pgi-257",
@@ -5182,7 +5438,8 @@
       "property owner",
       "degree of care"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §2.6(a), p.170"
   },
   {
     "id": "pgi-258",
@@ -5203,7 +5460,8 @@
       "third party",
       "scope"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.1, p.172"
   },
   {
     "id": "pgi-259",
@@ -5223,7 +5481,8 @@
       "duty of care",
       "policy condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §4.13, p.175"
   },
   {
     "id": "pgi-260",
@@ -5245,7 +5504,8 @@
       "insurer rights",
       "full discretion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §4.16, p.176; Appendix 5A Defence Settlement Claims Expenses, p.179"
   },
   {
     "id": "pgi-261",
@@ -5265,7 +5525,8 @@
       "SCI",
       "health insurance module"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §1.1, p.187 (MAS Notice 117 Para 4)"
   },
   {
     "id": "pgi-262",
@@ -5285,7 +5546,8 @@
       "CI benefits",
       "health insurance product"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §1.3, p.188 (General insurance agents/brokers scope)"
   },
   {
     "id": "pgi-263",
@@ -5305,7 +5567,8 @@
       "LIA",
       "MAS"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.1, p.188 (CI Framework set up by LIA in conjunction with MAS)"
   },
   {
     "id": "pgi-264",
@@ -5325,7 +5588,8 @@
       "standardised definitions",
       "CI Framework"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.2, p.188 (37 critical illnesses standardised)"
   },
   {
     "id": "pgi-265",
@@ -5345,7 +5609,8 @@
       "ambiguity",
       "consistent outcomes"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.1(iii), p.188 (reduce ambiguity, easier product comparison)"
   },
   {
     "id": "pgi-266",
@@ -5365,7 +5630,8 @@
       "Version 2019",
       "26 August 2020"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.3, p.188 (26 August 2020 cutoff)"
   },
   {
     "id": "pgi-267",
@@ -5386,7 +5652,8 @@
       "six months",
       "25 February 2021"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.4, p.189 (COVID-19 extension to six months, by 25 February 2021)"
   },
   {
     "id": "pgi-268",
@@ -5406,7 +5673,8 @@
       "five CIs",
       "anti-selection"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.9, p.189 (mandatory 90-day waiting period for five CIs)"
   },
   {
     "id": "pgi-269",
@@ -5426,7 +5694,8 @@
       "Major Cancer",
       "Stroke"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.10, p.189 (five CIs listed; Stroke not included)"
   },
   {
     "id": "pgi-270",
@@ -5446,7 +5715,8 @@
       "waiting period",
       "surgical procedure"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §2.11, p.189 (date of diagnosis used for waiting period)"
   },
   {
     "id": "pgi-271",
@@ -5467,7 +5737,8 @@
       "3/60",
       "CI Framework 2019"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §2.18, p.191 (blindness changed from 3/60 to 6/60)"
   },
   {
     "id": "pgi-272",
@@ -5488,7 +5759,8 @@
       "HIV",
       "blood transfusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §2.17, p.191 (Thalassaemia/Haemophilia HIV coverage added)"
   },
   {
     "id": "pgi-273",
@@ -5508,7 +5780,8 @@
       "End Stage Lung Disease",
       "consequential complication"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §2.20-2.21, p.191 (COVID-19 not a CI; consequential complications covered)"
   },
   {
     "id": "pgi-274",
@@ -5528,7 +5801,8 @@
       "Dread Disease",
       "lump sum benefit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.1, p.192 (Dread Disease alternative name)"
   },
   {
     "id": "pgi-275",
@@ -5548,7 +5822,8 @@
       "diagnosis",
       "critical illness"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.1, p.192 (lump sum benefit on diagnosis)"
   },
   {
     "id": "pgi-276",
@@ -5568,7 +5843,8 @@
       "first incidence",
       "eligibility"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §4.1(c), p.193 (must be first incidence; pre-existing excluded)"
   },
   {
     "id": "pgi-277",
@@ -5588,7 +5864,8 @@
       "lineal relatives",
       "diagnosis exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(e)(i), p.194 (excludes insured's own physicians, spouses, lineal relatives)"
   },
   {
     "id": "pgi-278",
@@ -5609,7 +5886,8 @@
       "insurer",
       "binding"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(e)(iii), p.194 (insurer selects independent expert; binding on both parties)"
   },
   {
     "id": "pgi-279",
@@ -5628,7 +5906,8 @@
       "waiting period",
       "anti-selection"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §4.1(f)(ii), p.195 (waiting period prevents anti-selection)"
   },
   {
     "id": "pgi-280",
@@ -5648,7 +5927,8 @@
       "void policy",
       "refund premiums"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(f)(ii), p.195 (void policy and refund premiums if CI found during waiting period)"
   },
   {
     "id": "pgi-281",
@@ -5667,7 +5947,8 @@
       "survival period",
       "7 to 30 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(g)(i), p.195 (survival period typically 7 to 30 days)"
   },
   {
     "id": "pgi-282",
@@ -5686,7 +5967,8 @@
       "survival period",
       "Additional Benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(g)(i), p.195 (survival period applicable only to Additional Benefit type)"
   },
   {
     "id": "pgi-283",
@@ -5706,7 +5988,8 @@
       "S$2,000,000",
       "moral hazard"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.1(d), p.196 (S$2,000,000 limit to minimise moral hazard)"
   },
   {
     "id": "pgi-284",
@@ -5727,7 +6010,8 @@
       "non-guaranteed",
       "age band"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.1(e)-(f), p.196 (premium usually level and non-guaranteed; age band basis)"
   },
   {
     "id": "pgi-285",
@@ -5747,7 +6031,8 @@
       "cash value",
       "surrender"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.1(k), p.196 (CI Insurance rider does not acquire cash value)"
   },
   {
     "id": "pgi-286",
@@ -5767,7 +6052,8 @@
       "Additional Benefit",
       "CI cover types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §6.1, p.197 (two main types: Acceleration Benefit and Additional Benefit)"
   },
   {
     "id": "pgi-287",
@@ -5787,7 +6073,8 @@
       "S$200,000",
       "S$100,000"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §6.4, p.197 (S$200,000 x 50% = S$100,000 on CI diagnosis)"
   },
   {
     "id": "pgi-288",
@@ -5807,7 +6094,8 @@
       "total amount",
       "sum assured plus bonuses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.6, p.198 (total always equals basic sum assured plus bonuses)"
   },
   {
     "id": "pgi-289",
@@ -5827,7 +6115,8 @@
       "less than 100%",
       "balance sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.8, p.198 (CI Waiver of Premium rider for less than 100% acceleration)"
   },
   {
     "id": "pgi-290",
@@ -5847,7 +6136,8 @@
       "S$300,000",
       "basic sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.12-6.13, p.199-200 (Additional Benefit: S$200,000 CI + S$100,000 death = S$300,000)"
   },
   {
     "id": "pgi-291",
@@ -5867,7 +6157,8 @@
       "five times",
       "basic sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.14, p.201"
   },
   {
     "id": "pgi-292",
@@ -5887,7 +6178,8 @@
       "65 years",
       "expiry age"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §6.14, p.201"
   },
   {
     "id": "pgi-293",
@@ -5907,7 +6199,8 @@
       "must not exceed",
       "basic sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 Table 6.1, p.201"
   },
   {
     "id": "pgi-294",
@@ -5927,7 +6220,8 @@
       "severe stage",
       "end stage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.3, p.202"
   },
   {
     "id": "pgi-295",
@@ -5949,7 +6243,8 @@
       "intermediate",
       "severe"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.7, p.202"
   },
   {
     "id": "pgi-296",
@@ -5968,7 +6263,8 @@
       "Severity-Based CI",
       "1 to 75 years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §7.10, p.203"
   },
   {
     "id": "pgi-297",
@@ -5989,7 +6285,8 @@
       "greater coverage",
       "early stage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.13, p.203"
   },
   {
     "id": "pgi-298",
@@ -6010,7 +6307,8 @@
       "30-year-old",
       "non-smoker"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §7.14, p.204"
   },
   {
     "id": "pgi-299",
@@ -6030,7 +6328,8 @@
       "deducted",
       "sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §7.15, p.204"
   },
   {
     "id": "pgi-300",
@@ -6050,7 +6349,8 @@
       "recurrent",
       "multiple diagnoses"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.16, p.204"
   },
   {
     "id": "pgi-301",
@@ -6070,7 +6370,8 @@
       "Major Cancer",
       "2-year gap"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §7.20, p.204"
   },
   {
     "id": "pgi-302",
@@ -6090,7 +6391,8 @@
       "lower",
       "CI covers"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §8.1, p.205"
   },
   {
     "id": "pgi-303",
@@ -6111,7 +6413,8 @@
       "medium rating",
       "underwriting"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §8.2, p.205"
   },
   {
     "id": "pgi-304",
@@ -6131,7 +6434,8 @@
       "S$316,000",
       "recommended amount"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.6, p.206"
   },
   {
     "id": "pgi-305",
@@ -6151,7 +6455,8 @@
       "S$316,000",
       "five years"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §9.13, p.207"
   },
   {
     "id": "pgi-306",
@@ -6171,7 +6476,8 @@
       "income",
       "rule of thumb"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §9.10, p.206"
   },
   {
     "id": "pgi-307",
@@ -6191,7 +6497,8 @@
       "2017 Protection Gap Study",
       "five years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §2.19, p.191"
   },
   {
     "id": "pgi-308",
@@ -6211,7 +6518,8 @@
       "early-stage CI",
       "Sum Assured"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §9.15, p.207"
   },
   {
     "id": "pgi-309",
@@ -6232,7 +6540,8 @@
       "self-inflicted",
       "congenital"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §10.1, p.208"
   },
   {
     "id": "pgi-310",
@@ -6251,7 +6560,8 @@
       "termination",
       "valid claim"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §11.1, p.208"
   },
   {
     "id": "pgi-311",
@@ -6271,7 +6581,8 @@
       "written notice",
       "CI claim"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §12.3, p.209"
   },
   {
     "id": "pgi-312",
@@ -6291,7 +6602,8 @@
       "daily cash benefit",
       "fixed dollar amount"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §13.1, p.209"
   },
   {
     "id": "pgi-313",
@@ -6311,7 +6623,8 @@
       "180 days",
       "1,000 days"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 Example 6.1, p.210"
   },
   {
     "id": "pgi-314",
@@ -6331,7 +6644,8 @@
       "1,000 days",
       "lifetime limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 Example 6.1, p.210"
   },
   {
     "id": "pgi-315",
@@ -6350,7 +6664,8 @@
       "180 days",
       "maximum per hospitalisation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §13.3, p.210"
   },
   {
     "id": "pgi-316",
@@ -6370,7 +6685,8 @@
       "MediShield Life",
       "additional payment"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §13.9(e), p.212"
   },
   {
     "id": "pgi-317",
@@ -6390,7 +6706,8 @@
       "hospital confinement",
       "minimum duration"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §13.8, p.211"
   },
   {
     "id": "pgi-318",
@@ -6410,7 +6727,8 @@
       "injury",
       "accident"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §13.7 B1(a), p.211"
   },
   {
     "id": "pgi-319",
@@ -6430,7 +6748,8 @@
       "HDU",
       "CCU"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §13.11(a), p.212"
   },
   {
     "id": "pgi-320",
@@ -6450,7 +6769,8 @@
       "triple",
       "ICU"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §13.11(b), p.212"
   },
   {
     "id": "pgi-321",
@@ -6471,7 +6791,8 @@
       "Work Permit",
       "FDW age"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.2, p.222"
   },
   {
     "id": "pgi-322",
@@ -6491,7 +6812,8 @@
       "WP renewal",
       "age limit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.2, p.222"
   },
   {
     "id": "pgi-323",
@@ -6511,7 +6833,8 @@
       "formal education",
       "FDW requirement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.2, p.222"
   },
   {
     "id": "pgi-324",
@@ -6532,7 +6855,8 @@
       "non-Malaysian",
       "MOM"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.8, p.223"
   },
   {
     "id": "pgi-325",
@@ -6552,7 +6876,8 @@
       "Insurance Guarantee",
       "Security Bond"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.9, p.223"
   },
   {
     "id": "pgi-326",
@@ -6573,7 +6898,8 @@
       "Medical Insurance",
       "Security Bond"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.4, p.222"
   },
   {
     "id": "pgi-327",
@@ -6594,7 +6920,8 @@
       "domestic worker",
       "not covered"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.6, p.222"
   },
   {
     "id": "pgi-328",
@@ -6614,7 +6941,8 @@
       "Personal Accident",
       "MOM requirement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.20(a)(ii), p.224"
   },
   {
     "id": "pgi-329",
@@ -6635,7 +6963,8 @@
       "FDW",
       "accident"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.20(b) / §2.77, p.224/237"
   },
   {
     "id": "pgi-330",
@@ -6656,7 +6985,8 @@
       "1 July 2023",
       "annual claim limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.24, p.225"
   },
   {
     "id": "pgi-331",
@@ -6677,7 +7007,8 @@
       "S$15,000",
       "employer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.25, p.225"
   },
   {
     "id": "pgi-332",
@@ -6698,7 +7029,8 @@
       "S$60,000",
       "S$45,000"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.26, p.225"
   },
   {
     "id": "pgi-333",
@@ -6719,7 +7051,8 @@
       "hospitals",
       "insurers"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.30, p.225"
   },
   {
     "id": "pgi-334",
@@ -6740,7 +7073,8 @@
       "same employer",
       "1 July 2025"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.32 / §2.51(a) fn.12, p.225/231"
   },
   {
     "id": "pgi-335",
@@ -6761,7 +7095,8 @@
       "policyholder",
       "employer"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.38, p.228"
   },
   {
     "id": "pgi-336",
@@ -6781,7 +7116,8 @@
       "loss of sight one eye",
       "Table of Compensation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 Table 7.1 (f), p.229"
   },
   {
     "id": "pgi-337",
@@ -6802,7 +7138,8 @@
       "Government Hospital",
       "FDWI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.49(a), p.231"
   },
   {
     "id": "pgi-338",
@@ -6823,7 +7160,8 @@
       "overstay",
       "FDWI duration"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.18 / §2.49(b), p.223/231"
   },
   {
     "id": "pgi-339",
@@ -6844,7 +7182,8 @@
       "S$500",
       "employer liability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.62, p.235"
   },
   {
     "id": "pgi-340",
@@ -6865,7 +7204,8 @@
       "third-party",
       "negligence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.64, p.235"
   },
   {
     "id": "pgi-341",
@@ -6886,7 +7226,8 @@
       "buyback",
       "employer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.54, p.233"
   },
   {
     "id": "pgi-342",
@@ -6906,7 +7247,8 @@
       "repatriation expenses",
       "FDWI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.57, p.233"
   },
   {
     "id": "pgi-343",
@@ -6926,7 +7268,8 @@
       "termination expenses",
       "serious illness"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.58, p.233"
   },
   {
     "id": "pgi-344",
@@ -6946,7 +7289,8 @@
       "different premiums",
       "1 July 2025"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.34 / §2.73, p.226/236"
   },
   {
     "id": "pgi-345",
@@ -6966,7 +7310,8 @@
       "cannot pass on",
       "FDW medical insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.35, p.226"
   },
   {
     "id": "pgi-346",
@@ -6988,7 +7333,8 @@
       "Hole-In-One",
       "Medical Expenses"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.6, p.238"
   },
   {
     "id": "pgi-347",
@@ -7008,7 +7354,8 @@
       "personal liability",
       "Golfer Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.13, p.239"
   },
   {
     "id": "pgi-348",
@@ -7028,7 +7375,8 @@
       "Hole-In-One",
       "hospitality costs"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.19, p.239"
   },
   {
     "id": "pgi-349",
@@ -7048,7 +7396,8 @@
       "contained in bag",
       "not covered during play"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.17(b), p.239"
   },
   {
     "id": "pgi-350",
@@ -7069,6 +7418,7 @@
       "temporary total disablement",
       "weekly sum"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.9, p.238"
   }
 ]

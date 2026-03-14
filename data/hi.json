@@ -16,7 +16,8 @@
       "MOH",
       "healthcare philosophy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §2.1, p.11"
   },
   {
     "id": "hi-2",
@@ -35,7 +36,8 @@
       "Healthcare 2020",
       "Masterplan"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §3.3, p.12"
   },
   {
     "id": "hi-3",
@@ -54,7 +56,8 @@
       "3 Beyonds",
       "community care"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §3.4(b), p.13"
   },
   {
     "id": "hi-4",
@@ -73,7 +76,8 @@
       "Healthier SG",
       "capitation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch1 §3.6(e)(iii), p.16"
   },
   {
     "id": "hi-5",
@@ -92,7 +96,8 @@
       "public hospitals",
       "hospital beds"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch1 §4.6, p.17"
   },
   {
     "id": "hi-6",
@@ -111,7 +116,8 @@
       "ward class",
       "subsidy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.8, p.17"
   },
   {
     "id": "hi-7",
@@ -130,7 +136,8 @@
       "ILTC",
       "palliative care"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch1 §4.11(d), p.18"
   },
   {
     "id": "hi-8",
@@ -151,7 +158,8 @@
       "periodic income",
       "lump sum"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.2, p.16"
   },
   {
     "id": "hi-9",
@@ -171,7 +179,8 @@
       "H&S Insurance",
       "Medical Expense Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.5, p.16"
   },
   {
     "id": "hi-10",
@@ -191,7 +200,8 @@
       "MediShield Life",
       "Managed Healthcare Schemes"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.5, p.16"
   },
   {
     "id": "hi-11",
@@ -211,7 +221,8 @@
       "31 days",
       "inpatient"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.9(i), p.28"
   },
   {
     "id": "hi-12",
@@ -232,7 +243,8 @@
       "family member",
       "24 months waiting period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §2.9(o), p.29"
   },
   {
     "id": "hi-13",
@@ -253,7 +265,8 @@
       "reasonable expenses",
       "plan type"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §2.9, p.26"
   },
   {
     "id": "hi-14",
@@ -273,7 +286,8 @@
       "kidney dialysis",
       "cancer treatment"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.10(a), p.30"
   },
   {
     "id": "hi-15",
@@ -294,7 +308,8 @@
       "outpatient cancer drug services",
       "non-CDL"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §2.10(c), p.30"
   },
   {
     "id": "hi-16",
@@ -315,7 +330,8 @@
       "choice of plans",
       "higher-class ward"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.5, p.31"
   },
   {
     "id": "hi-17",
@@ -335,7 +351,8 @@
       "reasonable expenses",
       "equivalent treatment in Singapore"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §2.9(p), p.29"
   },
   {
     "id": "hi-18",
@@ -355,7 +372,8 @@
       "multiple policies",
       "life insurance comparison"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §2.12-2.13, p.31"
   },
   {
     "id": "hi-19",
@@ -376,7 +394,8 @@
       "reimbursement",
       "actual amount"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §2.11/§3.35, p.31/p.37"
   },
   {
     "id": "hi-20",
@@ -397,7 +416,8 @@
       "ward upgrade",
       "calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §2.9, p.26"
   },
   {
     "id": "hi-21",
@@ -416,7 +436,8 @@
       "reimbursement",
       "benefit basis"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.9, p.32"
   },
   {
     "id": "hi-22",
@@ -436,7 +457,8 @@
       "per annum",
       "expense participation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.20, p.33"
   },
   {
     "id": "hi-23",
@@ -456,7 +478,8 @@
       "calculation",
       "claim"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.23 (Example 2.2), p.34"
   },
   {
     "id": "hi-24",
@@ -476,7 +499,8 @@
       "co-insurance",
       "calculation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.27 (Example 2.3), p.35"
   },
   {
     "id": "hi-25",
@@ -496,7 +520,8 @@
       "ward class",
       "benefit reduction"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.28, p.35"
   },
   {
     "id": "hi-26",
@@ -517,7 +542,8 @@
       "event limit",
       "policy termination"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §3.32, p.36"
   },
   {
     "id": "hi-27",
@@ -537,7 +563,8 @@
       "disability",
       "single claim"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.34, p.37"
   },
   {
     "id": "hi-28",
@@ -558,7 +585,8 @@
       "annual limits",
       "lifetime limits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.35, p.37"
   },
   {
     "id": "hi-29",
@@ -579,7 +607,8 @@
       "overseas residence",
       "termination"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.37, p.38"
   },
   {
     "id": "hi-30",
@@ -599,7 +628,8 @@
       "accidental injury",
       "immediate cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.42, p.38"
   },
   {
     "id": "hi-31",
@@ -619,7 +649,8 @@
       "moral hazard",
       "anti-selection"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.44, p.38"
   },
   {
     "id": "hi-32",
@@ -639,7 +670,8 @@
       "premiums",
       "renewal"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.46, p.39"
   },
   {
     "id": "hi-33",
@@ -659,7 +691,8 @@
       "ambulance services",
       "covered charges"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.36/§3.52, p.37/p.40"
   },
   {
     "id": "hi-34",
@@ -679,7 +712,8 @@
       "total claims",
       "actual expenses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.54, p.40"
   },
   {
     "id": "hi-35",
@@ -700,7 +734,8 @@
       "written confirmation",
       "Singapore Citizen"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.40, p.38"
   },
   {
     "id": "hi-36",
@@ -720,7 +755,8 @@
       "Group H&S",
       "claim reduction"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §3.54-3.55, p.40"
   },
   {
     "id": "hi-37",
@@ -740,7 +776,8 @@
       "limitations",
       "anti-selection"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §3.51, p.39"
   },
   {
     "id": "hi-38",
@@ -761,7 +798,8 @@
       "reservist",
       "lifetime limit"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §6.1, p.41"
   },
   {
     "id": "hi-39",
@@ -782,7 +820,8 @@
       "non-Singaporean",
       "claimable amount"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §5.2, p.41"
   },
   {
     "id": "hi-40",
@@ -803,7 +842,8 @@
       "MAS Notice 117",
       "structured training"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 Appendix 2D §9A, p.48"
   },
   {
     "id": "hi-41",
@@ -824,7 +864,8 @@
       "6 months",
       "paragraph 7A"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 Appendix 2D §7A, p.45"
   },
   {
     "id": "hi-42",
@@ -845,7 +886,8 @@
       "CPD content",
       "structured training"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 Appendix 2D §9A(i-iii), p.48"
   },
   {
     "id": "hi-43",
@@ -866,7 +908,8 @@
       "calendar year",
       "paragraph 9B"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 Appendix 2D §9B(i), p.48"
   },
   {
     "id": "hi-44",
@@ -887,7 +930,8 @@
       "paragraph 9B",
       "shield plans"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 Appendix 2D §9B(ii), p.48"
   },
   {
     "id": "hi-45",
@@ -909,7 +953,8 @@
       "paragraph 7C",
       "employer obligations"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 Appendix 2D §7C(a)(b), p.46"
   },
   {
     "id": "hi-46",
@@ -930,7 +975,8 @@
       "CPD compliance",
       "paragraph 9D"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 Appendix 2D §9D, p.49"
   },
   {
     "id": "hi-47",
@@ -951,7 +997,8 @@
       "outpatient",
       "medical evacuation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §2.6, p.26"
   },
   {
     "id": "hi-48",
@@ -972,7 +1019,8 @@
       "reimbursement",
       "total expenses"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.54, p.40"
   },
   {
     "id": "hi-49",
@@ -993,7 +1041,8 @@
       "expense participation",
       "government subsidies"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch2 §3.28, p.35"
   },
   {
     "id": "hi-50",
@@ -1014,7 +1063,8 @@
       "coverage",
       "immediate cover"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch2 §3.42, p.38"
   },
   {
     "id": "hi-51",
@@ -1035,7 +1085,8 @@
       "automatic termination",
       "180 days"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §3.37, p.38"
   },
   {
     "id": "hi-52",
@@ -1057,7 +1108,8 @@
       "health declaration",
       "underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch2 §4.1, p.40"
   },
   {
     "id": "hi-53",
@@ -1077,7 +1129,8 @@
       "eligibility",
       "master policy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.1, p.52"
   },
   {
     "id": "hi-54",
@@ -1097,7 +1150,8 @@
       "termination",
       "group insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.2(a), p.52"
   },
   {
     "id": "hi-55",
@@ -1117,7 +1171,8 @@
       "eligibility",
       "coverage commencement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.3, p.53"
   },
   {
     "id": "hi-56",
@@ -1137,7 +1192,8 @@
       "experience-rating",
       "group evaluation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.2(c) + Table 3.2, p.52/55"
   },
   {
     "id": "hi-57",
@@ -1157,7 +1213,8 @@
       "non-contributory",
       "employer-paid"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.2, p.53-54"
   },
   {
     "id": "hi-58",
@@ -1177,7 +1234,8 @@
       "contributory",
       "minimum participation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §3.2, p.54"
   },
   {
     "id": "hi-59",
@@ -1198,7 +1256,8 @@
       "S Pass",
       "Work Permit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.1, p.55"
   },
   {
     "id": "hi-60",
@@ -1219,7 +1278,8 @@
       "co-payment",
       "Stage 1"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.2 Table (Stage 1), p.56"
   },
   {
     "id": "hi-61",
@@ -1240,7 +1300,8 @@
       "10%",
       "6 months"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.4, p.56"
   },
   {
     "id": "hi-62",
@@ -1260,7 +1321,8 @@
       "MediSave",
       "portable benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.3, p.57"
   },
   {
     "id": "hi-63",
@@ -1281,7 +1343,8 @@
       "11 employees",
       "qualification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.12 (B1), p.58"
   },
   {
     "id": "hi-64",
@@ -1302,7 +1365,8 @@
       "pre-existing conditions",
       "12 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.14 (B2), p.59"
   },
   {
     "id": "hi-65",
@@ -1323,7 +1387,8 @@
       "pre-existing condition",
       "example"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.15 + Example 3.1, p.59"
   },
   {
     "id": "hi-66",
@@ -1344,7 +1409,8 @@
       "PMBS",
       "TMIS"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.2, p.56-57"
   },
   {
     "id": "hi-67",
@@ -1365,7 +1431,8 @@
       "12 months",
       "termination"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.13 (B2), p.58"
   },
   {
     "id": "hi-68",
@@ -1385,7 +1452,8 @@
       "eligibility",
       "group formation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.1, p.52"
   },
   {
     "id": "hi-69",
@@ -1405,7 +1473,8 @@
       "characteristics",
       "underwriting"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.2(a)-(f), p.52-53"
   },
   {
     "id": "hi-70",
@@ -1425,7 +1494,8 @@
       "non-contributory",
       "employer-paid"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.2, p.53-54"
   },
   {
     "id": "hi-71",
@@ -1445,7 +1515,8 @@
       "family coverage",
       "dependants"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §3.1, p.53"
   },
   {
     "id": "hi-72",
@@ -1465,7 +1536,8 @@
       "group insurance",
       "eligibility clause"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §2.3, p.53"
   },
   {
     "id": "hi-73",
@@ -1485,7 +1557,8 @@
       "Integrated Shield Plan",
       "employer benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.26 (D), p.62"
   },
   {
     "id": "hi-74",
@@ -1506,7 +1579,8 @@
       "local employees",
       "20%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.26 (D), p.62"
   },
   {
     "id": "hi-75",
@@ -1526,7 +1600,8 @@
       "MediSave Scheme",
       "Integrated Shield Plan"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.25 PMBS column (C), p.61"
   },
   {
     "id": "hi-76",
@@ -1546,7 +1621,8 @@
       "continuation of benefits",
       "12 months"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.25 TMIS column (C), p.61"
   },
   {
     "id": "hi-77",
@@ -1567,7 +1643,8 @@
       "S$15,000",
       "MOM"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.3, p.56"
   },
   {
     "id": "hi-78",
@@ -1588,7 +1665,8 @@
       "25%",
       "employer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §4.3, p.56"
   },
   {
     "id": "hi-79",
@@ -1609,7 +1687,8 @@
       "10%",
       "6 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §4.4, p.56"
   },
   {
     "id": "hi-80",
@@ -1630,7 +1709,8 @@
       "portability",
       "employer control"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.25 (C), p.61"
   },
   {
     "id": "hi-81",
@@ -1650,7 +1730,8 @@
       "individual vs group",
       "experience rating"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 Table 3.2, p.55"
   },
   {
     "id": "hi-82",
@@ -1671,7 +1752,8 @@
       "tax deduction",
       "CPF"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.29 (E), p.62"
   },
   {
     "id": "hi-83",
@@ -1692,7 +1774,8 @@
       "continuation of coverage",
       "12 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.9 + §5.13 (B2), p.58"
   },
   {
     "id": "hi-84",
@@ -1713,7 +1796,8 @@
       "eligibility verification",
       "pre-existing condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.23 (B6), p.60"
   },
   {
     "id": "hi-85",
@@ -1734,7 +1818,8 @@
       "qualifying conditions",
       "20% local employees"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.26 (D), p.62"
   },
   {
     "id": "hi-86",
@@ -1754,7 +1839,8 @@
       "Medisave",
       "employer contribution"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.3, p.57"
   },
   {
     "id": "hi-87",
@@ -1774,7 +1860,8 @@
       "advantages",
       "pre-existing conditions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.3-5.5, p.57"
   },
   {
     "id": "hi-88",
@@ -1795,7 +1882,8 @@
       "group size",
       "11 employees"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.12 (B1), p.58"
   },
   {
     "id": "hi-89",
@@ -1815,7 +1903,8 @@
       "continuation benefit",
       "12 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch3 §5.13 (B2), p.58"
   },
   {
     "id": "hi-90",
@@ -1836,7 +1925,8 @@
       "pre-existing conditions",
       "12 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.14 (B2), p.59"
   },
   {
     "id": "hi-91",
@@ -1857,7 +1947,8 @@
       "eligible expenses",
       "outpatient exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch3 §5.18-5.19 (B3), p.60"
   },
   {
     "id": "hi-92",
@@ -1878,7 +1969,8 @@
       "20%",
       "local employees"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch3 §5.26 (D), p.62"
   },
   {
     "id": "hi-93",
@@ -1897,7 +1989,8 @@
       "Permanent Health Insurance",
       "Disability Income Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §2.1, p.67"
   },
   {
     "id": "hi-94",
@@ -1917,7 +2010,8 @@
       "75%",
       "income replacement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §4.1, p.68"
   },
   {
     "id": "hi-95",
@@ -1937,7 +2031,8 @@
       "lump sum",
       "monthly benefit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §3.2; Table 4.1, p.67-68"
   },
   {
     "id": "hi-96",
@@ -1957,7 +2052,8 @@
       "total disability",
       "material duties"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.3 (A1. Own Occupation), p.70"
   },
   {
     "id": "hi-97",
@@ -1977,7 +2073,8 @@
       "similar occupation",
       "education training experience"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.6-5.7 (A2. Modified Own Occupation), p.70"
   },
   {
     "id": "hi-98",
@@ -1997,7 +2094,8 @@
       "any occupation",
       "pianist example"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.4, §5.9, p.70"
   },
   {
     "id": "hi-99",
@@ -2017,7 +2115,8 @@
       "ADLs",
       "three of six"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.11 (A4. Severe Disability), p.71"
   },
   {
     "id": "hi-100",
@@ -2037,7 +2136,8 @@
       "non-working period",
       "pre-determined amount"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.12, p.71"
   },
   {
     "id": "hi-101",
@@ -2057,7 +2157,8 @@
       "25% reduction",
       "pre-disability salary"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.13-5.14 (B. Partial Disability), p.71"
   },
   {
     "id": "hi-102",
@@ -2078,7 +2179,8 @@
       "180 days",
       "relapse"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.16 (C. Recurrent Disability), p.71"
   },
   {
     "id": "hi-103",
@@ -2098,7 +2200,8 @@
       "deferred period",
       "short deferred period"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §5.20 (E. Deferred/Elimination Period), p.72"
   },
   {
     "id": "hi-104",
@@ -2118,7 +2221,8 @@
       "premium",
       "longer deferred lower premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.20, p.72"
   },
   {
     "id": "hi-105",
@@ -2139,7 +2243,8 @@
       "computation",
       "escalation benefit"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §4.2, p.69"
   },
   {
     "id": "hi-106",
@@ -2158,7 +2263,8 @@
       "total disability benefit",
       "75% income replacement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §6.2 (B1. Total Disability Benefit), p.73"
   },
   {
     "id": "hi-107",
@@ -2178,7 +2284,8 @@
       "rehabilitation benefit",
       "benefit calculation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 Example 4.2 (§6.7, B2. Partial Disability Benefit), p.74"
   },
   {
     "id": "hi-108",
@@ -2198,7 +2305,8 @@
       "hospitalisation not required",
       "deferred period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §6.3, p.73"
   },
   {
     "id": "hi-109",
@@ -2219,7 +2327,8 @@
       "no assignment",
       "stand-alone or rider"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §7.1(t) (Features), p.77"
   },
   {
     "id": "hi-110",
@@ -2239,7 +2348,8 @@
       "inflation hedge",
       "3% or 5%"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 Example 4.3 (§6.11-6.12, B4. Escalation Benefit), p.75"
   },
   {
     "id": "hi-111",
@@ -2259,7 +2369,8 @@
       "over-insurance prevention",
       "Work Injury Compensation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §6.15-6.17 (C. Limitation of Disability Benefit Clause), p.76"
   },
   {
     "id": "hi-112",
@@ -2279,7 +2390,8 @@
       "underwriting documents",
       "audited accounts"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §8.2-8.3 (A1-A2. Underwriting Requirements), p.78"
   },
   {
     "id": "hi-113",
@@ -2299,7 +2411,8 @@
       "Class II",
       "rating structure"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 Table 4.2 (B1. Occupation), p.79"
   },
   {
     "id": "hi-114",
@@ -2319,7 +2432,8 @@
       "uninsurable",
       "hazardous occupation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 Table 4.2 (B1. Occupation), p.79"
   },
   {
     "id": "hi-115",
@@ -2339,7 +2453,8 @@
       "notification duty",
       "repudiate claim"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §8.8, p.79"
   },
   {
     "id": "hi-116",
@@ -2359,7 +2474,8 @@
       "90 days",
       "termination of pregnancy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §10.1(e) (Exclusions), p.80-81"
   },
   {
     "id": "hi-117",
@@ -2379,7 +2495,8 @@
       "policy cessation",
       "overseas residence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §11.1 (Termination of Cover), p.81"
   },
   {
     "id": "hi-118",
@@ -2399,7 +2516,8 @@
       "Group Term Life Insurance",
       "prerequisite"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §12.2 (Group Disability Income Insurance), p.81"
   },
   {
     "id": "hi-119",
@@ -2419,7 +2537,8 @@
       "60 days",
       "claims procedure"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §14.1 (A. Claims Procedure), p.82"
   },
   {
     "id": "hi-120",
@@ -2439,7 +2558,8 @@
       "30 days notification",
       "overseas claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §14.6(a) (B. Foreign Residency During Claims Period), p.83"
   },
   {
     "id": "hi-121",
@@ -2460,7 +2580,8 @@
       "benefit ceiling",
       "over-insuring"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §4.1, p.68; §6.15-6.17, p.76"
   },
   {
     "id": "hi-122",
@@ -2481,7 +2602,8 @@
       "moral hazard",
       "underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §8.11 (B4. Deferred/Elimination Period), p.80"
   },
   {
     "id": "hi-123",
@@ -2502,7 +2624,8 @@
       "any occupation",
       "severe disability"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.1 (Total Disability), p.69"
   },
   {
     "id": "hi-124",
@@ -2522,7 +2645,8 @@
       "ADL",
       "activities of daily living"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §5.11 (A4. Severe Disability), p.71"
   },
   {
     "id": "hi-125",
@@ -2543,7 +2667,8 @@
       "deferred period",
       "relapse"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §5.16 (C. Recurrent Disability), p.71"
   },
   {
     "id": "hi-126",
@@ -2563,7 +2688,8 @@
       "rehabilitation benefit",
       "benefit calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 Example 4.3 (§6.12, B4. Escalation Benefit), p.75-76"
   },
   {
     "id": "hi-127",
@@ -2584,7 +2710,8 @@
       "no assignment",
       "cash benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §7.1(l) (Features), p.77"
   },
   {
     "id": "hi-128",
@@ -2605,7 +2732,8 @@
       "audited accounts",
       "documentation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §8.2-8.3 (A1-A2. Underwriting Requirements), p.78"
   },
   {
     "id": "hi-129",
@@ -2626,7 +2754,8 @@
       "disability risk",
       "rating class"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §8.6 (B1. Occupation), p.78"
   },
   {
     "id": "hi-130",
@@ -2647,7 +2776,8 @@
       "benefit period",
       "death"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch4 §9.1 (Cessation of Benefits), p.80"
   },
   {
     "id": "hi-131",
@@ -2668,7 +2798,8 @@
       "prerequisite",
       "eligibility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch4 §13.1 (General Underwriting Principles for Group DII), p.82"
   },
   {
     "id": "hi-132",
@@ -2689,7 +2820,8 @@
       "termination of pregnancy",
       "exclusions"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch4 §10.1(e) (Exclusions), p.80-81"
   },
   {
     "id": "hi-133",
@@ -2709,7 +2841,8 @@
       "Activities of Daily Living",
       "independence"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.1, p.111"
   },
   {
     "id": "hi-134",
@@ -2733,7 +2866,8 @@
       "Mobility",
       "Transferring"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.5(c), p.113"
   },
   {
     "id": "hi-135",
@@ -2753,7 +2887,8 @@
       "disability-based",
       "LTC policy types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.1, p.112"
   },
   {
     "id": "hi-136",
@@ -2773,7 +2908,8 @@
       "90 days",
       "eligibility"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.7 (B2), p.114"
   },
   {
     "id": "hi-137",
@@ -2793,7 +2929,8 @@
       "3 out of 6 ADLs",
       "claim eligibility"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.15 (B5), p.118"
   },
   {
     "id": "hi-138",
@@ -2813,7 +2950,8 @@
       "lower premiums",
       "rejection risk"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §2.2, p.111"
   },
   {
     "id": "hi-139",
@@ -2834,7 +2972,8 @@
       "disability-based",
       "partial benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.2(a), p.112"
   },
   {
     "id": "hi-140",
@@ -2854,7 +2993,8 @@
       "S$400",
       "72 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.12(b) (B3), p.117"
   },
   {
     "id": "hi-141",
@@ -2874,7 +3014,8 @@
       "October 2020",
       "lifetime payouts"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.1, §8.6, p.119–120"
   },
   {
     "id": "hi-142",
@@ -2894,7 +3035,8 @@
       "compulsory",
       "born 1980 or later"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.2, p.119"
   },
   {
     "id": "hi-143",
@@ -2915,7 +3057,8 @@
       "withdrawal quantum",
       "MediSave balance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.11 table (B: MediSave Care), p.121"
   },
   {
     "id": "hi-144",
@@ -2936,7 +3079,8 @@
       "opt out",
       "31 December 2023"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §7.7 (B1), p.116"
   },
   {
     "id": "hi-145",
@@ -2958,7 +3102,8 @@
       "reimbursement",
       "severely disabled"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.17 (B6), p.118"
   },
   {
     "id": "hi-146",
@@ -2979,7 +3124,8 @@
       "additional coverage",
       "MediShield Life"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §2.3, p.111"
   },
   {
     "id": "hi-147",
@@ -3000,7 +3146,8 @@
       "born 1932 or before",
       "pre-existing disability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §7.8 (B1), p.117"
   },
   {
     "id": "hi-148",
@@ -3020,7 +3167,8 @@
       "ADL",
       "claim eligibility"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.15 (B5), p.118"
   },
   {
     "id": "hi-149",
@@ -3040,7 +3188,8 @@
       "severe disability",
       "assessment criteria"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.5(c), p.113"
   },
   {
     "id": "hi-150",
@@ -3059,7 +3208,8 @@
       "CareShield Life",
       "launch date"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §8.1, p.119"
   },
   {
     "id": "hi-151",
@@ -3079,7 +3229,8 @@
       "compulsory",
       "eligibility"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §8.2, p.119"
   },
   {
     "id": "hi-152",
@@ -3099,7 +3250,8 @@
       "assessment cost",
       "house call"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §7.17 (B6), p.118"
   },
   {
     "id": "hi-153",
@@ -3120,7 +3272,8 @@
       "ElderShield 400",
       "1970-1979"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.3(a), p.119"
   },
   {
     "id": "hi-154",
@@ -3141,7 +3294,8 @@
       "payout duration",
       "comparison"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.9 table (A), p.121"
   },
   {
     "id": "hi-155",
@@ -3161,7 +3315,8 @@
       "withdrawal",
       "monthly amount"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.11 table (B: MediSave Care), p.121"
   },
   {
     "id": "hi-156",
@@ -3181,7 +3336,8 @@
       "lower-income",
       "discretionary assistance"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §8.15 (C2), p.122"
   },
   {
     "id": "hi-157",
@@ -3202,7 +3358,8 @@
       "payout duration",
       "moderate disability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §8.14–8.16 (C1, C3), p.122"
   },
   {
     "id": "hi-158",
@@ -3222,7 +3379,8 @@
       "foreign domestic worker",
       "ADL requirement"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §8.19 (C6), p.122"
   },
   {
     "id": "hi-159",
@@ -3242,7 +3400,8 @@
       "Activities of Daily Living",
       "independent living"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §2.1, p.111"
   },
   {
     "id": "hi-160",
@@ -3262,7 +3421,8 @@
       "indemnity method",
       "expense incurred"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.1(a), p.112 + p.123 (Important Concepts summary)"
   },
   {
     "id": "hi-161",
@@ -3286,7 +3446,8 @@
       "mobility",
       "transferring"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §3.5(c), p.113"
   },
   {
     "id": "hi-162",
@@ -3307,7 +3468,8 @@
       "dementia",
       "Alzheimer's"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §3.1(b), p.112"
   },
   {
     "id": "hi-163",
@@ -3327,7 +3489,8 @@
       "pay-out",
       "72 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch5 §7.12(b) (B3), p.117"
   },
   {
     "id": "hi-164",
@@ -3348,7 +3511,8 @@
       "lifetime pay-outs",
       "compulsory"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch5 §8.6, p.120"
   },
   {
     "id": "hi-165",
@@ -3369,7 +3533,8 @@
       "reimbursement",
       "MOH-accredited"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §7.17 (B6), p.118"
   },
   {
     "id": "hi-166",
@@ -3390,7 +3555,8 @@
       "1980 or later",
       "automatic enrolment"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §8.2, §8.4(a), p.119–120"
   },
   {
     "id": "hi-167",
@@ -3411,7 +3577,8 @@
       "spouse's MediSave",
       "severe disability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch5 §8.10 (B: MediSave Care), p.121"
   },
   {
     "id": "hi-168",
@@ -3430,7 +3597,8 @@
       "Dread Disease",
       "CI history"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §1.1, p.102"
   },
   {
     "id": "hi-169",
@@ -3450,7 +3618,8 @@
       "37 critical illnesses",
       "standardised definitions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.5, p.103"
   },
   {
     "id": "hi-170",
@@ -3470,7 +3639,8 @@
       "severe stage",
       "CI Framework"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §3.6, p.103"
   },
   {
     "id": "hi-171",
@@ -3489,7 +3659,8 @@
       "waiting period",
       "anti-selection"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §4.1(f)(ii), p.107"
   },
   {
     "id": "hi-172",
@@ -3509,7 +3680,8 @@
       "void policy",
       "premium refund"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §4.1(f)(ii), p.107"
   },
   {
     "id": "hi-173",
@@ -3528,7 +3700,8 @@
       "survival period",
       "Additional Benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(g)(i), p.107"
   },
   {
     "id": "hi-174",
@@ -3548,7 +3721,8 @@
       "50% acceleration",
       "sum assured"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.5, p.109"
   },
   {
     "id": "hi-175",
@@ -3567,7 +3741,8 @@
       "100% acceleration",
       "total payout"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.7, p.110"
   },
   {
     "id": "hi-176",
@@ -3587,7 +3762,8 @@
       "rider",
       "total payout"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §4.12–4.13, p.111–112"
   },
   {
     "id": "hi-177",
@@ -3607,7 +3783,8 @@
       "registered medical practitioner",
       "diagnosis"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.1(e)(i), p.107"
   },
   {
     "id": "hi-178",
@@ -3627,7 +3804,8 @@
       "26 August 2020",
       "CI definitions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.10, p.103"
   },
   {
     "id": "hi-179",
@@ -3646,7 +3824,8 @@
       "LIA review cycle",
       "three years"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.8, p.103"
   },
   {
     "id": "hi-180",
@@ -3666,7 +3845,8 @@
       "expiry age",
       "65 years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.14, p.112"
   },
   {
     "id": "hi-181",
@@ -3686,7 +3866,8 @@
       "50% acceleration",
       "balance sum assured"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §4.8, p.110"
   },
   {
     "id": "hi-182",
@@ -3706,7 +3887,8 @@
       "severe stage",
       "end stage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.2, p.114"
   },
   {
     "id": "hi-183",
@@ -3726,7 +3908,8 @@
       "advantages",
       "premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.11–5.12, p.115"
   },
   {
     "id": "hi-184",
@@ -3747,7 +3930,8 @@
       "deduction",
       "continuity"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §5.13, p.115"
   },
   {
     "id": "hi-185",
@@ -3768,7 +3952,8 @@
       "deterioration",
       "different condition"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §5.15, p.116"
   },
   {
     "id": "hi-186",
@@ -3788,7 +3973,8 @@
       "CI cover",
       "five conditions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §5.19, p.116"
   },
   {
     "id": "hi-187",
@@ -3808,7 +3994,8 @@
       "four years income",
       "adequacy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §7.4, p.118"
   },
   {
     "id": "hi-188",
@@ -3828,7 +4015,8 @@
       "pre-existing illness",
       "CI policy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §8.1, p.119"
   },
   {
     "id": "hi-189",
@@ -3849,7 +4037,8 @@
       "continuity",
       "early stage"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §9.1(a), p.119"
   },
   {
     "id": "hi-190",
@@ -3870,7 +4059,8 @@
       "Attending Physician's Report",
       "biopsy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §10.1, p.120"
   },
   {
     "id": "hi-191",
@@ -3891,7 +4081,8 @@
       "recovery expenses",
       "dependents"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §7.3–7.11, p.117–118"
   },
   {
     "id": "hi-192",
@@ -3912,7 +4103,8 @@
       "Acceleration",
       "Additional Benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §11.1, p.120"
   },
   {
     "id": "hi-193",
@@ -3933,7 +4125,8 @@
       "neurological deficit",
       "critical illness"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 Appendix 6A §9 (Coma), p.122"
   },
   {
     "id": "hi-194",
@@ -3954,7 +4147,8 @@
       "cardiac catheterisation",
       "right ventricular enlargement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 Appendix 6A §22 (Primary Pulmonary Hypertension), p.127"
   },
   {
     "id": "hi-195",
@@ -3975,7 +4169,8 @@
       "exclusions",
       "cranial vault"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 Appendix 6A §24 (Benign Brain Tumour), p.128"
   },
   {
     "id": "hi-196",
@@ -3997,7 +4192,8 @@
       "180 days",
       "blood transfusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 Appendix 6A §23B (Occupationally Acquired HIV), p.127–128"
   },
   {
     "id": "hi-197",
@@ -4018,7 +4214,8 @@
       "20%",
       "body surface area"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 Appendix 6A §13 (Major Burns), p.125"
   },
   {
     "id": "hi-198",
@@ -4038,7 +4235,8 @@
       "ADL",
       "Activities of Daily Living"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 Appendix 6A §37 (Loss of Independent Existence), p.131"
   },
   {
     "id": "hi-199",
@@ -4058,7 +4256,8 @@
       "LIA",
       "37 conditions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §3.2, p.102"
   },
   {
     "id": "hi-200",
@@ -4078,7 +4277,8 @@
       "Additional Benefit",
       "CI cover types"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §4.3, p.109"
   },
   {
     "id": "hi-201",
@@ -4098,7 +4298,8 @@
       "50% acceleration",
       "lump sum"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §4.5, p.109"
   },
   {
     "id": "hi-202",
@@ -4118,7 +4319,8 @@
       "invasive coronary angiography",
       "diagnostic confirmation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 Appendix 6A §35 (Other Serious Coronary Artery Disease), p.130"
   },
   {
     "id": "hi-203",
@@ -4139,7 +4341,8 @@
       "RPS/ISN classification",
       "Class III to VI"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 Appendix 6A §34 (SLE with Lupus Nephritis), p.130"
   },
   {
     "id": "hi-204",
@@ -4159,7 +4362,8 @@
       "early stage",
       "Early Pay CI"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch6 §5.11, p.115"
   },
   {
     "id": "hi-205",
@@ -4179,7 +4383,8 @@
       "rider",
       "total payout"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 §4.12–4.13, p.111–112"
   },
   {
     "id": "hi-206",
@@ -4199,7 +4404,8 @@
       "pre-existing illness",
       "common exclusions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch6 §8.1, p.119"
   },
   {
     "id": "hi-207",
@@ -4219,7 +4425,8 @@
       "12 months",
       "HIV exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch6 Appendix 6A §31 (Terminal Illness), p.129"
   },
   {
     "id": "hi-208",
@@ -4239,7 +4446,8 @@
       "daily benefit",
       "fixed amount"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.1, p.136"
   },
   {
     "id": "hi-209",
@@ -4259,7 +4467,8 @@
       "accident",
       "Hospital Cash Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.7/A1(a), p.137"
   },
   {
     "id": "hi-210",
@@ -4279,7 +4488,8 @@
       "independent benefit",
       "MediShield Life"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.5 and §2.9(e), p.136/138"
   },
   {
     "id": "hi-211",
@@ -4299,7 +4509,8 @@
       "per hospitalisation limit",
       "calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §2.1 and Example 7.1 (§2.2–2.4), p.136–137"
   },
   {
     "id": "hi-212",
@@ -4320,7 +4531,8 @@
       "termination",
       "basic policy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.14/C2, p.139"
   },
   {
     "id": "hi-213",
@@ -4340,7 +4552,8 @@
       "small premiums",
       "pre-existing conditions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.15/D, p.139"
   },
   {
     "id": "hi-214",
@@ -4360,7 +4573,8 @@
       "Hospital Cash Insurance",
       "accident coverage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.16/E, p.139–140"
   },
   {
     "id": "hi-215",
@@ -4380,7 +4594,8 @@
       "Hospital Cash Insurance",
       "grace period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.17/F, p.140"
   },
   {
     "id": "hi-216",
@@ -4400,7 +4615,8 @@
       "pregnancy complications",
       "coverage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.1, p.140–141"
   },
   {
     "id": "hi-217",
@@ -4421,7 +4637,8 @@
       "term policy",
       "13th week"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.4/B, p.141–142"
   },
   {
     "id": "hi-218",
@@ -4442,7 +4659,8 @@
       "multiple pregnancy",
       "triplets"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §3.5(d)/Exclusions, p.142"
   },
   {
     "id": "hi-219",
@@ -4463,7 +4681,8 @@
       "Hospital Cash Insurance",
       "enhanced benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.11(b)/C1, p.138–139"
   },
   {
     "id": "hi-220",
@@ -4484,7 +4703,8 @@
       "guaranteed insurability",
       "no underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §3.4(n)/B, p.142"
   },
   {
     "id": "hi-221",
@@ -4504,7 +4724,8 @@
       "rider",
       "no underwriting"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §5.1, p.145"
   },
   {
     "id": "hi-222",
@@ -4524,7 +4745,8 @@
       "inadequate local services",
       "travel insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §4.10/C, p.143"
   },
   {
     "id": "hi-223",
@@ -4544,7 +4766,8 @@
       "24-hour helpline",
       "policy requirement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §4.11/C, p.143"
   },
   {
     "id": "hi-224",
@@ -4564,7 +4787,8 @@
       "Schedule of Allowances",
       "out-of-pocket"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.4/B, p.145–146"
   },
   {
     "id": "hi-225",
@@ -4584,7 +4808,8 @@
       "full-time military service",
       "Enlistment Act 1970"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §5.9(d)/E, p.146"
   },
   {
     "id": "hi-226",
@@ -4604,7 +4829,8 @@
       "exclusion",
       "travel insurance"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §4.5 and §4.18(h)/E, p.142/144"
   },
   {
     "id": "hi-227",
@@ -4624,7 +4850,8 @@
       "coordination of benefits",
       "reduced reimbursement"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §5.8/D, p.146"
   },
   {
     "id": "hi-228",
@@ -4644,7 +4871,8 @@
       "fixed benefit",
       "daily cash benefit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.1 and Important Concepts summary (p.184)"
   },
   {
     "id": "hi-229",
@@ -4665,7 +4893,8 @@
       "illness",
       "Hospital Cash Insurance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §2.9(d)/B and §2.7/A1, p.137–138"
   },
   {
     "id": "hi-230",
@@ -4685,7 +4914,8 @@
       "Integrated Shield Plan",
       "stacking benefits"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.5 and §2.9(e)/B, p.136/138"
   },
   {
     "id": "hi-231",
@@ -4705,7 +4935,8 @@
       "lifetime limit",
       "Hospital Cash Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §2.17/F, p.140"
   },
   {
     "id": "hi-232",
@@ -4725,7 +4956,8 @@
       "13th week",
       "pregnancy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §3.4(b)/B, p.141"
   },
   {
     "id": "hi-233",
@@ -4746,7 +4978,8 @@
       "term policy",
       "three years"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.4(a)(c)/B, p.141"
   },
   {
     "id": "hi-234",
@@ -4767,7 +5000,8 @@
       "medical underwriting",
       "conversion option"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch7 §3.4(n)/B, p.142"
   },
   {
     "id": "hi-235",
@@ -4787,7 +5021,8 @@
       "panel dentist",
       "direct billing"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch7 §5.10/F and Important Concepts summary (p.188)"
   },
   {
     "id": "hi-236",
@@ -4807,7 +5042,8 @@
       "exclusion",
       "multiple pregnancy"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §3.5(d)/Exclusions, p.142"
   },
   {
     "id": "hi-237",
@@ -4827,7 +5063,8 @@
       "limitation clause",
       "coordination of benefits"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch7 §5.8/D, p.146"
   },
   {
     "id": "hi-238",
@@ -4847,7 +5084,8 @@
       "cost containment",
       "appropriate care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §2 (§2.1), p.154"
   },
   {
     "id": "hi-239",
@@ -4867,7 +5105,8 @@
       "cost",
       "quality of care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3 (§3.2), p.154"
   },
   {
     "id": "hi-240",
@@ -4887,7 +5126,8 @@
       "gatekeeper",
       "referral"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3A (§3.5), p.155"
   },
   {
     "id": "hi-241",
@@ -4907,7 +5147,8 @@
       "fixed amount",
       "monthly basis"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3B (§3.8a), p.155"
   },
   {
     "id": "hi-242",
@@ -4927,7 +5168,8 @@
       "Staff Model HMO",
       "performance bonus"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3B (§3.8c), p.155"
   },
   {
     "id": "hi-243",
@@ -4947,7 +5189,8 @@
       "no referral",
       "financial incentives"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4B (§4.7–4.8), p.157"
   },
   {
     "id": "hi-244",
@@ -4968,7 +5211,8 @@
       "PPO",
       "combination"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §4C (§4.10), p.157"
   },
   {
     "id": "hi-245",
@@ -4988,7 +5232,8 @@
       "unnecessary services",
       "caps"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3B (§3.8d), p.155–156"
   },
   {
     "id": "hi-246",
@@ -5008,7 +5253,8 @@
       "cashless",
       "employer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §7 (§7.1), p.160"
   },
   {
     "id": "hi-247",
@@ -5029,7 +5275,8 @@
       "cost control",
       "ranking"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §5 (§5.2), p.158"
   },
   {
     "id": "hi-248",
@@ -5050,7 +5297,8 @@
       "benefit limits",
       "Singapore"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §7 (§7.2), p.160"
   },
   {
     "id": "hi-249",
@@ -5071,7 +5319,8 @@
       "access",
       "cost"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §5 (§5.3), p.158"
   },
   {
     "id": "hi-250",
@@ -5092,7 +5341,8 @@
       "cost control",
       "provider choice"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §5 (§5.2–5.3), p.158"
   },
   {
     "id": "hi-251",
@@ -5112,7 +5362,8 @@
       "capitation",
       "comparison"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §3B (§3.8a–b), p.155"
   },
   {
     "id": "hi-252",
@@ -5133,7 +5384,8 @@
       "higher cost",
       "point of service"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §4C (§4.12), p.157"
   },
   {
     "id": "hi-253",
@@ -5153,7 +5405,8 @@
       "cost containment",
       "appropriate medical care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §2 (§2.1), p.154"
   },
   {
     "id": "hi-254",
@@ -5173,7 +5426,8 @@
       "cost",
       "quality of care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3 (§3.2), p.154"
   },
   {
     "id": "hi-255",
@@ -5193,7 +5447,8 @@
       "fixed amount",
       "monthly basis"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3B (§3.8a), p.155"
   },
   {
     "id": "hi-256",
@@ -5213,7 +5468,8 @@
       "Staff Model HMO",
       "performance-based bonuses"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3B (§3.8c), p.155"
   },
   {
     "id": "hi-257",
@@ -5233,7 +5489,8 @@
       "unnecessary medical services",
       "reimbursement caps"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §3B (§3.8d), p.155–156"
   },
   {
     "id": "hi-258",
@@ -5254,7 +5511,8 @@
       "referral",
       "primary care"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3A (§3.5), p.155"
   },
   {
     "id": "hi-259",
@@ -5274,7 +5532,8 @@
       "restrictive",
       "least choice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4A (§4.6), p.157"
   },
   {
     "id": "hi-260",
@@ -5294,7 +5553,8 @@
       "no referral",
       "specialist"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4B (§4.7), p.157"
   },
   {
     "id": "hi-261",
@@ -5315,7 +5575,8 @@
       "HMO",
       "PPO"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §4C (§4.10), p.157"
   },
   {
     "id": "hi-262",
@@ -5335,7 +5596,8 @@
       "choice of providers",
       "trade-off"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §5 (§5.3), p.158"
   },
   {
     "id": "hi-263",
@@ -5355,7 +5617,8 @@
       "percentage",
       "normal fees"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §3B (§3.8b), p.155"
   },
   {
     "id": "hi-264",
@@ -5375,7 +5638,8 @@
       "mental illness",
       "personality disorder"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §6C (§6.6c), p.159"
   },
   {
     "id": "hi-265",
@@ -5396,7 +5660,8 @@
       "specialist",
       "gatekeeper"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §7 (§7.1), p.160"
   },
   {
     "id": "hi-266",
@@ -5417,7 +5682,8 @@
       "benefit limits",
       "Singapore"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §7 (§7.2), p.160"
   },
   {
     "id": "hi-267",
@@ -5438,7 +5704,8 @@
       "higher cost",
       "coverage"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §4C (§4.12–4.13), p.157"
   },
   {
     "id": "hi-268",
@@ -5457,7 +5724,8 @@
       "MHC exclusions",
       "sexually transmitted disease"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §6C (§6.6e), p.159"
   },
   {
     "id": "hi-269",
@@ -5477,7 +5745,8 @@
       "claimant's statement",
       "itemised medical bill"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §6E (§6.9), p.160"
   },
   {
     "id": "hi-270",
@@ -5497,7 +5766,8 @@
       "in-network claims",
       "providers"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch8 §6E (§6.9), p.160"
   },
   {
     "id": "hi-271",
@@ -5517,7 +5787,8 @@
       "accident exception",
       "MHC exclusions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch8 §6C (§6.6o), p.160"
   },
   {
     "id": "hi-272",
@@ -5538,7 +5809,8 @@
       "cashless medical services",
       "MHCO"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch8 §7 (§7.1), p.160"
   },
   {
     "id": "hi-273",
@@ -5558,7 +5830,8 @@
       "health expenditure",
       "healthcare financing"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §1.2, p.163"
   },
   {
     "id": "hi-274",
@@ -5579,7 +5852,8 @@
       "Class B2",
       "Class C"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §2.4, p.164"
   },
   {
     "id": "hi-275",
@@ -5599,7 +5873,8 @@
       "Per Capita Household Income",
       "Annual Value of Residence"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §2.5, p.164"
   },
   {
     "id": "hi-276",
@@ -5620,7 +5895,8 @@
       "B2/C wards",
       "universal coverage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §3.1–3.2, p.166"
   },
   {
     "id": "hi-277",
@@ -5640,7 +5916,8 @@
       "pre-existing conditions",
       "30%"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §3.5, p.166"
   },
   {
     "id": "hi-278",
@@ -5661,7 +5938,8 @@
       "35%",
       "claim computation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §3.23–3.24, Table 9.2, p.169"
   },
   {
     "id": "hi-279",
@@ -5682,7 +5960,8 @@
       "Singapore Citizens",
       "eligibility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §2.12, p.165"
   },
   {
     "id": "hi-280",
@@ -5702,7 +5981,8 @@
       "MediSave top-ups",
       "premium subsidies"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §3.12, p.167"
   },
   {
     "id": "hi-281",
@@ -5723,7 +6003,8 @@
       "Integrated Shield Plan",
       "eligibility"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §3.18, p.168"
   },
   {
     "id": "hi-282",
@@ -5744,7 +6025,8 @@
       "private insurer",
       "CPF Board"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §4.4, p.173"
   },
   {
     "id": "hi-283",
@@ -5764,7 +6046,8 @@
       "private insurer",
       "MOH"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §4.1, Table 9.3, p.171–175"
   },
   {
     "id": "hi-284",
@@ -5784,7 +6067,8 @@
       "Class B1",
       "no frills"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §4.9–4.10, p.175"
   },
   {
     "id": "hi-285",
@@ -5805,7 +6089,8 @@
       "MediSave",
       "IP premiums"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §4.13, p.175–176 (AWL table)"
   },
   {
     "id": "hi-286",
@@ -5826,7 +6111,8 @@
       "5%",
       "MOH"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §4.15, p.176"
   },
   {
     "id": "hi-287",
@@ -5847,7 +6133,8 @@
       "re-underwriting",
       "reinstatement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §4.24, p.177"
   },
   {
     "id": "hi-288",
@@ -5868,7 +6155,8 @@
       "contribution rate",
       "age"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §5.1, p.178–179"
   },
   {
     "id": "hi-289",
@@ -5888,7 +6176,8 @@
       "CDMP",
       "chronic conditions"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §5.13(a)(iv), p.181"
   },
   {
     "id": "hi-290",
@@ -5908,7 +6197,8 @@
       "spouse",
       "aged 60"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §5.13(d), p.181"
   },
   {
     "id": "hi-291",
@@ -5928,7 +6218,8 @@
       "duplicative payouts",
       "MOH"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §6.12, p.187"
   },
   {
     "id": "hi-292",
@@ -5949,7 +6240,8 @@
       "withdrawal limits",
       "last inpatient bill"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §5.16(a), p.182"
   },
   {
     "id": "hi-293",
@@ -5970,7 +6262,8 @@
       "LOG",
       "IP"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §6.3–6.5, p.186"
   },
   {
     "id": "hi-294",
@@ -5991,7 +6284,8 @@
       "acute hospital stay",
       "withdrawal limit"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9a §5.16(a), p.182; Appendix 9A, p.188"
   },
   {
     "id": "hi-295",
@@ -6012,7 +6306,8 @@
       "inpatient",
       "day surgery"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a Appendix 9B (Co-insurance table), p.192"
   },
   {
     "id": "hi-296",
@@ -6033,7 +6328,8 @@
       "Integrated Plan",
       "MediSave"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9a §4.C (MediSave Use For IP Premiums), p.175-176 / Appendix 9A p.190"
   },
   {
     "id": "hi-297",
@@ -6054,7 +6350,8 @@
       "doctor declaration",
       "principal doctor"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9a §4.G (Pre-Authorisation for IP) / Appendix 9C (LIA Standardised Pre-Authorisation Form) p.194-195"
   },
   {
     "id": "hi-298",
@@ -6074,7 +6371,8 @@
       "long-term care",
       "2002"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §7.1 (ElderShield & ElderShield Supplements), p.199"
   },
   {
     "id": "hi-299",
@@ -6094,7 +6392,8 @@
       "payout",
       "72 months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §7.3, p.199"
   },
   {
     "id": "hi-300",
@@ -6115,7 +6414,8 @@
       "eligibility",
       "three out of six"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §7.9 (ADL eligibility) / §8.22 (CareShield Life ADL), p.200 / p.207"
   },
   {
     "id": "hi-301",
@@ -6136,7 +6436,8 @@
       "termination",
       "refund"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §7.8 (Waiting Period Requirement), p.200"
   },
   {
     "id": "hi-302",
@@ -6157,7 +6458,8 @@
       "opt-out",
       "1970-1979"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §7.5 / §8.10(a) (CareShield Life auto-enrolment, opt-out deadline), p.199 / p.205"
   },
   {
     "id": "hi-303",
@@ -6178,7 +6480,8 @@
       "no cap",
       "ElderShield comparison"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §8.11 (Benefits Under CareShield Life) / §7.3 (ElderShield payout cap), p.205 / p.199"
   },
   {
     "id": "hi-304",
@@ -6199,7 +6502,8 @@
       "1986",
       "citizenship"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §9.3 (Pioneer Generation Package criteria), p.209"
   },
   {
     "id": "hi-305",
@@ -6220,7 +6524,8 @@
       "base premium",
       "optional cohort"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §8.15(c) (CareShield Life catch-up component for ElderShield 300 policyholders), p.206"
   },
   {
     "id": "hi-306",
@@ -6241,7 +6546,8 @@
       "cumulative maximum",
       "72 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §7.16 (How Are ElderShield Benefits Paid — reclaim after recovery), p.201"
   },
   {
     "id": "hi-307",
@@ -6261,7 +6567,8 @@
       "MGP",
       "citizenship criteria"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §9.11–9.12 (Merdeka Generation Package criteria), p.210"
   },
   {
     "id": "hi-308",
@@ -6281,7 +6588,8 @@
       "ADL",
       "disability qualification"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §9.25(a) (IDAPE eligibility — ADL requirement), p.212"
   },
   {
     "id": "hi-309",
@@ -6301,7 +6609,8 @@
       "payout",
       "means testing"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch9b §9.26 / Table 9.4 (IDAPE Payout), p.212"
   },
   {
     "id": "hi-310",
@@ -6321,7 +6630,8 @@
       "outpatient subsidy",
       "polyclinic"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §B3 Outpatient Care (Merdeka Generation Package — 25% off), p.210"
   },
   {
     "id": "hi-311",
@@ -6341,7 +6651,8 @@
       "endowment fund",
       "safety net"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §9.30 (MediFund — endowment fund / safety net), p.213"
   },
   {
     "id": "hi-312",
@@ -6361,7 +6672,8 @@
       "eligibility",
       "subsidised patient"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §9.33 (MediFund eligibility requirements), p.213"
   },
   {
     "id": "hi-313",
@@ -6381,7 +6693,8 @@
       "Young Seniors",
       "retirement adequacy"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §9.18–9.19 (Majulah Package — Young Seniors 1960–1973, extended to 1973 or earlier), p.211"
   },
   {
     "id": "hi-314",
@@ -6401,7 +6714,8 @@
       "means testing",
       "payout calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §9.25(b) / §9.25(c) / Table 9.4 (IDAPE eligibility by birth date and income tier), p.212"
   },
   {
     "id": "hi-315",
@@ -6422,7 +6736,8 @@
       "discretionary assistance",
       "severe disability"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §9.29 (ElderFund — discretionary scheme, age 30+, no CSHL/ElderShield/IDAPE), p.213"
   },
   {
     "id": "hi-316",
@@ -6443,7 +6758,8 @@
       "MediSave",
       "severe disability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch9b §8.27(e) (CareShield Life — no cash surrender value) / §8.11 / §8.13 / §8.17, p.208 / p.205 / p.205–206"
   },
   {
     "id": "hi-317",
@@ -6464,7 +6780,8 @@
       "disability",
       "payout tiers"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch9b §9.25(b)(c) / Table 9.4 (IDAPE eligibility — born 1 Oct 1932–30 Sep 1962 with pre-existing disability, income S$2,001–S$2,800 → S$150/month), p.212"
   },
   {
     "id": "hi-318",
@@ -6483,7 +6800,8 @@
       "policy schedule",
       "contract details"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §3.2, p.268"
   },
   {
     "id": "hi-319",
@@ -6503,7 +6821,8 @@
       "physician",
       "Singapore Medical Council"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §4.2(g), p.269"
   },
   {
     "id": "hi-320",
@@ -6522,7 +6841,8 @@
       "medically necessary",
       "treatment standards"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §4.2(h), p.269"
   },
   {
     "id": "hi-321",
@@ -6541,7 +6861,8 @@
       "insuring clause",
       "scope of coverage"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §4.1(a)-(c), p.268"
   },
   {
     "id": "hi-322",
@@ -6561,7 +6882,8 @@
       "ward entitlement",
       "claim calculation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §4.2(s) example table, p.271-272"
   },
   {
     "id": "hi-323",
@@ -6581,7 +6903,8 @@
       "elimination period",
       "disability income insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §4.2(m), p.270"
   },
   {
     "id": "hi-324",
@@ -6601,7 +6924,8 @@
       "ADL",
       "deferred period"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §4.2(m), p.270"
   },
   {
     "id": "hi-325",
@@ -6621,7 +6945,8 @@
       "premium refund",
       "14 days"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.8(D), p.272"
   },
   {
     "id": "hi-326",
@@ -6641,7 +6966,8 @@
       "limit of indemnity",
       "maximum age"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.10(F), p.273"
   },
   {
     "id": "hi-327",
@@ -6662,7 +6988,8 @@
       "pro-ration factor",
       "claim calculation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §4.2(s) example table, p.271-272"
   },
   {
     "id": "hi-328",
@@ -6682,7 +7009,8 @@
       "emergency",
       "reasonable expenses"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.12(a)(G), p.273"
   },
   {
     "id": "hi-329",
@@ -6702,7 +7030,8 @@
       "disclosure",
       "underwriting"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §4.2(j), p.270"
   },
   {
     "id": "hi-330",
@@ -6722,7 +7051,8 @@
       "group insurance",
       "eligibility"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.9(E), p.273"
   },
   {
     "id": "hi-331",
@@ -6742,7 +7072,8 @@
       "non-payment of premium",
       "cancellation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.19-5.20(H3), p.275"
   },
   {
     "id": "hi-332",
@@ -6762,7 +7093,8 @@
       "non-renewal conditions",
       "health"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.18(b)(H2), p.274-275"
   },
   {
     "id": "hi-333",
@@ -6782,7 +7114,8 @@
       "eligibility",
       "no benefit"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.27(I), p.276"
   },
   {
     "id": "hi-334",
@@ -6802,7 +7135,8 @@
       "30 days",
       "renewal premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.28(J), p.276"
   },
   {
     "id": "hi-335",
@@ -6822,7 +7156,8 @@
       "over-insurance",
       "reimbursement"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.33(N), p.277"
   },
   {
     "id": "hi-336",
@@ -6843,7 +7178,8 @@
       "hazardous occupation",
       "benefit reduction"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.31(M), p.277"
   },
   {
     "id": "hi-337",
@@ -6863,7 +7199,8 @@
       "exchange rate",
       "reimbursement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.38(Q), p.278"
   },
   {
     "id": "hi-338",
@@ -6883,7 +7220,8 @@
       "MediShield Life",
       "Integrated Shield Plan"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.39(R), p.278"
   },
   {
     "id": "hi-339",
@@ -6903,7 +7241,8 @@
       "NOB",
       "age requirement"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.42(S), p.279"
   },
   {
     "id": "hi-340",
@@ -6925,7 +7264,8 @@
       "Section 132",
       "Section 133"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.42(a)-(b)(S), p.279"
   },
   {
     "id": "hi-341",
@@ -6945,7 +7285,8 @@
       "SDIC",
       "policy owners protection"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.45(T), p.279"
   },
   {
     "id": "hi-342",
@@ -6965,7 +7306,8 @@
       "dispute resolution",
       "mediation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §8.5(D), p.283"
   },
   {
     "id": "hi-343",
@@ -6985,7 +7327,8 @@
       "six months",
       "dispute timeline"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §8.5(D), p.283"
   },
   {
     "id": "hi-344",
@@ -7005,7 +7348,8 @@
       "dental",
       "injury exception"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §7.2(a)(iii), p.281"
   },
   {
     "id": "hi-345",
@@ -7025,7 +7369,8 @@
       "60 days",
       "proof of claim"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §8.7(D), p.283"
   },
   {
     "id": "hi-346",
@@ -7045,7 +7390,8 @@
       "injury exception",
       "12 months"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §7.2(a)(iv), p.281"
   },
   {
     "id": "hi-347",
@@ -7066,7 +7412,8 @@
       "pre-existing condition",
       "exclusion"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §9.4, p.284"
   },
   {
     "id": "hi-348",
@@ -7086,7 +7433,8 @@
       "claim conditions",
       "post-mortem"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §8.4(C), p.283"
   },
   {
     "id": "hi-349",
@@ -7105,7 +7453,8 @@
       "entire contract clause",
       "policy provisions"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.2(A) [summary table p.289]"
   },
   {
     "id": "hi-350",
@@ -7125,7 +7474,8 @@
       "premium increase",
       "classification"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.19(H3), p.275"
   },
   {
     "id": "hi-351",
@@ -7145,7 +7495,8 @@
       "grace period",
       "life insurer"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §5.7(C) [summary table p.288]"
   },
   {
     "id": "hi-352",
@@ -7165,7 +7516,8 @@
       "MediShield Life",
       "Integrated Shield Plan"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §5.39-5.40(R), p.278"
   },
   {
     "id": "hi-353",
@@ -7185,7 +7537,8 @@
       "non-renewal",
       "health condition"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.18(b)(H2), p.274-275"
   },
   {
     "id": "hi-354",
@@ -7205,7 +7558,8 @@
       "emergency",
       "equivalent Singapore cost"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §5.12(a)(G), p.273"
   },
   {
     "id": "hi-355",
@@ -7225,7 +7579,8 @@
       "dispute resolution",
       "six months"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch10 §8.5(D), p.283"
   },
   {
     "id": "hi-356",
@@ -7246,7 +7601,8 @@
       "12 months",
       "injury exception"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch10 §7.2(a)(iv), p.281"
   },
   {
     "id": "hi-357",
@@ -7268,7 +7624,8 @@
       "dispute resolution sequence",
       "legal action"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch10 §8.5-8.7(D), p.283"
   },
   {
     "id": "hi-358",
@@ -7287,7 +7644,8 @@
       "morbidity rate",
       "premium computation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.2, p.239"
   },
   {
     "id": "hi-359",
@@ -7307,7 +7665,8 @@
       "gender",
       "premium"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.2, p.239"
   },
   {
     "id": "hi-360",
@@ -7326,7 +7685,8 @@
       "investment income",
       "premium reduction"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.3–2.5, p.239"
   },
   {
     "id": "hi-361",
@@ -7345,7 +7705,8 @@
       "premium computation",
       "key factors"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.1, p.239"
   },
   {
     "id": "hi-362",
@@ -7365,7 +7726,8 @@
       "payment frequency",
       "billing costs"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §2.14, p.240–241"
   },
   {
     "id": "hi-363",
@@ -7385,7 +7747,8 @@
       "health declarations",
       "premium loading"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §2.16, p.241"
   },
   {
     "id": "hi-364",
@@ -7405,7 +7768,8 @@
       "age",
       "underwriting requirements"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.12, p.242"
   },
   {
     "id": "hi-365",
@@ -7426,7 +7790,8 @@
       "public hospital",
       "scope of benefits"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.11, p.240"
   },
   {
     "id": "hi-366",
@@ -7446,7 +7811,8 @@
       "smoking",
       "non-smoker discount"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §3.6, p.242"
   },
   {
     "id": "hi-367",
@@ -7466,7 +7832,8 @@
       "group participation level",
       "voluntary group plans"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.19, p.243"
   },
   {
     "id": "hi-368",
@@ -7486,7 +7853,8 @@
       "market share",
       "profit margin"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §2.12, p.240"
   },
   {
     "id": "hi-369",
@@ -7507,7 +7875,8 @@
       "paid claims",
       "pending claims"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.15, p.243"
   },
   {
     "id": "hi-370",
@@ -7528,7 +7897,8 @@
       "data credibility",
       "group plans"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §3.17, p.243"
   },
   {
     "id": "hi-371",
@@ -7548,7 +7918,8 @@
       "renewal discount",
       "no claims"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §3.18, p.243"
   },
   {
     "id": "hi-372",
@@ -7569,7 +7940,8 @@
       "ageing population",
       "utilisation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §2.7, p.240"
   },
   {
     "id": "hi-373",
@@ -7588,7 +7960,8 @@
       "morbidity rate",
       "premium computation"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.2, p.239"
   },
   {
     "id": "hi-374",
@@ -7607,7 +7980,8 @@
       "investment income",
       "premium reduction"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.3–2.5, p.239"
   },
   {
     "id": "hi-375",
@@ -7626,7 +8000,8 @@
       "premium computation",
       "key factors"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.1, p.239"
   },
   {
     "id": "hi-376",
@@ -7645,7 +8020,8 @@
       "modes of premium payment",
       "payment frequency"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §2.14, p.240–241"
   },
   {
     "id": "hi-377",
@@ -7665,7 +8041,8 @@
       "gender",
       "premium rating"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.2, p.239"
   },
   {
     "id": "hi-378",
@@ -7684,7 +8061,8 @@
       "anti-selection",
       "group participation level"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.19, p.243"
   },
   {
     "id": "hi-379",
@@ -7705,7 +8083,8 @@
       "paid claims",
       "pending claims"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §3.15, p.243"
   },
   {
     "id": "hi-380",
@@ -7724,7 +8103,8 @@
       "extent of underwriting",
       "minimal risk assessment"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §2.16, p.241"
   },
   {
     "id": "hi-381",
@@ -7744,7 +8124,8 @@
       "age groups",
       "underwriting requirements"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.12, p.242"
   },
   {
     "id": "hi-382",
@@ -7764,7 +8145,8 @@
       "market share",
       "profit margin"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §2.12, p.240"
   },
   {
     "id": "hi-383",
@@ -7785,7 +8167,8 @@
       "public hospital",
       "scope of benefits"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch11 §2.11, p.240"
   },
   {
     "id": "hi-384",
@@ -7805,7 +8188,8 @@
       "group participation level",
       "premium adjustment"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §3.19, p.243"
   },
   {
     "id": "hi-385",
@@ -7825,7 +8209,8 @@
       "reserve",
       "claims estimation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch11 §3.15–3.16, p.243"
   },
   {
     "id": "hi-386",
@@ -7846,7 +8231,8 @@
       "credibility",
       "premium rating"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §3.17, p.243"
   },
   {
     "id": "hi-387",
@@ -7866,7 +8252,8 @@
       "renewal discount",
       "public hospital"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch11 §3.18, p.243"
   },
   {
     "id": "hi-388",
@@ -7886,7 +8273,8 @@
       "mortality",
       "underwriting"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §2.1, p.247"
   },
   {
     "id": "hi-389",
@@ -7906,7 +8294,8 @@
       "recurrence",
       "complications"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.5, p.248"
   },
   {
     "id": "hi-390",
@@ -7927,7 +8316,8 @@
       "75%",
       "financial factor"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.11, p.248"
   },
   {
     "id": "hi-391",
@@ -7948,7 +8338,8 @@
       "disability income",
       "return to work"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.12, p.248"
   },
   {
     "id": "hi-392",
@@ -7969,7 +8360,8 @@
       "morbidity risk",
       "activities of daily living"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.20 (C3), p.250"
   },
   {
     "id": "hi-393",
@@ -7990,7 +8382,8 @@
       "family history",
       "cancer"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.21–3.22 (C4), p.250"
   },
   {
     "id": "hi-394",
@@ -8010,7 +8403,8 @@
       "certainty",
       "coverage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.29 (D1), p.251"
   },
   {
     "id": "hi-395",
@@ -8030,7 +8424,8 @@
       "waiting period",
       "health declaration"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.30 (D2), p.251–252"
   },
   {
     "id": "hi-396",
@@ -8051,7 +8446,8 @@
       "pre-existing condition",
       "medical expense"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.18 (C1), p.250"
   },
   {
     "id": "hi-397",
@@ -8072,7 +8468,8 @@
       "gender",
       "pregnancy"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.24 (C5), p.251"
   },
   {
     "id": "hi-398",
@@ -8093,7 +8490,8 @@
       "pre-diabetic",
       "latent complications"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.7, p.248"
   },
   {
     "id": "hi-399",
@@ -8114,7 +8512,8 @@
       "singer",
       "earnings disruption"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.19 (C2), p.250"
   },
   {
     "id": "hi-400",
@@ -8134,7 +8533,8 @@
       "SIO",
       "underwriting method"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.36 (D3), p.253"
   },
   {
     "id": "hi-401",
@@ -8154,7 +8554,8 @@
       "long-term conditions",
       "permanent exclusion"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.32 (D2), p.252"
   },
   {
     "id": "hi-402",
@@ -8175,7 +8576,8 @@
       "anti-selection",
       "contributory plan"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.51 (E6), p.255"
   },
   {
     "id": "hi-403",
@@ -8196,7 +8598,8 @@
       "no medical questions",
       "anti-selection"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.39 (D4), p.253"
   },
   {
     "id": "hi-404",
@@ -8217,7 +8620,8 @@
       "underwriting risk",
       "turnover"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.46 (E2), p.254"
   },
   {
     "id": "hi-405",
@@ -8238,7 +8642,8 @@
       "medical claims",
       "income level"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.50 (E5), p.254"
   },
   {
     "id": "hi-406",
@@ -8258,7 +8663,8 @@
       "underwriting information",
       "primary source"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §4.3 (A), p.257"
   },
   {
     "id": "hi-407",
@@ -8278,7 +8684,8 @@
       "group underwriting",
       "pricing"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.55 (E9), p.256"
   },
   {
     "id": "hi-408",
@@ -8298,7 +8705,8 @@
       "cost increase",
       "medical services"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.56–3.57 (E10), p.256"
   },
   {
     "id": "hi-409",
@@ -8318,7 +8726,8 @@
       "proposal form",
       "APS"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §4.1, p.256"
   },
   {
     "id": "hi-410",
@@ -8339,7 +8748,8 @@
       "average age",
       "claims trend"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.58 (E11), p.256"
   },
   {
     "id": "hi-411",
@@ -8360,7 +8770,8 @@
       "duty of disclosure",
       "warning statement"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §4.4 (A), p.257"
   },
   {
     "id": "hi-412",
@@ -8381,7 +8792,8 @@
       "high benefit",
       "Disability Income Insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §4.2, p.256"
   },
   {
     "id": "hi-413",
@@ -8401,7 +8813,8 @@
       "Long-Term Care Insurance",
       "medical tests"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §4.12(f) (C), p.259"
   },
   {
     "id": "hi-414",
@@ -8421,7 +8834,8 @@
       "insurer",
       "application process"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §4.13 (C), p.259"
   },
   {
     "id": "hi-415",
@@ -8441,7 +8855,8 @@
       "surgical operation",
       "underwriting action"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §6.5 (B2), p.261"
   },
   {
     "id": "hi-416",
@@ -8461,7 +8876,8 @@
       "acceptance rate",
       "standard rates"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §6.2 (A), p.260"
   },
   {
     "id": "hi-417",
@@ -8482,7 +8898,8 @@
       "Disability Income Insurance",
       "sub-standard risk"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §6.4(iii) (B1), p.261"
   },
   {
     "id": "hi-418",
@@ -8503,7 +8920,8 @@
       "rescind contract",
       "material information"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §4.4 (A), p.257"
   },
   {
     "id": "hi-419",
@@ -8524,7 +8942,8 @@
       "back disorder",
       "coverage modification"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §6.4(i) (B1), p.260–261"
   },
   {
     "id": "hi-420",
@@ -8544,7 +8963,8 @@
       "risk assessment",
       "acceptance"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §2.1, p.247"
   },
   {
     "id": "hi-421",
@@ -8564,7 +8984,8 @@
       "medical factors",
       "physical condition"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §3.9 (B), p.248"
   },
   {
     "id": "hi-422",
@@ -8584,7 +9005,8 @@
       "smoking habit",
       "family history"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.21 (C4), p.250"
   },
   {
     "id": "hi-423",
@@ -8604,7 +9026,8 @@
       "cognitive impairment",
       "morbidity risk"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.20 (C3), p.250"
   },
   {
     "id": "hi-424",
@@ -8626,7 +9049,8 @@
       "SIO",
       "GIO"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch12 §3.25 (D), p.251"
   },
   {
     "id": "hi-425",
@@ -8648,7 +9072,8 @@
       "claims experience",
       "medical inflation"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §3.42 (E), p.253"
   },
   {
     "id": "hi-426",
@@ -8669,7 +9094,8 @@
       "proposal form",
       "medical examinations"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch12 §4.1, p.256"
   },
   {
     "id": "hi-427",
@@ -8692,7 +9118,8 @@
       "postponement",
       "decline"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch12 §6.3–6.6 (B), p.260–261"
   },
   {
     "id": "hi-428",
@@ -8712,7 +9139,8 @@
       "issue date",
       "30 January 2004"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 §1.1, p.272"
   },
   {
     "id": "hi-429",
@@ -8733,7 +9161,8 @@
       "section 72",
       "section 154(4)"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §1, p.275"
   },
   {
     "id": "hi-430",
@@ -8753,7 +9182,8 @@
       "totally and permanently disabled",
       "TPD"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §2(ii), p.276"
   },
   {
     "id": "hi-431",
@@ -8773,7 +9203,8 @@
       "Medisave-approved policy",
       "naming restriction"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §10A, p.280"
   },
   {
     "id": "hi-432",
@@ -8793,7 +9224,8 @@
       "integrated shield plan",
       "supplementary disability insurance"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §5 (Definitions), p.278"
   },
   {
     "id": "hi-433",
@@ -8814,7 +9246,8 @@
       "GCE O level",
       "English proficiency"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §5 (selected client), p.279"
   },
   {
     "id": "hi-434",
@@ -8834,7 +9267,8 @@
       "definition",
       "reinsurer excluded"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §5 (A&H insurance intermediary), p.277"
   },
   {
     "id": "hi-435",
@@ -8855,7 +9289,8 @@
       "renewal decline",
       "unilateral termination"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §17(e), p.282"
   },
   {
     "id": "hi-436",
@@ -8875,7 +9310,8 @@
       "Medisave-approved policy",
       "cannot close sale"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §24A, p.284"
   },
   {
     "id": "hi-437",
@@ -8896,7 +9332,8 @@
       "approved script",
       "record keeping"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §24 and §24A, p.283-284"
   },
   {
     "id": "hi-438",
@@ -8917,7 +9354,8 @@
       "exemption",
       "provision of advice"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §33-34 (Division 4 exclusions), p.288"
   },
   {
     "id": "hi-439",
@@ -8938,7 +9376,8 @@
       "10-point",
       "product summary"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §28B and §28C, p.287"
   },
   {
     "id": "hi-440",
@@ -8959,7 +9398,8 @@
       "Division 3",
       "direct insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §29(d), p.287"
   },
   {
     "id": "hi-441",
@@ -8980,7 +9420,8 @@
       "business address",
       "paragraph 14"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §14, p.280"
   },
   {
     "id": "hi-442",
@@ -9001,7 +9442,8 @@
       "premium-paying members",
       "paragraph 22"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §22, p.283"
   },
   {
     "id": "hi-443",
@@ -9021,7 +9463,8 @@
       "marketing materials",
       "warning"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §25(a), p.284"
   },
   {
     "id": "hi-444",
@@ -9041,7 +9484,8 @@
       "termination",
       "underwriting expenses"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §25(c), p.284"
   },
   {
     "id": "hi-445",
@@ -9062,7 +9506,8 @@
       "FA Act",
       "life policies"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §26, p.285"
   },
   {
     "id": "hi-446",
@@ -9082,7 +9527,8 @@
       "product summary",
       "industry standards"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §28, p.286"
   },
   {
     "id": "hi-447",
@@ -9103,7 +9549,8 @@
       "conditional letter of offer",
       "termination letter"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §28B, p.287"
   },
   {
     "id": "hi-448",
@@ -9124,7 +9571,8 @@
       "advance notice",
       "direct insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §29(d), p.287"
   },
   {
     "id": "hi-449",
@@ -9144,7 +9592,8 @@
       "disclosure obligations",
       "direct insurer"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §29, p.287"
   },
   {
     "id": "hi-450",
@@ -9164,7 +9613,8 @@
       "provision of advice",
       "health policy"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §30, p.288"
   },
   {
     "id": "hi-451",
@@ -9186,7 +9636,8 @@
       "financial situation",
       "needs"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §31, p.288"
   },
   {
     "id": "hi-452",
@@ -9207,7 +9658,8 @@
       "information collection",
       "individual policy owner"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §35, p.288-289"
   },
   {
     "id": "hi-453",
@@ -9231,7 +9683,8 @@
       "income",
       "occupation"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §36(b), p.289"
   },
   {
     "id": "hi-454",
@@ -9251,7 +9704,8 @@
       "documentation",
       "suitability responsibility"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §41, p.290"
   },
   {
     "id": "hi-455",
@@ -9272,7 +9726,8 @@
       "benefit level",
       "cost comparison"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §44(c), p.290"
   },
   {
     "id": "hi-456",
@@ -9293,7 +9748,8 @@
       "non-mandatory",
       "product disclosure"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §52 (Part II), p.291-292"
   },
   {
     "id": "hi-457",
@@ -9315,7 +9771,8 @@
       "unusual trends",
       "long-term policies"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §57, p.293"
   },
   {
     "id": "hi-458",
@@ -9335,7 +9792,8 @@
       "integrated shield plan",
       "MediShield Life"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §28A / Appendix A-5, p.298-299"
   },
   {
     "id": "hi-459",
@@ -9355,7 +9813,8 @@
       "switching",
       "health declaration"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A Appendix A-6 §26, p.299"
   },
   {
     "id": "hi-460",
@@ -9375,7 +9834,8 @@
       "hospital ward class",
       "needs analysis"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §35(a)(iii), p.288"
   },
   {
     "id": "hi-461",
@@ -9395,7 +9855,8 @@
       "documentation",
       "suitability"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §41, p.290"
   },
   {
     "id": "hi-462",
@@ -9415,7 +9876,8 @@
       "Medisave-approved",
       "naming restriction"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §10A, p.280"
   },
   {
     "id": "hi-463",
@@ -9435,7 +9897,8 @@
       "detrimental",
       "replacement policy"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A §44, p.290"
   },
   {
     "id": "hi-464",
@@ -9455,7 +9918,8 @@
       "Times New Roman",
       "product summary"
     ],
-    "difficulty": 1
+    "difficulty": 1,
+    "source": "Ch13 Appendix 13A §28B and §28C, p.287"
   },
   {
     "id": "hi-465",
@@ -9475,7 +9939,8 @@
       "best practice",
       "controls"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §57 (Part II), p.293"
   },
   {
     "id": "hi-466",
@@ -9495,7 +9960,8 @@
       "MediShield Life",
       "continuous coverage"
     ],
-    "difficulty": 2
+    "difficulty": 2,
+    "source": "Ch13 Appendix 13A Appendix A-6 §25, p.299"
   },
   {
     "id": "hi-467",
@@ -9515,6 +9981,7 @@
       "30 days notice",
       "advance disclosure"
     ],
-    "difficulty": 3
+    "difficulty": 3,
+    "source": "Ch13 Appendix 13A §29(d), p.287"
   }
 ]
