@@ -34,7 +34,7 @@
 }
 .mode-topic-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: var(--sp-sm);
 }
 
@@ -176,11 +176,17 @@
     width: 100%;
   }
 
-  /* ── Mode select: 2-column card grid (already 2-col on mobile, just add gap) ── */
+  /* ── Mode select: tablet+ layout ── */
   .mode-select-grid {
     gap: var(--sp-sm);
   }
   .mode-topic-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-sm);
+  }
+  .module-card__body {
+    flex-direction: row;
+    align-items: baseline;
     gap: var(--sp-sm);
   }
 

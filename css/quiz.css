@@ -552,9 +552,13 @@ body:has(.exam-timer) #app {
 
 .qbank-bulk {
   display: flex;
-  gap: 6px;
+  gap: 4px;
   flex-wrap: wrap;
   margin-bottom: var(--sp-sm);
+}
+.qbank-bulk .btn {
+  padding: 4px 10px;
+  font-size: 0.75rem;
 }
 
 .qbank-list {

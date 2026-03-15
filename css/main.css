@@ -253,8 +253,8 @@ h3 .i18n-sub { display: none !important; }
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
 .module-card__badge { flex-shrink: 0; }
-.module-card__body { flex: 1; min-width: 0; display: flex; align-items: baseline; gap: var(--sp-sm); }
-.module-card__name { font-weight: 700; font-size: 0.95rem; color: var(--c-text); min-width: 16em; flex-shrink: 0; }
+.module-card__body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.module-card__name { font-weight: 700; font-size: 0.95rem; color: var(--c-text); }
 .module-card__detail { color: var(--c-text-secondary); font-size: 0.8rem; }
 @media (hover: hover) {
   .module-card:hover {
@@ -351,11 +351,11 @@ h3 .i18n-sub { display: none !important; }
 
 /* ===== Page Transition (#1) ===== */
 #app {
-  animation: pageFadeIn 0.25s ease;
+  animation: pageFadeIn 0.25s ease forwards;
 }
 @keyframes pageFadeIn {
   from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: translateY(0); }
+  to { opacity: 1; transform: none; }
 }
 
 /* ===== Card Entrance Animation (#8) ===== */
@@ -563,7 +563,7 @@ h3 .i18n-sub { display: none !important; }
 .home-sakura-fixed,
 .home-trivia-fixed {
   position: fixed;
-  bottom: 0;
+  bottom: env(safe-area-inset-bottom, 0);
   left: 0;
   right: 0;
   padding: var(--sp-md);
