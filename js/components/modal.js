@@ -18,7 +18,7 @@ export function showModal({ title, body, actions = [] }) {
   if (actions.length) {
     const actionsEl = el('div', { className: 'modal__actions' });
     for (const { label, cls = 'btn', handler } of actions) {
-      actionsEl.appendChild(el('button', { className: cls, onClick: () => { dismiss(); handler?.(); } }, label));
+      actionsEl.appendChild(el('button', { className: cls, onClick: () => { handler?.(); dismiss(); } }, label));
     }
     modal.appendChild(actionsEl);
   }
