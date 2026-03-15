@@ -125,6 +125,20 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
   cursor: pointer;
   transition: color var(--transition);
 }
+/* triText inside compact UI elements: hide sub-annotation row to prevent size bloat.
+   Use !important to beat [data-lang] .i18n-wrap padding rules in themes.css */
+.btn--back .i18n-wrap,
+.btn .i18n-wrap,
+.seg-control__item .i18n-wrap,
+h1 .i18n-wrap,
+h2 .i18n-wrap,
+h3 .i18n-wrap { padding: 0 !important; }
+.btn--back .i18n-sub,
+.btn .i18n-sub,
+.seg-control__item .i18n-sub,
+h1 .i18n-sub,
+h2 .i18n-sub,
+h3 .i18n-sub { display: none !important; }
 @media (hover: hover) {
   .btn--back:hover { color: var(--c-accent); }
 }
