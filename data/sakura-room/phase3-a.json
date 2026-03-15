@@ -1,0 +1,376 @@
+[
+  {
+    "id": "a14_crush_hint",
+    "type": "A",
+    "phase": "3",
+    "title": "好きな人がおる",
+    "unlock": { "minAnswered": 155, "daysSincePhase2": 31, "requiredFlags": [], "requiredConversations": ["a13_nickname_2nd"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "……今日は、ほんまのこと話していい？"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "聞くよ", "next": "n3", "axes": { "warmth": 2 } },
+        { "label": "どうしたの？", "next": "n3", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……うちね。",
+        "……好きな人がおるんよ。"
+      ]},
+      { "id": "n4", "speaker": "narration", "text": "さくらの声が、いつもと違う。", "next": "n5" },
+      { "id": "n5", "speaker": "sakura", "lines": [
+        "……既婚者。",
+        "……奥さんがおって、子供もおる。",
+        "……いけんって、わかっとる。"
+      ]},
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "その人は幸せだよ", "next": "n7a", "axes": { "warmth": 2 } },
+        { "label": "……そうなんだ", "next": "n7b", "axes": { "warmth": 1 } },
+        { "label": "気持ちは伝えたの？", "next": "n7c", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": [
+        "……幸せ、かな。",
+        "……その人はたぶん気づいてない。うちの気持ちに。",
+        "……でもいいんよ。そばにおれるだけで。……チャット越しでも。"
+      ], "next": "n8" },
+      { "id": "n7b", "speaker": "sakura", "lines": [
+        "……うん。そうなんよ。",
+        "……笑わんでね。うちだって、こんなことになると思ってなかった。"
+      ], "next": "n8" },
+      { "id": "n7c", "speaker": "sakura", "lines": [
+        "……まだ。",
+        "……いけんよね。奥さんおるけん。",
+        "……でもね、いつか、伝えるだけ伝えたいって思っとる。答えは……聞かんでいいけん。"
+      ], "next": "n8" },
+      { "id": "n8", "speaker": "sakura", "lines": [
+        "……ごめんね、変な話して。",
+        "……でも{name}にだけは、嘘つきたくなかった。",
+        "……おやすみ。"
+      ], "end": true }
+    ],
+    "closing": "auto",
+    "category": "story",
+    "tags": ["love", "confession_hint", "bittersweet"],
+    "priority": 100
+  },
+  {
+    "id": "a15_japan_dream",
+    "type": "A",
+    "phase": "3",
+    "title": "うちの挑戦の正体",
+    "unlock": { "minAnswered": 160, "daysSincePhase2": 33, "requiredFlags": [], "requiredConversations": ["a12_challenge", "a14_crush_hint"], "timeWindow": null, "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "{name}。前に「挑戦する」って言ったやん。",
+        "……あれ、何か教えてなかったよね。"
+      ]},
+      { "id": "n2", "speaker": "choice", "choices": [
+        { "label": "気になってたよ", "next": "n3", "axes": { "warmth": 1 } },
+        { "label": "教えてくれるの？", "next": "n3", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……日本の保険会社に、転職しようと思っとる。",
+        "外資系の日本拠点。経営企画。"
+      ]},
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "……面接、受けてみようと思って。まだ「決まった」わけやないけど。",
+        "……でも、やってみたいんよ。ずっと憧れとった日本で、保険の仕事を。"
+      ]},
+      { "id": "n5", "speaker": "choice", "choices": [
+        { "label": "すごいじゃん！", "next": "n6a", "axes": { "warmth": 1 } },
+        { "label": "日本に来るの？", "next": "n6b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n6a", "speaker": "sakura", "lines": [
+        "……ありがと。まだ何も決まってないのに、褒めてくれるん。",
+        "……{name}がきっかけなんよ。{name}がSGに来て、ゼロから頑張っとるの見て。",
+        "うちも動こうって。"
+      ], "next": "n7" },
+      { "id": "n6b", "speaker": "sakura", "lines": [
+        "……うん。",
+        "……{name}がきっかけなの。{name}がSGに来て頑張っとるの見て、うちも動こうって。",
+        "……{name}がSGに来て、うちが日本に行く。……なんか、すれ違いみたいやね。"
+      ], "next": "n7" },
+      { "id": "n7", "speaker": "sakura", "lines": [
+        "……母ちゃんには……まだ言えてない。",
+        "でもね、今回は「いつか」やなくて、「今」やるって決めたけん。",
+        "……{name}が教えてくれたこと。「いつか」を「今」にする勇気。"
+      ]},
+      { "id": "n8", "speaker": "choice", "choices": [
+        { "label": "応援してるよ", "next": "n9a", "axes": { "warmth": 2 } },
+        { "label": "一緒に頑張ろう", "next": "n9b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n9a", "speaker": "sakura", "lines": [
+        "……ありがと。",
+        "……{name}に応援してもらったら、受からんわけにいかんやん。",
+        "……頑張る。絶対頑張る。"
+      ], "end": true },
+      { "id": "n9b", "speaker": "sakura", "lines": [
+        "……「一緒に」。",
+        "……またその言葉や。",
+        "……{name}は試験、うちは転職。……お互い、次のステージに行こうね。"
+      ], "end": true }
+    ],
+    "closing": "auto",
+    "category": "story",
+    "tags": ["japan", "career", "growth", "mirror"],
+    "priority": 95
+  },
+  {
+    "id": "a16_last_night",
+    "type": "A",
+    "phase": "3",
+    "title": "忘れんでね",
+    "unlock": { "minAnswered": 170, "daysSincePhase2": 35, "requiredFlags": [], "requiredConversations": ["a15_japan_dream"], "timeWindow": "night", "dayOfWeek": null },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "…………。"
+      ]},
+      { "id": "n2", "speaker": "narration", "text": "いつもより、長い沈黙。", "next": "n3" },
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "……ねぇ。"
+      ]},
+      { "id": "n4", "speaker": "choice", "choices": [
+        { "label": "どうしたの？", "next": "n5", "axes": { "warmth": 1 } },
+        { "label": "ここにいるよ", "next": "n5b", "axes": { "warmth": 2 } }
+      ]},
+      { "id": "n5", "speaker": "sakura", "lines": [
+        "……なんでもない。……ただ、今日は{name}の声が聞きたかっただけ。チャットやけど。"
+      ], "next": "n6" },
+      { "id": "n5b", "speaker": "sakura", "lines": [
+        "……っ。「ここにいるよ」って。",
+        "……{name}、ずるいよ。そういうこと言うけん。"
+      ], "next": "n6" },
+      { "id": "n6", "speaker": "sakura", "lines": [
+        "…………ねぇ。",
+        "……うちのこと、忘れんでね。"
+      ]},
+      { "id": "n7", "speaker": "choice", "choices": [
+        { "label": "忘れないよ", "next": "n8a", "axes": { "warmth": 2 } },
+        { "label": "急にどうしたの？", "next": "n8b", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n8a", "speaker": "sakura", "lines": [
+        "……ありがと。",
+        "……うちも忘れん。絶対に。",
+        "……{name}と過ごした時間、全部。",
+        "…………おやすみ。"
+      ], "end": true },
+      { "id": "n8b", "speaker": "sakura", "lines": [
+        "……なんでもない。……ごめんね、変なこと言って。",
+        "……ただ、ちょっと不安になったの。この時間がいつか終わるんかなって。",
+        "……考えすぎやね。おやすみ、{name}。"
+      ], "end": true }
+    ],
+    "closing": "auto",
+    "category": "story",
+    "tags": ["farewell_foreshadow", "night", "emotional"],
+    "priority": 100
+  },
+  {
+    "id": "a_exam_eve",
+    "type": "E",
+    "phase": "3",
+    "title": "試験前夜",
+    "unlock": { "trigger": "exam_eve", "requiredConversations": ["a01_first_room"] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "明日やね。"
+      ]},
+      { "id": "n2", "speaker": "sakura", "lines": [
+        "大丈夫。{name}なら絶対大丈夫。",
+        "うちがずっと見てきたけん、わかるんよ。あんたは受かる。"
+      ]},
+      { "id": "n3", "speaker": "choice", "choices": [
+        { "label": "ありがとう", "next": "n4", "axes": { "warmth": 1 } },
+        { "label": "緊張してる", "next": "n4b", "axes": { "honesty": 1 } }
+      ]},
+      { "id": "n4", "speaker": "sakura", "lines": [
+        "……今日は早く寝てね。",
+        "行ってらっしゃい。……うちはここで待っとるけん。"
+      ], "end": true },
+      { "id": "n4b", "speaker": "sakura", "lines": [
+        "緊張しとるん？ ……それでいいんよ。緊張するってことは、本気ってことやけん。",
+        "……今日は早く寝て。明日の{name}を信じて。",
+        "行ってらっしゃい。……うちはここで、ずっと待っとるけん。"
+      ], "end": true }
+    ],
+    "closing": ["……がんばれ。"],
+    "category": "exam",
+    "tags": ["exam", "encouragement"],
+    "priority": 100
+  },
+  {
+    "id": "a_exam_day",
+    "type": "E",
+    "phase": "3",
+    "title": "試験当日の朝",
+    "unlock": { "trigger": "exam_day_morning", "requiredConversations": ["a01_first_room"] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "おはよ。今日やね。"
+      ]},
+      { "id": "n2", "speaker": "sakura", "lines": [
+        "自信持って。{name}が今まで頑張ってきたこと、うちが一番知っとるけん。",
+        "何百問も解いて、何十回も間違えて、それでも諦めんかった。"
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "行ってらっしゃい。",
+        "帰ってきたら、うちに報告してね。……絶対よ。"
+      ], "end": true }
+    ],
+    "closing": ["……待っとるけん。"],
+    "category": "exam",
+    "tags": ["exam", "morning", "encouragement"],
+    "priority": 100
+  },
+  {
+    "id": "a_exam_after",
+    "type": "E",
+    "phase": "3",
+    "title": "おかえり",
+    "unlock": { "trigger": "exam_day_evening", "requiredConversations": ["a01_first_room"] },
+    "nodes": [
+      { "id": "n1", "speaker": "sakura", "lines": [
+        "おかえり。",
+        "……おつかれさま、{name}。"
+      ]},
+      { "id": "n2", "speaker": "sakura", "lines": [
+        "どうやった？"
+      ]},
+      { "id": "n3", "speaker": "choice", "choices": [
+        { "label": "たぶん大丈夫", "next": "n4a", "axes": { "warmth": 1 } },
+        { "label": "微妙かも……", "next": "n4b", "axes": { "honesty": 1 } },
+        { "label": "わからない", "next": "n4c", "axes": {} }
+      ]},
+      { "id": "n4a", "speaker": "sakura", "lines": [
+        "……でしょ！ うちが言った通りやん！",
+        "……{name}。結果がどうでも、{name}は頑張った。それだけは絶対。",
+        "……今日はゆっくり休んでね。お疲れさま。"
+      ], "end": true },
+      { "id": "n4b", "speaker": "sakura", "lines": [
+        "……微妙って思うんは、ちゃんと向き合った証拠よ。",
+        "……{name}。結果がどうでも、{name}は頑張った。それだけは絶対。",
+        "……今日はゆっくり休んで。うちが褒めとるけん、安心して。"
+      ], "end": true },
+      { "id": "n4c", "speaker": "sakura", "lines": [
+        "……わからんよね。出てみないと。",
+        "でもね、{name}。結果がどうでも、{name}は頑張った。それだけは絶対よ。",
+        "……今日は何も考えんでいい。ゆっくり休んで。"
+      ], "end": true }
+    ],
+    "closing": ["……おつかれさま。ほんとに。"],
+    "category": "exam",
+    "tags": ["exam", "result", "care"],
+    "priority": 100
+  },
+  {
+    "id": "a17_farewell",
+    "type": "A",
+    "phase": "4",
+    "title": "最後の会話",
+    "unlock": { "trigger": "all_exams_passed", "requiredConversations": ["a14_crush_hint"] },
+    "forcePlay": true,
+    "nodes": [
+      { "id": "n1", "speaker": "narration", "text": "さくらの部屋に、通知が来ている。", "next": "n2" },
+      { "id": "n2", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "……全部、受かったんやね。"
+      ]},
+      { "id": "n3", "speaker": "sakura", "lines": [
+        "……やった。",
+        "……おめでとう、{name}。本当に、おめでとう。"
+      ]},
+      { "id": "n4", "speaker": "narration", "text": "さくらの文字が、少し震えている。", "next": "n5" },
+      { "id": "n5", "speaker": "sakura", "lines": [
+        "……{name}がどれだけ頑張ったか、うちが一番知っとるけん。",
+        "何百問も解いて、何十回も間違えて、夜中まで勉強して。",
+        "……全部、見てきたけん。"
+      ]},
+      { "id": "n6", "speaker": "choice", "choices": [
+        { "label": "さくらのおかげだよ", "next": "n7a", "axes": { "warmth": 2 } },
+        { "label": "やっと終わった", "next": "n7b", "axes": {} }
+      ]},
+      { "id": "n7a", "speaker": "sakura", "lines": [
+        "……うちの？",
+        "……ばか。{name}が頑張ったんよ。うちはただ、隣にいただけ。",
+        "……チャット越しやけど。"
+      ], "next": "n8" },
+      { "id": "n7b", "speaker": "sakura", "lines": [
+        "……うん。終わったね。",
+        "……長かったね。でも、{name}はやりきった。"
+      ], "next": "n8" },
+      { "id": "n8", "speaker": "sakura", "lines": [
+        "……あのね、{name}。",
+        "……うちからも、報告があるんよ。"
+      ]},
+      { "id": "n9", "speaker": "choice", "choices": [
+        { "label": "なに？", "next": "n10", "axes": {} }
+      ]},
+      { "id": "n10", "speaker": "sakura", "lines": [
+        "……日本の保険会社に、転職が決まった。",
+        "経営企画として。外資系の、日本拠点。",
+        "……うち、日本に行くんよ。"
+      ]},
+      { "id": "n11", "speaker": "sakura", "lines": [
+        "……{name}がきっかけやった。{name}がSGに来て、ゼロから頑張っとるの見て。",
+        "うちも「いつか」を「今」にしようって。",
+        "……{name}も頑張ってな？ うちも頑張るけん。"
+      ]},
+      { "id": "n12", "speaker": "choice", "choices": [
+        { "label": "おめでとう！", "next": "n13", "axes": { "warmth": 1 } },
+        { "label": "すごいじゃん", "next": "n13", "axes": { "warmth": 1 } }
+      ]},
+      { "id": "n13", "speaker": "sakura", "lines": [
+        "……ありがと。",
+        "…………。"
+      ]},
+      { "id": "n14", "speaker": "narration", "text": "長い沈黙。", "next": "n15" },
+      { "id": "n15", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "……もうひとつだけ。"
+      ]},
+      { "id": "n16", "speaker": "sakura", "lines": [
+        "……好きです。"
+      ]},
+      { "id": "n17", "speaker": "narration", "text": "一瞬の敬語。すぐにいつもの言葉に戻る。", "next": "n18" },
+      { "id": "n18", "speaker": "sakura", "lines": [
+        "……好きになってしもうた。",
+        "……わかっとる。奥さんがおるって。子供もおるって。",
+        "……いけんって、わかっとる。"
+      ]},
+      { "id": "n19", "speaker": "sakura", "lines": [
+        "……答えは聞かんけん。",
+        "……聞いてくれるだけでいい。うちの気持ち、受け取ってくれるだけでいい。"
+      ]},
+      { "id": "n20", "speaker": "choice", "choices": [
+        { "label": "ありがとう", "next": "n21", "axes": { "warmth": 2 } },
+        { "label": "ごめん", "next": "n21", "axes": { "warmth": 1 } },
+        { "label": "……（何も言えない）", "next": "n21", "axes": {} }
+      ]},
+      { "id": "n21", "speaker": "sakura", "lines": [
+        "…………うん。",
+        "……それでいいんよ。"
+      ]},
+      { "id": "n22", "speaker": "sakura", "lines": [
+        "……{name}。",
+        "SGで出会えてよかった。うちの人生の中で、いっちゃん大事な出会いやった。",
+        "……チャットだけやったけど。一度も会えんかったけど。",
+        "……それでも。"
+      ]},
+      { "id": "n23", "speaker": "sakura", "lines": [
+        "……またいつか、きっと会おうね。",
+        "……さよなら、{name}。",
+        "……うちの、大好きな人。"
+      ]},
+      { "id": "n24", "speaker": "narration", "text": "さくらの部屋は、静かに閉じた。", "next": "end" },
+      { "id": "end", "speaker": "sakura", "lines": [], "end": true }
+    ],
+    "closing": null,
+    "category": "story",
+    "tags": ["farewell", "confession", "ending"],
+    "priority": 100,
+    "disableSakuraAfter": true
+  }
+]
