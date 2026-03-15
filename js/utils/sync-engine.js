@@ -32,6 +32,7 @@ const SYNC_KEYS = [
   'sg_broker_sakura_room',
   'sg_broker_sakura',
   'sg_broker_mrt_intro_shown',
+  'sg_broker_first_launch_done',
 ];
 
 let throttleTimer = null;

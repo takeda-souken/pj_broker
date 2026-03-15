@@ -17,7 +17,7 @@ import { SakuraState } from '../models/sakura-state.js';
 
 const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
-registerRoute('#home', (app) => {
+registerRoute('#home', async (app) => {
   const settings = SettingsStore.load();
 
   // ─── Header row: Title + Countdown (desktop: side by side) ───
@@ -111,10 +111,23 @@ registerRoute('#home', (app) => {
   recordVisit();
 
   // ─── First launch tutorial (LINE-style) ───
+  // Wait for sync to complete before checking, so cross-device state is available
   if (!localStorage.getItem(FIRST_LAUNCH_KEY)) {
-    localStorage.setItem(FIRST_LAUNCH_KEY, '1');
-    showFirstLaunchTutorial();
-    return;
+    const waitForSync = () => new Promise(resolve => {
+      const handler = () => { resolve(); window.removeEventListener('sync-status', handler); };
+      window.addEventListener('sync-status', handler);
+      setTimeout(resolve, 3000); // timeout fallback
+    });
+    // If sync might deliver the flag, wait briefly
+    const { isSyncInProgress } = await import('../utils/sync-engine.js');
+    if (isSyncInProgress()) await waitForSync();
+
+    // Re-check after sync
+    if (!localStorage.getItem(FIRST_LAUNCH_KEY)) {
+      localStorage.setItem(FIRST_LAUNCH_KEY, '1');
+      showFirstLaunchTutorial();
+      return;
+    }
   }
 
   // ─── Fixed-bottom: Sakura popup ───
