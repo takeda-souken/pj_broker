@@ -41,8 +41,8 @@ const ACHIEVEMENTS = [
   { id: 'hundred_correct', name: 'Century', nameJA: 'センチュリー', desc: 'Answer 100 questions correctly', icon: '\uD83D\uDCAA', check: (g) => g.totalCorrect >= 100 },
   { id: 'five_hundred', name: 'Marathon', nameJA: 'マラソン', desc: 'Answer 500 questions total', icon: '\uD83C\uDFC3', check: (g) => g.totalAnswered >= 500 },
   { id: 'thousand', name: 'Iron Will', nameJA: '鉄の意志', desc: 'Answer 1000 questions total', icon: '\uD83D\uDCAE', check: (g) => g.totalAnswered >= 1000 },
-  { id: 'daily_streak_7', name: 'Week Warrior', nameJA: '一週間の戦士', desc: 'Study 7 days in a row', icon: '\uD83D\uDCC6', check: (g) => g.longestDailyStreak >= 7 },
-  { id: 'daily_streak_30', name: 'Monthly Master', nameJA: '月間マスター', desc: 'Study 30 days in a row', icon: '\uD83D\uDCC5', check: (g) => g.longestDailyStreak >= 30 },
+  { id: 'daily_streak_3', name: 'Three-Day Hustle', nameJA: '三日坊主突破', desc: 'Study 3 days in a row', icon: '\uD83D\uDCC6', check: (g) => g.longestDailyStreak >= 3 },
+  { id: 'daily_streak_7', name: 'Week Warrior', nameJA: '一週間の戦士', desc: 'Study 7 days in a row', icon: '\uD83D\uDCC5', check: (g) => g.longestDailyStreak >= 7 },
   { id: 'all_questions', name: 'Encyclopedia', nameJA: '百科事典', desc: 'Answer every question correctly at least once', icon: '\uD83D\uDCD6', check: (g) => g._totalUniqueCorrect >= (g._totalQuestions || 9999) },
   { id: 'true_completionist', name: 'True Completionist', nameJA: '真のコンプリート', desc: 'Unlock every other achievement', icon: '\uD83D\uDC51', check: (g) => g._otherAchievementsComplete },
 ];
@@ -99,6 +99,7 @@ export class GamificationStore {
     if (module === 'hi') g.hiAttempts = (g.hiAttempts || 0) + 1;
 
     this.save(g);
+    this.checkNewAchievements(g);
     return g;
   }
 
@@ -117,6 +118,7 @@ export class GamificationStore {
     g.topicsMastered++;
     g.xp += XP_PER_MASTERY;
     this.save(g);
+    return this.checkNewAchievements(g);
   }
 
   static setDailyGoal(n) {

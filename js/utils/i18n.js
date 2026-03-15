@@ -76,6 +76,7 @@ const JA = {
   'mode.mockComgiSub': '50問 / 75分 — 本番シミュレーション',
   'mode.mockPgiSub': '50問 / 75分 — 本番シミュレーション',
   'mode.mockHiSub': '50問 / 75分 — 本番シミュレーション',
+  'mode.moduleSummary': '{0}問 · {1}トピック',
   'mode.byTopic': 'トピック別練習',
   'mode.questions': '{0}問',
   'mode.accuracyPct': '正答率{0}%',
@@ -183,7 +184,10 @@ const JA = {
   'records.topic': 'トピック',
   'records.acc': '正答率',
   'records.streak': '連続',
+  'records.questions': '問題数',
   'records.moduleSummary': '{0}回 · {1}% · {2}個習得',
+  'records.moduleSummaryWithTotal': '{0}問中 {1}回答 · {2}% · {3}個習得',
+  'records.topicQuestions': '問題数',
   'records.trophies': 'トロフィー',
   'records.studyDays': '学習日数',
   'records.bestDailyStreak': '最長連続 (日)',
@@ -207,8 +211,8 @@ const JA = {
   'ach.hundred_correct': '100問正解',
   'ach.five_hundred': '合計500問に回答',
   'ach.thousand': '合計1000問に回答',
+  'ach.daily_streak_3': '3日間連続で学習',
   'ach.daily_streak_7': '7日間連続で学習',
-  'ach.daily_streak_30': '30日間連続で学習',
   'ach.all_questions': '全問を1回以上正解',
   'ach.true_completionist': '他の全実績を解除',
 
@@ -245,6 +249,7 @@ const JA = {
   'module.comgiDetail': '50問 \u2022 75分 \u2022 70%で合格',
   'module.pgiDetail': '50問 \u2022 75分 \u2022 70%で合格',
   'module.hiDetail': '50問 \u2022 75分 \u2022 70%で合格',
+  'module.questionCount': '問題プール {0}問',
 
   // Quiz extras
   'quiz.skip': 'スキップ',

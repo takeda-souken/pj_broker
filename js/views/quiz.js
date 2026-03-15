@@ -71,6 +71,7 @@ registerRoute('#quiz', async (app) => {
   }
 
   const deferredLineIntros = []; // MRT intros deferred until mock exam ends
+  const midQuizAchievements = []; // Achievements unlocked mid-quiz (mastery etc.)
 
   renderQuestion(app, session, settings, deferredLineIntros);
 
@@ -344,7 +345,8 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
       if (topicStats && topicStats.mastered && !wasMasteredBefore) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
-        GamificationStore.addMastery();
+        const masteryAch = GamificationStore.addMastery();
+        if (masteryAch.length > 0) midQuizAchievements.push(...masteryAch);
         pendingAnimations.push(showMerlionCelebration({ type: 'mastered', topicName: q.topic }));
       } else if (topicStats && topicStats.streak >= 10 && topicStats.streak % 10 === 0) {
         pendingAnimations.push(showMerlionCelebration({ type: 'streak', streak: topicStats.streak }));
@@ -354,7 +356,8 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
       if (topicStats && topicStats.mastered && !wasMasteredBefore) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
-        GamificationStore.addMastery();
+        const masteryAch = GamificationStore.addMastery();
+        if (masteryAch.length > 0) midQuizAchievements.push(...masteryAch);
       }
     }
 
@@ -714,7 +717,9 @@ async function showResults(app, session, deferredLineIntros = []) {
   }
 
   // Complete quiz in gamification (#33)
-  const newAchievements = GamificationStore.completeQuiz(results.accuracy, session.mode);
+  const endAchievements = GamificationStore.completeQuiz(results.accuracy, session.mode);
+  // Merge mid-quiz achievements (mastery etc.) with end-of-quiz achievements
+  const newAchievements = [...midQuizAchievements, ...endAchievements];
   if (newAchievements.length > 0) {
     results.newAchievements = newAchievements.map(a => ({ name: a.name, nameJA: a.nameJA, icon: a.icon, desc: a.desc }));
   }
