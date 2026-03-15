@@ -584,7 +584,6 @@ h3 .i18n-sub { display: none !important; }
 .home-trivia-fixed--visible,
 .sakura-bottom-popup--visible {
   opacity: 1;
-  pointer-events: auto;
 }
 .home-sakura-fixed--hiding,
 .home-trivia-fixed--exit,
