@@ -73,7 +73,7 @@ registerRoute('#result', (app) => {
   passDiv.appendChild(triText(passKey, passFallback));
   app.appendChild(passDiv);
 
-  // Sakura result message — inline below score, show once per result
+  // Sakura result message — show once per result, skip on language-switch re-render
   const sakuraKey = 'sg_broker_result_sakura_shown';
   if (!sessionStorage.getItem(sakuraKey)) {
     sessionStorage.setItem(sakuraKey, '1');
@@ -84,12 +84,20 @@ registerRoute('#result', (app) => {
       : 'sessionEnd';
     const sakuraMsg = getSupporterMessage(sakuraEvent);
     if (sakuraMsg) {
-      const bubble = createSupporterBubble(sakuraMsg, { typing: true });
-      if (bubble) {
-        const sakuraWrap = el('div', { className: 'result-sakura mt-sm' });
-        sakuraWrap.appendChild(bubble);
-        app.appendChild(sakuraWrap);
-      }
+      setTimeout(() => {
+        const container = el('div', { className: 'home-sakura-fixed' });
+        const bubble = createSupporterBubble(sakuraMsg, { typing: true });
+        if (bubble) {
+          container.appendChild(bubble);
+          document.body.appendChild(container);
+          requestAnimationFrame(() => container.classList.add('home-sakura-fixed--visible'));
+          container.addEventListener('click', () => {
+            container.classList.remove('home-sakura-fixed--visible');
+            container.classList.add('home-sakura-fixed--hiding');
+            setTimeout(() => container.remove(), 400);
+          });
+        }
+      }, 800);
     }
   }
 
