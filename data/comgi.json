@@ -15688,7 +15688,15 @@
       "通常のオフィス業務中に受けた傷害",
       "公道の歩道を歩行中に受けた傷害"
     ],
-    "explanationJP": "自傷行為、自殺または自殺未遂（正気か否かを問わず）は団体傷害保険の標準的な免責事由である。これは事故に起因すると見なされない傷害のカテゴリーに該当する。"
+    "explanationJP": "自傷行為、自殺または自殺未遂（正気か否かを問わず）は団体傷害保険の標準的な免責事由である。これは事故に起因すると見なされない傷害のカテゴリーに該当する。",
+    "jpComparison": "日本の傷害保険約款でも自殺・自傷行為は免責。ただし日本では「精神障害中の自殺」について判例で争いがある（心神喪失中は免責適用しないケースも）。SGのGPAは\"sane or insane\"と明記して一律免責にしており、より厳格。",
+    "jpComparisonEN": "(JP) Japanese PA policy terms also exclude suicide/self-inflicted injury. However, in Japan there is case law debate about suicide during mental illness (some courts rule the exclusion does not apply when the insured lacks mental capacity). SG GPA explicitly states \"sane or insane\", making it stricter and clearer.",
+    "keywords": [
+      "GPA exclusion",
+      "self-inflicted injury",
+      "suicide",
+      "sane or insane"
+    ]
   },
   {
     "id": "comgi-502",
@@ -15710,7 +15718,15 @@
       "週末のレクリエーションサッカー",
       "定期商業航空便での移動"
     ],
-    "explanationJP": "犯罪行為または違法行為の実行もしくは未遂、および飲酒または薬物の影響下での機械装置の運転・操作に起因する傷害は、公序良俗に反するものとして免責となる。"
+    "explanationJP": "犯罪行為または違法行為の実行もしくは未遂、および飲酒または薬物の影響下での機械装置の運転・操作に起因する傷害は、公序良俗に反するものとして免責となる。",
+    "jpComparison": "日本の傷害保険でも犯罪行為・違法行為中の事故は免責（傷害保険普通保険約款）。飲酒運転も同様。SGも同じく公序良俗（public policy）違反として免責。日星ほぼ同じ扱い。",
+    "jpComparisonEN": "(JP) Japanese PA insurance also excludes injuries during criminal/unlawful acts (standard PA policy terms) and drunk driving. SG similarly excludes these as against public policy. Treatment is essentially the same in both countries.",
+    "keywords": [
+      "public policy exclusion",
+      "criminal act",
+      "unlawful act",
+      "DUI"
+    ]
   },
   {
     "id": "comgi-503",
@@ -15732,7 +15748,15 @@
       "公園でのジョギング",
       "レクリエーションセンターでのバドミントン"
     ],
-    "explanationJP": "一般的に免責となる危険活動には、スカイダイビング、登山、あらゆる種類のレースでの運転・搭乗、商業航空便の有料旅客以外の航空活動・自家用飛行が含まれる。常勤の警察官・軍人の任務も通常免責となる。"
+    "explanationJP": "一般的に免責となる危険活動には、スカイダイビング、登山、あらゆる種類のレースでの運転・搭乗、商業航空便の有料旅客以外の航空活動・自家用飛行が含まれる。常勤の警察官・軍人の任務も通常免責となる。",
+    "jpComparison": "日本の傷害保険でも危険なスポーツ（スカイダイビング、ハンググライダー等）は特別割増保険料が必要か免責。SGのGPAも同様にhazardous activitiesを免責。ただし日本では「山岳登はん」の定義が約款で細かく規定される（ピッケル・ザイル使用等）のに対し、SGは\"mountaineering\"と広めに免責。",
+    "jpComparisonEN": "(JP) Japanese PA insurance also requires special premium surcharges or excludes hazardous sports (skydiving, hang gliding, etc.). SG GPA similarly excludes hazardous activities. However, Japan defines \"mountain climbing\" more precisely in policy terms (e.g., requiring use of ice axes/ropes), while SG uses the broader term \"mountaineering\".",
+    "keywords": [
+      "hazardous activities",
+      "sky diving",
+      "mountaineering",
+      "racing"
+    ]
   },
   {
     "id": "comgi-504",
@@ -15754,7 +15778,15 @@
       "90日以内",
       "14日以内"
     ],
-    "explanationJP": "保険金請求通知は、事故発生後の合理的な期間内（通常30日以内）に保険者に行わなければならない。適時の通知を行わなかったことは、合理的に不可能であった場合には請求を自動的に無効にしない。注：教科書はこの数字に「通常」を使用しており、実際の条件は保険者により異なる場合がある。"
+    "explanationJP": "保険金請求通知は、事故発生後の合理的な期間内（通常30日以内）に保険者に行わなければならない。適時の通知を行わなかったことは、合理的に不可能であった場合には請求を自動的に無効にしない。注：教科書はこの数字に「通常」を使用しており、実際の条件は保険者により異なる場合がある。",
+    "jpComparison": "日本の傷害保険では事故発生日から30日以内の通知が一般的（保険法による「遅滞なく」の解釈）。SGも同じく30日が標準。日本では保険法95条で「遅滞なく」と定めるが実務上30日。合理的理由があれば遅延も認められる点も日星共通。",
+    "jpComparisonEN": "(JP) Japanese PA insurance also generally requires claim notification within 30 days (interpretation of \"without delay\" under the Insurance Act). SG also uses 30 days as standard. Japan Insurance Act Art.95 says \"without delay\" but practice is 30 days. Both SG and JP allow late notice if reasonable cause exists.",
+    "keywords": [
+      "notice of claim",
+      "30 days",
+      "claim notification",
+      "reasonable period"
+    ]
   },
   {
     "id": "comgi-505",
@@ -15776,7 +15808,15 @@
       "被保険者の自宅訪問",
       "雇用主のオフィスの職場検査"
     ],
-    "explanationJP": "保険者は、事故が傷害を引き起こしたこと、傷害が就業を妨げていること、または障害の状態が申告通りであることを確認するために、自己の費用で医学的検査を手配する権利（義務ではない）を有する。また、法律で禁じられていない限り剖検を行う権利も有する。"
+    "explanationJP": "保険者は、事故が傷害を引き起こしたこと、傷害が就業を妨げていること、または障害の状態が申告通りであることを確認するために、自己の費用で医学的検査を手配する権利（義務ではない）を有する。また、法律で禁じられていない限り剖検を行う権利も有する。",
+    "jpComparison": "日本の保険会社も保険金請求時に医師の診断書・検査を求める権利がある（保険法による）。剖検については日本では司法解剖・行政解剖の制度があり保険会社が独自に手配するケースは稀。SGでは約款上、法で禁止されない限り保険者が剖検を手配できる点が特徴的。",
+    "jpComparisonEN": "(JP) Japanese insurers also have the right to request medical certificates and examinations at claims stage (under the Insurance Act). For autopsies, Japan has judicial/administrative autopsy systems and it is rare for insurers to arrange their own. SG is distinctive in that the policy allows insurers to arrange post-mortem examinations unless prohibited by law.",
+    "keywords": [
+      "medical examination",
+      "post-mortem",
+      "insurer rights",
+      "claim verification"
+    ]
   },
   {
     "id": "comgi-506",
@@ -15798,7 +15838,15 @@
       "企業の年次財務報告書の写し",
       "全従業員の個人口座情報の一覧"
     ],
-    "explanationJP": "規制および業界ガイドラインに基づき、団体傷害保険を含む特定の団体保険の見積依頼には、記入済みの団体保険ファクトファインディング（GIFF）フォームを添付しなければならない。これは基本的な引受審査情報の収集と推奨事項の記録の手段となる。"
+    "explanationJP": "規制および業界ガイドラインに基づき、団体傷害保険を含む特定の団体保険の見積依頼には、記入済みの団体保険ファクトファインディング（GIFF）フォームを添付しなければならない。これは基本的な引受審査情報の収集と推奨事項の記録の手段となる。",
+    "jpComparison": "日本の団体保険では「団体保険引受基準」に基づく告知書・申込書が必要だが、SGのようなGIFF（Group Insurance Fact-Finding）フォームという統一書式は存在しない。SGではGIAがGIFFを標準化しており、引受情報の収集が制度化されている点が異なる。",
+    "jpComparisonEN": "(JP) Japanese group insurance requires disclosure forms based on group insurance underwriting standards, but there is no standardized form like SG GIFF (Group Insurance Fact-Finding). In SG, GIA has standardized the GIFF as a unified format for collecting underwriting information — a more institutionalized approach.",
+    "keywords": [
+      "GIFF Form",
+      "underwriting information",
+      "group insurance",
+      "regulatory guidelines"
+    ]
   },
   {
     "id": "comgi-507",
@@ -15820,7 +15868,15 @@
       "元の保険金額は変更されない",
       "損失を補償するために保険金額が2倍になる"
     ],
-    "explanationJP": "支払われた給付額が全面的な資本保険金額に満たない場合、当該被保険者の保険は継続するが、残期間中の保険金額は元の資本保険金額から支払われた給付額を差し引いた額となる。"
+    "explanationJP": "支払われた給付額が全面的な資本保険金額に満たない場合、当該被保険者の保険は継続するが、残期間中の保険金額は元の資本保険金額から支払われた給付額を差し引いた額となる。",
+    "jpComparison": "日本の傷害保険では部分給付後の保険金額減額は約款で明示。SGも同じ仕組み。例えば指1本の後遺障害で一部支払い→残りの保険期間はその分だけ保険金額が減る。日星ともにreinstatement（復元）規定がない点が物保険と異なる。",
+    "jpComparisonEN": "(JP) Japanese PA insurance also explicitly reduces the sum insured after partial benefit payment in policy terms. SG uses the same mechanism. E.g., partial payment for loss of a finger reduces the remaining sum insured. Unlike property insurance, neither SG nor JP PA policies have reinstatement provisions.",
+    "keywords": [
+      "partial benefit",
+      "sum insured reduction",
+      "capital sum",
+      "disability payment"
+    ]
   },
   {
     "id": "comgi-508",
@@ -15842,7 +15898,15 @@
       "被保険者に48時間連絡が取れなかった場合",
       "被保険者が予定されていた健康診断を欠席した場合"
     ],
-    "explanationJP": "教科書（§4.16(e)）によると、失踪給付は「通常、被保険者が搭乗していた航空機または船舶の事故に関連する」もので、一定期間（例：1年）経過後も遺体が発見されない場合に適用される。見本約款（Appendix 9A Part III §2）はより広い表現で、不慮の身体傷害により死亡したと合理的に信じられるあらゆる失踪を対象とし、365日の待機期間を設定している。"
+    "explanationJP": "教科書（§4.16(e)）によると、失踪給付は「通常、被保険者が搭乗していた航空機または船舶の事故に関連する」もので、一定期間（例：1年）経過後も遺体が発見されない場合に適用される。見本約款（Appendix 9A Part III §2）はより広い表現で、不慮の身体傷害により死亡したと合理的に信じられるあらゆる失踪を対象とし、365日の待機期間を設定している。",
+    "jpComparison": "日本では民法の失踪宣告制度があり、普通失踪は7年、特別失踪（航空機事故等）は1年で死亡とみなす（民法30条・31条）。SGのGPAも航空機・船舶事故の失踪で1年の待機期間。日本の特別失踪と同じ1年で概念が似ている。",
+    "jpComparisonEN": "(JP) Japan has a legal presumption of death system — ordinary disappearance requires 7 years, special disappearance (aircraft accidents, etc.) requires 1 year to presume death (Civil Code Art.30-31). SG GPA also uses a 1-year waiting period for aircraft/vessel accident disappearance, similar to Japan special disappearance concept.",
+    "keywords": [
+      "disappearance benefit",
+      "aircraft accident",
+      "vessel accident",
+      "one year waiting period"
+    ]
   },
   {
     "id": "comgi-509",
@@ -15864,7 +15928,15 @@
       "各種の就業不能にそれぞれ別々に（各104週）",
       "最初の事故のみ——その後の事故には制限なし"
     ],
-    "explanationJP": "104週（または52週）の制限は、全面的と部分的の就業不能給付を合わせて適用され、別々にではない。例えば、全面的就業不能が60週であれば、部分的就業不能は残り44週のみとなる。ただし、この制限は通常事故ごとに適用され、新たな事故で権利が再開される。"
+    "explanationJP": "104週（または52週）の制限は、全面的と部分的の就業不能給付を合わせて適用され、別々にではない。例えば、全面的就業不能が60週であれば、部分的就業不能は残り44週のみとなる。ただし、この制限は通常事故ごとに適用され、新たな事故で権利が再開される。",
+    "jpComparison": "日本の労災保険（労働者災害補償保険法）では休業補償給付に期間上限はなく、治癒まで支給（1年6月後に傷病補償年金に移行する場合あり）。SGのGPAは104週等の明確な上限があり、total+partialの合算で制限。日本の方が労働者に手厚い。",
+    "jpComparisonEN": "(JP) Japan Workers Accident Compensation Insurance has no time limit on temporary disability benefits — paid until recovery (may transition to injury/disease compensation pension after 18 months). SG GPA has a clear limit (e.g., 104 weeks) applied to total + partial disability combined. Japan is more generous to workers.",
+    "keywords": [
+      "weekly benefit",
+      "temporary disability",
+      "104 weeks",
+      "combined limit"
+    ]
   },
   {
     "id": "comgi-510",
@@ -15886,7 +15958,15 @@
       "365日間",
       "60日間"
     ],
-    "explanationJP": "法人海外旅行保険は182日を超えない1回の海外出張をカバーする。補償期間は年間ベースで、その間に各従業員のすべての出張がカバーされる。"
+    "explanationJP": "法人海外旅行保険は182日を超えない1回の海外出張をカバーする。補償期間は年間ベースで、その間に各従業員のすべての出張がカバーされる。",
+    "jpComparison": "日本の海外旅行保険は通常90日〜6ヶ月が一般的な1旅行の上限。長期駐在は「海外駐在員保険」に切り替え。SGのCorporate Travelは182日（約6ヶ月）が1回の上限で、日本とほぼ同じ感覚。年間包括契約で全出張をカバーする形式も同じ。",
+    "jpComparisonEN": "(JP) Japanese overseas travel insurance typically has a 90-day to 6-month limit per trip. Long-term assignments switch to expatriate insurance. SG Corporate Travel has 182 days (approx. 6 months) per trip, similar to Japan. Annual blanket policy covering all trips is also the same format.",
+    "keywords": [
+      "182 days",
+      "maximum trip duration",
+      "Corporate Travel",
+      "annual policy"
+    ]
   },
   {
     "id": "comgi-511",
@@ -15908,7 +15988,15 @@
       "欠勤期間中の元の従業員の給与全額",
       "ビジネスミーティング不参加の違約金"
     ],
-    "explanationJP": "保険者は代替従業員を派遣するために必要に発生した合理的な交通費を填補し、代替従業員のエコノミー航空運賃、交通費、宿泊費に限定される。"
+    "explanationJP": "保険者は代替従業員を派遣するために必要に発生した合理的な交通費を填補し、代替従業員のエコノミー航空運賃、交通費、宿泊費に限定される。",
+    "jpComparison": "日本の企業向け海外旅行保険にも「代替社員派遣費用」特約がある。エコノミー航空券・宿泊費等を補償。SGも同様にエコノミー限定。日星ともにビジネスクラスは対象外で、「合理的な費用」の原則が共通。",
+    "jpComparisonEN": "(JP) Japanese corporate overseas travel insurance also has a \"substitute employee dispatch cost\" rider covering economy airfare, accommodation, etc. SG similarly limits to economy class. Both SG and JP exclude business class, sharing the \"reasonable expenses\" principle.",
+    "keywords": [
+      "Employee Replacement",
+      "economy airfare",
+      "substitute employee",
+      "accommodation expenses"
+    ]
   },
   {
     "id": "comgi-512",
@@ -15930,7 +16018,15 @@
       "保険開始日から90日以内",
       "保険開始日から14日以内"
     ],
-    "explanationJP": "60日以上の保険証券の場合、保険料は保険開始日から60日以内に全額支払い・受領されなければならない。この期間内に支払われない場合、補償は自動的に終了する。ただし保険者は60日間の保険金請求について責任を負い、最低S$25を適用した日割り保険料の請求権を有する。"
+    "explanationJP": "60日以上の保険証券の場合、保険料は保険開始日から60日以内に全額支払い・受領されなければならない。この期間内に支払われない場合、補償は自動的に終了する。ただし保険者は60日間の保険金請求について責任を負い、最低S$25を適用した日割り保険料の請求権を有する。",
+    "jpComparison": "日本では保険料は保険業法上「初回保険料の払込みと同時に責任開始」が原則。SGのGPA約款では保険開始から60日の猶予期間があり、未払いなら自動終了。日本は保険料支払い＝責任開始なので猶予期間という概念が異なる。SGの方が柔軟だが未払いリスクも。",
+    "jpComparisonEN": "(JP) In Japan, the principle is \"coverage starts simultaneously with first premium payment\" under the Insurance Business Act. SG GPA policy allows a 60-day grace period from inception — non-payment triggers automatic termination. Japan ties coverage start to payment, so the grace period concept differs. SG is more flexible but has non-payment risk.",
+    "keywords": [
+      "Premium Payment Warranty",
+      "60 days",
+      "grace period",
+      "automatic termination"
+    ]
   },
   {
     "id": "comgi-513",
@@ -15952,7 +16048,15 @@
       "1年以内",
       "5年以内"
     ],
-    "explanationJP": "損害の書面による証明を保険者に提出してから60日が経過するまで保険証券に基づく法的措置は提起できず、損害発生日から2年を経過した後は法的措置を提起することはできない。"
+    "explanationJP": "損害の書面による証明を保険者に提出してから60日が経過するまで保険証券に基づく法的措置は提起できず、損害発生日から2年を経過した後は法的措置を提起することはできない。",
+    "jpComparison": "日本の保険金請求の消滅時効は保険法95条で3年（2010年改正前は商法で2年だった）。SGのGPA約款では損害発生日から2年の出訴期限。日本の方が1年長い。なおSGの一般的な契約の出訴期限（Limitation Act）は6年だが、約款で2年に短縮している。",
+    "jpComparisonEN": "(JP) Japan insurance claim statute of limitations is 3 years under Insurance Act Art.95 (was 2 years under Commercial Code before 2010 amendment). SG GPA policy sets a 2-year suit filing deadline from date of loss. Japan allows 1 year longer. SG general contract limitation (Limitation Act) is 6 years, but the policy shortens it to 2 years.",
+    "keywords": [
+      "legal action deadline",
+      "2 years",
+      "statute of limitations",
+      "proof of loss"
+    ]
   },
   {
     "id": "comgi-514",
@@ -15974,7 +16078,15 @@
       "無事故年の海外旅行無料プレゼント",
       "支払保険料に対する保証された投資リターン"
     ],
-    "explanationJP": "一部の保険者は入院日額給付金（入院1日あたりの固定現金額で、事故以外の原因に拡張される場合もある）や、中医学等の代替医療施術者の治療費精算（比較的低い上限額が設定される）を提供している。"
+    "explanationJP": "一部の保険者は入院日額給付金（入院1日あたりの固定現金額で、事故以外の原因に拡張される場合もある）や、中医学等の代替医療施術者の治療費精算（比較的低い上限額が設定される）を提供している。",
+    "jpComparison": "日本の傷害保険でも入院日額給付はメジャーな特約。中医学（漢方）は日本では保険適用の漢方薬もあるが、傷害保険での代替医療カバーは限定的。SGでは中医学（TCM）を約款で明記してカバーする保険者がある点がユニーク。",
+    "jpComparisonEN": "(JP) Japanese PA insurance also commonly offers daily hospital income benefits as a rider. For TCM/alternative medicine, Japan has some insurance-covered herbal medicines (Kampo), but PA insurance coverage of alternative therapies is limited. SG is unique in that some insurers explicitly cover TCM treatment in policy terms.",
+    "keywords": [
+      "daily hospital income",
+      "TCM",
+      "additional benefits",
+      "product differentiation"
+    ]
   },
   {
     "id": "comgi-515",
@@ -15996,6 +16108,14 @@
       "21歳から60歳",
       "16歳から55歳"
     ],
-    "explanationJP": "見本約款では被保険者を、保険期間初日に16歳から70歳の間にある宣言書に記名された者と定義している。補償は被保険者が70歳に達する保険期間の終了時に終了する。"
+    "explanationJP": "見本約款では被保険者を、保険期間初日に16歳から70歳の間にある宣言書に記名された者と定義している。補償は被保険者が70歳に達する保険期間の終了時に終了する。",
+    "jpComparison": "日本の団体傷害保険では被保険者の年齢制限は各社の引受基準で異なるが、概ね15〜69歳程度。SGのGPA約款では16〜70歳。ほぼ同じレンジだが、日本は各社任意、SGは見本約款で明示している違いがある。なお日本の労災保険には年齢制限がない。",
+    "jpComparisonEN": "(JP) Japanese group PA insurance age limits vary by insurer underwriting guidelines, generally around 15-69 years. SG GPA specimen policy specifies 16-70 years. Nearly the same range, but Japan leaves it to individual insurers while SG specifies it in the specimen policy. Note: Japan Workers Accident Compensation Insurance has no age limit.",
+    "keywords": [
+      "age range",
+      "16 to 70 years",
+      "eligibility",
+      "specimen policy"
+    ]
   }
 ]
