@@ -353,17 +353,6 @@ registerRoute('#result', (app) => {
     actions.appendChild(drillBtn);
   }
 
-  // Share button (#43)
-  if (navigator.share || navigator.clipboard) {
-    const shareBtn = el('button', {
-      className: 'btn btn--outline btn--block',
-      onClick: () => shareResult(r),
-    });
-    shareBtn.appendChild(document.createTextNode('\uD83D\uDCE4 '));
-    shareBtn.appendChild(triText('result.share', 'Share Result'));
-    actions.appendChild(shareBtn);
-  }
-
   const studyBtn = el('button', {
     className: 'btn btn--primary btn--block',
     onClick: () => navigate(`#mode-select?module=${r.module}`),
@@ -438,14 +427,3 @@ function createFrequencyBar(questionId) {
   return bar;
 }
 
-async function shareResult(r) {
-  const text = `BrokerPass SG \u2014 ${r.module.toUpperCase()} ${r.mode === 'mock' ? 'Mock Exam' : 'Practice'}\n\uD83C\uDFAF ${r.accuracy}% (${r.correct}/${r.total})\n\u23F1 ${formatDuration(r.elapsed)}`;
-  if (navigator.share) {
-    try {
-      await navigator.share({ title: 'BrokerPass SG Result', text });
-    } catch { /* user cancelled */ }
-  } else if (navigator.clipboard) {
-    await navigator.clipboard.writeText(text);
-    import('../components/toast.js').then(({ showToast }) => showToast('Copied to clipboard!', 'success'));
-  }
-}

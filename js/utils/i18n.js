@@ -60,7 +60,6 @@ const JA = {
   'home.funSub': 'MRT・ホーカーなど',
   'home.questionBank': '問題一覧',
   'home.questionBankSub': '出題頻度の管理',
-  'result.share': '結果をシェア',
 
   // Mode select
   'mode.study': '{0} を学ぶ',
@@ -98,6 +97,7 @@ const JA = {
 
   // Result
   'result.title': '{0} {1} 結果',
+  'result.result': '結果',
   'result.mockExam': '模擬試験',
   'result.practice': '練習',
   'result.excellent': '素晴らしい！',
@@ -123,7 +123,6 @@ const JA = {
   'result.backToQBank': '問題一覧に戻る',
   'result.explanation': '解説',
   'result.achievementUnlocked': '実績解除！',
-  'result.levelTitle': 'レベル称号',
 
   // Settings
   'settings.title': '設定',
@@ -185,6 +184,27 @@ const JA = {
   'records.acc': '正答率',
   'records.streak': '連続',
   'records.moduleSummary': '{0}回 · {1}% · {2}個習得',
+  'records.trophies': 'トロフィー',
+  'records.studyDays': '学習日数',
+  'records.bestDailyStreak': '最長連続 (日)',
+  'records.unlockedTrophies': '解除済み',
+  'records.viewAllAchievements': 'すべての実績を見る',
+
+  // Achievement descriptions
+  'ach.first_quiz': '初めてのクイズを完了',
+  'ach.ten_quizzes': 'クイズを10回完了',
+  'ach.fifty_quizzes': 'クイズを50回完了',
+  'ach.streak_5': '5問連続正解',
+  'ach.streak_10': '10問連続正解',
+  'ach.streak_20': '20問連続正解',
+  'ach.perfect_10': '10問クイズで満点',
+  'ach.mock_pass': '模擬試験に合格 (70%+)',
+  'ach.mock_ace': '模擬試験で90%以上',
+  'ach.both_modules': '全4モジュールを学習',
+  'ach.five_topics': '5つのトピックを習得',
+  'ach.all_topics': '全トピックを習得',
+  'ach.hundred_correct': '100問正解',
+  'ach.five_hundred': '合計500問に回答',
 
   // Trivia
   'trivia.title': 'シンガポール豆知識',
@@ -225,6 +245,11 @@ const JA = {
   'settings.examDaysLeft': '試験まであと{0}日',
   'settings.examToday': '今日は試験日！ がんばって！',
   'settings.examDateHint': '試験日を設定するとカウントダウン＆特別メッセージが届きます',
+  'settings.mockExam': '模試設定',
+  'settings.mockExamDesc': 'デフォルト: すべてOFF（実際のCSE試験と同じ — 1問ごとのフィードバックなし）',
+  'settings.mockShowResult': '1問ごとの正誤表示',
+  'settings.mockShowExplanation': '1問ごとの解説表示',
+  'settings.mockShowEffects': 'マスター演出（マーライオン等）',
   'settings.achievements': '実績',
   'settings.journal': '誤答ノート',
 
@@ -327,29 +352,30 @@ export function triText(key, enText, ...args) {
     jaStr = jaStr.replace(`{${i}}`, args[i]);
   }
 
-  const frag = document.createDocumentFragment();
+  const wrap = document.createElement('span');
+  wrap.className = 'i18n-wrap';
 
   // ① Japanese main
   const ja = document.createElement('span');
   ja.className = 'i18n-ja';
   ja.textContent = jaStr;
-  frag.appendChild(ja);
+  wrap.appendChild(ja);
 
   // ② English main
   const en = document.createElement('span');
   en.className = 'i18n-en';
   en.textContent = enStr;
-  frag.appendChild(en);
+  wrap.appendChild(en);
 
   // ③ Japanese sub-annotation (only if JP text differs from EN)
   if (jaStr !== enStr) {
     const sub = document.createElement('span');
     sub.className = 'i18n-sub';
     sub.textContent = jaStr;
-    frag.appendChild(sub);
+    wrap.appendChild(sub);
   }
 
-  return frag;
+  return wrap;
 }
 
 /**
@@ -369,20 +395,21 @@ export function trEl(tag, attrs, key, fallback, ...args) {
  */
 export function triContent(enText, jaText) {
   if (!jaText || jaText === enText) return document.createTextNode(enText);
-  const frag = document.createDocumentFragment();
+  const wrap = document.createElement('span');
+  wrap.className = 'i18n-wrap';
   const ja = document.createElement('span');
   ja.className = 'i18n-ja';
   ja.textContent = jaText;
-  frag.appendChild(ja);
+  wrap.appendChild(ja);
   const en = document.createElement('span');
   en.className = 'i18n-en';
   en.textContent = enText;
-  frag.appendChild(en);
+  wrap.appendChild(en);
   const sub = document.createElement('span');
   sub.className = 'i18n-sub';
   sub.textContent = jaText;
-  frag.appendChild(sub);
-  return frag;
+  wrap.appendChild(sub);
+  return wrap;
 }
 
 /**
@@ -395,18 +422,19 @@ export function triHtml(enHtml, jaHtml) {
     span.innerHTML = enHtml;
     return span;
   }
-  const frag = document.createDocumentFragment();
+  const wrap = document.createElement('span');
+  wrap.className = 'i18n-wrap';
   const ja = document.createElement('span');
   ja.className = 'i18n-ja';
   ja.innerHTML = jaHtml;
-  frag.appendChild(ja);
+  wrap.appendChild(ja);
   const en = document.createElement('span');
   en.className = 'i18n-en';
   en.innerHTML = enHtml;
-  frag.appendChild(en);
+  wrap.appendChild(en);
   const sub = document.createElement('span');
   sub.className = 'i18n-sub';
   sub.innerHTML = jaHtml;
-  frag.appendChild(sub);
-  return frag;
+  wrap.appendChild(sub);
+  return wrap;
 }
