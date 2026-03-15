@@ -85,11 +85,18 @@
 .cityscape__tanker {
   position: absolute;
   bottom: 6px;
-  left: -120px;
   height: 18px;
   width: auto;
-  opacity: 0.15;
+  opacity: 0.5;
+}
+.cityscape__tanker--ltr {
+  left: -120px;
   animation: sailRight linear forwards;
+}
+.cityscape__tanker--rtl {
+  right: -120px;
+  transform: scaleX(-1);
+  animation: sailLeft linear forwards;
 }
 [data-theme="dark"] .cityscape__tanker {
   filter: invert(1) brightness(0.7);
@@ -99,11 +106,19 @@
 /* --- Plane — PNG image --- */
 .cityscape__plane {
   position: absolute;
-  right: -60px;
   height: 22px;
   width: auto;
-  opacity: 0.1;
-  animation: flyLeft linear forwards;
+  opacity: 0.4;
+}
+/* direction combinations (ascent only) */
+.cityscape__plane--rtl {
+  right: -60px;
+  transform: scaleX(-1);
+  animation: flyLeftUp linear forwards;
+}
+.cityscape__plane--ltr {
+  left: -60px;
+  animation: flyRightUp linear forwards;
 }
 [data-theme="dark"] .cityscape__plane {
   filter: invert(1) brightness(0.7);
@@ -186,9 +201,17 @@
   from { left: -120px; }
   to { left: calc(100% + 120px); }
 }
-@keyframes flyLeft {
-  from { right: -60px; }
-  to { right: calc(100% + 60px); }
+@keyframes sailLeft {
+  from { right: -120px; }
+  to { right: calc(100% + 120px); }
+}
+@keyframes flyLeftUp {
+  from { right: -60px; top: var(--plane-start-top, 30%); }
+  to   { right: calc(100% + 60px); top: calc(var(--plane-start-top, 30%) - 36vh); }
+}
+@keyframes flyRightUp {
+  from { left: -60px; top: var(--plane-start-top, 30%); }
+  to   { left: calc(100% + 60px); top: calc(var(--plane-start-top, 30%) - 36vh); }
 }
 @keyframes trainRight {
   from { right: -50px; }

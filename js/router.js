@@ -47,7 +47,7 @@ async function handleRoute() {
   // Remove sakura-room body styling on route change
   document.body.classList.remove('sakura-room-active');
   // Keep .sakura-door-transition alive during sakura-room entry (cleaned up by the view)
-  document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup, .sakura-door').forEach(el => el.remove());
+  document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup, .sakura-door, .sakura-door--exit, .sr-debug-skip').forEach(el => el.remove());
   document.body.style.overflow = ''; // restore if tutorial was active
 
   // Scroll to top on route change (#4)

@@ -4,6 +4,7 @@
 import { shuffle } from '../utils/shuffle.js';
 import { RecordStore } from './record-store.js';
 import { SettingsStore } from './settings-store.js';
+import { FrequencyStore, FREQUENCY_WEIGHTS } from './frequency-store.js';
 import { loadQuestions } from '../data/questions.js';
 
 export class QuizSession {
@@ -34,18 +35,23 @@ export class QuizSession {
       allQ = await loadQuestions(this.module);
     }
 
+    // Frequency filtering: exclude "none" questions from practice/weak/topic modes
+    // Review mode & mock mode bypass frequency filtering
+    const isFreqFiltered = this.mode !== 'mock' && !(this.reviewIds && this.reviewIds.length > 0);
+    const freqQ = isFreqFiltered ? allQ.filter(q => FrequencyStore.get(q.id) !== 'none') : allQ;
+
     // Review mode: specific question IDs (#4)
     if (this.reviewIds && this.reviewIds.length > 0) {
       const reviewQ = allQ.filter(q => this.reviewIds.includes(q.id));
       this.questions = shuffle(reviewQ);
     // Topic-specific practice (#7)
     } else if (this.topic) {
-      const topicQ = allQ.filter(q => q.topic === this.topic);
-      this.questions = shuffle(topicQ).slice(0, this.questionCount || topicQ.length);
+      const topicQ = freqQ.filter(q => q.topic === this.topic);
+      this.questions = weightedSelect(shuffle(topicQ), this.questionCount || topicQ.length);
     } else if (this.mode === 'weak') {
       const weakTopics = RecordStore.getWeakTopics(this.module, 10).map(s => s.topic);
-      const weak = allQ.filter(q => weakTopics.includes(q.topic));
-      this.questions = shuffle(weak).slice(0, this.questionCount || 20);
+      const weak = freqQ.filter(q => weakTopics.includes(q.topic));
+      this.questions = weightedSelect(shuffle(weak), this.questionCount || 20);
     } else if (this.mode === 'mock') {
       const target = this.module === 'bcp' ? 40 : 50;
       this.questionCount = Math.min(target, allQ.length);
@@ -59,19 +65,19 @@ export class QuizSession {
         const weakNames = RecordStore.getWeakTopicNames(this.module);
         if (weakNames.length > 0) {
           // 60% from weak topics, 40% from everything else
-          const weakQ = shuffle(allQ.filter(q => weakNames.includes(q.topic)));
-          const otherQ = shuffle(allQ.filter(q => !weakNames.includes(q.topic)));
+          const weakQ = shuffle(freqQ.filter(q => weakNames.includes(q.topic)));
+          const otherQ = shuffle(freqQ.filter(q => !weakNames.includes(q.topic)));
           const weakCount = Math.min(Math.ceil(count * 0.6), weakQ.length);
           const otherCount = count - weakCount;
-          this.questions = shuffle([
+          this.questions = weightedSelect(shuffle([
             ...weakQ.slice(0, weakCount),
             ...otherQ.slice(0, otherCount),
-          ]);
+          ]), count);
         } else {
-          this.questions = shuffle(allQ).slice(0, count);
+          this.questions = weightedSelect(shuffle(freqQ), count);
         }
       } else {
-        this.questions = shuffle(allQ).slice(0, count);
+        this.questions = weightedSelect(shuffle(freqQ), count);
       }
     }
 
@@ -191,7 +197,11 @@ function shuffleChoices(q) {
   const newChoiceExp = q.choiceExplanations
     ? indices.map(i => q.choiceExplanations[i])
     : undefined;
-  return { ...q, choices: newChoices, answer: newAnswer, choiceExplanations: newChoiceExp, _originalAnswer: q.answer };
+  // Map choicesJP in same order
+  const newChoicesJP = q.choicesJP
+    ? indices.map(i => q.choicesJP[i])
+    : undefined;
+  return { ...q, choices: newChoices, answer: newAnswer, choiceExplanations: newChoiceExp, choicesJP: newChoicesJP, _originalAnswer: q.answer };
 }
 
 /**
@@ -228,4 +238,52 @@ function orderByDifficulty(questions) {
     const db = b.difficulty || (100 - (accMap[b.id] ?? 50));
     return da - db; // easier first
   });
+}
+
+/**
+ * Weighted selection based on frequency settings.
+ * High-frequency questions are preferred; low-frequency are less likely to appear.
+ * Questions with "none" should already be filtered out before calling this.
+ */
+function weightedSelect(questions, count) {
+  if (questions.length <= count) return questions;
+
+  // Build weighted pool: each question gets a weight based on frequency
+  const weighted = questions.map(q => ({
+    q,
+    weight: FREQUENCY_WEIGHTS[FrequencyStore.get(q.id)] || 1,
+  }));
+
+  const selected = [];
+  const used = new Set();
+
+  for (let i = 0; i < count && weighted.length > used.size; i++) {
+    const remaining = weighted.filter((_, idx) => !used.has(idx));
+    const totalWeight = remaining.reduce((sum, w) => sum + w.weight, 0);
+
+    if (totalWeight <= 0) {
+      // All remaining have zero weight — just pick sequentially
+      for (const [idx, w] of weighted.entries()) {
+        if (!used.has(idx) && selected.length < count) {
+          used.add(idx);
+          selected.push(w.q);
+        }
+      }
+      break;
+    }
+
+    // Weighted random pick
+    let rand = Math.random() * totalWeight;
+    for (const [idx, w] of weighted.entries()) {
+      if (used.has(idx)) continue;
+      rand -= w.weight;
+      if (rand <= 0) {
+        used.add(idx);
+        selected.push(w.q);
+        break;
+      }
+    }
+  }
+
+  return selected;
 }

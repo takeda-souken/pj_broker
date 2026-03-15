@@ -10,6 +10,7 @@ import { SettingsStore } from '../models/settings-store.js';
 let containerEl = null;
 let currentScene = null;
 let spawnTimer = null;
+let keyHandler = null;
 
 /* ------------------------------------------------------------------ */
 /*  Init & Scene Management                                            */
@@ -22,6 +23,7 @@ export function initCityscape() {
   const langMode = SettingsStore.get('langMode') || 'bilingual';
   renderScene(langMode === 'en' ? 'sg' : 'jp', false);
   spawnMovingObjects();
+  setupKeyTriggers();
 
   window.addEventListener('lang-mode-changed', (e) => {
     const newScene = e.detail.mode === 'en' ? 'sg' : 'jp';
@@ -59,36 +61,12 @@ function spawnMovingObjects() {
     const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
     const isJp = currentScene === 'jp';
 
-    // Tanker (SG) / Train (JP)
-    if (Math.random() < 0.3) {
-      if (isJp) {
-        const train = el('div', { className: 'cityscape__train' });
-        train.style.animationDuration = `${8 + Math.random() * 5}s`;
-        containerEl.appendChild(train);
-        setTimeout(() => train.remove(), 15000);
-      } else {
-        const tanker = el('img', {
-          className: 'cityscape__tanker',
-          src: 'img/tanker.png',
-          alt: ''
-        });
-        tanker.style.animationDuration = `${20 + Math.random() * 15}s`;
-        containerEl.appendChild(tanker);
-        setTimeout(() => tanker.remove(), 38000);
-      }
-    }
-
-    // Planes (both cities)
-    if (Math.random() < 0.15) {
-      const plane = el('img', {
-        className: 'cityscape__plane',
-        src: 'img/plane.png',
-        alt: ''
-      });
-      plane.style.top = `${3 + Math.random() * 22}%`;
-      plane.style.animationDuration = `${14 + Math.random() * 10}s`;
-      containerEl.appendChild(plane);
-      setTimeout(() => plane.remove(), 25000);
+    // Train (JP only, auto-spawn)
+    if (Math.random() < 0.3 && isJp) {
+      const train = el('div', { className: 'cityscape__train' });
+      train.style.animationDuration = `${8 + Math.random() * 5}s`;
+      containerEl.appendChild(train);
+      setTimeout(() => train.remove(), 15000);
     }
 
     // Night effects
@@ -109,4 +87,55 @@ function spawnMovingObjects() {
       setTimeout(() => petal.remove(), 9000);
     }
   }, 6000);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Spawn helpers (tanker / plane) — direction random 50/50            */
+/* ------------------------------------------------------------------ */
+function spawnTanker() {
+  if (!containerEl) return;
+  const ltr = Math.random() < 0.5;
+  const tanker = el('img', {
+    className: `cityscape__tanker cityscape__tanker--${ltr ? 'ltr' : 'rtl'}`,
+    src: 'img/tanker.png',
+    alt: ''
+  });
+  tanker.style.animationDuration = `${20 + Math.random() * 15}s`;
+  containerEl.appendChild(tanker);
+  setTimeout(() => tanker.remove(), 38000);
+}
+
+function spawnPlane() {
+  if (!containerEl) return;
+  const ltr = Math.random() < 0.5;
+  const plane = el('img', {
+    className: `cityscape__plane cityscape__plane--${ltr ? 'ltr' : 'rtl'}`,
+    src: 'img/plane.png',
+    alt: ''
+  });
+  const startTop = 25 + Math.random() * 15;
+  plane.style.setProperty('--plane-start-top', `${startTop}%`);
+  plane.style.top = `${startTop}%`;
+  plane.style.animationDuration = `${14 + Math.random() * 10}s`;
+  containerEl.appendChild(plane);
+  setTimeout(() => plane.remove(), 25000);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Keyboard triggers (home screen only): z = tanker, q = plane        */
+/* ------------------------------------------------------------------ */
+function isHomeScreen() {
+  const hash = (window.location.hash || '#home').split('?')[0];
+  return hash === '#home' || hash === '';
+}
+
+function setupKeyTriggers() {
+  if (keyHandler) return;
+  keyHandler = (e) => {
+    if (!isHomeScreen()) return;
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+    if (e.key === 'z' || e.key === 'Z') spawnTanker();
+    if (e.key === 'q' || e.key === 'Q') spawnPlane();
+  };
+  window.addEventListener('keydown', keyHandler);
 }

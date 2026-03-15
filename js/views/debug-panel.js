@@ -6,6 +6,7 @@ import { DebugStore } from '../models/debug-store.js';
 import { el } from '../utils/dom-helpers.js';
 import { showToast } from '../components/toast.js';
 import { GamificationStore } from '../models/gamification-store.js';
+import { SakuraRoomStore } from '../models/sakura-room-store.js';
 
 let panelEl = null;
 let fabEl = null;
@@ -174,6 +175,25 @@ function openPanel() {
       showToast(`topicsMastered → ${v}`, 'info');
     }));
 
+    // ─── Merlion Test ─────────────────────────────
+    body.appendChild(sectionTitle('Merlion'));
+    const merlionTypes = [
+      { label: 'Correct', type: 'correct' },
+      { label: 'Streak', type: 'streak' },
+      { label: 'Mastered', type: 'mastered' },
+    ];
+    const merlionRow = el('div', { style: 'display:flex;gap:6px;flex-wrap:wrap;padding:4px 0;' });
+    for (const mt of merlionTypes) {
+      merlionRow.appendChild(el('button', {
+        className: 'debug-btn',
+        onClick: async () => {
+          const { showMerlionCelebration } = await import('../components/merlion.js');
+          showMerlionCelebration({ type: mt.type, streak: 5, topicName: 'Test Topic' });
+        },
+      }, `🦁 ${mt.label}`));
+    }
+    body.appendChild(merlionRow);
+
     // ─── Unique Correct Counts (MRT progress) ─────
     body.appendChild(sectionTitle('Unique Correct (MRT)'));
     const counts = DebugStore.getUniqueCorrectCounts();
@@ -188,6 +208,158 @@ function openPanel() {
       DebugStore.set('gasSyncDisabled', v);
       showToast(v ? 'GAS sync blocked' : 'GAS sync enabled', 'info');
     }));
+
+    // ─── Sakura Room ──────────────────────────────
+    body.appendChild(sectionTitle('Sakura Room'));
+
+    // Read state directly from localStorage (no import dependency)
+    const _srRoom = SakuraRoomStore.load();
+    const _srSakura = (() => {
+      try { return JSON.parse(localStorage.getItem('sg_broker_sakura') || '{}'); } catch { return {}; }
+    })();
+    const _srRecords = (() => {
+      try { const r = JSON.parse(localStorage.getItem('sg_broker_records') || '[]'); return Array.isArray(r) ? r : []; } catch { return []; }
+    })();
+    const _srPhase = _srSakura.phase || 'japan';
+    const _srTotalRecords = _srRecords.length;
+    const _srSinceP2 = _srPhase === 'japan' ? 0 : Math.max(0, _srTotalRecords - (_srSakura.answeredAtPhase2Start || 0));
+    const _srDaysP2 = (() => {
+      if (!_srSakura.phase2StartedAt) return 0;
+      const now = DebugStore.now();
+      const start = new Date(_srSakura.phase2StartedAt);
+      return Math.floor((now - start) / 86400000);
+    })();
+
+    // Quick launch — set up state so a conversation is guaranteed to start
+    const launchBtn = el('button', { className: 'debug-btn', onClick: () => {
+      // 1. Ensure phase is 'sg' with phase2StartedAt 7 days ago
+      const sakuraRaw = localStorage.getItem('sg_broker_sakura');
+      const sakura = sakuraRaw ? JSON.parse(sakuraRaw) : {};
+      if (!sakura.phase || sakura.phase === 'japan') {
+        sakura.phase = 'sg';
+      }
+      if (!sakura.phase2StartedAt) {
+        const d = new Date(DebugStore.now());
+        d.setDate(d.getDate() - 7);
+        sakura.phase2StartedAt = d.toISOString();
+      }
+      if (sakura.answeredAtPhase2Start == null) {
+        sakura.answeredAtPhase2Start = 0;
+      }
+      localStorage.setItem('sg_broker_sakura', JSON.stringify(sakura));
+
+      // 2. Ensure at least 60 records exist (covers minAnswered thresholds)
+      let records = [];
+      try { records = JSON.parse(localStorage.getItem('sg_broker_records') || '[]'); } catch {}
+      if (!Array.isArray(records)) records = [];
+      const needed = 60 - records.length;
+      if (needed > 0) {
+        for (let i = 0; i < needed; i++) {
+          records.push({ module: '_debug', questionId: `dbg_launch_${Date.now()}_${i}`, isCorrect: true, ts: new Date().toISOString() });
+        }
+        localStorage.setItem('sg_broker_records', JSON.stringify(records));
+      }
+
+      // 3. Clear completed so conversations are available again
+      const room = SakuraRoomStore.load();
+      room.completedConversations = [];
+      room.sakuraDisabled = false;
+      SakuraRoomStore.save(room);
+
+      // 4. Set sakura debug phase override to 'sg'
+      DebugStore.set('sakuraPhaseOverride', 'sg');
+
+      closePanel();
+      showToast('Sakura準備完了 → 部屋へ移動', 'info');
+      import('../router.js').then(m => m.navigate('#sakura-room'));
+    }}, '🌸 会話開始（一括セットアップ）');
+    body.appendChild(launchBtn);
+
+    // Diagnostic info
+    body.appendChild(el('div', { className: 'debug-hint' },
+      `Phase: ${_srPhase} | Records: ${_srTotalRecords} | SinceP2: ${_srSinceP2} | Days: ${_srDaysP2}`));
+    body.appendChild(el('div', { className: 'debug-hint' },
+      `Completed: ${_srRoom.completedConversations.length} | Disabled: ${_srRoom.sakuraDisabled}`));
+
+    // Available count (lazy async)
+    const availLabel = el('div', { className: 'debug-hint' }, 'Available: (tap Refresh)');
+    body.appendChild(availLabel);
+    const refreshAvailBtn = el('button', { className: 'debug-btn debug-btn--sm', onClick: async () => {
+      try {
+        const eng = await import('../models/sakura-room-engine.js');
+        await eng.loadAllConversations();
+        const avail = eng.getAvailableConversations();
+        availLabel.textContent = `Available: ${avail.length}`;
+        availLabel.textContent += avail.length > 0 ? ` → next: ${avail[0].id}` : '';
+      } catch (e) { availLabel.textContent = `Error: ${e.message}`; }
+    }}, '🔄 Refresh');
+    body.appendChild(refreshAvailBtn);
+
+    // Inject fake records
+    body.appendChild(numberRow('Total Records', _srTotalRecords, (v) => {
+      let records = _srRecords;
+      const diff = v - records.length;
+      if (diff > 0) {
+        for (let i = 0; i < diff; i++) {
+          records.push({ module: '_debug', questionId: `dbg_${Date.now()}_${i}`, isCorrect: true, ts: new Date().toISOString() });
+        }
+      } else if (diff < 0) {
+        records = records.slice(0, v);
+      }
+      localStorage.setItem('sg_broker_records', JSON.stringify(records));
+      showToast(`Records → ${v}`, 'info');
+      closePanel();
+      setTimeout(openPanel, 250);
+    }));
+
+    // Force phase transition button
+    const forcePhaseBtn = el('button', { className: 'debug-btn', onClick: () => {
+      const raw = localStorage.getItem('sg_broker_sakura');
+      const state = raw ? { ...JSON.parse(raw) } : {};
+      const curPhase = state.phase || 'japan';
+      const nextMap = { japan: 'sg', sg: 'post_confession', post_confession: 'farewell', farewell: 'gone' };
+      const next = nextMap[curPhase];
+      if (!next) { showToast('Already at final phase', 'info'); return; }
+      state.phase = next;
+      if (next === 'sg' && !state.phase2StartedAt) {
+        const recs = (() => { try { return JSON.parse(localStorage.getItem('sg_broker_records') || '[]').length; } catch { return 0; } })();
+        state.answeredAtPhase2Start = recs;
+        state.phase2StartedAt = DebugStore.now().toISOString();
+      }
+      localStorage.setItem('sg_broker_sakura', JSON.stringify(state));
+      showToast(`Phase: ${curPhase} → ${next}`, 'info');
+      closePanel();
+      setTimeout(openPanel, 250);
+    }}, `⏩ Force Phase (now: ${_srPhase})`);
+    body.appendChild(forcePhaseBtn);
+
+    // Warmth / Honesty
+    body.appendChild(numberRow('Warmth', _srRoom.axes.warmth || 0, (v) => {
+      const s = SakuraRoomStore.load(); s.axes.warmth = v; SakuraRoomStore.save(s);
+      showToast(`Warmth → ${v}`, 'info');
+    }));
+    body.appendChild(numberRow('Honesty', _srRoom.axes.honesty || 0, (v) => {
+      const s = SakuraRoomStore.load(); s.axes.honesty = v; SakuraRoomStore.save(s);
+      showToast(`Honesty → ${v}`, 'info');
+    }));
+    body.appendChild(numberRow('Room Conversations', _srRoom.totalRoomConversations, (v) => {
+      SakuraRoomStore.set('totalRoomConversations', v);
+      showToast(`Room conversations → ${v}`, 'info');
+    }));
+
+    // Reset
+    const resetSakuraBtn = el('button', { className: 'debug-btn debug-btn--danger', onClick: () => {
+      if (confirm('Reset Sakura Room + Phase?')) {
+        const s = SakuraRoomStore.load();
+        s.completedConversations = []; s.totalRoomConversations = 0;
+        s.flags = {}; s.axes = { warmth: 0, honesty: 0 }; s.sakuraDisabled = false;
+        SakuraRoomStore.save(s);
+        localStorage.removeItem('sg_broker_sakura');
+        showToast('Sakura room + phase reset', 'info');
+        closePanel(); setTimeout(openPanel, 250);
+      }
+    }}, '🔄 Reset Sakura Room');
+    body.appendChild(resetSakuraBtn);
 
     // ─── localStorage ─────────────────────────────
     body.appendChild(sectionTitle('localStorage'));

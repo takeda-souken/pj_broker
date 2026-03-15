@@ -12,13 +12,21 @@ import {
 } from '../data/mrt-coordinates.js';
 import { RecordStore } from '../models/record-store.js';
 import { HAWKER_DISHES } from '../data/hawker.js';
-import { tr, trNode } from '../utils/i18n.js';
+import { triText, tr } from '../utils/i18n.js';
 import { loadQuestions } from '../data/questions.js';
 import { getStationInfo } from '../data/station-info.js';
 
 const SVG_NS = 'http://www.w3.org/2000/svg';
 const VIEW_W = 750;
 const VIEW_H = 520;
+const MRT_PREV_STATE_KEY = 'sg_broker_mrt_prev_unlock';
+
+// ─── Line width / dot size constants ───
+const LINE_W_BASE = 5;       // Layer 1: faint base paths
+const LINE_W_UNLOCK = 6;     // Layer 2: bright unlocked segments
+const DOT_R = 3;              // normal station dot
+const DOT_R_IC = 4.5;         // interchange station dot
+const IC_RING_R = 7;          // interchange marker ring radius
 
 // ─── Coordinate lookup helpers ───
 const ALL_STATIONS = [NS_COORDS, EW_COORDS, NE_COORDS, CC_COORDS, CE_COORDS, DT_COORDS, TE_COORDS];
@@ -255,9 +263,12 @@ function drawSvgPath(svg, d, color, width, opacity) {
 // ─── Route ───
 
 registerRoute('#mrt', async (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
+  const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#home') });
+  backBtn.appendChild(document.createTextNode('\u25C0 '));
+  backBtn.appendChild(triText('common.back', 'Back'));
+  app.appendChild(backBtn);
   const h1 = el('h1', { className: 'mt-md' });
-  h1.appendChild(trNode('mrt.title', 'MRT Progress Map'));
+  h1.appendChild(triText('mrt.title', 'MRT Progress Map'));
   app.appendChild(h1);
 
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -281,6 +292,24 @@ registerRoute('#mrt', async (app) => {
     unlockSets[line.id] = set;
   }
 
+  // Load previous unlock state and compute new stations
+  let prevUnlockSets = {};
+  try {
+    prevUnlockSets = JSON.parse(localStorage.getItem(MRT_PREV_STATE_KEY) || '{}');
+  } catch { /* ignore */ }
+  const newStations = {};  // lineId -> Set of newly unlocked indices
+  for (const line of MRT_LINES) {
+    const prevSet = new Set(prevUnlockSets[line.id] || []);
+    const curSet = unlockSets[line.id];
+    newStations[line.id] = new Set([...curSet].filter(i => !prevSet.has(i)));
+  }
+  // Save current state for next visit
+  const stateToSave = {};
+  for (const line of MRT_LINES) {
+    stateToSave[line.id] = [...unlockSets[line.id]];
+  }
+  localStorage.setItem(MRT_PREV_STATE_KEY, JSON.stringify(stateToSave));
+
   // Legend
   const legend = el('div', { className: 'mrt-legend' });
   for (const ll of MRT_LINES) {
@@ -288,8 +317,9 @@ registerRoute('#mrt', async (app) => {
     const unlocked = unlockSets[ll.id].size;
     legend.appendChild(legendItem(color, `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`));
   }
+  // Non-functional lines (cc, te, etc.) — decorative but visible on the map
   for (const ml of ALL_MRT_LINES) {
-    if (ml.id === 'ns' || ml.id === 'ew') continue;
+    if (MRT_LINES.some(l => l.id === ml.id)) continue; // already shown above
     const color = isDark ? ml.darkColor : ml.color;
     legend.appendChild(legendItem(color, ml.name));
   }
@@ -297,6 +327,26 @@ registerRoute('#mrt', async (app) => {
 
   // SVG
   const svg = svgEl('svg', { viewBox: `0 0 ${VIEW_W} ${VIEW_H}`, class: 'mrt-map' });
+
+  // Glow filters for each functional line
+  const defs = svgEl('defs', {});
+  for (const line of MRT_LINES) {
+    const color = isDark ? line.darkColor : line.color;
+    const filter = svgEl('filter', { id: `glow-${line.id}`, x: '-50%', y: '-50%', width: '200%', height: '200%' });
+    const flood = svgEl('feFlood', { 'flood-color': color, 'flood-opacity': '1', result: 'glowColor' });
+    const comp = svgEl('feComposite', { in: 'glowColor', in2: 'SourceGraphic', operator: 'in', result: 'colored' });
+    const blur = svgEl('feGaussianBlur', { in: 'colored', stdDeviation: '3', result: 'blur' });
+    const merge = svgEl('feMerge', {});
+    merge.appendChild(svgEl('feMergeNode', { in: 'blur' }));
+    merge.appendChild(svgEl('feMergeNode', { in: 'blur' }));
+    merge.appendChild(svgEl('feMergeNode', { in: 'SourceGraphic' }));
+    filter.appendChild(flood);
+    filter.appendChild(comp);
+    filter.appendChild(blur);
+    filter.appendChild(merge);
+    defs.appendChild(filter);
+  }
+  svg.appendChild(defs);
 
   // Layer 1: All line paths
   for (const ml of ALL_MRT_LINES) {
@@ -311,14 +361,14 @@ registerRoute('#mrt', async (app) => {
     } else {
       pathD = buildPath(coords);
     }
-    drawSvgPath(svg, pathD, color, 3, baseOpacity);
+    drawSvgPath(svg, pathD, color, LINE_W_BASE, baseOpacity);
 
     // CE extension
     if (ml.extension) {
       const prom = coords.find(s => s.code === 'CC4');
       if (prom) {
         const ceStations = [prom, ...ml.extension];
-        drawSvgPath(svg, buildSmoothPath(ceStations, false), color, 3, baseOpacity);
+        drawSvgPath(svg, buildSmoothPath(ceStations, false), color, LINE_W_BASE, baseOpacity);
       }
     }
   }
@@ -328,16 +378,38 @@ registerRoute('#mrt', async (app) => {
     const color = isDark ? line.darkColor : line.color;
     const coords = getCoordArray(line.id);
     const unlockSet = unlockSets[line.id];
+    const newSet = newStations[line.id];
+    const hasNew = newSet.size > 0;
     const unlockedIndices = [...unlockSet].sort((a, b) => a - b);
+
     if (unlockedIndices.length > 1) {
-      // Build unlocked stations as coordinate array for path
-      const unlockStations = unlockedIndices.map(i => ({
-        ...line.stations[i],
-        x: coords[i].x,
-        y: coords[i].y,
-        code: coords[i].code,
-      }));
-      drawSvgPath(svg, buildPath(unlockStations), color, 3.5, 0.8);
+      if (hasNew) {
+        // Draw previously unlocked path (no animation)
+        const prevIndices = unlockedIndices.filter(i => !newSet.has(i));
+        if (prevIndices.length > 1) {
+          const prevStations = prevIndices.map(i => ({
+            ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
+          }));
+          drawSvgPath(svg, buildPath(prevStations), color, LINE_W_UNLOCK, 0.8);
+        }
+        // Draw full unlocked path with fade-in + glow
+        const allStations = unlockedIndices.map(i => ({
+          ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
+        }));
+        const newPath = svgEl('path', {
+          d: buildPath(allStations), fill: 'none', stroke: color,
+          'stroke-width': String(LINE_W_UNLOCK), 'stroke-linecap': 'round', 'stroke-linejoin': 'round',
+          filter: `url(#glow-${line.id})`,
+          class: 'mrt-new-segment',
+        });
+        svg.appendChild(newPath);
+      } else {
+        // No new stations — static path
+        const unlockStations = unlockedIndices.map(i => ({
+          ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
+        }));
+        drawSvgPath(svg, buildPath(unlockStations), color, LINE_W_UNLOCK, 0.8);
+      }
     }
   }
 
@@ -351,19 +423,28 @@ registerRoute('#mrt', async (app) => {
     const isFunctional = MRT_LINES.some(l => l.id === ml.id);
     const funcLine = MRT_LINES.find(l => l.id === ml.id);
     const unlockSet = isFunctional ? unlockSets[ml.id] : null;
+    const newSet = isFunctional ? newStations[ml.id] : null;
 
     coords.forEach((s, idx) => {
       const unlocked = unlockSet ? unlockSet.has(idx) : false;
+      const isNew = newSet ? newSet.has(idx) : false;
       const isIc = !!s.interchange;
-      const r = isIc ? 3 : 2;
+      const r = isIc ? DOT_R_IC : DOT_R;
 
-      const circle = svgEl('circle', {
+      const attrs = {
         cx: s.x, cy: s.y, r,
         fill: (isFunctional && unlocked) ? color : (isFunctional ? (isDark ? '#252540' : '#e8e8e8') : color),
         stroke: isDark ? '#1a1a2e' : '#fff',
         'stroke-width': isFunctional ? (unlocked ? '1' : '0.8') : '0.5',
         opacity: isFunctional ? (unlocked ? '1' : '0.4') : '0.5',
-      });
+      };
+      // Newly unlocked stations get glow + fade
+      if (isNew) {
+        attrs.filter = `url(#glow-${ml.id})`;
+        attrs.class = 'mrt-new-station';
+        delete attrs.opacity;  // let CSS handle opacity animation
+      }
+      const circle = svgEl('circle', attrs);
       svg.appendChild(circle);
     });
 
@@ -389,7 +470,7 @@ registerRoute('#mrt', async (app) => {
     if (ml.extension) {
       ml.extension.forEach(s => {
         svg.appendChild(svgEl('circle', {
-          cx: s.x, cy: s.y, r: s.interchange ? 3 : 2,
+          cx: s.x, cy: s.y, r: s.interchange ? DOT_R_IC : DOT_R,
           fill: color, stroke: isDark ? '#1a1a2e' : '#fff',
           'stroke-width': '0.5', opacity: '0.5',
         }));
@@ -493,7 +574,7 @@ function drawInterchangeMarkers(svg, isDark) {
         if (done.has(k)) return;
         done.add(k);
         svg.appendChild(svgEl('circle', {
-          cx: s.x, cy: s.y, r: '5.5',
+          cx: s.x, cy: s.y, r: String(IC_RING_R),
           fill: 'none', stroke: '#fff',
           'stroke-width': '1.5', opacity: '0.6',
         }));
@@ -503,7 +584,7 @@ function drawInterchangeMarkers(svg, isDark) {
       const dx = p2.x - p1.x, dy = p2.y - p1.y;
       const len = Math.hypot(dx, dy);
       const nx = -dy / len, ny = dx / len;
-      const r = 5.5;
+      const r = IC_RING_R;
       const ax = p1.x + nx * r, ay = p1.y + ny * r;
       const bx = p2.x + nx * r, by = p2.y + ny * r;
       const cx = p2.x - nx * r, cy = p2.y - ny * r;
@@ -516,7 +597,7 @@ function drawInterchangeMarkers(svg, isDark) {
     } else {
       // Same position — normal ring
       svg.appendChild(svgEl('circle', {
-        cx: g[0].x, cy: g[0].y, r: '5.5',
+        cx: g[0].x, cy: g[0].y, r: String(IC_RING_R),
         fill: 'none', stroke: '#fff',
         'stroke-width': '1.5', opacity: '0.6',
       }));

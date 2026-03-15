@@ -1,25 +1,29 @@
 # SG Broker Exam Study App
 
 ## Overview
-Singapore insurance broker exam (BCP & ComGI) study app for Japanese brokers relocating to Singapore. Built as a vanilla JS SPA, structured after the "kana?" app (c:\pj_kana).
+Singapore insurance broker exam (CGI: BCP, ComGI, PGI, HI) study app for Japanese brokers relocating to Singapore. Built as a vanilla JS SPA, structured after the "kana?" app (c:\pj_kana).
 
 ## Target User
-- **Primary**: Kataoka-san — experienced Japanese P&C insurance broker, TOEIC near-perfect, 2 years US experience, relocating to Singapore April 2026. Must pass BCP + ComGI by end of April.
+- **Primary**: Kataoka-san — experienced Japanese P&C insurance broker, TOEIC near-perfect, 2 years US experience, relocating to Singapore April 2026. Must pass BCP + ComGI + PGI + HI by end of April.
 - **Secondary**: Other Japanese brokers at the same firm; potentially any insurance professional studying for CGI.
 
 ## Exam Details
 | Module | Questions | Time | Pass | Administered by |
 |--------|-----------|------|------|-----------------|
-| BCP (Basic Concepts & Principles) | 40 MCQ | 45 min | 70% | SCI / IBF |
-| ComGI (Commercial General Insurance) | 50 MCQ | 75 min | 70% | SCI / IBF |
+| BCP (Basic Concepts & Principles) | 40 MCQ | 45 min | 70% | SCI |
+| ComGI (Commercial General Insurance) | 50 MCQ | 75 min | 70% | SCI |
+| PGI (Personal General Insurance) | 50 MCQ | 75 min | 70% | SCI |
+| HI (Health Insurance) | 50 MCQ | 75 min | 70% | SCI |
 
-Both are CBT (computer-based), held at IBF Assessment Centre (20 Anson Road, Singapore). Regulatory authority: MAS (Monetary Authority of Singapore).
+All are CSE (Computer Screen Examination), conducted daily on weekdays. No negative marking. Unlimited resits, no waiting period.
+Venue: SCI, Suntec Tower Two, 9 Temasek Boulevard, #14-01/02/03, Singapore 038989. Online proctored option also available (ProctorPlus).
+Regulatory authority: MAS (Monetary Authority of Singapore).
 
 ## Design Policies
 
 ### Question Data — Fluid by Design
-- Current questions (data/bcp.json, data/comgi.json) are **provisional** — created from publicly available information and general insurance knowledge
-- **Once Kataoka-san provides actual study materials / SCI eBooks**, the question data should be restructured accordingly
+- Question data files: data/bcp.json (344q), data/comgi.json (500q), data/pgi.json (360q, partially placeholder), data/hi.json (500q, mostly placeholder)
+- All questions are generated from SCI eBook textbooks (md/ directory). Placeholder questions are marked with [PLACEHOLDER] and will be replaced with real textbook-based content
 - Question schema is intentionally flexible: new fields can be added without breaking existing code
 - All questions must have: id, topic, question, choices (4), answer (0-indexed), explanation
 - Optional fields: jpComparison, keywords, difficulty (1-3)
@@ -32,7 +36,7 @@ Both are CBT (computer-based), held at IBF Assessment Centre (20 Anson Road, Sin
 ### Singapore Gimmicks (Reward System)
 1. **Merlion Animation**: Water spray on correct answers; rainbow spray + crown on topic mastery
 2. **Hawker Collection**: Each mastered topic unlocks a Singaporean dish (17 dishes mapped to topics)
-3. **MRT Progress Map**: Based on real Singapore MRT. NS Line (Red) = BCP, EW Line (Green) = ComGI. Circle Line (Orange) connects both at interchange stations, lighting up as linked topics are mastered. NE (Purple) and DT (Blue) lines drawn as decorative background for atmosphere.
+3. **MRT Progress Map**: Based on real Singapore MRT. NS Line (Red) = BCP, EW Line (Green) = ComGI, NE Line (Purple) = PGI, DT Line (Blue) = HI. Circle Line (Orange) connects all four at interchange stations, lighting up as linked topics are mastered. Each line unlocks outward from a central station as questions are answered correctly. First correct answer triggers a Sakura tutorial modal introducing the line.
 
 ### Sakurai-style Game Design Notes
 - Refer to the game design document in the project root for reward system, feedback loop, and UX principles
@@ -59,7 +63,7 @@ js/
   views/     home, module-select, mode-select, quiz, result, records, glossary-view, trivia-view, mrt-view, settings
   components/ toast, modal, timer-bar, merlion, choice-grid
   utils/     dom-helpers, shuffle, date-utils
-data/        bcp.json, comgi.json, glossary.json, trivia.json
+data/        bcp.json, comgi.json, pgi.json, hi.json, glossary.json, trivia.json
 ```
 
 ## Git運用ルール
@@ -84,6 +88,12 @@ data/        bcp.json, comgi.json, glossary.json, trivia.json
 - `.gitignore` に含まれるファイルを追跡しない
 - 秘密情報（GAS URL、パスワード等）をコミットしない
 - 先生の作業中のブランチを勝手にリベースしない
+
+## TODO
+
+### MRT駅情報（station-info.js）
+- [ ] 非インターチェンジ駅の食名所を追加（Tanjong Pagar, Tiong Bahru, Holland Village 等）
+- [ ] 残り全駅の情報を段階的に埋める（現在はインターチェンジ約24駅のみ）
 
 ## Permissions for this project
 - File operations (read/write/create) and web search: proceed without individual confirmation

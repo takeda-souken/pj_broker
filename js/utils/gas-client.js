@@ -3,6 +3,11 @@
  * Sends study data to a Google Spreadsheet via GAS Web App.
  *
  * Actions: QuizLog, SessionSummary, Feedback, SyncAll
+ *
+ * Data isolation:
+ *   - localhost → action names are prefixed with "DEV_" (e.g. DEV_QuizLog)
+ *     so they land in separate sheets. This is independent of debug mode ON/OFF.
+ *   - Debug mode with gasSyncDisabled → GAS sends are blocked entirely.
  */
 import { SettingsStore } from '../models/settings-store.js';
 import { DebugStore } from '../models/debug-store.js';
@@ -11,19 +16,24 @@ const QUEUE_KEY = 'sg_broker_gas_queue';
 
 /**
  * Send data to GAS. Queues if offline or URL not set.
+ * On localhost, action names are prefixed with DEV_ for sheet separation.
  * Blocked entirely when debug mode has gasSyncDisabled.
  * @param {string} action - Sheet name / action type
  * @param {object} payload - Data to send
  * @returns {Promise<boolean>} success
  */
 export async function gasSend(action, payload) {
-  // Block GAS sends in debug mode
+  // Block GAS sends in debug mode when explicitly disabled
   if (DebugStore.isActive() && DebugStore.get('gasSyncDisabled')) {
     return false;
   }
 
+  // Localhost → prefix action with DEV_ so data lands in separate sheets
+  // This ensures local testing NEVER contaminates production data
+  const resolvedAction = DebugStore.isLocal() ? `DEV_${action}` : action;
+
   const url = SettingsStore.get('gasWebAppUrl');
-  const data = { action, ...payload, sentAt: new Date().toISOString() };
+  const data = { action: resolvedAction, ...payload, sentAt: new Date().toISOString() };
 
   if (!url) {
     enqueue(data);
@@ -110,6 +120,9 @@ function enqueue(data) {
  * Flush queued items (call when URL is set or on app start)
  */
 export async function gasFlushQueue() {
+  // Don't flush if debug mode blocks sync
+  if (DebugStore.isActive() && DebugStore.get('gasSyncDisabled')) return;
+
   const url = SettingsStore.get('gasWebAppUrl');
   if (!url) return;
 

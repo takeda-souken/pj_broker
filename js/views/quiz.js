@@ -291,12 +291,16 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
     const record = session.answer(choiceIndex === -1 ? -1 : choiceIndex);
     const isCorrect = record && record.isCorrect;
 
+    // Pending animation promises (auto-mode waits for these before advancing)
+    const pendingAnimations = [];
+
     // MRT line tutorial — show once on first correct answer for this module
     if (isCorrect && wasFirstCorrectPending) {
       if (session.mode === 'mock') {
         deferredLineIntros.push(lineId);
       } else {
-        showLineIntro(lineId);
+        const p = showLineIntro(lineId);
+        pendingAnimations.push(p);
       }
     }
 
@@ -336,9 +340,9 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
         GamificationStore.addMastery();
-        showMerlionCelebration({ type: 'mastered', topicName: q.topic });
+        pendingAnimations.push(showMerlionCelebration({ type: 'mastered', topicName: q.topic }));
       } else if (topicStats && topicStats.streak >= 3 && topicStats.streak % 3 === 0) {
-        showMerlionCelebration({ type: 'streak', streak: topicStats.streak });
+        pendingAnimations.push(showMerlionCelebration({ type: 'streak', streak: topicStats.streak }));
       }
     } else if (isCorrect && !mockShowEffects) {
       // Still record mastery/hawker even without visual effects
@@ -503,12 +507,16 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
       wrap.appendChild(nextBtn);
     }
 
-    // Auto-mode: auto-click next after answer reveal
+    // Auto-mode: auto-click next after animations finish
     if (DebugStore.isActive() && DebugStore.get('autoMode')) {
       const speed = DebugStore.get('autoSpeed') || 500;
-      autoTimer = setTimeout(() => {
-        nextBtn.click();
-      }, speed / 2);
+      if (pendingAnimations.length > 0) {
+        Promise.all(pendingAnimations).then(() => {
+          autoTimer = setTimeout(() => nextBtn.click(), speed / 2);
+        });
+      } else {
+        autoTimer = setTimeout(() => nextBtn.click(), speed / 2);
+      }
     }
   }
 

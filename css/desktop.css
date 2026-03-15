@@ -4,6 +4,7 @@
  */
 
 /* ─── Mobile base: layout wrappers behave as simple vertical stacks ─── */
+/* Legacy home-layout (kept for compatibility) */
 .home-layout {
   margin-top: var(--sp-md);
 }
@@ -26,11 +27,15 @@
 }
 
 /* Mode select / topic grids — mobile: vertical stack */
-.mode-select-grid,
+.mode-select-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-xs);
+}
 .mode-topic-grid {
-  display: flex;
-  flex-direction: column;
-  gap: var(--sp-sm);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-xs);
 }
 
 /* Settings grid — mobile: vertical stack */
@@ -84,7 +89,33 @@
     padding: var(--sp-lg) var(--sp-xl);
   }
 
-  /* ── Home: 2-column layout (nav left, dashboard right) ── */
+  /* ── Home: new layout ── */
+  .home-header-row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .home-title-block {
+    text-align: left;
+  }
+  .home-subtitle--compact {
+    display: inline;
+  }
+  .home-countdown--header {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .home-menu-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--sp-sm);
+  }
+  .home-xp-center {
+    max-width: 500px;
+  }
+
+  /* Legacy 2-column home layout (kept for compat) */
   .home-layout {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -100,9 +131,15 @@
     grid-template-columns: 1fr 1fr;
     gap: var(--sp-sm);
   }
-  /* Quick quiz button spans full width of the nav grid */
   .home-nav > .btn--primary {
     grid-column: 1 / -1;
+  }
+
+  /* Fixed bottom elements: wider on tablet, centered */
+  .home-sakura-fixed,
+  .home-trivia-fixed {
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   /* ── Quiz: choice grid 2x2 ── */
@@ -140,15 +177,11 @@
     width: 100%;
   }
 
-  /* ── Mode select: 2-column card grid ── */
+  /* ── Mode select: 2-column card grid (already 2-col on mobile, just add gap) ── */
   .mode-select-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: var(--sp-sm);
   }
   .mode-topic-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: var(--sp-sm);
   }
 
@@ -225,9 +258,9 @@
     max-width: 520px;
   }
 
-  /* ── Feedback FAB: positioned relative to content ── */
+  /* ── Feedback FAB: left-side offset ── */
   .feedback-fab {
-    right: calc(50% - 480px + var(--sp-sm));
+    left: var(--sp-sm);
   }
 
   /* ── Typography: slightly larger on desktop ── */
@@ -291,9 +324,14 @@
     max-width: 1080px;
   }
 
-  /* ── Home: fixed left column width ── */
+  /* ── Home: fixed left column width (legacy) ── */
   .home-layout {
     grid-template-columns: 380px 1fr;
+  }
+
+  /* New home layout */
+  .home-header-row {
+    padding: 0 var(--sp-md);
   }
 
   /* ── Quiz: more generous max-width ── */

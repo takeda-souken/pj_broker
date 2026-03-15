@@ -4,8 +4,8 @@
  */
 import { el } from '../utils/dom-helpers.js';
 
-const WATER_PARTICLES = 24;
-const DISPLAY_DURATION = 3000;
+const WATER_PARTICLES = 48;
+const DISPLAY_DURATION = 10000;
 
 /**
  * @param {object} opts
@@ -13,96 +13,73 @@ const DISPLAY_DURATION = 3000;
  * @param {number} [opts.streak] - current streak count
  * @param {string} [opts.topicName] - topic that was mastered
  */
+/**
+ * @returns {Promise<void>} Resolves when the celebration is dismissed (click or timeout)
+ */
 export function showMerlionCelebration({ type, streak = 0, topicName = '' }) {
-  const overlay = el('div', { className: 'merlion-overlay' });
+  return new Promise((resolve) => {
+    let resolved = false;
+    const done = () => { if (!resolved) { resolved = true; resolve(); } };
+    const overlay = el('div', { className: 'merlion-overlay' });
 
-  // Merlion SVG (simplified)
-  const merlion = el('div', { className: 'merlion-sprite' });
-  merlion.innerHTML = getMerlionSVG(type);
-  overlay.appendChild(merlion);
+    // Merlion image
+    const merlion = el('div', { className: 'merlion-sprite' });
+    const img = el('img', { src: 'img/merlion.png', alt: 'Merlion', className: 'merlion-img' });
+    merlion.appendChild(img);
+    if (type === 'mastered') {
+      const crown = el('div', { className: 'merlion-crown' });
+      crown.textContent = '👑';
+      merlion.appendChild(crown);
+    }
+    // Water spray — attached to sprite so position is relative to the image
+    const waterContainer = el('div', { className: 'merlion-water' });
+    const intensity = type === 'mastered' ? 3 : type === 'streak' ? 2 : 1;
+    for (let i = 0; i < WATER_PARTICLES * intensity; i++) {
+      const drop = el('span', { className: `merlion-drop merlion-drop--${type}` });
+      // Randomize start position within 10px radius
+      const ox = (Math.random() - 0.5) * 20;
+      const oy = (Math.random() - 0.5) * 20;
+      // Spray downward from mouth (arc left then falling)
+      const angleDeg = 240 + Math.random() * 60;
+      const angleRad = angleDeg * Math.PI / 180;
+      const dist = 40 + Math.random() * (60 * intensity);
+      const tx = Math.cos(angleRad) * dist * 0.49;
+      const ty = -Math.sin(angleRad) * dist * 1.5;
+      const dur = (0.6 + Math.random() * 0.4) / 0.7;
+      const delay = Math.random() * dur;
+      const size = 4 + Math.random() * 6;
+      drop.style.cssText = `
+        --ox: ${ox}px;
+        --oy: ${oy}px;
+        --tx: ${tx}px;
+        --ty: ${ty}px;
+        --delay: ${delay}s;
+        --dur: ${dur}s;
+        --size: ${size}px;
+      `;
+      waterContainer.appendChild(drop);
+    }
+    merlion.appendChild(waterContainer);
+    overlay.appendChild(merlion);
 
-  // Water spray
-  const waterContainer = el('div', { className: 'merlion-water' });
-  const intensity = type === 'mastered' ? 3 : type === 'streak' ? 2 : 1;
-  for (let i = 0; i < WATER_PARTICLES * intensity; i++) {
-    const drop = el('span', { className: `merlion-drop merlion-drop--${type}` });
-    const angleDeg = -30 + Math.random() * 60;
-    const angleRad = angleDeg * Math.PI / 180;
-    const dist = 60 + Math.random() * (80 * intensity);
-    const tx = Math.cos(angleRad) * dist;
-    const ty = -Math.sin(angleRad) * dist;
-    const delay = Math.random() * 0.4;
-    const size = 4 + Math.random() * 6;
-    drop.style.cssText = `
-      --tx: ${tx}px;
-      --ty: ${ty}px;
-      --delay: ${delay}s;
-      --size: ${size}px;
-    `;
-    waterContainer.appendChild(drop);
-  }
-  overlay.appendChild(waterContainer);
+    // Message
+    let msg = '';
+    if (type === 'mastered') msg = `Topic Mastered!\n${topicName}`;
+    else if (type === 'streak') msg = `${streak} in a row!`;
+    else msg = 'Correct!';
 
-  // Message
-  let msg = '';
-  if (type === 'mastered') msg = `Topic Mastered!\n${topicName}`;
-  else if (type === 'streak') msg = `${streak} in a row!`;
-  else msg = 'Correct!';
+    overlay.appendChild(el('div', { className: `merlion-msg merlion-msg--${type}` }, msg));
 
-  overlay.appendChild(el('div', { className: `merlion-msg merlion-msg--${type}` }, msg));
+    // Marina Bay Sands background for mastery
+    if (type === 'mastered') {
+      overlay.classList.add('merlion-overlay--mastered');
+    }
 
-  // Marina Bay Sands background for mastery
-  if (type === 'mastered') {
-    overlay.classList.add('merlion-overlay--mastered');
-  }
+    overlay.addEventListener('click', () => { overlay.remove(); done(); });
+    document.body.appendChild(overlay);
 
-  overlay.addEventListener('click', () => overlay.remove());
-  document.body.appendChild(overlay);
-
-  setTimeout(() => { if (overlay.parentNode) overlay.remove(); }, DISPLAY_DURATION);
-}
-
-function getMerlionSVG(type) {
-  const waterColor = type === 'mastered' ? '#f5a623' : '#009cde';
-  return `<svg viewBox="0 0 100 120" width="80" height="96" xmlns="http://www.w3.org/2000/svg">
-    <!-- Body (fish tail) -->
-    <ellipse cx="50" cy="95" rx="25" ry="20" fill="#8B9DAF" opacity="0.8"/>
-    <path d="M30,80 Q25,95 35,110 L65,110 Q75,95 70,80 Z" fill="#A0B0C0"/>
-    <!-- Scales -->
-    <path d="M38,90 Q42,85 46,90 Q42,95 38,90Z" fill="#90A4B8" opacity="0.6"/>
-    <path d="M48,88 Q52,83 56,88 Q52,93 48,88Z" fill="#90A4B8" opacity="0.6"/>
-    <path d="M42,98 Q46,93 50,98 Q46,103 42,98Z" fill="#90A4B8" opacity="0.6"/>
-    <!-- Torso -->
-    <path d="M35,45 Q30,65 35,85 L65,85 Q70,65 65,45 Z" fill="#C8A96E"/>
-    <!-- Mane -->
-    <path d="M30,25 Q20,30 25,45 L35,45 Q32,35 30,25Z" fill="#D4A017"/>
-    <path d="M70,25 Q80,30 75,45 L65,45 Q68,35 70,25Z" fill="#D4A017"/>
-    <path d="M35,15 Q30,20 30,25 L40,30 Q38,22 35,15Z" fill="#E8B830"/>
-    <path d="M65,15 Q70,20 70,25 L60,30 Q62,22 65,15Z" fill="#E8B830"/>
-    <!-- Head -->
-    <circle cx="50" cy="32" r="18" fill="#D4A017"/>
-    <!-- Face -->
-    <circle cx="43" cy="28" r="2.5" fill="#222"/>
-    <circle cx="57" cy="28" r="2.5" fill="#222"/>
-    <circle cx="43" cy="27" r="1" fill="#fff"/>
-    <circle cx="57" cy="27" r="1" fill="#fff"/>
-    <!-- Nose -->
-    <ellipse cx="50" cy="33" rx="3" ry="2" fill="#B8860B"/>
-    <!-- Mouth (open, spraying water) -->
-    <ellipse cx="50" cy="38" rx="5" ry="3" fill="#8B0000"/>
-    <!-- Water spray -->
-    <path d="M50,38 Q55,20 60,5" stroke="${waterColor}" stroke-width="3" fill="none" opacity="0.7">
-      <animate attributeName="d" values="M50,38 Q55,20 60,5;M50,38 Q52,18 58,3;M50,38 Q55,20 60,5" dur="0.8s" repeatCount="indefinite"/>
-    </path>
-    <path d="M50,38 Q45,22 42,8" stroke="${waterColor}" stroke-width="2" fill="none" opacity="0.5">
-      <animate attributeName="d" values="M50,38 Q45,22 42,8;M50,38 Q47,20 44,5;M50,38 Q45,22 42,8" dur="0.6s" repeatCount="indefinite"/>
-    </path>
-    <!-- Crown (for mastery) -->
-    ${type === 'mastered' ? `
-    <polygon points="38,15 42,5 46,12 50,2 54,12 58,5 62,15" fill="#F5A623" stroke="#D4920A" stroke-width="0.5"/>
-    <circle cx="50" cy="8" r="1.5" fill="#FF4444"/>
-    ` : ''}
-  </svg>`;
+    setTimeout(() => { if (overlay.parentNode) overlay.remove(); done(); }, DISPLAY_DURATION);
+  });
 }
 
 // CSS injected once
@@ -117,18 +94,19 @@ style.textContent = `
 .merlion-overlay--mastered {
   background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(245,166,35,0.3) 100%);
 }
-.merlion-sprite { animation: bounceIn 0.5s ease; }
-.merlion-water { position: absolute; top: 35%; left: 50%; }
+.merlion-sprite { animation: bounceIn 0.5s ease; position: relative; }
+.merlion-img { width: 120px; height: auto; filter: drop-shadow(0 0 12px rgba(255,255,255,0.4)); }
+.merlion-crown { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 2rem; animation: bounceIn 0.6s ease 0.3s both; }
+.merlion-water { position: absolute; top: calc(30% + 10px); left: calc(15% + 20px); }
 .merlion-drop {
   position: absolute;
-  width: var(--size); height: var(--size);
-  border-radius: 50%;
+  width: var(--size); height: calc(var(--size) * 1.6);
+  border-radius: 40% 40% 50% 50%;
   background: var(--c-accent);
-  animation: spray calc(0.6s + var(--delay)) ease-out forwards;
+  animation: spray var(--dur) ease-out infinite;
   animation-delay: var(--delay);
-  opacity: 0;
 }
-.merlion-drop--mastered { background: var(--c-gold); }
+.merlion-drop--mastered { background: var(--c-accent); }
 .merlion-drop--streak { background: var(--c-accent-light); }
 
 .merlion-msg {
@@ -146,8 +124,8 @@ style.textContent = `
   100% { transform: scale(1); }
 }
 @keyframes spray {
-  0% { transform: translate(0,0) scale(1); opacity: 0.8; }
-  100% { transform: translate(var(--tx), var(--ty)) scale(0.3); opacity: 0; }
+  0% { transform: translate(var(--ox), var(--oy)) scale(1); opacity: 0.8; }
+  100% { transform: translate(calc(var(--ox) + var(--tx)), calc(var(--oy) + var(--ty))) scale(0.3); opacity: 0; }
 }
 `;
 document.head.appendChild(style);

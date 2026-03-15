@@ -2,6 +2,8 @@
  * Gamification Store — XP, levels, achievements, daily goals
  * (#13 daily goal, #31 achievements, #33 XP/levels)
  */
+import { DebugStore } from './debug-store.js';
+
 const GAME_KEY = 'sg_broker_game';
 
 const XP_PER_CORRECT = 10;
@@ -10,16 +12,16 @@ const XP_PER_STREAK_BONUS = 5; // per streak count
 const XP_PER_MASTERY = 100;
 
 const LEVELS = [
-  { level: 1, xp: 0, title: 'Intern' },
-  { level: 2, xp: 50, title: 'Junior Associate' },
-  { level: 3, xp: 150, title: 'Associate' },
-  { level: 4, xp: 300, title: 'Senior Associate' },
-  { level: 5, xp: 500, title: 'Assistant VP' },
-  { level: 6, xp: 800, title: 'Vice President' },
-  { level: 7, xp: 1200, title: 'Senior VP' },
-  { level: 8, xp: 1800, title: 'Director' },
-  { level: 9, xp: 2500, title: 'Managing Director' },
-  { level: 10, xp: 3500, title: 'MAS-Certified Expert' },
+  { level: 1, xp: 0, title: 'Intern', titleJA: 'インターン' },
+  { level: 2, xp: 50, title: 'Junior Associate', titleJA: 'ジュニア・アソシエイト' },
+  { level: 3, xp: 150, title: 'Associate', titleJA: 'アソシエイト' },
+  { level: 4, xp: 300, title: 'Senior Associate', titleJA: 'シニア・アソシエイト' },
+  { level: 5, xp: 500, title: 'Assistant VP', titleJA: 'アシスタントVP' },
+  { level: 6, xp: 800, title: 'Vice President', titleJA: 'バイス・プレジデント' },
+  { level: 7, xp: 1200, title: 'Senior VP', titleJA: 'シニアVP' },
+  { level: 8, xp: 1800, title: 'Director', titleJA: 'ディレクター' },
+  { level: 9, xp: 2500, title: 'Managing Director', titleJA: 'マネージング・ディレクター' },
+  { level: 10, xp: 3500, title: 'MAS-Certified Expert', titleJA: 'MAS認定エキスパート' },
 ];
 
 const ACHIEVEMENTS = [
@@ -126,6 +128,7 @@ export class GamificationStore {
     return {
       level: current.level,
       title: current.title,
+      titleJA: current.titleJA,
       xp,
       currentLevelXp: current.xp,
       nextLevelXp: next ? next.xp : current.xp,
@@ -133,9 +136,11 @@ export class GamificationStore {
     };
   }
 
+  static getLevels() { return LEVELS; }
+
   static getTodayProgress() {
     const g = this.load();
-    const today = new Date().toISOString().slice(0, 10);
+    const today = DebugStore.today();
     // Count today's answers from records
     try {
       const records = JSON.parse(localStorage.getItem('sg_broker_records') || '[]');

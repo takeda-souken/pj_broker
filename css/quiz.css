@@ -8,8 +8,7 @@
 .quiz-header__module {
   font-size: 0.95rem;
   font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   padding: 6px 14px;
   border-radius: var(--radius);
   color: #fff;
@@ -57,10 +56,16 @@
   background: var(--c-danger);
   border-color: var(--c-danger);
 }
+.quiz-dot--answered {
+  background: var(--c-text-secondary);
+  border-color: var(--c-text-secondary);
+  opacity: 0.5;
+}
 [data-theme="dark"] .quiz-dot { background: var(--c-surface); border-color: var(--c-border); }
 [data-theme="dark"] .quiz-dot--current { background: var(--c-accent); border-color: var(--c-accent); }
 [data-theme="dark"] .quiz-dot--correct { background: var(--c-success); border-color: var(--c-success); }
 [data-theme="dark"] .quiz-dot--wrong { background: var(--c-danger); border-color: var(--c-danger); }
+[data-theme="dark"] .quiz-dot--answered { background: var(--c-text-secondary); border-color: var(--c-text-secondary); }
 
 .quiz-question {
   font-size: 1.05rem;

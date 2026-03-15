@@ -1,6 +1,8 @@
 /**
  * Record Store — tracks quiz answers and topic-level stats
  */
+import { DebugStore } from './debug-store.js';
+
 const RECORDS_KEY = 'sg_broker_records';
 const STATS_KEY = 'sg_broker_topic_stats';
 
@@ -16,7 +18,7 @@ export class RecordStore {
     const records = this.getRecords();
     records.push({
       ...record,
-      timestamp: new Date().toISOString(),
+      timestamp: DebugStore.now().toISOString(),
     });
     localStorage.setItem(RECORDS_KEY, JSON.stringify(records));
     this._updateTopicStats(record);
@@ -42,7 +44,7 @@ export class RecordStore {
       s.streak++;
       if (s.streak >= 5 && !s.mastered) {
         s.mastered = true;
-        s.masteredAt = new Date().toISOString();
+        s.masteredAt = DebugStore.now().toISOString();
       }
     } else {
       s.streak = 0;
@@ -175,7 +177,7 @@ export class RecordStore {
   // --- Archive old records (#25) ---
   static archiveOldRecords(daysOld = 90) {
     const records = this.getRecords();
-    const cutoff = new Date();
+    const cutoff = DebugStore.now();
     cutoff.setDate(cutoff.getDate() - daysOld);
     const cutoffStr = cutoff.toISOString();
 

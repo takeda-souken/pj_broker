@@ -180,14 +180,20 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
 
 /* ===== Mode Cards (Study mode selection) ===== */
 .mode-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-md);
   cursor: pointer;
   text-align: left;
   width: 100%;
+  padding: var(--sp-md) var(--sp-lg);
   border: 2px solid transparent;
   transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
 }
+.mode-card__icon { font-size: 1.5rem; flex-shrink: 0; width: 36px; text-align: center; }
+.mode-card__body { flex: 1; min-width: 0; }
 .mode-card__title { font-weight: 700; font-size: 1rem; color: var(--c-text); }
-.mode-card__subtitle { color: var(--c-text-secondary); font-size: 0.85rem; margin-top: 2px; }
+.mode-card__subtitle { color: var(--c-text-secondary); font-size: 0.8rem; margin-top: 2px; }
 @media (hover: hover) {
   .mode-card:hover {
     transform: translateY(-2px);
@@ -196,6 +202,36 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
   }
 }
 .mode-card:active { transform: scale(0.98); }
+
+/* ===== Module Cards (Module selection) ===== */
+.module-select-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-sm);
+}
+.module-card {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-md);
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: var(--sp-md) var(--sp-lg);
+  border: 2px solid transparent;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+.module-card__badge { flex-shrink: 0; }
+.module-card__body { flex: 1; min-width: 0; display: flex; align-items: baseline; gap: var(--sp-md); }
+.module-card__name { font-weight: 700; font-size: 0.95rem; color: var(--c-text); min-width: 16em; flex-shrink: 0; }
+.module-card__detail { color: var(--c-text-secondary); font-size: 0.8rem; }
+@media (hover: hover) {
+  .module-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px var(--c-shadow);
+    border-color: var(--c-accent);
+  }
+}
+.module-card:active { transform: scale(0.98); }
 
 /* ===== Stat Cards ===== */
 .stats-grid {
@@ -320,6 +356,22 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
   line-height: 1.5;
 }
 
+/* ===== Home Menu Layout (mobile base) ===== */
+.home-header-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--sp-sm);
+}
+.home-menu-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-sm);
+  margin-top: var(--sp-sm);
+}
+.home-xp-wrap {
+  margin-bottom: var(--sp-sm);
+}
+
 /* ===== Home Countdown (#29) ===== */
 .home-countdown {
   text-align: center;
@@ -403,6 +455,54 @@ h3 { font-size: 1rem; font-weight: 600; margin-bottom: var(--sp-xs); }
 .flex-col { display: flex; flex-direction: column; }
 .flex-row { display: flex; flex-direction: row; align-items: center; }
 .hidden { display: none !important; }
+
+/* ===== Fixed-bottom popups (Sakura & Trivia on Home) ===== */
+.home-sakura-fixed,
+.home-trivia-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--sp-md);
+  z-index: 100;
+  transform: translateY(100%);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0;
+}
+.home-sakura-fixed--visible,
+.home-trivia-fixed--visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+.home-sakura-fixed--hiding,
+.home-trivia-fixed--exit {
+  transform: translateY(100%);
+  opacity: 0;
+}
+.home-trivia-fixed {
+  background: linear-gradient(135deg, var(--c-accent), #006b9e);
+  color: #fff;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  cursor: pointer;
+}
+[data-theme="dark"] .home-trivia-fixed {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-bottom: none;
+}
+.home-trivia-fixed__close {
+  position: absolute;
+  top: var(--sp-sm);
+  right: var(--sp-sm);
+  border: none;
+  background: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+}
+[data-theme="dark"] .home-trivia-fixed__close { color: var(--c-text-secondary); }
 
 /* ===== Bilingual annotation (EN/JA mode) ===== */
 .bilingual-sub {

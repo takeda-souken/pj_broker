@@ -24,6 +24,10 @@ const DEFAULTS = {
   sakuraNickname: '片岡さん', // Sakura's name for the user (evolves with phase)
   nicknamePhaseOffered: 1,   // Which phase's nickname options have been offered (1=default only)
   gasWebAppUrl: 'https://script.google.com/macros/s/AKfycbxJQyh63-nvAK9Aspm-Y8CXO4mQYEqw0PB5cxtBMmB0k8B1lrClPN9O3xhJ9gCqM7VS7g/exec',
+  // Mock exam options (defaults match real CSE: no per-question feedback)
+  mockShowResult: false,      // Show correct/incorrect after each question
+  mockShowExplanation: false, // Show explanation after each question
+  mockShowEffects: false,     // Show mastery celebrations, merlion, etc.
   // Auto theme time range (light mode hours)
   themeLightStart: 6,       // Light mode starts at 6:00
   themeLightEnd: 17,        // Light mode ends at 17:00 (dark from 17:00)

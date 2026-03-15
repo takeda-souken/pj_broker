@@ -407,7 +407,6 @@ function menuBtn(titleKey, titleEn, subKey, subEn, icon, onClick) {
     text.appendChild(subDiv);
   }
   btn.appendChild(text);
-  btn.appendChild(el('span', { className: 'menu-card__arrow' }, '\u203A'));
   return btn;
 }
 
@@ -424,7 +423,7 @@ function triviaLabel(category) {
 function getMenuIcon(type) {
   const icons = {
     practice: '\uD83D\uDCDD', mock: '\u23F1\uFE0F', glossary: '\uD83D\uDD0D',
-    records: '\uD83D\uDCCA', fun: '\uD83C\uDF89', settings: '\u2699\uFE0F',
+    'question-bank': '\uD83D\uDDC3\uFE0F', records: '\uD83D\uDCCA', fun: '\uD83C\uDF89', settings: '\u2699\uFE0F',
     bcp: '\uD83D\uDCD8', comgi: '\uD83D\uDCD5', pgi: '\uD83D\uDCD7', hi: '\uD83D\uDCD9',
     mrt: '\uD83D\uDE87', mixed: '\uD83C\uDFB2', trivia: '\uD83E\uDD81',
   };

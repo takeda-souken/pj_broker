@@ -4,7 +4,7 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { loadTrivia } from '../data/trivia.js';
-import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
+import { triText, tr } from '../utils/i18n.js';
 
 const CAT_LABELS = {
   insurance: { en: 'Insurance', ja: '保険' },
@@ -23,17 +23,21 @@ function catLabel(cat) {
 }
 
 registerRoute('#trivia', async (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
+  const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#home') });
+  backBtn.appendChild(document.createTextNode('\u25C0 '));
+  backBtn.appendChild(triText('common.back', 'Back'));
+  app.appendChild(backBtn);
   const h1 = el('h1', { className: 'mt-md' });
-  h1.appendChild(trNode('trivia.title', 'Singapore Tips & Trivia'));
+  h1.appendChild(triText('trivia.title', 'Singapore Tips & Trivia'));
   app.appendChild(h1);
 
-  const showJp = shouldShowJp();
   let triviaList = [];
   try { triviaList = await loadTrivia(); } catch { }
 
   if (triviaList.length === 0) {
-    app.appendChild(el('div', { className: 'text-secondary mt-md' }, tr('trivia.noData', 'No trivia available.')));
+    const noData = el('div', { className: 'text-secondary mt-md' });
+    noData.appendChild(triText('trivia.noData', 'No trivia available.'));
+    app.appendChild(noData);
     return;
   }
 
@@ -71,8 +75,11 @@ registerRoute('#trivia', async (app) => {
       const card = el('div', { className: 'trivia-card' });
       card.appendChild(el('div', { className: 'trivia-card__label' }, catLabel(t.category)));
       card.appendChild(el('div', { className: 'trivia-card__text' }, t.text));
-      if (showJp && t.textJp) {
-        card.appendChild(el('div', { className: 'text-sm mt-sm', style: 'opacity:0.8;' }, t.textJp));
+      if (t.textJp) {
+        const jpLine = el('div', { className: 'text-sm mt-sm i18n-ja', style: 'opacity:0.8;' }, t.textJp);
+        card.appendChild(jpLine);
+        const subLine = el('div', { className: 'text-sm mt-sm i18n-sub', style: 'opacity:0.8;' }, t.textJp);
+        card.appendChild(subLine);
       }
       cont.appendChild(card);
     }

@@ -4,12 +4,15 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { RecordStore } from '../models/record-store.js';
-import { tr, trNode } from '../utils/i18n.js';
+import { triText, tr } from '../utils/i18n.js';
 
 registerRoute('#journal', (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#settings') }, '\u25C0 ' + tr('common.back', 'Back')));
+  const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#settings') });
+  backBtn.appendChild(document.createTextNode('\u25C0 '));
+  backBtn.appendChild(triText('common.back', 'Back'));
+  app.appendChild(backBtn);
   const h1 = el('h1', { className: 'mt-md' });
-  h1.appendChild(trNode('journal.title', 'Wrong Answer Journal'));
+  h1.appendChild(triText('journal.title', 'Wrong Answer Journal'));
   app.appendChild(h1);
 
   const records = RecordStore.getRecords();
@@ -18,7 +21,9 @@ registerRoute('#journal', (app) => {
   if (wrongRecords.length === 0) {
     const emptyEl = el('div', { className: 'text-center mt-lg' });
     emptyEl.appendChild(el('div', { style: 'font-size:3rem;' }, '\uD83C\uDF89'));
-    emptyEl.appendChild(el('div', { className: 'text-secondary mt-sm' }, tr('journal.empty', 'No wrong answers yet! Keep it up!')));
+    const emptyText = el('div', { className: 'text-secondary mt-sm' });
+    emptyText.appendChild(triText('journal.empty', 'No wrong answers yet! Keep it up!'));
+    emptyEl.appendChild(emptyText);
     app.appendChild(emptyEl);
     return;
   }
@@ -106,7 +111,7 @@ registerRoute('#journal', (app) => {
         card.appendChild(item);
       }
 
-      // Drill button
+      // Drill button — uses tr() for the label since it's concatenated with topic name
       if (entry.topic && entry.module) {
         card.appendChild(el('button', {
           className: 'btn btn--accent btn--block mt-sm',

@@ -21,6 +21,7 @@ export function initJpToggle() {
     const idx = CYCLE.indexOf(current);
     const next = CYCLE[(idx + 1) % CYCLE.length];
     SettingsStore.set('langMode', next);
+    document.documentElement.setAttribute('data-lang', next);   // CSS-based i18n: instant
     updateLabel();
     window.dispatchEvent(new CustomEvent('lang-mode-changed', { detail: { mode: next } }));
   });

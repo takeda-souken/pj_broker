@@ -162,3 +162,376 @@
   transition: background var(--transition), color var(--transition);
 }
 .btn-drill:hover { background: var(--c-accent); color: #fff; }
+
+/* ===== Trophy Showcase ===== */
+.trophy-showcase {
+  margin-bottom: var(--sp-lg);
+}
+
+/* ── Hero: Level ring + stats ── */
+.trophy-hero {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-lg);
+  padding: var(--sp-md) var(--sp-lg);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--c-surface) 0%, var(--c-surface-alt) 100%);
+  border: 1px solid var(--c-border);
+  box-shadow: 0 2px 12px var(--c-shadow);
+}
+
+.trophy-hero__ring-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.trophy-hero__ring {
+  transform: rotate(-90deg);
+}
+
+.trophy-ring__bg {
+  fill: none;
+  stroke: var(--c-surface-alt);
+}
+
+.trophy-ring__fill {
+  fill: none;
+  stroke: var(--c-gold);
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.8s ease;
+  filter: drop-shadow(0 0 6px rgba(245, 166, 35, 0.4));
+}
+
+.trophy-hero__center {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.trophy-hero__level {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--c-gold);
+  line-height: 1.1;
+}
+
+.trophy-hero__title {
+  font-size: 0.65rem;
+  color: var(--c-text-secondary);
+  text-align: center;
+  line-height: 1.2;
+  max-width: 90px;
+}
+
+.trophy-hero__stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-sm) var(--sp-md);
+  flex: 1;
+}
+
+.trophy-hero__stat {
+  text-align: center;
+}
+
+.trophy-hero__stat-value {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--c-text);
+}
+
+.trophy-hero__stat-label {
+  font-size: 0.65rem;
+  color: var(--c-text-secondary);
+  line-height: 1.2;
+}
+
+/* ── Section labels ── */
+.trophy-section-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: var(--sp-xs);
+}
+
+.trophy-section-label--gold {
+  color: var(--c-gold);
+}
+
+.trophy-section-label--muted {
+  color: var(--c-text-secondary);
+  opacity: 0.7;
+}
+
+/* ── Unlocked medals ── */
+.trophy-unlocked {
+  margin-top: var(--sp-md);
+}
+
+.trophy-medals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-sm);
+}
+
+.trophy-medal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 72px;
+  padding: var(--sp-sm) 4px;
+  border-radius: var(--radius);
+  background: var(--c-surface);
+  border: 1px solid rgba(245, 166, 35, 0.25);
+  box-shadow: 0 1px 4px rgba(245, 166, 35, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: default;
+}
+
+.trophy-medal:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(245, 166, 35, 0.25);
+}
+
+.trophy-medal__icon {
+  font-size: 1.8rem;
+  line-height: 1;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+}
+
+.trophy-medal__name {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: var(--c-text);
+  text-align: center;
+  line-height: 1.15;
+  word-break: break-word;
+}
+
+/* Tooltip (DOM-based for triText support) */
+.trophy-medal {
+  position: relative;
+}
+
+.trophy-tooltip {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: var(--c-text);
+  color: var(--c-bg);
+  font-size: 0.7rem;
+  font-weight: 500;
+  line-height: 1.3;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s, transform 0.15s;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trophy-medal:hover .trophy-tooltip {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+}
+
+.trophy-tooltip .i18n-sub {
+  color: inherit;
+  opacity: 0.6;
+}
+
+/* Keep tooltip on-screen for edge medals */
+.trophy-medals > .trophy-medal:first-child .trophy-tooltip {
+  left: 0;
+  transform: translateX(0) scale(0.9);
+}
+.trophy-medals > .trophy-medal:first-child:hover .trophy-tooltip {
+  transform: translateX(0) scale(1);
+}
+.trophy-medals > .trophy-medal:last-child .trophy-tooltip {
+  left: auto;
+  right: 0;
+  transform: translateX(0) scale(0.9);
+}
+.trophy-medals > .trophy-medal:last-child:hover .trophy-tooltip {
+  transform: translateX(0) scale(1);
+}
+
+/* ── View All link ── */
+.trophy-view-all {
+  display: block;
+  width: 100%;
+  margin-top: var(--sp-md);
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--c-gold);
+  background: transparent;
+  border: 1px solid rgba(245, 166, 35, 0.3);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.trophy-view-all:hover {
+  background: rgba(245, 166, 35, 0.08);
+  border-color: var(--c-gold);
+}
+
+/* ── Mobile: stack hero vertically ── */
+@media (max-width: 479px) {
+  .trophy-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: var(--sp-md);
+    gap: var(--sp-md);
+  }
+
+  .trophy-hero__stats {
+    width: 100%;
+  }
+
+  .trophy-medals {
+    justify-content: center;
+  }
+}
+
+/* ===== Level Staircase (Achievements) ===== */
+.level-staircase {
+  padding: var(--sp-md);
+  overflow-x: auto;
+}
+
+.level-staircase__header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6em;
+  margin-bottom: var(--sp-sm);
+}
+
+/* Boxes row — bottom-aligned */
+.level-stairs__boxes {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+/* Each cell wraps the box + optional marker */
+.level-step__cell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+}
+
+/* Unreached cells are dim */
+.level-step__cell:not(.level-step--reached):not(.level-step--current) {
+  opacity: 0.3;
+}
+
+/* The box — height set inline */
+.level-step__box {
+  width: 100%;
+  min-width: 20px;
+  border-radius: 4px 4px 0 0;
+  background: var(--c-surface-alt);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4px;
+  border: 1px solid transparent;
+}
+
+.level-step--reached .level-step__box {
+  background: var(--c-gold);
+  border-color: var(--c-gold);
+}
+
+.level-step--current .level-step__box {
+  background: linear-gradient(to top, var(--c-gold), rgba(245, 166, 35, 0.4));
+  border-color: var(--c-gold);
+  box-shadow: 0 0 8px rgba(245, 166, 35, 0.4);
+}
+
+.level-step__lv {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--c-text-secondary);
+}
+
+.level-step--reached .level-step__lv {
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.level-step--current .level-step__lv {
+  font-size: 0.85rem;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Marker row — ▼ sits between boxes and labels */
+.level-stairs__markers {
+  display: flex;
+  gap: 3px;
+  height: 14px;
+}
+
+.level-step__marker-cell {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  line-height: 14px;
+}
+
+.level-step__marker {
+  color: var(--c-gold);
+  font-size: 0.6rem;
+  animation: marker-bounce 1.2s ease-in-out infinite;
+}
+
+@keyframes marker-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(2px); }
+}
+
+/* Labels row — same column widths as boxes */
+.level-stairs__labels {
+  display: flex;
+  gap: 3px;
+  margin-top: 4px;
+}
+
+.level-step__label {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.55rem;
+  color: var(--c-text-secondary);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1.3;
+}
+
+.level-step__label.level-step--current {
+  font-weight: 700;
+  color: var(--c-gold);
+  font-size: 0.6rem;
+}
+
+.level-step__label:not(.level-step--reached):not(.level-step--current) {
+  opacity: 0.3;
+}

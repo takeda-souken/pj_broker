@@ -49,7 +49,7 @@
         "……おやすみ。"
       ], "end": true }
     ],
-    "closing": "auto",
+    "closing": ["……{name}も、ちゃんと寝てね。"],
     "category": "story",
     "tags": ["love", "confession_hint", "bittersweet"],
     "priority": 100
@@ -66,13 +66,17 @@
         "……あれ、何か教えてなかったよね。"
       ]},
       { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "気になってたよ", "next": "n3", "axes": { "warmth": 1 } },
-        { "label": "教えてくれるの？", "next": "n3", "axes": { "warmth": 1 } }
+        { "label": "気になってたよ", "next": "n3a", "axes": { "warmth": 1 } },
+        { "label": "教えてくれるの？", "next": "n3b", "axes": { "warmth": 1 } }
       ]},
-      { "id": "n3", "speaker": "sakura", "lines": [
-        "……日本の保険会社に、転職しようと思っとる。",
-        "外資系の日本拠点。経営企画。"
-      ]},
+      { "id": "n3a", "speaker": "sakura", "lines": [
+        "……気にしてくれとったんや。……えへへ。",
+        "……日本の保険会社に、転職しようと思っとる。外資系の日本拠点。経営企画。"
+      ], "next": "n4" },
+      { "id": "n3b", "speaker": "sakura", "lines": [
+        "うん。もう隠さんでもいいかなって。",
+        "……日本の保険会社に、転職しようと思っとる。外資系の日本拠点。経営企画。"
+      ], "next": "n4" },
       { "id": "n4", "speaker": "sakura", "lines": [
         "……面接、受けてみようと思って。まだ「決まった」わけやないけど。",
         "……でも、やってみたいんよ。ずっと憧れとった日本で、保険の仕事を。"
@@ -103,12 +107,14 @@
       { "id": "n9a", "speaker": "sakura", "lines": [
         "……ありがと。",
         "……{name}に応援してもらったら、受からんわけにいかんやん。",
-        "……頑張る。絶対頑張る。"
+        "……頑張る。絶対頑張る。",
+        "……えへへ。ありがと、聞いてくれて。"
       ], "end": true },
       { "id": "n9b", "speaker": "sakura", "lines": [
         "……「一緒に」。",
         "……またその言葉や。",
-        "……{name}は試験、うちは転職。……お互い、次のステージに行こうね。"
+        "……{name}は試験、うちは転職。……お互い、次のステージに行こうね。",
+        "……よし。がんばろ。"
       ], "end": true }
     ],
     "closing": "auto",
@@ -162,7 +168,7 @@
         "……考えすぎやね。おやすみ、{name}。"
       ], "end": true }
     ],
-    "closing": "auto",
+    "closing": null,
     "category": "story",
     "tags": ["farewell_foreshadow", "night", "emotional"],
     "priority": 100

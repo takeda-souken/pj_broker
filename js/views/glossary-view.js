@@ -5,9 +5,8 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { loadGlossary, searchGlossary, filterByModule, groupAlphabetically } from '../data/glossary.js';
-import { SettingsStore } from '../models/settings-store.js';
 import { BookmarkStore } from '../models/bookmark-store.js';
-import { showJp as shouldShowJp, tr, trNode } from '../utils/i18n.js';
+import { triText, tr } from '../utils/i18n.js';
 
 // --- Kana row mapping (hiragana + katakana + voiced/semi-voiced) ---
 const KANA_ROWS = [
@@ -45,12 +44,14 @@ const KANA_SUB = {
 };
 
 registerRoute('#glossary', async (app) => {
-  app.appendChild(el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ' + tr('common.back', 'Back')));
-  const h1 = el('h1', { className: 'mt-md' });
-  h1.appendChild(trNode('glossary.title', 'Insurance Glossary'));
-  app.appendChild(h1);
+  const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#home') });
+  backBtn.append('\u25C0 ');
+  backBtn.appendChild(triText('common.back', 'Back'));
+  app.appendChild(backBtn);
 
-  const showJp = shouldShowJp();
+  const h1 = el('h1', { className: 'mt-md' });
+  h1.appendChild(triText('glossary.title', 'Insurance Glossary'));
+  app.appendChild(h1);
 
   // State
   let indexMode = 'en';
@@ -58,33 +59,33 @@ registerRoute('#glossary', async (app) => {
   let searchQuery = '';
   let expandedRow = null;
 
-  // --- Search box ---
+  // --- Search box (placeholder needs plain string, so use tr()) ---
   const searchInput = el('input', {
     className: 'search-box',
     type: 'text',
-    placeholder: showJp ? tr('glossary.searchBilingual', 'Search in English or Japanese...') : tr('glossary.searchEn', 'Search terms...'),
+    placeholder: tr('glossary.searchBilingual', 'Search in English or Japanese...'),
   });
   app.appendChild(searchInput);
 
-  // --- Index mode segmented control (EN / JP) ---
-  let indexSegEl = null;
-  if (showJp) {
-    indexSegEl = el('div', { className: 'seg-control mt-sm' });
-    const enBtn = el('button', { className: 'seg-control__item seg-control__item--active', onClick: () => setIndexMode('en') }, 'A-Z (English)');
-    const jpBtn = el('button', { className: 'seg-control__item', onClick: () => setIndexMode('jp') }, '\u3042-\u308F (Japanese)');
-    indexSegEl.appendChild(enBtn);
-    indexSegEl.appendChild(jpBtn);
-    app.appendChild(indexSegEl);
-  }
+  // --- Index mode segmented control (EN / JP) — always rendered, CSS controls visibility ---
+  const indexSegEl = el('div', { className: 'seg-control mt-sm i18n-ja' });
+  const enBtn = el('button', { className: 'seg-control__item seg-control__item--active', onClick: () => setIndexMode('en') }, 'A-Z (English)');
+  const jpBtn = el('button', { className: 'seg-control__item', onClick: () => setIndexMode('jp') }, '\u3042-\u308F (Japanese)');
+  indexSegEl.appendChild(enBtn);
+  indexSegEl.appendChild(jpBtn);
+  app.appendChild(indexSegEl);
 
   // --- Module filter segmented control ---
   const moduleSeg = el('div', { className: 'seg-control mt-sm' });
-  const allBtn = el('button', { className: 'seg-control__item seg-control__item--active', onClick: () => setModule('all') }, tr('glossary.allFilter', 'All'));
+  const allBtn = el('button', { className: 'seg-control__item seg-control__item--active', onClick: () => setModule('all') });
+  allBtn.appendChild(triText('glossary.allFilter', 'All'));
   const bcpBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('BCP') }, 'BCP');
   const comgiBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('ComGI') }, 'ComGI');
   const bmCount = BookmarkStore.count();
-  const bmBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('bookmarks') },
-    `\u2605 ${tr('glossary.bookmarks', 'Bookmarks')}${bmCount ? ` (${bmCount})` : ''}`);
+  const bmBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('bookmarks') });
+  bmBtn.append('\u2605 ');
+  bmBtn.appendChild(triText('glossary.bookmarks', 'Bookmarks'));
+  if (bmCount) bmBtn.append(` (${bmCount})`);
   moduleSeg.appendChild(allBtn);
   moduleSeg.appendChild(bcpBtn);
   moduleSeg.appendChild(comgiBtn);
@@ -119,11 +120,9 @@ registerRoute('#glossary', async (app) => {
   function setIndexMode(mode) {
     indexMode = mode;
     expandedRow = null;
-    if (indexSegEl) {
-      indexSegEl.querySelectorAll('.seg-control__item').forEach((btn, i) => {
-        btn.className = 'seg-control__item' + ((i === 0 && mode === 'en') || (i === 1 && mode === 'jp') ? ' seg-control__item--active' : '');
-      });
-    }
+    indexSegEl.querySelectorAll('.seg-control__item').forEach((btn, i) => {
+      btn.className = 'seg-control__item' + ((i === 0 && mode === 'en') || (i === 1 && mode === 'jp') ? ' seg-control__item--active' : '');
+    });
     render();
   }
 
@@ -140,11 +139,16 @@ registerRoute('#glossary', async (app) => {
     let items;
     if (moduleFilter === 'bookmarks') {
       const bookmarks = BookmarkStore.getAll();
-      items = glossary.filter(item =>
-        bookmarks.includes(item.term) ||
-        (item.jpTerm && bookmarks.includes(item.jpTerm)) ||
-        (item.tags && item.tags.some(t => bookmarks.includes(t)))
-      );
+      const bmLower = bookmarks.map(b => b.toLowerCase());
+      items = glossary.filter(item => {
+        const termLow = item.term.toLowerCase();
+        // Exact match on term, jpTerm, or tags
+        if (bookmarks.includes(item.term)) return true;
+        if (item.jpTerm && bookmarks.includes(item.jpTerm)) return true;
+        if (item.tags && item.tags.some(t => bookmarks.includes(t))) return true;
+        // Partial match: bookmark keyword found in term, or term found in bookmark
+        return bmLower.some(bm => termLow.includes(bm) || bm.includes(termLow));
+      });
     } else {
       items = filterByModule(glossary, moduleFilter);
     }
@@ -164,7 +168,9 @@ registerRoute('#glossary', async (app) => {
     countEl.textContent = `${items.length} terms`;
 
     if (items.length === 0) {
-      listContainer.appendChild(el('div', { className: 'text-secondary', style: 'padding:16px 0;text-align:center;' }, tr('glossary.noResults', 'No results.')));
+      const noRes = el('div', { className: 'text-secondary', style: 'padding:16px 0;text-align:center;' });
+      noRes.appendChild(triText('glossary.noResults', 'No results.'));
+      listContainer.appendChild(noRes);
       return;
     }
 
@@ -314,6 +320,16 @@ registerRoute('#glossary', async (app) => {
     render();
   }
 
+  function isTermBookmarked(term) {
+    if (BookmarkStore.has(term)) return true;
+    const bookmarks = BookmarkStore.getAll();
+    const termLow = term.toLowerCase();
+    return bookmarks.some(bm => {
+      const bmLow = bm.toLowerCase();
+      return termLow.includes(bmLow) || bmLow.includes(termLow);
+    });
+  }
+
   function createGlossaryItem(item) {
     const li = el('div', { className: 'glossary-item' });
     const headerRow = el('div', { className: 'glossary-item__header' });
@@ -321,7 +337,7 @@ registerRoute('#glossary', async (app) => {
       ? `${item.jpTerm} / ${item.term}`
       : item.term;
     headerRow.appendChild(el('div', { className: 'glossary-item__term' }, termText));
-    const isBookmarked = BookmarkStore.has(item.term);
+    const isBookmarked = isTermBookmarked(item.term);
     const starBtn = el('button', {
       className: 'btn-bookmark-star' + (isBookmarked ? ' btn-bookmark-star--active' : ''),
       onClick: (e) => {
@@ -329,7 +345,11 @@ registerRoute('#glossary', async (app) => {
         const added = BookmarkStore.toggle(item.term);
         starBtn.classList.toggle('btn-bookmark-star--active', added);
         starBtn.textContent = added ? '\u2605' : '\u2606';
-        bmBtn.textContent = `\u2605 ${tr('glossary.bookmarks', 'Bookmarks')}${BookmarkStore.count() ? ` (${BookmarkStore.count()})` : ''}`;
+        // Update bookmark button text
+        bmBtn.textContent = '';
+        bmBtn.append('\u2605 ');
+        bmBtn.appendChild(triText('glossary.bookmarks', 'Bookmarks'));
+        if (BookmarkStore.count()) bmBtn.append(` (${BookmarkStore.count()})`);
       },
     }, isBookmarked ? '\u2605' : '\u2606');
     headerRow.appendChild(starBtn);
@@ -338,17 +358,24 @@ registerRoute('#glossary', async (app) => {
     if (item.example) {
       li.appendChild(el('div', { className: 'glossary-item__example' }, `e.g. ${item.example}`));
     }
-    if (showJp && item.jpTerm && indexMode !== 'jp') {
-      li.appendChild(el('div', { className: 'glossary-item__jp' }, `${item.jpTerm}${item.jp ? ' \u2014 ' + item.jp : ''}`));
+    // JP term annotation — always rendered, CSS controls visibility via i18n-ja / i18n-sub
+    if (item.jpTerm && indexMode !== 'jp') {
+      const jpLine = el('div', { className: 'glossary-item__jp i18n-ja' });
+      jpLine.textContent = `${item.jpTerm}${item.jp ? ' \u2014 ' + item.jp : ''}`;
+      li.appendChild(jpLine);
     }
-    if (showJp && item.jp && indexMode === 'jp') {
-      li.appendChild(el('div', { className: 'glossary-item__jp' }, item.jp));
+    if (item.jp && indexMode === 'jp') {
+      const jpLine = el('div', { className: 'glossary-item__jp i18n-ja' });
+      jpLine.textContent = item.jp;
+      li.appendChild(jpLine);
     }
     if (item.tags && item.tags.length > 0) {
       const tagsEl = el('div', { className: 'glossary-item__tags' });
       for (const tag of item.tags) {
         const cls = tag === 'BCP' ? 'glossary-tag glossary-tag--bcp'
           : tag === 'ComGI' ? 'glossary-tag glossary-tag--comgi'
+          : tag === 'PGI' ? 'glossary-tag glossary-tag--pgi'
+          : tag === 'HI' ? 'glossary-tag glossary-tag--hi'
           : 'glossary-tag';
         tagsEl.appendChild(el('span', { className: cls }, tag));
       }

@@ -1,8 +1,10 @@
 /**
  * Date utilities
  */
+import { DebugStore } from '../models/debug-store.js';
+
 export function isoNow() {
-  return new Date().toISOString();
+  return DebugStore.now().toISOString();
 }
 
 export function formatDuration(ms) {
