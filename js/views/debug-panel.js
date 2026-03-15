@@ -194,6 +194,64 @@ function openPanel() {
     }
     body.appendChild(merlionRow);
 
+    // ─── Achievement Popup Test ───────────────────
+    body.appendChild(sectionTitle('Achievement Popup'));
+    const achTestRow = el('div', { style: 'display:flex;gap:6px;flex-wrap:wrap;padding:4px 0;' });
+    achTestRow.appendChild(el('button', {
+      className: 'debug-btn',
+      onClick: async () => {
+        const { showAchievementPopup } = await import('../components/achievement-popup.js');
+        showAchievementPopup([
+          { icon: '\uD83D\uDD25', name: 'Hot Streak', nameJA: '絶好調', desc: '5 correct answers in a row' },
+        ]);
+      },
+    }, '🏆 Single'));
+    achTestRow.appendChild(el('button', {
+      className: 'debug-btn',
+      onClick: async () => {
+        const { showAchievementPopup } = await import('../components/achievement-popup.js');
+        showAchievementPopup([
+          { icon: '\uD83D\uDD25', name: 'Hot Streak', nameJA: '絶好調', desc: '5 correct answers in a row' },
+          { icon: '\uD83C\uDFC6', name: 'Ace', nameJA: 'エース', desc: 'Score 90%+ on a mock exam' },
+          { icon: '\uD83D\uDC51', name: 'True Completionist', nameJA: '真のコンプリート', desc: 'Unlock every other achievement' },
+        ]);
+      },
+    }, '🏆×3 Multi'));
+    body.appendChild(achTestRow);
+
+    // ─── MRT Line Intro Test ────────────────────────
+    body.appendChild(sectionTitle('MRT Line Intro'));
+    const mrtTestRow = el('div', { style: 'display:flex;gap:6px;flex-wrap:wrap;padding:4px 0;' });
+    const mrtLines = [
+      { id: 'ns', label: '🔴 NS', color: '#e4002b' },
+      { id: 'ew', label: '🟢 EW', color: '#009645' },
+      { id: 'ne', label: '🟣 NE', color: '#9016b2' },
+      { id: 'dt', label: '🔵 DT', color: '#005ec4' },
+    ];
+    for (const line of mrtLines) {
+      mrtTestRow.appendChild(el('button', {
+        className: 'debug-btn',
+        style: `border-color:${line.color};color:${line.color};`,
+        onClick: async () => {
+          const { showLineIntro } = await import('../components/mrt-tutorial.js');
+          // Temporarily remove shown flag so it displays
+          const key = 'sg_broker_mrt_intro_shown';
+          const shown = JSON.parse(localStorage.getItem(key) || '{}');
+          const backup = shown[line.id];
+          delete shown[line.id];
+          localStorage.setItem(key, JSON.stringify(shown));
+          await showLineIntro(line.id, { deferred: true });
+          // Restore original shown state (don't pollute real tracking)
+          if (backup) {
+            const s = JSON.parse(localStorage.getItem(key) || '{}');
+            s[line.id] = backup;
+            localStorage.setItem(key, JSON.stringify(s));
+          }
+        },
+      }, line.label));
+    }
+    body.appendChild(mrtTestRow);
+
     // ─── Unique Correct Counts (MRT progress) ─────
     body.appendChild(sectionTitle('Unique Correct (MRT)'));
     const counts = DebugStore.getUniqueCorrectCounts();
