@@ -73,7 +73,7 @@ registerRoute('#quiz', async (app) => {
   const deferredLineIntros = []; // MRT intros deferred until mock exam ends
   const midQuizAchievements = []; // Achievements unlocked mid-quiz (mastery etc.)
 
-  renderQuestion(app, session, settings, deferredLineIntros);
+  renderQuestion(app, session, settings, deferredLineIntros, midQuizAchievements);
 
   // Auto-mode badge (debug)
   let autoBadge = null;
@@ -115,7 +115,7 @@ registerRoute('#quiz', async (app) => {
   // Mock exam timer
   let examTimerCleanup = null;
   if (session.mode === 'mock') {
-    examTimerCleanup = startExamTimer(app, session, deferredLineIntros);
+    examTimerCleanup = startExamTimer(app, session, deferredLineIntros, midQuizAchievements);
   }
 
   // Keyboard shortcuts (#41)
@@ -172,14 +172,14 @@ registerRoute('#quiz', async (app) => {
   };
 });
 
-function renderQuestion(app, session, settings, deferredLineIntros = []) {
+function renderQuestion(app, session, settings, deferredLineIntros = [], midQuizAchievements = []) {
   app.innerHTML = '';
   document.querySelectorAll('.sakura-bottom-popup').forEach(e => e.remove());
   answered = false;
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
     clearSavedSession();
-    showResults(app, session, deferredLineIntros);
+    showResults(app, session, deferredLineIntros, midQuizAchievements);
     return;
   }
 
@@ -500,7 +500,7 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
     if (wrap.querySelector('.quiz-next-btn')) return;
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
-      onClick: () => { session.next(); renderQuestion(app, session, settings, deferredLineIntros); },
+      onClick: () => { session.next(); renderQuestion(app, session, settings, deferredLineIntros, midQuizAchievements); },
     });
     const isLast = session.currentIndex + 1 >= session.total;
     nextBtn.appendChild(triText(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
@@ -685,7 +685,7 @@ export function getSavedSessionInfo() {
   }
 }
 
-async function showResults(app, session, deferredLineIntros = []) {
+async function showResults(app, session, deferredLineIntros = [], midQuizAchievements = []) {
   const results = session.getResults();
   // Collect wrong question IDs for review (#4)
   results.wrongIds = session.answers.filter(a => !a.isCorrect && a.answer !== -1).map(a => a.questionId);
@@ -745,7 +745,7 @@ async function showResults(app, session, deferredLineIntros = []) {
   navigate(`#result`);
 }
 
-function startExamTimer(app, session, deferredLineIntros = []) {
+function startExamTimer(app, session, deferredLineIntros = [], midQuizAchievements = []) {
   const timerEl = el('div', { className: 'exam-timer' });
   const timeDisplay = el('span', { className: 'exam-timer__time' });
   timerEl.appendChild(el('span', {}, tr('quiz.mockExamLabel', `${session.module.toUpperCase()} Mock Exam`, session.module.toUpperCase())));
@@ -783,7 +783,7 @@ function startExamTimer(app, session, deferredLineIntros = []) {
     if (session.isTimeUp) {
       clearInterval(interval);
       showToast(tr('quiz.timesUp', 'Time\'s up!'), 'error');
-      showResults(app, session, deferredLineIntros);
+      showResults(app, session, deferredLineIntros, midQuizAchievements);
     }
   }, 1000);
 

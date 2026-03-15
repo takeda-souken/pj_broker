@@ -49,6 +49,8 @@ async function handleRoute() {
   // Clean up fixed-bottom home elements on route change
   // Remove sakura-room body styling on route change
   document.body.classList.remove('sakura-room-active');
+  // Remove MRT wide layout on route change
+  app.classList.remove('mrt-wide');
   // Keep .sakura-door-transition alive during sakura-room entry (cleaned up by the view)
   document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup, .sakura-door, .sakura-door--exit, .sr-debug-skip').forEach(el => el.remove());
   document.body.style.overflow = ''; // restore if tutorial was active

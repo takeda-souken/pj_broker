@@ -1,22 +1,69 @@
 /* ===== MRT Progress Map ===== */
-.mrt-legend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--sp-sm) var(--sp-lg);
-  margin-bottom: var(--sp-sm);
+
+/* Widen #app when MRT tab is active (PC only) */
+#app.mrt-wide {
+  max-width: 960px;
 }
-.mrt-legend__item {
+
+/* Two-column layout: map left, sidebar right on PC */
+.mrt-layout {
+  display: flex;
+  gap: var(--sp-md);
+  align-items: flex-start;
+}
+.mrt-layout__map {
+  flex: 1;
+  min-width: 0;
+}
+.mrt-layout__sidebar {
+  flex: 0 0 260px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-xs);
+}
+
+/* Mobile: stack vertically */
+@media (max-width: 700px) {
+  #app.mrt-wide { max-width: 480px; }
+  .mrt-layout {
+    flex-direction: column;
+  }
+  .mrt-layout__sidebar {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* Line row in sidebar */
+.mrt-line-row {
+  padding: var(--sp-xs) var(--sp-sm);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-md);
+  background: var(--c-surface);
+}
+.mrt-line-row__header {
   display: flex;
   align-items: center;
   gap: var(--sp-xs);
-  font-size: 0.8rem;
-  color: var(--c-text-secondary);
+  margin-bottom: 2px;
 }
-.mrt-legend__dot {
+.mrt-line-row__dot {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   flex-shrink: 0;
+}
+.mrt-line-row__name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--c-text);
+}
+.mrt-line-row__stats {
+  display: flex;
+  gap: var(--sp-md);
+  font-size: 0.75rem;
+  color: var(--c-text-secondary);
+  padding-left: 18px; /* align with name (dot width + gap) */
 }
 
 /* Map container — no scrolling, fits viewport */
@@ -205,24 +252,22 @@
   pointer-events: auto;
 }
 
-/* New station/segment fade-in with glow */
-.mrt-new-segment,
-.mrt-new-station {
-  opacity: 0 !important;  /* override SVG presentation attribute */
-}
+/* New station/segment fade-in with glow.
+ * fill-mode:both applies 0% state during delay, so no separate opacity rule needed.
+ * !important was preventing animation from working (spec: !important overrides animations). */
 .mrt-new-segment {
-  animation: mrtSegmentFadeIn 1.2s 0.4s ease-out forwards !important;
+  animation: mrtSegmentFadeIn 1.2s 0.4s ease-out both;
 }
 .mrt-new-station {
-  animation: mrtStationFadeIn 1.2s 0.6s ease-out forwards !important;
+  animation: mrtStationFadeIn 1.2s 0.6s ease-out both;
 }
 @keyframes mrtSegmentFadeIn {
-  0% { opacity: 0 !important; }
-  100% { opacity: 0.9 !important; }
+  0% { opacity: 0; }
+  100% { opacity: 0.9; }
 }
 @keyframes mrtStationFadeIn {
-  0% { opacity: 0 !important; }
-  100% { opacity: 1 !important; }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* Dark mode */

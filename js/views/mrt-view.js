@@ -1,16 +1,18 @@
 /**
  * MRT Progress Map — full 6-line schematic with coordinate-based rendering.
- * NS (Red) = BCP, EW (Green) = ComGI — unlock from City Hall outward.
- * CC, CE, NE, DT, TE drawn as decorative/atmosphere lines.
+ * Functional lines: NS=BCP, EW=ComGI, NE=PGI, DT=HI — unlock per module.
+ * Bonus lines: CC, TE — unlock based on aggregate progress across all modules.
+ * CE drawn as decorative. Sqrt curve for front-loaded early progress.
  */
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
-import { MRT_LINES, CIRCLE_LINE, DECO_LINES } from '../data/mrt-lines.js';
+import { MRT_LINES, BONUS_LINES, CIRCLE_LINE, DECO_LINES } from '../data/mrt-lines.js';
 import {
   NS_COORDS, EW_COORDS, NE_COORDS, CC_COORDS, CE_COORDS, DT_COORDS, TE_COORDS,
   ALL_MRT_LINES,
 } from '../data/mrt-coordinates.js';
 import { RecordStore } from '../models/record-store.js';
+import { DebugStore } from '../models/debug-store.js';
 import { HAWKER_DISHES } from '../data/hawker.js';
 import { triText, triContent } from '../utils/i18n.js';
 import { loadQuestions } from '../data/questions.js';
@@ -273,20 +275,46 @@ registerRoute('#mrt', async (app) => {
 
   const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
 
-  // Load question counts
+  // Load question counts + per-topic counts for hawker display
   const questionCounts = {};
+  const topicQuestionCounts = {};  // "module::topic" -> count
   for (const line of MRT_LINES) {
     const questions = await loadQuestions(line.module);
     questionCounts[line.module] = questions.length;
+    for (const q of questions) {
+      const key = `${line.module}::${q.topic}`;
+      topicQuestionCounts[key] = (topicQuestionCounts[key] || 0) + 1;
+    }
   }
 
-  // Compute unlock sets for functional lines (NS=bcp, EW=comgi)
+  // Debug bonus per line
+  const debugBonus = DebugStore.isActive() ? (DebugStore.get('mrtBonus') || {}) : {};
+
+  // Compute unlock sets for functional lines — sqrt curve for front-loaded early progress
   const unlockSets = {};
   for (const line of MRT_LINES) {
     const totalQ = questionCounts[line.module] || 1;
     const totalS = line.stations.length;
     const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
-    const stationsToUnlock = Math.min(totalS, 1 + Math.floor(uniqueCorrect / totalQ * (totalS - 1)));
+    const ratio = uniqueCorrect / totalQ;
+    const curved = Math.sqrt(ratio);
+    const bonus = debugBonus[line.id] || 0;
+    const stationsToUnlock = Math.min(totalS, bonus + 1 + Math.floor(curved * (totalS - 1)));
+    const set = new Set();
+    for (let i = 0; i < stationsToUnlock; i++) set.add(line.unlockOrder[i]);
+    unlockSets[line.id] = set;
+  }
+
+  // Compute unlock sets for bonus lines (CC, TE) — aggregate progress across all modules
+  const totalQAll = Object.values(questionCounts).reduce((s, v) => s + v, 0) || 1;
+  const totalUniqueAll = MRT_LINES.reduce((s, l) => s + RecordStore.getUniqueCorrectCount(l.module), 0);
+  const allLines = [...MRT_LINES, ...BONUS_LINES];
+  for (const line of BONUS_LINES) {
+    const totalS = line.stations.length;
+    const ratio = totalUniqueAll / totalQAll;
+    const curved = Math.sqrt(ratio);
+    const bonus = debugBonus[line.id] || 0;
+    const stationsToUnlock = Math.min(totalS, bonus + 1 + Math.floor(curved * (totalS - 1)));
     const set = new Set();
     for (let i = 0; i < stationsToUnlock; i++) set.add(line.unlockOrder[i]);
     unlockSets[line.id] = set;
@@ -298,41 +326,47 @@ registerRoute('#mrt', async (app) => {
     prevUnlockSets = JSON.parse(localStorage.getItem(MRT_PREV_STATE_KEY) || '{}');
   } catch { /* ignore */ }
   const newStations = {};  // lineId -> Set of newly unlocked indices
-  for (const line of MRT_LINES) {
+  for (const line of allLines) {
     const prevSet = new Set(prevUnlockSets[line.id] || []);
     const curSet = unlockSets[line.id];
     newStations[line.id] = new Set([...curSet].filter(i => !prevSet.has(i)));
   }
   // Save current state for next visit
   const stateToSave = {};
-  for (const line of MRT_LINES) {
+  for (const line of allLines) {
     stateToSave[line.id] = [...unlockSets[line.id]];
   }
   localStorage.setItem(MRT_PREV_STATE_KEY, JSON.stringify(stateToSave));
 
-  // Legend
-  const legend = el('div', { className: 'mrt-legend' });
+  // ─── Two-column layout wrapper ───
+  const layout = el('div', { className: 'mrt-layout' });
+  const mapCol = el('div', { className: 'mrt-layout__map' });
+  const sidebar = el('div', { className: 'mrt-layout__sidebar' });
+
+  // Widen #app for this view
+  const appEl = document.getElementById('app');
+  appEl.classList.add('mrt-wide');
+
+  // Sidebar: line list
   for (const ll of MRT_LINES) {
     const color = isDark ? ll.darkColor : ll.color;
     const unlocked = unlockSets[ll.id].size;
-    const enLabel = `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
-    const jaLabel = `${ll.nameJa || ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
-    legend.appendChild(legendItem(color, enLabel, jaLabel));
+    const totalQ = questionCounts[ll.module] || 0;
+    const uniqueCorrect = RecordStore.getUniqueCorrectCount(ll.module);
+    sidebar.appendChild(lineRow(color, ll, unlocked, totalQ, uniqueCorrect, false));
   }
-  // Non-functional lines (cc, te, etc.) — decorative but visible on the map
-  for (const ml of ALL_MRT_LINES) {
-    if (MRT_LINES.some(l => l.id === ml.id)) continue; // already shown above
-    const color = isDark ? ml.darkColor : ml.color;
-    legend.appendChild(legendItem(color, ml.name, ml.nameJa));
+  for (const ll of BONUS_LINES) {
+    const color = isDark ? ll.darkColor : ll.color;
+    const unlocked = unlockSets[ll.id].size;
+    sidebar.appendChild(lineRow(color, ll, unlocked, totalQAll, totalUniqueAll, true));
   }
-  app.appendChild(legend);
 
   // SVG
   const svg = svgEl('svg', { viewBox: `0 0 ${VIEW_W} ${VIEW_H}`, class: 'mrt-map' });
 
-  // Glow filters for each functional line
+  // Glow filters for each functional + bonus line
   const defs = svgEl('defs', {});
-  for (const line of MRT_LINES) {
+  for (const line of allLines) {
     const color = isDark ? line.darkColor : line.color;
     const filter = svgEl('filter', { id: `glow-${line.id}`, x: '-50%', y: '-50%', width: '200%', height: '200%' });
     const flood = svgEl('feFlood', { 'flood-color': color, 'flood-opacity': '1', result: 'glowColor' });
@@ -354,8 +388,8 @@ registerRoute('#mrt', async (app) => {
   for (const ml of ALL_MRT_LINES) {
     const color = isDark ? ml.darkColor : ml.color;
     const coords = ml.stations;
-    const isFunctional = MRT_LINES.some(l => l.id === ml.id);
-    const baseOpacity = isFunctional ? 0.25 : 0.15;
+    const hasUnlock = allLines.some(l => l.id === ml.id);
+    const baseOpacity = hasUnlock ? 0.25 : 0.15;
 
     let pathD;
     if (ml.id === 'cc') {
@@ -375,14 +409,16 @@ registerRoute('#mrt', async (app) => {
     }
   }
 
-  // Layer 2: Bright overlay for unlocked segments on functional lines
-  for (const line of MRT_LINES) {
+  // Layer 2: Bright overlay for unlocked segments on functional + bonus lines
+  for (const line of allLines) {
     const color = isDark ? line.darkColor : line.color;
     const coords = getCoordArray(line.id);
     const unlockSet = unlockSets[line.id];
     const newSet = newStations[line.id];
     const hasNew = newSet.size > 0;
     const unlockedIndices = [...unlockSet].sort((a, b) => a - b);
+    const useSmooth = line.id === 'cc';
+    const pathFn = useSmooth ? (s) => buildSmoothPath(s, false) : buildPath;
 
     if (unlockedIndices.length > 1) {
       if (hasNew) {
@@ -392,14 +428,14 @@ registerRoute('#mrt', async (app) => {
           const prevStations = prevIndices.map(i => ({
             ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
           }));
-          drawSvgPath(svg, buildPath(prevStations), color, LINE_W_UNLOCK, 0.8);
+          drawSvgPath(svg, pathFn(prevStations), color, LINE_W_UNLOCK, 0.8);
         }
         // Draw full unlocked path with fade-in + glow
-        const allStations = unlockedIndices.map(i => ({
+        const allStns = unlockedIndices.map(i => ({
           ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
         }));
         const newPath = svgEl('path', {
-          d: buildPath(allStations), fill: 'none', stroke: color,
+          d: pathFn(allStns), fill: 'none', stroke: color,
           'stroke-width': String(LINE_W_UNLOCK), 'stroke-linecap': 'round', 'stroke-linejoin': 'round',
           filter: `url(#glow-${line.id})`,
           class: 'mrt-new-segment',
@@ -410,7 +446,7 @@ registerRoute('#mrt', async (app) => {
         const unlockStations = unlockedIndices.map(i => ({
           ...line.stations[i], x: coords[i].x, y: coords[i].y, code: coords[i].code,
         }));
-        drawSvgPath(svg, buildPath(unlockStations), color, LINE_W_UNLOCK, 0.8);
+        drawSvgPath(svg, pathFn(unlockStations), color, LINE_W_UNLOCK, 0.8);
       }
     }
   }
@@ -422,10 +458,9 @@ registerRoute('#mrt', async (app) => {
   for (const ml of ALL_MRT_LINES) {
     const color = isDark ? ml.darkColor : ml.color;
     const coords = ml.stations;
-    const isFunctional = MRT_LINES.some(l => l.id === ml.id);
-    const funcLine = MRT_LINES.find(l => l.id === ml.id);
-    const unlockSet = isFunctional ? unlockSets[ml.id] : null;
-    const newSet = isFunctional ? newStations[ml.id] : null;
+    const hasUnlock = allLines.some(l => l.id === ml.id);
+    const unlockSet = hasUnlock ? unlockSets[ml.id] : null;
+    const newSet = hasUnlock ? newStations[ml.id] : null;
 
     coords.forEach((s, idx) => {
       const unlocked = unlockSet ? unlockSet.has(idx) : false;
@@ -435,10 +470,10 @@ registerRoute('#mrt', async (app) => {
 
       const attrs = {
         cx: s.x, cy: s.y, r,
-        fill: (isFunctional && unlocked) ? color : (isFunctional ? (isDark ? '#252540' : '#e8e8e8') : color),
+        fill: (hasUnlock && unlocked) ? color : (hasUnlock ? (isDark ? '#252540' : '#e8e8e8') : color),
         stroke: isDark ? '#1a1a2e' : '#fff',
-        'stroke-width': isFunctional ? (unlocked ? '1' : '0.8') : '0.5',
-        opacity: isFunctional ? (unlocked ? '1' : '0.4') : '0.5',
+        'stroke-width': hasUnlock ? (unlocked ? '1' : '0.8') : '0.5',
+        opacity: hasUnlock ? (unlocked ? '1' : '0.4') : '0.5',
       };
       // Newly unlocked stations get glow + fade
       if (isNew) {
@@ -450,8 +485,8 @@ registerRoute('#mrt', async (app) => {
       svg.appendChild(circle);
     });
 
-    // Labels for functional lines only
-    if (isFunctional) {
+    // Labels for lines with unlock
+    if (hasUnlock) {
       coords.forEach((s, idx) => {
         const unlocked = unlockSet.has(idx);
         const showLabel = unlocked || !!s.interchange;
@@ -480,6 +515,16 @@ registerRoute('#mrt', async (app) => {
     }
   }
 
+  // Build set of unlocked station names (for bottom sheet content gating)
+  const unlockedStationNames = new Set();
+  for (const ml of ALL_MRT_LINES) {
+    const unlockSet = unlockSets[ml.id];
+    if (!unlockSet) continue;
+    ml.stations.forEach((s, idx) => {
+      if (unlockSet.has(idx)) unlockedStationNames.add(s.name);
+    });
+  }
+
   // Layer 5: Invisible hit areas for tap interaction (all lines)
   const drawnHits = new Set();
   for (const ml of ALL_MRT_LINES) {
@@ -492,38 +537,31 @@ registerRoute('#mrt', async (app) => {
         cx: s.x, cy: s.y, r: 8,
         fill: 'transparent', cursor: 'pointer',
       });
+      const stationUnlocked = unlockedStationNames.has(s.name);
       hit.addEventListener('click', (e) => {
         e.stopPropagation();
-        openStationSheet(s, isDark);
+        openStationSheet(s, isDark, stationUnlocked);
       });
       svg.appendChild(hit);
     });
   }
 
-  const mapContainer = el('div', { className: 'mrt-map-container mt-md' });
+  const mapContainer = el('div', { className: 'mrt-map-container' });
   mapContainer.appendChild(svg);
-  app.appendChild(mapContainer);
+  mapCol.appendChild(mapContainer);
 
-  // Stats summary
-  const totalStations = MRT_LINES.reduce((sum, l) => sum + l.stations.length, 0);
-  const totalUnlocked = MRT_LINES.reduce((sum, l) => sum + unlockSets[l.id].size, 0);
-  const summaryEl = el('div', { className: 'text-center text-secondary mt-md text-sm' });
+  // Stats summary under map
+  const totalStations = allLines.reduce((sum, l) => sum + l.stations.length, 0);
+  const totalUnlocked = allLines.reduce((sum, l) => sum + unlockSets[l.id].size, 0);
+  const summaryEl = el('div', { className: 'text-center text-secondary mt-sm text-sm' });
   summaryEl.appendChild(triText('mrt.stationsUnlocked',
     `${totalUnlocked} of ${totalStations} stations unlocked — Answer questions correctly to expand the line!`,
     totalUnlocked, totalStations));
-  app.appendChild(summaryEl);
+  mapCol.appendChild(summaryEl);
 
-  for (const line of MRT_LINES) {
-    const totalQ = questionCounts[line.module] || 0;
-    const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
-    const detail = el('div', { className: 'text-center text-secondary text-sm' });
-    const enName = line.name;
-    const jaName = line.nameJa || line.name;
-    const enDetail = `${enName}: ${uniqueCorrect}/${totalQ} unique questions correct`;
-    const jaDetail = `${jaName}: ${uniqueCorrect}/${totalQ} 問正解（ユニーク）`;
-    detail.appendChild(triContent(enDetail, jaDetail));
-    app.appendChild(detail);
-  }
+  layout.appendChild(mapCol);
+  layout.appendChild(sidebar);
+  app.appendChild(layout);
 
   // Hawker collection
   const hawkerH2 = el('h2', { className: 'mt-lg' });
@@ -531,6 +569,7 @@ registerRoute('#mrt', async (app) => {
   app.appendChild(hawkerH2);
   const unlockedIds = RecordStore.getHawkerCollection();
   const seenIds = JSON.parse(sessionStorage.getItem('sg_broker_hawker_seen') || '[]');
+  const topicStats = RecordStore.getTopicStats();
   const grid = el('div', { className: 'hawker-grid' });
   for (const dish of HAWKER_DISHES) {
     const unlocked = unlockedIds.includes(dish.id);
@@ -544,6 +583,8 @@ registerRoute('#mrt', async (app) => {
       item.addEventListener('click', () => {
         window.open(`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(dish.name + ' Singapore hawker')}`, '_blank', 'noopener');
       });
+    } else {
+      item.setAttribute('tabindex', '0');  // Allow focus for mobile tap-to-reveal
     }
     item.appendChild(el('span', { className: 'hawker-item__icon' }, dish.icon));
     const nameEl = el('div', { style: 'flex:1;' });
@@ -553,6 +594,17 @@ registerRoute('#mrt', async (app) => {
       nameEl.appendChild(dishNameWrap);
     } else {
       nameEl.appendChild(el('div', {}, '???'));
+      // Show unlock hint on hover/tap
+      const hintEl = el('div', { className: 'hawker-unlock-hint' });
+      // Find topic stats for progress display
+      const topicKey = Object.keys(topicQuestionCounts).find(k => k.endsWith(`::${dish.topic}`));
+      const totalForTopic = topicKey ? topicQuestionCounts[topicKey] : 0;
+      const stats = topicKey ? topicStats[topicKey] : null;
+      const uc = stats ? (stats.uniqueCorrect || 0) : 0;
+      const enHint = `Master "${dish.topic}" — ${uc}/${totalForTopic} unique correct`;
+      const jaHint = `「${dish.topic}」全問正解で解放 — ${uc}/${totalForTopic}問`;
+      hintEl.appendChild(triContent(enHint, jaHint));
+      nameEl.appendChild(hintEl);
     }
     if (unlocked && dish.desc) {
       const descWrap = el('div', { className: 'text-sm text-secondary', style: 'font-size:0.7rem;line-height:1.3;' });
@@ -629,13 +681,31 @@ function drawInterchangeMarkers(svg, isDark) {
   }
 }
 
-function legendItem(color, enText, jaText) {
-  const item = el('div', { className: 'mrt-legend__item' });
-  item.appendChild(el('span', { className: 'mrt-legend__dot', style: `background:${color};` }));
-  const span = el('span');
-  span.appendChild(triContent(enText, jaText));
-  item.appendChild(span);
-  return item;
+function lineRow(color, line, unlockedStations, totalQ, uniqueCorrect, isBonus) {
+  const row = el('div', { className: 'mrt-line-row' });
+  // Color dot + line name
+  const header = el('div', { className: 'mrt-line-row__header' });
+  header.appendChild(el('span', { className: 'mrt-line-row__dot', style: `background:${color};` }));
+  const nameSpan = el('span', { className: 'mrt-line-row__name' });
+  const enName = isBonus ? line.name : `${line.name} (${line.module.toUpperCase()})`;
+  const jaName = isBonus ? (line.nameJa || line.name) : `${line.nameJa || line.name} (${line.module.toUpperCase()})`;
+  nameSpan.appendChild(triContent(enName, jaName));
+  header.appendChild(nameSpan);
+  row.appendChild(header);
+  // Stats
+  const stats = el('div', { className: 'mrt-line-row__stats' });
+  const stationStat = el('span');
+  stationStat.textContent = `🚉 ${unlockedStations}/${line.stations.length}`;
+  stats.appendChild(stationStat);
+  const qStat = el('span');
+  const qLabel = isBonus ? '全科目' : '';
+  qStat.appendChild(triContent(
+    `✅ ${uniqueCorrect}/${totalQ}`,
+    `✅ ${uniqueCorrect}/${totalQ}${qLabel ? ` ${qLabel}` : ''}`
+  ));
+  stats.appendChild(qStat);
+  row.appendChild(stats);
+  return row;
 }
 
 // ─── Station Info Bottom Sheet ───
@@ -682,7 +752,7 @@ function ensureSheetDOM() {
   });
 }
 
-function openStationSheet(station, isDark) {
+function openStationSheet(station, isDark, isUnlocked = true) {
   ensureSheetDOM();
 
   // Collect all codes for this station name across all lines
@@ -714,44 +784,62 @@ function openStationSheet(station, isDark) {
   const mapLinkEl = sheetEl.querySelector('#ss-map-link');
   const placeholderEl = sheetEl.querySelector('#ss-placeholder');
 
-  if (info && info.tagline) {
-    taglineEl.textContent = info.tagline;
-    taglineEl.style.display = '';
-  } else {
+  // Locked stations: show only name + Google Maps link
+  if (!isUnlocked) {
     taglineEl.style.display = 'none';
-  }
-
-  if (info && info.body) {
-    bodyEl.innerHTML = info.body;
-    bodyEl.style.display = '';
-  } else {
     bodyEl.style.display = 'none';
-  }
-
-  // Spots
-  spotsEl.innerHTML = '';
-  if (info && info.spots && info.spots.length) {
-    spotsEl.style.display = '';
-    for (const spot of info.spots) {
-      const li = el('li', { className: 'station-sheet__spot' });
-      li.appendChild(el('span', { className: 'station-sheet__spot-icon' }, spot.icon || '📍'));
-      const nameSpan = el('span', { className: 'station-sheet__spot-name' });
-      if (spot.url) {
-        const a = el('a', { href: spot.url, target: '_blank', rel: 'noopener' });
-        a.textContent = spot.name;
-        nameSpan.appendChild(a);
-      } else {
-        nameSpan.textContent = spot.name;
-      }
-      li.appendChild(nameSpan);
-      if (spot.desc) li.appendChild(el('span', { className: 'station-sheet__spot-desc' }, ` — ${spot.desc}`));
-      spotsEl.appendChild(li);
-    }
-  } else {
     spotsEl.style.display = 'none';
+    spotsEl.innerHTML = '';
+    placeholderEl.textContent = '🔒 駅をアンロックすると詳細が表示されます';
+    placeholderEl.style.display = '';
+  } else {
+    if (info && info.tagline) {
+      taglineEl.textContent = info.tagline;
+      taglineEl.style.display = '';
+    } else {
+      taglineEl.style.display = 'none';
+    }
+
+    if (info && info.body) {
+      bodyEl.innerHTML = info.body;
+      bodyEl.style.display = '';
+    } else {
+      bodyEl.style.display = 'none';
+    }
+
+    // Spots
+    spotsEl.innerHTML = '';
+    if (info && info.spots && info.spots.length) {
+      spotsEl.style.display = '';
+      for (const spot of info.spots) {
+        const li = el('li', { className: 'station-sheet__spot' });
+        li.appendChild(el('span', { className: 'station-sheet__spot-icon' }, spot.icon || '📍'));
+        const nameSpan = el('span', { className: 'station-sheet__spot-name' });
+        if (spot.url) {
+          const a = el('a', { href: spot.url, target: '_blank', rel: 'noopener' });
+          a.textContent = spot.name;
+          nameSpan.appendChild(a);
+        } else {
+          nameSpan.textContent = spot.name;
+        }
+        li.appendChild(nameSpan);
+        if (spot.desc) li.appendChild(el('span', { className: 'station-sheet__spot-desc' }, ` — ${spot.desc}`));
+        spotsEl.appendChild(li);
+      }
+    } else {
+      spotsEl.style.display = 'none';
+    }
+
+    // Placeholder for stations without detailed info
+    if (!info || !info.body) {
+      placeholderEl.textContent = 'Coming soon...';
+      placeholderEl.style.display = '';
+    } else {
+      placeholderEl.style.display = 'none';
+    }
   }
 
-  // Google Maps link
+  // Google Maps link (always shown)
   mapLinkEl.innerHTML = '';
   const mapQuery = (info && info.mapQuery) || `${station.name}+MRT+Station+Singapore`;
   const mapA = el('a', {
@@ -762,14 +850,6 @@ function openStationSheet(station, isDark) {
   });
   mapA.textContent = '📍 Google Maps で見る';
   mapLinkEl.appendChild(mapA);
-
-  // Placeholder for stations without detailed info
-  if (!info || !info.body) {
-    placeholderEl.textContent = 'Coming soon...';
-    placeholderEl.style.display = '';
-  } else {
-    placeholderEl.style.display = 'none';
-  }
 
   // Show
   backdropEl.classList.add('is-open');

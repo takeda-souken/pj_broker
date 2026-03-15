@@ -225,6 +225,69 @@ export const MRT_LINES = [
   },
 ];
 
+// --- CC Line: ordered CC1 → CC29 (no CC18) ---
+export const CC_STATIONS = [
+  { code: 'CC1',  name: 'Dhoby Ghaut', interchange: 'ns' },
+  { code: 'CC2',  name: 'Bras Basah' },
+  { code: 'CC3',  name: 'Esplanade' },
+  { code: 'CC4',  name: 'Promenade', interchange: 'dt' },
+  { code: 'CC5',  name: 'Nicoll Highway' },
+  { code: 'CC6',  name: 'Stadium' },
+  { code: 'CC7',  name: 'Mountbatten' },
+  { code: 'CC8',  name: 'Dakota' },
+  { code: 'CC9',  name: 'Paya Lebar', interchange: 'ew' },
+  { code: 'CC10', name: 'MacPherson', interchange: 'dt' },
+  { code: 'CC11', name: 'Tai Seng' },
+  { code: 'CC12', name: 'Bartley' },
+  { code: 'CC13', name: 'Serangoon', interchange: 'ne' },
+  { code: 'CC14', name: 'Lorong Chuan' },
+  { code: 'CC15', name: 'Bishan', interchange: 'ns' },
+  { code: 'CC16', name: 'Marymount' },
+  { code: 'CC17', name: 'Caldecott', interchange: 'te' },
+  // CC18 (Bukit Brown) — not built
+  { code: 'CC19', name: 'Botanic Gardens', interchange: 'dt' },
+  { code: 'CC20', name: 'Farrer Road' },
+  { code: 'CC21', name: 'Holland Village' },
+  { code: 'CC22', name: 'Buona Vista', interchange: 'ew' },
+  { code: 'CC23', name: 'one-north' },
+  { code: 'CC24', name: 'Kent Ridge' },
+  { code: 'CC25', name: 'Haw Par Villa' },
+  { code: 'CC26', name: 'Pasir Panjang' },
+  { code: 'CC27', name: 'Labrador Park' },
+  { code: 'CC28', name: 'Telok Blangah' },
+  { code: 'CC29', name: 'HarbourFront', interchange: 'ne' },
+];
+
+// --- TE Line: ordered TE1 → TE22 (no TE10, TE21) ---
+export const TE_STATIONS = [
+  { code: 'TE1',  name: 'Woodlands North' },
+  { code: 'TE2',  name: 'Woodlands', interchange: 'ns' },
+  { code: 'TE3',  name: 'Woodlands South' },
+  { code: 'TE4',  name: 'Springleaf' },
+  { code: 'TE5',  name: 'Lentor' },
+  { code: 'TE6',  name: 'Mayflower' },
+  { code: 'TE7',  name: 'Bright Hill' },
+  { code: 'TE8',  name: 'Upper Thomson' },
+  { code: 'TE9',  name: 'Caldecott', interchange: 'cc' },
+  { code: 'TE11', name: 'Stevens', interchange: 'dt' },
+  { code: 'TE12', name: 'Napier' },
+  { code: 'TE13', name: 'Orchard Boulevard' },
+  { code: 'TE14', name: 'Orchard', interchange: 'ns' },
+  { code: 'TE15', name: 'Great World' },
+  { code: 'TE16', name: 'Havelock' },
+  { code: 'TE17', name: 'Outram Park', interchange: 'ew' },
+  { code: 'TE18', name: 'Maxwell' },
+  { code: 'TE19', name: 'Shenton Way' },
+  { code: 'TE20', name: 'Marina Bay', interchange: 'ns' },
+  { code: 'TE22', name: 'Gardens by the Bay' },
+];
+
+export const CC_CENTER = CC_STATIONS.findIndex(s => s.code === 'CC13');  // Serangoon
+export const TE_CENTER = TE_STATIONS.findIndex(s => s.code === 'TE14'); // Orchard
+
+export const CC_UNLOCK_ORDER = buildUnlockOrder(CC_STATIONS, CC_CENTER);
+export const TE_UNLOCK_ORDER = buildUnlockOrder(TE_STATIONS, TE_CENTER);
+
 /**
  * Circle Line — geometric loop connecting interchanges across all functional lines.
  * Interchange rings light up when the corresponding station is unlocked.
@@ -238,6 +301,31 @@ export const CIRCLE_LINE = {
   loop: true,
   interchanges: ['NS17', 'EW21', 'EW8', 'NS27', 'NE1', 'NE12', 'DT9', 'DT15', 'DT26'],
 };
+
+/**
+ * BONUS_LINES — CC and TE unlock based on aggregate progress across all 4 modules.
+ * Uses sqrt curve for front-loaded early progress.
+ */
+export const BONUS_LINES = [
+  {
+    id: 'cc',
+    name: 'Circle Line',
+    nameJa: '環状線（CC）',
+    color: '#fa9e0d',
+    darkColor: '#ffc040',
+    stations: CC_STATIONS,
+    unlockOrder: CC_UNLOCK_ORDER,
+  },
+  {
+    id: 'te',
+    name: 'Thomson-East Coast Line',
+    nameJa: 'トムソン・イーストコースト線（TE）',
+    color: '#9d5b25',
+    darkColor: '#c88040',
+    stations: TE_STATIONS,
+    unlockOrder: TE_UNLOCK_ORDER,
+  },
+];
 
 /** Decorative lines — drawn in background for atmosphere, no functional tracking */
 export const DECO_LINES = [];

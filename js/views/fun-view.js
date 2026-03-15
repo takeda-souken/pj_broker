@@ -352,9 +352,11 @@ registerRoute('#fun', async (app) => {
     mrtTab.classList.toggle('seg-control__item--active', tab === 'mrt');
     hawkerTab.classList.toggle('seg-control__item--active', tab === 'hawker');
     content.innerHTML = '';
+    const appEl = document.getElementById('app');
     if (tab === 'mrt') {
       renderMrtContent(content, ctx);
     } else {
+      appEl.classList.remove('mrt-wide');
       renderHawkerContent(content, ctx);
     }
   }
@@ -362,6 +364,11 @@ registerRoute('#fun', async (app) => {
   mrtTab.addEventListener('click', () => switchTab('mrt'));
   hawkerTab.addEventListener('click', () => switchTab('hawker'));
   switchTab(activeTab);
+
+  // Cleanup: remove wide class when leaving this route
+  return () => {
+    document.getElementById('app').classList.remove('mrt-wide');
+  };
 });
 
 // ─── MRT Tab Content ───
@@ -369,23 +376,28 @@ registerRoute('#fun', async (app) => {
 function renderMrtContent(container, ctx) {
   const { isDark, questionCounts, unlockSets, newStations, allLines, totalQAll, totalUniqueAll } = ctx;
 
-  // Legend
-  const legend = el('div', { className: 'mrt-legend' });
+  // ─── Two-column layout: map (left) + sidebar (right on PC, below on mobile) ───
+  const layout = el('div', { className: 'mrt-layout mt-md' });
+  const mapCol = el('div', { className: 'mrt-layout__map' });
+  const sidebar = el('div', { className: 'mrt-layout__sidebar' });
+
+  // Widen #app for this view
+  const appEl = document.getElementById('app');
+  appEl.classList.add('mrt-wide');
+
+  // Sidebar: line rows with stats
   for (const ll of MRT_LINES) {
     const color = isDark ? ll.darkColor : ll.color;
     const unlocked = unlockSets[ll.id].size;
-    const enLabel = `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
-    const jaLabel = `${ll.nameJa || ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
-    legend.appendChild(legendItem(color, enLabel, jaLabel));
+    const totalQ = questionCounts[ll.module] || 0;
+    const uniqueCorrect = RecordStore.getUniqueCorrectCount(ll.module);
+    sidebar.appendChild(lineRow(color, ll, unlocked, totalQ, uniqueCorrect, false));
   }
   for (const ll of BONUS_LINES) {
     const color = isDark ? ll.darkColor : ll.color;
     const unlocked = unlockSets[ll.id].size;
-    const enLabel = `${ll.name} ${unlocked}/${ll.stations.length}`;
-    const jaLabel = `${ll.nameJa || ll.name} ${unlocked}/${ll.stations.length}`;
-    legend.appendChild(legendItem(color, enLabel, jaLabel));
+    sidebar.appendChild(lineRow(color, ll, unlocked, totalQAll, totalUniqueAll, true));
   }
-  container.appendChild(legend);
 
   // SVG
   const svg = svgEl('svg', { viewBox: `0 0 ${VIEW_W} ${VIEW_H}`, class: 'mrt-map' });
@@ -500,22 +512,7 @@ function renderMrtContent(container, ctx) {
       const circle = svgEl('circle', attrs);
       svg.appendChild(circle);
     });
-    if (hasUnlock) {
-      coords.forEach((s, idx) => {
-        const unlocked = unlockSet.has(idx);
-        const showLabel = unlocked || !!s.interchange;
-        if (!showLabel) return;
-        const label = document.createElementNS(SVG_NS, 'text');
-        label.setAttribute('x', s.x + 6);
-        label.setAttribute('y', s.y - 4);
-        label.setAttribute('fill', isDark ? '#aaa' : '#555');
-        label.setAttribute('font-size', '5');
-        label.setAttribute('font-family', 'system-ui');
-        label.setAttribute('class', 'mrt-map__label');
-        label.textContent = s.code;
-        svg.appendChild(label);
-      });
-    }
+    // (labels removed — shown via hover badge tooltip instead)
     if (ml.extension) {
       ml.extension.forEach(s => {
         svg.appendChild(svgEl('circle', {
@@ -527,7 +524,17 @@ function renderMrtContent(container, ctx) {
     }
   }
 
-  // Layer 5: Hit areas
+  // Build set of unlocked station names (for bottom sheet content gating)
+  const unlockedStationNames = new Set();
+  for (const ml of ALL_MRT_LINES) {
+    const unlockSet = unlockSets[ml.id];
+    if (!unlockSet) continue;
+    ml.stations.forEach((s, idx) => {
+      if (unlockSet.has(idx)) unlockedStationNames.add(s.name);
+    });
+  }
+
+  // Layer 5: Hit areas + hover badge tooltip
   const drawnHits = new Set();
   for (const ml of ALL_MRT_LINES) {
     const allCoords = ml.extension ? [...ml.stations, ...ml.extension] : ml.stations;
@@ -539,47 +546,39 @@ function renderMrtContent(container, ctx) {
         cx: s.x, cy: s.y, r: 8,
         fill: 'transparent', cursor: 'pointer',
       });
+      const stationUnlocked = unlockedStationNames.has(s.name);
       hit.addEventListener('click', (e) => {
         e.stopPropagation();
-        openStationSheet(s, isDark);
+        openStationSheet(s, isDark, stationUnlocked);
       });
+      // Hover/touch: show code badges near station
+      hit.addEventListener('mouseenter', () => showStationBadge(s, mapContainer));
+      hit.addEventListener('mouseleave', hideStationBadge);
+      hit.addEventListener('touchstart', (e) => {
+        showStationBadge(s, mapContainer);
+        // Auto-hide after 2s on touch
+        setTimeout(hideStationBadge, 2000);
+      }, { passive: true });
       svg.appendChild(hit);
     });
   }
 
-  const mapContainer = el('div', { className: 'mrt-map-container mt-md' });
+  const mapContainer = el('div', { className: 'mrt-map-container', style: 'position:relative;' });
   mapContainer.appendChild(svg);
-  container.appendChild(mapContainer);
+  mapCol.appendChild(mapContainer);
 
-  // Stats summary
+  // Stats summary above layout (centered, full width)
   const totalStations = allLines.reduce((sum, l) => sum + l.stations.length, 0);
   const totalUnlocked = allLines.reduce((sum, l) => sum + unlockSets[l.id].size, 0);
-  const summaryEl = el('div', { className: 'text-center text-secondary mt-md text-sm' });
+  const summaryEl = el('div', { className: 'text-center text-secondary text-sm', style: 'margin-bottom:var(--sp-xs);' });
   summaryEl.appendChild(triText('mrt.stationsUnlocked',
-    `${totalUnlocked} of ${totalStations} stations unlocked — Answer questions correctly to expand the line!`,
+    `${totalUnlocked} of ${totalStations} stations unlocked`,
     totalUnlocked, totalStations));
   container.appendChild(summaryEl);
 
-  for (const line of MRT_LINES) {
-    const totalQ = questionCounts[line.module] || 0;
-    const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
-    const detail = el('div', { className: 'text-center text-secondary text-sm' });
-    const enName = line.name;
-    const jaName = line.nameJa || line.name;
-    const enDetail = `${enName}: ${uniqueCorrect}/${totalQ} unique questions correct`;
-    const jaDetail = `${jaName}: ${uniqueCorrect}/${totalQ} 問正解（ユニーク）`;
-    detail.appendChild(triContent(enDetail, jaDetail));
-    container.appendChild(detail);
-  }
-  for (const line of BONUS_LINES) {
-    const detail = el('div', { className: 'text-center text-secondary text-sm' });
-    const enName = line.name;
-    const jaName = line.nameJa || line.name;
-    const enDetail = `${enName}: ${totalUniqueAll}/${totalQAll} total unique correct`;
-    const jaDetail = `${jaName}: ${totalUniqueAll}/${totalQAll} 問正解（全科目合計）`;
-    detail.appendChild(triContent(enDetail, jaDetail));
-    container.appendChild(detail);
-  }
+  layout.appendChild(mapCol);
+  layout.appendChild(sidebar);
+  container.appendChild(layout);
 }
 
 // ─── Hawker Tab Content ───
@@ -711,13 +710,27 @@ function drawInterchangeMarkers(svg, isDark) {
   }
 }
 
-function legendItem(color, enText, jaText) {
-  const item = el('div', { className: 'mrt-legend__item' });
-  item.appendChild(el('span', { className: 'mrt-legend__dot', style: `background:${color};` }));
-  const span = el('span');
-  span.appendChild(triContent(enText, jaText));
-  item.appendChild(span);
-  return item;
+function lineRow(color, line, unlockedStations, totalQ, uniqueCorrect, isBonus) {
+  const row = el('div', { className: 'mrt-line-row' });
+  const header = el('div', { className: 'mrt-line-row__header' });
+  header.appendChild(el('span', { className: 'mrt-line-row__dot', style: `background:${color};` }));
+  const nameSpan = el('span', { className: 'mrt-line-row__name' });
+  const enName = isBonus ? line.name : `${line.name} (${line.module.toUpperCase()})`;
+  const jaName = isBonus ? (line.nameJa || line.name) : `${line.nameJa || line.name} (${line.module.toUpperCase()})`;
+  nameSpan.appendChild(triContent(enName, jaName));
+  header.appendChild(nameSpan);
+  row.appendChild(header);
+  const stats = el('div', { className: 'mrt-line-row__stats' });
+  const stPct = line.stations.length ? Math.round(unlockedStations / line.stations.length * 100) : 0;
+  const stationStat = el('span');
+  stationStat.textContent = `🚉 ${unlockedStations}/${line.stations.length} (${stPct}%)`;
+  stats.appendChild(stationStat);
+  const qPct = totalQ ? Math.round(uniqueCorrect / totalQ * 100) : 0;
+  const qStat = el('span');
+  qStat.textContent = `✅ ${uniqueCorrect}/${totalQ} (${qPct}%)`;
+  stats.appendChild(qStat);
+  row.appendChild(stats);
+  return row;
 }
 
 // ─── Station Info Bottom Sheet ───
@@ -760,7 +773,7 @@ function ensureSheetDOM() {
   });
 }
 
-function openStationSheet(station, isDark) {
+function openStationSheet(station, isDark, isUnlocked = true) {
   ensureSheetDOM();
   const codes = [];
   for (const arr of ALL_STATIONS) {
@@ -783,39 +796,58 @@ function openStationSheet(station, isDark) {
   const spotsEl = sheetEl.querySelector('#ss-spots');
   const mapLinkEl = sheetEl.querySelector('#ss-map-link');
   const placeholderEl = sheetEl.querySelector('#ss-placeholder');
-  if (info && info.tagline) {
-    taglineEl.textContent = info.tagline;
-    taglineEl.style.display = '';
-  } else {
+
+  // Locked stations: show only name + Google Maps link
+  if (!isUnlocked) {
     taglineEl.style.display = 'none';
-  }
-  if (info && info.body) {
-    bodyEl.innerHTML = info.body;
-    bodyEl.style.display = '';
-  } else {
     bodyEl.style.display = 'none';
-  }
-  spotsEl.innerHTML = '';
-  if (info && info.spots && info.spots.length) {
-    spotsEl.style.display = '';
-    for (const spot of info.spots) {
-      const li = el('li', { className: 'station-sheet__spot' });
-      li.appendChild(el('span', { className: 'station-sheet__spot-icon' }, spot.icon || '\uD83D\uDCCD'));
-      const nameSpan = el('span', { className: 'station-sheet__spot-name' });
-      if (spot.url) {
-        const a = el('a', { href: spot.url, target: '_blank', rel: 'noopener' });
-        a.textContent = spot.name;
-        nameSpan.appendChild(a);
-      } else {
-        nameSpan.textContent = spot.name;
-      }
-      li.appendChild(nameSpan);
-      if (spot.desc) li.appendChild(el('span', { className: 'station-sheet__spot-desc' }, ` — ${spot.desc}`));
-      spotsEl.appendChild(li);
-    }
-  } else {
     spotsEl.style.display = 'none';
+    spotsEl.innerHTML = '';
+    placeholderEl.textContent = '🔒 駅をアンロックすると詳細が表示されます';
+    placeholderEl.style.display = '';
+  } else {
+    if (info && info.tagline) {
+      taglineEl.textContent = info.tagline;
+      taglineEl.style.display = '';
+    } else {
+      taglineEl.style.display = 'none';
+    }
+    if (info && info.body) {
+      bodyEl.innerHTML = info.body;
+      bodyEl.style.display = '';
+    } else {
+      bodyEl.style.display = 'none';
+    }
+    spotsEl.innerHTML = '';
+    if (info && info.spots && info.spots.length) {
+      spotsEl.style.display = '';
+      for (const spot of info.spots) {
+        const li = el('li', { className: 'station-sheet__spot' });
+        li.appendChild(el('span', { className: 'station-sheet__spot-icon' }, spot.icon || '📍'));
+        const nameSpan = el('span', { className: 'station-sheet__spot-name' });
+        if (spot.url) {
+          const a = el('a', { href: spot.url, target: '_blank', rel: 'noopener' });
+          a.textContent = spot.name;
+          nameSpan.appendChild(a);
+        } else {
+          nameSpan.textContent = spot.name;
+        }
+        li.appendChild(nameSpan);
+        if (spot.desc) li.appendChild(el('span', { className: 'station-sheet__spot-desc' }, ` — ${spot.desc}`));
+        spotsEl.appendChild(li);
+      }
+    } else {
+      spotsEl.style.display = 'none';
+    }
+    if (!info || !info.body) {
+      placeholderEl.textContent = 'Coming soon...';
+      placeholderEl.style.display = '';
+    } else {
+      placeholderEl.style.display = 'none';
+    }
   }
+
+  // Google Maps link (always shown)
   mapLinkEl.innerHTML = '';
   const mapQuery = (info && info.mapQuery) || `${station.name}+MRT+Station+Singapore`;
   const mapA = el('a', {
@@ -824,14 +856,9 @@ function openStationSheet(station, isDark) {
     target: '_blank',
     rel: 'noopener',
   });
-  mapA.textContent = '\uD83D\uDCCD Google Maps \u3067\u898B\u308B';
+  mapA.textContent = '📍 Google Maps で見る';
   mapLinkEl.appendChild(mapA);
-  if (!info || !info.body) {
-    placeholderEl.textContent = 'Coming soon...';
-    placeholderEl.style.display = '';
-  } else {
-    placeholderEl.style.display = 'none';
-  }
+
   backdropEl.classList.add('is-open');
   sheetEl.classList.add('is-open');
 }
