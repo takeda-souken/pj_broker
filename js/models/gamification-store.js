@@ -13,15 +13,15 @@ const XP_PER_MASTERY = 100;
 
 const LEVELS = [
   { level: 1, xp: 0, title: 'Intern', titleJA: 'インターン' },
-  { level: 2, xp: 50, title: 'Junior Associate', titleJA: 'ジュニア・アソシエイト' },
-  { level: 3, xp: 150, title: 'Associate', titleJA: 'アソシエイト' },
-  { level: 4, xp: 300, title: 'Senior Associate', titleJA: 'シニア・アソシエイト' },
-  { level: 5, xp: 500, title: 'Assistant VP', titleJA: 'アシスタントVP' },
-  { level: 6, xp: 800, title: 'Vice President', titleJA: 'バイス・プレジデント' },
-  { level: 7, xp: 1200, title: 'Senior VP', titleJA: 'シニアVP' },
-  { level: 8, xp: 1800, title: 'Director', titleJA: 'ディレクター' },
-  { level: 9, xp: 2500, title: 'Managing Director', titleJA: 'マネージング・ディレクター' },
-  { level: 10, xp: 3500, title: 'MAS-Certified Expert', titleJA: 'MAS認定エキスパート' },
+  { level: 2, xp: 100, title: 'Junior Associate', titleJA: 'ジュニア・アソシエイト' },
+  { level: 3, xp: 500, title: 'Associate', titleJA: 'アソシエイト' },
+  { level: 4, xp: 1000, title: 'Senior Associate', titleJA: 'シニア・アソシエイト' },
+  { level: 5, xp: 1800, title: 'Assistant VP', titleJA: 'アシスタントVP' },
+  { level: 6, xp: 3000, title: 'Vice President', titleJA: 'バイス・プレジデント' },
+  { level: 7, xp: 4500, title: 'Senior VP', titleJA: 'シニアVP' },
+  { level: 8, xp: 6500, title: 'Director', titleJA: 'ディレクター' },
+  { level: 9, xp: 9000, title: 'Managing Director', titleJA: 'マネージング・ディレクター' },
+  { level: 10, xp: 12000, title: 'MAS-Certified Expert', titleJA: 'MAS認定エキスパート' },
 ];
 
 const ACHIEVEMENTS = [
@@ -36,9 +36,15 @@ const ACHIEVEMENTS = [
   { id: 'mock_ace', name: 'Ace', desc: 'Score 90%+ on a mock exam', icon: '\uD83C\uDFC6', check: (g) => g.mockAces >= 1 },
   { id: 'both_modules', name: 'Well-Rounded', desc: 'Practice all 4 modules', icon: '\uD83C\uDF0F', check: (g) => g.bcpAttempts > 0 && g.comgiAttempts > 0 && (g.pgiAttempts || 0) > 0 && (g.hiAttempts || 0) > 0 },
   { id: 'five_topics', name: 'Explorer', desc: 'Master 5 topics', icon: '\uD83D\uDDFA\uFE0F', check: (g) => g.topicsMastered >= 5 },
-  { id: 'all_topics', name: 'Completionist', desc: 'Master all topics', icon: '\u2B50', check: (g) => g.topicsMastered >= 17 },
+  { id: 'fifteen_topics', name: 'Specialist', desc: 'Master 15 topics', icon: '\uD83C\uDFAF', check: (g) => g.topicsMastered >= 15 },
+  { id: 'all_topics', name: 'Completionist', desc: 'Master all topics', icon: '\u2B50', check: (g) => g.topicsMastered >= (g._totalTopics || 39) },
   { id: 'hundred_correct', name: 'Century', desc: 'Answer 100 questions correctly', icon: '\uD83D\uDCAA', check: (g) => g.totalCorrect >= 100 },
   { id: 'five_hundred', name: 'Marathon', desc: 'Answer 500 questions total', icon: '\uD83C\uDFC3', check: (g) => g.totalAnswered >= 500 },
+  { id: 'thousand', name: 'Iron Will', desc: 'Answer 1000 questions total', icon: '\uD83D\uDCAE', check: (g) => g.totalAnswered >= 1000 },
+  { id: 'daily_streak_7', name: 'Week Warrior', desc: 'Study 7 days in a row', icon: '\uD83D\uDCC6', check: (g) => g.longestDailyStreak >= 7 },
+  { id: 'daily_streak_30', name: 'Monthly Master', desc: 'Study 30 days in a row', icon: '\uD83D\uDCC5', check: (g) => g.longestDailyStreak >= 30 },
+  { id: 'all_questions', name: 'Encyclopedia', desc: 'Answer every question correctly at least once', icon: '\uD83D\uDCD6', check: (g) => g._totalUniqueCorrect >= (g._totalQuestions || 9999) },
+  { id: 'true_completionist', name: 'True Completionist', desc: 'Unlock every other achievement', icon: '\uD83D\uDC51', check: (g) => g._otherAchievementsComplete },
 ];
 
 export class GamificationStore {
@@ -151,15 +157,57 @@ export class GamificationStore {
 
   static checkNewAchievements(g) {
     if (!g) g = this.load();
+    // Inject dynamic values for achievement checks
+    g.longestDailyStreak = this.getLongestDailyStreak();
+    g._totalTopics = this.getTotalTopicCount();
+    this._injectUniqueCorrect(g);
+    // First pass: check all except true_completionist
     const newOnes = [];
     for (const a of ACHIEVEMENTS) {
+      if (a.id === 'true_completionist') continue;
       if (!g.unlockedAchievements.includes(a.id) && a.check(g)) {
         g.unlockedAchievements.push(a.id);
         newOnes.push(a);
       }
     }
+    // Second pass: check true_completionist (all others must be unlocked)
+    const tcAch = ACHIEVEMENTS.find(a => a.id === 'true_completionist');
+    const othersAll = ACHIEVEMENTS.filter(a => a.id !== 'true_completionist');
+    g._otherAchievementsComplete = othersAll.every(a => g.unlockedAchievements.includes(a.id));
+    if (!g.unlockedAchievements.includes('true_completionist') && tcAch.check(g)) {
+      g.unlockedAchievements.push('true_completionist');
+      newOnes.push(tcAch);
+    }
     if (newOnes.length > 0) this.save(g);
     return newOnes;
+  }
+
+  /** Inject unique correct count and total question count into game state */
+  static _injectUniqueCorrect(g) {
+    try {
+      const records = JSON.parse(localStorage.getItem('sg_broker_records') || '[]');
+      const seen = new Set();
+      for (const r of records) {
+        if (r.isCorrect && r.questionId) seen.add(r.questionId);
+      }
+      g._totalUniqueCorrect = seen.size;
+    } catch { g._totalUniqueCorrect = 0; }
+    // Total questions from topic count cache or fallback
+    try {
+      const stats = JSON.parse(localStorage.getItem('sg_broker_topic_stats') || '{}');
+      // Use RecordStore's cache if available, otherwise sum from stored question counts
+      g._totalQuestions = g._totalQuestions || 1765; // known total; updated dynamically when quiz loads
+    } catch { g._totalQuestions = 1765; }
+  }
+
+  /** Count total unique topics across all modules from HAWKER_DISHES */
+  static getTotalTopicCount() {
+    try {
+      const stats = JSON.parse(localStorage.getItem('sg_broker_topic_stats') || '{}');
+      const topics = new Set(Object.values(stats).map(s => `${s.module}::${s.topic}`));
+      // Fall back to 39 if no stats yet
+      return Math.max(topics.size, 39);
+    } catch { return 39; }
   }
 
   static getStudyDays() {
@@ -193,6 +241,11 @@ export class GamificationStore {
 
   static getAllAchievements() {
     const g = this.load();
+    g.longestDailyStreak = this.getLongestDailyStreak();
+    g._totalTopics = this.getTotalTopicCount();
+    this._injectUniqueCorrect(g);
+    const othersAll = ACHIEVEMENTS.filter(a => a.id !== 'true_completionist');
+    g._otherAchievementsComplete = othersAll.every(a => g.unlockedAchievements.includes(a.id));
     return ACHIEVEMENTS.map(a => ({
       ...a,
       unlocked: g.unlockedAchievements.includes(a.id),

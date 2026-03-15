@@ -35,6 +35,15 @@ export class QuizSession {
       allQ = await loadQuestions(this.module);
     }
 
+    // Build topic question count cache for mastery checks
+    const topicCounts = {};
+    for (const q of allQ) {
+      const mod = q._module || this.module;
+      const key = `${mod}::${q.topic}`;
+      topicCounts[key] = (topicCounts[key] || 0) + 1;
+    }
+    RecordStore.setTopicQuestionCounts(topicCounts);
+
     // Frequency filtering: exclude "none" questions from practice/weak/topic modes
     // Review mode & mock mode bypass frequency filtering
     const isFreqFiltered = this.mode !== 'mock' && !(this.reviewIds && this.reviewIds.length > 0);

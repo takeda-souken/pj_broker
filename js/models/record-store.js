@@ -35,22 +35,45 @@ export class RecordStore {
     const stats = this.getTopicStats();
     const key = `${record.module}::${record.topic}`;
     if (!stats[key]) {
-      stats[key] = { module: record.module, topic: record.topic, attempts: 0, correct: 0, streak: 0, mastered: false };
+      stats[key] = { module: record.module, topic: record.topic, attempts: 0, correct: 0, streak: 0, mastered: false, uniqueCorrect: 0 };
     }
     const s = stats[key];
     s.attempts++;
     if (record.isCorrect) {
       s.correct++;
       s.streak++;
+      // Track unique correct questions
+      if (!s._seenCorrect) s._seenCorrect = [];
+      if (record.questionId && !s._seenCorrect.includes(record.questionId)) {
+        s._seenCorrect.push(record.questionId);
+        s.uniqueCorrect = s._seenCorrect.length;
+      }
+      // Mastery: 5 consecutive correct AND unique correct >= 30% of topic questions
       if (s.streak >= 5 && !s.mastered) {
-        s.mastered = true;
-        s.masteredAt = DebugStore.now().toISOString();
+        const topicTotal = this._getTopicQuestionCount(record.module, record.topic);
+        const minUnique = Math.max(5, Math.ceil(topicTotal * 0.3));
+        if ((s.uniqueCorrect || 0) >= minUnique) {
+          s.mastered = true;
+          s.masteredAt = DebugStore.now().toISOString();
+        }
       }
     } else {
       s.streak = 0;
     }
     localStorage.setItem(STATS_KEY, JSON.stringify(stats));
     return s;
+  }
+
+  /** Get total question count for a topic (cached per session) */
+  static _getTopicQuestionCount(module, topic) {
+    if (!this._topicCountCache) this._topicCountCache = {};
+    const key = `${module}::${topic}`;
+    return this._topicCountCache[key] || 30; // 30 as safe default until cache is populated
+  }
+
+  /** Inject topic question counts (called from app.js after loading questions) */
+  static setTopicQuestionCounts(counts) {
+    this._topicCountCache = counts;
   }
 
   static getAccuracy(module, topic) {
