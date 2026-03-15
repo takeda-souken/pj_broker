@@ -559,9 +559,10 @@ h3 .i18n-sub { display: none !important; }
 .flex-row { display: flex; flex-direction: row; align-items: center; }
 .hidden { display: none !important; }
 
-/* ===== Fixed-bottom popups (Sakura & Trivia on Home) ===== */
+/* ===== Fixed-bottom popups (Sakura & Trivia) ===== */
 .home-sakura-fixed,
-.home-trivia-fixed {
+.home-trivia-fixed,
+.sakura-bottom-popup {
   position: fixed;
   inset: 0;
   display: flex;
@@ -574,17 +575,20 @@ h3 .i18n-sub { display: none !important; }
   transition: opacity 0.4s ease;
 }
 .home-sakura-fixed > *,
-.home-trivia-fixed > * {
+.home-trivia-fixed > *,
+.sakura-bottom-popup > * {
   pointer-events: auto;
   width: 100%;
 }
 .home-sakura-fixed--visible,
-.home-trivia-fixed--visible {
+.home-trivia-fixed--visible,
+.sakura-bottom-popup--visible {
   opacity: 1;
   pointer-events: auto;
 }
 .home-sakura-fixed--hiding,
-.home-trivia-fixed--exit {
+.home-trivia-fixed--exit,
+.sakura-bottom-popup--hiding {
   opacity: 0;
   pointer-events: none;
 }
