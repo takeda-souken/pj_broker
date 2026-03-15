@@ -567,6 +567,7 @@ h3 .i18n-sub { display: none !important; }
   inset: 0;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   padding: var(--sp-md);
   padding-bottom: calc(var(--sp-md) + env(safe-area-inset-bottom, 0));
   z-index: 100;
@@ -579,6 +580,7 @@ h3 .i18n-sub { display: none !important; }
 .sakura-bottom-popup > * {
   pointer-events: auto;
   width: 100%;
+  max-width: 480px;
 }
 .home-sakura-fixed--visible,
 .home-trivia-fixed--visible,
