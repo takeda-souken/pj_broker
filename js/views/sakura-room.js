@@ -17,9 +17,16 @@ import {
 import { sendSakuraRoomLog } from '../utils/gas-client.js';
 import { SakuraAlbumStore } from '../models/sakura-album-store.js';
 
-const TYPING_DELAY = 600;    // ms before typing dots appear
-const TYPING_DURATION = 800; // ms typing dots are shown
-const LINE_DELAY = 400;      // ms between consecutive sakura lines
+const TYPING_DELAY = 1600;   // ms before typing dots appear (after previous bubble shown)
+const LINE_DELAY = 1500;     // ms between consecutive sakura lines
+const CHOICE_DELAY = 2000;   // ms before showing choice buttons
+
+/** Typing duration scales with text length — feels like real typing */
+function typingDuration(text) {
+  const len = (text || '').length;
+  // ~100ms per char, min 1200ms, max 4000ms
+  return Math.min(4000, Math.max(1200, len * 100));
+}
 
 registerRoute('#sakura-room', async (app) => {
   // Check if sakura is gone (after farewell)
@@ -43,13 +50,17 @@ registerRoute('#sakura-room', async (app) => {
   // Build the room
   const room = el('div', { className: 'sakura-room' });
 
-  // Back button (minimal, no header bar)
-  const backBtn = el('button', {
-    className: 'sr-back-fab',
-    onClick: () => navigate('#home'),
+  // Exit door (floating, bottom-right — mirrors sakura door shape)
+  const exitDoor = el('button', {
+    className: 'sakura-door sakura-door--exit',
     title: '\u623B\u308B',
-  }, '\u2190');
-  room.appendChild(backBtn);
+  });
+  exitDoor.addEventListener('click', () => navigate('#home'));
+  const exitFrame = el('div', { className: 'sakura-door__frame' });
+  exitFrame.appendChild(el('span', { className: 'sakura-door__icon' }, '\uD83D\uDEAA'));
+  exitDoor.appendChild(exitFrame);
+  exitDoor.appendChild(el('span', { className: 'sakura-door__label' }, '\u623B\u308B'));
+  document.body.appendChild(exitDoor);
 
   // Check sleeping
   if (isSakuraSleeping()) {
@@ -147,9 +158,10 @@ async function playConversation(conv, chatArea) {
       // Show closing
       const closingText = pickClosing(conv);
       if (closingText) {
+        const closingResolved = replacePlaceholders(closingText);
         await delay(TYPING_DELAY);
-        await showTyping(chatArea);
-        addSakuraMessage(chatArea, replacePlaceholders(closingText));
+        await showTyping(chatArea, closingResolved);
+        addSakuraMessage(chatArea, closingResolved);
       }
       // Mark completed
       SakuraRoomStore.completeConversation(conv.id);
@@ -166,9 +178,10 @@ async function playConversation(conv, chatArea) {
       // Show each line with typing animation
       if (currentNode.lines && currentNode.lines.length > 0) {
         for (let i = 0; i < currentNode.lines.length; i++) {
+          const lineText = replacePlaceholders(currentNode.lines[i]);
           await delay(i === 0 ? TYPING_DELAY : LINE_DELAY);
-          await showTyping(chatArea);
-          addSakuraMessage(chatArea, replacePlaceholders(currentNode.lines[i]));
+          await showTyping(chatArea, lineText);
+          addSakuraMessage(chatArea, lineText);
         }
       }
 
@@ -184,7 +197,8 @@ async function playConversation(conv, chatArea) {
       currentNode = nextId ? nodeMap[nextId] : null;
 
     } else if (currentNode.speaker === 'choice') {
-      // Show choices and wait for selection
+      // Pause before showing choices
+      await delay(CHOICE_DELAY);
       const choice = await showChoices(chatArea, currentNode.choices);
 
       // Show user's choice as a message
@@ -221,7 +235,7 @@ async function playConversation(conv, chatArea) {
 
     } else if (currentNode.speaker === 'image') {
       await delay(TYPING_DELAY);
-      await showTyping(chatArea);
+      await showTyping(chatArea, '📷');
       addImageMessage(chatArea, currentNode);
 
       // Save to album
@@ -302,7 +316,7 @@ function addImageMessage(chatArea, node) {
 
 // ─── Typing indicator ────────────────────────────────
 
-function showTyping(chatArea) {
+function showTyping(chatArea, text) {
   return new Promise(resolve => {
     const typing = el('div', { className: 'sr-typing' });
     const avatar = el('div', { className: 'sr-msg__avatar' }, '\uD83C\uDF38');
@@ -318,7 +332,7 @@ function showTyping(chatArea) {
     setTimeout(() => {
       typing.remove();
       resolve();
-    }, TYPING_DURATION);
+    }, typingDuration(text));
   });
 }
 
@@ -339,9 +353,12 @@ function showChoices(chatArea, choices) {
             b.disabled = true;
             if (b !== btn) b.style.opacity = '0.4';
           });
-          // Small delay then resolve
+          // Replace with spacer to prevent scroll jump, then resolve
           setTimeout(() => {
-            container.remove();
+            const spacer = el('div', {
+              style: `height:${container.offsetHeight}px;`,
+            });
+            container.replaceWith(spacer);
             resolve(choice);
           }, 300);
         },
@@ -420,7 +437,10 @@ function showAlbum() {
 
 function showAlbumDetail(photo, albumOverlay) {
   const detail = el('div', { className: 'sr-album-detail' });
-  detail.addEventListener('click', () => detail.remove());
+  // Close on background click (not on buttons/img)
+  detail.addEventListener('click', (e) => {
+    if (e.target === detail) detail.remove();
+  });
 
   const img = el('img', { src: photo.src, alt: photo.alt });
   img.onerror = () => {
@@ -438,7 +458,35 @@ function showAlbumDetail(photo, albumOverlay) {
     detail.appendChild(el('div', { className: 'sr-album-detail__date' }, dateStr));
   }
 
+  // Download button
+  const dlBtn = el('button', {
+    className: 'sr-album-dl',
+    onClick: (e) => {
+      e.stopPropagation();
+      downloadImage(photo.src, photo.alt);
+    },
+  }, '\u2B07 \u4FDD\u5B58');
+  detail.appendChild(dlBtn);
+
   albumOverlay.appendChild(detail);
+}
+
+async function downloadImage(src, filename) {
+  try {
+    const res = await fetch(src);
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = (filename || 'sakura-photo').replace(/[^a-zA-Z0-9\u3000-\u9fff_-]/g, '_') + '.jpg';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    URL.revokeObjectURL(url);
+  } catch {
+    // Fallback: open in new tab
+    window.open(src, '_blank');
+  }
 }
 
 // ─── Door transition cleanup ─────────────────────────
