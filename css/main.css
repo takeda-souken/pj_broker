@@ -351,11 +351,11 @@ h3 .i18n-sub { display: none !important; }
 
 /* ===== Page Transition (#1) ===== */
 #app {
-  animation: pageFadeIn 0.25s ease forwards;
+  animation: pageFadeIn 0.25s ease;
 }
 @keyframes pageFadeIn {
-  from { opacity: 0; transform: translateY(6px); }
-  to { opacity: 1; transform: none; }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* ===== Card Entrance Animation (#8) ===== */
