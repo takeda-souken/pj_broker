@@ -88,8 +88,12 @@ registerRoute('#achievements', (app) => {
     const row = el('div', { className: 'flex-row', style: 'gap:12px;' });
     row.appendChild(el('div', { style: 'font-size:1.5rem;' }, a.unlocked ? a.icon : '\uD83D\uDD12'));
     const info = el('div', { style: 'flex:1;' });
-    info.appendChild(el('div', { style: 'font-weight:700;' }, a.name));
-    info.appendChild(el('div', { className: 'text-sm text-secondary' }, a.desc));
+    const nameEl = el('div', { style: 'font-weight:700;' });
+    nameEl.appendChild(triContent(a.name, a.nameJA));
+    info.appendChild(nameEl);
+    const descEl = el('div', { className: 'text-sm text-secondary' });
+    descEl.appendChild(triText(`ach.${a.id}`, a.desc));
+    info.appendChild(descEl);
     row.appendChild(info);
     if (a.unlocked) {
       row.appendChild(el('div', { style: 'color:var(--c-gold);font-size:1.2rem;' }, '\u2713'));
@@ -105,16 +109,18 @@ registerRoute('#achievements', (app) => {
   statsH3.appendChild(triText('achievements.stats', 'Statistics'));
   statsCard.appendChild(statsH3);
   const statsList = [
-    ['Total Answered', gameData.totalAnswered],
-    ['Total Correct', gameData.totalCorrect],
-    ['Best Streak', gameData.bestStreak],
-    ['Perfect Quizzes', gameData.perfectQuizzes],
-    ['Mock Passes', gameData.mockPasses],
-    ['Topics Mastered', gameData.topicsMastered],
+    ['achievements.totalAnswered', 'Total Answered', gameData.totalAnswered],
+    ['achievements.totalCorrect', 'Total Correct', gameData.totalCorrect],
+    ['achievements.bestStreak', 'Best Streak', gameData.bestStreak],
+    ['achievements.perfectQuizzes', 'Perfect Quizzes', gameData.perfectQuizzes],
+    ['achievements.mockPasses', 'Mock Passes', gameData.mockPasses],
+    ['achievements.topicsMastered', 'Topics Mastered', gameData.topicsMastered],
   ];
-  for (const [label, value] of statsList) {
+  for (const [key, label, value] of statsList) {
     const row = el('div', { className: 'flex-row', style: 'justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--c-surface-alt);' });
-    row.appendChild(el('span', { className: 'text-sm' }, label));
+    const labelEl = el('span', { className: 'text-sm' });
+    labelEl.appendChild(triText(key, label));
+    row.appendChild(labelEl);
     row.appendChild(el('span', { className: 'text-sm', style: 'font-weight:700;' }, value.toString()));
     statsCard.appendChild(row);
   }

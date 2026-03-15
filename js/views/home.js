@@ -32,14 +32,9 @@ registerRoute('#home', (app) => {
   titleBlock.appendChild(sub);
   headerRow.appendChild(titleBlock);
 
-  // Countdown beside title on desktop
-  if (settings.homeShowCountdown !== false) {
-    const countdown = buildCountdown();
-    if (countdown) {
-      countdown.classList.add('home-countdown--header');
-      headerRow.appendChild(countdown);
-    }
-  }
+  // Date badges (arrival + exam) beside title
+  const badges = buildDateBadges();
+  headerRow.appendChild(badges);
 
   app.appendChild(headerRow);
 
@@ -82,7 +77,7 @@ registerRoute('#home', (app) => {
 
   // ─── Sakura Door (floating, bottom-right) ───
   const sakuraPhase = SakuraState.getPhase();
-  if (settings.supporterEnabled && sakuraPhase !== 'japan' && sakuraPhase !== 'gone') {
+  if (sakuraPhase !== 'japan' && sakuraPhase !== 'gone') {
     // Remove any existing door from previous render
     document.querySelector('.sakura-door')?.remove();
     const door = el('button', {
@@ -123,11 +118,7 @@ registerRoute('#home', (app) => {
   }
 
   // ─── Fixed-bottom: Sakura popup ───
-  if (settings.supporterEnabled) {
-    setTimeout(() => showSakuraPopup(settings), 1000);
-  } else if (settings.homeShowTrivia !== false) {
-    setTimeout(() => showTriviaSlide(settings), 1000);
-  }
+  setTimeout(() => showSakuraPopup(settings), 1000);
 });
 
 // ─── Fixed-bottom Sakura popup ────────────────────────────────────
@@ -327,63 +318,95 @@ function openSakuraDoor(doorEl) {
 
 // ─── Helpers ─────────────────────────────────────────────────────
 
-function buildCountdown() {
-  const examDate = SettingsStore.get('examDate');
-  const wrapper = el('div', { className: 'home-countdown', style: 'cursor:pointer;position:relative;' });
+function buildDateBadges() {
+  const container = el('div', { className: 'home-date-badges' });
 
-  const dateInput = el('input', { type: 'date', style: 'position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);opacity:0;width:1px;height:1px;pointer-events:none;' });
-  dateInput.value = examDate || '';
+  // Auto-clear arrival date once the day has passed
+  const arrivalDate = SettingsStore.get('arrivalDate');
+  if (arrivalDate) {
+    const now = DebugStore.now();
+    const target = new Date(arrivalDate + 'T00:00:00');
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    const diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
+    if (diff < 0) {
+      SettingsStore.set('arrivalDate', '');
+    } else {
+      container.appendChild(buildDateBadge('arrivalDate', '🛬', '入国', 'Arrival'));
+    }
+  } else {
+    container.appendChild(buildDateBadge('arrivalDate', '🛬', '入国', 'Arrival'));
+  }
+
+  container.appendChild(buildDateBadge('examDate', '📝', '試験', 'Exam'));
+  return container;
+}
+
+function buildDateBadge(settingKey, icon, labelJa, labelEn) {
+  const dateVal = SettingsStore.get(settingKey);
+  const badge = el('div', { className: 'date-badge', style: 'cursor:pointer;position:relative;' });
+
+  const dateInput = el('input', { type: 'date', style: 'position:absolute;opacity:0;width:1px;height:1px;pointer-events:none;' });
+  dateInput.value = dateVal || '';
   dateInput.addEventListener('change', () => {
     if (dateInput.value) {
-      SettingsStore.set('examDate', dateInput.value);
-      updateCountdownDisplay(display, dateInput.value);
+      SettingsStore.set(settingKey, dateInput.value);
+      updateBadgeDisplay(display, dateInput.value, labelJa, labelEn);
     }
   });
 
-  const display = el('span', {});
-  updateCountdownDisplay(display, examDate);
+  const display = el('div', { className: 'date-badge__content' });
+  badge.appendChild(el('span', { className: 'date-badge__icon' }, icon));
+  updateBadgeDisplay(display, dateVal, labelJa, labelEn);
 
-  wrapper.appendChild(display);
-  wrapper.appendChild(dateInput);
-  wrapper.addEventListener('click', (e) => {
+  badge.appendChild(display);
+  badge.appendChild(dateInput);
+  badge.addEventListener('click', (e) => {
     e.preventDefault();
+    // Default calendar to April 2026 if no date set
+    if (!dateInput.value) dateInput.value = '2026-04-15';
     if (dateInput.showPicker) {
       try { dateInput.showPicker(); } catch { dateInput.click(); }
     } else {
       dateInput.click();
     }
+    // Clear temp value if user cancels (no change event fired)
+    if (!SettingsStore.get(settingKey)) dateInput.value = '';
   });
-  return wrapper;
+  return badge;
 }
 
-function updateCountdownDisplay(display, examDate) {
+function updateBadgeDisplay(display, dateVal, labelJa, labelEn) {
   display.innerHTML = '';
-  if (!examDate) {
-    // Trilingual prompt — CSS controls visibility
-    display.appendChild(el('span', { className: 'i18n-ja home-countdown__prompt' }, '試験日をタップして設定'));
-    display.appendChild(el('span', { className: 'i18n-en home-countdown__prompt' }, 'Tap to set exam date'));
-    display.appendChild(el('span', { className: 'i18n-sub' }, '試験日をタップして設定'));
+  if (!dateVal) {
+    display.appendChild(el('span', { className: 'i18n-ja date-badge__prompt' }, `${labelJa}日を設定`));
+    display.appendChild(el('span', { className: 'i18n-en date-badge__prompt' }, `Set ${labelEn}`));
+    display.appendChild(el('span', { className: 'i18n-sub date-badge__prompt' }, `${labelJa}日を設定`));
   } else {
     const now = DebugStore.now();
-    const target = new Date(examDate + 'T00:00:00');
+    const target = new Date(dateVal + 'T00:00:00');
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
     const dateLabel = `${target.getMonth() + 1}/${target.getDate()}`;
 
     if (diff <= 0) {
-      display.innerHTML = `<span class="home-countdown__days" style="color:var(--c-warning)">Today!</span> <span class="home-countdown__label">(${dateLabel})</span>`;
+      const todayEl = el('span', { className: 'date-badge__days date-badge__days--today' });
+      todayEl.appendChild(el('span', { className: 'i18n-ja' }, `${labelJa}日！`));
+      todayEl.appendChild(el('span', { className: 'i18n-en' }, `${labelEn} day!`));
+      todayEl.appendChild(el('span', { className: 'i18n-sub' }, `${labelJa}日！`));
+      display.appendChild(todayEl);
     } else {
-      // JA main
+      // JA
       const ja = el('span', { className: 'i18n-ja' });
-      ja.innerHTML = `試験まで <span class="home-countdown__days">${diff}</span> <span class="home-countdown__label">日</span> (${dateLabel})`;
+      ja.innerHTML = `${labelJa}まで <span class="date-badge__days">${diff}</span><span class="date-badge__label">日</span>`;
       display.appendChild(ja);
-      // EN main
+      // EN
       const en = el('span', { className: 'i18n-en' });
-      en.innerHTML = `Exam in <span class="home-countdown__days">${diff}</span> <span class="home-countdown__label">${diff === 1 ? 'day' : 'days'}</span> (${dateLabel})`;
+      en.innerHTML = `${labelEn} in <span class="date-badge__days">${diff}</span> <span class="date-badge__label">${diff === 1 ? 'day' : 'days'}</span>`;
       display.appendChild(en);
-      // JP sub-annotation
-      display.appendChild(el('span', { className: 'i18n-sub' }, `試験まで${diff}日`));
+      // Sub
+      display.appendChild(el('span', { className: 'i18n-sub' }, `${labelJa}まで${diff}日`));
     }
+    display.appendChild(el('span', { className: 'date-badge__date' }, dateLabel));
   }
 }
 

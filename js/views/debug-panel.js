@@ -188,7 +188,7 @@ function openPanel() {
         className: 'debug-btn',
         onClick: async () => {
           const { showMerlionCelebration } = await import('../components/merlion.js');
-          showMerlionCelebration({ type: mt.type, streak: 5, topicName: 'Test Topic' });
+          showMerlionCelebration({ type: mt.type, streak: 10, topicName: 'Test Topic' });
         },
       }, `🦁 ${mt.label}`));
     }

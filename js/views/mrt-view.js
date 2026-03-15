@@ -12,7 +12,7 @@ import {
 } from '../data/mrt-coordinates.js';
 import { RecordStore } from '../models/record-store.js';
 import { HAWKER_DISHES } from '../data/hawker.js';
-import { triText, tr } from '../utils/i18n.js';
+import { triText, triContent } from '../utils/i18n.js';
 import { loadQuestions } from '../data/questions.js';
 import { getStationInfo } from '../data/station-info.js';
 
@@ -315,13 +315,15 @@ registerRoute('#mrt', async (app) => {
   for (const ll of MRT_LINES) {
     const color = isDark ? ll.darkColor : ll.color;
     const unlocked = unlockSets[ll.id].size;
-    legend.appendChild(legendItem(color, `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`));
+    const enLabel = `${ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
+    const jaLabel = `${ll.nameJa || ll.name} (${ll.module.toUpperCase()}) ${unlocked}/${ll.stations.length}`;
+    legend.appendChild(legendItem(color, enLabel, jaLabel));
   }
   // Non-functional lines (cc, te, etc.) — decorative but visible on the map
   for (const ml of ALL_MRT_LINES) {
     if (MRT_LINES.some(l => l.id === ml.id)) continue; // already shown above
     const color = isDark ? ml.darkColor : ml.color;
-    legend.appendChild(legendItem(color, ml.name));
+    legend.appendChild(legendItem(color, ml.name, ml.nameJa));
   }
   app.appendChild(legend);
 
@@ -506,19 +508,27 @@ registerRoute('#mrt', async (app) => {
   const totalStations = MRT_LINES.reduce((sum, l) => sum + l.stations.length, 0);
   const totalUnlocked = MRT_LINES.reduce((sum, l) => sum + unlockSets[l.id].size, 0);
   const summaryEl = el('div', { className: 'text-center text-secondary mt-md text-sm' });
-  summaryEl.textContent = `${totalUnlocked} of ${totalStations} stations unlocked — Answer questions correctly to expand the line!`;
+  summaryEl.appendChild(triText('mrt.stationsUnlocked',
+    `${totalUnlocked} of ${totalStations} stations unlocked — Answer questions correctly to expand the line!`,
+    totalUnlocked, totalStations));
   app.appendChild(summaryEl);
 
   for (const line of MRT_LINES) {
     const totalQ = questionCounts[line.module] || 0;
     const uniqueCorrect = RecordStore.getUniqueCorrectCount(line.module);
     const detail = el('div', { className: 'text-center text-secondary text-sm' });
-    detail.textContent = `${line.name}: ${uniqueCorrect}/${totalQ} unique questions correct`;
+    const enName = line.name;
+    const jaName = line.nameJa || line.name;
+    const enDetail = `${enName}: ${uniqueCorrect}/${totalQ} unique questions correct`;
+    const jaDetail = `${jaName}: ${uniqueCorrect}/${totalQ} 問正解（ユニーク）`;
+    detail.appendChild(triContent(enDetail, jaDetail));
     app.appendChild(detail);
   }
 
   // Hawker collection
-  app.appendChild(el('h2', { className: 'mt-lg' }, 'Hawker Collection'));
+  const hawkerH2 = el('h2', { className: 'mt-lg' });
+  hawkerH2.appendChild(triText('mrt.hawkerTitle', 'Hawker Collection'));
+  app.appendChild(hawkerH2);
   const unlockedIds = RecordStore.getHawkerCollection();
   const seenIds = JSON.parse(sessionStorage.getItem('sg_broker_hawker_seen') || '[]');
   const grid = el('div', { className: 'hawker-grid' });
@@ -529,11 +539,25 @@ registerRoute('#mrt', async (app) => {
       ? `hawker-item${isNew ? ' hawker-item--just-unlocked' : ''}`
       : 'hawker-item hawker-item--locked';
     const item = el('div', { className: cls });
+    if (unlocked) {
+      item.style.cursor = 'pointer';
+      item.addEventListener('click', () => {
+        window.open(`https://www.google.com/search?tbm=isch&q=${encodeURIComponent(dish.name + ' Singapore hawker')}`, '_blank', 'noopener');
+      });
+    }
     item.appendChild(el('span', { className: 'hawker-item__icon' }, dish.icon));
     const nameEl = el('div', { style: 'flex:1;' });
-    nameEl.appendChild(el('div', {}, unlocked ? dish.name : '???'));
+    if (unlocked) {
+      const dishNameWrap = el('div');
+      dishNameWrap.appendChild(triContent(dish.name, dish.nameJa));
+      nameEl.appendChild(dishNameWrap);
+    } else {
+      nameEl.appendChild(el('div', {}, '???'));
+    }
     if (unlocked && dish.desc) {
-      nameEl.appendChild(el('div', { className: 'text-sm text-secondary', style: 'font-size:0.7rem;line-height:1.3;' }, dish.desc));
+      const descWrap = el('div', { className: 'text-sm text-secondary', style: 'font-size:0.7rem;line-height:1.3;' });
+      descWrap.appendChild(triContent(dish.desc, dish.descJa));
+      nameEl.appendChild(descWrap);
     }
     item.appendChild(nameEl);
     grid.appendChild(item);
@@ -605,10 +629,12 @@ function drawInterchangeMarkers(svg, isDark) {
   }
 }
 
-function legendItem(color, text) {
+function legendItem(color, enText, jaText) {
   const item = el('div', { className: 'mrt-legend__item' });
   item.appendChild(el('span', { className: 'mrt-legend__dot', style: `background:${color};` }));
-  item.appendChild(el('span', {}, text));
+  const span = el('span');
+  span.appendChild(triContent(enText, jaText));
+  item.appendChild(span);
   return item;
 }
 

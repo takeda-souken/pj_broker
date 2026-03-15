@@ -6,7 +6,7 @@ import { el } from '../utils/dom-helpers.js';
 import { SettingsStore } from '../models/settings-store.js';
 
 const CYCLE = ['ja', 'bilingual', 'en'];
-const LABELS = { ja: 'JA', bilingual: 'EN/JA', en: 'EN' };
+const LABELS = { ja: 'JP', bilingual: 'EN<br>JP', en: 'EN' };
 
 let toggleEl = null;
 
@@ -34,8 +34,8 @@ export function initJpToggle() {
 function updateLabel() {
   if (!toggleEl) return;
   const mode = SettingsStore.get('langMode') || 'bilingual';
-  toggleEl.textContent = LABELS[mode] || 'EN/JA';
-  toggleEl.classList.toggle('jp-toggle--off', mode === 'en');
+  toggleEl.innerHTML = LABELS[mode] || 'EN<br>JP';
+  CYCLE.forEach(m => toggleEl.classList.toggle(`jp-toggle--${m}`, m === mode));
 }
 
 export function showJpToggle(visible) {

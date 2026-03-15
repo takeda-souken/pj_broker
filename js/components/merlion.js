@@ -27,9 +27,7 @@ export function showMerlionCelebration({ type, streak = 0, topicName = '' }) {
     const img = el('img', { src: 'img/merlion.png', alt: 'Merlion', className: 'merlion-img' });
     merlion.appendChild(img);
     if (type === 'mastered') {
-      const crown = el('div', { className: 'merlion-crown' });
-      crown.textContent = '👑';
-      merlion.appendChild(crown);
+      img.classList.add('merlion-img--mastered');
     }
     // Water spray — attached to sprite so position is relative to the image
     const waterContainer = el('div', { className: 'merlion-water' });
@@ -96,7 +94,10 @@ style.textContent = `
 }
 .merlion-sprite { animation: bounceIn 0.5s ease; position: relative; }
 .merlion-img { width: 120px; height: auto; filter: drop-shadow(0 0 12px rgba(255,255,255,0.4)); }
-.merlion-crown { position: absolute; top: -18px; left: 50%; transform: translateX(-50%); font-size: 2rem; animation: bounceIn 0.6s ease 0.3s both; }
+.merlion-img--mastered {
+  filter: drop-shadow(0 0 18px rgba(255,200,50,0.8)) drop-shadow(0 0 40px rgba(255,180,0,0.5)) drop-shadow(0 0 70px rgba(255,160,0,0.3));
+  animation: goldGlow 2s ease-in-out infinite alternate;
+}
 .merlion-water { position: absolute; top: calc(30% + 10px); left: calc(15% + 20px); }
 .merlion-drop {
   position: absolute;
@@ -122,6 +123,10 @@ style.textContent = `
   0% { transform: scale(0); }
   60% { transform: scale(1.2); }
   100% { transform: scale(1); }
+}
+@keyframes goldGlow {
+  0% { filter: drop-shadow(0 0 18px rgba(255,200,50,0.8)) drop-shadow(0 0 40px rgba(255,180,0,0.5)) drop-shadow(0 0 70px rgba(255,160,0,0.3)); }
+  100% { filter: drop-shadow(0 0 24px rgba(255,215,0,1)) drop-shadow(0 0 55px rgba(255,190,0,0.7)) drop-shadow(0 0 90px rgba(255,170,0,0.4)); }
 }
 @keyframes spray {
   0% { transform: translate(var(--ox), var(--oy)) scale(1); opacity: 0.8; }

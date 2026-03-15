@@ -54,8 +54,6 @@ function getTimeContext() {
  */
 export function getSupporterMessage(event, opts = {}) {
   const settings = SettingsStore.load();
-  if (!settings.supporterEnabled) return null;
-
   const msgs = getActiveMessages();
   if (!msgs) return null;  // gone phase — sakura has disappeared
   const nickname = settings.sakuraNickname || '片岡さん';
@@ -149,8 +147,6 @@ export function recordVisit() {
  */
 export function getHomeGreeting() {
   const settings = SettingsStore.load();
-  if (!settings.supporterEnabled) return null;
-
   const daysSince = getDaysSinceLastVisit();
 
   // Always greet on comeback (3+ days away)
@@ -171,7 +167,6 @@ const TAKEDA_COOLDOWN_MS = 10 * 60 * 1000;
  */
 export function getTakedaMessage() {
   const settings = SettingsStore.load();
-  if (!settings.supporterEnabled) return null;
   // Only show on exam day
   const examDate = settings.examDate;
   if (!examDate) return null;

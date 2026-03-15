@@ -202,9 +202,23 @@ const JA = {
   'ach.mock_ace': '模擬試験で90%以上',
   'ach.both_modules': '全4モジュールを学習',
   'ach.five_topics': '5つのトピックを習得',
+  'ach.fifteen_topics': '15のトピックを習得',
   'ach.all_topics': '全トピックを習得',
   'ach.hundred_correct': '100問正解',
   'ach.five_hundred': '合計500問に回答',
+  'ach.thousand': '合計1000問に回答',
+  'ach.daily_streak_7': '7日間連続で学習',
+  'ach.daily_streak_30': '30日間連続で学習',
+  'ach.all_questions': '全問を1回以上正解',
+  'ach.true_completionist': '他の全実績を解除',
+
+  // Achievement stats
+  'achievements.totalAnswered': '合計回答数',
+  'achievements.totalCorrect': '合計正解数',
+  'achievements.bestStreak': '最高連続正解',
+  'achievements.perfectQuizzes': '満点クイズ',
+  'achievements.mockPasses': '模試合格回数',
+  'achievements.topicsMastered': '習得トピック数',
 
   // Trivia
   'trivia.title': 'シンガポール豆知識',
@@ -213,6 +227,9 @@ const JA = {
 
   // MRT
   'mrt.title': 'MRT 進捗マップ',
+  'mrt.hawkerTitle': 'ホーカーコレクション',
+  'mrt.stationsUnlocked': '{0}/{1} 駅を解放済み — 正解して路線を延ばそう！',
+  'mrt.uniqueCorrect': '{0}: {1}/{2} 問正解（ユニーク）',
 
   // About
   'about.title': 'アプリについて',
@@ -240,6 +257,12 @@ const JA = {
   'settings.goal50': '50問/日',
   'settings.goalOff': 'オフ',
   'settings.goalUpdated': '目標を更新しました',
+  'settings.dates': '日程',
+  'settings.arrivalDate': '入国日',
+  'settings.arrivalDateUpdated': '入国日を更新しました',
+  'settings.arrivalDaysLeft': '入国まであと{0}日',
+  'settings.arrivalToday': 'Welcome to Singapore！🇸🇬',
+  'settings.arrivalDateHint': 'シンガポール入国日を設定',
   'settings.examDate': '試験日',
   'settings.examDateUpdated': '試験日を更新しました',
   'settings.examDaysLeft': '試験まであと{0}日',
@@ -250,6 +273,18 @@ const JA = {
   'settings.mockShowResult': '1問ごとの正誤表示',
   'settings.mockShowExplanation': '1問ごとの解説表示',
   'settings.mockShowEffects': 'マスター演出（マーライオン等）',
+  'settings.themeAuto': '自動',
+  'settings.themeLight': 'ライト',
+  'settings.themeDark': 'ダーク',
+  'settings.homeScreen': 'ホーム画面',
+  'settings.showXp': 'XPバー',
+  'settings.showGoal': '1日の目標',
+  'settings.showStats': '簡易統計',
+  'settings.showCountdown': '試験カウントダウン',
+  'settings.showTrivia': 'SG 豆知識',
+  'settings.extraModules': '追加モジュール',
+  'settings.extraModulesToggle': 'PGI & HI モジュール',
+  'settings.extraModulesDesc': '個人総合保険と健康保険モジュールを表示',
   'settings.achievements': '実績',
   'settings.journal': '誤答ノート',
 
@@ -261,6 +296,7 @@ const JA = {
   // Journal
   'journal.title': '誤答ノート',
   'journal.empty': 'まだ誤答がありません！この調子で！',
+  'journal.count': '復習すべき問題: {0}問',
 
   // Report
   'report.title': '問題を報告',

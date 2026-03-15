@@ -20,6 +20,7 @@ import { showJp as shouldShowJp, tr, triText, triContent, triHtml } from '../uti
 import { GamificationStore } from '../models/gamification-store.js';
 import { sendSessionSummary, sendQuizLog } from '../utils/gas-client.js';
 import { shouldShowLineIntro, showLineIntro, showLineIntroQueue, moduleToLineId } from '../components/mrt-tutorial.js';
+import { showAchievementPopup } from '../components/achievement-popup.js';
 import { DebugStore } from '../models/debug-store.js';
 import { SakuraState } from '../models/sakura-state.js';
 
@@ -288,6 +289,10 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
     const wasFirstCorrectPending = lineId && shouldShowLineIntro(lineId)
       && RecordStore.getUniqueCorrectCount(session.module) === 0;
 
+    // Snapshot mastered state BEFORE recording (to detect first-time mastery)
+    const preStats = RecordStore.getTopicStats()[`${session.module}::${q.topic}`];
+    const wasMasteredBefore = preStats ? preStats.mastered : false;
+
     const record = session.answer(choiceIndex === -1 ? -1 : choiceIndex);
     const isCorrect = record && record.isCorrect;
 
@@ -336,17 +341,17 @@ function renderQuestion(app, session, settings, deferredLineIntros = []) {
 
     // Merlion celebration for streaks (skip in mock when effects are off)
     if (isCorrect && mockShowEffects) {
-      if (topicStats && topicStats.mastered && topicStats.streak === 5) {
+      if (topicStats && topicStats.mastered && !wasMasteredBefore) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
         GamificationStore.addMastery();
         pendingAnimations.push(showMerlionCelebration({ type: 'mastered', topicName: q.topic }));
-      } else if (topicStats && topicStats.streak >= 3 && topicStats.streak % 3 === 0) {
+      } else if (topicStats && topicStats.streak >= 10 && topicStats.streak % 10 === 0) {
         pendingAnimations.push(showMerlionCelebration({ type: 'streak', streak: topicStats.streak }));
       }
     } else if (isCorrect && !mockShowEffects) {
       // Still record mastery/hawker even without visual effects
-      if (topicStats && topicStats.mastered && topicStats.streak === 5) {
+      if (topicStats && topicStats.mastered && !wasMasteredBefore) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
         GamificationStore.addMastery();
@@ -711,7 +716,7 @@ async function showResults(app, session, deferredLineIntros = []) {
   // Complete quiz in gamification (#33)
   const newAchievements = GamificationStore.completeQuiz(results.accuracy, session.mode);
   if (newAchievements.length > 0) {
-    results.newAchievements = newAchievements.map(a => ({ name: a.name, icon: a.icon, desc: a.desc }));
+    results.newAchievements = newAchievements.map(a => ({ name: a.name, nameJA: a.nameJA, icon: a.icon, desc: a.desc }));
   }
 
   sessionStorage.setItem('sg_broker_last_result', JSON.stringify(results));
@@ -725,6 +730,11 @@ async function showResults(app, session, deferredLineIntros = []) {
   // Show deferred MRT line intros (mock exam) — one at a time, then navigate
   if (deferredLineIntros.length > 0) {
     await showLineIntroQueue(deferredLineIntros);
+  }
+
+  // Show achievement unlock popups before navigating to result
+  if (newAchievements.length > 0) {
+    await showAchievementPopup(newAchievements);
   }
 
   navigate(`#result`);

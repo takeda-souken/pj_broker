@@ -308,15 +308,17 @@
 }
 
 /* ===== JP TOGGLE ===== */
-[data-theme="dark"] .jp-toggle {
-  border-color: var(--c-accent);
-  background: #1578a8;
-  color: #fff;
+[data-theme="dark"] .jp-toggle--ja {
+  background: #5a85bf;
+  border-color: #5a85bf;
 }
-[data-theme="dark"] .jp-toggle--off {
-  background: var(--c-surface);
-  color: var(--c-accent);
-  border-color: var(--c-accent);
+[data-theme="dark"] .jp-toggle--en {
+  background: #c06a6a;
+  border-color: #c06a6a;
+}
+[data-theme="dark"] .jp-toggle--bilingual {
+  background: #8a7aaa;
+  border-color: #8a7aaa;
 }
 
 /* ===== KEYWORD TAGS ===== */

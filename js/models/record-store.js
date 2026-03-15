@@ -48,11 +48,10 @@ export class RecordStore {
         s._seenCorrect.push(record.questionId);
         s.uniqueCorrect = s._seenCorrect.length;
       }
-      // Mastery: 5 consecutive correct AND unique correct >= 30% of topic questions
-      if (s.streak >= 5 && !s.mastered) {
+      // Mastery: every question in the topic answered correctly at least once
+      if (!s.mastered) {
         const topicTotal = this._getTopicQuestionCount(record.module, record.topic);
-        const minUnique = Math.max(5, Math.ceil(topicTotal * 0.3));
-        if ((s.uniqueCorrect || 0) >= minUnique) {
+        if (topicTotal > 0 && (s.uniqueCorrect || 0) >= topicTotal) {
           s.mastered = true;
           s.masteredAt = DebugStore.now().toISOString();
         }

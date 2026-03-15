@@ -212,6 +212,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'ns',
     name: 'North-South Line',
+    nameJa: '南北線（NS）',
     color: '#e4002b',
     darkColor: '#ff4060',
     stations: NS_COORDS,
@@ -219,6 +220,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'ew',
     name: 'East-West Line',
+    nameJa: '東西線（EW）',
     color: '#009645',
     darkColor: '#30c060',
     stations: EW_COORDS,
@@ -226,6 +228,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'ne',
     name: 'North East Line',
+    nameJa: '北東線（NE）',
     color: '#9016b2',
     darkColor: '#b850d8',
     stations: NE_COORDS,
@@ -233,6 +236,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'cc',
     name: 'Circle Line',
+    nameJa: '環状線（CC）',
     color: '#fa9e0d',
     darkColor: '#ffc040',
     stations: CC_COORDS,
@@ -242,6 +246,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'dt',
     name: 'Downtown Line',
+    nameJa: 'ダウンタウン線（DT）',
     color: '#005ec4',
     darkColor: '#4090f0',
     stations: DT_COORDS,
@@ -249,6 +254,7 @@ export const ALL_MRT_LINES = [
   {
     id: 'te',
     name: 'Thomson-East Coast Line',
+    nameJa: 'トムソン・イーストコースト線（TE）',
     color: '#9d5b25',
     darkColor: '#c88040',
     stations: TE_COORDS,

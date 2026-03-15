@@ -77,8 +77,6 @@ function markIntroShown(lineId) {
  */
 export function shouldShowLineIntro(lineId) {
   const settings = SettingsStore.load();
-  if (!settings.supporterEnabled) return false;
-
   const shown = getShownIntros();
   return !shown[lineId] && !!LINE_INTROS[lineId];
 }
@@ -99,8 +97,9 @@ export function showLineIntro(lineId, opts = {}) {
     // Overlay — blocks everything
     const overlay = el('div', { className: 'mrt-tutorial-overlay' });
 
-    // Card
+    // Card — pass line color as CSS variable for glow
     const card = el('div', { className: 'mrt-tutorial-card' });
+    card.style.setProperty('--line-color', intro.lineColor);
 
     // Line color accent bar
     const accent = el('div', { className: 'mrt-tutorial-accent' });

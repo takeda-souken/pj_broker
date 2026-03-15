@@ -39,10 +39,19 @@ registerRoute('#question-bank', async (app) => {
   backBtn.appendChild(triText('common.back', 'Back'));
   app.appendChild(backBtn);
 
-  // Header
-  const h1 = el('h1', { className: 'text-center mt-md' });
+  // Header with journal icon
+  const headerRow = el('div', { className: 'qbank-header' });
+  const h1 = el('h1', { className: 'qbank-header__title' });
   h1.appendChild(triText('qbank.title', 'Question Bank'));
-  app.appendChild(h1);
+  headerRow.appendChild(h1);
+
+  const journalLink = el('button', {
+    className: 'qbank-header__journal',
+    title: 'Wrong Answer Journal',
+    onClick: () => navigate('#journal'),
+  }, '\uD83D\uDCD3');
+  headerRow.appendChild(journalLink);
+  app.appendChild(headerRow);
 
   // Module selector
   const moduleSeg = el('div', { className: 'seg-control mb-sm' });
