@@ -97,15 +97,6 @@ registerRoute('#sakura-room', async (app) => {
     skipBtn.prepend(idLabel);
     document.body.appendChild(skipBtn);
 
-    // Remove when debug is turned off
-    const onDebugChange = () => {
-      if (!DebugStore.isActive()) {
-        skipBtn.remove();
-        window.removeEventListener('debug-changed', onDebugChange);
-      }
-    };
-    window.addEventListener('debug-changed', onDebugChange);
-
     // Debug: add sample photo to album for testing
     const albumTestBtn = el('button', {
       className: 'sr-debug-skip',
@@ -117,12 +108,21 @@ registerRoute('#sakura-room', async (app) => {
           caption: 'タピオカ買ったよ！ ピースピース✌️',
           conversationId: '_debug_test',
         });
-        // Refresh header to show album button
-        window.location.hash = '#_reload';
-        requestAnimationFrame(() => navigate('#sakura-room'));
+        // Open album directly
+        showAlbum();
       },
     }, '\uD83D\uDDBC\uFE0F \u30A2\u30EB\u30D0\u30E0\u30C6\u30B9\u30C8');
     document.body.appendChild(albumTestBtn);
+
+    // Remove both buttons when debug is turned off
+    const onDebugChange = () => {
+      if (!DebugStore.isActive()) {
+        skipBtn.remove();
+        albumTestBtn.remove();
+        window.removeEventListener('debug-changed', onDebugChange);
+      }
+    };
+    window.addEventListener('debug-changed', onDebugChange);
   }
 
   // Play it
@@ -247,6 +247,7 @@ async function playConversation(conv, chatArea) {
 
       // Show user's choice as a message
       addUserMessage(chatArea, choice.label);
+
 
       // Log to GAS spreadsheet
       sendSakuraRoomLog({
@@ -397,9 +398,13 @@ function showChoices(chatArea, choices) {
             b.disabled = true;
             if (b !== btn) b.style.opacity = '0.4';
           });
-          // Remove choices and resolve
+          // Remove choices, add height to chatArea padding to prevent scroll jump
           setTimeout(() => {
+            const h = container.offsetHeight;
             container.remove();
+            // Increase bottom padding to compensate for removed height
+            const current = parseFloat(getComputedStyle(chatArea).paddingBottom) || 0;
+            chatArea.style.paddingBottom = (current + h) + 'px';
             resolve(choice);
           }, 300);
         },
@@ -452,11 +457,11 @@ function showAlbum() {
   const overlay = el('div', { className: 'sr-album-overlay' });
 
   const header = el('div', { className: 'sr-album-header' });
+  header.appendChild(el('span', {}, `\u30A2\u30EB\u30D0\u30E0 (${photos.length})`));
   header.appendChild(el('button', {
     className: 'sr-album-close',
     onClick: () => overlay.remove(),
   }, '\u00D7'));
-  header.appendChild(el('span', {}, `\u30A2\u30EB\u30D0\u30E0 (${photos.length})`));
   overlay.appendChild(header);
 
   const grid = el('div', { className: 'sr-album-grid' });
@@ -532,6 +537,9 @@ async function downloadImage(src, filename) {
 
 // ─── Exit door transition (reverse of entry) ────────
 function closeSakuraDoor(doorEl) {
+  // Close album overlay if open
+  document.querySelectorAll('.sr-album-overlay, .sr-album-detail').forEach(e => e.remove());
+
   const rect = doorEl.getBoundingClientRect();
   const cx = rect.left + rect.width / 2;
   const cy = rect.top + rect.height / 2;

@@ -26,6 +26,20 @@
   30%  { opacity: 1; }
   100% { width: calc(var(--max-r) * 2); height: calc(var(--max-r) * 2); opacity: 1; }
 }
+/* Start fully covering the screen (placed before shrink animation) */
+.sakura-door-transition--cover {
+  width: calc(var(--max-r) * 2);
+  height: calc(var(--max-r) * 2);
+  opacity: 1;
+}
+.sakura-door-transition--shrink {
+  animation: sakuraDoorShrink 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+@keyframes sakuraDoorShrink {
+  0%   { width: calc(var(--max-r) * 2); height: calc(var(--max-r) * 2); opacity: 1; }
+  70%  { opacity: 1; }
+  100% { width: 0; height: 0; opacity: 0; }
+}
 
 /* Dark mode: deeper sakura tones */
 [data-theme="dark"] .sakura-door-transition {
@@ -118,6 +132,30 @@ body.sakura-room-active[data-theme="dark"] {
   gap: 8px;
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #f0c4cc #fef0f3;
+}
+.sr-chat::-webkit-scrollbar {
+  width: 5px;
+}
+.sr-chat::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sr-chat::-webkit-scrollbar-thumb {
+  background: #f0c4cc;
+  border-radius: 4px;
+}
+.sr-chat::-webkit-scrollbar-thumb:hover {
+  background: #e8a8b4;
+}
+[data-theme="dark"] .sr-chat {
+  scrollbar-color: #6a505a #2e2028;
+}
+[data-theme="dark"] .sr-chat::-webkit-scrollbar-thumb {
+  background: #6a505a;
+}
+[data-theme="dark"] .sr-chat::-webkit-scrollbar-thumb:hover {
+  background: #7a606a;
 }
 /* PC: narrow chat column so bubbles stay close to center */
 @media (min-width: 600px) {
@@ -349,15 +387,18 @@ body.sakura-room-active[data-theme="dark"] {
   font-size: 24px;
   cursor: pointer;
   padding: 0 4px;
+  margin-left: auto;
 }
 .sr-album-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
   gap: 2px;
   padding: 2px;
 }
 .sr-album-thumb {
-  aspect-ratio: 1;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   cursor: pointer;
   background: var(--c-surface, #16213e);
@@ -428,7 +469,7 @@ body.sakura-room-active[data-theme="dark"] {
   position: fixed;
   bottom: 20px;
   right: 16px;
-  z-index: 200;
+  z-index: 510;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -651,4 +692,35 @@ body.sakura-room-active[data-theme="dark"] {
 @keyframes tutorial-hint-pulse {
   0%, 100% { opacity: 0.6; }
   50% { opacity: 1; }
+}
+
+/* ─── Debug: Skip to next conversation button ─── */
+.sr-debug-skip {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border: 2px solid #e91e63;
+  border-radius: 20px;
+  background: rgba(233, 30, 99, 0.9);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+.sr-debug-skip:active {
+  transform: scale(0.95);
+}
+.sr-debug-skip__id {
+  font-size: 11px;
+  font-weight: 400;
+  opacity: 0.8;
+  padding-right: 4px;
+  border-right: 1px solid rgba(255,255,255,0.4);
 }
