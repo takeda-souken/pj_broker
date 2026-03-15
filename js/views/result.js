@@ -10,12 +10,20 @@ import { GamificationStore } from '../models/gamification-store.js';
 import { showConfetti } from '../components/confetti.js';
 import { getSupporterMessage, createSupporterBubble } from '../components/supporter.js';
 import { FrequencyStore } from '../models/frequency-store.js';
+import { SakuraState } from '../models/sakura-state.js';
 
 registerRoute('#result', (app) => {
   const raw = sessionStorage.getItem('sg_broker_last_result');
   if (!raw) { navigate('#home'); return; }
 
   const r = JSON.parse(raw);
+
+  // Farewell trigger: mock exam pass at post_confession phase
+  if (r.mode === 'mock' && r.accuracy >= 70 && SakuraState.getPhase() === 'post_confession') {
+    SakuraState.triggerFarewell();
+    // TODO: sakura-story.js farewell event modal
+  }
+
   // Confetti for perfect score (#6)
   if (r.accuracy === 100) {
     showConfetti();
@@ -46,7 +54,8 @@ registerRoute('#result', (app) => {
   h1.appendChild(r.mode === 'mock'
     ? triText('result.mockExam', 'Mock Exam')
     : triText('result.practice', 'Practice'));
-  h1.appendChild(document.createTextNode(' Result'));
+  h1.appendChild(document.createTextNode(' '));
+  h1.appendChild(triText('result.result', 'Result'));
   app.appendChild(h1);
 
   // Score with color grading
@@ -120,7 +129,7 @@ registerRoute('#result', (app) => {
   xpBar.appendChild(el('div', { className: 'xp-bar__label' }, `${gameData.xp} XP`));
   app.appendChild(xpBar);
   const levelTitle = el('div', { className: 'text-center text-sm text-secondary' });
-  levelTitle.appendChild(triText('result.levelTitle', levelInfo.title));
+  levelTitle.appendChild(triContent(levelInfo.title, levelInfo.titleJA));
   app.appendChild(levelTitle);
 
   // ─── 2-column layout (desktop: summary left, topics right) ───

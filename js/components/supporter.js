@@ -25,6 +25,7 @@
 import { el } from '../utils/dom-helpers.js';
 import { SettingsStore } from '../models/settings-store.js';
 import { getActiveMessages, TAKEDA_MESSAGES } from '../data/sakura-messages.js';
+import { DebugStore } from '../models/debug-store.js';
 
 const SUPPORTER_NAME = 'さくら';
 
@@ -36,7 +37,7 @@ function pick(arr) {
  * Determine time-of-day context for richer messages.
  */
 function getTimeContext() {
-  const h = new Date().getHours();
+  const h = DebugStore.now().getHours();
   if (h >= 5 && h < 9) return 'morning';
   if (h >= 23 || h < 5) return 'night';
   return null;
@@ -56,6 +57,7 @@ export function getSupporterMessage(event, opts = {}) {
   if (!settings.supporterEnabled) return null;
 
   const msgs = getActiveMessages();
+  if (!msgs) return null;  // gone phase — sakura has disappeared
   const nickname = settings.sakuraNickname || '片岡さん';
 
   /** Pick from pool and replace {name} placeholder with user's nickname */
@@ -132,7 +134,7 @@ const LAST_VISIT_KEY = 'sg_broker_last_visit';
 function getDaysSinceLastVisit() {
   const last = localStorage.getItem(LAST_VISIT_KEY);
   if (!last) return 999; // first visit ever
-  const diff = Date.now() - parseInt(last, 10);
+  const diff = DebugStore.now().getTime() - parseInt(last, 10);
   return diff / (1000 * 60 * 60 * 24);
 }
 
@@ -173,7 +175,7 @@ export function getTakedaMessage() {
   // Only show on exam day
   const examDate = settings.examDate;
   if (!examDate) return null;
-  const today = new Date().toISOString().slice(0, 10);
+  const today = DebugStore.today();
   if (today !== examDate) return null;
   try {
     const last = parseInt(localStorage.getItem(TAKEDA_COOLDOWN_KEY) || '0', 10);

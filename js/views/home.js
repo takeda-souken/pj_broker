@@ -8,11 +8,12 @@ import { SettingsStore } from '../models/settings-store.js';
 import { RecordStore } from '../models/record-store.js';
 import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
 import { getSavedSessionInfo } from './quiz.js';
-import { triText, tr } from '../utils/i18n.js';
+import { triText, triContent, tr } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
 import { getHomeGreeting, recordVisit, createSupporterBubble } from '../components/supporter.js';
 import { DebugStore } from '../models/debug-store.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
+import { SakuraState } from '../models/sakura-state.js';
 
 const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
@@ -47,7 +48,10 @@ registerRoute('#home', (app) => {
     const gameData = GamificationStore.load();
     const levelInfo = GamificationStore.getLevel(gameData.xp);
     const xpSection = el('div', { className: 'xp-bar home-xp-center' });
-    xpSection.appendChild(el('div', { className: 'xp-bar__level' }, `Lv.${levelInfo.level} ${levelInfo.title}`));
+    const lvLabel = el('div', { className: 'xp-bar__level' });
+    lvLabel.appendChild(document.createTextNode(`Lv.${levelInfo.level} `));
+    lvLabel.appendChild(triContent(levelInfo.title, levelInfo.titleJA));
+    xpSection.appendChild(lvLabel);
     const track = el('div', { className: 'xp-bar__track' });
     const xpFill = el('div', { className: 'xp-bar__fill' });
     xpFill.style.width = `${Math.round(levelInfo.progress * 100)}%`;
@@ -76,18 +80,21 @@ registerRoute('#home', (app) => {
     app.appendChild(banner);
   }
 
-  // ─── Sakura Room button (Phase 2+ only) ───
-  if (settings.supporterEnabled && !SakuraRoomStore.get('sakuraDisabled')) {
-    const roomBtn = el('button', {
-      className: 'home-sakura-room-btn',
-      onClick: () => navigate('#sakura-room'),
+  // ─── Sakura Door (floating, bottom-right) ───
+  const sakuraPhase = SakuraState.getPhase();
+  if (settings.supporterEnabled && sakuraPhase !== 'japan' && sakuraPhase !== 'gone') {
+    // Remove any existing door from previous render
+    document.querySelector('.sakura-door')?.remove();
+    const door = el('button', {
+      className: 'sakura-door',
+      title: '\u3055\u304F\u3089\u306E\u90E8\u5C4B',
     });
-    roomBtn.appendChild(el('span', { className: 'home-sakura-room-btn__icon' }, '\uD83C\uDF38'));
-    const textDiv = el('div', { className: 'home-sakura-room-btn__text' });
-    textDiv.appendChild(el('div', { className: 'home-sakura-room-btn__name' }, '\u3055\u304F\u3089\u306E\u90E8\u5C4B'));
-    textDiv.appendChild(el('div', { className: 'home-sakura-room-btn__status' }, '\u30BF\u30C3\u30D7\u3057\u3066\u4F1A\u3044\u306B\u884C\u304F'));
-    roomBtn.appendChild(textDiv);
-    app.appendChild(roomBtn);
+    door.addEventListener('click', () => openSakuraDoor(door));
+    const frame = el('div', { className: 'sakura-door__frame' });
+    frame.appendChild(el('span', { className: 'sakura-door__icon' }, '\uD83C\uDF38'));
+    door.appendChild(frame);
+    door.appendChild(el('span', { className: 'sakura-door__label' }, '\u3055\u304F\u3089'));
+    document.body.appendChild(door);
   }
 
   // ─── Menu grid ───
@@ -273,6 +280,49 @@ function showFirstLaunchTutorial() {
   }
 
   setTimeout(addMessage, 500);
+}
+
+// ─── Sakura Door transition ──────────────────────────────────────
+function openSakuraDoor(doorEl) {
+  // Prevent double-click
+  if (doorEl.dataset.opening) return;
+  doorEl.dataset.opening = '1';
+
+  // Get door center position
+  const rect = doorEl.getBoundingClientRect();
+  const cx = rect.left + rect.width / 2;
+  const cy = rect.top + rect.height / 2;
+
+  // Calculate radius to cover entire viewport from this point
+  const maxDist = Math.max(
+    Math.hypot(cx, cy),
+    Math.hypot(window.innerWidth - cx, cy),
+    Math.hypot(cx, window.innerHeight - cy),
+    Math.hypot(window.innerWidth - cx, window.innerHeight - cy),
+  );
+
+  // Create expanding circle overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'sakura-door-transition';
+  overlay.style.cssText = `left:${cx}px;top:${cy}px;--max-r:${Math.ceil(maxDist)}px;`;
+  document.body.appendChild(overlay);
+
+  // Small door "opening" animation first
+  doorEl.classList.add('sakura-door--opening');
+
+  // Start circle expansion after a short beat
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      overlay.classList.add('sakura-door-transition--expand');
+    });
+  });
+
+  // Navigate after expansion completes
+  overlay.addEventListener('animationend', () => {
+    // Mark so sakura-room can pick up and fade out
+    document.body.dataset.sakuraTransition = '1';
+    navigate('#sakura-room');
+  }, { once: true });
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────

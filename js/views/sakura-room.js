@@ -6,6 +6,7 @@ import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
 import { SettingsStore } from '../models/settings-store.js';
+import { SakuraState } from '../models/sakura-state.js';
 import {
   loadAllConversations,
   pickNextConversation,
@@ -13,14 +14,15 @@ import {
   pickClosing,
   isSakuraSleeping,
 } from '../models/sakura-room-engine.js';
+import { sendSakuraRoomLog } from '../utils/gas-client.js';
 
 const TYPING_DELAY = 600;    // ms before typing dots appear
 const TYPING_DURATION = 800; // ms typing dots are shown
 const LINE_DELAY = 400;      // ms between consecutive sakura lines
 
 registerRoute('#sakura-room', async (app) => {
-  // Check if sakura is disabled (after farewell)
-  if (SakuraRoomStore.get('sakuraDisabled')) {
+  // Check if sakura is gone (after farewell)
+  if (SakuraState.getPhase() === 'gone') {
     app.appendChild(buildEmptyState('さくらの部屋は、静かに閉じています。'));
     return;
   }
@@ -31,12 +33,22 @@ registerRoute('#sakura-room', async (app) => {
   // Load all conversation data
   await loadAllConversations();
 
+  // Set body background to sakura pink
+  document.body.classList.add('sakura-room-active');
+
+  // Fade out door transition overlay if present
+  fadeDoorTransition();
+
   // Build the room
   const room = el('div', { className: 'sakura-room' });
 
-  // Header
-  const header = buildHeader();
-  room.appendChild(header);
+  // Back button (minimal, no header bar)
+  const backBtn = el('button', {
+    className: 'sr-back-fab',
+    onClick: () => navigate('#home'),
+    title: '\u623B\u308B',
+  }, '\u2190');
+  room.appendChild(backBtn);
 
   // Check sleeping
   if (isSakuraSleeping()) {
@@ -132,9 +144,9 @@ async function playConversation(conv, chatArea) {
       SakuraRoomStore.completeConversation(conv.id);
       // Handle nickname changes
       handlePostConversation(conv);
-      // Disable sakura if needed
+      // Disable sakura if needed (farewell → gone)
       if (conv.disableSakuraAfter) {
-        SakuraRoomStore.disableSakura();
+        SakuraState.markEventSeen('farewell');
       }
       break;
     }
@@ -166,6 +178,15 @@ async function playConversation(conv, chatArea) {
 
       // Show user's choice as a message
       addUserMessage(chatArea, choice.label);
+
+      // Log to GAS spreadsheet
+      sendSakuraRoomLog({
+        conversationId: conv.id,
+        nodeId: currentNode.id,
+        choiceLabel: choice.label,
+        flags: choice.flags,
+        axes: choice.axes,
+      });
 
       // Apply flags and axes
       if (choice.flags) {
@@ -343,4 +364,14 @@ function getNextNodeId(nodes, currentId) {
     return nodes[idx + 1].id;
   }
   return null;
+}
+
+// ─── Door transition cleanup ─────────────────────────
+function fadeDoorTransition() {
+  const overlay = document.querySelector('.sakura-door-transition');
+  if (!overlay) return;
+  overlay.style.transition = 'opacity 0.4s ease';
+  overlay.style.opacity = '0';
+  setTimeout(() => overlay.remove(), 400);
+  delete document.body.dataset.sakuraTransition;
 }

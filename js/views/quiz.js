@@ -19,11 +19,14 @@ import { showReportModal } from '../components/report-modal.js';
 import { showJp as shouldShowJp, tr, triText, triContent, triHtml } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
 import { sendSessionSummary, sendQuizLog } from '../utils/gas-client.js';
-import { shouldShowLineIntro, showLineIntro, moduleToLineId } from '../components/mrt-tutorial.js';
+import { shouldShowLineIntro, showLineIntro, showLineIntroQueue, moduleToLineId } from '../components/mrt-tutorial.js';
+import { DebugStore } from '../models/debug-store.js';
+import { SakuraState } from '../models/sakura-state.js';
 
 const SAVED_SESSION_KEY = 'sg_broker_saved_session';
 let glossaryData = null;
 let answered = false;
+let autoTimer = null;
 
 registerRoute('#quiz', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
@@ -52,6 +55,7 @@ registerRoute('#quiz', async (app) => {
 
     session = new QuizSession({ module, mode, questionCount: count, topic, reviewIds });
     await session.init();
+    SakuraState.lockPhaseForSession();
   }
 
   if (!glossaryData) {
@@ -65,12 +69,51 @@ registerRoute('#quiz', async (app) => {
     return;
   }
 
-  renderQuestion(app, session, settings);
+  const deferredLineIntros = []; // MRT intros deferred until mock exam ends
+
+  renderQuestion(app, session, settings, deferredLineIntros);
+
+  // Auto-mode badge (debug)
+  let autoBadge = null;
+  if (DebugStore.isActive() && DebugStore.get('autoMode')) {
+    autoBadge = document.createElement('div');
+    autoBadge.className = 'debug-auto-badge';
+    const rate = DebugStore.get('autoCorrectRate') ?? 100;
+    autoBadge.textContent = rate < 100 ? `▶ AUTO ${rate}%` : '▶ AUTO';
+    autoBadge.style.cursor = 'pointer';
+    autoBadge.addEventListener('click', () => {
+      DebugStore.set('autoMode', false);
+      autoBadge.remove();
+      if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+    });
+    document.body.appendChild(autoBadge);
+  }
+
+  // Listen for auto-mode toggle changes during quiz
+  const onAutoChanged = () => {
+    if (DebugStore.isActive() && DebugStore.get('autoMode')) {
+      if (!autoBadge) {
+        autoBadge = document.createElement('div');
+        autoBadge.className = 'debug-auto-badge';
+        autoBadge.textContent = '▶ AUTO';
+        document.body.appendChild(autoBadge);
+      }
+      // Re-trigger auto on current question (correct index from current DOM state)
+      const currentBtns = app.querySelectorAll('.choice-btn:not(.choice-btn--disabled)');
+      if (currentBtns.length > 0 && !answered) {
+        triggerAutoAnswer(app, 0); // best effort — correct index unknown here
+      }
+    } else {
+      if (autoBadge) { autoBadge.remove(); autoBadge = null; }
+      if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+    }
+  };
+  window.addEventListener('debug-auto-changed', onAutoChanged);
 
   // Mock exam timer
   let examTimerCleanup = null;
   if (session.mode === 'mock') {
-    examTimerCleanup = startExamTimer(app, session);
+    examTimerCleanup = startExamTimer(app, session, deferredLineIntros);
   }
 
   // Keyboard shortcuts (#41)
@@ -117,6 +160,9 @@ registerRoute('#quiz', async (app) => {
 
   return () => {
     if (examTimerCleanup) examTimerCleanup();
+    if (autoTimer) { clearTimeout(autoTimer); autoTimer = null; }
+    if (autoBadge) { autoBadge.remove(); autoBadge = null; }
+    window.removeEventListener('debug-auto-changed', onAutoChanged);
     app.removeEventListener('touchstart', onTouchStart);
     app.removeEventListener('touchend', onTouchEnd);
     window.removeEventListener('lang-mode-changed', onLangChange);
@@ -124,14 +170,14 @@ registerRoute('#quiz', async (app) => {
   };
 });
 
-function renderQuestion(app, session, settings) {
+function renderQuestion(app, session, settings, deferredLineIntros = []) {
   app.innerHTML = '';
   document.querySelectorAll('.sakura-bottom-popup').forEach(e => e.remove());
   answered = false;
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
     clearSavedSession();
-    showResults(app, session);
+    showResults(app, session, deferredLineIntros);
     return;
   }
 
@@ -174,13 +220,18 @@ function renderQuestion(app, session, settings) {
   header.appendChild(headerRight);
   wrap.appendChild(header);
 
-  // Progress dots
+  // Progress dots (in mock mode with result display off, don't reveal correct/wrong)
+  const mockHideDots = session.mode === 'mock' && !settings.mockShowResult;
   const dotsRow = el('div', { className: 'quiz-dots' });
   for (let i = 0; i < session.total; i++) {
     const dot = el('div', { className: 'quiz-dot' });
     if (i < session.currentIndex) {
-      const ans = session.answers[i];
-      dot.classList.add(ans && ans.isCorrect ? 'quiz-dot--correct' : 'quiz-dot--wrong');
+      if (mockHideDots) {
+        dot.classList.add('quiz-dot--answered');
+      } else {
+        const ans = session.answers[i];
+        dot.classList.add(ans && ans.isCorrect ? 'quiz-dot--correct' : 'quiz-dot--wrong');
+      }
     } else if (i === session.currentIndex) {
       dot.classList.add('quiz-dot--current');
     }
@@ -242,7 +293,11 @@ function renderQuestion(app, session, settings) {
 
     // MRT line tutorial — show once on first correct answer for this module
     if (isCorrect && wasFirstCorrectPending) {
-      showLineIntro(lineId);
+      if (session.mode === 'mock') {
+        deferredLineIntros.push(lineId);
+      } else {
+        showLineIntro(lineId);
+      }
     }
 
     // Send per-question log to GAS
@@ -258,11 +313,25 @@ function renderQuestion(app, session, settings) {
     const streak = topicStats ? topicStats.streak : 0;
     GamificationStore.addAnswer(isCorrect, session.module, streak);
 
-    // Reveal correct/wrong
-    choiceGrid.reveal(q.answer, choiceIndex);
+    // Mock exam settings
+    const isMock = session.mode === 'mock';
+    const mockShowResult = isMock ? settings.mockShowResult : true;
+    const mockShowExplanation = isMock ? settings.mockShowExplanation : true;
+    const mockShowEffects = isMock ? settings.mockShowEffects : true;
 
-    // Merlion celebration for streaks
-    if (isCorrect) {
+    // Reveal correct/wrong (skip in mock when result display is off)
+    if (mockShowResult) {
+      choiceGrid.reveal(q.answer, choiceIndex);
+    } else {
+      // Disable choices without revealing correct answer
+      choiceGrid.el.querySelectorAll('.choice-btn').forEach(btn => {
+        btn.classList.add('choice-btn--disabled');
+        btn.disabled = true;
+      });
+    }
+
+    // Merlion celebration for streaks (skip in mock when effects are off)
+    if (isCorrect && mockShowEffects) {
       if (topicStats && topicStats.mastered && topicStats.streak === 5) {
         const dish = getDishForTopic(q.topic);
         if (dish) RecordStore.addHawkerItem(dish.id);
@@ -271,10 +340,17 @@ function renderQuestion(app, session, settings) {
       } else if (topicStats && topicStats.streak >= 3 && topicStats.streak % 3 === 0) {
         showMerlionCelebration({ type: 'streak', streak: topicStats.streak });
       }
+    } else if (isCorrect && !mockShowEffects) {
+      // Still record mastery/hawker even without visual effects
+      if (topicStats && topicStats.mastered && topicStats.streak === 5) {
+        const dish = getDishForTopic(q.topic);
+        if (dish) RecordStore.addHawkerItem(dish.id);
+        GamificationStore.addMastery();
+      }
     }
 
     // Virtual supporter (Sakura) — non-blocking bottom popup, skip in mock exam
-    if (session.mode !== 'mock') {
+    if (!isMock) {
       const supporterMsg = streak >= 3
         ? getSupporterMessage('streak', { n: streak })
         : getSupporterMessage(isCorrect ? 'correct' : 'wrong', { difficulty: q.difficulty });
@@ -295,7 +371,7 @@ function renderQuestion(app, session, settings) {
     }
 
     // Explanation with keyword highlighting
-    if (settings.showExplanation && q.explanation) {
+    if ((!isMock || mockShowExplanation) && settings.showExplanation && q.explanation) {
       const expPanel = el('div', { className: 'explanation mt-md' });
       expPanel.appendChild(el('div', { className: 'explanation__title' },
         isCorrect ? tr('quiz.correct', 'Correct!') : tr('quiz.incorrect', 'Incorrect')));
@@ -412,7 +488,7 @@ function renderQuestion(app, session, settings) {
     if (wrap.querySelector('.quiz-next-btn')) return;
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
-      onClick: () => { session.next(); renderQuestion(app, session, settings); },
+      onClick: () => { session.next(); renderQuestion(app, session, settings, deferredLineIntros); },
     });
     const isLast = session.currentIndex + 1 >= session.total;
     nextBtn.appendChild(triText(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
@@ -426,7 +502,37 @@ function renderQuestion(app, session, settings) {
     } else {
       wrap.appendChild(nextBtn);
     }
+
+    // Auto-mode: auto-click next after answer reveal
+    if (DebugStore.isActive() && DebugStore.get('autoMode')) {
+      const speed = DebugStore.get('autoSpeed') || 500;
+      autoTimer = setTimeout(() => {
+        nextBtn.click();
+      }, speed / 2);
+    }
   }
+
+  // Auto-mode: auto-answer the question (pass correct answer index)
+  triggerAutoAnswer(app, q.answer);
+}
+
+function triggerAutoAnswer(app, correctIndex) {
+  if (!DebugStore.isActive() || !DebugStore.get('autoMode')) return;
+  if (answered) return;
+
+  const speed = DebugStore.get('autoSpeed') || 500;
+  const rate = DebugStore.get('autoCorrectRate') ?? 100;
+  autoTimer = setTimeout(() => {
+    const btns = app.querySelectorAll('.choice-btn:not(.choice-btn--disabled)');
+    if (btns.length === 0) return;
+    let idx = correctIndex;
+    if (rate < 100 && Math.random() * 100 >= rate) {
+      // Pick a random wrong answer
+      const wrongIndices = [0, 1, 2, 3].filter(i => i !== correctIndex);
+      idx = wrongIndices[Math.floor(Math.random() * wrongIndices.length)];
+    }
+    if (btns[idx]) btns[idx].click();
+  }, speed);
 }
 
 function getCurrentStreak(session) {
@@ -563,7 +669,7 @@ export function getSavedSessionInfo() {
   }
 }
 
-function showResults(app, session) {
+async function showResults(app, session, deferredLineIntros = []) {
   const results = session.getResults();
   // Collect wrong question IDs for review (#4)
   results.wrongIds = session.answers.filter(a => !a.isCorrect && a.answer !== -1).map(a => a.questionId);
@@ -603,10 +709,20 @@ function showResults(app, session) {
   sessionStorage.setItem('sg_broker_last_result', JSON.stringify(results));
   sessionStorage.removeItem('sg_broker_result_sakura_shown');  // allow sakura on new result
   sendSessionSummary(results);
+
+  // Unlock sakura phase and check for transition
+  SakuraState.unlockPhase();
+  SakuraState.checkTransition();
+
+  // Show deferred MRT line intros (mock exam) — one at a time, then navigate
+  if (deferredLineIntros.length > 0) {
+    await showLineIntroQueue(deferredLineIntros);
+  }
+
   navigate(`#result`);
 }
 
-function startExamTimer(app, session) {
+function startExamTimer(app, session, deferredLineIntros = []) {
   const timerEl = el('div', { className: 'exam-timer' });
   const timeDisplay = el('span', { className: 'exam-timer__time' });
   timerEl.appendChild(el('span', {}, tr('quiz.mockExamLabel', `${session.module.toUpperCase()} Mock Exam`, session.module.toUpperCase())));
@@ -644,7 +760,7 @@ function startExamTimer(app, session) {
     if (session.isTimeUp) {
       clearInterval(interval);
       showToast(tr('quiz.timesUp', 'Time\'s up!'), 'error');
-      showResults(app, session);
+      showResults(app, session, deferredLineIntros);
     }
   }, 1000);
 

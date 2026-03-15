@@ -16,7 +16,7 @@ const LAZY_ROUTES = {
   '#achievements': () => import('./views/achievements.js'),
   '#journal': () => import('./views/journal.js'),
   '#question-bank': () => import('./views/question-bank.js'),
-  '#sakura-room': () => import('./views/sakura-room.js'),
+  '#sakura-room': () => import('./views/sakura-room.js?v=2'),
 };
 
 export function registerRoute(hash, handler) {
@@ -35,11 +35,19 @@ async function handleRoute() {
 
   const raw = window.location.hash || '#home';
   const hash = raw.split('?')[0];
+
+  // Unlock sakura phase cache when leaving quiz
+  if (hash !== '#quiz') {
+    import('./models/sakura-state.js').then(m => m.SakuraState.unlockPhase()).catch(() => {});
+  }
   const app = document.getElementById('app');
   app.innerHTML = '';
 
   // Clean up fixed-bottom home elements on route change
-  document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup').forEach(el => el.remove());
+  // Remove sakura-room body styling on route change
+  document.body.classList.remove('sakura-room-active');
+  // Keep .sakura-door-transition alive during sakura-room entry (cleaned up by the view)
+  document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup, .sakura-door').forEach(el => el.remove());
   document.body.style.overflow = ''; // restore if tutorial was active
 
   // Scroll to top on route change (#4)

@@ -4,8 +4,7 @@
  */
 import { SakuraRoomStore } from './sakura-room-store.js';
 import { SettingsStore } from './settings-store.js';
-import { RecordStore } from './record-store.js';
-
+import { SakuraState } from './sakura-state.js';
 // All conversation data files
 const DATA_FILES = [
   'data/sakura-room/phase2-early.json',
@@ -77,10 +76,8 @@ export function getAvailableConversations() {
   if (!allConversations) return [];
 
   const store = SakuraRoomStore.load();
-  const records = RecordStore.load();
-  const totalAnswered = Object.values(records.moduleStats || {})
-    .reduce((sum, m) => sum + (m.totalAnswered || 0), 0);
-  const daysSince = SakuraRoomStore.daysSinceUnlock();
+  const totalAnswered = SakuraState.getAnsweredSincePhase2();
+  const daysSince = SakuraState.getDaysSincePhase2();
   const currentDay = new Date().getDay(); // 0=Sun
   const timeWindow = getTimeWindow();
 
@@ -174,8 +171,8 @@ export function replacePlaceholders(text) {
   const nickname = SettingsStore.get('sakuraNickname') || '片岡さん';
   let result = text.replace(/{name}/g, nickname);
 
-  // {sg_days} — days since phase 2 unlock
-  const days = SakuraRoomStore.daysSinceUnlock();
+  // {sg_days} — days since phase 2
+  const days = SakuraState.getDaysSincePhase2();
   result = result.replace(/{sg_days}/g, `${days}日目`);
 
   return result;
