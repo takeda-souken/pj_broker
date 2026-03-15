@@ -49,7 +49,7 @@ registerRoute('#result', (app) => {
     : triText('common.back', 'Back'));
   app.appendChild(backBtn);
 
-  const h1 = el('h1', { className: 'text-center mt-md' });
+  const h1 = el('h1', { className: 'text-center mt-xs' });
   h1.appendChild(document.createTextNode(`${r.module.toUpperCase()} `));
   h1.appendChild(r.mode === 'mock'
     ? triText('result.mockExam', 'Mock Exam')
@@ -103,14 +103,15 @@ registerRoute('#result', (app) => {
 
   // New achievements (#31)
   if (r.newAchievements && r.newAchievements.length > 0) {
-    const achieveSection = el('div', { className: 'card mt-md', style: 'text-align:center;' });
-    const achieveLabel = el('div', { className: 'text-sm', style: 'font-weight:700;color:var(--c-gold);margin-bottom:8px;' });
+    const achieveSection = el('div', { className: 'card mt-xs', style: 'text-align:center;' });
+    const achieveLabel = el('div', { className: 'text-sm', style: 'font-weight:700;color:var(--c-gold);margin-bottom:4px;' });
     achieveLabel.appendChild(document.createTextNode('\uD83C\uDFC6 '));
     achieveLabel.appendChild(triText('result.achievementUnlocked', 'Achievement Unlocked!'));
     achieveSection.appendChild(achieveLabel);
     for (const a of r.newAchievements) {
-      const badge = el('div', { className: 'badge badge--gold', style: 'margin:4px;display:inline-flex;' });
-      badge.textContent = `${a.icon} ${a.name}`;
+      const badge = el('div', { className: 'badge badge--gold', style: 'margin:4px;display:inline-flex;gap:4px;' });
+      badge.appendChild(document.createTextNode(a.icon + ' '));
+      badge.appendChild(triContent(a.name, a.nameJA));
       achieveSection.appendChild(badge);
     }
     app.appendChild(achieveSection);
@@ -119,7 +120,7 @@ registerRoute('#result', (app) => {
   // XP progress (#33)
   const gameData = GamificationStore.load();
   const levelInfo = GamificationStore.getLevel(gameData.xp);
-  const xpBar = el('div', { className: 'xp-bar mt-sm' });
+  const xpBar = el('div', { className: 'xp-bar mt-xs' });
   xpBar.appendChild(el('div', { className: 'xp-bar__level' }, `Lv.${levelInfo.level}`));
   const track = el('div', { className: 'xp-bar__track' });
   const xpFill = el('div', { className: 'xp-bar__fill' });
@@ -189,7 +190,7 @@ registerRoute('#result', (app) => {
 
   // ─── Per-question review with frequency control ───
   if (r.questionDetails && r.questionDetails.length > 0) {
-    const qSection = el('div', { className: 'card mt-md' });
+    const qSection = el('div', { className: 'card mt-xs' });
     const qHeader = el('div', { style: 'display:flex;justify-content:space-between;align-items:center;' });
     const qHeaderH2 = el('h2', { style: 'margin:0;' });
     qHeaderH2.appendChild(triText('result.questionReview', 'Question Review'));
@@ -314,7 +315,7 @@ registerRoute('#result', (app) => {
   }
 
   // Smart actions (horizontal on desktop via .result-actions)
-  const actions = el('div', { className: 'result-actions flex-col gap-sm mt-lg' });
+  const actions = el('div', { className: 'result-actions flex-col gap-sm mt-sm' });
 
   // "Next Question" from Question Bank flow
   if (qbankCtx && qbankCtx.nextIds && qbankCtx.nextIds.length > 0) {

@@ -25,13 +25,13 @@ registerRoute('#records', (app) => {
   backBtn.appendChild(triText('common.back', 'Back'));
   app.appendChild(backBtn);
 
-  const h1 = el('h1', { className: 'mt-md' });
+  const h1 = el('h1', { className: 'mt-sm' });
   h1.appendChild(triText('records.title', 'Study Records'));
   app.appendChild(h1);
 
   // Segmented control: Total / BCP / ComGI / PGI / HI
   let activeTab = 'total';
-  const seg = el('div', { className: 'seg-control seg-control--records mt-md' });
+  const seg = el('div', { className: 'seg-control seg-control--records mt-sm' });
   const tabs = [
     { id: 'total', label: tr('records.total', 'Total'), colorClass: 'seg-control__item--total' },
     { id: 'bcp', label: 'BCP', colorClass: 'seg-control__item--bcp' },
@@ -48,7 +48,7 @@ registerRoute('#records', (app) => {
   tabBtns.forEach(b => seg.appendChild(b));
   app.appendChild(seg);
 
-  const content = el('div', { className: 'records-layout mt-md' });
+  const content = el('div', { className: 'records-layout mt-sm' });
   app.appendChild(content);
 
   function switchTab(tab) {
@@ -128,10 +128,10 @@ function renderTotal(container) {
   container.appendChild(chartsRow);
 
   // Per-module summary cards
-  const byModH3 = el('h3', { className: 'mt-lg' });
+  const byModH3 = el('h3', { className: 'mt-sm' });
   byModH3.appendChild(triText('records.byModule', 'By Module'));
   container.appendChild(byModH3);
-  const moduleGrid = el('div', { className: 'flex-col gap-sm' });
+  const moduleGrid = el('div', { className: 'flex-col', style: 'gap:var(--sp-sm);' });
   for (const m of moduleStats) {
     moduleGrid.appendChild(moduleSummaryCard(m.label, m.stats, m.color));
   }
@@ -157,7 +157,7 @@ function renderModuleStats(container, module) {
   const moduleTopics = Object.values(topicStats).filter(s => s.module === module);
 
   if (moduleTopics.length === 0) {
-    const noRec = el('div', { className: 'text-center text-secondary mt-lg' });
+    const noRec = el('div', { className: 'text-center text-secondary mt-sm' });
     noRec.appendChild(triText('records.noRecords', 'No study data yet. Start practicing!'));
     container.appendChild(noRec);
     return;
@@ -189,7 +189,7 @@ function renderModuleStats(container, module) {
   container.appendChild(chartsRow);
 
   // Topic table
-  const table = el('table', { className: 'topic-table mt-md' });
+  const table = el('table', { className: 'topic-table mt-sm' });
   const headerRow = el('tr', {});
   const thTopic = el('th', {});
   thTopic.appendChild(triText('records.topic', 'Topic'));
@@ -234,7 +234,7 @@ function renderWeaknessAnalysis(container, module) {
 
   if (weakTopics.length === 0 && declining.length === 0 && improving.length === 0) return;
 
-  const section = el('div', { className: 'card analysis-card mt-lg' });
+  const section = el('div', { className: 'card analysis-card mt-sm' });
   const analysisH3 = el('h3', { style: 'margin-bottom:12px;' });
   analysisH3.appendChild(triText('records.weaknessAnalysis', 'Weakness Analysis'));
   section.appendChild(analysisH3);
@@ -262,7 +262,7 @@ function renderWeaknessAnalysis(container, module) {
 
   // Declining topics
   if (declining.length > 0) {
-    const decLabel = el('div', { className: 'analysis-label analysis-label--warning mt-md' });
+    const decLabel = el('div', { className: 'analysis-label analysis-label--warning mt-sm' });
     decLabel.appendChild(triText('records.declining', 'Declining'));
     section.appendChild(decLabel);
     for (const t of declining) {
@@ -278,7 +278,7 @@ function renderWeaknessAnalysis(container, module) {
 
   // Improving topics
   if (improving.length > 0) {
-    const impLabel = el('div', { className: 'analysis-label analysis-label--success mt-md' });
+    const impLabel = el('div', { className: 'analysis-label analysis-label--success mt-sm' });
     impLabel.appendChild(triText('records.improving', 'Improving'));
     section.appendChild(impLabel);
     for (const t of improving) {
@@ -294,7 +294,7 @@ function renderWeaknessAnalysis(container, module) {
 
   // Weak focus status
   const weakFocus = SettingsStore.load().weakFocusEnabled !== false;
-  const statusEl = el('div', { className: 'text-sm mt-md', style: 'opacity:0.7;' });
+  const statusEl = el('div', { className: 'text-sm mt-sm', style: 'opacity:0.7;' });
   statusEl.textContent = weakFocus
     ? tr('records.weakFocusOn', 'Weak Focus ON — practice sessions prioritize weak topics')
     : tr('records.weakFocusOff', 'Weak Focus OFF — practice sessions use random selection');
@@ -744,7 +744,9 @@ function renderTrophyShowcase(container) {
     for (const a of unlocked) {
       const medal = el('div', { className: 'trophy-medal' });
       medal.appendChild(el('div', { className: 'trophy-medal__icon' }, a.icon));
-      medal.appendChild(el('div', { className: 'trophy-medal__name' }, a.name));
+      const medalName = el('div', { className: 'trophy-medal__name' });
+      medalName.appendChild(triContent(a.name, a.nameJA));
+      medal.appendChild(medalName);
       const tip = el('div', { className: 'trophy-tooltip' });
       tip.appendChild(triText(`ach.${a.id}`, a.desc));
       medal.appendChild(tip);

@@ -19,7 +19,7 @@ registerRoute('#mode-select', async (app) => {
   backBtn.appendChild(triText('common.back', 'Back'));
   app.appendChild(backBtn);
 
-  const h1 = el('h1', { className: 'mt-md' });
+  const h1 = el('h1', { className: 'mt-sm' });
   h1.appendChild(triText('mode.study', `Study ${label}`, label));
   app.appendChild(h1);
 
@@ -36,7 +36,7 @@ registerRoute('#mode-select', async (app) => {
     app.appendChild(hint);
   }
 
-  const grid = el('div', { className: 'mode-select-grid mt-md' });
+  const grid = el('div', { className: 'mode-select-grid mt-sm' });
 
   // Navigate with optional Sakura greeting before quiz starts
   let goingToQuiz = false;
@@ -86,7 +86,7 @@ registerRoute('#mode-select', async (app) => {
     const allQ = await loadQuestions(module);
     const topics = [...new Set(allQ.map(q => q.topic))].sort();
     if (topics.length > 0) {
-      const h2 = el('h2', { className: 'mt-lg' });
+      const h2 = el('h2', { className: 'mt-md' });
       h2.appendChild(triText('mode.byTopic', 'Practice by Topic'));
       app.appendChild(h2);
       const topicGrid = el('div', { className: 'mode-topic-grid' });

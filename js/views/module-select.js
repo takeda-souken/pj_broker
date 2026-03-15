@@ -15,13 +15,13 @@ registerRoute('#module-select', (app) => {
   const backBtn = app.lastChild;
   backBtn.appendChild(triText('common.back', 'Back'));
 
-  const h1 = el('h1', { className: 'mt-md' });
+  const h1 = el('h1', { className: 'mt-sm' });
   const titleKey = forceMode === 'mock' ? 'module.mockTitle' : 'module.title';
   const titleEn = forceMode === 'mock' ? 'Choose Module (Mock Exam)' : 'Choose Module';
   h1.appendChild(triText(titleKey, titleEn));
   app.appendChild(h1);
 
-  const grid = el('div', { className: 'module-select-grid mt-md' });
+  const grid = el('div', { className: 'module-select-grid mt-sm' });
 
   grid.appendChild(moduleCard('BCP', 'module.bcpFull', 'Basic Concepts & Principles',
     'module.bcpDetail', '40 MCQ \u2022 45 min \u2022 70% to pass', 'bcp', forceMode));

@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--sp-sm);
-  margin-bottom: var(--sp-md);
+  margin-bottom: var(--sp-sm);
 }
 .stat-card {
   text-align: center;
@@ -165,7 +165,7 @@
 
 /* ===== Trophy Showcase ===== */
 .trophy-showcase {
-  margin-bottom: var(--sp-lg);
+  margin-bottom: var(--sp-sm);
 }
 
 /* ── Hero: Level ring + stats ── */

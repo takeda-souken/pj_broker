@@ -48,13 +48,18 @@
 .seg-control__item--hi.seg-control__item--active { color: var(--mrt-blue); border-bottom: 3px solid var(--mrt-blue); }
 
 /* ===== Time Range Bar (Auto Theme) ===== */
-.time-range { padding: 0 2px; }
+.time-range { padding: 0; }
+.time-range__track {
+  position: relative;
+  height: 24px;
+}
 .time-range__bar {
   display: flex;
   height: 24px;
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid var(--c-border);
+  margin: 0 10px;
 }
 .time-range__dark {
   background: var(--c-text);
@@ -70,7 +75,7 @@
 .time-range__ticks {
   position: relative;
   height: 16px;
-  margin-top: 2px;
+  margin: 2px 10px 0;
 }
 .time-range__tick {
   position: absolute;
@@ -78,21 +83,16 @@
   font-size: 0.65rem;
   color: var(--c-text-secondary);
 }
-.time-range__sliders {
-  position: relative;
-  height: 28px;
-  margin-top: 4px;
-}
 .time-range__input {
   position: absolute;
   width: 100%;
+  height: 24px;
   top: 0;
   left: 0;
   -webkit-appearance: none;
   appearance: none;
   background: transparent;
   pointer-events: none;
-  height: 28px;
   margin: 0;
 }
 .time-range__input::-webkit-slider-thumb {
@@ -100,22 +100,27 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--c-accent);
   border: 2px solid var(--c-surface);
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   cursor: pointer;
   pointer-events: auto;
+  margin-top: -8px;
 }
 .time-range__input::-moz-range-thumb {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: var(--c-accent);
   border: 2px solid var(--c-surface);
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
   cursor: pointer;
   pointer-events: auto;
 }
+/* Dawn thumb: sunrise orange */
+.time-range__input--dawn::-webkit-slider-thumb { background: #ff8c42; }
+.time-range__input--dawn::-moz-range-thumb { background: #ff8c42; }
+/* Dusk thumb: sunset navy */
+.time-range__input--dusk::-webkit-slider-thumb { background: #2a2a6e; }
+.time-range__input--dusk::-moz-range-thumb { background: #2a2a6e; }
 .time-range__input::-webkit-slider-runnable-track {
   height: 4px;
   background: transparent;
