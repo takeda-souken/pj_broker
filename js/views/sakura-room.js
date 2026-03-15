@@ -7,6 +7,7 @@ import { el } from '../utils/dom-helpers.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
 import { SettingsStore } from '../models/settings-store.js';
 import { SakuraState } from '../models/sakura-state.js';
+import { DebugStore } from '../models/debug-store.js';
 import {
   loadAllConversations,
   pickNextConversation,
@@ -55,9 +56,8 @@ registerRoute('#sakura-room', async (app) => {
     className: 'sakura-door sakura-door--exit',
     title: '\u623B\u308B',
   });
-  exitDoor.addEventListener('click', () => navigate('#home'));
+  exitDoor.addEventListener('click', () => closeSakuraDoor(exitDoor));
   const exitFrame = el('div', { className: 'sakura-door__frame' });
-  exitFrame.appendChild(el('span', { className: 'sakura-door__icon' }, '\uD83D\uDEAA'));
   exitDoor.appendChild(exitFrame);
   exitDoor.appendChild(el('span', { className: 'sakura-door__label' }, '\u623B\u308B'));
   document.body.appendChild(exitDoor);
@@ -79,6 +79,50 @@ registerRoute('#sakura-room', async (app) => {
   if (!conv) {
     chatArea.appendChild(buildEmptyChat());
     return;
+  }
+
+  // Debug: skip button to jump to next conversation
+  if (DebugStore.isActive()) {
+    const skipBtn = el('button', {
+      className: 'sr-debug-skip',
+      onClick: () => {
+        SakuraRoomStore.completeConversation(conv.id);
+        // Force re-navigation (same hash won't fire hashchange)
+        window.location.hash = '#_reload';
+        requestAnimationFrame(() => navigate('#sakura-room'));
+      },
+    }, '⏭ 次の会話へ');
+    // Show conversation ID for reference
+    const idLabel = el('span', { className: 'sr-debug-skip__id' }, conv.id);
+    skipBtn.prepend(idLabel);
+    document.body.appendChild(skipBtn);
+
+    // Remove when debug is turned off
+    const onDebugChange = () => {
+      if (!DebugStore.isActive()) {
+        skipBtn.remove();
+        window.removeEventListener('debug-changed', onDebugChange);
+      }
+    };
+    window.addEventListener('debug-changed', onDebugChange);
+
+    // Debug: add sample photo to album for testing
+    const albumTestBtn = el('button', {
+      className: 'sr-debug-skip',
+      style: 'top:48px;background:rgba(33,150,243,0.9);border-color:#2196f3;',
+      onClick: () => {
+        SakuraAlbumStore.addPhoto({
+          src: 'img/sakura-room/sakura-boba.png',
+          alt: 'タピオカを持つさくら',
+          caption: 'タピオカ買ったよ！ ピースピース✌️',
+          conversationId: '_debug_test',
+        });
+        // Refresh header to show album button
+        window.location.hash = '#_reload';
+        requestAnimationFrame(() => navigate('#sakura-room'));
+      },
+    }, '\uD83D\uDDBC\uFE0F \u30A2\u30EB\u30D0\u30E0\u30C6\u30B9\u30C8');
+    document.body.appendChild(albumTestBtn);
   }
 
   // Play it
@@ -353,12 +397,9 @@ function showChoices(chatArea, choices) {
             b.disabled = true;
             if (b !== btn) b.style.opacity = '0.4';
           });
-          // Replace with spacer to prevent scroll jump, then resolve
+          // Remove choices and resolve
           setTimeout(() => {
-            const spacer = el('div', {
-              style: `height:${container.offsetHeight}px;`,
-            });
-            container.replaceWith(spacer);
+            container.remove();
             resolve(choice);
           }, 300);
         },
@@ -487,6 +528,41 @@ async function downloadImage(src, filename) {
     // Fallback: open in new tab
     window.open(src, '_blank');
   }
+}
+
+// ─── Exit door transition (reverse of entry) ────────
+function closeSakuraDoor(doorEl) {
+  const rect = doorEl.getBoundingClientRect();
+  const cx = rect.left + rect.width / 2;
+  const cy = rect.top + rect.height / 2;
+
+  const maxDist = Math.max(
+    Math.hypot(cx, cy),
+    Math.hypot(window.innerWidth - cx, cy),
+    Math.hypot(cx, window.innerHeight - cy),
+    Math.hypot(window.innerWidth - cx, window.innerHeight - cy),
+  );
+
+  // 1) Navigate to home first so it renders underneath
+  navigate('#home');
+
+  // 2) Place a full-screen pink overlay on top (covers home)
+  const overlay = document.createElement('div');
+  overlay.className = 'sakura-door-transition sakura-door-transition--cover';
+  overlay.style.cssText = `left:${cx}px;top:${cy}px;--max-r:${Math.ceil(maxDist)}px;`;
+  document.body.appendChild(overlay);
+
+  // 3) Next frame: shrink it to reveal home behind
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      overlay.classList.remove('sakura-door-transition--cover');
+      overlay.classList.add('sakura-door-transition--shrink');
+    });
+  });
+
+  overlay.addEventListener('animationend', () => {
+    overlay.remove();
+  }, { once: true });
 }
 
 // ─── Door transition cleanup ─────────────────────────
