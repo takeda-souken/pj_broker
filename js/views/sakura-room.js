@@ -15,6 +15,7 @@ import {
   isSakuraSleeping,
 } from '../models/sakura-room-engine.js';
 import { sendSakuraRoomLog } from '../utils/gas-client.js';
+import { SakuraAlbumStore } from '../models/sakura-album-store.js';
 
 const TYPING_DELAY = 600;    // ms before typing dots appear
 const TYPING_DURATION = 800; // ms typing dots are shown
@@ -90,6 +91,16 @@ function buildHeader() {
   info.appendChild(el('div', { className: 'sr-header__name' }, '\u6625\u5C71\u3055\u304F\u3089'));
   info.appendChild(el('div', { className: 'sr-header__status' }, 'online'));
   header.appendChild(info);
+
+  // Album button
+  const albumCount = SakuraAlbumStore.getCount();
+  if (albumCount > 0) {
+    const albumBtn = el('button', {
+      className: 'sr-header__album',
+      onClick: () => showAlbum(),
+    }, '\uD83D\uDDBC\uFE0F');
+    header.appendChild(albumBtn);
+  }
 
   return header;
 }
@@ -212,6 +223,14 @@ async function playConversation(conv, chatArea) {
       await delay(TYPING_DELAY);
       await showTyping(chatArea);
       addImageMessage(chatArea, currentNode);
+
+      // Save to album
+      SakuraAlbumStore.addPhoto({
+        src: currentNode.src,
+        alt: currentNode.alt,
+        caption: currentNode.caption,
+        conversationId: conv.id,
+      });
 
       const nextId = currentNode.next || getNextNodeId(conv.nodes, currentNode.id);
       currentNode = nextId ? nodeMap[nextId] : null;
@@ -364,6 +383,62 @@ function getNextNodeId(nodes, currentId) {
     return nodes[idx + 1].id;
   }
   return null;
+}
+
+// ─── Album overlay ───────────────────────────────────
+
+function showAlbum() {
+  const photos = SakuraAlbumStore.load();
+  if (photos.length === 0) return;
+
+  const overlay = el('div', { className: 'sr-album-overlay' });
+
+  const header = el('div', { className: 'sr-album-header' });
+  header.appendChild(el('button', {
+    className: 'sr-album-close',
+    onClick: () => overlay.remove(),
+  }, '\u00D7'));
+  header.appendChild(el('span', {}, `\u30A2\u30EB\u30D0\u30E0 (${photos.length})`));
+  overlay.appendChild(header);
+
+  const grid = el('div', { className: 'sr-album-grid' });
+  photos.forEach(photo => {
+    const thumb = el('div', { className: 'sr-album-thumb' });
+    const img = el('img', { src: photo.src, alt: photo.alt });
+    img.onerror = () => {
+      img.style.display = 'none';
+      thumb.appendChild(el('div', { className: 'sr-album-placeholder' }, '\uD83D\uDCF7'));
+    };
+    thumb.appendChild(img);
+    thumb.addEventListener('click', () => showAlbumDetail(photo, overlay));
+    grid.appendChild(thumb);
+  });
+  overlay.appendChild(grid);
+
+  document.body.appendChild(overlay);
+}
+
+function showAlbumDetail(photo, albumOverlay) {
+  const detail = el('div', { className: 'sr-album-detail' });
+  detail.addEventListener('click', () => detail.remove());
+
+  const img = el('img', { src: photo.src, alt: photo.alt });
+  img.onerror = () => {
+    img.style.display = 'none';
+    detail.appendChild(el('div', { style: 'color:#fff;font-size:48px;' }, '\uD83D\uDCF7'));
+  };
+  detail.appendChild(img);
+
+  if (photo.caption) {
+    detail.appendChild(el('div', { className: 'sr-album-detail__caption' }, photo.caption));
+  }
+
+  const dateStr = photo.timestamp ? new Date(photo.timestamp).toLocaleDateString('ja-JP') : '';
+  if (dateStr) {
+    detail.appendChild(el('div', { className: 'sr-album-detail__date' }, dateStr));
+  }
+
+  albumOverlay.appendChild(detail);
 }
 
 // ─── Door transition cleanup ─────────────────────────
