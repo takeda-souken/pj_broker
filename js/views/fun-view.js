@@ -549,22 +549,23 @@ function renderMrtContent(container, ctx) {
       const stationUnlocked = unlockedStationNames.has(s.name);
       hit.addEventListener('click', (e) => {
         e.stopPropagation();
+        pinStationBadge(s, mapContainer);
         openStationSheet(s, isDark, stationUnlocked);
       });
       // Hover/touch: show code badges near station
       hit.addEventListener('mouseenter', () => showStationBadge(s, mapContainer));
-      hit.addEventListener('mouseleave', hideStationBadge);
-      hit.addEventListener('touchstart', (e) => {
-        showStationBadge(s, mapContainer);
-        // Auto-hide after 2s on touch
-        setTimeout(hideStationBadge, 2000);
-      }, { passive: true });
+      hit.addEventListener('mouseleave', () => { if (!badgePinned) hideStationBadge(); });
       svg.appendChild(hit);
     });
   }
 
-  const mapContainer = el('div', { className: 'mrt-map-container', style: 'position:relative;' });
+  const mapContainer = el('div', { className: 'mrt-map-container' });
   mapContainer.appendChild(svg);
+  // Disclaimer overlay
+  const disclaimer = el('div', { className: 'mrt-disclaimer' });
+  const disclaimerInner = el('span', { className: 'mrt-disclaimer__inner' }, '⚠ 路線図は一部修正予定');
+  disclaimer.appendChild(disclaimerInner);
+  mapContainer.appendChild(disclaimer);
   mapCol.appendChild(mapContainer);
 
   // Stats summary above layout (centered, full width)
@@ -741,6 +742,67 @@ for (const ml of ALL_MRT_LINES) {
   if (ml.extension) for (const s of ml.extension) LINE_COLORS[s.code] = ml.color;
 }
 
+// ─── Hover badge tooltip ───
+let badgeEl = null;
+let badgePinned = false;
+
+function showStationBadge(station, mapContainer) {
+  if (badgePinned) return;  // don't replace pinned badge on hover
+  _renderBadge(station, mapContainer);
+}
+
+function pinStationBadge(station, mapContainer) {
+  // If badge already showing for this station, just pin it — no re-render flicker
+  if (badgeEl && badgeEl._stationName === station.name) {
+    badgePinned = true;
+    return;
+  }
+  _renderBadge(station, mapContainer);
+  badgePinned = true;
+}
+
+function unpinStationBadge() {
+  badgePinned = false;
+  hideStationBadge();
+}
+
+function _renderBadge(station, mapContainer) {
+  if (badgeEl && badgeEl._stationName === station.name) return;  // already showing
+  if (badgeEl) { badgeEl.remove(); badgeEl = null; }
+  const codes = [];
+  for (const arr of ALL_STATIONS) {
+    for (const s of arr) {
+      if (s.name === station.name && !codes.includes(s.code)) codes.push(s.code);
+    }
+  }
+  if (!codes.length) return;
+
+  badgeEl = el('div', { className: 'mrt-hover-badge' });
+  badgeEl._stationName = station.name;
+  for (const code of codes) {
+    const badge = el('span', { className: 'station-sheet__code' });
+    badge.style.background = LINE_COLORS[code] || '#666';
+    badge.textContent = code;
+    badgeEl.appendChild(badge);
+  }
+
+  const svgNode = mapContainer.querySelector('svg');
+  if (!svgNode) return;
+  const svgRect = svgNode.getBoundingClientRect();
+  const containerRect = mapContainer.getBoundingClientRect();
+  const offsetX = svgRect.left - containerRect.left;
+  const offsetY = svgRect.top - containerRect.top;
+  const scaleX = svgRect.width / VIEW_W;
+  const scaleY = svgRect.height / VIEW_H;
+  badgeEl.style.left = `${offsetX + station.x * scaleX}px`;
+  badgeEl.style.top = `${offsetY + station.y * scaleY - 4}px`;
+  mapContainer.appendChild(badgeEl);
+}
+
+function hideStationBadge() {
+  if (badgeEl) { badgeEl.remove(); badgeEl = null; }
+}
+
 let sheetEl = null;
 let backdropEl = null;
 
@@ -866,4 +928,5 @@ function openStationSheet(station, isDark, isUnlocked = true) {
 function closeStationSheet() {
   if (sheetEl) sheetEl.classList.remove('is-open');
   if (backdropEl) backdropEl.classList.remove('is-open');
+  unpinStationBadge();
 }
