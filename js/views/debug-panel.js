@@ -252,12 +252,61 @@ function openPanel() {
     }
     body.appendChild(mrtTestRow);
 
-    // ─── Unique Correct Counts (MRT progress) ─────
-    body.appendChild(sectionTitle('Unique Correct (MRT)'));
+    // ─── MRT Station Debug ─────────────────────────
+    body.appendChild(sectionTitle('MRT Stations'));
     const counts = DebugStore.getUniqueCorrectCounts();
     for (const m of ['bcp', 'comgi', 'pgi', 'hi']) {
       body.appendChild(el('div', { className: 'debug-hint' },
-        `${m.toUpperCase()}: ${counts[m]}`));
+        `${m.toUpperCase()}: ${counts[m]} unique correct`));
+    }
+    const mrtBonus = DebugStore.get('mrtBonus') || {};
+    const mrtLineIds = [
+      { id: 'ns', label: '🔴 NS', color: '#e4002b' },
+      { id: 'ew', label: '🟢 EW', color: '#009645' },
+      { id: 'ne', label: '🟣 NE', color: '#9016b2' },
+      { id: 'dt', label: '🔵 DT', color: '#005ec4' },
+      { id: 'cc', label: '🟠 CC', color: '#fa9e0d' },
+      { id: 'te', label: '🟤 TE', color: '#9d5b25' },
+    ];
+    const mrtBtnRow = el('div', { style: 'display:flex;gap:4px;flex-wrap:wrap;padding:4px 0;' });
+    for (const ml of mrtLineIds) {
+      const btn = el('button', {
+        className: 'debug-btn',
+        style: `border-color:${ml.color};color:${ml.color};font-size:0.7rem;`,
+        onClick: () => {
+          const bonus = DebugStore.get('mrtBonus') || {};
+          bonus[ml.id] = (bonus[ml.id] || 0) + 1;
+          DebugStore.set('mrtBonus', bonus);
+          showToast(`${ml.label} +1 (bonus: ${bonus[ml.id]})`, 'info');
+        },
+      }, `${ml.label} +1`);
+      mrtBtnRow.appendChild(btn);
+    }
+    body.appendChild(mrtBtnRow);
+    const mrtBtnRow2 = el('div', { style: 'display:flex;gap:4px;flex-wrap:wrap;padding:4px 0;' });
+    mrtBtnRow2.appendChild(el('button', {
+      className: 'debug-btn',
+      onClick: () => {
+        // Re-render MRT page
+        if (location.hash === '#fun') {
+          window.dispatchEvent(new HashChangeEvent('hashchange'));
+        } else {
+          import('../router.js').then(m => m.navigate('#fun'));
+        }
+        closePanel();
+      },
+    }, '🗺️ Redraw MRT'));
+    mrtBtnRow2.appendChild(el('button', {
+      className: 'debug-btn debug-btn--danger',
+      onClick: () => {
+        DebugStore.set('mrtBonus', {});
+        showToast('MRT bonus reset', 'info');
+      },
+    }, '🔄 Reset Bonus'));
+    body.appendChild(mrtBtnRow2);
+    const bonusHint = Object.entries(mrtBonus).filter(([, v]) => v > 0).map(([k, v]) => `${k}:+${v}`).join(' ');
+    if (bonusHint) {
+      body.appendChild(el('div', { className: 'debug-hint' }, `Bonus: ${bonusHint}`));
     }
 
     // ─── GAS Sync ─────────────────────────────────

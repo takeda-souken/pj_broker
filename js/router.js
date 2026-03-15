@@ -9,7 +9,7 @@ let currentCleanup = null;
 const LAZY_ROUTES = {
   '#glossary': () => import('./views/glossary-view.js'),
   '#trivia': () => import('./views/trivia-view.js'),
-  '#mrt': () => import('./views/mrt-view.js'),
+  '#fun': () => import('./views/fun-view.js'),
   '#records': () => import('./views/records.js'),
   '#settings': () => import('./views/settings.js'),
   '#about': () => import('./views/about.js'),
@@ -35,6 +35,9 @@ async function handleRoute() {
 
   const raw = window.location.hash || '#home';
   const hash = raw.split('?')[0];
+
+  // Legacy redirect: #mrt → #fun
+  if (hash === '#mrt') { window.location.hash = '#fun'; return; }
 
   // Unlock sakura phase cache when leaving quiz
   if (hash !== '#quiz') {

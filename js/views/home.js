@@ -101,7 +101,7 @@ registerRoute('#home', (app) => {
   const menuLower = el('div', { className: 'home-menu-row' });
   menuLower.appendChild(menuBtn('home.questionBank', 'Question Bank', 'home.questionBankSub', 'Browse & set frequency', 'question-bank', () => navigate('#question-bank')));
   menuLower.appendChild(menuBtn('home.records', 'Records', 'home.recordsSub', 'Study history & stats', 'records', () => navigate('#records')));
-  menuLower.appendChild(menuBtn('home.fun', 'Fun', 'home.funSub', 'MRT map, hawker & more', 'fun', () => navigate('#mrt')));
+  menuLower.appendChild(menuBtn('home.fun', 'Fun', 'home.funSub', 'MRT map, hawker & more', 'fun', () => navigate('#fun')));
   menuLower.appendChild(menuBtn('home.settings', 'Settings', null, '', 'settings', () => navigate('#settings')));
 
   app.appendChild(menuUpper);

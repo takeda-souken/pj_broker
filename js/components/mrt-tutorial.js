@@ -159,7 +159,7 @@ export function showLineIntro(lineId, opts = {}) {
           overlay.classList.add('mrt-tutorial-overlay--closing');
           setTimeout(() => {
             overlay.remove();
-            navigate('#mrt');
+            navigate('#fun');
             resolve('view');
           }, 300);
         },
