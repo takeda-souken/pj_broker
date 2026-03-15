@@ -106,11 +106,15 @@ registerRoute('#question-bank', async (app) => {
     // ─── Filters ───
     filterRow.innerHTML = '';
 
-    // Topic filter
+    // Topic filter (with question counts)
+    const topicQCounts = {};
+    for (const q of questions) {
+      topicQCounts[q.topic] = (topicQCounts[q.topic] || 0) + 1;
+    }
     const topicSelect = el('select', { className: 'qbank-topic-select' });
-    topicSelect.appendChild(el('option', { value: '' }, tr('qbank.allTopics', 'All Topics')));
+    topicSelect.appendChild(el('option', { value: '' }, `${tr('qbank.allTopics', 'All Topics')} (${questions.length})`));
     for (const t of topics.sort()) {
-      topicSelect.appendChild(el('option', { value: t, selected: t === currentTopic }, t));
+      topicSelect.appendChild(el('option', { value: t, selected: t === currentTopic }, `${t} (${topicQCounts[t]})`));
     }
     topicSelect.addEventListener('change', () => { currentTopic = topicSelect.value; renderList(); });
     filterRow.appendChild(topicSelect);

@@ -5,8 +5,9 @@
 import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { triText } from '../utils/i18n.js';
+import { loadQuestions } from '../data/questions.js';
 
-registerRoute('#module-select', (app) => {
+registerRoute('#module-select', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
   const forceMode = params.get('mode'); // 'mock' when coming from home mock exam button
 
@@ -21,21 +22,30 @@ registerRoute('#module-select', (app) => {
   h1.appendChild(triText(titleKey, titleEn));
   app.appendChild(h1);
 
+  // Load question counts
+  const questionCounts = {};
+  for (const mod of ['bcp', 'comgi', 'pgi', 'hi']) {
+    try {
+      const qs = await loadQuestions(mod);
+      questionCounts[mod] = qs.length;
+    } catch { questionCounts[mod] = 0; }
+  }
+
   const grid = el('div', { className: 'module-select-grid mt-sm' });
 
   grid.appendChild(moduleCard('BCP', 'module.bcpFull', 'Basic Concepts & Principles',
-    'module.bcpDetail', '40 MCQ \u2022 45 min \u2022 70% to pass', 'bcp', forceMode));
+    'module.bcpDetail', '40 MCQ \u2022 45 min \u2022 70% to pass', 'bcp', forceMode, questionCounts.bcp));
   grid.appendChild(moduleCard('ComGI', 'module.comgiFull', 'Commercial General Insurance',
-    'module.comgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'comgi', forceMode));
+    'module.comgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'comgi', forceMode, questionCounts.comgi));
   grid.appendChild(moduleCard('PGI', 'module.pgiFull', 'Personal General Insurance',
-    'module.pgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'pgi', forceMode));
+    'module.pgiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'pgi', forceMode, questionCounts.pgi));
   grid.appendChild(moduleCard('HI', 'module.hiFull', 'Health Insurance',
-    'module.hiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'hi', forceMode));
+    'module.hiDetail', '50 MCQ \u2022 75 min \u2022 70% to pass', 'hi', forceMode, questionCounts.hi));
 
   app.appendChild(grid);
 });
 
-function moduleCard(title, subtitleKey, subtitleEn, detailKey, detailEn, module, forceMode) {
+function moduleCard(title, subtitleKey, subtitleEn, detailKey, detailEn, module, forceMode, questionCount) {
   const target = forceMode === 'mock'
     ? `#quiz?module=${module}&mode=mock`
     : `#mode-select?module=${module}`;
@@ -54,6 +64,10 @@ function moduleCard(title, subtitleKey, subtitleEn, detailKey, detailEn, module,
 
   const det = el('div', { className: 'module-card__detail' });
   det.appendChild(triText(detailKey, detailEn));
+  if (questionCount) {
+    det.appendChild(document.createTextNode(` \u2022 `));
+    det.appendChild(triText('module.questionCount', `${questionCount} questions in bank`, questionCount));
+  }
   body.appendChild(det);
 
   card.appendChild(body);

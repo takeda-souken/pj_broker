@@ -348,9 +348,9 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  /* ── Mode select topics: 3 columns ── */
+  /* ── Mode select topics: 2 columns ── */
   .mode-topic-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .exam-timer {
@@ -382,9 +382,9 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  /* ── Mode select topics: 3 columns with more room ── */
+  /* ── Mode select topics: 2 columns ── */
   .mode-topic-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--sp-sm);
   }
 }

@@ -23,6 +23,15 @@ registerRoute('#mode-select', async (app) => {
   h1.appendChild(triText('mode.study', `Study ${label}`, label));
   app.appendChild(h1);
 
+  // Module summary: total questions & topics
+  try {
+    const allQ = await loadQuestions(module);
+    const topicCount = [...new Set(allQ.map(q => q.topic))].length;
+    const summary = el('div', { className: 'text-secondary text-sm mt-xs' });
+    summary.appendChild(triText('mode.moduleSummary', `${allQ.length} questions · ${topicCount} topics`, allQ.length, topicCount));
+    app.appendChild(summary);
+  } catch { /* questions not loaded yet */ }
+
   // First-time onboarding hint
   const records = RecordStore.getRecords();
   if (records.length === 0) {
@@ -113,7 +122,7 @@ registerRoute('#mode-select', async (app) => {
 });
 
 function topicCard(title, subtitle, onClick) {
-  const card = el('button', { className: 'card mode-card', onClick });
+  const card = el('button', { className: 'card mode-card mode-card--topic', onClick });
   card.appendChild(el('div', { className: 'mode-card__title' }, title));
   card.appendChild(el('div', { className: 'mode-card__subtitle' }, subtitle));
   return card;

@@ -10,6 +10,7 @@ import { loadChartJs } from '../utils/chart-loader.js';
 import { triText, triContent, tr } from '../utils/i18n.js';
 import { DebugStore } from '../models/debug-store.js';
 import { GamificationStore } from '../models/gamification-store.js';
+import { loadQuestions } from '../data/questions.js';
 
 /** Store active Chart instances so we can destroy on tab switch */
 let activeCharts = [];
@@ -60,12 +61,12 @@ registerRoute('#records', (app) => {
     renderContent();
   }
 
-  function renderContent() {
+  async function renderContent() {
     content.innerHTML = '';
     if (activeTab === 'total') {
-      renderTotal(content);
+      await renderTotal(content);
     } else {
-      renderModuleStats(content, activeTab);
+      await renderModuleStats(content, activeTab);
     }
   }
 
@@ -81,11 +82,22 @@ const ALL_MODULES = [
   { id: 'hi', label: 'HI', color: 'var(--mrt-blue)' },
 ];
 
-function renderTotal(container) {
+async function renderTotal(container) {
   // ─── Trophy Showcase ─────────────────────────────────────────
   renderTrophyShowcase(container);
 
-  const moduleStats = ALL_MODULES.map(m => ({ ...m, stats: RecordStore.getModuleStats(m.id) }));
+  // Load question counts per module
+  const questionCounts = {};
+  let totalQuestions = 0;
+  for (const m of ALL_MODULES) {
+    try {
+      const qs = await loadQuestions(m.id);
+      questionCounts[m.id] = qs.length;
+      totalQuestions += qs.length;
+    } catch { questionCounts[m.id] = 0; }
+  }
+
+  const moduleStats = ALL_MODULES.map(m => ({ ...m, stats: RecordStore.getModuleStats(m.id), questionCount: questionCounts[m.id] }));
   const totalAttempts = moduleStats.reduce((sum, m) => sum + m.stats.attempts, 0);
   const totalCorrect = moduleStats.reduce((sum, m) => sum + m.stats.correct, 0);
   const totalAccuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
@@ -93,6 +105,7 @@ function renderTotal(container) {
 
   // Stats grid
   const grid = el('div', { className: 'stats-grid' });
+  grid.appendChild(statCard(totalQuestions.toString(), 'records.questions', 'Questions'));
   grid.appendChild(statCard(totalAttempts.toString(), 'records.attempts', 'Attempts'));
   grid.appendChild(statCard(totalAccuracy + '%', 'records.accuracy', 'Accuracy'));
   grid.appendChild(statCard(totalMastered.toString(), 'records.mastered', 'Mastered'));
@@ -133,7 +146,7 @@ function renderTotal(container) {
   container.appendChild(byModH3);
   const moduleGrid = el('div', { className: 'flex-col', style: 'gap:var(--sp-sm);' });
   for (const m of moduleStats) {
-    moduleGrid.appendChild(moduleSummaryCard(m.label, m.stats, m.color));
+    moduleGrid.appendChild(moduleSummaryCard(m.label, m.stats, m.color, m.questionCount));
   }
   container.appendChild(moduleGrid);
 
@@ -143,10 +156,21 @@ function renderTotal(container) {
 
 // ─── Module Tab ──────────────────────────────────────────────────
 
-function renderModuleStats(container, module) {
+async function renderModuleStats(container, module) {
   const stats = RecordStore.getModuleStats(module);
 
+  // Load questions for this module
+  let questions = [];
+  try { questions = await loadQuestions(module); } catch { /* */ }
+  const questionsByTopic = {};
+  for (const q of questions) {
+    questionsByTopic[q.topic] = (questionsByTopic[q.topic] || 0) + 1;
+  }
+
   const grid = el('div', { className: 'stats-grid' });
+  if (questions.length > 0) {
+    grid.appendChild(statCard(questions.length.toString(), 'records.questions', 'Questions'));
+  }
   grid.appendChild(statCard(stats.attempts.toString(), 'records.attempts', 'Attempts'));
   grid.appendChild(statCard(stats.accuracy + '%', 'records.accuracy', 'Accuracy'));
   grid.appendChild(statCard(stats.mastered.toString(), 'records.mastered', 'Mastered'));
@@ -193,11 +217,14 @@ function renderModuleStats(container, module) {
   const headerRow = el('tr', {});
   const thTopic = el('th', {});
   thTopic.appendChild(triText('records.topic', 'Topic'));
+  const thQ = el('th', {});
+  thQ.appendChild(triText('records.topicQuestions', 'Q'));
   const thAcc = el('th', {});
   thAcc.appendChild(triText('records.acc', 'Acc.'));
   const thStreak = el('th', {});
   thStreak.appendChild(triText('records.streak', 'Streak'));
   headerRow.appendChild(thTopic);
+  headerRow.appendChild(thQ);
   headerRow.appendChild(thAcc);
   headerRow.appendChild(thStreak);
   table.appendChild(headerRow);
@@ -205,8 +232,10 @@ function renderModuleStats(container, module) {
   moduleTopics.sort((a, b) => (a.correct / a.attempts) - (b.correct / b.attempts));
   for (const s of moduleTopics) {
     const pct = Math.round((s.correct / s.attempts) * 100);
+    const qCount = questionsByTopic[s.topic] || '—';
     const row = el('tr', {},
       el('td', {}, s.topic + (s.mastered ? ' \u2605' : '')),
+      el('td', {}, qCount.toString()),
       el('td', {}, `${pct}% (${s.correct}/${s.attempts})`),
       el('td', {}, s.streak.toString()),
     );
@@ -636,12 +665,14 @@ function truncateLabel(text, maxLen) {
   return text.length > maxLen ? text.slice(0, maxLen - 1) + '\u2026' : text;
 }
 
-function moduleSummaryCard(name, stats, color) {
+function moduleSummaryCard(name, stats, color, questionCount) {
   const card = el('div', { className: 'card', style: `border-left: 4px solid ${color};` });
   const row = el('div', { className: 'flex-row', style: 'justify-content:space-between;' });
   row.appendChild(el('div', { style: 'font-weight:700;' }, name));
-  row.appendChild(el('div', { className: 'text-sm text-secondary' },
-    tr('records.moduleSummary', `${stats.attempts} attempts \u00B7 ${stats.accuracy}% \u00B7 ${stats.mastered} mastered`, stats.attempts, stats.accuracy, stats.mastered)));
+  const summaryText = questionCount
+    ? tr('records.moduleSummaryWithTotal', `${questionCount}Q \u00B7 ${stats.attempts} attempts \u00B7 ${stats.accuracy}% \u00B7 ${stats.mastered} mastered`, questionCount, stats.attempts, stats.accuracy, stats.mastered)
+    : tr('records.moduleSummary', `${stats.attempts} attempts \u00B7 ${stats.accuracy}% \u00B7 ${stats.mastered} mastered`, stats.attempts, stats.accuracy, stats.mastered);
+  row.appendChild(el('div', { className: 'text-sm text-secondary' }, summaryText));
   card.appendChild(row);
 
   if (stats.attempts > 0) {
