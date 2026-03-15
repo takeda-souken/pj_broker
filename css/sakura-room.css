@@ -1,0 +1,294 @@
+/* ─── Sakura Room — LINE-style Chat UI ─── */
+
+.sakura-room {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  background: var(--c-bg-alt, #1a1a2e);
+  overflow: hidden;
+}
+
+/* Header */
+.sr-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--c-surface, #16213e);
+  border-bottom: 1px solid var(--c-border, #333);
+  flex-shrink: 0;
+}
+.sr-header__back {
+  background: none;
+  border: none;
+  color: var(--c-text, #eee);
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.sr-header__avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff9a9e, #fecfef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.sr-header__info {
+  flex: 1;
+}
+.sr-header__name {
+  font-weight: 600;
+  color: var(--c-text, #eee);
+  font-size: 15px;
+}
+.sr-header__status {
+  font-size: 11px;
+  color: var(--c-text-muted, #888);
+}
+
+/* Chat area */
+.sr-chat {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  scroll-behavior: smooth;
+}
+
+/* Message bubbles */
+.sr-msg {
+  display: flex;
+  gap: 8px;
+  max-width: 85%;
+  animation: sr-fade-in 0.3s ease;
+}
+.sr-msg--sakura {
+  align-self: flex-start;
+}
+.sr-msg--user {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+.sr-msg--narration {
+  align-self: center;
+  max-width: 90%;
+}
+
+.sr-msg__avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff9a9e, #fecfef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sr-msg__bubble {
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+.sr-msg--sakura .sr-msg__bubble {
+  background: var(--c-surface, #16213e);
+  color: var(--c-text, #eee);
+  border-bottom-left-radius: 4px;
+}
+.sr-msg--user .sr-msg__bubble {
+  background: var(--c-primary, #4cc9f0);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+.sr-msg--narration .sr-msg__bubble {
+  background: transparent;
+  color: var(--c-text-muted, #888);
+  font-size: 12px;
+  text-align: center;
+  font-style: italic;
+  padding: 8px 16px;
+}
+
+/* Image messages */
+.sr-msg__image {
+  max-width: 200px;
+  border-radius: 12px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.sr-msg__caption {
+  font-size: 12px;
+  color: var(--c-text-muted, #888);
+  margin-top: 4px;
+}
+
+/* Typing indicator */
+.sr-typing {
+  display: flex;
+  gap: 8px;
+  align-self: flex-start;
+  max-width: 85%;
+}
+.sr-typing__dots {
+  display: flex;
+  gap: 4px;
+  padding: 12px 16px;
+  background: var(--c-surface, #16213e);
+  border-radius: 16px;
+  border-bottom-left-radius: 4px;
+}
+.sr-typing__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--c-text-muted, #888);
+  animation: sr-typing-bounce 1.2s infinite;
+}
+.sr-typing__dot:nth-child(2) { animation-delay: 0.2s; }
+.sr-typing__dot:nth-child(3) { animation-delay: 0.4s; }
+
+/* Choice buttons */
+.sr-choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+  align-self: flex-end;
+  width: 100%;
+  max-width: 85%;
+  animation: sr-fade-in 0.3s ease;
+}
+.sr-choice-btn {
+  background: transparent;
+  border: 1.5px solid var(--c-primary, #4cc9f0);
+  color: var(--c-primary, #4cc9f0);
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: left;
+  transition: all 0.2s;
+}
+.sr-choice-btn:hover, .sr-choice-btn:active {
+  background: var(--c-primary, #4cc9f0);
+  color: #fff;
+}
+.sr-choice-btn--selected {
+  background: var(--c-primary, #4cc9f0);
+  color: #fff;
+  border-color: var(--c-primary, #4cc9f0);
+}
+
+/* Sleeping state */
+.sr-sleeping {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: var(--c-text-muted, #888);
+}
+.sr-sleeping__icon {
+  font-size: 48px;
+}
+.sr-sleeping__text {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* No conversations available */
+.sr-empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: var(--c-text-muted, #888);
+  padding: 24px;
+}
+.sr-empty__text {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Closing line */
+.sr-closing {
+  text-align: center;
+  padding: 16px;
+  color: var(--c-text-muted, #888);
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* Animations */
+@keyframes sr-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes sr-typing-bounce {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-4px); }
+}
+
+/* Home screen sakura room button */
+.home-sakura-room-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, rgba(255,154,158,0.15), rgba(254,207,239,0.15));
+  border: 1.5px solid rgba(255,154,158,0.4);
+  border-radius: 12px;
+  cursor: pointer;
+  color: var(--c-text, #eee);
+  font-size: 14px;
+  transition: all 0.2s;
+}
+.home-sakura-room-btn:hover {
+  background: linear-gradient(135deg, rgba(255,154,158,0.25), rgba(254,207,239,0.25));
+  border-color: rgba(255,154,158,0.6);
+}
+.home-sakura-room-btn__icon {
+  font-size: 22px;
+}
+.home-sakura-room-btn__text {
+  flex: 1;
+}
+.home-sakura-room-btn__name {
+  font-weight: 600;
+}
+.home-sakura-room-btn__status {
+  font-size: 11px;
+  color: var(--c-text-muted, #888);
+  margin-top: 2px;
+}
+.home-sakura-room-btn__badge {
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6px;
+}

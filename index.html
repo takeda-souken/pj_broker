@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="bilingual">
 <head>
+  <script>
+    // Set data-lang before CSS hides trilingual elements (must run before first paint)
+    try {
+      var s = JSON.parse(localStorage.getItem('sg_broker_settings') || '{}');
+      if (s.langMode) document.documentElement.setAttribute('data-lang', s.langMode);
+    } catch(e) {}
+  </script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <meta name="robots" content="noindex, nofollow">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <title>SG Broker Exam — BCP & ComGI Study App</title>
-  <link rel="stylesheet" href="css/themes.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/quiz.css">
-  <link rel="stylesheet" href="css/records.css">
-  <link rel="stylesheet" href="css/mrt.css">
-  <link rel="stylesheet" href="css/cityscape.css">
-  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/themes.css?v=2">
+  <link rel="stylesheet" href="css/main.css?v=2">
+  <link rel="stylesheet" href="css/components.css?v=2">
+  <link rel="stylesheet" href="css/quiz.css?v=2">
+  <link rel="stylesheet" href="css/records.css?v=2">
+  <link rel="stylesheet" href="css/mrt.css?v=2">
+  <link rel="stylesheet" href="css/cityscape.css?v=2">
+  <link rel="stylesheet" href="css/desktop.css?v=2">
+  <link rel="stylesheet" href="css/debug.css?v=1">
+  <link rel="stylesheet" href="css/sakura-room.css?v=1">
 </head>
 <body>
   <div id="app"></div>

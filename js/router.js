@@ -15,6 +15,8 @@ const LAZY_ROUTES = {
   '#about': () => import('./views/about.js'),
   '#achievements': () => import('./views/achievements.js'),
   '#journal': () => import('./views/journal.js'),
+  '#question-bank': () => import('./views/question-bank.js'),
+  '#sakura-room': () => import('./views/sakura-room.js'),
 };
 
 export function registerRoute(hash, handler) {
@@ -35,6 +37,10 @@ async function handleRoute() {
   const hash = raw.split('?')[0];
   const app = document.getElementById('app');
   app.innerHTML = '';
+
+  // Clean up fixed-bottom home elements on route change
+  document.querySelectorAll('.home-sakura-fixed, .home-trivia-fixed, .tutorial-overlay, .sakura-bottom-popup').forEach(el => el.remove());
+  document.body.style.overflow = ''; // restore if tutorial was active
 
   // Scroll to top on route change (#4)
   window.scrollTo({ top: 0, behavior: 'instant' });
@@ -69,45 +75,16 @@ async function handleRoute() {
 }
 
 /**
- * Cascading crossfade on language switch:
- * Clone old cards as fixed overlays → re-render new content → cascade-fade clones out.
- * New cards use the existing cardEnter CSS animation underneath.
+ * Language switch handler.
+ * Pages with triText spans get instant CSS-based switching.
+ * Pages still using tr() strings (e.g. from browser cache) get a full re-render.
  */
 function cascadeLangSwitch() {
-  // During quiz, don't re-render — quiz handles lang switch internally
-  const hash = (window.location.hash || '#home').split('?')[0];
-  if (hash === '#quiz') return;
-
   const app = document.getElementById('app');
-  const cards = [...app.querySelectorAll('.menu-card, .mode-card, .card')];
-
-  if (cards.length === 0) {
-    handleRoute();
-    return;
-  }
-
-  // Snapshot old cards as fixed-position clones
-  const clones = cards.map(card => {
-    const rect = card.getBoundingClientRect();
-    const clone = card.cloneNode(true);
-    clone.style.cssText = `position:fixed;left:${rect.left}px;top:${rect.top}px;width:${rect.width}px;height:${rect.height}px;margin:0;z-index:999;pointer-events:none;animation:none;`;
-    document.body.appendChild(clone);
-    return clone;
-  });
-
-  // Re-render with new language (new cards appear underneath with cardEnter animation)
+  // If the page has enough triText spans, CSS handles everything — no re-render
+  if (app && app.querySelectorAll('.i18n-en').length >= 3) return;
+  // Fallback: re-render for pages still using tr() strings
   handleRoute();
-
-  // Cascade fade-out of old clones, revealing new content
-  const STAGGER = 60;
-  const FADE = 200;
-  clones.forEach((clone, i) => {
-    setTimeout(() => {
-      clone.style.transition = `opacity ${FADE}ms ease`;
-      clone.style.opacity = '0';
-      setTimeout(() => clone.remove(), FADE);
-    }, i * STAGGER);
-  });
 }
 
 export async function initRouter() {
