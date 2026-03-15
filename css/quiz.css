@@ -527,7 +527,9 @@ body:has(.exam-timer) #app {
   flex-wrap: wrap;
 }
 .qbank-topic-select,
-.qbank-freq-select {
+.qbank-freq-select,
+.qbank-diff-select,
+.qbank-sort-select {
   flex: 1;
   min-width: 120px;
   padding: 8px 10px;
