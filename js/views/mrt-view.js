@@ -109,9 +109,14 @@ function applyFixups() {
   const fixes = [
     ['NS17', { x: 365 }], ['CC15', { x: 365 }],
     ['NE7', { x: 392 }], ['DT12', { x: 392 }],
+    ['TE2', { x: 202, y: 46 }], ['TE9', { x: 299, y: 186 }],
     ['TE14', { x: 292 }],
     ['NS25', { x: 417, y: 413 }], ['EW13', { x: 423, y: 413 }],
     ['NS26', { x: 417, y: 444 }], ['EW14', { x: 423, y: 444 }],
+    ['CC4', { x: 524, y: 430 }], ['DT15', { x: 511, y: 430 }],
+    ['CE1', { x: 491, y: 462 }], ['DT16', { x: 482, y: 457 }],
+    ['EW8', { x: 541, y: 282 }], ['CC9', { x: 541, y: 282 }], ['EW12', { x: 455, y: 368 }],
+    ['EW16', { x: 319, y: 421 }], ['NE3', { x: 332, y: 421 }], ['TE17', { x: 344, y: 421 }],
   ];
   for (const [code, vals] of fixes) {
     const s = findCoord(code);
@@ -119,10 +124,7 @@ function applyFixups() {
     if (vals.x !== undefined) s.x = vals.x;
     if (vals.y !== undefined) s.y = vals.y;
   }
-  // NS22/NS23 align vertically with NS21
-  const ns21 = findCoord('NS21'), ns22 = findCoord('NS22'), ns23 = findCoord('NS23');
-  if (ns21 && ns22) ns22.x = ns21.x;
-  if (ns21 && ns23) ns23.x = ns21.x;
+  // (NS22/NS23 vertical alignment removed — smooth curve tangent handles it now)
 }
 
 // Run once at module load
@@ -136,16 +138,19 @@ const SMOOTH_PAIRS = {
   'NS7→NS8':1,'NS8→NS9':1,
   'NS12→NS13':1,'NS13→NS14':1,'NS14→NS15':1,
   'TE1→TE2':1,'TE2→TE3':1,'TE3→TE4':1,'TE4→TE5':1,
-  'TE5→TE6':1,'TE6→TE7':1,'TE7→TE8':1,'TE8→TE9':1,
+  'TE5→TE6':1,'TE6→TE7':1,
   'NE1→NE3':1,'NE3→NE4':1,'NE4→NE5':1,'NE5→NE6':1,
-  'NE9→NE10':1,'NE10→NE11':1,'NE11→NE12':1,'NE12→NE13':1,
+  'CC2→CC3':1,'CC8→CC9':1,'CC9→CC10':1,'NE6→NE7':1,'NE9→NE10':1,'NE10→NE11':1,'NE11→NE12':1,'NE12→NE13':1,
   'NE13→NE14':1,'NE14→NE15':1,'NE15→NE16':1,'NE16→NE17':1,
-  'EW15→EW16':1,'EW16→EW17':1,'EW17→EW18':1,'EW18→EW19':1,
-  'EW19→EW20':1,'EW20→EW21':1,
-  'EW2→EW3':1,'EW3→EW4':1,'EW5→EW6':1,
+  'EW11→EW12':1,'EW15→EW16':1,'EW16→EW17':1,'EW17→EW18':1,'EW18→EW19':1,
+  'EW19→EW20':1,
+  'EW2→EW3':1,'EW3→EW4':1,
   'EW6→EW7':1,'EW7→EW8':1,'EW8→EW9':1,'EW9→EW10':1,'EW10→EW11':1,
-  'DT23→DT24':1,'DT24→DT25':1,'DT25→DT26':1,'DT26→DT27':1,
+  'DT21→DT22':1,'DT22→DT23':1,'DT23→DT24':1,'DT24→DT25':1,'DT25→DT26':1,'DT26→DT27':1,
   'DT27→DT28':1,'DT28→DT29':1,'DT29→DT30':1,
+  'NS19→NS20':1,'NS20→NS21':1,'NS21→NS22':1,'NS22→NS23':1,'NS23→NS24':1,
+  'TE17→TE18':1,'TE18→TE19':1,
+  'DT10→DT11':1,'DT11→DT12':1,'DT12→DT13':1,'DT13→DT14':1,'DT14→DT15':1,'DT15→DT16':1,'DT16→DT17':1,'DT17→DT18':1,'DT18→DT19':1,'DT19→DT20':1,
 };
 
 function buildPath(stations) {
@@ -163,6 +168,110 @@ function buildPath(stations) {
     const angle = Math.atan2(ady, adx) * 180 / Math.PI;
 
     const fromCode = stations[i - 1].code, toCode = stations[i].code;
+    // ─── Custom two-line + rounded corner segments ───
+    if (fromCode === 'EW5' && toCode === 'EW6') {
+      const cX = 823 - py, cY = py;
+      const r = 8;
+      const bx = Math.round(cX - 0.7071 * r), by = Math.round(cY + 0.7071 * r);
+      d += ` H ${cX + r} Q ${cX} ${cY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'EW12' && toCode === 'EW13') {
+      const cX = cx, cY = 823 - cx;
+      const r = 8;
+      const ax = Math.round(cX + 0.7071 * r), ay = Math.round(cY - 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cX} ${cY}, ${cX} ${cY + r} V ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'EW20' && toCode === 'EW21') {
+      const cornerX = cy - 102, cornerY = cy;
+      const r = 8;
+      const ax = Math.round(cornerX + 0.7071 * r), ay = Math.round(cornerY + 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cornerX} ${cornerY}, ${cornerX - r} ${cornerY} H ${cx}`;
+      prevDir = 'h'; continue;
+    }
+    if (fromCode === 'NS24' && toCode === 'NS25') {
+      const cornerX = cx, cornerY = cx - 16;
+      const r = 8;
+      const ax = Math.round(cornerX - 0.7071 * r), ay = Math.round(cornerY - 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cornerX} ${cornerY}, ${cornerX} ${cornerY + r} V ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'TE7' && toCode === 'TE8') {
+      const cornerX = cx, cornerY = cx - 156;
+      const r = 8;
+      const ax = Math.round(cornerX - 0.7071 * r), ay = Math.round(cornerY - 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cornerX} ${cornerY}, ${cornerX} ${cornerY + r} V ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'TE16' && toCode === 'TE17') {
+      const cornerX = px, cornerY = px + (cy - cx);
+      const r = 8;
+      const bx = Math.round(cornerX + 0.7071 * r), by = Math.round(cornerY + 0.7071 * r);
+      d += ` V ${cornerY - r} Q ${cornerX} ${cornerY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'TE19' && toCode === 'TE20') {
+      const cornerX = cy - (py - px), cornerY = cy;
+      const r = 8;
+      const ax = Math.round(cornerX - 0.7071 * r), ay = Math.round(cornerY - 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cornerX} ${cornerY}, ${cornerX + r} ${cornerY} L ${cx} ${cy}`;
+      prevDir = 'h'; continue;
+    }
+    if (fromCode === 'EW14' && toCode === 'EW15') {
+      // EW14 →垂直↓→ R →水平←→ R →45度↗→ EW15
+      const dip = 15;
+      const h = py + dip; // horizontal y
+      const c1x = cx + (h - cy), c1y = h; // 45° from EW15 meets horizontal
+      const c2x = px, c2y = h;             // vertical from EW14 meets horizontal
+      const r = 8;
+      const b2x = c2x, b2y = c2y - r;
+      const a2x = c2x - r, a2y = c2y;
+      const b1x = c1x + r, b1y = c1y;
+      const a1x = Math.round(c1x - 0.7071 * r), a1y = Math.round(c1y - 0.7071 * r);
+      d += ` V ${b2y} Q ${c2x} ${c2y}, ${a2x} ${a2y} H ${b1x} Q ${c1x} ${c1y}, ${a1x} ${a1y} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'CC1' && toCode === 'CC2') {
+      // CC1 →水平右→ →↖45度(CC2方向)→ CC2
+      const cornerX = cx - (cy - py), cornerY = py;
+      const r = 8;
+      const bx = Math.round(cornerX + 0.7071 * r), by = Math.round(cornerY + 0.7071 * r);
+      d += ` H ${cornerX - r} Q ${cornerX} ${cornerY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'CC3' && toCode === 'CC4') {
+      // CC3 →45度↘→ →45度↙(CC4方向)→ CC4
+      const cornerX = Math.round((cx + cy + px - py) / 2);
+      const cornerY = cornerX - px + py;
+      const r = 20;
+      const ax = Math.round(cornerX - 0.7071 * r), ay = Math.round(cornerY - 0.7071 * r);
+      const bx = Math.round(cornerX + 0.7071 * r), by = Math.round(cornerY - 0.7071 * r);
+      d += ` L ${ax} ${ay} Q ${cornerX} ${cornerY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'DT20' && toCode === 'DT21') {
+      // DT20 →水平右→ →DT22-DT21延長→ DT21
+      const p3 = stations[Math.min(stations.length - 1, i + 1)];
+      const dx22 = p3.x - cx, dy22 = p3.y - cy;
+      const t = (py - cy) / dy22;
+      const cornerX = Math.round(cx + dx22 * t), cornerY = py;
+      const r = 8;
+      const diagLen = Math.hypot(cx - cornerX, cy - cornerY);
+      const nx = (cx - cornerX) / diagLen, ny = (cy - cornerY) / diagLen;
+      const bx = Math.round(cornerX + nx * r), by = Math.round(cornerY + ny * r);
+      d += ` H ${cornerX - r} Q ${cornerX} ${cornerY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
+    if (fromCode === 'TE20' && toCode === 'TE22') {
+      // TE20 →水平右→ →45度↗→ TE22
+      const cornerX = cx - Math.abs(cy - py), cornerY = py; // 45° line from TE22 meets horizontal
+      const r = 8;
+      const nx = 0.7071, ny = -0.7071; // 45° upper-right
+      const bx = Math.round(cornerX + nx * r), by = Math.round(cornerY + ny * r);
+      d += ` H ${cornerX - r} Q ${cornerX} ${cornerY}, ${bx} ${by} L ${cx} ${cy}`;
+      prevDir = 'v'; continue;
+    }
     if (SMOOTH_PAIRS[`${fromCode}→${toCode}`]) {
       const tension = 5;
       const p0 = stations[Math.max(0, i - 2)];
@@ -176,6 +285,64 @@ function buildPath(stations) {
       if (fromCode === 'NS7') cp1x = p1.x;
       if (fromCode === 'NS12') cp1y = p1.y;
       if (toCode === 'NS15') { cp2x = p2.x; cp2y = Math.round(p2.y + (p2.y - p1.y) * 0.15); }
+      // NS19: vertical departure (down)
+      if (fromCode === 'NS19') cp1x = p1.x;
+      // NS22: vertical arrival (from above) & vertical departure (down)
+      // NS22→NS23, NS23→NS24: straight lines (45° line y=x-16)
+      if (fromCode === 'NS22' || fromCode === 'NS23') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
+      // NE1→NE3, NE10→...→NE17: straight lines
+      if (fromCode === 'NE1' || fromCode === 'NE10' || fromCode === 'NE11' || fromCode === 'NE12' || fromCode === 'NE13' || fromCode === 'NE14' || fromCode === 'NE15' || fromCode === 'NE16') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
+      // NE7: vertical arrival (from below, toward NE6)
+      if (toCode === 'NE7') cp2x = p2.x;
+      // CC2→CC3: straight line
+      if (fromCode === 'CC2') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
+      // (EW14→EW15 handled by custom path)
+      // EW6→...→EW20: straight lines (EW6-EW12 on y=-x+839, EW15-EW20 on y=x+102)
+      if (fromCode === 'CC8' || fromCode === 'CC9' || fromCode === 'EW6' || fromCode === 'EW7' || fromCode === 'EW8' || fromCode === 'EW9' || fromCode === 'EW10' || fromCode === 'EW11' || fromCode === 'EW15' || fromCode === 'EW16' || fromCode === 'EW17' || fromCode === 'EW18' || fromCode === 'EW19') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
+      // (TE16→TE17 and TE19→TE20 handled by custom paths)
+      // TE17→TE18, TE18→TE19: straight lines (degenerate Bezier)
+      if (fromCode === 'TE1' || fromCode === 'TE2' || fromCode === 'TE3' || fromCode === 'TE4' || fromCode === 'TE5' || fromCode === 'TE6' || fromCode === 'TE17' || fromCode === 'TE18') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
+      // (TE20 arrival handled by custom path)
+      // DT10: horizontal departure (right)
+      if (fromCode === 'DT10') cp1y = p1.y;
+      // (DT20→DT21 handled above as custom path, not here)
+      // DT21: arrive matching DT21→DT22 direction
+      if (toCode === 'DT21') {
+        cp2x = Math.round(p2.x - (p3.x - p2.x) / tension);
+        cp2y = Math.round(p2.y - (p3.y - p2.y) / tension);
+      }
+      // DT15→DT16, DT22→DT23: straight line
+      if (fromCode === 'DT15' || fromCode === 'DT21' || fromCode === 'DT22') {
+        cp1x = Math.round(p1.x + (p2.x - p1.x) / 3);
+        cp1y = Math.round(p1.y + (p2.y - p1.y) / 3);
+        cp2x = Math.round(p1.x + (p2.x - p1.x) * 2 / 3);
+        cp2y = Math.round(p1.y + (p2.y - p1.y) * 2 / 3);
+      }
       d += ` C ${cp1x} ${cp1y}, ${cp2x} ${cp2y}, ${p2.x} ${p2.y}`;
       prevDir = Math.abs(p2.x - p1.x) > Math.abs(p2.y - p1.y) ? 'h' : 'v';
       continue;
@@ -393,7 +560,20 @@ registerRoute('#mrt', async (app) => {
 
     let pathD;
     if (ml.id === 'cc') {
-      pathD = buildSmoothPath(coords, false);
+      // CC1→CC4: custom buildPath, CC4→CC29: smooth
+      const cc4Idx = coords.findIndex(s => s.code === 'CC4');
+      const ccHead = coords.slice(0, cc4Idx + 1);  // CC1→CC2→CC3→CC4
+      const ccTailAll = coords.slice(cc4Idx);
+      const cc8Idx = ccTailAll.findIndex(s => s.code === 'CC8');
+      const cc10Idx = ccTailAll.findIndex(s => s.code === 'CC10');
+      const ccMid = ccTailAll.slice(0, cc8Idx + 1);
+      const ccBridge2 = ccTailAll.slice(cc8Idx, cc10Idx + 1);
+      const ccEnd = ccTailAll.slice(cc10Idx);
+      drawSvgPath(svg, buildSmoothPath(ccMid, false), color, LINE_W_BASE, baseOpacity);
+      drawSvgPath(svg, buildPath(ccBridge2), color, LINE_W_BASE, baseOpacity);
+      const ccTail = ccEnd;
+      drawSvgPath(svg, buildPath(ccHead), color, LINE_W_BASE, baseOpacity);
+      pathD = buildSmoothPath(ccTail, false);
     } else {
       pathD = buildPath(coords);
     }
@@ -755,13 +935,14 @@ function ensureSheetDOM() {
 function openStationSheet(station, isDark, isUnlocked = true) {
   ensureSheetDOM();
 
-  // Collect all codes for this station name across all lines
+  // Collect all codes for this station name across all lines, sorted by x
   const codes = [];
   for (const arr of ALL_STATIONS) {
     for (const s of arr) {
       if (s.name === station.name && !codes.includes(s.code)) codes.push(s.code);
     }
   }
+  codes.sort((a, b) => (findCoord(a)?.x || 0) - (findCoord(b)?.x || 0));
 
   // Header: code badges
   const codesEl = sheetEl.querySelector('#ss-codes');
