@@ -4,7 +4,7 @@
  * Once you answer a question correctly, it disappears from the journal.
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { RecordStore } from '../models/record-store.js';
 import { triText, tr } from '../utils/i18n.js';
 
@@ -69,7 +69,7 @@ registerRoute('#journal', (app) => {
     el('button', {
       className: `seg-control__item${m === 'all' ? ' seg-control__item--active' : ''}`,
       onClick: () => filterModule(m),
-    }, m === 'all' ? 'All' : m.toUpperCase())
+    }, m === 'all' ? 'All' : moduleLabel(m))
   );
   filterBtns.forEach(b => seg.appendChild(b));
   app.appendChild(seg);
@@ -100,7 +100,7 @@ registerRoute('#journal', (app) => {
       const card = el('div', { className: 'card' });
       const headerRow = el('div', { className: 'flex-row', style: 'justify-content:space-between;' });
       headerRow.appendChild(el('div', { style: 'font-weight:700;' },
-        `${entry.module ? entry.module.toUpperCase() : ''}: ${entry.topic || 'Unknown'}`));
+        `${entry.module ? moduleLabel(entry.module) : ''}: ${entry.topic || 'Unknown'}`));
       headerRow.appendChild(el('div', { className: 'badge badge--danger' },
         `${entry.items.length}`));
       card.appendChild(headerRow);

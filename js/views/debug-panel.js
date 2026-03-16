@@ -3,7 +3,7 @@
  * Only available on localhost. Invisible to production.
  */
 import { DebugStore } from '../models/debug-store.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { showToast } from '../components/toast.js';
 import { GamificationStore } from '../models/gamification-store.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
@@ -257,7 +257,7 @@ function openPanel() {
     const counts = DebugStore.getUniqueCorrectCounts();
     for (const m of ['bcp', 'comgi', 'pgi', 'hi']) {
       body.appendChild(el('div', { className: 'debug-hint' },
-        `${m.toUpperCase()}: ${counts[m]} unique correct`));
+        `${moduleLabel(m)}: ${counts[m]} unique correct`));
     }
     const mrtBonus = DebugStore.get('mrtBonus') || {};
     const mrtLineIds = [

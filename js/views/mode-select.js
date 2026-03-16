@@ -3,7 +3,7 @@
  * Uses CSS-based i18n (triText) — language switch requires no re-render.
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { RecordStore } from '../models/record-store.js';
 import { loadQuestions } from '../data/questions.js';
 import { triText } from '../utils/i18n.js';
@@ -12,8 +12,7 @@ import { getSupporterMessage, createSupporterBubble } from '../components/suppor
 registerRoute('#mode-select', async (app) => {
   const params = new URLSearchParams(window.location.hash.split('?')[1] || '');
   const module = params.get('module') || 'bcp';
-  const labelMap = { bcp: 'BCP', comgi: 'ComGI', pgi: 'PGI', hi: 'HI' };
-  const label = labelMap[module] || module.toUpperCase();
+  const label = moduleLabel(module);
 
   const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#home') }, '\u25C0 ');
   backBtn.appendChild(triText('common.back', 'Back'));

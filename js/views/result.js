@@ -2,7 +2,7 @@
  * Result view — shows quiz/mock exam results
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { formatDuration } from '../utils/date-utils.js';
 import { triText, tr, triContent } from '../utils/i18n.js';
 import { showReportModal } from '../components/report-modal.js';
@@ -50,7 +50,7 @@ registerRoute('#result', (app) => {
   app.appendChild(backBtn);
 
   const h1 = el('h1', { className: 'text-center mt-xs' });
-  h1.appendChild(document.createTextNode(`${r.module.toUpperCase()} `));
+  h1.appendChild(document.createTextNode(`${moduleLabel(r.module)} `));
   h1.appendChild(r.mode === 'mock'
     ? triText('result.mockExam', 'Mock Exam')
     : triText('result.practice', 'Practice'));

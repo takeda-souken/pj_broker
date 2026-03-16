@@ -2,7 +2,7 @@
  * Question Bank view — browse all questions with frequency control
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { loadQuestions, getTopics } from '../data/questions.js';
 import { FrequencyStore } from '../models/frequency-store.js';
 import { RecordStore } from '../models/record-store.js';
@@ -58,7 +58,7 @@ registerRoute('#question-bank', async (app) => {
   for (const mod of MODULES) {
     const btn = el('button', {
       className: `seg-control__item ${mod === currentModule ? 'seg-control__item--active' : ''}`,
-    }, mod.toUpperCase());
+    }, moduleLabel(mod));
     btn.addEventListener('click', () => {
       currentModule = mod;
       currentTopic = '';

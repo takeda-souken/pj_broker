@@ -20,6 +20,11 @@ export function el(tag, attrs = {}, ...children) {
   return elem;
 }
 
+const MODULE_LABELS = { bcp: 'BCP', comgi: 'ComGI', pgi: 'PGI', hi: 'HI' };
+export function moduleLabel(mod) {
+  return MODULE_LABELS[mod] || mod.toUpperCase();
+}
+
 export function clearChildren(parent) {
   while (parent.firstChild) parent.removeChild(parent.firstChild);
 }

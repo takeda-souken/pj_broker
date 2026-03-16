@@ -3,7 +3,7 @@
  * Refactored from mrt-view.js: same MRT logic, Hawker split into its own tab.
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { MRT_LINES, BONUS_LINES, CIRCLE_LINE, DECO_LINES } from '../data/mrt-lines.js';
 import {
   NS_COORDS, EW_COORDS, NE_COORDS, CC_COORDS, CE_COORDS, DT_COORDS, TE_COORDS,
@@ -716,8 +716,8 @@ function lineRow(color, line, unlockedStations, totalQ, uniqueCorrect, isBonus) 
   const header = el('div', { className: 'mrt-line-row__header' });
   header.appendChild(el('span', { className: 'mrt-line-row__dot', style: `background:${color};` }));
   const nameSpan = el('span', { className: 'mrt-line-row__name' });
-  const enName = isBonus ? line.name : `${line.name} (${line.module.toUpperCase()})`;
-  const jaName = isBonus ? (line.nameJa || line.name) : `${line.nameJa || line.name} (${line.module.toUpperCase()})`;
+  const enName = isBonus ? line.name : `${line.name} (${moduleLabel(line.module)})`;
+  const jaName = isBonus ? (line.nameJa || line.name) : `${line.nameJa || line.name} (${moduleLabel(line.module)})`;
   nameSpan.appendChild(triContent(enName, jaName));
   header.appendChild(nameSpan);
   row.appendChild(header);

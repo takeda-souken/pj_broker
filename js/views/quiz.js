@@ -2,7 +2,7 @@
  * Quiz view — main quiz screen
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { QuizSession } from '../models/quiz-session.js';
 import { SettingsStore } from '../models/settings-store.js';
 import { createChoiceGrid } from '../components/choice-grid.js';
@@ -193,7 +193,7 @@ function renderQuestion(app, session, settings, deferredLineIntros = [], midQuiz
   // Start per-question timer for time tracking (#13)
   session.startQuestionTimer();
 
-  const moduleLabel = session.module.toUpperCase();
+  const modLabel = moduleLabel(session.module);
 
   // Header: ◀ [left] | MODULE BADGE [center] | count [right]
   const header = el('div', { className: 'quiz-header' });
@@ -205,7 +205,7 @@ function renderQuestion(app, session, settings, deferredLineIntros = [], midQuiz
       navigate('#home');
     },
   }, '\u25C0'));
-  header.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, moduleLabel));
+  header.appendChild(el('span', { className: `quiz-header__module quiz-header__module--${session.module}` }, modLabel));
 
   const headerRight = el('div', { style: 'display:flex;align-items:center;gap:8px;' });
   const currentStreak = getCurrentStreak(session);
@@ -748,7 +748,7 @@ async function showResults(app, session, deferredLineIntros = [], midQuizAchieve
 function startExamTimer(app, session, deferredLineIntros = [], midQuizAchievements = []) {
   const timerEl = el('div', { className: 'exam-timer' });
   const timeDisplay = el('span', { className: 'exam-timer__time' });
-  timerEl.appendChild(el('span', {}, tr('quiz.mockExamLabel', `${session.module.toUpperCase()} Mock Exam`, session.module.toUpperCase())));
+  timerEl.appendChild(el('span', {}, tr('quiz.mockExamLabel', `${moduleLabel(session.module)} Mock Exam`, moduleLabel(session.module))));
   timerEl.appendChild(timeDisplay);
   document.body.appendChild(timerEl);
 

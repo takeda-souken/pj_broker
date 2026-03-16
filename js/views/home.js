@@ -3,7 +3,7 @@
  * Uses CSS-based i18n (triText) — language switch requires no re-render.
  */
 import { registerRoute, navigate } from '../router.js';
-import { el } from '../utils/dom-helpers.js';
+import { el, moduleLabel } from '../utils/dom-helpers.js';
 import { SettingsStore } from '../models/settings-store.js';
 import { RecordStore } from '../models/record-store.js';
 import { getRandomTrivia, loadTrivia } from '../data/trivia.js';
@@ -65,7 +65,7 @@ registerRoute('#home', async (app) => {
   if (saved) {
     const banner = el('div', { className: 'resume-banner mt-sm', onClick: () => navigate('#quiz?resume=1') });
     const titleDiv = el('div', { className: 'resume-banner__title' });
-    titleDiv.appendChild(triText('home.continue', `Continue ${saved.module.toUpperCase()} ${saved.mode}`, saved.module.toUpperCase(), saved.mode));
+    titleDiv.appendChild(triText('home.continue', `Continue ${moduleLabel(saved.module)} ${saved.mode}`, moduleLabel(saved.module), saved.mode));
     banner.appendChild(titleDiv);
     const detailDiv = el('div', { className: 'resume-banner__detail' });
     detailDiv.appendChild(triText('home.continueDetail',
