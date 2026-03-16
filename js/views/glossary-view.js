@@ -146,12 +146,14 @@ registerRoute('#glossary', async (app) => {
       const bmLower = bookmarks.map(b => b.toLowerCase());
       items = glossary.filter(item => {
         const termLow = item.term.toLowerCase();
-        // Exact match on term, jpTerm, or tags
-        if (bookmarks.includes(item.term)) return true;
-        if (item.jpTerm && bookmarks.includes(item.jpTerm)) return true;
-        if (item.tags && item.tags.some(t => bookmarks.includes(t))) return true;
-        // Partial match: bookmark keyword found in term, or term found in bookmark
-        return bmLower.some(bm => termLow.includes(bm) || bm.includes(termLow));
+        const jpTermLow = (item.jpTerm || '').toLowerCase();
+        const defLow = (item.definition || '').toLowerCase();
+        // Case-insensitive exact match on term, jpTerm, or tags
+        if (bmLower.includes(termLow)) return true;
+        if (jpTermLow && bmLower.includes(jpTermLow)) return true;
+        if (item.tags && item.tags.some(t => bmLower.includes(t.toLowerCase()))) return true;
+        // Partial match: bookmark keyword found in term/definition, or term found in bookmark
+        return bmLower.some(bm => termLow.includes(bm) || bm.includes(termLow) || defLow.includes(bm));
       });
     } else {
       items = filterByModule(glossary, moduleFilter);
