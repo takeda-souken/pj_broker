@@ -57,7 +57,7 @@ registerRoute('#question-bank', async (app) => {
   const moduleSeg = el('div', { className: 'seg-control mb-sm' });
   for (const mod of MODULES) {
     const btn = el('button', {
-      className: `seg-control__item ${mod === currentModule ? 'seg-control__item--active' : ''}`,
+      className: `seg-control__item seg-control__item--${mod} ${mod === currentModule ? 'seg-control__item--active' : ''}`,
     }, moduleLabel(mod));
     btn.addEventListener('click', () => {
       currentModule = mod;

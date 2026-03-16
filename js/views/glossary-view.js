@@ -79,10 +79,10 @@ registerRoute('#glossary', async (app) => {
   const moduleSeg = el('div', { className: 'seg-control mt-sm' });
   const allBtn = el('button', { className: 'seg-control__item seg-control__item--active', onClick: () => setModule('all') });
   allBtn.appendChild(triText('glossary.allFilter', 'All'));
-  const bcpBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('BCP') }, 'BCP');
-  const comgiBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('ComGI') }, 'ComGI');
-  const pgiBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('PGI') }, 'PGI');
-  const hiBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('HI') }, 'HI');
+  const bcpBtn = el('button', { className: 'seg-control__item seg-control__item--bcp', onClick: () => setModule('BCP') }, 'BCP');
+  const comgiBtn = el('button', { className: 'seg-control__item seg-control__item--comgi', onClick: () => setModule('ComGI') }, 'ComGI');
+  const pgiBtn = el('button', { className: 'seg-control__item seg-control__item--pgi', onClick: () => setModule('PGI') }, 'PGI');
+  const hiBtn = el('button', { className: 'seg-control__item seg-control__item--hi', onClick: () => setModule('HI') }, 'HI');
   const bmCount = BookmarkStore.count();
   const bmBtn = el('button', { className: 'seg-control__item', onClick: () => setModule('bookmarks') });
   bmBtn.append('\u2605 ');
@@ -132,9 +132,11 @@ registerRoute('#glossary', async (app) => {
 
   function setModule(mod) {
     moduleFilter = mod;
-    [allBtn, bcpBtn, comgiBtn, pgiBtn, hiBtn, bmBtn].forEach((btn, i) => {
-      const active = (i === 0 && mod === 'all') || (i === 1 && mod === 'BCP') || (i === 2 && mod === 'ComGI') || (i === 3 && mod === 'PGI') || (i === 4 && mod === 'HI') || (i === 5 && mod === 'bookmarks');
-      btn.className = 'seg-control__item' + (active ? ' seg-control__item--active' : '');
+    [allBtn, bcpBtn, comgiBtn, pgiBtn, hiBtn, bmBtn].forEach((btn) => {
+      btn.classList.toggle('seg-control__item--active',
+        (btn === allBtn && mod === 'all') || (btn === bcpBtn && mod === 'BCP') ||
+        (btn === comgiBtn && mod === 'ComGI') || (btn === pgiBtn && mod === 'PGI') ||
+        (btn === hiBtn && mod === 'HI') || (btn === bmBtn && mod === 'bookmarks'));
     });
     render();
   }
