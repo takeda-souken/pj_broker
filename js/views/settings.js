@@ -68,7 +68,6 @@ registerRoute('#settings', (app) => {
   quizCard.appendChild(createToggle(triText('settings.showExplanation', 'Show explanation after answer'), settings.showExplanation, (v) => SettingsStore.set('showExplanation', v)));
   quizCard.appendChild(createToggle(triText('settings.trivia', 'SG trivia between questions'), settings.triviaEnabled, (v) => SettingsStore.set('triviaEnabled', v)));
   quizCard.appendChild(createToggle(triText('settings.weakFocus', 'Weak focus (prioritize weak topics)'), settings.weakFocusEnabled !== false, (v) => SettingsStore.set('weakFocusEnabled', v)));
-  quizCard.appendChild(createToggle(triText('settings.supporter', 'さくら (virtual supporter)'), settings.supporterEnabled, (v) => SettingsStore.set('supporterEnabled', v)));
   grid.appendChild(quizCard);
 
   // Mock exam options
