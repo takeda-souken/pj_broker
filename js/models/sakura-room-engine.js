@@ -34,8 +34,9 @@ export async function loadAllConversations() {
     )
   );
 
-  // Last file is closings
-  closingPatterns = results.pop();
+  // Last file is closings (unwrap { closings: [...] } if needed)
+  const raw = results.pop();
+  closingPatterns = Array.isArray(raw) ? raw : (raw.closings || []);
   allConversations = results.flat();
   return allConversations;
 }
@@ -198,18 +199,28 @@ export function pickClosing(conv) {
 function pickClosingByTime() {
   if (!closingPatterns || closingPatterns.length === 0) return 'またね。';
 
-  const timeWindow = getTimeWindow();
-  const timeMap = {
-    morning: 'morning', late_morning: 'morning',
-    afternoon: 'afternoon', evening: 'evening',
-    night: 'night', late_night: 'night',
-  };
-  const category = timeMap[timeWindow] || 'night';
+  const now = new Date();
+  const hhmm = String(now.getHours()).padStart(2, '0') + ':' + String(now.getMinutes()).padStart(2, '0');
+  const day = now.getDay(); // 0=Sun
 
-  // Filter by matching time category
-  const matching = closingPatterns.filter(c => c.time === category);
+  // Filter by time range and day-of-week
+  const matching = closingPatterns.filter(c => {
+    if (c.dayOfWeek && !c.dayOfWeek.includes(day)) return false;
+    const tw = c.timeWindow;
+    if (!tw || !tw.from || !tw.to) return true; // null timeWindow = anytime
+    // Handle overnight ranges (e.g. 22:00 - 01:59)
+    if (tw.from <= tw.to) {
+      return hhmm >= tw.from && hhmm <= tw.to;
+    } else {
+      return hhmm >= tw.from || hhmm <= tw.to;
+    }
+  });
+
   const pool = matching.length > 0 ? matching : closingPatterns;
-
   const pick = pool[Math.floor(Math.random() * pool.length)];
+  // Support both `lines` array and `text` string
+  if (pick.lines && pick.lines.length > 0) {
+    return pick.lines[Math.floor(Math.random() * pick.lines.length)];
+  }
   return pick.text || pick;
 }

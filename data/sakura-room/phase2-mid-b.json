@@ -501,7 +501,7 @@
       "daysSincePhase2": 11,
       "requiredFlags": [],
       "requiredConversations": [
-        "a03_osaka_memory"
+        "a03_osaka_memories"
       ],
       "timeWindow": null,
       "dayOfWeek": null
@@ -752,7 +752,7 @@
         "knows_app_secret"
       ],
       "requiredConversations": [
-        "a04_sg_app_confession"
+        "a04_sg_food_intro"
       ],
       "timeWindow": null,
       "dayOfWeek": null
@@ -1110,7 +1110,7 @@
         "knows_osaka_connection"
       ],
       "requiredConversations": [
-        "a03_osaka_memory"
+        "a03_osaka_memories"
       ],
       "timeWindow": null,
       "dayOfWeek": null
@@ -2116,7 +2116,7 @@
       "daysSincePhase2": 12,
       "requiredFlags": [],
       "requiredConversations": [
-        "a03_osaka_memory"
+        "a03_osaka_memories"
       ],
       "timeWindow": null,
       "dayOfWeek": null

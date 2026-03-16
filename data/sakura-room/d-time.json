@@ -211,7 +211,7 @@
       "requiredConversations": [
         "a01_first_room"
       ],
-      "timeWindow": "morning_late",
+      "timeWindow": "late_morning",
       "dayOfWeek": [
         1,
         2,
@@ -1203,7 +1203,7 @@
       "requiredConversations": [
         "a14_crush_hint"
       ],
-      "timeWindow": "early_morning",
+      "timeWindow": "late_night",
       "dayOfWeek": null
     },
     "nodes": [
