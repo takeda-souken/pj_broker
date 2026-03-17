@@ -24,3 +24,29 @@ scripts/gen_*.py
 scripts/merge_*.py
 scripts/fix_*.py
 gen_*.py
+
+# 一時翻訳・変換スクリプト
+_*.js
+tmp_*
+translate-batch*.js
+translate_batch*.py
+translate-comgi-*.js
+
+# 中間問題データ
+ch1-4_*
+comgi_ch5_9*
+count.txt
+シンガポール*
+
+# データ下書き（_プレフィックス）
+data/_*
+data/hi-gen/
+
+# 作業メモ・ガイド
+BrokerPassSG_*.txt
+Topic 1_*
+
+# エディタ・ツール設定
+.vscode/
+.favorites.json
+.claude/
