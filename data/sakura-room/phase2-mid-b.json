@@ -272,6 +272,14 @@
         ]
       },
       {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-cooking.png",
+        "alt": "エプロン姿でキッチンに立つさくらの自撮り（髪下ろし）",
+        "caption": "母ちゃんのレシピでチキンライス作るけん！",
+        "next": "n2"
+      },
+      {
         "id": "n2",
         "speaker": "choice",
         "choices": [
@@ -1001,6 +1009,14 @@
           "おはよう。今MRTの中なんよ。",
           "朝の通勤ラッシュ、すごいけん。"
         ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-morning-commute.png",
+        "alt": "MRT車窓を背景にポニーテール姿のさくらの自撮り",
+        "caption": "おはよ〜 今日もギリギリ！",
+        "next": "n2"
       },
       {
         "id": "n2",
