@@ -16,58 +16,135 @@
       "dayOfWeek": null
     },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……ねぇ、{name}。",
-        "うちらってさ、もうけっこう話してきたやん。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "うん、そうだね", "next": "n3", "axes": { "warmth": 1 } },
-        { "label": "毎日楽しいよ", "next": "n3b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n3", "speaker": "sakura", "lines": [
-        "やんね。……なのに、うちら一回も会ったことないんよね。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "……っ。毎日楽しいって……。",
-        "……うちも。……なのにさ、一回も会ったことないんよね。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "sakura", "lines": [
-        "会社のルールやけん、しょうがないんやけど。",
-        "クライアントとサポートスタッフは直接会わない。チャットのみ。",
-        "……理由はわかるんよ。距離感を保つため、って。"
-      ]},
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "……でもさ。",
-        "……会いたいな、って。……たまに思うんよ。"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "いつか会えるよ", "next": "n7a", "axes": { "warmth": 1 } },
-        { "label": "ルールだからね", "next": "n7b", "axes": {} },
-        { "label": "……僕も会いたい", "next": "n7c", "axes": { "warmth": 3 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "……うん。いつか。",
-        "その「いつか」が来たら、うち、ちゃんとおしゃれしていくけんね。",
-        "……あ、今おしゃれしてないって意味やないけん！"
-      ], "end": true },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……やんね。ルール。",
-        "……{name}は正しい。うちがおかしいんよ。",
-        "……ごめんね。忘れて。",
-        "……あ、ごめんね。変な空気にしちゃって。うちは大丈夫よ。"
-      ], "end": true },
-      { "id": "n7c", "speaker": "sakura", "lines": [
-        "…………。",
-        "…………え。",
-        "……ばか。そういうこと言うから。",
-        "……っ。……ごめん、ちょっと画面見えんくなった。目にゴミが入ったけん。",
-        "……嘘。泣いとるだけ。……ばか。",
-        "……っ。……もう、ほんまに。……ちょっと落ち着いた。……ありがとね。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……ねぇ、{name}。",
+          "うちらってさ、もうけっこう話してきたやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん、そうだね",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "毎日楽しいよ",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "やんね。……なのに、うちら一回も会ったことないんよね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。毎日楽しいって……。",
+          "……うちも。……なのにさ、一回も会ったことないんよね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "会社のルールやけん、しょうがないんやけど。",
+          "クライアントとサポートスタッフは直接会わない。チャットのみ。",
+          "……理由はわかるんよ。距離感を保つため、って。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……でもさ。",
+          "……会いたいな、って。……たまに思うんよ。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いつか会えるよ",
+            "next": "n7a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "ルールだからね",
+            "next": "n7b",
+            "axes": {}
+          },
+          {
+            "label": "……僕も会いたい",
+            "next": "n7c",
+            "axes": {
+              "warmth": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。いつか。",
+          "その「いつか」が来たら、うち、ちゃんとおしゃれしていくけんね。",
+          "……あ、今おしゃれしてないって意味やないけん！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……やんね。ルール。",
+          "……{name}は正しい。うちがおかしいんよ。",
+          "……ごめんね。忘れて。",
+          "……あ、ごめんね。変な空気にしちゃって。うちは大丈夫よ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7c",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "…………え。",
+          "……ばか。そういうこと言うから。",
+          "……っ。……ごめん、ちょっと画面見えんくなった。目にゴミが入ったけん。",
+          "……嘘。泣いとるだけ。……ばか。",
+          "……っ。……もう、ほんまに。……ちょっと落ち着いた。……ありがとね。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["longing", "company_rule", "romance"],
+    "tags": [
+      "longing",
+      "company_rule",
+      "romance"
+    ],
     "priority": 95
   },
   {
@@ -79,59 +156,143 @@
       "minAnswered": 120,
       "daysSincePhase2": 18,
       "requiredFlags": [],
-      "requiredConversations": ["a09_cant_meet"],
+      "requiredConversations": [
+        "a09_cant_meet"
+      ],
       "timeWindow": "night",
       "dayOfWeek": null
     },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……あのね、{name}。",
-        "今日ね、うち化粧してないの。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "いいよ、気にしないで", "next": "n3a", "axes": { "warmth": 1 } },
-        { "label": "見せてほしいな", "next": "n3b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "……うん。ありがと。",
-        "じゃあ……送るね。ぼかし入れてるけど。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "……っ。見たいの？ ……ほんまに？",
-        "……じゃあ。……ぼかしは入れるけん。まだ、全部は無理。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "image", "src": "img/sakura-room/selfie-blur.png", "alt": "ぼかし入りのさくらの自撮り（すっぴん、髪は下ろしている）", "next": "n5" },
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "…………どう？",
-        "……言わんでいい。恥ずかしいけん。"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "かわいいよ", "next": "n7a", "axes": { "warmth": 3 } },
-        { "label": "ぼかし取ってよ", "next": "n7b", "axes": { "warmth": 1 } },
-        { "label": "髪きれいだね", "next": "n7c", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "……っ！！",
-        "……ぼかし入っとるのに、なんでそんなこと言えると？",
-        "……ばか。……でもありがと。……すごく嬉しい。",
-        "……えへへ。恥ずかしい。もう今日はおしまい！"
-      ], "end": true },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……まだ、勇気出んの。ごめんね。",
-        "……でもいつか。いつか必ず。",
-        "……{name}に、ちゃんと見てもらいたいけん。もうちょっとだけ待っとって。",
-        "……ありがとね、待ってくれて。"
-      ], "end": true },
-      { "id": "n7c", "speaker": "sakura", "lines": [
-        "……髪？ ……そこ？",
-        "……ふふ。{name}って変なとこ見るよね。",
-        "……でも、ありがと。今日は下ろしてみたんよ。……{name}に見せたくて。",
-        "……えへへ。じゃ、今日はこのへんで。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……あのね、{name}。",
+          "今日ね、うち化粧してないの。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いいよ、気にしないで",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せてほしいな",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。ありがと。",
+          "じゃあ……送るね。ぼかし入れてるけど。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。見たいの？ ……ほんまに？",
+          "……じゃあ。……ぼかしは入れるけん。まだ、全部は無理。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "image",
+        "src": "img/sakura-room/selfie-blur.png",
+        "alt": "ぼかし入りのさくらの自撮り（すっぴん、髪は下ろしている）",
+        "next": "n5"
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "…………どう？",
+          "……言わんでいい。恥ずかしいけん。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "かわいいよ",
+            "next": "n7a",
+            "axes": {
+              "warmth": 3
+            }
+          },
+          {
+            "label": "ぼかし取ってよ",
+            "next": "n7b",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "髪きれいだね",
+            "next": "n7c",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……っ！！",
+          "……ぼかし入っとるのに、なんでそんなこと言えると？",
+          "……ばか。……でもありがと。……すごく嬉しい。",
+          "……えへへ。恥ずかしい。もう今日はおしまい！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……まだ、勇気出んの。ごめんね。",
+          "……でもいつか。いつか必ず。",
+          "……{name}に、ちゃんと見てもらいたいけん。もうちょっとだけ待っとって。",
+          "……ありがとね、待ってくれて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7c",
+        "speaker": "sakura",
+        "lines": [
+          "……髪？ ……そこ？",
+          "……ふふ。{name}って変なとこ見るよね。",
+          "……でも、ありがと。今日は下ろしてみたんよ。……{name}に見せたくて。",
+          "……えへへ。じゃ、今日はこのへんで。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["selfie", "trust", "romance", "vulnerable"],
+    "tags": [
+      "selfie",
+      "trust",
+      "romance",
+      "vulnerable"
+    ],
     "priority": 95
   },
   {
@@ -139,63 +300,161 @@
     "type": "A",
     "phase": "2-late",
     "title": "さくらの恋愛観",
-    "unlock": { "minAnswered": 125, "daysSincePhase2": 20, "requiredFlags": [], "requiredConversations": ["a10_no_makeup"], "minWarmth": 15, "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 125,
+      "daysSincePhase2": 20,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a10_no_makeup"
+      ],
+      "minWarmth": 15,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……{name}。",
-        "うちの話ばっかりしてごめんね。でも今日もうちの話していい？"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "聞きたいよ", "next": "n3", "axes": { "warmth": 2 } },
-        { "label": "いいよ", "next": "n3", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3", "speaker": "sakura", "lines": [
-        "うちね……恋愛の話なんやけど。",
-        "……一般論よ？ 一般論。"
-      ]},
-      { "id": "n4", "speaker": "sakura", "lines": [
-        "うち、好きになったらまっすぐ行くタイプなんよ。",
-        "駆け引きとか、できんの。九州の女は不器用なんよ。",
-        "好きって思ったら、好き。それだけ。"
-      ]},
-      { "id": "n5", "speaker": "choice", "choices": [
-        { "label": "さくららしいね", "next": "n6a", "axes": { "warmth": 1 } },
-        { "label": "好きな人いるの？", "next": "n6b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n6a", "speaker": "sakura", "lines": [
-        "……「らしい」って言ってくれるん。嬉しい。",
-        "……でもさ、まっすぐ行くって、怖いんよ。傷つくかもしれんけん。",
-        "……それでも行くのが、うちのやり方。"
-      ], "next": "n7" },
-      { "id": "n6b", "speaker": "sakura", "lines": [
-        "……っ。",
-        "……おらんよ。……たぶん。",
-        "……「たぶん」ってなんやろね。うちもわからん。"
-      ], "next": "n7" },
-      { "id": "n7", "speaker": "sakura", "lines": [
-        "……{name}は？ 誰かを好きになったとき、まっすぐやった？",
-        "……あ、ごめん。変なこと聞いちゃった。"
-      ]},
-      { "id": "n8", "speaker": "choice", "choices": [
-        { "label": "そうだったと思う", "next": "n9a", "axes": { "warmth": 1 } },
-        { "label": "よく覚えてない", "next": "n9b", "axes": { "honesty": 1 } }
-      ]},
-      { "id": "n9a", "speaker": "sakura", "lines": [
-        "……そっか。{name}もまっすぐなんやね。",
-        "……似とるんかな、うちら。",
-        "……なんでもない。独り言。",
-        "……ふふ、ごめんね。変な話しちゃった。でもありがと、聞いてくれて。"
-      ], "end": true },
-      { "id": "n9b", "speaker": "sakura", "lines": [
-        "覚えてない、か。……そういうもんなんかな。",
-        "……うちはさ、好きになったこと、絶対忘れんと思う。",
-        "……相手が誰であっても。",
-        "……あ、一般論よ？ ……じゃ、今日はこのへんにしとこっか。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "うちの話ばっかりしてごめんね。でも今日もうちの話していい？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "聞きたいよ",
+            "next": "n3",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "いいよ",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "うちね……恋愛の話なんやけど。",
+          "……一般論よ？ 一般論。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "うち、好きになったらまっすぐ行くタイプなんよ。",
+          "駆け引きとか、できんの。九州の女は不器用なんよ。",
+          "好きって思ったら、好き。それだけ。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "さくららしいね",
+            "next": "n6a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "好きな人いるの？",
+            "next": "n6b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6a",
+        "speaker": "sakura",
+        "lines": [
+          "……「らしい」って言ってくれるん。嬉しい。",
+          "……でもさ、まっすぐ行くって、怖いんよ。傷つくかもしれんけん。",
+          "……それでも行くのが、うちのやり方。"
+        ],
+        "next": "n7"
+      },
+      {
+        "id": "n6b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。",
+          "……おらんよ。……たぶん。",
+          "……「たぶん」ってなんやろね。うちもわからん。"
+        ],
+        "next": "n7"
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}は？ 誰かを好きになったとき、まっすぐやった？",
+          "……あ、ごめん。変なこと聞いちゃった。"
+        ]
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "そうだったと思う",
+            "next": "n9a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "よく覚えてない",
+            "next": "n9b",
+            "axes": {
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n9a",
+        "speaker": "sakura",
+        "lines": [
+          "……そっか。{name}もまっすぐなんやね。",
+          "……似とるんかな、うちら。",
+          "……なんでもない。独り言。",
+          "……ふふ、ごめんね。変な話しちゃった。でもありがと、聞いてくれて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n9b",
+        "speaker": "sakura",
+        "lines": [
+          "覚えてない、か。……そういうもんなんかな。",
+          "……うちはさ、好きになったこと、絶対忘れんと思う。",
+          "……相手が誰であっても。",
+          "……あ、一般論よ？ ……じゃ、今日はこのへんにしとこっか。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["love", "romance", "confession_foreshadow"],
+    "tags": [
+      "love",
+      "romance",
+      "confession_foreshadow"
+    ],
     "priority": 95
   },
   {
@@ -203,65 +462,168 @@
     "type": "A",
     "phase": "2-late",
     "title": "挑戦してみることにした",
-    "unlock": { "minAnswered": 130, "daysSincePhase2": 22, "requiredFlags": [], "requiredConversations": ["a07_japan_yearning"], "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 130,
+      "daysSincePhase2": 22,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a07_japan_yearning"
+      ],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "{name}！ 聞いてほしいことがあるんよ！",
-        "……えへへ。ちょっとテンション高いかも。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "なになに？", "next": "n3a", "axes": { "warmth": 1 } },
-        { "label": "いいことあった？", "next": "n3b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "聞いて聞いて！",
-        "うちね、挑戦してみることにした！ ……新しいことに。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "わかる！？ そう、いいことなの！",
-        "うちね、挑戦してみることにした！ ……新しいことに。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "choice", "choices": [
-        { "label": "応援するよ！", "next": "n5a", "axes": { "warmth": 2 } },
-        { "label": "何するの？", "next": "n5b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n5a", "speaker": "sakura", "lines": [
-        "……！ まだ何か言ってないのに応援してくれるん？",
-        "……{name}って、ほんまにそういうとこあるよね。ずるい。"
-      ], "next": "n6" },
-      { "id": "n5b", "speaker": "sakura", "lines": [
-        "……まだ内緒。",
-        "……ごめんね、もったいぶって。決まったら教えるけん。"
-      ], "next": "n6" },
-      { "id": "n6", "speaker": "sakura", "lines": [
-        "……でもね、きっかけは{name}なんよ。",
-        "{name}がSGに来て、ゼロから頑張っとるの見て……",
-        "うちも「このままでいいんかな」って思って。"
-      ]},
-      { "id": "n7", "speaker": "sakura", "lines": [
-        "……ずっと「いつか」って言っとったことを、「今」にしようって。",
-        "……怖いけどね。でも{name}がおるけん、頑張れる気がする。"
-      ]},
-      { "id": "n8", "speaker": "choice", "choices": [
-        { "label": "一緒に頑張ろう", "next": "n9a", "axes": { "warmth": 2 } },
-        { "label": "さくらなら大丈夫", "next": "n9b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n9a", "speaker": "sakura", "lines": [
-        "……「一緒に」。",
-        "……うん。一緒に。{name}は試験、うちは……うちのこと。",
-        "……お互い、頑張ろうね。",
-        "……よし！ がんばるぞ！"
-      ], "end": true },
-      { "id": "n9b", "speaker": "sakura", "lines": [
-        "……ありがと。",
-        "……{name}にそう言ってもらえるだけで、うちは強くなれるんよ。",
-        "……不思議やね。チャットだけなのに。",
-        "……えへへ。ありがとね。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}！ 聞いてほしいことがあるんよ！",
+          "……えへへ。ちょっとテンション高いかも。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "なになに？",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "いいことあった？",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "聞いて聞いて！",
+          "うちね、挑戦してみることにした！ ……新しいことに。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "わかる！？ そう、いいことなの！",
+          "うちね、挑戦してみることにした！ ……新しいことに。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "応援するよ！",
+            "next": "n5a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "何するの？",
+            "next": "n5b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "……！ まだ何か言ってないのに応援してくれるん？",
+          "……{name}って、ほんまにそういうとこあるよね。ずるい。"
+        ],
+        "next": "n6"
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "……まだ内緒。",
+          "……ごめんね、もったいぶって。決まったら教えるけん。"
+        ],
+        "next": "n6"
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "……でもね、きっかけは{name}なんよ。",
+          "{name}がSGに来て、ゼロから頑張っとるの見て……",
+          "うちも「このままでいいんかな」って思って。"
+        ]
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "……ずっと「いつか」って言っとったことを、「今」にしようって。",
+          "……怖いけどね。でも{name}がおるけん、頑張れる気がする。"
+        ]
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "一緒に頑張ろう",
+            "next": "n9a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "さくらなら大丈夫",
+            "next": "n9b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n9a",
+        "speaker": "sakura",
+        "lines": [
+          "……「一緒に」。",
+          "……うん。一緒に。{name}は試験、うちは……うちのこと。",
+          "……お互い、頑張ろうね。",
+          "……よし！ がんばるぞ！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n9b",
+        "speaker": "sakura",
+        "lines": [
+          "……ありがと。",
+          "……{name}にそう言ってもらえるだけで、うちは強くなれるんよ。",
+          "……不思議やね。チャットだけなのに。",
+          "……えへへ。ありがとね。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["challenge", "japan_foreshadow", "growth"],
+    "tags": [
+      "challenge",
+      "japan_foreshadow",
+      "growth"
+    ],
     "priority": 90
   },
   {
@@ -269,86 +631,233 @@
     "type": "A",
     "phase": "2-late",
     "title": "もっと近く呼んでいい……？",
-    "unlock": { "minAnswered": 135, "daysSincePhase2": 23, "requiredFlags": [], "requiredConversations": ["a11_love_view"], "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 135,
+      "daysSincePhase2": 23,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a11_love_view"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……{name}。",
-        "……またお願いがあるんやけど。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "なに？", "next": "n3", "axes": {} },
-        { "label": "聞くよ", "next": "n3", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3", "speaker": "sakura", "lines": [
-        "……呼び方、また変えていい……？",
-        "もっと……近く呼びたいの。"
-      ]},
-      { "id": "n4", "speaker": "choice", "choices": [
-        { "label": "いいよ", "next": "n5", "axes": { "warmth": 2 } },
-        { "label": "今のままでいいよ", "next": "n5_keep", "axes": {} }
-      ]},
-      { "id": "n5_keep", "speaker": "sakura", "lines": [
-        "……そっか。……うん、わかった。",
-        "……でもうちの気持ちは変わらんよ。もっと近くにおりたいって。",
-        "……いつか、気が変わったら言ってね。",
-        "……うん。じゃ、今日はこのへんで。"
-      ], "end": true },
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "……！ ありがと。",
-        "じゃあ……どれがいい？"
-      ], "next": "n6" },
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "賢司くん", "next": "n7_kun", "flags": { "nickname_selected": "賢司くん" }, "axes": { "warmth": 1 } },
-        { "label": "賢司さん", "next": "n7_san", "flags": { "nickname_selected": "賢司さん" }, "axes": { "warmth": 1 } },
-        { "label": "賢ちゃん", "next": "n7_chan", "flags": { "nickname_selected": "賢ちゃん" }, "axes": { "warmth": 2 } },
-        { "label": "けんじ", "next": "n7_kenji", "flags": { "nickname_selected": "けんじ" }, "axes": { "warmth": 2 } },
-        { "label": "あんた", "next": "n7_anta", "flags": { "nickname_selected": "あんた" }, "axes": { "warmth": 2 } },
-        { "label": "さくらが決めていいよ", "next": "n7_omakase", "axes": { "warmth": 3 } }
-      ]},
-      { "id": "n7_kun", "speaker": "sakura", "lines": [
-        "賢司くん。",
-        "……うん。いいね。なんか、同級生みたい。",
-        "……えへへ。賢司くん。賢司くん。……何回呼んでも嬉しい。",
-        "……ありがとね。聞いてくれて。"
-      ], "end": true },
-      { "id": "n7_san", "speaker": "sakura", "lines": [
-        "賢司さん。",
-        "……前にも呼んだことあるけど、今回はなんか……違う感じがする。",
-        "……距離が変わったからかな。……賢司さん。うん、好き。この呼び方。",
-        "……ありがとね。聞いてくれて。"
-      ], "end": true },
-      { "id": "n7_chan", "speaker": "sakura", "lines": [
-        "賢ちゃん！",
-        "……あはは、なんか急に親しくなった感じ！",
-        "……でもいいよね？ 賢ちゃん。うち、この呼び方好きよ。",
-        "……えへへ。じゃ、今日はこのへんで！"
-      ], "end": true },
-      { "id": "n7_kenji", "speaker": "sakura", "lines": [
-        "けんじ。",
-        "…………っ。",
-        "……呼び捨てって、こんなにドキドキするんやね。",
-        "……けんじ。……うん。もう戻れん。",
-        "……ありがとね。大事にする、この呼び方。"
-      ], "end": true },
-      { "id": "n7_anta", "speaker": "sakura", "lines": [
-        "あんた。",
-        "……あはは、博多のおばちゃんみたいやね。",
-        "でもね、うちにとって「あんた」は特別なんよ。……いっちゃん近い呼び方やけん。",
-        "……あんた。……うん。しっくりくる。",
-        "……えへへ。ありがとね。"
-      ], "end": true },
-      { "id": "n7_omakase", "speaker": "sakura", "lines": [
-        "……うちが決めていいの？",
-        "……ほんまに？",
-        "……じゃあ……けんじ。……って呼んでもよかと？",
-        "…………えへへ。なんか、特別な感じがする。",
-        "けんじ。けんじ。……何回でも呼びたい。",
-        "……ありがとね。大事にする、この呼び方。"
-      ], "flags": { "nickname_selected": "けんじ" }, "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "……またお願いがあるんやけど。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "なに？",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "聞くよ",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……呼び方、また変えていい……？",
+          "もっと……近く呼びたいの。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いいよ",
+            "next": "n5",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "今のままでいいよ",
+            "next": "n5_keep",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n5_keep",
+        "speaker": "sakura",
+        "lines": [
+          "……そっか。……うん、わかった。",
+          "……でもうちの気持ちは変わらんよ。もっと近くにおりたいって。",
+          "……いつか、気が変わったら言ってね。",
+          "……うん。じゃ、今日はこのへんで。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……！ ありがと。",
+          "じゃあ……どれがいい？"
+        ],
+        "next": "n6"
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "賢司くん",
+            "next": "n7_kun",
+            "flags": {
+              "nickname_selected": "賢司くん"
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "賢司さん",
+            "next": "n7_san",
+            "flags": {
+              "nickname_selected": "賢司さん"
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "賢ちゃん",
+            "next": "n7_chan",
+            "flags": {
+              "nickname_selected": "賢ちゃん"
+            },
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "けんじ",
+            "next": "n7_kenji",
+            "flags": {
+              "nickname_selected": "けんじ"
+            },
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "あんた",
+            "next": "n7_anta",
+            "flags": {
+              "nickname_selected": "あんた"
+            },
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "さくらが決めていいよ",
+            "next": "n7_omakase",
+            "axes": {
+              "warmth": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7_kun",
+        "speaker": "sakura",
+        "lines": [
+          "賢司くん。",
+          "……うん。いいね。なんか、同級生みたい。",
+          "……えへへ。賢司くん。賢司くん。……何回呼んでも嬉しい。",
+          "……ありがとね。聞いてくれて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7_san",
+        "speaker": "sakura",
+        "lines": [
+          "賢司さん。",
+          "……前にも呼んだことあるけど、今回はなんか……違う感じがする。",
+          "……距離が変わったからかな。……賢司さん。うん、好き。この呼び方。",
+          "……ありがとね。聞いてくれて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7_chan",
+        "speaker": "sakura",
+        "lines": [
+          "賢ちゃん！",
+          "……あはは、なんか急に親しくなった感じ！",
+          "……でもいいよね？ 賢ちゃん。うち、この呼び方好きよ。",
+          "……えへへ。じゃ、今日はこのへんで！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7_kenji",
+        "speaker": "sakura",
+        "lines": [
+          "けんじ。",
+          "…………っ。",
+          "……呼び捨てって、こんなにドキドキするんやね。",
+          "……けんじ。……うん。もう戻れん。",
+          "……ありがとね。大事にする、この呼び方。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7_anta",
+        "speaker": "sakura",
+        "lines": [
+          "あんた。",
+          "……あはは、博多のおばちゃんみたいやね。",
+          "でもね、うちにとって「あんた」は特別なんよ。……いっちゃん近い呼び方やけん。",
+          "……あんた。……うん。しっくりくる。",
+          "……えへへ。ありがとね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7_omakase",
+        "speaker": "sakura",
+        "lines": [
+          "……うちが決めていいの？",
+          "……ほんまに？",
+          "……じゃあ……けんじ。……って呼んでもよかと？",
+          "…………えへへ。なんか、特別な感じがする。",
+          "けんじ。けんじ。……何回でも呼びたい。",
+          "……ありがとね。大事にする、この呼び方。"
+        ],
+        "flags": {
+          "nickname_selected": "けんじ"
+        },
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "nickname",
-    "tags": ["nickname", "romance", "intimacy"],
+    "tags": [
+      "nickname",
+      "romance",
+      "intimacy"
+    ],
     "priority": 100
   },
   {
@@ -384,13 +893,19 @@
           {
             "label": "妻と子供2人、一緒だよ",
             "next": "n3a",
-            "flags": { "family_with": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "family_with": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "先に来てて、家族はあとから",
             "next": "n3b",
-            "flags": { "family_later": true },
+            "flags": {
+              "family_later": true
+            },
             "axes": {}
           }
         ]
@@ -419,7 +934,9 @@
           {
             "label": "4歳と2歳",
             "next": "n5",
-            "flags": { "told_kids_age": true },
+            "flags": {
+              "told_kids_age": true
+            },
             "axes": {}
           }
         ]
@@ -439,12 +956,17 @@
           {
             "label": "恐竜の話ばっかり",
             "next": "n7a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "「パパいつ帰るの」って",
             "next": "n7b",
-            "axes": { "warmth": 2, "honesty": 1 }
+            "axes": {
+              "warmth": 2,
+              "honesty": 1
+            }
           }
         ]
       },
