@@ -4,64 +4,169 @@
     "type": "A",
     "phase": "2-mid",
     "title": "父ちゃんの事故",
-    "unlock": { "minAnswered": 100, "daysSincePhase2": 10, "requiredFlags": [], "requiredConversations": ["a03_osaka_memories"], "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 10,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a03_osaka_memories"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": ["……{name}。今日はちょっと、まじめな話してもいい？"] },
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "もちろん", "next": "n3a", "axes": { "warmth": 1 } },
-        { "label": "どうしたの？", "next": "n3b", "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "……ありがと。聞いてくれるん、嬉しい。",
-        "うちの父ちゃんね、花屋やっとるって話したやん？",
-        "……5年前、仕入れの帰りに交通事故に遭ったの。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "……うん。あのね。",
-        "うちの父ちゃん、花屋やっとるって話したやん？",
-        "……5年前、仕入れの帰りに交通事故に遭ったの。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "choice", "choices": [
-        { "label": "大丈夫だったの？", "next": "n5a", "axes": { "warmth": 2 } },
-        { "label": "……", "next": "n5b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n5a", "speaker": "sakura", "lines": [
-        "うん、軽傷で済んだ。骨折だけ。……「だけ」って言うのも変やけど。",
-        "でもね、そのとき保険のおかげで治療費も休業補償も全部カバーされたんよ。"
-      ], "next": "n6" },
-      { "id": "n5b", "speaker": "sakura", "lines": [
-        "あ、大丈夫よ！ 軽傷やったけん。骨折だけ。",
-        "でもね、保険のおかげで全部カバーされて。治療費も、お店休んどる間の補償も。"
-      ], "next": "n6" },
-      { "id": "n6", "speaker": "sakura", "lines": [
-        "それまでうち、保険って「とりあえず入っとくもの」くらいにしか思ってなかった。",
-        "でもあのとき、父ちゃんが安心して治療に専念できたの見て……",
-        "「ああ、これって人を守る仕組みなんだ」って。"
-      ]},
-      { "id": "n7", "speaker": "choice", "choices": [
-        { "label": "それで保険の仕事を？", "next": "n8a", "axes": { "warmth": 1 } },
-        { "label": "お父さん、今は元気？", "next": "n8b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n8a", "speaker": "sakura", "lines": [
-        "うん。大学で勉強し直して、今の会社に入ったの。",
-        "……かっこいい理由やろ？ 笑",
-        "でもほんまにそうなんよ。父ちゃんの事故がなかったら、うちは今ここにおらん。"
-      ], "next": "n9" },
-      { "id": "n8b", "speaker": "sakura", "lines": [
-        "……！ {name}、優しいね。",
-        "元気よ。今も朝4時に起きて花の仕入れに行っとる。相変わらず元気すぎるくらい。",
-        "……あの経験があって、うちは保険の仕事を選んだんよ。"
-      ], "next": "n9" },
-      { "id": "n9", "speaker": "sakura", "lines": [
-        "……{name}も保険の仕事やん？ なんで保険を選んだの？",
-        "……って、仕事の話はナシやったね。ごめん。",
-        "でもいつか聞かせてね。……{name}の「なんで」。",
-        "……ごめんね、重い話ばっかりして。でも話せてよかった。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。今日はちょっと、まじめな話してもいい？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "もちろん",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "どうしたの？",
+            "next": "n3b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……ありがと。聞いてくれるん、嬉しい。",
+          "うちの父ちゃんね、花屋やっとるって話したやん？",
+          "……5年前、仕入れの帰りに交通事故に遭ったの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。あのね。",
+          "うちの父ちゃん、花屋やっとるって話したやん？",
+          "……5年前、仕入れの帰りに交通事故に遭ったの。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "大丈夫だったの？",
+            "next": "n5a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "……",
+            "next": "n5b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "うん、軽傷で済んだ。骨折だけ。……「だけ」って言うのも変やけど。",
+          "でもね、そのとき保険のおかげで治療費も休業補償も全部カバーされたんよ。"
+        ],
+        "next": "n6"
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あ、大丈夫よ！ 軽傷やったけん。骨折だけ。",
+          "でもね、保険のおかげで全部カバーされて。治療費も、お店休んどる間の補償も。"
+        ],
+        "next": "n6"
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "それまでうち、保険って「とりあえず入っとくもの」くらいにしか思ってなかった。",
+          "でもあのとき、父ちゃんが安心して治療に専念できたの見て……",
+          "「ああ、これって人を守る仕組みなんだ」って。"
+        ]
+      },
+      {
+        "id": "n7",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "それで保険の仕事を？",
+            "next": "n8a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "お父さん、今は元気？",
+            "next": "n8b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n8a",
+        "speaker": "sakura",
+        "lines": [
+          "うん。大学で勉強し直して、今の会社に入ったの。",
+          "……かっこいい理由やろ？ 笑",
+          "でもほんまにそうなんよ。父ちゃんの事故がなかったら、うちは今ここにおらん。"
+        ],
+        "next": "n9"
+      },
+      {
+        "id": "n8b",
+        "speaker": "sakura",
+        "lines": [
+          "……！ {name}、優しいね。",
+          "元気よ。今も朝4時に起きて花の仕入れに行っとる。相変わらず元気すぎるくらい。",
+          "……あの経験があって、うちは保険の仕事を選んだんよ。"
+        ],
+        "next": "n9"
+      },
+      {
+        "id": "n9",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}も保険の仕事やん？ なんで保険を選んだの？",
+          "……って、仕事の話はナシやったね。ごめん。",
+          "でもいつか聞かせてね。……{name}の「なんで」。",
+          "……ごめんね、重い話ばっかりして。でも話せてよかった。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["family", "insurance", "origin", "serious"],
+    "tags": [
+      "family",
+      "insurance",
+      "origin",
+      "serious"
+    ],
     "priority": 95
   },
   {
@@ -69,74 +174,180 @@
     "type": "A",
     "phase": "2-mid",
     "title": "日本への憧れ",
-    "unlock": { "minAnswered": 110, "daysSincePhase2": 12, "requiredFlags": [], "requiredConversations": ["a06_parents_accident"], "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 12,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a06_parents_accident"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……{name}。ひとつ聞いてよかと？",
-        "日本って……どんな匂いがする？"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "変な質問だね", "next": "n3a", "axes": {} },
-        { "label": "季節によるかな", "next": "n3b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "あはは、変よね。でもね、うちにとって日本って「匂い」なんよ。",
-        "母ちゃんが炊くごはんの匂い。畳の匂い。……全部、家の中にしかなかった。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "季節によるん？ ……そっか。SGには季節がないけんね。",
-        "うちにとって日本は「匂い」なの。母ちゃんのごはんの匂いとか、畳の匂いとか。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "sakura", "lines": [
-        "うちの両親、ふたりとも博多の出身なんよ。",
-        "父ちゃんの仕事の関係でSGに来て、そのまま永住。「ここで骨を埋める」って。",
-        "だからうちはSG生まれのSG育ち。"
-      ]},
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "でもね……家の中はずっと日本やった。博多弁で、和食で、正月にはお雑煮。",
-        "外に出たらSG。英語と中国語の世界。",
-        "……うちはどっちの子なんやろう、ってずっと思っとった。"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "大阪に行って変わった？", "next": "n7a", "axes": { "warmth": 1 } },
-        { "label": "両方でいいんじゃない？", "next": "n7b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "……うん。変わった。",
-        "大阪に着いた日、空港出た瞬間に、なんか……「ああ、ここだ」って思ったの。",
-        "初めて来たのに。おかしいよね。",
-        "……「帰ってきた」って思ったんよ。行ったことないのに。"
-      ], "next": "n8" },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……両方。",
-        "……{name}、優しいね。そう言ってくれる人、おらんかった。",
-        "でもね、大阪に留学したとき、初めて「帰ってきた」って感じたの。",
-        "行ったことないのに。……おかしいよね。"
-      ], "next": "n8" },
-      { "id": "n8", "speaker": "sakura", "lines": [
-        "……いつか日本に住みたい。ずっとそう思っとる。",
-        "……母ちゃんには言えんけどね。SGで骨を埋めるって決めた人に、「出ていきたい」なんて。"
-      ]},
-      { "id": "n9", "speaker": "choice", "choices": [
-        { "label": "いつか叶うよ", "next": "n10a", "axes": { "warmth": 2 } },
-        { "label": "お母さんもわかってくれるよ", "next": "n10b", "axes": { "warmth": 1 } }
-      ]},
-      { "id": "n10a", "speaker": "sakura", "lines": [
-        "……うん。",
-        "……{name}がそう言ってくれるなら、そうかもしれん。",
-        "……ありがとね。こんな話、誰にもしたことなかった。",
-        "……ちょっとすっきりした。聞いてくれてありがと。"
-      ], "end": true },
-      { "id": "n10b", "speaker": "sakura", "lines": [
-        "……そうかな。",
-        "……母ちゃんは強い人やけん、たぶん怒らんとは思う。泣くかもしれんけど。",
-        "……ごめんね、重い話して。{name}になら話せる気がして。",
-        "……ありがとね。聞いてくれて。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。ひとつ聞いてよかと？",
+          "日本って……どんな匂いがする？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "変な質問だね",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "季節によるかな",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、変よね。でもね、うちにとって日本って「匂い」なんよ。",
+          "母ちゃんが炊くごはんの匂い。畳の匂い。……全部、家の中にしかなかった。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "季節によるん？ ……そっか。SGには季節がないけんね。",
+          "うちにとって日本は「匂い」なの。母ちゃんのごはんの匂いとか、畳の匂いとか。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "うちの両親、ふたりとも博多の出身なんよ。",
+          "父ちゃんの仕事の関係でSGに来て、そのまま永住。「ここで骨を埋める」って。",
+          "だからうちはSG生まれのSG育ち。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "でもね……家の中はずっと日本やった。博多弁で、和食で、正月にはお雑煮。",
+          "外に出たらSG。英語と中国語の世界。",
+          "……うちはどっちの子なんやろう、ってずっと思っとった。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "大阪に行って変わった？",
+            "next": "n7a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "両方でいいんじゃない？",
+            "next": "n7b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。変わった。",
+          "大阪に着いた日、空港出た瞬間に、なんか……「ああ、ここだ」って思ったの。",
+          "初めて来たのに。おかしいよね。",
+          "……「帰ってきた」って思ったんよ。行ったことないのに。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……両方。",
+          "……{name}、優しいね。そう言ってくれる人、おらんかった。",
+          "でもね、大阪に留学したとき、初めて「帰ってきた」って感じたの。",
+          "行ったことないのに。……おかしいよね。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "sakura",
+        "lines": [
+          "……いつか日本に住みたい。ずっとそう思っとる。",
+          "……母ちゃんには言えんけどね。SGで骨を埋めるって決めた人に、「出ていきたい」なんて。"
+        ]
+      },
+      {
+        "id": "n9",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いつか叶うよ",
+            "next": "n10a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "お母さんもわかってくれるよ",
+            "next": "n10b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n10a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。",
+          "……{name}がそう言ってくれるなら、そうかもしれん。",
+          "……ありがとね。こんな話、誰にもしたことなかった。",
+          "……ちょっとすっきりした。聞いてくれてありがと。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n10b",
+        "speaker": "sakura",
+        "lines": [
+          "……そうかな。",
+          "……母ちゃんは強い人やけん、たぶん怒らんとは思う。泣くかもしれんけど。",
+          "……ごめんね、重い話して。{name}になら話せる気がして。",
+          "……ありがとね。聞いてくれて。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["japan", "yearning", "family", "identity"],
+    "tags": [
+      "japan",
+      "yearning",
+      "family",
+      "identity"
+    ],
     "priority": 95
   },
   {
@@ -145,69 +356,199 @@
     "type": "A",
     "phase": "2-mid",
     "title": "片岡くんの家族",
-    "unlock": { "minAnswered": 95, "daysSincePhase2": 10, "requiredFlags": [], "requiredConversations": ["a01_first_room"], "minRoomConversations": 15, "timeWindow": null, "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 95,
+      "daysSincePhase2": 10,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "minRoomConversations": 15,
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "ねぇ、{name}。前からちょっと気になっとったんやけど。",
-        "……ご家族は一緒にSGに来とるの？"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "妻と子供2人、一緒だよ", "next": "n3a", "flags": { "family_with": true }, "axes": { "warmth": 1 } },
-        { "label": "先に来てて、家族はあとから", "next": "n3b", "flags": { "family_later": true }, "axes": {} }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "そうなんや！ お子さんいくつ？"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "そっか、じゃあ今は単身赴任みたいな感じ？ 寂しくない？",
-        "……お子さんいくつやったっけ？"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "choice", "choices": [
-        { "label": "4歳と2歳", "next": "n5", "flags": { "told_kids_age": true }, "axes": {} }
-      ]},
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "4歳と2歳！ いっちゃんかわいい時期やん！",
-        "4歳ってもう会話できるっちゃろ？ なに話すの？"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "恐竜の話ばっかり", "next": "n7a", "axes": { "warmth": 1 } },
-        { "label": "「パパいつ帰るの」って", "next": "n7b", "axes": { "warmth": 2, "honesty": 1 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "恐竜！ あはは、男の子は恐竜好きよね。",
-        "SGにもJurong Birdparkの近くに恐竜の展示があるんよ。連れて行ってあげたら喜ぶかも。"
-      ], "next": "n8" },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……「いつ帰るの」か。",
-        "……そうよね。小さい子にとってパパがおらんのは……。",
-        "……ごめん、余計なこと言った。"
-      ], "next": "n8" },
-      { "id": "n8", "speaker": "sakura", "lines": [
-        "……奥さんとはどうやって出会ったの？ ……聞いていい？"
-      ]},
-      { "id": "n9", "speaker": "choice", "choices": [
-        { "label": "会社の同期だよ", "next": "n10a", "axes": {} },
-        { "label": "それはまたいつか", "next": "n10b", "axes": {} }
-      ]},
-      { "id": "n10a", "speaker": "sakura", "lines": [
-        "同期！ ……いいね。同じところから始まって、一緒に歩いてきたんやね。",
-        "……いい家族やね。"
-      ], "next": "n11" },
-      { "id": "n10b", "speaker": "sakura", "lines": [
-        "あ、ごめん。踏み込みすぎたね。",
-        "……でも、きっといい出会いやったんやろうね。"
-      ], "next": "n11" },
-      { "id": "n11", "speaker": "narration", "text": "さくらが一瞬、黙った。", "next": "n12" },
-      { "id": "n12", "speaker": "sakura", "lines": [
-        "…………。",
-        "……ごめん、なんでもない。",
-        "……{name}が幸せそうで、うちも嬉しいよ。ほんとに。",
-        "……あ、ごめんね。なんかしんみりしちゃった。ありがと、話してくれて。"
-      ], "flags": { "wife_revealed": true }, "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねぇ、{name}。前からちょっと気になっとったんやけど。",
+          "……ご家族は一緒にSGに来とるの？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "妻と子供2人、一緒だよ",
+            "next": "n3a",
+            "flags": {
+              "family_with": true
+            },
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "先に来てて、家族はあとから",
+            "next": "n3b",
+            "flags": {
+              "family_later": true
+            },
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "そうなんや！ お子さんいくつ？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "そっか、じゃあ今は単身赴任みたいな感じ？ 寂しくない？",
+          "……お子さんいくつやったっけ？"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "4歳と2歳",
+            "next": "n5",
+            "flags": {
+              "told_kids_age": true
+            },
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "4歳と2歳！ いっちゃんかわいい時期やん！",
+          "4歳ってもう会話できるっちゃろ？ なに話すの？"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "恐竜の話ばっかり",
+            "next": "n7a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "「パパいつ帰るの」って",
+            "next": "n7b",
+            "axes": {
+              "warmth": 2,
+              "honesty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "恐竜！ あはは、男の子は恐竜好きよね。",
+          "SGにもJurong Birdparkの近くに恐竜の展示があるんよ。連れて行ってあげたら喜ぶかも。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……「いつ帰るの」か。",
+          "……そうよね。小さい子にとってパパがおらんのは……。",
+          "……ごめん、余計なこと言った。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "sakura",
+        "lines": [
+          "……奥さんとはどうやって出会ったの？ ……聞いていい？"
+        ]
+      },
+      {
+        "id": "n9",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "会社の同期だよ",
+            "next": "n10a",
+            "axes": {}
+          },
+          {
+            "label": "それはまたいつか",
+            "next": "n10b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n10a",
+        "speaker": "sakura",
+        "lines": [
+          "同期！ ……いいね。同じところから始まって、一緒に歩いてきたんやね。",
+          "……いい家族やね。"
+        ],
+        "next": "n11"
+      },
+      {
+        "id": "n10b",
+        "speaker": "sakura",
+        "lines": [
+          "あ、ごめん。踏み込みすぎたね。",
+          "……でも、きっといい出会いやったんやろうね。"
+        ],
+        "next": "n11"
+      },
+      {
+        "id": "n11",
+        "speaker": "narration",
+        "text": "さくらが一瞬、黙った。",
+        "next": "n12"
+      },
+      {
+        "id": "n12",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "……ごめん、なんでもない。",
+          "……{name}が幸せそうで、うちも嬉しいよ。ほんとに。",
+          "……あ、ごめんね。なんかしんみりしちゃった。ありがと、話してくれて。"
+        ],
+        "flags": {
+          "wife_revealed": true
+        },
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["family", "wife", "kids", "bittersweet"],
+    "tags": [
+      "family",
+      "wife",
+      "kids",
+      "bittersweet"
+    ],
     "priority": 90
   },
   {
@@ -215,60 +556,147 @@
     "type": "A",
     "phase": "2-mid",
     "title": "会いたいな",
-    "unlock": { "minAnswered": 115, "daysSincePhase2": 14, "requiredFlags": [], "requiredConversations": ["a08_family_talk"], "minWarmth": 10, "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 115,
+      "daysSincePhase2": 14,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a08_family_talk"
+      ],
+      "minWarmth": 10,
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……ねぇ、{name}。",
-        "うちらってさ、もうけっこう話してきたやん。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "うん、そうだね", "next": "n3", "axes": { "warmth": 1 } },
-        { "label": "毎日楽しいよ", "next": "n3b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n3", "speaker": "sakura", "lines": [
-        "やんね。……なのに、うちら一回も会ったことないんよね。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "……っ。毎日楽しいって……。",
-        "……うちも。……なのにさ、一回も会ったことないんよね。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "sakura", "lines": [
-        "会社のルールやけん、しょうがないんやけど。",
-        "クライアントとサポートスタッフは直接会わない。チャットのみ。",
-        "……理由はわかるんよ。距離感を保つため、って。"
-      ]},
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "……でもさ。",
-        "……会いたいな、って。……たまに思うんよ。"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "いつか会えるよ", "next": "n7a", "axes": { "warmth": 1 } },
-        { "label": "ルールだからね", "next": "n7b", "axes": {} },
-        { "label": "……僕も会いたい", "next": "n7c", "axes": { "warmth": 3 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "……うん。いつか。",
-        "その「いつか」が来たら、うち、ちゃんとおしゃれしていくけんね。",
-        "……あ、今おしゃれしてないって意味やないけん！"
-      ], "end": true },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……やんね。ルール。",
-        "……{name}は正しい。うちがおかしいんよ。",
-        "……ごめんね。忘れて。",
-        "……あ、ごめんね。変な空気にしちゃって。うちは大丈夫よ。"
-      ], "end": true },
-      { "id": "n7c", "speaker": "sakura", "lines": [
-        "…………。",
-        "…………え。",
-        "……ばか。そういうこと言うから。",
-        "……っ。……ごめん、ちょっと画面見えんくなった。目にゴミが入ったけん。",
-        "……嘘。泣いとるだけ。……ばか。",
-        "……っ。……もう、ほんまに。……ちょっと落ち着いた。……ありがとね。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……ねぇ、{name}。",
+          "うちらってさ、もうけっこう話してきたやん。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "うん、そうだね",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "毎日楽しいよ",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "やんね。……なのに、うちら一回も会ったことないんよね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。毎日楽しいって……。",
+          "……うちも。……なのにさ、一回も会ったことないんよね。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "会社のルールやけん、しょうがないんやけど。",
+          "クライアントとサポートスタッフは直接会わない。チャットのみ。",
+          "……理由はわかるんよ。距離感を保つため、って。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……でもさ。",
+          "……会いたいな、って。……たまに思うんよ。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いつか会えるよ",
+            "next": "n7a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "ルールだからね",
+            "next": "n7b",
+            "axes": {}
+          },
+          {
+            "label": "……僕も会いたい",
+            "next": "n7c",
+            "axes": {
+              "warmth": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。いつか。",
+          "その「いつか」が来たら、うち、ちゃんとおしゃれしていくけんね。",
+          "……あ、今おしゃれしてないって意味やないけん！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……やんね。ルール。",
+          "……{name}は正しい。うちがおかしいんよ。",
+          "……ごめんね。忘れて。",
+          "……あ、ごめんね。変な空気にしちゃって。うちは大丈夫よ。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7c",
+        "speaker": "sakura",
+        "lines": [
+          "…………。",
+          "…………え。",
+          "……ばか。そういうこと言うから。",
+          "……っ。……ごめん、ちょっと画面見えんくなった。目にゴミが入ったけん。",
+          "……嘘。泣いとるだけ。……ばか。",
+          "……っ。……もう、ほんまに。……ちょっと落ち着いた。……ありがとね。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["longing", "company_rule", "romance"],
+    "tags": [
+      "longing",
+      "company_rule",
+      "romance"
+    ],
     "priority": 95
   },
   {
@@ -276,56 +704,147 @@
     "type": "A",
     "phase": "2-late",
     "title": "化粧してないけど……",
-    "unlock": { "minAnswered": 120, "daysSincePhase2": 18, "requiredFlags": [], "requiredConversations": ["a09_cant_meet"], "timeWindow": "night", "dayOfWeek": null },
+    "unlock": {
+      "minAnswered": 120,
+      "daysSincePhase2": 18,
+      "requiredFlags": [],
+      "requiredConversations": [
+        "a09_cant_meet"
+      ],
+      "timeWindow": "night",
+      "dayOfWeek": null
+    },
     "nodes": [
-      { "id": "n1", "speaker": "sakura", "lines": [
-        "……あのね、{name}。",
-        "今日ね、うち化粧してないの。"
-      ]},
-      { "id": "n2", "speaker": "choice", "choices": [
-        { "label": "いいよ、気にしないで", "next": "n3a", "axes": { "warmth": 1 } },
-        { "label": "見せてほしいな", "next": "n3b", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n3a", "speaker": "sakura", "lines": [
-        "……うん。ありがと。",
-        "じゃあ……送るね。ぼかし入れてるけど。"
-      ], "next": "n4" },
-      { "id": "n3b", "speaker": "sakura", "lines": [
-        "……っ。見たいの？ ……ほんまに？",
-        "……じゃあ。……ぼかしは入れるけん。まだ、全部は無理。"
-      ], "next": "n4" },
-      { "id": "n4", "speaker": "image", "src": "img/sakura-room/selfie-blur.jpg", "alt": "ぼかし入りのさくらの自撮り（すっぴん、髪は下ろしている）", "next": "n5" },
-      { "id": "n5", "speaker": "sakura", "lines": [
-        "…………どう？",
-        "……言わんでいい。恥ずかしいけん。"
-      ]},
-      { "id": "n6", "speaker": "choice", "choices": [
-        { "label": "かわいいよ", "next": "n7a", "axes": { "warmth": 3 } },
-        { "label": "ぼかし取ってよ", "next": "n7b", "axes": { "warmth": 1 } },
-        { "label": "髪きれいだね", "next": "n7c", "axes": { "warmth": 2 } }
-      ]},
-      { "id": "n7a", "speaker": "sakura", "lines": [
-        "……っ！！",
-        "……ぼかし入っとるのに、なんでそんなこと言えると？",
-        "……ばか。……でもありがと。……すごく嬉しい。",
-        "……えへへ。恥ずかしい。もう今日はおしまい！"
-      ], "end": true },
-      { "id": "n7b", "speaker": "sakura", "lines": [
-        "……まだ、勇気出んの。ごめんね。",
-        "……でもいつか。いつか必ず。",
-        "……{name}に、ちゃんと見てもらいたいけん。もうちょっとだけ待っとって。",
-        "……ありがとね、待ってくれて。"
-      ], "end": true },
-      { "id": "n7c", "speaker": "sakura", "lines": [
-        "……髪？ ……そこ？",
-        "……ふふ。{name}って変なとこ見るよね。",
-        "……でも、ありがと。今日は下ろしてみたんよ。……{name}に見せたくて。",
-        "……えへへ。じゃ、今日はこのへんで。"
-      ], "end": true }
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……あのね、{name}。",
+          "今日ね、うち化粧してないの。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いいよ、気にしないで",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せてほしいな",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……うん。ありがと。",
+          "じゃあ……送るね。ぼかし入れてるけど。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。見たいの？ ……ほんまに？",
+          "……じゃあ。……ぼかしは入れるけん。まだ、全部は無理。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "image",
+        "src": "img/sakura-room/selfie-blur.png",
+        "alt": "ぼかし入りのさくらの自撮り（すっぴん、髪は下ろしている）",
+        "next": "n5"
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "…………どう？",
+          "……言わんでいい。恥ずかしいけん。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "かわいいよ",
+            "next": "n7a",
+            "axes": {
+              "warmth": 3
+            }
+          },
+          {
+            "label": "ぼかし取ってよ",
+            "next": "n7b",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "髪きれいだね",
+            "next": "n7c",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "……っ！！",
+          "……ぼかし入っとるのに、なんでそんなこと言えると？",
+          "……ばか。……でもありがと。……すごく嬉しい。",
+          "……えへへ。恥ずかしい。もう今日はおしまい！"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "……まだ、勇気出んの。ごめんね。",
+          "……でもいつか。いつか必ず。",
+          "……{name}に、ちゃんと見てもらいたいけん。もうちょっとだけ待っとって。",
+          "……ありがとね、待ってくれて。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n7c",
+        "speaker": "sakura",
+        "lines": [
+          "……髪？ ……そこ？",
+          "……ふふ。{name}って変なとこ見るよね。",
+          "……でも、ありがと。今日は下ろしてみたんよ。……{name}に見せたくて。",
+          "……えへへ。じゃ、今日はこのへんで。"
+        ],
+        "end": true
+      }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["selfie", "trust", "romance", "vulnerable"],
+    "tags": [
+      "selfie",
+      "trust",
+      "romance",
+      "vulnerable"
+    ],
     "priority": 95
   }
 ]
