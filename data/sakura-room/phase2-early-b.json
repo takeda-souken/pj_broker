@@ -724,7 +724,8 @@
         "speaker": "image",
         "alt": "カヤトーストと半熟卵とコーヒーのセット",
         "src": "img/sakura-room/kaya-toast.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "自分で撮ったんですけど、おいしそうに見えます？"
       },
       {
         "id": "n2",
@@ -2180,7 +2181,8 @@
         "speaker": "image",
         "alt": "ホーカーで撮ったナシレマの写真",
         "src": "img/sakura-room/nasi-lemak.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "隣の席のおばちゃんが「撮ってあげるよ」って。……料理の写真ですけどね"
       },
       {
         "id": "n2",

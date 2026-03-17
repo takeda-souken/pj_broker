@@ -7,7 +7,9 @@
     "unlock": {
       "minAnswered": 155,
       "daysSincePhase2": 31,
-      "requiredFlags": ["wife_revealed"],
+      "requiredFlags": [
+        "wife_revealed"
+      ],
       "requiredConversations": [
         "a13_nickname_2nd",
         "a08_family_talk"
@@ -921,11 +923,38 @@
         ]
       },
       {
+        "id": "img_teary_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。",
+          "……最後に、一枚だけ送らせて。",
+          "……この顔で、うちのこと思い出して。"
+        ]
+      },
+      {
+        "id": "img_teary_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。",
+          "……最後に、一枚だけ送らせて。",
+          "……この顔で、うちのこと思い出して。"
+        ]
+      },
+      {
+        "id": "img_teary_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。",
+          "……最後に、一枚だけ送らせて。",
+          "……この顔で、うちのこと思い出して。"
+        ]
+      },
+      {
         "id": "img_teary",
         "speaker": "image",
         "src": "img/sakura-room/sakura-teary-smile.png",
         "alt": "さくらの泣き笑い。涙を堪えながら笑っている",
-        "caption": "……うちは大丈夫たい。ほんとに。",
+        "caption": "……うちは大丈夫たい。ほんとに。……忘れんでね。",
         "next": "n24"
       },
       {

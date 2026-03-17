@@ -8,7 +8,9 @@
       "minAnswered": 55,
       "daysSincePhase2": 1,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -27,20 +29,28 @@
           {
             "label": "知ってる、辛いやつだよね",
             "next": "n3a",
-            "flags": { "knows_laksa": true },
+            "flags": {
+              "knows_laksa": true
+            },
             "axes": {}
           },
           {
             "label": "名前は聞いたことある",
             "next": "n3b",
-            "flags": { "knows_laksa": false },
+            "flags": {
+              "knows_laksa": false
+            },
             "axes": {}
           },
           {
             "label": "知らない",
             "next": "n3c",
-            "flags": { "knows_laksa": false },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "knows_laksa": false
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -86,12 +96,16 @@
           {
             "label": "克服したの？",
             "next": "n6",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "無理しなくてもいいのに",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -129,8 +143,12 @@
           {
             "label": "大阪人なめんなよ",
             "next": "n9a",
-            "flags": { "likes_spicy": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "likes_spicy": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まぁまぁかな",
@@ -141,8 +159,12 @@
           {
             "label": "実は苦手……",
             "next": "n9c",
-            "flags": { "likes_spicy": false },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "likes_spicy": false
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -185,11 +207,13 @@
     ],
     "closing": "auto",
     "category": "daily",
-    "tags": ["food", "laksa"],
+    "tags": [
+      "food",
+      "laksa"
+    ],
     "image": null,
     "priority": 50
   },
-
   {
     "id": "b02_kaya_toast",
     "type": "B",
@@ -199,7 +223,9 @@
       "minAnswered": 60,
       "daysSincePhase2": 2,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -209,7 +235,7 @@
         "speaker": "image",
         "src": "img/sakura/kaya-toast-morning.jpg",
         "alt": "カヤトーストとコピの写真",
-        "caption": "今朝のうちの朝ごはん！",
+        "caption": "今朝のうちの朝ごはんです。自分で撮りました ☕",
         "next": "n2"
       },
       {
@@ -227,19 +253,25 @@
           {
             "label": "カヤって何？",
             "next": "n4a",
-            "flags": { "knows_kaya": false },
+            "flags": {
+              "knows_kaya": false
+            },
             "axes": {}
           },
           {
             "label": "美味しそうだね",
             "next": "n4b",
             "flags": {},
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "朝ちゃんと食べてるんだ",
             "next": "n4c",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -285,13 +317,19 @@
           {
             "label": "甘いコーヒーは好きだよ",
             "next": "n7a",
-            "flags": { "likes_kopi": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "likes_kopi": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "ブラック派なんだ",
             "next": "n7b",
-            "flags": { "likes_kopi": false },
+            "flags": {
+              "likes_kopi": false
+            },
             "axes": {}
           }
         ]
@@ -330,11 +368,14 @@
     ],
     "closing": "auto",
     "category": "daily",
-    "tags": ["food", "breakfast", "coffee"],
+    "tags": [
+      "food",
+      "breakfast",
+      "coffee"
+    ],
     "image": "img/sakura/kaya-toast-morning.jpg",
     "priority": 50
   },
-
   {
     "id": "b03_roti_prata",
     "type": "B",
@@ -344,8 +385,13 @@
       "minAnswered": 65,
       "daysSincePhase2": 3,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
-      "timeWindow": { "from": "20:00", "to": "01:59" },
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "timeWindow": {
+        "from": "20:00",
+        "to": "01:59"
+      },
       "dayOfWeek": null
     },
     "nodes": [
@@ -371,14 +417,20 @@
           {
             "label": "インドのパンみたいなやつ？",
             "next": "n4a",
-            "flags": { "knows_roti": true },
+            "flags": {
+              "knows_roti": true
+            },
             "axes": {}
           },
           {
             "label": "初めて聞いた",
             "next": "n4b",
-            "flags": { "knows_roti": false },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "knows_roti": false
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -420,7 +472,9 @@
           {
             "label": "夜食派なんだ",
             "next": "n7b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -461,13 +515,19 @@
           {
             "label": "今度行ってみるよ",
             "next": "n10a",
-            "flags": { "will_try_prata": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "will_try_prata": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "さくらも一緒に……",
             "next": "n10b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -501,7 +561,11 @@
     ],
     "closing": "auto",
     "category": "daily",
-    "tags": ["food", "roti-prata", "nightlife"],
+    "tags": [
+      "food",
+      "roti-prata",
+      "nightlife"
+    ],
     "image": null,
     "priority": 50
   }

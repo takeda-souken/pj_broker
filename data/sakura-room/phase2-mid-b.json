@@ -143,7 +143,8 @@
         "speaker": "image",
         "alt": "サテーの写真（炭火焼きの串）",
         "src": "img/sakura-room/satay.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "昨日の夜うちが撮ったやつ。炭火の匂い、伝わる？"
       },
       {
         "id": "n2",
@@ -276,8 +277,16 @@
         "speaker": "image",
         "src": "img/sakura-room/sakura-cooking.png",
         "alt": "エプロン姿でキッチンに立つさくらの自撮り（髪下ろし）",
-        "caption": "母ちゃんのレシピでチキンライス作るけん！",
+        "caption": null,
         "next": "n2"
+      },
+      {
+        "id": "img1_react",
+        "speaker": "sakura",
+        "lines": [
+          "……あ、写真送っちゃった。恥ずかしい……。",
+          "……でも{name}に見てほしかったけん。"
+        ]
       },
       {
         "id": "n2",
@@ -396,7 +405,8 @@
         "speaker": "image",
         "alt": "Tiong Bahruのレトロな建物とカフェ",
         "src": "img/sakura-room/tiong-bahru.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "うちのスマホで撮りました。この雰囲気、伝わりますかね？"
       },
       {
         "id": "n2",
@@ -522,6 +532,14 @@
         "src": "img/sakura-room/sakura-flower-shop-apron.png",
         "next": "n2",
         "caption": "今日は父ちゃんのお店手伝い中〜"
+      },
+      {
+        "id": "n1_react",
+        "speaker": "sakura",
+        "lines": [
+          "……あ。これ父ちゃんが撮ったやつ。",
+          "……恥ずかしいけど、{name}に見せたくて。"
+        ]
       },
       {
         "id": "n2",
@@ -1012,11 +1030,67 @@
         ]
       },
       {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "あ、{name}。元気わけてほしいと？ はい！"
+        ]
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-morning-commute.png",
         "alt": "MRT車窓を背景にポニーテール姿のさくらの自撮り",
-        "caption": "おはよ〜 今日もギリギリ！",
+        "caption": "おはよ〜 今日もギリギリ！ 元気出して！",
         "next": "n2"
       },
       {
@@ -1778,7 +1852,8 @@
         "speaker": "image",
         "alt": "マリーナベイの夜景",
         "src": "img/sakura-room/marina-bay-night.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "うちのスマホで撮ったけん画質悪いけど……きれいやったんよ"
       },
       {
         "id": "n2",
@@ -2262,7 +2337,8 @@
         "speaker": "image",
         "alt": "カラフルなアイスカチャンの写真",
         "src": "img/sakura-room/ice-kachang.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "食べる前に撮るの忘れそうになった。ギリギリセーフ"
       },
       {
         "id": "n2",

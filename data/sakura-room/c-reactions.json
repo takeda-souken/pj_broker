@@ -1079,7 +1079,8 @@
         "speaker": "image",
         "alt": "オレンジ色の猫が日向ぼっこしている",
         "src": "img/sakura-room/mikan-cat-2.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "さっきうちが撮った。日向ぼっこ中のみかん"
       },
       {
         "id": "n2",
@@ -1401,7 +1402,8 @@
         "speaker": "image",
         "alt": "自作チキンライスの写真（ちょっと不格好）",
         "src": "img/sakura-room/homemade-chicken-rice.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "自分で撮りました。……不格好やけど、見て欲しくて"
       },
       {
         "id": "n2",
@@ -1485,7 +1487,8 @@
         "speaker": "image",
         "alt": "花屋に並ぶ色とりどりの花",
         "src": "img/sakura-room/flower-shop-2.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "父ちゃんに撮ってもらった。今日入荷の花、きれいやろ？"
       },
       {
         "id": "n2",
@@ -1569,7 +1572,8 @@
         "speaker": "image",
         "alt": "カラフルな層状のクエラピス",
         "src": "img/sakura-room/kueh-lapis.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "同僚のミンさんが撮ってくれました。きれいやろ？"
       },
       {
         "id": "n2",
@@ -2115,7 +2119,9 @@
       "minAnswered": 65,
       "daysSincePhase2": 10,
       "requiredFlags": [],
-      "requiredConversations": ["b22_satay"],
+      "requiredConversations": [
+        "b22_satay"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2136,7 +2142,9 @@
           {
             "label": "食べたよ！",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだなんだ",
@@ -2159,12 +2167,16 @@
           {
             "label": "ソースが最高だった",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "肉がジューシーだった",
             "next": "n5b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2199,9 +2211,15 @@
         "end": true
       }
     ],
-    "closing": ["サテーの匂い、思い出しただけでお腹鳴りそう……。"],
+    "closing": [
+      "サテーの匂い、思い出しただけでお腹鳴りそう……。"
+    ],
     "category": "reaction",
-    "tags": ["food", "satay", "followup"],
+    "tags": [
+      "food",
+      "satay",
+      "followup"
+    ],
     "priority": 50
   },
   {
@@ -2213,7 +2231,9 @@
       "minAnswered": 68,
       "daysSincePhase2": 11,
       "requiredFlags": [],
-      "requiredConversations": ["b37_grab_taxi"],
+      "requiredConversations": [
+        "b37_grab_taxi"
+      ],
       "minConversationsSince": 4,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2234,12 +2254,16 @@
           {
             "label": "めっちゃ便利",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだちょっと緊張する",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2258,7 +2282,9 @@
           {
             "label": "深夜のポテトはわかる",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "GrabFoodも使ってみようかな",
@@ -2296,9 +2322,15 @@
         "end": true
       }
     ],
-    "closing": ["Grabの話してたら出前頼みたくなってきた……。"],
+    "closing": [
+      "Grabの話してたら出前頼みたくなってきた……。"
+    ],
     "category": "reaction",
-    "tags": ["transport", "grab", "followup"],
+    "tags": [
+      "transport",
+      "grab",
+      "followup"
+    ],
     "priority": 45
   },
   {
@@ -2310,7 +2342,9 @@
       "minAnswered": 72,
       "daysSincePhase2": 12,
       "requiredFlags": [],
-      "requiredConversations": ["b42_japanese_drama"],
+      "requiredConversations": [
+        "b42_japanese_drama"
+      ],
       "minConversationsSince": 5,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -2330,12 +2364,16 @@
           {
             "label": "どうだった？",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "ハッピーエンドだった？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2377,7 +2415,9 @@
           {
             "label": "好きなジャンルは？",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2401,9 +2441,15 @@
         "end": true
       }
     ],
-    "closing": ["ドラマの話できる人がおるって嬉しいな。"],
+    "closing": [
+      "ドラマの話できる人がおるって嬉しいな。"
+    ],
     "category": "reaction",
-    "tags": ["drama", "entertainment", "followup"],
+    "tags": [
+      "drama",
+      "entertainment",
+      "followup"
+    ],
     "priority": 50
   },
   {
@@ -2415,7 +2461,9 @@
       "minAnswered": 75,
       "daysSincePhase2": 13,
       "requiredFlags": [],
-      "requiredConversations": ["b29_commute"],
+      "requiredConversations": [
+        "b29_commute"
+      ],
       "minConversationsSince": 6,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2436,12 +2484,16 @@
           {
             "label": "だいぶ慣れたよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "朝のラッシュがきつい",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2465,7 +2517,9 @@
           {
             "label": "たまに間違える",
             "next": "n5b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2498,9 +2552,15 @@
         "end": true
       }
     ],
-    "closing": ["MRTの話すると通勤したくなる……嘘、なりません。"],
+    "closing": [
+      "MRTの話すると通勤したくなる……嘘、なりません。"
+    ],
     "category": "reaction",
-    "tags": ["transport", "commute", "followup"],
+    "tags": [
+      "transport",
+      "commute",
+      "followup"
+    ],
     "priority": 45
   },
   {
@@ -2512,7 +2572,9 @@
       "minAnswered": 78,
       "daysSincePhase2": 14,
       "requiredFlags": [],
-      "requiredConversations": ["b40_work_stress"],
+      "requiredConversations": [
+        "b40_work_stress"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2533,12 +2595,16 @@
           {
             "label": "覚えてるよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "大丈夫だった？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2575,12 +2641,16 @@
           {
             "label": "よかった",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "また辛くなったらいつでも言って",
             "next": "n6b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -2604,9 +2674,15 @@
         "end": true
       }
     ],
-    "closing": ["よし、今日もがんばろ。{name}のおかげでそう思える。"],
+    "closing": [
+      "よし、今日もがんばろ。{name}のおかげでそう思える。"
+    ],
     "category": "reaction",
-    "tags": ["work", "emotional", "followup"],
+    "tags": [
+      "work",
+      "emotional",
+      "followup"
+    ],
     "priority": 55
   },
   {
@@ -2618,7 +2694,9 @@
       "minAnswered": 80,
       "daysSincePhase2": 14,
       "requiredFlags": [],
-      "requiredConversations": ["b36_holland_village"],
+      "requiredConversations": [
+        "b36_holland_village"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2639,7 +2717,9 @@
           {
             "label": "行ったよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだ行けてない",
@@ -2662,12 +2742,16 @@
           {
             "label": "カフェが良かった",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "雰囲気が好き",
             "next": "n5b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2702,9 +2786,15 @@
         "end": true
       }
     ],
-    "closing": ["Holland Villageの話するとカフェ行きたくなる……。"],
+    "closing": [
+      "Holland Villageの話するとカフェ行きたくなる……。"
+    ],
     "category": "reaction",
-    "tags": ["area", "holland_village", "followup"],
+    "tags": [
+      "area",
+      "holland_village",
+      "followup"
+    ],
     "priority": 50
   },
   {
@@ -2716,7 +2806,9 @@
       "minAnswered": 83,
       "daysSincePhase2": 15,
       "requiredFlags": [],
-      "requiredConversations": ["b43_merlion"],
+      "requiredConversations": [
+        "b43_merlion"
+      ],
       "minConversationsSince": 4,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2737,7 +2829,9 @@
           {
             "label": "見たよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだ見てない",
@@ -2760,12 +2854,16 @@
           {
             "label": "意外とよかった",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "正直、小さかった",
             "next": "n5b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2800,9 +2898,15 @@
         "end": true
       }
     ],
-    "closing": ["マーライオンの口から水出るやん、あれたまに止まっとるけんタイミング注意ね。"],
+    "closing": [
+      "マーライオンの口から水出るやん、あれたまに止まっとるけんタイミング注意ね。"
+    ],
     "category": "reaction",
-    "tags": ["sightseeing", "merlion", "followup"],
+    "tags": [
+      "sightseeing",
+      "merlion",
+      "followup"
+    ],
     "priority": 45
   },
   {
@@ -2814,10 +2918,14 @@
       "minAnswered": 86,
       "daysSincePhase2": 15,
       "requiredFlags": [],
-      "requiredConversations": ["b44_sunday_morning"],
+      "requiredConversations": [
+        "b44_sunday_morning"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
-      "dayOfWeek": [0]
+      "dayOfWeek": [
+        0
+      ]
     },
     "nodes": [
       {
@@ -2835,12 +2943,16 @@
           {
             "label": "のんびりしてる",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "勉強してる",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2865,9 +2977,15 @@
         "end": true
       }
     ],
-    "closing": ["日曜の夜がいちばん寂しい。……あ、言うてもうた。"],
+    "closing": [
+      "日曜の夜がいちばん寂しい。……あ、言うてもうた。"
+    ],
     "category": "reaction",
-    "tags": ["daily", "sunday", "followup"],
+    "tags": [
+      "daily",
+      "sunday",
+      "followup"
+    ],
     "priority": 45
   },
   {
@@ -2879,7 +2997,9 @@
       "minAnswered": 105,
       "daysSincePhase2": 20,
       "requiredFlags": [],
-      "requiredConversations": ["b46_cny_prep"],
+      "requiredConversations": [
+        "b46_cny_prep"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -2900,7 +3020,9 @@
           {
             "label": "行ったよ、すごかった",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "行けなかったけど雰囲気は感じた",
@@ -2925,12 +3047,16 @@
           {
             "label": "楽しそう",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "来年は参加してみたい",
             "next": "n5b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -2963,9 +3089,16 @@
         "end": true
       }
     ],
-    "closing": ["旧正月のお年玉、大人になっても嬉しいんよ。……いくつになっても。"],
+    "closing": [
+      "旧正月のお年玉、大人になっても嬉しいんよ。……いくつになっても。"
+    ],
     "category": "reaction",
-    "tags": ["culture", "cny", "followup", "emotional"],
+    "tags": [
+      "culture",
+      "cny",
+      "followup",
+      "emotional"
+    ],
     "priority": 55
   },
   {
@@ -2977,7 +3110,9 @@
       "minAnswered": 110,
       "daysSincePhase2": 21,
       "requiredFlags": [],
-      "requiredConversations": ["b47_rooftop"],
+      "requiredConversations": [
+        "b47_rooftop"
+      ],
       "minConversationsSince": 5,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -2998,7 +3133,9 @@
           {
             "label": "行ったよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだ",
@@ -3021,12 +3158,16 @@
           {
             "label": "きれいだった。さくらのこと思い出した",
             "next": "n5a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "風が気持ちよかった",
             "next": "n5b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3062,9 +3203,16 @@
         "end": true
       }
     ],
-    "closing": ["……今夜も屋上の風、気持ちいいやろうね。"],
+    "closing": [
+      "……今夜も屋上の風、気持ちいいやろうね。"
+    ],
     "category": "reaction",
-    "tags": ["place", "rooftop", "emotional", "followup"],
+    "tags": [
+      "place",
+      "rooftop",
+      "emotional",
+      "followup"
+    ],
     "priority": 60
   },
   {
@@ -3076,7 +3224,9 @@
       "minAnswered": 113,
       "daysSincePhase2": 22,
       "requiredFlags": [],
-      "requiredConversations": ["b54_pet_cat"],
+      "requiredConversations": [
+        "b54_pet_cat"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3097,12 +3247,16 @@
           {
             "label": "もちろん",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "みかん元気？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3143,7 +3297,9 @@
           {
             "label": "羨ましい",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3168,9 +3324,16 @@
         "end": true
       }
     ],
-    "closing": ["みかんが画面越しに{name}のこと見とるよ。……たぶん。"],
+    "closing": [
+      "みかんが画面越しに{name}のこと見とるよ。……たぶん。"
+    ],
     "category": "reaction",
-    "tags": ["cat", "mikan", "followup", "emotional"],
+    "tags": [
+      "cat",
+      "mikan",
+      "followup",
+      "emotional"
+    ],
     "priority": 55
   },
   {
@@ -3182,7 +3345,9 @@
       "minAnswered": 116,
       "daysSincePhase2": 23,
       "requiredFlags": [],
-      "requiredConversations": ["b56_hair_cut"],
+      "requiredConversations": [
+        "b56_hair_cut"
+      ],
       "minConversationsSince": 4,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3203,12 +3368,16 @@
           {
             "label": "うん、覚えてる",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "似合ってたよ",
             "next": "n3b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -3244,12 +3413,16 @@
           {
             "label": "気づいてたよ",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "そうだったんだ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3274,9 +3447,16 @@
         "end": true
       }
     ],
-    "closing": ["……次切る時は、先に相談するけん。……嘘。自分で決める。"],
+    "closing": [
+      "……次切る時は、先に相談するけん。……嘘。自分で決める。"
+    ],
     "category": "reaction",
-    "tags": ["appearance", "haircut", "emotional", "followup"],
+    "tags": [
+      "appearance",
+      "haircut",
+      "emotional",
+      "followup"
+    ],
     "priority": 60
   },
   {
@@ -3288,7 +3468,9 @@
       "minAnswered": 120,
       "daysSincePhase2": 24,
       "requiredFlags": [],
-      "requiredConversations": ["b53_dream_talk"],
+      "requiredConversations": [
+        "b53_dream_talk"
+      ],
       "minConversationsSince": 5,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -3314,7 +3496,9 @@
           {
             "label": "さくらの夢、覚えてるよ",
             "next": "n3b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -3352,12 +3536,16 @@
           {
             "label": "いい夢だと思う",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "……その「誰か」って",
             "next": "n6b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -3382,9 +3570,16 @@
         "end": true
       }
     ],
-    "closing": ["……夜に夢の話すると、ほんまになる気がするね。"],
+    "closing": [
+      "……夜に夢の話すると、ほんまになる気がするね。"
+    ],
     "category": "reaction",
-    "tags": ["dream", "future", "emotional", "followup"],
+    "tags": [
+      "dream",
+      "future",
+      "emotional",
+      "followup"
+    ],
     "priority": 65
   },
   {
@@ -3396,7 +3591,9 @@
       "minAnswered": 124,
       "daysSincePhase2": 25,
       "requiredFlags": [],
-      "requiredConversations": ["b60_reading"],
+      "requiredConversations": [
+        "b60_reading"
+      ],
       "minConversationsSince": 4,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3417,12 +3614,16 @@
           {
             "label": "読んだよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "途中で止まってる",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -3440,12 +3641,16 @@
           {
             "label": "よかったよ",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "さくらが好きそうな本だなと思った",
             "next": "n5b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -3480,9 +3685,16 @@
         "end": true
       }
     ],
-    "closing": ["本の話できる相手がおるって、贅沢やなぁ。"],
+    "closing": [
+      "本の話できる相手がおるって、贅沢やなぁ。"
+    ],
     "category": "reaction",
-    "tags": ["book", "reading", "followup", "emotional"],
+    "tags": [
+      "book",
+      "reading",
+      "followup",
+      "emotional"
+    ],
     "priority": 55
   },
   {
@@ -3494,7 +3706,9 @@
       "minAnswered": 128,
       "daysSincePhase2": 26,
       "requiredFlags": [],
-      "requiredConversations": ["b62_midnight_snack"],
+      "requiredConversations": [
+        "b62_midnight_snack"
+      ],
       "minConversationsSince": 4,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -3515,12 +3729,16 @@
           {
             "label": "実はさっき行ってきた",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "我慢してる",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -3539,12 +3757,16 @@
           {
             "label": "最高だよね",
             "next": "n5a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "体に悪いけどやめられない",
             "next": "n5b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -3578,9 +3800,16 @@
         "end": true
       }
     ],
-    "closing": ["……そろそろ寝よっか。歯磨きせんと。……おやすみ。"],
+    "closing": [
+      "……そろそろ寝よっか。歯磨きせんと。……おやすみ。"
+    ],
     "category": "reaction",
-    "tags": ["night", "snack", "followup", "emotional"],
+    "tags": [
+      "night",
+      "snack",
+      "followup",
+      "emotional"
+    ],
     "priority": 55
   },
   {
@@ -3592,7 +3821,9 @@
       "minAnswered": 160,
       "daysSincePhase2": 32,
       "requiredFlags": [],
-      "requiredConversations": ["b58_sunset_photo"],
+      "requiredConversations": [
+        "b58_sunset_photo"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3613,12 +3844,16 @@
           {
             "label": "覚えてるよ",
             "next": "n3a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "きれいだったね",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3656,12 +3891,16 @@
           {
             "label": "……僕もさくらに見せたいものがある",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "写真でも送ってよ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3686,9 +3925,16 @@
         "end": true
       }
     ],
-    "closing": ["……明日も夕焼け、きれいやといいね。"],
+    "closing": [
+      "……明日も夕焼け、きれいやといいね。"
+    ],
     "category": "reaction",
-    "tags": ["sunset", "emotional", "yearning", "followup"],
+    "tags": [
+      "sunset",
+      "emotional",
+      "yearning",
+      "followup"
+    ],
     "priority": 70
   },
   {
@@ -3700,7 +3946,9 @@
       "minAnswered": 165,
       "daysSincePhase2": 33,
       "requiredFlags": [],
-      "requiredConversations": ["b59_favorite_song"],
+      "requiredConversations": [
+        "b59_favorite_song"
+      ],
       "minConversationsSince": 5,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -3721,12 +3969,16 @@
           {
             "label": "まだ聴いてるんだ",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "……そんなに好きなんだね",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3762,12 +4014,16 @@
           {
             "label": "……届いてるよ",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "……",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3792,9 +4048,16 @@
         "end": true
       }
     ],
-    "closing": ["……イヤホン外すね。……{name}の声のほうがいいけん。……おやすみ。"],
+    "closing": [
+      "……イヤホン外すね。……{name}の声のほうがいいけん。……おやすみ。"
+    ],
     "category": "reaction",
-    "tags": ["music", "emotional", "yearning", "followup"],
+    "tags": [
+      "music",
+      "emotional",
+      "yearning",
+      "followup"
+    ],
     "priority": 70
   },
   {
@@ -3806,7 +4069,9 @@
       "minAnswered": 170,
       "daysSincePhase2": 34,
       "requiredFlags": [],
-      "requiredConversations": ["b60_study_worry"],
+      "requiredConversations": [
+        "b60_study_worry"
+      ],
       "minConversationsSince": 6,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3827,12 +4092,16 @@
           {
             "label": "がんばってるよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "……正直、あまり",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -3870,12 +4139,16 @@
           {
             "label": "さくらのことは忘れられないよ",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "約束するよ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3901,9 +4174,16 @@
         "end": true
       }
     ],
-    "closing": ["……うちが子守唄歌ってあげたいくらいやけど……音痴やけん、やめとく。"],
+    "closing": [
+      "……うちが子守唄歌ってあげたいくらいやけど……音痴やけん、やめとく。"
+    ],
     "category": "reaction",
-    "tags": ["worry", "care", "emotional", "followup"],
+    "tags": [
+      "worry",
+      "care",
+      "emotional",
+      "followup"
+    ],
     "priority": 70
   },
   {
@@ -3915,7 +4195,9 @@
       "minAnswered": 175,
       "daysSincePhase2": 35,
       "requiredFlags": [],
-      "requiredConversations": ["b63_childhood_dream"],
+      "requiredConversations": [
+        "b63_childhood_dream"
+      ],
       "minConversationsSince": 5,
       "timeWindow": null,
       "dayOfWeek": null
@@ -3935,12 +4217,16 @@
           {
             "label": "うん、覚えてる",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "さくらの夢、花屋さんだったっけ",
             "next": "n3b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -3977,12 +4263,16 @@
           {
             "label": "僕もさくらに会えてよかった",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "人生って不思議だね",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -4007,9 +4297,16 @@
         "end": true
       }
     ],
-    "closing": ["……子供の頃のうちに教えてあげたいな。大丈夫やよって。"],
+    "closing": [
+      "……子供の頃のうちに教えてあげたいな。大丈夫やよって。"
+    ],
     "category": "reaction",
-    "tags": ["dream", "childhood", "emotional", "followup"],
+    "tags": [
+      "dream",
+      "childhood",
+      "emotional",
+      "followup"
+    ],
     "priority": 70
   },
   {
@@ -4021,7 +4318,9 @@
       "minAnswered": 180,
       "daysSincePhase2": 36,
       "requiredFlags": [],
-      "requiredConversations": ["b62_quiet_night"],
+      "requiredConversations": [
+        "b62_quiet_night"
+      ],
       "minConversationsSince": 6,
       "timeWindow": "night",
       "dayOfWeek": null
@@ -4041,12 +4340,16 @@
           {
             "label": "……また、なんでもない夜？",
             "next": "n3a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "……いるよ",
             "next": "n3b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -4085,12 +4388,16 @@
           {
             "label": "……終わらないよ",
             "next": "n6a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "……僕も、同じ気持ちだよ",
             "next": "n6b",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -4116,9 +4423,17 @@
         "end": true
       }
     ],
-    "closing": ["…………。"],
+    "closing": [
+      "…………。"
+    ],
     "category": "reaction",
-    "tags": ["quiet", "night", "emotional", "intimate", "followup"],
+    "tags": [
+      "quiet",
+      "night",
+      "emotional",
+      "intimate",
+      "followup"
+    ],
     "priority": 75
   }
 ]

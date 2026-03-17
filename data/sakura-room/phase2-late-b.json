@@ -137,7 +137,8 @@
         "speaker": "image",
         "alt": "ビルの屋上から見た夜のSG",
         "src": "img/sakura-room/rooftop-night.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "ひとりで撮った。……ここ、うちの秘密の場所"
       },
       {
         "id": "n2",
@@ -419,11 +420,92 @@
         ]
       },
       {
+        "id": "n4_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。ちょっとだけ、見せたいものがあるんやけど。",
+          "……笑わんでね。"
+        ]
+      },
+      {
+        "id": "n4_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。ちょっとだけ、見せたいものがあるんやけど。",
+          "……笑わんでね。"
+        ]
+      },
+      {
+        "id": "n4_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。ちょっとだけ、見せたいものがあるんやけど。",
+          "……笑わんでね。"
+        ]
+      },
+      {
+        "id": "n4_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。ちょっとだけ、見せたいものがあるんやけど。",
+          "……笑わんでね。"
+        ]
+      },
+      {
+        "id": "n4_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……ねえ、{name}。ちょっとだけ、見せたいものがあるんやけど。",
+          "……笑わんでね。"
+        ]
+      },
+      {
         "id": "n4",
         "speaker": "image",
         "alt": "さくらの自撮り（ぼかし加工）",
         "src": "img/sakura-room/sakura-selfie-blur.png",
-        "next": "n5"
+        "next": "n5",
+        "caption": null
+      },
+      {
+        "id": "n4_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ぼかしかけたけど。",
+          "……もうちょっとだけ。もうちょっとだけ待って。いつかちゃんと見せるけん。"
+        ]
+      },
+      {
+        "id": "n4_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ぼかしかけたけど。",
+          "……もうちょっとだけ。もうちょっとだけ待って。いつかちゃんと見せるけん。"
+        ]
+      },
+      {
+        "id": "n4_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ぼかしかけたけど。",
+          "……もうちょっとだけ。もうちょっとだけ待って。いつかちゃんと見せるけん。"
+        ]
+      },
+      {
+        "id": "n4_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ぼかしかけたけど。",
+          "……もうちょっとだけ。もうちょっとだけ待って。いつかちゃんと見せるけん。"
+        ]
+      },
+      {
+        "id": "n4_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ぼかしかけたけど。",
+          "……もうちょっとだけ。もうちょっとだけ待って。いつかちゃんと見せるけん。"
+        ]
       },
       {
         "id": "n5",
@@ -963,7 +1045,8 @@
         "speaker": "image",
         "alt": "道端で寝ている猫の写真",
         "src": "img/sakura-room/stray-cat.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "さっきうちが撮ったんよ。かわいくない？"
       },
       {
         "id": "n2",
@@ -2349,7 +2432,8 @@
         "speaker": "image",
         "alt": "one-northエリアのカフェランチ",
         "src": "img/sakura-room/one-north-lunch.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "同僚に「また撮っとる」って笑われた"
       },
       {
         "id": "n2",
@@ -2716,6 +2800,41 @@
         ]
       },
       {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にだけ見せるけん。笑ったら怒るよ。"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にだけ見せるけん。笑ったら怒るよ。"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にだけ見せるけん。笑ったら怒るよ。"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にだけ見せるけん。笑ったら怒るよ。"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にだけ見せるけん。笑ったら怒るよ。"
+        ]
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-hair-down.png",
@@ -2804,11 +2923,46 @@
         ]
       },
       {
+        "id": "ask_photo",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "写真見せて",
+            "next": "tease_reply",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "いいなー",
+            "next": "tease_reply2",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "tease_reply",
+        "speaker": "sakura",
+        "lines": [
+          "えー、見たいと？ ……しょうがないなぁ。",
+          "……じゃあ特別に。"
+        ],
+        "next": "img1"
+      },
+      {
+        "id": "tease_reply2",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、羨ましい？ じゃあ証拠写真送るね！"
+        ],
+        "next": "img1"
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-with-bubble-tea.png",
         "alt": "タピオカミルクティーを持ってピースするさくら",
-        "caption": "ご褒美〜！"
+        "caption": "ご褒美〜！ ……{name}にも買ってきてあげたいなぁ"
       },
       {
         "id": "n2",
@@ -2901,7 +3055,7 @@
         "speaker": "image",
         "src": "img/sakura-room/sakura-hawker-selfie.png",
         "alt": "ホーカーの雑多な背景でわくわく顔のさくら",
-        "caption": "ここ初めて来たっちゃ！"
+        "caption": "ここ初めて来たっちゃ！ {name}にも見せたくて"
       },
       {
         "id": "n2",
@@ -2996,11 +3150,48 @@
         ]
       },
       {
+        "id": "ask_photo",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "顔見せて",
+            "next": "tease_reply",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "大丈夫？",
+            "next": "tease_reply2",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "tease_reply",
+        "speaker": "sakura",
+        "lines": [
+          "……え、こんな疲れた顔でいいと？",
+          "……もう、{name}がそう言うなら。"
+        ],
+        "next": "img1"
+      },
+      {
+        "id": "tease_reply2",
+        "speaker": "sakura",
+        "lines": [
+          "大丈夫よ〜。証拠見せたるね。"
+        ],
+        "next": "img1"
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-after-work.png",
         "alt": "退勤後、夕暮れのオフィス街で疲れた笑顔のさくら",
-        "caption": "生きて帰ってきた……"
+        "caption": "生きて帰ってきた…… {name}に報告"
       },
       {
         "id": "n2",
@@ -3112,6 +3303,41 @@
         ]
       },
       {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にしか送らんとよ？ ほんとよ？"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にしか送らんとよ？ ほんとよ？"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にしか送らんとよ？ ほんとよ？"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にしか送らんとよ？ ほんとよ？"
+        ]
+      },
+      {
+        "id": "img1_intro",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}にしか送らんとよ？ ほんとよ？"
+        ]
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-lazy-sunday.png",
@@ -3208,7 +3434,15 @@
         "speaker": "image",
         "src": "img/sakura-room/sakura-sleepy-face.png",
         "alt": "深夜、ベッドで目が半分閉じているさくら",
-        "caption": "ねむい……けど話しとったら目ぇ覚める"
+        "caption": "ねむい……けど{name}と話しとったら目ぇ覚める"
+      },
+      {
+        "id": "img1_react",
+        "speaker": "sakura",
+        "lines": [
+          "……こんな顔、{name}にしか見せんよ。",
+          "……恥ずかしいけど……{name}やし。"
+        ]
       },
       {
         "id": "n2",
@@ -3323,7 +3557,7 @@
         "speaker": "image",
         "src": "img/sakura-room/sakura-night-coding.png",
         "alt": "暗い部屋でPC画面の光に照らされたさくらの顔",
-        "caption": "ひみつの作業中〜"
+        "caption": "ひみつの作業中〜 ……{name}には教えたる"
       },
       {
         "id": "n4",
@@ -3410,11 +3644,46 @@
         ]
       },
       {
+        "id": "ask_photo",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "自撮り送って",
+            "next": "tease_reply",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "景色見たい",
+            "next": "tease_reply2",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "tease_reply",
+        "speaker": "sakura",
+        "lines": [
+          "え！ ……急に言われると恥ずかしいんやけど。",
+          "……しょうがないなぁ。{name}のお願いやけん。"
+        ],
+        "next": "img1"
+      },
+      {
+        "id": "tease_reply2",
+        "speaker": "sakura",
+        "lines": [
+          "景色ね。はいはい。……あ、うちも写っちゃった。"
+        ],
+        "next": "img1"
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-botanical-garden.png",
         "alt": "ボタニックガーデンで緑背景の自撮り",
-        "caption": "緑に癒される〜"
+        "caption": "緑に癒される〜 ……自撮り棒デビューしたっちゃ"
       },
       {
         "id": "n2",
@@ -3502,11 +3771,52 @@
         ]
       },
       {
+        "id": "ask_photo",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "写真撮った？",
+            "next": "tease_reply",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "きれいだろうね",
+            "next": "tease_reply2",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "tease_reply",
+        "speaker": "sakura",
+        "lines": [
+          "……撮ったよ。{name}に見せたくて、つい。"
+        ],
+        "next": "img1"
+      },
+      {
+        "id": "tease_reply2",
+        "speaker": "sakura",
+        "lines": [
+          "きれいよ。……{name}に見せたくて撮った。"
+        ],
+        "next": "img1"
+      },
+      {
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-night-walk.png",
         "alt": "夜のクラークキー、ライトアップ背景のさくら",
-        "caption": "夜のSGって好きたい。……ひとりやけど"
+        "caption": "夜のSGって好きたい"
+      },
+      {
+        "id": "img1_react",
+        "speaker": "sakura",
+        "lines": [
+          "……ひとりで撮るの、ちょっと寂しかった。"
+        ]
       },
       {
         "id": "n2",

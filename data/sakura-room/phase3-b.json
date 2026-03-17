@@ -20,7 +20,8 @@
         "speaker": "image",
         "alt": "SGの夕焼けの写真",
         "src": "img/sakura-room/sunset.jpg",
-        "next": "n2"
+        "next": "n2",
+        "caption": "……きれいやった。{name}にも見せたくて、つい。"
       },
       {
         "id": "n2",
@@ -1482,6 +1483,13 @@
         "src": "img/sakura-room/sakura-rain-window.png",
         "alt": "雨の窓際、少し寂しげな横顔のさくら",
         "caption": null
+      },
+      {
+        "id": "img1_react",
+        "speaker": "sakura",
+        "lines": [
+          "……自分でも気づかんうちに撮っとった。"
+        ]
       },
       {
         "id": "n2",
