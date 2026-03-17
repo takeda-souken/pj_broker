@@ -16,6 +16,7 @@ import { gasSend } from '../utils/gas-client.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
 import { SakuraState } from '../models/sakura-state.js';
 import { loadAllConversations, getBadgeInfo } from '../models/sakura-room-engine.js';
+import { getUnseenNotice, markNoticeSeen } from '../data/sakura-notices.js';
 
 const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
@@ -143,11 +144,11 @@ registerRoute('#home', async (app) => {
   }
 
   // ─── One-time Sakura notice ───
-  const NOTICE_KEY = 'sg_broker_notice_seen_20260318';
-  if (!localStorage.getItem(NOTICE_KEY)) {
-    localStorage.setItem(NOTICE_KEY, '1');
-    gasSend('Notice', { noticeId: '20260318-timer-fix', event: 'shown' });
-    showSakuraNotice();
+  const notice = getUnseenNotice();
+  if (notice) {
+    markNoticeSeen(notice.id);
+    gasSend('Notice', { noticeId: `${notice.id}-${notice.label}`, event: 'shown' });
+    showSakuraNotice(notice.messages);
     return; // skip normal sakura popup
   }
 
@@ -478,7 +479,7 @@ function triviaLabel(category) {
   return labels[category] || tr('home.didYouKnow', 'Did You Know?');
 }
 
-function showSakuraNotice() {
+function showSakuraNotice(messages) {
   document.body.style.overflow = 'hidden';
 
   const overlay = el('div', { className: 'tutorial-overlay' });
@@ -489,13 +490,6 @@ function showSakuraNotice() {
   overlay.appendChild(hintEl);
 
   document.body.appendChild(overlay);
-
-  const messages = [
-    'お知らせです！',
-    'クイズでタイムアウトしたとき、同じ問題がまた出てきちゃう不具合を修正しました💦',
-    'ご迷惑おかけしました！',
-    'なにかまたあれば、画面左下のメールマークから報告してくださいね🌸',
-  ];
 
   let idx = 0;
   let hintTimer = null;
