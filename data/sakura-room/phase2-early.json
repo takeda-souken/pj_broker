@@ -37,14 +37,22 @@
           {
             "label": "だいぶ慣れてきたよ",
             "next": "n4a",
-            "flags": { "sg_adapted": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "sg_adapted": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "まだ全然……",
             "next": "n4b",
-            "flags": { "sg_adapted": false },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "sg_adapted": false
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -87,7 +95,9 @@
           {
             "label": "どうぞ",
             "next": "n7b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -105,19 +115,27 @@
           {
             "label": "大阪だよ",
             "next": "n7d_osaka",
-            "flags": { "told_origin": "osaka" },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "told_origin": "osaka"
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "当ててみて",
             "next": "n7d_guess",
             "flags": {},
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "関西のほう",
             "next": "n7d_kansai",
-            "flags": { "told_origin": "kansai" },
+            "flags": {
+              "told_origin": "kansai"
+            },
             "axes": {}
           }
         ]
@@ -148,13 +166,19 @@
           {
             "label": "正解、大阪",
             "next": "n7f_bingo",
-            "flags": { "told_origin": "osaka" },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "told_origin": "osaka"
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "惜しい！",
             "next": "n7f_close",
-            "flags": { "told_origin": "kansai" },
+            "flags": {
+              "told_origin": "kansai"
+            },
             "axes": {}
           }
         ]
@@ -203,20 +227,30 @@
           {
             "label": "ホーカーに通ってるよ",
             "next": "n10a",
-            "flags": { "eats_hawker": true },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "eats_hawker": true
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "自炊してる",
             "next": "n10b",
-            "flags": { "cooks_self": true },
+            "flags": {
+              "cooks_self": true
+            },
             "axes": {}
           },
           {
             "label": "適当に済ませてる……",
             "next": "n10c",
-            "flags": { "eats_lazy": true },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "eats_lazy": true
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -263,12 +297,16 @@
           {
             "label": "そのほうがいいよ",
             "next": "n13a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "気にしないで",
             "next": "n13b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -294,17 +332,22 @@
       {
         "id": "end",
         "speaker": "sakura",
-        "lines": [],
+        "lines": [
+          "……えへへ。じゃ、今日はこのへんで。"
+        ],
         "end": true
       }
     ],
     "closing": "auto",
     "category": "story",
-    "tags": ["introduction", "sg-life", "origin"],
+    "tags": [
+      "introduction",
+      "sg-life",
+      "origin"
+    ],
     "image": null,
     "priority": 100
   },
-
   {
     "id": "a02_nickname_change",
     "critical": true,
@@ -315,7 +358,9 @@
       "minAnswered": 70,
       "daysSincePhase2": 3,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -335,7 +380,9 @@
           {
             "label": "いいよ、なに？",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "変なことじゃないなら",
@@ -373,18 +420,26 @@
           {
             "label": "いいよ、好きに呼んで",
             "next": "n5a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "どう呼びたいの？",
             "next": "n5b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "今のままでいいよ",
             "next": "n7c",
-            "flags": { "nickname_kept": true },
-            "axes": { "honesty": 1 }
+            "flags": {
+              "nickname_kept": true
+            },
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -413,20 +468,28 @@
           {
             "label": "片岡くん",
             "next": "n7a",
-            "flags": { "nickname_selected": "片岡くん" },
+            "flags": {
+              "nickname_selected": "片岡くん"
+            },
             "axes": {}
           },
           {
             "label": "賢司さん",
             "next": "n7b",
-            "flags": { "nickname_selected": "賢司さん" },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "nickname_selected": "賢司さん"
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "君が決めていいよ",
             "next": "n7d",
             "flags": {},
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           }
         ]
       },
@@ -477,13 +540,19 @@
           {
             "label": "いいよ",
             "next": "n7d_ok",
-            "flags": { "nickname_selected": "賢司さん" },
-            "axes": { "warmth": 2 }
+            "flags": {
+              "nickname_selected": "賢司さん"
+            },
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "やっぱり片岡くんで",
             "next": "n7d_kataoka",
-            "flags": { "nickname_selected": "片岡くん" },
+            "flags": {
+              "nickname_selected": "片岡くん"
+            },
             "axes": {}
           }
         ]
@@ -518,11 +587,13 @@
     ],
     "closing": "auto",
     "category": "nickname",
-    "tags": ["nickname", "relationship"],
+    "tags": [
+      "nickname",
+      "relationship"
+    ],
     "image": null,
     "priority": 100
   },
-
   {
     "id": "a03_osaka_memories",
     "type": "A",
@@ -531,8 +602,12 @@
     "unlock": {
       "minAnswered": 60,
       "daysSincePhase2": 2,
-      "requiredFlags": ["told_origin"],
-      "requiredConversations": ["a01_first_room"],
+      "requiredFlags": [
+        "told_origin"
+      ],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -557,7 +632,9 @@
           {
             "label": "聞いていいよ",
             "next": "n3",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -583,13 +660,17 @@
           {
             "label": "北摂のほうだよ",
             "next": "n6a",
-            "flags": { "told_area": "hokusetu" },
+            "flags": {
+              "told_area": "hokusetu"
+            },
             "axes": {}
           },
           {
             "label": "京阪沿線かな",
             "next": "n6b",
-            "flags": { "told_area": "keihan" },
+            "flags": {
+              "told_area": "keihan"
+            },
             "axes": {}
           },
           {
@@ -642,7 +723,9 @@
           {
             "label": "たこ焼き？",
             "next": "n9a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "なに？",
@@ -693,12 +776,16 @@
           {
             "label": "わかるよ。おせっかいな街だよね",
             "next": "n13a",
-            "axes": { "warmth": 2 }
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "慣れると心地いいんだけどね",
             "next": "n13b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -728,17 +815,22 @@
       {
         "id": "end",
         "speaker": "sakura",
-        "lines": [],
+        "lines": [
+          "……ふふ。なんかすっきりした。聞いてくれてありがと。"
+        ],
         "end": true
       }
     ],
     "closing": "auto",
     "category": "past",
-    "tags": ["osaka", "exchange", "japan"],
+    "tags": [
+      "osaka",
+      "exchange",
+      "japan"
+    ],
     "image": null,
     "priority": 90
   },
-
   {
     "id": "a04_sg_food_intro",
     "type": "A",
@@ -748,7 +840,9 @@
       "minAnswered": 55,
       "daysSincePhase2": 1,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -768,7 +862,9 @@
           {
             "label": "お願いします先生",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "興味ある",
@@ -816,20 +912,28 @@
           {
             "label": "チキンライスは食べた",
             "next": "n7a",
-            "flags": { "tried_chicken_rice": true },
+            "flags": {
+              "tried_chicken_rice": true
+            },
             "axes": {}
           },
           {
             "label": "全部食べたよ",
             "next": "n7b",
-            "flags": { "tried_chicken_rice": true, "tried_laksa": true, "tried_kaya_toast": true },
+            "flags": {
+              "tried_chicken_rice": true,
+              "tried_laksa": true,
+              "tried_kaya_toast": true
+            },
             "axes": {}
           },
           {
             "label": "まだどれも……",
             "next": "n7c",
             "flags": {},
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -894,13 +998,19 @@
           {
             "label": "食べてみたいな",
             "next": "n12a",
-            "flags": { "wants_sakura_recipe": true },
-            "axes": { "warmth": 2 }
+            "flags": {
+              "wants_sakura_recipe": true
+            },
+            "axes": {
+              "warmth": 2
+            }
           },
           {
             "label": "柚子胡椒は意外だね",
             "next": "n12b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -928,17 +1038,22 @@
       {
         "id": "end",
         "speaker": "sakura",
-        "lines": [],
+        "lines": [
+          "……あ、話しすぎた。食べ物の話になるとうち止まらんくて。……ごめんね。"
+        ],
         "end": true
       }
     ],
     "closing": "auto",
     "category": "daily",
-    "tags": ["food", "hawker", "family"],
+    "tags": [
+      "food",
+      "hawker",
+      "family"
+    ],
     "image": "img/sakura/chicken-rice-hawker.jpg",
     "priority": 85
   },
-
   {
     "id": "a05_change_encounter",
     "type": "A",
@@ -948,7 +1063,10 @@
       "minAnswered": 80,
       "daysSincePhase2": 5,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room", "a02_nickname_change"],
+      "requiredConversations": [
+        "a01_first_room",
+        "a02_nickname_change"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -988,19 +1106,29 @@
           {
             "label": "ご、ごめん……見た",
             "next": "n6a",
-            "flags": { "change_response": "honest" },
-            "axes": { "honesty": 2 }
+            "flags": {
+              "change_response": "honest"
+            },
+            "axes": {
+              "honesty": 2
+            }
           },
           {
             "label": "ち、ちがうんだ！",
             "next": "n6b",
-            "flags": { "change_response": "panic" },
-            "axes": { "warmth": 1 }
+            "flags": {
+              "change_response": "panic"
+            },
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "え？なんのこと？",
             "next": "n6c",
-            "flags": { "change_response": "feign" },
+            "flags": {
+              "change_response": "feign"
+            },
             "axes": {}
           }
         ]
@@ -1048,9 +1176,14 @@
         "end": true
       }
     ],
-    "closing": ["……もう行って。……行ってってば！"],
+    "closing": [
+      "……もう行って。……行ってってば！"
+    ],
     "category": "surprise",
-    "tags": ["surprise", "romance"],
+    "tags": [
+      "surprise",
+      "romance"
+    ],
     "image": null,
     "priority": 80
   }

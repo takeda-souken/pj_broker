@@ -2440,7 +2440,9 @@
       "minAnswered": 35,
       "daysSincePhase2": 3,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -2464,7 +2466,9 @@
           {
             "label": "一度乗ったよ",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2507,7 +2511,9 @@
           {
             "label": "雨の日は我慢してMRT？",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2532,9 +2538,16 @@
         "end": true
       }
     ],
-    "closing": ["Grabのアプリ、入れてなかったらぜひ。SGの必需品ですよ。"],
+    "closing": [
+      "Grabのアプリ、入れてなかったらぜひ。SGの必需品ですよ。"
+    ],
     "category": "daily",
-    "tags": ["transport", "grab", "taxi", "app"],
+    "tags": [
+      "transport",
+      "grab",
+      "taxi",
+      "app"
+    ],
     "priority": 50
   },
   {
@@ -2546,7 +2559,9 @@
       "minAnswered": 40,
       "daysSincePhase2": 4,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -2570,7 +2585,9 @@
           {
             "label": "再生水のやつ？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2608,7 +2625,9 @@
           {
             "label": "技術力がすごいね",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "飲んだことある？",
@@ -2623,7 +2642,7 @@
         "lines": [
           "でしょ？ 小学校の社会見学でNEWaterのビジターセンターに行くんですけど、",
           "そのときに飲ませてもらって、普通においしくてびっくりしました。",
-          "……SGの子供、全員この体験してるんですよ。なんかいいなって思いません？"
+          "……SGの子供、全員この体験してるんですよ。なんかいいですよね。"
         ],
         "end": true
       },
@@ -2638,9 +2657,16 @@
         "end": true
       }
     ],
-    "closing": ["SGの水道水はそのまま飲めるので、{name}も安心してくださいね。"],
+    "closing": [
+      "SGの水道水はそのまま飲めるので、{name}も安心してくださいね。"
+    ],
     "category": "daily",
-    "tags": ["water", "newater", "infrastructure", "sg_pride"],
+    "tags": [
+      "water",
+      "newater",
+      "infrastructure",
+      "sg_pride"
+    ],
     "priority": 45
   },
   {
@@ -2652,7 +2678,9 @@
       "minAnswered": 35,
       "daysSincePhase2": 2,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -2676,7 +2704,9 @@
           {
             "label": "まだよくわかってない",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -2714,7 +2744,9 @@
           {
             "label": "FairPrice探してみる",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "日本の食材が買えるのは助かる",
@@ -2744,9 +2776,16 @@
         "end": true
       }
     ],
-    "closing": ["買い物に困ったらいつでも聞いてくださいね。SGのスーパー事情、けっこう詳しいので。"],
+    "closing": [
+      "買い物に困ったらいつでも聞いてくださいね。SGのスーパー事情、けっこう詳しいので。"
+    ],
     "category": "daily",
-    "tags": ["shopping", "supermarket", "fairprice", "convenience"],
+    "tags": [
+      "shopping",
+      "supermarket",
+      "fairprice",
+      "convenience"
+    ],
     "priority": 50
   },
   {
@@ -2758,7 +2797,9 @@
       "minAnswered": 40,
       "daysSincePhase2": 5,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": "night",
       "dayOfWeek": null
     },
@@ -2777,7 +2818,9 @@
           {
             "label": "いた！ びっくりした",
             "next": "n3a",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           },
           {
             "label": "……トカゲ？",
@@ -2820,12 +2863,16 @@
           {
             "label": "まだ買ってない……",
             "next": "n6a",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           },
           {
             "label": "一応あるよ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2835,7 +2882,7 @@
         "lines": [
           "早めに買ってくださいね！ FairPriceとかGuardianで売ってます。",
           "あと、窓を開けっぱなしにしないこと。エアコンつけて閉めてた方が安全です。",
-          "……心配になってきた。ちゃんと対策してくださいよ？"
+          "……心配になってきた。ちゃんと対策してくださいね。約束ですよ。"
         ],
         "end": true
       },
@@ -2850,9 +2897,16 @@
         "end": true
       }
     ],
-    "closing": ["ヤモリに名前つけてる人もいるらしいですよ。……うちはまだやってないけど。"],
+    "closing": [
+      "ヤモリに名前つけてる人もいるらしいですよ。……うちはまだやってないけど。"
+    ],
     "category": "daily",
-    "tags": ["gecko", "bugs", "dengue", "daily_life"],
+    "tags": [
+      "gecko",
+      "bugs",
+      "dengue",
+      "daily_life"
+    ],
     "priority": 45
   },
   {
@@ -2864,7 +2918,9 @@
       "minAnswered": 45,
       "daysSincePhase2": 6,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -2888,7 +2944,9 @@
           {
             "label": "カードが多いかな",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -2926,7 +2984,9 @@
           {
             "label": "日本より進んでるかも",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "ホーカーでもQRなんだ",
@@ -2956,9 +3016,16 @@
         "end": true
       }
     ],
-    "closing": ["PayNowは銀行口座があればすぐ使えますから、セットアップしてみてくださいね。"],
+    "closing": [
+      "PayNowは銀行口座があればすぐ使えますから、セットアップしてみてくださいね。"
+    ],
     "category": "daily",
-    "tags": ["cashless", "paynow", "payment", "technology"],
+    "tags": [
+      "cashless",
+      "paynow",
+      "payment",
+      "technology"
+    ],
     "priority": 50
   }
 ]

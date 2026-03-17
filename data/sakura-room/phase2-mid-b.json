@@ -231,7 +231,7 @@
         "lines": [
           "あ……それは確かに。ピーナッツなしのソースもあるけど、確認したほうがいいね。",
           "SGは食のアレルギー表示が日本ほど親切じゃないけん、気をつけて。",
-          "……{name}は大丈夫よね？ アレルギーとかない？"
+          "……まあ、心配しすぎよね。{name}なら大丈夫やろ。"
         ],
         "end": true
       }
@@ -3081,7 +3081,9 @@
       "minAnswered": 65,
       "daysSincePhase2": 10,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": "night",
       "dayOfWeek": null
     },
@@ -3100,12 +3102,16 @@
           {
             "label": "たまに読むよ",
             "next": "n3a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "最近はあんまり……",
             "next": "n3b",
-            "axes": { "honesty": 1 }
+            "axes": {
+              "honesty": 1
+            }
           }
         ]
       },
@@ -3141,12 +3147,16 @@
           {
             "label": "SGが舞台の小説って珍しい",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "日本の小説は何を読むの？",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3171,9 +3181,16 @@
         "end": true
       }
     ],
-    "closing": ["……本の話できるの嬉しい。おやすみ、{name}。いい夢見てね。"],
+    "closing": [
+      "……本の話できるの嬉しい。おやすみ、{name}。いい夢見てね。"
+    ],
     "category": "personal",
-    "tags": ["reading", "books", "hobby", "night"],
+    "tags": [
+      "reading",
+      "books",
+      "hobby",
+      "night"
+    ],
     "priority": 50
   },
   {
@@ -3185,7 +3202,9 @@
       "minAnswered": 60,
       "daysSincePhase2": 11,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -3209,7 +3228,9 @@
           {
             "label": "マレー語？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3247,7 +3268,9 @@
           {
             "label": "楽しそう、行ってみたい",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "ラムリーバーガーって何？",
@@ -3277,9 +3300,16 @@
         "end": true
       }
     ],
-    "closing": ["ナイトマーケット、ほんまに楽しいけん。{name}もハマると思う。"],
+    "closing": [
+      "ナイトマーケット、ほんまに楽しいけん。{name}もハマると思う。"
+    ],
     "category": "area",
-    "tags": ["night_market", "pasar_malam", "food", "culture"],
+    "tags": [
+      "night_market",
+      "pasar_malam",
+      "food",
+      "culture"
+    ],
     "priority": 50
   },
   {
@@ -3291,7 +3321,9 @@
       "minAnswered": 70,
       "daysSincePhase2": 12,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -3315,7 +3347,9 @@
           {
             "label": "ジョギング？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3353,12 +3387,16 @@
           {
             "label": "健康的でいいね",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "走った後のご飯は格別だよ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3383,9 +3421,16 @@
         "end": true
       }
     ],
-    "closing": ["……明日も6時に起きれるかな。目覚まし3つセットしとこ。"],
+    "closing": [
+      "……明日も6時に起きれるかな。目覚まし3つセットしとこ。"
+    ],
     "category": "personal",
-    "tags": ["jogging", "exercise", "morning", "east_coast"],
+    "tags": [
+      "jogging",
+      "exercise",
+      "morning",
+      "east_coast"
+    ],
     "priority": 50
   },
   {
@@ -3397,7 +3442,9 @@
       "minAnswered": 75,
       "daysSincePhase2": 14,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -3421,7 +3468,9 @@
           {
             "label": "SGからすぐ行ける？",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3462,7 +3511,9 @@
           {
             "label": "さくらさんもよく行くの？",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3487,9 +3538,16 @@
         "end": true
       }
     ],
-    "closing": ["JB行くなら週末がおすすめ。パスポートだけ忘れんでね。"],
+    "closing": [
+      "JB行くなら週末がおすすめ。パスポートだけ忘れんでね。"
+    ],
     "category": "area",
-    "tags": ["malaysia", "johor_bahru", "day_trip", "travel"],
+    "tags": [
+      "malaysia",
+      "johor_bahru",
+      "day_trip",
+      "travel"
+    ],
     "priority": 50
   },
   {
@@ -3501,7 +3559,9 @@
       "minAnswered": 70,
       "daysSincePhase2": 15,
       "requiredFlags": [],
-      "requiredConversations": ["a01_first_room"],
+      "requiredConversations": [
+        "a01_first_room"
+      ],
       "timeWindow": null,
       "dayOfWeek": null
     },
@@ -3525,7 +3585,9 @@
           {
             "label": "笑わないよ",
             "next": "n3b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3562,12 +3624,16 @@
           {
             "label": "誰が好きなの？",
             "next": "n6a",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           },
           {
             "label": "いい趣味だと思うよ",
             "next": "n6b",
-            "axes": { "warmth": 1 }
+            "axes": {
+              "warmth": 1
+            }
           }
         ]
       },
@@ -3592,9 +3658,16 @@
         "end": true
       }
     ],
-    "closing": ["……帰ったらあいみょん聴こ。{name}もなんか聴いてね。おやすみ。"],
+    "closing": [
+      "……帰ったらあいみょん聴こ。{name}もなんか聴いてね。おやすみ。"
+    ],
     "category": "personal",
-    "tags": ["music", "jpop", "hobby", "osaka_memory"],
+    "tags": [
+      "music",
+      "jpop",
+      "hobby",
+      "osaka_memory"
+    ],
     "priority": 55
   }
 ]
