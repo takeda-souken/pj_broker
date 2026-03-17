@@ -7,9 +7,10 @@
     "unlock": {
       "minAnswered": 155,
       "daysSincePhase2": 31,
-      "requiredFlags": [],
+      "requiredFlags": ["wife_revealed"],
       "requiredConversations": [
-        "a13_nickname_2nd"
+        "a13_nickname_2nd",
+        "a08_family_talk"
       ],
       "timeWindow": "night",
       "dayOfWeek": null

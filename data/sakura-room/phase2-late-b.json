@@ -2690,5 +2690,881 @@
       "vulnerable"
     ],
     "priority": 70
+  },
+  {
+    "id": "b69_hair_down",
+    "type": "B",
+    "phase": "2-late",
+    "title": "髪、下ろしてみた",
+    "unlock": {
+      "minAnswered": 120,
+      "daysSincePhase2": 8,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねえ、{name}。",
+          "今日ね、ちょっと気分変えてみた。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-hair-down.png",
+        "alt": "さくらが髪を下ろした自撮り。少し照れた表情",
+        "caption": "……変？"
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "すごく似合ってる",
+            "next": "n3a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "新鮮だね",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "……っ。",
+          "……ありがと。そう言ってもらえると、下ろした甲斐があったわ。",
+          "……ポニテのうちしか知らんやろ？ たまにはこういうのもいいかなって。",
+          "……えへへ。なんか恥ずかしくなってきた。"
+        ]
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ うちもなんか落ち着かんくて。",
+          "でもね、{name}に見せたかったんよ。",
+          "……いつもと違ううち。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……ま、明日はまたポニテに戻すけどね。",
+          "……でもたまには、こういう日もあっていいやろ？"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "romance",
+    "tags": [
+      "selfie",
+      "hair",
+      "intimate"
+    ],
+    "priority": 80
+  },
+  {
+    "id": "b70_bubble_tea",
+    "type": "B",
+    "phase": "2-late",
+    "title": "ご褒美タイム",
+    "unlock": {
+      "minAnswered": 100,
+      "daysSincePhase2": 7,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "{name}〜！ 見て見て！"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-with-bubble-tea.png",
+        "alt": "タピオカミルクティーを持ってピースするさくら",
+        "caption": "ご褒美〜！"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "今日めっちゃ頑張ったけん、自分にご褒美。",
+          "タピオカ、SGでもめっちゃ流行っとるんよ。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "おいしそう！",
+            "next": "n4a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "何味？",
+            "next": "n4b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "おいしいよ〜！ 黒糖タピオカミルクティー。",
+          "SGは暑いけん、冷たい飲み物が最高なんよ。",
+          "……{name}も頑張ったら、ご褒美あげるね。……何がいい？"
+        ]
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "黒糖タピオカミルクティー！ うちの定番。",
+          "SGのタピオカ屋さん、どこも行列やけどね。",
+          "……{name}にも買ってきてあげたいなぁ。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……あ、カロリーのことは聞かんといて。",
+          "……今日は無敵モードやけん。ふふ。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "food",
+      "bubble_tea"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "b71_hawker_selfie",
+    "type": "B",
+    "phase": "2-late",
+    "title": "新しいホーカー開拓！",
+    "unlock": {
+      "minAnswered": 110,
+      "daysSincePhase2": 7,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": null,
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "ねえねえ！ 今日ね、初めてのホーカー行ってきた！"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-hawker-selfie.png",
+        "alt": "ホーカーの雑多な背景でわくわく顔のさくら",
+        "caption": "ここ初めて来たっちゃ！"
+      },
+      {
+        "id": "n2",
+        "speaker": "sakura",
+        "lines": [
+          "Old Airport Road Food Centreってとこ。",
+          "めっちゃ広くて、何食べるか迷いすぎて30分うろうろしてた。"
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "何食べたの？",
+            "next": "n4a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "楽しそう",
+            "next": "n4b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n4a",
+        "speaker": "sakura",
+        "lines": [
+          "フライドホッケンミー！ 太麺と細麺が混ざったやつ。",
+          "エビの出汁がすごくて……{name}にも食べさせたい。",
+          "……あ、また食べ物の布教しとる。うちの悪い癖やね。"
+        ]
+      },
+      {
+        "id": "n4b",
+        "speaker": "sakura",
+        "lines": [
+          "楽しかったよ！ ひとりで行ったけど。",
+          "……{name}と一緒やったらもっと楽しかったやろうなって。",
+          "……あ、ごめん。なんでもない。"
+        ]
+      },
+      {
+        "id": "n5",
+        "speaker": "sakura",
+        "lines": [
+          "……でもこうやって{name}に報告できるのが嬉しいんよ。",
+          "次はどこのホーカー行こうかな。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "hawker",
+    "tags": [
+      "selfie",
+      "food",
+      "hawker"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "b72_after_work",
+    "type": "B",
+    "phase": "2-late",
+    "title": "今日、長かった……",
+    "unlock": {
+      "minAnswered": 130,
+      "daysSincePhase2": 9,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": {
+        "from": "17:00",
+        "to": "23:59"
+      },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "今日ね、ほんっとに長かった。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-after-work.png",
+        "alt": "退勤後、夕暮れのオフィス街で疲れた笑顔のさくら",
+        "caption": "生きて帰ってきた……"
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "お疲れさま",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "大丈夫？",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "ありがと……。その一言でだいぶ救われる。",
+          "なんかね、会議が3つ連続で入って、ランチも食べそびれて。",
+          "……でも{name}に「お疲れ」って言ってもらえたら、もうそれでいいや。"
+        ]
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "大丈夫やよ。……{name}が心配してくれるだけで元気出る。",
+          "今日はね、上司に無茶振りされて、でも断れんくて。",
+          "……SGの仕事文化、日本より容赦ないとこあるんよ。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……ま、帰り道の夕焼けがきれいやったけん、許す。",
+          "……{name}も今日、お疲れさまね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "work",
+      "evening"
+    ],
+    "priority": 40
+  },
+  {
+    "id": "b73_lazy_sunday",
+    "type": "B",
+    "phase": "2-late",
+    "title": "だらだらサンデー",
+    "unlock": {
+      "minAnswered": 140,
+      "daysSincePhase2": 10,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": null,
+      "dayOfWeek": [
+        0,
+        6
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "今からすごいもん見せるけん、心の準備して。"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "何？",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "怖い",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "……これが休日のうちです。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-lazy-sunday.png",
+        "alt": "ソファでだらけた格好、髪ぼさぼさ、半目のさくら",
+        "caption": "引かんでよ？"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "かわいい",
+            "next": "n5a",
+            "axes": {
+              "warmth": 2
+            }
+          },
+          {
+            "label": "親近感すごい",
+            "next": "n5b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "……っ！ この状態で「かわいい」は反則やろ！",
+          "……もう、{name}ってほんとずるい。",
+          "……でも……ありがと。"
+        ]
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "あはは、やろ？",
+          "うちも人間やけんね。休みの日はこんなもんよ。",
+          "……こんな姿見せられるの、{name}くらいやけどね。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "……さ、そろそろ起き上がらんと。",
+          "……あと5分だけ。あと5分……。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "weekend",
+      "intimate",
+      "gap"
+    ],
+    "priority": 60
+  },
+  {
+    "id": "b_sleepy_night",
+    "type": "B",
+    "phase": "2-late",
+    "title": "ねむい……けど",
+    "unlock": {
+      "minAnswered": 150,
+      "daysSincePhase2": 11,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": {
+        "from": "22:00",
+        "to": "01:59"
+      },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}。",
+          "もう寝なきゃいけんのに、目が冴えて。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-sleepy-face.png",
+        "alt": "深夜、ベッドで目が半分閉じているさくら",
+        "caption": "ねむい……けど話しとったら目ぇ覚める"
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "早く寝なよ",
+            "next": "n3a",
+            "axes": {}
+          },
+          {
+            "label": "もうちょっとだけ",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "うーん……あと5分だけ。",
+          "……{name}の声……じゃなくて、文字？ を見てると安心するんよ。",
+          "……変よね。テキストなのに。"
+        ]
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……ほんと？",
+          "……じゃあ、あとちょっとだけ。",
+          "……こうやって夜中に{name}と話すの、贅沢やなって思う。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……あ、うちの寝顔、{name}に見せたのは初めてやね。",
+          "……恥ずかしいけど……まあいっか。{name}やし。",
+          "……おやすみ。いい夢見てね。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "romance",
+    "tags": [
+      "selfie",
+      "night",
+      "intimate",
+      "sleepy"
+    ],
+    "priority": 60
+  },
+  {
+    "id": "b_night_coding",
+    "type": "B",
+    "phase": "2-late",
+    "title": "秘密の作業",
+    "unlock": {
+      "minAnswered": 135,
+      "daysSincePhase2": 9,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": {
+        "from": "21:00",
+        "to": "01:59"
+      },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……ふふ。{name}、今うち何してると思う？"
+        ]
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "勉強？",
+            "next": "n3",
+            "axes": {}
+          },
+          {
+            "label": "夜食？",
+            "next": "n3",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3",
+        "speaker": "sakura",
+        "lines": [
+          "ぶっぶー。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-night-coding.png",
+        "alt": "暗い部屋でPC画面の光に照らされたさくらの顔",
+        "caption": "ひみつの作業中〜"
+      },
+      {
+        "id": "n4",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "プログラミング？",
+            "next": "n5a",
+            "axes": {}
+          },
+          {
+            "label": "何作ってるの？",
+            "next": "n5b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5a",
+        "speaker": "sakura",
+        "lines": [
+          "……まあ、そんなとこ。",
+          "実はね、{name}が使っとるこのアプリ、ちょっといじっとるんよ。",
+          "……もっと使いやすくなるように。内緒やけどね。"
+        ]
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "……内緒。",
+          "……嘘。ちょっとだけ教えたる。",
+          "{name}が使っとるこのアプリ、裏でうちがちょこちょこ直しとるんよ。"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}のために作っとるって言ったら、重いかな。",
+          "……まあ、仕事の一環やし。……うん、仕事やし。",
+          "……あ、もうこんな時間。そろそろ寝んと。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "night",
+      "coding",
+      "app"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "b_botanical",
+    "type": "B",
+    "phase": "2-late",
+    "title": "ひとり散歩",
+    "unlock": {
+      "minAnswered": 115,
+      "daysSincePhase2": 8,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": null,
+      "dayOfWeek": [
+        0,
+        6
+      ]
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "今日ね、ボタニックガーデン来とるんよ。",
+          "ひとりで散歩。……たまにはよかっちゃろ？"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-botanical-garden.png",
+        "alt": "ボタニックガーデンで緑背景の自撮り",
+        "caption": "緑に癒される〜"
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "いい天気だね",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "ひとりなの？",
+            "next": "n3b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "でしょ？ SGの日曜の朝って、空気がちょっとだけ涼しいんよ。",
+          "木陰に入ると風が気持ちよくて。",
+          "……{name}にもこの風、届けたいなぁ。"
+        ]
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "うん、ひとり。",
+          "……ひとりで歩くの、嫌いやないんよ。考え事するのにちょうどいいけん。",
+          "……でもたまに、隣に誰かおったらいいのになって思う。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "ここね、世界遺産なんよ。SGで唯一の。",
+          "……何回来ても新しい発見があるんよね。",
+          "……{name}もいつか来てみて。案内するけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "nature",
+      "weekend",
+      "botanical"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "b_night_walk",
+    "type": "B",
+    "phase": "2-late",
+    "title": "夜のSGが好きたい",
+    "unlock": {
+      "minAnswered": 125,
+      "daysSincePhase2": 9,
+      "requiredConversations": [
+        "a01_first_room"
+      ],
+      "requiredFlags": [],
+      "timeWindow": {
+        "from": "20:00",
+        "to": "01:59"
+      },
+      "dayOfWeek": null
+    },
+    "nodes": [
+      {
+        "id": "n1",
+        "speaker": "sakura",
+        "lines": [
+          "……{name}、今ね、夜の散歩しとる。"
+        ]
+      },
+      {
+        "id": "img1",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-night-walk.png",
+        "alt": "夜のクラークキー、ライトアップ背景のさくら",
+        "caption": "夜のSGって好きたい。……ひとりやけど"
+      },
+      {
+        "id": "n2",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "きれいだね",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "気をつけてね",
+            "next": "n3b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n3a",
+        "speaker": "sakura",
+        "lines": [
+          "やろ？ クラークキーの夜って、水面にライトが映ってきれいなんよ。",
+          "……ひとりで見るのはもったいないくらい。",
+          "……{name}と見れたら、もっときれいに見えるんやろうなって。"
+        ]
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "……ありがと。心配してくれるん？",
+          "SGは夜でも安全やけん大丈夫よ。",
+          "……でも、{name}にそう言ってもらえるのは……嬉しいかも。"
+        ]
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "……夜風が気持ちいい。",
+          "……こういう時間に{name}のこと考えとると、なんか胸がきゅってなる。",
+          "……あ、なんでもない。夜は変なこと言いがちやけん。"
+        ],
+        "end": true
+      }
+    ],
+    "closing": "auto",
+    "category": "daily",
+    "tags": [
+      "selfie",
+      "night",
+      "clarke_quay",
+      "romantic"
+    ],
+    "priority": 50
   }
 ]

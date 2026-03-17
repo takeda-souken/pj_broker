@@ -518,9 +518,10 @@
       {
         "id": "n1",
         "speaker": "image",
-        "alt": "小さな花屋の店先の写真",
-        "src": "img/sakura-room/flower-shop.jpg",
-        "next": "n2"
+        "alt": "さくらが花屋のエプロン姿で花を持っている自撮り",
+        "src": "img/sakura-room/sakura-flower-shop-apron.png",
+        "next": "n2",
+        "caption": "今日は父ちゃんのお店手伝い中〜"
       },
       {
         "id": "n2",
