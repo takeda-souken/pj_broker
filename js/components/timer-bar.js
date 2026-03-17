@@ -16,8 +16,10 @@ export function createTimerBar(durationMs, onTimeUp, { dramatic = true } = {}) {
 
   let startTime = Date.now();
   let rafId = null;
+  let fired = false;
 
   function tick() {
+    if (fired) return;
     const elapsed = Date.now() - startTime;
     const ratio = Math.max(0, 1 - elapsed / durationMs);
     const remainSec = Math.ceil((durationMs - elapsed) / 1000);
@@ -38,6 +40,7 @@ export function createTimerBar(durationMs, onTimeUp, { dramatic = true } = {}) {
     }
 
     if (ratio <= 0) {
+      fired = true;
       onTimeUp?.();
       return;
     }
@@ -55,6 +58,7 @@ export function createTimerBar(durationMs, onTimeUp, { dramatic = true } = {}) {
 
   function reset() {
     stop();
+    fired = false;
     fill.style.width = '100%';
     timeLabel.textContent = `${Math.ceil(durationMs / 1000)}s`;
     fill.classList.remove('timer-bar__fill--warning', 'timer-bar__fill--danger');
