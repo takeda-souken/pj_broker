@@ -12,6 +12,7 @@ import { triText, triContent, tr } from '../utils/i18n.js';
 import { GamificationStore } from '../models/gamification-store.js';
 import { getHomeGreeting, recordVisit, createSupporterBubble } from '../components/supporter.js';
 import { DebugStore } from '../models/debug-store.js';
+import { gasSend } from '../utils/gas-client.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
 import { SakuraState } from '../models/sakura-state.js';
 import { loadAllConversations, getBadgeInfo } from '../models/sakura-room-engine.js';
@@ -139,6 +140,15 @@ registerRoute('#home', async (app) => {
       showFirstLaunchTutorial();
       return;
     }
+  }
+
+  // ─── One-time Sakura notice ───
+  const NOTICE_KEY = 'sg_broker_notice_seen_20260318';
+  if (!localStorage.getItem(NOTICE_KEY)) {
+    localStorage.setItem(NOTICE_KEY, '1');
+    gasSend('Notice', { noticeId: '20260318-timer-fix', event: 'shown' });
+    showSakuraNotice();
+    return; // skip normal sakura popup
   }
 
   // ─── Fixed-bottom: Sakura popup ───
@@ -466,6 +476,67 @@ function triviaLabel(category) {
     transport: tr('home.transport', 'Transport'),
   };
   return labels[category] || tr('home.didYouKnow', 'Did You Know?');
+}
+
+function showSakuraNotice() {
+  document.body.style.overflow = 'hidden';
+
+  const overlay = el('div', { className: 'tutorial-overlay' });
+  const chatArea = el('div', { className: 'tutorial-chat' });
+  overlay.appendChild(chatArea);
+
+  const hintEl = el('div', { className: 'tutorial-hint', style: 'display:none' }, 'タップしてください');
+  overlay.appendChild(hintEl);
+
+  document.body.appendChild(overlay);
+
+  const messages = [
+    'お知らせです！',
+    'クイズでタイムアウトしたとき、同じ問題がまた出てきちゃう不具合を修正しました💦',
+    'ご迷惑おかけしました！',
+    'なにかまたあれば、画面左下のメールマークから報告してくださいね🌸',
+  ];
+
+  let idx = 0;
+  let hintTimer = null;
+
+  function addMessage() {
+    if (idx >= messages.length) {
+      hintEl.textContent = 'タップして閉じる';
+      hintEl.style.display = '';
+      overlay.addEventListener('click', () => {
+        overlay.style.opacity = '0';
+        setTimeout(() => {
+          overlay.remove();
+          document.body.style.overflow = '';
+        }, 300);
+      }, { once: true });
+      return;
+    }
+
+    const msgEl = el('div', { className: 'tutorial-msg' });
+    const avatar = el('span', { className: 'tutorial-msg__avatar' }, '🌸');
+    const text = el('div', { className: 'tutorial-msg__text' }, messages[idx]);
+    msgEl.appendChild(avatar);
+    msgEl.appendChild(text);
+    chatArea.appendChild(msgEl);
+
+    idx++;
+
+    if (idx === 1) {
+      hintTimer = setTimeout(() => {
+        if (idx === 1) hintEl.style.display = '';
+      }, 3000);
+    }
+
+    overlay.addEventListener('click', () => {
+      hintEl.style.display = 'none';
+      if (hintTimer) { clearTimeout(hintTimer); hintTimer = null; }
+      addMessage();
+    }, { once: true });
+  }
+
+  setTimeout(addMessage, 500);
 }
 
 function getMenuIcon(type) {
