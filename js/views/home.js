@@ -14,6 +14,7 @@ import { getHomeGreeting, recordVisit, createSupporterBubble } from '../componen
 import { DebugStore } from '../models/debug-store.js';
 import { SakuraRoomStore } from '../models/sakura-room-store.js';
 import { SakuraState } from '../models/sakura-state.js';
+import { loadAllConversations, getBadgeInfo } from '../models/sakura-room-engine.js';
 
 const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
@@ -76,8 +77,7 @@ registerRoute('#home', async (app) => {
   }
 
   // ─── Sakura Door (floating, bottom-right) ───
-  const sakuraPhase = SakuraState.getPhase();
-  if (sakuraPhase !== 'japan' && sakuraPhase !== 'gone') {
+  if (SakuraState.isRoomAvailable()) {
     // Remove any existing door from previous render
     document.querySelector('.sakura-door')?.remove();
     const door = el('button', {
@@ -90,6 +90,17 @@ registerRoute('#home', async (app) => {
     door.appendChild(frame);
     door.appendChild(el('span', { className: 'sakura-door__label' }, '\u3055\u304F\u3089'));
     document.body.appendChild(door);
+
+    // Async badge update (conversations loaded lazily)
+    loadAllConversations().then(() => {
+      const { unreadCount, hasCritical } = getBadgeInfo();
+      if (unreadCount > 0) {
+        const badge = el('span', {
+          className: 'sakura-door__badge' + (hasCritical ? ' sakura-door__badge--critical' : ''),
+        }, hasCritical ? '!' : String(unreadCount));
+        door.appendChild(badge);
+      }
+    });
   }
 
   // ─── Menu grid ───

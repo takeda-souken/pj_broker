@@ -148,6 +148,20 @@ body.sakura-room-active[data-theme="dark"] {
 .sr-chat::-webkit-scrollbar-thumb:hover {
   background: #e8a8b4;
 }
+/* Critical conversation hint label */
+.sakura-chat__critical-hint {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #c87088;
+  padding: 6px 12px;
+  margin-bottom: 4px;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+[data-theme="dark"] .sakura-chat__critical-hint {
+  color: #d4a0b0;
+}
+
 [data-theme="dark"] .sr-chat {
   scrollbar-color: #6a505a #2e2028;
 }
@@ -542,6 +556,37 @@ body.sakura-room-active[data-theme="dark"] {
   margin-top: 4px;
   white-space: nowrap;
   letter-spacing: 0.5px;
+}
+
+/* Badge (unread count / critical indicator) */
+.sakura-door__badge {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: #e05070;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(224,80,112,0.4);
+  pointer-events: none;
+}
+
+/* Critical badge: pulsing ! */
+.sakura-door__badge--critical {
+  background: #d94060;
+  animation: sakura-badge-pulse 1.5s ease-in-out infinite;
+  font-size: 0.75rem;
+}
+
+@keyframes sakura-badge-pulse {
+  0%, 100% { transform: scale(1); box-shadow: 0 2px 6px rgba(217,64,96,0.4); }
+  50% { transform: scale(1.15); box-shadow: 0 3px 10px rgba(217,64,96,0.6); }
 }
 
 /* Dark mode */

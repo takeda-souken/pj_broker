@@ -103,7 +103,7 @@ registerRoute('#sakura-room', async (app) => {
       style: 'top:48px;background:rgba(33,150,243,0.9);border-color:#2196f3;',
       onClick: () => {
         SakuraAlbumStore.addPhoto({
-          src: 'img/sakura-room/sakura-boba.png',
+          src: 'img/sakura-room/sakura-with-bubble-tea.png',
           alt: 'タピオカを持つさくら',
           caption: 'タピオカ買ったよ！ ピースピース✌️',
           conversationId: '_debug_test',
@@ -191,6 +191,14 @@ function buildEmptyChat() {
 
 // ─── Play a conversation ────────────────────────────
 async function playConversation(conv, chatArea) {
+  // Show hint label for critical (story-essential) conversations
+  if (conv.critical) {
+    const hint = document.createElement('div');
+    hint.className = 'sakura-chat__critical-hint';
+    hint.textContent = '\uD83D\uDCCC \u5927\u4E8B\u306A\u8A71\u304C\u3042\u308B\u307F\u305F\u3044';
+    chatArea.appendChild(hint);
+  }
+
   const nodeMap = {};
   conv.nodes.forEach(n => { nodeMap[n.id] = n; });
 
@@ -425,6 +433,11 @@ function handlePostConversation(conv) {
   const selected = store.flags.nickname_selected;
   if (selected && (conv.id === 'a02_nickname_change' || conv.id === 'a13_nickname_2nd')) {
     SettingsStore.set('sakuraNickname', selected);
+  }
+
+  // Phase gate: wife_revealed flag triggers heartbreak phase
+  if (store.flags.wife_revealed) {
+    SakuraState.triggerHeartbreak();
   }
 }
 

@@ -18,9 +18,9 @@ registerRoute('#result', (app) => {
 
   const r = JSON.parse(raw);
 
-  // Farewell trigger: mock exam pass at post_confession phase
-  if (r.mode === 'mock' && r.accuracy >= 70 && SakuraState.getPhase() === 'post_confession') {
-    SakuraState.triggerFarewell();
+  // Ending trigger: mock exam pass at heartbreak phase
+  if (r.mode === 'mock' && r.accuracy >= 70 && SakuraState.getPhase() === 'heartbreak') {
+    SakuraState.triggerEnding();
     // TODO: sakura-story.js farewell event modal
   }
 

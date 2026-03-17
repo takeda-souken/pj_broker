@@ -141,9 +141,11 @@ function openPanel() {
     const phaseOptions = [
       { label: 'Auto', value: 0 },
       { label: 'JP', value: 'japan' },
-      { label: 'SG', value: 'sg' },
-      { label: 'Conf', value: 'post_confession' },
-      { label: 'Bye', value: 'farewell' },
+      { label: '2e', value: 'sg_early' },
+      { label: '2m', value: 'sg_mid' },
+      { label: '2l', value: 'sg_late' },
+      { label: '💔', value: 'heartbreak' },
+      { label: 'End', value: 'ending' },
       { label: 'Gone', value: 'gone' },
     ];
     body.appendChild(segmentRow('Phase', phaseOptions, d.sakuraPhaseOverride, (v) => {
@@ -339,11 +341,11 @@ function openPanel() {
 
     // Quick launch — set up state so a conversation is guaranteed to start
     const launchBtn = el('button', { className: 'debug-btn', onClick: () => {
-      // 1. Ensure phase is 'sg' with phase2StartedAt 7 days ago
+      // 1. Ensure phase is 'sg_mid' with phase2StartedAt 7 days ago
       const sakuraRaw = localStorage.getItem('sg_broker_sakura');
       const sakura = sakuraRaw ? JSON.parse(sakuraRaw) : {};
       if (!sakura.phase || sakura.phase === 'japan') {
-        sakura.phase = 'sg';
+        sakura.phase = 'sg_mid';
       }
       if (!sakura.phase2StartedAt) {
         const d = new Date(DebugStore.now());
@@ -424,11 +426,11 @@ function openPanel() {
       const raw = localStorage.getItem('sg_broker_sakura');
       const state = raw ? { ...JSON.parse(raw) } : {};
       const curPhase = state.phase || 'japan';
-      const nextMap = { japan: 'sg', sg: 'post_confession', post_confession: 'farewell', farewell: 'gone' };
+      const nextMap = { japan: 'sg_early', sg_early: 'sg_mid', sg_mid: 'sg_late', sg_late: 'heartbreak', heartbreak: 'ending', ending: 'gone' };
       const next = nextMap[curPhase];
       if (!next) { showToast('Already at final phase', 'info'); return; }
       state.phase = next;
-      if (next === 'sg' && !state.phase2StartedAt) {
+      if (next === 'sg_early' && !state.phase2StartedAt) {
         const recs = (() => { try { return JSON.parse(localStorage.getItem('sg_broker_records') || '[]').length; } catch { return 0; } })();
         state.answeredAtPhase2Start = recs;
         state.phase2StartedAt = DebugStore.now().toISOString();

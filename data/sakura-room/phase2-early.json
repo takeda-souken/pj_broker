@@ -1,6 +1,7 @@
 [
   {
     "id": "a01_first_room",
+    "critical": true,
     "type": "A",
     "phase": "2-early",
     "title": "はじめまして、さくらの部屋",
@@ -306,6 +307,7 @@
 
   {
     "id": "a02_nickname_change",
+    "critical": true,
     "type": "A",
     "phase": "2-early",
     "title": "呼び方、変えていい？",

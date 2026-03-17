@@ -273,6 +273,7 @@
   },
   {
     "id": "a17_farewell",
+    "critical": true,
     "type": "A",
     "phase": "4",
     "title": "最後の会話",

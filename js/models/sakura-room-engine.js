@@ -134,12 +134,17 @@ export function getAvailableConversations() {
 
 /**
  * Pick the next conversation to play.
- * Priority: A > E > C > B > D, then by priority field.
+ * Critical conversations always take priority (story-essential).
+ * Then: A > E > C > B > D, then by priority field.
  * Avoids same category back-to-back.
  */
 export function pickNextConversation() {
   const available = getAvailableConversations();
   if (available.length === 0) return null;
+
+  // Critical conversations always come first (in array order = story order)
+  const critical = available.filter(c => c.critical);
+  if (critical.length > 0) return critical[0];
 
   // Sort by type priority then priority field
   const typePriority = { A: 0, E: 1, C: 2, B: 3, D: 4 };
@@ -162,6 +167,18 @@ export function pickNextConversation() {
   }
 
   return available[0];
+}
+
+/**
+ * Get badge info for the sakura door.
+ * Returns { unreadCount, hasCritical } for UI rendering.
+ */
+export function getBadgeInfo() {
+  const available = getAvailableConversations();
+  return {
+    unreadCount: available.length,
+    hasCritical: available.some(c => c.critical),
+  };
 }
 
 /**

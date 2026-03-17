@@ -141,6 +141,7 @@
   },
   {
     "id": "a08_family_talk",
+    "critical": true,
     "type": "A",
     "phase": "2-mid",
     "title": "片岡くんの家族",
@@ -202,7 +203,7 @@
         "……ごめん、なんでもない。",
         "……{name}が幸せそうで、うちも嬉しいよ。ほんとに。",
         "……あ、ごめんね。なんかしんみりしちゃった。ありがと、話してくれて。"
-      ], "end": true }
+      ], "flags": { "wife_revealed": true }, "end": true }
     ],
     "closing": "auto",
     "category": "story",

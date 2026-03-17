@@ -1,10 +1,12 @@
 /**
- * Sakura Phase 3: タメ口、博多弁全開、距離が近い
+ * Sakura SG Late (Phase 2-late): タメ口、博多弁全開、距離が近い
  * デフォルト"あんた"呼び（ニックネーム進化で変化）。感情が滲む。ストリークで惚れちゃう。
  * {name} プレースホルダーは supporter.js で設定値に置換される。
- * 奥さんの話題が減る。代わりにさくら自身の感情が出てくる。
+ * 完全な恋心・イチャイチャ。妻子の存在はまだ知らない。
+ *
+ * Design doc: docs/sakura-phase-design.md
  */
-export const PHASE3 = {
+export const SG_LATE = {
   correct: [
     // ── 基本の褒め＋タメ口 ──
     '正解！ {name}、やるやん ✨',

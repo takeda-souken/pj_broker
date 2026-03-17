@@ -12,7 +12,8 @@
  * tone that makes you open the app one more time.
  *
  * She has Kataoka-kun wrapped around her finger, and she doesn't even know it.
- * Or maybe she does. Either way, his wife should be worried.
+ * She falls for him hard — then learns he has a wife and kids.
+ * She stays. Because that's what a professional does. Even when it hurts.
  *
  * Architecture (borrowed from Chiaki's hostess protocol):
  *   - Three gears: cheerful (default) → attentive (struggle) → real (breakthrough)
