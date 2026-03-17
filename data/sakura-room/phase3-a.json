@@ -920,34 +920,18 @@
           "……またいつか、きっと会おうね。",
           "……さよなら、{name}。",
           "……うちの、大好きな人。"
-        ]
+        ],
+        "next": "n25_teary_intro"
       },
       {
-        "id": "img_teary_intro",
+        "id": "n25_teary_intro",
         "speaker": "sakura",
         "lines": [
           "……ねえ、{name}。",
           "……最後に、一枚だけ送らせて。",
           "……この顔で、うちのこと思い出して。"
-        ]
-      },
-      {
-        "id": "img_teary_intro",
-        "speaker": "sakura",
-        "lines": [
-          "……ねえ、{name}。",
-          "……最後に、一枚だけ送らせて。",
-          "……この顔で、うちのこと思い出して。"
-        ]
-      },
-      {
-        "id": "img_teary_intro",
-        "speaker": "sakura",
-        "lines": [
-          "……ねえ、{name}。",
-          "……最後に、一枚だけ送らせて。",
-          "……この顔で、うちのこと思い出して。"
-        ]
+        ],
+        "next": "img_teary"
       },
       {
         "id": "img_teary",
