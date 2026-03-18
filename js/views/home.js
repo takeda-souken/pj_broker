@@ -20,7 +20,74 @@ import { getUnseenNotice, markNoticeSeen } from '../data/sakura-notices.js';
 
 const FIRST_LAUNCH_KEY = 'sg_broker_first_launch_done';
 
+// ─── One-time data patch: timer bug duplicate records (2026-03-17) ───
+function applyPatch20260318() {
+  const FLAG = 'sg_broker_patch_20260318';
+  if (localStorage.getItem(FLAG)) return;
+
+  // 1. Remove consecutive same-questionId records (keep first)
+  const records = JSON.parse(localStorage.getItem('sg_broker_records') || '[]');
+  const cleaned = [];
+  let removedTotal = 0;
+  let removedCorrect = 0;
+  const removedByModule = {};
+  const removedByTopic = {};
+
+  for (let i = 0; i < records.length; i++) {
+    if (i > 0 && records[i].questionId === records[i - 1].questionId) {
+      removedTotal++;
+      if (records[i].isCorrect) removedCorrect++;
+      const mod = records[i].module;
+      removedByModule[mod] = (removedByModule[mod] || 0) + 1;
+      const topicKey = `${mod}::${records[i].topic}`;
+      if (!removedByTopic[topicKey]) removedByTopic[topicKey] = { attempts: 0, correct: 0 };
+      removedByTopic[topicKey].attempts++;
+      if (records[i].isCorrect) removedByTopic[topicKey].correct++;
+      continue;
+    }
+    cleaned.push(records[i]);
+  }
+
+  if (removedTotal === 0) { localStorage.setItem(FLAG, '1'); return; }
+  localStorage.setItem('sg_broker_records', JSON.stringify(cleaned));
+
+  // 2. Fix topic stats
+  const stats = JSON.parse(localStorage.getItem('sg_broker_topic_stats') || '{}');
+  for (const [key, delta] of Object.entries(removedByTopic)) {
+    if (!stats[key]) continue;
+    stats[key].attempts = Math.max(0, stats[key].attempts - delta.attempts);
+    stats[key].correct = Math.max(0, stats[key].correct - delta.correct);
+    if (delta.correct > 0) {
+      // Rebuild _seenCorrect from cleaned records
+      const seen = new Set();
+      for (const r of cleaned) {
+        if (`${r.module}::${r.topic}` === key && r.isCorrect && r.questionId) seen.add(r.questionId);
+      }
+      stats[key]._seenCorrect = [...seen];
+      stats[key].uniqueCorrect = seen.size;
+    }
+  }
+  localStorage.setItem('sg_broker_topic_stats', JSON.stringify(stats));
+
+  // 3. Fix game stats
+  const game = JSON.parse(localStorage.getItem('sg_broker_game') || '{}');
+  game.totalAnswered = Math.max(0, (game.totalAnswered || 0) - removedTotal);
+  game.totalCorrect = Math.max(0, (game.totalCorrect || 0) - removedCorrect);
+  for (const [mod, count] of Object.entries(removedByModule)) {
+    const key = `${mod}Attempts`;
+    if (game[key] !== undefined) game[key] = Math.max(0, game[key] - count);
+  }
+  // XP: subtract base XP for removed records (10 per correct, 3 per wrong)
+  const xpToRemove = removedCorrect * 10 + (removedTotal - removedCorrect) * 3;
+  game.xp = Math.max(0, (game.xp || 0) - xpToRemove);
+  localStorage.setItem('sg_broker_game', JSON.stringify(game));
+
+  localStorage.setItem(FLAG, '1');
+  console.log(`[patch-20260318] Removed ${removedTotal} duplicate records (${removedCorrect} correct)`);
+}
+
 registerRoute('#home', async (app) => {
+  applyPatch20260318();
   const settings = SettingsStore.load();
 
   // ─── Header row: Title + Countdown (desktop: side by side) ───
