@@ -9,16 +9,6 @@
  */
 
 const NOTICES = [
-  {
-    id: '20260318',
-    label: 'timer-fix',
-    messages: [
-      'お知らせです！',
-      'クイズでたまに同じ問題がまた出てきちゃう不具合を修正しました💦',
-      'ご迷惑おかけしました！',
-      'なにかまたあれば、画面左下のメールマークから報告してくださいね🌸',
-    ],
-  },
 ];
 
 const KEY_PREFIX = 'sg_broker_notice_seen_';
