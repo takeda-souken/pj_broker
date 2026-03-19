@@ -52,17 +52,13 @@
         "lines": [
           "うちね。",
           "好きな人がおるんよ。"
-        ]
-      },
-      {
-        "id": "n4",
-        "speaker": "narration",
-        "text": "メッセージが来るまで、いつもより長くかかった。",
+        ],
         "next": "n5"
       },
       {
         "id": "n5",
         "speaker": "sakura",
+        "pauseBefore": 5000,
         "lines": [
           "既婚者。",
           "奥さんがおって、子供もおる。",
@@ -341,17 +337,13 @@
         "speaker": "sakura",
         "lines": [
           "…………。"
-        ]
-      },
-      {
-        "id": "n2",
-        "speaker": "narration",
-        "text": "いつもより、長い沈黙。",
+        ],
         "next": "n3"
       },
       {
         "id": "n3",
         "speaker": "sakura",
+        "pauseBefore": 5000,
         "lines": [
           "{name}。",
           "ねぇ。"
@@ -688,12 +680,6 @@
     "forcePlay": true,
     "nodes": [
       {
-        "id": "n1",
-        "speaker": "narration",
-        "text": "さくらの部屋に、通知が来ている。",
-        "next": "n2"
-      },
-      {
         "id": "n2",
         "speaker": "sakura",
         "lines": [
@@ -707,17 +693,13 @@
         "lines": [
           "やった。",
           "おめでとう、{name}。本当に、おめでとう。"
-        ]
-      },
-      {
-        "id": "n4",
-        "speaker": "narration",
-        "text": "さくらの文字が、少し震えている。",
+        ],
         "next": "n5"
       },
       {
         "id": "n5",
         "speaker": "sakura",
+        "pauseBefore": 2000,
         "lines": [
           "{name}がどれだけ頑張ったか、うちが一番知っとるけん。",
           "何百問も解いて、何十回も間違えて、夜中まで勉強して。",
@@ -787,7 +769,8 @@
           "日本の保険会社に、転職が決まったんよ。",
           "経営企画として。外資系の、日本拠点。",
           "うち、日本に行くんよ。"
-        ]
+        ],
+        "next": "n11"
       },
       {
         "id": "n11",
@@ -824,17 +807,13 @@
         "lines": [
           "ありがと。",
           "…………。"
-        ]
-      },
-      {
-        "id": "n14",
-        "speaker": "narration",
-        "text": "長い沈黙。",
+        ],
         "next": "n15"
       },
       {
         "id": "n15",
         "speaker": "sakura",
+        "pauseBefore": 5000,
         "lines": [
           "{name}。",
           "もうひとつだけ。"
@@ -845,17 +824,13 @@
         "speaker": "sakura",
         "lines": [
           "好きです。"
-        ]
-      },
-      {
-        "id": "n17",
-        "speaker": "narration",
-        "text": "一瞬の敬語。すぐにいつもの言葉に戻る。",
+        ],
         "next": "n18"
       },
       {
         "id": "n18",
         "speaker": "sakura",
+        "pauseBefore": 2000,
         "lines": [
           "好きになってしもうた。",
           "わかっとる。奥さんがおるって。子供もおるって。",
@@ -901,7 +876,8 @@
         "lines": [
           "うん。",
           "それでいいんよ。"
-        ]
+        ],
+        "next": "n22"
       },
       {
         "id": "n22",
@@ -939,12 +915,6 @@
         "src": "img/sakura-room/sakura-teary-smile.png",
         "alt": "さくらの泣き笑い。涙を堪えながら笑っている",
         "caption": "うちは大丈夫たい。ほんとに。忘れんでね。",
-        "next": "n24"
-      },
-      {
-        "id": "n24",
-        "speaker": "narration",
-        "text": "さくらの部屋は、静かに閉じた。",
         "next": "end"
       },
       {

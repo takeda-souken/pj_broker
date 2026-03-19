@@ -134,14 +134,6 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "ビルの屋上から見た夜のSG",
-        "src": "img/sakura-room/rooftop-night.jpg",
-        "next": "n2",
-        "caption": "ひとりで撮った。ここ、うちの秘密の場所"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
           "今、会社のビルの屋上におるんよ。",
@@ -149,45 +141,45 @@
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
-            "label": "きれいだね",
-            "next": "n4a",
+            "label": "ひとりで？",
+            "next": "n3a",
             "axes": {
-              "warmth": 1
+              "warmth": 2
             }
           },
           {
-            "label": "ひとりで？",
-            "next": "n4b",
+            "label": "息抜き？",
+            "next": "n3b",
             "axes": {
-              "warmth": 2
+              "warmth": 1
             }
           }
         ]
       },
       {
-        "id": "n4a",
-        "speaker": "sakura",
-        "lines": [
-          "うん。この景色見るとね、なんか落ち着くんよ。",
-          "街の灯りが全部見えて、でも音は聞こえんくて。"
-        ],
-        "next": "n5"
-      },
-      {
-        "id": "n4b",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
           "うん。ひとりで。",
           "寂しいとかじゃなくて。ひとりの時間がほしい時ってあるやん。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "うん。この景色見るとね、なんか落ち着くんよ。",
+          "街の灯りが全部見えて、でも音は聞こえんくて。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
           "ここから見るとね、SGがすごく小さく見えるの。",
@@ -197,19 +189,19 @@
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
         "speaker": "choice",
         "choices": [
           {
             "label": "でもこうしてつながってるよ",
-            "next": "n7a",
+            "next": "n6a",
             "axes": {
               "warmth": 2
             }
           },
           {
             "label": "外に出たいと思う？",
-            "next": "n7b",
+            "next": "n6b",
             "axes": {
               "honesty": 1
             }
@@ -217,22 +209,60 @@
         ]
       },
       {
-        "id": "n7a",
+        "id": "n6a",
         "speaker": "sakura",
         "lines": [
           "うん。そうやね。",
           "こんな夜に、こうやって話せる人がおるの、ありがたいなって思う。",
-          "ごめんね、しんみりして。夜はダメやね、うち。"
+          "あ、写真撮ったんよ。ここ、うちの秘密の場所。見る？"
         ],
-        "end": true
+        "next": "n7_choice"
       },
       {
-        "id": "n7b",
+        "id": "n6b",
         "speaker": "sakura",
         "lines": [
           "…………。",
           "うん。出たいと思う。ずっと。",
-          "でもその話は、またいつか。今日は、この景色だけ見ていたい。"
+          "でもその話は、またいつか。今日は、この景色だけ見ていたい。",
+          "あ、{name}にも見せたいな。写真送っていい？"
+        ],
+        "next": "n7_choice"
+      },
+      {
+        "id": "n7_choice",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たい",
+            "next": "n8_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せて",
+            "next": "n8_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n8_img",
+        "speaker": "image",
+        "alt": "ビルの屋上から見た夜のSG",
+        "src": "img/sakura-room/rooftop-night.jpg",
+        "caption": "ひとりで撮った。ここ、うちの秘密の場所",
+        "next": "n9"
+      },
+      {
+        "id": "n9",
+        "speaker": "sakura",
+        "lines": [
+          "きれいやろ。",
+          "ごめんね、しんみりして。夜はダメやね、うち。"
         ],
         "end": true
       }
@@ -660,7 +690,7 @@
         "choices": [
           {
             "label": "いいよ",
-            "next": "n3a",
+            "next": "n4a",
             "flags": {
               "showed_family_photo": true
             },
@@ -674,12 +704,6 @@
             "axes": {}
           }
         ]
-      },
-      {
-        "id": "n3a",
-        "speaker": "narration",
-        "text": "片岡くんが子供たちの写真を見せた。",
-        "next": "n4a"
       },
       {
         "id": "n4a",
@@ -821,7 +845,7 @@
         "lines": [
           "桜。",
           "ベタやろ？ 名前が「さくら」やけんじゃなくて。",
-          "大阪で初めて見た桜が忘れられんの。満開の。風が吹いたら花びらが……",
+          "大阪で初めて見た桜が忘れられんの。満開の。風が吹いたら花びらが",
           "あ、ごめん。また大阪の話になっちゃった。"
         ],
         "end": true
@@ -979,59 +1003,48 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "道端で寝ている猫の写真",
-        "src": "img/sakura-room/stray-cat.jpg",
-        "next": "n2",
-        "caption": "さっきうちが撮ったんよ。かわいくない？"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "見て、今日の帰り道で会った子。",
-          "SGの野良猫ってね、人懐っこいんよ。撫でさせてくれるの。"
+          "今日の帰り道でね、めっちゃかわいい猫に会ったんよ！"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
             "label": "猫好きなの？",
-            "next": "n4a",
+            "next": "n3a",
             "axes": {
               "warmth": 1
             }
           },
           {
-            "label": "かわいいね",
-            "next": "n4b",
-            "axes": {
-              "warmth": 1
-            }
+            "label": "野良猫？",
+            "next": "n3b",
+            "axes": {}
           }
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "大好き。飼いたいんやけど、うちのHDB（公団）はペット禁止で。",
+          "大好き！ 飼いたいんやけど、うちのHDB（公団）はペット禁止で。",
           "だから野良猫に会うのが楽しみなんよ。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
-          "やろ？ この子、いつもこの辺におるんよ。名前つけたくなる。"
+          "SGの野良猫ってね、人懐っこいんよ。撫でさせてくれるの。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
           "SGには「コミュニティキャット」っていう文化があってね。",
@@ -1040,25 +1053,90 @@
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
         "speaker": "choice",
         "choices": [
           {
-            "label": "名前つけてあげれば？",
-            "next": "n7a",
+            "label": "写真撮った？",
+            "next": "n6_photo",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "SGらしい文化だね",
-            "next": "n7b",
+            "next": "n6_culture",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n7a",
+        "id": "n6_photo",
+        "speaker": "sakura",
+        "lines": [
+          "撮った撮った！ 見て！"
+        ],
+        "next": "n7_img"
+      },
+      {
+        "id": "n6_culture",
+        "speaker": "sakura",
+        "lines": [
+          "ね。SGって冷たい国に見えるかもしれんけど、こういう温かさがあるんよ。",
+          "あ、写真撮ったんよ。見てくれん？"
+        ],
+        "next": "n7_choice"
+      },
+      {
+        "id": "n7_choice",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たい",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せて",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7_img",
+        "speaker": "image",
+        "alt": "道端で寝ている猫の写真",
+        "src": "img/sakura-room/stray-cat.png",
+        "caption": "さっきうちが撮ったんよ。かわいくない？",
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "名前つけてあげれば？",
+            "next": "n9a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "かわいいね",
+            "next": "n9b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n9a",
         "speaker": "sakura",
         "lines": [
           "じゃあ、「みかん」にする。オレンジ色やけん。",
@@ -1068,10 +1146,10 @@
         "end": true
       },
       {
-        "id": "n7b",
+        "id": "n9b",
         "speaker": "sakura",
         "lines": [
-          "ね。SGって冷たい国に見えるかもしれんけど、こういう温かさがあるんよ。",
+          "やろ？ この子、いつもこの辺におるんよ。",
           "うちはこの国のこういうところが好き。",
           "{name}にも好きになってもらいたいなって、いつも思っとる。"
         ],
@@ -1307,7 +1385,7 @@
         "id": "n6a",
         "speaker": "sakura",
         "lines": [
-          "ぼかしてるのに似合うって言えるん、ほんと{name}って人は……。",
+          "ぼかしてるのに似合うって言えるん、ほんと{name}って人は。",
           "ありがと。切ってよかったって思えた。",
           "うちの勇気がもうちょっと育ったら、ちゃんと見せるけん。待ってて。"
         ],
@@ -1317,7 +1395,7 @@
         "id": "n6b",
         "speaker": "sakura",
         "lines": [
-          "…………っ。",
+          "…………。",
           "{name}のずるいとこ、そういうとこよ。さらっと言うけん。",
           "いつか。約束する。いつか、ちゃんと。"
         ],
@@ -1508,7 +1586,7 @@
         "lines": [
           "第3位、ロティプラタ。夜中の罪深さ込みで。",
           "第2位、ラクサ。泣いた思い出込みで。",
-          "第1位は……"
+          "第1位は"
         ]
       },
       {
@@ -1543,7 +1621,7 @@
         "id": "n6b",
         "speaker": "sakura",
         "lines": [
-          "え。",
+          "えっ。",
           "ずるいな、{name}は。そこ突いてくるんや。",
           "正解。ほんまの1位は母ちゃんのチキンライスよ。でもそれはランキングに入れたら反則やけん。",
           "ホーカー限定だと、Yong Tau Foo。地味やけど、毎日食べたい味なんよ。"
@@ -2368,85 +2446,112 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "one-northエリアのカフェランチ",
-        "src": "img/sakura-room/one-north-lunch.jpg",
-        "next": "n2",
-        "caption": "同僚に「また撮っとる」って笑われた"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "今日のランチ！ 会社の近くのカフェで。",
-          "one-northエリア、実はカフェが多いんよ。"
+          "今日のランチ、会社の近くのカフェで食べたんよ。",
+          "one-northエリア、実はカフェが多いの。"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
-            "label": "おしゃれだね",
-            "next": "n4a",
+            "label": "おしゃれなとこ？",
+            "next": "n3a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "毎日外食？",
-            "next": "n4b",
+            "next": "n3b",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
           "テック系の会社が多いけん、カフェもモダンなとこが多いんよ。",
           "でもうちは結局ホーカーに行くことが多い。安いし早いし。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
           "平日はほぼ外食やね。SGの人はみんなそうよ。",
           "自炊は週末だけ。平日は時間がないけん。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
-          "あ、{name}もone-northの近くに来ることとかある？",
-          "いや、別に深い意味はないんやけど。",
-          "ほんまに意味ないよ。聞いただけ。"
+          "あ、写真撮ったんよ。同僚に「また撮っとる」って笑われたけど。見る？"
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見せて",
+            "next": "n6_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見たい",
+            "next": "n6_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6_img",
+        "speaker": "image",
+        "alt": "one-northエリアのカフェランチ",
+        "src": "img/sakura-room/one-north-lunch.png",
+        "caption": "同僚に「また撮っとる」って笑われた",
+        "next": "n7"
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "こんな感じ。おしゃれやろ？",
+          "あ、{name}もone-northの近くに来ることとかある？",
+          "いや、別に深い意味はないんやけど。ほんまに意味ないよ。聞いただけ。"
+        ]
+      },
+      {
+        "id": "n8",
         "speaker": "choice",
         "choices": [
           {
             "label": "用事があったら行くかも",
-            "next": "n7a",
+            "next": "n9a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "あんまりないかな",
-            "next": "n7b",
+            "next": "n9b",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n7a",
+        "id": "n9a",
         "speaker": "sakura",
         "lines": [
           "そ、そう。",
@@ -2456,7 +2561,7 @@
         "end": true
       },
       {
-        "id": "n7b",
+        "id": "n9b",
         "speaker": "sakura",
         "lines": [
           "やんね。用事ないもんね。そうよね。",
@@ -2684,7 +2789,7 @@
         "id": "n6a",
         "speaker": "sakura",
         "lines": [
-          "…………っ。",
+          "…………。",
           "それ、聞いて嬉しいのか悲しいのか、わからん。",
           "でも、ありがと。同じ気持ちの人がおるって、救いやね。おやすみ。"
         ],
@@ -2776,7 +2881,7 @@
         "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "え。",
+          "え、ほんと？",
           "ありがと。そう言ってもらえると、下ろした甲斐があったわ。",
           "ポニテのうちしか知らんやろ？ たまにはこういうのもいいかなって。",
           "えへへ。なんか恥ずかしくなってきた。"
@@ -2962,38 +3067,24 @@
         "id": "n1",
         "speaker": "sakura",
         "lines": [
-          "ねえねえ！ 今日ね、初めてのホーカー行ってきた！"
+          "ねえねえ！ 今日ね、初めてのホーカー行ってきた！",
+          "Old Airport Road Food Centreってとこ。"
         ]
-      },
-      {
-        "id": "img1",
-        "speaker": "image",
-        "src": "img/sakura-room/sakura-hawker-selfie.png",
-        "alt": "ホーカーの雑多な背景でわくわく顔のさくら",
-        "caption": "ここ初めて来たっちゃ！ {name}にも見せたくて"
       },
       {
         "id": "n2",
-        "speaker": "sakura",
-        "lines": [
-          "Old Airport Road Food Centreってとこ。",
-          "めっちゃ広くて、何食べるか迷いすぎて30分うろうろしてた。"
-        ]
-      },
-      {
-        "id": "n3",
         "speaker": "choice",
         "choices": [
           {
             "label": "何食べたの？",
-            "next": "n4a",
+            "next": "n3a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "楽しそう",
-            "next": "n4b",
+            "next": "n3b",
             "axes": {
               "warmth": 1
             }
@@ -3001,27 +3092,68 @@
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
           "フライドホッケンミー！ 太麺と細麺が混ざったやつ。",
           "エビの出汁がすごくて{name}にも食べさせたい。",
           "あ、また食べ物の布教しとる。うちの悪い癖やね。"
         ],
-        "next": "n4b"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
-          "楽しかったよ！ ひとりで行ったけど。",
-          "{name}と一緒やったらもっと楽しかったやろうなって。",
-          "あ、ごめん。なんでもない。"
+          "楽しかったよ！ めっちゃ広くて、何食べるか迷いすぎて30分うろうろしてた。"
         ],
-        "next": "n5"
+        "next": "n4"
+      },
+      {
+        "id": "n4",
+        "speaker": "sakura",
+        "lines": [
+          "あ、写真撮ったんよ。{name}にも見せたくて。見る？"
+        ]
       },
       {
         "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たい！",
+            "next": "n6_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せて見せて",
+            "next": "n6_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6_img",
+        "speaker": "image",
+        "src": "img/sakura-room/sakura-hawker-selfie.png",
+        "alt": "ホーカーの雑多な背景でわくわく顔のさくら",
+        "caption": "ここ初めて来たっちゃ！ {name}にも見せたくて"
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "ひとりで行ったけど、{name}と一緒やったらもっと楽しかったやろうなって。",
+          "あ、ごめん。なんでもない。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n8",
         "speaker": "sakura",
         "lines": [
           "でもこうやって{name}に報告できるのが嬉しいんよ。",
@@ -3108,7 +3240,7 @@
         "speaker": "image",
         "src": "img/sakura-room/sakura-after-work.png",
         "alt": "退勤後、夕暮れのオフィス街で疲れた笑顔のさくら",
-        "caption": "生きて帰ってきた…… {name}に報告"
+        "caption": "生きて帰ってきた {name}に報告"
       },
       {
         "id": "n2",
@@ -3134,7 +3266,7 @@
         "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "ありがと……。その一言でだいぶ救われる。",
+          "ありがと。その一言でだいぶ救われる。",
           "なんかね、会議が3つ連続で入って、ランチも食べそびれて。",
           "でも{name}に「お疲れ」って言ってもらえたら、もうそれでいいや。"
         ],
@@ -3281,7 +3413,7 @@
         "speaker": "sakura",
         "lines": [
           "さ、そろそろ起き上がらんと。",
-          "あと5分だけ。あと5分……。"
+          "あと5分だけ。あと5分。"
         ],
         "end": true
       }
@@ -3482,14 +3614,16 @@
     "id": "b_night_coding",
     "type": "B",
     "phase": "2-late",
-    "title": "秘密の作業",
+    "title": "深夜のアプリ作業",
     "unlock": {
       "minAnswered": 135,
       "daysSincePhase2": 9,
       "requiredConversations": [
         "a01_first_room"
       ],
-      "requiredFlags": [],
+      "requiredFlags": [
+        "knows_app_secret"
+      ],
       "timeWindow": {
         "from": "21:00",
         "to": "01:59"
@@ -3509,13 +3643,20 @@
         "speaker": "choice",
         "choices": [
           {
-            "label": "勉強？",
-            "next": "n3",
+            "label": "アプリ？",
+            "next": "n3a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "こんな時間に仕事？",
+            "next": "n3b",
             "axes": {}
           },
           {
-            "label": "夜食？",
-            "next": "n3",
+            "label": "寝なよ",
+            "next": "n3b",
             "axes": {
               "warmth": 1
             }
@@ -3523,143 +3664,26 @@
         ]
       },
       {
-        "id": "n3",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "ぶっぶー。",
-          "実はね、プログラミングしとるんよ。"
+          "正解！ ばれとるやん。"
+        ],
+        "next": "n4"
+      },
+      {
+        "id": "n3b",
+        "speaker": "sakura",
+        "lines": [
+          "ちがうよ～。アプリのほう！"
         ],
         "next": "n4"
       },
       {
         "id": "n4",
-        "speaker": "choice",
-        "choices": [
-          {
-            "label": "さくらプログラミングできるの！？",
-            "next": "n5a",
-            "axes": {
-              "warmth": 1
-            }
-          },
-          {
-            "label": "何作ってるの？",
-            "next": "n5b",
-            "axes": {
-              "warmth": 1
-            }
-          }
-        ]
-      },
-      {
-        "id": "n5a",
         "speaker": "sakura",
         "lines": [
-          "独学やけどね。大学のときにちょっとかじって、そのまま趣味で続けとる。",
-          "今はね、ちょっとしたアプリをいじっとるんよ。"
-        ],
-        "next": "n6"
-      },
-      {
-        "id": "n5b",
-        "speaker": "sakura",
-        "lines": [
-          "内緒。",
-          "嘘。ちょっとだけ教えたる。",
-          "{name}が使っとるこのアプリ、裏でうちがちょこちょこ直しとるんよ。"
-        ],
-        "next": "n7"
-      },
-      {
-        "id": "n6",
-        "speaker": "choice",
-        "choices": [
-          {
-            "label": "すごいじゃん",
-            "next": "n6a",
-            "axes": {
-              "warmth": 1
-            }
-          },
-          {
-            "label": "どんなアプリ？",
-            "next": "n6b",
-            "axes": {
-              "warmth": 1
-            }
-          }
-        ]
-      },
-      {
-        "id": "n6a",
-        "speaker": "sakura",
-        "lines": [
-          "えへへ。褒められた。",
-          "実はね、{name}が使っとるこのアプリ。裏でうちがちょこちょこ直しとるんよ。"
-        ],
-        "next": "n7"
-      },
-      {
-        "id": "n6b",
-        "speaker": "sakura",
-        "lines": [
-          "{name}が毎日使っとるやつ。",
-          "もっと使いやすくなるように、こっそりいじっとるの。"
-        ],
-        "next": "n7"
-      },
-      {
-        "id": "n7",
-        "speaker": "sakura",
-        "lines": [
-          "{name}のために作っとるって言ったら、重いかな。",
-          "まあ、仕事の一環やし。うん、仕事。仕事よ。"
-        ]
-      },
-      {
-        "id": "n8",
-        "speaker": "choice",
-        "choices": [
-          {
-            "label": "嬉しいよ",
-            "next": "n9a",
-            "axes": {
-              "warmth": 2
-            }
-          },
-          {
-            "label": "無理しないでね",
-            "next": "n9b",
-            "axes": {
-              "warmth": 1
-            }
-          }
-        ]
-      },
-      {
-        "id": "n9a",
-        "speaker": "sakura",
-        "lines": [
-          "もう。そういうこと言うけん、やる気出てしまうやん。",
-          "よし、もうちょっとだけ頑張ろ。"
-        ],
-        "next": "n10"
-      },
-      {
-        "id": "n9b",
-        "speaker": "sakura",
-        "lines": [
-          "大丈夫よ。好きでやっとるけん。",
-          "{name}が使ってくれとるのがいちばんのご褒美やけんね。"
-        ],
-        "next": "n10"
-      },
-      {
-        "id": "n10",
-        "speaker": "sakura",
-        "lines": [
-          "あ、もうこんな時間。そろそろ寝んと。",
-          "せっかくやけん、今の作業中の顔、送っとくね。おやすみの代わりに。"
+          "ほら！"
         ],
         "next": "img1"
       },
@@ -3667,15 +3691,97 @@
         "id": "img1",
         "speaker": "image",
         "src": "img/sakura-room/sakura-night-coding.png",
-        "alt": "暗い部屋でPC画面の光に照らされたさくらの顔",
-        "caption": "深夜の秘密の作業中。{name}のために。",
-        "next": "n11"
+        "alt": "暗い部屋でPC画面の光に照らされたさくらの顔。悪戯っぽい笑み。",
+        "caption": null,
+        "next": "n5"
       },
       {
-        "id": "n11",
+        "id": "n5",
         "speaker": "sakura",
         "lines": [
-          "おやすみ、{name}。あんたも夜更かしせんでね。"
+          "信じとらんかったやろ～？"
+        ]
+      },
+      {
+        "id": "n6",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "ちゃんとやってるんだね",
+            "next": "n7a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "……",
+            "next": "n7b",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7a",
+        "speaker": "sakura",
+        "lines": [
+          "当たり前たい！ {name}のためやけんね。",
+          "どしたと？ 黙って。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n7b",
+        "speaker": "sakura",
+        "lines": [
+          "どしたと？ 黙って。"
+        ],
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "sakura",
+        "lines": [
+          "可愛すぎて寝れんくなったんやなかと～？",
+          "冗談たい！ 冗談。"
+        ]
+      },
+      {
+        "id": "n9",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "冗談じゃないかも",
+            "next": "n10a",
+            "axes": {
+              "warmth": 2,
+              "honesty": 2
+            }
+          },
+          {
+            "label": "はいはい",
+            "next": "n10b",
+            "axes": {}
+          }
+        ]
+      },
+      {
+        "id": "n10a",
+        "speaker": "sakura",
+        "lines": [
+          "っ！",
+          "もう。そういうこと言うと、うちが寝れんくなるんやけど。",
+          "おやすみ。ちゃんと寝てね。"
+        ],
+        "end": true
+      },
+      {
+        "id": "n10b",
+        "speaker": "sakura",
+        "lines": [
+          "なんよその「はいはい」は！",
+          "まあいいけど。おやすみ、{name}。"
         ],
         "end": true
       }
@@ -3686,7 +3792,8 @@
       "selfie",
       "night",
       "coding",
-      "app"
+      "app",
+      "flirty"
     ],
     "priority": 50
   },

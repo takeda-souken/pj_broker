@@ -226,13 +226,32 @@ async function playConversation(conv, chatArea) {
       break;
     }
 
+    // ── Optional per-node timing overrides ──
+    if (currentNode.pauseBefore) {
+      await delay(currentNode.pauseBefore);
+    }
+
+    // ── Effect nodes (blackout, etc.) ──
+    if (currentNode.speaker === 'effect') {
+      if (currentNode.type === 'blackout') {
+        await showBlackout(chatArea);
+      }
+      const nextId = currentNode.next || getNextNodeId(conv.nodes, currentNode.id);
+      currentNode = nextId ? nodeMap[nextId] : null;
+      continue;
+    }
+
     if (currentNode.speaker === 'sakura') {
       // Show each line with typing animation
       if (currentNode.lines && currentNode.lines.length > 0) {
         for (let i = 0; i < currentNode.lines.length; i++) {
           const lineText = replacePlaceholders(currentNode.lines[i]);
-          await delay(i === 0 ? TYPING_DELAY : LINE_DELAY);
-          await showTyping(chatArea, lineText);
+          const baseDelay = i === 0 ? TYPING_DELAY : LINE_DELAY;
+          await delay(baseDelay);
+          const typingMs = currentNode.typingSlow
+            ? typingDuration(lineText) * currentNode.typingSlow
+            : undefined;
+          await showTyping(chatArea, lineText, typingMs);
           addSakuraMessage(chatArea, lineText);
         }
       }
@@ -357,9 +376,8 @@ function addImageMessage(chatArea, node) {
   };
   content.appendChild(img);
 
-  if (node.caption) {
-    content.appendChild(el('div', { className: 'sr-msg__caption' }, replacePlaceholders(node.caption)));
-  }
+  // Caption is stored in album only — not shown inline in chat
+  // (displayed when user views photo in album detail)
 
   msg.appendChild(avatar);
   msg.appendChild(content);
@@ -369,7 +387,7 @@ function addImageMessage(chatArea, node) {
 
 // ─── Typing indicator ────────────────────────────────
 
-function showTyping(chatArea, text) {
+function showTyping(chatArea, text, durationOverride) {
   return new Promise(resolve => {
     const typing = el('div', { className: 'sr-typing' });
     const avatar = el('div', { className: 'sr-msg__avatar' }, '\uD83C\uDF38');
@@ -385,7 +403,24 @@ function showTyping(chatArea, text) {
     setTimeout(() => {
       typing.remove();
       resolve();
-    }, typingDuration(text));
+    }, durationOverride || typingDuration(text));
+  });
+}
+
+// ─── Blackout effect ─────────────────────────────────
+
+function showBlackout(chatArea) {
+  return new Promise(resolve => {
+    const overlay = el('div', { className: 'sr-blackout' });
+    chatArea.closest('.sr-container')?.appendChild(overlay)
+      || document.body.appendChild(overlay);
+    // Fade in
+    requestAnimationFrame(() => overlay.classList.add('sr-blackout--active'));
+    // Hold, then fade out
+    setTimeout(() => {
+      overlay.classList.remove('sr-blackout--active');
+      setTimeout(() => { overlay.remove(); resolve(); }, 800);
+    }, 1500);
   });
 }
 

@@ -1078,7 +1078,7 @@
         "id": "n1",
         "speaker": "image",
         "alt": "オレンジ色の猫が日向ぼっこしている",
-        "src": "img/sakura-room/mikan-cat-2.jpg",
+        "src": "img/sakura-room/mikan-cat-2.png",
         "next": "n2",
         "caption": "さっきうちが撮った。日向ぼっこ中のみかん"
       },
@@ -1401,7 +1401,7 @@
         "id": "n1",
         "speaker": "image",
         "alt": "自作チキンライスの写真（ちょっと不格好）",
-        "src": "img/sakura-room/homemade-chicken-rice.jpg",
+        "src": "img/sakura-room/homemade-chicken-rice.png",
         "next": "n2",
         "caption": "自分で撮りました。……不格好やけど、見て欲しくて"
       },
@@ -1486,7 +1486,7 @@
         "id": "n1",
         "speaker": "image",
         "alt": "花屋に並ぶ色とりどりの花",
-        "src": "img/sakura-room/flower-shop-2.jpg",
+        "src": "img/sakura-room/flower-shop-2.png",
         "next": "n2",
         "caption": "父ちゃんに撮ってもらった。今日入荷の花、きれいやろ？"
       },
@@ -1571,7 +1571,7 @@
         "id": "n1",
         "speaker": "image",
         "alt": "カラフルな層状のクエラピス",
-        "src": "img/sakura-room/kueh-lapis.jpg",
+        "src": "img/sakura-room/kueh-lapis.png",
         "next": "n2",
         "caption": "同僚のミンさんが撮ってくれました。きれいやろ？"
       },

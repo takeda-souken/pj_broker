@@ -233,7 +233,7 @@
       {
         "id": "n1",
         "speaker": "image",
-        "src": "img/sakura/kaya-toast-morning.jpg",
+        "src": "img/sakura-room/kaya-toast-morning.png",
         "alt": "カヤトーストとコピの写真",
         "caption": "今朝のうちの朝ごはんです。自分で撮りました ☕",
         "next": "n2"
@@ -373,7 +373,7 @@
       "breakfast",
       "coffee"
     ],
-    "image": "img/sakura/kaya-toast-morning.jpg",
+    "image": "img/sakura-room/kaya-toast-morning.png",
     "priority": 50
   },
   {

@@ -67,12 +67,11 @@ ending → gone       : farewell会話 completed
 - 正解時の褒めは仕事モード。でも streak や perfectScore で感情が溢れる
 
 ### 部屋会話のキーイベント
-- `sg_early`: 初めての部屋（a01） → critical
-- `sg_mid`: 呼び方変更イベント → critical、初selfie → critical
-- `sg_late`: 妻子持ち発覚 → **critical**（これがheartbreak遷移トリガー）
-- `sg_late`: 「それでもサポートする」宣言
-- `heartbreak`: teary-smile selfie（選択で送られてくる画像）
-- `ending`: 合格・別れ → critical
+- `sg_early`: 初めての部屋（a01） → critical、呼び方変更（a02） → critical
+- `sg_mid`: 着替え事件（a05）、親の事故（a06）、日本への憧れ（a07）
+- `sg_late`: 会いたいな（a09）→ 素顔selfie（a10）→ 恋愛観（a11）→ ニックネーム2回目（a13）→ **妻子持ち発覚（a08） → critical（heartbreak遷移トリガー）**
+- `heartbreak`: 好きな人がおる（a14）→ teary-smile selfie → 転職の夢（a15）→ 最後の夜（a16）
+- `ending`: 合格・別れ（a17） → critical
 
 ## コード変更箇所
 

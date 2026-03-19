@@ -63,7 +63,7 @@
         "speaker": "sakura",
         "lines": [
           "Bugis Streetっていう屋台街があるんやけど、安い服とかアクセサリーとか、雑貨がいっぱいで。",
-          "あとArab Streetが近くて、モスクがあって、トルコランプのお店があって……",
+          "あとArab Streetが近くて、モスクがあって、トルコランプのお店があって",
           "歩いてるだけで異国情緒がすごいの。SGにおるのに異国って変やけど。"
         ]
       },
@@ -140,99 +140,154 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "サテーの写真（炭火焼きの串）",
-        "src": "img/sakura-room/satay.jpg",
-        "next": "n2",
-        "caption": "昨日の夜うちが撮ったやつ。炭火の匂い、伝わる？"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "今日の晩ごはん！ サテーっていう串焼き。",
+          "今日の晩ごはん、サテーっていう串焼き食べたんよ！",
           "{name}、串焼きって聞いたら何思い出す？"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
             "label": "焼き鳥かな",
-            "next": "n4a",
+            "next": "n3a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "串カツ",
-            "next": "n4b",
+            "next": "n3b",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
           "やっぱり！ でもサテーはちょっと違うんよ。",
           "ピーナッツソースをつけて食べるの。甘辛くて、やみつきになるよ。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
           "串カツ！ 大阪やね～。",
           "うちも大阪で食べた串カツ、忘れられんっちゃ。",
           "サテーも串やけど、ピーナッツソースをつけるのがSG流。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
-          "Lau Pa Satの屋台が有名なんやけどね。夜になると炭火の煙がもくもくして、いい匂いがするの。",
+          "Lau Pa Satの屋台が有名なんよ。夜になると炭火の煙がもくもくして、いい匂いがするの。",
           "10本で5ドルくらい。安いやろ？"
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
         "speaker": "choice",
         "choices": [
           {
-            "label": "写真見てたらお腹空いてきた",
-            "next": "n7a",
+            "label": "写真ある？",
+            "next": "n6",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "食べてみたい",
+            "next": "n5b",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n5b",
+        "speaker": "sakura",
+        "lines": [
+          "食べてほしい！ あ、昨日撮った写真あるんよ。見る？"
+        ],
+        "next": "n6_choice"
+      },
+      {
+        "id": "n6",
+        "speaker": "sakura",
+        "lines": [
+          "あるよ！ 昨日撮ったやつ。"
+        ],
+        "next": "n6_choice"
+      },
+      {
+        "id": "n6_choice",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見せて！",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見たい",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7_img",
+        "speaker": "image",
+        "alt": "サテーの写真（炭火焼きの串）",
+        "src": "img/sakura-room/satay.png",
+        "caption": "昨日の夜うちが撮ったやつ。炭火の匂い、伝わる？",
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "お腹空いてきた",
+            "next": "n9a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "ピーナッツアレルギーだったらどうするの",
-            "next": "n7b",
+            "next": "n9b",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n7a",
+        "id": "n9a",
         "speaker": "sakura",
         "lines": [
           "ごめんって！ でもうちの飯テロは止まらんよ。",
-          "{name}も夜ご飯ちゃんと食べた？ カップ麺はダメやよ。"
+          "{name}も夜ごはんちゃんと食べた？ カップ麺はダメやよ。"
         ],
         "end": true
       },
       {
-        "id": "n7b",
+        "id": "n9b",
         "speaker": "sakura",
         "lines": [
-          "あそれは確かに。ピーナッツなしのソースもあるけど、確認したほうがいいね。",
-          "SGは食のアレルギー表示が日本ほど親切じゃないけん、気をつけて。",
-          "まあ、心配しすぎよね。{name}なら大丈夫やろ。"
+          "あ、それは確かに。ピーナッツなしのソースもあるけど、確認したほうがいいね。",
+          "SGは食のアレルギー表示が日本ほど親切じゃないけん、気をつけて。"
         ],
         "end": true
       }
@@ -349,7 +404,7 @@
         "id": "n6b",
         "speaker": "sakura",
         "lines": [
-          "え。",
+          "え？",
           "もう、そういうこと言うけん。",
           "いつかね。いつか完成したら。約束。"
         ],
@@ -477,32 +532,24 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "Tiong Bahruのレトロな建物とカフェ",
-        "src": "img/sakura-room/tiong-bahru.jpg",
-        "next": "n2",
-        "caption": "うちのスマホで撮りました。この雰囲気、伝わりますかね？"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "今日、Tiong Bahruに行ってきたんよ。",
+          "今日ね、Tiong Bahruに行ってきたんよ。",
           "SGで一番おしゃれなエリアかもしれん。"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
             "label": "どんなところ？",
-            "next": "n4",
+            "next": "n3a",
             "axes": {}
           },
           {
-            "label": "写真の雰囲気いいね",
-            "next": "n4b",
+            "label": "聞いたことある",
+            "next": "n3b",
             "axes": {
               "warmth": 1
             }
@@ -510,24 +557,24 @@
         ]
       },
       {
-        "id": "n4",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
           "戦前のアパートが残ってて、その1階にカフェやベーカリーが入ってるの。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
-          "でしょう？ この雰囲気がたまらんのよ。",
-          "戦前のアパートがそのまま残ってて、リノベされてカフェになっとるの。"
+          "おお、知っとるんや！ 古い建物がそのまま残っててね。",
+          "リノベされてカフェになっとるの。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
           "古いものと新しいものが混ざってる感じが、うちは好きなんよね。",
@@ -535,40 +582,82 @@
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
         "speaker": "choice",
         "choices": [
           {
             "label": "知ってるよ、いいところだよね",
-            "next": "n7a",
+            "next": "n6a",
             "axes": {
               "warmth": 1
             }
           },
           {
             "label": "聞いたことはある",
-            "next": "n7b",
+            "next": "n6b",
             "axes": {}
           }
         ]
       },
       {
-        "id": "n7a",
+        "id": "n6a",
         "speaker": "sakura",
         "lines": [
           "やっぱり！ あの路地裏の雑貨屋さんとか、古いビルのカフェとか。",
-          "うちが大阪で一番好きな場所やった。",
-          "{name}と、好きな場所が似とるのかもしれんね。"
+          "うちが大阪で一番好きな場所やった。"
         ],
-        "end": true
+        "next": "n7"
       },
       {
-        "id": "n7b",
+        "id": "n6b",
         "speaker": "sakura",
         "lines": [
           "梅田のちょっと北にあるんよ。古い長屋をリノベしたカフェとか、個性的な雑貨屋さんがあって。",
-          "うちが大阪で一番好きな場所やった。",
-          "いつかTiong Bahruも歩いてみてね。きっと好きになると思う。"
+          "うちが大阪で一番好きな場所やった。"
+        ],
+        "next": "n7"
+      },
+      {
+        "id": "n7",
+        "speaker": "sakura",
+        "lines": [
+          "あ、写真撮ったんよ。この雰囲気、見てほしい。"
+        ]
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見せて",
+            "next": "n9_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見たい",
+            "next": "n9_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n9_img",
+        "speaker": "image",
+        "alt": "Tiong Bahruのレトロな建物とカフェ",
+        "src": "img/sakura-room/tiong-bahru.jpg",
+        "caption": "うちのスマホで撮りました。この雰囲気、伝わりますかね？",
+        "next": "n10"
+      },
+      {
+        "id": "n10",
+        "speaker": "sakura",
+        "lines": [
+          "いいやろ？ {name}と好きな場所が似とるのかもしれんね。",
+          "いつかTiong Bahruも歩いてみてね。"
         ],
         "end": true
       }
@@ -802,7 +891,7 @@
         "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "やんね……。レストランとかスーパーとか、日本より高いもん。"
+          "やんね。レストランとかスーパーとか、日本より高いもん。"
         ],
         "next": "n4"
       },
@@ -1407,7 +1496,7 @@
         "lines": [
           "551の肉まん。",
           "新大阪駅で買って、新幹線の中で食べたの。帰りの便で。",
-          "あったかくて、ジューシーで、でも「もう大阪を離れるんだ」って思ったら……",
+          "あったかくて、ジューシーで、でも「もう大阪を離れるんだ」って思ったら",
           "あの肉まんの味、たぶん一生忘れん。"
         ]
       },
@@ -1962,61 +2051,52 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "マリーナベイの夜景",
-        "src": "img/sakura-room/marina-bay-night.jpg",
-        "next": "n2",
-        "caption": "うちのスマホで撮ったけん画質悪いけどきれいやったんよ"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "きれいやろ。",
-          "今日、仕事帰りに撮ったの。"
+          "ねぇ、今仕事帰りなんやけど。",
+          "今日のマリーナベイ、すごいきれいなんよ。"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
-            "label": "すごい……",
-            "next": "n4a",
+            "label": "夜景？",
+            "next": "n3a",
             "axes": {
               "warmth": 1
             }
           },
           {
-            "label": "写真、上手だね",
-            "next": "n4b",
+            "label": "レーザーショーの日？",
+            "next": "n3b",
             "axes": {
-              "warmth": 2
+              "warmth": 1
             }
           }
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "マリーナベイサンズのレーザーショー。毎晩やっとるんよ。",
+          "そう！ マリーナベイサンズのレーザーショー。毎晩やっとるんよ。",
           "タダで見れるの。世界一贅沢な無料ショーかもしれん。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
-          "えほんと？ ありがと。",
-          "iPhoneやけどね。被写体がいいだけよ。",
-          "マリーナベイサンズのレーザーショー。毎晩やっとるの。"
+          "毎晩やっとるんよ、実は。20時と21時。",
+          "タダで見れるけん、仕事帰りにふらっと寄れるの。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
           "うちね、疲れた日はここに来るんよ。",
@@ -2025,12 +2105,77 @@
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "写真見たいな",
+            "next": "n6_offer",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "「大丈夫」の場所なんだね",
+            "next": "n6_deep",
+            "axes": {
+              "warmth": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6_offer",
+        "speaker": "sakura",
+        "lines": [
+          "撮ったよ！ ちょうど今。"
+        ],
+        "next": "n7_img"
+      },
+      {
+        "id": "n6_deep",
+        "speaker": "sakura",
+        "lines": [
+          "うん。誰にも言ったことなかったんやけどね。",
+          "あ、今ちょうど写真撮ったんよ。見てくれん？"
+        ],
+        "next": "n7_choice"
+      },
+      {
+        "id": "n7_choice",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たい",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せて",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7_img",
+        "speaker": "image",
+        "alt": "マリーナベイの夜景",
+        "src": "img/sakura-room/marina-bay-night.jpg",
+        "caption": "うちのスマホで撮ったけん画質悪いけどきれいやったんよ",
+        "next": "n8"
+      },
+      {
+        "id": "n8",
         "speaker": "choice",
         "choices": [
           {
             "label": "今度行ってみるよ",
-            "next": "n7a",
+            "next": "n9a",
             "flags": {
               "interested_marina_night": true
             },
@@ -2039,30 +2184,28 @@
             }
           },
           {
-            "label": "「大丈夫」の場所なんだね",
-            "next": "n7b",
+            "label": "きれいだね",
+            "next": "n9b",
             "axes": {
-              "warmth": 2
+              "warmth": 1
             }
           }
         ]
       },
       {
-        "id": "n7a",
+        "id": "n9a",
         "speaker": "sakura",
         "lines": [
-          "うん、行ってみて。20時と21時にレーザーショーがあるけん。",
+          "うん、行ってみて。",
           "写真撮ったら送ってね。{name}が見た夜景、うちも見たいけん。"
         ],
         "end": true
       },
       {
-        "id": "n7b",
+        "id": "n9b",
         "speaker": "sakura",
         "lines": [
-          "うん。",
-          "誰にも言ったことなかったんやけどね。",
-          "でも{name}には、なんか言いたくなった。不思議やね。"
+          "やろ？ でも{name}には、なんか言いたくなった。不思議やね。"
         ],
         "end": true
       }
@@ -2447,32 +2590,24 @@
     "nodes": [
       {
         "id": "n1",
-        "speaker": "image",
-        "alt": "カラフルなアイスカチャンの写真",
-        "src": "img/sakura-room/ice-kachang.jpg",
-        "next": "n2",
-        "caption": "食べる前に撮るの忘れそうになった。ギリギリセーフ"
-      },
-      {
-        "id": "n2",
         "speaker": "sakura",
         "lines": [
-          "見て見て！ これ、アイスカチャンっていうんよ。",
-          "SGのかき氷！"
+          "今日暑すぎて、かき氷食べてきたんよ。",
+          "アイスカチャンっていうSGのかき氷！"
         ]
       },
       {
-        "id": "n3",
+        "id": "n2",
         "speaker": "choice",
         "choices": [
           {
-            "label": "すごい色だね",
-            "next": "n4a",
+            "label": "かき氷あるんだ",
+            "next": "n3a",
             "axes": {}
           },
           {
-            "label": "日本のかき氷と違うね",
-            "next": "n4b",
+            "label": "日本のかき氷と違う？",
+            "next": "n3b",
             "axes": {
               "warmth": 1
             }
@@ -2480,23 +2615,23 @@
         ]
       },
       {
-        "id": "n4a",
+        "id": "n3a",
         "speaker": "sakura",
         "lines": [
-          "やろ？ シロップがカラフルなんよ。でも味はちゃんとおいしい。"
+          "あるよ！ しかもめっちゃカラフルなの。シロップがすごい色しとる。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n4b",
+        "id": "n3b",
         "speaker": "sakura",
         "lines": [
           "全然違う！ 中にあずきとかゼリーとかコーンとか入っとるの。てんこ盛り。"
         ],
-        "next": "n5"
+        "next": "n4"
       },
       {
-        "id": "n5",
+        "id": "n4",
         "speaker": "sakura",
         "lines": [
           "暑い日にこれ食べるとね、生き返るんよ。",
@@ -2505,19 +2640,84 @@
         ]
       },
       {
-        "id": "n6",
+        "id": "n5",
         "speaker": "choice",
         "choices": [
           {
             "label": "かわいいな",
-            "next": "n7a",
+            "next": "n6_cute",
             "axes": {
               "warmth": 2
             }
           },
           {
+            "label": "写真撮った？",
+            "next": "n6_photo",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n6_cute",
+        "speaker": "sakura",
+        "lines": [
+          "かっ！ かわいくないよ！ ただの不器用なだけ！",
+          "もう。あ、写真撮ったんよ。見る？"
+        ],
+        "next": "n6_choice"
+      },
+      {
+        "id": "n6_photo",
+        "speaker": "sakura",
+        "lines": [
+          "撮った！ 食べる前にギリギリセーフで。見る？"
+        ],
+        "next": "n6_choice"
+      },
+      {
+        "id": "n6_choice",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "見たい！",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
+            "label": "見せて",
+            "next": "n7_img",
+            "axes": {
+              "warmth": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "n7_img",
+        "speaker": "image",
+        "alt": "カラフルなアイスカチャンの写真",
+        "src": "img/sakura-room/ice-kachang.png",
+        "caption": "食べる前に撮るの忘れそうになった。ギリギリセーフ",
+        "next": "n8"
+      },
+      {
+        "id": "n8",
+        "speaker": "choice",
+        "choices": [
+          {
+            "label": "すごい色だね",
+            "next": "n9a",
+            "axes": {
+              "warmth": 1
+            }
+          },
+          {
             "label": "今度食べてみるよ",
-            "next": "n7b",
+            "next": "n9b",
             "flags": {
               "interested_ice_kachang": true
             },
@@ -2528,17 +2728,16 @@
         ]
       },
       {
-        "id": "n7a",
+        "id": "n9a",
         "speaker": "sakura",
         "lines": [
-          "かっ！",
-          "かわいくないよ！ ただの不器用なだけ！",
-          "もう、{name}って時々変なこと言うよね。"
+          "やろ？ 見た目すごいけど味はちゃんとおいしいんよ。",
+          "Old Airport Roadのホーカーにおいしいとこあるけん、行ってみて。"
         ],
         "end": true
       },
       {
-        "id": "n7b",
+        "id": "n9b",
         "speaker": "sakura",
         "lines": [
           "食べて食べて！ Old Airport Roadのホーカーにおいしいとこあるよ。",
@@ -2548,7 +2747,7 @@
       }
     ],
     "closing": [
-      "じゃあね！ あ、シロップのシミ、まだ取れてないの思い出した……。"
+      "じゃあね！ あ、シロップのシミ、まだ取れてないの思い出した。"
     ],
     "category": "hawker",
     "tags": [
@@ -2623,7 +2822,7 @@
         "id": "n4",
         "speaker": "sakura",
         "lines": [
-          "でも{name}と話しとったら元気出るけん。不思議やね。",
+          "でも{name}と話しとったら元気出るけん。ありがとね。",
           "あ、ごめん。うちの愚痴なんか聞きたくないよね。"
         ]
       },
@@ -2782,7 +2981,7 @@
         "speaker": "sakura",
         "lines": [
           "ね。でも後継者問題もあるんよ。若い人がやりたがらんけん。",
-          "うちはね、いつか自分の子供にも連れて行きたいなって……",
+          "うちはね、いつか自分の子供にも連れて行きたいなって",
           "あ、子供おらんけど。将来の話ね。将来の。"
         ],
         "end": true
@@ -2970,7 +3169,7 @@
         "id": "n3b",
         "speaker": "sakura",
         "lines": [
-          "え、まだ？ SGに来てマーライオン見てないのはさすがに……。"
+          "え、まだ？ SGに来てマーライオン見てないのはさすがに。"
         ],
         "next": "n4"
       },
@@ -3268,7 +3467,7 @@
       }
     ],
     "closing": [
-      "あ、プラウンミーの話したら出汁の匂いが脳に浮かんできた……。"
+      "あ、プラウンミーの話したら出汁の匂いが脳に浮かんできた。"
     ],
     "category": "hawker",
     "tags": [
@@ -3858,7 +4057,7 @@
         "speaker": "sakura",
         "lines": [
           "ほんと？ 嬉しい。",
-          "SGの友達にはなかなか共感してもらえんけん、{name}にそう言ってもらえると……",
+          "SGの友達にはなかなか共感してもらえんけん、{name}にそう言ってもらえると",
           "なんかね、自分の好きなもの肯定されるのって、こんなに嬉しいんやね。"
         ],
         "end": true

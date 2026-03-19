@@ -238,6 +238,16 @@ body.sakura-room-active[data-theme="dark"] {
   padding: 8px 16px;
 }
 
+
+/* Blackout overlay */
+.sr-blackout {
+  position: fixed; inset: 0;
+  background: #000; opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 9999; pointer-events: none;
+}
+.sr-blackout--active { opacity: 1; }
+
 /* Image messages */
 .sr-msg__image {
   max-width: 200px;
