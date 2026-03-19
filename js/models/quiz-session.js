@@ -150,6 +150,8 @@ export class QuizSession {
       correctAnswer: q.answer,
       isCorrect,
       answerTime,
+      originalSelected: q._shuffleMap ? q._shuffleMap[choiceIndex] : choiceIndex,
+      originalCorrect: q._originalAnswer != null ? q._originalAnswer : q.answer,
     };
 
     this.answers.push(record);
@@ -210,7 +212,7 @@ function shuffleChoices(q) {
   const newChoicesJP = q.choicesJP
     ? indices.map(i => q.choicesJP[i])
     : undefined;
-  return { ...q, choices: newChoices, answer: newAnswer, choiceExplanations: newChoiceExp, choicesJP: newChoicesJP, _originalAnswer: q.answer };
+  return { ...q, choices: newChoices, answer: newAnswer, choiceExplanations: newChoiceExp, choicesJP: newChoicesJP, _originalAnswer: q.answer, _shuffleMap: indices };
 }
 
 /**

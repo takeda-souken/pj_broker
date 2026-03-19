@@ -66,6 +66,8 @@ export function sendQuizLog(record) {
     isCorrect: record.isCorrect,
     timeMs: record.answerTime,
     mode: record.mode,
+    origSelected: record.originalSelected,
+    origCorrect: record.originalCorrect,
   });
 }
 
