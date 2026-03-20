@@ -150,7 +150,7 @@ export class QuizSession {
       correctAnswer: q.answer,
       isCorrect,
       answerTime,
-      originalSelected: q._shuffleMap ? q._shuffleMap[choiceIndex] : choiceIndex,
+      originalSelected: (choiceIndex >= 0 && q._shuffleMap) ? q._shuffleMap[choiceIndex] : choiceIndex,
       originalCorrect: q._originalAnswer != null ? q._originalAnswer : q.answer,
     };
 
