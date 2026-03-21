@@ -9492,10 +9492,10 @@
     "source": "Ch6 §13.8, p.211",
     "questionJP": "入院日額保険の給付を受けるために必要な最低入院期間の範囲はどの程度か？",
     "choicesJP": [
-      "入院の長さに関係なく支払われる",
-      "最低6〜24時間の入院が必要",
-      "最低48時間の入院が必要",
-      "最低72時間の入院が必要"
+      "1〜4時間",
+      "6〜24時間",
+      "24〜48時間",
+      "48〜72時間"
     ],
     "explanationJP": "入院日額保険の給付を受けるには、通常最低6〜24時間の入院が必要である。",
     "jpComparisonEN": "(JP) Hospital cash benefits in Japan generally cover from day-surgery admissions onward. In SG, a minimum 6-24 hour hospitalization is required."
@@ -9644,9 +9644,9 @@
     "questionJP": "50歳以上のFDWはワークパーミットを何歳まで更新できるか？",
     "choicesJP": [
       "55歳",
+      "58歳",
       "60歳",
-      "65歳",
-      "年齢上限なし"
+      "65歳"
     ],
     "explanationJP": "50歳以上のFDWはワークパーミットを60歳まで更新できる。",
     "jpComparisonEN": "(JP) Japanese work visas generally have no age cap. In SG, FDW WP renewal is limited to age 60."
@@ -9706,8 +9706,8 @@
     "choicesJP": [
       "S$3,000",
       "S$5,000",
-      "S$7,500",
-      "S$10,000"
+      "S$10,000",
+      "S$15,000"
     ],
     "explanationJP": "マレーシア人以外のFDWの雇用にはS$5,000の保証金が必要である。マレーシア人FDWには保証金は不要。",
     "jpComparisonEN": "(JP) Japan has no security bond system for foreign workers. SG requires S$5,000 security bond for non-Malaysian FDWs."
@@ -9826,10 +9826,10 @@
     "source": "Ch7 §2.20(a)(ii), p.224",
     "questionJP": "MOMがFDWに対して要求する最低傷害保険の補償額はいくらか？",
     "choicesJP": [
-      "S$40,000",
-      "S$50,000",
+      "S$15,000",
+      "S$30,000",
       "S$60,000",
-      "S$80,000"
+      "S$100,000"
     ],
     "explanationJP": "MOMはFDWに対して最低S$60,000の傷害保険を義務付けている。",
     "jpComparisonEN": "(JP) Japan's workers' compensation premiums are fully employer-funded, with amounts based on salary. SG mandates minimum S$60,000 PA insurance for FDWs."
@@ -9950,10 +9950,10 @@
     "source": "Ch7 §2.26, p.225",
     "questionJP": "FDWがS$60,000の医療費を負担した場合、雇用主の自己負担額はおよそいくらか？",
     "choicesJP": [
-      "S$5,000",
+      "S$3,750",
+      "S$7,500",
       "S$11,250",
-      "S$15,000",
-      "S$20,000"
+      "S$15,000"
     ],
     "explanationJP": "S$60,000のうち最初のS$15,000は保険でカバーされ、残りS$45,000の25% = S$11,250が雇用主の自己負担となる。",
     "jpComparisonEN": "(JP) Japan's health insurance has a high-cost medical care system capping copay. SG applies a specific formula (25% of amounts above S$15,000)."
@@ -10073,9 +10073,9 @@
     "source": "Ch7 Table 7.1 (f), p.229",
     "questionJP": "FDWIの傷害保険の補償表において、片眼の失明は保険金額の何パーセントが支払われるか？",
     "choicesJP": [
-      "25%",
+      "20%",
+      "40%",
       "50%",
-      "75%",
       "100%"
     ],
     "explanationJP": "FDWIの傷害保険の補償表では、片眼の失明に対して保険金額の50%が支払われる。",
@@ -10135,10 +10135,10 @@
     "source": "Ch7 §2.18 / §2.49(b), p.223/231",
     "questionJP": "保険会社は通常、FDWIの補償をどのくらいの期間で提供するか？",
     "choicesJP": [
-      "12ヶ月",
+      "6ヶ月または12ヶ月",
+      "12ヶ月または24ヶ月",
       "14ヶ月または26ヶ月",
-      "24ヶ月",
-      "36ヶ月"
+      "18ヶ月または30ヶ月"
     ],
     "explanationJP": "FDWIは通常14ヶ月または26ヶ月の期間で提供される。これにはワークパーミット期間終了後のオーバーステイに備えた追加2ヶ月が含まれる。",
     "jpComparisonEN": "(JP) Japan's labor insurance is tied to employment period. SG FDWI is 14 or 26 months, including an extra 2 months as a buffer for potential overstay."
@@ -10197,10 +10197,10 @@
     "source": "Ch7 §2.64, p.235",
     "questionJP": "FDWの賠償責任特約は、第三者からの請求に対していくらまで補償するか？",
     "choicesJP": [
-      "S$5,000",
       "S$10,000",
       "S$25,000",
-      "S$50,000"
+      "S$50,000",
+      "S$100,000"
     ],
     "explanationJP": "FDWの賠償責任特約は第三者からの請求に対してS$25,000まで補償する。",
     "jpComparisonEN": "(JP) If a domestic worker causes damage to a third party, employer liability under (JP) Civil Code Art. 715 applies. SG FDWI covers up to S$25,000 for FDW liability."
@@ -10289,9 +10289,9 @@
     "questionJP": "FDWIの雇用終了費用補償はいくらまで支払われるか？",
     "choicesJP": [
       "S$100",
-      "S$200",
       "S$300",
-      "S$500"
+      "S$500",
+      "S$1,000"
     ],
     "explanationJP": "FDWIの雇用終了費用補償はS$300まで支払われる。",
     "jpComparisonEN": "(JP) Japan has no insurance-based coverage for termination costs of foreign workers. SG FDWI covers up to S$300."
@@ -10440,9 +10440,9 @@
     "source": "Ch7 §3.19, p.239",
     "questionJP": "ゴルファー保険のホールインワン給付金の一般的な限度額はいくらか？",
     "choicesJP": [
+      "S$100",
       "S$250",
       "S$500",
-      "S$750",
       "S$1,000"
     ],
     "explanationJP": "ゴルファー保険のホールインワン給付金の一般的な限度額はS$500である。",

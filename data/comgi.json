@@ -2166,14 +2166,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §7.21, p.50",
-    "questionJP": "教科書によると、企業中断保険の引受は火災保険と比較してなぜ複雑なのか？",
+    "questionJP": "商品ではなくサービスを提供する事業（弁護士、会計士、医師など）には、どのような企業中断補償がより適切か？",
     "choicesJP": [
-      "規制当局が異なる引受基準を定めているため",
-      "収益性の見通しの評価が必要であり、一律の適用ができないため",
-      "シンガポール政府がBI保険引受に追加費用を課しているため",
-      "BI保険は再保険による担保を受けられないため"
+      "すべての事業に必要であるため、標準的な粗利益補償",
+      "変動費がほとんどまたは全くないため、報酬または収入の喪失を補償する保険に追加費用補償保険を加えた契約",
+      "主なリスクが未払請求書であるため、帳簿債権喪失補償のみ",
+      "主な支出が給与であるため、給与のみの補償"
     ],
-    "explanationJP": "§9.1では、企業中断保険の引受が火災保険より複雑である理由として、収益性の見通しを評価する必要があること、また企業中断の保険金額はその企業固有のものであり「一律の適用」ができないことが説明されている。",
+    "explanationJP": "§7.21では、専門職事業（弁護士、会計士、医師など）は変動費がほとんどまたは全くなく、粗利益補償は不要であると説明されている。代わりに、報酬（または収入）の喪失と追加費用補償を補償する保険で十分である。",
     "jpComparisonEN": "(JP) Japan's BI underwriting also requires individual assessment of each business's profitability outlook. No 'one-size-fits-all' approach — same challenge as Singapore."
   },
   {
@@ -2198,14 +2198,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §§8.1-8.2, p.50",
-    "questionJP": "教科書によると、企業中断保険の引受時に通常報告書の提出が求められる基準額はいくらか？",
+    "questionJP": "企業中断保険（粗利益）の保険料率はどのように算出されるか？",
     "choicesJP": [
-      "S$500,000超",
-      "S$1,000,000超",
-      "S$2,000,000超",
-      "S$5,000,000超"
+      "MASがシンガポールのすべての事業に対して固定料率を設定する",
+      "物的損害保険の年間料率（最低料率/基本料率）に基づき、補償期間に応じたローディング（割増）を適用して算出される",
+      "補償期間に関係なく、年間売上高の一定割合として計算される",
+      "事業主が推定粗利益に基づいて自ら設定する"
     ],
-    "explanationJP": "§9.2によると、保険金額がS$1,000,000を超える場合、通常は被保険者の事業を概説する報告書を入手する。報告書は被保険者の仲介者（損害保険会社またはブローカー）が作成する。",
+    "explanationJP": "§§8.1-8.2では、BI保険の保険料率は物的損害保険の年間料率（最低料率/基本料率）に基づいて算出されると説明されている。選択した補償期間の長さに応じてローディング（割増）が適用される。",
     "jpComparisonEN": "(JP) In Japan, large BI policies also require detailed business reports and sometimes independent loss adjuster surveys. The threshold varies by insurer but the concept of requiring additional information for large sums insured is the same."
   },
   {
@@ -2229,14 +2229,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §8.2 (loading table), p.50",
-    "questionJP": "教科書によると、企業中断保険の報告書には何が含まれるべきか？",
+    "questionJP": "教科書の保険料ローディング表によると、最も高いローディング率が適用される補償期間はどれか？",
     "choicesJP": [
-      "従業員数と直近5年間の給与記録のみ",
-      "事業内容の概要、被保険者の損失防止対策、緊急時対応計画・事業継続計画など",
-      "シンガポール政府への直近の税務申告書のみ",
-      "教科書の事業継続方針のコピー"
+      "6ヶ月（75%ローディング）",
+      "9ヶ月（85%ローディング）",
+      "12ヶ月（100%ローディング）",
+      "36ヶ月（75%ローディング）"
     ],
-    "explanationJP": "§9.3では、報告書に含めるべき事項として、事業の種類の説明、売上高・生産高に影響する要因、被保険者が講じている損失防止対策、緊急時対応計画（コンティンジェンシープラン）・事業継続計画の有無などが列挙されている。",
+    "explanationJP": "§8.2の保険料ローディング表によると：3ヶ月＝50%、6ヶ月＝75%、9ヶ月＝85%、12ヶ月＝100%、18ヶ月＝88%、24ヶ月＝76%、30ヶ月＝70%、36ヶ月＝75%。12ヶ月の補償期間が100%で最も高いローディング率となる。",
     "jpComparisonEN": "(JP) Japanese BI underwriting reports similarly cover business description, revenue drivers, loss prevention measures, and BCP status. The content requirements are essentially the same."
   },
   {
@@ -2260,14 +2260,14 @@
     ],
     "difficulty": 3,
     "source": "Ch2 Example 2.1, p.50",
-    "questionJP": "企業中断保険で「初日基準」により保険金額を設定する利点は何か？",
+    "questionJP": "例題2.1（教科書）で、火災保険料率0.20%、補償期間18ヶ月、年間粗利益S$1,000,000の場合、粗利益保険金額はいくらか？",
     "choicesJP": [
-      "すべてのBI保険金請求に対して全額支払いが保証される",
-      "保険金額として直近の年間粗利益を使用しながら、損害査定時にインフレや事業成長に対応する将来トレンド調整が適用される",
-      "直近の年間粗利益のみで算出するため計算が簡便となる",
-      "損害発生時にのみ保険料を支払えばよい"
+      "S$1,000,000",
+      "S$1,200,000",
+      "S$1,500,000",
+      "S$1,800,000"
     ],
-    "explanationJP": "§9.5によると、初日基準では保険金額は直近の年間粗利益に設定される。その代わり、損害査定時に保険者が将来のインフレや事業成長の見積りを加味するトレンド調整を適用する。これにより被保険者の計算が簡便になる。",
+    "explanationJP": "例題2.1より：粗利益保険金額＝年間粗利益×（補償期間月数÷12）＝S$1,000,000×（18÷12）＝S$1,500,000。18ヶ月の補償期間では、保険金額は年間粗利益の1.5倍となる。",
     "jpComparisonEN": "(JP) Japan's BI policies also use a similar concept where the sum insured is based on recent figures with adjustments at claim time. The 'Day One Basis' simplifies the insured's calculation burden."
   },
   {
@@ -2292,14 +2292,14 @@
     ],
     "difficulty": 3,
     "source": "Ch2 Example 2.1, p.50",
-    "questionJP": "企業中断保険の被保険者が正確な将来トレンドの見積りを怠った場合、どのようなリスクがあるか？",
+    "questionJP": "例題2.1（教科書）で、火災保険料率0.20%、補償期間18ヶ月、年間粗利益S$1,000,000の場合、保険料の合計はいくらか？",
     "choicesJP": [
-      "保険者が自動的にトレンド分の保険料を返還する",
-      "保険金額が過少となり、比例てん補条項が適用されて一部保険となるリスクがある",
-      "保険者が保険金請求時にトレンド率を自動調整する",
-      "保険金額が自動的にインフレ連動で増額される"
+      "S$2,000",
+      "S$2,400",
+      "S$2,640",
+      "S$3,000"
     ],
-    "explanationJP": "§9.7では、保険金額のトレンド調整を怠ると、保険金額が実際の粗利益を下回り、比例てん補条項が適用されて全額補償が受けられなくなるリスクがあると警告している。",
+    "explanationJP": "例題2.1より：保険料＝料率×補償期間ローディング×保険金額＝0.20%×88%×S$1,500,000＝0.002×0.88×1,500,000＝S$2,640。18ヶ月の補償期間には88%のローディングが適用される。",
     "jpComparisonEN": "(JP) Under-insurance risk exists in Japan too. If the sum insured is below the actual loss, the average clause (proportional indemnity) reduces the payout. Proper trend forecasting is critical in both jurisdictions."
   },
   {
@@ -2323,14 +2323,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §9.2, p.51",
-    "questionJP": "企業中断保険で、保険者が支払う最大額は保険金額と補償期間のどちらで決まるか？",
+    "questionJP": "粗利益保険金額を算定する際、過去の財務諸表を評価するにあたり留意すべき3つの重要なポイントは何か？",
     "choicesJP": [
-      "保険金額のみで決まる",
-      "補償期間のみで決まる",
-      "保険金額と補償期間の両方が支払限度額を規定する",
-      "損害査定人の裁量で決まる"
+      "納税義務、従業員数、競合分析",
+      "過去の数値は将来の損失とは異なること（事業トレンド）、最大補償期間の長さ、そして保険期間の最終日に中断が発生する可能性があること",
+      "現在の在庫水準、未払債務、季節変動のみ",
+      "減価償却率、資産価値、ローン返済スケジュール"
     ],
-    "explanationJP": "§9.4によると、保険金額は保険者の最大支払限度額を設定し、補償期間は保険者が損害を補填する最大期間を設定する。両方の制限が適用される。",
+    "explanationJP": "§9.2では3つの重要ポイントが示されている：(1) 過去の数値を使用するが、保険は将来の損失を補償するものである（トレンドや計画が重要）、(2) 最大補償期間の長さ、(3) 保険期間の最終日であっても中断が発生する可能性がある。",
     "jpComparisonEN": "(JP) In Japan's BI insurance, both the sum insured and the indemnity period also cap the payout. The dual-limit structure is standard internationally."
   },
   {
@@ -2416,14 +2416,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §9.5, p.51-52",
-    "questionJP": "企業中断保険で、「最大補償期間」とは何を意味するか？",
+    "questionJP": "おもちゃ屋のような季節性のある事業では、標準的な18ヶ月の粗利益保険金額（年間粗利益の1.5倍）が不十分となりうるのはなぜか？",
     "choicesJP": [
-      "保険会社が保険証券を発行するまでの最長期間",
-      "保険者が損害を補填する最長期間であり、営業中断が発生してから事業が通常の状態に復帰するまで",
-      "保険契約者が保険料を支払える最長分割払い期間",
-      "損害査定人が保険金請求を処理するための最長期間"
+      "おもちゃ屋は常に他の事業より固定費が高いため",
+      "収入の大部分が集中する時期に稼ぐ事業では、18ヶ月間に年間粗利益の2倍を稼ぐ可能性があり、年間額の1.5倍では不十分となるため",
+      "おもちゃ屋は標準的な企業中断保険の対象外であるため",
+      "18ヶ月のローディング率は12ヶ月より低いため"
     ],
-    "explanationJP": "最大補償期間は、保険者が利益の損失を補填する最長期間を示す。営業中断が開始してから事業が通常に復帰するまでの期間であり、一般的に12ヶ月、18ヶ月、24ヶ月、36ヶ月の中から選択される。",
+    "explanationJP": "§9.5では、収入の大部分が集中する時期に稼ぐ事業（例：クリスマス前に売上が集中するおもちゃ屋）では、18ヶ月間に年間粗利益の2倍を稼ぐことが十分にありうると説明されている。そのような場合、年間粗利益の1.5倍では不十分となる可能性がある。",
     "jpComparisonEN": "(JP) Japan's BI policies also set a maximum indemnity period, typically 12 or 24 months. The concept of capping the insurer's liability by time as well as amount is identical."
   },
   {
@@ -2447,14 +2447,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §11.2, p.56",
-    "questionJP": "粗利益方式の企業中断保険で、「未保険運営費」とは何か？",
+    "questionJP": "教科書で言及されている、標準的な企業中断保険の一般的な特定免責事項として除外されるものはどれか？",
     "choicesJP": [
-      "保険契約に含めなかった運営費で、中断時も継続的に発生するもの",
-      "保険で補償されない運営費であり、中断時に停止するため保険金額の算出から差し引かれるもの",
-      "保険者が引受拒否した運営費",
-      "企業中断保険ではなく火災保険で補償される運営費"
+      "被保険者自身の施設における火災による損害",
+      "落雷による損害",
+      "あらゆる種類の汚染、浸透、または汚損から生じる損害",
+      "スプリンクラー漏水による損害"
     ],
-    "explanationJP": "未保険運営費とは、営業中断時に停止する費用であり、被保険者が保険をかけないことを選択したものである。売上高から未保険運営費を差し引いた残りが粗利益として保険金額算定の基礎となる。",
+    "explanationJP": "§11.2では、BI保険に特有の一般的な免責事項が列挙されており、あらゆる種類の汚染、浸透、汚損が含まれる。火災と落雷は標準的な補償対象危険であり、スプリンクラー漏水はオプションの追加危険である。",
     "jpComparisonEN": "(JP) In Japan's BI insurance, 'uninsured working expenses' are those variable costs that cease during interruption and are excluded from the sum insured calculation. Same concept as Singapore's gross profit method."
   },
   {
@@ -2478,14 +2478,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §11.6, p.56",
-    "questionJP": "企業中断保険で、「売上高」方式はどのような事業に特に適しているか？",
+    "questionJP": "企業中断保険における「時間免責（タイムエクセス）」とは何か？",
     "choicesJP": [
-      "固定費の割合が高い大規模製造業",
-      "利益変動の大きい中小企業やサービス業",
-      "政府機関や非営利団体",
-      "不動産投資業"
+      "保険金請求を提出しなければならない最長期限",
+      "損害発生後の最初の「x」時間または日数に生じた損害を補償対象から除外する免責",
+      "保険者が保険金支払前に請求を調査するために認められた追加期間",
+      "補償期間が保険期間を超えた場合に課されるペナルティ"
     ],
-    "explanationJP": "売上高方式は、粗利益の算出が困難な事業や、運営費の分類が複雑な事業に適している。粗利益方式に比べて保険金額が大きくなるが、計算が簡便であるため中小企業やサービス業に利用されることが多い。",
+    "explanationJP": "§11.6では、時間免責（タイムエクセス）は損害発生後の最初の「x」時間または日数に生じた損害を除外するものと説明されている。これは、被保険者が保険金請求額の最初の部分を自己負担する金額免責とは異なる。",
     "jpComparisonEN": "(JP) In Japan, the 'turnover basis' is also used for businesses where separating fixed and variable costs is difficult. It results in higher sums insured but simpler calculations."
   },
   {
@@ -2509,14 +2509,14 @@
     ],
     "difficulty": 3,
     "source": "Ch2 §11.7, p.57",
-    "questionJP": "企業中断保険の「補償対象前提条件」とは何か？",
+    "questionJP": "シンガポールにおいて、標準的な慣行の例外として、金額免責や時間免責が歴史的に一般的に使用されていなかったのはどこか？",
     "choicesJP": [
-      "被保険者が保険料を期日通りに支払わなければならないという条件",
-      "物的損害保険契約に基づく保険金請求が認められなければ、BI保険の補償も発動しないという条件",
-      "被保険者がBI保険の全条件を遵守しなければならないという条件",
-      "被保険者が一定の安全基準を維持しなければならないという条件"
+      "小売業の企業中断保険",
+      "標準的な火災利益保険",
+      "エンジニアリング派生損害（企業中断）保険――これは免責が使用されていた例外",
+      "公共事業の企業中断保険"
     ],
-    "explanationJP": "企業中断保険の最も基本的な前提条件は、基盤となる物的損害保険（火災保険等）に基づく保険金請求が認められることである。物的損害保険で保険金が支払われなければ、BI保険の補償も発動しない。",
+    "explanationJP": "§11.7によると、シンガポールでは金額免責や時間免責はかつて一般的に使用されていなかった。ただし、エンジニアリング派生損害（企業中断）保険は例外で、免責が適用されていた。現在では、偶発的BI拡張担保においてより一般的に免責が適用されている。",
     "jpComparisonEN": "(JP) Japan's BI insurance similarly requires an underlying property damage claim to be valid before BI coverage triggers. This prerequisite linkage between property and BI policies is a universal principle."
   },
   {
@@ -2540,14 +2540,14 @@
     ],
     "difficulty": 3,
     "source": "Ch2 §12.3(b), p.57-58",
-    "questionJP": "企業中断保険の「帳簿・記録」条項の目的は何か？",
+    "questionJP": "企業中断保険における「物的損害条件免除」特約とは何か？",
     "choicesJP": [
-      "被保険者に月次報告書の保険者への提出を義務付けること",
-      "帳簿や会計記録を施錠された耐火金庫等で保管し、保険金請求の根拠となる証拠を保全すること",
-      "被保険者に税務当局との情報共有を要求すること",
-      "保険金請求後に独立監査人の選任を義務付けること"
+      "被保険者が物的損害の免責金額を支払う義務を免除する特約",
+      "物的損害保険の免責金額を物的損害額が超えていない場合でも、企業中断保険の請求を可能にする特約",
+      "物的損害保険の維持義務そのものを不要とする免除",
+      "損害発生後に物的損害の保険金額を自動的に復元する特約"
     ],
-    "explanationJP": "帳簿・記録条項では、被保険者に対し、帳簿や会計記録を施錠された耐火金庫やデータバックアップ等により保護することを義務付けている。これは保険金請求時の粗利益や売上高の立証に不可欠な書類を保全するためである。",
+    "explanationJP": "§12.3(b)によると、この特約は物的損害額が免責金額を超えなかったため物的損害保険が発動しない状況に対応するものである。物的損害条件が正式に充足されていなくても、被保険者が企業中断保険で請求できるようにする。",
     "jpComparisonEN": "(JP) Japanese BI policies also require the insured to maintain proper accounting records. Storing records in fireproof safes or maintaining offsite backups is standard practice in both jurisdictions."
   },
   {
@@ -2571,14 +2571,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §12.3(c), p.58",
-    "questionJP": "企業中断保険の「代替施設」特約では、何が補償されるか？",
+    "questionJP": "企業中断保険の「相互依存」特約は何を補償するか？",
     "choicesJP": [
-      "物的損害に関係なく、新しい施設への恒久的な移転費用",
-      "損害を受けた施設の修復期間中に代替施設で事業を継続するための追加費用",
-      "恒久的な事業移転に伴う土地購入費用",
-      "代替施設のための新規設備購入費用"
+      "被保険者が単一の主要従業員に依存していることによる利益の損失",
+      "被保険者の別の施設で損害が発生し、損害を受けていない施設の事業に影響を及ぼした場合の、損害を受けていない施設における営業中断",
+      "2つの異なる危険が同時に発生したことによる損失",
+      "同一持株会社傘下の異なる会社が所有する相互依存事業の補償"
     ],
-    "explanationJP": "代替施設特約は、被保険者の施設が損害を受けた場合に、修復期間中の一時的な代替施設での営業継続に要する追加費用を補償する。これにより営業中断期間の短縮を図る。",
+    "explanationJP": "§12.3(c)によると、相互依存特約は被保険者が2つ以上の施設を有し、そのうちの1つが損害を受けて他の損害を受けていない施設の事業に影響を及ぼした場合に適用される。この特約により、損害を受けていない施設で生じた営業中断損失も請求に含めることができる。",
     "jpComparisonEN": "(JP) Japan's BI policies similarly cover costs for temporary alternative premises during restoration. The goal is to minimize the interruption period by enabling business continuity at a substitute location."
   },
   {
@@ -2601,14 +2601,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §§12.3-12.4(a), p.58",
-    "questionJP": "企業中断保険の「仕入先」特約は、どのような状況を補償するか？",
+    "questionJP": "企業中断保険の以下の特約のうち、追加保険料が必要なものはどれか？",
     "choicesJP": [
-      "被保険者が主要仕入先への支払いを怠った場合の罰則",
-      "主要仕入先の施設が保険対象の危険により損害を受け、被保険者への供給が中断した場合の損失",
-      "仕入先が経営破綻した場合の損失",
-      "仕入先が値上げを行った場合の追加費用"
+      "概算払い",
+      "物的損害条件免除",
+      "指定仕入先特約",
+      "新規事業条項"
     ],
-    "explanationJP": "仕入先特約は、被保険者に原材料や商品を供給する指定仕入先の施設が保険対象の危険により損害を受け、その結果被保険者の事業に中断が生じた場合の損失を補償する。",
+    "explanationJP": "§12.4(a)では、指定仕入先特約は追加保険料の支払いが必要な特約として記載されている。§12.3では、概算払い、物的損害条件免除、新規事業条項は追加保険料が不要な特約として記載されている。",
     "jpComparisonEN": "(JP) Japan's BI policies also offer 'supplier extension' coverage. Supply chain disruption risk is increasingly important, and covering key supplier premises damage is standard in both markets."
   },
   {
@@ -2632,11 +2632,11 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §12.4(c), p.59",
-    "questionJP": "「指定顧客」特約が付与された場合、各顧客についてどのような情報を記載しなければならないか？",
+    "questionJP": "「指定顧客」特約が付与される場合、各顧客についてどのような情報を記載しなければならないか？",
     "choicesJP": [
       "顧客の信用格付けと支払履歴",
       "顧客の施設の所在地と年間売上高",
-      "被保険者の年間売上高に占める各指定顧客の割合",
+      "被保険者の年間売上高に占める各指定顧客からの売上割合",
       "各顧客が購入する商品の種類"
     ],
     "explanationJP": "§12.4(c)によると、指定顧客特約が付与される場合、各顧客を特定し、各顧客から得られる年間売上高の割合をその顧客名に対して記載しなければならない。",
@@ -2666,11 +2666,11 @@
     "questionJP": "「立入阻止」特約では、どのような事態が補償の引き金となるか？",
     "choicesJP": [
       "被保険者自身の施設が保険対象の危険により直接損害を受けた場合",
-      "近隣施設の損害により被保険者の施設への立入りが阻止された場合（被保険者自身の施設は損害なし）",
+      "近隣施設の損害により被保険者の施設へのアクセスが阻止された場合（被保険者自身の施設は損害を受けていない）",
       "パンデミックや疾病の発生による政府の避難命令",
       "被保険者の施設付近の公共工事による道路封鎖"
     ],
-    "explanationJP": "立入阻止特約は、被保険者自身の施設は損害を受けていないが、近隣の施設が保険対象の危険により損害を受けたことにより、被保険者の施設へのアクセスが阻止された場合に補償が発動する。",
+    "explanationJP": "§12.4(e)によると、立入阻止特約は近隣施設の損害により被保険者の施設へのアクセスが阻止された場合を補償する。被保険者自身の施設は損害を受けていないにもかかわらず、事業が中断されることが補償の対象となる。",
     "jpComparisonEN": "(JP) Japan's BI policies also offer 'denial of access' extensions. Coverage triggers when access to the insured's undamaged premises is blocked due to damage at nearby properties — same structure."
   },
   {
@@ -2694,14 +2694,14 @@
     ],
     "difficulty": 3,
     "source": "Ch2 §12.4(f), p.59",
-    "questionJP": "企業中断保険で「累積テスト」とは何のために使用されるか？",
+    "questionJP": "「公共事業者」特約において、補償の対象外となるのはどの状況か？",
     "choicesJP": [
-      "被保険者が保険料を適時に支払っているかを確認するため",
-      "保険期間中の実際の売上高が見積り額と乖離していないかを確認し、一部保険の有無を判定するため",
-      "被保険者の取引先の信用力を評価するため",
-      "保険者の再保険手配が適切であるかを確認するため"
+      "被保険者が電力を受けている変電所への損害",
+      "被保険者に供給しているガス施設への損害",
+      "配電網の破壊（例：激しい嵐による送電線の破壊）",
+      "被保険者に供給している水道施設への損害"
     ],
-    "explanationJP": "累積テストは、保険期間中の実際の売上高と見積り保険金額を比較し、一部保険（保険金額不足）が生じていないかを確認するために使用される。乖離がある場合、比例てん補条項が適用される可能性がある。",
+    "explanationJP": "§12.4(f)によると、公共事業者特約は発電所・変電所、ガス施設、水道施設の財物への損害を補償する。ただし、配電網の破壊（例：激しい嵐による）により中断が生じた場合は、この補償は発動しないと明記されている。",
     "jpComparisonEN": "(JP) Japan's BI claims also use reconciliation tests to check whether the sum insured was adequate. If actual revenue exceeds estimates, the average clause may reduce the payout."
   },
   {
@@ -2725,14 +2725,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §12.4(g), p.59",
-    "questionJP": "企業中断保険における「節約費用」とは何か？",
+    "questionJP": "企業中断保険における「感染症・伝染病」特約は何を補償するか？",
     "choicesJP": [
-      "保険者が保険料の割引を適用すること",
-      "営業中断中に本来の事業活動の停止により削減された費用で、保険金から差し引かれるもの",
-      "被保険者が損害を防止するために投資した費用",
-      "保険金請求の手続き費用"
+      "政府の命令に関係なく、疫病により生じたあらゆる損失",
+      "列挙された原因（感染症、殺人、自殺、害虫、飲食物による中毒、衛生設備の欠陥）により警察または公的機関の命令で施設の使用が制限された場合の営業中断損失",
+      "営業中断中に罹患した従業員の医療費",
+      "WHOが公衆衛生上の緊急事態を宣言した場合の世界的パンデミックによる損失"
     ],
-    "explanationJP": "節約費用とは、営業中断中に事業活動が停止または縮小されたことにより、被保険者が支出しなくて済んだ費用である。保険金の算定において、損失額から節約費用を差し引く。",
+    "explanationJP": "§12.4(g)によると、この特約は感染症・伝染病、殺人、自殺、害虫、飲食物による中毒、または衛生設備の欠陥により、警察または公的機関の命令で施設の使用が制限された場合を補償する。",
     "jpComparisonEN": "(JP) Japan's BI insurance also deducts 'savings' (costs avoided during interruption) from the claim amount. The insured should not profit from the interruption — indemnity principle applies in both jurisdictions."
   },
   {
@@ -2756,14 +2756,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §13.2, p.61",
-    "questionJP": "企業中断保険の「公共事業者」特約は何を補償するか？",
+    "questionJP": "「帳簿債権損失」補償と通常の企業中断保険の主な違いは何か？",
     "choicesJP": [
-      "政府機関との取引における信用リスク",
-      "電気・ガス・水道等の公共事業者の施設が損害を受け、被保険者への供給が中断した場合の損失",
-      "公共事業者の料金値上げによる追加コスト",
-      "被保険者の施設が公共事業に収用された場合の損失"
+      "帳簿債権損失は将来の収入損失を補償し、企業中断保険は過去の債務を補償する",
+      "企業中断保険は将来の潜在的損失を補償する。帳簿債権損失は顧客が負う過去の債務の追跡・確定費用を扱うが、当該債務の回収不能は補償しない",
+      "帳簿債権損失は債務不履行の顧客を補償する信用保険の一種である",
+      "両者は同一の補償であり、帳簿債権損失は企業中断保険の旧称にすぎない"
     ],
-    "explanationJP": "公共事業者特約は、被保険者に電気・ガス・水道・通信等を供給する公共事業者の施設が保険対象の危険により損害を受け、供給が中断したことによる被保険者の営業中断損失を補償する。",
+    "explanationJP": "§13.2によると、企業中断保険は将来の潜在的損失を扱い、帳簿債権損失補償は過去の債務、具体的には顧客が負う債務の追跡・確定費用（記録が滅失している可能性がある）を扱う。重要な点として、当該債務の実際の回収不能は補償しない。",
     "jpComparisonEN": "(JP) Japan's BI policies also offer utility interruption extensions. Coverage for loss due to damage at electricity, gas, or water suppliers' facilities is available as an add-on in both markets."
   },
   {
@@ -2788,14 +2788,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §§13.3-13.5, p.61-62",
-    "questionJP": "企業中断保険で「二重保険」が発覚した場合、保険者はどのように対応するか？",
+    "questionJP": "「先行利益損失保険」（DSU：操業開始遅延保険とも呼ばれる）とは何か？",
     "choicesJP": [
-      "先に契約された保険のみが有効となる",
-      "各保険者がそれぞれの保険金額に応じて按分負担する",
-      "被保険者の選択により一方の保険者のみが支払う",
-      "両方の保険者が全額を支払い、被保険者が超過分を返還する"
+      "実際の損失が発生する前に保険金を前払いする保険",
+      "将来の事業（新築または大規模増設）の将来の収益に対する補償で、損害により操業開始が遅延した場合をカバーする",
+      "年次決算の監査前に利益損失を補償する保険",
+      "保険者が即座のキャッシュフロー需要を補うために提供する前払い制度"
     ],
-    "explanationJP": "二重保険の場合、各保険者はそれぞれの保険金額に比例して保険金を按分負担する。これは損害填補の原則に基づき、被保険者が二重に利益を得ることを防止するためである。",
+    "explanationJP": "§§13.3-13.5によると、先行利益損失保険（DSU／操業開始遅延保険）は将来の事業の将来の収益を補償する。すなわち、新規事業または大規模増設が計画されており、損害（工事現場、仕入先施設、輸送中の貨物への）により事業開始が遅延した場合をカバーする。補償期間は、損害がなければ新規事業が開始されていたはずの時点から始まる。",
     "jpComparisonEN": "(JP) Japan's Insurance Act also requires proportional contribution among multiple insurers covering the same risk. The indemnity principle prevents double recovery — same rule as Singapore."
   },
   {
@@ -2819,14 +2819,14 @@
     ],
     "difficulty": 2,
     "source": "Ch2 §14.1(d), p.62",
-    "questionJP": "企業中断保険における「標準売上高」の定義として正しいものはどれか？",
+    "questionJP": "企業中断保険の請求において、被保険者はいつまでに裏付け書類を保険者に提出しなければならないか？",
     "choicesJP": [
-      "保険期間中の実際の売上高",
-      "損害がなかったと仮定した場合の補償期間中に達成されたであろう売上高",
-      "前年度の実際の売上高",
-      "業界平均の売上高"
+      "保険対象の危険が発生してから7日以内",
+      "補償期間の満了後30日以内",
+      "損害査定人の選任後14日以内",
+      "損害発生日から60日以内"
     ],
-    "explanationJP": "標準売上高とは、損害が発生しなかったと仮定した場合に、補償期間中に達成されたであろう売上高を指す。実際の売上高との差額が売上高の減少分として保険金算定の基礎となる。",
+    "explanationJP": "§14.1(d)によると、被保険者は補償期間の満了後30日以内に、関連する裏付け書類（会計・財務報告書、損益計算書、給与記録、棚卸報告書、請求明細書）を保険者に提出しなければならない。",
     "jpComparisonEN": "(JP) Japan's BI claims also use a 'standard turnover' concept — the hypothetical revenue that would have been earned absent the loss. The gap between standard and actual turnover forms the basis of the claim."
   },
   {
@@ -2850,14 +2850,14 @@
     ],
     "difficulty": 1,
     "source": "Ch3 §2.6, p.62 (Third Schedule: domestic workers excluded)",
-    "questionJP": "企業中断保険の「会計士条項」では何が規定されているか？",
+    "questionJP": "2019年労働災害補償法（WICA 2019）において、同法の対象となる「従業員」に分類されない者は次のうちどれか？",
     "choicesJP": [
-      "保険者が指定する会計士のみが損害査定を行えること",
-      "被保険者の会計士が保険金請求の立証に必要な書類を作成する費用を保険者が負担すること",
-      "会計士の費用は常に被保険者の自己負担であること",
-      "会計士が保険者と被保険者の間の仲裁人を務めること"
+      "雇用契約に基づき雇用された外国人労働者",
+      "個人宅で雇用された家事使用人",
+      "月給S,500の非肉体労働者",
+      "給与水準を問わない肉体労働者"
     ],
-    "explanationJP": "会計士条項により、被保険者の会計士が保険金請求の立証に必要な書類を作成する合理的な費用を保険者が負担する。ただし、この費用は保険金額の制限内である。",
+    "explanationJP": "WICA 2019の第三附則では、家事使用人（個人宅の家事サービスに従事する、またはそれに関連して雇用された者）は適用除外とされている。外国人労働者、基準額以下の非肉体労働者、およびすべての肉体労働者は対象となる。",
     "jpComparisonEN": "(JP) Japan's BI policies also typically cover accountants' fees for claim substantiation within the sum insured limit. The insurer reimburses reasonable costs of preparing the claim documentation."
   },
   {
@@ -2881,14 +2881,14 @@
     ],
     "difficulty": 1,
     "source": "Ch3 §2.6, p.62 (Third Schedule: Singapore Police Force excluded)",
-    "questionJP": "企業中断保険の「粗利益率」はどのように計算されるか？",
+    "questionJP": "WICA 2019の第三附則において、適用除外とされる者は次のうちどれか？",
     "choicesJP": [
-      "粗利益÷営業費用×100",
-      "粗利益÷売上高×100",
-      "売上高÷粗利益×100",
-      "純利益÷売上高×100"
+      "月給S,000の外国人建設労働者",
+      "月給S,400のシンガポール人非肉体労働者",
+      "シンガポール警察の職員",
+      "パートタイムの工場労働者"
     ],
-    "explanationJP": "粗利益率は「粗利益÷売上高×100」で計算される。この比率は保険金額が十分であるかの一部保険テスト（比例てん補テスト）で使用される。",
+    "explanationJP": "WICA 2019の第三附則では、シンガポール軍の構成員、シンガポール警察の職員、シンガポール民間防衛隊、中央麻薬取締局、シンガポール刑務局の職員、および家事使用人が適用除外とされている。",
     "jpComparisonEN": "(JP) Gross profit rate = gross profit / turnover × 100. This ratio is used for the average clause test in both Japan and Singapore to check for under-insurance."
   },
   {
@@ -16117,5 +16117,625 @@
       "eligibility",
       "specimen policy"
     ]
+  },
+  {
+    "id": "comgi-516",
+    "topic": "Business Interruption Insurance",
+    "question": "According to the textbook, why is the underwriting of business interruption insurance more complex compared to fire insurance?",
+    "choices": [
+      "Because regulatory authorities set different underwriting standards",
+      "Because it requires assessment of profitability prospects and cannot be applied uniformly",
+      "Because the Singapore government imposes additional costs on BI insurance underwriting",
+      "Because BI insurance cannot be covered by reinsurance"
+    ],
+    "answer": 1,
+    "explanation": "§9.1 explains that business interruption insurance underwriting is more complex than fire insurance because it requires assessing profitability prospects, and BI sums insured are unique to each business, making a 'one-size-fits-all' approach impossible.",
+    "source": "Ch2 §9.1",
+    "questionJP": "教科書によると、企業中断保険の引受は火災保険と比較してなぜ複雑なのか？",
+    "choicesJP": [
+      "規制当局が異なる引受基準を定めているため",
+      "収益性の見通しの評価が必要であり、一律の適用ができないため",
+      "シンガポール政府がBI保険引受に追加費用を課しているため",
+      "BI保険は再保険による担保を受けられないため"
+    ],
+    "explanationJP": "§9.1では、企業中断保険の引受が火災保険より複雑である理由として、収益性の見通しを評価する必要があること、また企業中断の保険金額はその企業固有のものであり「一律の適用」ができないことが説明されている。",
+    "jpComparison": "日本でも企業費用・利益保険の引受は火災保険より複雑で、個別企業の収益構造を精査する必要がある。SGと同様に画一的な引受ができない点は共通。ただし日本では粗利益方式が主流で、SGほど売上高方式は普及していない。",
+    "jpComparisonEN": "(JP) In Japan too, underwriting of business interruption (cost & profit) insurance is more complex than fire insurance, requiring scrutiny of individual business revenue structures. The inability to apply uniform underwriting is common to both. However, Japan predominantly uses the gross profit method, with the turnover method less prevalent than in SG.",
+    "keywords": [
+      "underwriting",
+      "business interruption",
+      "profitability assessment",
+      "complexity"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-517",
+    "topic": "Business Interruption Insurance",
+    "question": "According to the textbook, what is the threshold sum insured above which a report is normally required for BI insurance underwriting?",
+    "choices": [
+      "Above S$500,000",
+      "Above S$1,000,000",
+      "Above S$2,000,000",
+      "Above S$5,000,000"
+    ],
+    "answer": 1,
+    "explanation": "§9.2 states that when the sum insured exceeds S$1,000,000, a report outlining the insured's business is normally obtained. The report is prepared by the insured's intermediary (loss adjuster or broker).",
+    "source": "Ch2 §9.2",
+    "questionJP": "教科書によると、企業中断保険の引受時に通常報告書の提出が求められる基準額はいくらか？",
+    "choicesJP": [
+      "S$500,000超",
+      "S$1,000,000超",
+      "S$2,000,000超",
+      "S$5,000,000超"
+    ],
+    "explanationJP": "§9.2によると、保険金額がS$1,000,000を超える場合、通常は被保険者の事業を概説する報告書を入手する。報告書は被保険者の仲介者（損害保険会社またはブローカー）が作成する。",
+    "jpComparison": "日本の企業費用・利益保険では金額の大小にかかわらず事業内容のヒアリングを行うのが一般的だが、SGのように明確な金額基準（S$100万超で報告書）を設けている点が異なる。",
+    "jpComparisonEN": "(JP) In Japan, business content is generally reviewed for business interruption insurance regardless of amount. SG differs by setting a clear monetary threshold (report required above S$1M).",
+    "keywords": [
+      "underwriting report",
+      "S$1,000,000 threshold",
+      "sum insured",
+      "intermediary"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-518",
+    "topic": "Business Interruption Insurance",
+    "question": "According to the textbook, what should a BI insurance underwriting report contain?",
+    "choices": [
+      "Only the number of employees and salary records for the past 5 years",
+      "A description of the business, the insured's loss prevention measures, contingency plans and business continuity plans, etc.",
+      "Only the most recent tax returns filed with the Singapore government",
+      "A copy of the textbook's business continuity policy"
+    ],
+    "answer": 1,
+    "explanation": "§9.3 lists items the report should include: a description of the type of business, factors affecting turnover/output, loss prevention measures taken by the insured, and whether contingency plans and business continuity plans exist.",
+    "source": "Ch2 §9.3",
+    "questionJP": "教科書によると、企業中断保険の報告書には何が含まれるべきか？",
+    "choicesJP": [
+      "従業員数と直近5年間の給与記録のみ",
+      "事業内容の概要、被保険者の損失防止対策、緊急時対応計画・事業継続計画など",
+      "シンガポール政府への直近の税務申告書のみ",
+      "教科書の事業継続方針のコピー"
+    ],
+    "explanationJP": "§9.3では、報告書に含めるべき事項として、事業の種類の説明、売上高・生産高に影響する要因、被保険者が講じている損失防止対策、緊急時対応計画（コンティンジェンシープラン）・事業継続計画の有無などが列挙されている。",
+    "jpComparison": "日本でもBI保険の引受では事業概要・損害防止体制・BCP策定状況の確認が重要だが、SGの教科書はより体系的に報告書の記載項目を規定している。",
+    "jpComparisonEN": "(JP) In Japan too, reviewing business overview, loss prevention systems, and BCP status is important for BI underwriting. However, SG's textbook specifies report contents more systematically.",
+    "keywords": [
+      "underwriting report contents",
+      "loss prevention",
+      "business continuity plan",
+      "contingency plan"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-519",
+    "topic": "Business Interruption Insurance",
+    "question": "What is the advantage of setting the sum insured on a 'Day One' basis in business interruption insurance?",
+    "choices": [
+      "It guarantees full payment for all BI claims",
+      "It uses the most recent annual gross profit as the sum insured, while a future trend adjustment for inflation and business growth is applied at the time of loss adjustment",
+      "Calculation is simplified because only the most recent annual gross profit is used",
+      "Premiums need only be paid when a loss occurs"
+    ],
+    "answer": 1,
+    "explanation": "§9.5 explains that under the Day One basis, the sum insured is set at the most recent annual gross profit. In return, the insurer applies a trend adjustment at the time of loss adjustment to account for future inflation and business growth estimates, simplifying the calculation for the insured.",
+    "source": "Ch2 §9.5",
+    "questionJP": "企業中断保険で「初日基準」により保険金額を設定する利点は何か？",
+    "choicesJP": [
+      "すべてのBI保険金請求に対して全額支払いが保証される",
+      "保険金額として直近の年間粗利益を使用しながら、損害査定時にインフレや事業成長に対応する将来トレンド調整が適用される",
+      "直近の年間粗利益のみで算出するため計算が簡便となる",
+      "損害発生時にのみ保険料を支払えばよい"
+    ],
+    "explanationJP": "§9.5によると、初日基準では保険金額は直近の年間粗利益に設定される。その代わり、損害査定時に保険者が将来のインフレや事業成長の見積りを加味するトレンド調整を適用する。これにより被保険者の計算が簡便になる。",
+    "jpComparison": "日本の企業費用・利益保険では「初日基準」に相当する仕組みはなく、契約時に将来の利益見込みを含めた保険金額を設定する必要がある。SGの初日基準は被保険者の計算負担を軽減する点で合理的。",
+    "jpComparisonEN": "(JP) Japan's business interruption insurance has no equivalent of the 'Day One' basis; the sum insured must include future profit projections at policy inception. SG's Day One basis is practical in reducing the insured's calculation burden.",
+    "keywords": [
+      "Day One basis",
+      "trend adjustment",
+      "gross profit",
+      "inflation"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-520",
+    "topic": "Business Interruption Insurance",
+    "question": "What risk does the insured face if they fail to accurately estimate future trends in business interruption insurance?",
+    "choices": [
+      "The insurer automatically refunds the trend portion of the premium",
+      "The sum insured may be inadequate, and the average clause may apply resulting in underinsurance",
+      "The insurer automatically adjusts the trend rate at the time of claim",
+      "The sum insured is automatically increased in line with inflation"
+    ],
+    "answer": 1,
+    "explanation": "§9.7 warns that if the trend adjustment to the sum insured is neglected, the sum insured may fall below the actual gross profit, triggering the average clause so that full compensation cannot be obtained.",
+    "source": "Ch2 §9.7",
+    "questionJP": "企業中断保険の被保険者が正確な将来トレンドの見積りを怠った場合、どのようなリスクがあるか？",
+    "choicesJP": [
+      "保険者が自動的にトレンド分の保険料を返還する",
+      "保険金額が過少となり、比例てん補条項が適用されて一部保険となるリスクがある",
+      "保険者が保険金請求時にトレンド率を自動調整する",
+      "保険金額が自動的にインフレ連動で増額される"
+    ],
+    "explanationJP": "§9.7では、保険金額のトレンド調整を怠ると、保険金額が実際の粗利益を下回り、比例てん補条項が適用されて全額補償が受けられなくなるリスクがあると警告している。",
+    "jpComparison": "日本でも保険金額が不足していれば比例てん補（一部保険）のリスクがある点は同じ。ただし日本では「初日基準」がないため、契約更新時に保険金額を見直す運用が一般的。",
+    "jpComparisonEN": "(JP) In Japan too, inadequate sums insured carry the risk of average (underinsurance). However, since Japan lacks the 'Day One' basis, the common practice is to review the sum insured at policy renewal.",
+    "keywords": [
+      "underinsurance",
+      "average clause",
+      "trend adjustment",
+      "sum insured adequacy"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-521",
+    "topic": "Business Interruption Insurance",
+    "question": "In business interruption insurance, is the maximum amount the insurer will pay determined by the sum insured or the indemnity period?",
+    "choices": [
+      "Determined by the sum insured only",
+      "Determined by the indemnity period only",
+      "Both the sum insured and the indemnity period define the payment limits",
+      "Determined at the loss adjuster's discretion"
+    ],
+    "answer": 2,
+    "explanation": "§9.4 states that the sum insured sets the insurer's maximum payment limit, and the indemnity period sets the maximum duration for which the insurer will indemnify the loss. Both limitations apply.",
+    "source": "Ch2 §9.4",
+    "questionJP": "企業中断保険で、保険者が支払う最大額は保険金額と補償期間のどちらで決まるか？",
+    "choicesJP": [
+      "保険金額のみで決まる",
+      "補償期間のみで決まる",
+      "保険金額と補償期間の両方が支払限度額を規定する",
+      "損害査定人の裁量で決まる"
+    ],
+    "explanationJP": "§9.4によると、保険金額は保険者の最大支払限度額を設定し、補償期間は保険者が損害を補填する最大期間を設定する。両方の制限が適用される。",
+    "jpComparison": "日本の企業費用・利益保険でも保険金額と約定てん補期間の両方が支払限度として機能する点は同じ。SGでは'Maximum Indemnity Period'、日本では「約定てん補期間」と呼ぶ。",
+    "jpComparisonEN": "(JP) In Japan's BI insurance, both the sum insured and the agreed indemnity period function as payment limits, same as SG. SG calls it 'Maximum Indemnity Period'; Japan calls it 'yakujō tempo kikan' (agreed indemnity period).",
+    "keywords": [
+      "sum insured",
+      "indemnity period",
+      "maximum payment",
+      "dual limits"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-522",
+    "topic": "Business Interruption Insurance",
+    "question": "In business interruption insurance, what does the 'Maximum Indemnity Period' mean?",
+    "choices": [
+      "The maximum period for the insurer to issue the policy",
+      "The maximum period for which the insurer will indemnify the loss, from the start of business interruption until the business returns to normal",
+      "The maximum instalment period over which the policyholder can pay premiums",
+      "The maximum period for the loss adjuster to process a claim"
+    ],
+    "answer": 1,
+    "explanation": "The Maximum Indemnity Period indicates the longest period for which the insurer will indemnify the loss of profit. It runs from the start of the business interruption until the business returns to normal, and is typically selected from 12, 18, 24, or 36 months.",
+    "source": "Ch2 §9.4",
+    "questionJP": "企業中断保険で、「最大補償期間」とは何を意味するか？",
+    "choicesJP": [
+      "保険会社が保険証券を発行するまでの最長期間",
+      "保険者が損害を補填する最長期間であり、営業中断が発生してから事業が通常の状態に復帰するまで",
+      "保険契約者が保険料を支払える最長分割払い期間",
+      "損害査定人が保険金請求を処理するための最長期間"
+    ],
+    "explanationJP": "最大補償期間は、保険者が利益の損失を補填する最長期間を示す。営業中断が開始してから事業が通常に復帰するまでの期間であり、一般的に12ヶ月、18ヶ月、24ヶ月、36ヶ月の中から選択される。",
+    "jpComparison": "日本では「約定てん補期間」と呼ばれ、一般的に12ヶ月が標準。SGでは12〜36ヶ月の選択肢があり、より長期の補償設定が可能。",
+    "jpComparisonEN": "(JP) In Japan this is called 'agreed indemnity period,' typically 12 months as standard. SG offers choices from 12 to 36 months, allowing longer coverage settings.",
+    "keywords": [
+      "maximum indemnity period",
+      "12 to 36 months",
+      "business recovery",
+      "coverage duration"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-523",
+    "topic": "Business Interruption Insurance",
+    "question": "In the gross profit method of business interruption insurance, what are 'uninsured working expenses'?",
+    "choices": [
+      "Operating expenses not included in the policy that continue to be incurred during interruption",
+      "Operating expenses not covered by insurance that cease during interruption and are therefore deducted from the sum insured calculation",
+      "Operating expenses that the insurer declined to underwrite",
+      "Operating expenses covered by fire insurance rather than BI insurance"
+    ],
+    "answer": 1,
+    "explanation": "Uninsured working expenses are costs that cease during a business interruption, which the insured has chosen not to insure. The gross profit used as the basis for the sum insured is calculated by deducting uninsured working expenses from turnover.",
+    "source": "Ch2 §7",
+    "questionJP": "粗利益方式の企業中断保険で、「未保険運営費」とは何か？",
+    "choicesJP": [
+      "保険契約に含めなかった運営費で、中断時も継続的に発生するもの",
+      "保険で補償されない運営費であり、中断時に停止するため保険金額の算出から差し引かれるもの",
+      "保険者が引受拒否した運営費",
+      "企業中断保険ではなく火災保険で補償される運営費"
+    ],
+    "explanationJP": "未保険運営費とは、営業中断時に停止する費用であり、被保険者が保険をかけないことを選択したものである。売上高から未保険運営費を差し引いた残りが粗利益として保険金額算定の基礎となる。",
+    "jpComparison": "日本の企業費用・利益保険でも「経常費」と「非経常費」の区分があり、非経常費（中断時に停止する費用）を除外して粗利益を算出する点は同じ考え方。",
+    "jpComparisonEN": "(JP) Japan's BI insurance also distinguishes between 'standing charges' and 'non-standing charges.' Excluding non-standing charges (costs that cease during interruption) to calculate gross profit follows the same concept.",
+    "keywords": [
+      "uninsured working expenses",
+      "gross profit method",
+      "deduction",
+      "ceasing costs"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-524",
+    "topic": "Business Interruption Insurance",
+    "question": "In business interruption insurance, what type of business is the 'turnover' method particularly suitable for?",
+    "choices": [
+      "Large-scale manufacturers with a high proportion of fixed costs",
+      "Small and medium enterprises or service businesses with highly variable profits",
+      "Government agencies and non-profit organisations",
+      "Real estate investment businesses"
+    ],
+    "answer": 1,
+    "explanation": "The turnover method is suitable for businesses where gross profit calculation is difficult or where expense classification is complex. While the sum insured is larger compared to the gross profit method, the calculation is simpler, making it commonly used for SMEs and service businesses.",
+    "source": "Ch2 §7",
+    "questionJP": "企業中断保険で、「売上高」方式はどのような事業に特に適しているか？",
+    "choicesJP": [
+      "固定費の割合が高い大規模製造業",
+      "利益変動の大きい中小企業やサービス業",
+      "政府機関や非営利団体",
+      "不動産投資業"
+    ],
+    "explanationJP": "売上高方式は、粗利益の算出が困難な事業や、運営費の分類が複雑な事業に適している。粗利益方式に比べて保険金額が大きくなるが、計算が簡便であるため中小企業やサービス業に利用されることが多い。",
+    "jpComparison": "日本では売上高方式はあまり普及しておらず、粗利益方式が主流。SGでは中小企業・サービス業向けに売上高方式が選択肢として広く認知されている。",
+    "jpComparisonEN": "(JP) In Japan, the turnover method is not widely used; the gross profit method is mainstream. In SG, the turnover method is widely recognised as an option for SMEs and service businesses.",
+    "keywords": [
+      "turnover method",
+      "SME",
+      "service business",
+      "simplified calculation"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-525",
+    "topic": "Business Interruption Insurance",
+    "question": "What is the 'Material Damage Proviso' in business interruption insurance?",
+    "choices": [
+      "A condition that the insured must pay premiums by the due date",
+      "A condition that BI coverage will not trigger unless a claim under the underlying material damage (fire) policy is admitted",
+      "A condition that the insured must comply with all terms of the BI policy",
+      "A condition that the insured must maintain certain safety standards"
+    ],
+    "answer": 1,
+    "explanation": "The most fundamental prerequisite of business interruption insurance is that a claim under the underlying material damage insurance (fire policy etc.) must be admitted. If the material damage policy does not pay, the BI coverage will not trigger.",
+    "source": "Ch2 §12",
+    "questionJP": "企業中断保険の「補償対象前提条件」（Material Damage Proviso）とは何か？",
+    "choicesJP": [
+      "被保険者が保険料を期日通りに支払わなければならないという条件",
+      "物的損害保険契約に基づく保険金請求が認められなければ、BI保険の補償も発動しないという条件",
+      "被保険者がBI保険の全条件を遵守しなければならないという条件",
+      "被保険者が一定の安全基準を維持しなければならないという条件"
+    ],
+    "explanationJP": "企業中断保険の最も基本的な前提条件は、基盤となる物的損害保険（火災保険等）に基づく保険金請求が認められることである。物的損害保険で保険金が支払われなければ、BI保険の補償も発動しない。",
+    "jpComparison": "日本の企業費用・利益保険でも物的損害の発生が前提条件であり、火災保険等の基本契約に付帯する形で引き受けられる点はSGと同じ。",
+    "jpComparisonEN": "(JP) In Japan's BI insurance too, occurrence of material damage is a prerequisite, and it is underwritten as an endorsement to the base fire policy, same as SG.",
+    "keywords": [
+      "material damage proviso",
+      "prerequisite",
+      "fire policy",
+      "trigger condition"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-526",
+    "topic": "Business Interruption Insurance",
+    "question": "What is the purpose of the 'books and records' clause in business interruption insurance?",
+    "choices": [
+      "To require the insured to submit monthly reports to the insurer",
+      "To require the insured to safeguard books and accounting records in a locked fireproof safe etc., preserving evidence needed to support claims",
+      "To require the insured to share information with tax authorities",
+      "To require the appointment of an independent auditor after a claim"
+    ],
+    "answer": 1,
+    "explanation": "The books and records clause requires the insured to protect books and accounting records through measures such as locked fireproof safes or data backups. This is to preserve documents essential for substantiating gross profit and turnover at the time of a claim.",
+    "source": "Ch2 §12",
+    "questionJP": "企業中断保険の「帳簿・記録」条項の目的は何か？",
+    "choicesJP": [
+      "被保険者に月次報告書の保険者への提出を義務付けること",
+      "帳簿や会計記録を施錠された耐火金庫等で保管し、保険金請求の根拠となる証拠を保全すること",
+      "被保険者に税務当局との情報共有を要求すること",
+      "保険金請求後に独立監査人の選任を義務付けること"
+    ],
+    "explanationJP": "帳簿・記録条項では、被保険者に対し、帳簿や会計記録を施錠された耐火金庫やデータバックアップ等により保護することを義務付けている。これは保険金請求時の粗利益や売上高の立証に不可欠な書類を保全するためである。",
+    "jpComparison": "日本でも会計帳簿の保全義務は暗黙の前提だが、SGのBI約款では明示的な条項として規定されている点が特徴的。",
+    "jpComparisonEN": "(JP) In Japan, preserving accounting books is an implicit obligation, but SG's BI policy features this as an explicit clause, which is distinctive.",
+    "keywords": [
+      "books and records clause",
+      "fireproof safe",
+      "evidence preservation",
+      "accounting records"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-527",
+    "topic": "Business Interruption Insurance",
+    "question": "What does the 'alternative premises' extension cover in business interruption insurance?",
+    "choices": [
+      "The cost of permanent relocation to new premises regardless of material damage",
+      "Additional costs incurred to continue business at alternative premises during the repair period of damaged premises",
+      "Land purchase costs for permanent business relocation",
+      "The cost of purchasing new equipment for alternative premises"
+    ],
+    "answer": 1,
+    "explanation": "The alternative premises extension covers the additional costs of continuing operations at temporary alternative premises while the insured's damaged premises are being repaired. This aims to reduce the period of business interruption.",
+    "source": "Ch2 §12.4",
+    "questionJP": "企業中断保険の「代替施設」特約では、何が補償されるか？",
+    "choicesJP": [
+      "物的損害に関係なく、新しい施設への恒久的な移転費用",
+      "損害を受けた施設の修復期間中に代替施設で事業を継続するための追加費用",
+      "恒久的な事業移転に伴う土地購入費用",
+      "代替施設のための新規設備購入費用"
+    ],
+    "explanationJP": "代替施設特約は、被保険者の施設が損害を受けた場合に、修復期間中の一時的な代替施設での営業継続に要する追加費用を補償する。これにより営業中断期間の短縮を図る。",
+    "jpComparison": "日本の企業費用・利益保険にも「仮営業費用」として同様の補償がある。SGの代替施設特約と目的は同じで、早期の営業再開による損失軽減を図る。",
+    "jpComparisonEN": "(JP) Japan's BI insurance also has similar coverage as 'temporary operating expenses.' The purpose is the same as SG's alternative premises extension: minimising losses through early resumption of business.",
+    "keywords": [
+      "alternative premises",
+      "extension",
+      "additional costs",
+      "temporary relocation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-528",
+    "topic": "Business Interruption Insurance",
+    "question": "What situation does the 'suppliers' extension cover in business interruption insurance?",
+    "choices": [
+      "Penalties when the insured fails to pay key suppliers",
+      "Losses when a key supplier's premises are damaged by an insured peril, interrupting supply to the insured",
+      "Losses when a supplier goes bankrupt",
+      "Additional costs when a supplier raises prices"
+    ],
+    "answer": 1,
+    "explanation": "The suppliers extension covers losses when premises of a specified supplier providing raw materials or goods to the insured are damaged by an insured peril, resulting in interruption to the insured's business.",
+    "source": "Ch2 §12.4(d)",
+    "questionJP": "企業中断保険の「仕入先」特約は、どのような状況を補償するか？",
+    "choicesJP": [
+      "被保険者が主要仕入先への支払いを怠った場合の罰則",
+      "主要仕入先の施設が保険対象の危険により損害を受け、被保険者への供給が中断した場合の損失",
+      "仕入先が経営破綻した場合の損失",
+      "仕入先が値上げを行った場合の追加費用"
+    ],
+    "explanationJP": "仕入先特約は、被保険者に原材料や商品を供給する指定仕入先の施設が保険対象の危険により損害を受け、その結果被保険者の事業に中断が生じた場合の損失を補償する。",
+    "jpComparison": "日本でも「仕入先危険担保特約」として同様の補償がある。SGと同様に指定仕入先の物的損害による供給中断が対象。",
+    "jpComparisonEN": "(JP) Japan also offers similar coverage as a 'supplier risk endorsement.' As in SG, it covers supply interruption caused by material damage at specified suppliers.",
+    "keywords": [
+      "suppliers extension",
+      "supply chain interruption",
+      "insured peril",
+      "specified supplier"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-529",
+    "topic": "Business Interruption Insurance",
+    "question": "What is the 'accumulation test' used for in business interruption insurance?",
+    "choices": [
+      "To verify whether the insured is paying premiums on time",
+      "To check whether actual turnover during the policy period has deviated from the estimated amount and to determine the existence of underinsurance",
+      "To assess the creditworthiness of the insured's trading partners",
+      "To verify whether the insurer's reinsurance arrangements are adequate"
+    ],
+    "answer": 1,
+    "explanation": "The accumulation test is used to compare actual turnover during the policy period with the estimated sum insured, to determine whether underinsurance (inadequate sum insured) has occurred. If there is a deviation, the average clause may apply.",
+    "source": "Ch2 §11",
+    "questionJP": "企業中断保険で「累積テスト」とは何のために使用されるか？",
+    "choicesJP": [
+      "被保険者が保険料を適時に支払っているかを確認するため",
+      "保険期間中の実際の売上高が見積り額と乖離していないかを確認し、一部保険の有無を判定するため",
+      "被保険者の取引先の信用力を評価するため",
+      "保険者の再保険手配が適切であるかを確認するため"
+    ],
+    "explanationJP": "累積テストは、保険期間中の実際の売上高と見積り保険金額を比較し、一部保険（保険金額不足）が生じていないかを確認するために使用される。乖離がある場合、比例てん補条項が適用される可能性がある。",
+    "jpComparison": "日本の企業費用・利益保険にも比例てん補の考え方はあるが、SGのように「累積テスト」として体系的な検証プロセスを設けている点が特徴的。",
+    "jpComparisonEN": "(JP) Japan's BI insurance also has the concept of proportional indemnity, but SG is distinctive in establishing a systematic verification process called the 'accumulation test.'",
+    "keywords": [
+      "accumulation test",
+      "underinsurance",
+      "average clause",
+      "turnover comparison"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-530",
+    "topic": "Business Interruption Insurance",
+    "question": "What are 'savings' in business interruption insurance?",
+    "choices": [
+      "Premium discounts applied by the insurer",
+      "Expenses saved due to the cessation of normal business activities during interruption, which are deducted from the claim",
+      "Costs invested by the insured to prevent damage",
+      "Administrative costs for processing claims"
+    ],
+    "answer": 1,
+    "explanation": "Savings are expenses that the insured did not have to incur because business activities ceased or were reduced during the interruption. In calculating the claim, savings are deducted from the loss amount.",
+    "source": "Ch2 §10",
+    "questionJP": "企業中断保険における「節約費用」とは何か？",
+    "choicesJP": [
+      "保険者が保険料の割引を適用すること",
+      "営業中断中に本来の事業活動の停止により削減された費用で、保険金から差し引かれるもの",
+      "被保険者が損害を防止するために投資した費用",
+      "保険金請求の手続き費用"
+    ],
+    "explanationJP": "節約費用とは、営業中断中に事業活動が停止または縮小されたことにより、被保険者が支出しなくて済んだ費用である。保険金の算定において、損失額から節約費用を差し引く。",
+    "jpComparison": "日本でも「節約費用」の控除は同様に行われる。中断により支出を免れた変動費等を保険金から差し引く点はSGと共通。",
+    "jpComparisonEN": "(JP) Japan also deducts 'savings' in the same way. Deducting variable costs avoided due to the interruption from the claim amount is common to both SG and Japan.",
+    "keywords": [
+      "savings",
+      "deduction",
+      "ceased expenses",
+      "claim calculation"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-531",
+    "topic": "Business Interruption Insurance",
+    "question": "What does the 'public utilities' extension cover in business interruption insurance?",
+    "choices": [
+      "Credit risk in transactions with government agencies",
+      "Losses when premises of public utility providers (electricity, gas, water, etc.) are damaged by an insured peril, interrupting supply to the insured",
+      "Additional costs from public utility rate increases",
+      "Losses when the insured's premises are compulsorily acquired for public works"
+    ],
+    "answer": 1,
+    "explanation": "The public utilities extension covers business interruption losses suffered by the insured when premises of public utility providers (electricity, gas, water, telecommunications, etc.) are damaged by an insured peril, interrupting their supply to the insured.",
+    "source": "Ch2 §12.4(f)",
+    "questionJP": "企業中断保険の「公共事業者」特約は何を補償するか？",
+    "choicesJP": [
+      "政府機関との取引における信用リスク",
+      "電気・ガス・水道等の公共事業者の施設が損害を受け、被保険者への供給が中断した場合の損失",
+      "公共事業者の料金値上げによる追加コスト",
+      "被保険者の施設が公共事業に収用された場合の損失"
+    ],
+    "explanationJP": "公共事業者特約は、被保険者に電気・ガス・水道・通信等を供給する公共事業者の施設が保険対象の危険により損害を受け、供給が中断したことによる被保険者の営業中断損失を補償する。",
+    "jpComparison": "日本でも「公共事業者危険担保特約」として類似の補償があるが、日本ではインフラ信頼性が高いため利用頻度は比較的低い。SGではインフラリスクへの意識がより高い。",
+    "jpComparisonEN": "(JP) Japan also has similar coverage as a 'public utilities risk endorsement,' but usage is relatively low due to high infrastructure reliability. SG has greater awareness of infrastructure risk.",
+    "keywords": [
+      "public utilities extension",
+      "electricity",
+      "gas",
+      "water supply interruption"
+    ],
+    "difficulty": 1
+  },
+  {
+    "id": "comgi-532",
+    "topic": "Business Interruption Insurance",
+    "question": "How do insurers respond when 'double insurance' is discovered in business interruption insurance?",
+    "choices": [
+      "Only the policy taken out first is valid",
+      "Each insurer contributes proportionally according to their respective sums insured",
+      "Only one insurer pays at the insured's choice",
+      "Both insurers pay the full amount and the insured returns the excess"
+    ],
+    "answer": 1,
+    "explanation": "In the case of double insurance, each insurer contributes proportionally to the claim based on their respective sums insured. This is based on the principle of indemnity, preventing the insured from profiting twice.",
+    "source": "Ch2 §13",
+    "questionJP": "企業中断保険で「二重保険」が発覚した場合、保険者はどのように対応するか？",
+    "choicesJP": [
+      "先に契約された保険のみが有効となる",
+      "各保険者がそれぞれの保険金額に応じて按分負担する",
+      "被保険者の選択により一方の保険者のみが支払う",
+      "両方の保険者が全額を支払い、被保険者が超過分を返還する"
+    ],
+    "explanationJP": "二重保険の場合、各保険者はそれぞれの保険金額に比例して保険金を按分負担する。これは損害填補の原則に基づき、被保険者が二重に利益を得ることを防止するためである。",
+    "jpComparison": "日本でも重複保険の場合は独立責任額按分方式で各保険者が按分負担する点は同じ。損害てん補の原則に基づく処理はSGと共通。",
+    "jpComparisonEN": "(JP) In Japan too, double insurance cases use the independent liability pro-rata method for proportional sharing among insurers. Treatment based on the indemnity principle is common to both SG and Japan.",
+    "keywords": [
+      "double insurance",
+      "contribution",
+      "proportional sharing",
+      "indemnity principle"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-533",
+    "topic": "Business Interruption Insurance",
+    "question": "Which of the following correctly defines 'standard turnover' in business interruption insurance?",
+    "choices": [
+      "The actual turnover during the policy period",
+      "The turnover that would have been achieved during the indemnity period had the damage not occurred",
+      "The actual turnover of the previous year",
+      "The industry average turnover"
+    ],
+    "answer": 1,
+    "explanation": "Standard turnover refers to the turnover that would have been achieved during the indemnity period had the loss not occurred. The difference between standard turnover and actual turnover represents the reduction in turnover, which forms the basis for calculating the claim.",
+    "source": "Ch2 §10",
+    "questionJP": "企業中断保険における「標準売上高」の定義として正しいものはどれか？",
+    "choicesJP": [
+      "保険期間中の実際の売上高",
+      "損害がなかったと仮定した場合の補償期間中に達成されたであろう売上高",
+      "前年度の実際の売上高",
+      "業界平均の売上高"
+    ],
+    "explanationJP": "標準売上高とは、損害が発生しなかったと仮定した場合に、補償期間中に達成されたであろう売上高を指す。実際の売上高との差額が売上高の減少分として保険金算定の基礎となる。",
+    "jpComparison": "日本では「標準営業収益」に相当する概念があり、損害がなかった場合に得られたであろう収益を基準とする点はSGと同じ。",
+    "jpComparisonEN": "(JP) Japan has an equivalent concept called 'standard operating revenue,' and basing it on the revenue that would have been earned had the loss not occurred is the same as SG.",
+    "keywords": [
+      "standard turnover",
+      "hypothetical turnover",
+      "reduction in turnover",
+      "claim basis"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-534",
+    "topic": "Business Interruption Insurance",
+    "question": "What does the 'accountants clause' in business interruption insurance provide for?",
+    "choices": [
+      "That only an accountant designated by the insurer may perform loss adjustment",
+      "That the insurer will bear the reasonable cost of the insured's accountant preparing documents necessary to substantiate the claim",
+      "That the accountant's fees are always borne by the insured",
+      "That the accountant serves as an arbitrator between the insurer and the insured"
+    ],
+    "answer": 1,
+    "explanation": "Under the accountants clause, the insurer bears the reasonable cost of the insured's accountant preparing documents necessary to substantiate the claim. However, this cost is subject to the limit of the sum insured.",
+    "source": "Ch2 §12",
+    "questionJP": "企業中断保険の「会計士条項」では何が規定されているか？",
+    "choicesJP": [
+      "保険者が指定する会計士のみが損害査定を行えること",
+      "被保険者の会計士が保険金請求の立証に必要な書類を作成する費用を保険者が負担すること",
+      "会計士の費用は常に被保険者の自己負担であること",
+      "会計士が保険者と被保険者の間の仲裁人を務めること"
+    ],
+    "explanationJP": "会計士条項により、被保険者の会計士が保険金請求の立証に必要な書類を作成する合理的な費用を保険者が負担する。ただし、この費用は保険金額の制限内である。",
+    "jpComparison": "日本のBI保険では会計士費用の負担について明示的な条項は少ないが、損害立証費用は実務上保険者が一定範囲で負担することが多い。SGは約款で明文化している点がクリア。",
+    "jpComparisonEN": "(JP) Japan's BI insurance rarely has explicit clauses for accountant fees, but in practice insurers often bear claim substantiation costs to some extent. SG is clearer in codifying this in the policy wording.",
+    "keywords": [
+      "accountants clause",
+      "claim substantiation",
+      "professional fees",
+      "insurer responsibility"
+    ],
+    "difficulty": 2
+  },
+  {
+    "id": "comgi-535",
+    "topic": "Business Interruption Insurance",
+    "question": "How is the 'rate of gross profit' calculated in business interruption insurance?",
+    "choices": [
+      "Gross profit ÷ operating expenses × 100",
+      "Gross profit ÷ turnover × 100",
+      "Turnover ÷ gross profit × 100",
+      "Net profit ÷ turnover × 100"
+    ],
+    "answer": 1,
+    "explanation": "The rate of gross profit is calculated as 'gross profit ÷ turnover × 100'. This ratio is used in the underinsurance test (average clause test) to determine whether the sum insured is adequate.",
+    "source": "Ch2 §11",
+    "questionJP": "企業中断保険の「粗利益率」はどのように計算されるか？",
+    "choicesJP": [
+      "粗利益÷営業費用×100",
+      "粗利益÷売上高×100",
+      "売上高÷粗利益×100",
+      "純利益÷売上高×100"
+    ],
+    "explanationJP": "粗利益率は「粗利益÷売上高×100」で計算される。この比率は保険金額が十分であるかの一部保険テスト（比例てん補テスト）で使用される。",
+    "jpComparison": "日本でも粗利益率の計算方法は同じ（粗利益÷売上高×100）。比例てん補の判定に使用する点も共通。",
+    "jpComparisonEN": "(JP) Japan calculates the gross profit rate the same way (gross profit ÷ turnover × 100). Its use for determining proportional indemnity is also common.",
+    "keywords": [
+      "rate of gross profit",
+      "formula",
+      "underinsurance test",
+      "average clause"
+    ],
+    "difficulty": 1
   }
 ]
