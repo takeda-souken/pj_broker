@@ -9463,7 +9463,7 @@
       "S$0"
     ],
     "answer": 1,
-    "explanation": "Each co-insurer's liability is several (not joint). If co-insurer C (10%) becomes insolvent, the remaining co-insurers (A: 50%, B: 40%) have no obligation to cover C's share. The insured can only recover S$900K from A and B combined. C's S$100K share is lost unless recovered through C's liquidation proceedings.",
+    "explanation": "Each co-insurer's liability is several (not joint). If co-insurer C (10%) becomes insolvent, the remaining co-insurers (A: 50%, B: 30%, D: 7%, E: 3%) have no obligation to cover C's share. The insured can only recover S$900K from A, B, D and E combined. C's S$100K share is lost unless recovered through C's liquidation proceedings.",
     "jpComparison": "日本でも分割責任の原則で同様。",
     "keywords": [
       "several liability",

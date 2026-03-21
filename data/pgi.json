@@ -9522,10 +9522,10 @@
     "source": "Ch6 §13.7 B1(a), p.211",
     "questionJP": "入院日額保険において、傷害による入院に対して待機期間はあるか？",
     "choicesJP": [
-      "はい、30日の待機期間がある",
-      "いいえ、傷害には待機期間はない",
-      "はい、90日の待機期間がある",
-      "保険会社の判断による"
+      "待機期間なし",
+      "7日",
+      "14日",
+      "30日"
     ],
     "explanationJP": "傷害による入院には通常待機期間はない。疾病による入院には待機期間が適用される場合がある。",
     "jpComparisonEN": "(JP) Accident-related hospitalization also has no waiting period. Illness-related hospitalization often has a waiting period in many products."
@@ -9555,7 +9555,7 @@
       "100%",
       "150%",
       "200%",
-      "250%"
+      "300%"
     ],
     "explanationJP": "一部の単体入院日額保険では、ICU入室時に日額給付金の150%が支払われることがある。",
     "jpComparisonEN": "(JP) Some products in Japan also have ICU add-on riders, but the 150% rate is specific to SG."
@@ -10104,10 +10104,10 @@
     "source": "Ch7 §2.49(a), p.231",
     "questionJP": "FDWIの入院・手術補償は、どのクラスの病室での費用を対象としているか？",
     "choicesJP": [
-      "個室",
       "A等級病室",
       "B1等級病室",
-      "最も安いC等級病室（またはB2等級）"
+      "C等級病室（C等級がない場合はB2等級）",
+      "すべてのクラスの病室"
     ],
     "explanationJP": "FDWIの入院・手術補償は、最も安いC等級病室（または一部の保険ではB2等級）での費用のみを対象とする。",
     "jpComparisonEN": "(JP) Japan's health insurance covers regardless of room class (private room surcharges are out-of-pocket). SG FDWI covers only the cheapest Class C (or B2) wards."
