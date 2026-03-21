@@ -9,6 +9,17 @@
  */
 
 const NOTICES = [
+  {
+    id: '2026-03-21-question-fix',
+    label: 'BI/PGI translation fix + new questions',
+    messages: [
+      'お知らせがあります！',
+      'Business Interruption と PGI の一部の問題で、日本語訳に間違いがありました……ごめんなさい🙇‍♀️',
+      'フィードバックをもとに修正しました。報告してくれた方、ありがとうございます！',
+      'お詫びに……BI の問題を 20問 追加しました！💪',
+      '新しい問題もぜひチャレンジしてみてくださいね 🌸'
+    ]
+  }
 ];
 
 const KEY_PREFIX = 'sg_broker_notice_seen_';

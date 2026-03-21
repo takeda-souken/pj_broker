@@ -198,8 +198,8 @@ export class GamificationStore {
     try {
       const stats = JSON.parse(localStorage.getItem('sg_broker_topic_stats') || '{}');
       // Use RecordStore's cache if available, otherwise sum from stored question counts
-      g._totalQuestions = g._totalQuestions || 1765; // known total; updated dynamically when quiz loads
-    } catch { g._totalQuestions = 1765; }
+      g._totalQuestions = g._totalQuestions || 1785; // known total; updated dynamically when quiz loads
+    } catch { g._totalQuestions = 1785; }
   }
 
   /** Count total unique topics across all modules from HAWKER_DISHES */
