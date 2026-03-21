@@ -7468,36 +7468,6 @@
     "jpComparisonEN": "(JP) Japan's health insurance allows free access to any accredited medical institution. HMO limits members to in-network providers only — the lowest degree of freedom."
   },
   {
-    "id": "hi-260",
-    "topic": "Managed Healthcare",
-    "question": "A member enrolled in a PPO plan wants to see a specialist. What is required?",
-    "choices": [
-      "The member must wait for a mandatory cooling-off period",
-      "The member must get pre-authorisation from the MHCO",
-      "The member can see a specialist without a referral",
-      "The member must first obtain a referral from a PCP"
-    ],
-    "answer": 2,
-    "explanation": "With a PPO plan, a member can see a specialist without a referral. Unlike an HMO plan where you must always see your PCP first who will then refer you to an in-network specialist, a PPO does not require a member to select a PCP or obtain referrals.",
-    "jpComparison": "PPOの紹介状不要で専門医を受診できる仕組みは、日本のフリーアクセスに近いですが、ネットワーク外の受診には高い自己負担が発生する点が異なります。",
-    "keywords": [
-      "PPO",
-      "no referral",
-      "specialist"
-    ],
-    "difficulty": 2,
-    "source": "Ch8 §4B (§4.7), p.157",
-    "questionJP": "PPOプランに加入している加入者が専門医を受診したい場合、何が必要か？",
-    "choicesJP": [
-      "強制的なクーリングオフ期間を待たなければならない",
-      "マネジドヘルスケア組織から事前承認を得なければならない",
-      "紹介状なしで専門医を受診できる",
-      "まずかかりつけ医からの紹介状を取得しなければならない"
-    ],
-    "explanationJP": "PPOプランでは、紹介状なしで専門医を受診できる。HMOプランではまずかかりつけ医を受診してネットワーク内の専門医に紹介してもらう必要があるが、PPOではかかりつけ医の選択も紹介状の取得も不要である。",
-    "jpComparisonEN": "(JP) PPO's no-referral specialist access is close to Japan's free access system, but in PPO, out-of-network visits incur higher copayments — a key difference."
-  },
-  {
     "id": "hi-261",
     "topic": "Managed Healthcare",
     "question": "A POS (Point-of-Service) plan is best described as:",
@@ -10891,35 +10861,6 @@
     ],
     "explanationJP": "保険金の増加は、医療費の上昇、医療の進歩、サービス利用率の上昇と関連しており、特にシンガポールでは高齢化人口の増加がこれを加速させている。",
     "jpComparisonEN": "(JP) Rising medical costs are a major challenge in Japan too. Aging population, medical technology advances, and higher utilization rates are the main drivers. National medical expenditure continues to increase annually."
-  },
-  {
-    "id": "hi-375",
-    "topic": "Health Insurance Pricing",
-    "question": "Which of the following is NOT listed as a key factor used in premium computation for health insurance?",
-    "choices": [
-      "Medical inflation",
-      "Extent of underwriting",
-      "Scope of benefits covered",
-      "Reinsurance costs"
-    ],
-    "answer": 3,
-    "explanation": "The nine key factors listed in premium computation are: morbidity rate, investment income, operating expenses, medical inflation, impact of epidemic/pandemic, scope of benefits covered, insurer's profit, modes of premium payment, and extent of underwriting. Reinsurance costs are not listed.",
-    "jpComparison": "日本でも保険料算出の三大要素（予定死亡率・予定利率・予定事業費率）に再保険コストは直接含まれない点は類似。",
-    "keywords": [
-      "premium computation",
-      "key factors"
-    ],
-    "difficulty": 1,
-    "source": "Ch11 §2.1, p.239",
-    "questionJP": "健康保険の保険料算定における主要要素として挙げられていないものは次のうちどれか？",
-    "choicesJP": [
-      "医療インフレ",
-      "引受審査の程度",
-      "補償給付の範囲",
-      "再保険コスト"
-    ],
-    "explanationJP": "保険料算定の9つの主要要素は、罹患率、運用収益、事業費、医療インフレ、感染症・パンデミックの影響、補償給付の範囲、保険会社の利益、保険料支払方法、引受審査の程度である。再保険コストは含まれていない。",
-    "jpComparisonEN": "(JP) The three basic premium elements (assumed mortality, assumed investment return, assumed expenses) also do not directly include reinsurance costs — similar."
   },
   {
     "id": "hi-377",
