@@ -141,10 +141,10 @@ export class SakuraState {
 
   // ─── Arrival gate ───────────────────────────────
 
-  /** Check if we're before the arrival date */
+  /** Check if we're before the arrival date (or arrival date not set) */
   static _isBeforeArrival() {
     const arrivalDate = SettingsStore.get('arrivalDate');
-    if (!arrivalDate) return false;
+    if (!arrivalDate) return true; // no date = hasn't arrived yet
     const now = DebugStore.now();
     const arrival = new Date(arrivalDate + 'T00:00:00');
     return now < arrival;
