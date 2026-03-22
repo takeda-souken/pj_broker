@@ -1,54 +1,77 @@
 # さくら関連 TODO
 
-## フェーズ遷移: 入国日との連動
+> 最終更新: 2026-03-23（もも監査後）
+> フェーズ名は6フェーズ体系（japan / sg_early / sg_mid / sg_late / heartbreak / ending / gone）に統一
 
-- [ ] `japan → sg` 遷移を AND 条件にする
-  - 現状: 50問回答のみでトリガー
-  - 変更: **50問回答 AND 入国日を過ぎている**（両方満たしたとき遷移）
-  - `arrivalDate`（settings-store）と `SakuraState.checkTransition()` を連動させる
-  - `phaseEvents.sg_arrival` フラグは定義済み（sakura-state.js:37）→ 活用する
-- [ ] 入国「当日」にするか「数日後」にするか決める
-  - 当日: `diff <= 0` で遷移許可
-  - 数日後: `diff <= -N` で遷移許可（Nは要検討。到着直後はバタバタしてるので2-3日後？）
+---
+
+## ✅ 解決済み
+
+- [x] `japan → sg_early` 遷移を arrivalDate ゲートで制御（sakura-state.js `_isBeforeArrival()`）
+- [x] 入国タイミング: **当日**で実装（`now < arrival` → arrival day 当日から通過）
+- [x] arrivalDate 未設定時は「未到着」扱い（`_isBeforeArrival()` → true）
+- [x] arrivalDate 経過後に phase2StartedAt をリセット（`_resetPhase2OnArrival()`）
+- [x] getPhase() が arrivalDate 前なら強制的に japan を返す
+- [x] 6フェーズ化（japan/sg_early/sg_mid/sg_late/heartbreak/ending/gone）
+- [x] arrivalDate 自動クリア廃止（home.js: バッジ非表示のみに変更）
+- [x] sakura-room URL直打ちガード（isRoomAvailable() チェック + #home リダイレクト）
+- [x] getAvailableConversations() にフェーズフィルタ追加（conv.phase と現在フェーズを照合）
+
+---
+
+## 🔴 未実装（重要）
+
+### 入国日の特別メッセージ / 入国確認
 - [ ] 入国日にさくらの特別メッセージを出す
-  - 「シンガポールへようこそ！」的な一回限りのイベントメッセージ
-  - `phaseEvents.sg_arrival` を使って既読管理
+  - 「シンガポールへようこそ！」的な一回限りのイベント
+  - `phaseEvents.sg_arrival` を使って既読管理（定義済み、未使用）
+- [ ] 入国確認イベントの設計
+  - さくらの部屋での会話イベント or お知らせとして実装？
+  - ユーザーが確認したら `phaseEvents.sg_arrival = true`
+  - **白石さんのテキスト作成が必要** — 条件タグ: arrivalDate当日〜数日以内、sg_earlyフェーズ
 
-## 入国確認イベント
-
-- [ ] 入国日当日（or 数日後）にさくらが入国を確認するイベントを設計・実装
-  - 「シンガポール着いた？」的な確認ダイアログ or さくらの部屋での会話イベント
-  - ユーザーが確認したら `phaseEvents.sg_arrival = true` → sg フェーズ遷移を許可
-  - 入国日を設定していない場合のフォールバック（手動で「着いたよ」ボタン？）
-
-## 台詞チェック
-
-- [ ] **Phase 1（japan）台詞の全チェック** — `js/data/sakura-phase1.js`
-  - 標準語・業務的な距離感になっているか
-  - 不自然な表現、誤字脱字
-- [ ] **Phase 2（sg）台詞の全チェック** — `js/data/sakura-phase2.js`
-  - 博多弁が滲む表現になっているか
-  - 距離感の変化が適切か
-- [ ] **Phase 3（post_confession）台詞の全チェック** — `js/data/sakura-phase3.js`
-  - タメ口・博多弁全開になっているか
-- [ ] **ホーム画面メッセージの全チェック** — `js/data/sakura-messages.js`
-  - 各フェーズのホーム挨拶メッセージ
-  - 武田先生（試験当日）メッセージ
-- [ ] **さくらの部屋: 会話データの全チェック** — `data/sakura-room/`
-  - `phase2-early.json`, `phase2-early-b.json` — Phase2 序盤
-  - `phase2-mid-a.json`, `phase2-mid-b.json` — Phase2 中盤
-  - `phase2-late-a.json`, `phase2-late-b.json` — Phase2 終盤
-  - `phase3-a.json`, `phase3-b.json` — Phase3
-  - `closings.json` — 退室時メッセージ
-  - `c-reactions.json`, `c-samples.json` — リアクション・サンプル
-  - `d-time.json`, `d-samples.json` — 時間帯別・サンプル
-
-## farewell イベントモーダル
-
+### farewell イベントモーダル
 - [ ] `result.js:24` の TODO: farewell event modal を実装
-  - Mock exam 70%+ 達成時に farewell フェーズへ遷移 → モーダル表示
-  - さくらからの手紙演出（`farewellLetter` フィールドは既にある）
+  - Mock exam 70%+ 達成時に ending フェーズへ遷移 → モーダル表示
+  - さくらからの手紙演出（`farewellLetter` フィールドは定義済み）
+  - **白石さんのテキスト作成が必要**
 
-## その他
+---
 
+## 🟡 台詞チェック（白石さん担当）
+
+> 全テキストは白石さんが条件タグ付きで作成・監修する。
+> 実装側（もも）は条件タグを正しくコードに反映する責任。
+
+- [ ] **japanフェーズ台詞** — `js/data/sakura-phase1.js`
+  - 標準語・業務的な距離感。SGに言及する場合は「準備」文脈のみ
+- [ ] **sg_earlyフェーズ台詞** — `js/data/sakura-phase2.js`
+  - 敬語フランク・標準語。SGガイド役
+- [ ] **sg_mid / sg_lateフェーズ台詞** — `js/data/sakura-phase3.js`
+  - sg_mid: 博多弁が滲む、淡い恋心
+  - sg_late: 博多弁全開・タメ口、完全な恋心
+- [ ] **ホーム画面メッセージ** — `js/data/sakura-messages.js`
+  - 各フェーズのホーム挨拶。フェーズゲートは getPhase() 経由で正常動作中
+- [ ] **さくらの部屋: 全会話データ** — `data/sakura-room/`
+  - phase2-early / phase2-mid / phase2-late / phase3 の各 a/b ファイル
+  - closings.json / c-reactions.json / d-time.json
+  - **先生の承認が未完了の台詞がデプロイされている** — 要確認
+
+---
+
+## 🟢 将来対応（Low priority）
+
+- [ ] sakura-notices にフェーズゲート追加（将来フェーズ依存通知を追加するとき）
+- [ ] debug-panel の localStorage 直接操作を Store 経由に統一（デバッグ専用なので低優先）
 - [ ] `gone` フェーズ後のイースターエッグ（さくらが去った後に何か残す？）
+- [ ] 入国日を設定していない場合のフォールバックUI（手動で「着いたよ」ボタン？）
+
+---
+
+## 役割分担
+
+| 領域 | 担当 |
+|------|------|
+| テキスト・台詞・条件タグ | 白石真夏 |
+| 実装・フェーズ制御・UIロジック | 篠崎もも |
+| 最終承認 | 先生 |
