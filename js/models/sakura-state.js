@@ -22,6 +22,7 @@
  *   gone        → null
  */
 import { DebugStore } from './debug-store.js';
+import { SettingsStore } from './settings-store.js';
 
 const STORAGE_KEY = 'sg_broker_sakura';
 const RECORDS_KEY = 'sg_broker_records';
@@ -132,7 +133,17 @@ export class SakuraState {
   /** Whether the room should be accessible */
   static isRoomAvailable() {
     const phase = this.getPhase();
-    return phase !== 'japan' && phase !== 'gone';
+    if (phase === 'japan' || phase === 'gone') return false;
+
+    // Gate: require arrivalDate to be set AND past
+    const arrivalDate = SettingsStore.get('arrivalDate');
+    if (arrivalDate) {
+      const now = DebugStore.now();
+      const arrival = new Date(arrivalDate + 'T00:00:00');
+      if (now < arrival) return false;
+    }
+
+    return true;
   }
 
   // ─── Transition logic ───────────────────────────
