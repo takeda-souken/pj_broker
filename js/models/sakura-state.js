@@ -98,6 +98,9 @@ export class SakuraState {
       if (typeof ov === 'number' && DEBUG_PHASE_MAP[ov]) return DEBUG_PHASE_MAP[ov];
     }
 
+    // Arrival gate: force japan phase until arrivalDate has passed
+    if (this._isBeforeArrival()) return 'japan';
+
     return this._load().phase;
   }
 
@@ -132,18 +135,43 @@ export class SakuraState {
 
   /** Whether the room should be accessible */
   static isRoomAvailable() {
-    const phase = this.getPhase();
-    if (phase === 'japan' || phase === 'gone') return false;
+    const phase = this.getPhase(); // already returns 'japan' before arrival
+    return phase !== 'japan' && phase !== 'gone';
+  }
 
-    // Gate: require arrivalDate to be set AND past
+  // ─── Arrival gate ───────────────────────────────
+
+  /** Check if we're before the arrival date */
+  static _isBeforeArrival() {
     const arrivalDate = SettingsStore.get('arrivalDate');
-    if (arrivalDate) {
-      const now = DebugStore.now();
-      const arrival = new Date(arrivalDate + 'T00:00:00');
-      if (now < arrival) return false;
-    }
+    if (!arrivalDate) return false;
+    const now = DebugStore.now();
+    const arrival = new Date(arrivalDate + 'T00:00:00');
+    return now < arrival;
+  }
 
-    return true;
+  /**
+   * Reset phase2 timing on arrival day.
+   * Called from checkTransition() — when arrivalDate has just passed and
+   * the stored phase is already beyond japan, reset phase2StartedAt to
+   * arrival date so day-counting restarts from arrival.
+   */
+  static _resetPhase2OnArrival() {
+    const arrivalDate = SettingsStore.get('arrivalDate');
+    if (!arrivalDate) return;
+    const state = this._load();
+    // Only reset if phase was already advanced (pre-arrival bug)
+    // and phase2StartedAt is before arrivalDate
+    if (state.phase2StartedAt) {
+      const p2 = new Date(state.phase2StartedAt);
+      const arrival = new Date(arrivalDate + 'T00:00:00');
+      if (p2 < arrival) {
+        state.phase = 'sg_early';
+        state.phase2StartedAt = arrival.toISOString();
+        state.answeredAtPhase2Start = this.getTotalAnswered();
+        this._save(state);
+      }
+    }
   }
 
   // ─── Transition logic ───────────────────────────
@@ -160,6 +188,12 @@ export class SakuraState {
       const ov = DebugStore.get('sakuraPhaseOverride');
       if (ov && ov !== 0) return { transitioned: false };
     }
+
+    // Before arrival → no transitions
+    if (this._isBeforeArrival()) return { transitioned: false };
+
+    // Reset phase2 timing if arrival just passed
+    this._resetPhase2OnArrival();
 
     const state = this._load();
     const total = this.getTotalAnswered();
