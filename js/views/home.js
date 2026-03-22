@@ -424,18 +424,17 @@ function openSakuraDoor(doorEl) {
 function buildDateBadges() {
   const container = el('div', { className: 'home-date-badges' });
 
-  // Auto-clear arrival date once the day has passed
+  // Show arrival badge only if date is set and still in the future
   const arrivalDate = SettingsStore.get('arrivalDate');
   if (arrivalDate) {
     const now = DebugStore.now();
     const target = new Date(arrivalDate + 'T00:00:00');
     const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
     const diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
-    if (diff < 0) {
-      SettingsStore.set('arrivalDate', '');
-    } else {
+    if (diff >= 0) {
       container.appendChild(buildDateBadge('arrivalDate', '🛬', '入国', 'Arrival'));
     }
+    // Note: do NOT clear arrivalDate — SakuraState uses it as arrival gate
   } else {
     container.appendChild(buildDateBadge('arrivalDate', '🛬', '入国', 'Arrival'));
   }

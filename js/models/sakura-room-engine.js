@@ -70,6 +70,14 @@ export function isSakuraSleeping() {
   return (h >= 2 && (h < 6 || (h === 6 && m < 30)));
 }
 
+// Map conversation JSON phase values to SakuraState phase names
+const CONV_PHASE_TO_STATE = {
+  '2-early': ['sg_early', 'sg_mid', 'sg_late', 'heartbreak', 'ending'],
+  '2-mid':   ['sg_mid', 'sg_late', 'heartbreak', 'ending'],
+  '2-late':  ['sg_late', 'heartbreak', 'ending'],
+  '3':       ['heartbreak', 'ending'],
+};
+
 /**
  * Determine which conversations are available (unlocked + not completed)
  */
@@ -77,6 +85,7 @@ export function getAvailableConversations() {
   if (!allConversations) return [];
 
   const store = SakuraRoomStore.load();
+  const currentPhase = SakuraState.getPhase();
   const totalAnswered = SakuraState.getAnsweredSincePhase2();
   const daysSince = SakuraState.getDaysSincePhase2();
   const currentDay = new Date().getDay(); // 0=Sun
@@ -85,6 +94,11 @@ export function getAvailableConversations() {
   return allConversations.filter(conv => {
     // Already completed
     if (store.completedConversations.includes(conv.id)) return false;
+
+    // Phase gate: conversation must match current or earlier phase
+    if (conv.phase && CONV_PHASE_TO_STATE[conv.phase]) {
+      if (!CONV_PHASE_TO_STATE[conv.phase].includes(currentPhase)) return false;
+    }
 
     const u = conv.unlock;
     if (!u) return true;

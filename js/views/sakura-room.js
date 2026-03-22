@@ -30,6 +30,12 @@ function typingDuration(text) {
 }
 
 registerRoute('#sakura-room', async (app) => {
+  // Block access if room is not available (pre-arrival, japan phase, or gone)
+  if (!SakuraState.isRoomAvailable()) {
+    navigate('#home');
+    return;
+  }
+
   // Check if sakura is gone (after farewell)
   if (SakuraState.getPhase() === 'gone') {
     app.appendChild(buildEmptyState('さくらの部屋は、静かに閉じています。'));
