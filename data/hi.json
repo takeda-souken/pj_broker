@@ -9910,7 +9910,7 @@
     ],
     "answer": 2,
     "explanation": "The PPF Scheme is administered by the Singapore Deposit Insurance Corporation (SDIC). Coverage under the PPF Scheme is automatic and requires no action from policy owners.",
-    "jpComparison": "日本では生命保険契約者保護機構が同様の役割を果たし、破綻保険会社の契約を保護する。シンガポールではSDICが預金保険と保険契約者保護の両方を担当している。",
+    "jpComparison": "日本の生命保険契約者保護機構・損害保険契約者保護機構に相当する仕組み。日本では生保・損保で別組織だが、シンガポールではSDICが預金保険と保険契約者保護の両方を一括で担う。",
     "keywords": [
       "PPF Scheme",
       "SDIC",
@@ -9918,14 +9918,14 @@
     ],
     "difficulty": 1,
     "source": "Ch10 §5.45(T), p.279",
-    "questionJP": "保険契約者保護制度はどの機関が運営しているか？",
+    "questionJP": "保険契約者保護（PPF）制度は、どの機関が運営しているか？",
     "choicesJP": [
       "シンガポール保険学院（SCI）",
       "シンガポール金融管理局（MAS）",
       "シンガポール預金保険公社（SDIC）",
       "シンガポール生命保険協会（LIA）"
     ],
-    "explanationJP": "保険契約者保護制度はシンガポール預金保険公社（SDIC）が運営している。同制度の適用は自動的であり、保険契約者の手続きは不要である。",
+    "explanationJP": "PPF制度（Policy Owners' Protection Scheme）の運営主体はシンガポール預金保険公社（SDIC）。保険契約者は特段の手続きをしなくても自動的に保護対象となる。",
     "jpComparisonEN": "(JP) Life Insurance Policyholders Protection Corporation of Japan serves a similar role, protecting contracts of failed insurers. In Singapore, SDIC handles both deposit insurance and policyholder protection."
   },
   {
