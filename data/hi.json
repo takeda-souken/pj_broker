@@ -9307,21 +9307,21 @@
     ],
     "answer": 3,
     "explanation": "The insuring clause details the risks the insurer is liable to pay and the scope of coverage. It serves to describe the scope of coverage, provide definitions required, and set forth the conditions under which benefits are payable.",
-    "jpComparison": "日本の保険約款でも「保険金を支払う場合」として補償範囲を規定するが、シンガポールではInsuring Clauseとして独立したセクションで明記される。",
+    "jpComparison": "日本の保険約款にも「保険金を支払う場合」として補償範囲を規定するセクションがあるが、シンガポールではinsuring clauseとして独立したセクションで定義・条件まで一括して明記する。",
     "keywords": [
       "insuring clause",
       "scope of coverage"
     ],
     "difficulty": 1,
     "source": "Ch10 §4.1(a)-(c), p.268",
-    "questionJP": "医療保険における保険約款の目的は何か？",
+    "questionJP": "医療保険における補償条項（insuring clause）の目的は何か？",
     "choicesJP": [
       "保険金請求の通知手続きを概説すること",
       "保険料の支払いスケジュールを明示すること",
       "保険契約に適用される免責事項を列挙すること",
-      "保障範囲を記述し、定義を提供し、給付金支払いの条件を定めること"
+      "保障範囲を記述し、用語を定義し、給付金支払いの条件を定めること"
     ],
-    "explanationJP": "保険約款は保険会社が支払い責任を負うリスクおよび保障範囲の詳細を記載する。保障範囲の記述、必要な定義の提供、および給付金が支払われる条件の設定を目的としている。",
+    "explanationJP": "補償条項（insuring clause）は、保険会社が支払い責任を負うリスクと保障範囲の詳細を定める条項。保障範囲の記述、必要な用語の定義、給付金が支払われる条件の設定という3つの機能を果たす。「保険約款」全体とは異なり、約款の中の一セクション。",
     "jpComparisonEN": "(JP) Insurance policy terms also specify coverage scope as 'cases where insurance money is paid.' SG explicitly describes it as an independent section called the Insuring Clause."
   },
   {
@@ -9532,7 +9532,7 @@
       "シンガポールで支払われたであろう金額を超過する部分のみ",
       "治療を受けた国に基づく固定日額手当"
     ],
-    "explanationJP": "海外での緊急治療に対して、保険会社は実際の入院費またはシンガポールの病院での同等治療に対してプランの下で支払われたであろう合理的費用のいずれか低い方を支払う。",
+    "explanationJP": "海外での緊急治療に対して、保険会社は①実際の入院費用 ②シンガポール国内の病院で同等の治療を受けた場合にプランで支払われる妥当な費用——のいずれか低い方を支払う。",
     "jpComparisonEN": "(JP) Overseas travel insurance typically pays actual expenses. SG medical insurance pays the lower of actual overseas costs or the equivalent amount in a Singapore hospital."
   },
   {
@@ -9585,14 +9585,14 @@
     ],
     "difficulty": 3,
     "source": "Ch10 §5.9(E), p.273",
-    "questionJP": "団体医療保険における「就業中」条項は何を意味するか？",
+    "questionJP": "団体医療保険における「Actively at Work（現に就業中であること）」条項は何を意味するか？",
     "choicesJP": [
       "保障開始前に従業員は体力テストに合格しなければならない",
       "保障の対象となるには従業員は週40時間以上勤務しなければならない",
       "保障開始日に疾病または傷害により欠勤している従業員は保障の対象とならない",
       "保障開始前に従業員は少なくとも12ヶ月間継続雇用されていなければならない"
     ],
-    "explanationJP": "団体保険における「就業中」条項は、保障の有効日に疾病、傷害、またはその他の理由で欠勤している従業員は保障の対象とならないことを意味する。所得補償保険では、疾病または退職により勤務していない場合、保障は自動的に終了する。",
+    "explanationJP": "団体保険のActively at Work条項は、保障開始日に疾病・傷害その他の理由で欠勤している従業員は保障の対象にならないことを定めている。所得補償保険では、疾病または退職で就業していない場合に保障が自動終了する。",
     "jpComparisonEN": "(JP) Group insurance also has employment conditions, but SG Actively at Work clause explicitly makes being at work on the coverage start date a clear eligibility requirement."
   },
   {
@@ -10008,7 +10008,7 @@
     ],
     "difficulty": 2,
     "source": "Ch10 §7.2(a)(iii), p.281",
-    "questionJP": "健康保険において、通常免責とならないものは次のうちどれか？",
+    "questionJP": "医療保険において、通常免責とならないものは次のうちどれか？",
     "choicesJP": [
       "補償期間中に発生した事故による健全な天然歯への歯科治療",
       "定期健康診断",
@@ -10158,7 +10158,7 @@
     ],
     "difficulty": 1,
     "source": "Ch10 §5.2(A) [summary table p.289]",
-    "questionJP": "健康保険の「完全契約条項」を正しく説明しているのは次のうちどれか？",
+    "questionJP": "医療保険の「完全契約条項」を正しく説明しているのは次のうちどれか？",
     "choicesJP": [
       "契約は別途の特約文書が添付されなければ完全とみなされない",
       "契約は保険会社の内部引受指針が添付されて初めて有効となる",
@@ -10188,7 +10188,7 @@
     ],
     "difficulty": 2,
     "source": "Ch10 §5.19(H3), p.275",
-    "questionJP": "更新保証型の健康保険において、保険会社の権利に関して正しいのは次のうちどれか？",
+    "questionJP": "更新保証型の医療保険において、保険会社の権利に関して正しいのは次のうちどれか？",
     "choicesJP": [
       "保険会社は身体の特定部位への補償制限を追加できる",
       "保険会社は被保険者の健康状態を理由に更新を拒否できる",
@@ -10369,7 +10369,7 @@
     ],
     "difficulty": 2,
     "source": "Ch10 §7.2(a)(iv), p.281",
-    "questionJP": "健康保険の「外科手術または検査」カテゴリーにおける一般的な免責事由の例は次のうちどれか？",
+    "questionJP": "医療保険の「外科手術または検査」カテゴリーにおける一般的な免責事由の例は次のうちどれか？",
     "choicesJP": [
       "保険期間中の緊急虫垂切除術",
       "療養・リハビリテーション",
@@ -10401,7 +10401,7 @@
     ],
     "difficulty": 3,
     "source": "Ch10 §8.5-8.7(D), p.283",
-    "questionJP": "健康保険の紛争解決プロセスにおいて、最初の解決手段が不調に終わった場合の正しい順序は何か？",
+    "questionJP": "医療保険の紛争解決プロセスにおいて、最初の解決手段が不調に終わった場合の正しい順序は何か？",
     "choicesJP": [
       "FIDReC→訴訟→仲裁（SIAC規則に基づく）",
       "仲裁→FIDReC調停→訴訟",
