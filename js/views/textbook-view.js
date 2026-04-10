@@ -232,7 +232,10 @@ registerRoute('#textbook', async (app) => {
       relEl.appendChild(el('div', { className: 'tb-related__title' },
         `${tr('textbook.relatedQuestions', 'Related Questions')} (${related.length})`));
       for (const q of related.slice(0, 10)) {
-        const qEl = el('div', { className: 'tb-related__item' });
+        const qEl = el('button', {
+          className: 'tb-related__item',
+          onClick: () => navigate(`#quiz?module=${currentModule}&mode=practice&review=${q.id}`),
+        });
         const badge = el('span', { className: `badge tb-related__badge` },
           q.difficulty <= 1 ? 'Easy' : q.difficulty <= 2 ? 'Medium' : 'Hard');
         qEl.appendChild(badge);
@@ -243,6 +246,12 @@ registerRoute('#textbook', async (app) => {
         relEl.appendChild(el('div', { className: 'tb-related__more' },
           `+ ${related.length - 10} more`));
       }
+      // "Practice all" button
+      const allIds = related.map(q => q.id).join(',');
+      relEl.appendChild(el('button', {
+        className: 'btn btn--primary btn--block mt-sm',
+        onClick: () => navigate(`#quiz?module=${currentModule}&mode=practice&review=${allIds}`),
+      }, `${tr('textbook.practiceAll', 'Practice All')} (${related.length})`));
       container.appendChild(relEl);
     }
 

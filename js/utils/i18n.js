@@ -40,6 +40,7 @@ const JA = {
   'textbook.learningOutcomes': '学習目標',
   'textbook.relatedQuestions': '関連問題',
   'textbook.noResults': '該当なし:',
+  'textbook.practiceAll': 'まとめて練習',
   'home.mrt': 'MRT 進捗マップ',
   'home.mrtSub': '学習の旅を追跡',
   'home.records': '学習記録',

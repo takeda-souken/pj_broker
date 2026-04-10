@@ -255,12 +255,22 @@
   display: flex;
   align-items: flex-start;
   gap: var(--sp-sm);
-  padding: var(--sp-xs) 0;
+  width: 100%;
+  padding: var(--sp-xs) var(--sp-sm);
+  border: none;
   border-bottom: 1px solid var(--c-border);
+  background: none;
   font-size: 0.8rem;
   line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: background var(--transition);
 }
-.tb-related__item:last-child {
+.tb-related__item:hover {
+  background: var(--c-surface-alt);
+}
+.tb-related__item:last-of-type {
   border-bottom: none;
 }
 .tb-related__badge {
