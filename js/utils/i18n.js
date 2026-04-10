@@ -41,6 +41,7 @@ const JA = {
   'textbook.relatedQuestions': '関連問題',
   'textbook.noResults': '該当なし:',
   'textbook.practiceAll': 'まとめて練習',
+  'quiz.backToTextbook': '教科書に戻る',
   'home.mrt': 'MRT 進捗マップ',
   'home.mrtSub': '学習の旅を追跡',
   'home.records': '学習記録',

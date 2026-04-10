@@ -498,12 +498,23 @@ function renderQuestion(app, session, settings, deferredLineIntros = [], midQuiz
 
     // Next button (after answering) — guard against duplicates
     if (wrap.querySelector('.quiz-next-btn')) return;
+    const isLast = session.currentIndex + 1 >= session.total;
+    const fromTextbook = new URLSearchParams(window.location.hash.split('?')[1] || '').get('from') === 'textbook';
     const nextBtn = el('button', {
       className: 'btn btn--primary btn--block quiz-next-btn',
-      onClick: () => { session.next(); renderQuestion(app, session, settings, deferredLineIntros, midQuizAchievements); },
+      onClick: () => {
+        if (isLast && fromTextbook) {
+          navigate('#textbook');
+        } else {
+          session.next();
+          renderQuestion(app, session, settings, deferredLineIntros, midQuizAchievements);
+        }
+      },
     });
-    const isLast = session.currentIndex + 1 >= session.total;
-    nextBtn.appendChild(triText(isLast ? 'quiz.seeResults' : 'quiz.next', isLast ? 'See Results' : 'Next'));
+    nextBtn.appendChild(triText(
+      isLast ? (fromTextbook ? 'quiz.backToTextbook' : 'quiz.seeResults') : 'quiz.next',
+      isLast ? (fromTextbook ? 'Back to Textbook' : 'See Results') : 'Next',
+    ));
     nextBtn.appendChild(document.createTextNode(' \u25B6'));
     const kbdHint = el('span', { className: 'kbd-hint', style: 'margin-left:8px;' }, '[Enter]');
     nextBtn.appendChild(kbdHint);
