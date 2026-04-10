@@ -357,6 +357,7 @@ body:has(.exam-timer) #app {
   z-index: 100;
   box-shadow: 0 4px 12px var(--c-shadow);
   pointer-events: none;
+  opacity: 1;
   animation: fadeSlideUp 0.2s ease;
 }
 
