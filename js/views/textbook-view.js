@@ -97,10 +97,12 @@ registerRoute('#textbook', async (app) => {
 
   // ── Content area ──
   const content = el('div', { className: 'textbook-content' });
+  content.setAttribute('data-module', currentModule);
   app.appendChild(content);
 
   async function render() {
     content.innerHTML = '';
+    content.setAttribute('data-module', currentModule);
     const textbook = await loadTextbook(currentModule);
 
     if (!textbook) {

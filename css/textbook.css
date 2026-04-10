@@ -1,5 +1,11 @@
 /* ===== Textbook Reference View ===== */
 
+/* Module accent colors (match MRT line / tab colors) */
+.textbook-content[data-module="bcp"]   { --tb-accent: var(--mrt-blue); }
+.textbook-content[data-module="comgi"] { --tb-accent: var(--mrt-red); }
+.textbook-content[data-module="pgi"]   { --tb-accent: var(--mrt-green); }
+.textbook-content[data-module="hi"]    { --tb-accent: var(--mrt-purple); }
+
 .textbook-content {
   margin-top: var(--sp-sm);
   position: relative;
@@ -55,7 +61,7 @@
 .tb-chapter__header:hover,
 .tb-chapter__header--open {
   background: var(--c-surface-alt);
-  border-color: var(--c-accent);
+  border-color: var(--tb-accent, var(--c-accent));
 }
 .tb-chapter__arrow {
   flex-shrink: 0;
@@ -66,7 +72,7 @@
 .tb-chapter__num {
   flex-shrink: 0;
   font-weight: 700;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   font-size: 0.8rem;
   min-width: 2.5em;
 }
@@ -98,7 +104,7 @@
   font-weight: 700;
   font-size: 0.75rem;
   text-transform: uppercase;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   margin-bottom: var(--sp-xs);
 }
 .tb-lo__list {
@@ -136,7 +142,7 @@
 .tb-section__num {
   flex-shrink: 0;
   font-weight: 700;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   font-size: 0.75rem;
   min-width: 2em;
 }
@@ -167,7 +173,7 @@
 .tb-breadcrumb__link {
   background: none;
   border: none;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   cursor: pointer;
   padding: 2px 4px;
   font-size: inherit;
@@ -200,7 +206,7 @@
 .tb-para__num {
   flex-shrink: 0;
   font-weight: 700;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   font-size: 0.8rem;
   min-width: 2.5em;
   padding-top: 2px;
@@ -243,7 +249,7 @@
   font-weight: 700;
   font-size: 0.85rem;
   margin-bottom: var(--sp-sm);
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
 }
 .tb-related__item {
   display: flex;
@@ -304,11 +310,11 @@
   transition: border-color var(--transition);
 }
 .tb-search-item:hover {
-  border-color: var(--c-accent);
+  border-color: var(--tb-accent, var(--c-accent));
 }
 .tb-search-item__bc {
   font-size: 0.7rem;
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   margin-bottom: 4px;
 }
 .tb-search-item__snippet {
@@ -318,7 +324,7 @@
 }
 .tb-search-item__snippet mark {
   background: rgba(228, 0, 43, 0.15);
-  color: var(--c-accent);
+  color: var(--tb-accent, var(--c-accent));
   padding: 0 2px;
   border-radius: 2px;
 }
