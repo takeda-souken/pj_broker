@@ -11,13 +11,36 @@ import { triText, tr } from '../utils/i18n.js';
 const MODULES = ['bcp', 'comgi', 'pgi', 'hi'];
 const MOD_LABELS = { bcp: 'BCP', comgi: 'ComGI', pgi: 'PGI', hi: 'HI' };
 
+const STORAGE_KEY = 'sg_broker_textbook_state';
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+
+function saveState(state) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
 registerRoute('#textbook', async (app) => {
-  // State
-  let currentModule = 'bcp';
-  let searchQuery = '';
-  let selectedSection = null; // { chapterIdx, sectionIdx }
-  let expandedChapters = new Set();
+  // Restore state
+  const saved = loadState();
+  let currentModule = saved.module || 'bcp';
+  let searchQuery = saved.searchQuery || '';
+  let selectedSection = saved.selectedSection || null;
+  let expandedChapters = new Set(saved.expandedChapters || []);
   let searchTimer = null;
+
+  function persistState() {
+    saveState({
+      module: currentModule,
+      searchQuery,
+      selectedSection,
+      expandedChapters: [...expandedChapters],
+    });
+  }
 
   // ── Back button ──
   const backBtn = el('button', { className: 'btn--back', onClick: () => navigate('#home') });
@@ -35,12 +58,14 @@ registerRoute('#textbook', async (app) => {
     type: 'search',
     className: 'search-box',
     placeholder: tr('textbook.search', 'Search textbook...'),
+    value: searchQuery,
   });
   searchBox.addEventListener('input', () => {
     clearTimeout(searchTimer);
     searchTimer = setTimeout(() => {
       searchQuery = searchBox.value.trim();
       selectedSection = null;
+      persistState();
       render();
     }, 300);
   });
@@ -59,6 +84,7 @@ registerRoute('#textbook', async (app) => {
           searchBox.value = '';
           selectedSection = null;
           expandedChapters = new Set();
+          persistState();
           renderModuleTabs();
           render();
         },
@@ -113,6 +139,7 @@ registerRoute('#textbook', async (app) => {
         onClick: () => {
           if (expandedChapters.has(ch.id)) expandedChapters.delete(ch.id);
           else expandedChapters.add(ch.id);
+          persistState();
           render();
         },
       });
@@ -142,6 +169,7 @@ registerRoute('#textbook', async (app) => {
             onClick: () => {
               const chIdx = textbook.chapters.indexOf(ch);
               selectedSection = { chapterIdx: chIdx, sectionIdx: si };
+              persistState();
               render();
             },
           });
@@ -165,7 +193,7 @@ registerRoute('#textbook', async (app) => {
 
     // Breadcrumb
     const breadcrumb = el('div', { className: 'tb-breadcrumb' });
-    const backLink = el('button', { className: 'tb-breadcrumb__link', onClick: () => { selectedSection = null; render(); } });
+    const backLink = el('button', { className: 'tb-breadcrumb__link', onClick: () => { selectedSection = null; persistState(); render(); } });
     backLink.textContent = `Ch ${ch.number}`;
     breadcrumb.appendChild(backLink);
     breadcrumb.appendChild(el('span', { className: 'tb-breadcrumb__sep' }, ' \u203A '));
@@ -222,7 +250,7 @@ registerRoute('#textbook', async (app) => {
       const prev = ch.sections[sel.sectionIdx - 1];
       navRow.appendChild(el('button', {
         className: 'btn btn--outline tb-nav__btn',
-        onClick: () => { selectedSection = { chapterIdx: sel.chapterIdx, sectionIdx: sel.sectionIdx - 1 }; render(); window.scrollTo({ top: 0, behavior: 'instant' }); },
+        onClick: () => { selectedSection = { chapterIdx: sel.chapterIdx, sectionIdx: sel.sectionIdx - 1 }; persistState(); render(); window.scrollTo({ top: 0, behavior: 'instant' }); },
       }, `\u25C0 §${prev.number}`));
     } else {
       navRow.appendChild(el('span'));
@@ -231,7 +259,7 @@ registerRoute('#textbook', async (app) => {
       const next = ch.sections[sel.sectionIdx + 1];
       navRow.appendChild(el('button', {
         className: 'btn btn--outline tb-nav__btn',
-        onClick: () => { selectedSection = { chapterIdx: sel.chapterIdx, sectionIdx: sel.sectionIdx + 1 }; render(); window.scrollTo({ top: 0, behavior: 'instant' }); },
+        onClick: () => { selectedSection = { chapterIdx: sel.chapterIdx, sectionIdx: sel.sectionIdx + 1 }; persistState(); render(); window.scrollTo({ top: 0, behavior: 'instant' }); },
       }, `§${next.number} \u25B6`));
     }
     container.appendChild(navRow);

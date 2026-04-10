@@ -2,6 +2,21 @@
 
 .textbook-content {
   margin-top: var(--sp-sm);
+  position: relative;
+  z-index: 1;
+  background: var(--c-bg);
+  padding-bottom: var(--sp-lg);
+}
+
+/* Allow text selection on body content (app-wide user-select: none override) */
+.tb-para__text,
+.tb-lo__list,
+.tb-detail__title,
+.tb-subsection__title,
+.tb-related__text,
+.tb-search-item__snippet {
+  user-select: text;
+  -webkit-user-select: text;
 }
 
 /* ── Empty / Not Available ── */

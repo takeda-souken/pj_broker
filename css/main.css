@@ -432,6 +432,12 @@ h3 .i18n-sub { display: none !important; }
   gap: var(--sp-sm);
   margin-top: var(--sp-sm);
 }
+.home-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--sp-sm);
+  margin-top: var(--sp-sm);
+}
 .home-xp-wrap {
   margin-bottom: var(--sp-sm);
 }

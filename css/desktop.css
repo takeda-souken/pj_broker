@@ -110,6 +110,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: var(--sp-sm);
   }
+  .home-menu-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
   .home-xp-center {
     max-width: 500px;
   }

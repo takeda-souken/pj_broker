@@ -172,21 +172,18 @@ registerRoute('#home', async (app) => {
     });
   }
 
-  // ─── Menu grid ───
-  const menuUpper = el('div', { className: 'home-menu-row' });
-  menuUpper.appendChild(menuBtn('home.practice', 'Practice', 'home.practiceSub', 'Choose module & study', 'practice', () => navigate('#module-select')));
-  menuUpper.appendChild(menuBtn('home.mock', 'Mock Exam', 'home.mockSub', 'Timed exam simulation', 'mock', () => navigate('#module-select?mode=mock')));
-  menuUpper.appendChild(menuBtn('home.glossary', 'Glossary', 'home.glossarySub', 'Insurance Terms (EN/JP)', 'glossary', () => navigate('#glossary')));
-  menuUpper.appendChild(menuBtn('home.textbook', 'Textbook', 'home.textbookSub', 'Chapter reference & search', 'textbook', () => navigate('#textbook')));
+  // ─── Menu grid (2-col × 4-row) ───
+  const menuGrid = el('div', { className: 'home-menu-grid' });
+  menuGrid.appendChild(menuBtn('home.practice', 'Practice', 'home.practiceSub', 'Choose module & study', 'practice', () => navigate('#module-select')));
+  menuGrid.appendChild(menuBtn('home.mock', 'Mock Exam', 'home.mockSub', 'Timed exam simulation', 'mock', () => navigate('#module-select?mode=mock')));
+  menuGrid.appendChild(menuBtn('home.questionBank', 'Question Bank', 'home.questionBankSub', 'Browse & set frequency', 'question-bank', () => navigate('#question-bank')));
+  menuGrid.appendChild(menuBtn('home.records', 'Records', 'home.recordsSub', 'Study history & stats', 'records', () => navigate('#records')));
+  menuGrid.appendChild(menuBtn('home.glossary', 'Glossary', 'home.glossarySub', 'Insurance Terms (EN/JP)', 'glossary', () => navigate('#glossary')));
+  menuGrid.appendChild(menuBtn('home.textbook', 'Textbook', 'home.textbookSub', 'Chapter reference & search', 'textbook', () => navigate('#textbook')));
+  menuGrid.appendChild(menuBtn('home.fun', 'Fun', 'home.funSub', 'MRT map, hawker & more', 'fun', () => navigate('#fun')));
+  menuGrid.appendChild(menuBtn('home.settings', 'Settings', null, '', 'settings', () => navigate('#settings')));
 
-  const menuLower = el('div', { className: 'home-menu-row' });
-  menuLower.appendChild(menuBtn('home.questionBank', 'Question Bank', 'home.questionBankSub', 'Browse & set frequency', 'question-bank', () => navigate('#question-bank')));
-  menuLower.appendChild(menuBtn('home.records', 'Records', 'home.recordsSub', 'Study history & stats', 'records', () => navigate('#records')));
-  menuLower.appendChild(menuBtn('home.fun', 'Fun', 'home.funSub', 'MRT map, hawker & more', 'fun', () => navigate('#fun')));
-  menuLower.appendChild(menuBtn('home.settings', 'Settings', null, '', 'settings', () => navigate('#settings')));
-
-  app.appendChild(menuUpper);
-  app.appendChild(menuLower);
+  app.appendChild(menuGrid);
 
 
   recordVisit();
