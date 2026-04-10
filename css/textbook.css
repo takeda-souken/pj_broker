@@ -1,10 +1,10 @@
 /* ===== Textbook Reference View ===== */
 
-/* Module accent colors (match MRT line / tab colors) */
-.textbook-content[data-module="bcp"]   { --tb-accent: var(--mrt-blue); }
-.textbook-content[data-module="comgi"] { --tb-accent: var(--mrt-red); }
-.textbook-content[data-module="pgi"]   { --tb-accent: var(--mrt-green); }
-.textbook-content[data-module="hi"]    { --tb-accent: var(--mrt-purple); }
+/* Module accent colors (match seg-control tab colors) */
+.textbook-content[data-module="bcp"]   { --tb-accent: var(--mrt-red); }
+.textbook-content[data-module="comgi"] { --tb-accent: var(--mrt-green); }
+.textbook-content[data-module="pgi"]   { --tb-accent: var(--mrt-purple); }
+.textbook-content[data-module="hi"]    { --tb-accent: var(--mrt-blue); }
 
 .textbook-content {
   margin-top: var(--sp-sm);
