@@ -111,21 +111,36 @@ function preprocess(rawLines) {
 const CHAPTER_START_RE = /^CHAPTER\s+(\d+)\s*$/i;
 
 function findChapterBoundaries(lines) {
-  // Find "ACCESS TO ONLINE" or "LIST OF CHANGES" to skip front matter
-  let bodyStart = 0;
+  // Find all "CHAPTER N" lines (all caps, standalone)
+  const allStarts = [];
   for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].trim().match(CHAPTER_START_RE);
+    if (m) {
+      allStarts.push({ lineIndex: i, number: parseInt(m[1]) });
+    }
+  }
+
+  if (allStarts.length === 0) return [];
+
+  // Find "ACCESS TO ONLINE" or "LIST OF CHANGES" — marks the end of body content.
+  // Chapters after this point are changelog entries, not real chapters.
+  let endOfBody = lines.length;
+  for (let i = lines.length - 1; i >= 0; i--) {
     if (/^(ACCESS TO ONLINE|LIST OF CHANGES)/i.test(lines[i].trim())) {
-      bodyStart = i;
+      endOfBody = i;
       break;
     }
   }
 
+  // Keep chapters before endOfBody, but also skip duplicates from front-matter TOC.
+  // Real chapters: the FIRST occurrence of each chapter number before endOfBody.
+  const seen = new Set();
   const starts = [];
-  for (let i = bodyStart; i < lines.length; i++) {
-    const m = lines[i].trim().match(CHAPTER_START_RE);
-    if (m) {
-      starts.push({ lineIndex: i, number: parseInt(m[1]) });
-    }
+  for (const s of allStarts) {
+    if (s.lineIndex >= endOfBody) continue;
+    if (seen.has(s.number)) continue;
+    seen.add(s.number);
+    starts.push(s);
   }
   return starts;
 }
