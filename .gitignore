@@ -4,11 +4,15 @@ Thumbs.db
 node_modules/
 .env
 
-# 教科書PDF（著作権物）
+# 教科書PDF（サイズ大のためGit対象外。JSONはGit管理）
 *.pdf
 
+# PDF→txtコピペ元（PDFから手動エクスポート）
+*.txt
+!scripts/*.txt
+
 # PDF変換物・作業用データ
-md/
+# md/ → gitignore解除（テキストブック機能で使用）
 MRT.csv
 MRT.xlsx
 convert_mrt.py

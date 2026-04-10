@@ -177,6 +177,7 @@ registerRoute('#home', async (app) => {
   menuUpper.appendChild(menuBtn('home.practice', 'Practice', 'home.practiceSub', 'Choose module & study', 'practice', () => navigate('#module-select')));
   menuUpper.appendChild(menuBtn('home.mock', 'Mock Exam', 'home.mockSub', 'Timed exam simulation', 'mock', () => navigate('#module-select?mode=mock')));
   menuUpper.appendChild(menuBtn('home.glossary', 'Glossary', 'home.glossarySub', 'Insurance Terms (EN/JP)', 'glossary', () => navigate('#glossary')));
+  menuUpper.appendChild(menuBtn('home.textbook', 'Textbook', 'home.textbookSub', 'Chapter reference & search', 'textbook', () => navigate('#textbook')));
 
   const menuLower = el('div', { className: 'home-menu-row' });
   menuLower.appendChild(menuBtn('home.questionBank', 'Question Bank', 'home.questionBankSub', 'Browse & set frequency', 'question-bank', () => navigate('#question-bank')));
@@ -601,7 +602,7 @@ function showSakuraNotice(messages) {
 
 function getMenuIcon(type) {
   const icons = {
-    practice: '\uD83D\uDCDD', mock: '\u23F1\uFE0F', glossary: '\uD83D\uDD0D',
+    practice: '\uD83D\uDCDD', mock: '\u23F1\uFE0F', glossary: '\uD83D\uDD0D', textbook: '\uD83D\uDCD6',
     'question-bank': '\uD83D\uDDC3\uFE0F', records: '\uD83D\uDCCA', fun: '\uD83C\uDF89', settings: '\u2699\uFE0F',
     bcp: '\uD83D\uDCD8', comgi: '\uD83D\uDCD5', pgi: '\uD83D\uDCD7', hi: '\uD83D\uDCD9',
     mrt: '\uD83D\uDE87', mixed: '\uD83C\uDFB2', trivia: '\uD83E\uDD81',

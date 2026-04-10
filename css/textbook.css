@@ -1,0 +1,319 @@
+/* ===== Textbook Reference View ===== */
+
+.textbook-content {
+  margin-top: var(--sp-sm);
+}
+
+/* ── Empty / Not Available ── */
+.textbook-empty {
+  text-align: center;
+  padding: var(--sp-lg) var(--sp-md);
+  color: var(--c-text-secondary);
+}
+.textbook-empty__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--sp-sm);
+}
+.textbook-empty__text {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ── Chapter Tree ── */
+.tb-chapter {
+  margin-bottom: var(--sp-xs);
+}
+.tb-chapter__header {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: var(--sp-md);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.9rem;
+  transition: background var(--transition), border-color var(--transition);
+}
+.tb-chapter__header:hover,
+.tb-chapter__header--open {
+  background: var(--c-surface-alt);
+  border-color: var(--c-accent);
+}
+.tb-chapter__arrow {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  color: var(--c-text-secondary);
+  width: 1em;
+}
+.tb-chapter__num {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--c-accent);
+  font-size: 0.8rem;
+  min-width: 2.5em;
+}
+.tb-chapter__title {
+  flex: 1;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+/* ── Sections list ── */
+.tb-sections {
+  padding-left: var(--sp-md);
+  border-left: 2px solid var(--c-border);
+  margin-left: var(--sp-md);
+  margin-top: var(--sp-xs);
+  margin-bottom: var(--sp-sm);
+}
+
+/* Learning Outcomes */
+.tb-lo {
+  padding: var(--sp-sm) var(--sp-md);
+  background: rgba(var(--c-accent-rgb, 228, 0, 43), 0.05);
+  border-radius: var(--radius);
+  margin-bottom: var(--sp-sm);
+  font-size: 0.8rem;
+}
+.tb-lo__title {
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--c-accent);
+  margin-bottom: var(--sp-xs);
+}
+.tb-lo__list {
+  margin: 0;
+  padding-left: 1.2em;
+  line-height: 1.5;
+  color: var(--c-text-secondary);
+}
+.tb-lo__list li {
+  margin-bottom: 2px;
+}
+
+/* Section item (button) */
+.tb-section {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-sm);
+  width: 100%;
+  padding: var(--sp-sm) var(--sp-md);
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--c-border);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.85rem;
+  transition: background var(--transition);
+  min-height: 44px;
+}
+.tb-section:hover {
+  background: var(--c-surface-alt);
+}
+.tb-section:last-child {
+  border-bottom: none;
+}
+.tb-section__num {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--c-accent);
+  font-size: 0.75rem;
+  min-width: 2em;
+}
+.tb-section__title {
+  flex: 1;
+  line-height: 1.3;
+  text-transform: capitalize;
+}
+.tb-section__count {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  color: var(--c-text-secondary);
+  background: var(--c-surface-alt);
+  padding: 2px 6px;
+  border-radius: 10px;
+}
+
+/* ── Breadcrumb ── */
+.tb-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+  font-size: 0.8rem;
+  color: var(--c-text-secondary);
+  margin-bottom: var(--sp-sm);
+}
+.tb-breadcrumb__link {
+  background: none;
+  border: none;
+  color: var(--c-accent);
+  cursor: pointer;
+  padding: 2px 4px;
+  font-size: inherit;
+  text-decoration: underline;
+}
+.tb-breadcrumb__sep {
+  color: var(--c-text-secondary);
+}
+
+/* ── Section Detail ── */
+.tb-detail__title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: var(--sp-md);
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+.tb-paragraphs {
+  margin-bottom: var(--sp-md);
+}
+
+.tb-para {
+  display: flex;
+  gap: var(--sp-sm);
+  margin-bottom: var(--sp-sm);
+  line-height: 1.65;
+  font-size: 0.88rem;
+}
+.tb-para__num {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--c-accent);
+  font-size: 0.8rem;
+  min-width: 2.5em;
+  padding-top: 2px;
+}
+.tb-para__text {
+  flex: 1;
+}
+.tb-para__bullet {
+  padding-left: 1em;
+  position: relative;
+}
+.tb-para__bullet::before {
+  content: '\25AA';
+  position: absolute;
+  left: 0;
+}
+
+/* ── Subsection ── */
+.tb-subsection {
+  margin-bottom: var(--sp-md);
+  padding-top: var(--sp-sm);
+  border-top: 1px dashed var(--c-border);
+}
+.tb-subsection__title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: var(--sp-sm);
+  color: var(--c-text);
+}
+
+/* ── Related Questions ── */
+.tb-related {
+  margin-top: var(--sp-lg);
+  padding: var(--sp-md);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+}
+.tb-related__title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: var(--sp-sm);
+  color: var(--c-accent);
+}
+.tb-related__item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-sm);
+  padding: var(--sp-xs) 0;
+  border-bottom: 1px solid var(--c-border);
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+.tb-related__item:last-child {
+  border-bottom: none;
+}
+.tb-related__badge {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  padding: 1px 5px;
+}
+.tb-related__text {
+  flex: 1;
+  color: var(--c-text-secondary);
+}
+.tb-related__more {
+  font-size: 0.75rem;
+  color: var(--c-text-secondary);
+  text-align: center;
+  padding-top: var(--sp-xs);
+}
+
+/* ── Prev/Next nav ── */
+.tb-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: var(--sp-lg);
+  padding-top: var(--sp-md);
+  border-top: 1px solid var(--c-border);
+}
+.tb-nav__btn {
+  font-size: 0.85rem;
+}
+
+/* ── Search Results ── */
+.tb-search-count {
+  font-size: 0.8rem;
+  color: var(--c-text-secondary);
+  margin-bottom: var(--sp-sm);
+}
+.tb-search-item {
+  display: block;
+  width: 100%;
+  padding: var(--sp-sm) var(--sp-md);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  margin-bottom: var(--sp-xs);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color var(--transition);
+}
+.tb-search-item:hover {
+  border-color: var(--c-accent);
+}
+.tb-search-item__bc {
+  font-size: 0.7rem;
+  color: var(--c-accent);
+  margin-bottom: 4px;
+}
+.tb-search-item__snippet {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--c-text);
+}
+.tb-search-item__snippet mark {
+  background: rgba(228, 0, 43, 0.15);
+  color: var(--c-accent);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.tb-search-item__ref {
+  font-size: 0.7rem;
+  color: var(--c-text-secondary);
+}
+.tb-search-more {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--c-text-secondary);
+  padding: var(--sp-sm);
+}

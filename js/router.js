@@ -17,6 +17,7 @@ const LAZY_ROUTES = {
   '#journal': () => import('./views/journal.js'),
   '#question-bank': () => import('./views/question-bank.js'),
   '#sakura-room': () => import('./views/sakura-room.js?v=2'),
+  '#textbook': () => import('./views/textbook-view.js'),
 };
 
 export function registerRoute(hash, handler) {
