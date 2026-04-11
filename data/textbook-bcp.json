@@ -4200,7 +4200,7 @@
       "id": "ch6",
       "number": 6,
       "title": "INSURANCE DOCUMENTS",
-      "titleJP": "",
+      "titleJP": "保険書類",
       "outline": [
         "Introduction",
         "Proposal Form",
@@ -4212,7 +4212,17 @@
         "Renewal Certificate",
         "Claim Form"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "申込書",
+        "カバーノート",
+        "保険証明書",
+        "保険証券",
+        "裏書",
+        "更新通知（満了通知）",
+        "更新証書",
+        "保険金請求書"
+      ],
       "learningOutcomes": [
         "know the purpose of a proposal form and explain how it forms the basis of the insurance contract",
         "be familiar with the main sections of questions asked for in the proposal form, including the declaration and the warning statement",
@@ -4225,18 +4235,29 @@
         "understand the uses of a renewal certificate and the information contained in it",
         "realise the importance and the uses of a claim form, as well as outline the main sections contained in it"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "know the purpose of a proposal form and explain how it forms the basis of the insurance contract",
+        "be familiar with the main sections of questions asked for in the proposal form, including the declaration and the warning statement",
+        "understand what a cover note is",
+        "explain the functions of a certificate of insurance",
+        "be familiar with the various sections of an insurance policy document",
+        "understand the various types of conditions in an insurance policy",
+        "know what warranties and the two types of warranties in insurance contracts are",
+        "know the purpose of an endorsement and the renewal notice",
+        "understand the uses of a renewal certificate and the information contained in it",
+        "realise the importance and the uses of a claim form, as well as outline the main sections contained in it"
+      ],
       "sections": [
         {
           "id": "ch6-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In the previous chapter, we have explained that a general insurance policy is an important contract governing the obligations of the insurer and the rights of the insured. In this chapter, we will examine the insurance policy in detail. Besides the policy document, there are other important insurance documents that will be explained. We shall begin with an insurance document that initiates the application for most insurance contracts – the proposal form.",
-              "textJP": ""
+              "textJP": "前章では、損害保険証券が保険者の義務と被保険者の権利を規律する重要な契約であることを説明しました。本章では、保険証券を詳細に検討します。保険証券のほかにも、保険契約の成立または管理のために使用される重要な保険書類があります。以下はその概要です。"
             }
           ],
           "subsections": []
@@ -4245,12 +4266,12 @@
           "id": "ch6-s2",
           "number": "2",
           "title": "Proposal Form",
-          "titleJP": "",
+          "titleJP": "申込書",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "The proposal form (application form) is the most common tool by which the insurer receives information about the risks to be insured. The information provided by the proposer (intending insured) in most cases forms the only basis upon which the underwriter decides whether or not to accept the risk and on what terms and premium rates. As such, it is a very important document, as you will see in the next section. See Appendix 6A and Appendix 6B for a sample copy of proposal forms for Private Motor Insurance and Public Liability Insurance respectively.",
-              "textJP": ""
+              "textJP": "申込書は、保険者が付保されるリスクに関する情報を受け取る最も一般的な手段です。ほとんどの場合、申込者（保険加入予定者）が提供する情報は、引受人がリスクを引き受けるかどうか、引き受ける場合はどのような料率、条件で引き受けるかを決定する唯一の根拠となります。"
             }
           ],
           "subsections": [
@@ -4258,22 +4279,22 @@
               "id": "ch6-s2-A",
               "label": "A",
               "title": "Basis Of Contract",
-              "titleJP": "",
+              "titleJP": "契約の基礎",
               "paragraphs": [
                 {
                   "num": "2.2",
                   "text": "The proposal form is the basis of the insurance contract and is incorporated into the contract. This has the effect of making the proposal form part of the contract, even though it is not actually reproduced and printed with the policy document. Therefore, the proposer has to be particularly careful to supply correct, accurate and comprehensive information when completing the proposal form, as it will become part of the contract.",
-                  "textJP": ""
+                  "textJP": "申込書は保険契約の基礎であり、契約に組み込まれます。これにより、申込書は保険証券に実際に複製・印刷されていなくても、契約の一部となる効果があります。したがって、申込者は申込書の質問に特に注意して回答しなければなりません。"
                 },
                 {
                   "num": "2.3",
                   "text": "The fact that the proposal form is the basis of the contract is further strengthened by the declaration of the proposer at the end of the proposal form. The declaration is also considered as part of the contract. By signing the declaration, the proposer is confirming that the information which has been provided to the insurer is true to the best of his knowledge and belief. Details of the declaration will be discussed later in this chapter.",
-                  "textJP": ""
+                  "textJP": "申込書が契約の基礎であるという事実は、申込書の末尾にある申込者の宣言によってさらに強化されます。宣言も契約の一部とみなされます。宣言に署名することにより、申込者は提供された情報が真実かつ正確であることを確認しています。"
                 },
                 {
                   "num": "2.4",
                   "text": "Let us now proceed to look at the questions asked in various types of proposal forms. Proposal Form",
-                  "textJP": ""
+                  "textJP": "では、各種申込書で尋ねられる質問について見ていきましょう。"
                 }
               ]
             },
@@ -4281,17 +4302,17 @@
               "id": "ch6-s2-B",
               "label": "B",
               "title": "Questions Asked In A Proposal Form",
-              "titleJP": "",
+              "titleJP": "申込書で尋ねられる質問",
               "paragraphs": [
                 {
                   "num": "2.5",
                   "text": "Proposal forms are of variable lengths depending on the nature of the risk, and the information which an insurer will need to be able to underwrite the risk.",
-                  "textJP": ""
+                  "textJP": "申込書の長さは、リスクの性質および保険者がリスクを引き受けるために必要とする情報によって異なります。"
                 },
                 {
                   "num": "2.6",
                   "text": "Basically, questions asked in a proposal form can be broadly classified into five main sections:\n▪ Details Of The Proposer And/Or The Insured\n▪ Period Of Insurance These questions are not specific to the actual risk itself.\n▪ Details Of The Risk To Be Insured\n▪ The Subject Matter Of Insurance\n▪ The Insurance History Of The Proposer And/Or The Insured These questions are risk specific in the sense that they relate to the form of risk for which cover is being sought. These are the questions that will assist the underwriter in determining whether or not to accept the risk, what terms to impose, and what price (premium) to charge.",
-                  "textJP": ""
+                  "textJP": "基本的に、申込書で尋ねられる質問は大きく5つのセクションに分類されます。\n▪ 申込者および／または被保険者の詳細\n▪ 保険期間（これらの質問は実際のリスク自体に固有のものではありません）\n▪ 付保されるリスクの詳細\n▪ 保険の対象物\n▪ 申込者および／または被保険者の保険歴"
                 }
               ]
             },
@@ -4299,17 +4320,17 @@
               "id": "ch6-s2-B1",
               "label": "B1",
               "title": "Details Of The Proposer And/Or The Insured",
-              "titleJP": "",
+              "titleJP": "申込者および／または被保険者の詳細",
               "paragraphs": [
                 {
                   "num": "2.7",
                   "text": "In general insurance, the proposer is usually insuring themselves or property which they own. However, sometimes, the proposer can be another person who has an insurable interest in the subject matter of the insurance, e.g. the wife on the life of her husband in a Personal Accident Insurance policy.",
-                  "textJP": ""
+                  "textJP": "損害保険では、申込者は通常、自己または自己が所有する財物を付保しています。ただし、申込者が保険の対象物に対して被保険利益を有する別の者である場合もあります（例：傷害保険における夫の生命に対する妻）。"
                 },
                 {
                   "num": "2.8",
                   "text": "The details required of the proposer and/or the insured are: (a) Name in full - This is required for the purpose of identification. (b) Address - This is required for identification and communication. It can also be a material factor (risk location) for the underwriting of the risk, e.g. in the case of Fire or Theft Insurance. (c) Occupation or type of business - This provides information for the insurer to underwrite the risk, especially with Personal Accident, Motor, Theft and Fire Insurance policies. It is obvious that the type of business can have a material bearing on the hazards involved in the risk. (d) Interested party - This will enable the insurer to know if there is any other party interested in the policy in the event of a claim, e.g. a mortgagee, or an owner named under a hire-purchase agreement. (e) Other questions - Depending on the class of insurance, various questions may be asked on the gender, nationality, date of birth, demerit points (in Motor Insurance), etc.",
-                  "textJP": ""
+                  "textJP": "申込者および／または被保険者に求められる詳細は以下のとおりです。\n(a) 氏名 — 身元確認のために必要です。\n(b) 住所 — 身元確認と連絡のために必要です。リスクの引受にとっての重要な要素（リスクの所在地）にもなりえます。"
                 }
               ]
             },
@@ -4317,22 +4338,22 @@
               "id": "ch6-s2-B2",
               "label": "B2",
               "title": "Period Of Insurance",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "2.9",
                   "text": "In general insurance business, the period concerned is normally a full year (12 months) from a date as determined by the proposer, although exceptions may arise, e.g. Travel Insurance where a shorter period may be indicated for coverage of a single trip, or Foreign Domestic Worker (Maid) Insurance, where the period of insurance is usually 14 or 26 months. However, for most classes of insurance, the premium rates applied assume a normal policy period of one year.",
-                  "textJP": ""
+                  "textJP": "損害保険事業では、対象期間は通常、申込者が決定する日付から満1年（12ヶ月）ですが、例外が生じることもあります。例えば、旅行保険では1回の旅行のカバーとしてより短い期間が指定される場合や、外国人家事労働者保険では就労ビザの残存期間に合わせた期間が設定される場合があります。"
                 },
                 {
                   "num": "2.10",
                   "text": "The policy period begins on the policy’s effective date (the time and date that the coverage under the policy goes into effect) and it ends on the expiry date (the time and date that the coverage under the policy expires). When Coverage Is In Effect",
-                  "textJP": ""
+                  "textJP": "保険期間は、保険証券の発効日（保険証券に基づくカバーが発効する日時）に始まり、満了日（保険証券に基づくカバーが満了する日時）に終了します。"
                 },
                 {
                   "num": "2.11",
                   "text": "In most cases, the policy will lapse on the expiry date, unless the insured gives instructions to renew the policy, and the insurer accepts the renewal instructions.",
-                  "textJP": ""
+                  "textJP": "ほとんどの場合、被保険者が保険証券の更新を指示し、保険者がその更新指示を受け入れない限り、保険証券は満了日に失効します。"
                 }
               ]
             },
@@ -4340,22 +4361,22 @@
               "id": "ch6-s2-B3",
               "label": "B3",
               "title": "Details Of The Risk To Be Insured",
-              "titleJP": "",
+              "titleJP": "付保されるリスクの詳細",
               "paragraphs": [
                 {
                   "num": "2.12",
                   "text": "In this section, the insurer attempts to elicit sufficient information to underwrite the risk. This process will involve a decision as to the insurability of the risk and determining the premium charge and other contract terms.",
-                  "textJP": ""
+                  "textJP": "このセクションでは、保険者はリスクを引き受けるのに十分な情報を引き出そうとします。このプロセスには、リスクの付保適格性の判断、保険料の決定、およびその他の契約条件の決定が含まれます。"
                 },
                 {
                   "num": "2.13",
                   "text": "Questions asked here vary widely between classes of insurance.",
-                  "textJP": ""
+                  "textJP": "ここで尋ねられる質問は、保険の種類によって大きく異なります。"
                 },
                 {
                   "num": "2.14",
                   "text": "Examples are: (a) Fire Insurance What is the construction of the risk? If the building is constructed of timber, it is almost certainly more hazardous than one built of concrete. Where is the location of the risk? This is important for determining how far the risk is from a fire brigade station, as well as the surrounding risks in the neighbourhood. What is the occupation of the premises? Are there hazardous goods stored in the premises? Are the manufacturing processes involved in hazardous chemicals, flammable materials or substances, etc.? Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Effective Date Policy Period Expiry Date (b) Accident Insurance In the case of Personal Accident Insurance, questions will be asked to elicit the following information:\n▪ occupation (including nature of work or duties);\n▪ age;\n▪ health;\n▪ previous history of injury and sickness; and\n▪ any kind of physical defect or infirmity, etc. (c) Motor Insurance Questions will be asked on the driver and the motor vehicle, such as his age, occupation, driving experience, demerit points, claims experience for the last three years; make, model and year of the motor vehicle, its registration number, seating and engine capacity, as well as engine and chassis number. The questions asked in a proposal form serve to elicit information on the physical and moral hazard of the risks to be insured.",
-                  "textJP": ""
+                  "textJP": "例は以下のとおりです。\n(a) 火災保険：リスクの建築構造はどのようなものか。建物が木造であれば、コンクリート造の建物よりもほぼ確実にリスクが高くなります。リスクの所在地はどこか。これは消防署からの距離を判断するために重要です。\n(b) 自動車保険：車両の用途は何か。自家用か商用か。ドライバーの年齢は。事故歴はあるか。"
                 }
               ]
             },
@@ -4363,17 +4384,17 @@
               "id": "ch6-s2-B4",
               "label": "B4",
               "title": "The Subject Matter Of Insurance",
-              "titleJP": "",
+              "titleJP": "保険の対象物",
               "paragraphs": [
                 {
                   "num": "2.15",
                   "text": "The subject matter of insurance is the object exposed to risk, such as people, building, house, factory, stock, vehicle, aircraft or sea vessel. The subject matter must be capable of being identified.",
-                  "textJP": ""
+                  "textJP": "保険の対象物とは、リスクにさらされている物体です。例えば、人、建物、住宅、工場、在庫、車両、航空機、船舶などです。対象物は識別可能でなければなりません。"
                 },
                 {
                   "num": "2.16",
                   "text": "Proposal forms thus make provisions to record the description and the location, etc. of the insured subject matter. The proposer must take care to provide accurate descriptions of the subject matter. For example, in Fire Insurance policy forms, there is a condition which states that any mis-description of the insured subject matter or omission of material facts will not render the insurer liable for the policy, which means no claim will be paid.",
-                  "textJP": ""
+                  "textJP": "したがって、申込書は対象物の説明、所在地等を記録するための項目を設けています。申込者は対象物の正確な記述を提供するよう注意しなければなりません。例えば、火災保険の申込書には、対象物の記述の誤りにより保険者はいかなる責任も負わない旨の条件が記載されています。"
                 }
               ]
             },
@@ -4381,22 +4402,22 @@
               "id": "ch6-s2-B5",
               "label": "B5",
               "title": "The Insurance History Of The Proposer And/Or The Insured",
-              "titleJP": "",
+              "titleJP": "申込者および／または被保険者の保険歴",
               "paragraphs": [
                 {
                   "num": "2.17",
                   "text": "In addition to obtaining information on the past claim history of the insured, this section also attempts to solicit information on whether the proposer is currently and/or has previously insured with other insurers.",
-                  "textJP": ""
+                  "textJP": "被保険者の過去の保険金請求履歴に関する情報を取得することに加えて、このセクションでは、申込者が現在および／または過去に他の保険者で付保しているかどうかについての情報も求めます。"
                 },
                 {
                   "num": "2.18",
                   "text": "Thus, questions will be asked on whether the proposer has ever been declined, cancelled, accepted on special terms, or refused renewal by another insurer. If so, full details as to the name of the insurer, policy number, type of cover, etc. are required.",
-                  "textJP": ""
+                  "textJP": "したがって、申込者が他の保険者から加入を断られたか、解約されたか、特別条件で引き受けられたか、更新を拒否されたことがあるかどうかの質問がなされます。ある場合は、保険者名、保険証券番号、カバーの種類等の完全な詳細が必要です。"
                 },
                 {
                   "num": "2.19",
                   "text": "These questions assist the underwriter to be put on guard against proposers with a poor claims experience, or those intending to defraud insurers.",
-                  "textJP": ""
+                  "textJP": "これらの質問は、引受人が保険金請求実績の悪い申込者や、保険者を欺こうとする申込者に対して警戒するのに役立ちます。"
                 }
               ]
             },
@@ -4404,32 +4425,32 @@
               "id": "ch6-s2-C",
               "label": "C",
               "title": "Declaration & Warning Statement",
-              "titleJP": "",
+              "titleJP": "宣言および警告文",
               "paragraphs": [
                 {
                   "num": "2.20",
                   "text": "At the end of all the questions, the proposer is required to:\n▪ declare (sometimes to warrant) the truth and completeness of the answers given;\n▪ state that he has disclosed all material facts;\n▪ agree that the proposal is the basis of the contract;\n▪ agree that he accepts the normal terms, provisions, limitations, exclusions (exceptions) and conditions as contained in the policy; and\n▪ sign and date the proposal form.",
-                  "textJP": ""
+                  "textJP": "すべての質問の後、申込者は以下を行うことが求められます。\n▪ 回答の真実性および完全性を宣言する（時に保証する）\n▪ すべての重要事実を告知したことを述べる\n▪ 申込書が契約の基礎であることに同意する\n▪ 通常の条件、規定、および保険証券の条件を受け入れることに同意する"
                 },
                 {
                   "num": "2.21",
                   "text": "NOTE: While the agent can assist the proposer to complete the proposal form, the latter must read through and check the answers and sign the form himself. The agent must not sign the form on the proposer’s behalf.",
-                  "textJP": ""
+                  "textJP": "注意：代理店は申込者が申込書を記入するのを手伝うことができますが、申込者自身が回答を読み通して確認し、自ら署名しなければなりません。代理店が申込者に代わって署名してはなりません。"
                 },
                 {
                   "num": "2.22",
                   "text": "As mentioned earlier, the purpose of the declaration is for the proposer to confirm that the information provided is true to the best of his knowledge and belief.",
-                  "textJP": ""
+                  "textJP": "前述のとおり、宣言の目的は、申込者が提供した情報が自己の知識と信念に基づき真実であることを確認することです。"
                 },
                 {
                   "num": "2.23",
                   "text": "Besides including a declaration, every proposal form contains a warning statement in relation to Section 23(5) of the Insurance Act 1966, which states as follows: “You are to disclose in this proposal form, fully and faithfully, all the facts which you know or ought to know; otherwise you may receive nothing from the policy.”",
-                  "textJP": ""
+                  "textJP": "宣言に加えて、すべての申込書にはInsurance Act 1966第23条(5)に関連する警告文が含まれており、以下のように述べています。「本申込書において、あなたが知っている、または知るべきすべての事実を完全かつ誠実に告知してください。さもなければ、保険証券に基づく給付を一切受け取れない場合があります。」"
                 },
                 {
                   "num": "2.24",
                   "text": "The purpose of the warning statement is, therefore, to caution the proposer about the facts to be disclosed and the danger if any material facts are not dutifully disclosed. It also signifies the duty of disclosure by the proposer (intending insured), thereby reinforcing the principle of utmost good faith. Compare & Contrast Readers can gain a more complete knowledge of proposal forms, by comparing and contrasting the proposal forms of different insurers, concerning the questions asked for the same class of insurance and the declarations to be made. &",
-                  "textJP": ""
+                  "textJP": "したがって、警告文の目的は、告知されるべき事実および重要事実が適切に告知されない場合の危険性について申込者に注意を促すことです。また、申込者（保険加入予定者）の告知義務を示すものであり、最大善意の原則を補強するものです。"
                 }
               ]
             }
@@ -4439,32 +4460,32 @@
           "id": "ch6-s3",
           "number": "3",
           "title": "Cover Note",
-          "titleJP": "",
+          "titleJP": "カバーノート",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "It is not always possible to issue an insurance policy as soon as cover is required by an insured. Thus, while negotiations are underway, or while further information is being sought (e.g. risk surveys), temporary cover is given, and a Cover Note is issued. A Cover Note may also be useful, when the insured has to prove to some other party of the existence of insurance or that insurance has been effected. The format of the Cover Note will vary with different classes of insurance.",
-              "textJP": ""
+              "textJP": "被保険者がカバーを必要とした直後に保険証券を発行できるとは限りません。したがって、交渉が進行中の間、または追加情報を求めている間（例：リスク調査）、一時的なカバーが付与され、カバーノートが発行されます。カバーノートは、要求されているカバーが複雑で、その条件の詰めに時間がかかる場合にも有用です。"
             },
             {
               "num": "3.2",
               "text": "The Cover Note usually contains a wording to the effect that it is:\n▪ valid only for a certain period;\n▪ subject to the usual terms, exclusions and conditions of the insurance policy for that class of business; and\n▪ subject to any further special clauses, if applicable, and specified in the Cover Note.",
-              "textJP": ""
+              "textJP": "カバーノートには通常、以下の趣旨の文言が含まれています。\n▪ 一定の期間のみ有効であること\n▪ 当該事業種類の保険証券の通常の条件、免責事項、および条件に従うこと\n▪ 該当する場合、カバーノートに記載された追加の特別条項に従うこと"
             },
             {
               "num": "3.3",
               "text": "A Cover Note may be thought of as a temporary policy and will normally contain sufficient details to identify the risks being insured, such as:\n▪ insured’s name and address;\n▪ sum insured;\n▪ period of insurance (this is usually a short period, perhaps 15 or 30 days);\n▪ risks covered;\n▪ description of risks being insured;\n▪ serial number;\n▪ warranties;\n▪ extensions; and\n▪ signature of authorised signatory of insurer and date of issue, including time of issue for certain classes of insurance, e.g. Motor Insurance.",
-              "textJP": ""
+              "textJP": "カバーノートは一時的な保険証券と考えることができ、通常、付保されるリスクを特定するための十分な詳細を含みます。例えば：\n▪ 被保険者の氏名と住所\n▪ 保険金額\n▪ 保険期間（通常は短期間、15日または30日程度）\n▪ カバーされるリスク\n▪ 対象物の記述"
             },
             {
               "num": "3.4",
               "text": "Soon after the Cover Note has been given to the insured, a formal policy of insurance will be issued, and it is cross-referenced to the Cover Note number.",
-              "textJP": ""
+              "textJP": "カバーノートが被保険者に交付された後間もなく、正式な保険証券が発行され、カバーノート番号に相互参照されます。"
             },
             {
               "num": "3.5",
               "text": "A Cover Note has the same legal status as the actual insurance policy. If a loss occurs during the period of insurance, when a Cover Note is in force (i.e. before a formal policy of insurance is issued), the insurer is liable to pay the claim, subject to the standard policy wording, unless special terms have been included in the Cover Note.",
-              "textJP": ""
+              "textJP": "カバーノートは実際の保険証券と同じ法的効力を有します。カバーノートが有効な保険期間中（すなわち正式な保険証券が発行される前）に損失が発生した場合、特別な条件が付されていない限り、保険者は標準的な保険証券の文言に従い保険金を支払う義務を負います。"
             }
           ],
           "subsections": []
@@ -4473,22 +4494,22 @@
           "id": "ch6-s4",
           "number": "4",
           "title": "Certificate Of Insurance",
-          "titleJP": "",
+          "titleJP": "保険証明書",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "When insurance is compulsory by law, the law also requires that a prescribed Certificate of Insurance is issued to prove that a policy is in force. This does make sense. For instance, in the case of a motor accident, how will the police or someone involved know that a driver has complied with the law and has a valid insurance policy? We can make the driver carry the actual policy document with him all the time, but this is cumbersome. A small Certificate of Insurance thus becomes useful in such a situation.",
-              "textJP": ""
+              "textJP": "保険が法律で義務付けられている場合、法律は保険証券が有効であることを証明する所定の保険証明書の発行も義務付けています。これは合理的です。例えば、自動車事故の場合、警察や関係者がドライバーが法律を遵守していることをどのように知ることができるでしょうか。"
             },
             {
               "num": "4.2",
               "text": "A Certificate of Insurance is only evidence of, and is not equivalent to, a policy of insurance.",
-              "textJP": ""
+              "textJP": "保険証明書は、保険証券の証拠にすぎず、保険証券と同等のものではありません。"
             },
             {
               "num": "4.3",
               "text": "Certificates of Insurance are normally used in Marine Cargo, Motor and Work Injury Compensation Insurance (sometimes for Card Protection and Travel Insurance, as well as Group Insurance to individual members to evidence their participation in a group plan).",
-              "textJP": ""
+              "textJP": "保険証明書は通常、海上貨物保険、自動車保険、労災補償保険で使用されます（カード保護保険、旅行保険、および団体保険で個人メンバーの団体プランへの参加を証明するためにも使用されることがあります）。"
             }
           ],
           "subsections": [
@@ -4496,32 +4517,32 @@
               "id": "ch6-s4-A",
               "label": "A",
               "title": "Motor Insurance",
-              "titleJP": "",
+              "titleJP": "自動車保険",
               "paragraphs": [
                 {
                   "num": "4.4",
                   "text": "In Singapore, according to the Motor Vehicles (Third-Party Risks and Compensation) Act 1960, it is an offence to drive or use a motor vehicle on a public road, without a valid insurance policy insuring for at least “Act” cover, i.e. death of or bodily injury to third party.",
-                  "textJP": ""
+                  "textJP": "シンガポールでは、Motor Vehicles (Third-Party Risks and Compensation) Act 1960（自動車法1960年）に基づき、少なくとも「Act」カバー（第三者の死亡または身体傷害）を付保する有効な保険証券なしに公道で自動車を運転または使用することは犯罪です。"
                 },
                 {
                   "num": "4.5",
                   "text": "In addition to the insurance policy, a Certificate of Insurance in the prescribed form required by the Act is issued to provide evidence of insurance to the police (as and when required), and the road tax collection centre authorised by the Land Transport Authority of Singapore. See Appendix 6C for a sample of the Private Motor Car Certificate of Insurance.",
-                  "textJP": ""
+                  "textJP": "保険証券に加えて、同法が定める所定の様式の保険証明書が、警察（必要に応じて）およびシンガポール陸上交通庁が認可した自動車税徴収センターに保険の証拠を提供するために発行されます。サンプルはAppendix 6Cを参照してください。"
                 },
                 {
                   "num": "4.6",
                   "text": "This Certificate of Insurance must be kept by the motorist at all times. In the event of an accident, details of the respective parties can be exchanged.",
-                  "textJP": ""
+                  "textJP": "この保険証明書は、ドライバーが常に携帯しなければなりません。事故の場合、それぞれの当事者の詳細を交換することができます。"
                 },
                 {
                   "num": "4.7",
                   "text": "When the motor vehicle is sold, the law requires that the motor vehicle must be registered in the new owner’s name within seven days of the sale. The insurer requires the Certificate of Insurance to be returned immediately after the sale (i.e. it is not transferable, unless the consent of the insurer is obtained. The latter will then issue a fresh Certificate of Insurance in the name of the new owner).",
-                  "textJP": ""
+                  "textJP": "自動車が売却された場合、法律は自動車が売却から7日以内に新しい所有者の名義で登録されることを義務付けています。保険者は、保険証明書を売却後直ちに返還することを求めます（すなわち、保険者の同意がない限り譲渡不可能です）。"
                 },
                 {
                   "num": "4.8",
                   "text": "Different prescribed certificates are issued for commercial vehicles and motorcycles in Singapore.",
-                  "textJP": ""
+                  "textJP": "シンガポールでは、商用車両と二輪車に対して異なる所定の証明書が発行されます。"
                 }
               ]
             },
@@ -4529,12 +4550,12 @@
               "id": "ch6-s4-B",
               "label": "B",
               "title": "Work Injury Compensation Insurance",
-              "titleJP": "",
+              "titleJP": "労災補償保険",
               "paragraphs": [
                 {
                   "num": "4.9",
                   "text": "Under the Work Injury Compensation (Insurance) Regulations 2020, it is required that a copy of the Certificate of Insurance must be prominently displayed at the insured’s place of business. Where the insured has more than one place of business, the Certificate of Insurance must be displayed at each place of business at which he employs any employee covered by the insurance. As the insurer provides only one certificate, it is the responsibility of the insured to make sufficient copies for display. See Appendix 6D for a sample Work Injury Compensation Insurance Certificate.",
-                  "textJP": ""
+                  "textJP": "Work Injury Compensation (Insurance) Regulations 2020に基づき、保険証明書のコピーが被保険者の事業所に目立つように掲示されなければなりません。被保険者が複数の事業所を有する場合、保険証明書は各事業所に掲示されなければなりません。"
                 }
               ]
             },
@@ -4542,22 +4563,22 @@
               "id": "ch6-s4-C",
               "label": "C",
               "title": "Marine Cargo Insurance",
-              "titleJP": "",
+              "titleJP": "海上貨物保険",
               "paragraphs": [
                 {
                   "num": "4.10",
                   "text": "The Motor Insurance and Work Injury Compensation Certificates of Insurance provide formal proof of the existence of insurance cover required by law. However, in Marine Cargo Insurance, the certificate has a different function. It is not required by law.",
-                  "textJP": ""
+                  "textJP": "自動車保険および労災補償保険の保険証明書は、法律が求める保険カバーの存在の正式な証明を提供します。しかし、海上貨物保険では、証明書は異なる機能を持ちます。法律で義務付けられているものではありません。"
                 },
                 {
                   "num": "4.11",
                   "text": "Often, insureds have regular shipments of cargo. It is sometimes inconvenient for the insurer to issue an insurance policy for each and every shipment.",
-                  "textJP": ""
+                  "textJP": "被保険者は定期的な貨物の積み出しを行うことがしばしばあります。保険者が積み出しごとに保険証券を発行することは不便な場合があります。"
                 },
                 {
                   "num": "4.12",
                   "text": "Thus, an Open Cover - as a sort of master policy - is issued. This is the most common form of policy for insuring cargo. It incorporates pre-agreed details of the class of the vessels, voyage, types of cargoes, basis of valuation and limits, terms and conditions of coverage, together with a rating structure. Certificates are then issued for each shipment and/or each buyer. The insured has to make declarations (monthly or quarterly) concerning all shipments, so that the appropriate premiums can be charged.",
-                  "textJP": ""
+                  "textJP": "したがって、一種のマスターポリシーとしてOpen Cover（包括予定保険）が発行されます。これは貨物を付保するための最も一般的な保険証券の形態です。Open Coverには、船舶の等級、航路、貨物の種類、評価基準と限度額、カバーの条件、および船積みごとに適用される料率スケジュールの事前合意された詳細が組み込まれています。"
                 }
               ]
             }
@@ -4567,32 +4588,32 @@
           "id": "ch6-s5",
           "number": "5",
           "title": "Insurance Policy",
-          "titleJP": "",
+          "titleJP": "保険証券",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "An insurance policy is not the contract, but it is the written evidence of the insurance contract. This contact is usually in force before the policy is issued.",
-              "textJP": ""
+              "textJP": "保険証券は契約そのものではありませんが、保険契約の書面による証拠です。この契約は通常、保険証券が発行される前に効力を生じています。"
             },
             {
               "num": "5.2",
               "text": "As policies are legal documents, their wording is very important. In almost every case, the document is prepared by the insurer, and it sets out the terms of the insurance contract.",
-              "textJP": ""
+              "textJP": "保険証券は法的文書であるため、その文言は非常に重要です。ほぼすべての場合、文書は保険者によって作成され、保険契約の条件を定めています。"
             },
             {
               "num": "5.3",
               "text": "Since the policy is usually prepared by the insurer, any ambiguity in its wording will be construed against the insurer, in favour of the insured. This is the application of the “contra proferentem” rule, which holds that the person drawing up a legal document is responsible for any defects in it and cannot profit from such defects.",
-              "textJP": ""
+              "textJP": "保険証券は通常保険者によって作成されるため、その文言のいかなる曖昧さも、被保険者に有利に保険者に不利に解釈されます。これは「作成者不利の原則」（contra proferentem）の適用であり、法的文書を作成した者がその欠陥に責任を負うとするものです。"
             },
             {
               "num": "5.4",
               "text": "In Singapore, policy wordings for Fire, Work Injury Compensation, Motor and Marine Insurance do not vary a lot among insurers. However, different insurers use different sizes, typography or colours for their policy documents.",
-              "textJP": ""
+              "textJP": "シンガポールでは、火災保険、労災補償保険、自動車保険、海上保険の保険証券の文言は、保険者間でそれほど大きく異なりません。ただし、保険者によって保険証券の書類のサイズ、書体、色は異なります。"
             },
             {
               "num": "5.5",
               "text": "As is the trend in the United States and the United Kingdom, policy wordings have been redrafted using layman terms (plain English) to help the man in the street to understand the contract better. In Singapore, some insurers are issuing plain English policies, mostly for, personal lines, such as Foreign Domestic Worker (Maid), Golfer’s, Health, Home, Motor, Personal Accident and Travel Insurance.",
-              "textJP": ""
+              "textJP": "米国や英国の傾向と同様に、一般の人が契約をより理解しやすくするために、保険証券の文言は平易な用語（プレーンイングリッシュ）で再起草されています。シンガポールでは、一部の保険者が、主に外国人家事労働者保険や旅行保険などの個人分野でプレーンイングリッシュの保険証券を発行しています。"
             }
           ],
           "subsections": [
@@ -4600,17 +4621,17 @@
               "id": "ch6-s5-A",
               "label": "A",
               "title": "Policy Document",
-              "titleJP": "",
+              "titleJP": "保険証券の構成",
               "paragraphs": [
                 {
                   "num": "5.6",
                   "text": "More insurance companies are now issuing what is termed as a scheduled policy, i.e. all the normal sections in a policy are pre-printed, and any amendments and specific details are stated in the Schedule (see Appendix 6E for sample policy).",
-                  "textJP": ""
+                  "textJP": "現在、より多くの保険会社が、スケジュールド・ポリシーと呼ばれるものを発行しています。すなわち、保険証券のすべての標準的なセクションが事前に印刷されており、修正や特定の詳細事項はスケジュール（別表）に記載されます。サンプルはAppendix 6Eを参照してください。"
                 },
                 {
                   "num": "5.7",
                   "text": "A scheduled policy form is usually divided into the following sections:",
-                  "textJP": ""
+                  "textJP": "スケジュールド・ポリシーの書式は、通常、以下のセクションに分かれています。"
                 }
               ]
             },
@@ -4618,12 +4639,12 @@
               "id": "ch6-s5-A1",
               "label": "A1",
               "title": "The Heading",
-              "titleJP": "",
+              "titleJP": "表題",
               "paragraphs": [
                 {
                   "num": "5.8",
                   "text": "It gives the name and address of the insurer and other relevant information which varies from company to company.",
-                  "textJP": ""
+                  "textJP": "保険者の名称と住所、および会社によって異なるその他の関連情報を記載します。"
                 }
               ]
             },
@@ -4631,12 +4652,12 @@
               "id": "ch6-s5-A2",
               "label": "A2",
               "title": "The Preamble Or Recital Clause",
-              "titleJP": "",
+              "titleJP": "前文・冒頭条項",
               "paragraphs": [
                 {
                   "num": "5.9",
                   "text": "This clause recites or states the parties to the contract (not mentioning their names). It also makes reference to the proposal form as the basis of the contract, and the premium, as having been paid or agreed to be paid by the insured (policyholder), as a consideration for the insurance provided by the policy.",
-                  "textJP": ""
+                  "textJP": "この条項は、契約の当事者（名前は記載せず）を叙述または記載します。また、申込書を契約の基礎として参照し、保険者による保険の提供の約因として、被保険者（保険契約者）によって保険料が支払われたか支払われることに同意されたことに言及します。"
                 }
               ]
             },
@@ -4644,27 +4665,27 @@
               "id": "ch6-s5-A3",
               "label": "A3",
               "title": "Operative Or Insuring Clause",
-              "titleJP": "",
+              "titleJP": "補償条項（保険引受条項）",
               "paragraphs": [
                 {
                   "num": "5.10",
                   "text": "The clause sets out, in detail, precisely what the policy is insuring. Sometimes, policies will be on a “named perils” (or “specified perils”) basis, which means that the causes of insured loss are stated individually. WE INSURE FOR LOSS CAUSED BY: ◼ __________ ◼ __________ ◼ __________ ◼ __________ ◼ __________ ◼ __________ ◼ __________ WE INSURE AGAINST ALL RISKS OF LOSS, EXCEPT FOR: ◼ _________ ◼ _________ ◼ _________ ◼ _________ ◼ _________ ◼ _________ ◼ _________ Named Perils Versus All Risks Named Perils All risks",
-                  "textJP": ""
+                  "textJP": "この条項は、保険証券が何を付保しているかを詳細に正確に定めます。保険証券は「記名危険事故」（「特定危険事故」）ベースである場合があり、これは被保険の損失の原因が個別に記載されていることを意味します。"
                 },
                 {
                   "num": "5.11",
                   "text": "If the policy covers “all risks”, then all forms of unforeseen loss and sudden damage are covered, subject to specific policy exclusions.",
-                  "textJP": ""
+                  "textJP": "保険証券が「オールリスク」をカバーする場合、特定の保険証券の免責事項を条件として、すべての形態の予見不可能な損失および突然の損害がカバーされます。"
                 },
                 {
                   "num": "5.12",
                   "text": "The Operative Clause can be quite short, but with Motor Insurance, for instance, the clause will have several sections, such as:\n▪ Section I - Insurance On The Motor Vehicle;\n▪ Section II - Liability To Third Parties;\n▪ Section III - Medical Expense Benefits; and\n▪ Section IV - Personal Accident Benefits.",
-                  "textJP": ""
+                  "textJP": "補償条項は非常に短い場合がありますが、自動車保険の場合は例えば以下のような複数のセクションを持ちます。\n▪ セクションI — 自動車に対する保険\n▪ セクションII — 第三者に対する賠償責任\n▪ セクションIII — 医療費給付\n▪ セクションIV — 傷害給付"
                 },
                 {
                   "num": "5.13",
                   "text": "It will be the sole responsibility of the insured to establish that a loss falls within the Operative Clause in the event of a claim arising under a policy.",
-                  "textJP": ""
+                  "textJP": "保険証券に基づく保険金請求が発生した場合、損失が補償条項に該当することを立証するのは被保険者の単独の責任です。"
                 }
               ]
             },
@@ -4672,12 +4693,12 @@
               "id": "ch6-s5-A4",
               "label": "A4",
               "title": "Schedule",
-              "titleJP": "",
+              "titleJP": "スケジュール（別表）",
               "paragraphs": [
                 {
                   "num": "5.14",
                   "text": "This section makes the insurance policy personal to the policyholder and contains all information relating to the particular policy concerned. Standard information for all policies in that class of business will be contained in the other sections. The schedule varies according to the class of business, but it will include the following data:\n▪ policy number;\n▪ date of issue;\n▪ insured’s name and address;\n▪ agency (account) number;\n▪ period of insurance;\n▪ risks covered;\n▪ the property insured;\n▪ situation of the property insured;\n▪ sums insured (limit of liability in case of liability cover)\n▪ clauses or special provisions applying;\n▪ warranties applicable;\n▪ endorsements issued; and\n▪ authorised signature.",
-                  "textJP": ""
+                  "textJP": "このセクションは、保険証券を保険契約者に個人的なものとし、当該保険証券に関するすべての情報を含みます。当該事業種類のすべての保険証券に共通する標準情報は、他のセクションに含まれます。スケジュールは事業種類によって異なります。"
                 }
               ]
             },
@@ -4685,32 +4706,32 @@
               "id": "ch6-s5-A5",
               "label": "A5",
               "title": "Exclusions/Exceptions",
-              "titleJP": "",
+              "titleJP": "免責事項（除外事項）",
               "paragraphs": [
                 {
                   "num": "5.15",
                   "text": "Exclusions or exceptions are perils, risks, subject matter and other circumstances that are specifically stated as not covered in an insurance policy. They define the boundaries of policy cover and describe situations in which the insurer will not pay or admit liability for claims. Exclusions help to keep insurance premiums more uniform and reasonable.",
-                  "textJP": ""
+                  "textJP": "免責事項または除外事項とは、保険証券にカバーされないものとして具体的に記載された危険事故、リスク、対象物、およびその他の状況です。保険カバーの境界を定義し、保険者が保険金を支払わないか賠償責任を認めない状況を記述します。免責事項は保険カバーの範囲を明確にするのに役立ちます。"
                 },
                 {
                   "num": "5.16",
                   "text": "Exclusions in a policy vary, depending on the type of coverage and the situations which the contract is designed to cover. Every insurance contract has exclusions. Even specified peril insurance policies, which automatically exclude any perils not specifically stated, list certain exclusions separately to explain or emphasise perils excluded from coverage.",
-                  "textJP": ""
+                  "textJP": "保険証券の免責事項は、カバーの種類および契約がカバーするよう設計されている状況によって異なります。すべての保険契約には免責事項があります。具体的に記載されていない危険事故を自動的に除外する特定危険事故保険でも、一定の免責事項が別途記載されています。"
                 },
                 {
                   "num": "5.17",
                   "text": "As for a packaged or multi-sectioned policy, each section of the policy will contain its own specific exclusions. In addition, there is another section entitled “General Exceptions” which contains exclusions applying to all sections of the policy.",
-                  "textJP": ""
+                  "textJP": "パッケージ型または複数セクション型の保険証券の場合、各セクションにはそれぞれ固有の免責事項が含まれます。加えて、保険証券のすべてのセクションに適用される免責事項を含む「一般的免責事項」というタイトルの別のセクションがあります。"
                 },
                 {
                   "num": "5.18",
                   "text": "It is normally the responsibility of the insurer to prove that a particular exception applies, although the policy wording may require the insured to prove that the exclusion shall not apply.",
-                  "textJP": ""
+                  "textJP": "特定の免責事項が適用されることを証明する責任は通常保険者にありますが、保険証券の文言が被保険者に免責事項の不適用を証明することを求める場合もあります。"
                 },
                 {
                   "num": "5.19",
                   "text": "Exclusions specified in a policy are to:\n▪ assist in the management of moral hazard;\n▪ eliminate cover that requires special underwriting consideration;\n▪ eliminate cover that is available under another class of insurance;\n▪ eliminate cover for risks that are considered unsuitable for insurance, e.g. fundamental risks; and\n▪ eliminate losses that may be inevitable, unfortuitous or unexplained.",
-                  "textJP": ""
+                  "textJP": "保険証券に規定される免責事項の目的は以下のとおりです。\n▪ モラルハザードの管理を支援する\n▪ 特別な引受審査を要するカバーを排除する\n▪ 他の保険種類で利用可能なカバーを排除する\n▪ 保険に適さないと考えられるリスクに対するカバーを排除する"
                 }
               ]
             },
@@ -4718,32 +4739,32 @@
               "id": "ch6-s5-A6",
               "label": "A6",
               "title": "Conditions",
-              "titleJP": "",
+              "titleJP": "条件",
               "paragraphs": [
                 {
                   "num": "5.20",
                   "text": "The Conditions section states the “ground rules” for the policy. It describes the responsibilities of both the insurer and the insured.",
-                  "textJP": ""
+                  "textJP": "条件のセクションは、保険証券の「基本ルール」を定めます。保険者と被保険者の両方の責任を記述します。"
                 },
                 {
                   "num": "5.21",
                   "text": "The conditions printed in a policy are called express conditions (such as exclusions, warranties, alteration, arbitration, subrogation, claim notification, policy cancellation, etc.) and they regulate the policy contract.",
-                  "textJP": ""
+                  "textJP": "保険証券に印刷された条件は、明示的条件（免責事項、担保条項、変更、仲裁、代位、保険金請求の通知、保険証券の解約等）と呼ばれ、保険契約を規律します。"
                 },
                 {
                   "num": "5.22",
                   "text": "There are also some “implied conditions” (i.e. which apply, but do not appear in the policy document). These include:\n▪ insurable interest;\n▪ utmost good faith;\n▪ existence of subject matter;\n▪ identity of subject matter;\n▪ proof of ownership; and\n▪ legality of contract. C onditions",
-                  "textJP": ""
+                  "textJP": "保険証券には記載されていないが適用される「黙示的条件」もあります。以下が含まれます。\n▪ 被保険利益\n▪ 最大善意\n▪ 対象物の存在\n▪ 対象物の同一性\n▪ 所有権の証明\n▪ 契約の適法性"
                 },
                 {
                   "num": "5.23",
                   "text": "Also, conditions whether expressed or implied can be grouped as: (a) Conditions precedent to the policy - These are conditions which must be fulfilled, before the contract can become valid. For example, the implied condition of utmost good faith, requiring that all material facts must be disclosed during the negotiations leading to the contract. If such conditions are not complied with, there is doubt as to the validity of the entire contract. (b) Conditions subsequent to the policy - These are conditions which must be fulfilled if the contract is to continue, once it becomes binding. For example, under a Personal Accident Insurance policy, the insured is required to inform the insurer of any change in his occupation during the period of insurance. (c) Conditions precedent to liability - These are conditions which must be fulfilled, before the insured is legally entitled to recover a claim under the contract. For example, the insured is required to notify the insurer within a specified notification period, when a loss occurs under his policy. Failure to comply may prejudice the insurer’s decision to pay and the corresponding amount to be paid.",
-                  "textJP": ""
+                  "textJP": "また、明示的か黙示的かを問わず、条件は以下のように分類されます。\n(a) 保険証券に先行する条件 — 契約が有効になる前に履行されなければならない条件です。例えば、すべての重要事実が保険証券の開始前に告知されなければならないとする、最大善意の黙示的条件です。\n(b) 賠償責任に先行する条件 — 保険金が支払われる前に履行されなければならない条件です。例えば、保険金請求の通知に関する条件です。\n(c) 契約に後続する条件 — 保険契約が存在するようになった後に適用される条件です。"
                 },
                 {
                   "num": "5.24",
                   "text": "A breach of the implied conditions can affect the validity of the insurance contract. However, a breach of the express conditions may result in the repudiation of the claim, if it is a condition subsequent to the contract and/or precedent to liability, or the entire contract if it is a condition precedent to the policy.",
-                  "textJP": ""
+                  "textJP": "黙示的条件の違反は保険契約の有効性に影響を与えることがあります。しかし、明示的条件の違反は、それが契約に後続する条件および／または賠償責任に先行する条件である場合は保険金請求の拒否、または保険証券に先行する条件である場合は契約全体の拒否をもたらすことがあります。"
                 }
               ]
             },
@@ -4751,82 +4772,82 @@
               "id": "ch6-s5-A7",
               "label": "A7",
               "title": "Warranties",
-              "titleJP": "",
+              "titleJP": "担保条項",
               "paragraphs": [
                 {
                   "num": "5.25",
                   "text": "A warranty is an undertaking by the insured that a certain state of affairs will or will not continue, or that something shall or shall not be done throughout the duration of the insurance contract. It goes to the heart of the contract.",
-                  "textJP": ""
+                  "textJP": "担保条項とは、一定の事実の状態が継続する、または継続しない、あるいは保険契約の期間中に一定の事項がなされる、またはなされないという被保険者による約束です。これは契約の核心に関わるものです。"
                 },
                 {
                   "num": "5.26",
                   "text": "A warranty in insurance is not a minor term of the contract, but one of great importance.",
-                  "textJP": ""
+                  "textJP": "保険における担保条項は、契約の些末な条件ではなく、非常に重要な条件です。"
                 },
                 {
                   "num": "5.27",
                   "text": "A warranty is essentially a promise made by the insured relating to the facts or to something that the insured agrees to do or not to do. A warranty may relate to past, present or future facts (i.e. it is a promise that something was so or is or will be so), or it may be a continuing warranty, in which the insured promises that a state of affairs will continue to exist. For example, a warranty may require that no work will be carried out at a height greater than 12 metres, or that an intruder alarm is to be kept in good working order and regularly tested.",
-                  "textJP": ""
+                  "textJP": "担保条項は、本質的に、事実に関連するか、被保険者が行うことまたは行わないことに同意する事項に関連する被保険者の約束です。担保条項は、過去、現在、または将来の事実に関するもの（すなわち、何かがそうであった、またはそうである、またはそうであるであろうという約束）、または継続的担保条項（被保険者が保険契約期間中ずっと何かを行う、または行わないことを約束するもの）とすることができます。"
                 },
                 {
                   "num": "5.28",
                   "text": "A warranty must be strictly complied with. If it is not, unless there is a waiver by the insurer, cover may terminate, even if the breach did not cause or have any connection with a loss, and even if the breach had been remedied by the time a loss occurred. Termination arises from the date of the breach. Some clauses are worded such that cover (and effectively the contract) will terminate ab initio (from the beginning) in the event of a breach by the insured. In such cases, unless fraud is involved, the premium will have to be refunded to the insured.",
-                  "textJP": ""
+                  "textJP": "担保条項は厳格に遵守されなければなりません。遵守されない場合、保険者による免除がない限り、違反が損失を引き起こしたか損失と何らかの関連があるかどうかにかかわらず、また損失発生時までに違反が是正されていたとしても、カバーは終了する可能性があります。終了は違反の日から生じます。"
                 },
                 {
                   "num": "5.29",
                   "text": "Warranties occur in most classes of insurance and are used by the insurer to make sure that a desirable situation, disclosed as a material fact during the application and the negotiations for the contract of insurance, actually stays desirable and is not allowed to disappear once the insurance contract is formed. Basically, there are two forms of warranties in insurance contracts, namely those which:\n▪ simply denote the scope of cover; and\n▪ are promissory in nature.",
-                  "textJP": ""
+                  "textJP": "担保条項はほとんどの保険種類に存在し、保険契約の申込みおよび交渉の際に重要事実として告知された望ましい状況が、実際に望ましい状態を維持し、保険契約が成立した後に消滅することが許容されないようにするために保険者によって使用されます。"
                 },
                 {
                   "num": "5.30",
                   "text": "For obvious reasons, they are usually imposed to ensure that:\n▪ some form of “good housekeeping” or good management is observed, e.g. in Burglary Insurance, all doors are properly locked, and the intruder alarm system is in good working order; and\n▪ features of higher risks are not introduced without the insurer’s knowledge, e.g. in Fire Insurance, no flammable chemicals are stored in the premises.",
-                  "textJP": ""
+                  "textJP": "明白な理由から、担保条項は通常、以下を確保するために課されます。\n▪ 何らかの「良好な管理」が遵守されること。例えば、盗難保険では、すべてのドアが適切に施錠され、侵入者警報装置が正常に作動していること。\n▪ より高いリスクの特徴が保険者の承知なしに導入されないこと。"
                 },
                 {
                   "num": "5.31",
                   "text": "Warranties can also be classified as: (a) Implied Warranties Those that do not appear in the policy but are understood to automatically apply in the contract of insurance, e.g. under Marine Insurance, the vessel insured is seaworthy. (b) Express Warranties Those that are written in the insurance contract, e.g. under Marine Insurance, the goods are packed in tin-lined cases.",
-                  "textJP": ""
+                  "textJP": "担保条項は以下のようにも分類されます。\n(a) 黙示的担保条項 — 保険証券には記載されていないが、保険契約に自動的に適用されると理解されるもの。例えば、海上保険では、付保された船舶が堪航性を有すること。\n(b) 明示的担保条項 — 保険契約に書面で記載されるもの。例えば、保険料支払担保条項。"
                 },
                 {
                   "num": "5.32",
                   "text": "Generally, warranties must be strictly and literally complied with. Noncompliance with a warranty by the insured constitutes a breach of warranty, and the insurer is discharged from liability as from the date of the breach. In other words, the contract is voidable from the date of the breach. However, at times, the insurer may excuse a breach of express warranty if prior notification is received, and an additional premium (if necessary) is paid by the insured.",
-                  "textJP": ""
+                  "textJP": "一般に、担保条項は厳格かつ文字通りに遵守されなければなりません。被保険者による担保条項の不遵守は担保条項の違反を構成し、保険者は違反の日から賠償責任を免除されます。言い換えれば、契約は違反の日から取消可能となります。ただし、違反が是正された後に発生した損失について、保険者が賠償責任を有する場合もあります。"
                 },
                 {
                   "num": "5.33",
                   "text": "So, what is the difference between a condition and a warranty? In insurance law, a condition and a warranty have specific meanings.",
-                  "textJP": ""
+                  "textJP": "では、条件と担保条項の違いは何でしょうか。保険法において、条件と担保条項には特定の意味があります。"
                 },
                 {
                   "num": "5.34",
                   "text": "A warranty can be a condition, but a condition may not be a warranty.",
-                  "textJP": ""
+                  "textJP": "担保条項は条件となりえますが、条件は担保条項であるとは限りません。"
                 },
                 {
                   "num": "5.35",
                   "text": "Firstly, let us discuss the meaning of these terms in the context of a noninsurance contract. In such contracts, when a condition has been breached, the party aggrieved can claim for damages. He can even terminate the contact as the contract has been repudiated by the breach. The situation is less serious for a breach of warranty as it is not considered a vital part of the contract i.e., he could claim for damages but not terminate the contract.",
-                  "textJP": ""
+                  "textJP": "まず、非保険契約の文脈におけるこれらの用語の意味について説明しましょう。そのような契約では、条件が違反された場合、被害を受けた当事者は損害賠償を請求できます。違反により契約が否認されたとして契約を終了させることさえできます。しかし、担保条項が違反された場合、当事者は損害賠償を請求できるに過ぎません。"
                 },
                 {
                   "num": "5.36",
                   "text": "As for insurance contracts, the situation is quite the opposite of that stated above. Warranties play a rather more significant role in insurance law compared to conditions. What is the effect of a breach of warranty in an insurance contract? If the insured has breached a warranty, the insurer is no longer liable as of the date of the breach. In effect, the insurance claims would be invalidated as a result of such a breach of a warranty.",
-                  "textJP": ""
+                  "textJP": "保険契約については、上述の状況とはまったく逆です。担保条項は条件と比較して、保険法においてより重要な役割を果たします。保険契約における担保条項の違反の効果は何でしょうか。被保険者が担保条項に違反した場合、保険者は違反の日から賠償責任を免除されます。"
                 },
                 {
                   "num": "5.37",
                   "text": "In most cases, the term “condition” does not relate to the statements of fact or the risk covered within the insurance policy.",
-                  "textJP": ""
+                  "textJP": "ほとんどの場合、「条件」という用語は、保険証券内の事実の記載やカバーされるリスクには関連しません。"
                 },
                 {
                   "num": "5.38",
                   "text": "Differentiating warranties and conditions is vital for many reasons. For example, a condition in an insurance policy may state that that the insured is to furnish all material information about himself. If the insured does not do so, it can be argued that the insured is in breach of his policy, but the insurer is unlikely to reject the claim if the insurer can obtain this information elsewhere. The situation is different for warranties as they must be more strictly complied with for the policy to be valid.",
-                  "textJP": ""
+                  "textJP": "担保条項と条件を区別することは多くの理由から極めて重要です。例えば、保険証券の条件が、被保険者は自己に関するすべての重要な情報を提供しなければならないと定めている場合。被保険者がそうしない場合、被保険者が保険証券に違反していると主張できますが、違反が担保条項違反として扱われるか、単なる条件違反として扱われるかによって結果が大きく異なります。"
                 },
                 {
                   "num": "5.39",
                   "text": "Refer to the following section of this chapter for a comparison of exclusions/ exceptions, conditions and warranties.",
-                  "textJP": ""
+                  "textJP": "免責事項、条件、担保条項の比較については、本章の次のセクションを参照してください。"
                 }
               ]
             },
@@ -4834,12 +4855,12 @@
               "id": "ch6-s5-A8",
               "label": "A8",
               "title": "Comparison Of Exclusions/Exceptions, Conditions & Warranties",
-              "titleJP": "",
+              "titleJP": "免責事項、条件、担保条項の比較",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Exclusions/ Exceptions Conditions Warranties\n▪ They are used to define and restrict the boundaries of the policy coverage.\n▪ They allow repudiation if the circumstances of a claim indicate that the exclusion applies.\n▪ They are always specified in the policy, and usually require the insurer to prove that the exclusion applies.\n▪ Implied conditions must be complied with, otherwise there is doubt as to the validity of the entire contract.\n▪ Conditions precedent to the contract may either be concerned with the formation of contract or be ongoing.\n▪ Conditions subsequent to the contract and/or precedent to liability give the insurers the right to repudiate a claim, but not to repudiate the contract in its entirety.\n▪ They must be strictly and literally complied with.\n▪ They give the insurer the right to repudiate on any breach, even if the breach did not result in the loss or damage.\n▪ They are written into the policy, except where implied.",
-                  "textJP": ""
+                  "textJP": "免責事項 | 条件 | 担保条項\n▪ 保険カバーの境界を定義し制限するために使用されます。\n▪ 保険金請求の状況が免責事項に該当することが示された場合、保険金請求の拒否を可能にします。\n▪ 常に保険証券に記載されており、通常、保険者が適用を証明する必要があります。"
                 }
               ]
             },
@@ -4847,12 +4868,12 @@
               "id": "ch6-s5-A9",
               "label": "A9",
               "title": "Signature (Or Attestation) Clause",
-              "titleJP": "",
+              "titleJP": "署名（認証）条項",
               "paragraphs": [
                 {
                   "num": "5.40",
                   "text": "The wording of this clause which authenticates the policy document depends on each insurer’s procedure on the signing of the policy document. It may read as simply as “In witness whereof, this Policy has been signed by and on behalf of the Company”. This is usually signed by an authorised officer of the insurance company, and this binds the insurer to the insurance contract. The date is not stated as it appears in the schedule.",
-                  "textJP": ""
+                  "textJP": "保険証券を認証するこの条項の文言は、保険証券の署名に関する各保険者の手続きによって異なります。単に「その証として、本保険証券は会社を代表して署名されました」と記載される場合があります。これは通常、保険会社の権限を有する役員によって署名されます。"
                 }
               ]
             }
@@ -4862,22 +4883,22 @@
           "id": "ch6-s6",
           "number": "6",
           "title": "Endorsements",
-          "titleJP": "",
+          "titleJP": "裏書",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "Since everyone’s circumstances are different, people often wish to make a change to a standard version of a policy. As things change, existing policies sometimes need to be modified. For example, an additional insured may need to be included in a policy, or additional protection may be needed for certain property. The insurer can effect any such change by passing (adding) an endorsement to the policy.",
-              "textJP": ""
+              "textJP": "すべての人の状況は異なるため、人々はしばしば保険証券の標準版に変更を加えることを望みます。状況が変わるにつれ、既存の保険証券を修正する必要が生じることがあります。例えば、追加の被保険者を保険証券に含める必要がある場合や、特定のリスクに対して追加の保護が必要な場合があります。"
             },
             {
               "num": "6.2",
               "text": "The policy, together with the schedule and any endorsement, forms the evidence of the insurance contract. Any endorsement must be read together with the policy, and any word or expression to which a specific meaning has been attached bears such meaning whenever it appears. The effective date (of the endorsement or changes) and the wording of the endorsement effecting the change are of significant importance.",
-              "textJP": ""
+              "textJP": "保険証券は、スケジュールおよび裏書とともに、保険契約の証拠を構成します。裏書は保険証券と併せて読まなければならず、特定の意味が付与された語句は、出現するたびにその意味を有します。裏書の発効日は、裏書に記載されます。"
             },
             {
               "num": "6.3",
               "text": "Examples of circumstances that may necessitate endorsements are:\n▪ change in sum insured;\n▪ change in interested party or insurable interest;\n▪ change in the physical risk, e.g. location, occupation;\n▪ change in address;\n▪ extension or change of period of insurance;\n▪ cancellation of insurance;\n▪ deletion of an exclusion; and\n▪ correction of data, such as spelling errors or errors of description.",
-              "textJP": ""
+              "textJP": "裏書が必要となりうる状況の例は以下のとおりです。\n▪ 保険金額の変更\n▪ 利害関係者または被保険利益の変更\n▪ 物理的リスクの変更（例：所在地、職業）\n▪ 住所の変更\n▪ 保険期間の延長または変更\n▪ 保険の解約\n▪ リスクの削除"
             }
           ],
           "subsections": []
@@ -4886,42 +4907,42 @@
           "id": "ch6-s7",
           "number": "7",
           "title": "Renewal Notice Or Expiry Notice",
-          "titleJP": "",
+          "titleJP": "更新通知（満了通知）",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Usually, a month or so, before a policy expires, the insured receives a renewal notice, also known as an expiry notice, reminding the insured that the policy is due to expire, and the existing terms are usually specified.",
-              "textJP": ""
+              "textJP": "通常、保険証券の満了の約1ヶ月前に、被保険者は更新通知（満了通知とも呼ばれます）を受け取り、保険証券が満了予定であること、および既存の条件が通常記載されています。"
             },
             {
               "num": "7.2",
               "text": "Where the insurer is going to change the terms on renewal, the intentions are clearly stated in the notice, and the offer of renewal by the insurer is clearly stated in it.",
-              "textJP": ""
+              "textJP": "保険者が更新時に条件を変更する場合、その意図は通知に明確に記載され、保険者による更新の申出が明確に記載されます。"
             },
             {
               "num": "7.3",
               "text": "At times, owing to adverse claims experience, the insurer may decline renewal of the policy, and such intention is either stamped or typed on the expiry notice.",
-              "textJP": ""
+              "textJP": "時には、不利な保険金請求実績のために、保険者は保険証券の更新を拒否することがあり、そのような意図は満了通知にスタンプまたはタイプされます。"
             },
             {
               "num": "7.4",
               "text": "It should be noted that, upon receipt of the renewal notice, the insured may of course change the sum insured, etc. However, at all times, the implied condition of utmost good faith applies, and the insured is duty bound to disclose all material facts existing at the time of the renewal.",
-              "textJP": ""
+              "textJP": "更新通知を受け取った際、被保険者は保険金額等を変更できることに留意すべきです。ただし、常に最大善意の黙示的条件が適用され、被保険者は更新時に存在するすべての重要事実を告知する義務を負います。"
             },
             {
               "num": "7.5",
               "text": "The information as contained in the notice is usually the same information as in the original policy and any endorsement. In addition, there is a section for any amendments to be requested by the insured. The information includes:\n▪ insured’s name and address;\n▪ policy number;\n▪ expiry date or period of insurance;\n▪ sum insured;\n▪ renewal premium; and\n▪ existing brief descriptions.",
-              "textJP": ""
+              "textJP": "通知に含まれる情報は、通常、元の保険証券およびすべての裏書に含まれるのと同じ情報です。加えて、被保険者が変更を要求するためのセクションがあります。情報には以下が含まれます。\n▪ 被保険者の氏名と住所\n▪ 保険証券番号\n▪ 満了日または保険期間"
             },
             {
               "num": "7.6",
               "text": "A renewal notice is not a legal requirement, and the insurer has the option whether or not to send it. However, business efficiency normally dictates that it should be sent to the insured.",
-              "textJP": ""
+              "textJP": "更新通知は法的義務ではなく、保険者にはそれを送付するかどうかの選択肢があります。しかし、業務効率上、通常は被保険者に送付されるべきです。"
             },
             {
               "num": "7.7",
               "text": "Furthermore, the Singapore General Insurance Code of Practice issued by GIA states that the insurer will inform the insured when he needs to renew his policy or when his policy will end, at least 30 business days before expiry of the policy, to allow him to consider and arrange for continuing cover. However, the Singapore General Insurance Code of Practice applies only to personal lines of general insurance.",
-              "textJP": ""
+              "textJP": "さらに、GIAが発行したシンガポール損害保険行動規範は、保険者が被保険者に対し、保険証券の満了の少なくとも30営業日前に、保険証券の更新が必要であること、または保険証券が終了することを通知し、継続的なカバーの手配を検討する時間を確保すべきであると定めています。"
             }
           ],
           "subsections": []
@@ -4930,17 +4951,17 @@
           "id": "ch6-s8",
           "number": "8",
           "title": "Renewal Certificate",
-          "titleJP": "",
+          "titleJP": "更新証書",
           "paragraphs": [
             {
               "num": "8.1",
               "text": "The insurer may issue a renewal certificate once the insured confirms that he is renewing the policy on the same terms, or with minor changes, such as the sum insured.",
-              "textJP": ""
+              "textJP": "保険者は、被保険者が同じ条件で、または保険金額等の軽微な変更を伴って保険証券を更新することを確認した後、更新証書を発行することがあります。"
             },
             {
               "num": "8.2",
               "text": "A renewal certificate is similar to the schedule of the policy, and it lists the relevant changes, if any, to the policy. It contains the following information for cross-referencing and identification purposes:\n▪ insured’s name and address;\n▪ policy number;\n▪ period of insurance;\n▪ agency/account number;\n▪ date of issue;\n▪ interests insured;\n▪ sum insured;\n▪ premiums; and\n▪ signature of authorised officer of insurance company. Renewal Notice",
-              "textJP": ""
+              "textJP": "更新証書は保険証券のスケジュールに類似しており、保険証券に対する変更（もしあれば）を一覧にします。相互参照および識別のために以下の情報を含みます。\n▪ 被保険者の氏名と住所\n▪ 保険証券番号\n▪ 保険期間\n▪ 代理店／口座番号"
             }
           ],
           "subsections": []
@@ -4949,32 +4970,32 @@
           "id": "ch6-s9",
           "number": "9",
           "title": "Claim Form",
-          "titleJP": "",
+          "titleJP": "保険金請求書",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "It is normal for an insurer to receive a phone call or an e-mail concerning an event leading to a claim almost immediately after the accident.",
-              "textJP": ""
+              "textJP": "保険者が、事故の直後に保険金請求につながる事象に関する電話やメールを受けることは一般的です。"
             },
             {
               "num": "9.2",
               "text": "Following that, it is essential that the insurer’s claim form be completed and submitted for processing and settling of a loss under the policy. At the same time, the insurer must have precise information on the circumstances and extent of the loss and must determine if the loss falls within the policy coverage. The claim form collects pertinent information on the accident, injury, illness, loss or damage suffered by the insured.",
-              "textJP": ""
+              "textJP": "その後、保険証券に基づく損失の処理および決済のために、保険者の保険金請求書を記入し提出することが不可欠です。同時に、保険者は損失の状況および範囲に関する正確な情報を把握し、損失が保険証券の範囲内にあるかどうかを判断しなければなりません。"
             },
             {
               "num": "9.3",
               "text": "Different claim forms are used among insurers, and different claim forms are used for different classes of insurance. They are usually available for downloading from the websites of the insurers.",
-              "textJP": ""
+              "textJP": "保険者によって異なる保険金請求書が使用され、保険の種類によっても異なる保険金請求書が使用されます。これらは通常、保険者のウェブサイトからダウンロードできます。"
             },
             {
               "num": "9.4",
               "text": "The insurer usually states on the claim form that it is issued without any admission of liability, or without prejudice.",
-              "textJP": ""
+              "textJP": "保険者は通常、保険金請求書に、いかなる賠償責任の承認もなく、または権利留保で発行される旨を記載します。"
             },
             {
               "num": "9.5",
               "text": "The claim form is broadly divided into the following sections:",
-              "textJP": ""
+              "textJP": "保険金請求書は、大まかに以下のセクションに分かれています。"
             }
           ],
           "subsections": [
@@ -4982,12 +5003,12 @@
               "id": "ch6-s9-I",
               "label": "I",
               "title": "Policyholder’s/Claimant’s Particulars",
-              "titleJP": "",
+              "titleJP": "I. 保険契約者／請求者の詳細",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "a) Name, address and contact details b) Policy particulars",
-                  "textJP": ""
+                  "textJP": "(a) 氏名、住所、連絡先\n(b) 保険証券の詳細"
                 }
               ]
             },
@@ -4995,12 +5016,12 @@
               "id": "ch6-s9-II",
               "label": "II",
               "title": "Details Of Accident",
-              "titleJP": "",
+              "titleJP": "II. 事故の詳細",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "a) Circumstances of loss b) Date of loss c) Place of loss d) Any third parties involved e) Details of any witnesses III. Details Of Injuries/Loss/Damage/Suffered a) Description of property loss or damage b) Details of injuries sustained",
-                  "textJP": ""
+                  "textJP": "(a) 損失の状況\n(b) 損失の日付\n(c) 損失の場所\n(d) 関与する第三者\n(e) 目撃者の詳細\nIII. 傷害／損失／損害の詳細\n(a) 財物の損失または損害の記述\n(b) 受傷の詳細"
                 }
               ]
             },
@@ -5008,12 +5029,12 @@
               "id": "ch6-s9-IV",
               "label": "IV",
               "title": "Details Of Reports",
-              "titleJP": "",
+              "titleJP": "IV. 報告の詳細",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "a) Police Report b) Medical Report c) Statements made (if any) to and/or by third parties, etc.",
-                  "textJP": ""
+                  "textJP": "(a) 警察報告書\n(b) 医療報告書\n(c) 第三者に対してなされた、および／または第三者による供述（もしあれば）"
                 }
               ]
             },
@@ -5021,17 +5042,17 @@
               "id": "ch6-s9-V",
               "label": "V",
               "title": "Insured’s Declaration, Signature & Date",
-              "titleJP": "",
+              "titleJP": "V. 被保険者の宣言・署名・日付",
               "paragraphs": [
                 {
                   "num": "9.6",
                   "text": "NOTE: Since there are wide variations in the claim forms of various insurance companies, readers should do a compare-and-contrast study of various forms from different insurance companies.",
-                  "textJP": ""
+                  "textJP": "注意：各保険会社の保険金請求書には大きな差異があるため、読者は異なる保険会社のさまざまな書式を比較・対照して研究すべきです。"
                 },
                 {
                   "num": "9.7",
                   "text": "Details of the handling and settlement of claims will be discussed in the next chapter of this Study Text. Appendix 6A ABC INSURANCE COMPANY(SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg PROPOSAL FORM FOR MOTOR INSURANCE STATEMENT PURSUANT TO SECTION 23(5) OF INSURANCE ACT, 1966 (OR ANY SUBSEQUENT AMENDMENTS THEREOF) You are to disclose in this proposal form, fully and faithfully, all the facts which you know in respect of the risk that is being proposed, otherwise the policy issued hereunder may be void. PARTICULARS OF REGISTERED OWNER Name Sex Male Female NRIC/Passport No. Driving Licence No. Driving Experience Nationality Singaporean Others (Please attach documentary proof) E-mail Address Address Singapore Contact No. (H) (O) (Hp) Date of Birth Occupation Indoor Outdoor Name of Employer Language/Dialect Details of primary driver if registered owner is not driving (Name, NRIC No. date of birth, gender, driving experience, occupation - indoor/outdoor). PARTICULARS OF NAMED DRIVERS 1. Name NRIC/Passport No. Sex Male Female Date of Birth Registration Date of Driving Licence Occupation Indoor Outdoor Relationship to Registered Owner 2. Name NRIC/Passport No. Sex Male Female Date of Birth Registration Date of Driving Licence Occupation Indoor Outdoor Relationship to Registered Owner DETAILS OF INSURANCE COVER Period of Insurance: From To No Claim Discount (NCD) Entitlement % SPECIMEN To enable us to confirm your NCD Entitlement, please provide the details below: Previous Insurer Policy No. Vehicle No. Expiry Date I undertake to pay any difference in the premium payable under the policy issued by ABC Insurance Company Limited, if my previous insurer states that I am not entitled to a No Claim Discount or that my NCD Entitlement is lower than what is stated here. Cover Required Quality Applicable to Private Car only - Repair must be carried out by our quality workshop (except for cars under warranty). Comprehensive Third Party Fire & Theft Third Party Do you wish to insure COE and PARF value? (Applicable to Quality Comprehensive and Third Party Fire & Theft Cover only) Yes No ADDITIONAL OPTIONS For Quality and Comprehensive plans only  Plus (waiver of basic excess and courtesy car benefit)  NCD Protection (applicable only for 50% NCD) Additional Excess Premium Reduction  S$ 500 8%  S$1,000 12%  S$1,500 15% Accessories (other than factory-fitted) (a) Description (b) Value Applicable to Motorcycle only: Details of additional authorised driver (1 driver only) (Name, NRIC No., date of birth, driving experience, occupation – indoor/outdoor) TYPE AND DETAILS OF VEHICLE Type Private car Saloon Off-Peak Car SUV Station Wagon/MPV Coupe Turbo Anti-theft device (Car Tracker, please describe) Commercial vehicle Standard Van Standard Lorry/Pickup Garbage Truck Hood/Canopy Standard Lorry with Crane/Tailgate Refrigerated Vehicle Tanker Ambulance Trailer Tipper Mixer Prime Mover Tow Truck Others (Please Specify) Bus  School children only  General purposes Motor-cycle Side Car Re-conditioned Bike Model Registration No. Usage Private Company Others (Please Specify) Registration Date Original Registration Date Engine No. Chassis No. Seating Capacity (including driver) CC/Tonnage (For commercial vehicle only) Unladen Weight Laden Weight Name of finance company (if under hire-purchase) OTHER PARTICULARS Have you or your named driver(s) been convicted of any driving offences for the past 3 years? Yes No If Yes, please give details. Have you or your authorised driver(s) been involved in any motor accident for the past 3 years? Yes No If Yes, please give details below: Date of Accident Name of Insurance Company Details of Claim Amount of Claim (S$) *(OD/TP) *(OD/TP) *(OD/TP) * Delete where appropriate. DECLARATION I/We hereby declare that the Motor Vehicle described, shall be kept in GOOD CONDITION and that the information given above are in every respect true and correct. I/We hereby agree that this Declaration shall be the basis of the Contract of Insurance between me/us and ABC Insurance Company (Singapore) Limited (herein called the Company). Signature of Proposer/Company Stamp Date IMPORTANT 1. Please note that the liability of the Company does not commence until this proposal has been accepted by the Company and the premium paid. 2. Please do not leave any answer blank. Fill “Nil” or “NA” where applicable. 3. The policy will carry a Payment Before Cover Warranty which requires the premium to be paid in full within a specific period failing which there would be no liability under the policy. 4. If the Registered Owner is not driving the vehicle, the particulars of the Primary Driver must be stated in this Application Form. 5. All private car policyholders shall be responsible for Unnamed Driver Excess of S$2,500, in addition to the Excess stated under the Policy, if the said driver is aged 26 years and below or has less than 1 year relevant driving experience. The Unnamed Driver Excess is S$500 if aged above 26 years. 6. All motorcycle policyholders shall be responsible for Named Driver Excess of S$500, in addition to the Excess stated under the Policy, if the said driver is less than 21 years or has less than 2 years relevant driving experience. FOR OFFICIAL USE ONLY Agent/Representative: Code No: Policy No.: Date: Premium: Excess: Entry By: Date: Checked by: Date: Policy Delivery: HAND/MAIL Remarks: SPECIMEN Appendix 6B ABC INSURANCE COMPANY (SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg IMPORTANT NOTICE If this Proposal is accepted or when the cover commences, it is a fundamental and absolute Special Condition of this contract of insurance that the premium due must be paid and received by the insurers/brokers/agents within sixty (60) days from the inception date of the cover. Where the period of insurance is less than 60 days, the premium due must be paid and received within the period of insurance. If this Condition is not complied with, then this contract is automatically cancelled and insurers shall be entitled to the pro-rata premium for the period they have been on risk. NOTICE: Statement pursuant to Section 23(5) of the Insurance Act 1966 (or any subsequent Amendments thereof). You are to disclose in this Proposal Form, fully and faithfully, all the facts which you know or ought to know in respect of the risk that is being proposed. Otherwise, the policy issued hereunder may be void. PROPOSAL FORM FOR PUBLIC LIABILITY INSURANCE Proposer’s Full Name:______________________________________________________________________________________________________________ Address:_______________________________________________________________________________________________________________________ Business:____________________________________________________________________________ Tel:___________________________________ (State whether Manufacturer, Wholesaler or Retailer. If Contractor, please state kind of work undertaken.) Period of Insurance: From:______________________________________________ To: ___________________________________________ Amount of Indemnity Required: _______________________________________________________________________ Any One Accident _______________________________________________________________________ Any One Period of Insurance SCHEDULE OF PREMISES OR OUTSIDE CONTRACTS TO WHICH THE INSURANCE IS TO APPLY Situation of Premises or Sites of Contracts Number Description of Premises (e.g. office, shop, store, factory, showroom or contracts) Freeholders, Leaseholder Building Employees or Tenant SPECIMEN THE FOLLOWING QUESTIONS MUST BE ANSWERED BY THE PROPOSER (PLEASE TICK APPROPRIATE BOX BELOW) 1. Do you occupy the whole of the premises? If No, state which part you occupy. If you have tenants or sub-tenants, please give particulars.  Yes  No 2. Do you or any of your employees undertake duties away from the premises for the purposes of your business? If Yes, please give particulars.  Yes  No 3. Does your company use any lifts, elevators, escalators in your business which are to be included in the insurance? If Yes, please give particulars.  Yes  No 4. Does your company use any Machinery, Electrical or other Mechanical Appliances (other than lifts, elevators and escalators)? If Yes, please give particulars  Yes  No 5. Does your company or any of your employees handle or use (a) explosives or chemicals? (b) radioisotopes, radioactive substances or other sources of ionising radiations? (a)  Yes  No (b)  Yes  No 6. Does your company have any (a) Highly inflammable goods used, stored or carried? (b) Any effluent, fumes or anything of a noxious nature discharged from your premises. If Yes, please give details. (a)  Yes  No (b)  Yes  No 7. Have any claims been made upon you during the last 5 years in respect of bodily injury or property damage at law? If Yes, please give details.  Yes  No Date of Claim Nature of Claim Amount of Claim (S$) 8. Have you ever proposed for insurance or been insured against the liability to which this proposal relates? If Yes, state name of Insurer.  Yes  No 9. Has any company (a) declined to insure you? (b) required special terms to insure you? (c) cancelled or refused to renew your insurance? (a)  Yes  No (b)  Yes  No (c)  Yes  No Total Premium _________________________________ Prevailing GST ________________________________ Grand Total ____________________________________ Deductible _____________________________________ I/We hereby declare the above statements and particulars to be true and correct and agree that they shall be the basis of the contract between me/us and ABC Insurance Company (Singapore) Limited. SPECIMEN Proposer’s Signature & Company Stamp Agent’s Code _______________________________ Agent’s Name ______________________________ Agent’s Contact No. _________________________ ______________________________________________ Date: ________/________/__________ Day Month Year Note: No Liability is undertaken until the Proposal has been accepted and the Premium paid in full. SPECIMEN Appendix 6C CERTIFICATE OF INSURANCE Motor Vehicles (Third-Party Risks and Compensation) Act 1960 Road Transport Act 1987 (Malaysia) Motor Vehicles Insurance (Third-Party Risks) Rules, 1959 (Malaysia) CERTIFICATE No. 1. Index Mark and Registration Number of Vehicle Chassis Number 2. Name of Policyholder 3. Effective Date of the Commencement of Insurance for the purposes of the Ordinance/Regulations 4. Date of Expiry of Insurance 5. Persons or Classes of Persons entitled to drive* (a) The policyholder. (b) Any other person who is driving on the policyholder’s order or with his permission. Provided that the person driving is permitted in accordance with the licensing or other laws or regulations to drive the motor vehicle or has been so permitted and is not disqualified by order of a court of law or by reason of any enactment or regulation in that behalf from driving the motor vehicle. 6. Limitations as to use:* (a) Use for social domestic and pleasure purposes and in connection with the Policyholder’s business or profession. The policy does not cover: (i) Use for hire or reward. (ii) Use for racing, pace-making, reliability trial or speed-testing. (iii) Use for the carriage of goods (other than samples) in connection with any trade or business. (iv) Use for any purpose in connection with the Motor Trade. * Limitations rendered inoperative by Section 8 of the Motor Vehicles (Third-Party Risks and Compensation) Act 1960 and Section 95 of the Road Transport Act 1987 (Malaysia), are not to be included under these headings. We hereby Certify that the policy to which this Certificate relates is issued in accordance with the provisions of the Motor Vehicles (Third- Party Risks and Compensation) Act 1960 and Part IV of the Road Transport Act 1987 (Malaysia). For ABC Insurance Company (Singapore) Limited Agency: Date of Issue: Reprint: Countersigned By: Authorised Officer Chief Executive: SPECIMEN Appendix 6D WORK INJURY COMPENSATION ACT 2019 WORK INJURY COMPENSATION INSURANCE REGULATION 2020 WORK INJURY COMPENSATION (INSURANCE) REGULATIONS 2020 CERTIFICATE OF INSURANCE [Regulation 4(1)] POLICY NUMBER: 1. Name of Insurer : 2. Name of Insured : 3. Date of Commencement : of the Policy 4. Date of Expiry of the Policy : I / We certify that the Policy to which this Certificate relates is issued in accordance with the provisions of the Work Injury Compensation Act 2019. ABC INSURANCE COMPANY LIMITED (Designated Insurer) (A member of the General Insurance Association of Singapore) Chief Executive AN EXTRACT FROM THE WORK INJURY COMPENSATION (INSURANCE) REGULATIONS 2020 5 (1) Where a certificate of insurance has been issued to an employer in accordance with regulation 4, the employer must display a copy of the certificate of insurance in accordance with paragraphs (2) and (3) throughout the period of validity of the insurance policy to which the certificate relates - (a) at the employer’s place of business; or (b) where the employer has more than one place of business, at each place of business at which the employer employs any employee whose claims may be the subject of an indemnity under the insurance policy to which that certificate relates. (2) The copies of certificates of insurance displayed for the purposes of paragraph (1) must be displayed in a manner that is easily seen and read by every employee whose claims may be the subject of indemnity under the insurance policy to which the certificate relates. (3) Copies of certificates of insurance must be displayed at the places mentioned in paragraph (1)(a) or (b) only during the period of validity of the insurance policy to which the certificate relates. (4) In this regulation, the period of validity of an insurance policy is the period - (a) starting on the date of commencement of the insurance policy; and (b) ending on the date of expiry or cancellation of that insurance policy. (5) A person who contravenes paragraph (1) shall be guilty of an offence and shall be liable on conviction - (a) to a fine not exceeding $2,000; or (b) if the person is a repeat offender, to a fine not exceeding $4,000. Policy Owners' Protection Scheme This policy is protected under the Policy Owners' Protection Scheme which is administered by the Singapore Deposit Insurance Corporation (SDIC). Coverage for your policy is automatic and no further action is required from you. For more information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please contact Income or visit the GIA/LIA or SDIC web-sites (www.gia.org.sg or www.lia.org.sg or www.sdic.org.sg). Appendix 6E ABC INSURANCE COMPANY (SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg PERSONAL ACCIDENT INSURANCE POLICY DEFINITION OF WORDS Certain words have been defined below. These have the same meaning wherever they are used in the Policy or the Schedule. They appear in bold print (e.g. Insured Person, Injury) or begin with a capital letter (e.g. You, We). We, Us, Our, the Company ABC Insurance Company (Singapore) Limited You, Your, the Insured The policy owner named as Insured in the Schedule. Insured Person Each of the persons named as such in the Schedule who meets the eligibility criteria set out in General Condition 3 of the Policy. Schedule The Schedule containing details of the Insured Person(s), type of cover selected and Period of Insurance. The Schedule forms part of the Policy. Period of Insurance The period shown in the Schedule, and any further period for which You agree to pay and We agree to accept premium. Commencement Date Original inception date of cover under this Policy as shown in the Schedule. Child A person named as the Insured Person in the Schedule who is the Insured's biological or legally adopted and unmarried Child aged between one year to 18 years or 23 years if pursuing full-time education in a recognised tertiary institution within his/her Usual Country of Residence as Singapore. Accident An event which happens suddenly and gives rise to a result which the Insured Person did not intend or anticipate. Injury Bodily injury suffered anywhere in the world caused solely by Accident and not by sickness, disease or gradual physical or mental wear and tear. Physician A qualified medical practitioner other than You, Your relative, the Insured Person or the Insured Person's relative who is licensed by the Medical Authorities of the country in which treatment is provided to practise Western medicine and surgery, and who in rendering such treatment is practicing within the scope of his or her licensing and training in his/her geographical area of practice. SPECIMEN Hospital A lawfully operating institution for the care and treatment of sick and injured persons, which has 24 hours nursing services by registered graduate nurses, one or more Physicians available at all times and organised facilities for diagnosis and major surgery, which shall not primarily be a clinic, a place for alcoholics or drug addicts, a nursing, rest or convalescent home, home for the aged or similar establishment. Chinese Physician A person other than You, Your relative, the Insured Person or the Insured Person's relative engaging in the practice of traditional Chinese medicine and/or acupuncture (including a herbalist, bonesetter or chiropractor), who is duly licensed or registered to practise according to the laws and regulations applicable in the geographical area of his/her practice. Daily Hospitalisation Cash Benefit Cash benefit payable at an agreed sum per day in the event of an Insured Person's confinement in a Hospital for a continuous uninterrupted period of at least 24 hours upon the advice of a Physician for which the Hospital makes a charge for room and board. Usual Country of Residence The country in which the Insured Person is usually living at the inception of this insurance. As a condition precedent to liability, the Company must be informed in writing of any change in the Usual Country of Residence. A permanent change in the Usual Country of Residence is deemed to occur when the Insured Person lives or intends to live in another country for more than 6 consecutive months during any Period of Insurance. The Company reserves the right to continue cover on the terms and conditions it considers appropriate to the new country of residence or to decline to continue cover under the Policy. Burns 3rd degree burns. Weekly Benefit Compensation payable at a rate per week. THE BENEFITS We will pay You: The Compensation for death or disablement (the Results) as described below if the Insured Person suffers Injury which within 104 weeks of its happening is the sale cause of the death or such disablement. SCHEDULE OF BENEFITS RESULTS COMPENSATION A. Death The Sum Insured specified in the Schedule. B. Permanent and Total Disablement specified below and certified by a Physician: Total and permanent disablement from engaging in or attending to employment or occupation of any and every kind or where there is no employment or occupation, from attending to an Insured's Person's usual duties. The Sum Insured specified in the Schedule. C. Permanent Partial disablement specified below and certified by a Physician: A percentage of the Sum Insured specified in the Schedule: 1. Loss of one or both arms (between shoulder and wrist) 100% 2. Loss of one or both legs (between hip and ankle) 100% 3. Loss of sight in one or both eyes 100% 4. Loss of sight in one eye except for perception of light 50% 5. Loss of lens of one eye 50% 6. Loss of hearing in both ears 75% 7. Loss of hearing in one ear 15% 8. Loss of speech 50% 9. Loss of four fingers and thumb of one hand 50% 10. Loss of four fingers of one hand 40% 11. Loss of thumb - one phalanx or two phalanges 20% 12. Loss of finger - three phalanges 10% 13. Loss of finger - two phalanges 5% SPECIMEN SCHEDULE OF BENEFITS 14. Loss of finger- one phalanx 3% 15. Loss of all toes of one foot 17% 16. Loss of great toe - one phalanx or two phalanges 5% 17. Loss of any toe other than great toe - one phalanx or two phalanges 3% 18. Third Degree Burns (a) Head - damage as a percentage of total body surface area equals to or greater than 2% but less than 5% equals to or greater than 5% but less than 8% equals to or greater than 8% (b) Body- damage as a percentage of total body surface area equals to or greater than 10% but less than 15% equals to or greater than 15% but less than 20% equals to or greater than 20% 25% 50% 100% 25% 50% 100% Any permanent partial disability not specified above (other than loss of sense of taste or smell for which no compensation is payable) Any amount determined by Us at Our absolute discretion by comparison with the percentages shown above and in proportion to the degree of disability as assessed by Our medical advisors. D. 1. Temporary Total disablement from engaging in or attending to the Insured Person's usual employment or occupation and certified by a Physician. The Weekly Benefit specified under the Sum Insured in the Schedule payable up to 104 weeks from the commencement of the first Result to occur. 2.Temporary Partial disablement from engaging in or attending to the Insured Person's usual employment or occupation and certified by a Physician. E. Medical Expenses Medical, surgical, hospital, nursing home and nursing fees or charges including mobility aids necessarily and reasonably incurred as a result of Injury for professional services rendered by a Physician and I or at a Hospital within 12 months of the occurrence of an Accident. Medical expenses incurred necessarily and reasonably for treatment of Injury by a Chinese Physician is covered up to 50% of the Sum Insured under this benefit subject to a limit of SGD75 per consultation and not more than one consultation per day. In the case of a Child Insured Person, the limit per consultation shall be reduced to SGD25. The Sum Insured specified in the Schedule. F. Daily Hospitalisation Cash Benefits An Insured Person's confinement in a Hospital for a continuous period of 24 hours as a result of Injury. The daily benefit specified under the Sum Insured in the Schedule payable up to 50 consecutive days subject to an Overall Limit as slated in the Schedule for each Period of Insurance. G. Recuperation Benefit An additional lump sum benefit payable in the event of an Insured Person's confinement in a Hospital as a result of Injury for a period exceeding 14 consecutive days. The Sum Insured specified in the Schedule. H. Bereavement Grant. A lump sum benefit payable in the event of the Insured Person's death caused by an Injury within 104 weeks of the Injury. The Sum Insured specified in the Schedule. SPECIMEN COMPENSATION LIMITS IN RESPECT OF ANY ONE INSURED PERSON 1. Compensation will not be payable for: (a) any specific item of Result B or C where that item is also comprised in any other item of Result B or C for which a greater amount of Compensation is payable in the circumstances. (b) Result A in addition to any Result B or C if caused by the same Accident, except that if a payment has been made under any part of Result B or C and death occurs subsequently solely caused by and within 104 weeks of the Accident, then we will pay any difference if the Compensation payable for Result A is greater than that already paid for Result B or C. (c) more than 100% of the Sum Insured for Result A or B or C (whichever is the higher)in anyone Period of Insurance in aggregate for any or all of Results for anyone Insured Person whether arising from the same or different Accidents. (d) Result B or C until one year after the happening of the Injury. If We are reasonably satisfied that the disablement from employment is total and permanent, We may partly or wholly waive this waiting period. 2. Weekly Benefit shall not be payable for: (a) any period of time subsequent to the death of the Insured Person or subsequent to Compensation becoming payable under any part of Result B or C. (b) both Results 01 and 02 for the same period of disablement. 3. Weekly Benefit for either Results D1 or 02 shall be payable when the total amount has been agreed, or at Your request at intervals of not less than four weeks (but not in advance) commencing four weeks after receipt by Us of written notice of the Injury. 4. The maximum period the Company will pay under Result F for anyone Injury is up to 50 consecutive days subject to the Overall Limit indicated in the Schedule for anyone Period of Insurance. 5. Nothing will be payable in respect of Result E if there is any other insurance in force covering the loss or if You or the Insured Person are entitled to indemnity from any other source, provided that We shall not be relieved of liability under this Result so far as concerns any excess beyond the amount payable under such other insurance or indemnity. 6. The limits of compensation specified above will apply regardless of the number of times the Policy is renewed. OVERALL COMPENSATION LIMIT Our maximum aggregate liability in respect of all Insured Persons travelling in one aircraft or surface transport vehicle or vessel shall not exceed the Conveyance Limit of SGD5,000,000 or the aggregate of the amount of Compensation payable in respect of such Insured Persons, whichever is the lesser. If the aggregate amount of all claims under this Policy in respect of all Insured Persons travelling in one conveyance exceeds the Conveyance Limit, the Company's liability in respect of each of such Insured Persons will be a rateable proportion of the benefits due in respect of that person. EXTRA BENEFITS",
-                  "textJP": ""
+                  "textJP": "保険金請求の処理および決済の詳細は、本学習テキストの次の章で取り上げます。\nAppendix 6A — ABCインシュランス・カンパニー（シンガポール）リミテッド（サンプル申込書）"
                 }
               ]
             }
@@ -5041,12 +5062,12 @@
           "id": "ch6-s1",
           "number": "1",
           "title": "Insurance For Child",
-          "titleJP": "",
+          "titleJP": "子供に対する保険",
           "paragraphs": [
             {
               "num": "",
               "text": "(a) Where an Insured and his/her legal spouse are insured at the same time under this Policy, up to 3 of the Insured's biological or legally adopted, unmarried Children (aged between one year to 18 years or 23 years if pursuing full-time education in a recognised tertiary institution within their Usual Country of Residence as Singapore) shall be covered at 10% of the Sum Insured of the Insured or his/her insured spouse (whichever is the higher Sum Insured) for the following Results for each Child named in the Schedule: Result A. Death Result B. Permanent and Total Disablement Result E. Medical Expenses (b) Where the Insured is insured on his/her own under this Policy and subject to the payment of the additional required premium, up to 3 of the Insured's biological or legally adopted, unmarried Children (aged between one year to 18 years or 23 years if pursuing full time education in a recognised tertiary institution within their Usual Country of Residence as Singapore) shall be covered at 10% of the Sum Insured of the Insured for the following Results for each Child named in the Schedule: Result A. Death Result B. Permanent and Total Disablement Result E. Medical Expenses SPECIMEN",
-              "textJP": ""
+              "textJP": "(a) 被保険者およびその法的配偶者が本保険証券の下で同時に被保険者である場合、被保険者の実子または法的養子であり、未婚で年齢が1歳以上18歳未満（認定された高等教育機関でフルタイムの教育を受けている場合は23歳未満）の子供3名まで、通常の使用範囲内において自動的にカバーされます。"
             }
           ],
           "subsections": []
@@ -5055,12 +5076,12 @@
           "id": "ch6-s2",
           "number": "2",
           "title": "Loss And Damage To Clothing And Personal Belongings",
-          "titleJP": "",
+          "titleJP": "被服および身の回り品の損失と損害",
           "paragraphs": [
             {
               "num": "",
               "text": "The Company undertakes to pay to the Insured Person who sustains Injury and damage to clothing and personal belongings worn or carried by such Insured Person in the same Accident (but only to the extent that they are not recoverable from any other source), an amount not exceeding SGD500 for such loss or damage arising out of anyone Injury provided that the Medical Expense benefit under Result F is also payable under this Policy.",
-              "textJP": ""
+              "textJP": "当社は、傷害を被った被保険者が同一の事故で着用または携帯していた被服および身の回り品の損傷について（他の源泉から回収不可能な範囲に限り）、S$500を上限として支払うことを約束します。"
             }
           ],
           "subsections": []
@@ -5069,22 +5090,22 @@
           "id": "ch6-s3",
           "number": "3",
           "title": "Renewal Bonus",
-          "titleJP": "",
+          "titleJP": "更新ボーナス",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "Upon each renewal of this Policy, the original Sum Insured in respect of each Insured Person for Result A (Death) and Result B (Permanent and Total Disablement) at the Commencement Date will be increased by 10% as Renewal Bonus for the renewed Period of Insurance provided that: (i) no claim has arisen in respect of the Insured Person during the preceding Period of Insurance in respect of: a) Result A (Death); b) Result B (Permanent and Total Disablement); c) Result C (Permanent Partial Disablement) d) Result D1 (Temporary Total Disablement) e) Result D2 (Temporary Partial Disablement); f) Result F (Hospitalisation Cash Benefits) g) Result G (Recuperation Benefit) h) Result H (Bereavement Grant); (ii) the increase in the original Sum Insured as Renewal Bonus shall be for the first three consecutive 12- month renewals of the Policy only; (iii) the Renewal Bonus does not apply to any Child Insured Person; and (iv) the Renewal Bonus does not apply to the Terrorism extension under Extra Benefit 4 below.",
-              "textJP": ""
+              "textJP": "本保険証券の更新のたびに、保険金請求がなされていないことを条件として、各被保険者の結果A（死亡）および結果B（永久かつ完全な障害）に対する開始日時点の当初の保険金額は、更新された保険期間について更新ボーナスとして10%増額されます。"
             },
             {
               "num": "3.2",
               "text": "Where the Insured requests for an increase or reduction to the Sum Insured for an Insured Person in respect of Result A (Death) and Result B (Permanent and Total Disablement) during any Period of Insurance and agreed to by Us, We will increase the revised Sum Insured for that Insured Person by 10% as Renewal Bonus upon the renewal of the Policy for the renewed Period of Insurance provided that (i) the request to revise the Sum Insured is made by the Insured within the first six months of the relevant Period of Insurance; (ii) any accumulated Renewal Bonus for the Period(s) of Insurance prior to the Period of Insurance in which the Sum Insured was revised, will lapse and not be added on; (iii) no claim has arisen in respect of the Insured Person during the preceding Period of Insurance in respect of any or all of the Results listed in 3.1.(i) above; (iv) the increase in the revised Sum Insured as Renewal Bonus shall only be for the first three consecutive 12- month renewals of the Policy following the Period of Insurance in which the Sum Insured was revised; (v) the Renewal Bonus does not apply to any Child Insured Person; and (vi) the Renewal Bonus does not apply to the Terrorism extension under Extra Benefit 4 below.",
-              "textJP": ""
+              "textJP": "保険期間中に被保険者が結果A（死亡）および結果B（永久かつ完全な障害）の保険金額の増額または減額を要求し、当社が同意した場合、当社は当該被保険者の改定保険金額を、更新ボーナスとして10%増額します。"
             },
             {
               "num": "3.3",
               "text": "No additional premium is required for the Renewal Bonus.",
-              "textJP": ""
+              "textJP": "更新ボーナスに対する追加保険料は不要です。"
             }
           ],
           "subsections": []
@@ -5093,12 +5114,12 @@
           "id": "ch6-s4",
           "number": "4",
           "title": "Terrorism",
-          "titleJP": "",
+          "titleJP": "テロリズム",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover the Insured Person against death or disablement (the following Results) as described below if the Insured Person suffers an Injury which within 104 weeks of its happening is the sole cause of the death or such disablement and the Injury is sustained through acts of terrorism provided that there is no liability when such acts of terrorism involve the use of biological, chemical agents or nuclear devices: Result A Death Result B Permanent and Total Disablement Result C Permanent Partial Disablement Result D1 Temporary Total Disablement Result D2 Temporary Partial Disablement Result E Medical Expenses Result F Daily Hospitalisation Cash Benefits Result G Recuperation Benefit Result H Bereavement Grant SPECIMEN The limit for each of the Result above is per the specified Sum Insured applicable to the Result. The aggregate limit for all the above Results is up to the Sum Insured for Result A (Death benefit) at the Commencement Date of this Policy or in the event of an increase or reduction to the Sum Insured for Result A (Death benefit) and Result B (permanent and Total Disablement) as requested by the Insured and agreed to by Us during any Period of Insurance, up to the applicable increased or decreased Sum Insured for Result A (Death benefit) or SGD250,000 for each Insured Person, whichever is lesser. Cover under this extension for each Child Insured Person is in respect of Result A, Result B and Result E only. The limit of this cover is at 10% of the Sum Insured under Result A, Result B and Result E of the Insured. Where the Insured and his/her legal spouse are insured at the same time under this Policy, the limit shall be that of the Sum Insured of the Insured or his/her insured spouse, whichever is the higher Sum Insured for Result A, Result B and Result E.",
-              "textJP": ""
+              "textJP": "本保険証券は、被保険者がテロ行為を通じて傷害を被り、その傷害がその発生から104週以内に死亡またはかかる障害の唯一の原因となった場合、以下に記述する死亡または障害（以下の結果）について被保険者をカバーするよう拡張されます。"
             }
           ],
           "subsections": []
@@ -5107,12 +5128,12 @@
           "id": "ch6-s5",
           "number": "5",
           "title": "Reservist Training",
-          "titleJP": "",
+          "titleJP": "予備役訓練",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover Injury sustained by the Insured Person while on part-time National Service as a Reservist in the Navy, Army, Air Force, Police, Fire Brigade or Vigilante Corps, provided that We will not be liable to Pay any compensation if the Insured Person was taking part in or was present at any military, navy or air force Operation during actual warfare or any insurrection or any expedition or operation of a war-like character either as a Combatant or non-combatant when the Injury was sustained.",
-              "textJP": ""
+              "textJP": "本保険証券は、被保険者が海軍、陸軍、空軍、警察、消防、または自警団のパートタイム国民兵役として予備役訓練中に被った傷害をカバーするよう拡張されます。ただし、被保険者が実弾射撃、模擬爆弾訓練に参加していた場合、当社は補償金を支払う義務を負いません。"
             }
           ],
           "subsections": []
@@ -5121,12 +5142,12 @@
           "id": "ch6-s6",
           "number": "6",
           "title": "Riot & Strike",
-          "titleJP": "",
+          "titleJP": "暴動およびストライキ",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover the Insured Person against death caused by Injury or Injury as a result of Riot & Strike. The Company shall not be liable for any claim arising out or in connection with the Insured Person's own participation or provocation of any such act or if such act could reasonably have been avoided by the Insured Person.",
-              "textJP": ""
+              "textJP": "本保険証券は、暴動およびストライキの結果として傷害による死亡または傷害に対して被保険者をカバーするよう拡張されます。被保険者自身がそのような行為に参加または挑発した場合、またはそのような行為が合理的に予見可能であった場合、当社はいかなる請求についても責任を負いません。"
             }
           ],
           "subsections": []
@@ -5135,12 +5156,12 @@
           "id": "ch6-s7",
           "number": "7",
           "title": "Motorcycling",
-          "titleJP": "",
+          "titleJP": "二輪車運転",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover motor-cycling (whether as a rider or pillion-rider) provided that at the time of Accident, the Insured Person is wearing a safety helmet, and not engaging in or practising for racing and hill climbing contests, reliability trials, speed or duration testing.",
-              "textJP": ""
+              "textJP": "本保険証券は、事故発生時に被保険者が安全ヘルメットを着用しており、レース、ヒルクライムコンテスト、耐久試験、速度または持続時間テストへの参加または練習をしていないことを条件に、二輪車の運転（ライダーまたは同乗者として）をカバーするよう拡張されます。"
             }
           ],
           "subsections": []
@@ -5149,12 +5170,12 @@
           "id": "ch6-s8",
           "number": "8",
           "title": "Burns",
-          "titleJP": "",
+          "titleJP": "火傷",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover the Insured Person against death caused by Injury or Injury as a result of Burns subject to the limit as set out under item 18 of Result C. The company shall not be liable for any claim for such death or Injury arising out of or in connection with the Insured Person's own wilful or intentional act.",
-              "textJP": ""
+              "textJP": "本保険証券は、結果Cの項目18に定める限度額を条件として、火傷の結果として傷害による死亡または傷害に対して被保険者をカバーするよう拡張されます。被保険者自身の故意による行為から生じるそのような死亡または傷害については、当社は責任を負いません。"
             }
           ],
           "subsections": []
@@ -5163,12 +5184,12 @@
           "id": "ch6-s9",
           "number": "9",
           "title": "Suffocation By Smoke, Poisonous Fumes, Gas And Drowning",
-          "titleJP": "",
+          "titleJP": "煙、有毒ガス、ガスによる窒息および溺水",
           "paragraphs": [
             {
               "num": "",
               "text": "Any Result sustained by an Insured Person due to suffocation by smoke, poisonous fumes, gas and drowning shall be deemed to be Injury sustained by an Insured Person provided that such Injury does not arise out of an Insured Person's wilful and intentional act.",
-              "textJP": ""
+              "textJP": "煙、有毒ガス、ガスによる窒息および溺水により被保険者が被った結果は、被保険者が被った傷害とみなされます。ただし、当該傷害が被保険者の故意による意図的行為から生じたものではないことを条件とします。"
             }
           ],
           "subsections": []
@@ -5177,12 +5198,12 @@
           "id": "ch6-s10",
           "number": "10",
           "title": "Disappearance",
-          "titleJP": "",
+          "titleJP": "行方不明",
           "paragraphs": [
             {
               "num": "",
               "text": "We shall presume death to have been suffered by the Insured Person if he or she is missing for twelve consecutive months, and sufficient evidence is provided that leads Us to the conclusion that death was caused by an Injury. However, if at any time after payment of Compensation under this Policy for such death the Insured Person is found to be living, such Compensation shall be refunded to Us.",
-              "textJP": ""
+              "textJP": "被保険者が12ヶ月連続して行方不明であり、傷害により死亡したと当社が結論づけるに足る十分な証拠が提供された場合、当社は被保険者が死亡したものと推定します。ただし、本保険証券に基づく補償金の支払い後のいずれかの時点で被保険者の生存が確認された場合、支払われた金額は返還されなければなりません。"
             }
           ],
           "subsections": []
@@ -5191,12 +5212,12 @@
           "id": "ch6-s11",
           "number": "11",
           "title": "Exposure",
-          "titleJP": "",
+          "titleJP": "曝露",
           "paragraphs": [
             {
               "num": "",
               "text": "If an Insured Person suffers an Injury and then, in consequence of that Injury suffers death or disablement as a result of exposure to the elements, We will consider such death or disablement as having been caused by an Injury.",
-              "textJP": ""
+              "textJP": "被保険者が傷害を被り、その傷害の結果として自然環境への曝露により死亡または障害を被った場合、当社はそのような死亡または障害が傷害によって引き起こされたものとみなします。"
             }
           ],
           "subsections": []
@@ -5205,12 +5226,12 @@
           "id": "ch6-s12",
           "number": "12",
           "title": "Amateur Sports",
-          "titleJP": "",
+          "titleJP": "アマチュアスポーツ",
           "paragraphs": [
             {
               "num": "",
               "text": "This Policy is extended to cover any Injury happening to the Insured Person while engaged in sports as a form of recreation and not on a professional basis except for: (a) parachuting (b) hang gliding (c) any kind of race (other than on foot or swimming) or trial of speed or reliability (d) potholing, mountaineering or rock climbing necessitating the use of guides or ropes (e) underwater activities necessitating the use of compressed air or gas SPECIMEN All Extra Benefits are subject to the Terms, Conditions, and Exceptions of this Policy. GENERAL CONDITIONS The conditions which appear in the Policy or in any Endorsement are part of the contract and must be complied with. They are where their nature permit conditions precedent to the right to recover from Us. 1. Co-operation As a condition precedent to the Company's liability, the Insured Person or his/her representatives shall co-operate fully with the Company and its medical advisers and will fully and faithfully disclose all material facts and matters which the Insured Person knows or ought to know and will upon request as the Company may reasonably make execute any document to empower the Company to obtain relevant information, at the Insured or the Insured Person's expense, from any Physician, Hospital or other source. 2. Reasonable Precautions and Material Changes The Insured Person shall take all reasonable precautions to prevent and minimise any Injury. The Company must be informed immediately in writing as soon as You are aware of any change in the employment, occupation, duties or pursuits of any Insured Person, or any other change which may increase the possibility of a claim under this Policy. The Company reserves the right to continue cover on terms and conditions it considers appropriate to such changes in material information or circumstances or to decline to continue cover under the Policy. 3. Eligibility Unless We agree in writing otherwise, any person You wish to insure under this Policy must be named as an Insured Person in the Schedule and must at the Commencement Date of the Policy be the following: (a) Yourself aged between 18 years and 65 years old, or (b) Your legal spouse aged between 18 years and 65 years old, or (c) Your biological or legally adopted, unmarried Child aged between 1 year to 18 years or 23 years if pursuing full-time education in a recognised tertiary institution within his/her Usual Country of Residence as Singapore. 4. Alterations (a) We have the right to vary the premium payable and all other terms, conditions and exceptions of the Policy by giving the Insured 30 days' notice of such variation(s). (b) If the date of birth of the Insured Person has been incorrectly stated, the benefits will be amended by Us having regard to the true date of birth. If the true date of birth is such that, had it been known to Us at the time of the Policy was proposed for, We would not have issued the Policy, then We may cancel the Policy and no benefits will be payable. (c) Any other misrepresentation of or failure to disclose material facts by the Insured or Insured Person, will entitle the Company to alter, amend or cancel the Policy having regard to the true facts. A material fact is any information that could influence the Company in its assessment of the proposal. 5. Cancellation Either the Insured or the Company may cancel this Policy by giving the other party 14 days notice in writing sent to the last known address. Refunds of premium in respect of a Period of Insurance will be made as follows: (a) If the Insured cancels the Policy, the Company will refund the Insured the premium paid less the premium calculated at Our Short Period rates from the date of cancellation provided no claim has arisen in relation to that Period of Insurance and the amount refundable is more than SGD10.00. (b) If the Company cancels the Policy, the Company will make a pro-rata refund of the premium paid. 6. Termination (a) The entire Policy will terminate and all Insured Persons' cover under it will cease immediately upon: i) non-payment of premium by the due date as described in the Payment Before Cover Warranty of this Policy; or ii) the cancellation of this Policy as described in General Condition 5. (b) Unless We have agreed otherwise in writing, the cover of an Insured Person under this Policy will terminate immediately in any of the following circumstances, whichever first occurs: i) when the Insured Person's Usual Country of Residence ceases to be Singapore ii) where an Insured Person on the expiry of the Period of Insurance during which he or she attains the age of 76 years SPECIMEN iii) where the Insured Person is a Child of the Insured, on the expiry of the Period of Insurance during which he/she attains the age of 19 years, or 24 years if studying full-time at a recognised tertiary institution within his/her Usual Country of Residence as Singapore. 7. In the Event of Fraud If any claim shall in any respect be false or fraudulent or if fraudulent means or devices are used by the Insured Person(s) or anyone acting on their behalf to obtain benefit under this Policy, then the Policy will be cancelled immediately and all benefit and premium forfeited. 8. No Trust The Company will not recognise or be affected by any notice of trust, charge or assignment relating to this Policy and the Insured's receipt or that of the Insured's legal personal representative shall in all cases effectively discharge Our liability. 9. Legal Personal Representatives The terms, exceptions and conditions of this Policy, so far as applicable and with necessary modifications, shall apply to the legal personal representatives of the Insured or the Insured Person. 10. Exclusion of Rights Under the Contracts (Rights of Third Parties) Act 2001 A person who is not a party to this Policy shall have no right under the Contracts (Rights of Third Parties) Act 2001 to enforce any of its terms. Insured Persons (other than the Insured) are not parties to this Policy contract. CLAIMS CONDITIONS The payment of claims under this Policy is dependent upon observance of its terms and conditions by You, and so far as they apply, by the Insured Person or any other claimant. 1. You must report in writing to us as soon as reasonably possible, full details of any Injury which may result in a claim under this Policy. 2. You or the Insured Person shall employ the services of a registered medical practitioner and the Insured Person shall undergo any treatment such practitioner shall deem necessary. 3. All certificates, information and evidence must be provided at your expense or at the expense of any claimant in the form and nature required. 4. The Insured Person may have to undergo further medical examination required by Us at Our expense. 5. In the event of death of the Insured Person, We shall require sight of the death certificate and may require a post-mortem examination at Our expense. 6. Where we have accepted a claim but the amount to be paid is in dispute, the matter shall be referred to an independent arbitrator acceptable to the parties involved. Where any dispute is by this Condition to be referred to arbitration, the making of an award shall be a condition precedent to any right of action against the Company. 7. If the Company offers an amount in settlement or disclaims liability altogether for a claim, and such a claim is not within twelve calendar months from the date of such an offer or disclaimer referred to arbitration as required under Condition 6 or made the subject of a pending court action, the claim shall be deemed to be abandoned and the Company shall have no liability in respect of it. GENERAL EXCEPTIONS We will not pay any sum under this Policy for: 1. Injury directly or indirectly caused by, resulting from or in connection with any of the following regardless of any other cause or event contributing concurrently or in any other sequence to the Injury: (a) ionising radiations from or contamination by radioactivity from any nuclear fuel or from any nuclear waste or from the combustion of nuclear fuel (b) the radioactive, toxic, explosive or other hazardous or contaminating properties of any nuclear installation, reactor or other nuclear assembly or nuclear components thereof (c) any weapon or device employing atomic or nuclear fission and/or fusion or other like reaction or radioactive force or matter (d) the radioactive, toxic, explosive or other hazardous or contaminating properties of any radioactive matter. The exclusion in this sub-clause does not extend to radioactive isotopes, other than nuclear fuel, when such isotopes are being prepared, carried, stored, or used for commercial, agricultural, medical, scientific, or other similar peaceful purposes (e) any chemical, biological, bio-chemical, or electromagnetic weapon. SPECIMEN 2. death, disability, loss, damage, destruction, any legal liabilities, cost or expense including consequential loss of whatsoever nature, directly or indirectly caused by, resulting from or in connection with any of the following regardless of any other cause or event contributing concurrently or in any other sequence to the loss: (a) war, invasion, acts of foreign enemies, hostilities or warlike operations (whether war be declared or not), civil war, rebellion, revolution, insurrection, civil commotion assuming the proportions of or amounting to an uprising, military or usurped power, or (b) any act of terrorism including but not limited to (i) the use or threat of force, violence and/or (ii) harm or damage to life or to property (or the threat of such harm or damage) including, but not limited to, nuclear radiation and/or contamination by chemical and/or biological agents, by any person(s) or group(s) of persons, committed for political, religious, ideological or similar purposes, express or otherwise, and/or to put the public or any section of the public in fear, or (c) any action taken in controlling, preventing, suppressing or in any way relating to (a) or (b) above. 3. Injury caused by the Insured Person engaging in: (a) air travel except as a passenger in a fully licensed passenger carrying aircraft (b) any trade, technical or sporting activity or as crew in connection with an aircraft 4. Injury caused by the Insured Person engaging in or practising for: (a) parachuting (b) hang gliding (c) any kind of race (other than on foot or swimming) or trial of speed or reliability (d) potholing, mountaineering or rock climbing necessitating the use of guides or ropes (e) underwater activities necessitating the use of compressed air or gas. 5. Injury caused by: (a) suicide, self-injury or wilful exposure to peril (other than in an attempt to save human life) (b) pregnancy or childbirth (c) insanity (d) any pre-existing physical or mental defect or infirmity (e) the Insured Person being under the influence of drugs (other than those prescribed by a registered Medical Practitioner but not when prescribed for the treatment of drug addiction) (f) the Insured Person being under the influence of alcohol, unless it can be established to our reasonable satisfaction by any claimant that alcohol was not a factor contributing to the happening of the Injury 6. Injury to any Insured Person who is employed: (a) as a full time military personnel, law enforcement officer, civil defence officer, security officer; navy, fire fighters or (b) as professional sportspersons, entertainers, motor vehicle or motor bike racers or (c) in any off-shore occupations such as diver, rig workers, fisherman; ship crew or (d) as shipyard crew; work on board sea vessels or (e) as air crew; work on board aircraft or (f) as construction workers, work at heights above 30 feet or work underground, in tunnels, demolition and quarry workers or (g) as workers engaged in maintenance, cleaning, roofing or repair activities involving scaffolding or gondolas; or (h) in any occupation dealing with explosives, poisonous or hazardous gases or substances If We say that by reason of any of these General Exceptions any claim is not covered by this insurance, then the burden of proving that the claim is covered shall be upon You. SPECIMEN ABC Insurance Helpline (65) 6789 8181 A 24-hour emergency help line has been arranged for You with an authorised Help Centre should You need assistance in the event of an emergency whilst overseas. When You are residing in Singapore, the following services are also available to You - Arrangement of Home Visit by Physician - Arrangement of Private Medical Transportation - Arrangement of Appointment with the Medical Providers in Singapore It is understood and agreed that the emergency helpline only provides referral information and arrangement assistance. The service provider(s) is/are not Our agents and You shall pay the service provider directly for the costs of any service rendered by the service provider. It is further understood and agreed that We do not warrant and are in no way responsible or liable for the action of or advice or information given or statements made by any service provider or any person in the provision of service or assistance pursuant to the emergency helpline. We are also in no way liable for any injury, damage or loss to persons, property or goods whatsoever caused arising from any act, omission, default or neglect of the service provider or any person in the provision of service or assistance pursuant to the emergency helpline. PAYMENT BEFORE COVER WARRANTY 1. Notwithstanding anything herein contained but subject to clauses 2 and 3 hereof, it is hereby agreed and declared that the total premium due must be paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) on or before the inception date (“the inception date”) of the coverage under the Policy, Renewal Certificate or Cover Note. 2. In the event that the total premium due is not paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) on or before the inception date referred to above, then the Policy, Renewal Certificate, Cover Note and Endorsement shall not attach and no benefits whatsoever shall be payable by the Company. Any payment received thereafter shal l be of no effect whatsoever as cover never attached on the Policy, Renewal Certificate, or Cover Note. 3. In respect of insurance coverage with \"Free Look\" provision, the Insured may return the original policy document to the Company or intermediary within the \"Free Look\" period if the Insured decides to cancel the cover during the \"Free Look\" period. In such an event, the Insured will receive a full refund of the premium paid to the Company provided that no claim has been made under the insurance. Policy Owners' Protection Scheme This policy is protected under the Policy Owners' Protection Scheme which is administered by the Singapore Deposit Insurance Corporation (SDIC). Coverage for your policy is automatic and no further action is required from you. For more information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please contact your insurer or visit the GIA / LlA or SDIC websites (www.gia.org.sg or www.lia.org.sg or www.sdic.org.sg). IMPORTANT- You are requested to read this Policy. If any error or misdescription be found, the Policy should be returned to the issuing office for correction.",
-              "textJP": ""
+              "textJP": "本保険証券は、レクリエーションとしてプロではない形でスポーツに従事中の被保険者に起こった傷害をカバーするよう拡張されます。ただし、以下を除きます。\n(a) パラシュート\n(b) ハンググライダー\n(c) あらゆる種類のレース（徒歩または水泳を除く）または速度もしくは信頼性の試験\n(d) 洞窟探検"
             }
           ],
           "subsections": []
