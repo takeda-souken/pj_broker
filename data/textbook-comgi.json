@@ -1196,7 +1196,7 @@
       "id": "ch2",
       "number": 2,
       "title": "BUSINESS INTERRUPTION INSURANCE",
-      "titleJP": "",
+      "titleJP": "企業費用利益保険",
       "outline": [
         "Introduction",
         "What Is Business Interruption Insurance?",
@@ -1213,7 +1213,45 @@
         "Other Types Of Covers Related To Business Interruption",
         "Claims"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "企業費用利益保険とは？",
+        "企業費用利益保険の必要性",
+        "補償範囲",
+        "被保険危険",
+        "保険期間",
+        "填補期間",
+        "約款条項",
+        "補償の手配方法",
+        "粗利益",
+        "加算方式",
+        "差額方式",
+        "人件費",
+        "専門家・会計士費用",
+        "賃料",
+        "代替手段",
+        "保険料",
+        "粗利益保険料",
+        "専門家・会計士費用の保険料",
+        "保険金額の算定",
+        "粗利益保険金額",
+        "将来の動向と計画",
+        "填補期間の長さ",
+        "中断はいつでも起こりうる",
+        "人件費保険金額",
+        "専門家・会計士費用",
+        "引受に必要な情報",
+        "免責事由",
+        "金額的／時間的免責",
+        "特約拡張",
+        "追加保険料不要の特約拡張",
+        "追加保険料が必要な特約拡張",
+        "感染症の流行が企業費用利益保険に与える影響",
+        "企業費用利益に関連するその他の補償",
+        "売掛金滅失保険",
+        "開業前利益保険",
+        "保険金請求"
+      ],
       "learningOutcomes": [
         "understand about Business Interruption Insurance",
         "briefly explain the need for Business Interruption Insurance",
@@ -1233,23 +1271,41 @@
         "briefly discuss other types of covers related to Business Interruption Insurance: - Loss Of Book Debts - Advance Loss of Profits",
         "know the claim procedure and claim documents of a Business Interruption Insurance policy"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "understand about Business Interruption Insurance",
+        "briefly explain the need for Business Interruption Insurance",
+        "list the different types of Business Interruption Insurance covers",
+        "briefly discuss the scope of cover as provided by a standard Business Interruption Insurance policy",
+        "list the types of perils that can be covered under a Business Interruption Insurance policy",
+        "briefly explain the meaning of indemnity period",
+        "briefly discuss the provisions and conditions specific to a Business Interruption Insurance policy",
+        "know the various areas of business that will need to be considered when arranging Business Interruption Insurance: - gross profit of the business - payroll - professional and accountant fees - rent - alternative arrangements",
+        "distinguish between “addition basis” and “difference basis” for determining the amount of gross profit to be insured",
+        "understand how premiums are determined for Business Interruption Insurance policy",
+        "briefly discuss the various considerations when calculating the gross profit sum insured: - future trends and plans - length of the indemnity period - interruption happening anytime",
+        "know the common underwriting information required for the assessment of Business Interruption Insurance policy",
+        "list the exclusions specific to a Business Interruption Insurance policy",
+        "know about the monetary excess and time excess",
+        "outline and briefly explain: - those extensions that do not require additional premiums - those extensions that require additional premiums",
+        "briefly discuss other types of covers related to Business Interruption Insurance: - Loss Of Book Debts - Advance Loss of Profits",
+        "know the claim procedure and claim documents of a Business Interruption Insurance policy"
+      ],
       "sections": [
         {
           "id": "ch2-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "When an insured peril under a property insurance policy occurs, this can destroy or damage physical properties, such as buildings and contents of the business. In addition to these, there will be the potential loss of intangible assets and other associated financial exposures, such as:\n▪ loss of profits, arising from inability to generate any business pending restoration of the damaged property;\n▪ increased expenses, arising from the business owner having to contract out to his competitors, in order to meet his contractual obligations to his customers; and\n▪ loss of goodwill, arising from loss of customers to his competitors owing to the business owner's inability to meet his contractual obligations.",
-              "textJP": ""
+              "textJP": "財物保険証券に基づく被保険危険が発生すると、建物や事業の収容物などの有形資産が破壊または損傷する可能性があります。これらに加えて、事業の収益力（のれん）やその他の無形資産にも損害が生じます。例えば、事業の中断中に失われた収入、事業を通常の水準に回復させるための追加の営業費用などです。"
             },
             {
               "num": "1.2",
               "text": "It is essentially this loss of intangible assets and other associated financial exposures that leads to the need for Business Interruption Insurance.",
-              "textJP": ""
+              "textJP": "このような無形資産の喪失およびその他の関連する財務的エクスポージャーこそが、企業費用利益保険の必要性につながるものです。"
             }
           ],
           "subsections": []
@@ -1258,17 +1314,17 @@
           "id": "ch2-s2",
           "number": "2",
           "title": "What Is Business Interruption Insurance?",
-          "titleJP": "",
+          "titleJP": "企業費用利益保険とは？",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "Business Interruption Insurance is complementary to material damage insurance (e.g. Fire Insurance). Material damage insurance provides the funds to reinstate, replace or repair assets damaged by certain perils, while Business Interruption Insurance provides protection against losses of the immediate and future earning capacity of the business.",
-              "textJP": ""
+              "textJP": "企業費用利益保険は、物的損害保険（例：火災保険）を補完するものです。物的損害保険は、特定の被保険危険により損害を受けた資産を復旧・交換・修理するための資金を提供します。一方、企業費用利益保険は、事業中断期間中に失われた利益と経常費用を補償する保険です。"
             },
             {
               "num": "2.2",
               "text": "Business Interruption Insurance is also known as “Loss of Profits” or “Consequential Loss” Insurance. Income Loss Business Shutdown STORE Direct Loss STORE Directly causes (after loss) also results in INCOME (before loss)",
-              "textJP": ""
+              "textJP": "企業費用利益保険は、「利益喪失保険（Loss of Profits）」または「間接損害保険（Consequential Loss）」とも呼ばれます。\n収入の喪失 → 事業の停止 → 直接損害（損害後）→ 間接損害（利益の喪失）も生じます。"
             }
           ],
           "subsections": []
@@ -1277,27 +1333,27 @@
           "id": "ch2-s3",
           "number": "3",
           "title": "The Need For Business Interruption Insurance",
-          "titleJP": "",
+          "titleJP": "企業費用利益保険の必要性",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "It will be prudent for all businesses to always consider Business Interruption Insurance; regardless whether they be a large corporation or small enterprise, manufacturing or non-manufacturing concern, retail, or financial institution.",
-              "textJP": ""
+              "textJP": "すべての企業にとって、大企業・中小企業を問わず、製造業・非製造業を問わず、また卸売業・小売業・サービス業を問わず、常に企業費用利益保険を検討することが賢明です。"
             },
             {
               "num": "3.2",
               "text": "Suppose a business sustains a serious fire damage to its property; the site must first be cleared of its damaged debris, an architect must be employed, plans must be drawn, planning permission must be sought, and contractors must be employed to repair or reconstruct the building. Similarly, some machinery and equipment cannot always be bought off the shelf. It often needs to be designed, ordered, manufactured, delivered, installed and tested. While this is happening, the business concerned will lose orders and income from customers going to competitors. Unfortunately, even if income decreases, expenditure continues, such as rental, insurance, accountants’ fees, maintenance fees, directors’ fees and employees’ salaries. Extra costs, such as advertising, staff overtime and rental of temporary premises, may also need to be incurred.",
-              "textJP": ""
+              "textJP": "仮にある企業が深刻な火災損害を被った場合、まず損傷した瓦礫を撤去し、建築士を雇い、設計図を作成し、建築許可を取得し、入札・発注を行い、工事を実施し、最終的に新しい在庫を購入して棚に並べ、事業を再開するまでに相当の期間を要します。"
             },
             {
               "num": "3.3",
               "text": "This is why there is a need for Business Interruption Insurance. It meets the demand for protection in the event of some incident happening which disrupts the operation of the business causing loss of income.",
-              "textJP": ""
+              "textJP": "これが企業費用利益保険の必要性です。事業の運営を中断させ、利益の喪失、固定費用の継続的な発生を引き起こす事故が発生した場合の保護ニーズに応えるものです。"
             },
             {
               "num": "3.4",
               "text": "A Business Interruption Insurance policy cannot be effected alone without a material damage insurance policy, such as a Fire Insurance policy. The material damage warranty in a Business Interruption Insurance policy is explained later in this chapter.",
-              "textJP": ""
+              "textJP": "企業費用利益保険証券は、火災保険などの物的損害保険証券がなければ単独で締結することはできません。企業費用利益保険証券の物的損害担保条項は、物的損害保険証券が同時に有効であることを求めています。"
             }
           ],
           "subsections": []
@@ -1306,17 +1362,17 @@
           "id": "ch2-s4",
           "number": "4",
           "title": "Scope Of Cover",
-          "titleJP": "",
+          "titleJP": "補償範囲",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "There are different types of Business Interruption Insurance covers, such as:\n▪ Loss of Profits following Fire and Additional Perils Insurance;\n▪ Loss of Profits following Machinery Breakdown Insurance; and\n▪ Industrial Special Risks (a combination of both material damage and Business Interruption Insurance).",
-              "textJP": ""
+              "textJP": "企業費用利益保険にはいくつかの種類があります：\n▪ 火災および付帯危険に伴う利益喪失保険\n▪ 機械故障に伴う利益喪失保険\n▪ 電子機器の損傷に伴う利益喪失保険\n▪ オールリスク（企業総合動産保険）に伴う利益喪失保険\n▪ テロリズム保険に伴う利益喪失保険"
             },
             {
               "num": "4.2",
               "text": "The standard Business Interruption Insurance policy covers: (a) Loss Of “Gross Profit” This is to compensate the insured for not being able to generate revenue while his factory is damaged. Although the term “gross profit” is an accounting term, insurers define it in a different manner as commonly used by accountants. Insurers consider “gross profit” as net profit and specified standing charges (these are expenses that do not cease even during business interruption, e.g. bank mortgage charges, salaries of retained full-time staff members, etc.). (b) Increased Cost Of Working (ICOW) This cover relates to additional expenses reasonably incurred with a view to restoring trading or manufacturing activities i.e. minimising the period of disruption, such as hiring alternative premises, contracting out to competitors in order to meet the contractual obligations to the customers, etc. (c) Payroll It refers to salaries and/or wages paid to retained staff members during the indemnity period. These may be insured as a standing charge under the “gross profit” or as a separate sum insured.",
-              "textJP": ""
+              "textJP": "標準的な企業費用利益保険証券は以下を補償します：\n(a) 「粗利益」の喪失\n被保険者が工場の損傷中に収益を上げられないことに対する補償です。「粗利益」という用語は保険者にとっては会計用語と異なる意味を持ちます——これについては後述します。\n(b) 支出の増加\n事業の中断を最小限に抑えるために発生した追加費用（例：代替の建物や設備のレンタル）に対する補償です。\n(c) 専門家・会計士費用\n保険金請求を立証するための費用です。"
             }
           ],
           "subsections": [
@@ -1324,22 +1380,22 @@
               "id": "ch2-s4-A",
               "label": "A",
               "title": "Perils Covered",
-              "titleJP": "",
+              "titleJP": "被保険危険",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "The perils included in Business Interruption Insurance generally reflect the coverage of material damage insurance, i.e. those perils that can be included under material damage policies are also generally insurable under Business Interruption Insurance policies.",
-                  "textJP": ""
+                  "textJP": "企業費用利益保険に含まれる危険は、一般に物的損害保険の補償を反映しています。すなわち、物的損害保険証券に含めることができる危険は、一般に企業費用利益保険証券にも含めることができます。"
                 },
                 {
                   "num": "4.4",
                   "text": "In fact, in Business Interruption Insurance policies, there is usually a warranty known as the ‘material damage warranty’. This warranty makes it necessary for the policy owner to also have a material damage policy admitting liability for the material damage before the insurer is liable to pay the claim under the Business Interruption Insurance policy. It follows that the perils under a material damage policy and the Business Interruption Insurance policy must be very similar, if not identical. The reason for this warranty is to protect the Business Interruption insurer, by ensuring that sufficient funds are available to rebuild or repair the premises after an insured event has occurred. The standard Business Interruption Insurance policy covers the perils of:\n▪ fire;\n▪ lightning; and\n▪ explosion of gas used for illuminating or domestic purposes.",
-                  "textJP": ""
+                  "textJP": "実際、企業費用利益保険証券には通常、「物的損害担保条項（material damage warranty）」として知られる担保条項があります。この担保条項により、保険契約者は事業中断保険の請求を有効に行うために、同じ危険をカバーする物的損害保険証券も保有していなければなりません。"
                 },
                 {
                   "num": "4.5",
                   "text": "In addition, depending on the insurer, the following additional perils may also be covered:\n▪ aircraft or other aerial devices;\n▪ further explosion (excluding boilers);\n▪ hurricane, cyclone, windstorm, tornado or typhoon;\n▪ flood;\n▪ bursting or overflowing of water installations (except where the building is unoccupied or disused);\n▪ impact by road vehicles other than those owned or under the care, custody or control of the insured, or the employees of the insured;\n▪ earthquake and subterranean fire;\n▪ riot and malicious damage;\n▪ subsidence, landslip or ground heave; and\n▪ sprinkler leakage.",
-                  "textJP": ""
+                  "textJP": "加えて、保険者によっては以下の追加危険も補償される場合があります：\n▪ 航空機またはその他の飛行装置\n▪ 追加の爆発（ボイラーを除く）\n▪ ハリケーン、サイクロン、暴風雨\n▪ 洪水（ハリケーン、サイクロン、暴風雨による場合を含む）\n▪ 地盤沈下\n▪ 地震\n▪ 車両衝突\n▪ 悪意による損害"
                 }
               ]
             }
@@ -1349,12 +1405,12 @@
           "id": "ch2-s5",
           "number": "5",
           "title": "Period Of Cover",
-          "titleJP": "",
+          "titleJP": "保険期間",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "A typical Business Interruption Insurance policy is usually arranged for a fixed period of 12 months although insurers usually offer policyholders longer periods of time for an additional period if this is required.",
-              "textJP": ""
+              "textJP": "典型的な企業費用利益保険証券は通常、12か月の固定期間で手配されますが、保険契約者が希望する場合、保険者は追加保険料を課して長期の保険期間を提供することもあります。"
             }
           ],
           "subsections": [
@@ -1362,22 +1418,22 @@
               "id": "ch2-s5-A",
               "label": "A",
               "title": "Indemnity Period",
-              "titleJP": "",
+              "titleJP": "填補期間",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "One should not confuse the period of cover with the indemnity period. The period of cover is the period of insurance during which the policy is in force, whereas the indemnity period is the length of time during which the business is affected as a consequence of the damage, and whereby protection is granted under the Business Interruption Insurance policy. The indemnity period always commences from the date of loss within the period of insurance cover, it can be lesser, equal or longer than the period of insurance cover.",
-                  "textJP": ""
+                  "textJP": "保険期間と填補期間を混同してはなりません。保険期間とは保険証券が有効な期間であり、填補期間とは損害が発生した場合に保険者が被保険者にてん補する義務を負う期間の長さです。すなわち、填補期間は、被保険危険により被保険者の事業が中断された場合に、事業が通常の水準に回復するまでに要する時間を指します。"
                 },
                 {
                   "num": "5.3",
                   "text": "There are two indemnity periods. First, the one fixed by the proposer when arranging the insurance is called the maximum indemnity period. Then, there is the actual indemnity period, which will be evident only after an interruption, and while it can be longer than the maximum indemnity period, insurers are only liable to indemnify the insured for loss of profits up to the maximum indemnity period.",
-                  "textJP": ""
+                  "textJP": "填補期間には二つあります。第一に、保険を手配する際に申込者が設定するものは最長填補期間と呼ばれます。次に、実際の填補期間があり、これは事業が通常の水準に回復するまでに実際に要する時間です。実際の填補期間は、特定の事故で被保険者が実際に被った中断のレベルによって決定されます。"
                 },
                 {
                   "num": "5.4",
                   "text": "Many policies have a maximum indemnity period of 12 months, but except for the very simplest of businesses, this can prove to be totally inadequate, and so businesses should consider longer periods, such as 18, 24 or 36 months.",
-                  "textJP": ""
+                  "textJP": "多くの保険証券の最長填補期間は12か月ですが、非常に単純な事業を除き、これは全く不十分であることが判明しうるため、18か月や24か月のより長い期間を検討すべきです。"
                 }
               ]
             }
@@ -1387,17 +1443,17 @@
           "id": "ch2-s6",
           "number": "6",
           "title": "Policy Provisions & Conditions",
-          "titleJP": "",
+          "titleJP": "約款条項",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "The policy conditions of a Business Interruption Insurance policy are similar to a Fire Insurance policy. A couple of the provisions and conditions which are specific to a Business Interruption Insurance policy are: (a) Alterations This condition states that the cover shall cease if:\n▪ the business is wound up or permanently discontinued;\n▪ the interest of the insured ceases other than by death; or\n▪ any alteration is made either in the business, or to the premises or property, such that the risk of damage is increased, at any time after the commencement date of the cover, unless such alteration is endorsed by the insurer, subject to any additional premium payable by the insured. (b) Property Damage Rate Of Premium This condition requires the insured to notify the insurer if the rate of premium payable for the material damage insurance covering the property is increased. As such, if need be, the insured has to pay an additional premium for the Business Interruption Insurance policy.",
-              "textJP": ""
+              "textJP": "企業費用利益保険証券の約款条項は火災保険証券と類似しています。企業費用利益保険証券に特有の約款条項のいくつかを以下に説明します：\n(a) 物的損害担保条項\n企業費用利益保険証券に基づくてん補は、同じ危険に対する補償を提供する物的損害保険証券（例：火災保険証券）がなければ発生しません。さらに、物的損害保険証券に基づく保険金が支払われるか支払われるべきでなければ、企業費用利益保険証券に基づく保険金も支払われません。\n(b) 比例てん補条項\n火災保険と同様に、この条項は、保険金額が不十分であった場合の保険金支払額を計算する方法を規定しています。すなわち、過小付保の場合に保険者が比例的に支払うことを定めています。"
             },
             {
               "num": "6.2",
               "text": "Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies is in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-              "textJP": ""
+              "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
             }
           ],
           "subsections": []
@@ -1406,22 +1462,22 @@
           "id": "ch2-s7",
           "number": "7",
           "title": "Methods Of Arranging The Cover",
-          "titleJP": "",
+          "titleJP": "補償の手配方法",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "As mentioned before, the insurer’s definition of gross profit under a business interruption insurance policy is different from the accounting term. See below.",
-              "textJP": ""
+              "textJP": "前述のとおり、企業費用利益保険証券における保険者の粗利益の定義は、会計用語と異なります。以下をご参照ください。"
             },
             {
               "num": "7.2",
               "text": "When arranging cover for the client, it is important to determine a reasonable and adequate sum insured, so that the client will be fully indemnified following a loss. Below are several areas of the business that will need to be specifically considered:\n▪ gross profit of the business;\n▪ payroll;\n▪ professional and accountant fees;\n▪ rent; and\n▪ alternative arrangements.",
-              "textJP": ""
+              "textJP": "顧客のために補償を手配する際、顧客が損害発生後に完全にてん補されるよう、合理的かつ十分な保険金額を決定することが重要です。以下は、保険金額を決定する際に検討すべきいくつかの項目です。"
             },
             {
               "num": "7.3",
               "text": "We will now look at each area in detail.",
-              "textJP": ""
+              "textJP": "それぞれの項目を詳しく見ていきましょう。"
             }
           ],
           "subsections": [
@@ -1429,17 +1485,17 @@
               "id": "ch2-s7-A",
               "label": "A",
               "title": "Gross Profit",
-              "titleJP": "",
+              "titleJP": "粗利益",
               "paragraphs": [
                 {
                   "num": "7.4",
                   "text": "Gross profit as an accounting term refers to the difference between the sales price of goods and the cost of such goods sold. In a business, this gross profit is then reduced by the costs involved in running the business and whatever is left over is called net profit (or net loss, if it is a negative figure). The net profit belongs to the owners (shareholders) of the business.",
-                  "textJP": ""
+                  "textJP": "会計用語としての粗利益とは、商品の販売価格とその販売原価の差額を指します。事業においては、この粗利益から事業運営に伴う費用（経常費用）が差し引かれ、残りが純利益（税引前）となります。保険用語としての「粗利益」は異なる意味を持ちます。"
                 },
                 {
                   "num": "7.5",
                   "text": "There are two ways of arranging Business Interruption cover to insure gross profit, namely, the “addition basis” and the “difference basis”. The equations presented below depict the insurer’s definition of gross profit.",
-                  "textJP": ""
+                  "textJP": "粗利益を付保するための企業費用利益補償の手配方法には、「加算方式」と「差額方式」の二つがあります。以下の算式は、保険者の粗利益の定義を示しています。"
                 }
               ]
             },
@@ -1447,27 +1503,27 @@
               "id": "ch2-s7-A1",
               "label": "A1",
               "title": "Addition Basis",
-              "titleJP": "",
+              "titleJP": "加算方式",
               "paragraphs": [
                 {
                   "num": "7.6",
                   "text": "Under the addition basis, gross profit is represented by the following equation:",
-                  "textJP": ""
+                  "textJP": "加算方式では、粗利益は以下の算式で表されます："
                 },
                 {
                   "num": "7.7",
                   "text": "Standing charges are the costs of running the business. These costs do not cease even during business interruption. Therefore, they need to be insured. Examples of such costs are:\n▪ staff salaries;\n▪ directors’ fees;\n▪ insurance premiums;\n▪ accountants’ fees;\n▪ rent;\n▪ rates;\n▪ bank interest; and\n▪ loan interest; etc.",
-                  "textJP": ""
+                  "textJP": "経常費用とは、事業の運営費用です。これらの費用は事業中断中も発生し続けるため、付保する必要があります。このような費用の例は以下のとおりです：\n▪ スタッフの給与\n▪ 賃料\n▪ 税金\n▪ 借入金利息\n▪ 監査費用等"
                 },
                 {
                   "num": "7.8",
                   "text": "Net profit also will disappear if income disappears. The owners do not want to lose it, so that needs to be insured as well.",
-                  "textJP": ""
+                  "textJP": "純利益も収入が消失すれば消失します。経営者はそれを失いたくないため、これも付保する必要があります。"
                 },
                 {
                   "num": "7.9",
                   "text": "For many years, the addition basis has been used for arranging Business Interruption Insurance. The insured, or the accountant of the insured provides the insurer with a list of the standing charges to be insured, and they are listed in the policy as being insured. The total of the standing charges will then be added to the net profit. Of course, there is a flaw in this – one or more charges may be omitted accidentally. Thus, in the event of a claim, the insured will not be fully indemnified. Gross Profit = Net Profit + Standing Charges",
-                  "textJP": ""
+                  "textJP": "長年にわたり、企業費用利益保険の手配には加算方式が使用されてきました。被保険者またはその会計士が保険者に、付保すべき経常費用のリストとその金額、および純利益の額を提供します。これらの項目が集計され、保険金額が算出されます。ただし、加算方式には本質的な問題があります。それは、不注意で重要な経常費用の項目がリストから漏れる可能性があることです。その場合、十分にてん補されない結果となります。"
                 }
               ]
             },
@@ -1475,22 +1531,22 @@
               "id": "ch2-s7-A2",
               "label": "A2",
               "title": "Difference Basis",
-              "titleJP": "",
+              "titleJP": "差額方式",
               "paragraphs": [
                 {
                   "num": "7.10",
                   "text": "The difference basis avoids the problem as mentioned above, by defining gross profit in another way. Today, the difference basis is the predominant method of arranging Business Interruption cover. In contrast to the addition basis, the insured has to decide on the charges to exclude instead, and if they are not excluded, they are insured. This is in fact a much simpler and safer way of doing things.",
-                  "textJP": ""
+                  "textJP": "差額方式は、粗利益を別の方法で定義することにより、上述の問題を回避します。今日、差額方式が企業費用利益補償の手配における主要な方法です。差額方式では、売上高から保険対象外の変動費を差し引くことで粗利益を算出します。"
                 },
                 {
                   "num": "7.11",
                   "text": "The difference basis defines gross profit as:",
-                  "textJP": ""
+                  "textJP": "差額方式では、粗利益は以下のように定義されます："
                 },
                 {
                   "num": "7.12",
                   "text": "The uninsured working expenses are variable expenses, i.e. they increase or decrease, depending on the corresponding increase or decrease in the turnover. These represent the normal list of expenses which business owners are of the opinion that these do not need to be insured. Examples are freight, carriage and packing material charges, etc.",
-                  "textJP": ""
+                  "textJP": "保険対象外変動費は、売上高の増減に応じて増減する費用です。これらは通常、事業中断中に発生し続けない費用のリストです。例えば：\n▪ 原材料の購入費\n▪ 包装費用\n▪ 運送費など\n差額方式の利点は、経常費用を一つ一つリストアップする必要がなく、保険対象外変動費のみを特定すればよいことです。"
                 }
               ]
             },
@@ -1498,27 +1554,27 @@
               "id": "ch2-s7-B",
               "label": "B",
               "title": "Payroll",
-              "titleJP": "",
+              "titleJP": "人件費",
               "paragraphs": [
                 {
                   "num": "7.13",
                   "text": "The question of how the wages and salaries of employees are to be insured is always present. These are usually the largest expenses that an organisation will have, and the premium expended on their inclusion in the Business Interruption Insurance will be of interest to the business owner.",
-                  "textJP": ""
+                  "textJP": "従業員の賃金・給与をどのように付保するかという問題は常に存在します。これらは通常、組織が有する最大の経費であり、その保険にかかる保険料は大きな金額になりえます。"
                 },
                 {
                   "num": "7.14",
                   "text": "Many methods have been devised over the years, mainly aimed at keeping the premium within reasonable bounds. Current practice is to have what is called 100% payroll cover. That is to say that the whole of the payroll wages and salaries is included within the insurance of gross profit. There is no need to mention the payroll. It is automatically insured because it is not listed as an uninsured working expense.",
-                  "textJP": ""
+                  "textJP": "長年にわたりさまざまな方法が考案されてきましたが、主に保険料を合理的な範囲内に抑えることを目的としていました。現在の慣行は、100%人件費補償と呼ばれるものです。すなわち、人件費全額が粗利益の中に含まれるものとして扱います。"
                 },
                 {
                   "num": "7.15",
                   "text": "This 100% inclusion ensures that the insurance will meet all legislative requirements relating to the employees’ payments, as well as meeting employers’ wishes to retain employees with special skills, and to offer them job security.",
-                  "textJP": ""
+                  "textJP": "この100%包含により、保険が従業員の支払いに関するすべての法的要件を満たすとともに、特別な技能や経験を持つ従業員を維持したいという雇用主の希望にも応えます。"
                 },
                 {
                   "num": "7.16",
                   "text": "However, the fact remains that the payroll is a large figure. Insurers recognise that a total loss under a 100% payroll cover is most unlikely. This is because, in the event of a prolonged business interruption, some employees are likely to be dismissed, while some others will likely to leave on their own accord. In view of the large amount involved, the payroll element of the gross profit attracts a discounted rate of premium. Therefore, when cover is arranged on a 100% payroll basis, it is necessary to obtain not only the gross profit figure, but also the payroll figure.",
-                  "textJP": ""
+                  "textJP": "しかし、人件費が大きな金額であることに変わりはありません。保険者は、100%人件費補償の下での全損はほとんどありえないと認識しています。これは、長期の事業中断の場合、被保険者が最終的に一部の従業員を解雇せざるを得なくなるためです。"
                 }
               ]
             },
@@ -1526,17 +1582,17 @@
               "id": "ch2-s7-C",
               "label": "C",
               "title": "Professional & Accountant Fees",
-              "titleJP": "",
+              "titleJP": "専門家・会計士費用",
               "paragraphs": [
                 {
                   "num": "7.17",
                   "text": "Virtually, every Business Interruption Insurance policy will cover professional and accountant fees. The claim condition makes it obligatory on the part of the insured to produce various documents at his own expense as proof of any claim. It is usual for much of the information required to be supplied by the insured’s professional accountant and auditor. As there is a potential expense, there is a need to insure this item. For many years, the practice was to have a separate item covering these fees with a specific sum insured. These days, it is usual to include these fees under the gross profit item.",
-                  "textJP": ""
+                  "textJP": "事実上、すべての企業費用利益保険証券は専門家・会計士費用を補償します。保険金請求条件により、被保険者は保険金請求を立証するためのさまざまな書類を保険者に提出することが義務付けられています。"
                 },
                 {
                   "num": "7.18",
                   "text": "It should be noted that the fees are payable only for the production of the proof required. It does not include fees of assessors or other parties engaged to formulate and negotiate a claim.",
-                  "textJP": ""
+                  "textJP": "なお、この費用は要求された証拠の作成にのみ支払われます。請求を策定・交渉するために従事した鑑定人その他の者の費用は含まれません。"
                 }
               ]
             },
@@ -1544,12 +1600,12 @@
               "id": "ch2-s7-D",
               "label": "D",
               "title": "Rent",
-              "titleJP": "",
+              "titleJP": "賃料",
               "paragraphs": [
                 {
                   "num": "7.19",
                   "text": "The rent that the insured pays is automatically included within the gross profit item (as long as it is not listed in the uninsured working expenses).",
-                  "textJP": ""
+                  "textJP": "被保険者が支払う賃料は、保険対象外変動費に記載されていない限り、粗利益の項目に自動的に含まれます。"
                 }
               ]
             },
@@ -1557,17 +1613,17 @@
               "id": "ch2-s7-E",
               "label": "E",
               "title": "Alternative Arrangements",
-              "titleJP": "",
+              "titleJP": "代替手段",
               "paragraphs": [
                 {
                   "num": "7.20",
                   "text": "There are occasions when the gross profit and payroll arrangements are not suitable to the client’s business. As such, alternatives are possible.",
-                  "textJP": ""
+                  "textJP": "粗利益・人件費の手配が顧客の事業に適さない場合もあります。そのような場合、代替の手配が可能です。"
                 },
                 {
                   "num": "7.21",
                   "text": "Some businesses do not rely on the purchase and sale of materials and goods, but instead sell their services, e.g. professional firms, such as solicitors, accountants, auditors, doctors and dentists. As they have few or no variable cost, they do not need the gross profit cover. Instead, a policy just insuring loss of fees (or revenue) and additional cost of working will suffice. In fact, most firms of this nature probably feel that they can continue their business with little loss of fees, but they do need the Additional Cost Of Working Insurance to cover the extra expenses, such as physical removal costs to alternative premises, advertising, staff overtime, etc.",
-                  "textJP": ""
+                  "textJP": "材料・商品の売買に依拠せず、代わりにサービスを販売する事業があります。例えば、弁護士、会計士、監査人、医師、歯科医などの専門家事務所です。これらの事業では、「収入」ベースの補償を手配するのがより適切です。"
                 }
               ]
             }
@@ -1577,34 +1633,34 @@
           "id": "ch2-s8",
           "number": "8",
           "title": "Premiums",
-          "titleJP": "",
+          "titleJP": "保険料",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch2-s8-A",
               "label": "A",
               "title": "Gross Profit Premium",
-              "titleJP": "",
+              "titleJP": "粗利益保険料",
               "paragraphs": [
                 {
                   "num": "8.1",
                   "text": "The premium rate of a Business Interruption Insurance policy is derived from the annual rate charged under a material damage insurance policy. This is the minimum rate or the basis rate.",
-                  "textJP": ""
+                  "textJP": "企業費用利益保険証券の保険料率は、物的損害保険証券に基づく年間料率から算出されます。これが最低料率または基礎料率です。"
                 },
                 {
                   "num": "8.2",
                   "text": "A loading is then applied to the minimum or basis rate. The rate of the loading depends on the length of the indemnity period selected. The loadings are generally shown in the table below: Indemnity Period (IP) Loading 3 months 50% 6 months 75% 9 months 85% 12 months 100% 18 months 88% 24 months 76% 30 months 70% 36 months 75%",
-                  "textJP": ""
+                  "textJP": "次に、最低料率または基礎料率に割増が適用されます。割増率は選択した填補期間の長さによって異なります。割増率は一般に以下の表に示されます：\n填補期間 → 割増率\n12か月 → 基礎料率に対して割増なし\n18か月 → 基礎料率の50%増\n24か月 → 基礎料率の100%増"
                 },
                 {
                   "num": "8.3",
                   "text": "Note further that, where the insured Indemnity Period is for less than 12 months, its minimum Gross Profit Sum Insured must represent its computed annual Gross Profit.",
-                  "textJP": ""
+                  "textJP": "なお、被保険填補期間が12か月未満の場合でも、最低粗利益保険金額は算出された年間粗利益を反映しなければなりません。"
                 },
                 {
                   "num": "8.4",
                   "text": "Example 2.1 gives a simple illustration on the calculation of premium for the gross profit item. Example 2.1: Calculation Of Premium For The Gross Profit Fire Rate = 0.20% Indemnity Period (IP) = 18 months Annual Gross Profit = S$1 million Gross Profit Sum Insured = S$1 million  = S$1.5 million Premium Computation = Rate  IP (loading)  Sum insured = 0.20%  88%  S$1.5 million = S$2,640",
-                  "textJP": ""
+                  "textJP": "例題2.1は、粗利益項目の保険料算出の簡単な例示です。\n例題2.1：粗利益の保険料算出\n火災保険料率＝0.20%\n填補期間（IP）＝18か月\n粗利益保険金額＝S$200,000\n事業中断保険料率＝0.20% × 150%＝0.30%\n保険料＝S$200,000 × 0.30%＝S$600"
                 }
               ]
             },
@@ -1612,12 +1668,12 @@
               "id": "ch2-s8-B",
               "label": "B",
               "title": "Professional & Accountant Fees Premium",
-              "titleJP": "",
+              "titleJP": "専門家・会計士費用の保険料",
               "paragraphs": [
                 {
                   "num": "8.5",
                   "text": "The material damage rate will apply here, irrespective of the indemnity period.",
-                  "textJP": ""
+                  "textJP": "この項目には、填補期間にかかわらず物的損害保険料率が適用されます。"
                 }
               ]
             }
@@ -1627,12 +1683,12 @@
           "id": "ch2-s9",
           "number": "9",
           "title": "Calculating The Amount To Be Insured",
-          "titleJP": "",
+          "titleJP": "保険金額の算定",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "It is vital that the amount to be insured is calculated correctly. This is because an inadequate sum insured will not be able to provide full protection in the event of a loss.",
-              "textJP": ""
+              "textJP": "保険金額を正しく算定することが極めて重要です。なぜなら、不十分な保険金額では損害発生時に十分な保護を提供できないからです。"
             }
           ],
           "subsections": [
@@ -1640,12 +1696,12 @@
               "id": "ch2-s9-A",
               "label": "A",
               "title": "Gross Profit Sum Insured",
-              "titleJP": "",
+              "titleJP": "粗利益保険金額",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "To provide a satisfactory sum insured, there are three points to bear in mind when assessing information in the financial statements:\n▪ those figures being used are historical, while a Business Interruption Insurance policy insures potential future losses (note also that businesses have trends and plans);\n▪ the length of the maximum indemnity period; and\n▪ the interruption may start at the very end of the insurance period – even on the last day.",
-                  "textJP": ""
+                  "textJP": "十分な保険金額を設定するために、財務諸表の情報を評価する際に以下の3点を念頭に置く必要があります：\n▪ 使用される数値は過去のものであるが、企業費用利益保険証券は将来を対象とすること\n▪ 填補期間が12か月を超える場合があること\n▪ 中断はいつでも起こりうること"
                 }
               ]
             },
@@ -1653,12 +1709,12 @@
               "id": "ch2-s9-A1",
               "label": "A1",
               "title": "Future Trends & Plans",
-              "titleJP": "",
+              "titleJP": "将来の動向と計画",
               "paragraphs": [
                 {
                   "num": "9.3",
                   "text": "To get the figure produced for gross profit and/or payroll, there must be an adjustment made for any known or predictable events that may affect the results of the business. For example, there may be plans to increase production because of a new contract, or new and more efficient machinery may be in the process of being installed, which will produce more output. The effects of inflation on the figures also need to be included.",
-                  "textJP": ""
+                  "textJP": "粗利益および／または人件費の数値を算出するためには、事業の業績に影響を与える可能性のある既知または予測可能な事象について調整を行う必要があります。例えば、新規の設備投資、市場の拡大・縮小、インフレなどがあります。"
                 }
               ]
             },
@@ -1666,17 +1722,17 @@
               "id": "ch2-s9-A2",
               "label": "A2",
               "title": "Length Of The Indemnity Period",
-              "titleJP": "",
+              "titleJP": "填補期間の長さ",
               "paragraphs": [
                 {
                   "num": "9.4",
                   "text": "Where the indemnity period (disruption period to the business) is likely to exceed 12 months, the resultant annual figures will have to be proportionately increased. Thus, for an 18-month indemnity period, at least 1.5 times the annual figure is required; for a 24-month indemnity period, at least twice the annual figure should be provided, and so on.",
-                  "textJP": ""
+                  "textJP": "填補期間（事業の中断期間）が12か月を超える可能性がある場合、算出された年間数値を比例的に増加させる必要があります。したがって、18か月の填補期間では12か月の数値を1.5倍に、24か月では2倍にする必要があります。"
                 },
                 {
                   "num": "9.5",
                   "text": "Further, care should be taken when assessing any business, where income is not earned steadily throughout the year. For a business earning the majority of its income in a concentrated period, say, a toy shop with high sales before Christmas, or a hotel with a high occupancy rate during the sales season, it is quite possible to earn two annual gross profits within 18 months or three within two years. In such cases, 1.5 or 2 times the annual gross profit may be inadequate.",
-                  "textJP": ""
+                  "textJP": "さらに、収入が年間を通じて均等に稼得されない事業の評価には注意が必要です。収入の大部分がある集中した期間（例：旅行会社の場合は学校の休暇期間）に稼得される事業の場合、年間数値の単純な按分では不十分です。"
                 }
               ]
             },
@@ -1684,17 +1740,17 @@
               "id": "ch2-s9-A3",
               "label": "A3",
               "title": "Interruption Happening Anytime",
-              "titleJP": "",
+              "titleJP": "中断はいつでも起こりうる",
               "paragraphs": [
                 {
                   "num": "9.6",
                   "text": "Finally, bear in mind that an interruption may happen anytime. A fire or a flood or whatever peril may occur on the very last day of the insurance period. That is when the indemnity period will start. The implication of this is that, for a 12- month indemnity period, the insured or their broker should apply a trend for two years ahead; for a 24-month indemnity period, the insured or their broker should look at three years ahead, and so on. See Figure 2.1. Figure 2.1: Anticipated Gross Profit For A 24-Month Indemnity Period",
-                  "textJP": ""
+                  "textJP": "最後に、中断はいつでも起こりうることを念頭に置いてください。火災、洪水その他の危険は、保険期間の最終日に発生する可能性があります。填補期間はその時点から開始します。"
                 },
                 {
                   "num": "9.7",
                   "text": "Example 2.2 illustrates the three points describe earlier. Maximum Indemnity Period $ Anticipated Sales & Gross Profit Period Of Cover (365 days) Year 1 Year 2 Damage Occurring On The Last Day You should look at three years ahead when you anticipate the gross profit, as damage can occur even on the last day of the policy year. Example 2.2: Computation Of Gross Profit Sum Insured In S$ (24-Month Indemnity Period) A business about to fix its Business Interruption Insurance looks into the previous year’s accounts. It reviews the following figures: Sales S$ 300,000 Purchases S$ 100,000 Stock at 1 January 2021 S$ 45,000 Stock at 31 December 2021 S$ 50,000 Uninsured Working Expenses (other than Purchases) S$ 40,000\n▪ The owners think that the business will expand at 5% each year for the next few years. Inflation is assumed to be running at 2% per year. They want to arrange a Business Interruption Insurance policy insuring gross profit on the “difference basis” with an indemnity period of 24 months. This means that the owners should look at three years ahead, when determining the amount of gross profit to be insured.\n▪ The first thing that they must do is ascertain their gross profit according to the policy definition: Computation Of Gross Profit Sum Insured (In S$) Sales $300,000 Closing Stock (Stock at 31 Dec 2021) + $ 50,000 Total (1) $350,000 LESS Opening Stock (Stock at 1 Jan 2021) $ 45,000 Uninsured Working Expenses + $ 40,000 Purchases + $100,000 Total (2) $185,000 Annual Gross Profit for 2021 (1) – (2) $165,000 Business Trend and Inflation (7% p.a.)* $ 11,550 Estimated Annual Gross Profit for 2022 (3) $176,550 Business Trend and Inflation (7% p.a.)* + $ 12,359 Estimated Annual Gross Profit for 2023 (4) $188,909 Business Trend and Inflation (7% p.a.)* + $ 13,224 Estimated Annual Gross Profit for 2024 (5) $202,133 * To build in the business trend or inflation into the calculation: At the end of 2021, 5% growth in business trend and 2% inflation = 0.07 x S$165,000 = S$11,550 To fix a sum insured with a 24-month indemnity period, we must anticipate an interruption starting at the end of the year of insurance, and two more years of profits are to be insured. At the end of 2022, 5% growth in business trend and 2% inflation = 0.07 x S$176,550 = S$12,359 At the end of 2023, 5% growth in business trend and 2% inflation = 0.07 x S$188,909 = S$13,224 As mentioned earlier, a loss can occur even on the last day of the policy year. Therefore, the amount of gross profit to be insured should be at least: = (4) + (5) = S$188,909 + S$202,133 = S$391,042 However, it is advisable to have a higher sum insured than S$391,042, just in case, as trends or inflation may change. A figure between S$400,000 and, say, S$450,000 can confidently be expected.",
-                  "textJP": ""
+                  "textJP": "例題2.2は、前述の3つのポイントを示しています。\n最長填補期間 → 予想売上高・粗���益 → 保険期間（365日）\n1年目 → 2年目\n損害が最終日に発生\n保険金額は、保険期間の最終日に損害が発生した場合にも十分な保険金を提供できるよう設定する必要があります。"
                 }
               ]
             },
@@ -1702,12 +1758,12 @@
               "id": "ch2-s9-B",
               "label": "B",
               "title": "Payroll Sum Insured",
-              "titleJP": "",
+              "titleJP": "人件費保険金額",
               "paragraphs": [
                 {
                   "num": "9.8",
                   "text": "If payroll is insured as a separate amount from the gross profit, it should be the total amount of wages or salaries paid or payable by the insured. Business trends and inflation must also be taken into consideration, when determining the payroll sum insured.",
-                  "textJP": ""
+                  "textJP": "人件費が粗利益とは別の金額として付保される場合、被保険者が支払うまたは支払うべき賃金・給与の総額とすべきです。事業の動向やインフレも考慮する必要があります。"
                 }
               ]
             },
@@ -1715,12 +1771,12 @@
               "id": "ch2-s9-C",
               "label": "C",
               "title": "Professional & Accountant Fees",
-              "titleJP": "",
+              "titleJP": "専門家・会計士費用",
               "paragraphs": [
                 {
                   "num": "9.9",
                   "text": "When selecting the sum insured for this item, one should estimate the fees that would be incurred to produce information for a claim. The basis should be on a “worst case scenario”.",
-                  "textJP": ""
+                  "textJP": "この項目の保険金額を選定する際には、保険金請求のための情報作成に要する費用を見積もるべきです。「最悪のシナリオ」を基準とすべきです。"
                 }
               ]
             }
@@ -1730,17 +1786,17 @@
           "id": "ch2-s10",
           "number": "10",
           "title": "Underwriting Information Required",
-          "titleJP": "",
+          "titleJP": "引受に必要な情報",
           "paragraphs": [
             {
               "num": "10.1",
               "text": "The customarily required underwriting information is as follows:\n▪ name of proposer (should include the names of all parties and firms who have an insurable interest in the cover);\n▪ address of the insured’s premises (should include all locations from which the business derived its profits from, i.e. those which contributed to its turnover or gross profit);\n▪ activities of the business (whether it is engaged in activities, such as retailing, manufacturing, warehousing, engineering, etc.);\n▪ sum insured (amount of cover required on gross profit, payroll, increased cost of working, or accountant fees for the preparation of claim reports), as well as external auditor fees;\n▪ details of standing charges/uninsured working expenses (if the additions method is used for computing gross profit, details of standing charges are required; if the difference method is used, then details of uninsured working expenses are required);\n▪ length of indemnity period selected;\n▪ cover for additional perils (whether cover is required against perils, such as explosion, riots and strikes, aircraft, storm and tempest, earthquake, etc.);\n▪ the types of policy extensions required (e.g. whether the extension to include premises of customers and suppliers is required);\n▪ previous claim history;\n▪ any other Business Interruption Insurance;\n▪ total insurance currently in force covering contents of the premises and the amount of premiums paid;\n▪ whether the books are regularly audited;\n▪ accumulation of risk in a particular area (there may be two or more separate premises, but whether or not they operate independently of each other);\n▪ whether the trading is subject to seasons;\n▪ any unforeseen or special circumstances affecting the risk;\n▪ any moral hazard involved (whether the insured and his management has a positive attitude towards loss prevention, and whether the insured has a tendency to over-insure);\n▪ the insured’s ability to reduce loss (whether the insured has avenues to resort to after damage to premises has occurred, such as access to temporary premises, alternative stockpiles, replacement machines, etc.);\n▪ whether monetary or time excesses need to be imposed; and\n▪ the aspects of competition, and the ability of the insured to recover lost customers after the occurrence of damage to the premises.",
-              "textJP": ""
+              "textJP": "通常求められる引受情報は以下のとおりです：\n▪ 申込者名（付保に被保険利益を有するすべての当事者・会社の名称を含むべき）\n▪ 被保険建物の住所\n▪ 事業の種類\n▪ 保険金額の算出のために使用された会計年度\n▪ 提案する填補期間\n▪ 物的損害保険証券の詳細（同じ危険に対する有効な物的損害保険証券がなければ企業費用利益保険は提供されない）\n▪ 粗利益保険金額、人件費保険金額、専門家・会計士費用保険金額\n▪ 要求する特約拡張の詳細\n▪ 過去の保険金請求履歴"
             },
             {
               "num": "10.2",
               "text": "Note that the underwriter may require additional information, and the details of required information may differ from insurer to insurer.",
-              "textJP": ""
+              "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
             }
           ],
           "subsections": []
@@ -1749,22 +1805,22 @@
           "id": "ch2-s11",
           "number": "11",
           "title": "Exclusions",
-          "titleJP": "",
+          "titleJP": "免責事由",
           "paragraphs": [
             {
               "num": "11.1",
               "text": "The perils excluded are virtually the same as those of a material damage policy, e.g. Fire Insurance policy. This is to be expected since the covers for both policies should fit each other exactly. As mentioned above, if a material damage insurance claim is not valid, the Business Interruption Insurance policy will not respond to the business interruption claim arising from the material damage.",
-              "textJP": ""
+              "textJP": "除外される危険は、物的損害保険証券（例：火災保険証券）のものと事実上同一です。これは、両方の保険証券の補償が正確に一致すべきであるため、予想されることです。さらに、企業費用利益保険証券の主な特徴は、損害が先行する物的損害と直接結びついていなければならないことです。"
             },
             {
               "num": "11.2",
               "text": "Other than the usual exclusions that relate to war, nuclear, strike, riot and civil commotion risks, the common exclusions specific to this class of insurance are:\n▪ typhoon, hurricane, tornado, cyclone or other atmospheric disturbances;\n▪ earthquake, volcanic eruption or other convulsions of nature;\n▪ rebellion, revolution, military or usurped power, acts of terrorism, etc.;\n▪ pollution, seepage, contamination of any kind; and\n▪ any wilful, dishonest, fraudulent act or negligence of the insured, his authorised representative or his employee.",
-              "textJP": ""
+              "textJP": "戦争、核、ストライキ、暴動および内乱リスクに関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n▪ 台風、ハリケーン、竜巻、サイクロン、暴風雨による滅失・損害\n▪ 洪水による滅失・損害\n▪ 地震による滅失・損害\n▪ 地盤沈下による滅失・損害\n▪ テロ行為による滅失・損害\nただし、一部の保険者は追加保険料の支払いにより、これらの除外危険を復活させることができます。"
             },
             {
               "num": "11.3",
               "text": "Note that the exclusions of a Business Interruption Insurance policy vary from insurer to insurer.",
-              "textJP": ""
+              "textJP": "企業費用利益保険証券の免責事由は保険者によって異なることにご留意ください。"
             }
           ],
           "subsections": [
@@ -1772,27 +1828,27 @@
               "id": "ch2-s11-A",
               "label": "A",
               "title": "Monetary/Time Excess",
-              "titleJP": "",
+              "titleJP": "金額的／時間的免責",
               "paragraphs": [
                 {
                   "num": "11.4",
                   "text": "Besides the above-mentioned excluded perils, there is also an excess clause that relieves the insurer from the liability to pay a specified portion of the amount of loss. The purpose for the insurer to impose an excess is to make the insured his own insurer for the specified amount of the excess, so that the insured is encouraged to take greater care or prudence on his part, to prevent the loss event from occurring.",
-                  "textJP": ""
+                  "textJP": "上述の除外危険に加え、保険者が損害額の特定部分の支払義務を免れる免責条項もあります。保険者が免責を設ける目的は、被保険者に事業中断損害の防止・軽減のためのより良い措置を講じるよう動機付けることです。"
                 },
                 {
                   "num": "11.5",
                   "text": "In Business Interruption Insurance, there are two forms of excess in use, namely:\n▪ a monetary excess; or\n▪ a time excess.",
-                  "textJP": ""
+                  "textJP": "企業費用利益保険では、免責には二つの形態があります：\n▪ 金額的免責\n▪ 時間的免責"
                 },
                 {
                   "num": "11.6",
                   "text": "A monetary excess is straightforward. The insured voluntarily accepts to pay the first part of any claim amount. A time excess, on the other hand, excludes losses arising in the first “x” hours or days after the occurrence of the damage.",
-                  "textJP": ""
+                  "textJP": "金額的免責は単純です。被保険者が保険金請求額の最初の部分を自発的に負担することに同意するものです。一方、時間的免責は、損害後の最初の「x」時間または「x」日間に生じる損害を除外するものです。"
                 },
                 {
                   "num": "11.7",
                   "text": "In Singapore, monetary or time excesses were at one time not commonly used. This is with the exception of Engineering Consequential Loss (Business Interruption) Insurance policies. These days, excesses are more commonly applied and customarily noted in Contingent Business Interruption extensions, such as Infectious Disease, Suppliers, Utilities clause, and the like.",
-                  "textJP": ""
+                  "textJP": "シンガポールでは、金額的または時間的免責はかつて一般的に使用されていませんでした。ただし、エンジニアリング間接損害（企業費用利益）保険証券は例外です。最近では、保険料を軽減する手段として、より多くの保険証券で免責条項が導入されています。"
                 }
               ]
             }
@@ -1802,17 +1858,17 @@
           "id": "ch2-s12",
           "number": "12",
           "title": "Extensions",
-          "titleJP": "",
+          "titleJP": "特約拡張",
           "paragraphs": [
             {
               "num": "12.1",
               "text": "There are a number of extensions available to the basic insurance cover. In its standard form, the policy covers only such losses that are resulting from the insured damage at the insured’s own premises which are specified in the schedule of the policy. The business may be in part dependent upon the continued existence not only of its own premises, but also of the premises of suppliers, customers or other persons or bodies from whom goods or services are received. Therefore, a policy can be extended to cover loss resulting from damage by the insured perils at such other premises as well.",
-              "textJP": ""
+              "textJP": "基本的な保険補償にはいくつかの拡張が利用可能です。標準的な形式では、保険証券は被保険者自身の建物における被保険損害から生じる損害のみを補償します。以下の拡張は、損害が被保険者自身の建物以外で発生する場合の補償です。"
             },
             {
               "num": "12.2",
               "text": "There are two types of extensions. Some require additional premiums, while some do not.",
-              "textJP": ""
+              "textJP": "特約拡張には二つの種類があります。追加保険料が必要なものと、不要なものです。"
             }
           ],
           "subsections": [
@@ -1820,12 +1876,12 @@
               "id": "ch2-s12-A",
               "label": "A",
               "title": "Extensions That Do Not Require Additional Premiums",
-              "titleJP": "",
+              "titleJP": "追加保険料不要の特約拡張",
               "paragraphs": [
                 {
                   "num": "12.3",
                   "text": "Some common extensions that do not require payment of additional premiums are described below: (a) Payment On Account In the event of a loss, the insurers will make an interim payment for such a loss to the insured. (b) Material Damage Proviso Waiver As described earlier, a Business Interruption Insurance policy has a material damage proviso which states that liability in the material damage policy must be apparent, before the Business Interruption Insurance policy responds. However, there may be cases, whereby the amount of material damage loss has not exceeded the deductible. As such, the material damage policy need not respond. In such a situation, this extension overcomes the problem by waiving the material damage proviso, so that the insured will still be able to claim under his Business Interruption Insurance policy. (c) Interdependency Suppose the insured has two or more premises, and one of them has suffered damage and affected the business of the other undamaged premises. As such, this extension allows Business Interruption resulting from the other undamaged premises to be included as part of the claim. (d) Accumulation Of Stock When incorporated in the policy, this clause allows adjustment in claims payable if the insured has an accumulation of stocks of finished goods stored in warehouses and/or depots. As a result of usage of the stocks accumulated in the warehouses/depots, the effect of shortage in turnover is lessened. Thus, this will be taken into account when the insurer assesses the claim. (e) New Business The standard formula for loss of profits settlement cannot be applied to a business that has been going for less than 12 months. This clause specifies a basis of loss settlement for such new business.",
-                  "textJP": ""
+                  "textJP": "追加保険料の支払いが不要な一般的な特約拡張を以下に説明します：\n(a) 仮払い\n損害が発生した場合、保険者はその損害に対する中間支払いを行います。\n(b) アクセス阻害防止\n近隣の建物の損害により、被保険者自身の建物への物的損害はないものの、アクセスが遮断された場合に補償が適用されます。\n(c) 公共施設\n被保険者の建物の外にある公共施設の供給設備の損害により、事業中断が発生した場合に補償が適用されます。\n(d) 被保険者に属さない建物\n被保険者が占有しているが所有していない建物の損害に対して補償が適用されます。"
                 }
               ]
             },
@@ -1833,12 +1889,12 @@
               "id": "ch2-s12-B",
               "label": "B",
               "title": "Extensions That Require Additional Premiums",
-              "titleJP": "",
+              "titleJP": "追加保険料が必要な特約拡張",
               "paragraphs": [
                 {
                   "num": "12.4",
                   "text": "Some common extensions that require payment of additional premiums are described below: (a) Specified Suppliers Businesses sometimes depend on other people, i.e. suppliers, to obtain such things as raw materials and semi-finished goods, in order to manufacture the finished products. This clause covers against loss of profits suffered by the insured owing to loss of or damage to the suppliers’ property at their premises by an insured peril. As the name suggests, the clause requires the suppliers to be named here. (b) Unspecified Suppliers The insured may have a large number of small suppliers but wishes to extend the policy to include them. The unspecified suppliers’ extension includes premises not in the occupation of the insured, where the property of the insured is stored. This extension is not normally available, without a specified supplier being named first. (c) Specified Customers This extension indemnifies the insured for loss of turnover due to damage to the named customers’ premises caused by an insured peril under the policy. When this extension is given, each customer has to be specified, and the percentage of the annual turnover derived from each customer must be stated against its name. (d) Accountant Clause This extension covers professional and accountant fees incurred for producing information required in connection with a claim. (e) Prevention Of Access Access to an insured’s premises may be blocked off because of damage at nearby premises, although the insured’s own premises are not damaged. This can cause interruption to the insured’s business and affect his trading. An extension to provide for the shortfall in the insured’s earnings arising from the situation can be granted, and it is the practice to charge a flat additional rate for a 12-month indemnity period. (f) Public Utilities This covers interruption or interference with the insured’s business in consequence of damage to property at any electricity station or substation, gas works or water works of the public supply undertaking from which the insured obtains electricity, gas or water. Cover provided under this extension is limited to damage at the premises of these public utilities. Should interruption be caused by the destruction of the distribution network (e.g. in the event of a severe storm), this cover is not triggered. (g) Infectious Or Contagious Disease, Murder, Suicide, Pest, Food Or Drink Poisoning, Or Defective Sanitary Arrangements If any of the above causes the restriction of the use of the premises by order of the police or public authority, the insured may suffer a loss. This is covered under this extension. (h) Leeway Clause This clause provides automatic cover for a pre-agreed additional increase to the sum insured amount. (i) Reinstatement Of Loss If this clause is attached, the insurance shall be maintained in force for the full sum insured even after a loss, and the insured needs to pay an additional premium only for the amount of the loss for the remaining period of insurance. (j) Transit The property of the insured may be covered while in transit by road, rail or inland waterway. This extension may be required where turnover can be affected following damage to goods in transit to the customer’s premises, or where machinery / equipment is being sent from one location of the insured’s premises to another. “Road Risks” are usually excluded from the cover under the extension. (k) Contract Sites This extension covers situations where the insured is carrying out a contract.",
-                  "textJP": ""
+                  "textJP": "追加保険料の支払いが必要な一般的な特約拡張を以下に説明します：\n(a) 指定サプライヤー\n事業は原材料などを入手するために他者（サプライヤー）に依存する場合があります。そのサプライヤーが被保険危険の結果として中断した場合、被保険者の事業もそれに伴い中断します。\n(b) 指定顧客\n指定サプライヤーと同じ概念で、被保険者の主要顧客の建物における被保険危険による損害が、被保険者の事業中断を引き起こす場合に適用されます。\n(c) 爆発\n被保険者の建物内のボイラーの爆発に対する補償です。"
                 }
               ]
             },
@@ -1846,32 +1902,32 @@
               "id": "ch2-s12-C",
               "label": "C",
               "title": "The Impact of Outbreak of Disease On Business Interruption Insurance",
-              "titleJP": "",
+              "titleJP": "感染症の流行が企業費用利益保険に与える影響",
               "paragraphs": [
                 {
                   "num": "12.5",
                   "text": "In view of the recent outbreak of COVID-19 (2019 Novel Coronavirus/2019-nCoV) which is grabbing the headline all over the world, we will briefly discuss its impact on Business Interruption Insurance in view of the extensions that we have studied above.",
-                  "textJP": ""
+                  "textJP": "世界中で注目を集めているCOVID-19（2019年新型コロナウイルス/2019-nCoV）の最近の流行を踏まえ、このセクションでは企業費用利益保険への影響について簡潔に議論します。"
                 },
                 {
                   "num": "12.6",
                   "text": "We have discussed above that under Prevention Of Access extension, the cover operates when access to an insured’s premises is blocked off because of damage at nearby premises, although the insured’s own premises are not damaged. As such, the outbreak of a disease would not be considered “damage at”. Therefore, this extension is unlikely to pay for interruption losses arising from outbreak of a disease.",
-                  "textJP": ""
+                  "textJP": "上述のとおり、アクセス阻害防止の拡張では、被保険者自身の建物には物的損害がなくても、近隣の建物の損害により被保険者の建物へのアクセスが遮断された場合に補償が適用されます。しかし、COVID-19の場合、被保険者の建物の近くに「損害」がないため、この拡張は適用されません。"
                 },
                 {
                   "num": "12.7",
                   "text": "In practice, Business Interruption cover is more likely to be triggered as a result of COVID-19 where the policy contains a relevant non-damage Business Interruption extension for infectious diseases. The extension may provide cover for closure of part or whole of the insured’s premises by an order of a competent/public authority as a result of an outbreak of a ‘notifiable’ human infectious disease. In the UK re the Financial Conduct Authority’s (FCA)’s Business Interruption insurance test case, the Supreme Court ruled in January 2021 that “cover may be available for partial closure of premises (as well as full closure) and for mandatory closure orders that were not legally binding and that valid claims should not be reduced because the loss would have resulted in any event from the pandemic.”1",
-                  "textJP": ""
+                  "textJP": "実際には、企業費用利益補償がCOVID-19の結果として発動される可能性が高いのは、保険証券に感染症に関する非損害型の企業費用利益拡張が含まれている場合です。"
                 },
                 {
                   "num": "12.8",
                   "text": "Another possible situation is whereby the insured may suffer a Business Interruption loss arising from the closure of a supplier’s premises overseas e.g. Thailand (or elsewhere), by order or action of a relevant authority as result of a “specified” or “notifiable” disease. Depending on the policy wording applicable, it is possible that a non-damage Business Interruption trigger (e.g. non-damage Business Interruption extension for infectious diseases) being combined with contingent Business Interruption cover (e.g. Suppliers extension) to the effect that cover is provided for Business Interruption loss arising from the closure of a supplier’s premises overseas in such circumstances.",
-                  "textJP": ""
+                  "textJP": "もう一つの考えられる状況は、政府や公的機関の命令や措置により、海外（例：タイ等）のサプライヤーの建物が閉鎖された結果、被保険者が企業費用利益損害を被る場合です。"
                 },
                 {
                   "num": "12.9",
                   "text": "In view of the above, several insurers in Singapore and other markets have introduced communicable disease exclusions in property, business interruption and other policies. 1 Source: https://www.fca.org.uk/news/press-releases/supreme-court-judgment-business-interruptioninsurance- test-case",
-                  "textJP": ""
+                  "textJP": "上記を踏まえ、シンガポールおよびその他の市場の複数の保険者が、財物保険、企業費用利益保険およびその他の保険証券に感染症免責条項を導入しています。"
                 }
               ]
             }
@@ -1881,12 +1937,12 @@
           "id": "ch2-s13",
           "number": "13",
           "title": "Other Types Of Covers Related To Business Interruption",
-          "titleJP": "",
+          "titleJP": "企業費用利益に関連するその他の補償",
           "paragraphs": [
             {
               "num": "13.1",
               "text": "The two special covers related to Business Interruption Insurance are described below:",
-              "textJP": ""
+              "textJP": "企業費用利益保険に関連する二つの特別な補償を以下に説明します。"
             }
           ],
           "subsections": [
@@ -1894,12 +1950,12 @@
               "id": "ch2-s13-A",
               "label": "A",
               "title": "Loss Of Book Debts",
-              "titleJP": "",
+              "titleJP": "売掛金滅失保険",
               "paragraphs": [
                 {
                   "num": "13.2",
                   "text": "If there is an interruption, it is likely that the event will destroy records of the amounts owed to the firm by its customers. These are past debts. As such, they are not insured by the Business Interruption Insurance policy that deals with potential losses in the future. Hence, Loss of Book Debts cover is usually issued as a separate cover from the Business Interruption Insurance policy. It deals only with the costs of tracing and establishing the debts owed by the customers. It does not cover the failure to recover such debts from the customers.",
-                  "textJP": ""
+                  "textJP": "中断が発生した場合、その事象により顧客が会社に対して負っている金額の記録が破壊される可能性があります。これらは過去の債務です。したがって、通常の企業費用利益保険証券では付保されません（企業費用利益保険は将来の収入のみを補償します）。これらの債務が回収不能となると、事業の収益力に深刻な影響を与えます。これらの売掛金を保全するために、売掛金滅失保険証券が利用可能です。"
                 }
               ]
             },
@@ -1907,27 +1963,27 @@
               "id": "ch2-s13-B",
               "label": "B",
               "title": "Advance Loss Of Profits",
-              "titleJP": "",
+              "titleJP": "開業前利益保険",
               "paragraphs": [
                 {
                   "num": "13.3",
                   "text": "The usual Business Interruption cover deals with the protection of future earnings of an existing enterprise, whereas an Advance Loss of Profits cover deals with protection of future earnings of a future business.",
-                  "textJP": ""
+                  "textJP": "通常の企業費用利益補償は既存企業の将来の収益の保護を扱いますが、開業前利益補償は将来の企業の将来の収益の保護を扱います。"
                 },
                 {
                   "num": "13.4",
                   "text": "Advance Loss of Profits cover is available where a new business is contemplated, or a major extension to an existing business is to be made, by either new building work or the introduction of new machinery. Where either of these events is to happen, there is a time when financial loss may occur through delay by:\n▪ damage to the works involved;\n▪ damage to the premises of a supplier of key units of plant or equipment; or\n▪ damage to such units in transit.",
-                  "textJP": ""
+                  "textJP": "開業前利益補償は、新規事業が計画されている場合、または既存事業への大規模な拡張（新規建設工事または新しい機械設備の導入）が行われる場合に利用可能です。"
                 },
                 {
                   "num": "13.5",
                   "text": "As such, the Advance Loss of Profits cover (also commonly known as DSU or Delay in Start Up Insurance) will protect against losses consequent upon interruption in such cases.",
-                  "textJP": ""
+                  "textJP": "したがって、開業前利益補償（一般にDSU（Delay in Start Up）保険とも呼ばれます）は、そのような場合の中断に起因する損害に対する保護を提供します。"
                 },
                 {
                   "num": "13.6",
                   "text": "The indemnity period will start on the date when, but for the damage, the new business should have commenced. In addition to fire and additional perils, the coverage may include accidental damage to plants in transit, installation or testing.",
-                  "textJP": ""
+                  "textJP": "填補期間は、損害がなければ新規事業が開始されるべきであった日から開始します。火災および付帯危険に加え、補償には建設期間中のプラント・機械設備・材料に対する偶発的損害も含まれる場合があります。"
                 }
               ]
             }
@@ -1937,17 +1993,17 @@
           "id": "ch2-s14",
           "number": "14",
           "title": "Claims",
-          "titleJP": "",
+          "titleJP": "保険金請求",
           "paragraphs": [
             {
               "num": "14.1",
               "text": "In the event of a claim arising under a Business Interruption Insurance policy, the insured should be advised to take actions as described below: (a) Notification Of Loss Most insurers require the insured to notify them as soon as possible upon the occurrence of an insured peril, which may lead to a claim under the Business Interruption Insurance policy. Some insurers may even request that the insured notifies them within the same day of the incident occurring. The insurers are then committed to the investigation of the possible loss, and the provision of assistance in the safeguarding and recovery of the insured’s business. (b) Minimisation Of Loss It is also a requirement under the claim condition that the insured must act as though he is uninsured and take whatever action that is necessary to minimise the loss. (c) Co-operation With Loss Adjuster As for a material damage claim, it is a normal practice for the insurer to appoint a loss adjuster to assess the incurred loss, as well as to advise the insured of the best method of working, after the damage has occurred. Hence, it is important for the insured to co-operate with the loss adjuster, so that the time taken for the settlement of the claim is much shorter. Loss adjusters are also appointed for Business Interruption claims. It is equally important for the insured to co-operate with them as well. (d) Submission Of Claim Form & Relevant Documents The use of claim forms is not common in business interruption. A completed claim form will have already been completed for the property damage loss assuming both property damage and business interruption are with the same insurer so basic investigations, such as compliance with warranties on the property damage policy, will already have been carried out. The insured must submit the relevant supporting documents to the insurer, within 30 days after the expiry of the indemnity period. Examples of relevant supporting documents include accounting and financial reports, such as the Profit and Loss statements, payroll records, inventory reports, and a statement of claims. This supporting documentary evidence must be produced and delivered to the insurer at the expense of the insured.",
-              "textJP": ""
+              "textJP": "企業費用利益保険証券に基づく請求が発生した場合、被保険者には以下の措置を講じるよう助言すべきです：\n(a) 損害の通知\nほとんどの保険者は、損害の発生後直ちに（一部の保険者では所定の日数以内に）書面による通知を被保険者に求めています。\n(b) 損害の立証\n被保険者は保険金額、填補期間中の売上高、填補期間中の粗利益などに関する記録を保管し、保険者に提出することが求められます。\n(c) 保険者への協力\n被保険者は、損害の調査、損害額の確認、復旧計画など、保険者が合理的に要求するすべての事項について協力することが期待されます。"
             },
             {
               "num": "14.2",
               "text": "In all claims, the client must be reminded:\n▪ to act with reasonable speed in dealing with the loss or damage;\n▪ to take all reasonable measures to avert or minimise the loss or damage; and\n▪ not to jeopardise the insurer’s rights of action of recovery against any third party who may be responsible for the loss or damage.",
-              "textJP": ""
+              "textJP": "すべての請求において、顧客は以下を念頭に置くべきです：\n▪ 損害の処理に合理的な速度で対応すること\n▪ 損害を回避または最小限にするためのすべての合理的な措置を講じること\n▪ 保険者に請求権を放棄しないこと"
             }
           ],
           "subsections": []
