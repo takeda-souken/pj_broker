@@ -6,7 +6,7 @@
       "id": "ch1",
       "number": 1,
       "title": "THE INSURANCE AND REINSURANCE MARKET",
-      "titleJP": "",
+      "titleJP": "保険と再保険の市場",
       "outline": [
         "Introduction",
         "The Insurance and Reinsurance Market",
@@ -18,7 +18,17 @@
         "Rating Agencies",
         "Loss Adjusters"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "保険・再保険市場",
+        "シンガポール保険・再保険市場の構造",
+        "代替流通チャネル",
+        "保険比較サイト",
+        "保険業界団体",
+        "その他の保険関連機関",
+        "格付機関",
+        "損害査定人"
+      ],
       "learningOutcomes": [
         "know the types of sellers of insurance",
         "know who are the buyers, intermediaries and sellers in the general insurance and reinsurance markets",
@@ -31,18 +41,29 @@
         "understand the role of rating agencies",
         "understand the role of loss adjusters in insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "保険の売り手の種類を知る",
+        "損害保険および再保険市場における買い手、仲介者、売り手が誰であるかを知る",
+        "シンガポール市場における保険代理店、保険ブローカー、再保険ブローカーの種類を知る",
+        "損害保険代理店と損害保険ブローカーの主な違いを認識する",
+        "シンガポールの損害保険および再保険市場の構造を理解する",
+        "保険のさまざまな代替流通チャネルを理解する",
+        "保険における保険比較サイトの性質を知る",
+        "シンガポール保険業界の主要な業界団体およびその他の関連機関について、その主な役割と目的を含めて理解する",
+        "格付機関の役割を理解する",
+        "保険における損害査定人の役割を理解する"
+      ],
       "sections": [
         {
           "id": "ch1-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In this chapter, we shall examine the insurance and reinsurance market including its sellers, intermediaries and buyers. We shall also discuss alternative channels of distribution and web aggregators before examining insurance trade associations, other insurance related bodies, rating agencies and loss adjusters.",
-              "textJP": ""
+              "textJP": "本章では、保険・再保険市場について、売り手、仲介者、買い手を含めて検討します。また、保険業界団体、その他の保険関連機関、格付機関、損害査定人について検討する前に、代替流通チャネルおよび保険比較サイトについても取り上げます。"
             }
           ],
           "subsections": []
@@ -51,12 +72,12 @@
           "id": "ch1-s2",
           "number": "2",
           "title": "The Insurance And Reinsurance Market",
-          "titleJP": "",
+          "titleJP": "保険・再保険市場",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "Like any other market, the insurance market comprises:\n▪ sellers;\n▪ intermediaries (or middlemen);\n▪ buyers.",
-              "textJP": ""
+              "textJP": "他の市場と同様に、保険市場は以下の要素で構成されています。\n▪ 売り手\n▪ 仲介者（ミドルマン）\n▪ 買い手"
             }
           ],
           "subsections": [
@@ -64,12 +85,12 @@
               "id": "ch1-s2-A",
               "label": "A",
               "title": "The Sellers",
-              "titleJP": "",
+              "titleJP": "売り手",
               "paragraphs": [
                 {
                   "num": "2.2",
                   "text": "The sellers of insurance in Singapore comprise:\n▪ Direct Insurers\n▪ Reinsurers\n▪ Captive Insurers\n▪ Approved Marine, Aviation and Transit (MAT) Insurers\n▪ Lloyd’s of London\n▪ Marine Mutuals",
-                  "textJP": ""
+                  "textJP": "シンガポールにおける保険の売り手は以下で構成されています。\n▪ 元受保険者\n▪ 再保険者\n▪ キャプティブ保険会社\n▪ 認可海上・航空・運送（MAT）保険者\n▪ ロイズ（Lloyd's of London）\n▪ 海上相互保険組合"
                 }
               ]
             },
@@ -77,22 +98,22 @@
               "id": "ch1-s2-A1",
               "label": "A1",
               "title": "Direct Insurers",
-              "titleJP": "",
+              "titleJP": "元受保険者",
               "paragraphs": [
                 {
                   "num": "2.3",
                   "text": "These are insurance companies that exist primarily to provide insurance protection to insurance buyers in Singapore.",
-                  "textJP": ""
+                  "textJP": "元受保険者とは、主としてシンガポールの保険購入者に保険の保護を提供するために存在する保険会社です。"
                 },
                 {
                   "num": "2.4",
                   "text": "Both domestic and foreign direct insurers do business in Singapore. Most foreign insurers are British, European or American companies. Several Asian insurers also operate in this country. All insurance companies operating in Singapore must be licensed under the Insurance Act 1966 and are regulated and supervised by the MAS. All insurance companies are classified according to the class of insurance business that they underwrite. Direct Insurers Reinsurers Captive Insurers Approved Marine, Aviation and Transit (MAT ) Marine Mutuals Marine Mutuals Lloyd’s of London",
-                  "textJP": ""
+                  "textJP": "国内および海外の元受保険者がシンガポールで事業を行っています。海外の保険会社の多くは英国、欧州、または米国の企業です。アジアの保険会社も数社がこの国で営業しています。シンガポールで営業するすべての保険会社は、Insurance Act 1966（保険法1966年）に基づく免許を取得し、MAS（シンガポール金融管理庁）の規制および監督を受けなければなりません。すべての保険会社は、引き受ける保険事業の種類に応じて分類されます。元受保険者　再保険者　キャプティブ保険会社　認可海上・航空・運送（MAT）保険者　海上相互保険組合　ロイズ（Lloyd's of London）"
                 },
                 {
                   "num": "2.5",
                   "text": "Direct Insurers comprise:\n▪ Direct Life Insurers\n▪ Direct General Insurers\n▪ Direct Composite Insurers (a) Direct life insurers are licensed to write life policies as well as long-term accident and health policies. (b) Direct general insurers are licensed to write all insurance business other than life policies and long-term accident and health policies. Direct general insurers include specialist insurers that write marine mutual insurance business, trade credit and political risk insurance business as well as financial guarantee insurance business. (c) Direct composite insurers are licensed to write both life and general insurance business.",
-                  "textJP": ""
+                  "textJP": "元受保険者は以下で構成されます。\n▪ 元受生命保険者\n▪ 元受損害保険者\n▪ 元受複合保険者\n(a) 元受生命保険者は、生命保険契約および長期傷害・健康保険契約を引き受ける免許を有します。\n(b) 元受損害保険者は、生命保険契約および長期傷害・健康保険契約以外のすべての保険事業を引き受ける免許を有します。元受損害保険者には、海上相互保険事業、貿易信用・政治リスク保険事業、および金融保証保険事業を引き受ける専門保険者が含まれます。\n(c) 元受複合保険者は、生命保険および損害保険の両方の事業を引き受ける免許を有します。"
                 }
               ]
             },
@@ -100,22 +121,22 @@
               "id": "ch1-s2-A2",
               "label": "A2",
               "title": "Reinsurers",
-              "titleJP": "",
+              "titleJP": "再保険者",
               "paragraphs": [
                 {
                   "num": "2.6",
                   "text": "These are companies who act as insurers to direct insurers. They are licensed in Singapore and are restricted to carrying out life reinsurance and/or general reinsurance business in Singapore. They are not permitted to write direct business and are only allowed to assume all, or part of the insurance or reinsurance risks written by another insurer. They do not deal with the general public; instead, they liaise with the direct insurers directly or through reinsurance intermediaries (reinsurance brokers).",
-                  "textJP": ""
+                  "textJP": "再保険者は、元受保険者に対して保険者として機能する会社です。シンガポールで免許を取得しており、シンガポールにおける生命再保険および／または損害再保険事業の引き受けに限定されています。元受事業を引き受けることは許可されておらず、他の保険者が引き受けた保険または再保険リスクの全部または一部を引き受けることのみが認められています。一般消費者とは取引せず、元受保険者と直接、または再保険仲介者（再保険ブローカー）を通じて連携します。"
                 },
                 {
                   "num": "2.7",
                   "text": "Under the Insurance (Authorised Reinsurers) Regulations of the Insurance Act 1966, overseas reinsurers may apply for authorisation in respect of life and/or general reinsurance business. Once authorised, they are allowed to solicit business and collect premiums from insurers in Singapore.",
-                  "textJP": ""
+                  "textJP": "Insurance Act 1966のInsurance (Authorised Reinsurers) Regulationsに基づき、海外の再保険者は生命および／または損害再保険事業に関する認可を申請することができます。認可を受けると、シンガポールの保険者から事業を勧誘し、保険料を徴収することが認められます。"
                 },
                 {
                   "num": "2.8",
                   "text": "The insurer that transfers the risks is known as the ceding company, the cedant or the reinsured. Reinsurers also transfer some of their risks to other reinsurers. This process of risk transfer is known as retrocession. The assuming reinsurer is called the retrocessionaire, while the ceding reinsurer is called the retrocedent.",
-                  "textJP": ""
+                  "textJP": "リスクを移転する保険者は、出再会社、出再者（セダント）、または再保険付保者として知られています。再保険者もまた、自らのリスクの一部を他の再保険者に移転します。このリスク移転のプロセスは再々保険（レトロセッション）として知られています。リスクを引き受ける再保険者は再々保険者（レトロセッショネア）と呼ばれ、出再する再保険者は再出再者（レトロセデント）と呼ばれます。"
                 }
               ]
             },
@@ -123,12 +144,12 @@
               "id": "ch1-s2-A3",
               "label": "A3",
               "title": "Captive Insurers",
-              "titleJP": "",
+              "titleJP": "キャプティブ保険会社",
               "paragraphs": [
                 {
                   "num": "2.9",
                   "text": "Captive insurers are licensed in Singapore to insure principally the risks of their parents and related companies as defined under Section 6 of the Companies Act 1967. Normally, they are subsidiaries of, or wholly owned by large multinational corporations, whereby the parent and the related companies will first purchase insurance covers from their own captive insurers, who then transfer part of the risks to the reinsurers.",
-                  "textJP": ""
+                  "textJP": "キャプティブ保険会社は、Companies Act 1967（会社法1967年）第6条に定義される親会社および関連会社のリスクを主として引き受けるためにシンガポールで免許を取得した保険会社です。通常、大規模な多国籍企業の子会社または完全子会社であり、親会社および関連会社はまず自社のキャプティブ保険会社から保険カバーを購入し、キャプティブ保険会社はリスクの一部を再保険者に移転します。"
                 }
               ]
             },
@@ -136,17 +157,17 @@
               "id": "ch1-s2-A4",
               "label": "A4",
               "title": "Approved Marine, Aviation and Transit (MAT) Insurers",
-              "titleJP": "",
+              "titleJP": "認可海上・航空・運送（MAT）保険者",
               "paragraphs": [
                 {
                   "num": "2.10",
                   "text": "Overseas insurers in designated countries may apply for approval to provide direct marine, aviation and transit (MAT) insurance in Singapore.",
-                  "textJP": ""
+                  "textJP": "指定国の海外保険者は、シンガポールにおける元受の海上・航空・運送（MAT）保険の提供について認可を申請することができます。"
                 },
                 {
                   "num": "2.11",
                   "text": "Approved MAT insurers:\n▪ Do not write insurance business, other than the collection or receipt of premiums in relation to MAT insurance business.\n▪ Do not have a physical presence in Singapore, and provide insurance services from overseas to persons in Singapore.\n▪ Are subject to limited oversight by MAS as compared to licensed insurers. For example, they are not required to set up and maintain separate insurance funds for policies taken out by persons in Singapore or comply with solvency margin requirements.",
-                  "textJP": ""
+                  "textJP": "認可MAT保険者は、以下の特徴があります。\n▪ MAT保険事業に関する保険料の徴収または受領以外の保険事業は行いません。\n▪ シンガポールに物理的な拠点を持たず、海外からシンガポールの顧客に保険サービスを提供します。\n▪ 免許保険者と比較して、MASによる監督は限定的です。例えば、シンガポールの顧客の保険契約のために別個の保険基金を設置・維持する義務や、ソルベンシー・マージン要件を遵守する義務はありません。"
                 }
               ]
             },
@@ -154,12 +175,12 @@
               "id": "ch1-s2-A5",
               "label": "A5",
               "title": "Lloyd’s Of London",
-              "titleJP": "",
+              "titleJP": "ロイズ（Lloyd's of London）",
               "paragraphs": [
                 {
                   "num": "2.12",
                   "text": "Lloyd’s is not a single insurance company. Instead, it is a specialist insurance market formed in 1686 and governed by an Act of Parliament in England (called the Lloyd’s Act 1871). Lloyd’s does not write insurance business, but merely provides the infrastructure, including the premises and facilities for its “underwriting” members to conduct insurance business.",
-                  "textJP": ""
+                  "textJP": "ロイズは単一の保険会社ではありません。1686年に設立された専門保険市場であり、英国議会の法律（Lloyd's Act 1871）によって統治されています。ロイズ自体は保険事業を引き受けず、その「引受」メンバーが保険事業を行うための施設を含むインフラを提供するにとどまります。"
                 }
               ]
             },
@@ -167,22 +188,22 @@
               "id": "ch1-s2-A5A",
               "label": "A5A",
               "title": "How Does Lloyd’s Operate?",
-              "titleJP": "",
+              "titleJP": "ロイズの運営方法",
               "paragraphs": [
                 {
                   "num": "2.13",
                   "text": "The insurance business at Lloyd’s is transacted by thousands of underwriting members, also known as names. Until 1994, only individual members were admitted as underwriting members with unlimited liability. This meant that all members were personally liable for their share of the risks accepted to the full extent of their personal wealth. From January 1994, corporate capital was introduced, so that the resources of corporate investors, such as investment institutions, specialist investors, international insurance companies, would help to strengthen the capital base of Lloyd’s. Unlike individual underwriting members, corporate members have limited liability in respect of the business written. The majority of the underwriting capacity at Lloyd’s today is provided by these corporate members.",
-                  "textJP": ""
+                  "textJP": "ロイズにおける保険事業は、ネーム（names）としても知られる数千人の引受メンバーによって行われます。1994年まで、個人メンバーのみが無限責任を負う引受メンバーとして認められていました。これは、すべてのメンバーが引き受けたリスクの持分について、個人資産の全額をもって個人的に責任を負うことを意味していました。1994年1月から法人資本が導入され、投資機関、専門投資家、国際保険会社などの法人投資家の資金がロイズの資本基盤の強化に活用されるようになりました。個人引受メンバーとは異なり、法人メンバーは引き受けた事業について有限責任を負います。現在のロイズの引受能力の大部分は、これらの法人メンバーによって提供されています。"
                 },
                 {
                   "num": "2.14",
                   "text": "The underwriting members are grouped into syndicates, with each syndicate comprising a few to several hundred members, specialising in a particular class or classes of business. The risks underwritten at Lloyd’s can broadly be grouped into the main classes of insurance business, including accident & health, aviation, casualty, energy, marine, motor, property, and reinsurance.",
-                  "textJP": ""
+                  "textJP": "引受メンバーはシンジケートにグループ化され、各シンジケートは数名から数百名のメンバーで構成され、特定の種類の保険事業を専門としています。ロイズで引き受けられるリスクは、傷害・健康、航空、賠償責任、エネルギー、海上、自動車、財物、再保険を含む主要な保険事業の種類に大別することができます。"
                 },
                 {
                   "num": "2.15",
                   "text": "The underwriting syndicates are in turn managed by managing agents, which are companies set up to manage one or more syndicates, on behalf of the members (or capital providers). The managing agent employs the underwriting staff and handles the day-to-day running of a syndicate’s infrastructure and operations.",
-                  "textJP": ""
+                  "textJP": "引受シンジケートは、さらにマネージング・エージェントによって管理されます。マネージング・エージェントは、メンバー（資本提供者）に代わって1つ以上のシンジケートを管理するために設立された会社です。マネージング・エージェントは引受スタッフを雇用し、シンジケートのインフラと業務の日常的な運営を担当します。"
                 }
               ]
             },
@@ -190,12 +211,12 @@
               "id": "ch1-s2-A6",
               "label": "A6",
               "title": "Marine Mutuals",
-              "titleJP": "",
+              "titleJP": "海上相互保険組合",
               "paragraphs": [
                 {
                   "num": "2.16",
                   "text": "It is common for shipowners or other maritime operators to come together to form an insurance mutual that provides various types of insurance, including purchasing reinsurance protection, to cover the risks of the group. These insurance mutuals are sometimes referred to as marine mutuals. These mutuals are typically called “Clubs”; for example, Protection and Indemnity Clubs (P&I Clubs), Hull Clubs and War Risks Clubs. These Clubs are differentiated by the types of cover that they provide. P&I Clubs are essentially associations of shipowners that agree to insure each other for third-party liabilities on an indemnity basis.",
-                  "textJP": ""
+                  "textJP": "船主やその他の海運事業者が集まって保険相互組合を結成し、グループのリスクをカバーするために再保険の購入を含むさまざまな種類の保険を提供することは一般的です。これらの保険相互組合は、海上相互保険組合と呼ばれることがあります。これらの相互組合は通常「クラブ」と呼ばれます。例えば、P&Iクラブ（船主相互保険組合）、ハル・クラブ、戦争リスク・クラブなどです。これらのクラブは、提供するカバーの種類によって区別されます。P&Iクラブは、本質的に船主の集まりであり、被保険者間で損害填補ベースで第三者賠償責任を相互に保険し合う組合です。"
                 }
               ]
             },
@@ -203,22 +224,22 @@
               "id": "ch1-s2-B",
               "label": "B",
               "title": "The Intermediaries",
-              "titleJP": "",
+              "titleJP": "仲介者",
               "paragraphs": [
                 {
                   "num": "2.17",
                   "text": "Intermediaries refer to insurance agents and brokers, including reinsurance brokers. Under Section 2 of the Insurance Act 1966, “insurance intermediary” “means a person who, as an agent for one or more insurers or as an agent for insureds or intending insureds, arranges contracts of insurance in Singapore, and includes an insurance agent or an insurance broker.”",
-                  "textJP": ""
+                  "textJP": "仲介者とは、再保険ブローカーを含む保険代理店およびブローカーを指します。Insurance Act 1966第2条において、「保険仲介者」とは、「1社以上の保険者の代理人として、または被保険者もしくは保険加入予定者の代理人として、シンガポールにおいて保険契約を手配する者をいい、保険代理店または保険ブローカーを含む」と定義されています。"
                 },
                 {
                   "num": "2.18",
                   "text": "The role of an intermediary is to bring buyers and sellers together. An intermediary is a party who is authorised by a second party, called the “principal”, to bring that principal into a contractual relationship with another person, called a “third party”. ‘",
-                  "textJP": ""
+                  "textJP": "仲介者の役割は、買い手と売り手を結びつけることです。仲介者とは、「本人」と呼ばれる第二の当事者から権限を与えられ、その本人を「第三者」と呼ばれる別の者との契約関係に導く当事者です。"
                 },
                 {
                   "num": "2.19",
                   "text": "In Singapore, the main types of intermediaries in the general insurance and reinsurance sectors are as follows:\n▪ Insurance Agents (including Trade Specific Agents);\n▪ Insurance Brokers; and\n▪ Reinsurance Brokers.",
-                  "textJP": ""
+                  "textJP": "シンガポールにおける損害保険および再保険分野の主な仲介者の種類は以下のとおりです。\n▪ 保険代理店（業種特定代理店を含む）\n▪ 保険ブローカー\n▪ 再保険ブローカー"
                 }
               ]
             },
@@ -226,12 +247,12 @@
               "id": "ch1-s2-B1",
               "label": "B1",
               "title": "Insurance Agents",
-              "titleJP": "",
+              "titleJP": "保険代理店",
               "paragraphs": [
                 {
                   "num": "2.20",
                   "text": "Generally, an insurance agent is a person who is or has been carrying on insurance business in Singapore as an agent for one or more insurers, and includes an agent of a foreign insurer carrying on insurance business in Singapore under a foreign insurer scheme under Part 2A of the Insurance Act 1966. Agents are remunerated by the insurers in the form of commission (usually as a percentage of the premium in respect of the policy sold, which may include profit-sharing commission, depending on business volume and profitability) as specified in their Agency Agreements. Insurance Agent",
-                  "textJP": ""
+                  "textJP": "一般に、保険代理店とは、1社以上の保険者の代理人としてシンガポールで保険事業を行っている、または行っていた者をいい、Insurance Act 1966のPart 2Aに基づく外国保険者スキームの下でシンガポールにおいて保険事業を行っている外国保険者の代理人を含みます。代理店は、代理店契約（Agency Agreement）に定められたとおり、保険者からコミッション（通常、販売した保険契約の保険料に対する一定割合であり、事業量と収益性に応じた利益配分コミッションを含む場合があります）の形で報酬を受けます。"
                 }
               ]
             },
@@ -239,17 +260,17 @@
               "id": "ch1-s2-B1A",
               "label": "B1A",
               "title": "Classification of Agent Types",
-              "titleJP": "",
+              "titleJP": "代理店の種類の分類",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "(a) Individual agents (either as cash or credit agents). Cash agents refer to agents who have no credit terms with their principals, while credit agents must have agreed with their principals on the credit period and have it stated in their Agency Agreement. Effective January 2020, the General Insurance Agents’ Registration Regulations (GIARR) were amended with the requirement for credit agents to maintain principal’s accounts being removed. All premium payments other than cash must be made payable only to the Agent’s Principal and cheque payments must be handed by the Agent to the Agent’s Principal promptly. As mentioned above, it is no longer required for credit agents to maintain a principal’s account with each principal. However, credit agents who had principal’s accounts under the GIARR before 2020 can continue this arrangement with the agreement of their principals. (b) Corporate agents (generally known as agencies), namely sole proprietorships, partnerships, limited liability partnerships and companies registered with The Accounting and Corporate Regulatory Authority (ACRA), as well as societies registered with the Registry of Societies, and co-operative societies registered with the Registry of Co-operative Societies. (c) Trade Specific Agents (TSAs). TSAs are engaged in a business of which insurance is not their core business, and they usually sell only one type of insurance product (e.g. travel agents selling Travel Insurance) in the course of their core business activities.",
-                  "textJP": ""
+                  "textJP": "(a) 個人代理店（現金代理店または信用代理店）。現金代理店とは、元受保険者との間に信用供与期間を持たない代理店をいい、信用代理店は元受保険者との間で信用供与期間について合意し、代理店契約に明記しなければなりません。2020年1月より、損保代理店登録規則（GIARR）が改正され、信用代理店に元受保険者勘定の維持を求める要件が廃止されました。現金以外のすべての保険料の支払いは代理店の元受保険者のみを受取人として行わなければならず、小切手による支払いは代理店が速やかに元受保険者に引き渡さなければなりません。上述のとおり、信用代理店が各元受保険者の勘定を維持する義務はなくなりました。ただし、2020年以前のGIARRの下で元受保険者勘定を維持していた信用代理店は、元受保険者の同意の下でこの取り決めを継続することができます。\n(b) 法人代理店（一般に代理店と呼ばれます）。すなわち、会計企業規制庁（ACRA）に登録された個人事業主、パートナーシップ、有限責任パートナーシップおよび会社、ならびに社団登録局に登録された社団、および協同組合登録局に登録された協同組合です。\n(c) 業種特定代理店（TSA）。TSAは保険を本業としない事業に従事しており、通常、本業の活動の中で1種類の保険商品のみを販売します（例：旅行代理店が旅行保険を販売）。"
                 },
                 {
                   "num": "2.21",
                   "text": "The various types of TSAs engaging in insurance sales and/or advisory services are listed below:\n▪ credit card providers;\n▪ electrical and electronic retailers;\n▪ freight forwarders;\n▪ foreign domestic worker agencies;\n▪ foreign worker agencies;\n▪ mobile device dealers;\n▪ motor dealers; and\n▪ travel agencies.",
-                  "textJP": ""
+                  "textJP": "保険の販売および／またはアドバイザリーサービスに従事するさまざまな種類のTSAを以下に示します。\n▪ クレジットカード提供者\n▪ 電気・電子製品小売業者\n▪ 貨物運送業者\n▪ 外国人家事労働者紹介業者\n▪ 外国人労働者紹介業者\n▪ モバイル端末販売業者\n▪ 自動車ディーラー\n▪ 旅行代理店"
                 }
               ]
             },
@@ -257,17 +278,17 @@
               "id": "ch1-s2-B1B",
               "label": "B1B",
               "title": "Nominee Agents",
-              "titleJP": "",
+              "titleJP": "指名代理人",
               "paragraphs": [
                 {
                   "num": "2.22",
                   "text": "A nominee agent means a nominee who acts for an agent and such agent is registered with the Agents’ Registration Board (ARB) in accordance with the mandatory requirements of the Notice No.: MAS 211.",
-                  "textJP": ""
+                  "textJP": "指名代理人とは、代理店のために行為する被指名人であり、当該代理店はMAS通達211号（Notice No.: MAS 211）の義務的要件に基づき、代理店登録委員会（ARB）に登録されています。"
                 },
                 {
                   "num": "2.23",
                   "text": "The requirement for corporate agents to transact through its nominees was codified in the revised GIARR effective January 2020. An Agent (other than an Agent who is an individual) must only solicit general insurance business or engage in general insurance selling or advisory activities through its Nominee Agents.",
-                  "textJP": ""
+                  "textJP": "法人代理店がその被指名人を通じて取引を行うことの要件は、2020年1月に発効した改正GIARRにおいて法定化されました。個人以外の代理店は、その指名代理人を通じてのみ損害保険事業の勧誘または損害保険の販売・アドバイザリー活動を行わなければなりません。"
                 }
               ]
             },
@@ -275,37 +296,37 @@
               "id": "ch1-s2-B2",
               "label": "B2",
               "title": "Insurance Brokers",
-              "titleJP": "",
+              "titleJP": "保険ブローカー",
               "paragraphs": [
                 {
                   "num": "2.24",
                   "text": "A person who carries on business as any type of insurance broker in Singapore is required to be registered with the Monetary Authority of Singapore (MAS) as that type of insurance broker, unless he is exempted from registration under Section 92 of the Insurance Act 1966. Insurance brokers in Singapore comprise registered insurance brokers, approved MAT insurance brokers and approved reinsurance brokers.",
-                  "textJP": ""
+                  "textJP": "シンガポールにおいていずれかの種類の保険ブローカーとして事業を行う者は、Insurance Act 1966第92条に基づき登録が免除される場合を除き、MASにその種類の保険ブローカーとして登録することが求められます。シンガポールの保険ブローカーは、登録保険ブローカー、認可MATi保険ブローカー、および認可再保険ブローカーで構成されます。"
                 },
                 {
                   "num": "2.25",
                   "text": "An insurance broker is one who advises his clients (insurance buyers) on their insurance needs, negotiates and arranges insurance on their behalf with the insurers, exercising professional care and skill in so doing. An insurance broker is usually appointed by a corporate client through an official letter of appointment.",
-                  "textJP": ""
+                  "textJP": "保険ブローカーは、顧客（保険購入者）に対して保険ニーズについて助言し、専門的な注意と技能を発揮して、顧客に代わって保険者との間で保険を交渉・手配する者です。保険ブローカーは通常、法人顧客から正式な任命書によって任命されます。"
                 },
                 {
                   "num": "2.26",
                   "text": "Unlike an agent, a broker is free to place his business with any number of general insurers. The broker’s duty is to provide the client with independent expert advice on a wide range of insurance matters. These include identifying the best type of cover to meet the client’s insurance needs and providing assistance when an insured makes a claim.",
-                  "textJP": ""
+                  "textJP": "代理店とは異なり、ブローカーは任意の数の損害保険者に自由に事業を付託することができます。ブローカーの義務は、幅広い保険事項について顧客に独立した専門的助言を提供することです。これには、顧客の保険ニーズに最も適したカバーの種類を特定すること、および被保険者が保険金請求を行う際に支援を提供することが含まれます。"
                 },
                 {
                   "num": "2.27",
                   "text": "The broker has to exercise due care and diligence in understanding and satisfying the insurance requirements of the client and take all reasonable steps to act fairly in the interest of the client. Although insurance buyers may deal with insurers directly, the vast majority of commercial businesses (i.e insurance covers bought by companies) are usually transacted through licensed brokers.",
-                  "textJP": ""
+                  "textJP": "ブローカーは、顧客の保険要件を理解し満たすために相当な注意と勤勉さを発揮し、顧客の利益のために公正に行動するためのすべての合理的な措置を講じなければなりません。保険購入者は保険者と直接取引することもできますが、企業向け保険（すなわち企業が購入する保険カバー）の大部分は、通常、認可ブローカーを通じて取引されます。"
                 },
                 {
                   "num": "2.28",
                   "text": "The complexity of many commercial risks and the large premiums involved often render a broker’s service invaluable to the insured. As mentioned earlier, insurance agents are remunerated by the insurers in the form of commission. On the other hand, brokers receive brokerage from the insurers with whom the brokers place their clients’ insurance business. Some brokers also charge fees for professional advice and service rendered to their clients.",
-                  "textJP": ""
+                  "textJP": "多くの企業リスクの複雑さと高額な保険料を考慮すると、ブローカーのサービスは被保険者にとって非常に価値があります。前述のとおり、保険代理店は保険者からコミッションの形で報酬を受けます。一方、ブローカーは、顧客の保険事業を付託した保険者から仲立手数料を受け取ります。一部のブローカーは、顧客に提供した専門的な助言およびサービスに対してフィーも請求します。"
                 },
                 {
                   "num": "2.29",
                   "text": "As required under Section 77(1)(c) of the Insurance Act 1966, an insurance broking company, apart from meeting the minimum prescribed paid-up share capital requirement, must have in force a Professional Indemnity Insurance policy under which a person is indemnified in respect of the liabilities arising out of or in the course of his business as an insurance broker. Details are specified in the Insurance (Intermediaries) Regulations.",
-                  "textJP": ""
+                  "textJP": "Insurance Act 1966第77条(1)(c)に基づき、保険ブローキング会社は、最低所定払込資本金要件を満たすことに加えて、保険ブローカーとしての事業の過程で生じる賠償責任について付保する専門職業賠償責任保険を有効に保持していなければなりません。詳細はInsurance (Intermediaries) Regulationsに規定されています。"
                 }
               ]
             },
@@ -313,17 +334,17 @@
               "id": "ch1-s2-B3",
               "label": "B3",
               "title": "Classification Of Insurance Brokers",
-              "titleJP": "",
+              "titleJP": "保険ブローカーの分類",
               "paragraphs": [
                 {
                   "num": "2.30",
                   "text": "Currently, insurance brokers in Singapore are generally classified under the following categories:\n▪ direct insurance broker, to carry on general business and long-term accident and health policies;\n▪ general reinsurance broker, to carry on general reinsurance broking business;\n▪ life reinsurance broker, to carry on life reinsurance business; or\n▪ insurance broker, to carry on any combination of the above.",
-                  "textJP": ""
+                  "textJP": "現在、シンガポールの保険ブローカーは、一般に以下のカテゴリーに分類されています。\n▪ ダイレクト保険ブローカー：損害保険事業および長期傷害・健康保険契約を取り扱います。\n▪ 損害再保険ブローカー：損害再保険ブローキング事業を行います。\n▪ 生命再保険ブローカー：生命再保険事業を行います。\n▪ 保険ブローカー：上記のいずれかの組合せを行います。"
                 },
                 {
                   "num": "2.31",
                   "text": "Key differences between a general insurance agent and an insurance broker are highlighted in the table below. Key Differences Between A General Insurance Agent & An Insurance Broker Type Insurance Agent Insurance Broker Registration/ Licensing Regime Registered under the Agents’ Registration Board (ARB) of the General Insurance Association of Singapore (GIA) – also applicable to any nominee agent. Licensed under the Insurance Act 1966 administered by the Monetary Authority of Singapore (MAS). Representation Up to three principals (insurers) – normally representing the insurer. Any number of insurers – normally representing the insured. Appointment Agency Agreement with the insurer as specified under Section 64 of the Insurance Act 1966. Letter of Appointment by the insured. Remuneration Commission. Brokerage or Fee. Professional Indemnity Insurance Requirement None. Yes, for an insurance broking company in accordance with Section 77 of the Insurance Act 1966 and the Insurance (Intermediaries) Regulations. Minimum Paidup Share Capital Agency Company: S$25,000 (Corporate Agent) Insurance Broking Company: S$300,000",
-                  "textJP": ""
+                  "textJP": "損害保険代理店と保険ブローカーの主な違いを以下の表にまとめます。\n\n損害保険代理店と保険ブローカーの主な違い\n\n種別 | 保険代理店 | 保険ブローカー\n登録/免許制度 | シンガポール損害保険協会（GIA）の代理店登録委員会（ARB）に登録（指名代理人にも適用）| Insurance Act 1966に基づきMASから免許を取得\n代理 | 最大3社の元受保険者（通常、保険者を代理）| 任意の数の保険者（通常、被保険者を代理）\n任命 | Insurance Act 1966第64条に定められた保険者との代理店契約 | 被保険者からの任命書\n報酬 | コミッション | 仲立手数料またはフィー\n専門職業賠償責任保険の要件 | なし | あり。Insurance Act 1966第77条およびInsurance (Intermediaries) Regulationsに基づき、保険ブローキング会社に義務付け\n最低払込資本金 | 代理店法人：S$25,000（法人代理店）| 保険ブローキング会社：S$300,000"
                 }
               ]
             },
@@ -331,12 +352,12 @@
               "id": "ch1-s2-B4",
               "label": "B4",
               "title": "Lloyd’s Brokers",
-              "titleJP": "",
+              "titleJP": "ロイズ・ブローカー",
               "paragraphs": [
                 {
                   "num": "2.32",
                   "text": "Lloyd’s (for more information on Lloyd’s, refer to the later section of this chapter) underwriters do not generally deal directly with policyholders. Insurance business is generally brought in by brokers that have been accredited (by Lloyd’s) to place insurance risks at Lloyd's. Hence, if a policyholder wishes to insure its risks at Lloyd’s, the risks must be placed through a Lloyd’s broker, which will have to satisfy the Committee of Lloyd’s as to its experience, integrity and financial standing in the insurance market. A Lloyd’s broker may also place business with other insurance companies in the insurance market.",
-                  "textJP": ""
+                  "textJP": "ロイズ（詳細については本章の後のセクションを参照）のアンダーライターは、一般に保険契約者と直接取引しません。保険事業は通常、ロイズにおいて保険リスクを付託するためにロイズから認定を受けたブローカーによって持ち込まれます。したがって、保険契約者がロイズでリスクを付保したい場合、そのリスクはロイズ・ブローカーを通じて付託されなければならず、ロイズ・ブローカーは保険市場における経験、誠実さ、および財務基盤についてロイズ委員会を満足させる必要があります。ロイズ・ブローカーは、保険市場の他の保険会社にも事業を付託することができます。"
                 }
               ]
             },
@@ -344,12 +365,12 @@
               "id": "ch1-s2-B5",
               "label": "B5",
               "title": "Reinsurance Brokers",
-              "titleJP": "",
+              "titleJP": "再保険ブローカー",
               "paragraphs": [
                 {
                   "num": "2.33",
                   "text": "Reinsurance brokers are intermediaries and consultants to insurance companies (insurers) and reinsurance companies (reinsurers). They advise insurers and reinsurers on the risk transfer aspects of their insurance or reinsurance business. Reinsurance brokers also help their clients in the design and structuring of reinsurance placed with reinsurers. The process of providing reinsurance solutions usually involves a wide range of activities, from analysing the clients’ insurance portfolios to seeking out reinsurance markets, that are able to provide the desired capacity or protection at competitive pricing and attractive terms.",
-                  "textJP": ""
+                  "textJP": "再保険ブローカーは、保険会社（保険者）および再保険会社（再保険者）に対する仲介者およびコンサルタントです。保険者および再保険者に対し、その保険または再保険事業のリスク移転の側面について助言します。再保険ブローカーはまた、再保険者に付託する再保険の設計と構成において顧客を支援します。再保険ソリューションを提供するプロセスは通常、顧客の保険ポートフォリオの分析から、競争力のある価格と魅力的な条件で所望のキャパシティまたは保護を提供できる再保険市場の開拓に至るまで、幅広い活動を伴います。"
                 }
               ]
             },
@@ -357,12 +378,12 @@
               "id": "ch1-s2-C",
               "label": "C",
               "title": "Buyers",
-              "titleJP": "",
+              "titleJP": "買い手",
               "paragraphs": [
                 {
                   "num": "2.34",
                   "text": "Buyers are those who need insurance, e.g. the general public, government and commercial enterprises. In fact, the direct insurers and captive insurers themselves are buyers, when they seek reinsurance from the reinsurers.",
-                  "textJP": ""
+                  "textJP": "買い手とは、保険を必要とする者です。例えば、一般消費者、政府、および商業企業です。実際には、元受保険者やキャプティブ保険会社自身も、再保険者から再保険を求める際には買い手となります。"
                 }
               ]
             }
@@ -372,27 +393,27 @@
           "id": "ch1-s3",
           "number": "3",
           "title": "Structure Of The Singapore Insurance And Reinsurance Market",
-          "titleJP": "",
+          "titleJP": "シンガポール保険・再保険市場の構造",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "Insurers in Singapore comprise licensed insurers, authorised reinsurers, approved marine, aviation and transit (MAT) insurers and foreign insurers.",
-              "textJP": ""
+              "textJP": "シンガポールの保険者は、免許保険者、認可再保険者、認可海上・航空・運送（MAT）保険者、および外国保険者で構成されています。"
             },
             {
               "num": "3.2",
               "text": "Insurance brokers in Singapore comprise registered insurance brokers, approved MAT insurance brokers and approved reinsurance brokers.",
-              "textJP": ""
+              "textJP": "シンガポールの保険ブローカーは、登録保険ブローカー、認可MAT保険ブローカー、および認可再保険ブローカーで構成されています。"
             },
             {
               "num": "3.3",
               "text": "Insurers can be licensed as direct insurers, reinsurers or captive insurers.",
-              "textJP": ""
+              "textJP": "保険者は、元受保険者、再保険者、またはキャプティブ保険会社として免許を取得することができます。"
             },
             {
               "num": "3.4",
               "text": "The table below details the description of each type of insurance entity and their permitted activities.1 1 Source: https://www.mas.gov.sg/regulation/insurance/types-of-insurers-in-singapore Type of Insurance Entity Permitted Activities Direct Insurers Direct life insurers are licensed to write life policies as well as long-term accident and health policies. Direct general insurers are licensed to write all insurance business other than life policies and long-term accident and health policies. Direct general insurers include specialist insurers that write marine mutual insurance business, trade credit and political risk insurance business as well as financial guarantee insurance business. Direct composite insurers are licensed to write both life and general insurance business. Reinsurers Reinsurers are licensed to write life reinsurance business and/or general reinsurance business in Singapore. They are not permitted to write direct business and are only allowed to assume all or a part of the insurance or reinsurance risk written by another insurer. Reinsurers include special purpose reinsurance vehicles that enter into insurance securitisation for purposes of fulfilling the obligations under the reinsurance contracts with the ceding insurers. Captive Insurers Captive insurers are licensed to write insurance business which consists principally of risks of its related corporations. Authorised Reinsurers Authorised reinsurers do not have a physical presence in Singapore. They provide reinsurance of liabilities under insurance policies to persons in Singapore, and can be authorised as general reinsurers and/or life reinsurers. Approved MAT Insurers Approved MAT insurers do not have a physical presence in Singapore. They do not write insurance business, other than the collection or receipt of premiums in relation to MAT insurance business. Foreign Insurers Foreign insurers are approved under the law of another country or territory to carry on insurance business in that country or territory. These insurers carry on business in Singapore under a foreign insurer scheme established under Part IIA of the Insurance Act. Currently there are two foreign insurer schemes in Singapore: The Lloyd's Scheme and the Lloyd’s Asia Scheme. Lloyd’s Asia Scheme Lloyd’s members may carry on insurance business Type of Insurance Entity Permitted Activities in Singapore through locally-incorporated service companies, which are registered with Lloyd’s of London (Asia) Pte Ltd, the approved Administrator of the scheme. Registered Insurance Brokers Insurance brokers are registered under the Insurance Act , unless otherwise exempted. They may carry on insurance business in Singapore as an agent of insured persons or intending insured persons as:\n▪ Direct insurance brokers in respect of insurance policies relating to general business and long-term accident and health policies.\n▪ General reinsurance brokers in respect of the reinsurance of liabilities under insurance policies relating to general business.\n▪ Life reinsurance brokers in respect of the reinsurance of liabilities under insurance policies relating to life business. Registered direct insurance brokers may also hold a licence under the Insurance Act that allows them to place risks with Lloyd’s of London under the Lloyd’s Scheme. Individuals Conducting Insurance Broking Activities Individuals appointed as broking staff by registered insurance brokers and exempt insurance brokers are not required to be registered or authorised by the MAS but must comply with the minimum standards and examination requirements for broking staff set out in MAS Notice 502. Approved Insurance Brokers Approved insurance brokers are licensed or authorised under the law of a designated country to carry on insurance broking activities in that country. They may carry on insurance broking activities in Singapore without the need to be registered under the Insurance Act and without any physical presence in Singapore as:\n▪ Approved marine, aviation and transit (MAT) insurance brokers in respect of marine, aviation and transit insurance business.\n▪ Approved general reinsurance brokers in respect of reinsurance of liabilities under insurance policies relating to general business. Type of Insurance Entity Permitted Activities\n▪ Approved life reinsurance brokers in respect of reinsurance of liabilities under insurance policies relating to life business. Representative Offices Representative offices are not allowed to carry on or solicit insurance business in Singapore and can only carry-on activities approved by MAS. General Insurance Agents General insurance agents are regulated under section 35M of the Insurance Act . To arrange contracts of insurance for direct general insurers, general insurance agents must register with the General Insurance Association of Singapore (GIA)’s Agents’ Registration Board (ARB) through the principal insurers they intend to represent. More information on GIA ARB’s requirements for general insurance agents can be found in GIA’s website at https://gia.org.sg/agents.html .",
-              "textJP": ""
+              "textJP": "以下の表は、各種保険事業体の説明とその許可された活動の詳細を示しています。\n\n保険事業体の種類 | 許可された活動\n元受保険者 | 元受生命保険者は、生命保険契約および長期傷害・健康保険契約を引き受ける免許を有します。元受損害保険者は、生命保険契約および長期傷害・健康保険契約以外のすべての保険事業を引き受ける免許を有します。元受損害保険者には、海上相互保険事業、貿易信用・政治リスク保険事業、および金融保証保険事業を引き受ける専門保険者が含まれます。元受複合保険者は、生命保険および損害保険の両方の事業を引き受ける免許を有します。\n再保険者 | 再保険者は、シンガポールにおける生命再保険事業および／または損害再保険事業を引き受ける免許を有します。元受事業を引き受けることは許可されておらず、他の保険者が引き受けた保険または再保険リスクの全部または一部を引き受けることのみが認められています。再保険者には、出再保険者との再保険契約に基づく義務を履行する目的で保険証券化に参加する特別目的再保険ビークルが含まれます。\nキャプティブ保険会社 | キャプティブ保険会社は、主として関連法人のリスクからなる保険事業を引き受ける免許を有します。\n認可再保険者 | 認可再保険者はシンガポールに物理的な拠点を持ちません。シンガポールの顧客の保険契約に基づく賠償責任の再保険を提供し、損害再保険者および／または生命再保険者として認可を受けることができます。\n認可MAT保険者 | 認可MAT保険者はシンガポールに物理的な拠点を持ちません。MAT保険事業に関する保険料の徴収または受領以外の保険事業は行いません。\n外国保険者 | 外国保険者は、他の国または地域の法律に基づき、当該国または地域において保険事業を行うことを認可された保険者です。これらの保険者は、Insurance ActのPart IIAに基づき設立された外国保険者スキームの下でシンガポールにおいて事業を行います。現在、シンガポールにはロイズ・スキームおよびロイズ・アジア・スキームの2つの外国保険者スキームがあります。\nロイズ・アジア・スキーム | ロイズのメンバーは、当該スキームの認可管理者であるLloyd's of London (Asia) Pte Ltdに登録されたシンガポール法人のサービス会社を通じて、シンガポールにおいて保険事業を行うことができます。\n登録保険ブローカー | 保険ブローカーは、別途免除される場合を除き、Insurance Actに基づき登録されます。被保険者または保険加入予定者の代理人として、以下の保険ブローキング事業をシンガポールにおいて行うことができます。\n▪ ダイレクト保険ブローカー：損害保険事業および長期傷害・健康保険契約に関する保険契約について\n▪ 損害再保険ブローカー：損害保険事業に関する保険契約に基づく賠償責任の再保険について\n▪ 生命再保険ブローカー：生命保険事業に関する保険契約に基づく賠償責任の再保険について\n登録ダイレクト保険ブローカーは、ロイズ・スキームの下でロイズにリスクを付託するためのInsurance Actに基づく免許も保持することができます。\n保険ブローキング活動を行う個人 | 登録保険ブローカーおよび免除保険ブローカーによって任命されたブローキング・スタッフである個人は、MASへの登録または認可を受ける必要はありませんが、MAS通達502号に定められたブローキング・スタッフの最低基準および試験要件に従わなければなりません。\n認可保険ブローカー | 認可保険ブローカーは、指定国の法律に基づき、当該国において保険ブローキング活動を行うことを免許または認可された者です。Insurance Actに基づく登録を受けることなく、またシンガポールに物理的な拠点を持つことなく、以下の保険ブローキング活動をシンガポールにおいて行うことができます。\n▪ 認可MAT保険ブローカー：海上・航空・運送保険事業について\n▪ 認可損害再保険ブローカー：損害保険事業に関する保険契約に基づく賠償責任の再保険について\n▪ 認可生命再保険ブローカー：生命保険事業に関する保険契約に基づく賠償責任の再保険について\n駐在員事務所 | 駐在員事務所は、シンガポールにおいて保険事業を行うこと、または勧誘することは認められておらず、MASが承認した活動のみを行うことができます。\n損害保険代理店 | 損害保険代理店は、Insurance Act第35M条に基づき規制されます。元受損害保険者のために保険契約を手配するには、損害保険代理店は代理する元受保険者を通じてシンガポール損害保険協会（GIA）の代理店登録委員会（ARB）に登録しなければなりません。GIA ARBの損害保険代理店に関する要件の詳細は、GIAウェブサイト（https://gia.org.sg/agents.html）で確認できます。"
             }
           ],
           "subsections": []
@@ -401,17 +422,17 @@
           "id": "ch1-s4",
           "number": "4",
           "title": "Alternative Distribution Channels",
-          "titleJP": "",
+          "titleJP": "代替流通チャネル",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "Apart from using intermediaries, such as agents and brokers, insurers are using alternative distribution channels to market their products, as a means to balance the needs of different groups of consumers against the cost of distributing their products and services.",
-              "textJP": ""
+              "textJP": "代理店やブローカーなどの仲介者を利用する以外にも、保険者は、さまざまな消費者グループのニーズと商品・サービスの販売コストとのバランスを取る手段として、代替流通チャネルを利用して商品を販売しています。"
             },
             {
               "num": "4.2",
               "text": "Besides bancassurance which is discussed below, other alternative distribution channels used by some insurers for certain personal lines are credit card providers, leading retailers (particularly those selling electrical and electronic items, and mobile devices), post offices, self-service terminals, such as AXS Stations and iNETS Kiosks, and mobile phone apps.",
-              "textJP": ""
+              "textJP": "以下で取り上げるバンカシュランス（銀行窓販）のほかに、一部の保険者が特定の個人分野の保険に使用している代替流通チャネルには、クレジットカード提供者、大手小売業者（特に電気・電子製品やモバイル端末を販売する店舗）、郵便局、AXS StationやiNETS Kioskなどのセルフサービス端末、およびモバイルフォンアプリがあります。"
             }
           ],
           "subsections": [
@@ -419,17 +440,17 @@
               "id": "ch1-s4-A",
               "label": "A",
               "title": "Bancassurance",
-              "titleJP": "",
+              "titleJP": "バンカシュランス（銀行窓販）",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "Banks, including finance companies, with their huge database of customers, sell insurance through a network of branches. Almost all of the local banks in Singapore own or have partnership agreements with insurance companies.",
-                  "textJP": ""
+                  "textJP": "銀行（ファイナンス会社を含む）は、膨大な顧客データベースを活用して、支店ネットワークを通じて保険を販売しています。シンガポールのほぼすべての地場銀行が保険会社を所有するか、保険会社との提携契約を結んでいます。"
                 },
                 {
                   "num": "4.4",
                   "text": "Bancassurance is the term used to describe the partnership or relationship between a bank and an insurance company, whereby the insurance company uses the bank sales channel in order to distribute insurance products, most of which are personal lines.",
-                  "textJP": ""
+                  "textJP": "バンカシュランス（銀行窓販）とは、銀行と保険会社との間の提携または関係を表す用語であり、保険会社が保険商品（その大部分は個人分野の保険）を販売するために銀行の販売チャネルを利用することを指します。"
                 }
               ]
             }
@@ -439,27 +460,27 @@
           "id": "ch1-s5",
           "number": "5",
           "title": "Web Aggregators",
-          "titleJP": "",
+          "titleJP": "保険比較サイト",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "A web aggregator is intended as a way to leverage on technology to make it easier for consumers to compare products. Web aggregators compile and provide information about insurance policies of various insurance companies on a website. Web aggregators are different from other distribution channels, as they are designed to be a self-help tool for the customers.",
-              "textJP": ""
+              "textJP": "保険比較サイトは、消費者が商品を比較しやすくするためにテクノロジーを活用する手段として意図されています。保険比較サイトは、さまざまな保険会社の保険契約に関する情報をウェブサイト上で収集・提供します。保険比較サイトは、顧客のセルフヘルプツールとして設計されている点で、他の流通チャネルとは異なります。"
             },
             {
               "num": "5.2",
               "text": "As per Section 39(8) of the Insurance Act 1966, “web aggregator” means an Internet portal or domain on the Internet which the Authority (i.e. MAS), or such person as the Authority may appoint, create, develop and operate for the purposes of publishing certain information from time to time. The purpose of such information in the internet portal is to assist any person in the purchase of a policy.",
-              "textJP": ""
+              "textJP": "Insurance Act 1966第39条(8)に基づき、「保険比較サイト」（web aggregator）とは、当局（すなわちMAS）、または当局が任命する者が、随時一定の情報を公表する目的で作成、開発、運営するインターネットポータルまたはインターネット上のドメインを意味します。当該インターネットポータルにおける情報の目的は、保険契約の購入に際して人々を支援することです。"
             },
             {
               "num": "5.3",
               "text": "Section 39 of the Insurance Act 1966 also stipulates that the Authority may, by regulations made or written notice, require a licensed insurer or class of licensed insurers to provide to the Authority, such information as the Authority may require for the purposes of the web aggregator.",
-              "textJP": ""
+              "textJP": "Insurance Act 1966第39条はまた、当局は、制定する規則または書面通知により、免許保険者または免許保険者の類型に対し、保険比較サイトの目的のために当局が要求する情報を当局に提供するよう求めることができると規定しています。"
             },
             {
               "num": "5.4",
               "text": "Personal lines, such as Health Insurance, Travel Insurance and Private Motor Car Insurance are usually displayed and promoted by the web aggregators such as Singsaver at https://insurance.singsaver.com.sg/home, Moneysmart at https://www.moneysmart.sg/insurance etc. These web aggregators tend to be personal insurance comparison sites designed to make it easier for customers to shop for and compare selected insurers’ quotes and terms for Motor, Travel, Health Insurance, etc. Certain web aggregators work directly with the major insurers and intermediaries in Singapore, so that products can be easily bought at one place.",
-              "textJP": ""
+              "textJP": "健康保険、旅行保険、自家用自動車保険などの個人分野の保険は、通常、Singsaver（https://insurance.singsaver.com.sg/home）やMoneysmart（https://www.moneysmart.sg/insurance）などの保険比較サイトによって表示・宣伝されています。これらの保険比較サイトは、顧客が自動車保険、旅行保険、健康保険などについて、主要保険者の見積もりと条件を比較しやすくするために設計された個人保険比較サイトです。一部の保険比較サイトは、シンガポールの主要保険者および仲介者と直接提携しており、商品を一箇所で簡単に購入できるようになっています。"
             }
           ],
           "subsections": []
@@ -468,17 +489,17 @@
           "id": "ch1-s6",
           "number": "6",
           "title": "Insurance Trade Associations",
-          "titleJP": "",
+          "titleJP": "保険業界団体",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "In Singapore, the main insurance trade associations are:\n▪ General Insurance Association of Singapore (GIA);\n▪ Life Insurance Association of Singapore (LIA);\n▪ FinTech Association\n▪ Singapore Insurance Brokers’ Association (SIBA);\n▪ Singapore Reinsurers’ Association (SRA);\n▪ Reinsurance Brokers’ Association (Singapore) (RBAS);\n▪ Loss Adjusters’ Association (Singapore) (LAAS);\n▪ Association of Financial Advisers (Singapore) [AFA(S)];\n▪ Insurance and Financial Practitioners Association of Singapore (IFPAS);\n▪ Association Of Singapore Insurance Agents (ASIA); and the\n▪ Insurance Law Association, Singapore (ILAS).",
-              "textJP": ""
+              "textJP": "シンガポールにおける主要な保険業界団体は以下のとおりです。\n▪ シンガポール損害保険協会（GIA）\n▪ シンガポール生命保険協会（LIA）\n▪ フィンテック協会\n▪ シンガポール保険ブローカー協会（SIBA）\n▪ シンガポール再保険者協会（SRA）\n▪ 再保険ブローカー協会（シンガポール）（RBAS）\n▪ 損害査定人協会（シンガポール）（LAAS）\n▪ ファイナンシャル・アドバイザー協会（シンガポール）[AFA(S)]\n▪ シンガポール保険・金融実務者協会（IFPAS）\n▪ シンガポール保険代理店協会（ASIA）\n▪ 保険法協会シンガポール（ILAS）"
             },
             {
               "num": "6.2",
               "text": "Associations act as forums for members to discuss and exchange views on matters of common interest, and to make representations to the relevant authorities, where necessary. A brief description of a few of these associations and their objectives is given below:",
-              "textJP": ""
+              "textJP": "業界団体は、会員が共通の関心事項について意見を交換し議論するためのフォーラムとして機能するとともに、必要に応じて関係当局に対して意見を提出します。以下に、これらの団体のいくつかの概要とその目的を示します。"
             }
           ],
           "subsections": [
@@ -486,22 +507,22 @@
               "id": "ch1-s6-A",
               "label": "A",
               "title": "General Insurance Association Of Singapore (GIA)",
-              "titleJP": "",
+              "titleJP": "シンガポール損害保険協会（GIA）",
               "paragraphs": [
                 {
                   "num": "6.3",
                   "text": "The General Insurance Association of Singapore (GIA) represents general insurance companies in Singapore. The GIA's role is to be active in the business community representing the interests of its member companies, as well as to help to identify emerging trends and respond to issues affecting the general insurance industry. It seeks to promote the overall growth and development of the general insurance sector in Singapore.",
-                  "textJP": ""
+                  "textJP": "シンガポール損害保険協会（GIA）は、シンガポールの損害保険会社を代表する団体です。GIAの役割は、会員企業の利益を代表してビジネスコミュニティにおいて活発に活動するとともに、損害保険業界に影響を及ぼす新たなトレンドを特定し、それに対応することです。シンガポールにおける損害保険セクターの全体的な成長と発展を促進することを目指しています。"
                 },
                 {
                   "num": "6.4",
                   "text": "The GIA acts as the regulatory body for general insurance agents in Singapore through the Agent’s Registration Board. As specified in the Notice No: MAS 211, Agent’s Registration Board is defined as the board set up by the GIA to register any general insurance agent acting for one or more licensed insurers carrying on general business.",
-                  "textJP": ""
+                  "textJP": "GIAは、代理店登録委員会（Agent's Registration Board）を通じて、シンガポールにおける損害保険代理店の規制機関として機能しています。MAS通達211号（Notice No: MAS 211）に規定されているとおり、代理店登録委員会は、損害保険事業を行う1社以上の免許保険者のために活動する損害保険代理店を登録するためにGIAが設立した委員会と定義されています。"
                 },
                 {
                   "num": "6.5",
                   "text": "The Agent’s Registration Board acts as a sanctioning body for agents and nominee agents who fail to comply with CPD requirements or breach the regulations or other misconduct under its purview. It is also the standardsetting body for providing best practices and guidelines to the Ordinary Members of the GIA on agency management.",
-                  "textJP": ""
+                  "textJP": "代理店登録委員会は、CPD（継続的専門能力開発）要件への不適合、規則違反、またはその管轄下のその他の不正行為を行った代理店および指名代理人に対する制裁機関として機能します。また、GIAの正会員に対して代理店管理に関するベストプラクティスおよびガイドラインを提供する基準策定機関でもあります。"
                 }
               ]
             },
@@ -509,12 +530,12 @@
               "id": "ch1-s6-B",
               "label": "B",
               "title": "Life Insurance Association Of Singapore (LIA)",
-              "titleJP": "",
+              "titleJP": "シンガポール生命保険協会（LIA）",
               "paragraphs": [
                 {
                   "num": "6.6",
                   "text": "The Life Insurance Association of Singapore (LIA) is a trade association comprising life insurance providers and life reinsurance providers based in Singapore and licensed by the MAS. LIA’s roles include voicing the interests of members, working with members to develop and implement industry guidelines plus codes of practice not to mention helping consumers to appreciate and understand life insurance, amongst others.",
-                  "textJP": ""
+                  "textJP": "シンガポール生命保険協会（LIA）は、シンガポールに拠点を置き、MASから免許を取得した生命保険会社および生命再保険会社で構成される業界団体です。LIAの役割には、会員の利益を代弁すること、業界ガイドラインおよび行動規範の策定・実施において会員と協力すること、消費者が生命保険を理解・認識できるよう支援することなどが含まれます。"
                 }
               ]
             },
@@ -522,12 +543,12 @@
               "id": "ch1-s6-C",
               "label": "C",
               "title": "FinTech Association",
-              "titleJP": "",
+              "titleJP": "フィンテック協会",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "The Singapore FinTech Association (SFA) is a cross-industry non-profit initiative, intended to be a platform designed to facilitate collaboration between all market participants and stakeholders in the FinTech ecosystem. The SFA is designed to be an effective platform for members to engage with multiple stakeholders to find solutions to issues.",
-                  "textJP": ""
+                  "textJP": "シンガポール・フィンテック協会（SFA）は、フィンテック・エコシステムにおけるすべての市場参加者およびステークホルダー間の協力を促進するためのプラットフォームとして意図された、業種横断的な非営利イニシアティブです。SFAは、会員が複数のステークホルダーと連携し、課題の解決策を見出すための効果的なプラットフォームとして設計されています。"
                 }
               ]
             },
@@ -535,12 +556,12 @@
               "id": "ch1-s6-D",
               "label": "D",
               "title": "Singapore Insurance Brokers’ Association (SIBA)",
-              "titleJP": "",
+              "titleJP": "シンガポール保険ブローカー協会（SIBA）",
               "paragraphs": [
                 {
                   "num": "6.8",
                   "text": "The Singapore Insurance Brokers’ Association (SIBA) is a trade association comprising international and Singapore insurance brokers. It sets minimum standards of education and experience, and also ensures that insurance brokers undertake ongoing development and training, to maintain and enhance their capabilities and professionalism.",
-                  "textJP": ""
+                  "textJP": "シンガポール保険ブローカー協会（SIBA）は、国際的およびシンガポール国内の保険ブローカーで構成される業界団体です。SIBAは、教育と経験の最低基準を設定するとともに、保険ブローカーが継続的な能力開発と研修を行い、その能力と専門性を維持・向上させることを確保します。"
                 }
               ]
             },
@@ -548,12 +569,12 @@
               "id": "ch1-s6-E",
               "label": "E",
               "title": "Singapore Reinsurers’ Association (SRA)",
-              "titleJP": "",
+              "titleJP": "シンガポール再保険者協会（SRA）",
               "paragraphs": [
                 {
                   "num": "6.9",
                   "text": "The Singapore Reinsurers’ Association (SRA) is a trade association comprising all major non-life reinsurance companies being Ordinary members, and several major reinsurance broking firms and regional reinsurers being Associate members.",
-                  "textJP": ""
+                  "textJP": "シンガポール再保険者協会（SRA）は、正会員としてすべての主要損害再保険会社、および準会員として数社の主要再保険ブローキング会社および地域再保険者で構成される業界団体です。"
                 }
               ]
             },
@@ -561,17 +582,17 @@
               "id": "ch1-s6-F",
               "label": "F",
               "title": "Reinsurance Brokers’ Association (Singapore) (RBAS)",
-              "titleJP": "",
+              "titleJP": "再保険ブローカー協会（シンガポール）（RBAS）",
               "paragraphs": [
                 {
                   "num": "6.10",
                   "text": "The Reinsurance Brokers’ Association (Singapore) (RBAS) represents the professional body for reinsurance brokers licensed in Singapore.",
-                  "textJP": ""
+                  "textJP": "再保険ブローカー協会（シンガポール）（RBAS）は、シンガポールで免許を取得した再保険ブローカーの専門団体です。"
                 },
                 {
                   "num": "6.11",
                   "text": "RBAS requires its membership to conform to its rules and regulations regarding accounting, compliance, contract certainty, ethics, professional indemnity coverage and code of conduct.",
-                  "textJP": ""
+                  "textJP": "RBASは、会計、コンプライアンス、契約の確実性、倫理、専門職業賠償責任保険、および行動規範に関する規則・規定への適合を会員に求めています。"
                 }
               ]
             },
@@ -579,12 +600,12 @@
               "id": "ch1-s6-G",
               "label": "G",
               "title": "Loss Adjusters’ Association (Singapore) (LAAS)",
-              "titleJP": "",
+              "titleJP": "損害査定人協会（シンガポール）（LAAS）",
               "paragraphs": [
                 {
                   "num": "6.12",
                   "text": "The Loss Adjusters’ Association (Singapore) (LAAS) represents loss adjusting firms in Singapore. It advances the study and practice of loss adjusting among members, and co-operates with the relevant authorities on matters relating to the rules and regulations affecting the loss adjusting profession.",
-                  "textJP": ""
+                  "textJP": "損害査定人協会（シンガポール）（LAAS）は、シンガポールの損害査定会社を代表する団体です。LAASは、会員間で損害査定の研究と実務の向上を推進するとともに、損害査定業務に関する規則・規制について関係当局と協力しています。"
                 }
               ]
             },
@@ -592,12 +613,12 @@
               "id": "ch1-s6-H",
               "label": "H",
               "title": "Association Of Financial Advisers (Singapore) [AFA(S)]",
-              "titleJP": "",
+              "titleJP": "ファイナンシャル・アドバイザー協会（シンガポール）[AFA(S)]",
               "paragraphs": [
                 {
                   "num": "6.13",
                   "text": "The Association of Financial Advisers (Singapore) – AFA(S) represents relevant licensed Financial Advisers (Firms) that provide advice on and engage in sales of Financial Products (Exempt Financial Advisers Companies are excluded). AFA(S) aims to provide a forum for its members, to develop opinions, recommendations and educational programmes, which can contribute to the further development of the financial services industry for the benefit of the Singapore public.",
-                  "textJP": ""
+                  "textJP": "ファイナンシャル・アドバイザー協会（シンガポール）——AFA(S)は、金融商品の助言および販売に従事する免許ファイナンシャル・アドバイザー（会社）を代表する団体です（免除ファイナンシャル・アドバイザー会社は除きます）。AFA(S)は、会員のためのフォーラムを提供し、シンガポール国民の利益のために金融サービス業界のさらなる発展に貢献しうる意見、提言、および教育プログラムの策定を目指しています。"
                 }
               ]
             },
@@ -605,12 +626,12 @@
               "id": "ch1-s6-I",
               "label": "I",
               "title": "Insurance And Financial Practitioners Association Of Singapore (IFPAS)",
-              "titleJP": "",
+              "titleJP": "シンガポール保険・金融実務者協会（IFPAS）",
               "paragraphs": [
                 {
                   "num": "6.14",
                   "text": "IFPAS is an association for financial services and insurance practitioners dedicated to upholding the ethical and professional standards of the industry. IFPAS advances the interests of its members by representing their views on legislative, regulatory and policy-related matters. It keeps members informed of new developments and provides them with a forum to air their views on industry issues. It also acts as a channel of communication between members and other industry bodies, and regulatory authorities.",
-                  "textJP": ""
+                  "textJP": "IFPASは、業界の倫理的・専門的基準の維持に取り組む金融サービスおよび保険の実務者のための協会です。IFPASは、法律、規制、政策関連事項について会員の見解を代弁することにより、会員の利益を推進します。新たな動向について会員に情報を提供し、業界の課題について意見を表明するためのフォーラムを提供します。また、会員と他の業界団体および規制当局との間のコミュニケーションチャネルとしても機能します。"
                 }
               ]
             },
@@ -618,12 +639,12 @@
               "id": "ch1-s6-J",
               "label": "J",
               "title": "Association Of Singapore Insurance Agents (ASIA)",
-              "titleJP": "",
+              "titleJP": "シンガポール保険代理店協会（ASIA）",
               "paragraphs": [
                 {
                   "num": "6.15",
                   "text": "The Association of Singapore Insurance Agents (ASIA) represents registered general insurance agents in Singapore. ASIA provides a platform for members to exchange views, ideas and concerns on matters affecting the general insurance industry. It also updates members of latest developments in the insurance industry and acts as a centralised communication vehicle for dissemination of information to its members.",
-                  "textJP": ""
+                  "textJP": "シンガポール保険代理店協会（ASIA）は、シンガポールの登録損害保険代理店を代表する団体です。ASIAは、損害保険業界に影響を及ぼす事項について、会員が意見、アイデア、懸念を交換するためのプラットフォームを提供します。また、保険業界の最新の動向について会員を更新するとともに、会員への情報伝達のための一元的なコミュニケーション手段として機能します。"
                 }
               ]
             },
@@ -631,12 +652,12 @@
               "id": "ch1-s6-K",
               "label": "K",
               "title": "Insurance Law Association, Singapore (ILAS)",
-              "titleJP": "",
+              "titleJP": "保険法協会シンガポール（ILAS）",
               "paragraphs": [
                 {
                   "num": "6.16",
                   "text": "The Insurance Law Association, Singapore (ILAS) comprises members not only from the legal profession but also those from the insurance industry. It focuses on legal matters arising out of Singapore and other countries, insofar as they affect any branch of insurance. It hosts seminars and talks featuring insurance experts from Singapore and the region, thereby enhancing Singaporean insurance practitioners’ knowledge and expertise of insurance law.",
-                  "textJP": ""
+                  "textJP": "保険法協会シンガポール（ILAS）は、法律専門家だけでなく保険業界の関係者もメンバーとして構成されています。ILASは、保険のいずれかの分野に影響を及ぼす限りにおいて、シンガポールおよび他の国で生じる法的事項に焦点を当てています。シンガポールおよび地域の保険専門家を招いたセミナーや講演会を開催し、シンガポールの保険実務者の保険法に関する知識と専門性の向上を図っています。"
                 }
               ]
             }
@@ -646,12 +667,12 @@
           "id": "ch1-s7",
           "number": "7",
           "title": "Other Insurance Related Bodies",
-          "titleJP": "",
+          "titleJP": "その他の保険関連機関",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Apart from the market associations, there are other insurance bodies that exist in Singapore. These include:\n▪ Financial Industry Disputes Resolution Centre Ltd (FIDReC)\n▪ Singapore College Of Insurance (SCI)\n▪ Singapore Insurance Institute (SII)",
-              "textJP": ""
+              "textJP": "市場の業界団体のほかに、シンガポールにはその他の保険関連機関が存在します。以下のものが含まれます。\n▪ 金融紛争解決センター（FIDReC）\n▪ シンガポール保険大学校（SCI）\n▪ シンガポール保険協会（SII）"
             }
           ],
           "subsections": [
@@ -659,12 +680,12 @@
               "id": "ch1-s7-A",
               "label": "A",
               "title": "Financial Industry Disputes Resolution Centre Ltd (FIDReC)",
-              "titleJP": "",
+              "titleJP": "金融紛争解決センター（FIDReC）",
               "paragraphs": [
                 {
                   "num": "7.2",
                   "text": "In this section, we will examine the role of FIDReC, including the set-up of FIDReC and its dispute resolution process.",
-                  "textJP": ""
+                  "textJP": "本節では、FIDReCの設立とその紛争解決プロセスを含め、FIDReCの役割を検討します。"
                 }
               ]
             },
@@ -672,17 +693,17 @@
               "id": "ch1-s7-A1",
               "label": "A1",
               "title": "Mission And Background Of FIDReC",
-              "titleJP": "",
+              "titleJP": "FIDReCの使命と背景",
               "paragraphs": [
                 {
                   "num": "7.3",
                   "text": "FIDreC was launched in August 2005, as part of an initiative by the Monetary Authority of Singapore (MAS) to create a one-stop centre for the resolution of all retail disputes with financial institutions.",
-                  "textJP": ""
+                  "textJP": "FIDReCは、金融機関との個人向け紛争をすべて解決するためのワンストップセンターを創設するというMASのイニシアティブの一環として、2005年8月に設立されました。"
                 },
                 {
                   "num": "7.4",
                   "text": "FIDReC’s mission is to provide an affordable alternative dispute resolution scheme that is independent and impartial, so as to encourage and assist in the resolution of disputes between consumers and financial institutions in an amicable and fair manner. Disputes lodged with FIDReC are usually resolved within 6 months, without the involvement of external lawyers.",
-                  "textJP": ""
+                  "textJP": "FIDReCの使命は、独立かつ公平な、利用しやすい裁判外紛争解決スキームを提供し、消費者と金融機関との間の紛争を友好的かつ公正な方法で解決することを奨励・支援することです。FIDReCに提出された紛争は通常6ヶ月以内に、外部の弁護士を関与させることなく解決されます。"
                 }
               ]
             },
@@ -690,32 +711,32 @@
               "id": "ch1-s7-A2",
               "label": "A2",
               "title": "Jurisdiction Of FIDReC",
-              "titleJP": "",
+              "titleJP": "FIDReCの管轄",
               "paragraphs": [
                 {
                   "num": "7.5",
                   "text": "FIDReC's jurisdiction is set out in its Terms of Reference which can be found at its website. There is no claim limit for mediation at FIDReC, but the jurisdiction for adjudications at FIDReC is up to $150,000 per claim (for claims filed on or after 1st July 2024).",
-                  "textJP": ""
+                  "textJP": "FIDReCの管轄は、そのウェブサイトに掲載されているTerms of Referenceに定められています。FIDReCにおける調停には請求金額の上限はありませんが、FIDReCにおける裁定の管轄は1件あたりS$150,000までです（2024年7月1日以降に提出された請求が対象）。"
                 },
                 {
                   "num": "7.6",
                   "text": "Generally, FIDReC only handles disputes between financial institutions who are its subscribers and consumers. The financial institution must also have had the opportunity to resolve the dispute with the consumer first.",
-                  "textJP": ""
+                  "textJP": "一般に、FIDReCは、会員登録している金融機関と消費者との間の紛争のみを取り扱います。金融機関は、まず消費者との間で紛争を解決する機会を与えられていなければなりません。"
                 },
                 {
                   "num": "7.7",
                   "text": "The following qualify as consumers: (a) Individuals or sole proprietors who have a customer relationship with a financial institution; (b) Persons who have a beneficial interest in the activity; (c) A trustee or personal representative; (d) An insured; or (e) Third parties who have third-party coverage under an insurance contract.",
-                  "textJP": ""
+                  "textJP": "以下の者が消費者に該当します。\n(a) 金融機関と顧客関係を有する個人または個人事業主\n(b) 当該活動に受益権を有する者\n(c) 受託者または遺産管理人\n(d) 被保険者\n(e) 保険契約に基づく第三者カバーの適用を受ける第三者"
                 },
                 {
                   "num": "7.8",
                   "text": "The following complaints cannot be brought before FIDReC: (a) Commercial Decisions; (b) pricing policies and other policies such as interest rates and fees; (c) cases relating solely to investment performance of a financial product; (d) cases under investigation by any law enforcement agency, including cases where allegations of fraud or criminal activity have been made, and where the matter has been referred to the police for investigation; (e) disputes between an FI and its officers and employees relating to agency or employment issues; (f) Complaints that are more than six months old after the FI’s final reply; (g) Complaints arising under a Former Scheme and which have been considered by or resolved under that Scheme; (h) Complaints that have been dealt with by or resolved by FIDReC unless there is new material information that was not reasonably available at the time the previous complaint had been filed; (i) Complaints that have been settled privately or otherwise between the Eligible Complainant and the FI; and (j) cases which have been subjected to a court hearing and for which a court judgment and/or order has been passed.",
-                  "textJP": ""
+                  "textJP": "以下の苦情はFIDReCに申し立てることができません。\n(a) 商業上の判断\n(b) 金利や手数料を含む価格設定方針およびその他の方針\n(c) 金融商品の運用実績のみに関する事案\n(d) 詐欺または犯罪行為の申し立てがなされ、捜査のために警察に付託された事案を含む、法執行機関による捜査中の事案\n(e) 代理または雇用問題に関する金融機関とその役員・従業員との間の紛争\n(f) 金融機関の最終回答から6ヶ月を超えた苦情\n(g) 旧スキームの下で発生し、当該スキームにおいて検討または解決された苦情\n(h) FIDReCによって処理または解決された苦情。ただし、以前の苦情提出時に合理的に入手できなかった新たな重要情報がある場合を除きます\n(i) 適格申立人と金融機関との間で私的にまたはその他の方法で和解した苦情\n(j) 裁判所の審理を経て、裁判所の判決および／または命令が出された事案"
                 },
                 {
                   "num": "7.9",
                   "text": "Additionally, please also take note that FIDReC can dismiss a dispute without mediation in various situations, including where: (a) it is in the opinion of the Case Manager frivolous or vexatious; or (b) there are other compelling reasons why it is inappropriate for FIDReC to deal with the dispute.",
-                  "textJP": ""
+                  "textJP": "加えて、FIDReCは、以下の場合を含むさまざまな状況において、調停を行うことなく紛争を却下できることにも留意してください。\n(a) ケースマネージャーの判断において、軽率または悪意のあるものである場合\n(b) FIDReCが当該紛争を取り扱うことが不適切であるその他のやむを得ない理由がある場合"
                 }
               ]
             },
@@ -723,12 +744,12 @@
               "id": "ch1-s7-A3",
               "label": "A3",
               "title": "FIDReC’s Dispute Resolution Process",
-              "titleJP": "",
+              "titleJP": "FIDReCの紛争解決プロセス",
               "paragraphs": [
                 {
                   "num": "7.10",
                   "text": "The dispute resolution process of FIDReC comprises the following stages: (a) Complaint Filing (1st Stage) Consumer lodges complaint at FIDReC and Case Manager verifies if the complaint is within FIDReC’s jurisdiction. (b) Mediation (2nd Stage) When a complaint is first received, the Case Manager will arrange mediation to facilitate discussions between disputants with the objective of reaching a settlement. For fees and costs details, please see table below. (c) Adjudication (3rd Stage) Where the dispute is not settled by mediation, the consumer can choose to allow an Adjudicator to decide the case on the facts and merits. For fees and costs details, please see table below.",
-                  "textJP": ""
+                  "textJP": "FIDReCの紛争解決プロセスは、以下の段階で構成されます。\n(a) 苦情申し立て（第1段階）：消費者がFIDReCに苦情を申し立て、ケースマネージャーが当該苦情がFIDReCの管轄内であるかを確認します。\n(b) 調停（第2段階）：苦情を最初に受理した際、ケースマネージャーは和解に至ることを目的として紛争当事者間の協議を促進するため調停を手配します。料金と費用の詳細は以下の表をご覧ください。\n(c) 裁定（第3段階）：調停によって紛争が解決しない場合、消費者は裁定人に事実と案件の内容に基づいて判断を委ねることを選択できます。料金と費用の詳細は以下の表をご覧ください。"
                 }
               ]
             },
@@ -736,17 +757,17 @@
               "id": "ch1-s7-A4",
               "label": "A4",
               "title": "Filing A Complaint",
-              "titleJP": "",
+              "titleJP": "苦情の申し立て",
               "paragraphs": [
                 {
                   "num": "7.11",
                   "text": "The process of initiating a complaint with FIDReC is simple: (a) Any consumer who has a dispute that he has not been able to resolve with a financial institution can file a complaint free of charge with FIDReC either in person or via fax, post or e-mail. (b) On receipt, a Case Manager will process the complaint. If the complaint is within FIDReC's jurisdiction, the Case Manager will take it up with the financial institution concerned, and will facilitate a resolution of the dispute if possible through case management and mediation. This service is free of charge to consumers. (c) If a resolution cannot be reached, the consumer may then choose to take his complaint further by referring the dispute to the Adjudicator or a Panel of Adjudicators for adjudication. The consumer needs to pay an adjudication case fee when his case proceeds to adjudication.",
-                  "textJP": ""
+                  "textJP": "FIDReCへの苦情申し立てのプロセスは簡単です。\n(a) 金融機関との間で解決できなかった紛争を抱える消費者は、来所、ファクス、郵送、または電子メールにより、無料でFIDReCに苦情を申し立てることができます。\n(b) 受理後、ケースマネージャーが苦情を処理します。苦情がFIDReCの管轄内である場合、ケースマネージャーは関係する金融機関に連絡し、ケース管理および調停を通じて可能であれば紛争の解決を促進します。このサービスは消費者に対して無料です。\n(c) 解決に至らない場合、消費者は裁定人または裁定パネルに紛争を付託することにより、苦情をさらに進めることを選択できます。消費者は、事案が裁定に進む際に裁定手数料を支払う必要があります。"
                 },
                 {
                   "num": "7.12",
                   "text": "The decision of the Adjudicator or Panel is final and binding on the financial institution, but not on the consumer. If the consumer is not satisfied with the decision, he has the option to continue to pursue the complaint through other channels or means such as litigation.",
-                  "textJP": ""
+                  "textJP": "裁定人またはパネルの決定は金融機関に対しては最終的かつ拘束力を持ちますが、消費者に対してはそうではありません。消費者がその決定に満足しない場合、訴訟などの他のチャネルまたは手段を通じて苦情の追求を継続する選択肢があります。"
                 }
               ]
             },
@@ -754,17 +775,17 @@
               "id": "ch1-s7-A5",
               "label": "A5",
               "title": "FIDReC-NIMA Scheme",
-              "titleJP": "",
+              "titleJP": "FIDReC-NIMAスキーム",
               "paragraphs": [
                 {
                   "num": "7.13",
                   "text": "The FIDReC Non-Injury Motor Accident Scheme (FIDReC-NIMA Scheme) helps consumers resolve non-injury motor accident disputes with insurance companies in which the amount claimed is below S$3,000. The FIDReC-NIMA Scheme covers claims by complainants against a third-party insurance company.",
-                  "textJP": ""
+                  "textJP": "FIDReC非人身事故解決制度（FIDReC-NIMAスキーム）は、請求金額がS$3,000未満の自動車の非人身事故に関する紛争について、消費者と保険会社との間の解決を支援するものです。FIDReC-NIMAスキームは、申立人の第三者保険会社に対する請求をカバーします。"
                 },
                 {
                   "num": "7.14",
                   "text": "The following table (extracted from the FIDReC website) compares the various details of the FIDReC Scheme and the FIDReC-NIMA Scheme. FIDReC Scheme FIDReC-NIMA Scheme Governed by FIDReC Terms of Reference FIDReC Terms of Reference and Pre-Action Protocol for Non-Injury Motor Accident Cases Jurisdiction No limit for mediation. Limit of S$150,000 per claim (for claims filed on or after 1st July 2024) for adjudication Only for claims below S$3,000 Type of Claim Claims between Financial Institution subscriber of FIDReC and their customers Non-injury motor accident claim against third party insurer (who is FIDReC subscriber) Cost of Mediation per Claim S$0 for consumer S$50 for Financial Institution (excluding GST) S$0 for consumer S$50 for Financial Institution (excluding GST) Mediation Process Mediation by FIDReC Case Manager Mediation by FIDReC Case Manager, if no settlement, goes to a different mediator for a Mediator’s Indication Cost of Adjudication per Claim S$50 for consumer (excluding GST) S$500 for Financial Institution (excluding GST) S$250 for consumer (excluding GST)* S$500 for Financial Institution (excluding GST) Estimated time taken to resolve ~ 6 Months ~ 3 Months *Note S$200 may be refunded to either party under the adjudication under FIDReC’s prevailing Refund Rules",
-                  "textJP": ""
+                  "textJP": "以下の表（FIDReCウェブサイトより抜粋）は、FIDReCスキームとFIDReC-NIMAスキームのさまざまな詳細を比較したものです。\n\nFIDReCスキーム | FIDReC-NIMAスキーム\n根拠規定 | FIDReC Terms of Reference | FIDReC Terms of Referenceおよび非人身自動車事故事案の訴訟前プロトコル\n管轄 | 調停は上限なし。裁定は1件あたりS$150,000まで（2024年7月1日以降の申し立て）| S$3,000未満の請求のみ\n請求の種類 | FIDReC会員である金融機関とその顧客との間の請求 | 第三者保険会社（FIDReC会員）に対する非人身自動車事故の請求\n調停費用（1件あたり）| 消費者はS$0、金融機関はS$50（GST別）| 消費者はS$0、金融機関はS$50（GST別）\n調停プロセス | FIDReCケースマネージャーによる調停 | FIDReCケースマネージャーによる調停。和解に至らない場合、別の調停人によるMediator's Indicationに進む\n裁定費用（1件あたり）| 消費者はS$50（GST別）、金融機関はS$500（GST別）| 消費者はS$250（GST別）*、金融機関はS$500（GST別）\n解決見込み期間 | 約6ヶ月 | 約3ヶ月\n*注：FIDReCの現行払戻規則に基づき、裁定においていずれかの当事者にS$200が払い戻される場合があります"
                 }
               ]
             },
@@ -772,27 +793,27 @@
               "id": "ch1-s7-B",
               "label": "B",
               "title": "Singapore College of Insurance (SCI)",
-              "titleJP": "",
+              "titleJP": "シンガポール保険大学校（SCI）",
               "paragraphs": [
                 {
                   "num": "7.15",
                   "text": "The Singapore College of Insurance (SCI) is a not-for-profit, industry-based professional training and education body set up in 1974, as part of Singapore’s efforts to develop as an international insurance hub. For more than 47 years, SCI has remained focused in its efforts to upgrade the technical expertise of insurance and financial services practitioners, and to provide them with professional advancement opportunities, through its series of practice-oriented programmes and internationally-accredited qualifications.",
-                  "textJP": ""
+                  "textJP": "シンガポール保険大学校（SCI）は、国際保険ハブとしてのシンガポールの発展の一環として1974年に設立された、非営利の業界基盤の専門研修・教育機関です。47年以上にわたり、SCIは保険および金融サービスの実務者の技術的専門性の向上に注力し、実務重視のプログラムと国際的に認定された資格を通じて、専門的な昇進の機会を提供してきました。"
                 },
                 {
                   "num": "7.16",
                   "text": "Since the late 1970s, the SCI has also been administering for the Monetary Authority of Singapore (MAS) regulatory examinations such as the Certificate In General Insurance (CGI), Capital Markets and Financial Advisory Services (CMFAS) and Health Insurance (HI).",
-                  "textJP": ""
+                  "textJP": "1970年代後半以降、SCIはMASのために、Certificate In General Insurance（CGI）、Capital Markets and Financial Advisory Services（CMFAS）、およびHealth Insurance（HI）などの規制試験も実施しています。"
                 },
                 {
                   "num": "7.17",
                   "text": "Since early 2000, the SCI has also expanded its role to include that of building talent pipelines for the industry. The SCI also plays an active regional role and leads a number of talent and skills-building initiatives under the ASEAN Insurance Council/ASEAN Insurance Education Committee umbrella.",
-                  "textJP": ""
+                  "textJP": "2000年代初頭以降、SCIは業界の人材パイプラインの構築にも役割を拡大しています。SCIはまた、ASEAN保険評議会／ASEAN保険教育委員会の傘下で、多くの人材・スキル構築イニシアティブを主導するなど、地域において積極的な役割を果たしています。"
                 },
                 {
                   "num": "7.18",
                   "text": "The SCI has international links with professional bodies, such as The Chartered Insurance Institute (CII), The American College of Financial Services (TAC), The Glasgow Caledonian University (GCU) and The Zurich University of Applied Sciences (ZHAW). The SCI is also the Secretariat for the Asia-Pacific Risk and Insurance Association (APRIA) set up in 1997 to further insurance education, and to promote links between academia and the industry.",
-                  "textJP": ""
+                  "textJP": "SCIは、英国勅許保険協会（CII）、アメリカン・カレッジ・オブ・ファイナンシャル・サービシズ（TAC）、グラスゴー・カレドニアン大学（GCU）、チューリッヒ応用科学大学（ZHAW）などの専門機関と国際的なつながりを有しています。SCIはまた、保険教育の推進と学界・業界間の連携促進を目的として1997年に設立されたアジア太平洋リスク・保険学会（APRIA）の事務局も務めています。"
                 }
               ]
             },
@@ -800,12 +821,12 @@
               "id": "ch1-s7-C",
               "label": "C",
               "title": "Singapore Insurance Institute (SII)",
-              "titleJP": "",
+              "titleJP": "シンガポール保険協会（SII）",
               "paragraphs": [
                 {
                   "num": "7.19",
                   "text": "The Singapore Insurance Institute (SII) is a professional membership body for professionals in insurance and financial services. The SII organises talks, discussion groups and other activities and events to upgrade the professionalism of its members, as well as social and sports activities to promote interactions among its members. All SII members are required to observe a Code of Conduct. SII may exercise its disciplinary powers to reprimand, suspend or cancel the membership of members who violate the Code.",
-                  "textJP": ""
+                  "textJP": "シンガポール保険協会（SII）は、保険および金融サービスの専門家のための専門会員組織です。SIIは、会員の専門性を向上させるための講演会、ディスカッショングループ、その他の活動やイベントを企画するとともに、会員間の交流を促進するための社交・スポーツ活動も行っています。SIIのすべての会員は行動規範を遵守する義務があります。SIIは、行動規範に違反した会員に対して、懲戒権を行使して戒告、資格停止、または会員資格の取消しを行うことができます。"
                 }
               ]
             }
@@ -815,22 +836,22 @@
           "id": "ch1-s8",
           "number": "8",
           "title": "Rating Agencies",
-          "titleJP": "",
+          "titleJP": "格付機関",
           "paragraphs": [
             {
               "num": "8.1",
               "text": "Rating agencies play an increasingly important role in the capital markets today, by providing an independent assessment and opinion on the overall financial capacity or credit worthiness of financial institutions that issue a broad range of capital market instruments, such as debt obligations, securities, etc. These ratings typically categorise the financial institutions into different bands represented by letter grades (e.g. AAA, AA, A, BBB, BB, etc.) that reflect the rating agency’s opinion on the relative credit worthiness of institution, in terms of likelihood of default, credit stability, ability or willingness to meet its financial obligations, etc.",
-              "textJP": ""
+              "textJP": "格付機関は、債務、有価証券などの幅広い資本市場商品を発行する金融機関の全体的な財務能力または信用力について独立した評価と意見を提供することにより、今日の資本市場においてますます重要な役割を果たしています。これらの格付は通常、金融機関を文字等級（例：AAA、AA、A、BBB、BBなど）で表されるさまざまなバンドに分類し、債務不履行の可能性、信用の安定性、財務上の義務を果たす能力または意思などの観点から、機関の相対的な信用力に関する格付機関の意見を反映しています。"
             },
             {
               "num": "8.2",
               "text": "In the case of insurance ratings, the rating will typically reflect an independent assessment of the insurer’s financial strength and ability to meet its ongoing insurance policy and contract obligations. Such ratings may help an insurance or reinsurance buyer or broker to make an informed decision on their choice of insurance or reinsurance carrier.",
-              "textJP": ""
+              "textJP": "保険格付の場合、格付は通常、保険者の財務健全性、および継続的な保険契約上の義務を果たす能力に関する独立した評価を反映します。このような格付は、保険または再保険の購入者やブローカーが、保険者または再保険者の選択について十分な情報に基づいた判断を行うのに役立ちます。"
             },
             {
               "num": "8.3",
               "text": "Rating agencies are increasingly incorporating sustainability and environmental, social and governance (ESG) issues as far as rating methodologies are concerned.",
-              "textJP": ""
+              "textJP": "格付機関は、格付手法に関して、サステナビリティおよびESG（環境・社会・ガバナンス）の課題をますます取り入れるようになっています。"
             }
           ],
           "subsections": []
@@ -839,12 +860,12 @@
           "id": "ch1-s9",
           "number": "9",
           "title": "Loss Adjusters",
-          "titleJP": "",
+          "titleJP": "損害査定人",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "Besides those insurance entities described above, other players in the insurance market include the loss adjusters who are independent claims specialists whose function is to assist in validating claim settlements quickly and fairly. Usually appointed by the insurers, they investigate large and complex claims on the insurers’ behalf and will be remunerated with fee payments by the insurers concerned. In the chapter on Claims in this study guide, we shall examine the role of loss adjusters in greater detail.",
-              "textJP": ""
+              "textJP": "上述の保険事業体のほかに、保険市場のその他のプレーヤーとして損害査定人がいます。損害査定人は独立した保険金請求の専門家であり、その機能は保険金の迅速かつ公正な査定・支払いを支援することです。通常は保険者によって任命され、保険者に代わって大規模で複雑な保険金請求を調査し、関係する保険者からフィーの形で報酬を受けます。本学習ガイドの保険金請求の章において、損害査定人の役割をより詳しく検討します。"
             }
           ],
           "subsections": []
