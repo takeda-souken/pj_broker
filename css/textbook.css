@@ -258,12 +258,11 @@
 }
 .tb-related__go--all {
   width: auto;
-  height: auto;
+  height: 32px;
   border-radius: 16px;
-  padding: 5px 12px;
-  font-size: 0.75rem;
+  padding: 0 10px;
+  font-size: 0.7rem;
   font-weight: 600;
-  gap: 2px;
 }
 .tb-related__item {
   display: flex;
