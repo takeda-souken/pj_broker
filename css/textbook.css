@@ -245,11 +245,29 @@
   border: 1px solid var(--c-border);
   border-radius: var(--radius);
 }
+.tb-related__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--sp-sm);
+}
 .tb-related__title {
   font-weight: 700;
   font-size: 0.85rem;
-  margin-bottom: var(--sp-sm);
   color: var(--tb-accent, var(--c-accent));
+}
+.tb-related__practice-all {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  background: var(--tb-accent, var(--c-accent));
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.tb-related__practice-all:hover {
+  opacity: 0.85;
 }
 .tb-related__item {
   display: flex;
@@ -263,15 +281,30 @@
   font-size: 0.8rem;
   line-height: 1.4;
   text-align: left;
-  cursor: pointer;
   border-radius: var(--radius);
-  transition: background var(--transition);
-}
-.tb-related__item:hover {
-  background: var(--c-surface-alt);
 }
 .tb-related__item:last-of-type {
   border-bottom: none;
+}
+.tb-related__go {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--c-surface-alt);
+  border: 1px solid var(--c-border);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: var(--tb-accent, var(--c-accent));
+  transition: background var(--transition), border-color var(--transition);
+}
+.tb-related__go:hover {
+  background: var(--tb-accent, var(--c-accent));
+  color: #fff;
+  border-color: var(--tb-accent, var(--c-accent));
 }
 .tb-related__badge {
   flex-shrink: 0;

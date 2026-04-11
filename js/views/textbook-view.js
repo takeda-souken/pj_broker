@@ -39,6 +39,7 @@ registerRoute('#textbook', async (app) => {
       searchQuery,
       selectedSection,
       expandedChapters: [...expandedChapters],
+      scrollY: window.scrollY,
     });
   }
 
@@ -229,29 +230,34 @@ registerRoute('#textbook', async (app) => {
     const related = getRelatedQuestions(questions, ch.number, sec.number);
     if (related.length > 0) {
       const relEl = el('div', { className: 'tb-related' });
-      relEl.appendChild(el('div', { className: 'tb-related__title' },
+
+      // Header row: title + practice all button
+      const headerRow = el('div', { className: 'tb-related__header' });
+      headerRow.appendChild(el('div', { className: 'tb-related__title' },
         `${tr('textbook.relatedQuestions', 'Related Questions')} (${related.length})`));
+      const allIds = related.map(q => q.id).join(',');
+      headerRow.appendChild(el('button', {
+        className: 'btn btn--sm tb-related__practice-all',
+        onClick: () => { persistState(); navigate(`#quiz?module=${currentModule}&mode=practice&review=${allIds}&from=textbook`); },
+      }, `${tr('textbook.practiceAll', 'Practice All')}`));
+      relEl.appendChild(headerRow);
+
       for (const q of related.slice(0, 10)) {
-        const qEl = el('button', {
-          className: 'tb-related__item',
-          onClick: () => navigate(`#quiz?module=${currentModule}&mode=practice&review=${q.id}&from=textbook`),
-        });
+        const qEl = el('div', { className: 'tb-related__item' });
         const badge = el('span', { className: `badge tb-related__badge` },
           q.difficulty <= 1 ? 'Easy' : q.difficulty <= 2 ? 'Medium' : 'Hard');
         qEl.appendChild(badge);
         qEl.appendChild(el('span', { className: 'tb-related__text' }, q.question.substring(0, 120) + (q.question.length > 120 ? '...' : '')));
+        qEl.appendChild(el('button', {
+          className: 'tb-related__go',
+          onClick: () => { persistState(); navigate(`#quiz?module=${currentModule}&mode=practice&review=${q.id}&from=textbook`); },
+        }, '\u25B6'));
         relEl.appendChild(qEl);
       }
       if (related.length > 10) {
         relEl.appendChild(el('div', { className: 'tb-related__more' },
           `+ ${related.length - 10} more`));
       }
-      // "Practice all" button
-      const allIds = related.map(q => q.id).join(',');
-      relEl.appendChild(el('button', {
-        className: 'btn btn--primary btn--block mt-sm',
-        onClick: () => navigate(`#quiz?module=${currentModule}&mode=practice&review=${allIds}&from=textbook`),
-      }, `${tr('textbook.practiceAll', 'Practice All')} (${related.length})`));
       container.appendChild(relEl);
     }
 
@@ -375,8 +381,11 @@ registerRoute('#textbook', async (app) => {
     return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  // Initial render
-  render();
+  // Initial render + restore scroll
+  await render();
+  if (saved.scrollY) {
+    requestAnimationFrame(() => window.scrollTo({ top: saved.scrollY, behavior: 'instant' }));
+  }
 
   return () => { clearTimeout(searchTimer); };
 });
