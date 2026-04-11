@@ -3797,7 +3797,7 @@
       "id": "ch4",
       "number": 4,
       "title": "COMMERCIAL MOTOR INSURANCE",
-      "titleJP": "",
+      "titleJP": "企業自動車保険",
       "outline": [
         "Introduction",
         "Types Of Commercial Motor Vehicle Insurance Coverage",
@@ -3809,7 +3809,56 @@
         "Motor Fleet Insurance",
         "Motor Trade Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "企業自動車保険の必要性",
+        "企業自動車保険の補償の種類",
+        "提案書",
+        "保険証明書",
+        "カバーノート",
+        "保険証券",
+        "裏書",
+        "更新通知",
+        "請求書",
+        "補償範囲",
+        "セクションI：自動車に対する保険",
+        "セクションII：第三者に対する責任",
+        "セクションIII：故障車両の牽引",
+        "その他の約款条項",
+        "免責金額",
+        "無事故割引",
+        "条件",
+        "地理的補償範囲",
+        "管轄条項",
+        "保険証券の移転",
+        "特定条項の回避および求償権",
+        "先払い担保条項",
+        "保険料支払担保条項",
+        "その他の条件",
+        "一般免責事由",
+        "特約拡張",
+        "引受上の考慮事項",
+        "自動車保険金請求制度（MCF）",
+        "MCFの要点",
+        "報告の利点",
+        "事故報告を怠った場合の結果",
+        "運転者はMCFからどのような恩恵を受けるか",
+        "車両に損害がなくても保険者に報告すべきか",
+        "事故を報告しなかった場合どうなるか",
+        "認定報告センターへの持込み費用",
+        "保険金請求",
+        "フリート保険とは",
+        "フリート料率",
+        "フリート保険の必要性",
+        "モータートレード保険とは",
+        "モータートレード保険の必要性",
+        "補償範囲",
+        "免責事由",
+        "特約拡張",
+        "補償範囲",
+        "免責事由",
+        "道路・構内統合リスク保険"
+      ],
       "learningOutcomes": [
         "understand the statutory requirements pertaining to compulsory motor insurance in Singapore",
         "know the need for Commercial Motor Vehicle Insurance",
@@ -3833,27 +3882,27 @@
           "id": "ch4-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "Before one can understand the coverage afforded by a Commercial Vehicle Motor insurance policy, it is essential to understand the statutory requirements for compulsory motor insurance in Singapore.",
-              "textJP": ""
+              "textJP": "企業用自動車保険証券が提供する補償を理解する前に、シンガポールにおける強制自動車保険の法定要件を理解することが不可欠です。"
             },
             {
               "num": "1.2",
               "text": "Under the Motor Vehicles (Third-Party Risks and Compensation) Act 1960 [“the Act”], every user of a motor car in Singapore must have in force an insurance policy, which provides him with indemnity for legal liabilities arising from death or bodily injuries to a third party in connection with the use of a motor car on the road. It is an offence to drive or to be in charge of a motor car on a public road without Motor Insurance coverage in force. Motor Insurance coverage and proof of it is required by the Land Transport Authority of Singapore (LTA) before registration of a new motor car, or prior to the renewal of the motor vehicle’s road tax.",
-              "textJP": ""
+              "textJP": "Motor Vehicles (Third-Party Risks and Compensation) Act 1960（自動車（第三者リスクおよび補償）法1960年）［以下「本法」］に基づき、シンガポールにおけるすべての自動車使用者は、第三者の死亡または身体傷害に対するてん補を提供する有効な保険証券を保有しなければなりません。"
             },
             {
               "num": "1.3",
               "text": "In accordance with the Act: (a) the policy must be taken up with an approved insurer in Singapore; (b) a Certificate of Insurance must be obtained from the insurer, otherwise the insurance policy purchased shall be of no effect; and (c) it is also a statutory requirement that the driver must produce a valid Certificate of Insurance at any time, as and when required by the police.",
-              "textJP": ""
+              "textJP": "本法に従い：(a) 保険証券はシンガポールの承認保険者から取得しなければなりません。(b) 保険者から保険証明書を取得しなければなりません。そうでなければ購入した保険証券は有効ではありません。(c) 保険証券は自動車の使用者がシンガポールの公道で自動車を使用するたびに有効でなければなりません。"
             },
             {
               "num": "1.4",
               "text": "The insured, including any named driver or authorised driver, must have a valid licence to drive a motor car in Singapore. In addition, he must not be under suspension or disqualified from driving under the Road Traffic Act 1961.",
-              "textJP": ""
+              "textJP": "被保険者（記名運転者または許可された運転者を含む）は、シンガポールで自動車を運転するための有効な免許証を所持していなければなりません。加えて、法令または裁判所の命令により運転免許の停止または取消しを受けていてはなりません。"
             }
           ],
           "subsections": [
@@ -3861,22 +3910,22 @@
               "id": "ch4-s1-A",
               "label": "A",
               "title": "The Need For Commercial Motor Vehicle Insurance",
-              "titleJP": "",
+              "titleJP": "企業自動車保険の必要性",
               "paragraphs": [
                 {
                   "num": "1.5",
                   "text": "Commercial Motor Insurance covers all types of commercial vehicles (except for motorcycles) that are owned by businesses.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険は、企業が所有するすべての種類の商用車両（二輪車を除く）を対象とします。"
                 },
                 {
                   "num": "1.6",
                   "text": "Commercial Motor Vehicle Insurance is used by businesses to insure their commercial vehicles, such as the following:\n▪ goods carrying vehicles like vans, pick-ups, lorries, trucks, trailers and prime movers;\n▪ passenger carrying vehicles like hired cars (e.g. taxis), buses and coaches;\n▪ agricultural, forestry and construction-related vehicles like tractors, excavators and mobile cranes, if allowed for use by LTA on public roads or roads which the public has access to; and\n▪ vehicles of special construction, known as “special types”, including vehicles such as ambulances and forklift trucks.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険は、企業が以下のような商用車両を付保するために使用されます：\n▪ バン、ピックアップ、ローリー、トラック、トレーラー、トレーラーヘッドなどの貨物運搬車両\n▪ バス、ミニバスなどの旅客輸送車両\n▪ タクシー\n▪ レッカー車\n▪ 特殊車両（クレーン車、フォークリフト等）"
                 },
                 {
                   "num": "1.7",
                   "text": "Commercial Motor Vehicle Insurance is primarily concerned with the risks attached to the motor vehicles themselves, while they are being driven or Act Liability Only Minimum cover as required by Motor Vehicles (Third-Party Risks and Compensation) Act, 1960:\n▪ death or bodily injuries of third parties, including liability towards passengers. Third-Party Only In addition to the cover granted by Act Liability Only policy, this policy also covers:\n▪ damage to thirdparty’s property. Third-Party, Fire &Theft In addition to the cover granted by Third-Party Only policy, this policy also covers:\n▪ indemnity to the insured for loss of or damage to the insured’s motor vehicle as a result of fire or theft. Comprehensive In addition to the cover granted by Third-Party, Fire & Theft policy, this policy also covers a number of other risks such as:\n▪ Accidental collision and malicious damage to the motor vehicle that the insured owns, with some exceptions.\n▪ Special perils parked or used for any purposes in relation to the insured’s business such as the loading or unloading of goods.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険は、主に自動車自体が運転中または停車中のリスクに関係し、法定責任のみの補償が本法に基づく最低限の補償です。"
                 }
               ]
             }
@@ -3886,22 +3935,22 @@
           "id": "ch4-s2",
           "number": "2",
           "title": "Types Of Commercial Motor Vehicle Coverage",
-          "titleJP": "",
+          "titleJP": "企業自動車保険の補償の種類",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "There are four main types of Commercial Motor Car Insurance coverage generally sold by insurers in Singapore. These are:\n▪ Act Liability Only;\n▪ Third-Party Only;\n▪ Third-Party, Fire & Theft; and\n▪ Comprehensive.",
-              "textJP": ""
+              "textJP": "シンガポールの保険者が一般に販売する企業自動車保険の補償には、主に以下の4種類があります：\n▪ 法定責任のみ\n▪ 対第三者のみ\n▪ 対第三者＋火災盗難（TPFT）\n▪ 総合保険"
             },
             {
               "num": "2.2",
               "text": "The type of insurance that is compulsory for the commercial vehicle owner to take up as mentioned earlier is the Act Liability Only policy. Under such a policy, the insurer agrees to indemnify the insured for legal liability arising from using his motor car on the road. However, this policy only covers the insured against claims arising from death or bodily injuries to third parties (including passengers). It does not cover legal liability from property damage to third parties, nor does it cover bodily injuries to the driver or damage to the insured motor car. This policy also does not cover accidents that happen in other places (e.g. on private property) which are not included in the definition of a “road” under the Act. Under Section 2 of the Act, “road” means “any public road and any other road to which the public has access and includes bridges over which a road passes”.",
-              "textJP": ""
+              "textJP": "前述のとおり、商用車両の所有者が加入を義務付けられている保険は法定責任のみの保険証券です。この保険証券の下では、保険者は法定保険金額まで第三者の死亡または身体傷害に対する賠償を被保険者にてん補することに同意します。"
             },
             {
               "num": "2.3",
               "text": "The three types of covers are depicted in Diagram 4.1 below. They provide more coverage than the Act Liability Only policy but do bear in mind that any insurance coverage other than the Act requirements will be an optional consideration for the insured, subject to underwriting by the insurer. Diagram 4.1 – Types of Covers",
-              "textJP": ""
+              "textJP": "以下の図4.1に示す3種類の補償は、法定責任のみの保険証券よりも多くの補償を提供しますが、法定要件以外の保険補償はいずれも任意であることにご留意ください。"
             }
           ],
           "subsections": []
@@ -3917,12 +3966,12 @@
               "id": "ch4-s3-A",
               "label": "A",
               "title": "Proposal Form",
-              "titleJP": "",
+              "titleJP": "提案書",
               "paragraphs": [
                 {
                   "num": "3.1",
                   "text": "A completed proposal form is required when the insured seeks to purchase a Commercial Motor Vehicle Insurance policy. The Motor Insurance underwriter relies on the completed proposal form as the main source of information to assess the risk presented.",
-                  "textJP": ""
+                  "textJP": "被保険者が企業自動車保険証券の購入を希望する場合、記入済みの提案書が必要です。自動車保険の引受担当者は、リスクの評価のための主要な情報源として記入済みの提案書に依拠します。"
                 }
               ]
             },
@@ -3930,12 +3979,12 @@
               "id": "ch4-s3-B",
               "label": "B",
               "title": "Certificate Of Insurance",
-              "titleJP": "",
+              "titleJP": "保険証明書",
               "paragraphs": [
                 {
                   "num": "3.2",
                   "text": "The Certificate of Insurance plays an important role in the statutory scheme of compulsory insurance. This Certificate must be obtained from the insurer to show the existence of the Commercial Motor Vehicle Insurance, so that it can be shown to the police as and when required.",
-                  "textJP": ""
+                  "textJP": "保険証明書は、強制保険の法定制度において重要な役割を果たします。この証明書は、企業自動車保険が有効であることを示すために保険者から取得しなければなりません。"
                 }
               ]
             },
@@ -3943,12 +3992,12 @@
               "id": "ch4-s3-C",
               "label": "C",
               "title": "Cover Note",
-              "titleJP": "",
+              "titleJP": "カバーノート",
               "paragraphs": [
                 {
                   "num": "3.3",
                   "text": "In general, a cover note is issued as an interim document, pending receipt of other details needed for the issue of a policy document and a Certificate of Insurance. A cover note is a fully effective contract of insurance.",
-                  "textJP": ""
+                  "textJP": "一般に、カバーノートは、保険証券および保険証明書の発行に必要なその他の詳細情報の受領を待つ間の暫定文書として発行されます。カバーノートは完全に有効な保険の証拠です。"
                 }
               ]
             },
@@ -3956,12 +4005,12 @@
               "id": "ch4-s3-D",
               "label": "D",
               "title": "Policy Document",
-              "titleJP": "",
+              "titleJP": "保険証券",
               "paragraphs": [
                 {
                   "num": "3.4",
                   "text": "As the policy document contains detailed terms, clauses, exceptions and conditions, one might be tempted to assume that the policy document is the contract. One has to read the policy document in conjunction with the proposal form submitted by the insured and any other information submitted. The policy document, just like the proposal form etc, is not the contract but evidence of the insurance contract. The policy document contains the precise terms, provisions, limitations, exclusions and conditions, details of the coverage provided, definitions of terms and supplementary information, such as advice on the dispute resolution procedures, as well as the claim procedures.",
-                  "textJP": ""
+                  "textJP": "保険証券には詳細な条項、条件、免責事由が記載されているため、保険証券が契約そのものであると思いがちですが、保険証券は提案書、および保険者と被保険者の間の書簡と合わせて読まなければなりません。"
                 }
               ]
             },
@@ -3969,12 +4018,12 @@
               "id": "ch4-s3-E",
               "label": "E",
               "title": "Endorsements",
-              "titleJP": "",
+              "titleJP": "裏書",
               "paragraphs": [
                 {
                   "num": "3.5",
                   "text": "Insurers use endorsements to record changes in the terms and conditions of the standard insurance policy. For example, perils that are excluded in the standard policy, such as flood, strike, riot and civil commotion damage, can be included using endorsements.",
-                  "textJP": ""
+                  "textJP": "保険者は、標準保険証券の条件の変更を記録するために裏書を使用します。例えば、洪水、ストライキ、暴動、内乱など、標準保険証券で除外されている危険が追加保険料の支払いにより復活される場合があります。"
                 }
               ]
             },
@@ -3982,12 +4031,12 @@
               "id": "ch4-s3-F",
               "label": "F",
               "title": "Renewal Notice",
-              "titleJP": "",
+              "titleJP": "更新通知",
               "paragraphs": [
                 {
                   "num": "3.6",
                   "text": "While there is no legal obligation of an insurer to issue a renewal notice, it is a good practice to do so. A renewal notice not only acts as a reminder to the policyholder that the cover is about to expire, but also acts as an insurer’s sales tool to help the insurer to retain business.",
-                  "textJP": ""
+                  "textJP": "保険者が更新通知を発行する法的義務はありませんが、発行することは良い慣行です。更新通知は保険契約者に補償が間もなく期限切れとなることを通知するだけでなく、保険契約者が新たな提案書を記入する手間を省きます。"
                 }
               ]
             },
@@ -3995,12 +4044,12 @@
               "id": "ch4-s3-G",
               "label": "G",
               "title": "Claim Form",
-              "titleJP": "",
+              "titleJP": "請求書",
               "paragraphs": [
                 {
                   "num": "3.7",
                   "text": "The basic document required of the insured when making a claim is the claim form. This claim form has been standardised and is now available online as an accident report from any approved reporting centre or authorised workshop for e-filing and reporting purposes, through the GIA Record Management Centre system, in the event of an accident involving the insured motor vehicle. Details on reporting of motor accidents will be discussed under the Motor Claims Framework in a later section of this chapter.",
-                  "textJP": ""
+                  "textJP": "被保険者が請求を行う際に必要な基本文書は請求書です。この請求書は標準化されており、現在はいかなる承認報告センターからもオンラインで事故報告書として入手できます。"
                 }
               ]
             }
@@ -4010,32 +4059,32 @@
           "id": "ch4-s4",
           "number": "4",
           "title": "Scope Of Cover",
-          "titleJP": "",
+          "titleJP": "補償範囲",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "The Commercial Motor Vehicle Insurance policy is structured into sections as follows:\n▪ Section I – Insurance On The Motor Vehicle;\n▪ Section II – Liability To Third Parties; and\n▪ Section III – Towing Disabled Vehicles.",
-              "textJP": ""
+              "textJP": "企業自動車保険証券は以下のセクションで構成されています：\n▪ セクションI：自動車に対する保険\n▪ セクションII：第三者に対する責任\n▪ セクションIII：故障車両の牽引"
             },
             {
               "num": "4.2",
               "text": "For Commercial Motor Vehicles on Comprehensive cover, Sections I, II and III will apply.",
-              "textJP": ""
+              "textJP": "総合保険の企業自動車については、セクションI、II、IIIが適用されます。"
             },
             {
               "num": "4.3",
               "text": "If a Third-Party, Fire and Theft cover is selected, Section I coverage will be deleted except for coverage from loss against fire and theft (i.e. only 4.6 (b) below will still be valid), and Sections II and III will continue to be valid.",
-              "textJP": ""
+              "textJP": "対第三者＋火災盗難補償を選択した場合、セクションIの補償は火災・盗難による損害の補償を除き削除され（すなわち下記4.6(b)のみが有効）、セクションIIおよびIIIが適用されます。"
             },
             {
               "num": "4.4",
               "text": "For Third-Party Only cover, Section I will be completely removed and only Sections II and III will apply.",
-              "textJP": ""
+              "textJP": "対第三者のみの補償では、セクションIは完全に除外され、セクションIIおよびIIIのみが適用されます。"
             },
             {
               "num": "4.5",
               "text": "The following sections show the typical coverages and exclusions found in Section I, II and III of a Commercial Vehicle Policy.",
-              "textJP": ""
+              "textJP": "以下のセクションでは、企業自動車保険証券のセクションI、II、IIIに見られる典型的な補償と免責事由を示します。"
             }
           ],
           "subsections": [
@@ -4043,32 +4092,32 @@
               "id": "ch4-s4-A",
               "label": "A",
               "title": "Section I – Insurance On The Motor Vehicle",
-              "titleJP": "",
+              "titleJP": "セクションI：自動車に対する保険",
               "paragraphs": [
                 {
                   "num": "4.6",
                   "text": "The insurer will indemnify the Insured against loss of or damage to the Insured Vehicle and its accessories and spare parts caused: a) by accidental collision or overturning or collision or overturning consequent upon mechanical breakdown or consequent upon wear and tear; b) by fire, external explosion, self-ignition, lightning, impact by falling object, burglary, housebreaking or theft. c) by flood, typhoon, hurricane, cyclone, tornado, volcanic eruption, earthquake or other convulsion of nature; d) by malicious act; and occurring within the Geographical Area.",
-                  "textJP": ""
+                  "textJP": "保険者は、以下の原因により被保険車両およびその付属品・予備部品に生じた滅失・損害について被保険者をてん補します：\n(a) 偶発的な衝突、転覆、または他の車両との衝突\n(b) 火災、外部爆発、自然発火、落雷\n(c) 侵入盗、家屋侵入、盗難\n(d) 悪意ある行為"
                 },
                 {
                   "num": "4.7",
                   "text": "At its own option, the insurer may pay in cash the amount of the loss or damage or may repair, reinstate or replace the Insured Vehicle or any part thereof or its accessories or spare parts.",
-                  "textJP": ""
+                  "textJP": "保険者は自らの選択により、滅失・損害の金額を現金で支払うか、被保険車両またはその部品・付属品・予備部品を修理、復旧または交換することができます。"
                 },
                 {
                   "num": "4.8",
                   "text": "The liability of the insurer shall not exceed the value of the parts lost or damaged and the reasonable cost of fitting such parts. The insurer’s maximum liability shall be limited to the prevailing market value of the Insured Vehicle at the time of loss or damage.",
-                  "textJP": ""
+                  "textJP": "保険者の責任は、滅失・損傷した部品の価値および当該部品の合理的な取付費用を超えないものとします。保険者の最大責任は、損害発生直前の被保険車両の市場価値に限定されます。"
                 },
                 {
                   "num": "4.9",
                   "text": "It also covers the cost of removal after the accident and provides some authority to the insured to repair damage to the motor vehicle.",
-                  "textJP": ""
+                  "textJP": "また、事故後の撤去費用を補償し、被保険者に対して自動車の損害を修理する一定の権限を与えます。"
                 },
                 {
                   "num": "4.10",
                   "text": "The exclusions under Section I are: (i) consequential loss, loss of use, depreciation, wear and tear, mechanical or electrical breakdowns, failures or breakages; (ii) damage to tyres unless the Insured Vehicle is damaged at the same time; (iii) damage caused by overloading or strain; (iv) damage caused to Insured Vehicle by explosion of any boiler forming part of or attached to or on the Insured Vehicle; (v) the Excess amount as shown in the Schedule and its applicable GST for every claim made against the insurer under this Section. This excess shall not apply to loss or damage caused by fire, explosion, self-ignition or lightning or burglary, housebreaking or theft; (vi) any equipment or computer malfunction; or (vii) the failure or inability of any equipment or any computer program to recognize or correctly interpret or process any date as the true or correct date, or to continue to function correctly beyond that date",
-                  "textJP": ""
+                  "textJP": "セクションIの免責事由は以下のとおりです：(i) 間接損害、使用不能損害、減価償却、摩耗・損耗、機械的・電気的故障・破損 (ii) タイヤの損害（被保険車両が同時に偶発的な損害を受けた場合を除く） (iii) シンガポール国内で自動車が合法的に運転されていない間の損害"
                 }
               ]
             },
@@ -4076,17 +4125,17 @@
               "id": "ch4-s4-B",
               "label": "B",
               "title": "Section II – Liability To Third Parties",
-              "titleJP": "",
+              "titleJP": "セクションII：第三者に対する責任",
               "paragraphs": [
                 {
                   "num": "4.11",
                   "text": "This section indemnifies the Insured in the event of an accident caused by or arising out of the use of the Insured Vehicle or in connection with the loading or unloading of the Insured Vehicle within the Geographical Area against all sums including claimant’s costs and expenses which the Insured shall become legally liable to pay in respect of: (a) death of or bodily injury to any person; (b) damage to property",
-                  "textJP": ""
+                  "textJP": "このセクションは、被保険車両の使用に起因して、または被保険車両の積卸しに関連して事故が発生した場合に被保険者をてん補します。以下に対する賠償責任を補償します：\n(a) 第三者の死亡または身体傷害\n(b) 第三者の財物の滅失・損害"
                 },
                 {
                   "num": "4.12",
                   "text": "The exclusions under Section II are: (i) death or bodily injury to any person in the employment of the Insured arising out of and in the course of such employment; (ii) damage to property belonging to the Insured or held in trust by or in the custody or control of the Insured or any member of the Insured’s household or being conveyed by the Insured Vehicle; (iii) death, bodily injury or damage caused or arising beyond the limits of any carriageway or thoroughfare in connection with the bringing of the load to the Insured Vehicle for loading thereon or the taking away of the load from the Insured Vehicle after unloading therefrom; (iv) damage to any bridge, weighbridge, viaduct or to any road or anything beneath by vibration or by the weight of the Insured Vehicle or of the local carried by the Insured Vehicle; (v) death, bodily injury or damage to property caused by or arising out of the explosion of a boiler forming part of attached to or on the Insured Vehicle except so far as is necessary to meet the requirements of the relevant legislation; or (vi) damage to underground pipelines, cables or installations of any description",
-                  "textJP": ""
+                  "textJP": "セクションIIの免責事由は以下のとおりです：(i) 被保険者の雇用中に生じた被保険者の従業員の死亡または身体傷害 (ii) 被保険者に属する、もしくは被保険者が所有・占有する財物の損害"
                 }
               ]
             },
@@ -4094,12 +4143,12 @@
               "id": "ch4-s4-C",
               "label": "C",
               "title": "Section III – Towing Disabled Vehicles",
-              "titleJP": "",
+              "titleJP": "セクションIII：故障車両の牽引",
               "paragraphs": [
                 {
                   "num": "4.13",
                   "text": "Under this section, it provides that if the insured motor vehicle is being used to tow any disabled vehicle, the insurance under Section II “Liability To Third Parties” shall be provided to cover for any liability in connection with the towed vehicle, except when it is being towed for reward. However, damage to the towed vehicle itself, or the property being conveyed by it, is not covered.",
-                  "textJP": ""
+                  "textJP": "このセクションは、被保険車両が故障車両を牽引している場合、セクションII「第三者に対する責任」に基づく保険が牽引中の事故にも適用されることを規定しています。"
                 }
               ]
             }
@@ -4109,12 +4158,12 @@
           "id": "ch4-s5",
           "number": "5",
           "title": "Other Policy Provisions",
-          "titleJP": "",
+          "titleJP": "その他の約款条項",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "Other than the main sections specifying the coverage, the Commercial Motor Vehicle Insurance policy includes some other important provisions.",
-              "textJP": ""
+              "textJP": "補償を規定する主要セクション以外に、企業自動車保険証券にはその他の重要な規定が含まれています。"
             }
           ],
           "subsections": [
@@ -4122,37 +4171,37 @@
               "id": "ch4-s5-A",
               "label": "A",
               "title": "Excess",
-              "titleJP": "",
+              "titleJP": "免責金額",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "Excess clauses are often included to curb small claims. Excess is the first part of any claim that the insurer will not pay. Instead, the insured will have to bear the amount himself. If the total claim amount is less than or equal to the excess, nothing is payable by the insurer.",
-                  "textJP": ""
+                  "textJP": "免責条項は少額請求を抑制するためにしばしば含まれます。免責金額とは、保険者が支払わない請求の最初の部分です。代わりに、被保険者がその金額を自ら負担しなければなりません。"
                 },
                 {
                   "num": "5.3",
                   "text": "When the insurer imposes an excess, the insured will tend to be more careful because if a claim occurs, the insured will also have to pay out-of-pocket and contribute towards the claim. In general, the higher the excess, the more careful will be the insured and, hence, the lower risk of having a claim. It is often meant to limit the liability of the insurer, as well as to discourage small claims that fall within the excess.",
-                  "textJP": ""
+                  "textJP": "保険者が免責金額を課す場合、請求が発生すると被保険者も自己負担で請求に寄与しなければならないため、被保険者はより注意深くなる傾向があります。"
                 },
                 {
                   "num": "5.4",
                   "text": "The reasons for imposing an Excess clause under Commercial Motor Vehicle Insurance are the same ones as those for the other classes of insurance, as described below:\n▪ By making the insured responsible for a portion of the loss, the insurer hopes to instil a greater sense of care and diligence on the part of the insured than he would without it.\n▪ Any large claim is reduced by the excess amount, thus reducing the liability to the insurer.\n▪ It does not make economic sense to the insurer to pay for very small claim amounts, since there is usually a fixed cost involved in servicing each claim.\n▪ Rather than terminating the policies of insureds with bad claims experience, a higher excess may be offered, so that the insurance coverage can remain in force and viable, keeping the premiums within financial reach.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険における免責条項を課す理由は、他の保険種目と同じであり、以下のとおりです：\n▪ 被保険者にすべての損害の一部について責任を持たせることにより、損害防止を奨励する\n▪ 少額請求の処理に関連する事務費用を削減する\n▪ 保険料を軽減する"
                 },
                 {
                   "num": "5.5",
                   "text": "An insured may request the insurer to remove or reduce the amount of excess by agreeing to pay a higher premium. The insured may also volunteer for a higher amount of excess than that imposed by the insurer, in exchange for a lower premium payment.",
-                  "textJP": ""
+                  "textJP": "被保険者は、より高い保険料の支払いに同意することにより、免責金額の撤廃または減額を保険者に要請できます。また、被保険者は保険者が課した免責金額よりも高い金額を自主的に選択し、保険料の割引を得ることもできます。"
                 },
                 {
                   "num": "5.6",
                   "text": "Depending on the policy wording, the relevant types of excesses may be applied to the policy under the respective headings as described below: (a) Excess All Claims If the Excess is on an “All Claims” basis, it means that the policyholder must pay the excess if a claim is either made by the policyholder for an own damage claim, or if a claim is made against the policyholder by a third party, The excess is generally only payable once per event, regardless of the number of claims made due to that event. An example of the wording is as follows: “Notwithstanding anything to the contrary contained in Section I “Insurance On The Motor Vehicle” and Section II “Liability To Third Parties - damage to third-party property”, the insured is responsible for the initial fixed amount of claims (less any expenses already incurred, say, for the protection of the damaged vehicle) for each and every loss event. However, if the expense incurred by the insurer includes the amount for which the insured is responsible, the insured will be asked to repay such amount to the insurer.” (b) Excess – Own Damage Claims The policyholder will be charged an excess if a claim under Section I, for own damage repairs to the vehicle. If the policyholder does not make an own damage claim but there is a third party claim made against the policyholder, the policyholder will not have to pay the excess. (c) Excess – Third-Party Property Damage This excess applies to any claim arising from third-party property damage (see Section II).",
-                  "textJP": ""
+                  "textJP": "保険証券の文言に応じて、以下の見出しの下にそれぞれの種類の免責金額が適用される場合があります：\n(a) 全請求免責：「全請求」ベースの場合、免責金額はすべての請求に適用されます。\n(b) 第三者財物損害免責：一部の保険者は第三者財物損害についてのみ免責金額を適用します。"
                 },
                 {
                   "num": "5.7",
                   "text": "The excess as described above usually does not apply to loss or damage caused by fire, external explosion, self-ignition, lightning, burglary, housebreaking or theft.",
-                  "textJP": ""
+                  "textJP": "上記の免責金額は、通常、火災、外部爆発、自然発火、落雷、侵入盗、家屋侵入または盗難による滅失・損害には適用されません。"
                 }
               ]
             },
@@ -4160,27 +4209,27 @@
               "id": "ch4-s5-B",
               "label": "B",
               "title": "No Claims Discount",
-              "titleJP": "",
+              "titleJP": "無事故割引",
               "paragraphs": [
                 {
                   "num": "5.8",
                   "text": "No Claim Discount (NCD) is also known as “No Claim Bonus” or “No Claim Entitlement”. A NCD is a financial incentive for the insured for not having made any claim under the policy. In Singapore, if there is no claim made during the period of insurance immediately before the renewal date of the policy, the insurer will usually grant a NCD on the renewal premium. This is one way to incentivise the driver to drive safely and cautiously.",
-                  "textJP": ""
+                  "textJP": "無事故割引（NCD）は「無事故ボーナス」または「無事故特典」とも呼ばれます。NCDは、保険証券に基づく請求を行わなかった被保険者に対する財務的インセンティブです。"
                 },
                 {
                   "num": "5.9",
                   "text": "The rate of discount for a commercial motor vehicle is shown below for the preceding years with no claims made against the policy: Period Of Insurance Discount The preceding year 10% The preceding two consecutive years 15% The preceding three or more consecutive years 20%",
-                  "textJP": ""
+                  "textJP": "商用車両の割引率は、保険証券に対する請求がなかった直近の年数に応じて以下のとおりです：\n直近1年間：10%\n直近2年連続：20%\n直近3年以上連続：20%"
                 },
                 {
                   "num": "5.10",
                   "text": "There will be no discount granted on the next policy renewal, once a claim is made in respect of a commercial vehicle. However, insurers generally do not penalise the NCD for claims made against windscreen breakages if no other parts of the motor vehicles was damaged.",
-                  "textJP": ""
+                  "textJP": "商用車両について請求が行われた場合、次の保険証券更新時に割引は付与されません。ただし、保険者は一般に、フロントガラスの損害やストライキ・暴動・内乱に起因する請求についてはNCDにペナルティを課しません。"
                 },
                 {
                   "num": "5.11",
                   "text": "Example: XYZ Ltd was enjoying a NCD of 20% for its van when it met with a road accident, and XYZ Ltd made a claim under its Comprehensive Commercial Vehicle Insurance policy. What NCD percentage will it be entitled to upon the next renewal of its policy? Answer: Nil",
-                  "textJP": ""
+                  "textJP": "例：XYZ Ltdはバンについて20%のNCDを享受していましたが、交通事故に遭い、総合企業自動車保険証券に基づき請求を行いました。次回更新時のNCD率はどうなりますか？回答：0%。NCDは請求により失われます。"
                 }
               ]
             },
@@ -4188,17 +4237,17 @@
               "id": "ch4-s5-C",
               "label": "C",
               "title": "Conditions",
-              "titleJP": "",
+              "titleJP": "条件",
               "paragraphs": [
                 {
                   "num": "5.12",
                   "text": "Policy conditions deal with the conduct between the two parties (i.e. the insured and the insurer) of the insurance contract.",
-                  "textJP": ""
+                  "textJP": "保険証券の条件は、保険契約の両当事者（被保険者と保険者）の間の行為を規定します。"
                 },
                 {
                   "num": "5.13",
                   "text": "The majority of these conditions are listed under their individual headings, but sometimes may be found under the general heading of “CONDITIONS”. The order of the conditions may vary among insurers, but they normally deal with the following matters:",
-                  "textJP": ""
+                  "textJP": "これらの条件の大部分は個別の見出しの下に記載されていますが、「条件」の一般見出しの下に記載される場合もあります。条件の順序は保険者によって異なる場合があります。"
                 }
               ]
             },
@@ -4206,17 +4255,17 @@
               "id": "ch4-s5-C1",
               "label": "C1",
               "title": "Geographical Area Of Coverage",
-              "titleJP": "",
+              "titleJP": "地理的補償範囲",
               "paragraphs": [
                 {
                   "num": "5.14",
                   "text": "A Commercial Motor Vehicle Insurance policy applies to loss or damage or liability incurred or sustained within the geographical area as defined in the Schedule of the Policy.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険証券は、保険証券の明細書で定義された地理的範囲内で発生した滅失・損害または責任に適用されます。"
                 },
                 {
                   "num": "5.15",
                   "text": "In Singapore, Commercial Motor Vehicle Insurance applies only to the following countries and geographical areas: (a) The Republic of Singapore (b) West Malaysia (c) Transit by direct sea route across: (i) the straits between the island of Penang and the mainland of West Malaysia; (ii) the straits between Changi Point, Singapore and Tanjong Belunkor, Johor; subject to the Insured and other person for the time being in charge of the Insured Vehicle having complied in all things with the rules, regulations or lawful directions of the carrier. (d) That part of Thailand within 80 kilometres of the border between Thailand and West Malaysia",
-                  "textJP": ""
+                  "textJP": "シンガポールでは、企業自動車保険は以下の国および地域にのみ適用されます：(a) シンガポール共和国 (b) 西マレーシア (c) 以下の直行海路による通過航路"
                 }
               ]
             },
@@ -4224,12 +4273,12 @@
               "id": "ch4-s5-C2",
               "label": "C2",
               "title": "Jurisdiction Clause",
-              "titleJP": "",
+              "titleJP": "管轄条項",
               "paragraphs": [
                 {
                   "num": "5.16",
                   "text": "The insurers will not be bound by judgements not in the first instance delivered or obtained from a Court of Law within the Republic of Singapore or West Malaysia.",
-                  "textJP": ""
+                  "textJP": "保険者は、シンガポール共和国または西マレーシアの裁判所において最初に下されたまたは取得されたものでない判決には拘束されません。"
                 }
               ]
             },
@@ -4237,17 +4286,17 @@
               "id": "ch4-s5-C3",
               "label": "C3",
               "title": "Transfer Of Policy",
-              "titleJP": "",
+              "titleJP": "保険証券の移転",
               "paragraphs": [
                 {
                   "num": "5.17",
                   "text": "This provision pertains to the assignment of a Commercial Motor Vehicle Insurance policy. It generally states that, if the insurer consents to a transfer of interest in the policy, the period during which the interest has been vested with the transferor will not accrue to the transferee.",
-                  "textJP": ""
+                  "textJP": "この規定は、企業自動車保険証券の譲渡に関するものです。被保険者が保険証券の利益の譲渡について保険者の同意を得た場合でも、無事故割引の起算期間はリセットされるのが一般的です。"
                 },
                 {
                   "num": "5.18",
                   "text": "That is to say, once the ownership of the vehicle has been changed, the former owner needs to cancel its policy, and the new owner must purchase a new Commercial Motor Vehicle Insurance policy.",
-                  "textJP": ""
+                  "textJP": "すなわち、車両の所有権が変更された場合、旧所有者は保険証券を解約する必要があり、新所有者は新たな企業自動車保険証券を購入しなければなりません。"
                 }
               ]
             },
@@ -4255,22 +4304,22 @@
               "id": "ch4-s5-C4",
               "label": "C4",
               "title": "Avoidance Of Certain Terms & Right Of Recovery",
-              "titleJP": "",
+              "titleJP": "特定条項の回避および求償権",
               "paragraphs": [
                 {
                   "num": "5.19",
                   "text": "This condition simply means that, if the insurer is required by legislation or any other instrument to pay a claim for which the insurer is not otherwise liable under the policy, the insurer can recover the amount of the paid claim from the insured.",
-                  "textJP": ""
+                  "textJP": "この条件は単純に、保険者が本来保険証券に基づき責任を負わない請求について法令その他の文書により支払いを求められた場合、保険者は被保険者から当該支払金額を回収できることを意味します。"
                 },
                 {
                   "num": "5.20",
                   "text": "Such obligations may arise by virtue of the legislation or the agreement made between:\n▪ the Minister of Transport of Malaysia and the Motor Insurers’ Bureau of West Malaysia on 30 March 1992; or\n▪ the Minister for Finance of Singapore and the Motor Insurers’ Bureau of Singapore on 22 February 1975.",
-                  "textJP": ""
+                  "textJP": "そのような義務は、以下の間で締結された法令または合意に基づき生じる場合があります：\n▪ マレーシアの運輸大臣と西マレーシア自動車保険者協会の間（1992年3月30日）\n▪ シンガポール金融管理庁とシンガポール自動車保険者協会の間"
                 },
                 {
                   "num": "5.21",
                   "text": "For example, if the insured’s driver is driving under the influence of alcohol and knocks down a cyclist or pedestrian, the insurer will be required by legislation to pay a claim for bodily injury or death, which it is otherwise not liable under the Commercial Motor Vehicle Insurance policy because of a breach of terms and conditions by the insured. Upon payment of any such claim, the insurer will then seek recovery from the insured.",
-                  "textJP": ""
+                  "textJP": "例えば、被保険者の運転手が飲酒運転中に自転車乗りまたは歩行者をはねた場合、保険者は法令により身体傷害に対する請求を支払うよう求められますが、保険者は被保険者から当該支払金額を回収する権利を有します。"
                 }
               ]
             },
@@ -4278,22 +4327,22 @@
               "id": "ch4-s5-C5",
               "label": "C5",
               "title": "Payment Before Cover Warranty (Applicable to Policy issued to an individual)",
-              "titleJP": "",
+              "titleJP": "先払い担保条項（個人向け保険証券に適用）",
               "paragraphs": [
                 {
                   "num": "5.22",
                   "text": "This clause requires the insured to pay the premium in full on or before the effective date of insurance under the policy, renewal certificate, cover note, and/or endorsement.",
-                  "textJP": ""
+                  "textJP": "この条項は、被保険者が保険証券、更新証書、カバーノート、および／または裏書に基づく保険の発効日以前に保険料の全額を支払うことを求めています。"
                 },
                 {
                   "num": "5.23",
                   "text": "To meet this requirement, the premium must be paid and actually received in full by the insurer, the registered broker or registered agent through whom the policy is effected.",
-                  "textJP": ""
+                  "textJP": "この要件を満たすためには、保険料は保険者、登録ブローカーまたは登録代理店に全額支払われ、実際に受領されなければなりません。"
                 },
                 {
                   "num": "5.24",
                   "text": "If this is not complied with, the policy will not be valid. As such, no benefit will be payable by the insurance company. Any payment received thereafter will be of no effect, as the policy is not valid.",
-                  "textJP": ""
+                  "textJP": "これが遵守されない場合、保険証券は有効ではありません。したがって、保険会社からいかなる給付も支払われません。"
                 }
               ]
             },
@@ -4301,27 +4350,27 @@
               "id": "ch4-s5-C6",
               "label": "C6",
               "title": "Premium Payment Warranty (Applicable to Policy issued to business or",
-              "titleJP": "",
+              "titleJP": "保険料支払担保条項（事業者向け保険証券に適用）",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "commercial establishment)",
-                  "textJP": ""
+                  "textJP": "企業または商業施設向けに発行される保険証券に適用されます。"
                 },
                 {
                   "num": "5.25",
                   "text": "This clause states that if the period of insurance is sixty (60) days or more, any premium due must be paid and actually received in full by the insurer (or the intermediary through whom the Policy was effected) within sixty (60) days of the inception date of the coverage under the Policy, Renewal Certificate or Cover Note.",
-                  "textJP": ""
+                  "textJP": "この条項は、保険期間が60日以上の場合、支払うべき保険料は保険者（または保険証券が締結された仲介者）に全額支払われ、保険証券の開始日から60日以内に実際に受領されなければならないことを規定しています。"
                 },
                 {
                   "num": "5.26",
                   "text": "If the Period of Insurance is less than sixty (60) days, any premium due must be paid and actually received in full by the insurer (or the intermediary through whom this Policy was effected) within the Period of Insurance.",
-                  "textJP": ""
+                  "textJP": "保険期間が60日未満の場合、支払うべき保険料は保険者（または保険証券が締結された仲介者）に、保険証券の開始日から保険期間内に全額支払われ、実際に受領されなければなりません。"
                 },
                 {
                   "num": "5.27",
                   "text": "In the event that any premium due is not paid and actually received in full by the insurer (or the intermediary through whom the Policy was effected) within the sixty (60)-day period referred to above, then, the cover under the Policy, Renewal Certificate or Cover Note is automatically terminated after the expiry of the said sixty (60)-day period.",
-                  "textJP": ""
+                  "textJP": "上記の60日以内に保険料が全額支払われ、保険者（または保険証券が締結された仲介者）に実際に受領されなかった場合、保険者はその翌日から保険証券を自動的に解除する権利を有します。"
                 }
               ]
             },
@@ -4329,12 +4378,12 @@
               "id": "ch4-s5-D",
               "label": "D",
               "title": "Other Conditions",
-              "titleJP": "",
+              "titleJP": "その他の条件",
               "paragraphs": [
                 {
                   "num": "5.28",
                   "text": "Most of the following can be found under the policy heading titled “CONDITIONS”.\n▪ Interpretation;\n▪ Written Notice;\n▪ Care of Insured Vehicle;\n▪ Notification Of Accident;\n▪ Claim Procedures;\n▪ Cancellation;\n▪ Other Insurance; and\n▪ Arbitration.",
-                  "textJP": ""
+                  "textJP": "以下のほとんどは、「条件」と題された保険証券の見出しの下に見られます：\n▪ 解釈\n▪ 書面による通知\n▪ 被保険車両の管理\n▪ 事故の通知\n▪ 請求手続き\n▪ 解約"
                 }
               ]
             },
@@ -4342,37 +4391,37 @@
               "id": "ch4-s5-E",
               "label": "E",
               "title": "General Exclusions",
-              "titleJP": "",
+              "titleJP": "一般免責事由",
               "paragraphs": [
                 {
                   "num": "5.29",
                   "text": "In addition to the specific exclusions under each section, there are a number of general and market exclusions applicable to all sections of the policy.",
-                  "textJP": ""
+                  "textJP": "各セクションの個別の免責事由に加え、保険証券のすべてのセクションに適用される多くの一般的免責事由および市場免責事由があります。"
                 },
                 {
                   "num": "5.30",
                   "text": "Firstly, the insurer is not liable for any loss, damage or liability sustained or incurred:\n▪ outside the defined geographical area of coverage;\n▪ while the motor vehicle is being used not in accordance to its “Limitations As To Use”;\n▪ used or driven when it is not registered under the Road Traffic Act 1961 or when its registration has been cancelled; or used or driven with modifications not approved by LTA in accordance with the Road Traffic (Motor Vehicles, Registration and Licensing) Rules;\n▪ driven by any unauthorised driver; or\n▪ driven by the insured or his authorised driver while under the influence of intoxicating liquor or drugs.",
-                  "textJP": ""
+                  "textJP": "第一に、保険者は以下の状況で発生した滅失・損害・責任について責任を負いません：\n▪ 定義された地理的補償範囲外\n▪ 保険証券に記載された使用方法に従わずに自動車が使用されている場合"
                 },
                 {
                   "num": "5.31",
                   "text": "Secondly, the insurer is not liable for any accident, loss, damage or liability (except those which meet the requirements of the legislation) arising out of or in connection with:\n▪ war, invasion, act of foreign enemies, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection, military or usurped power; or\n▪ detention, seizure, confiscation or any attempt thereat.",
-                  "textJP": ""
+                  "textJP": "第二に、保険者は以下に起因する事故・滅失・損害・責任（法令の要件を満たすものを除く）について責任を負いません：\n▪ 戦争、侵略、外敵の行為、敵対行為\n▪ ストライキ、暴動、内乱\n▪ 地震、洪水、台風"
                 },
                 {
                   "num": "5.32",
                   "text": "Thirdly, if the insurer is not liable under the law, the policy or otherwise, any special agreement made by the insured with a third party that gives rise to liability will not be binding on the insurer.",
-                  "textJP": ""
+                  "textJP": "第三に、法令、保険証券、その他に基づき保険者が責任を負わない場合、被保険者が第三者と締結した特別な合意に基づく責任は保険者を拘束しません。"
                 },
                 {
                   "num": "5.33",
                   "text": "Fourthly, as with war risks, all nuclear risks, including ionising, radioactivity, existence or escape of any nuclear fuel, material or waste are considered to be catastrophic risks which cannot be provided for or covered by insurance.",
-                  "textJP": ""
+                  "textJP": "第四に、戦争リスクと同様に、電離放射線、放射性物質、核燃料・物質・廃棄物の存在または漏出を含むすべての核リスクは、適切に保険料率を算定できない壊滅的リスクとみなされます。"
                 },
                 {
                   "num": "5.34",
                   "text": "Lastly, the insurer will not pay for any loss, damage, cost or expenses caused by or resulting from any act of terrorism, regardless of any other cause or event contributing at the same time, as or in any other sequence to the loss. The insurer will also not pay for any loss, damage, cost or expense of whatsoever nature directly or indirectly caused by, resulting from or in connection with any action taken in controlling, preventing, suppressing or in any way relating to any act of terrorism.",
-                  "textJP": ""
+                  "textJP": "最後に、保険者は、いかなる他の原因または事象の寄与にかかわらず、テロ行為に起因するまたはこれに起因する滅失・損害・費用について支払いません。"
                 }
               ]
             },
@@ -4380,22 +4429,22 @@
               "id": "ch4-s5-F",
               "label": "F",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "5.35",
                   "text": "Some of the common extension relating to Commercial Motor Vehicle Insurance include:\n▪ Legal Liability Of Passengers\n▪ Replacement Parts\n▪ Private use – Indemnity to Person Using\n▪ Cover Whilst Driven by a Motor Trader\n▪ Hire Purchase\n▪ Windscreen Damage\n▪ Strike, Riot & Civil Commotion (SRCC)\n▪ Windstorm & Flood Damage",
-                  "textJP": ""
+                  "textJP": "企業自動車保険に関する一般的な特約拡張には以下が含まれます：\n▪ 同乗者の法的責任\n▪ 交換部品\n▪ 私的使用：使用者に対するてん補\n▪ 運転中の補償"
                 },
                 {
                   "num": "5.36",
                   "text": "In addition, the following extensions are also offered: (a) Third-Party Property Damage Limit Of Indemnity: It is usually possible to increase the limit of liability for third-party property damage; (b) Personal Accident Benefits: This may be extended to cover the paid driver/attendant, and/or the passengers, in direct connection with the insured motor vehicle and caused by accidental means. Benefits are provided according to a “Scale of Compensation”; and (c) Third-Party Working Risk: This extension covers third-party liability arising from the use of the insured motor vehicle as a working risk / tool of trade, e.g. in the case when the cranes are fitted onto the motor vehicles, i.e. when the cranes are being operated, while the motor vehicles are not moving on the roads.",
-                  "textJP": ""
+                  "textJP": "加えて、以下の特約拡張も提供されています：\n(a) 第三者財物損害てん補限度額：第三者財物損害に対する責任限度額を引き上げることが通常可能です。\n(b) ストライキ・暴動・内乱（SRCC）補償\n(c) 洪水補償"
                 },
                 {
                   "num": "5.37",
                   "text": "Refer to Appendix 4A for a specimen Commercial Motor Vehicle Insurance Policy.",
-                  "textJP": ""
+                  "textJP": "企業自動車保険証券の見本については、Appendix 4Aをご参照ください。"
                 }
               ]
             }
@@ -4405,52 +4454,52 @@
           "id": "ch4-s6",
           "number": "6",
           "title": "Underwriting Considerations",
-          "titleJP": "",
+          "titleJP": "引受上の考慮事項",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "When a motor insurance risk is presented to an insurance company, the underwriter has to recognise that each insurable risk presents a different degree of risk to the central pool. Hence, a prudent underwriter must exercise selection of risks and charge each potential policyholder a “fair” premium which represents the degree of risk they bring to the pool.",
-              "textJP": ""
+              "textJP": "自動車保険リスクが保険会社に提示された場合、引受担当者は各付保可能リスクがセントラルプールに対して異なるリスク度合いを示すことを認識しなければなりません。"
             },
             {
               "num": "6.2",
               "text": "The following tend to be the main underwriting considerations for Commercial Motor Vehicle Insurance:\n▪ Nature of Business\n▪ Claims Record for the past three years\n▪ Details of vehicle: - Make/Model - Laden Weight - Tonnage - Type of Body - Year of Manufacture/Registration - Usage of Vehicle - Number of seats - Details of modifications/ accessories - Number of trailers attached\n▪ Additional cover required e.g. Third-Party Working Risk, Airside etc.\n▪ Insurance history\n▪ Details of past traffic offences",
-              "textJP": ""
+              "textJP": "企業自動車保険の主な引受上の考慮事項は以下のとおりです：\n▪ 事業の性質\n▪ 過去3年間の請求記録\n▪ 車両の詳細：メーカー／モデル、年式、保険金額\n▪ 運転者の詳細"
             },
             {
               "num": "6.3",
               "text": "In the study of Motor Insurance underwriting, it is customary to commence with the study of Private Motor Insurance. The nature of Private Motor Insurance has been discussed in the Singapore College of Insurance’s Personal General Insurance Study Guide (7th Edition). To have a better understanding of Commercial Motor Insurance and how it is underwritten, it is useful to know how it differs from Private Motor Insurance bearing in mind that Private Motor Vehicles are used mainly for social and business purposes while Commercial Motor Vehicles are more varied in terms of size, types, weight and usage i.e. they are used for commercial and business purposes.",
-              "textJP": ""
+              "textJP": "自動車保険の引受の学習では、個人自動車保険の学習から始めるのが慣例です。個人自動車保険の性質は、Singapore College of Insuranceの「Personal General Insurance」スタディガイドで議論されています。"
             },
             {
               "num": "6.4",
               "text": "Table 4.1 details the main differences and similarities between the Comprehensive coverage of Private Motor Insurance and Commercial Motor Insurance. Table 4.1: Differences and Similarities between the Comprehensive Coverage of Private Motor Insurance and Commercial Motor Insurance Private Motor Insurance (Comprehensive Cover) Commercial Motor Insurance (Comprehensive Cover) Accidental loss cover, typically covers automatically for flood, acts of good, strikes, riots and civil commotion. Collision loss cover, may need to add in coverage for special perils. Additional accessories must be declared for coverage. Attachments if declared will be covered in the event of a motor accident. If vehicle cannot move after an accident, policy will pay for towing, but limits may differ for private car and commercial vehicles. If vehicle cannot move after an accident, policy will pay for towing, but limits may differ for private car and commercial vehicles. Windscreen cover– pays for damage to windscreen provided no other part of the motor vehicle is damaged. Separate excess from standard policy excess and No-Claim Discount is not impacted. For private car: There may be an extension for moonroof/sunsroof/solar film cover but the excess and limits may differ. Windscreen cover– pays for damage to windscreen provided no other part of the motor vehicle is damaged. Separate excess from standard policy excess and No- Claim Discount is not impacted. Medical benefit and Personal Accident coverage (Generally in Sections III & IV of the motor policy) for permanent disability or death included. Some insurers cover only drivers for Personal Accident covers whereas other insurers cover for passengers as well. Typically no medical benefit and personal accident coverage. May offer a loss of use benefit. Typically no loss of use benefit. Geographical limits: Geographical limits: Republic of Singapore, West Malaysia and Thailand (but only Republic of Singapore, West Malaysia and Thailand (but only within 80km of the border of Malaysia); Coverage while in transit between Singapore and islands, may be granted. within 80km of the border of Malaysia); Coverage while in transit between Singapore and islands, may be granted. Commercial vehicles need special permission from the Malaysian Authorities to enter Malaysia; Section I exclusions typically the same as Commercial Motor Insurance. Commercial Vehicle Jacket Policy will have an additional exclusion for own damage claims when the vehicle is used as a tool of trade.",
-              "textJP": ""
+              "textJP": "表4.1は、個人自動車保険と企業自動車保険の総合補償の主な相違点と類似点を詳述しています。"
             },
             {
               "num": "6.5",
               "text": "As for the Section II (Liability To Third Parties) cover in a Comprehensive Motor Insurance policy, the following Table 4.2 details the main differences and similarities between the coverage of Private Motor Insurance and Commercial Motor Insurance. Table 4.2: Differences and Similarities between Section II Coverage of Private Motor Insurance and Commercial Motor Insurance Private Motor Insurance (Section II Liability To Third Parties) Commercial Motor Insurance (Section II Liability To Third Parties ) Third Party Property Limit: SGD 5 million Third Party Property Limit: SGD 500,000 Third party bodily injury policy limit is “unlimited”. Third party bodily injury policy limit is “unlimited”. Coverage is typically extended to authorized drivers, named drivers, passengers getting in or out of the car, provided they abide by all terms and conditions of the policy. Coverage is typically extended to authorized drivers, passengers getting in or out of the car, provided they abide by all terms and conditions of the policy. Accessories not provided with original purchase of vehicle must be declared separately for coverage. Commercial vehicles may have attachments that have to be declared during the proposal (e.g. hood, cranes) and may have an extension for “Third Party working Risk” cover for bodily injury.",
-              "textJP": ""
+              "textJP": "セクションII（第三者に対する責任）の補償については、以下の表4.2が個人自動車保険と企業自動車保険の補償の主な相違点と類似点を詳述しています。"
             },
             {
               "num": "6.6",
               "text": "Table 4.3 details the differences between the Section II Exclusions of Private Motor Insurance and Commercial Motor Insurance. Table 4.3: Differences between the Section II Exclusions of Private Motor Insurance and Commercial Motor Insurance Private Motor Insurance-Section II Exclusions Commercial Motor Insurance- Section II Exclusions Generally similar requirements for both Private Cars and Commercial Vehicles Generally similar requirements for both Private Cars and Commercial Vehicles 1. Injury or death to a person driving the insured’s car. 2. Claims that can be made under the Work Injury Compensation Act (injury or death to the insured’s employee). 3. Damage to property under the insured or the insured’s household member’s care, control or custody. 1. Including all of those for private car. 2. Injury or death as a result of loading/unloading beyond the loading capacity specifications. 3. Damage to any bridge, or any road or anything beneath by vibration or by the weight of the motor vehicle or load carried by the motor vehicle. 4. Damage to property if caused by or arising out of the explosion of a boiler attached to the motor vehicle.",
-              "textJP": ""
+              "textJP": "表4.3は、個人自動車保険と企業自動車保険のセクションII免責事由の相違点を詳述しています。"
             },
             {
               "num": "6.7",
               "text": "As mentioned before, the usage of Private Motor Vehicles is rather different from Commercial Motor Vehicles. The Limitations As To Use is specified in the Motor Insurance policy and in this regard, the differences between Private Motor Insurance and Commercial Motor Insurance can be seen from Table 4.4. Table 4.4: Differences between The Limitation As To Use of Private Motor Insurance and Commercial Motor Insurance Private Motor Insurance-Limitations As To Use Commercial Motor Insurance- Limitations As To Use Typically, for private use. Limitations as to Use: Social, domestic and pleasure purpose, in connection with the business as described For exclusions, depends on declaration of usage, which could include:\n▪ Carry own goods\n▪ Carry other goods\n▪ Rental Limitations as to Use: 1. Use in connection with the policyholder's business. in the policy schedule and may also extend to carpooling services. Excludes: hire or reward, racing, pacemaking, reliability trials, speed testing, any excluded purpose as stated in the policy or Certificate of insurance If private car is used for Private hire services or rental, there would be amendments made to the exclusion for hire or reward. 2. Use for the carriage of passengers (other than for hire or reward) in connection with the Policyholders' business. 3. Use for social domestic and pleasure purposes. Normal exclusions will apply but for exclusions such as “Carry other goods”, there will be amendments made to the exclusion: Excludes use for the carriage of passengers for hire or reward. If vehicle is declared for Rental usage, the exclusion for rental will be deleted.",
-              "textJP": ""
+              "textJP": "前述のとおり、個人自動車の使用は商用車両とは大きく異なります。使用制限は自動車保険証券に規定されています。"
             },
             {
               "num": "6.8",
               "text": "In terms of No Claims Discount, the range and scale of it differs between Private Motor Insurance and Commercial Motor Insurance: Private Motor Insurance-No Claims Discount Commercial Motor Insurance-No Claims Discount Private Car starts from 0% and goes up to 50% (10% each year). Any claim made to the policy reduces the NCD by 30%, or to 0% if the current NCD is 30% or less. Commercial Vehicle starts from 0%, goes up to 10% after the first year and 5% each subsequent year up to 20%. Any claim made to the policy reduces the NCD to 0%.",
-              "textJP": ""
+              "textJP": "無事故割引に関しては、個人自動車保険と企業自動車保険の間でその範囲と段階が異なります。"
             },
             {
               "num": "6.9",
               "text": "The general exclusions and conditions under a Commercial Motor Insurance policy are largely similar to that of a Private Motor Insurance policy.",
-              "textJP": ""
+              "textJP": "企業自動車保険証券の一般免責事由および条件は、個人自動車保険証券のものと概ね類似しています。"
             }
           ],
           "subsections": []
@@ -4459,12 +4508,12 @@
           "id": "ch4-s7",
           "number": "7",
           "title": "Motor Claims Framework (Mcf)",
-          "titleJP": "",
+          "titleJP": "自動車保険金請求制度（MCF）",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "The industry-wide Motor Claims Framework (MCF) came into effect in Singapore on 1 June 2008. It was an initiative of the General Insurance Association of Singapore, to provide clear and common procedures for the reporting of motor accidents. The MCF is fully supported by all motor insurers in Singapore. The MCF also provides motorists with an enhanced claims experience and at the same time, helps contain claims costs for insurers.",
-              "textJP": ""
+              "textJP": "業界全体の自動車保険金請求制度（MCF）は2008年6月1日にシンガポールで発効しました。これはシンガポール損害保険協会のイニシアチブであり、事故報告および請求処理のための明確かつ共通の手続きを提供するものです。"
             }
           ],
           "subsections": [
@@ -4472,37 +4521,37 @@
               "id": "ch4-s7-A",
               "label": "A",
               "title": "Key Points Of The MCF",
-              "titleJP": "",
+              "titleJP": "MCFの要点",
               "paragraphs": [
                 {
                   "num": "7.2",
                   "text": "In case of an accident, the motorist should avoid all unauthorised tow-truck operators and repair workshops.",
-                  "textJP": ""
+                  "textJP": "事故の場合、運転者は認可されていないレッカー業者や修理工場を避けるべきです。"
                 },
                 {
                   "num": "7.3",
                   "text": "The motorist should exchange particulars of involved parties including:\n▪ Name;\n▪ NRIC/FIN;\n▪ Telephone Number;\n▪ Address; and\n▪ Insurer.",
-                  "textJP": ""
+                  "textJP": "運転者は関係当事者の詳細を交換すべきです：\n▪ 氏名\n▪ NRIC/FIN\n▪ 電話番号\n▪ 住所\n▪ 保険者名"
                 },
                 {
                   "num": "7.4",
                   "text": "The motorist should take note of the vehicle numbers and the number of passengers in the third party vehicle.",
-                  "textJP": ""
+                  "textJP": "運転者は相手方車両の車両番号および相手方車両の乗客数を記録すべきです。"
                 },
                 {
                   "num": "7.5",
                   "text": "The motorist needs to take pictures at the accident scene and submit all pictures at the motorist’s authorised accident reporting centre during his reporting. He should take photographs of: (a) Scene: Pictures of the accident scene capturing the accident vehicles and surrounding areas. (b) Own Car: Pictures of the damage to the motorist’s own car capturing his licence plate. (c) Other Damaged Car(s)/Vehicle(s): Pictures of damage to all other cars/vehicles involved in the accident capturing licence plates. For multiple cars/vehicles collision, pictures of those with direct contact, e.g. immediate front and immediate rear cars/vehicles.",
-                  "textJP": ""
+                  "textJP": "運転者は事故現場で写真を撮影し、認定事故報告センターでの報告時にすべての写真を提出する必要があります。以下の写真を撮影すべきです：(a) 現場の写真 (b) 損害の写真 (c) 関係車両すべての写真"
                 },
                 {
                   "num": "7.6",
                   "text": "Call the insurer’s hotline for a tow truck or for further advice on the accident.",
-                  "textJP": ""
+                  "textJP": "保険者のホットラインに電話し、レッカー車の手配または事故に関するさらなるアドバイスを求めてください。"
                 },
                 {
                   "num": "7.7",
                   "text": "Report and bring the accident car (whether damaged or not) to the approved reporting centre/authorised workshop within 24 hours or by the next working day.",
-                  "textJP": ""
+                  "textJP": "24時間以内または翌営業日までに、事故車両を（損害の有無にかかわらず）承認報告センター／認定修理工場に報告し持ち込んでください。"
                 }
               ]
             },
@@ -4510,17 +4559,17 @@
               "id": "ch4-s7-B",
               "label": "B",
               "title": "Benefits Of Reporting",
-              "titleJP": "",
+              "titleJP": "報告の利点",
               "paragraphs": [
                 {
                   "num": "7.8",
                   "text": "By reporting the accident within the stipulated time, the motorist not only enjoys hassle-free and quality-certified repair services, he will also avoid potentially higher costs from exaggerated claims.",
-                  "textJP": ""
+                  "textJP": "所定の期間内に事故を報告することにより、運転者は手間のかからない品質保証付きの修理サービスを受けられるだけでなく、誇張された請求による潜在的に高い費用を回避できます。"
                 },
                 {
                   "num": "7.9",
                   "text": "REMEMBER: All accidents must be reported to the motorist’s insurer’s approved reporting centre/authorised workshop within 24 hours or by the next working day. The policyholder and driver [(If the policyholder was not driving) at the time of the accident must bring the accident car (whether damaged or not)] to the approved reporting centre/authorised workshop, and irrespective of whether he is claiming from any insurers or third parties.",
-                  "textJP": ""
+                  "textJP": "重要：すべての事故は24時間以内または翌営業日までに、運転者の保険者の承認報告センター／認定修理工場に報告しなければなりません。"
                 }
               ]
             },
@@ -4528,12 +4577,12 @@
               "id": "ch4-s7-C",
               "label": "C",
               "title": "Consequences For Failure To Report An Accident To The Insurer",
-              "titleJP": "",
+              "titleJP": "事故報告を怠った場合の結果",
               "paragraphs": [
                 {
                   "num": "7.10",
                   "text": "If the motorist fails to report an accident to his insurer within the stipulated time frame as stated above, he may face the following consequences:\n▪ His insurer may repudiate liability because he has breached policy condition for failure to report an accident. He will therefore not be protected under the policy and will have to deal with his own repair costs and any Third-Party claims made against him.\n▪ His No Claims Discount will be docked upon the renewal of his policy.\n▪ His insurer may also cancel or decline renewal of his policy.",
-                  "textJP": ""
+                  "textJP": "運転者が所定の期間内に保険者に事故を報告しなかった場合、以下の結果に直面する可能性があります：\n▪ 保険証券の条件違反を理由に保険者が責任を否認する可能性\n▪ 無事故割引の喪失"
                 }
               ]
             },
@@ -4541,22 +4590,22 @@
               "id": "ch4-s7-D",
               "label": "D",
               "title": "How Do Motorists Benefit From The MCF?",
-              "titleJP": "",
+              "titleJP": "運転者はMCFからどのような恩恵を受けるか",
               "paragraphs": [
                 {
                   "num": "7.11",
                   "text": "Under the MCF, insurers assist policyholders in handling repairs of the damaged vehicle but will not file a third party claim on the policyholder’s behalf. However, their approved reporting centres can assist you to file a third party claim.",
-                  "textJP": ""
+                  "textJP": "MCFの下では、保険者は保険契約者の損傷車両の修理を支援しますが、保険契約者に代わって第三者請求を提出することはしません。ただし、承認報告センターは保険契約者に第三者請求の手続きについて助言できます。"
                 },
                 {
                   "num": "7.12",
                   "text": "Insurers provide a comprehensive service (via their approved reporting centres or workshops) to encourage the motorist to report his accident with his accident car/vehicle as well as have the repairs carried out at the approved workshops.",
-                  "textJP": ""
+                  "textJP": "保険者は、運転者が事故車両と共に事故を報告し、修理を行うよう促すため、承認報告センターまたは修理工場を通じて包括的なサービスを提供しています。"
                 },
                 {
                   "num": "7.13",
                   "text": "All motorists are required to do is to report to their insurers within 24 hours or the next working day and to bring their accident vehicle to the insurers’ approved reporting centres or workshops.",
-                  "textJP": ""
+                  "textJP": "すべての運転者に求められるのは、24時間以内または翌営業日までに保険者に報告し、事故車両を保険者の承認報告センターまたは修理工場に持ち込むことです。"
                 }
               ]
             },
@@ -4564,22 +4613,22 @@
               "id": "ch4-s7-E",
               "label": "E",
               "title": "Does The Motorist Have To Inform His Insurer Even Though There Is No",
-              "titleJP": "",
+              "titleJP": "車両に損害がなくても保険者に報告すべきか",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Damage To His Car?",
-                  "textJP": ""
+                  "textJP": "車両に損害がなくても保険者に報告すべきですか？"
                 },
                 {
                   "num": "7.14",
                   "text": "Yes, he must always report all accidents to his insurer no matter how minor the accident may be, even if there is no visual damage or even if he has made a private settlement with the other driver.",
-                  "textJP": ""
+                  "textJP": "はい、事故がどんなに軽微であっても、視覚的な損害がなくても、または相手方運転者と示談解決した場合でも、すべての事故を保険者に報告しなければなりません。"
                 },
                 {
                   "num": "7.15",
                   "text": "This is because he cannot be fully certain that the other party will not file a claim against him later. He may find himself in a position of having his claim prejudiced or declined later by insurers.",
-                  "textJP": ""
+                  "textJP": "これは、相手方が後日請求を行わないことを完全に確認できないためです。後に保険者から請求が損なわれたり拒否されたりする立場に置かれる可能性があります。"
                 }
               ]
             },
@@ -4587,17 +4636,17 @@
               "id": "ch4-s7-F",
               "label": "F",
               "title": "What Happens If The Motorist Chooses Not To Report The Accident To His",
-              "titleJP": "",
+              "titleJP": "事故を報告しなかった場合どうなるか",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Insurer?",
-                  "textJP": ""
+                  "textJP": "保険者に事故を報告しないことを選択した場合はどうなりますか？"
                 },
                 {
                   "num": "7.16",
                   "text": "Failure to do so will affect his No Claims Discount upon renewal of his motor insurance and will prejudice his claim.",
-                  "textJP": ""
+                  "textJP": "報告しなかった場合、自動車保険の更新時に無事故割引に影響し、請求が損なわれます。"
                 }
               ]
             },
@@ -4605,22 +4654,22 @@
               "id": "ch4-s7-G",
               "label": "G",
               "title": "If The Motorist Brings His Accident Vehicle To The Authorised Reporting",
-              "titleJP": "",
+              "titleJP": "認定報告センターへの持込み",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Centre Or Workshop, How Much Does He Has To Pay For The Inspection, Survey And Accident E-Filing Process?",
-                  "textJP": ""
+                  "textJP": "認定報告センターまたは修理工場に事故車両を持ち込んだ場合の検査・調査・事故電子申請手続きの費用はいくらですか？"
                 },
                 {
                   "num": "7.17",
                   "text": "There are no fees or charges involved in the reporting process.",
-                  "textJP": ""
+                  "textJP": "報告手続きに料金は発生しません。"
                 },
                 {
                   "num": "7.18",
                   "text": "Do note that the above-mentioned provisions of the MCF are just as applicable to Commercial Motor Insurance.",
-                  "textJP": ""
+                  "textJP": "上記のMCFの規定は企業自動車保険にも同様に適用されることにご留意ください。"
                 }
               ]
             },
@@ -4628,12 +4677,12 @@
               "id": "ch4-s7-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "7.19",
                   "text": "It is worth noting that, while most Motor Vehicle Insurance policies use the “market value” as a basis for claims, the “market value” may not be applicable to some commercial vehicles, such as taxis, and motor vehicles used in certain restricted roads like airports, ship ports, military and naval bases. The values for such motor vehicles are agreed on other bases e.g. Straight-Line Depreciation and Book Value. The cover is usually offered on a sum insured basis.",
-                  "textJP": ""
+                  "textJP": "ほとんどの自動車保険証券は請求の基準として「市場価値」を使用しますが、タクシー、バス、レッカー車、クレーン車などの一部の商用車両には「市場価値」が適用されない場合があることは注目に値します。"
                 }
               ]
             }
@@ -4650,22 +4699,22 @@
               "id": "ch4-s8-A",
               "label": "A",
               "title": "What Is Motor Fleet Insurance?",
-              "titleJP": "",
+              "titleJP": "フリート保険とは",
               "paragraphs": [
                 {
                   "num": "8.1",
                   "text": "Motor Fleet Insurance is used to insure a fleet of vehicles under a single policy. A fleet is simply a number of motor vehicles owned by a firm or corporation. It can be a fleet of private cars, motorcycles, goods-carrying vehicles, or other types of vehicles (or even a mixture of vehicle types).",
-                  "textJP": ""
+                  "textJP": "フリート保険は、単一の保険証券の下で車両群を付保するために使用されます。フリートとは、企業または法人が所有する複数の自動車のことです。自家用車のフリート、商用車のフリート、またはその両方の組み合わせが可能です。"
                 },
                 {
                   "num": "8.2",
                   "text": "Fleets are rated on past experience (meaning past claims experience of the fleet) with the assumption that past experience is a guide to possible future experience. For this assumption to have any statistical backing, there must be a sufficient number of vehicles (e.g. 10 or more) and a sufficient loss history for assessment.",
-                  "textJP": ""
+                  "textJP": "フリートは過去の実績（フリートの過去の請求実績）に基づいて料率が設定され、過去の実績が将来の経験を予測する指標であるという前提に基づきます。"
                 },
                 {
                   "num": "8.3",
                   "text": "Ten vehicles have always been thought of as being the minimum number of vehicles necessary to be classed as a fleet. However, competition in the insurance market has resulted in some insurers accepting a smaller number of vehicles (e.g. five) as a fleet. A span of three or five years’ loss history is required for the timescale. The following subsection explains how a fleet may be rated.",
-                  "textJP": ""
+                  "textJP": "10台の車両が従来からフリートとして分類されるための最低台数と考えられてきました。しかし、保険市場の競争により、一部の保険者はより少ない台数でもフリートとして引き受けるようになっています。"
                 }
               ]
             },
@@ -4673,27 +4722,27 @@
               "id": "ch4-s8-A1",
               "label": "A1",
               "title": "Fleet Rating",
-              "titleJP": "",
+              "titleJP": "フリート料率",
               "paragraphs": [
                 {
                   "num": "8.4",
                   "text": "The usual method for rating of a motor fleet of vehicles is to sum up the total losses paid and any outstanding losses over the past three years. These figures are then adjusted for inflation, so that they represent, as nearly as possible, the equivalent in today’s money.",
-                  "textJP": ""
+                  "textJP": "車両フリートの料率設定の通常の方法は、過去3年間の支払保険金の合計と未決保険金を集計することです。これらの数値はインフレ調整され、現在の価値を反映します。"
                 },
                 {
                   "num": "8.5",
                   "text": "A factor known as a “vehicle year” is then determined. This is defined as the insurance of one vehicle for one year. Vehicles owned or used for only part of a year are treated on a proportionate basis. In this way, dividing the total of the losses (adjusted for inflation) by the total number of vehicle years, the underwriter is able to assess the risk on a realistic basis. Figure 4.1 illustrates how the risk assessment for fleet rating purposes is determined. Figure 4.1: Fleet Rating Method Step 1: Determine the total losses paid over the past three years: Total Losses Paid + Any Outstanding Losses Over The Past Three Years* = Total Losses Over The Past Three Years* * Adjustments will be made to cater for inflation, so that they represent, as nearly as possible, the equivalent in today’s money. Step 2: Determine the “vehicle year”. Step 3: Risk Assessment by Underwriter: Total Losses Over The Past Three Years (Adjusted For Inflation) Total Number Of Vehicle Years",
-                  "textJP": ""
+                  "textJP": "「車両年」と呼ばれる係数が決定されます。これは1台の車両を1年間付保することと定義されます。年の一部のみ所有または使用された車両は比例ベースで取り扱われます。"
                 },
                 {
                   "num": "8.6",
                   "text": "To establish the projected claims cost (i.e. the claims cost which is likely in the forthcoming year), it is also necessary to take into account such factors as the increasing amount of awards for bodily injury claims, and the trends in the costs of motor vehicle repairs.",
-                  "textJP": ""
+                  "textJP": "予想請求費用（すなわち翌年に発生する可能性のある請求費用）を算出するためには、身体傷害に対する賠償額の増加傾向やインフレなどの要因も考慮する必要があります。"
                 },
                 {
                   "num": "8.7",
                   "text": "The following example illustrates the application of the fleet rating method as explained in Figure 4.1. Example 4.1: Application Of The Fleet Rating Method ABC Motor Transport Pte Ltd operates a fleet of 10 commercial buses. The details of this fleet and each vehicle’s original registration (purchase) date is shown in the table below. All the vehicles have been insured under a fleet policy for the past 3 years. The period for the current fleet policy is due to expire in a couple of months i.e. on 31 Dec 2022 and the underwriter wishes to establish the projected claims cost i.e. the claims cost which is likely in the forthcoming year i.e. 1 Jan to 31 Dec 2023. Bus No. Registration Date Vehicle Year Remarks PA 1234A 1 Jan 2020 3.00 1 Jan 2020 to 31 Dec 2022 = 3 years PA 4567B 1 Jan 2020 3.00 PA 4321C 1 Jan 2020 3.00 PA 7654D 1 Jan 2020 3.00 PC 6666G 1 July 2021 1.50 1 July 2021 to 31 Dec 2022 =1.5 years PC 7777F 1 Jan 2022 1.00 1 Jan 2022 to 31 Dec 2022 =1 year PC 7899H 1 July 2022 0.50 1 July 2022 to 31 Dec 2022 =0.5 years PC 8888A 1 July 2022 0.50 PC 8899F 1 Oct 2022 0.25 1 Oct 2022 to 31 Dec 2022 =0.25 years PC 9999Z 1 Oct 2022 0.25 Total Vehicle Years 16.00 Assuming that the total losses over the past 3 years (after adjustment is made for inflation) amounts to S$400,000, then the underwriter assesses the risk by applying the formula mentioned above (see Figure 4.1) as follows. S$400,000/ 16= S$25,000 per vehicle year. As mentioned above, it is also necessary to take into account such factors as the increasing amount of awards for bodily injury claims, and the trends in the costs of motor vehicle repairs. Assuming that these factors amount to 20%, then the above computed figure per vehicle year now works out to be S$30,000 per vehicle year. If there is no purchase of new vehicles and no sale of current vehicles in 2023, then the total vehicle years for 2023 is 10 (10 vehicles multiplied by 1 year each). The projected claims cost i.e. the claims cost which is likely in the forthcoming year (1 Jan to 31 Dec 2023) works out to be S$300,000 i.e. S$30,000 per vehicle year multiplied by 10 vehicle years. By dividing the total of the losses (adjusted for inflation) by the total number of vehicle years, the underwriter is able to assess the risk on a realistic basis as compared to simply dividing the total of the losses by the number of vehicles. The latter approach assumes that all vehicles were on risk for 3 years. This is obviously incorrect as for example, the last 2 vehicles were only on risk for 3 months each in 2022 as they were only registered in October 2022 and so on.",
-                  "textJP": ""
+                  "textJP": "以下の例は、図4.1で説明したフリート料率設定方法の適用を示しています。"
                 }
               ]
             },
@@ -4701,27 +4750,27 @@
               "id": "ch4-s8-B",
               "label": "B",
               "title": "The Need For Motor Fleet Insurance",
-              "titleJP": "",
+              "titleJP": "フリート保険の必要性",
               "paragraphs": [
                 {
                   "num": "8.8",
                   "text": "Besides providing the convenience of having a single policy for all the motor vehicles, insuring motor vehicles under a fleet basis may also provide possible discounts in rating owing to quantity and savings in administrative costs.",
-                  "textJP": ""
+                  "textJP": "すべての自動車を一つの保険証券にまとめるという利便性に加え、フリートベースで自動車を付保することにより、台数割引や有利な料率が得られる可能性があります。"
                 },
                 {
                   "num": "8.9",
                   "text": "Both Private Motor Car Insurance and the Commercial Motor Vehicles Insurance may be insured on a fleet basis – the schedule of the policy will itemise each motor vehicle, or in some rare cases, give a general description of the class of vehicles owned by the insured company (e.g. a car-rental company owning many cars, a travel agency owning many coaches, a hospital owning many ambulances, or a courier service company owning many motorcycles for use by despatch riders).",
-                  "textJP": ""
+                  "textJP": "個人自動車保険と企業自動車保険の両方をフリートベースで付保できます。保険証券の明細書には各自動車が個別に記載されるか、まれに車両の総括的な記述が記載されます。"
                 },
                 {
                   "num": "8.10",
                   "text": "The same policy format under an “individual” vehicle basis is also used for a fleet basis. However, the policy is usually endorsed to the effect that the NCD does not apply to a fleet-rated policy.",
-                  "textJP": ""
+                  "textJP": "「個別」車両ベースと同じ保険証券の書式がフリートベースにも使用されます。ただし、保険証券は通常、NCDがフリート料率の保険証券には適用されない旨の裏書が付されます。"
                 },
                 {
                   "num": "8.11",
                   "text": "For motor fleets, the vehicles in the fleet will not be entitled to individual “No Claim Discount” benefit, but a general fleet discount (Typically 20%) will be given for all vehicles in the fleet.",
-                  "textJP": ""
+                  "textJP": "フリートの車両は個別の「無事故割引」の恩恵を受ける権利はありませんが、フリート内のすべての車両に対して一般的なフリート割引（通常20%）が付与されます。"
                 }
               ]
             }
@@ -4738,12 +4787,12 @@
               "id": "ch4-s9-A",
               "label": "A",
               "title": "What Is Motor Trade Insurance?",
-              "titleJP": "",
+              "titleJP": "モータートレード保険とは",
               "paragraphs": [
                 {
                   "num": "9.1",
                   "text": "Motor Trade Insurance policies are designed for businesses that deal primarily with motor vehicles, such as car dealers and car repairers. Some insurers may use a specially adapted Commercial Motor Vehicle Insurance policy for such risks. They do so by adding suitable endorsements to the policy, so as to cover all of the insured’s vehicles while in the insured’s care, custody or control, while being driven on the road, or while being kept in the business premises. Of course, there are specific covers for motor trade risks, such as the Motor Trade Insurance policies.",
-                  "textJP": ""
+                  "textJP": "モータートレード保険証券は、自動車ディーラーや自動車修理業者など、主に自動車を扱う事業者向けに設計されています。一部の保険者は特別に適合された企業自動車保険証券を使用する場合があります。"
                 }
               ]
             },
@@ -4751,12 +4800,12 @@
               "id": "ch4-s9-B",
               "label": "B",
               "title": "The Need For Motor Trade Insurance",
-              "titleJP": "",
+              "titleJP": "モータートレード保険の必要性",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "Businesses involved in the motor trade always have a fluctuating number of motor vehicles in their possession and on their premises. Some motor vehicles belong to the motor dealer and some belong to other persons, including customers. Different persons may need, or want to drive these motor vehicles, including employees, customers, and potential customers. Hence, it is clearly not possible to arrange the insurance cover in the same way as a normal oneto- one Motor Insurance policy. Over the years, insurers have devised an arrangement to make covers as efficient as possible, and the result is the following three main kinds of Motor Trade policies:\n▪ Motor Trade (Road Risks);\n▪ Motor Trade (Internal Risks)*; and\n▪ Combined Road and Internal Risks. *Motor Trade (Internal Risks) can also be known as Motor Trade (Garage Risks).",
-                  "textJP": ""
+                  "textJP": "自動車業界に関わる事業者は、常に変動する数の自動車を占有し、敷地内に置いています。一部の自動車は自動車ディーラーに属し、一部は他者に属します。"
                 }
               ]
             },
@@ -4771,17 +4820,17 @@
               "id": "ch4-s9-C1",
               "label": "C1",
               "title": "Scope of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "9.3",
                   "text": "This form of Motor Trade Insurance can be “Third-Party Only”, “Third-Party, Fire and Theft” or “Comprehensive” coverage for motor vehicles for which the insured is responsible, while the vehicles are:\n▪ on the road; or\n▪ temporarily garaged during the course of a journey elsewhere, other than in or on any premises owned by or in the occupation of the insured.",
-                  "textJP": ""
+                  "textJP": "この形式のモータートレード保険は、被保険者が責任を負う自動車について、以下の場合に「対第三者のみ」、「対第三者＋火災盗難」または「総合」の補償を提供できます。"
                 },
                 {
                   "num": "9.4",
                   "text": "The policy consists of only two main insurance sections: (a) Section I: \"Loss Or Damage\" This is similar to that of the Commercial Motor Vehicle Insurance, in that it covers loss of or damage to the motor vehicles against named perils, such as accidental collision, overturning, fire, explosion, etc. It also provides cost of removal after an accident. However, malicious acts are not covered. Under a “Third-Party Only” cover, the whole of Section I is not operative. However, under a “Third-Party, Fire and Theft” cover, damage to the motor vehicles caused only by fire, external explosion, self-ignition, lightning, burglary, housebreaking or theft is covered. Given the wide variety of motor vehicles that can be covered under a motor trade policy, insurers will generally impose a maximum sum insured that can be claimed under Section 1 instead of insuring on a market value basis. (b) Section II: \"Liability To Third Parties\" This covers the insured and any authorised driver for the legal liability in the event of accidents caused by or arising out of the use of the insured motor vehicles, very much the same coverage as that under a Commercial Motor Vehicle Insurance policy. For damage to property of third parties, some insurers impose a limit of S$500,000 in respect of any one claim or series of claims arising out of one event.",
-                  "textJP": ""
+                  "textJP": "保険証券は主に二つの保険セクションで構成されています：\n(a) セクションI：「滅失・損害」\nこれは企業自動車保険と類似しており、自動車の滅失・損害を補償します。\n(b) セクションII：「第三者に対する責任」\n企業自動車保険のセクションIIと同じ基本概念です。"
                 }
               ]
             },
@@ -4789,12 +4838,12 @@
               "id": "ch4-s9-C2",
               "label": "C2",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "9.5",
                   "text": "Other than the usual exclusions that relate to strike, riot, civil commotion, war and nuclear risks, the common exclusions specific to this class of insurance are as follows:\n▪ loss of or damage to the motor vehicle outside the geographical area;\n▪ being driven by an unauthorised driver; and\n▪ driving under the influence of alcohol or drugs.",
-                  "textJP": ""
+                  "textJP": "戦争、核リスク、ストライキ、暴動、内乱に関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです。"
                 }
               ]
             },
@@ -4802,12 +4851,12 @@
               "id": "ch4-s9-C3",
               "label": "C3",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "9.6",
                   "text": "There are also certain benefits that can be added, sometimes, for additional premiums to enhance the coverage. Such extensions are described below: (a) Strike, Riot & Civil Commotion (SRCC): Comprehensive policies may be extended to cover SRCC for an additional premium. (b) Private Use: Arrangements can be made, without additional premium, to indemnify:\n▪ any member, director or employee of the insured; or\n▪ any named relative or friend of a member or director of the insured, while using the insured vehicle for social, domestic and pleasure purposes with the insured’s permission. (c) Driving Extensions:\n▪ Demonstration – Arrangements can be made to include driving for purposes of demonstration or test driving by a person, who is not the insured’s employee, while being accompanied by the insured or the insured’s employee. Additional premium is imposed for this extension.\n▪ Tuition – Arrangements can be made, with additional premium, to include driving for purposes of tuition by a person, who is not the insured’s employee, while being accompanied by the insured or the insured’s employee. (d) Natural Disaster: It is possible to extend coverage for risks like flood, typhoon, hurricane, volcanic eruption, earthquake or other convulsions of nature by paying an additional premium. (e) Competitions: It is possible to extend coverage for competition, such as racing, speed event, rally, reliability trial, etc., by paying an additional premium. Refer to Appendix 4B for a specimen Motor Trade policy (Road Risks).",
-                  "textJP": ""
+                  "textJP": "以下のような追加保険料の支払いにより補償を強化するための特約拡張があります：(a) ストライキ・暴動・内乱（SRCC）：総合モータートレード（道路リスク）保険証券にSRCC補償を追加できます。"
                 }
               ]
             },
@@ -4822,12 +4871,12 @@
               "id": "ch4-s9-D1",
               "label": "D1",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "9.7",
                   "text": "Motor Trade (Internal Risks) Insurance, as the name implies, provides coverage for accidents that happen only inside the insured’s premises. Just like the Motor Trade (Road Risks) Insurance policy, it provides cover under two main insurance sections as described below: (a) Section I: \"Insurance On The Motor Vehicle\" – This provides cover for accidental damage to the insured motor vehicles occurring on the insured’s premises, while the motor vehicle is being driven. It excludes loss resulting from depreciation, mechanical breakdown, etc., and damage to tyres by application of brakes or by punctures, cuts or bursting. (b) Section II: \"Liability To Third Parties” – This covers the insured's legal liability in respect of: (i) accidental death of or bodily injury to any person, other than a person working for the insured or a member of the insured's family or household; and (ii) accidental damage to: (1) any motor vehicle held in trust by or in the care, custody or control of the insured (e.g. customer’s vehicles); and (2) other property not belonging to, or held in trust by, or in the care, custody or control of the insured, occurring in the insured’s premises (accidental damage may occur through the negligence of the insured or any person working for the insured, or through the defects in any work, machinery or plant in the premises). For damage to property of third parties, some insurers impose a limit of S$500,000 in respect of any one claim or series of claims arising out of one event.",
-                  "textJP": ""
+                  "textJP": "モータートレード（構内リスク）保険は、その名のとおり、被保険者の敷地内でのみ発生する事故に対する補償を提供します。"
                 }
               ]
             },
@@ -4835,12 +4884,12 @@
               "id": "ch4-s9-D2",
               "label": "D2",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "9.8",
                   "text": "Other than the usual general exclusions that relate to wars, riots, strikes, and nuclear risks, the common exclusions specific to this class of insurance are as follows:\n▪ damage to property owing to fire or explosion;\n▪ theft, burglary or housebreaking;\n▪ damage to property while it is being worked upon;\n▪ defective workmanship;\n▪ any loss as a result of the premises undergoing demolition, alteration, etc.;\n▪ contractual agreement;\n▪ any loss or damage while the vehicle is being driven elsewhere other than the premises of the insured; and\n▪ damage to vehicles owing to weather conditions.",
-                  "textJP": ""
+                  "textJP": "戦争、暴動、ストライキ、核リスクに関する通常の一般免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです。"
                 }
               ]
             },
@@ -4848,12 +4897,12 @@
               "id": "ch4-s9-E",
               "label": "E",
               "title": "Combined Road And Internal Risks Insurance",
-              "titleJP": "",
+              "titleJP": "道路・構内統合リスク保険",
               "paragraphs": [
                 {
                   "num": "9.9",
                   "text": "The Combined Road and Internal Risks Insurance policy combines in one policy the cover given by the two previously described policies, namely the Motor Trade (Road Risks) Insurance and the Motor Trade (Internal Risks) Insurance. It usually includes the theft risk relating to the premises. As part of their marketing of this policy, many insurers include additional benefits, such as damage to petrol pumps. APPENDIX 4A ABC INSURANCE COMPANY (SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg COMMERCIAL MOTOR VEHICLE INSURANCE POLICY Here is your Insurance Policy. Please examine it together with the Schedule, to make sure that You have the protection You need. It is important that the Policy, the Schedule and any amendments are read together to avoid misunderstanding. If there are any changes that may affect the insurance provided, please notify Us immediately. IMPORTANT NOTICE The insurance cover provided to you under this Policy is based on the information You have provided to Us. Please be reminded that You must fully and faithfully declare to Us the facts that You know or ought to know, otherwise You may receive no benefit from the Policy. HOW YOUR INSURANCE OPERATES Your Commercial Vehicle Insurance Policy is a contract between Us, the Company, and You, Our Insured named in the Schedule. The application form, declaration and any information given form the basis of this contract. The insurance We provide in this Policy is subject to the terms, conditions, exclusions contained in this Policy, Certificate of Insurance, the Schedule and any Endorsement to this Policy (hereinafter collectively referred to as the “Terms of this Policy”). In consideration of Your paying to Us the required Premium, We agree to indemnify You in the manner and to the extent described in the Policy and in the Schedule, in respect of events occurring during the Period of Insurance, or any subsequent period for which You pay and We accept the required Premium. OUR PROMISE OF SERVICE We wish to provide You with a high standard of service and to meet any claims covered by the Policy honestly, fairly and promptly. Should You have any reason to believe that We have not done so, please contact Your broker or agent. If You do not use the services of a professional intermediary, please contact Us directly. A GUIDE TO YOUR COMMERCIAL VEHICLE POLICY Definition of Words An explanation of words used in this Policy which have special meanings Section I Insurance on the Insured Vehicle Section II Liability to Third Parties Section III Towing Disabled Vehicles No Claim Discount (NCD) Your NCD entitlement General Exclusions Those events We do not insure under the Policy as a whole Claims Conditions What You should do if You need to make a claim General Conditions Your rights and Our rights under the Policy Limits of Liability Endorsements DEFINITION OF WORDS (Applicable to the whole Policy) Certain words have been defined below. These have the same meaning wherever they are used in the Policy. They appear in bold print (e.g. Insured) or begin with a capital letter (e.g. You, Your) Authorised Driver Any person driving Your vehicle on Your order or with Your permission. The person must have a valid driving license to drive in Singapore and is not under any suspension or disqualification by law to drive. SPECIMEN Geographical Area 1. The Republic of Singapore 2. West Malaysia 3. Transit by direct sea route across: (i) the straits between the island of Penang and the mainland of West Malaysia; (ii) the straits between Changi Point, Singapore and Tanjong Belunkor, Johor; subject to the Insured and other person for the time being in charge of the Insured Vehicle having complied in all things with the rules, regulations or lawful directions of the carrier. 4. That part of Thailand within 80 kilometres of the border between Thailand and West Malaysia. Insured Vehicle The vehicle We are insuring for You as shown in the Schedule. Insured You/Your The policy owner named as Insured in the Schedule. Schedule A document which is part of the Policy which gives details of the cover You have. We/Us/Our/the Company ABC Insurance Company (Singapore) Limited SECTION I – INSURANCE ON THE INSURED VEHICLE 1. Loss or Damage The Company will indemnify the Insured against loss of or damage to the Insured Vehicle and its accessories and spare parts caused: (a) by accidental collision or overturning or collision or overturning consequent upon mechanical breakdown or consequent upon wear and tear; (b) by fire, external explosion, self-ignition, lightning, impact by falling object, burglary, housebreaking or theft. (c) by flood, typhoon, hurricane, cyclone, tornado, volcanic eruption, earthquake or other convulsion of nature; (d) by malicious act; and occurring within the Geographical Area. At its own option, the Company may pay in cash the amount of the loss or damage or may repair, reinstate or replace the Insured Vehicle or any part thereof or its accessories or spare parts. The liability of the Company shall not exceed the value of the parts lost or damaged and the reasonable cost of fitting such parts. Our maximum liability shall be limited to the prevailing market value of the Insured Vehicle at the time of loss or damage. 2. Loss or Damage to Windscreen or Window and In Vehicle Unit (IU) The Company will pay the cost of reinstating any glass in the windscreen or windows including glass roof of the Insured Vehicle and the cost of reinstating the IU (if applicable) of the Insured Vehicle following breakage of such glass provided there is no other damage to the Insured Vehicle. Notwithstanding the coverage provided above, the Insured shall be responsible to pay for the first S$100 or the amount specified as Windscreen Excess in the Schedule and its applicable goods and services tax (GST), whichever is higher amount for each and every claim made under this sub-section. Payment by Us under this sub-section will not affect Your No Claim Discount. 3. Protection and Removal after Accident If the Insured Vehicle is disable by reason of loss or damage insured under this Policy, the Insured shall take prompt steps to ensure the safety of the vehicle, its accessories and spare parts and the Company will pay the reasonable cost of protection and removal to the nearest repairer and of delivery within the Geographical Area up to S$300 per accident. 4. Authority to Repair The Insured may authorise the repair of the Insured Vehicle necessitated by damage for which the Company may be liable under this Policy provided that: (a) the estimated cost of such repair does not exceed the Authorised Repair Limit, and (b) a detailed estimate of the cost is forwarded to the Company without delay. EXCLUSIONS TO SECTION I The Company shall not be liable to pay for: 1. consequential loss, loss of use, depreciation, wear and tear, mechanical or electrical breakdowns, failures or breakages; 2. damage to tyres unless the Insured Vehicle is damaged at the same time; 3. damage caused by overloading or strain; 4. damage caused to Insured Vehicle by explosion of any boiler forming part of or attached to or on the Insured Vehicle; 5. the Excess amount is shown in the Schedule and its applicable GST for every claim made against the Company under this Section. This excess shall not apply to loss or damage caused by fire, explosion, self-ignition or lightning or burglary, housebreaking or theft; 6. any equipment or computer malfunction; or 7. the failure or inability of any equipment or any computer program to recognize or correctly interpret or process any date as the true or correct date, or to continue to function correctly beyond that date SPECIMEN SECTION II – LIABILITY TO THIRD PARTIES 1. Indemnity to the Insured The Company will subject to the Limits of Liability indemnify the Insured in the event of an accident caused by or arising out of the use of the Insured Vehicle or in connection with the loading or unloading of the Insured Vehicle within the Geographical Area against all sums including claimant’s costs and expenses which the Insured shall become legally liable to pay in respect of: (a) death of or bodily injury to any person; (b) damage to property. 2. Indemnity to Authorised Driver The Company will subject to the Limits of Liability indemnify any Authorised Driver who is driving the Insured Vehicle provided that such Authorised Driver: (a) shall as though he were the Insured observe, fulfil and be subject to the Terms of this policy insofar as they can apply; and (b) is not entitled to indemnity under any other policy. 3. Indemnity to Legal Personal Representatives In the event of the death of any person entitled to indemnity under this Section, the Company will in respect of the liability incurred by such person indemnify his legal personal representatives in terms of and subject to the limitations of such section provided that such representatives shall as though they were the Insured observe, fulfil and be subject to the Terms of this Policy insofar as they apply. 4. Expenses The Company will pay all costs and expenses incurred with its written consent. 5. Limits of Liability In the event of accident involving indemnity under this Section to more than one person, the Limits of Liability shall apply in the aggregate amount of indemnity to all persons indemnified and such indemnity shall apply in priority to the Insured. 6. Representation and Defence The Company may at Our own option: (a) arrange for representation at any inquest or inquiry in respect of any death, injury or damage which may be the subject of indemnity under this Section; (b) undertake the defence of proceedings in any Court of Law in respect of any act or alleged offence causing or relating to any event which may be the subject of indemnity under this Section; and (c) subject to the Limits of Liability, the Company may at the request of the Insured arrange and pay for legal services for defence of any charge of causing death by driving the Insured Vehicle other than murder which may be brought against the Insured or an Authorised Driver in respect of any death which may be the subject of indemnity under this Section. EXCLUSIONS TO SECTION II The Company shall not be liable to pay for: 1. death or bodily injury to any person in the employment of the Insured arising out of and in the course of such employment; 2. damage to property belonging to the Insured or held in trust by or in the custody or control of the Insured or any member of the Insured’s household or being conveyed by the Insured Vehicle; 3. death, bodily injury or damage caused or arising beyond the limits of any carriageway or thoroughfare in connection with the bringing of the load to the Insured Vehicle for loading thereon or the taking away of the load from the Insured Vehicle after unloading therefrom; 4. damage to any bridge, weighbridge, viaduct or to any road or anything beneath by vibration or by the weight of the Insured Vehicle or of the local carried by the Insured Vehicle; 5. death, bodily injury or damage to property caused by or arising out of the explosion of a boiler forming part of attached to or on the Insured Vehicle except so far as is necessary to meet the requirements of the relevant legislation; or 6. damage to underground pipe lines, cables or installations of any description. SECTION III – TOWING DISABLED VEHICLE The Policy shall be operative whilst the Insured Vehicle is being used for the purpose of towing any one disabled mechanically propelled vehicle and the Company will indemnity the Insured in terms of Section II in respect of liability in connection with such towed vehicle provided that: 1. such towed vehicle is not towed for reward; and 2. the Company shall not be liable by reason of this Section in respect of damage to such towed vehicle property being conveyed thereby. NO CLAIM DISCOUNT (NCD) In the event of no claim being made or arising under this Policy during a Period of Insurance specified below immediately preceding the renewal of this Policy the renewal premium shall be reduced as follows: Period of Insurance Discount The preceding year 10% The preceding two consecutive years 15% The preceding three or more consecutive years 20% SPECIMEN If more than one Insured Vehicle is described in the Schedule, the NCD shall be applied as if a separate policy had been issued in respect of such Insured Vehicle. If the Company shall consent to a transfer of interest in this Policy, the period during which the interest was in the transferor shall not accrue to the benefit of the transferee. The NCD shall be affected by any late notification or any failure in notification of an accident and/or occurrence by the Insured in accordance with Sub-Section 1 of Claims Conditions. GENERAL EXCLUSIONS (Applicable to the whole Policy) The Company shall not be liable in respect of: any accident, injury, loss, damage or liability caused sustained or incurred: (a) outside the Geographical Area; (b) whilst the Insured Vehicle in respect of which indemnity is provided by this Policy is: (i) being used otherwise than in accordance with the Limitations as to Use, (ii) being driven by or is for the purpose of being driven by the Insured or in the charge of any person other than an Authorised Driver, (iii) being driven by the Insured or an Authorised Driver whilst under the influence of intoxicating liquor or drugs, (iv) being used or driven when it is not registered or licensed under the legislation or when the registration or licensing under the relevant legislation has been cancelled, or (v) being used or driven with modifications that have not been approved by the Registrar of Vehicles in accordance with the Road Traffic (Motor Vehicles, Registration and Licensing) Rules or by any relevant regulatory authority. 1. any liability which attaches by virtue of an agreement but which would not have attached in the absence of such agreement. 2. any sum which the Insured would have been entitled to recover from any party but for an agreement between the Insured and such party. 3. any death, disability, loss, damage, destruction, any legal liabilities, cost or expense including consequential loss of whatsoever nature, directly or indirectly caused by, resulting from or in connection with any of the following regardless of any other cause or event contributing concurrently or in any other sequence to the loss: (a) war, invasion, acts of foreign enemies, hostilities or warlike operations (whether war be declared or not), civil war, rebellion, revolution, insurrection, civil commotion assuming the proportions of or amounting to an uprising military or usurped power; (b) any act of terrorism including but not limited to: (i) the use or threat of force, violence and/or, (ii) harm or damage to life or to property (or the threat of such harm or damage), including but not limited to nuclear radiation and/or contamination by chemical and/or biological agents. by any person(s) or group(s) of persons, committed for political, religious, ideological or similar purposes, express or otherwise, and/or to put the public or any section of the public in fear; or (c) any action taken in controlling, preventing, suppressing or in any way relating to (a) or (b) above. If the Company alleges that by reason of this exclusion, any loss damage, cost or expense is not covered by this insurance, the burden of proving the contrary shall be upon the Insured. 4. any loss, damage, liability or expense directly or indirectly caused by or contributed to by or arising from: (a) ionising radiations from or contamination by radioactivity from any nuclear fuel or from any nuclear waste or from the combustion of nuclear fuel; (b) the radioactive, toxic, explosive or other hazardous or contaminating properties of any nuclear installation, reactor or other nuclear assembly or nuclear component thereof; (c) any weapon or device employing atomic or nuclear fission and/or fusion or other like reaction or radioactive force or matter; (d) the radioactive, toxic, explosive or other hazardous or contaminating properties of any radioactive matter. The exclusion in this sub-clause does not extend to radioactive isotopes, other than nuclear fuel, when such isotopes are being prepared, carried, stored, or used for commercial, agricultural, medical, scientific or other similar peaceful purposes; or (e) any chemical, biological, bio-chemical or electromagnetic weapon. 5. any loss or damage occasioned directly or indirectly by or through or in consequence of any of the following occurrences namely: (a) permanent or temporary dispossession resulting from confiscation, nationalisation, commandeering or requisition by any lawfully constituted authority; (b) permanent or temporary dispossession of Insured Vehicle resulting from the unlawful occupation or possession of such Insured Vehicle by any person, provided that the Company is not relieved of any liability to the Insured in respect of physical damage to the Insured Vehicle occurring before dispossession or during temporary dispossession which is otherwise covered by this Policy; or (c) the destruction of Insured Vehicle by order or any public authority. In any action, suit or other proceeding where We allege that by reason of the provisions above any loss, destruction or damage is not covered by this insurance, the burden of proving that such loss, destruction or damage is covered shall be upon the Insured. 6. any claim or provide any benefit hereunder to the extent that the provision of such cover, payment of such claim or provision of such benefit would expose the Company to any sanction, prohibition or restriction under United Nations resolutions or the trade or economic sanctions, laws or regulations of the European Union or United Kingdom or United States of America. SPECIMEN CLAIMS CONDITIONS (Applicable to the whole Policy) 1. Notification of Accidents In the event of any accident involving the Insured Vehicle, irrespective of whether it would give rise to a claim, the Insured shall report the accident to the Company or Our Authorised Representative and convey or cause to be conveyed the Insured Vehicle to the Our Authorised Representative for Inspection within 24 hours of the accident or by the next working day thereof. In case of theft or other criminal act which may give rise to a claim under this Policy, the Insured shall give immediate notice of the occurrence to the Company and the police and shall co-operate with the Company in securing the conviction of the offender. Every letter, claim, writ, summons and process shall be notified or forwarded unanswered to the Company immediately upon receipt. Notice shall also be given to the Company immediately after the Insured or any person claiming to be indemnified shall have knowledge of any impending prosecution, inquest, inquiry, or offer of composition in connection with any such accident and/or occurrence. This condition in its entirety is a condition precedent to liability and failure to comply with any of the above requirements in respect of an accident and/or occurrence will result in the Insured being denied indemnity under both Section I and Section II of the Policy in respect of that particular accident and/or occurrence. Notwithstanding the No Claim Discount provisions set out herein, failure to comply with this condition precedent will additionally result in the Insured losing all or part of his/her No Claim Discount as set out up in the Table below. COMMERCIAL VEHICLES NCD Current Upon Renewal (Non-Reporting) 20% 15% 15% 10% 10% 0% 0% 0% *The Accident NCD to be applied first before the Non-Reporting NCD. In the context of this clause the following terms have the following meanings assigned to them: *Accident NCD – Refers to the loss of percentage of No Claim Discount entitlement as a result of claims arising from an accident. *Non-Reporting NCD – Refers to the loss of percentage of No Claim Discount as a result of not reporting or late reporting of an accident. 2. Claims Procedure (a) No admission, offer, promise or payment shall be made by or on behalf of the Insured or any person claiming to be indemnified without the written consent of the Company. The Company shall be entitled at its sole discretion to: (i) take over and conduct in the name of the Insured or such person the defence or settlement of any claim; (ii) prosecute in the name of the Insured or such person for its own benefit any claim for indemnity or damages or otherwise; and/or (iii) conduct and settle proceedings as the Company deem fit. (b) The Insured accepts that the Company has these rights and that to evaluate and exercise these rights, the Insured and any person claiming to be indemnified must assist the Company by: (i) providing all such information and assistance as the Company may require; and (ii) allowing the Company the right to examine the nature and extent of all damage to the Insured Vehicle before it is repaired. The Company has this right whether or not is entitled or intends to claim an indemnity under this Policy for the damage to the Insured Vehicle. (c) In case damage to the Insured Vehicle is indemnifiable by this Policy, the Insured shall decide whether or not to claim for such damage under this Policy and if so claiming, shall submit such a claim to the Company within fourteen (14) days of occurrence or discovery of damage. The quoted cost of repair is subject to adjustment by the Company before any repair may commence if it exceeds the Authorised Repair Limit in total. 3. Other Insurance If at the time any claim arises under this Policy there is any other insurance covering the same loss, damage or liability, the Company shall not be liable to pay or contribute more than its rateable proportion of any loss, damage, compensation, costs or expenses. Provided always that nothing in this Condition shall impose on the Company any liability from which but for this Condition it would have been relieved under proviso 2(b) of Section II of this Policy. 4. Relinquish Defence and Representation At any time after the happening of any event giving rise to a claim or series of claims under the Policy, the Company may pay to the Insured the full amount of the Company’s liability and relinquish the conduct of any claim defence or proceedings and the Company shall not be responsible for any damage, loss or liability alleged to have been caused to the Insured in consequence of any alleged act or omission of the Company in connection with such claim, defence or proceedings or of the Company relinquishing such conduct nor shall the Company be liable for any costs or expenses whatsoever incurred by the Insured or any claimant or other person after the Company shall have relinquished such conduct. SPECIMEN 5. Arbitration If there is any dispute as to the liability and/or amount to be paid under this Policy, such dispute shall be determined by arbitration in accordance with the statutory provisions on arbitration in that behalf for the time being in force. It is hereby expressly stipulated that it shall be a condition precedent to any right of action or suit upon this Policy that an arbitration award shall be first obtained. If the dispute shall not within twelve (12) months from the date of disclaimer of liability or date of rejection of the offer made have been referred to arbitration under the provisions of this Policy, then such claim shall for all purposes be deemed to have been abandoned and shall not thereafter be recoverable as provided for under the Terms of this Policy. 6. Time Limit of Commencement of Action or Suit If an action or suit is not commenced within twelve (12) months after the arbitration award is made under Condition 5 of this Policy, the Company shall not be liable for such claim under this Policy and such claim shall be all purposes be deemed to have been abandoned and shall not thereafter be recoverable against the Company. GENERAL CONDITIONS 1. Interpretation This Policy and the Schedule shall be read together as one contract and any word or expression to which a specific meaning has been attached in any part of this Policy or Schedule shall bear such specific meaning wherever it may appear. 2. Written Notice Every notice of communication to be given or made under this Policy shall be delivered in writing to the Company. 3. Care of Insured Vehicle The Insured shall take all reasonable steps to safeguard the Insured Vehicle from loss or damage and to maintain Insured Vehicle in efficient condition and the Company shall have at all times free and full access to examine the Insured Vehicle or any part thereof or any driver or employee of the Insured. In the event of any accident or breakdown, such vehicle shall not be left unattended without proper precautions being taken to prevent further loss or damage and if Insured Vehicle be driven before the necessary repairs are effected any extension of the damage or any further damage to Insured Vehicle shall be excluded from the scope of the indemnity granted by this Policy. 4. Cancellation The Company may cancel this Policy by giving seven (7) days’ notice by registered letter to the Insured at his last known address. The Insured may also cancel this Policy by returning the original Certificate of Insurance and the cancellation will take effect from the date the Company receives the original Certificate of Insurance. Any refund will be calculated as follows: (a) Cancellation by the Company Premium X Unexpired Period of Insurance (days) Original Period of Insurance * (days) (b) Cancellation by the Insured Premium X Unexpired Period of Insurance (days) X 80% Original Period of Insurance * (days) Definition *Original Period of Insurance of this Policy shall be deemed to include any extension of Period in the Policy. No refund will be payable if the refund premium is less than S$25 or where a claim (including claim for windscreen or windows or In Vehicle Unit (IU) has arisen under the Policy. 5. Exclusion of Rights under the Contracts (Rights of Third parties) Act 2001 A person who is not a party of this Policy contract shall have no right under the Contracts (Rights of Third Parties) Act 2001 to enforce any of its terms. 6. Condition Precedent (Applicable to Policy issued to business or commercial establishment) The validity of this Policy is subject to the condition precedent that: (a) for the risk insured, the Insured has never had any insurance terminated in the last twelve (12) months due solely or in part to a breach of any premium payment condition; or (b) if the Insured has declared that it has breached any premium payment condition in respect of a previous policy taken up with another insurer in the last twelve (12) months: (i) the Insured has fully paid all outstanding premium for time on risk calculated by the previous insurer based on the customary short period rate in respect of the previous policy; and (ii) a copy of the written confirmation from the previous insurer to this effect is first provided by the Insured and the Company before cover incepts. SPECIMEN 7. Premium Payment Warranty (Applicable to Policy issued to business or commercial establishment) (a) Notwithstanding anything herein contained but subject to clause (b) hereof, it is hereby agreed and declared that if the Period of Insurance is sixty (60) days or more, any premium due must be paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) within sixty (60) days of the inception date of the coverage under the Policy, Renewal Certificate or Cover Note. (b) In the event that any premium due is not paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) within the sixty (60)-day period referred to above, then: (i) the cover under the Policy, Renewal Certificate or Cover Note is automatically terminated after the expiry of the said sixty (60)-day period; (ii) the automatic termination of the cover shall be without prejudice to any liability incurred within the said sixty (60)-days period; and (iii) the Company shall be entitled to a pro-rata time on risk premium subject to a minimum S$25. (c) If the Period of Insurance is less than sixty (60) days, any premium due must be paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) within the Period of Insurance. 8. Payment before Cover Warranty (Applicable to Policy issued to an individual) (a) Notwithstanding anything herein contained but subject to clause (b) below hereon, it is hereby agreed and declared that the total premium due must be paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) on or before the inception date (“the inception date”) of the coverage under the Policy, Renewal Certificate or Cover Note. (b) In the event that the total premium due is not paid and actually received in full by the Company (or the intermediary through whom this Policy was effected) on or before the inception date referred to above, then the Policy, Renewal Certificate, Cover Note and Endorsement shall not attach and no benefits whatsoever shall be payable by the Company. Any payment received thereafter shall be of no effect whatsoever as cover never attached and the Policy, Renewal Certificate or Cover Note. 9. Conditions Precedent to the Company’s Liability The due observance and fulfilment of the terms, provisions and conditions of this Policy insofar as they relate to anything to be done or not to be done by the Insured and the truth of the statements and answers in the proposal shall be conditions precedent to any liability of the Company to make payment under this Policy. 10. Legal Personal Representative The Terms of this Policy, so far as applicable and with any necessary modifications, shall apply to the legal personal representative of the Insured and Authorised Driver. 11. Jurisdiction Clause The indemnity under this Policy shall not apply in respect of judgements which are not in the first instance delivered by or obtained from a Court of competent jurisdiction within West Malaysia or the Republic of Singapore. 12. Avoidance of Certain Terms and Right of Recover If the Company is obliged by virtue of the Legislation or the Agreement executed between the Minister of Transport of the Government of Malaysia and the Motor Insurer’s Bureau of West Malaysia on 30 March 1992 or the Agreement executed between the Minister for Finance of the Republic of Singapore and the Motor Insurer’s Bureau of Singapore on 22 February 1975 or by any agreement which alters, amends or supersedes such Agreement, to pay an amount for which the Company would not otherwise be liable under this Policy, the Insured shall repay the amount to the Company. LIMITS OF LIABILITY Limit of the amount of the Company’s liability under Section II – item 1 (a) in respect of any one claim or series or claims arising out of one event Unlimited Limit of the amount of the Company’s liability under Section II – item 1 (b) in respect of any one claim or series or claims arising out of one event S$500,000 Limit of the amount of the Company’s liability under Section II – item 6 (c) in respect of legal services for defence in the event of any change S$3,000 Authorised Repair Limit S$350 Limitation as to Use As detailed in the Schedule SPECIMEN Legislation Road Transport Act 1987 (Malaysia), Motor Vehicles (Third Party Risks a Compensation) Act 1960 Republic of Singapore, Road Traffic Act 1961 (Republic of Singapore) or any Amendment, Act or Acts passed in substitution. The reference of Legislation under the heading “Avoidance of Certain Terms and Right of Recovery” is limited to Sections 94, 95, 96 of the Road Transport Act 1987 (Malaysia) and Sections 7, 8 and 9 of the Motor Vehicles (Third Party Risks & Compensation) Act 1960 (Republic of Singapore). ENDORSEMENTS The Policy is extended to cover the following Endorsements, subject otherwise to the Terms of this Policy. Strike, Riot and Civil Commotion It is hereby understood and agreed that this Policy is extended to cover any accident, loss, damage or liability directly caused by: 1. the act of any person taking part together with others in any disturbance of the public peace (whether in connection with a strike or lock-out or not) or the action of any lawfully constituted authority in suppressing or attempting to suppress any such disturbance or in minimising the consequences of such disturbance, or 2. the wilful act of any striker or locked out worker done in furtherance of a strike or in resistance to a lock-out or the action of any lawfully constituted authority in preventing or attempting to prevent any such act or in minimising the consequences of such act. In the event of any claim under this Policy, the Insured shall prove that the accident, loss, damage or liability arose independently of and was in no way connected with or occasioned by or contributed to by or traceable to any of the said occurrences or any consequence thereof and in default of such proof the Company shall not be liable to make any payment in respect of such a claim. Replacement Parts It is hereby understood and agreed notwithstanding anything to the contrary contained in this Policy that in the event of loss of damage to the Insured Vehicle or its accessories or spare parts necessitating the supply of a part not obtainable from stocks held in the country in which the Insured Vehicle is held for repair or in the event of the Company exercising the option under Section I to pay in cash the amount of the loss or damage the liability of the Company in respect of any such part shall be limited to: (a) (i) the price quoted in the latest catalogue or price list issued by the manufacturer or his agents for the country in which the Insured Vehicle is held for repair; or (ii) if no such catalogue or price ists exists the price last obtaining at the manufacturer’s works plus the reasonable cost of transport otherwise than by air to the country in which the Insured Vehicle is held for repair and the amount of the relative import duty; and (b) the reasonable cost of fitting such part. Private use – Indemnity to Person Using It is hereby understood and agreed that whilst the Insured Vehicle is being used by the person noted in the Schedule for social, domestic or pleasure purposes with the permission of the Insured, the Company will in the terms of and subject to the limitations of and for the purposes of Section II of this Policy indemnify the person using the Insured Vehicle in respect of any act or omission of the driver provided that: (i) such person is not entitled to indemnity under any other Policy; and (ii) such person shall as though he were the Insured observe, fulfil and be subject to the Terms of this Policy insofar as they can apply. Legal Liability of Passengers for Acts of Negligence It is hereby understood and agreed that whilst the Company will at the request of the Insured indemnify in terms of Section II of this Policy, any person mounting into, dismounting from or travelling in the Insured Vehicle such person being hereinafter called “the Passenger”. Provided that the Passenger: (i) is not driving the Insured Vehicle or in charge of the Insured Vehicle for the purpose of driving; (ii) is not entitled to indemnity under any other Policy; and (iii) shall as though he was the Insured observe, fulfil and be subject to the Terms of this Policy in so far as they can apply. Exceptions: The Company shall not be liable in respect of: (a) death of or bodily injury to any person in the employment of the Passenger where such death or bodily injury arises out of or in the course of such employment; and (b) damage to property belonging to or held in trust by or in the custody or control of the Insured or of the Passenger or being conveyed by the Insured Vehicle. Cover Whilst Driven by a Motor Trader It is hereby understood and agreed that notwithstanding anything contained to the contrary in the Limitations as to Use but subject otherwise to the Terms of this Policy, the insurance granted thereby shall be operative but only so far as it relates to the Insured whilst the Insured Vehicle is in the custody of a member of the motor trade for the purpose of overhaul, upkeep or repair. SPECIMEN Hire Purchase It is hereby understood and agreed that the Owners specified in the Schedule (hereinafter referred to as the Owners) are the owners of the Insured Vehicle which is the subject of a Hire Purchase Agreement made between the Owners of the one part and the Insured of the other part. It is further understood and agreed that any payment made in respect of loss or damage (which loss or damage is not made good by repair reinstatement or replacement) under Section I of this Policy shall be made to the Owners as long as they are owners of the Insured Vehicle and their receipt shall be a full and final discharge to the Company in respect of such loss or damage. It is also understood and agreed that notwithstanding any provision in the Hire Purchase Agreement to the contrary this Policy is issued to the Insured named in the Schedule as the principal party and not as agent or trustee for the Owners and nothing herein shall be construed as constituting the Insured an agent or trustee for the Owners or as an assignment (whether legal or equitable) by the Insured to the Owners of his rights benefits and claims under this Policy. It is lastly understood and agreed that the Insured shall not assign his rights, benefits and claims under this Policy without the prior consent in writing of the Company. Non-Cancellation Clause (General) The Company undertakes to advise the Bank or Finance House noted in the Schedule prior to the cancellation of this Policy if instructions have been received for the cancellation from the Insured and also to advise the aforesaid Bank or Finance House as soon as possible of any material changes which are proposed to be made in the terms of the insurance. POLICY OWNERS’ PROTECTION SCHEME This policy is protect under the Policy Owners’ Protection Scheme which is administered by the Singapore Deposit Insurance Corporation (SDIC). Coverage for your policy is automatic and no further action is required from you. For more information on the types of benefits that are covered under the scheme as well as the limits of coverage, where applicable, please contact your insurer or visit the GIA/LIA or SDIC websites (www.gia.org.sg or www.lia.org.sg or www.sdic.org.sg). IMPORTANT – The Insured is requested to read this Policy. If any error or misdescription be found, the Policy should be returned to the issuing office for correction. SPECIMEN APPENDIX 4B ABC INSURANCE COMPANY (SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg MOTOR TRADE POLICY (ROAD RISKS) (WARNING) 1. Premium Warranty Clause requires the premium to be paid in full within a specific period failing which there would be no liability under the policy, renewal certificate, cover note and endorsement, etc. 2. We would remind you that you must disclose to us, fully and faithfully, the facts you know or ought to know, otherwise you may not receive any benefit from your policy. WHEREAS the insured by a proposal and declaration which shall be the basis of this contract and is deemed to be incorporated herein has applied to the ABC Insurance Company (Singapore) Limited (hereinafter called the Company) for the insurance hereinafter contained and has paid or agreed to pay the Premium as consideration for such insurance. NOW THIS POLICY OF INSURANCE WITNESSETH:- That in respect of events occurring during the Period of Insurance whilst the Motor Vehicle is on the road or is temporary garaged during the course of a journey elsewhere than in or on any premises owned by or in the occupation of the insured and subject to the terms exception and conditions contained herein or endorsed hereon (hereinafter collectively referred to as the Terms of this policy). SECTION I – LOSS OR DAMAGE 1. The Company will indemnify the Insured against loss of or damage to the Motor Vehicle and its accessories and spare parts whilst thereon (a) by accidental collision or overturning or collision of overturning consequent upon mechanical breakdown or consequent upon wear and tear (b) by fire external explosion self-ignition or lightning or burglary housebreaking or theft 2. All its own option the Company may pay in cash the amount of the loss of damaged or may repair reinstate or replace the Motor Vehicle or any part thereof or its accessories or spare parts. The liability of the Company shall not exceed the value of the parts lost or damaged and the reasonable cost of fitting such parts. The maximum amount payable by the Company in respect of any claim for loss or damage shall not exceed the value of the motor vehicle including accessories and spare parts thereon at the time of the loss or damage. 3. If the Motor Vehicle is disabled by reason of loss or damage insured under this Policy, the Company will subject to the Limits of Liability bear the reasonable cost of protection and removal to the nearest repairers and of delivery within the country where the loss of damage was sustained. EXCEPTIONS TO SECTION I The Company shall not be liable to pay for (i) Consequential loss depreciation wear and tear mechanical or electrical breakdowns failures or breakages (ii) damage caused by overloading or strain (iii) damage to tyres unless the Motor Vehicle is damaged at the same time (iv) loss of or damage to accessories or spare parts by burglary housebreaking or theft unless the Motor Vehicle is stolen at the same time SECTION II – LIABILITY TO THIRD PARTIES 1. The Company will subject to Limits of Liability indemnify the insured in the event of accident caused by or arising out of the use of the Motor Vehicle or in connection with loading or unloading of the Motor Vehicle against all sums including claimant’s cost and expenses which the insured shall become legally liable to pay in respect of (a) death of or bodily injury to any person (b) damage to property 2. In terms of and subject to limitations of and for the purpose of this Section, the Company will indemnify and Authorised driver who is driving the Motor Vehicle provided that such Authorised Driver (i) shall as though he were the insured observe fulfill and be subject to the terms of this policy insofar as they can apply (ii) is not entitled to indemnity under any other policy SPECIMEN 3. In the event of the death of any person entitled to indemnity under this section, the Company will in respect of the liability incurred by such person indemnify his personal representatives in terms of and subject to the limitations of such Section provided that such representatives shall as though they were the insured observe fulfill and subject to the Terms of this Policy insofar as they apply 4. The Company will pay all costs and expenses incurred with its written consent 5. In the event of accident involving the indemnity under this section to more than one person, the Limits of Liability shall apply to the aggregate amount of indemnity to all persons indemnified and such indemnity shall apply in priority to the insured 6. The Company may as its own option (a) arrange for representation at any inquest or fatal inquiry in respect of any death which may be the subject of indemnity under this Section (b) undertake the defence of proceedings in any Court of Law in respect of any act or alleged offence causing or relating to any event which may be the subject to indemnity under this Section EXCEPTIONS TO SECTION II The Company shall not be liable in respect of (i) death, bodily injury or damage caused or arising beyond the limits of any carriageway or thorough-fare in connection with the bringing of the load to the Motor Vehicle for loading thereon or the taking away of the load from the Motor Vehicle after unloading therefrom (ii) death of or bodily injury to any person in the employment of the insured arising out of and in the course of such employment (iii) death of or bodily injury to any person (other than a passenger carried by reason of or in pursuance of a contract of employment) being carried in or upon or entering or getting on to or alighting from the Motor Vehicle at the time of the occurrence of the event out of which any claim arises (iv) damage to property belonging to held in trust by or in the custody or control of the Insured or a member of the Insured’s household or being conveyed by the Motor Vehicle (v) damage to any bridge, weight-bridge or viaduct or to any road or anything beneath by vibration or by the weight of the Motor Vehicle or of the load carried by the Motor Vehicle NO CLAIM DISCOUNT In the event of no claim being made or arising under this Policy during a period of insurance specified below immediately preceding the renewal of the Policy the renewal premium of such part of the insurance as is renewed shall be reduced as follows: Period of Insurance Discount The preceding year 10% The preceding two consecutive years 15% The preceding three or more consecutive years 20% If the Company shall consent to a transfer of interest in this Policy the period during which the interest was in the Transferor shall not accrue to the benefit of the Transferee If more than one motor vehicle is described in the Schedule the No Claim Discount shall be applied as if a separate Policy had been issued in respect of each such motor vehicle AVOIDANCE OF CERTAIN TERMS AND RIGHT OF RECOVERY Nothing in this Policy or any endorsement hereon shall affect the right of any person entitled to indemnity under this Policy or of any other person to recover an amount under or by virtue of the Legislation or the Agreement executed between the Minister of Transport of the Government of Malaysia and the Motor Insurers’ Bureau of West Malaysia on 15th January 1968 or the Agreement executed between the Minister for Finance of the Republic of Singapore and the Motor Insurers’ Bureau of Singapore on 22nd February 1975. BUT the insured shall repay to the Company all sums paid by the Company which the Company would not have been liable to pay out for the Legislation or such Agreement. GENERAL EXCEPTIONS The Company shall not be liable in respect of 1. any accident loss damage or liability caused sustained or incurred (a) outside the Geographical Area (b) whilst the Motor Vehicle is (i) being used otherwise than in accordance with the Limitation as to Use (ii) being driven by or is for the purpose of being driven by him in charge of any person other than an Authorised Driver (iii) being driven by any person, whether it be the Insured himself or any person on his order or with his permission, whilst under the influence of intoxicating liquor or drugs to such an extent as to be incapable of having proper control of the vehicle as defined in the Road Traffic Act 1961. any accident loss, damage or liability (except so far as is necessary to meet the requirements of the Legislation) directly or indirectly proximately or remotely occasioned by contributed to by or traceable to or arising out of or in connection with flood, typhoon, hurricane, volcanic eruption, earthquake or other convulsion of nature invasion the act of foreign enemies, hostilities or warlike SPECIMEN operations (whether war be declared or not) civil war, strike, riot, civil commotion, munity, rebellion, insurrection, military or usurped power or by any direct or indirect consequences of any of the said occurrences and in the event of any claim hereunder the Insured shall prove that the accident loss damage or liability arose independently of and was in no way connected with or occasioned by or contributed to by traceable to any of the said occurrences or any consequence thereof and in default of such proof the Company shall not be liable to make any payment in respect of such a claim 2. any liability which attaches by virtue of an agreement but which would not have attached in the absence of such an agreement 3. any sum which the insured would have been entitled to recover from any party but for an agreement between the Insured and such party 4. (a) any accident loss or damage to any property whatsoever or any loss or expense whatsoever resulting therefrom or resulting therefrom or any consequential loss (b) any liability of whatsoever nature directly or indirectly caused by or contributed to by or arising from ionising radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel. For the purpose of this exception combustion shall include any self-sustaining process of nuclear fission 5. any accident loss damage or liability directly or indirectly caused by or contributed to by arising from nuclear weapons material if a law or laws are named in a section of the policy entitled “Avoidance of certain terms and right of recovery” or in the Policy Schedule under the heading of “Legislation” all references to specific Section of such laws are deemed to be deleted so that the reference to such law or laws are left to apply to each law in its entirety ENDORSEMENTS The following Endorsements only apply to this Policy when specifically mentioned in the Schedule and are subject otherwise to the terms of this Policy 1. Excess – All Claims It is hereby understood and agreed that notwithstanding anything to the contrary contained in this Policy the Insured in respect of each and every event shall be responsible for the amount specified in the Schedule (or any less expenditure which may be incurred) of any expenditure for which provision is made thereunder If the expenditure incurred by the Company shall include the amount for which the Insured is responsible hereunder such amount shall be repaid by the insured to the Company forthwith For the purpose of this Endorsement the expression “event” shall mean an event or series of events arising out of one cause in connection with the motor vehicle This Endorsement shall not apply to loss or damage caused by fire external explosion self-ignition burglary housebreaking or theft 2. Excess – Damage Claims It is hereby understood and agreed that notwithstanding to the contrary contained in Section I of this Policy the Insured in respect of each and every event shall be responsible for the amount specified in the Schedule (or and less expenditure which may be incurred) of any expenditure for which provision is made thereunder If the expenditure incurred by the Company shall include the amount for which the insured is responsible hereunder such amount shall be repaid by the insured to the Company forthwith For the purpose of this Endorsement the expression “event” shall mean an event or series of events arising out of one cause in connection with the Motor Vehicle. This Endorsement shall not apply to loss or damage caused by fire, external explosion, self-ignition lightning, burglary, housebreaking or theft 3(a) Third Party Only It is hereby understood and agreed that Section I (and its exceptions) of this Policy is cancelled It is further understood that and agreed that the printed wording of Condition 3 of the Policy is also cancelled and is replaced by the following new Conditions: “3. The Insured shall take all reasonable steps to maintain the Motor Vehicle in efficient condition and the Company shall have at all times free and full access to examine the Motor Vehicle or any part thereof or any driver or employee of the insured” SPECIMEN 3(b) Third Party Fire and Theft It is hereby understood and agreed that notwithstanding anything to the contrary contained in Section1 (and its Exceptions) of this Policy the Company shall not be liable thereunder except in respect of loss or damage by fire, external explosion, self-ignition, lightning, burglary, housebreaking or theft 30. Replacement Parts It is hereby understood and agreed that notwithstanding anything to the contrary contained in this Policy in the event of loss or damage to the Motor Vehicle or its accessories or spare parts necessitating the supply of a part not obtainable from stocks held in the Country in which the Motor Vehicle is held for repair or in the event of the Company exercising the option under Section 1-2 to pay in cash the amount of the loss or damage the liability of the Company in respect of any such part shall be limited to :- (a) (i) the price quoted in the latest catalogue or price list issued by the Manufacturer or his Agents for the Country in which the Motor Vehicle is held for repair or (ii) if no such catalogue or price list exist the price last obtained at the Manuacturer’s Works plus the reasonable cost of transport otherwise than by air to the Country in which the Motor Vehicle is held for repair and the amount of the relative import duty and (b) the reasonable cost of fitting such part SPECIAL CONDITION PREMIUM WARRANTY CLAUSE 1. Notwithstanding anything herein contained to the contrary and subject only and without prejudice to Clause 2 hereinafter set out, it is hereby declared and agreed that it is a condition precedent to liability under this Policy, Renewal Certificate, Endorsement or Cover Note that any premium due must be paid and actually received in full by the Company, the registered broker or registered agent through whom this policy was effected:- (a) when the period of insurance is 60 days or more, within SIXTY (60) days from the :- (i) INCEPTION date of the coverage under the Policy, Renewal Certificate or Cover Note; or (ii) EFFECTIVE date of the coverage stated on each Endorsement, if any, issued under the Policy, Renewal Certificate or Cover Note when the effective date of coverage stated on the Endorsement is on or after the issuance date of the Endorsement; or (iii) ISSUANCE date of each Endorsement, if any issued under the Policy, Renewal Certificate or Cover Note where the effective date of coverage under the Endorsement is before the Issuance date; or (b) When the period insurance is less than 60 days within THE PERIOD OF INSURANCE specified in the Policy, Endorsement, Renewal Certificate or Cover Note 2. In the event any of the abovementioned premium is not paid in full to the company, registered broker or registered agent as described above in the manner and within the time stipulated above (the “premium warranty period”), the cover under this Policy, Endorsement, Renewal Certificate or Cover Note shall be deemed to have terminated from the expiry of the premium warranty period and the Company shall be discharged from all liability therefrom but without prejudice to any liability incurred before that date and the Company will be entitled to a pro-rata time on risk premium subject to a minimum of S$25/- CONDITIONS 1. This Policy and the Schedule shall be read together as one contract and any word or expression to which a specific meaning has been attached in any part of this Policy or of the Schedule shall bear such specific meaning wherever it may appear 2. Every notice or communication to be given or made under this policy shall be delivered in writing to the Company 3. The Insured shall take all reasonable steps to safeguard the Motor Vehicle from loss or damage and to maintain the Motor Vehicle in efficient condition and the Company shall have at all times free and full access to examine the Motor Vehicle or any part thereof or any driver or employee of the Insured. In the event of any accident or breakdown the Motor Vehicle shall not be left unattended without proper precautions of being taken to prevent further loss or damage and if the Motor Vehicle be driven before the necessary repairs are effected any extension of the damage or any further damage to the Motor Vehicle shall be excluded from the scope of indemnity granted by this Policy 4. In the event of any occurrence which may give rise to a claim under this Policy the insured shall as soon as possible give notice thereof to the Company with full particulars. Every letter claim will summons and process shall be notified or forwarded to the Company immediately on receipt. Notice shall also be given to the Company immediately the Insured shall have knowledge of any impending prosecution inquest fatal inquiry or offer of compensation in connection with any such occurrence. In case of theft or other criminal act which may give rise to a claim under this Policy the Insured shall give immediate notice to the Police and cooperate with the Company in securing the conviction of the offender SPECIMEN 5. No admission offer promise or payment shall be made by or on behalf of the Insured without the written consent of the Company which shall be entitled if it is so desires to take over and conduct in his name the defense or settlement of any claim or to prosecute in his name for its own benefit any claim for indemnity or damages or otherwise and shall have full discretion in the conduct of any proceedings and in the settlement of any claim and the Insured shall give all such information and assistance as the Company may require 6. At any time after the happening of any event giving rise to a claim or a series of claims under Section II-1 (b) of this Policy the Company may pay to the Insured the full amount of the Company’s liability under Section II-1 (b) and relinquish the conduct of any defence settlement or proceedings and the Company shall not be responsible for any damage alleged to have been caused to the Insured in consequence of any alleged action or omission of the Company in connection with such defence settlement of proceedings or of the Company relinquishing such conduct nor shall the Company be liable for any costs or expenses whatsoever incurred by the Insured or any claimant or other persons after the Company shall have relinquished such conduct 7. The company may cancel this Policy by sending seven days’ notice by registered letter to Insured at his last known address and in such event will return to the Insured the premium paid less the pro-rata portion thereof for the period the Policy has been in force or the Policy may be cancelled at any time by the insured on seven days’ notice and (provided no claim has arisen during the then current Period of Insurance) the Insured shall be entitled to a return of premium less premium at the Company’s Short period rates for the period of the Policy has been in force 8. If at the time any claim arises under this Policy there is any other insurance covering the same loss damage or liability the Company shall not be liable to pay or contribute more than its rateable proportion of any loss damage compensation costs or expenses, provided always that nothing in this Condition shall impose on the Company any liability from which but for this Condition it would have been relieved under proviso (ii) Section II-2 of this Policy 9. All differences arising out of this Policy shall be referred to the decision of an Arbitrator to be appointed in writing by the parties in difference or if they cannot agree upon a single Arbitrator to the decision of two Arbitrators one to be appointed in writing by each of the parties within one calendar month after having been required in writing so to do either of the parties or in case the Arbitrators do not agree of an Umpire appointed in writing by the Arbitrators before entering upon the reference. The Umpire shall sit with the Arbitrators and preside at their meetings and making of an Award shall be a condition precedent to any right of action against the Company. If the Company shall disclaim liability to the insured for any claim hereunder and such claim shall not within twelve calendar months from the date of such disclaimer have been referred to arbitration under the provisions here in contained then the claim shall for all purposes be deemed to have been abandoned and shall not thereafter be recoverable hereunder. 10. The due observance and fulfillment of the Terms of this Policy insofar as they relate to anything to be done or not to be done by Insured and truth of the statements and answers in the proposal shall be conditions precedent to any liability of the Company to make any payment under this Policy Motor Vehicle : Any of the following including any vehicle (Mechanically propelled or otherwise) attached thereto for the purpose of being towed:- Any Motor Vehicle the property of the Policyholder or in their custody or control. Limit of Liability: Limit of the amount of the Company’s Liability under Section I – 3…………………..S$200.00 Limit of the amount of the Company’s Liability under Section II – 1 (a) in respect of any one claim or a series of claims arising out of one event…………Unlimited Limit of the amount of the Company’s Liability under Section II – 1 (b) in respect of any claim or a series of claims arising out of one event……………….S$500,000.00 Geographical Area: West Malaysia, The Republic of Singapore and that part of Thailand within 50 miles of the border between Thailand and West Malaysia Legislation : Road Traffic Ordinance 1958 (Federation of Malaysia) Motor Vehicle (Third Party Risks & Compensation) Act 1960 (Republic of Singapore) (the reference to Legislation under ”Avoidance of Certain Terms and Rights of Recovery” is limited to Sections 78, 79 & 80 of the Federation Malaya Ordinance & Sections 6, 7, & 8 of the Singapore Act) Authorised Driver As described in the Certificate of Insurance Limitations as to Use As described in the Certificate of Insurance SPECIMEN",
-                  "textJP": ""
+                  "textJP": "道路・構内統合リスク保険証券は、前述の二つの保険証券、すなわちモータートレード（道路リスク）保険とモータートレード（構内リスク）保険が提供する補償を一つの保険証券にまとめたものです。"
                 }
               ]
             }
