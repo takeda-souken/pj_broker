@@ -4441,7 +4441,7 @@
       "id": "ch9",
       "number": 9,
       "title": "PART I HEALTHCARE FINANCING",
-      "titleJP": "PART I HEALTHCARE FINANCING",
+      "titleJP": "パートI ヘルスケアファイナンシング",
       "outline": [
         "Introduction",
         "Healthcare Subsidies",
@@ -4462,11 +4462,13 @@
           "paragraphs": [
             {
               "num": "1.1",
-              "text": "In this chapter, we will review the various subsidies and healthcare financing schemes that the Singapore Government has put in place to help Singaporeans meet the costs of healthcare."
+              "text": "In this chapter, we will review the various subsidies and healthcare financing schemes that the Singapore Government has put in place to help Singaporeans meet the costs of healthcare.",
+              "textJP": "この章では、シンガポール政府がシンガポール人の医療費負担を支援するために導入したさまざまな補助金およびヘルスケアファイナンシングスキームをレビューします。"
             },
             {
               "num": "1.2",
-              "text": "Through a mixed financing system (see Figure 9.1 below), Singapore has secured good healthcare outcomes for its population. For example, life expectancy at birth has increased from 80.3 in 2006 to 83.93 in 20221, and infant mortality rate improved from 2.6 per thousand live births to 1.8 per thousand live births2 as of 2020. The Government has done so with a current national health expenditure of about 4.4% of the country’s Gross Domestic Product (GDP) in 2019, a percentage which is low among developed countries (although this is expected to grow with an ageing population over the years). Figure 9.1: Main Components in Singapore's Healthcare Financing System Source: Ministry of Health, 2023."
+              "text": "Through a mixed financing system (see Figure 9.1 below), Singapore has secured good healthcare outcomes for its population. For example, life expectancy at birth has increased from 80.3 in 2006 to 83.93 in 20221, and infant mortality rate improved from 2.6 per thousand live births to 1.8 per thousand live births2 as of 2020. The Government has done so with a current national health expenditure of about 4.4% of the country’s Gross Domestic Product (GDP) in 2019, a percentage which is low among developed countries (although this is expected to grow with an ageing population over the years). Figure 9.1: Main Components in Singapore's Healthcare Financing System Source: Ministry of Health, 2023.",
+              "textJP": "混合ファイナンシングシステム（以下の図9.1参照）を通じて、シンガポールは国民に良好な医療成果を確保しています。例えば、出生時の平均寿命は2006年の80.3歳から2022年の83.93歳に増加し、乳児死亡率は出生千人あたり2.6から1.8に改善しました。"
             }
           ],
           "subsections": []
@@ -4479,11 +4481,13 @@
           "paragraphs": [
             {
               "num": "2.1",
-              "text": "The Government provides funding to public healthcare institutions (e.g. public hospitals, national specialty centres and polyclinics), as well as selected private clinics and voluntary welfare organisations (VWOs) which offer a range of community and home-based care. This enables Singaporeans to have access to subsidised care."
+              "text": "The Government provides funding to public healthcare institutions (e.g. public hospitals, national specialty centres and polyclinics), as well as selected private clinics and voluntary welfare organisations (VWOs) which offer a range of community and home-based care. This enables Singaporeans to have access to subsidised care.",
+              "textJP": "政府は公的医療機関（例：公立病院、国立専門センター、ポリクリニック）、ならびに地域および在宅ケアのサービスを提供する一部の民間診療所およびボランティア福祉団体（VWO）に資金を提供しています。これにより、シンガポール人は手頃な価格で質の高い医療ケアを受けることができます。"
             },
             {
               "num": "2.2",
-              "text": "In many healthcare settings, a means-test is used to target subsidies, so that needy patients can receive more help; lower-income patients receive more subsidies than higher-income patients. This approach targets limited resources to those who need them more and ensures that the Government subsidies are sustainable. 1 https://www.macrotrends.net/countries/SGP/singapore/life-expectancy 2 https://www.statista.com/statistics/624889/singapore-infant-mortality-rate/"
+              "text": "In many healthcare settings, a means-test is used to target subsidies, so that needy patients can receive more help; lower-income patients receive more subsidies than higher-income patients. This approach targets limited resources to those who need them more and ensures that the Government subsidies are sustainable. 1 https://www.macrotrends.net/countries/SGP/singapore/life-expectancy 2 https://www.statista.com/statistics/624889/singapore-infant-mortality-rate/",
+              "textJP": "多くの医療環境では、ミーンズテスト（資力調査）を使用して補助金を対象化し、困窮している患者がより多くの支援を受けられるようにしています。低所得の患者は高所得の患者よりも多くの補助金を受けます。このアプローチは、限られた資源をより必要としている人に充て、政府の補助金が効率的に使用されるようにしています。"
             }
           ],
           "subsections": [
@@ -4502,19 +4506,23 @@
               "paragraphs": [
                 {
                   "num": "2.3",
-                  "text": "Patients can choose different ward classes if they need to be admitted into a hospital. These ward classes differ only in the type of physical amenities and level of comfort and range from single-bedded rooms (Class A wards) to rooms with multiple beds (Class B/C wards). The standard of medical care is the same regardless of the ward class."
+                  "text": "Patients can choose different ward classes if they need to be admitted into a hospital. These ward classes differ only in the type of physical amenities and level of comfort and range from single-bedded rooms (Class A wards) to rooms with multiple beds (Class B/C wards). The standard of medical care is the same regardless of the ward class.",
+                  "textJP": "入院が必要な場合、患者はさまざまな病棟クラスを選択できます。これらの病棟クラスは物理的な設備の種類と快適さのレベルのみが異なり、個室（A級病棟）から多床室（B/C級病棟）まであります。どの病棟クラスを選択しても、医療ケアの水準は同じです。"
                 },
                 {
                   "num": "2.4",
-                  "text": "The subsidies provided by the government will differ according to the ward class. The wards with basic amenities (e.g. Class C wards) are heavily subsidised. Those who desire more amenities can choose a higher ward class but will receive less subsidy. Class B2 and C ward admissions (81% of public hospital beds) are heavily subsidised, ranging from 50% to 80% for Singapore Citizens, and 25% to 50% for Permanent Residents.3 Patients who opt for Class B1 or Class A admissions wards will receive little to no subsidy.4"
+                  "text": "The subsidies provided by the government will differ according to the ward class. The wards with basic amenities (e.g. Class C wards) are heavily subsidised. Those who desire more amenities can choose a higher ward class but will receive less subsidy. Class B2 and C ward admissions (81% of public hospital beds) are heavily subsidised, ranging from 50% to 80% for Singapore Citizens, and 25% to 50% for Permanent Residents.3 Patients who opt for Class B1 or Class A admissions wards will receive little to no subsidy.4",
+                  "textJP": "政府が提供する補助金は病棟クラスによって異なります。基本的な設備の病棟（例：C級病棟）は多額の補助金が出ます。より良い設備を希望する者はより上位の病棟クラスを選択できますが、補助金は少なくなります。B2級およびC級病棟の入院（公立病院の入院の81%）では、シンガポール市民は最大80%の補助金を受けます。"
                 },
                 {
                   "num": "2.5",
-                  "text": "In January 2009, means-testing in public hospitals was introduced to better target the heavy subsidies for Class B2 and Class C wards to the lower-income group. The basis of subsidy is dependent on the patient’s Per Capita Household Income or Annual Value of Residence, for households with no income."
+                  "text": "In January 2009, means-testing in public hospitals was introduced to better target the heavy subsidies for Class B2 and Class C wards to the lower-income group. The basis of subsidy is dependent on the patient’s Per Capita Household Income or Annual Value of Residence, for households with no income.",
+                  "textJP": "2009年1月、B2級およびC級病棟への手厚い補助金を低所得者層により適切に対象化するため、公立病院にミーンズテストが導入されました。補助金の基準は、患者の1人あたり世帯所得（PCHI）または所得のない世帯の場合は住居の年間評価額に依存します。"
                 },
                 {
                   "num": "2.6",
-                  "text": "Patients requiring follow-ups at specialist outpatient clinics (SOCs) after their hospitalisation may opt to continue their treatment in either subsidised or private SOCs, regardless of their choice of inpatient ward class."
+                  "text": "Patients requiring follow-ups at specialist outpatient clinics (SOCs) after their hospitalisation may opt to continue their treatment in either subsidised or private SOCs, regardless of their choice of inpatient ward class.",
+                  "textJP": "入院後に専門外来診療所（SOC）でのフォローアップが必要な患者は、入院時の病棟クラスの選択にかかわらず、補助金付きまたは民間のSOCのいずれかで治療を継続することを選択できます。"
                 }
               ]
             },
@@ -4526,15 +4534,18 @@
               "paragraphs": [
                 {
                   "num": "2.7",
-                  "text": "In general, the eligibility for higher subsidy is based on the Per Capita Household Income (PCHI), or annual value of residence (for any household with no income)."
+                  "text": "In general, the eligibility for higher subsidy is based on the Per Capita Household Income (PCHI), or annual value of residence (for any household with no income).",
+                  "textJP": "一般に、より高い補助金の適格性は1人あたり世帯所得（PCHI）、または所得のない世帯の場合は住居の年間評価額に基づきます。"
                 },
                 {
                   "num": "2.8",
-                  "text": "For SOC services, eligible patients can receive subsidies ranging from 30% to 70%, depending on their Per Capita Household Income (PCHI) and Annual Value of Residence (where applicable). Lower- to middle-income SOC patients can receive higher subsidies. Permanent Residents will continue to receive 25% subsidy."
+                  "text": "For SOC services, eligible patients can receive subsidies ranging from 30% to 70%, depending on their Per Capita Household Income (PCHI) and Annual Value of Residence (where applicable). Lower- to middle-income SOC patients can receive higher subsidies. Permanent Residents will continue to receive 25% subsidy.",
+                  "textJP": "SOCサービスについて、適格な患者はPCHIおよび住居の年間評価額（該当する場合）に応じて30%から70%の補助金を受けることができます。低〜中所得のSOC患者はより高い補助金を受けることができます。永住権保持者はシンガポール市民の補助金より少ない補助金を引き続き受けます。"
                 },
                 {
                   "num": "2.9",
-                  "text": "For standard drugs at SOCs, subsidised patients can receive means-tested subsidies of 50% or 75% subsidy, depending on their PCHI. 3 https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/subsidies-for-acute-inpatient-careat- public-healthcare-institutions 4 https://www.moh.gov.sg/home/our-healthcare-system/healthcare-services-and-facilities/hospital-services Medisave Hospital Bills"
+                  "text": "For standard drugs at SOCs, subsidised patients can receive means-tested subsidies of 50% or 75% subsidy, depending on their PCHI. 3 https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/subsidies-for-acute-inpatient-careat- public-healthcare-institutions 4 https://www.moh.gov.sg/home/our-healthcare-system/healthcare-services-and-facilities/hospital-services Medisave Hospital Bills",
+                  "textJP": "SOCでの標準的な薬剤について、補助金対象の患者はPCHIに応じて50%または75%のミーンズテスト付き補助金を受けることができます。"
                 }
               ]
             },
@@ -4546,7 +4557,8 @@
               "paragraphs": [
                 {
                   "num": "2.10",
-                  "text": "Other services such as day surgery and Accident & Emergency (A&E) services are subsidised up to 80% and 50% respectively. Day surgeries will be subsidised at between 50% to 80% for Singapore Citizens and 25% to 50% for Permanent Residents. Patients who use A&E services are charged at a flat rate for basic investigations and services."
+                  "text": "Other services such as day surgery and Accident & Emergency (A&E) services are subsidised up to 80% and 50% respectively. Day surgeries will be subsidised at between 50% to 80% for Singapore Citizens and 25% to 50% for Permanent Residents. Patients who use A&E services are charged at a flat rate for basic investigations and services.",
+                  "textJP": "日帰り手術やA&E（救急）サービスなどのその他のサービスは、それぞれ最大80%および50%の補助金が出ます。日帰り手術の補助金はシンガポール市民で50%〜80%、永住権保持者で25%〜50%です。A&Eサービスを利用する患者は定額が課されます。"
                 }
               ]
             },
@@ -4558,7 +4570,8 @@
               "paragraphs": [
                 {
                   "num": "2.11",
-                  "text": "The services provided at Government polyclinics are subsidised at about 50% (75% if the patient is a child or an elderly person). All lower- to middle-income patients at the polyclinics will enjoy a 75% subsidy for all standard drugs."
+                  "text": "The services provided at Government polyclinics are subsidised at about 50% (75% if the patient is a child or an elderly person). All lower- to middle-income patients at the polyclinics will enjoy a 75% subsidy for all standard drugs.",
+                  "textJP": "政府ポリクリニックで提供されるサービスは約50%の補助金が出ます（患者が子供または高齢者の場合は75%）。ポリクリニックの低〜中所得の患者はすべての標準的な薬剤について75%の補助金を享受します。"
                 }
               ]
             },
@@ -4570,31 +4583,38 @@
               "paragraphs": [
                 {
                   "num": "2.12",
-                  "text": "The Community Health Assist Scheme (CHAS) enables eligible Singapore Citizens to receive subsidies for medical and/or dental care* at participating General Practitioner (GP) and dental clinics. With effect from Nov 2019, this scheme has been expanded to include all Singapore Citizens regardless of their income levels. *Only for CHAS Blue, CHAS Orange, MG and PG cardholders."
+                  "text": "The Community Health Assist Scheme (CHAS) enables eligible Singapore Citizens to receive subsidies for medical and/or dental care* at participating General Practitioner (GP) and dental clinics. With effect from Nov 2019, this scheme has been expanded to include all Singapore Citizens regardless of their income levels. *Only for CHAS Blue, CHAS Orange, MG and PG cardholders.",
+                  "textJP": "Community Health Assist Scheme（CHAS）により、適格なシンガポール市民は参加する一般開業医（GP）および歯科診療所で医療および/または歯科ケアの補助金を受けることができます。2019年11月以降、このスキームは世帯所得にかかわらずすべてのシンガポール市民に拡大されました。"
                 },
                 {
                   "num": "2.13",
-                  "text": "The colour of the CHAS card indicates the subsidy tier that cardholders are entitled to, namely the CHAS Blue, Orange or Green tier. All Pioneer Generation (PG) and Merdeka Generation (MG) seniors also receive special subsidies at CHAS clinics."
+                  "text": "The colour of the CHAS card indicates the subsidy tier that cardholders are entitled to, namely the CHAS Blue, Orange or Green tier. All Pioneer Generation (PG) and Merdeka Generation (MG) seniors also receive special subsidies at CHAS clinics.",
+                  "textJP": "CHASカードの色は、カード保持者が受ける資格のある補助金の段階を示します。すなわち、CHAS Blue、Orange、またはGreenの段階です。すべてのPioneer Generation（PG）およびMerdeka Generation（MG）の高齢者も、CHAS診療所で特別な補助金を受けます。"
                 },
                 {
                   "num": "2.14",
-                  "text": "The amount that cardholders pay will be based on the fees charged by the clinic, less the CHAS subsidies. The fees will vary according to each patient’s condition and clinic’s charges."
+                  "text": "The amount that cardholders pay will be based on the fees charged by the clinic, less the CHAS subsidies. The fees will vary according to each patient’s condition and clinic’s charges.",
+                  "textJP": "カード保持者が支払う金額は、診療所の請求額からCHAS補助金を差し引いた額に基づきます。料金は各患者の状態および診療所の請求額によって異なります。"
                 },
                 {
                   "num": "2.15",
-                  "text": "Besides subsidies for care at CHAS clinics, CHAS, MG and PG cardholders enjoy subsidised referrals to public Specialist Outpatient Clinics (SOCs), where eligible. Subsidised referrals from CHAS Dental clinics to the National Dental Centre Singapore and National University Centre for Oral Health Singapore only apply to CHAS Blue/Orange, MG and PG cardholders."
+                  "text": "Besides subsidies for care at CHAS clinics, CHAS, MG and PG cardholders enjoy subsidised referrals to public Specialist Outpatient Clinics (SOCs), where eligible. Subsidised referrals from CHAS Dental clinics to the National Dental Centre Singapore and National University Centre for Oral Health Singapore only apply to CHAS Blue/Orange, MG and PG cardholders.",
+                  "textJP": "CHAS診療所でのケアに対する補助金に加えて、CHAS、MG、PGのカード保持者は、適格な場合、公的専門外来診療所（SOC）への補助金付き紹介を享受します。"
                 },
                 {
                   "num": "2.16",
-                  "text": "For patients with chronic conditions, CHAS subsidies complement the Chronic Disease Management Programme (CDMP), where MediSave can be used for outpatient treatment (for the same set of chronic conditions) covered under CHAS."
+                  "text": "For patients with chronic conditions, CHAS subsidies complement the Chronic Disease Management Programme (CDMP), where MediSave can be used for outpatient treatment (for the same set of chronic conditions) covered under CHAS.",
+                  "textJP": "慢性疾患を有する患者について、CHAS補助金はChronic Disease Management Programme（CDMP）を補完しており、CHASの対象となる同一の慢性疾患の外来治療にMediSaveを使用できます。"
                 },
                 {
                   "num": "2.17",
-                  "text": "Eligible patients who seek treatment for their chronic conditions at CHAS GP clinics can also receive subsidised rates for healthcare services such as Diabetic Foot Screening (DFS), Diabetic Retinal Photography (DRP) and nurse counselling at Community Health Centres (CHCs) and Primary Care Network (PCN) providers."
+                  "text": "Eligible patients who seek treatment for their chronic conditions at CHAS GP clinics can also receive subsidised rates for healthcare services such as Diabetic Foot Screening (DFS), Diabetic Retinal Photography (DRP) and nurse counselling at Community Health Centres (CHCs) and Primary Care Network (PCN) providers.",
+                  "textJP": "CHAS GPクリニックで慢性疾患の治療を受ける適格な患者は、コミュニティヘルスセンター（CHC）やプライマリケアネットワーク（PCN）での糖尿病足スクリーニング（DFS）、糖尿病網膜撮影（DRP）、看護師カウンセリングなどのヘルスケアサービスについても補助金付き料金を受けることができます。"
                 },
                 {
                   "num": "2.18",
-                  "text": "Subsidies are also given to long-term care providers which offer healthcare services, such as renal dialysis, mental rehabilitation and nursing home care. MOH provides subsidies of up to 80% depending on the type of intermediate long-term care service required."
+                  "text": "Subsidies are also given to long-term care providers which offer healthcare services, such as renal dialysis, mental rehabilitation and nursing home care. MOH provides subsidies of up to 80% depending on the type of intermediate long-term care service required.",
+                  "textJP": "透析、精神科リハビリテーション、介護施設ケアなどのヘルスケアサービスを提供する長期介護事業者にも補助金が提供されています。MOHは、必要な中間的長期介護サービスの種類に応じて最大80%の補助金を提供しています。"
                 }
               ]
             }
@@ -4608,15 +4628,18 @@
           "paragraphs": [
             {
               "num": "3.1",
-              "text": "MediShield Life is a basic health insurance scheme that protects all Singapore Citizens (SCs) and Permanent Residents (PRs) against large medical bills for life, regardless of age or health conditions. By risk-pooling across the entire population, MediShield Life provides universal coverage for all SCs and PRs for life. The claim limits are designed to cover 9 in 10 subsidised bills incurred for hospitalisation in class B2/C wards, day surgeries, and selected costly outpatient treatments (e.g., dialysis and cancer drug treatments) in the public hospitals."
+              "text": "MediShield Life is a basic health insurance scheme that protects all Singapore Citizens (SCs) and Permanent Residents (PRs) against large medical bills for life, regardless of age or health conditions. By risk-pooling across the entire population, MediShield Life provides universal coverage for all SCs and PRs for life. The claim limits are designed to cover 9 in 10 subsidised bills incurred for hospitalisation in class B2/C wards, day surgeries, and selected costly outpatient treatments (e.g., dialysis and cancer drug treatments) in the public hospitals.",
+              "textJP": "MediShield Lifeは、年齢や健康状態にかかわらず、すべてのシンガポール市民（SC）および永住権保持者（PR）を大きな医療費から生涯にわたって保護する基本的な健康保険スキームです。"
             },
             {
               "num": "3.2",
-              "text": "There is no need to apply for MediShield Life. All SCs and PRs are automatically enrolled in MediShield Life from 1 Nov 2015. New SCs are covered from birth or from the day they attain citizenship. PRs are covered from the day they attain permanent residency."
+              "text": "There is no need to apply for MediShield Life. All SCs and PRs are automatically enrolled in MediShield Life from 1 Nov 2015. New SCs are covered from birth or from the day they attain citizenship. PRs are covered from the day they attain permanent residency.",
+              "textJP": "MediShield Lifeへの申請は不要です。すべてのSCおよびPRは2015年11月1日からMediShield Lifeに自動加入しています。新しいSCは出生時または市民権取得日から補償されます。PRは永住権取得日から補償されます。"
             },
             {
               "num": "3.3",
-              "text": "MediShield Life provides coverage for both subsidised and non-subsidised ward class hospitalisation at all public healthcare institutions and private medical institutions. However, MediShield Life claim limits are designed to cover 9 in 10 subsidised bills incurred for hospitalisation in class B2/C wards, day surgeries, and selected costly outpatient treatments (e.g., dialysis and cancer drug treatments in the public hospitals. This is to keep premiums affordable. Those who would like additional coverage in Class A/B1 wards or private hospitals may consider buying Integrated Shield Plans (IP). As IPs premiums are higher than MediShield Life premiums and increase with age, one should consider the affordability of premiums over the longer-term prior to purchasing an IP."
+              "text": "MediShield Life provides coverage for both subsidised and non-subsidised ward class hospitalisation at all public healthcare institutions and private medical institutions. However, MediShield Life claim limits are designed to cover 9 in 10 subsidised bills incurred for hospitalisation in class B2/C wards, day surgeries, and selected costly outpatient treatments (e.g., dialysis and cancer drug treatments in the public hospitals. This is to keep premiums affordable. Those who would like additional coverage in Class A/B1 wards or private hospitals may consider buying Integrated Shield Plans (IP). As IPs premiums are higher than MediShield Life premiums and increase with age, one should consider the affordability of premiums over the longer-term prior to purchasing an IP.",
+              "textJP": "MediShield Lifeは、すべての公的医療機関および民間医療機関での補助金付きおよび非補助金の病棟クラスでの入院の補償を提供します。ただし、MediShield Lifeの請求限度額はB2/C級病棟の補助金付き入院を基準に設計されています。"
             }
           ],
           "subsections": [
@@ -4628,15 +4651,18 @@
               "paragraphs": [
                 {
                   "num": "3.4",
-                  "text": "MediShield Life premiums are actuarially priced based on the health risks and expected healthcare utilisation of each age group so that each age group’s payouts are broadly supported by their own premiums. This ensures that MediShield Life remains sustainable even as our population ages. Any applicable subsidies are automatically applied to the premium before premium payment."
+                  "text": "MediShield Life premiums are actuarially priced based on the health risks and expected healthcare utilisation of each age group so that each age group’s payouts are broadly supported by their own premiums. This ensures that MediShield Life remains sustainable even as our population ages. Any applicable subsidies are automatically applied to the premium before premium payment.",
+                  "textJP": "MediShield Lifeの保険料は、各年齢グループの保険金支払いがそれぞれの年齢グループの保険料によって概ね支えられるよう、各年齢グループの健康リスクと予想される医療利用に基づいて保険数理的に算定されています。"
                 },
                 {
                   "num": "3.5",
-                  "text": "Those with pre-existing medical conditions can enjoy coverage for their conditions. Only those with serious pre-existing medical conditions listed in the MOH website are required to pay Additional Premiums of 30% for the first 10 years of coverage, in addition to the standard MediShield Life premiums."
+                  "text": "Those with pre-existing medical conditions can enjoy coverage for their conditions. Only those with serious pre-existing medical conditions listed in the MOH website are required to pay Additional Premiums of 30% for the first 10 years of coverage, in addition to the standard MediShield Life premiums.",
+                  "textJP": "既存の病態を有する者もその病態に対する補償を享受できます。MOHウェブサイトに記載されている深刻な既存の病態を有する者のみが、追加保険料を支払う必要があります。"
                 },
                 {
                   "num": "3.6",
-                  "text": "MediShield Life premiums can be fully paid by MediSave. One can pay premiums using their own MediSave or using their family members' MediSave. Parents may also tap on the MediSave Grant for Newborns to pay for their child’s MediShield Life premiums."
+                  "text": "MediShield Life premiums can be fully paid by MediSave. One can pay premiums using their own MediSave or using their family members' MediSave. Parents may also tap on the MediSave Grant for Newborns to pay for their child’s MediShield Life premiums.",
+                  "textJP": "MediShield Lifeの保険料は全額MediSaveで支払うことができます。自分のMediSaveまたは家族のMediSaveを使用して保険料を支払うことができます。"
                 }
               ]
             },
@@ -4648,7 +4674,8 @@
               "paragraphs": [
                 {
                   "num": "3.7",
-                  "text": "The Government provides various premium subsidies and support measures to help SCs and PRs with their MediShield Life premiums, including those who need to pay Additional Premiums: (a) Premium Subsidies for the lower to middle income; (b) Special Premium Subsidies and MediSave top-ups for Pioneer Generation seniors and Additional Subsidies for Merdeka Generation seniors; and (c) Additional Premium Support for those who, even after receiving subsidies and using MediSave are still unable to afford their premiums and have limited family support. No one will lose MediShield Life coverage due to an inability to pay premiums."
+                  "text": "The Government provides various premium subsidies and support measures to help SCs and PRs with their MediShield Life premiums, including those who need to pay Additional Premiums: (a) Premium Subsidies for the lower to middle income; (b) Special Premium Subsidies and MediSave top-ups for Pioneer Generation seniors and Additional Subsidies for Merdeka Generation seniors; and (c) Additional Premium Support for those who, even after receiving subsidies and using MediSave are still unable to afford their premiums and have limited family support. No one will lose MediShield Life coverage due to an inability to pay premiums.",
+                  "textJP": "政府はSCおよびPRのMediShield Life保険料を支援するためのさまざまな保険料補助金および支援措置を提供しています（追加保険料を支払う必要がある者を含む）：\n(a) 保険料補助金\n(b) Pioneer Generation補助金\n(c) Merdeka Generation補助金\n(d) 追加保険料支援（APS）"
                 }
               ]
             },
@@ -4660,11 +4687,13 @@
               "paragraphs": [
                 {
                   "num": "3.8",
-                  "text": "This is a targeted support measure to support lower- to middle- income families with household monthly income per person of S$2,800 and below, and living in homes with an Annual Value (AV) of S$21,000 and below. Those who own more than one property will not be eligible for this subsidy."
+                  "text": "This is a targeted support measure to support lower- to middle- income families with household monthly income per person of S$2,800 and below, and living in homes with an Annual Value (AV) of S$21,000 and below. Those who own more than one property will not be eligible for this subsidy.",
+                  "textJP": "これは、1人あたりの世帯月収がS$2,800以下で、年間評価額（AV）がS$21,000以下の住宅に居住する低〜中所得世帯を支援するための対象化された支援措置です。"
                 },
                 {
                   "num": "3.9",
-                  "text": "Those eligible can receive subsidies of up to 50% of their premiums. PRs will receive half the subsidy applicable to SCs."
+                  "text": "Those eligible can receive subsidies of up to 50% of their premiums. PRs will receive half the subsidy applicable to SCs.",
+                  "textJP": "適格な者は保険料の最大50%の補助金を受けることができます。PRはSCに適用される補助金の半額を受け取ります。"
                 }
               ]
             },
@@ -4676,23 +4705,28 @@
               "paragraphs": [
                 {
                   "num": "3.10",
-                  "text": "Pioneers refer to Singapore Citizens born on or before 31 December 1949 and obtained citizenship on or before 31 December 1986."
+                  "text": "Pioneers refer to Singapore Citizens born on or before 31 December 1949 and obtained citizenship on or before 31 December 1986.",
+                  "textJP": "パイオニアとは、1949年12月31日以前に生まれ、1986年12月31日以前に市民権を取得したシンガポール市民を指します。"
                 },
                 {
                   "num": "3.11",
-                  "text": "Pioneers receive special Pioneer Generation Subsidies of between 40% - 60% depending on age. This is regardless of their household monthly income or the Annual Value of their home."
+                  "text": "Pioneers receive special Pioneer Generation Subsidies of between 40% - 60% depending on age. This is regardless of their household monthly income or the Annual Value of their home.",
+                  "textJP": "パイオニアは、年齢に応じて40%〜60%の特別なPioneer Generation補助金を受けます。これは世帯月収や住居の年間評価額にかかわりません。"
                 },
                 {
                   "num": "3.12",
-                  "text": "Pioneers also receive S$250 - S$900 a year in MediSave top-ups (depending on year of birth) for life, which can be used to pay for their MediShield Life premiums."
+                  "text": "Pioneers also receive S$250 - S$900 a year in MediSave top-ups (depending on year of birth) for life, which can be used to pay for their MediShield Life premiums.",
+                  "textJP": "パイオニアはまた、MediShield Lifeの保険料に充てることができる年間S$250〜S$900のMediSaveトップアップ（出生年に応じて）を生涯にわたって受けます。"
                 },
                 {
                   "num": "3.13",
-                  "text": "With this, older Pioneers will continue to have their premiums fully covered by the special PG premium subsidies and MediSave top-ups, while younger Pioneers will have about two-thirds of their premiums covered."
+                  "text": "With this, older Pioneers will continue to have their premiums fully covered by the special PG premium subsidies and MediSave top-ups, while younger Pioneers will have about two-thirds of their premiums covered.",
+                  "textJP": "これにより、高齢のパイオニアは引き続き特別なPG保険料補助金とMediSaveトップアップにより保険料が全額カバーされ、若いパイオニアは保険料の約3分の2がカバーされます。"
                 },
                 {
                   "num": "3.14",
-                  "text": "Additionally, older Pioneer Generation Seniors who have serious pre-existing conditions also receive additional MediSave top-ups of S$50 - S$200 annually from 2021 to 2025, which can be used to pay for their MediShield Life premiums."
+                  "text": "Additionally, older Pioneer Generation Seniors who have serious pre-existing conditions also receive additional MediSave top-ups of S$50 - S$200 annually from 2021 to 2025, which can be used to pay for their MediShield Life premiums.",
+                  "textJP": "さらに、深刻な既存病態を有する高齢のPioneer Generationの高齢者は、2021年から2025年まで追加保険料に充てることができる年間S$50〜S$200の追加MediSaveトップアップも受けます。"
                 }
               ]
             },
@@ -4704,15 +4738,18 @@
               "paragraphs": [
                 {
                   "num": "3.15",
-                  "text": "Merdeka Generation seniors refer to: (i) Singapore Citizens who were born from 1 January 1950 to 31 December 1959 and had obtained citizenship on or before 31 December 1996; and (ii) those who were born on or before 31 December 1949, had obtained citizenship on or before 31 December 1996 and did not receive the Pioneer Generation Package."
+                  "text": "Merdeka Generation seniors refer to: (i) Singapore Citizens who were born from 1 January 1950 to 31 December 1959 and had obtained citizenship on or before 31 December 1996; and (ii) those who were born on or before 31 December 1949, had obtained citizenship on or before 31 December 1996 and did not receive the Pioneer Generation Package.",
+                  "textJP": "Merdeka Generationの高齢者とは：\n(i) 1950年1月1日から1959年12月31日までの間に生まれ、1996年12月31日以前に市民権を取得したシンガポール市民\n(ii) 上記の期間に生まれ、PRとして市民権を申請したシンガポール市民を指します。"
                 },
                 {
                   "num": "3.16",
-                  "text": "From 1 July 2019, Merdeka Generation seniors receive additional Merdeka Generation Subsidies of 5% of their annual MediShield Life premiums, increasing to 10% after they turn 75 years old, regardless of their household monthly income or the Annual Value of their home. This is on top of the above Premium Subsidies that the seniors may receive."
+                  "text": "From 1 July 2019, Merdeka Generation seniors receive additional Merdeka Generation Subsidies of 5% of their annual MediShield Life premiums, increasing to 10% after they turn 75 years old, regardless of their household monthly income or the Annual Value of their home. This is on top of the above Premium Subsidies that the seniors may receive.",
+                  "textJP": "2019年7月1日から、Merdeka Generationの高齢者は、世帯月収や住居の年間評価額にかかわらず、年間MediShield Life保険料の5%の追加Merdeka Generation補助金を受け、75歳以降は10%に増加します。"
                 },
                 {
                   "num": "3.17",
-                  "text": "Merdeka Generation members received S$200 a year in MediSave top-ups for five years from 2019 to 2023. These top-ups can be used to pay for their MediShield Life premiums."
+                  "text": "Merdeka Generation members received S$200 a year in MediSave top-ups for five years from 2019 to 2023. These top-ups can be used to pay for their MediShield Life premiums.",
+                  "textJP": "Merdeka Generationの会員は、2019年から2023年の5年間、年間S$200のMediSaveトップアップを受けました。これらのトップアップはMediShield Lifeの保険料の支払いに使用できます。"
                 }
               ]
             },
@@ -4724,7 +4761,8 @@
               "paragraphs": [
                 {
                   "num": "3.18",
-                  "text": "Individuals who are unable to afford MediShield Life premiums after Government subsidies, MediSave usage and have limited family support will be invited by the Government to apply for Additional Premium Support (APS). If approved, APS will cover the outstanding MediShield Life premiums (if any) as well as the premiums for the next two years. APS would also cover CareShield Life (CSHL) premiums if applicants are covered under CSHL. However, individuals will lose their APS if they purchase an Integrated Shield Plan or ElderShield/CSHL Supplement. This is to ensure that APS is targeted at members who are needy and have financial difficulties."
+                  "text": "Individuals who are unable to afford MediShield Life premiums after Government subsidies, MediSave usage and have limited family support will be invited by the Government to apply for Additional Premium Support (APS). If approved, APS will cover the outstanding MediShield Life premiums (if any) as well as the premiums for the next two years. APS would also cover CareShield Life (CSHL) premiums if applicants are covered under CSHL. However, individuals will lose their APS if they purchase an Integrated Shield Plan or ElderShield/CSHL Supplement. This is to ensure that APS is targeted at members who are needy and have financial difficulties.",
+                  "textJP": "政府補助金、MediSaveの使用後もMediShield Lifeの保険料を支払うことができず、家族の支援も限られている個人は、追加保険料支援（APS）を申請するよう政府から招請されます。"
                 }
               ]
             },
@@ -4736,7 +4774,8 @@
               "paragraphs": [
                 {
                   "num": "3.19",
-                  "text": "MediShield Life benefits are reviewed regularly to keep pace with the evolving healthcare landscape and cost inflation so that it remains sustainable and relevant to the needs of Singaporeans. Appendix 9B shows the MediShield Life benefits applicable for admissions or treatments received on or after 1 April 2023."
+                  "text": "MediShield Life benefits are reviewed regularly to keep pace with the evolving healthcare landscape and cost inflation so that it remains sustainable and relevant to the needs of Singaporeans. Appendix 9B shows the MediShield Life benefits applicable for admissions or treatments received on or after 1 April 2023.",
+                  "textJP": "MediShield Lifeの給付は、進化するヘルスケアの状況とコストインフレに対応し、シンガポール人のニーズに持続可能で適切であり続けるよう定期的にレビューされています。"
                 }
               ]
             },
@@ -4748,39 +4787,48 @@
               "paragraphs": [
                 {
                   "num": "3.20",
-                  "text": "The MediShield Life Scheme pays on a reimbursement basis, subject to the claim limits imposed on the covered medical expenses, as well as deductible, co-insurance and pro-ration factors."
+                  "text": "The MediShield Life Scheme pays on a reimbursement basis, subject to the claim limits imposed on the covered medical expenses, as well as deductible, co-insurance and pro-ration factors.",
+                  "textJP": "MediShield Lifeスキームは、補償される医療費に課される請求限度額、ならびに免責金額、共同保険、按分係数に基づき、償還ベースで支払います。"
                 },
                 {
                   "num": "3.21",
-                  "text": "The deductible is the fixed amount payable by the insured each policy year (the year following his policy renewal month), before the MediShield Life payout starts. The deductible is payable only once every policy year. It helps to filter out smaller, more affordable bills, which can be paid using MediSave and/or cash and helps to keep the premiums affordable by focusing MediShield Life payouts on larger bills where support is more critical."
+                  "text": "The deductible is the fixed amount payable by the insured each policy year (the year following his policy renewal month), before the MediShield Life payout starts. The deductible is payable only once every policy year. It helps to filter out smaller, more affordable bills, which can be paid using MediSave and/or cash and helps to keep the premiums affordable by focusing MediShield Life payouts on larger bills where support is more critical.",
+                  "textJP": "免責金額は、MediShield Lifeの給付が開始される前に被保険者が各保険年度（保険証券更新月の翌年）に支払う固定額です。免責金額は保険年度ごとに1回のみ支払います。"
                 },
                 {
                   "num": "3.22",
-                  "text": "Co-insurance is the patient’s share of the claimable amount which the insured will have to pay, along with the deductible. It decreases from 10% to 3% as the bill size increases. Co-insurance helps to prevent over-consumption of medical services and over-servicing by healthcare providers."
+                  "text": "Co-insurance is the patient’s share of the claimable amount which the insured will have to pay, along with the deductible. It decreases from 10% to 3% as the bill size increases. Co-insurance helps to prevent over-consumption of medical services and over-servicing by healthcare providers.",
+                  "textJP": "共同保険は、被保険者が免責金額とともに支払わなければならない請求可能額のうちの患者の負担分です。請求額が増加するにつれて10%から3%に減少します。共同保険は過剰消費の抑制に役立ちます。"
                 },
                 {
                   "num": "3.23",
-                  "text": "As private hospital bills and Class A/B1 bills in public hospitals are generally higher than the Class B2/C bills that MediShield Life is designed for, they are pro-rated to the equivalent level of a Class B2/C bill before MediShield Life payouts are computed. This ensures comparable payouts for subsidised and private patients."
+                  "text": "As private hospital bills and Class A/B1 bills in public hospitals are generally higher than the Class B2/C bills that MediShield Life is designed for, they are pro-rated to the equivalent level of a Class B2/C bill before MediShield Life payouts are computed. This ensures comparable payouts for subsidised and private patients.",
+                  "textJP": "民間病院の請求額および公立病院のA/B1級の請求額はMediShield Lifeが設計されたB2/C級の請求額よりも一般に高いため、B2/C級の同等レベルに按分されます。"
                 },
                 {
                   "num": "3.24",
-                  "text": "Table 9.2 shows an example of how the reimbursement under MediShield Life is arrived at. Table 9.2: Claim Computation Of MediShield Life For Singapore Citizen Hospitalised In Class A Ward Claim computation for a Singapore Citizen aged 60 who stays in a Class A ward Length of Stay: 18 Days Procedure Performed: Hip Replacement Pro-ration Factor based on ward class 35% Hospital Bill 35% of Hospital Bill5 MediShield Life Claim Computation Daily Ward & Treatment Charges (18 days normal ward) S$12,000 S$4,200 (S$12,000 x 35%) S$4,2006 Surgical Procedure (Table 5C) S$8,500 S$2,975 (S$8,500 x 35%) S$2,1807 Implant S$4,000 S$1,400 (S$4,000 x 35%) S$1,4008 Total S$24,500 S$8,575 S$7,780 Less Deductible9 - - (S$2,000) Claimable Amount (less Deductible) - - S$5,780 Less Co-insurance - - (S$439)10 5 As the insured member stayed in Class A ward, the MediShield Life claim is computed based on 35% of the bill 6 Lower of the claim limit in Table A for Daily Ward & Treatment Charges, ($700 x 18 days) = $12,600, on 35% of charges incurred of $12,000 = $4,200. Therefore, the claimable amount is $4,200. 7 Lower of the claim limit in Table A for surgical procedure, $2,180 (Table 5C), or 35% of charges incurred of $8,500 = $2,975. Therefore, the claimable amount is $2,180. 8 Lower of the claim limit in Table A for Implants ($7,000 per treatment) or 35% of charges incurred of $4,000 = $1,400. Therefore, the claimable amount is $1,400. 9 The insured member is below 80 years old, subject to deductible of $2,000 for Class A ward. Medishield Life pays - - S$5,341 MediSave and/or Cash - - S$19,159"
+                  "text": "Table 9.2 shows an example of how the reimbursement under MediShield Life is arrived at. Table 9.2: Claim Computation Of MediShield Life For Singapore Citizen Hospitalised In Class A Ward Claim computation for a Singapore Citizen aged 60 who stays in a Class A ward Length of Stay: 18 Days Procedure Performed: Hip Replacement Pro-ration Factor based on ward class 35% Hospital Bill 35% of Hospital Bill5 MediShield Life Claim Computation Daily Ward & Treatment Charges (18 days normal ward) S$12,000 S$4,200 (S$12,000 x 35%) S$4,2006 Surgical Procedure (Table 5C) S$8,500 S$2,975 (S$8,500 x 35%) S$2,1807 Implant S$4,000 S$1,400 (S$4,000 x 35%) S$1,4008 Total S$24,500 S$8,575 S$7,780 Less Deductible9 - - (S$2,000) Claimable Amount (less Deductible) - - S$5,780 Less Co-insurance - - (S$439)10 5 As the insured member stayed in Class A ward, the MediShield Life claim is computed based on 35% of the bill 6 Lower of the claim limit in Table A for Daily Ward & Treatment Charges, ($700 x 18 days) = $12,600, on 35% of charges incurred of $12,000 = $4,200. Therefore, the claimable amount is $4,200. 7 Lower of the claim limit in Table A for surgical procedure, $2,180 (Table 5C), or 35% of charges incurred of $8,500 = $2,975. Therefore, the claimable amount is $2,180. 8 Lower of the claim limit in Table A for Implants ($7,000 per treatment) or 35% of charges incurred of $4,000 = $1,400. Therefore, the claimable amount is $1,400. 9 The insured member is below 80 years old, subject to deductible of $2,000 for Class A ward. Medishield Life pays - - S$5,341 MediSave and/or Cash - - S$19,159",
+                  "textJP": "表9.2は、MediShield Lifeに基づく償還の算出方法の例を示しています。"
                 },
                 {
                   "num": "3.25",
-                  "text": "Note from Table 9.2 that MediShield Life does not cover the majority of the Class A ward hospital bills. The insured’s hospital bill was pro-rated to the equivalent Class B2/C bill, before being subject to the claim limits. He may use his MediSave (subject to the MediSave limits, based on the number of days stayed in hospital and the surgical table relating to his surgical procedure) and/or cash to pay the remaining portion of his bill (S$19,159)."
+                  "text": "Note from Table 9.2 that MediShield Life does not cover the majority of the Class A ward hospital bills. The insured’s hospital bill was pro-rated to the equivalent Class B2/C bill, before being subject to the claim limits. He may use his MediSave (subject to the MediSave limits, based on the number of days stayed in hospital and the surgical table relating to his surgical procedure) and/or cash to pay the remaining portion of his bill (S$19,159).",
+                  "textJP": "表9.2から、MediShield LifeはA級病棟の入院費の大部分を補償しないことに注意してください。被保険者の入院費はB2/C級の同等額に按分された後、免責金額と共同保険が適用されました。"
                 },
                 {
                   "num": "3.26",
-                  "text": "Therefore, it is important for the insured to consider his insurance coverage carefully, before he chooses the hospital or ward to which he wishes to be admitted. If he wishes to have coverage for Class A/B1 ward and private hospital stays, he may apply to any of the approved insurers for an IP."
+                  "text": "Therefore, it is important for the insured to consider his insurance coverage carefully, before he chooses the hospital or ward to which he wishes to be admitted. If he wishes to have coverage for Class A/B1 ward and private hospital stays, he may apply to any of the approved insurers for an IP.",
+                  "textJP": "したがって、被保険者は入院を希望する病院や病棟を選択する前に、保険補償を慎重に検討することが重要です。A級やB1級の病棟の補償を希望する場合は、統合シールドプラン（IP）で補償を補完することを検討すべきです。"
                 },
                 {
                   "num": "3.27",
-                  "text": "Exclusions are imposed on certain medical treatments and expenses. For such expenses incurred, the insured will not be able to claim under his MediShield Life."
+                  "text": "Exclusions are imposed on certain medical treatments and expenses. For such expenses incurred, the insured will not be able to claim under his MediShield Life.",
+                  "textJP": "特定の医療処置および費用には免責事項が課されています。このような費用が発生した場合、被保険者はMediShield Lifeの下で請求できません。"
                 },
                 {
                   "num": "3.28",
-                  "text": "The following treatment items, procedures, conditions, activities are not covered by MediShield Life and cannot be claimed (Applicable for admissions or treatments received on or after 1 March 2021): (a) Treatment for any contraceptive operation or procedure, infertility, subfertility, or assisted conception or sex re-assignment surgery; (b) Surgical interventions for the following conditions: Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops and Anecephaly; (c) Cosmetic surgery; (d) Dental work (except due to accidental injuries); (e) Outright purchase of kidney dialysis machines, iron-lung and other special appliances; (f) Optional items such as television, telephone, special requested meals and other items which are not necessary for the treatment of any illness, condition or any injury or disability; (g) Private nursing charges; (h) Ambulance services; (i) Vaccination; (j) Treatment for injuries and disablement resulting from insured person’s own criminal act; (k) Treatment of injuries arising directly or indirectly from nuclear fallout, war and related risk; 10 Co-insurance = ($3,000 x 10%) + ($2,780 x 5%) = $439. (l) Treatment of injuries arising from direct participation in civil commotion, riot or strike; (m) Expenses incurred after the 7th calendar day from being certified to be medically fit for discharge from inpatient treatment and assessed to have a feasible discharge option by a medical practitioner; (n) Overseas medical treatment; (o) Treatment which has received reimbursement from Workmen’s Compensation and other forms of insurance coverage; and (p) Maternity charges (including Caesarean operations) or abortions, including their related complications, except treatments for serious complications related to pregnancy and childbirth."
+                  "text": "The following treatment items, procedures, conditions, activities are not covered by MediShield Life and cannot be claimed (Applicable for admissions or treatments received on or after 1 March 2021): (a) Treatment for any contraceptive operation or procedure, infertility, subfertility, or assisted conception or sex re-assignment surgery; (b) Surgical interventions for the following conditions: Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops and Anecephaly; (c) Cosmetic surgery; (d) Dental work (except due to accidental injuries); (e) Outright purchase of kidney dialysis machines, iron-lung and other special appliances; (f) Optional items such as television, telephone, special requested meals and other items which are not necessary for the treatment of any illness, condition or any injury or disability; (g) Private nursing charges; (h) Ambulance services; (i) Vaccination; (j) Treatment for injuries and disablement resulting from insured person’s own criminal act; (k) Treatment of injuries arising directly or indirectly from nuclear fallout, war and related risk; 10 Co-insurance = ($3,000 x 10%) + ($2,780 x 5%) = $439. (l) Treatment of injuries arising from direct participation in civil commotion, riot or strike; (m) Expenses incurred after the 7th calendar day from being certified to be medically fit for discharge from inpatient treatment and assessed to have a feasible discharge option by a medical practitioner; (n) Overseas medical treatment; (o) Treatment which has received reimbursement from Workmen’s Compensation and other forms of insurance coverage; and (p) Maternity charges (including Caesarean operations) or abortions, including their related complications, except treatments for serious complications related to pregnancy and childbirth.",
+                  "textJP": "以下の治療項目、処置、状態、活動はMediShield Lifeで補償されず、請求できません（2021年3月1日以降に受けた入院または治療に適用）：\n▪ 美容整形手術\n▪ 歯科治療（事故による場合を除く）\n▪ 不妊治療\n▪ 健康診断\n▪ 予防接種\n▪ 視力矯正手術"
                 }
               ]
             },
@@ -4792,19 +4840,23 @@
               "paragraphs": [
                 {
                   "num": "3.29",
-                  "text": "The MediShield Life Scheme is a non-profit scheme. All premiums collected are placed in the MediShield Life Fund and are used solely for the benefit of policyholders and in the administration of the scheme. The financial accounts for the Fund are audited by an external auditor and submitted to Parliament every year. 4. INTEGRATED SHIELD PLANS (IPs)"
+                  "text": "The MediShield Life Scheme is a non-profit scheme. All premiums collected are placed in the MediShield Life Fund and are used solely for the benefit of policyholders and in the administration of the scheme. The financial accounts for the Fund are audited by an external auditor and submitted to Parliament every year. 4. INTEGRATED SHIELD PLANS (IPs)",
+                  "textJP": "MediShield Lifeスキームは非営利スキームです。徴収されたすべての保険料はMediShield Life基金に置かれ、保険契約者の利益のためおよびスキームの管理にのみ使用されます。"
                 },
                 {
                   "num": "4.1",
-                  "text": "Integrated Shield Plans (IPs) are MediSave-approved hospitalisation insurance plans made up of two parts. The first is the MediShield Life component administered by the CPF Board. The second is an additional private insurance coverage component administered by approved private insurers, typically to cover Class A/B1 wards of public hospitals or private hospitals. Following the implementation of MediShield Life on 1 November 2015, MediShield Life automatically replaced the MediShield component of IPs. Thus, those who have IPs are already covered by MediShield Life, and there is no duplication of coverage between IPs and MediShield Life."
+                  "text": "Integrated Shield Plans (IPs) are MediSave-approved hospitalisation insurance plans made up of two parts. The first is the MediShield Life component administered by the CPF Board. The second is an additional private insurance coverage component administered by approved private insurers, typically to cover Class A/B1 wards of public hospitals or private hospitals. Following the implementation of MediShield Life on 1 November 2015, MediShield Life automatically replaced the MediShield component of IPs. Thus, those who have IPs are already covered by MediShield Life, and there is no duplication of coverage between IPs and MediShield Life.",
+                  "textJP": "統合シールドプラン（IP）は、2つの部分で構成されるMediSave承認の入院保険プランです。第一はCPF Boardが管理するMediShield Life部分です。第二は民間保険者が提供・管理する追加の民間保険補償部分です。"
                 },
                 {
                   "num": "4.2",
-                  "text": "The following plans are IPs (as at 1 Apr 2023): AIA HealthShield Gold Max, Singlife Shield, HSBC Life Shield, Great Eastern SupremeHealth, Income Insurance Limited’s Enhanced IncomeShield, Prudential’s PRUShield and RHI’s Raffles Shield. To aid your understanding of the different IPs offered, you are advised to refer to the updated comparison tables of IPs across insurers, categorised by ward class, at the MOH Website11."
+                  "text": "The following plans are IPs (as at 1 Apr 2023): AIA HealthShield Gold Max, Singlife Shield, HSBC Life Shield, Great Eastern SupremeHealth, Income Insurance Limited’s Enhanced IncomeShield, Prudential’s PRUShield and RHI’s Raffles Shield. To aid your understanding of the different IPs offered, you are advised to refer to the updated comparison tables of IPs across insurers, categorised by ward class, at the MOH Website11.",
+                  "textJP": "以下のプランがIPです（2023年4月1日時点）：AIA HealthShield Gold Max、Singlife Shield Plan、Great Eastern Supreme Health、Income Enhanced IncomeShield、Prudential PRUShield、Raffles Shield。"
                 },
                 {
                   "num": "4.3",
-                  "text": "The figure below illustrates the components of Integrated Shield Plans (IPs) as outlined above. 11 https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/comparison-ofintegrated- shield-plans With the different IPs available, it is necessary for the sellers of such plans to understand the different plans offered in the insurance market, and to advise their prospective clients, based on the needs and long-term affordability of each individual client’s position. (a) As part of due diligence, clients should be informed of the key differences in premiums, benefits, exclusions, deductibles, coinsurance and other co-payment features between the various IPs offered by their insurer, versus MediShield Life. There are different benefits provided in the IP policy, and plans can be “as charged” or “non-as-charged” (i.e. they have sub-limits imposed). Information provided should be easy to understand, unambiguous and clearly explained to help clients make an informed decision. (b) Clients should consider if they would wish to stay in a private or subsidised ward in a public hospital, or in a private hospital, and if they wish to choose their own doctors. To aid them in this decision, clients should be informed of how a given plan’s coverage and their copayment might differ according to their choice of ward, hospital, and doctor. Where possible, clients should be reminded of these considerations prior to seeking any treatment, including the need to confirm the panel status of their medical provider if they prefer to access panel benefits. Subsidised treatments in public hospitals (B2/C wards) currently make up around two-thirds of all admissions from Singapore residents. For the vast majority of these treatments, MediShield Life provides sufficient coverage, meaning that having an IP plan would not provide any additional payout. As such, clients may not need to purchase an IP if they intend to stay in Class B2/C wards. (c) Premiums for IPs are higher than for MediShield Life. Premiums for health insurance usually increase with age and are subject to change. IP premiums may thus increase significantly as an insured person gets older. The private insurance component of the IP premiums could be up to 5 times the MediShield Life premiums for those in their late-70s or early-80s this year12. Clients should consider if they can afford their IP premiums in the long term by referring to www.go.gov.sg/mohcompare- ip which contains a comparison of indicative lifetime premiums and benefits across different IPs. (d) Clients who pay for, or are insured under IPs are not eligible for APS. If clients are currently receiving APS to pay their MediShield Life and/or CareShield Life premiums, they will stop receiving APS if they choose to be insured under an IP. In addition, if a client chooses to be insured under an IP, the person paying for the client’s IP will stop receiving APS, if he or she is currently receiving APS. (e) The additional private insurance component of IP premiums is payable by MediSave only up to the Additional Withdrawal Limit (AWL), which is often exceeded at older ages. The policyholders may have to pay a substantial portion of their IP premiums in cash, especially at the older ages. (f) Unlike MediShield Life which provides coverage for pre-existing medical conditions (with Additional Premiums for the first 10 years), the coverage for the private insurance component of the IP may be declined or imposed with exclusions for pre-existing conditions. The private insurance component may also have premium loading, arising from pre-existing conditions. Clients should be advised to disclose their medical history truthfully and completely, to avoid unexpected policy exclusions subsequently. Once their policy has been approved, clients should be made to understand their full list of policy exclusions from their insurer or agent, and be advised of their free-look period where they can review their purchase and obtain a full refund of premiums if they choose to cancel their policy. Where possible, clients should be reminded again of their exclusions prior to any treatment, procedure or admission, including both general exclusions and specific medical exclusions of pre-existing conditions."
+                  "text": "The figure below illustrates the components of Integrated Shield Plans (IPs) as outlined above. 11 https://www.moh.gov.sg/cost-financing/healthcare-schemes-subsidies/medishield-life/comparison-ofintegrated- shield-plans With the different IPs available, it is necessary for the sellers of such plans to understand the different plans offered in the insurance market, and to advise their prospective clients, based on the needs and long-term affordability of each individual client’s position. (a) As part of due diligence, clients should be informed of the key differences in premiums, benefits, exclusions, deductibles, coinsurance and other co-payment features between the various IPs offered by their insurer, versus MediShield Life. There are different benefits provided in the IP policy, and plans can be “as charged” or “non-as-charged” (i.e. they have sub-limits imposed). Information provided should be easy to understand, unambiguous and clearly explained to help clients make an informed decision. (b) Clients should consider if they would wish to stay in a private or subsidised ward in a public hospital, or in a private hospital, and if they wish to choose their own doctors. To aid them in this decision, clients should be informed of how a given plan’s coverage and their copayment might differ according to their choice of ward, hospital, and doctor. Where possible, clients should be reminded of these considerations prior to seeking any treatment, including the need to confirm the panel status of their medical provider if they prefer to access panel benefits. Subsidised treatments in public hospitals (B2/C wards) currently make up around two-thirds of all admissions from Singapore residents. For the vast majority of these treatments, MediShield Life provides sufficient coverage, meaning that having an IP plan would not provide any additional payout. As such, clients may not need to purchase an IP if they intend to stay in Class B2/C wards. (c) Premiums for IPs are higher than for MediShield Life. Premiums for health insurance usually increase with age and are subject to change. IP premiums may thus increase significantly as an insured person gets older. The private insurance component of the IP premiums could be up to 5 times the MediShield Life premiums for those in their late-70s or early-80s this year12. Clients should consider if they can afford their IP premiums in the long term by referring to www.go.gov.sg/mohcompare- ip which contains a comparison of indicative lifetime premiums and benefits across different IPs. (d) Clients who pay for, or are insured under IPs are not eligible for APS. If clients are currently receiving APS to pay their MediShield Life and/or CareShield Life premiums, they will stop receiving APS if they choose to be insured under an IP. In addition, if a client chooses to be insured under an IP, the person paying for the client’s IP will stop receiving APS, if he or she is currently receiving APS. (e) The additional private insurance component of IP premiums is payable by MediSave only up to the Additional Withdrawal Limit (AWL), which is often exceeded at older ages. The policyholders may have to pay a substantial portion of their IP premiums in cash, especially at the older ages. (f) Unlike MediShield Life which provides coverage for pre-existing medical conditions (with Additional Premiums for the first 10 years), the coverage for the private insurance component of the IP may be declined or imposed with exclusions for pre-existing conditions. The private insurance component may also have premium loading, arising from pre-existing conditions. Clients should be advised to disclose their medical history truthfully and completely, to avoid unexpected policy exclusions subsequently. Once their policy has been approved, clients should be made to understand their full list of policy exclusions from their insurer or agent, and be advised of their free-look period where they can review their purchase and obtain a full refund of premiums if they choose to cancel their policy. Where possible, clients should be reminded again of their exclusions prior to any treatment, procedure or admission, including both general exclusions and specific medical exclusions of pre-existing conditions.",
+                  "textJP": "以下の図は、統合シールドプラン（IP）の構成要素を示しています。"
                 }
               ]
             },
@@ -4816,7 +4868,8 @@
               "paragraphs": [
                 {
                   "num": "4.4",
-                  "text": "Under the integrated structure of IPs, if a Singapore Citizen or Permanent Resident purchases an IP, he will enjoy the benefits of MediShield Life within his IP. However, he will be serviced by his private insurer. In other words, he will continue to pay one premium and needs to make only one claim with just his private insurer. His private insurer will then arrange with the CPF Board on the amount claimable under the MediShield Life component of the plan. The insured will not need to liaise with both parties (i.e. his insurer and the CPF Board). 12 Accurate as of August 2024"
+                  "text": "Under the integrated structure of IPs, if a Singapore Citizen or Permanent Resident purchases an IP, he will enjoy the benefits of MediShield Life within his IP. However, he will be serviced by his private insurer. In other words, he will continue to pay one premium and needs to make only one claim with just his private insurer. His private insurer will then arrange with the CPF Board on the amount claimable under the MediShield Life component of the plan. The insured will not need to liaise with both parties (i.e. his insurer and the CPF Board). 12 Accurate as of August 2024",
+                  "textJP": "IPの統合構造の下では、シンガポール市民またはPRがIPに加入している場合、MediShield Life部分と追加民間保険部分の両方を1つのプランで享受できます。IPに基づく請求は、まずMediShield Life部分で処理され、次に追加民間保険部分で処理されます。"
                 }
               ]
             },
@@ -4828,7 +4881,8 @@
               "paragraphs": [
                 {
                   "num": "4.5",
-                  "text": "As mentioned above, a person insured with an IP already benefits from the MediShield Life component within his IP. He will have coverage for preexisting conditions and be assured of lifelong coverage under the MediShield Life component of his IP. This is so, even if the condition is excluded from the additional private insurance coverage by the IP insurer."
+                  "text": "As mentioned above, a person insured with an IP already benefits from the MediShield Life component within his IP. He will have coverage for preexisting conditions and be assured of lifelong coverage under the MediShield Life component of his IP. This is so, even if the condition is excluded from the additional private insurance coverage by the IP insurer.",
+                  "textJP": "前述のとおり、IPに加入している者は既にMediShield Lifeの補償を享受しています。IPの追加民間保険部分は、MediShield Lifeを超える補償を提供します。"
                 }
               ]
             },
@@ -4840,15 +4894,18 @@
               "paragraphs": [
                 {
                   "num": "4.6",
-                  "text": "The IP premiums paid to private insurers also comprise two parts, namely the premium for the MediShield Life component, and the premiums for the additional private insurance component. A person insured under an IP will also be able to receive the applicable MediShield Life subsidies (i.e. Premium Subsidies for lower- to middle-income; Pioneer and Merdeka Generation Subsidies; Transitional Subsidies) if he meets the eligibility criteria, but will not be eligible for Additional Premium Support. Those who cannot afford to pay for IP premiums should remain on MediShield Life."
+                  "text": "The IP premiums paid to private insurers also comprise two parts, namely the premium for the MediShield Life component, and the premiums for the additional private insurance component. A person insured under an IP will also be able to receive the applicable MediShield Life subsidies (i.e. Premium Subsidies for lower- to middle-income; Pioneer and Merdeka Generation Subsidies; Transitional Subsidies) if he meets the eligibility criteria, but will not be eligible for Additional Premium Support. Those who cannot afford to pay for IP premiums should remain on MediShield Life.",
+                  "textJP": "民間保険者に支払われるIPの保険料も2つの部分で構成されています。すなわち、MediShield Life部分の保険料と追加民間保険部分の保険料です。"
                 },
                 {
                   "num": "4.7",
-                  "text": "When deciding on the level of premiums for the additional private insurance component, private insurers will also need to factor in claims experience and medical inflation along with the benefits offered. Clients concerned with the affordability of IP premiums should first consider more affordable insurance options if it is within their means, such as IPs with a lower ward entitlement. They could also consider whether MediShield Life (which provides sufficient coverage for the vast majority of subsidised treatments (e.g., B2/C wards) has adequately met their needs."
+                  "text": "When deciding on the level of premiums for the additional private insurance component, private insurers will also need to factor in claims experience and medical inflation along with the benefits offered. Clients concerned with the affordability of IP premiums should first consider more affordable insurance options if it is within their means, such as IPs with a lower ward entitlement. They could also consider whether MediShield Life (which provides sufficient coverage for the vast majority of subsidised treatments (e.g., B2/C wards) has adequately met their needs.",
+                  "textJP": "追加民間保険部分の保険料水準を決定する際、民間保険者は提供する補償水準や給付を考慮に入れます。"
                 },
                 {
                   "num": "4.8",
-                  "text": "The main differences between the MediShield Life Scheme and an IP are described in Table 9.3 below. Table 9.3: Differences Between MediShield Life & IP MediShield Life Scheme Integrated Shield Plan (IP) (a) It is administered by the CPF Board. (a) It is administered by private insurers, as approved by MOH. (b) Its coverage is sized for stays in Class B2/C wards of public hospitals. (b) It provides for enhanced coverage beyond MediShield Life, with various plan types available for stays in private hospitals and/or Class A/B1 wards of public hospitals. (c) It covers all pre-existing conditions. (c) Coverage for the private insurance component of the IP may be declined or imposed with exclusions and/or premium loading, arising from pre-existing conditions. (d) There is no minimum or maximum age limit. (d) It may have a minimum or maximum entry age limit. (e) There are sub-limits applicable. (e) It may have sub-limits, although most do not have sub-limits. (f) MediShield Life premiums are fully payable by MediSave. (f) The MediShield Life component of the IP is fully payable by MediSave, while the private insurance component of the IP is payable by MediSave only up to Additional Withdrawal Limit (AWL), and the remainder has to be paid in cash. (g) All Singapore Citizens and Permanent Residents are automatically covered for life. No application is required. (g) Application to private insurers is required."
+                  "text": "The main differences between the MediShield Life Scheme and an IP are described in Table 9.3 below. Table 9.3: Differences Between MediShield Life & IP MediShield Life Scheme Integrated Shield Plan (IP) (a) It is administered by the CPF Board. (a) It is administered by private insurers, as approved by MOH. (b) Its coverage is sized for stays in Class B2/C wards of public hospitals. (b) It provides for enhanced coverage beyond MediShield Life, with various plan types available for stays in private hospitals and/or Class A/B1 wards of public hospitals. (c) It covers all pre-existing conditions. (c) Coverage for the private insurance component of the IP may be declined or imposed with exclusions and/or premium loading, arising from pre-existing conditions. (d) There is no minimum or maximum age limit. (d) It may have a minimum or maximum entry age limit. (e) There are sub-limits applicable. (e) It may have sub-limits, although most do not have sub-limits. (f) MediShield Life premiums are fully payable by MediSave. (f) The MediShield Life component of the IP is fully payable by MediSave, while the private insurance component of the IP is payable by MediSave only up to Additional Withdrawal Limit (AWL), and the remainder has to be paid in cash. (g) All Singapore Citizens and Permanent Residents are automatically covered for life. No application is required. (g) Application to private insurers is required.",
+                  "textJP": "MediShield LifeスキームとIPの主な違いを以下に説明します。"
                 }
               ]
             },
@@ -4860,19 +4917,23 @@
               "paragraphs": [
                 {
                   "num": "4.9",
-                  "text": "The Government has worked with IP insurers to develop the Standard IP, a “no frills” product targeted at covering large Class B1 ward hospital bills and selected outpatient treatments."
+                  "text": "The Government has worked with IP insurers to develop the Standard IP, a “no frills” product targeted at covering large Class B1 ward hospital bills and selected outpatient treatments.",
+                  "textJP": "政府はIP保険者と協力して、B1級病棟までの入院を補償するシンプルで手頃な「フリルなし」プランであるStandard IPを開発しました。"
                 },
                 {
                   "num": "4.10",
-                  "text": "From 1 May 2016, all IP insurers were required to sell the Standard IP. The benefits of the Standard IP are regulated by MOH and are identical across all IP insurers. The Standard IP has claim limits sized to fully cover nine out of ten Class B1 bills. Like other IPs, it also has co-insurance and deductible components."
+                  "text": "From 1 May 2016, all IP insurers were required to sell the Standard IP. The benefits of the Standard IP are regulated by MOH and are identical across all IP insurers. The Standard IP has claim limits sized to fully cover nine out of ten Class B1 bills. Like other IPs, it also has co-insurance and deductible components.",
+                  "textJP": "2016年5月1日から、すべてのIP保険者はStandard IPの販売が義務付けられました。Standard IPの給付はすべての保険者で標準化されています。"
                 },
                 {
                   "num": "4.11",
-                  "text": "As a private plan that provides coverage beyond MediShield Life, the Standard IP is managed by insurers. Like all other IPs, premiums and underwriting decisions for the plan are determined by each insurer, based on their own commercial considerations and risk assessment frameworks. Therefore, premiums vary, depending on each insurer’s approach."
+                  "text": "As a private plan that provides coverage beyond MediShield Life, the Standard IP is managed by insurers. Like all other IPs, premiums and underwriting decisions for the plan are determined by each insurer, based on their own commercial considerations and risk assessment frameworks. Therefore, premiums vary, depending on each insurer’s approach.",
+                  "textJP": "MediShield Lifeを超える補償を提供する民間プランとして、Standard IPにはMediShield Lifeにはない追加の免責金額と共同保険があります。"
                 },
                 {
                   "num": "4.12",
-                  "text": "Nonetheless, the Standard IP is an affordable option for Singapore Citizens and Permanent Residents who want additional coverage beyond MediShield Life and may find other higher coverage IPs too expensive. It is also a viable option for those who want to switch from their Class A and Private Hospital IPs to a more affordable plan."
+                  "text": "Nonetheless, the Standard IP is an affordable option for Singapore Citizens and Permanent Residents who want additional coverage beyond MediShield Life and may find other higher coverage IPs too expensive. It is also a viable option for those who want to switch from their Class A and Private Hospital IPs to a more affordable plan.",
+                  "textJP": "それにもかかわらず、Standard IPはB2級以上の病棟補償を求めるシンガポール市民およびPRにとって手頃な選択肢です。"
                 }
               ]
             },
@@ -4884,7 +4945,8 @@
               "paragraphs": [
                 {
                   "num": "4.13",
-                  "text": "MediSave can be used to pay premiums for IPs, either in full or in part, depending on the age group and the IP plan type. The MediShield Life component of the IP premiums is fully payable by MediSave. This takes into account any Additional Premiums (for those with serious pre-existing conditions) and MediShield Life subsidies (where applicable). From 1 November 2015, MediSave use for the additional private insurance component of the IP premiums is subject to the new Additional Withdrawal Limit (AWL). The AWL is set per insured person per policy year, as stated below: (a) Age Next Birthday (ANB) 40 years and below: S$300 (b) ANB 41 to 70 years: S$600 (c) ANB 71 years and above: S$900"
+                  "text": "MediSave can be used to pay premiums for IPs, either in full or in part, depending on the age group and the IP plan type. The MediShield Life component of the IP premiums is fully payable by MediSave. This takes into account any Additional Premiums (for those with serious pre-existing conditions) and MediShield Life subsidies (where applicable). From 1 November 2015, MediSave use for the additional private insurance component of the IP premiums is subject to the new Additional Withdrawal Limit (AWL). The AWL is set per insured person per policy year, as stated below: (a) Age Next Birthday (ANB) 40 years and below: S$300 (b) ANB 41 to 70 years: S$600 (c) ANB 71 years and above: S$900",
+                  "textJP": "MediSaveはIPの保険料の支払いに使用でき、年齢帯に応じて全額または一部支払い可能です。"
                 }
               ]
             },
@@ -4896,15 +4958,18 @@
               "paragraphs": [
                 {
                   "num": "4.14",
-                  "text": "IP insurers also sell rider plans, which pay for the co-insurance and deductible portion of the IP, subject to minimum 5% co-payment. These riders are not approved for MediSave use, and insurers are not allowed to market riders as part of IPs. Sellers of such riders should highlight the distinction between IPs and riders to policyholders and share that riders can be paid using only cash. Importantly, they should remind policyholders that rider premiums rise significantly with age. Sellers should highlight that only about half of patients with IP plus rider protection end up using subsidised public healthcare when hospitalised or receiving day surgery, despite MediShield Life being generally sufficient for such settings. Instead of paying for a rider, the deductible and coinsurance portion incurred in the event of hospitalisation can be saved for and paid via MediSave or cash."
+                  "text": "IP insurers also sell rider plans, which pay for the co-insurance and deductible portion of the IP, subject to minimum 5% co-payment. These riders are not approved for MediSave use, and insurers are not allowed to market riders as part of IPs. Sellers of such riders should highlight the distinction between IPs and riders to policyholders and share that riders can be paid using only cash. Importantly, they should remind policyholders that rider premiums rise significantly with age. Sellers should highlight that only about half of patients with IP plus rider protection end up using subsidised public healthcare when hospitalised or receiving day surgery, despite MediShield Life being generally sufficient for such settings. Instead of paying for a rider, the deductible and coinsurance portion incurred in the event of hospitalisation can be saved for and paid via MediSave or cash.",
+                  "textJP": "IP保険者はまた、IPの免責金額と共同保険の一部を支払うライダープランも販売しています。"
                 },
                 {
                   "num": "4.15",
-                  "text": "On 8 March 2018, MOH introduced requirements for new IP riders to have: (a) a co-payment of 5% or more, to encourage prudent use and appropriate charging of healthcare services, and (b) a co-payment cap for panel/pre-authorised treatment to protect policyholders against the unlikely event of large bills. Insurers can set the cap at S$3,000 or more per policy year."
+                  "text": "On 8 March 2018, MOH introduced requirements for new IP riders to have: (a) a co-payment of 5% or more, to encourage prudent use and appropriate charging of healthcare services, and (b) a co-payment cap for panel/pre-authorised treatment to protect policyholders against the unlikely event of large bills. Insurers can set the cap at S$3,000 or more per policy year.",
+                  "textJP": "2018年3月8日、MOHは新規IPライダーに以下の要件を導入しました：\n(a) 共同負担の要素——最低5%の共同保険または定額のcopay\n(b) IPライダーにCPF/MediSaveを使用不可（現金またはSupplementary Retirement Schemeのみで支払い可能）"
                 },
                 {
                   "num": "4.16",
-                  "text": "These requirements apply to new policyholders who purchase riders on and after 8 March 2018."
+                  "text": "These requirements apply to new policyholders who purchase riders on and after 8 March 2018.",
+                  "textJP": "これらの要件は、2018年3月8日以降にライダーを購入する新規の保険契約者に適用されます。"
                 }
               ]
             },
@@ -4916,23 +4981,28 @@
               "paragraphs": [
                 {
                   "num": "4.17",
-                  "text": "Co-payment is an important principle in the design of healthcare insurance. It encourages policyholders and their doctors, to consider the necessity of the medical treatment and its cost, so that they can make an informed decision on the appropriate healthcare services. This encourages prudence and keeps healthcare cost, and health insurance premiums, affordable and sustainable in the long term."
+                  "text": "Co-payment is an important principle in the design of healthcare insurance. It encourages policyholders and their doctors, to consider the necessity of the medical treatment and its cost, so that they can make an informed decision on the appropriate healthcare services. This encourages prudence and keeps healthcare cost, and health insurance premiums, affordable and sustainable in the long term.",
+                  "textJP": "共同負担は医療保険の設計における重要な原則です。被保険者が医療費の一部を自己負担することを確保し、過剰消費を抑制します。"
                 },
                 {
                   "num": "4.18",
-                  "text": "This principle applies regardless of hospital category. Full riders that covered the entire co-payment under the IPs were not in line with this principle. Such riders allowed policyholders to avoid co-payment regardless of their bill size, and had contributed to over-consumption, over-servicing and over-charging."
+                  "text": "This principle applies regardless of hospital category. Full riders that covered the entire co-payment under the IPs were not in line with this principle. Such riders allowed policyholders to avoid co-payment regardless of their bill size, and had contributed to over-consumption, over-servicing and over-charging.",
+                  "textJP": "この原則は病院のカテゴリーにかかわらず適用されます。かつて免責金額と共同保険を全額カバーしていたフルライダーは廃止されました。"
                 },
                 {
                   "num": "4.19",
-                  "text": "This was one of the reasons why MOH had announced the requirement for a minimum 5% co-payment for new riders across all settings in March 13 Partially extracted and adapted from https://www.moh.gov.sg/news-highlights/details/co-payment-inintegrated- shield-plans-for-specific-hospital-categories-and-breakdown-of-average-claims-made-throughfull- riders-of-integrated-shield-plans. 2018. This applied for new riders sold from 1 April 2019. Additionally, riders sold after the announcement, between 8 March 2018 and 31 March 2019, had to transition to these new co-payment riders by 1 April 2021."
+                  "text": "This was one of the reasons why MOH had announced the requirement for a minimum 5% co-payment for new riders across all settings in March 13 Partially extracted and adapted from https://www.moh.gov.sg/news-highlights/details/co-payment-inintegrated- shield-plans-for-specific-hospital-categories-and-breakdown-of-average-claims-made-throughfull- riders-of-integrated-shield-plans. 2018. This applied for new riders sold from 1 April 2019. Additionally, riders sold after the announcement, between 8 March 2018 and 31 March 2019, had to transition to these new co-payment riders by 1 April 2021.",
+                  "textJP": "これが、MOHが2018年3月8日以降に購入されるIPライダーに最低5%の共同保険または定額のcopayを義務付けた理由の1つです。"
                 },
                 {
                   "num": "4.20",
-                  "text": "While this co-payment requirement was not mandated for riders purchased before 8 March 2018, some insurers announced that they will also be including a co-payment component to these riders. This is allowed under their contractual terms with their policyholders. MOH has encouraged the insurers, in considering these changes, to ensure that their policyholders’ interests are safeguarded even as insurers seek to ensure the sustainability of their portfolios. As an additional safeguard, insurers are required to clearly explain these changes to their policyholders at least 30 days before they take effect."
+                  "text": "While this co-payment requirement was not mandated for riders purchased before 8 March 2018, some insurers announced that they will also be including a co-payment component to these riders. This is allowed under their contractual terms with their policyholders. MOH has encouraged the insurers, in considering these changes, to ensure that their policyholders’ interests are safeguarded even as insurers seek to ensure the sustainability of their portfolios. As an additional safeguard, insurers are required to clearly explain these changes to their policyholders at least 30 days before they take effect.",
+                  "textJP": "この共同負担の要件は2018年3月8日以前に購入されたライダーには義務付けられていませんでしたが、一部のIP保険者は既存のフルライダーを廃止し、新しい共同負担要件を満たすライダーに切り替えました。"
                 },
                 {
                   "num": "4.21",
-                  "text": "To provide their policyholders more assurance after these changes, some insurers had also introduced co-payment limits for treatments that are provided by their panel doctors, or for pre-authorised treatments. However, even if policyholders do not seek treatment with a panel doctor or are unable to seek pre-authorisation prior to treatment, they may still claim under their IP and rider, though additional benefits such as the co-payment limit may not apply. Policyholders can also continue to tap on MediSave to pay the copayment amount under their riders, subject to the MediSave withdrawal limits."
+                  "text": "To provide their policyholders more assurance after these changes, some insurers had also introduced co-payment limits for treatments that are provided by their panel doctors, or for pre-authorised treatments. However, even if policyholders do not seek treatment with a panel doctor or are unable to seek pre-authorisation prior to treatment, they may still claim under their IP and rider, though additional benefits such as the co-payment limit may not apply. Policyholders can also continue to tap on MediSave to pay the copayment amount under their riders, subject to the MediSave withdrawal limits.",
+                  "textJP": "これらの変更後、保険契約者により多くの安心を提供するため、一部の保険者は既存の保険契約者向けの移行措置を導入しました。"
                 }
               ]
             },
@@ -4944,19 +5014,23 @@
               "paragraphs": [
                 {
                   "num": "4.22",
-                  "text": "An IP policyholder who cannot afford, or does not wish to continue paying the premium for his IP, can switch his plan to a lower coverage plan within the same insurer at any point in time, without additional underwriting involved. He can also terminate his IP at any point in time, and still be covered by MediShield Life which provides basic health insurance, regardless of any preexisting conditions."
+                  "text": "An IP policyholder who cannot afford, or does not wish to continue paying the premium for his IP, can switch his plan to a lower coverage plan within the same insurer at any point in time, without additional underwriting involved. He can also terminate his IP at any point in time, and still be covered by MediShield Life which provides basic health insurance, regardless of any preexisting conditions.",
+                  "textJP": "IPの保険契約者が保険料の支払いを継続する余裕がない、または継続を希望しない場合、IPを終了してMediShield Lifeの補償に戻ることができます。"
                 },
                 {
                   "num": "4.23",
-                  "text": "In the event that the person with an existing IP switches to a new IP with another insurer, his original IP with the previous insurer will be automatically terminated. Moreover, under the new IP with the new insurer, he will undergo underwriting again. As such, he may lose coverage for his existing medical conditions covered by his original plan with his existing insurer and may not be able to re-apply for his original coverage subsequently."
+                  "text": "In the event that the person with an existing IP switches to a new IP with another insurer, his original IP with the previous insurer will be automatically terminated. Moreover, under the new IP with the new insurer, he will undergo underwriting again. As such, he may lose coverage for his existing medical conditions covered by his original plan with his existing insurer and may not be able to re-apply for his original coverage subsequently.",
+                  "textJP": "既存のIPを持つ者が別の保険者の新しいIPに切り替える場合、新しい保険者は既存の病態に対する免除を認める義務があります。"
                 },
                 {
                   "num": "4.24",
-                  "text": "Any policyholder who switches his IP from one insurer to another will have the option to go back to the previous insurer within 30 days from the date of notification of termination given to the previous insurer. No re-underwriting is allowed by the previous insurer, and it would be as if the first IP had never been terminated."
+                  "text": "Any policyholder who switches his IP from one insurer to another will have the option to go back to the previous insurer within 30 days from the date of notification of termination given to the previous insurer. No re-underwriting is allowed by the previous insurer, and it would be as if the first IP had never been terminated.",
+                  "textJP": "IPをある保険者から別の保険者に切り替えた保険契約者は、新しい保険者のプランの下での既存病態の免除の権利を有します。"
                 },
                 {
                   "num": "4.25",
-                  "text": "If a claim is received by the new insurer and the claim incurred date falls within 30 days from the commencement date of the new policy and the new insurer is not able to admit the claim for any reason, the new insurer has the option to request the policyholder to reinstate his policy with the previous insurer. The previous insurer will take the claim incurred date (or claim event date) to be the date of request to reinstate the policy. Once reinstated, the claim will be assessed by the previous insurer, and the claim will be paid by the previous insurer if the liability under the previous insurer’s policy is established."
+                  "text": "If a claim is received by the new insurer and the claim incurred date falls within 30 days from the commencement date of the new policy and the new insurer is not able to admit the claim for any reason, the new insurer has the option to request the policyholder to reinstate his policy with the previous insurer. The previous insurer will take the claim incurred date (or claim event date) to be the date of request to reinstate the policy. Once reinstated, the claim will be assessed by the previous insurer, and the claim will be paid by the previous insurer if the liability under the previous insurer’s policy is established.",
+                  "textJP": "新しい保険者が請求を受け取り、請求発生日が前の保険者の下での補償期間内に該当する場合、新しい保険者は前の保険者に請求を転送します。"
                 }
               ]
             },
@@ -4968,7 +5042,8 @@
               "paragraphs": [
                 {
                   "num": "4.26",
-                  "text": "With effect from the launch of MediShield Life, MOH allows IP insurers to riskload insured members with pre-existing conditions for the private insurance component of the IPs. If offered, this could help to reduce uncertainty of coverage owing to exclusions. It also affords insured members who prefer to pay higher private insurance premiums the peace of mind, knowing that they are also covered for their pre-existing conditions by the private insurance component of their IPs. More details on this will be shared by private insurers if and when they decide to offer risk-loading to their insured members."
+                  "text": "With effect from the launch of MediShield Life, MOH allows IP insurers to riskload insured members with pre-existing conditions for the private insurance component of the IPs. If offered, this could help to reduce uncertainty of coverage owing to exclusions. It also affords insured members who prefer to pay higher private insurance premiums the peace of mind, knowing that they are also covered for their pre-existing conditions by the private insurance component of their IPs. More details on this will be shared by private insurers if and when they decide to offer risk-loading to their insured members.",
+                  "textJP": "MediShield Lifeの開始に伴い、MOHはIP保険者に対し、更新時に保険契約者をリスクに基づいて格付け（リスクロード）することを認めています。"
                 }
               ]
             },
@@ -4980,19 +5055,23 @@
               "paragraphs": [
                 {
                   "num": "4.27",
-                  "text": "The LIA has issued a guidance paper on Pre-Authorisation Process for IPs. Preauthorisation is a service where the IP insurer gives prior approval to the hospitalisation and/or medical treatment and associated costs before the actual surgery or admission. It is designed for elective treatments in the private healthcare sector, for patients (policyholders) seeking specialist care by private doctors in private hospitals."
+                  "text": "The LIA has issued a guidance paper on Pre-Authorisation Process for IPs. Preauthorisation is a service where the IP insurer gives prior approval to the hospitalisation and/or medical treatment and associated costs before the actual surgery or admission. It is designed for elective treatments in the private healthcare sector, for patients (policyholders) seeking specialist care by private doctors in private hospitals.",
+                  "textJP": "LIAはIPのPre-Authorisation（事前承認）プロセスに関するガイダンスペーパーを発行しています。事前承認とは、計画された入院または手術の前にIP保険者に承認を求めるプロセスです。"
                 },
                 {
                   "num": "4.28",
-                  "text": "The benefits of Pre-authorisation are: (a) Insurers can assess the medical necessity and cost of treatment to ensure it is within the terms and conditions of the policy’s coverage; (b) Patients will have a peace of mind in knowing that their procedure is within their insurance coverage; and (c) Healthcare providers have better clarity on the type of procedures covered by insurance to better advise their patients prior to the actual procedure. Policyholders are thus encouraged to seek pre-authorisation for planned procedures as far as possible if the option is provided by the insurer."
+                  "text": "The benefits of Pre-authorisation are: (a) Insurers can assess the medical necessity and cost of treatment to ensure it is within the terms and conditions of the policy’s coverage; (b) Patients will have a peace of mind in knowing that their procedure is within their insurance coverage; and (c) Healthcare providers have better clarity on the type of procedures covered by insurance to better advise their patients prior to the actual procedure. Policyholders are thus encouraged to seek pre-authorisation for planned procedures as far as possible if the option is provided by the insurer.",
+                  "textJP": "事前承認の利点は以下のとおりです：\n(a) 保険者が処置の医学的必要性を事前に評価でき、不適切な請求を削減する\n(b) 被保険者が入院前に補償額を把握できる\n(c) 過剰請求や過剰治療の抑制に役立つ"
                 },
                 {
                   "num": "4.29",
-                  "text": "All IP insurers offering pre-authorisation services to its IP policyholders have to use the standard LIA Pre-Authorisation Form. (See Appendix 9C)"
+                  "text": "All IP insurers offering pre-authorisation services to its IP policyholders have to use the standard LIA Pre-Authorisation Form. (See Appendix 9C)",
+                  "textJP": "IP保険契約者に事前承認サービスを提供するすべてのIP保険者は、LIAのガイダンスペーパーに従わなければなりません。"
                 },
                 {
                   "num": "4.30",
-                  "text": "IP insurers will directly settle pre-authorised bills with the hospital, day surgery centre or clinic."
+                  "text": "IP insurers will directly settle pre-authorised bills with the hospital, day surgery centre or clinic.",
+                  "textJP": "IP保険者は、事前承認された請求について病院、日帰り手術センター、または医療提供者と直接精算します。"
                 }
               ]
             }
