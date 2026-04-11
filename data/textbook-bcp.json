@@ -2384,7 +2384,7 @@
       "id": "ch4",
       "number": 4,
       "title": "PRINCIPLES OF INSURANCE",
-      "titleJP": "",
+      "titleJP": "保険の原則",
       "outline": [
         "Introduction",
         "Insurable Interest",
@@ -2394,7 +2394,15 @@
         "Contribution",
         "Proximate Cause"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "被保険利益",
+        "最大善意の原則",
+        "損害てん補の原則",
+        "代位（求償権）",
+        "分担",
+        "近因"
+      ],
       "learningOutcomes": [
         "know the concept and essentials of insurable interest",
         "understand when insurable interest must exist and how it is being determined under the various classes of insurance",
@@ -2418,28 +2426,50 @@
         "define proximate cause and describe its application in insurance",
         "know how perils are classified in a policy"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "know the concept and essentials of insurable interest",
+        "understand when insurable interest must exist and how it is being determined under the various classes of insurance",
+        "understand the concept of utmost good faith and the meaning of material facts",
+        "be familiar with the duty of disclosure at each stage of the insurance contract, as well as the duty of disclosure by the insured and the insurer",
+        "know what misrepresentation is and understand the various types of misrepresentation",
+        "differentiate between non-disclosure and misrepresentation",
+        "be aware of the consequences of breach of utmost good faith by both the insurer and insured, and the remedies available to them",
+        "know the principle of indemnity",
+        "understand the various methods of providing an indemnity",
+        "know the classes of insurance for which the principle of indemnity can be applied",
+        "determine the indemnity for each of the main classes of insurance",
+        "understand how indemnity may be modified, i.e. factors that limit or increase the amount of indemnity",
+        "know what under-insurance is and how an average clause works",
+        "know the concepts of: - excess or deductible - franchise",
+        "explain subrogation, as well as its application and operation",
+        "know the sources of subrogation rights",
+        "understand how subrogation rights may be modified",
+        "understand the concept of contribution and determine when contribution arises",
+        "know how contribution may be modified",
+        "define proximate cause and describe its application in insurance",
+        "know how perils are classified in a policy"
+      ],
       "sections": [
         {
           "id": "ch4-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In the previous chapter, we have introduced you to the concept of risks and insurance, as well as the benefits of insurance. In this chapter, we will explain a number of legal principles of insurance and concepts that are applicable to all general insurance contracts.",
-              "textJP": ""
+              "textJP": "前章では、リスクと保険の概念、および保険の便益についてご紹介しました。本章では、すべての損害保険契約に適用される保険の法的原則と概念について説明します。"
             },
             {
               "num": "1.2",
               "text": "A number of legal principles apply to insurance contracts. These legal principles basically arise in Common Law1, but at times are confirmed or even modified by statute or policy conditions.",
-              "textJP": ""
+              "textJP": "保険契約には多くの法的原則が適用されます。これらの法的原則は基本的にコモンローに由来しますが、制定法や保険約款の条件によって確認または修正されることもあります。"
             },
             {
               "num": "1.3",
               "text": "The six essential principles that you need to know are described below: Insurable Interest − concerning the right to insure Utmost Good Faith − concerning the duty to disclose material information Indemnity − concerning the exact amount of compensation Subrogation − concerning rights of recovery Contribution − concerning double (or dual) insurance Proximate Cause − concerning the dominant cause of the loss",
-              "textJP": ""
+              "textJP": "知っておくべき6つの基本原則を以下に説明します。\n被保険利益 — 保険に付す権利に関するもの\n最大善意の原則 — 重要事実を告知する義務に関するもの\n損害てん補 — 正確な補償額に関するもの\n代位（求償権）— 求償権に関するもの\n分担 — 重複（二重）保険に関するもの\n近因 — 損失の支配的原因に関するもの"
             }
           ],
           "subsections": []
@@ -2448,44 +2478,44 @@
           "id": "ch4-s2",
           "number": "2",
           "title": "Insurable Interest",
-          "titleJP": "",
+          "titleJP": "被保険利益",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s2-A",
               "label": "A",
               "title": "Concept",
-              "titleJP": "",
+              "titleJP": "概念",
               "paragraphs": [
                 {
                   "num": "2.1",
                   "text": "Insurable interest is the legal right to insure. It means that the person effecting the insurance has some legally recognised relationship to the subject matter of insurance. The first of such a relationship recognised at law is that of the owner. If you own a house or car, you will have an insurable interest in it because, if it is damaged or lost in any way, you will suffer to the extent of that damage or loss. Similarly, you have an insurable interest in an article which you have borrowed, because you may be liable to replace it if it is stolen or destroyed, e.g. a bicycle, digital camera, mobile phone or notebook. If you lend any of them to someone else, it will still be yours to insure, so that both parties will have an insurable interest in it. 1 Common Law is sometimes called “unwritten law” as opposed to Statute Law, which is contained in specific legislation or Acts of Parliament. Common Law has developed over many centuries and consists of the generally accepted rules and requirements that a civilised society will consider as automatic. It is given substance in countless decisions made in trial cases by judges over many years, forming a series of precedents, which are sometimes termed “Case Law”. Common Law may be modified or even abolished in certain areas by statute, and may also be modified by the mutual agreement of the parties to a contract. Insurable Interest: Legal right to insure",
-                  "textJP": ""
+                  "textJP": "被保険利益とは、保険に付す法的権利です。これは、保険を締結する者が保険の対象物に対して何らかの法的に認められた関係を有することを意味します。法律上最初に認められるそのような関係は、所有者の関係です。住宅や自動車を所有している場合、それが何らかの方法で損傷または滅失すれば、その損害または損失の範囲で損失を被ることになるため、被保険利益を有します。同様に、借りた物品に対しても被保険利益を有します。それが盗まれたり破壊されたりした場合に交換する責任を負う可能性があるためです（例：自転車、デジタルカメラ、携帯電話、ノートPC）。それらを他人に貸した場合でも、あなたのものとして付保することができ、両当事者がそれに対して被保険利益を有します。"
                 },
                 {
                   "num": "2.2",
                   "text": "Examples of people who have an insurable interest in articles in their possession of which they are not the owners include:\n▪ Warehouseman ▪ Shoe Repairers\n▪ Laundry Owners ▪ Pawn Brokers\n▪ Watch Repairers ▪ Audio-Visual Device Repairers\n▪ Hotel Proprietors or Innkeepers ▪ Bicycle Repairers",
-                  "textJP": ""
+                  "textJP": "所有者ではないが占有している物品に被保険利益を有する者の例は以下のとおりです。\n▪ 倉庫業者 ▪ 靴修理業者\n▪ クリーニング業者 ▪ 質屋\n▪ 時計修理業者 ▪ 映像・音響機器修理業者\n▪ ホテル経営者または旅館業者 ▪ 自転車修理業者"
                 },
                 {
                   "num": "2.3",
                   "text": "According to Section 146(1)(b) of the Insurance Act 1966, you have an insurable interest in your own life and in the life of your spouse, and vice versa. You also have an insurable interest in the lives of your children who are still minors (under the age of 18 years) and of anyone on whom you are wholly or partly dependent. Insurable interest for life insurance must be present at the time the insurance is effected. However, you DO NOT have any insurable interest in the lives of any others such as:\n▪ relatives;\n▪ friends; and\n▪ fiancée.",
-                  "textJP": ""
+                  "textJP": "Insurance Act 1966第146条(1)(b)に基づき、自己の生命および配偶者の生命に対して被保険利益を有し、その逆も同様です。また、まだ未成年（18歳未満）の子供の生命、および自己が全部または一部経済的に依存している者の生命に対しても被保険利益を有します。生命保険の被保険利益は、保険締結時に存在しなければなりません。ただし、以下の者の生命に対しては被保険利益を有しません。\n▪ 親族\n▪ 友人\n▪ 婚約者"
                 },
                 {
                   "num": "2.4",
                   "text": "However, it is possible for you to insure the life of someone who owes you money, a business partner or a key employee.",
-                  "textJP": ""
+                  "textJP": "ただし、自分にお金を借りている者、事業パートナー、またはキーパーソン（主要従業員）の生命を付保することは可能です。"
                 },
                 {
                   "num": "2.5",
                   "text": "Insurable interest is a basic requirement of any contract of insurance. Without insurable interest, there will be no valid contract of insurance, since the policyholder will not be actually at risk with the insured event or peril. In other words, the insurance contract will be void if there is no insurable interest. Insurance without insurable interest will be a mere wager and, as such, unenforceable in the eyes of the law.",
-                  "textJP": ""
+                  "textJP": "被保険利益は、あらゆる保険契約の基本的要件です。被保険利益がなければ、保険契約者が被保険事由または危険事故に対して実際にリスクにさらされていないため、有効な保険契約は存在しません。言い換えれば、被保険利益がなければ保険契約は無効となります。被保険利益のない保険は単なる賭けであり、法の目には執行不能となります。"
                 },
                 {
                   "num": "2.6",
                   "text": "This is best expressed by Lord Justice Brett in Castellain v. Preston (1883) as follows: “What is it that is insured in a fire policy? Not the bricks and materials used in the building the house, but the interest of the insured in the subject matter of insurance.” Own Life Spouse’s Life Relatives, Friends & Fiancées Insurable Interest  ",
-                  "textJP": ""
+                  "textJP": "これは、Castellain v. Preston（1883年）事件におけるBrett裁判官の判示に最もよく表現されています。「火災保険で付保されているものは何か。家を建てるのに使用されたレンガや資材ではなく、保険の対象物に対する被保険者の利益である。」"
                 }
               ]
             },
@@ -2493,12 +2523,12 @@
               "id": "ch4-s2-B",
               "label": "B",
               "title": "Essentials Of Insurable Interest",
-              "titleJP": "",
+              "titleJP": "被保険利益の要件",
               "paragraphs": [
                 {
                   "num": "2.7",
                   "text": "There are four essentials of insurable interest as described below:\n▪ There must be some property rights, ownership, interest or potential liability capable of being insured.\n▪ That property must be the subject matter of the insurance.\n▪ The insured must stand in a relationship, recognised by law, with the subject matter of the insurance.\n▪ The proposer must benefit from the continued existence of the subject matter of the insurance contract or be prejudiced by its loss.",
-                  "textJP": ""
+                  "textJP": "被保険利益には以下の4つの要件があります。\n▪ 付保可能な何らかの財産権、所有権、利益、または潜在的賠償責任が存在しなければなりません。\n▪ その財産が保険の対象物でなければなりません。\n▪ 被保険者は、保険の対象物に対して法的に認められた関係に立たなければなりません。\n▪ 申込者は、保険契約の対象物の継続的存在から利益を得るか、またはその滅失によって損害を被るものでなければなりません。"
                 }
               ]
             },
@@ -2506,12 +2536,12 @@
               "id": "ch4-s2-C",
               "label": "C",
               "title": "Existence Of Insurable Interest",
-              "titleJP": "",
+              "titleJP": "被保険利益の存在時期",
               "paragraphs": [
                 {
                   "num": "2.8",
                   "text": "Different classes of insurance contracts require insurable interest to exist at different times for the contracts to be valid.",
-                  "textJP": ""
+                  "textJP": "異なる種類の保険契約は、契約が有効であるために、被保険利益が異なる時点で存在することを要求します。"
                 }
               ]
             },
@@ -2519,12 +2549,12 @@
               "id": "ch4-s2-C1",
               "label": "C1",
               "title": "Life Insurance Contracts",
-              "titleJP": "",
+              "titleJP": "生命保険契約",
               "paragraphs": [
                 {
                   "num": "2.9",
                   "text": "Section 146 of the Insurance Act 1966 requires all Life Insurance policies to have insurable interest at the time that the policies are effected. This is to ensure that the policies are not purchased to gamble on the lives of particular individuals and other events. There is no need for the insurable interest to exist throughout the term of the Life Insurance policy or in the event of a claim. A Life Insurance policy can be assigned to a third party who then becomes entitled to the proceeds of a claim, even though he has no insurable interest in the life insured. Also, in accordance with Section 132 and 133 of the Insurance Act 1966, a Life Insurance policy owner can make nomination of appropriate beneficiaries to receive the death proceeds from the policy.",
-                  "textJP": ""
+                  "textJP": "Insurance Act 1966第146条は、すべての生命保険契約が保険締結時に被保険利益を有することを要求しています。これは、特定の個人の生命やその他の事象に対する賭けとして保険契約が購入されることがないようにするためです。生命保険契約の期間中または保険金請求時に被保険利益が存在する必要はありません。生命保険契約は第三者に譲渡することができ、その第三者は被保険者の生命に対する被保険利益を有していなくても、保険金請求の受取権を得ます。また、Insurance Act 1966第132条および第133条に基づき、生命保険契約の保険契約者は、保険金の死亡時給付を受け取る適切な受取人を指定することができます。"
                 }
               ]
             },
@@ -2532,12 +2562,12 @@
               "id": "ch4-s2-C2",
               "label": "C2",
               "title": "Marine Insurance Contracts",
-              "titleJP": "",
+              "titleJP": "海上保険契約",
               "paragraphs": [
                 {
                   "num": "2.10",
                   "text": "For Marine Insurance policies, the proof of existence of insurable interest is not necessary at the time when the insurance is effected. However, insurable interest is required at the time of the loss as specified in Section 6 of the Marine Insurance Act 1906. Any Marine Insurance policy without insurable interest existing at the time of the loss is deemed to be void. This is particularly important in Marine Cargo Insurance, where the person holding the policy at the time the cargo is lost needs to show his interest only at that time, not when the voyage commences. This follows from the customs of maritime trading that the cargo may change ownership during transit.",
-                  "textJP": ""
+                  "textJP": "海上保険契約については、保険締結時に被保険利益の存在の証明は必要ありません。ただし、Marine Insurance Act 1906第6条に規定されているとおり、損失発生時に被保険利益が必要です。損失発生時に被保険利益が存在しない海上保険契約は無効とみなされます。これは海上貨物保険において特に重要であり、貨物が損失した時点で保険証券を保有する者は、航海開始時ではなく、その時点でのみ自己の利益を示す必要があります。これは、輸送中に貨物の所有権が変更される可能性があるという海事取引の慣行に基づいています。"
                 }
               ]
             },
@@ -2545,12 +2575,12 @@
               "id": "ch4-s2-C3",
               "label": "C3",
               "title": "Non-Life & Non-Marine Contracts",
-              "titleJP": "",
+              "titleJP": "非生命・非海上保険契約",
               "paragraphs": [
                 {
                   "num": "2.11",
                   "text": "Property and Liability Insurance contracts fall under this category. For this group of insurance contracts, insurable interest must exist at the time that the policy is issued and at the time of the loss.",
-                  "textJP": ""
+                  "textJP": "財物保険および賠償責任保険がこのカテゴリーに該当します。このグループの保険契約については、被保険利益は保険証券の発行時および損失発生時の両方において存在しなければなりません。"
                 }
               ]
             },
@@ -2558,12 +2588,12 @@
               "id": "ch4-s2-D",
               "label": "D",
               "title": "How Insurable Interest Is Determined",
-              "titleJP": "",
+              "titleJP": "被保険利益の決定方法",
               "paragraphs": [
                 {
                   "num": "2.12",
                   "text": "Let us look at how insurable interest is determined under the various classes of insurance.",
-                  "textJP": ""
+                  "textJP": "各保険種類の下で被保険利益がどのように決定されるかを見てみましょう。"
                 }
               ]
             },
@@ -2571,17 +2601,17 @@
               "id": "ch4-s2-D1",
               "label": "D1",
               "title": "Life Insurance",
-              "titleJP": "",
+              "titleJP": "生命保険",
               "paragraphs": [
                 {
                   "num": "2.13",
                   "text": "A person has an insurable interest in his own life. Hence, as long as a policy is taken on the person’s own life, insurable interest is said to exist. For third-party policies, there is a need to ensure that the relationship between the policy owner (policyholder) and the life insured (insured person) falls under one of the following categories:\n▪ husband and wife, and vice versa;\n▪ parent and minor child;\n▪ guardian and ward;\n▪ partner and partner in a business partnership;\n▪ employer and employee (including keyman or keyperson);\n▪ creditor and debtor, such as mortgagee (lender) and mortgagor (borrower).",
-                  "textJP": ""
+                  "textJP": "人は自分自身の生命に対して被保険利益を有します。したがって、自分自身の生命に対する保険契約である限り、被保険利益は存在するとされます。第三者保険契約については、保険契約者と被保険者（被保険生命）との関係が以下のカテゴリーのいずれかに該当することを確認する必要があります。\n▪ 夫と妻、およびその逆\n▪ 親と未成年の子\n▪ 後見人と被後見人\n▪ 事業パートナー同士\n▪ 雇用主と従業員（キーパーソンを含む）\n▪ 債権者と債務者（抵当権者（貸主）と抵当権設定者（借主）など）"
                 },
                 {
                   "num": "2.14",
                   "text": "Note that evidence of insurability is required in the latter two types of relationships.",
-                  "textJP": ""
+                  "textJP": "後者の2つの関係については、付保適格性の証拠が必要であることに留意してください。"
                 }
               ]
             },
@@ -2589,22 +2619,22 @@
               "id": "ch4-s2-D2",
               "label": "D2",
               "title": "Property Insurance",
-              "titleJP": "",
+              "titleJP": "財物保険",
               "paragraphs": [
                 {
                   "num": "2.15",
                   "text": "Insurable interest for this class of insurance normally arises out of ownership, where the insured is the owner of the subject matter of insurance. This means to say that, as long as an insured is the owner of the subject matter, insurable interest is said to exist.",
-                  "textJP": ""
+                  "textJP": "この種類の保険の被保険利益は、通常、所有権から生じます。すなわち、被保険者が保険の対象物の所有者である場合です。これは、被保険者が対象物の所有者である限り、被保険利益は存在するとされることを意味します。"
                 },
                 {
                   "num": "2.16",
                   "text": "In the event that the insured is not the full owner, then there is a need to ensure that the insured falls under one of the following categories:\n▪ Part or Joint Owners;\n▪ Agents;\n▪ Bailees; or\n▪ Tenants. (a) Part Or Joint Owners - A person who is a part or joint owner in property has an insurable interest up to the limit of his financial interest. However, a part or joint owner can insure the property or its full value, as he is considered a trustee for any money that may be paid in the event of a claim and which may exceed his actual interest. (b) Agents - Where a principal has an insurable interest, his agent can insure on his behalf. (c) Bailees - Where someone holds property on a temporary basis on behalf of the legal owner, he is a bailee. He has an insurable interest in the property, since he may be liable to replace it if it is damaged or stolen. Examples of bailees include hoteliers, innkeepers, laundry owners, shoe repairers, and motor workshop owners. (d) Tenants - When someone is a tenant of a property, he is not the owner of it, but has an insurable interest in it. This is because the tenant may be liable for the cost of repairs in the event of damage to the property.",
-                  "textJP": ""
+                  "textJP": "被保険者が完全な所有者でない場合は、被保険者が以下のカテゴリーのいずれかに該当することを確認する必要があります。\n▪ 一部所有者または共同所有者\n▪ 代理人\n▪ 受寄者（ベイリー）\n▪ 賃借人\n(a) 一部所有者または共同所有者 — 財物の一部または共同所有者は、自己の経済的利益の限度まで被保険利益を有します。ただし、一部または共同所有者は財物をその全額で付保することができます。保険金請求が発生した場合に支払われる金銭のうち、自己の実際の利益を超える部分の受託者とみなされるためです。\n(b) 代理人 — 本人が被保険利益を有する場合、その代理人は本人に代わって付保することができます。\n(c) 受寄者（ベイリー）— 法的所有者に代わって財物を一時的に保管している者は受寄者です。受寄者は、損傷または盗難の場合にその交換責任を負う可能性があるため、その財物に対する被保険利益を有します。受寄者の例には、ホテル経営者、旅館業者、クリーニング業者、靴修理業者、自動車修理工場の経営者が含まれます。\n(d) 賃借人 — 財物の賃借人は、その所有者ではありませんが、被保険利益を有します。これは、賃借人が財物の損傷の場合に修理費用の負担義務を負う可能性があるためです。"
                 },
                 {
                   "num": "2.17",
                   "text": "Do take note that bailees’ and tenants’ interests are in respect of possible liabilities only. Do also note that while shareholders own a limited liability company, they do not have insurable interest in the company’s property as it is the company that owns such assets.",
-                  "textJP": ""
+                  "textJP": "受寄者および賃借人の利益は、潜在的賠償責任に関するものであることに留意してください。また、株主は有限責任会社を所有していますが、会社の財産に対する被保険利益は有しません。そのような資産を所有するのは会社だからです。"
                 }
               ]
             },
@@ -2612,27 +2642,27 @@
               "id": "ch4-s2-D3",
               "label": "D3",
               "title": "Liability Insurance",
-              "titleJP": "",
+              "titleJP": "賠償責任保険",
               "paragraphs": [
                 {
                   "num": "2.18",
                   "text": "A person has insurable interest to the extent of any potential legal liability from negligence, which may be incurred to pay damages to another (e.g. for damage to third party property, injuries to third parties, defamation, etc.) awarded by a court of law and other costs. Legal liability can arise under contract, statute, or at Common Law.",
-                  "textJP": ""
+                  "textJP": "人は、過失から生じる可能性のある法的賠償責任（例：第三者の財物の損害、第三者の傷害、名誉毀損など）の範囲で被保険利益を有します。これは裁判所が裁定する損害賠償金およびその他の費用です。法的賠償責任は、契約、制定法、またはコモンローの下で生じることがあります。"
                 },
                 {
                   "num": "2.19",
                   "text": "A statute is a specific law passed by parliament and is mandatory to all, e.g. an employer under the Work Injury Compensation Act 2019 is liable to pay compensation for any personal injury by accident or certain occupational disease suffered by an employee, while arising out of and in the course of his employment with the employer.",
-                  "textJP": ""
+                  "textJP": "制定法とは議会が可決した特定の法律であり、すべての者に義務的です。例えば、Work Injury Compensation Act 2019（労災補償法2019年）の下での雇用主は、雇用の過程で生じた事故による傷害または一定の職業病について従業員に補償金を支払う義務を負います。"
                 },
                 {
                   "num": "2.20",
                   "text": "Liability at Common Law usually involves some element of fault, perhaps the most obvious example being the “tort” of negligence. Liability under contract refers to what is known as “liability assumed under contract”, whereby one party agrees to assume another’s liability for negligence, and to hold such other person harmless for liability to third parties.",
-                  "textJP": ""
+                  "textJP": "コモンローにおける賠償責任は通常、何らかの過失の要素を含み、最も明白な例は過失の「不法行為（トート）」です。契約に基づく賠償責任は、「契約に基づき引き受けた賠償責任」として知られるものを指し、一方の当事者が他方の過失に対する賠償責任を引き受け、第三者に対する賠償責任について当該他方を免責することに合意するものです。"
                 },
                 {
                   "num": "2.21",
                   "text": "Thus, the key to determining whether insurable interest exists is to determine whether there is a chance of the insured event happening to the insured, e.g. a Professional Indemnity Insurance application from an investment consultant for cover against giving incorrect advice to the client resulting in a financial loss to the client can be accepted, as there is a chance of such an event occurring, resulting in him being sued by the client.",
-                  "textJP": ""
+                  "textJP": "したがって、被保険利益が存在するかどうかを判断する鍵は、被保険事由が被保険者に発生する可能性があるかどうかを判断することです。例えば、投資コンサルタントからの専門職業賠償責任保険の申込で、顧客への不正確な助言により顧客に経済的損失をもたらすカバーを求めるものは、そのような事象が発生して顧客に訴えられる可能性があるため、受け入れることができます。"
                 }
               ]
             },
@@ -2640,12 +2670,12 @@
               "id": "ch4-s2-D4",
               "label": "D4",
               "title": "Pecuniary Insurance",
-              "titleJP": "",
+              "titleJP": "金銭損害保険",
               "paragraphs": [
                 {
                   "num": "2.22",
                   "text": "Pecuniary Insurance policies are financial involvements not within the categories as described above. “Pecuniary” means relating to money, and Pecuniary Insurance covers businesses against purely financial losses (e.g. from fraud, legal expenses or business interruption) rather than physical damage to property. They include the loss of profits following a fire (Consequential Loss Insurance or Business Interruption Insurance) and financial loss resulting from the acts of dishonest staff members (Fidelity Guarantee Insurance or Crime Insurance). For Pecuniary Insurance, it is quite easy to determine whether the insured event applied for is insurable. For example, the outbreak of a fire in a factory can cause much damage to the factory, while it is not usable. Hence, an application for a Consequential Loss Insurance policy against loss of profits from fire is an insurable risk, as the factory owner or operator will be clearly prejudiced by the loss of profits.",
-                  "textJP": ""
+                  "textJP": "金銭損害保険は、上述のカテゴリーに含まれない経済的関与です。「Pecuniary」とは金銭に関連することを意味し、金銭損害保険は、財物の物理的損害ではなく、純粋に経済的損失（例：詐欺、法的費用、事業中断による損失）から企業を保護します。これには、火災後の利益の損失（間接損害保険または事業中断保険）および不正な従業員の行為から生じる経済的損失（身元信用保険または犯罪保険）が含まれます。金銭損害保険については、申し込まれた被保険事由が付保可能かどうかを判断することは比較的容易です。例えば、工場での火災の発生は、工場が使用できない間に大きな損害をもたらす可能性があります。したがって、火災による利益の損失に対する間接損害保険の申込は、工場の所有者または運営者が利益の損失により明らかに損害を被るため、付保適格リスクです。"
                 }
               ]
             }
@@ -2655,54 +2685,54 @@
           "id": "ch4-s3",
           "number": "3",
           "title": "Utmost Good Faith",
-          "titleJP": "",
+          "titleJP": "最大善意の原則",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s3-A",
               "label": "A",
               "title": "Concept",
-              "titleJP": "",
+              "titleJP": "概念",
               "paragraphs": [
                 {
                   "num": "3.1",
                   "text": "The duty of utmost good faith (uberrima fides) is central to the buying and selling of insurance. Insurance contracts are thus described as contracts uberrimae fidei (of the utmost good faith). This means, in simple terms, that the insurer undertaking the risk and the person applying for insurance both have a duty to deal honestly and openly with each other in the negotiations which lead up to the formation of the insurance contract. This duty may also continue while the contract is in force. If one party is in breach of this duty, the other party usually has the right to avoid the insurance contract entirely. In other words, a breach of utmost good faith renders the insurance contract voidable.",
-                  "textJP": ""
+                  "textJP": "最大善意の義務（uberrima fides）は、保険の売買の中心にあります。保険契約は、したがって最大善意の契約（uberrimae fidei）と表現されます。これは簡単に言えば、リスクを引き受ける保険者と保険を申し込む者の両方が、保険契約の成立に至る交渉において、正直かつ率直に取引する義務を有することを意味します。この義務は契約が有効な間も継続する場合があります。一方の当事者がこの義務に違反した場合、他方の当事者は通常、保険契約全体を取り消す権利を有します。言い換えれば、最大善意の義務違反は保険契約を取消可能にします。"
                 },
                 {
                   "num": "3.2",
                   "text": "The doctrine of utmost good faith imposes two duties on the parties to the insurance contract, namely:\n▪ a duty not to misrepresent any matter relating to the insurance, i.e. a duty to tell the truth; and\n▪ a duty to disclose all material facts relating to the contract, i.e. a duty not to conceal anything which is relevant. POLICY",
-                  "textJP": ""
+                  "textJP": "最大善意の原則は、保険契約の当事者に2つの義務を課します。\n▪ 保険に関連するいかなる事項も不実表示しない義務、すなわち真実を告げる義務\n▪ 契約に関連するすべての重要事実を告知する義務、すなわち関連するものを隠さない義務"
                 },
                 {
                   "num": "3.3",
                   "text": "This means to say that the parties to a contract must volunteer to disclose accurately, truly, and fully all facts material to the risk being proposed, whether requested or not.",
-                  "textJP": ""
+                  "textJP": "これは、契約の当事者が、求められたかどうかにかかわらず、提案されるリスクに関連するすべての重要事実を正確に、真実に、完全に自発的に告知しなければならないことを意味します。"
                 },
                 {
                   "num": "3.4",
                   "text": "In addition to one party not misleading the other party, and answering questions truthfully, he must not conceal anything which is relevant. As a general rule, if there is any doubt as to whether or not a situation constitutes a material fact, it should be declared to the insurer.",
-                  "textJP": ""
+                  "textJP": "一方の当事者が他方の当事者を誤解させないこと、質問に真実に回答することに加えて、関連するものを隠してはなりません。一般的な規則として、ある状況が重要事実に該当するかどうかに疑問がある場合は、保険者に申告すべきです。"
                 },
                 {
                   "num": "3.5",
                   "text": "This is different from the doctrine of caveat emptor (let the buyer beware) that applies to other types of contracts, such as sales of goods. For many contracts for the purchase of a product, each party can examine the item which is the subject matter. For example, in the case of buying an electronic sound system, it can be examined and switched on to check that it works properly. However, this is not so easy with an insurance contract which is only “tested” at the time of a loss.",
-                  "textJP": ""
+                  "textJP": "これは、物品の売買などの他の種類の契約に適用される「買主注意の原則」（caveat emptor）の法理とは異なります。多くの製品購入契約では、各当事者は対象物を検査することができます。例えば、電子音響システムを購入する場合、それを検査し、電源を入れて正常に動作するかを確認できます。しかし、保険契約ではそれほど容易ではありません。保険契約は損失発生時にのみ「試される」からです。"
                 },
                 {
                   "num": "3.6",
                   "text": "The nature of the subject matter of the insurance contract and the circumstances surrounding it are facts known mainly to the insured. The insurers are not generally aware of these facts, unless the insured tells them. The proposer can at least examine a specimen copy of the policy (or the actual policy purchased within the free-look period in the case of Life Insurance or Personal Accident Insurance) before accepting its terms. However, the insurer is at a disadvantage as he cannot examine all material aspects of the proposed insurance. Hence, the law requires the proposer to disclose the main material facts to the insurance contract, and any non-disclosure of material facts by the proposer will render the policy voidable.",
-                  "textJP": ""
+                  "textJP": "保険契約の対象物の性質およびそれを取り巻く状況は、主として被保険者が知っている事実です。被保険者がそれらを告げない限り、保険者は一般にこれらの事実を認識していません。申込者は少なくとも保険証券の見本（または生命保険や傷害保険の場合はクーリングオフ期間内に購入した実際の保険証券）を検査してからその条件を受け入れることができます。しかし、保険者は提案される保険のすべての重要な側面を検査することができないため不利な立場にあります。したがって、法律は申込者に保険契約に関する主要な重要事実を告知することを要求し、申込者による重要事実の不告知は保険証券を取消可能にします。"
                 },
                 {
                   "num": "3.7",
                   "text": "In the case of Rozanes v. Bowen in 1928, Lord Justice Scrutton summed up the duty of disclosure as follows: “As the underwriter knows nothing and the man who comes to him to ask him to insure knows everything, it is the duty of the insured … to make a full disclosure to the underwriter without being asked of all the material circumstances.”",
-                  "textJP": ""
+                  "textJP": "1928年のRozanes v. Bowen事件において、Scrutton裁判官は告知義務を次のように要約しました。「引受人は何も知らず、引受人に保険を依頼する者はすべてを知っているのであるから、被保険者の義務は……求められることなく、すべての重要な状況について引受人に完全な告知を行うことである。」"
                 },
                 {
                   "num": "3.8",
                   "text": "As disclosure of material facts is very important in insurance, we shall look at the meaning of the term “material facts” before proceeding to discuss the duties of disclosure of the insurer and the proposer, as well as the consequences of non-disclosure.",
-                  "textJP": ""
+                  "textJP": "重要事実の告知は保険において非常に重要であるため、保険者と申込者の告知義務、および不告知の結果について議論する前に、「重要事実」という用語の意味を見ていきましょう。"
                 }
               ]
             },
@@ -2710,22 +2740,22 @@
               "id": "ch4-s3-B",
               "label": "B",
               "title": "Material Facts",
-              "titleJP": "",
+              "titleJP": "重要事実",
               "paragraphs": [
                 {
                   "num": "3.9",
                   "text": "A material fact is usually defined as one which will influence the judgement of a prudent underwriter whether or not to accept a risk and, if accepted, at what premium and on what terms and conditions.",
-                  "textJP": ""
+                  "textJP": "重要事実とは、通常、合理的な引受人がリスクを引き受けるかどうか、引き受ける場合はどのような保険料でどのような条件で引き受けるかの判断に影響を与える事実として定義されます。"
                 },
                 {
                   "num": "3.10",
                   "text": "Examples of facts which will be considered as material facts for each class of insurance are described below:",
-                  "textJP": ""
+                  "textJP": "各保険種類において重要事実とみなされる事実の例を以下に示します。"
                 },
                 {
                   "num": "3.11",
                   "text": "However, the law accepts that some facts do not need to be disclosed. Examples of such facts include: Types Of Facts Reasons Why It Need Not Be Disclosed - that smoke detectors, sprinklers, alarms and security fittings are installed in the building - that jewellery is attractive to thieves - where a blank space on a completed proposal form is not followed up - facts of the law - facts disclosed in a report of a risk surveyor appointed by the insurer - It reduces fire and burglary risks. - It is common knowledge. - The insurer is deemed to have waived the need for disclosure. - Everyone is expected to know the law. - The insurer is aware of the relevant information. Material Facts Relevant Class of Insurance - that a factory has stocks of flammable materials Fire Insurance - that a shop has previous burglaries Theft Insurance - that an operator of a fleet of motor vehicles employs young drivers Motor Insurance - that a boiler is not well maintained Engineering Insurance - that the proposer has been refused insurance in the past All types of insurance",
-                  "textJP": ""
+                  "textJP": "ただし、法律は一部の事実については告知の必要がないことを認めています。そのような事実の例は以下のとおりです。\n\n告知不要の事実の種類 | 告知不要の理由\n煙感知器、スプリンクラー、警報装置、セキュリティ設備が建物に設置されている | 火災・強盗リスクを低減するため\n宝飾品は窃盗犯にとって魅力的である | 周知の事実であるため\n完成した申込書の空欄が追跡されていない | 保険者は告知の必要性を放棄したとみなされるため\n法律の事実 | すべての者が法律を知っていることが期待されるため\n保険者が任命したリスクサーベイヤーの報告書で開示された事実 | 保険者は関連情報を認識しているため\n\n重要事実 | 関連する保険種類\n工場に可燃物の在庫がある | 火災保険\n店舗に過去の強盗歴がある | 盗難保険\n車両運行会社が若年ドライバーを雇用している | 自動車保険\nボイラーが適切に保守されていない | エンジニアリング保険\n申込者が過去に保険加入を拒否されたことがある | すべての保険種類"
                 }
               ]
             },
@@ -2733,17 +2763,17 @@
               "id": "ch4-s3-C",
               "label": "C",
               "title": "Duty Of Disclosure",
-              "titleJP": "",
+              "titleJP": "告知義務",
               "paragraphs": [
                 {
                   "num": "3.12",
                   "text": "The duty of disclosure arises from the beginning of negotiations until the time that the insurance contract takes effect (i.e. the inception of the policy) and at other specific times after inception. The duty arises both at Common Law and under the terms of the policy.",
-                  "textJP": ""
+                  "textJP": "告知義務は、交渉の開始から保険契約が発効する時点（すなわち保険証券の開始）まで、および開始後の特定の時点において生じます。この義務はコモンローおよび保険証券の条件の両方の下で生じます。"
                 },
                 {
                   "num": "3.13",
                   "text": "Let us take a look at the duty of disclosure at each stage of the insurance contract.",
-                  "textJP": ""
+                  "textJP": "保険契約の各段階における告知義務について見てみましょう。"
                 }
               ]
             },
@@ -2751,12 +2781,12 @@
               "id": "ch4-s3-C1",
               "label": "C1",
               "title": "At Inception",
-              "titleJP": "",
+              "titleJP": "保険開始時",
               "paragraphs": [
                 {
                   "num": "3.14",
                   "text": "At Common Law, the duty of disclosure starts at the beginning of negotiations and ends at the formation of the insurance contract. Sometimes, a policy wording will extend this duty, so that it is continuous throughout the period of insurance of the policy.",
-                  "textJP": ""
+                  "textJP": "コモンローの下では、告知義務は交渉の開始時に始まり、保険契約の成立時に終了します。保険証券の文言がこの義務を拡張し、保険期間を通じて継続的に適用される場合もあります。"
                 }
               ]
             },
@@ -2764,12 +2794,12 @@
               "id": "ch4-s3-C2",
               "label": "C2",
               "title": "On Renewal",
-              "titleJP": "",
+              "titleJP": "更新時",
               "paragraphs": [
                 {
                   "num": "3.15",
                   "text": "On the renewal of a policy, the duty of disclosure by the insured is revived for short-term (such as general insurance, non-life policies) business. There is no such duty of disclosure for long-term (such as life policies) business. (a) Long-Term Business Policies which fall under this category include Life Insurance policies which are not usually renewable annually, but which are issued for a specific number of years or for life. For such policies, if the insured wishes to continue paying premiums, the insurer will be obliged to accept them. Therefore, there is no duty of disclosure at so-called “renewal”, since no new contract is formed. (b) Short-Term Business General Insurance, such as Fire, Theft, Liability, Marine and Aviation Insurance, belongs to the category of short-term business. Such contracts are renewable usually after 12 months. When the contract ends and renewal terms are offered and accepted, a new contract is formed. The duty of disclosure is revived and is applied as for new contract negotiations.",
-                  "textJP": ""
+                  "textJP": "保険証券の更新時には、短期（損害保険、非生命保険など）契約について被保険者の告知義務が復活します。長期（生命保険など）契約にはそのような告知義務はありません。\n(a) 長期契約\nこのカテゴリーに該当する保険契約には、通常毎年更新されるのではなく、特定の年数または終身で発行される生命保険契約が含まれます。このような保険契約では、被保険者が保険料の支払いを継続したい場合、保険者はそれを受け入れる義務があります。したがって、新たな契約が成立するわけではないため、いわゆる「更新」時に告知義務はありません。\n(b) 短期契約\n火災保険、盗難保険、賠償責任保険、海上保険、航空保険などの損害保険は、短期契約のカテゴリーに属します。このような契約は通常12ヶ月後に更新可能です。契約が終了し、更新条件が提示され受け入れられると、新たな契約が成立します。告知義務は復活し、新規契約交渉と同様に適用されます。"
                 }
               ]
             },
@@ -2777,12 +2807,12 @@
               "id": "ch4-s3-C3",
               "label": "C3",
               "title": "On Alteration",
-              "titleJP": "",
+              "titleJP": "契約変更時",
               "paragraphs": [
                 {
                   "num": "3.16",
                   "text": "During the currency of a long-term or short-term insurance contract, it may be necessary to change the terms of the policy. The insured may wish to increase the sum insured or change the description of the property insured. In these cases, the duty of disclosure is revived as a new contract is being formed. For example, a landlord at the time of proposal has disclosed that the building is rented out and is being used as an office. If, during the continuation of the policy, the tenants vacate the building, and the landlord subsequently rents it Duty of Disclosure: - At Inception - On Renewal out to a person using it as a warehouse, then he must disclose this fact to the insurer, as there is a change of material fact, which affects the risk situation.",
-                  "textJP": ""
+                  "textJP": "長期または短期の保険契約の有効期間中に、保険証券の条件を変更する必要が生じることがあります。被保険者は保険金額の増額や付保される財物の記述の変更を希望することがあります。このような場合、新たな契約が成立するため、告知義務は復活します。例えば、家主は申込時に建物が賃貸されオフィスとして使用されていることを告知していました。保険契約の継続中にテナントが退去し、その後家主がそれを倉庫として使用する者に賃貸した場合、リスク状況に影響する重要事実の変更があるため、この事実を保険者に告知しなければなりません。"
                 }
               ]
             },
@@ -2790,12 +2820,12 @@
               "id": "ch4-s3-C4",
               "label": "C4",
               "title": "Insured’s Duty Of Disclosure",
-              "titleJP": "",
+              "titleJP": "被保険者の告知義務",
               "paragraphs": [
                 {
                   "num": "3.17",
                   "text": "As we have seen earlier, the law imposes a greater duty of disclosure on the insured, since the nature of the subject matter of the insurance contract, and the circumstances surrounding it, are facts known mainly to the insured. The insurer is not generally aware of these facts, unless the insured conveys them to the insurer. Therefore, it is important that the insured must make full and complete disclosure of all material facts relating to the insurance contract if he wishes to ensure that, in the event of a loss covered by the terms of the policy, his claim is paid by the insurer, without dispute.",
-                  "textJP": ""
+                  "textJP": "前述のとおり、保険契約の対象物の性質およびそれを取り巻く状況は主として被保険者が知っている事実であるため、法律は被保険者により大きな告知義務を課しています。被保険者がそれらを保険者に伝えない限り、保険者は一般にこれらの事実を認識していません。したがって、保険契約の条件でカバーされる損失が発生した場合に紛争なく保険金が支払われることを確保したいのであれば、被保険者は保険契約に関連するすべての重要事実を完全かつ漏れなく告知することが重要です。"
                 }
               ]
             },
@@ -2803,12 +2833,12 @@
               "id": "ch4-s3-C5",
               "label": "C5",
               "title": "Insurer’s Duty Of Disclosure",
-              "titleJP": "",
+              "titleJP": "保険者の告知義務",
               "paragraphs": [
                 {
                   "num": "3.18",
                   "text": "The insurer also has a duty of disclosure to the insured. In order to fulfil this duty, the insurer must also exercise utmost good faith by, for example:\n▪ notifying the insured of a possible entitlement to a premium discount resulting from a good previous insurance history, or having good preventive measures;\n▪ taking on only risks which the insurer is registered to accept, i.e. avoid unenforceable contracts;\n▪ ensuring that the statements made relating to the insurance are true, as misleading an insured about the policy coverage is a breach of utmost good faith.",
-                  "textJP": ""
+                  "textJP": "保険者もまた、被保険者に対する告知義務を有します。この義務を履行するために、保険者も例えば以下のような方法で最大善意を実践しなければなりません。\n▪ 良好な過去の保険履歴を有すること、または良好な予防措置を講じていることによる保険料割引の可能性を被保険者に通知すること\n▪ 保険者が引き受ける登録を有するリスクのみを引き受けること、すなわち執行不能な契約を回避すること\n▪ 保険に関連してなされる声明が真実であることを確保すること。保険カバーについて被保険者を誤解させることは最大善意の義務違反です。"
                 }
               ]
             },
@@ -2816,22 +2846,22 @@
               "id": "ch4-s3-D",
               "label": "D",
               "title": "Misrepresentation",
-              "titleJP": "",
+              "titleJP": "不実表示",
               "paragraphs": [
                 {
                   "num": "3.19",
                   "text": "Besides the failure to disclose material facts, the making of an untrue statement may also result in the voiding of the policy. Such false statement which induces the other party to enter the insurance contract is called “misrepresentation”.",
-                  "textJP": ""
+                  "textJP": "重要事実の不告知のほかに、不実の声明を行うことも保険証券の無効につながる可能性があります。他方の当事者を保険契約に入らせるよう誘導するそのような虚偽の声明を「不実表示」と呼びます。"
                 },
                 {
                   "num": "3.20",
                   "text": "For a fact to be considered a misrepresentation, it must:\n▪ be one of fact rather than a statement of law, opinion or belief;\n▪ be made by a party to the contract;\n▪ be material, i.e. something which has influenced a reasonable person in deciding whether to enter into the agreement;\n▪ induce the contract, i.e. be something which the other party has relied upon in deciding to enter into the agreement;\n▪ cause some loss or disadvantage to the person who has relied upon it.",
-                  "textJP": ""
+                  "textJP": "事実が不実表示とみなされるためには、以下の要件を満たす必要があります。\n▪ 法律、意見、信条の声明ではなく、事実の声明であること\n▪ 契約の当事者によってなされたものであること\n▪ 重要であること、すなわち合理的な人が契約を締結するかどうかの判断に影響を与えるもの\n▪ 契約を誘導するものであること、すなわち他方の当事者が契約締結の判断において依拠したもの\n▪ それに依拠した者に何らかの損失または不利益をもたらすこと"
                 },
                 {
                   "num": "3.21",
                   "text": "Misrepresentation can occur under a number of circumstances as shown below: (a) Fraudulent Misrepresentation – A false statement is made with the deliberate intention of misleading another, and putting him at a disadvantage, e.g. a proposer for Theft Insurance says that the premises are protected by a burglar alarm, when they are not. (b) Innocent Misrepresentation – A statement made is false, but there is no intention to mislead the other party to the contract, e.g. a proposer for Motor Insurance declares that his second-hand car has not been modified in any way, when it has already been done so by the first owner. (c) Negligent Misrepresentation – A statement made is false, because the person making it does not take sufficient care to check that it is correct, e.g. a proposer for a Life Insurance policy states that his age as 25 years old, when he is actually aged 35 years, thereby erroneously paying a lower rate of premium.",
-                  "textJP": ""
+                  "textJP": "不実表示は、以下に示すように、さまざまな状況下で発生する可能性があります。\n(a) 詐欺的不実表示 — 他者を誤解させ、不利な立場に置く故意の意図をもってなされる虚偽の声明です。例えば、盗難保険の申込者が、実際には設置されていないのに施設に防犯警報装置が設置されていると述べる場合です。\n(b) 善意の不実表示 — なされた声明は虚偽ですが、契約の他方の当事者を誤解させる意図はありません。例えば、自動車保険の申込者が、中古車が一切改造されていないと申告したが、実際には初代の所有者によって既に改造されていた場合です。\n(c) 過失による不実表示 — なされた声明は虚偽ですが、それは声明を行った者がその正確性を確認するための十分な注意を払わなかったためです。例えば、生命保険の申込者が自分の年齢を25歳と記載したが、実際には35歳であり、これにより誤って低い保険料率を支払っていた場合です。"
                 }
               ]
             },
@@ -2839,12 +2869,12 @@
               "id": "ch4-s3-E",
               "label": "E",
               "title": "Non-Disclosure & Misrepresentation",
-              "titleJP": "",
+              "titleJP": "不告知と不実表示",
               "paragraphs": [
                 {
                   "num": "3.22",
                   "text": "Where insurance is concerned, misrepresentation rarely occurs on its own as an issue distinct from that of non-disclosure. In fact, the dividing line between misrepresentation and non-disclosure is a very fine one. For example, a proposer for Life Insurance may say that he is in good health, when he knows that he is suffering from a serious illness. This will amount to both misrepresentation (an untrue statement about the proposer’s state of health) and non-disclosure (a failure to tell the insurer about a serious illness). Therefore, if the insurer in this case wishes to avoid the insurance policy, it will probably raise both defences. In practice, misrepresentation and non-disclosure tend to be regarded as aspects of a general duty to act in utmost good faith.",
-                  "textJP": ""
+                  "textJP": "保険に関しては、不実表示が不告知の問題とは別の独立した問題として発生することはまれです。実際、不実表示と不告知の境界線は非常に微妙です。例えば、生命保険の申込者が、重大な疾病を患っていることを知っているにもかかわらず健康であると述べた場合。これは不実表示（申込者の健康状態についての不実の声明）と不告知（重大な疾病について保険者に告げないこと）の両方に該当します。したがって、この場合に保険者が保険契約を取り消すことを望む場合、おそらく両方の抗弁を主張することになります。実務上、不実表示と不告知は、最大善意に基づいて行動する一般的義務の側面として扱われる傾向があります。"
                 }
               ]
             },
@@ -2852,12 +2882,12 @@
               "id": "ch4-s3-F",
               "label": "F",
               "title": "Breach Of Utmost Good Faith",
-              "titleJP": "",
+              "titleJP": "最大善意義務の違反",
               "paragraphs": [
                 {
                   "num": "3.23",
                   "text": "Both the insured and the insurer, as we have already seen, have to observe the principle of utmost good faith. Let us look at what will happen if they breach this principle.",
-                  "textJP": ""
+                  "textJP": "既に見てきたように、被保険者と保険者の両方が最大善意の原則を遵守しなければなりません。この原則に違反した場合にどうなるかを見てみましょう。"
                 }
               ]
             },
@@ -2865,32 +2895,32 @@
               "id": "ch4-s3-F1",
               "label": "F1",
               "title": "Breach By The Insured",
-              "titleJP": "",
+              "titleJP": "被保険者による違反",
               "paragraphs": [
                 {
                   "num": "3.24",
                   "text": "A breach of utmost good faith may take the form of:\n▪ misrepresentation which may be either innocent or fraudulent;\n▪ non-disclosure which may be innocent or fraudulent. If fraudulent, it is sometimes called concealment.",
-                  "textJP": ""
+                  "textJP": "最大善意義務の違反は、以下の形態をとる可能性があります。\n▪ 善意または詐欺的のいずれかである不実表示\n▪ 善意または詐欺的のいずれかである不告知。詐欺的な場合は、隠蔽と呼ばれることもあります。"
                 },
                 {
                   "num": "3.25",
                   "text": "In each case, regardless of whether or not there is fraud, the insurer has the right to void the contract “ab initio” (from the beginning). The effect is that the contract is cancelled retrospectively, so that the insurer is not liable for any claim arising between the time of making of the contract and the time of voiding it.",
-                  "textJP": ""
+                  "textJP": "いずれの場合も、詐欺の有無にかかわらず、保険者は契約を「当初から」（ab initio）無効にする権利を有します。その効果は、契約が遡及的に取り消されるため、契約の成立時から無効化の時点までの間に生じた保険金請求について保険者は責任を負わないということです。"
                 },
                 {
                   "num": "3.26",
                   "text": "If concealment or fraudulent misrepresentation is involved, the insurer may also have the right to claim damages (for the tort of deceit) and can, in addition, keep any premium paid by the insured.",
-                  "textJP": ""
+                  "textJP": "隠蔽または詐欺的不実表示が関与している場合、保険者は損害賠償（欺瞞の不法行為に対する）を請求する権利も有し、加えて被保険者が支払った保険料を保持することができます。"
                 },
                 {
                   "num": "3.27",
                   "text": "If the insurer wishes, it may waive (give up) its right to any or all of these remedies and allow the insurance contract to stand. The insurer must exercise its option within a reasonable period of time after the discovery of the breach. If it does not, it will be assumed that it has decided to waive its rights.",
-                  "textJP": ""
+                  "textJP": "保険者が望む場合は、これらの救済のいずれかまたはすべてに対する権利を放棄し、保険契約を存続させることができます。保険者は、違反の発見後合理的な期間内にその選択肢を行使しなければなりません。行使しない場合は、権利を放棄することを決定したとみなされます。"
                 },
                 {
                   "num": "3.28",
                   "text": "Take note that, in the event of a breach of utmost good faith, the insurer can either void or affirm the entire contract. The insurer cannot, for instance, refuse to pay a particular claim but, at the same time, affirm the contract and allow it to stand. The insurer cannot accept liability for only a proportion of the loss. Table 4.1 gives a summary of the remedies which the insurer has, when there is a breach of utmost good faith. Table 4.1: Remedies For Breach Of Utmost Good Faith",
-                  "textJP": ""
+                  "textJP": "最大善意義務の違反が発生した場合、保険者は契約全体を無効にするか確認するかのいずれかであることに留意してください。保険者は、例えば、特定の保険金請求を拒否しつつ、同時に契約を確認して存続させることはできません。保険者は損失の一部のみについて責任を受け入れることもできません。Table 4.1は、最大善意義務の違反があった場合に保険者が有する救済の要約を示しています。\nTable 4.1: 最大善意義務違反に対する救済"
                 }
               ]
             },
@@ -2898,17 +2928,17 @@
               "id": "ch4-s3-F2",
               "label": "F2",
               "title": "Breach By The Insurer",
-              "titleJP": "",
+              "titleJP": "保険者による違反",
               "paragraphs": [
                 {
                   "num": "3.29",
                   "text": "The insurer, like the insured, can be liable for a breach of the duty of utmost good faith. If the insurer is in breach of its duty of utmost good faith, the insured will be entitled to void the insurance contract.",
-                  "textJP": ""
+                  "textJP": "保険者も被保険者と同様に、最大善意義務の違反について責任を負うことがあります。保険者が最大善意義務に違反した場合、被保険者は保険契約を取り消す権利を有します。"
                 },
                 {
                   "num": "3.30",
                   "text": "For example, if an insurer is aware that an agent has fraudulently issued a Cover Note for a Credit Insurance policy to his client, when the cover has not been completed, the insured in this case can sue the insurer for failing to disclose this fact to him and seek to void the contract. Innocent Breach By The Insured Fraudulent Breach By The Insured Right to void the policy as a whole? YES YES Right to keep the premium as well? NO YES Right to claim damages as well? NO YES Right to ignore the breach, and allow the policy to stand? YES YES Right to refuse a particular claim, but allow the policy to stand? NO NO",
-                  "textJP": ""
+                  "textJP": "例えば、保険者が、代理店が信用保険のカバーノートを顧客に詐欺的に発行したことを認識しているにもかかわらず、カバーが完了していない場合、この場合の被保険者は、保険者がこの事実を自分に告知しなかったことを理由に保険者を訴え、契約の取り消しを求めることができます。\n\n被保険者による善意の違反 | 被保険者による詐欺的な違反\n保険証券全体を無効にする権利？ | はい | はい\n保険料も保持する権利？ | いいえ | はい\n損害賠償も請求する権利？ | いいえ | はい\n違反を無視し、保険証券を存続させる権利？ | はい | はい\n特定の保険金請求を拒否しつつ、保険証券を存続させる権利？ | いいえ | いいえ"
                 }
               ]
             }
@@ -2918,24 +2948,24 @@
           "id": "ch4-s4",
           "number": "4",
           "title": "Principle Of Indemnity",
-          "titleJP": "",
+          "titleJP": "損害てん補の原則",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s4-A",
               "label": "A",
               "title": "Concept",
-              "titleJP": "",
+              "titleJP": "概念",
               "paragraphs": [
                 {
                   "num": "4.1",
                   "text": "The term “indemnity” means the protection of, or security against, damage or loss. Therefore, when an insurance policy is said to be a contract of indemnity, it is intended to provide financial compensation for a loss which the insured has suffered and put him back in the same position that he has enjoyed immediately before the loss.",
-                  "textJP": ""
+                  "textJP": "「損害てん補（indemnity）」という用語は、損害または損失に対する保護または担保を意味します。したがって、保険証券が損害てん補契約であると言われる場合、それは被保険者が被った損失に対して経済的補償を提供し、損失の直前に享受していた状態に復帰させることを意図しています。"
                 },
                 {
                   "num": "4.2",
                   "text": "The concept of indemnity thus implies that the object of insurance is to provide the exact financial compensation for the insured. It also implies that the insured should not be over-compensated and should not “make a profit” from his loss. In other words, the principle of indemnity requires that the insured should be fully compensated, but not over-compensated, for the loss.",
-                  "textJP": ""
+                  "textJP": "損害てん補の概念は、保険の目的が被保険者に正確な経済的補償を提供することであることを意味します。また、被保険者は過剰に補償されるべきではなく、損失から「利益を得る」べきではないことも意味します。言い換えれば、損害てん補の原則は、被保険者が完全に補償されるべきであるが、過剰に補償されるべきではないことを要求します。"
                 }
               ]
             },
@@ -2943,22 +2973,22 @@
               "id": "ch4-s4-B",
               "label": "B",
               "title": "Application Of Indemnity",
-              "titleJP": "",
+              "titleJP": "損害てん補の適用",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "The principle of indemnity can be applied to most classes of general insurance, including:\n▪ Property Insurance;\n▪ Liability Insurance;\n▪ Pecuniary Insurance; and\n▪ Marine Insurance.",
-                  "textJP": ""
+                  "textJP": "損害てん補の原則は、以下を含むほとんどの損害保険種類に適用できます。\n▪ 財物保険\n▪ 賠償責任保険\n▪ 金銭損害保険\n▪ 海上保険"
                 },
                 {
                   "num": "4.4",
                   "text": "The reason for these insurance policies being considered as contracts of indemnity is that they are intended to provide financial compensation for a loss which the insured has suffered, and to put him back in the same position that he enjoyed immediately before the loss.",
-                  "textJP": ""
+                  "textJP": "これらの保険契約が損害てん補契約とみなされる理由は、被保険者が被った損失に対して経済的補償を提供し、損失の直前に享受していた状態に復帰させることを意図しているためです。"
                 },
                 {
                   "num": "4.5",
                   "text": "Life Insurance and Personal Accident Insurance (covering accidental death and permanent total disablement), on the other hand, are not contracts of indemnity, as a financial value cannot be easily measured or placed on a person’s life, or the effects of a bodily injury and, therefore, cannot provide indemnity for a loss which the insured has suffered.",
-                  "textJP": ""
+                  "textJP": "一方、生命保険および傷害保険（事故死亡および永久完全障害をカバーするもの）は損害てん補契約ではありません。人の生命や身体傷害の影響に容易に金銭的価値を測定したり置いたりすることができないため、被保険者が被った損失に対する損害てん補を提供できないからです。"
                 }
               ]
             },
@@ -2966,12 +2996,12 @@
               "id": "ch4-s4-C",
               "label": "C",
               "title": "Measure Of Indemnity",
-              "titleJP": "",
+              "titleJP": "損害てん補の算定",
               "paragraphs": [
                 {
                   "num": "4.6",
                   "text": "The exact amount of compensation under a policy of indemnity is not known in advance, but is fixed at the point of a claim, based on the actual amount of loss suffered by the insured. The method by which the indemnity is measured varies with the types of insurance involved and the nature of the subject matter insured. Let us now take a look at how indemnity is determined for each of the main classes of insurance.",
-                  "textJP": ""
+                  "textJP": "損害てん補契約に基づく正確な補償額は事前にはわかりませんが、被保険者が被った実際の損失額に基づいて保険金請求の時点で確定されます。損害てん補が算定される方法は、関連する保険の種類および付保される対象物の性質によって異なります。では、主要な保険種類のそれぞれについて、損害てん補がどのように決定されるかを見てみましょう。"
                 }
               ]
             },
@@ -2979,12 +3009,12 @@
               "id": "ch4-s4-C1",
               "label": "C1",
               "title": "Property Insurance",
-              "titleJP": "",
+              "titleJP": "財物保険",
               "paragraphs": [
                 {
                   "num": "4.7",
                   "text": "Under a Property Insurance policy, the measure of indemnity is its value at the date and place of loss. This is a very broad guideline. The actual basis of settlement is dependent on the type of property insured, as you will see later. (a) Buildings Indemnity for loss of or damage to a building is calculated as the cost of repair or reconstruction at the time of loss. An allowance is made for improvements which may result from the repair or re-construction, e.g. new roof and re-decoration. (b) Machinery & Equipment The measurement of indemnity is dependent on whether there is a ready second-hand market for the item.\n▪ When there is a ready second-hand market, the indemnity is the cost of the second-hand item plus any additional transport and installation costs.\n▪ When there is no second-hand market, the indemnity is the cost of repair or replacement less an allowance for wear and tear, if applicable. (c) Stock The measurement of indemnity for stock is usually dependent on whether it is:\n▪ manufacturers’ stock in trade; or\n▪ wholesalers’ and retailers’ stock in trade. (i) Manufacturers’ Stock In Trade – The stock in this case consists of raw materials, work in progress and finished stock. The indemnity value is the cost at the time and place of loss of replacing the goods or returning them to the condition which they were in, immediately before they were damaged. (ii) Wholesalers’ & Retailers’ Stock In Trade – The indemnity here is the cost of replacing the stock at the time of the loss, including the costs of transport to the insured’s premises and handling costs. One of the difficulties in measuring stock losses is that the stock may not have a definite constant resale value. In addition, some stocks may be obsolete. Items may be unfashionable or replaced by a more sophisticated model and, therefore, difficult to sell. In these cases, settlement must be made to maintain the insured’s financial position and not to improve it. To sum up, the insured, regardless of whether he is a manufacturer, wholesaler or retailer, is not entitled to payment in respect of any potential profit element on the sale of stock. (d) Household Goods In general, indemnity is based on the cost of replacing the items at the time of loss, subject to a wear and tear deduction. However, a more popular form of cover is available on a “new for old” basis (see later section of this chapter for more information), where no deduction is made for wear and tear.",
-                  "textJP": ""
+                  "textJP": "財物保険の下では、損害てん補の基準は損失発生日および損失発生場所における価額です。これは非常に大まかなガイドラインです。実際の決済の基準は、後述のとおり、付保される財物の種類に依存します。\n(a) 建物\n建物の滅失または損傷に対する損害てん補は、損失発生時における修理費用または再建費用として算定されます。修理または再建から生じる改善（例：新しい屋根や再装飾）については控除が行われます。\n(b) 機械・設備\n損害てん補の算定は、当該品目の中古市場が存在するかどうかに依存します。"
                 }
               ]
             },
@@ -2992,12 +3022,12 @@
               "id": "ch4-s4-C2",
               "label": "C2",
               "title": "Liability Insurance",
-              "titleJP": "",
+              "titleJP": "賠償責任保険",
               "paragraphs": [
                 {
                   "num": "4.8",
                   "text": "The indemnity under a Liability Insurance policy is the amount of damages awarded by the court of law, in addition to the insured’s legal expenses and claimant’s costs. However, in practice, most liability claims do not go to court. They are usually settled by negotiation between the insurer and the third party on the basis of what a court would award, if the case had come before it.",
-                  "textJP": ""
+                  "textJP": "賠償責任保険の下での損害てん補は、裁判所が裁定した損害賠償額に、被保険者の法的費用および請求者の費用を加えた額です。ただし、実務上、ほとんどの賠償責任の請求は裁判には至りません。通常、事案が裁判になった場合に裁判所が裁定するであろう額に基づいて、保険者と第三者の間の交渉によって決済されます。"
                 }
               ]
             },
@@ -3005,12 +3035,12 @@
               "id": "ch4-s4-C3",
               "label": "C3",
               "title": "Pecuniary Insurance",
-              "titleJP": "",
+              "titleJP": "金銭損害保険",
               "paragraphs": [
                 {
                   "num": "4.9",
                   "text": "In the case of Pecuniary Insurance such as Money Insurance, the amount of indemnity is the actual amount of loss incurred by the insured.",
-                  "textJP": ""
+                  "textJP": "金銭保険などの金銭損害保険の場合、てん補額は被保険者が被った実際の損失額です。"
                 }
               ]
             },
@@ -3018,12 +3048,12 @@
               "id": "ch4-s4-C4",
               "label": "C4",
               "title": "Marine Insurance",
-              "titleJP": "",
+              "titleJP": "海上保険",
               "paragraphs": [
                 {
                   "num": "4.10",
                   "text": "Marine Insurance policies are generally issued on an agreed value basis (see later section of this chapter). The amount of indemnity under this class of insurance is computed using the formula in the Marine Insurance Act 1906.",
-                  "textJP": ""
+                  "textJP": "海上保険契約は一般に協定価額ベースで発行されます（本章の後のセクションを参照）。この種類の保険の下でのてん補額は、Marine Insurance Act 1906の算式を用いて計算されます。"
                 }
               ]
             },
@@ -3031,12 +3061,12 @@
               "id": "ch4-s4-D",
               "label": "D",
               "title": "Modifying Indemnity",
-              "titleJP": "",
+              "titleJP": "損害てん補の修正",
               "paragraphs": [
                 {
                   "num": "4.11",
                   "text": "Indemnity is not a rigid principle, as it can be modified by agreement between the parties. This allows the insured to get either less or more than a strict indemnity settlement. In fact, the insured does not always receive full indemnity.",
-                  "textJP": ""
+                  "textJP": "損害てん補は厳格な原則ではなく、当事者間の合意によって修正することができます。これにより、被保険者は厳格な損害てん補による決済よりも少なく、または多く受け取ることが可能になります。実際、被保険者は常に完全な損害てん補を受けるわけではありません。"
                 }
               ]
             },
@@ -3044,12 +3074,12 @@
               "id": "ch4-s4-D1",
               "label": "D1",
               "title": "Factors That Limit The Amount Of Indemnity",
-              "titleJP": "",
+              "titleJP": "てん補額を制限する要因",
               "paragraphs": [
                 {
                   "num": "4.12",
                   "text": "Factors that limit the amount of indemnity resulting in the insured receiving less than the full indemnity include: (a) The Sum Insured Or Limit Of Liability The maximum amount recoverable under many policies is limited by the sum insured or limit of indemnity (also known as limit of liability). In policies which have a sum insured or indemnity limit, the insured cannot recover more than this amount, even where the loss measured by the indemnity principle is a higher figure. However, there can be exceptions, where Liability Insurance is concerned. In Liability Insurance, the costs and expenses incurred are either included in the limit of liability or payable over and above the limit of liability. (b) Other Policy Limits Besides the sum insured or limit of indemnity, some policies also impose separate limits for particular types of loss or property. For example, a Householder’s Insurance policy will often restrict the cover on the individual items covered under the policy to a certain percentage (e.g. 5%) of the sum insured. For example, a picture insured under a Householder’s Insurance policy may be valued at S$30,000, however, because it has been indicated in the policy that the amount payable is 5% of the sum insured (assumed to be S$100,000), in the event of a fire, only S$5,000 (5% of S$100,000) will be paid for the picture. In other words, the policy owner receives an amount which is less than a full indemnity. (c) Under-Insurance & Average Clauses The policy owner will also not receive a full indemnity if the sum insured is not large enough to meet the loss. For example, if goods which are insured for only S$50,000 are totally destroyed in a fire and cost S$75,000 to replace, the policy owner receives only two-thirds of the costs incurred. In other words, the sum insured is always the maximum amount that will be paid, no matter how much an indemnity will be. If the sum insured is inadequate and the policy contains an average clause, the amount of claim will be reduced. Example 4.1 shows how an average clause works. Example 4.1: How Average Works Able Trading Company had a fire in its insured shop. The Company claimed a loss of S$5,000 against its Fire Insurance policy. The loss adjuster, who was instructed by the insurer, was satisfied that the loss claimed was correct. However, the loss adjuster reported that, in his opinion, there was at least S$10,000 in stock, but only S$8,000 in insurance cover. The loss adjuster, therefore, adjusted the loss as follows: x Loss Value of goods at risk Sum insured x S$5,000 S$4,000 S$10,000 S$8,000 = If the policy was not subject to average, the insurer would have to pay the full S$5,000. With average, the liability of the insurer was limited to only S$4,000, as it had been deprived of receiving a higher premium. In this way, the Company (policy owner) receives an amount which was less than what it was actually entitled to be indemnified because of its under-insurance. (d) Excess/Deductible An excess is the first amount of each and every claim which is not covered by the policy and is borne by the insured. A deductible is a sum of money which the insurer may deduct from the settlement amount and before paying a claim. The term excess is usually used in Motor and Household Insurance policies. The term deductible is sometimes used in commercial insurance, such as Industrial All Risks Insurance and Machinery Breakdown Insurance, where the amount to be deducted by the insurer before making a claim payment to the insured is sizeable. Both an excess and a deductible are forms of ‘retention’ i.e. the maximum amount that the insured must bear in relation to a claim. The retention may be voluntary at the insured’s request, or compulsory as imposed by the policy conditions. Either way, the amount of claim is reduced by the amount of the excess or deductible as stated in the policy. If the amount of claim is equal or less than the amount of excess or deductible as imposed under the policy, nothing will be payable by the insurer. The following diagram briefly illustrates how excess works: (e) Franchise A franchise is similar to an excess in that there is no liability for any loss which is less than the franchise figure. However, once the franchise has been exceeded, the loss is payable in full by the insurer. For example, if the franchise is S$500 and the loss is S$300, nothing will be payable under the policy; if the loss is S$600, the entire S$600 will be payable by the insurer. How Excess Works TOTAL AMOUNT EXCESS OF LOSS AMOUNT Insured Pays Insurer Pays",
-                  "textJP": ""
+                  "textJP": "被保険者が完全なてん補よりも少ない額を受け取る結果となる、てん補額を制限する要因には以下が含まれます。\n(a) 保険金額または責任限度額\n多くの保険証券の下での最大回収額は、保険金額またはてん補限度額（責任限度額とも呼ばれます）によって制限されます。保険金額またはてん補限度額のある保険証券では、損害てん補の原則で算定された損失がそれより高い額であっても、被保険者はこの額を超えて回収することはできません。ただし、賠償責任保険に関しては例外がありえます。賠償責任保険では、発生した費用は責任限度額に含まれるか、責任限度額を超えて支払われるかのいずれかです。\n(b) その他の保険証券の限度額\n保険金額またはてん補限度額のほかに、一部の保険証券は特定の種類の損失または財物に対して個別の限度額も課しています。例えば、家財保険は、保険証券の下でカバーされる個々の品目に対するカバーを、保険金額の一定割合（例：5%）に制限することがしばしばあります。\n(c) 一部保険（付保不足）と比例てん補条項\n保険金額が損失を賄うのに十分でない場合も、保険契約者は完全なてん補を受けることができません。例えば、S$50,000のみで付保された物品が火災で全損し、交換費用がS$75,000の場合、保険契約者は発生した費用の3分の2のみを受け取ります。保険証券に比例てん補条項（average clause）が含まれており、保険金額が不十分な場合、保険金額は減額されます。\nExample 4.1: 比例てん補の仕組み\nAble Trading Companyの付保された店舗で火災が発生しました。同社はS$5,000の損失を火災保険に対して請求しました。保険者の指示を受けた損害査定人は、請求された損失が正しいことを確認しました。しかし、損害査定人は、在庫がS$10,000以上あったのに対し、保険カバーはS$8,000のみであったと報告しました。したがって、損害査定人は損失を以下のように査定しました。\n保険金額 ÷ リスクにさらされている物品の価額 × 損失 = てん補額\nS$8,000 ÷ S$10,000 × S$5,000 = S$4,000\n比例てん補条項がなければ、保険者はS$5,000全額を支払わなければなりません。比例てん補により、保険者の責任はS$4,000に制限されました。より高い保険料を受け取る機会を奪われていたためです。このように、同社（保険契約者）は付保不足のために、実際にてん補される権利がある額よりも少ない額を受け取ります。\n(d) エクセス／ディダクティブル\nエクセスとは、保険証券でカバーされず被保険者が負担する各保険金請求の最初の金額です。ディダクティブルとは、保険者が保険金を支払う前に決済額から控除する金額です。エクセスという用語は通常、自動車保険および家庭保険で使用されます。ディダクティブルという用語は、工業オールリスク保険や機械故障保険などの企業保険で使用されることがあり、保険者が被保険者に保険金を支払う前に控除する金額が大きくなります。エクセスとディダクティブルはいずれも「保有」の形態です。すなわち、保険金請求に関して被保険者が負担しなければならない最大額です。保有は被保険者の要請による任意的なもの、または保険約款の条件として課される強制的なもののいずれかです。いずれにしても、保険金額は保険証券に記載されたエクセスまたはディダクティブルの額だけ減額されます。保険金請求額が保険証券で課されたエクセスまたはディダクティブルの額以下である場合、保険者からの支払いはありません。\n(e) フランチャイズ\nフランチャイズはエクセスに類似しており、フランチャイズの額未満の損失に対しては責任がありません。ただし、フランチャイズを超えた場合、損失は保険者によって全額支払われます。例えば、フランチャイズがS$500で損失がS$300の場合、保険証券の下での支払いはありません。損失がS$600の場合、S$600全額が保険者によって支払われます。"
                 }
               ]
             },
@@ -3057,12 +3087,12 @@
               "id": "ch4-s4-D2",
               "label": "D2",
               "title": "Extensions That Increase The Amount Of Indemnity",
-              "titleJP": "",
+              "titleJP": "てん補額を増額する拡張特約",
               "paragraphs": [
                 {
                   "num": "4.13",
                   "text": "Extensions can be added to a policy, so that the insured can recover more than a strict indemnity. The examples are as follows: (a) Reinstatement Clause A reinstatement clause can be included in policies to take care of the depreciation in the value of a property owing to wear and tear. In the event of a claim, the insurer will pay an amount equivalent to the cost of rebuilding or replacing a property to a condition “equitable to or substantially the same as, but not better than or more extensive than, its condition when new”. In other words, no deduction is made for wear and tear. Therefore, the amount received by the policy owner is higher than the actual amount of indemnity due to the policy owner. (b) “New For Old” Clause A “New for old” cover is quite similar to that of the reinstatement cover. It is often included in Householder’s Insurance policies or Personal All Risks Insurance policies. With the inclusion of this clause, the insurer will pay the full replacement cost “as new” for any of the insured items lost or destroyed, with no deduction for wear and tear. This results in the policy owner receiving an amount that is more than what he is actually entitled to, according to the principle of indemnity. (c) Agreed Value Clause The agreed value cover is often used if a property to be insured is unique, or of a type where there is limited market, e.g. “classic” cars. A policy that incorporates the agreed value cover is called the valued policy. Under a valued policy, the value of the subject matter of the insurance is agreed at the start of the contract and the sum insured is fixed accordingly. In the event of a total loss claim, the insurer must pay the agreed value as stated in the policy, regardless of the actual value at the time of the loss, even if it can prove that the value of the property has declined since the insurance was effected. In other words, the policy owner may receive an amount that is more than what he is actually entitled to, according to the principle of indemnity. Old House New House",
-                  "textJP": ""
+                  "textJP": "拡張特約を保険証券に追加することにより、被保険者は厳格な損害てん補よりも多く回収することができます。例は以下のとおりです。\n(a) 復旧条項（Reinstatement Clause）\n復旧条項は、摩耗による財物の価値の減価に対処するために保険証券に含めることができます。保険金請求の場合、保険者は「新品時の状態と同等またはほぼ同じであるが、それより優れたまたは広範なものではない」状態に財物を再建または交換する費用に相当する金額を支払います。言い換えれば、摩耗減価の控除は行われません。したがって、保険契約者が受け取る金額は、保険契約者に支払われるべき実際のてん補額よりも高くなります。\n(b) 「新品交換」条項（New For Old Clause）\n「新品交換」カバーは復旧カバーと非常に類似しています。これは家財保険やパーソナル・オールリスク保険にしばしば含まれます。この条項を含めることにより、保険者は滅失または破壊された被保険品目について、摩耗減価を控除することなく「新品としての」交換費用の全額を支払います。これにより、保険契約者は損害てん補の原則に基づいて実際に受け取る権利がある額よりも多い金額を受け取ることになります。\n(c) 協定価額条項（Agreed Value Clause）\n協定価額カバーは、付保される財物がユニークであるか、または市場が限られている種類（例：「クラシック」カー）の場合にしばしば使用されます。協定価額カバーを組み込んだ保険証券は、評価済保険と呼ばれます。評価済保険の下では、保険の対象物の価額は契約開始時に合意され、保険金額はそれに応じて設定されます。全損の保険金請求の場合、保険者は、損失発生時の実際の価額にかかわらず、保険証券に記載された協定価額を支払わなければなりません。保険が締結された後に財物の価値が下落したことを証明できたとしても同様です。言い換えれば、保険契約者は損害てん補の原則に基づいて実際に受け取る権利がある額よりも多い金額を受け取る可能性があります。"
                 }
               ]
             }
@@ -3072,37 +3102,37 @@
           "id": "ch4-s5",
           "number": "5",
           "title": "Subrogation",
-          "titleJP": "",
+          "titleJP": "代位（求償権）",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "Subrogation is the legal doctrine, whereby one person takes over the rights or remedies of another against a third party. Subrogation is defined as the “right of one person (the insurer) to take over the rights of another (the insured)”. It is often described as “stepping into the shoes of another” and is applicable only to contracts of indemnity. The basic premise is that where one person, i.e. typically an insurer in this case, makes a payment on an obligation which, in law, is the primary responsibility of another party, then the insurer making the payment is subrogated to the claims of the insured to whom the insurer has made the payment with respect to any claims or remedies which are exercisable against the primarily responsible party.",
-              "textJP": ""
+              "textJP": "代位とは、ある者が第三者に対する他の者の権利または救済を引き継ぐ法的原則です。代位は「一方の者（保険者）が他方の者（被保険者）の権利を引き継ぐ権利」と定義されます。これはしばしば「他者の靴に足を入れる」と表現され、損害てん補契約にのみ適用されます。基本的な前提は、ある者（通常この場合は保険者）が、法律上、他の当事者が第一義的に責任を負う義務について支払いを行った場合、支払いを行った保険者は、支払いを受けた被保険者の、第一義的に責任を負う当事者に対して行使可能な請求権または救済に対する権利に代位するということです。"
             },
             {
               "num": "5.2",
               "text": "Subrogation exists to make sure that an insured does not get more than an indemnity, by claiming for the same loss or damage from both the insurance policy and another source or sources. This is to say that subrogation will arise only, where the insured has suffered a loss and has another means of recovering for it, i.e. a claim on his own insurance policy and a legal right or claim against some other persons for the same loss. If the insured chooses the first option (a claim on his policy), then the alternative right, i.e. the claim against another, will pass on to the insurer. The effect is to prevent the insured from recovering twice for the same loss, so as to preserve the principle of indemnity.",
-              "textJP": ""
+              "textJP": "代位は、被保険者が保険契約と他の源泉の両方から同一の損失に対して請求することにより、てん補を超える額を受け取ることがないようにするために存在します。これは、被保険者が損失を被り、かつそれについて回収する別の手段（自己の保険契約に対する請求および同一の損失について他の者に対する法的権利または請求）を有する場合にのみ代位が生じることを意味します。被保険者が最初の選択肢（保険契約に対する請求）を選択した場合、代替的権利（他者に対する請求）は保険者に移転します。その効果は、損害てん補の原則を維持するために、被保険者が同一の損失に対して二重に回収することを防ぐことです。"
             },
             {
               "num": "5.3",
               "text": "For example, let us suppose that a house has been damaged in a fire started by the negligence of a plumber who has come to repair a pipe. The damage amounts to S$10,000 and the house owner has a household policy which covers fire damage. The house owner has two means of recovering this loss. Firstly, he can claim under his own household policy. Secondly, he can make a claim against the plumber based on negligence. Figure 4.1 illustrates the choices that the house owner has. Figure 4.1: Choices Of The House Owner",
-              "textJP": ""
+              "textJP": "例えば、配管工のパイプ修理中の過失により発生した火災で住宅が損傷したとしましょう。損害はS$10,000に達し、住宅所有者は火災損害をカバーする住宅保険を有しています。住宅所有者にはこの損失を回収する2つの手段があります。第一に、自己の住宅保険に対して請求できます。第二に、過失に基づいて配管工に対して請求できます。Figure 4.1は住宅所有者の選択肢を示しています。"
             },
             {
               "num": "5.4",
               "text": "The easiest course is to claim against the household insurer. However, if the house owner receives an indemnity from his insurer (in other words, the insurer pays the claim), he will lose the right to recover from the plumber. This right is now transferred to the household insurer, who can sue the plumber in the name of the insured to recover the claim payment as shown in Figure 4.2. Figure 4.2: Claim Against Household Insurer",
-              "textJP": ""
+              "textJP": "最も容易な方法は住宅保険の保険者に対して請求することです。しかし、住宅所有者が保険者からてん補を受けた場合（すなわち保険者が保険金を支払った場合）、配管工から回収する権利を失います。この権利は住宅保険の保険者に移転し、保険者は被保険者の名前で配管工を訴えて保険金の支払いを回収することができます。Figure 4.2のとおりです。"
             },
             {
               "num": "5.5",
               "text": "In the above example, the insurer has indemnified the insured, and the insured has not enforced his alternative rights to compensation. Thus, the insurer may “step into his shoes” and pursue any right of action available to the insured to reduce the loss insured against. However, if the house owner also receives compensation from the plumber, then he will have to pass on the money to the insurer. This is the second way in which subrogation can operate. Figure 4.3 illustrates how it works. House Owner S$10,000 fire damage Claim under household policy? Negligence claim against plumber? Household Insurer Plumber Household Insurer Loss - S$10,000 Plumber Claim against the plumber transfers to the insurer. S$10,000 Payment House Owner Damage S$10,000 Payment (S$10,000) Loss Nil ====== Figure 4.3: What Happens When A House Owner Receives Compensation From Insurer And Another Party?",
-              "textJP": ""
+              "textJP": "上の例では、保険者は被保険者にてん補を行い、被保険者は代替的な補償への権利を行使していません。したがって、保険者は被保険者の「靴に足を入れ」、保険対象の損失を軽減するために被保険者が利用可能な訴訟の権利を追求することができます。ただし、住宅所有者が配管工からも補償を受けた場合、その金銭を保険者に引き渡さなければなりません。これが代位が機能する第二の方法です。Figure 4.3はその仕組みを示しています。"
             },
             {
               "num": "5.6",
               "text": "There is yet another possible scenario to the above example, and that is, the plumber has his own insurance to protect against claims of this sort. For example, the plumber has a Public Liability Insurance policy which will reimburse him for the loss that he has to pay to the house owner. In such a case, the household insurer has the right of recovery against the Public Liability insurer. Figure 4.4 illustrates how this works. Figure 4.4: What Happens When There Is A Second Insurer Involved? Household Insurer Payment S$10,000 Recovery (S$10,000) Loss Nil ======= Plumber Loss S$10,000 House Owner Damage S$10,000 Payments (S$20,000) Repayment S$10,000 Loss Nil ======= Repayment S$10,000 S$10,000 Payment Plumber Loss - Nil Household Insurer Payment S$10,000 Recovery (S$10,000) Loss Nil ======= Plumber’s Public Liability Insurer Loss - S$10,000 House Owner Damage S$10,000 Payments (S$10,000) Loss Nil ======= Payment S$10,000 S$10,000 claim by way of subrogation Claim for indemnity under Payment liability policy S$10,000 S$10,000 Insurer Payment",
-              "textJP": ""
+              "textJP": "上の例にはもう一つの可能なシナリオがあります。それは、配管工がこの種の請求から身を守る自己の保険を持っている場合です。例えば、配管工が住宅所有者に支払わなければならない損失をてん補する公衆賠償責任保険を持っている場合。このような場合、住宅保険の保険者は公衆賠償責任保険の保険者に対して求償権を有します。Figure 4.4はその仕組みを示しています。"
             }
           ],
           "subsections": [
@@ -3110,12 +3140,12 @@
               "id": "ch4-s5-A",
               "label": "A",
               "title": "Operation Of Subrogation",
-              "titleJP": "",
+              "titleJP": "代位の運用",
               "paragraphs": [
                 {
                   "num": "5.7",
                   "text": "The principle of subrogation can operate in two ways as you can see from the example given earlier. First, the insured may have actually succeeded in “recovering for the same loss twice”, i.e. collected a claim payment from his insurer and recovered compensation from another source for the same loss. Second, where the insured has not received compensation from another source, the insurer who has indemnified the insured in respect of the loss may then bring an action against the third party who is legally responsible for it. Let us look at this latter case in detail.",
-                  "textJP": ""
+                  "textJP": "代位の原則は、先に示した例からわかるように、2つの方法で運用されます。第一に、被保険者が実際に「同一の損失に対して二重に回収」に成功している場合、すなわち、保険者から保険金の支払いを受け取り、かつ同一の損失について他の源泉から補償を回収した場合です。第二に、被保険者が他の源泉から補償を受けていない場合、損失についてて被保険者にてん補を行った保険者が、法的に責任を負う第三者に対して訴訟を提起することができます。後者のケースを詳しく見てみましょう。"
                 }
               ]
             },
@@ -3123,12 +3153,12 @@
               "id": "ch4-s5-A1",
               "label": "A1",
               "title": "Where The Insurer Brings An Action Against The Third Party",
-              "titleJP": "",
+              "titleJP": "保険者が第三者に対して訴訟を提起する場合",
               "paragraphs": [
                 {
                   "num": "5.8",
                   "text": "The practices as described below apply when an insurer brings an action against a third party. (a) Action In The Name Of The Insured The action against the third party must be brought in the name of the insured, and legally, it is regarded as the insured’s own action, although the insurer will ultimately get the benefit. (b) One Action Only For The Whole Loss The action must be for the whole loss and not just for the portion which has been borne by the insurer. The reason is that, as a general rule, the law allows one to sue a person only once for a wrongful act. For example, if a motor car is damaged by the negligent action of another motorist and the cost of repair is S$5,000, the car owner will be able to claim for this loss, if he has a comprehensive Motor Insurance policy. However, he may also need to hire another motor vehicle, while his car is in the workshop for repair, and this cost (say, S$500) may not be covered by his Motor Insurance policy. Therefore, the owner will have to claim this back from the other negligent motorist. Since the insurer has the right to sue in its name for the S$5,000 which it has paid, it is important that it claims, in addition, for the S$500 hire charges on behalf of its insured, as otherwise the right to recover this expense may be lost. (c) Time When Subrogation Rights Arise At Common Law, the insurers must indemnify the insured (i.e. pay the claim) before they can exercise subrogation rights. However, this means that the insurers do not have complete control from the date of loss, and their liability to recover can be seriously prejudiced by delay, or by some other actions taken by the insured. For the above reason, insurers will always include an express subrogation clause in non-marine policies. This will allow the insurers to begin proceedings against a third party, before they have settled the insured’s own claim. The clause will also give the insurers the right to control the proceedings. The effect is that the insured will not be able to bring an action against the third party himself (unless the insurers agree) and will be in breach of his duty to the insurers, if he prejudices his rights in any way (e.g. by waiving his rights against the third party, or entering into a compromise with the third party). (d) The Amount Of The Recovery The operation of the principle of subrogation may depend on the amount which is recovered. (i) Recovery Equal To The Loss In many cases, the amount of the recovery from the third party will be the same as the loss suffered by the insured. For example, if the insurers pay a loss of S$5,000 in full and then recover S$5,000 from the third party, they will be entitled to keep the whole of the S$5,000 recovered. However, if they have paid only S$4,750, because the policy is subject to an excess of S$250, then the insurers will be allowed to retain only S$4,750 and must pass on the S$250 to the insured. (ii) Recovery Greater Than The Loss If there is any surplus after the insurers have recovered their money, the insured will be entitled to keep it. Take note that, once again, the insurers are not entitled to recover more than what they have paid out. (iii) Recovery Less Than The Loss In some cases, the recovery from the third party may be less than the loss suffered. If the insurers have paid for the whole of the loss, they will obviously be entitled to keep the whole sum which they have recovered. However, if the insurers have not paid the whole of the loss because the policy is subject to an excess, a difficult question will then arise. Using the same example as illustrated earlier, if the insurers recover S$4,000, it is not sure whether they can retain the full amount or only S$3,750 (S$4,000 - S$250), since there is no clear law on this.",
-                  "textJP": ""
+                  "textJP": "保険者が第三者に対して訴訟を提起する場合、以下の実務が適用されます。\n(a) 被保険者の名義による訴訟\n第三者に対する訴訟は被保険者の名義で提起されなければならず、法的には被保険者自身の訴訟とみなされますが、最終的に利益を得るのは保険者です。\n(b) 損失全体に対する1回の訴訟\n訴訟は損失全体に対するものでなければならず、保険者が負担した部分のみに対するものであってはなりません。理由は、一般的な規則として、法律はある者に対して不法行為について1回のみ訴えることを認めているからです。\n(c) 代位権の発生時期\nコモンローの下では、保険者は代位権を行使する前に被保険者にてん補を行わなければなりません（すなわち保険金を支払わなければなりません）。ただし、このことは保険者が損失発生日から完全な管理を有しないことを意味し、遅延や被保険者のその他の行為によって回収する責任が深刻に損なわれる可能性があります。このため、保険者は非海上保険証券に常に明示的な代位条項を含めます。これにより、保険者は被保険者自身の請求を決済する前に第三者に対する訴訟を開始することができます。この条項はまた、保険者に訴訟を管理する権利を与えます。\n(d) 回収額\n代位の原則の運用は回収額に依存する場合があります。\n(i) 回収額が損失に等しい場合 — 多くの場合、第三者からの回収額は被保険者が被った損失と同額です。保険者がS$5,000の損失全額を支払い、第三者からS$5,000を回収した場合、保険者は回収したS$5,000全額を保持する権利を有します。ただし、保険証券にS$250のエクセスが適用されるため保険者がS$4,750のみ支払った場合、保険者はS$4,750のみを保持する権利を有し、S$250は被保険者に引き渡さなければなりません。\n(ii) 回収額が損失を超える場合 — 保険者が資金を回収した後に余剰がある場合、被保険者はそれを保持する権利を有します。保険者は支払った額を超えて回収する権利を有しないことに再度留意してください。\n(iii) 回収額が損失未満の場合 — 第三者からの回収額が被った損失よりも少ない場合があります。保険者が損失全額を支払った場合、回収した全額を保持する権利を有するのは明らかです。ただし、保険証券にエクセスが適用されるため保険者が損失全額を支払っていない場合、困難な問題が生じます。"
                 }
               ]
             },
@@ -3136,12 +3166,12 @@
               "id": "ch4-s5-B",
               "label": "B",
               "title": "Ex-Gratia Payments",
-              "titleJP": "",
+              "titleJP": "見舞金（Ex-Gratia Payment）",
               "paragraphs": [
                 {
                   "num": "5.9",
                   "text": "Subrogation arises only from payments made under the terms of the policy. If the insurer makes a payment outside the terms of the policy, making it clear that no legal obligation to pay is accepted, and that payment is made merely as a favour (known as “ex-gratia” payment), which usually arises from goodwill or good business relationship, the insurer will not be entitled to subrogate against a third party. The insured is entitled to retain any amount secured in this way.",
-                  "textJP": ""
+                  "textJP": "代位は、保険証券の条件に基づいてなされた支払いからのみ生じます。保険者が保険証券の条件外で支払いを行い、法的義務を受け入れず、単に好意（「見舞金」（ex-gratia）として知られる）として支払いがなされたことを明示した場合（通常、善意または良好な事業関係から生じるもの）、保険者は第三者に対して代位する権利を有しません。被保険者はこの方法で確保された金額を保持する権利を有します。"
                 }
               ]
             },
@@ -3149,12 +3179,12 @@
               "id": "ch4-s5-C",
               "label": "C",
               "title": "Source Of Subrogation Rights",
-              "titleJP": "",
+              "titleJP": "代位権の源泉",
               "paragraphs": [
                 {
                   "num": "5.10",
                   "text": "We have seen that the effect of the doctrine of subrogation is to pass on to the insurer a right to recover from a third party who is legally responsible for the loss suffered by the insured. There are two main sources for such a right. It may arise in:\n▪ tort; and\n▪ contract.",
-                  "textJP": ""
+                  "textJP": "代位の法理の効果は、被保険者が被った損失に法的に責任を負う第三者から回収する権利を保険者に移転することであることを見てきました。そのような権利には2つの主な源泉があります。以下から生じる場合があります。\n▪ 不法行為（トート）\n▪ 契約"
                 }
               ]
             },
@@ -3162,12 +3192,12 @@
               "id": "ch4-s5-C1",
               "label": "C1",
               "title": "Tort",
-              "titleJP": "",
+              "titleJP": "不法行為（トート）",
               "paragraphs": [
                 {
                   "num": "5.11",
                   "text": "Subrogation rights most frequently arise in tort. In most cases, the third party will have negligently damaged the property belonging to the insured covered under the latter’s Property Insurance policy. For example, a lorry driver may negligently drive his motor vehicle into a building causing damage. If the owners of the building claim for such damage under their Property Insurance, the insurers will, on the face of it, be able to exercise their subrogation rights against the lorry driver in the name of the insured owners.",
-                  "textJP": ""
+                  "textJP": "代位権は不法行為において最も頻繁に生じます。ほとんどの場合、第三者は被保険者の財物保険の下でカバーされる、被保険者に属する財物を過失により損傷しています。例えば、トラックの運転手が過失により自動車を建物に衝突させ損傷を引き起こした場合。建物の所有者がその損傷を自己の財物保険に基づいて請求した場合、保険者は一見して、被保険者である所有者の名義で当該トラック運転手に対する代位権を行使することができます。"
                 }
               ]
             },
@@ -3175,12 +3205,12 @@
               "id": "ch4-s5-C2",
               "label": "C2",
               "title": "Contract",
-              "titleJP": "",
+              "titleJP": "契約",
               "paragraphs": [
                 {
                   "num": "5.12",
                   "text": "Subrogation rights may exist in contract. If the insured has an alternative contractual right of recovery, in addition to that provided by the insured’s own insurance, the insurers will be able to enforce this right for their own benefit. For example, property insurers that pay claims for damage to buildings may have rights of recovery against the insured’s tenant who is legally responsible for the damage under the terms of the lease agreement.",
-                  "textJP": ""
+                  "textJP": "代位権は契約に基づいても存在することがあります。被保険者が自己の保険によって提供されるものに加えて、代替的な契約上の回収権を有する場合、保険者はこの権利を自らの利益のために行使することができます。例えば、建物の損傷に対する保険金を支払った財物保険者は、賃貸契約の条件の下で損傷に法的に責任を負う被保険者のテナントに対する回収権を有することがあります。"
                 }
               ]
             },
@@ -3188,17 +3218,17 @@
               "id": "ch4-s5-D",
               "label": "D",
               "title": "Modification Of Subrogation Rights",
-              "titleJP": "",
+              "titleJP": "代位権の修正",
               "paragraphs": [
                 {
                   "num": "5.13",
                   "text": "Subrogation rights are often modified as a result of agreements among the insurance companies. Sometimes, insurers agree to modify their rights to subrogation against third parties. This is particularly common where the third party is also insured. As we have seen, if the third party is covered by his own Liability Insurance, the result is that one insurer will end up claiming against another insurer. This will result in extra administrative costs and possibly wasteful and expensive litigation among insurers, if they cannot agree on which one of their insureds is to blame for the damage.",
-                  "textJP": ""
+                  "textJP": "代位権は、保険会社間の合意の結果として修正されることがしばしばあります。保険者は、第三者に対する代位権を修正することに合意する場合があります。これは第三者も付保されている場合に特に一般的です。既に見たように、第三者が自己の賠償責任保険でカバーされている場合、その結果、ある保険者が別の保険者に対して請求することになります。これは、被保険者のどちらが損害について責任があるかについて合意できない場合、保険者間で追加の管理コストおよびおそらく無駄で高額な訴訟をもたらすことになります。"
                 },
                 {
                   "num": "5.14",
                   "text": "An example of such modification of subrogation rights is the Barometer Of Liability Agreement (BOLA) being used by motor insurers in the Singapore Motor Insurance market.",
-                  "textJP": ""
+                  "textJP": "このような代位権の修正の例として、シンガポールの自動車保険市場で自動車保険者が使用している賠償責任判定基準（BOLA：Barometer Of Liability Agreement）があります。"
                 }
               ]
             }
@@ -3208,17 +3238,17 @@
           "id": "ch4-s6",
           "number": "6",
           "title": "Contribution",
-          "titleJP": "",
+          "titleJP": "分担",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "Contribution (known as double or dual insurance) is the right of one insurer to recover an equitable proportion of a paid claim from another insurer who is also liable for the same claim.",
-              "textJP": ""
+              "textJP": "分担（重複保険または二重保険とも呼ばれます）とは、同一の保険金請求について同様に責任を負う他の保険者から、支払った保険金の公平な割合を回収する一方の保険者の権利です。"
             },
             {
               "num": "6.2",
               "text": "Like subrogation, contribution applies only to insurance policies which are contracts of indemnity. It effectively prevents the insured from “making a profit from his loss”. Contribution is concerned with the sharing of losses among insurers. It comes into effect when two or more insurers are liable to pay the same claim. If the insured claims from all of them, then he will recover more than the amount that he has lost, and this is a breach of the principle of indemnity. If the insured claims only from one insurer, then it will be unfair, as the other insurers have all received premiums to cover the risk. However, the principle of contribution has evolved to ensure that all insurers who are involved in covering the risk pay an equitable proportion or rateable share of the same claim.",
-              "textJP": ""
+              "textJP": "代位と同様に、分担は損害てん補契約である保険証券にのみ適用されます。これは被保険者が「損失から利益を得る」ことを効果的に防止します。分担は保険者間の損失の分担に関するものです。2社以上の保険者が同一の保険金請求を支払う義務を負う場合に効力を生じます。被保険者がすべての保険者に請求した場合、損失額を超える額を回収することになり、これは損害てん補の原則の違反です。被保険者が1社の保険者にのみ請求した場合、他のすべての保険者がリスクをカバーするために保険料を受け取っているため、不公平です。しかし、分担の原則は、リスクのカバーに関与するすべての保険者が同一の保険金請求の公平な割合を支払うことを確保するために発展してきました。"
             }
           ],
           "subsections": [
@@ -3226,17 +3256,17 @@
               "id": "ch4-s6-A",
               "label": "A",
               "title": "When Contribution Arises",
-              "titleJP": "",
+              "titleJP": "分担が生じる場合",
               "paragraphs": [
                 {
                   "num": "6.3",
                   "text": "At Common Law, the following requirements must be satisfied before contribution arises:\n▪ two or more policies of indemnity must exist;\n▪ the policies must cover a common interest;\n▪ the policies must cover a common peril which gives rise to the loss;\n▪ the policies must cover a common subject matter; and\n▪ each policy must be liable for the loss.",
-                  "textJP": ""
+                  "textJP": "コモンローの下では、分担が生じる前に以下の要件が満たされなければなりません。\n▪ 2つ以上のてん補保険契約が存在すること\n▪ 保険契約が共通の利益をカバーしていること\n▪ 保険契約が損失の原因となった共通の危険事故をカバーしていること\n▪ 保険契約が共通の対象物をカバーしていること\n▪ 各保険契約が当該損失について責任を負うこと"
                 },
                 {
                   "num": "6.4",
                   "text": "In the next few sections, you will see that for the principle of contribution to apply, there is a need only for interest, peril and subject matter to be common to all policies. There is no requirement that the policies must be identical, as long as there is some overlap in the insurance covers.",
-                  "textJP": ""
+                  "textJP": "次のいくつかのセクションで、分担の原則が適用されるためには、利益、危険事故、対象物がすべての保険証券に共通であるだけでよいことがわかります。保険証券が同一である必要はなく、保険カバーに何らかの重複がある限り十分です。"
                 }
               ]
             },
@@ -3244,22 +3274,22 @@
               "id": "ch4-s6-A1",
               "label": "A1",
               "title": "Two Or More Policies Of Indemnity",
-              "titleJP": "",
+              "titleJP": "2つ以上のてん補保険契約",
               "paragraphs": [
                 {
                   "num": "6.5",
                   "text": "Contribution will arise when there is more than one indemnity contract covering the same subject matter. Suppose Harry, who owns a restaurant, effects a new Fire Insurance policy with a new insurer, without cancelling an existing Fire Insurance policy, which the new policy is intended to replace. Hence, there will be two similar Fire Insurance policies covering the same restaurant. If a fire occurs at Harry’s restaurant, contribution among the insurers will arise. Insurance Policy Insurance Policy",
-                  "textJP": ""
+                  "textJP": "同一の対象物をカバーするてん補契約が複数存在する場合に分担が生じます。レストランを所有するHarryが、既存の火災保険を解約せずに新しい保険者と新しい火災保険を締結したとしましょう。したがって、同一のレストランをカバーする2つの類似の火災保険が存在することになります。Harryのレストランで火災が発生した場合、保険者間で分担が生じます。"
                 },
                 {
                   "num": "6.6",
                   "text": "In such a case, the insured should claim only on one contract of insurance and should inform the insurer of the existence of another policy. It is then up to that insurer (not the insured) to work out the contribution arrangements. The insured is not entitled to claim on both policies. In any event, the claim form will usually contain a relevant question such as the following: “Is there any other insurance covering the incident? If so, please state the policy number and name of the insurance company.”",
-                  "textJP": ""
+                  "textJP": "このような場合、被保険者は1つの保険契約のみに請求し、他の保険証券の存在を保険者に通知すべきです。分担の取り決めを決定するのは被保険者ではなく、当該保険者の責任です。被保険者は両方の保険証券に請求する権利を有しません。いずれにしても、保険金請求書には通常、「この事故をカバーする他の保険はありますか？ある場合は、保険証券番号と保険会社名を記載してください。」などの関連する質問が含まれています。"
                 },
                 {
                   "num": "6.7",
                   "text": "You must note that contribution does not apply in the case of a Life Insurance policy, or any other non-indemnity contract of insurance such as Personal Accident Insurance covering accidental death and permanent total disablement.",
-                  "textJP": ""
+                  "textJP": "分担は、生命保険や事故死亡および永久完全障害をカバーする傷害保険などの非てん補保険契約の場合には適用されないことに留意してください。"
                 }
               ]
             },
@@ -3267,12 +3297,12 @@
               "id": "ch4-s6-A2",
               "label": "A2",
               "title": "A Common Interest",
-              "titleJP": "",
+              "titleJP": "共通の利益",
               "paragraphs": [
                 {
                   "num": "6.8",
                   "text": "Different interests in the same property may exist in the case of landlord and tenant, mortgagor and mortgagee, or seller and purchaser of a building. If each of them effects a policy to cover only one’s own interest, then there will be no double insurance and no contribution. However, if either or both parties insure for the benefit of the other, as well as themselves, contribution may arise. For example, where a husband and wife insure a property jointly, and a second insurance is subsequently arranged by any one of them to cover each own interest only, then there is double insurance.",
-                  "textJP": ""
+                  "textJP": "同一の財物に対する異なる利益は、家主と賃借人、抵当権設定者と抵当権者、売主と買主の場合に存在することがあります。それぞれが自己の利益のみをカバーする保険証券を締結した場合、重複保険も分担も存在しません。しかし、いずれかまたは両方の当事者が他方の利益のためにも自己のためにも付保した場合、分担が生じることがあります。例えば、夫婦が共同で財物を付保し、その後いずれか一方がそれぞれの利益のみをカバーする第二の保険を別途手配した場合、重複保険となります。"
                 }
               ]
             },
@@ -3280,17 +3310,17 @@
               "id": "ch4-s6-A3",
               "label": "A3",
               "title": "A Common Peril",
-              "titleJP": "",
+              "titleJP": "共通の危険事故",
               "paragraphs": [
                 {
                   "num": "6.9",
                   "text": "The range of perils need not be identical, provided that there is an overlap between the policies. Therefore, an “All Risks” Insurance policy may be drawn into contribution with a Fire Insurance policy, where the source of loss is fire, despite the broader cover provided by the former.",
-                  "textJP": ""
+                  "textJP": "危険事故の範囲は同一である必要はなく、保険証券間に重複がある限り十分です。したがって、「オールリスク」保険は、損失の原因が火災である場合、前者が提供するより広いカバーにもかかわらず、火災保険と分担に引き込まれる可能性があります。"
                 },
                 {
                   "num": "6.10",
                   "text": "It is also common for a person to have more than two policies covering the same peril. For example, Ivan’s camera has been stolen from his car. The loss may be covered under Ivan’s Motor Insurance policy (which may have been extended to cover theft of personal effects in the motor vehicle) and also covered under a Householder’s Insurance policy or Personal All Risks Insurance policy. If Ivan has been on holiday during that time, there may even be an additional cover under a separate Travel Insurance policy. As such, contribution will arise among the insurers, so that each will pay an equitable proportion of the claim.",
-                  "textJP": ""
+                  "textJP": "同一の危険事故をカバーする保険証券を2つ以上有することも一般的です。例えば、Ivanのカメラが車から盗まれました。この損失は、Ivanの自動車保険（自動車内の身の回り品の盗難をカバーするように拡張されている場合があります）、家財保険、またはパーソナル・オールリスク保険の下でカバーされる可能性があります。Ivanがその間に休暇中であった場合、別個の旅行保険の下での追加カバーがある場合さえあります。したがって、各保険者が保険金請求の公平な割合を支払うよう、保険者間で分担が生じます。"
                 }
               ]
             },
@@ -3298,17 +3328,17 @@
               "id": "ch4-s6-A4",
               "label": "A4",
               "title": "A Common Subject Matter",
-              "titleJP": "",
+              "titleJP": "共通の対象物",
               "paragraphs": [
                 {
                   "num": "6.11",
                   "text": "The subject matter which is affected by the loss must be common to both policies. However, the policies need not cover exactly the same subject matter. For example, Best Trading Company may have one policy covering goods only in a particular warehouse in Ang Mo Kio Industrial Park, and another policy covering goods in all warehouses owned by the company throughout Singapore. Alternatively, a person may have a Householder’s Insurance policy covering all their personal possessions and a separate “All Risks” Insurance policy covering only a small number of specified items, such as antiques, jewellery and art. The range of properties covered by the policies does not have to be the same types, provided that there is some overlap in the insurance covers.",
-                  "textJP": ""
+                  "textJP": "損失の影響を受ける対象物は、両方の保険証券に共通でなければなりません。ただし、保険証券がまったく同一の対象物をカバーしている必要はありません。例えば、Best Trading Companyは、アンモキオ工業団地の特定の倉庫内の商品のみをカバーする保険証券と、シンガポール全土の同社が所有するすべての倉庫の商品をカバーする別の保険証券を有している場合があります。あるいは、個人がすべての個人所有物をカバーする家財保険と、骨董品、宝飾品、美術品などの少数の特定品目のみをカバーする別個の「オールリスク」保険を有している場合もあります。保険証券がカバーする財物の範囲は、保険カバーに何らかの重複がある限り、同じ種類である必要はありません。"
                 },
                 {
                   "num": "6.12",
                   "text": "You must also bear in mind that the subject matter may be something other than property. It can also be a legal liability that one assumes, or that of a possible financial loss.",
-                  "textJP": ""
+                  "textJP": "対象物は財物以外のものである場合もあることに留意してください。引き受ける法的賠償責任や潜在的な経済的損失である場合もあります。"
                 }
               ]
             },
@@ -3316,17 +3346,17 @@
               "id": "ch4-s6-A5",
               "label": "A5",
               "title": "Each Policy Liable For The Loss",
-              "titleJP": "",
+              "titleJP": "各保険証券が損失について責任を負うこと",
               "paragraphs": [
                 {
                   "num": "6.13",
                   "text": "Contribution will arise only where both insurers can be called upon to pay under their policies. This may not be the case if one insurer has the right to reject the claim, for example, for breach of condition.",
-                  "textJP": ""
+                  "textJP": "分担は、両方の保険者がそれぞれの保険証券の下で支払いを求められる場合にのみ生じます。一方の保険者が、例えば条件違反を理由に保険金請求を拒否する権利を有する場合は、該当しないことがあります。"
                 },
                 {
                   "num": "6.14",
                   "text": "For instance, an insured had two similar Home Insurance policies with Insurer A and Insurer B. The insured’s semi-detached house caught fire recently and his neighbour’s garden was damaged. Insurer A negotiated for a settlement of S$50,000 with the neighbour. Following Insurer A’s settlement with the neighbour, Insurer A claimed a 50% contribution from Insurer B. Insurer B refused to contribute on the grounds that the insured had failed to notify them of the loss and had breached a policy condition which required him to do so, so that there was no liability under the policy. Insurer A’s claim for contribution may fail in the Court, as Insurer B may have the right to reject the claim.",
-                  "textJP": ""
+                  "textJP": "例えば、被保険者が保険者Aと保険者Bの2つの類似の住宅保険を有していました。被保険者の半戸建住宅が最近火災にあい、隣人の庭が損傷しました。保険者Aは隣人とS$50,000の和解を交渉しました。保険者Aの隣人との和解後、保険者Aは保険者Bに50%の分担を請求しました。保険者Bは、被保険者が損失を通知せず、通知を求める保険約款の条件に違反したことを理由に、保険証券の下での責任がないとして分担を拒否しました。保険者Bが保険金請求を拒否する権利を有する可能性があるため、保険者Aの分担の請求は裁判所で認められない可能性があります。"
                 }
               ]
             },
@@ -3334,12 +3364,12 @@
               "id": "ch4-s6-B",
               "label": "B",
               "title": "Basis Of Contribution",
-              "titleJP": "",
+              "titleJP": "分担の基準",
               "paragraphs": [
                 {
                   "num": "6.15",
                   "text": "There are various ways of calculating the amount of contribution for the various classes of insurance.",
-                  "textJP": ""
+                  "textJP": "各保険種類の分担額を計算するためのさまざまな方法があります。"
                 }
               ]
             },
@@ -3347,12 +3377,12 @@
               "id": "ch4-s6-C",
               "label": "C",
               "title": "Modifications To The Principle",
-              "titleJP": "",
+              "titleJP": "原則の修正",
               "paragraphs": [
                 {
                   "num": "6.16",
                   "text": "There are some situations in which the principle of contribution is modified. Some common examples are described below: Contribution",
-                  "textJP": ""
+                  "textJP": "分担の原則が修正される状況がいくつかあります。一般的な例を以下に示します。"
                 }
               ]
             },
@@ -3360,12 +3390,12 @@
               "id": "ch4-s6-C1",
               "label": "C1",
               "title": "Non-Contribution Clauses",
-              "titleJP": "",
+              "titleJP": "非分担条項",
               "paragraphs": [
                 {
                   "num": "6.17",
                   "text": "Certain policies have what is known as a non-contribution clause. The effect of this clause is that the policy will not contribute if there is another insurance policy in force. However, the Courts do not favour such clauses, and in situations, where a similar clause applies to both or all policies, they are treated as cancelling each other out. This means that each insurer will contribute its own rateable proportion or rateable share of the same loss.",
-                  "textJP": ""
+                  "textJP": "一部の保険証券には、非分担条項として知られるものがあります。この条項の効果は、他の保険証券が有効である場合、当該保険証券は分担しないというものです。ただし、裁判所はそのような条項を好まず、類似の条項が両方またはすべての保険証券に適用される状況では、それらは互いに相殺されるものとして扱われます。これは、各保険者が同一の損失のそれぞれの比例的割合を分担することを意味します。"
                 }
               ]
             },
@@ -3373,12 +3403,12 @@
               "id": "ch4-s6-C2",
               "label": "C2",
               "title": "More Specific Insurance Clauses",
-              "titleJP": "",
+              "titleJP": "より特定的な保険条項",
               "paragraphs": [
                 {
                   "num": "6.18",
                   "text": "Certain policies include a clause which restricts cover in situations, where a more specific insurance has been arranged. The most common example is a Householder’s Insurance policy which restricts cover in this way. This is because many individuals insure jewellery and other items specifically, and it is not the intention for both policies to contribute.",
-                  "textJP": ""
+                  "textJP": "一部の保険証券には、より特定的な保険が手配されている状況でカバーを制限する条項が含まれています。最も一般的な例は、この方法でカバーを制限する家財保険です。これは、多くの個人が宝飾品やその他の品目を個別に付保しており、両方の保険証券が分担することは意図されていないためです。"
                 }
               ]
             },
@@ -3386,17 +3416,17 @@
               "id": "ch4-s6-C3",
               "label": "C3",
               "title": "Market Agreements",
-              "titleJP": "",
+              "titleJP": "市場協定",
               "paragraphs": [
                 {
                   "num": "6.19",
                   "text": "Market agreements among insurers modify the application of contribution itself. This can happen in two ways. Firstly, insurers may agree to share losses in cases where, strictly speaking, contribution does not arise in law. An example is the agreement which some insurers have on Fire Insurance claims. Insurers may agree to share certain losses, where their policies cover the same subject matter against the same peril, even though the policies may not cover the same interest.",
-                  "textJP": ""
+                  "textJP": "保険者間の市場協定は、分担自体の適用を修正します。これは2つの方法で起こりえます。第一に、厳密に言えば法律上分担が生じないケースにおいて、保険者が損失を分担することに合意する場合があります。一例として、一部の保険者が火災保険の保険金請求について有する合意があります。保険証券が同一の利益をカバーしていなくても、同一の対象物を同一の危険事故に対してカバーしている場合に、保険者が一定の損失を分担することに合意する場合があります。"
                 },
                 {
                   "num": "6.20",
                   "text": "Secondly, they may agree to waive the rights of contribution in some cases, where such a right clearly exists, so that the whole loss is borne by one insurer. An example is when one person (A) drives a car belonging to another person (B) and injures a third party (C). Contribution may arise in law, if A is an insured driver under B’s policy, and A also has his own policy with a “driving other cars’ extension”. Under the market agreement, B’s insurer (who insures the motor vehicle involved in the accident) will provide the indemnity to A and not seek contribution from A’s own insurers. A’s insurer will be called upon to pay, only where A is not an insured driver under B’s policy.",
-                  "textJP": ""
+                  "textJP": "第二に、そのような権利が明確に存在するケースにおいて、分担の権利を放棄することに合意し、損失全体を1社の保険者が負担する場合があります。一例として、ある者（A）が他の者（B）に属する自動車を運転し、第三者（C）を傷害する場合があります。AがBの保険証券の下での被保険運転者であり、Aが「他の車の運転」拡張特約を持つ自己の保険証券も有する場合、法律上分担が生じる可能性があります。市場協定の下では、Bの保険者（事故に関与した自動車を付保する保険者）がAにてん補を提供し、Aの自己の保険者から分担を求めません。Aの保険者は、AがBの保険証券の下での被保険運転者でない場合にのみ支払いを求められます。"
                 }
               ]
             }
@@ -3406,22 +3436,22 @@
           "id": "ch4-s7",
           "number": "7",
           "title": "Proximate Cause",
-          "titleJP": "",
+          "titleJP": "近因",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Proximate cause was defined in the case law of Pawsey & Company v. Scottish Union and National Insurance Company (1908) as “the active efficient cause that sets in motion a train of events which brings about a result, without the intervention of any force started and working actively from a new and independent source”.",
-              "textJP": ""
+              "textJP": "近因は、Pawsey & Company v. Scottish Union and National Insurance Company（1908年）の判例法において、「新たな独立した源泉から始まり積極的に作用する力の介入なしに、結果をもたらす一連の事象を動かす、能動的で効率的な原因」と定義されました。"
             },
             {
               "num": "7.2",
               "text": "The proximate cause (or causa proxima in Latin) of an occurrence is always the dominant cause, and there is a direct link between it and the resulting loss. A single event is not always the direct cause of a loss.",
-              "textJP": ""
+              "textJP": "ある出来事の近因（ラテン語でcausa proxima）は常に支配的原因であり、それと結果として生じた損失の間には直接的なつながりがあります。単一の事象が常に損失の直接的原因であるとは限りません。"
             },
             {
               "num": "7.3",
               "text": "At times, additional events may occur between the proximate cause of the loss and the loss itself, but these events occur in a type of “chain reaction”, with no other causal element interrupting the sequence. We shall illustrate proximate cause using Example 4.2. Example 4.2: An Illustration Of Proximate Cause A power station had a small fire in a control unit that caused a short-circuit in the electrical wiring. This caused one machine to stop operating. Since this machine regulated another, the second machine ran out of control and flipped a flywheel off its shaft, which badly damaged the adjacent machinery. In this example, the fire was the proximate cause of the damage to the machinery, because it started the chain reaction, and there were no other intervening causes.",
-              "textJP": ""
+              "textJP": "時には、損失の近因と損失自体の間に追加の事象が発生することがありますが、これらの事象は他の因果要素がその連鎖を中断することなく、一種の「連鎖反応」として発生します。\nExample 4.2: 近因の例示\n発電所の制御装置に小さな火災が発生し、電気配線のショートを引き起こしました。これにより1台の機械が停止しました。この機械が別の機械を制御していたため、2台目の機械が制御不能になり、フライホイールがシャフトから外れて隣接する機械を大きく損傷しました。この例では、火災が機械の損傷の近因です。火災が連鎖反応を開始し、他の介在する原因がなかったからです。"
             }
           ],
           "subsections": [
@@ -3429,27 +3459,27 @@
               "id": "ch4-s7-A",
               "label": "A",
               "title": "Types Of Perils",
-              "titleJP": "",
+              "titleJP": "危険事故（ペリル）の種類",
               "paragraphs": [
                 {
                   "num": "7.4",
                   "text": "Once the insurer has established the proximate cause of the loss, it must ensure that the peril is covered by the policy. Perils can be classified as described below: Insured Perils − those named in the policy as covered, e.g. collision under a Motor Car Insurance policy. Uninsured or Unnamed Perils − those perils not excluded in an All Risks Insurance policy, e.g. water damage caused by putting out a fire. Excluded Perils − those named in the policy as specifically not covered, e.g. fire as a result of war, etc.",
-                  "textJP": ""
+                  "textJP": "保険者が損失の近因を確定した後、危険事故が保険証券でカバーされていることを確認しなければなりません。危険事故は以下のように分類されます。\n被保険の危険事故（Insured Perils）— 保険証券にカバーされるものとして記載されている危険事故。例：自動車保険における衝突\n未保険または無名の危険事故（Uninsured or Unnamed Perils）— オールリスク保険で除外されていない危険事故。例：消火活動による水損害\n免責危険事故（Excluded Perils）— 保険証券に具体的にカバーされないものとして記載されている危険事故。例：戦争の結果としての火災"
                 },
                 {
                   "num": "7.5",
                   "text": "The insurer will decide whether a claim is valid or not, by establishing which of the above categories that the peril (being the proximate cause of the loss) will fall into. It is only necessary to find the proximate cause of a loss, where the events before the loss are not all insured perils.",
-                  "textJP": ""
+                  "textJP": "保険者は、損失の近因である危険事故が上記のどのカテゴリーに該当するかを確定することにより、保険金請求が有効かどうかを判断します。損失前の事象がすべて被保険の危険事故でない場合にのみ、損失の近因を見つける必要があります。"
                 },
                 {
                   "num": "7.6",
                   "text": "If the loss is due to an uninsured or unnamed peril, then the insurer will be liable if the proximate cause is an insured peril.",
-                  "textJP": ""
+                  "textJP": "損失が未保険または無名の危険事故によるものである場合、近因が被保険の危険事故であれば、保険者は責任を負います。"
                 },
                 {
                   "num": "7.7",
                   "text": "Examples 4.3 and 4.4 below show how proximate causes are classified. Example 4.3: Classification Of A Proximate Cause Suppose there is a Fire Insurance policy, which excludes damage from explosion, and suppose a tree branch falls onto the insured house:\n▪ The resulting property damage will not be covered by the Fire Insurance policy, since damage by a falling tree branch is an uninsured peril.\n▪ However, if the tree branch lands on some electrical circuitry and causes an electrical fault, which in turn starts a fire, the fire damage will be covered (fire is an insured peril).\n▪ Finally, if the fire reaches a gas cylinder and causes an explosion, the resulting damage will not be covered (explosion being an excluded peril). Example 4.4: Classification Of A Proximate Cause Suppose a Householder’s Insurance policy covers a direct physical loss to a property resulting from fire or lightning. A direct physical loss means that the fire or lightning must be the proximate cause of loss. Assume that a fire starts in the bedroom of a house. Also assume that the firefighters spray water onto the other rooms to keep the fire from spreading, and that the water causes considerable damage to the furniture, antiques, books, carpets and other household contents. In this instance, the entire loss is covered, including the water damage. This is because even though water damage is an uninsured peril, the fire which is the proximate cause of loss, is an insured peril.",
-                  "textJP": ""
+                  "textJP": "以下のExample 4.3とExample 4.4は、近因がどのように分類されるかを示しています。\nExample 4.3: 近因の分類\n爆発による損害を免責とする火災保険があり、木の枝が被保険住宅に落ちたとします。\n▪ 落下した木の枝による財物の損害は、火災保険ではカバーされません。木の枝の落下は未保険の危険事故だからです。\n▪ しかし、木の枝が電気配線に落ちて電気の故障を引き起こし、それが火災を発生させた場合、火災の損害はカバーされます（火災は被保険の危険事故）。\n▪ 最後に、火災がガスボンベに達して爆発を引き起こした場合、その結果の損害はカバーされません（爆発は免責危険事故）。\n\nExample 4.4: 近因の分類\n家財保険が、火災または落雷による財物への直接的な物理的損失をカバーするとします。直接的な物理的損失とは、火災または落雷が損失の近因でなければならないことを意味します。寝室で火災が発生したとします。消防士が延焼を防ぐために他の部屋に放水し、その水が家具、骨董品、書籍、カーペット、その他の家財に相当な損害を与えたとします。この場合、水損害を含む損失全体がカバーされます。水損害は未保険の危険事故ですが、損失の近因である火災が被保険の危険事故だからです。"
                 }
               ]
             }
