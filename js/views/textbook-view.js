@@ -162,7 +162,12 @@ registerRoute('#textbook', async (app) => {
           const loEl = el('div', { className: 'tb-lo' });
           loEl.appendChild(el('div', { className: 'tb-lo__title' }, tr('textbook.learningOutcomes', 'Learning Outcomes')));
           const loList = el('ul', { className: 'tb-lo__list' });
-          ch.learningOutcomes.forEach(lo => loList.appendChild(el('li', {}, lo)));
+          ch.learningOutcomes.forEach((lo, i) => {
+            const li = el('li');
+            const jpLo = ch.learningOutcomesJP && ch.learningOutcomesJP[i];
+            li.appendChild(triContent(lo, jpLo || null));
+            loList.appendChild(li);
+          });
           loEl.appendChild(loList);
           secList.appendChild(loEl);
         }
@@ -254,10 +259,16 @@ registerRoute('#textbook', async (app) => {
 
       for (const q of related.slice(0, 10)) {
         const qEl = el('div', { className: 'tb-related__item' });
-        const badge = el('span', { className: `badge tb-related__badge` },
-          q.difficulty <= 1 ? 'Easy' : q.difficulty <= 2 ? 'Medium' : 'Hard');
+        const diffEN = q.difficulty <= 1 ? 'Easy' : q.difficulty <= 2 ? 'Medium' : 'Hard';
+        const diffJP = q.difficulty <= 1 ? '易' : q.difficulty <= 2 ? '中' : '難';
+        const badge = el('span', { className: `badge tb-related__badge` });
+        badge.appendChild(triContent(diffEN, diffJP));
         qEl.appendChild(badge);
-        qEl.appendChild(el('span', { className: 'tb-related__text' }, q.question.substring(0, 120) + (q.question.length > 120 ? '...' : '')));
+        const textSpan = el('span', { className: 'tb-related__text' });
+        const enQ = q.question.substring(0, 120) + (q.question.length > 120 ? '...' : '');
+        const jpQ = q.questionJP ? q.questionJP.substring(0, 120) + (q.questionJP.length > 120 ? '...' : '') : null;
+        textSpan.appendChild(triContent(enQ, jpQ));
+        qEl.appendChild(textSpan);
         qEl.appendChild(el('button', {
           className: 'tb-related__go',
           onClick: () => { persistState(); navigate(`#quiz?module=${currentModule}&mode=practice&review=${q.id}&from=textbook`); },
@@ -265,8 +276,12 @@ registerRoute('#textbook', async (app) => {
         relEl.appendChild(qEl);
       }
       if (related.length > 10) {
-        relEl.appendChild(el('div', { className: 'tb-related__more' },
-          `+ ${related.length - 10} more`));
+        const moreEl = el('div', { className: 'tb-related__more' });
+        moreEl.appendChild(triContent(
+          `+ ${related.length - 10} more`,
+          `+ 他${related.length - 10}問`
+        ));
+        relEl.appendChild(moreEl);
       }
       container.appendChild(relEl);
     }
