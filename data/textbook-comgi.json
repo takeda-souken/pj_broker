@@ -4914,7 +4914,7 @@
       "id": "ch5",
       "number": 5,
       "title": "MARINE & AVIATION INSURANCE",
-      "titleJP": "",
+      "titleJP": "海上保険および航空保険",
       "outline": [
         "Introduction",
         "Types of Vessels And The Cargoes Carried",
@@ -4926,7 +4926,58 @@
         "Energy Insurance",
         "Aviation Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "船舶の種類と積荷",
+        "船舶の構造",
+        "海上貨物保険とは",
+        "海上貨物保険の必要性",
+        "契約の当事者",
+        "インコタームズ",
+        "MARフォーム",
+        "協会貨物約款A",
+        "協会貨物約款B・C",
+        "海上貨物保険証券の種類",
+        "航海保険証券",
+        "期間保険証券",
+        "オープンカバー",
+        "海上カバーノート",
+        "引受に必要な情報",
+        "保険金請求",
+        "請求書類",
+        "船体保険とは",
+        "船体保険の必要性",
+        "契約の当事者",
+        "補償範囲",
+        "保険期間",
+        "引受に必要な情報",
+        "保険金請求",
+        "全損",
+        "分損",
+        "救助費用",
+        "造船者危険保険とは",
+        "主な免責事由",
+        "引受に必要な情報",
+        "海上賠償責任保険とは",
+        "船舶修繕業者賠償責任保険",
+        "補償範囲",
+        "引受に必要な情報",
+        "傭船者賠償責任保険",
+        "補償範囲",
+        "引受に必要な情報",
+        "港湾局賠償責任保険",
+        "補償範囲",
+        "引受に必要な情報",
+        "荷役業者賠償責任保険",
+        "引受に必要な情報",
+        "エネルギー保険",
+        "引受に必要な情報",
+        "航空保険",
+        "航空機船体・賠償責任保険",
+        "航空製造物責任",
+        "空港所有者・運営者賠償責任",
+        "戦争・関連リスク"
+      ],
       "learningOutcomes": [
         "know what Marine Cargo Insurance is all about",
         "know the types of vessels and the nature of the cargoes they carry",
@@ -4963,27 +5014,27 @@
           "id": "ch5-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In this chapter, we will cover the following three types of Marine Insurance which is governed by the Marine Insurance Act 1906 adopted from the English Marine Insurance Act 1906, an Act to codify the law relating to Marine Insurance:\n▪ Marine Cargo Insurance;\n▪ Marine Hull Insurance; and\n▪ Marine Liability Insurance.",
-              "textJP": ""
+              "textJP": "本章では、英国海上保険法1906年から採用されたMarine Insurance Act 1906（海上保険法1906年）に基づく以下の3種類の海上保険を取り上げます：\n▪ 海上貨物保険\n▪ 船体保険\n▪ 海上賠償責任保険"
             },
             {
               "num": "1.2",
               "text": "We will also touch on Aviation Insurance briefly in this chapter.",
-              "textJP": ""
+              "textJP": "本章では航空保険についても簡潔に触れます。"
             },
             {
               "num": "1.3",
               "text": "It should be noted that the Marine Insurance Act 1906 uses the term “assured” instead of “insured” (to refer to the policyholder/policy owner) as commonly used in this text.",
-              "textJP": ""
+              "textJP": "Marine Insurance Act 1906は、本テキストで一般に使用される「insured（被保険者）」ではなく、「assured」という用語を使用していることにご留意ください。"
             },
             {
               "num": "1.4",
               "text": "Before we study the types of Marine insurance, let us firstly examine the types of vessels as well as the nature of cargoes they carry. We shall also briefly discuss the parts of a vessel.",
-              "textJP": ""
+              "textJP": "海上保険の種類を学ぶ前に、まず船舶の種類および積載する貨物の性質を検討しましょう。船舶の構造部分についても簡潔に説明します。"
             }
           ],
           "subsections": []
@@ -4992,22 +5043,22 @@
           "id": "ch5-s2",
           "number": "2",
           "title": "Types Of Vessels And The Cargoes Carried",
-          "titleJP": "",
+          "titleJP": "船舶の種類と積荷",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "There are various types of commercial vessels and they come in all shapes and sizes designed to carry a wide variety of cargoes. A study of marine insurance is never complete without first understanding the type of vessels that being insured.",
-              "textJP": ""
+              "textJP": "さまざまな種類の商業船舶があり、多種多様な貨物を運搬するために設計された、あらゆる形状・大きさのものがあります。海上保険の学習は、保険引受対象となる船舶の種類を最初に理解しなければ完結しません。"
             },
             {
               "num": "2.2",
               "text": "It is not necessary to know everything about the ships covered by an insurance contract. However, a marine insurance underwriter should recognise the various types of vessels he is asked to insure. He needs to have a good knowledge of the hazards faced by ships, the functions of different ships and how such ships are built to withstand these hazards.",
-              "textJP": ""
+              "textJP": "保険契約の対象となる船舶についてすべてを知る必要はありません。しかし、海上保険の引受担当者は、付保を依頼されるさまざまな種類の船舶を認識すべきです。"
             },
             {
               "num": "2.3",
               "text": "The types of vessels commonly insured and their cargoes carried, or usage are shown in the table below. Types of Vessels Cargoes Carried/Usage Dry Cargo Ships They carry traditional dry cargoes or general cargoes Bulk Carriers They are designed to carry dry cargoes with high weight to cost ratios i.e. they are relatively cheap on a per weightage basis. Examples of such cargoes include coal, grain and ore. General Cargo Vessels They are used to carry cargoes in the form of pallets or bags. These are known as breakbulk cargoes which require specialised handling facilities. Container Vessels Containers are versatile in their usage and they can carry goods such as foodstuffs, electrical equipment, automobiles etc. They can also be used to carry bagged and palletised goods, liquids, refrigerated cargo and other types of cargo. Reefer Vessels Perishable goods such as fruit or meat require special care and controlled temperatures in their transit. A reefer vessel is a ship designed to carry refrigerated cargo. Ro-Ro Vessels They carry road vehicles such as cars, trucks etc. Liquid Cargo Ships These are commonly called “tankers” which carry liquid cargoes. Crude Carriers They carry crude oil and transport it to refineries around the world. Liquefied Gas Carriers They are designed to carry Liquefied Petroleum Gas (LPG) or Liquefied Natural Gas (LNG) under pressure. Passenger Vessels Passengers. Livestock Carriers These ships are designed to carry animals. Heavy-Lift/Project Cargo Vessels These vessels are used to carry extremely heavy or bulky objects such as other ships and large industrial components. Tugs They are often used in the berthing, unberthing and movement of large or less manoeuvrable vessels within port limits. Tugs are also used to tow barges not to mention moving large structures such as offshore platforms and floating storage units.",
-              "textJP": ""
+              "textJP": "一般に付保される船舶の種類とその積荷・用途は以下の表のとおりです。\n船舶の種類と積荷・用途：\nドライカーゴ船：従来の乾貨物または一般貨物を運搬\nバルクキャリア：穀物、鉱石などのばら積み貨物を運搬\nコンテナ船：コンテナ化された貨物を運搬\nタンカー：石油、化学品などの液体貨物を運搬\nLNG船：液化天然ガスを運搬"
             }
           ],
           "subsections": []
@@ -5016,32 +5067,32 @@
           "id": "ch5-s3",
           "number": "3",
           "title": "Parts Of A Vessel",
-          "titleJP": "",
+          "titleJP": "船舶の構造",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "While ships may vary in size and types, they all have two points in common.",
-              "textJP": ""
+              "textJP": "船舶のサイズや種類はさまざまですが、すべての船舶には二つの共通点があります。"
             },
             {
               "num": "3.2",
               "text": "Firstly, ships are made of steel and composite material. Secondly, they comprise three main parts:\n▪ Navigation bridge\n▪ Hull\n▪ Engine room",
-              "textJP": ""
+              "textJP": "第一に、船舶は鋼鉄および複合材料で作られています。第二に、三つの主要部分で構成されています：\n▪ 航海船橋（ナビゲーションブリッジ）\n▪ 船体（ハル）\n▪ 機関室"
             },
             {
               "num": "3.3",
               "text": "One can find both the visible and invisible structural parts in a ship. The parts that are visible comprise:\n▪ Rudder\n▪ Anchor\n▪ Bow\n▪ Keel\n▪ Accommodation\n▪ Propeller\n▪ Mast\n▪ Bridge,\n▪ Hatch covers and\n▪ Bow thrusters.",
-              "textJP": ""
+              "textJP": "船舶には可視的な構造部分と不可視の構造部分の両方があります。可視的な部分には以下が含まれます：\n▪ 舵\n▪ 錨\n▪ 船首\n▪ 竜骨\n▪ 居住区\n▪ プロペラ\n▪ マスト\n▪ ブリッジ\n▪ ハッチカバー\n▪ バウスラスター"
             },
             {
               "num": "3.4",
               "text": "The invisible but structural part of ship consists of:\n▪ bulkheads\n▪ frames\n▪ cargo holds\n▪ hopper tank\n▪ double bottom\n▪ girders\n▪ cofferdams, side shell etc.",
-              "textJP": ""
+              "textJP": "不可視だが構造上重要な船舶の部分は以下で構成されています：\n▪ 隔壁\n▪ フレーム\n▪ 貨物倉\n▪ ホッパータンク\n▪ 二重底\n▪ ガーダー\n▪ コファダム、外板等"
             },
             {
               "num": "3.5",
               "text": "A virtual reality video of the interior and parts of a vessel can be found at: https://dipen1489.github.io/shipdeck/index.html",
-              "textJP": ""
+              "textJP": "船舶の内部および各部分のバーチャルリアリティ動画は以下のリンクで閲覧できます。"
             }
           ],
           "subsections": []
@@ -5057,22 +5108,22 @@
               "id": "ch5-s4-A",
               "label": "A",
               "title": "What Is Marine Cargo Insurance?",
-              "titleJP": "",
+              "titleJP": "海上貨物保険とは",
               "paragraphs": [
                 {
                   "num": "4.1",
                   "text": "Goods of all descriptions are constantly being transported not only from one country to another, but also within a country. The goods may be carried by road, rail, sea or air. They are exposed to hazards normally associated with such transportation. Therefore, Marine Cargo Insurance provides the insured with indemnity for loss of or damage to the goods during transit.",
-                  "textJP": ""
+                  "textJP": "あらゆる種類の商品が、国際間だけでなく国内でも絶えず輸送されています。商品は道路、鉄道、海上または航空で運搬されます。輸送に通常伴う危険にさらされており、その結果、滅失または損傷が生じる可能性があります。"
                 },
                 {
                   "num": "4.2",
                   "text": "A Marine Cargo Insurance policy includes cover for land transit commencing from the moment the goods leave the place of storage until they arrive at the final warehouse. For administrative convenience, most insurers cover air and sea cargo, inland transit, parcel post and carryings by couriers within the Marine Cargo Department.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険証券は、商品が保険証券に記載された保管場所を出発した瞬間から最終倉庫に到着するまでの陸上輸送の補償を含みます。事務上の便宜のため、ほとんどの保険者は航空輸送やコンテナ輸送などの輸送も海上保険部門で取り扱います。"
                 },
                 {
                   "num": "4.3",
                   "text": "For the above reasons, the term “Marine Cargo Insurance” is often loosely used to refer to all forms of Cargo Insurance, regardless of how the cargoes are transported. It is sometimes said that this type of insurance should be more appropriately called “Transit Insurance”.",
-                  "textJP": ""
+                  "textJP": "上記の理由から、「海上貨物保険」という用語は、貨物がどのように輸送されるかにかかわらず、あらゆる形態の貨物保険を指す際にしばしば便宜的に使用されます。"
                 }
               ]
             },
@@ -5080,12 +5131,12 @@
               "id": "ch5-s4-B",
               "label": "B",
               "title": "The Need For Marine Cargo Insurance",
-              "titleJP": "",
+              "titleJP": "海上貨物保険の必要性",
               "paragraphs": [
                 {
                   "num": "4.4",
                   "text": "Modern trade and commerce cannot function without Marine Cargo Insurance. The movement of raw materials and manufactured goods between countries and the internal movement within the country itself will involve credit and cash transactions worth millions of dollars. Serious loss or damage to a cargo can create financial difficulties for the buyer, seller or any other party having an interest in the goods. Thus, such contingencies need to be protected against via some form of transportation insurance, essentially Marine Cargo Insurance.",
-                  "textJP": ""
+                  "textJP": "現代の貿易・商業は海上貨物保険なくしては機能できません。国家間の原材料・製造品の移動、および国内での移動には、信用取引や財務取決めが伴います。貨物保険は、輸送中の商品の滅失・損害リスクに対する保護を提供します。"
                 }
               ]
             },
@@ -5093,27 +5144,27 @@
               "id": "ch5-s4-C",
               "label": "C",
               "title": "Parties To The Contract",
-              "titleJP": "",
+              "titleJP": "契約の当事者",
               "paragraphs": [
                 {
                   "num": "4.5",
                   "text": "The parties to a Marine Cargo Insurance contract will involve the insurer and one or more of the following parties:\n▪ importers;\n▪ exporters;\n▪ freight forwarders;\n▪ traders; and/or\n▪ other buyers and sellers engaged in international and/or local trade.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険契約の当事者は、保険者および以下の一人以上の当事者です：\n▪ 輸入者\n▪ 輸出者\n▪ フォワーダー\n▪ トレーダー\n▪ 貨物の輸送に従事するその他の買い手・売り手"
                 },
                 {
                   "num": "4.6",
                   "text": "In a usual sales transaction, it is important that both the seller and the buyer know which party will be effecting insurance on the goods during transit.",
-                  "textJP": ""
+                  "textJP": "通常の売買取引において、売り手と買い手のどちらが輸送中の商品に保険を付保するかを知ることが重要です。"
                 },
                 {
                   "num": "4.7",
                   "text": "In today’s transaction, the introduction of a trader/middleman makes the issue of effecting insurance even more complicated. The job of a trader is to buy from one party in order to sell to another. In the process, he either makes a commission or makes from the difference in the selling and buying price. Care must be taken in handling these transactions, especially where the sales are done under letters of credit which call for policies to be taken out in a certain way. As such, the seller will rather not let the buyer know the source of the goods or the original buying price.",
-                  "textJP": ""
+                  "textJP": "今日の取引では、トレーダー/仲介者の介在が保険付保の問題をさらに複雑にしています。トレーダーの仕事は、一方の当事者から購入し他方に販売することです。"
                 },
                 {
                   "num": "4.8",
                   "text": "We will now look at the INCOTERMS as stipulated under the “Terms Of Sale” – a document that shows, among other things, which party should take up the Marine Cargo Insurance cover.",
-                  "textJP": ""
+                  "textJP": "ここで、どの当事者が海上貨物保険を付保すべきかを示す文書である「売買条件」に規定されたインコタームズを確認しましょう。"
                 }
               ]
             },
@@ -5121,32 +5172,32 @@
               "id": "ch5-s4-C1",
               "label": "C1",
               "title": "INCOTERMS – Who To Insure?",
-              "titleJP": "",
+              "titleJP": "インコタームズ — 誰が付保するか？",
               "paragraphs": [
                 {
                   "num": "4.9",
                   "text": "INCOTERMS are key elements of international contracts of sale, since they tell the parties what to do with respect to:\n▪ carriage of the goods from seller to buyer; and\n▪ export and import clearance. They also explain the division of costs and risks between the parties.",
-                  "textJP": ""
+                  "textJP": "インコタームズは国際売買契約の重要な要素であり、当事者に以下に関する義務を示します：\n▪ 売り手から買い手への貨物の運送\n▪ 輸出入通関手続き\nまた、費用とリスクが売り手から買い手へいつ移転するかも説明しています。"
                 },
                 {
                   "num": "4.10",
                   "text": "INCOTERMS deal with the rights and obligations of the parties to a sale, i.e. the seller or buyer. They show at which stage of the transit that the interest in the cargo lies with the seller, and at which stage that the interest is transferred to the buyer. The party who has interest in the cargo at a particular stage of the transit is entitled and certainly encouraged to take up an insurance cover, to protect his interest in the cargo. However, there is no compulsion for either the seller or the buyer to take up the insurance cover with the exception of CIF which we will discuss later.",
-                  "textJP": ""
+                  "textJP": "インコタームズは売買の当事者（売り手または買い手）の権利と義務を扱います。輸送のどの段階で貨物に対する利害が売り手にあり、どの段階で買い手に移転するかを示します。"
                 },
                 {
                   "num": "4.11",
                   "text": "Examples of INCOTERMS are “Ex Works”, “FOB”, “CFR” (formerly known as “C&F”) and “CIF”. From an insurance perspective, the principal difference concerns the time when the risk in the goods has been passed from the seller to the buyer.",
-                  "textJP": ""
+                  "textJP": "インコタームズの例には「Ex Works」「FOB」「CFR」（旧称「C&F」）「CIF」があります。保険の観点から、主な違いは商品のリスクが売り手から買い手に移転する時期に関するものです。"
                 },
                 {
                   "num": "4.12",
                   "text": "We will discuss the meanings of three of the most commonly used terms, namely FOB, CIF and CFR. However, we will concern ourselves only with the insurance implications of these terms of sale. (a) Free On Board (FOB) When goods are sold FOB, it means that the seller is only responsible for bringing the cargo from his premises to the port, and his responsibility ceases when it is safely loaded on board the designated vessel. Any loss or damage occurring up to this stage is the responsibility of the seller. Crossing the “ship’s rail” is the exact point at which interest passes from the seller to the buyer. Once the cargo is loaded on board the vessel, interest in the cargo passes over to the buyer who will then need to effect his own insurance to protect the cargo against loss or damage at this stage, until it arrives at his own premises. (b) Cost, Insurance And Freight (CIF) CIF means that the seller delivers the goods on board the vessel or procures the goods already so delivered. The risk of loss of or damage to the goods passes when the goods are on board the vessel. The seller must contract for and pay the costs and freight necessary to bring the goods to the named port of destination. The seller also contracts for insurance cover against the buyer’s risk of loss of or damage to the goods during the carriage. The buyer should note that under CIF the seller is required to obtain insurance only on minimum cover. Should the buyer wish to have more insurance protection, it will need either to agree as much expressly with the seller or to make its own extra insurance arrangements.1 (c) Cost & Freight (CFR) A contract on CFR (formerly known as C&F) is similar to a FOB contract in that the goods are still at the risk of the seller until they pass the ship’s rail. From this point onwards, interest in the goods will rest with the buyer. Therefore, the buyer can effect Marine Cargo Insurance to protect the goods. In the case of the CFR contract, the responsibility for arranging and paying for the carriage of the cargo on board the overseas vessel is borne by the seller. In contrast, for the FOB contract, the responsibility and payment are borne by the buyer.",
-                  "textJP": ""
+                  "textJP": "最も一般的に使用される三つの用語、すなわちFOB、CIF、CFRの意味を説明します。ただし、これらの売買条件の保険上の意味にのみ焦点を当てます。\n(a) 本船渡し（FOB）：FOB条件では、売り手のリスクは商品が指定された積出港で本船に積み込まれた時点で終了します。\n(b) 運賃保険料込み（CIF）：CIF条件では、売り手が仕向地までの運賃と保険料を負担します。\n(c) 運賃込み（CFR）：CFR条件では、売り手が仕向地までの運賃を負担しますが、保険は買い手の責任です。"
                 },
                 {
                   "num": "4.13",
                   "text": "Table 5.1 summarises which party should insure the cargo under the three different trading terms. Table 5.1: The Party To Insure Cargo Under CIF, FOB & CFR Trading Terms CIF FOB CFR Seller/Exporter To Insure ✓ Buyer/Importer To Insure ✓ ✓ 1 Source: https://incodocs.com/blog/wp-content/uploads/2020/03/IncoDocs-Trade-Guide-March-2020.pdf",
-                  "textJP": ""
+                  "textJP": "表5.1は、三つの異なる売買条件の下でどの当事者が貨物を付保すべきかを要約しています。\nCIF：売り手/輸出者が付保\nFOB：買い手/輸入者が付保\nCFR：買い手/輸入者が付保"
                 }
               ]
             },
@@ -5154,34 +5205,34 @@
               "id": "ch5-s4-D",
               "label": "D",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": []
             },
             {
               "id": "ch5-s4-D1",
               "label": "D1",
               "title": "MAR Form",
-              "titleJP": "",
+              "titleJP": "MARフォーム",
               "paragraphs": [
                 {
                   "num": "4.14",
                   "text": "The MAR Form which is an abbreviation for “Marine Form” does not have any terms and conditions on it. Rather, it is simply the schedule of the policy which contains the following information:",
-                  "textJP": ""
+                  "textJP": "「Marine Form」の略であるMARフォームには、約款条項は記載されていません。保険証券の明細書であり、以下の情報が含まれています。"
                 },
                 {
                   "num": "4.15",
                   "text": "Attached to the MAR Form is one of the following Institute Cargo Clauses (ICC) which specifies the terms and conditions of a Marine Cargo Insurance policy:\n▪ Institute Cargo Clauses A (ICC A);\n▪ Institute Cargo Clauses B (ICC B); or\n▪ Institute Cargo Clauses C (ICC C).",
-                  "textJP": ""
+                  "textJP": "MARフォームには以下のいずれかの協会貨物約款（ICC）が添付され、海上貨物保険証券の約款条項を規定します：\n▪ 協会貨物約款A（ICC A）\n▪ 協会貨物約款B（ICC B）\n▪ 協会貨物約款C（ICC C）"
                 },
                 {
                   "num": "4.16",
                   "text": "The most recent Institute Cargo Clauses are the 2009 version as launched in January 2009 and for the purpose of this text, we shall focus on the 2009 clauses as these are the latest version.",
-                  "textJP": ""
+                  "textJP": "最新の協会貨物約款は2009年1月に発表された2009年版であり、本テキストでは最新版である2009年約款に焦点を当てます。"
                 },
                 {
                   "num": "4.17",
                   "text": "It should be noted that, in addition to the above-mentioned three clauses (which will be discussed in greater detail in the following sub-sections), there are various other special clauses for different trades, some of which are used for the trade of rubber, timber, coal, fats and oils, etc.",
-                  "textJP": ""
+                  "textJP": "上記の三つの約款（以下のサブセクションでより詳細に議論します）に加え、さまざまな業種向けの特別約款が多数あることにご留意ください。"
                 }
               ]
             },
@@ -5189,22 +5240,22 @@
               "id": "ch5-s4-D2",
               "label": "D2",
               "title": "Institute Cargo Clauses A (ICC A) 1.1.2009",
-              "titleJP": "",
+              "titleJP": "協会貨物約款A（ICC A）2009年1月1日",
               "paragraphs": [
                 {
                   "num": "4.18",
                   "text": "Cover provided under the ICC A is sometimes called the “All Risks” cover, since it covers the goods against all risks of loss and/or damage, subject to specific exclusions as mentioned below. The loss and/or damage to goods must be due to accidental and/or fortuitous circumstances.",
-                  "textJP": ""
+                  "textJP": "ICC Aに基づく補償は「オールリスク」補償と呼ばれることがあります。以下に記載する特定の免責事由を除き、貨物のあらゆる滅失・損傷リスクを補償するためです。"
                 },
                 {
                   "num": "4.19",
                   "text": "This is the most common cover requested by cargo owners. Where cargo is bought and/or sold under a bank’s letter of credit, it is common that the bank will insist on the “All Risks” cover. Indeed, it is usually impossible to obtain support from banks for shipments, unless the cover is arranged under Clause A. MAR FORM\n▪ sum insured;\n▪ risk insured against;\n▪ name of the insured;\n▪ names of the insurers;\n▪ subject matter insured;\n▪ voyage and period of time covered.",
-                  "textJP": ""
+                  "textJP": "これは貨物所有者が最も一般的に要求する補償です。銀行の信用状に基づき貨物が売買される場合、銀行が「オールリスク」補償を要求するのが一般的です。"
                 },
                 {
                   "num": "4.20",
                   "text": "The General Exclusion Clause for ICC A 1.1.2009 states that the insurance will not cover loss, damage or expense caused by the following perils:\n▪ wilful misconduct of the insured;\n▪ ordinary leakage, loss of weight or volume, wear and tear;\n▪ unsuitable packing;\n▪ inherent vice (damage from the nature of the goods themselves);\n▪ delay;\n▪ insolvency or financial default of owners, managers, charterers or operators of vessels (where, at the time of loading of the subject-matter insured on board the vessel, the insured is aware, or in the ordinary course of business should be aware, that such insolvency or financial default could prevent the normal prosecution of the voyage);\n▪ use of any weapon or device employing atomic or nuclear fission or radioactive force or matter.",
-                  "textJP": ""
+                  "textJP": "ICC A 2009年の一般免責条項は、以下の危険に起因する滅失・損傷・費用を補償しないと規定しています：\n▪ 被保険者の故意の不正行為\n▪ 通常の漏洩、自然減量、通常の摩耗・損耗\n▪ 梱包の不足または不適切\n▪ 保険の目的物に固有の瑕疵・性質\n▪ 遅延に近因する滅失・損傷・費用\n▪ 船主等の支払不能・財務不履行\n▪ 原子力兵器の使用"
                 }
               ]
             },
@@ -5212,32 +5263,32 @@
               "id": "ch5-s4-D3",
               "label": "D3",
               "title": "Institute Cargo Clauses B & C (ICC B & C) 1.1.2009",
-              "titleJP": "",
+              "titleJP": "協会貨物約款B・C（ICC B・C）2009年1月1日",
               "paragraphs": [
                 {
                   "num": "4.21",
                   "text": "These are restricted covers. Some call them “Named Perils” covers, because the perils that are covered are specifically stated in the clauses. In order to make a claim under this cover, the onus of proving a loss rests with the person making the claim. He will have to show that his cargo was damaged or lost by one of the perils specifically stated in the cover.",
-                  "textJP": ""
+                  "textJP": "これらは限定補償です。補償される危険が約款に具体的に記載されているため、「列挙危険方式」と呼ぶ者もいます。この補償に基づき請求を行うためには、損害が列挙された危険のいずれかに起因することを立証する責任は被保険者にあります。"
                 },
                 {
                   "num": "4.22",
                   "text": "The following perils are some of the “Named Perils” found under the ICC B and ICC C (ICC C does not cover those perils marked with *):\n▪ fire and explosion;\n▪ stranding, grounding, sinking or capsizing of vessel or craft;\n▪ overturning and derailment of land conveyance;\n▪ collision or contact of vessel with any external object other than water;\n▪ discharge of cargo at port of distress;\n▪ general average sacrifice;\n▪ jettison;\n▪ washing overboard;*\n▪ entry of sea, lake or river water into vessel, craft, hold, conveyance, liftvan, or place of storage;*\n▪ total loss of package, lost overboard or dropped while loading onto or unloading from the vessel or craft;* and\n▪ earthquake, volcanic eruption or lightning.*",
-                  "textJP": ""
+                  "textJP": "ICC BおよびICC C（ICC Cは*印の危険を補償しません）に見られる「列挙危険」の一部は以下のとおりです：\n▪ 火災および爆発\n▪ 船舶の座礁、乗り上げ、沈没または転覆\n▪ 陸上輸送用具の転覆または脱線\n▪ 避難港における貨物の荷卸し\n▪ 地震、噴火、落雷*\n▪ 共同海損犠牲\n▪ 投荷\n▪ 波浪による甲板流出*\n▪ 海水・湖水・河水の船舶への浸入*"
                 },
                 {
                   "num": "4.23",
                   "text": "The general exclusion clause for ICC B and ICC C is very similar to that of the ICC A, with the exception that the ICC A covers malicious damage which is specifically excluded under the ICC B and ICC C. To have a clearer picture, Table",
-                  "textJP": ""
+                  "textJP": "ICC BおよびICC Cの一般免責条項はICC Aのものと非常に類似していますが、ICC Aが悪意による損害を補償するのに対し、ICC BおよびICC Cでは明示的に除外されている点が異なります。"
                 },
                 {
                   "num": "5.2",
                   "text": "is a summary depicting the types of risks covered by the three Institute Cargo Clauses. Table 5.2: Risks Covered Under The Institute Cargo Clauses (A), (B) & (C) 1.1.2009 Clauses Risks Covered ‘A’ Clauses All Risks of loss or damage to the subject matter other than those excluded. ‘B’ Clauses Loss of or damage to the subject matter insured reasonably attributable to named risks as follows: fire, explosion, stranding, grounding, sinking, capsizing of vessel, over-turning, derailment of land conveyance, collision, or contact of vessel with any external object other than water; discharge of cargo at port of distress; general average sacrifice, jettison; washing overboard, entry of sea, lake or river water into vessel, craft, hold, conveyance, liftvan or place of storage; total loss of package lost overboard or dropped during loading or unloading; earthquake, volcanic eruption or lightning. ‘C’ Clauses Loss of or damage to the subject matter insured reasonably attributable to named risks as follows: fire, explosion, stranding, grounding, sinking, capsizing of vessel, over-turning, derailment of land conveyance, collision, or contact of vessel with any external object other than water; discharge of cargo at port of distress; general average sacrifice, jettison.",
-                  "textJP": ""
+                  "textJP": "以下は、三つの協会貨物約款によりカバーされるリスクの種類を示す概要表です。\n表5.2：協会貨物約款(A)、(B)、(C) 2009年のカバーリスク\nA約款：あらゆる滅失・損傷リスク（免責事由除く）\nB約款：列挙危険（限定的）\nC約款：列挙危険（最も限定的）"
                 },
                 {
                   "num": "4.24",
                   "text": "Table 5.3 is a summary depicting some of the common exclusions under the three Institute Cargo Clauses. Table 5.3: Common Exclusions Under The Institute Cargo Clauses (A), (B) & (C) 1.1.2009 Clauses General Exclusions ‘A’ Clauses Insurance does not cover loss, damage or expense caused by:\n▪ wilful misconduct of assured;\n▪ ordinary leakage, loss of weight or volume, wear and tear;\n▪ unsuitable packing;\n▪ inherent vice;\n▪ delay;\n▪ insolvency or financial default of the owners managers charterers or operators of the vessel where, at the time of loading of the subject-matter insured on board the vessel, the Clauses General Exclusions assured are aware, or in the ordinary course of business should be aware, that such insolvency or financial default could prevent the normal prosecution of the voyage; or\n▪ use of any weapon or device employing atomic or nuclear fission or radioactive force or matter. ‘B’ Clauses Insurance does not cover loss, damage or expense caused by:\n▪ wilful misconduct of insured;\n▪ ordinary leakage, loss of weight or volume, wear and tear;\n▪ unsuitable packing;\n▪ inherent vice;\n▪ delay;\n▪ insolvency or financial default of the owners managers charterers or operators of the vessel where, at the time of loading of the subject-matter insured on board the vessel, the insured is aware, or in the ordinary course of business should be aware, that such insolvency or financial default could prevent the normal prosecution of the voyage;\n▪ use of any weapon or device employing atomic or nuclear fission or radioactive force or matter; or\n▪ deliberate damage to or destruction of subject matter insured. ‘C’ Clauses Insurance does not cover loss, damage or expense caused by:\n▪ wilful misconduct of insured;\n▪ ordinary leakage, loss of weight or volume, wear and tear;\n▪ unsuitable packing;\n▪ inherent vice;\n▪ delay;\n▪ insolvency or financial default of the owners managers charterers or operators of the vessel where, at the time of loading of the subject-matter insured on board the vessel, the insured is aware, or in the ordinary course of business should be aware, that such insolvency or financial default could prevent the normal prosecution of the voyage;\n▪ use of any weapon or device employing atomic or nuclear fission or radioactive force or matter; or\n▪ deliberate damage to or destruction of subject matter insured.",
-                  "textJP": ""
+                  "textJP": "表5.3は、三つの協会貨物約款に共通する免責事由の概要を示しています。"
                 }
               ]
             },
@@ -5245,12 +5296,12 @@
               "id": "ch5-s4-E",
               "label": "E",
               "title": "Types Of Marine Cargo Insurance Policies",
-              "titleJP": "",
+              "titleJP": "海上貨物保険証券の種類",
               "paragraphs": [
                 {
                   "num": "4.25",
                   "text": "Generally, there are two basic types of Marine Cargo Insurance policies, namely:\n▪ Voyage Policy; and\n▪ Time Policy.",
-                  "textJP": ""
+                  "textJP": "一般に、海上貨物保険証券には以下の二つの基本的な種類があります：\n▪ 航海保険証券\n▪ 期間保険証券"
                 }
               ]
             },
@@ -5258,27 +5309,27 @@
               "id": "ch5-s4-E1",
               "label": "E1",
               "title": "Voyage Policy",
-              "titleJP": "",
+              "titleJP": "航海保険証券",
               "paragraphs": [
                 {
                   "num": "4.26",
                   "text": "This is the most common type of policy for insuring cargoes. The policy provides cover for a voyage, and this is clearly mentioned in the policy where it is stated “from … to …”.",
-                  "textJP": ""
+                  "textJP": "これは貨物を付保するために最も一般的に使用される保険証券の種類です。保険証券は航海に対する補償を提供し、「……から……まで」と明記されています。"
                 },
                 {
                   "num": "4.27",
                   "text": "As provided under the Transit Clause of the ICC 2009 clauses, the cover commences from the time that the goods are first moved in the warehouse or place of storage named in the policy; and terminates when the goods arrive at the final destination named in the policy. The policy also makes provision for the buyer to opt for another warehouse or place of storage at the final destination which he will use for the purpose of allocation or distribution. Notwithstanding what has earlier mentioned, the buyer has a total time period of up to 60 days after the goods are discharged from the vessel to get them to the final warehouse. The cover may terminate earlier than 60 days, if the goods arrive earlier either at the destination named in the policy, or at the alternative warehouse, or place of storage chosen by the buyer, for the purpose of allocation or distribution. As a result of the scope of cover provided by the clause, a Voyage Policy is sometimes referred to as the “warehouse to warehouse” cover.",
-                  "textJP": ""
+                  "textJP": "ICC 2009年約款のTransit Clauseに規定されているとおり、補償は保険証券に記載された倉庫または保管場所で商品が最初に移動された時から開始し、商品が最終目的地の倉庫に到着した時に終了します。"
                 },
                 {
                   "num": "4.28",
                   "text": "There are also various circumstances under which the cover can be terminated, such as:\n▪ if the goods are sold during the course of the voyage;\n▪ if the voyage is terminated owing to a peril insured; or\n▪ if the carrier exercises his rights to terminate the cover as provided under the contract of affreightment.",
-                  "textJP": ""
+                  "textJP": "補償が終了するさまざまな状況もあります。例えば：\n▪ 航海中に商品が売却された場合\n▪ 被保険危険により航海が中止された場合\n▪ 運送人が予定された目的地以外の場所に商品を送った場合"
                 },
                 {
                   "num": "4.29",
                   "text": "All these contingencies are taken care of and are clearly spelt out in the Institute Cargo Clauses under the Voyage Policy.",
-                  "textJP": ""
+                  "textJP": "これらの偶発事象はすべて考慮されており、航海保険証券に基づく協会貨物約款に明確に規定されています。"
                 }
               ]
             },
@@ -5286,27 +5337,27 @@
               "id": "ch5-s4-E2",
               "label": "E2",
               "title": "Time Policy",
-              "titleJP": "",
+              "titleJP": "期間保険証券",
               "paragraphs": [
                 {
                   "num": "4.30",
                   "text": "This policy is frequently found in the inland transit cover. It is effected when a supplier wants to protect his cargoes, while they are being delivered to his various customers within a specified geographical area. These transits are usually by road and/or rail conveyance. Therefore, it is difficult and sometimes impractical for the supplier to declare each and every sending, before it takes place. It is also very time-consuming and expensive to effect an individual Voyage Policy for each and every sending.",
-                  "textJP": ""
+                  "textJP": "この保険証券は内陸輸送の補償でよく見られます。サプライヤーが指定された地理的範囲内のさまざまな顧客に貨物を配送する間、貨物を保護したい場合に締結されます。"
                 },
                 {
                   "num": "4.31",
                   "text": "As an alternative, a Time Policy is then issued to cover risks for a period of time, usually 12 months. Essentially, the cover for any voyage commences from the time that it leaves the insured’s/supplier’s premises and terminates on arrival at his customers’ premises. All voyages during this period will be automatically covered.",
-                  "textJP": ""
+                  "textJP": "代替手段として、期間保険証券が発行され、通常12か月の期間のリスクを補償します。基本的に、各航海の補償は被保険者/サプライヤーの建物を出発した時に開始し、顧客の建物に到着した時に終了します。"
                 },
                 {
                   "num": "4.32",
                   "text": "There is also a limit per conveyance for each voyage, and this represents the insurer’s maximum liability for any one accident or occurrence. Premiums can be charged on a monthly basis, following declaration by the insured of the total value of cargo carried during that month. Alternatively, a minimum premium, which is calculated at about 85% of the estimated annual premium, will be charged at the inception of the cover. This premium will then be adjusted at the end of the policy year, based on the actual total amount of cargo carried for the whole year.",
-                  "textJP": ""
+                  "textJP": "各航海について1輸送手段あたりの限度額もあり、これは1事故または1事象に対する保険者の最大責任を表します。保険料は、被保険者の月次申告に基づき月額ベースで課金できます。"
                 },
                 {
                   "num": "4.33",
                   "text": "Time policies are also now used for sea and/or air shipments, where the insured may not require individual policies or certificates of insurance for each sending. Calculation of premium is done as mentioned in the earlier paragraph.",
-                  "textJP": ""
+                  "textJP": "期間保険証券は現在、海上および/または航空輸送にも使用されており、被保険者が各送付ごとに個別の保険証券または保険証明書を必要としない場合に利用されます。"
                 }
               ]
             },
@@ -5314,32 +5365,32 @@
               "id": "ch5-s4-F",
               "label": "F",
               "title": "Open Cover",
-              "titleJP": "",
+              "titleJP": "オープンカバー",
               "paragraphs": [
                 {
                   "num": "4.34",
                   "text": "An Open Cover is essentially an agreement between the insured and the insurer to cover all the shipments which fall within the terms and conditions as agreed by both parties. The insured will give the broad perimeters of the risk to be covered, such as:\n▪ nature of cargo and packaging;\n▪ mode of transit;\n▪ details of voyages to be made; and\n▪ maximum value of cargoes carried in any one shipment.",
-                  "textJP": ""
+                  "textJP": "オープンカバーは本質的に、両当事者が合意した条件に該当するすべての積荷を補償するための、被保険者と保険者の間の契約です。被保険者は、予想される貨物量、取引地域、貨物の種類などの大まかな概要を提供します。"
                 },
                 {
                   "num": "4.35",
                   "text": "Terms and conditions together with the rates applicable for each voyage or type of cargo will be agreed upon in advance. Once this is done, it is incorporated into a contract called an Open Cover. At the time that the Open Cover is effected, the usual practice is that no premium is charged. Only when the actual cargo is shipped out, then the premium for that shipment will become payable. However, some Open covers are done on an adjustable premium basis i.e. a provisional or minimum deposit premium is charged at inception based on the insured’s estimated annual shipment turnover. The premium is subject to adjustment based on the insured’s declaration of the actual shipment turnover.",
-                  "textJP": ""
+                  "textJP": "各航海または貨物の種類に適用される条件と料率が事前に合意されます。これが完了すると、オープンカバーと呼ばれる契約に組み込まれます。"
                 },
                 {
                   "num": "4.36",
                   "text": "It is obligatory for the insured to declare each and every shipment which falls under the scope of the Open Cover. Declarations of shipments can be made either for each individual shipment as it takes place, or on a monthly basis. Covers will be issued based on the declarations made and premiums charged.",
-                  "textJP": ""
+                  "textJP": "被保険者はオープンカバーの範囲に該当するすべての積荷を申告する義務があります。積荷の申告は、個々の積荷ごとに行うか、月次ベースで行うことができます。"
                 },
                 {
                   "num": "4.37",
                   "text": "It is also obligatory for the insurer to accept all declarations made by the insured under the Open Cover and within the terms as specified. For clients that the insurer know very well, they may even be allowed to issue the insurer’s Certificate of Insurance at their own office, thus saving time and enabling them to have their insurance documents quickly. Today, this is done by the insurer allowing the client access to its Internet portal and issuing the policy document online.",
-                  "textJP": ""
+                  "textJP": "保険者もまた、被保険者がオープンカバーに基づき、規定された条件内で行ったすべての申告を受け入れる義務があります。"
                 },
                 {
                   "num": "4.38",
                   "text": "One of the advantages of having an Open Cover is the automatic protection granted to the insured for shipments that fall under the terms and conditions of the agreement. It also relieves the insured from having to arrange cover for each and every shipment. This can be important when shipments are very frequent.",
-                  "textJP": ""
+                  "textJP": "オープンカバーを保有する利点の一つは、契約の条件に該当する積荷に対して被保険者に自動的に保護が付与されることです。また、被保険者を個々の積荷ごとに保険を手配する手間から解放します。"
                 }
               ]
             },
@@ -5347,17 +5398,17 @@
               "id": "ch5-s4-G",
               "label": "G",
               "title": "Marine Cover Note",
-              "titleJP": "",
+              "titleJP": "海上カバーノート",
               "paragraphs": [
                 {
                   "num": "4.39",
                   "text": "The need for a Marine cover note arises when the insured wishes to effect Marine Cargo Insurance, but he does not have all the details sufficient to issue a policy. For example, when the insured wishes to import goods and to get a Letter of Credit (LC) from a bank, proof of insurance is required. At this point in time, the seller may not have fixed a vessel that will bring in the cargo, nor has the sailing date been fixed. The bank then requires a cover note to be presented. Once details of the shipment are known to the insured, they are given to the insurer, and the policy document is then issued.",
-                  "textJP": ""
+                  "textJP": "海上カバーノートの必要性は、被保険者が海上貨物保険を締結したいが、保険証券を発行するのに十分な詳細情報をすべて持っていない場合に生じます。"
                 },
                 {
                   "num": "4.40",
                   "text": "The cover note is usually valid for three months. It expires upon full declaration being made or upon expiry of its validity, whichever is earlier.",
-                  "textJP": ""
+                  "textJP": "カバーノートは通常3か月間有効です。完全な申告が行われるか、有効期限が到来するか、いずれか早い方で失効します。"
                 }
               ]
             },
@@ -5365,17 +5416,17 @@
               "id": "ch5-s4-H",
               "label": "H",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "4.41",
                   "text": "In accordance with the provision of Section 18 of the Marine Insurance Act 1906, failure to disclose a material fact entitles the insurer to avoid the contract of insurance. Therefore, it is important that clients be advised to disclose all material facts on the proposal form.",
-                  "textJP": ""
+                  "textJP": "Marine Insurance Act 1906の第18条の規定に従い、重要事実の不開示は保険者に保険契約を取り消す権利を与えます。したがって、顧客にすべての重要事実を開示するよう助言することが重要です。"
                 },
                 {
                   "num": "4.42",
                   "text": "In Marine Cargo Insurance, the general information that needs to be gathered by the underwriter from the intending insured for assessing the insurance application is described below.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険において、引受担当者が付保希望者から収集する必要のある一般的な情報を以下に説明します。"
                 }
               ]
             },
@@ -5388,7 +5439,7 @@
                 {
                   "num": "",
                   "text": "(a) The intending insured’s company name and address. (b) The intending insured’s exact nature of business, such as whether the intending insured is in the manufacturing or trading business. Generally, the trading business involves only buying and selling of goods, without physically handling them. This has a bearing on the risk assessment, as the insurer needs to know how the goods are being packed and handled, before they are put on board a vessel. (c) The intending insured’s experience in its line of business, its financial standing and reputation in the field. (d) The intending insured’s previous insurer and previous claims history.",
-                  "textJP": ""
+                  "textJP": "付保希望者の背景\n(a) 付保希望者の会社名と住所。(b) 付保希望者の正確な事業の性質（製造業か貿易業かなど）。一般に、貿易業は製造業よりもリスクが高いとみなされます。"
                 }
               ]
             },
@@ -5396,17 +5447,17 @@
               "id": "ch5-s4-H2",
               "label": "H2",
               "title": "Nature Of The Cargo",
-              "titleJP": "",
+              "titleJP": "積荷の性質",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "(a) Whether the cargo gives off or absorbs moisture. (b) Susceptibility of the cargo to damage owing to rough handling. Whether the cargo comprises fragile items, such as china or glass, or sensitive machines, such as computers and medical equipment or instruments used for calibration. (c) Whether the cargo is attractive to thieves, such as high-end integrated circuits, fashion goods, watches, cameras, precious stones, perfumes and cosmetics. (d) Whether the cargo is easily contaminated, such as refined edible oils or some chemicals that are susceptible. (e) Whether the cargo is prone to weight shortage.",
-                  "textJP": ""
+                  "textJP": "積荷の性質\n(a) 貨物が水分を放出または吸収するか。(b) 乱暴な取扱いによる損害への感受性。壊れやすい物品（陶磁器やガラスなど）や精密機器（コンピュータなど）を含むかどうか。"
                 },
                 {
                   "num": "4.43",
                   "text": "Note that for bulk oil cargo, bagged cargo and fragile goods, a deductible or excess will usually apply.",
-                  "textJP": ""
+                  "textJP": "ばら積み油貨物、袋詰め貨物、壊れやすい商品については、通常、免責金額が適用されることにご留意ください。"
                 }
               ]
             },
@@ -5419,7 +5470,7 @@
                 {
                   "num": "",
                   "text": "(a) The types of packing or packing material to be used, such as shipment in drums, cartons, wooden crates/cases and bags. Goods are sometimes placed on pallets, as this facilitates easier handling by forklift trucks. (b) Whether goods are crated or packed in cartons. Goods that are crated are a better risk than those which are packed in cartons. However, certain cargoes, by their nature, cannot be crated. Most consumer and household goods, such as television sets have to be packed in cartons, as it will not be economical to crate them individually. (c) Whether the cargoes are packed into containers. (d) If cargoes are packed into containers, whether they are of a Full Container Load (FCL) or a Loose Container Load (LCL). In the case of FCL, the cargo is stuffed into the container at the supplier’s premises and is opened only on arrival at the final consignee’s warehouse. In the case of LCL, cargoes are stuffed at the container freight station and are similarly unstuffed at the destination of the corresponding freight station. There is the added risk of the goods being brought in their original packing from the supplier’s premises to the container freight station, and on arrival at the destination, they will have to be unstuffed from the container and taken by road and/or rail to the consignee’s and/or final warehouse. Usually, a FCL is a better risk than a LCL. (e) For cargoes that are packed into containers, it is important to ensure that they are properly stored within the container, and that depending on the nature of the cargo, there is adequate ventilation within the container. (f) Whether the cargoes are heavy equipment and machinery which cannot be packed and will be shipped “bare”2. (g) Whether the cargoes are dry bulk cargoes, such as sugar, wheat and fertilisers that are shipped in bulk3.",
-                  "textJP": ""
+                  "textJP": "梱包の詳細\n(a) 使用する梱包の種類または梱包材料（ドラム缶、カートン、木箱、袋での輸送など）。商品はパレットに載せられることもあり、フォークリフトによる取扱いが容易になります。(b) 梱包がその目的に適しているかどうか。"
                 }
               ]
             },
@@ -5432,7 +5483,7 @@
                 {
                   "num": "",
                   "text": "(a) A vessel’s structural form, e.g. wooden, steel, or glass-reinforced plastic (GRP); and age. (b) The type of vessel used, e.g. container, roll-on roll-off vessel, tug-barge, bulk carrier and tanker. (c) Whether the vessel is classed by any of the approved ship Classification Societies that are members of the International Association of Classification Societies. A vessel bearing such a class denotes that it has been built and maintained up to certain standards acceptable and recognised by the shipping industry. (d) A ship’s flag, i.e. its country of registration. The flag governs among other things, standards of maintenance and manning (numbers and composition of crew members, certification of officers, etc.) in accordance with the shipping registration of the country in question. (e) The size or tonnage of the vessel. This is important information to the insurer, especially when heavy density cargoes like steel and steel scrap, or cargoes that tend to “move” during the voyage e.g. logs that are being carried. (f) Whether the carrying vessel is entered with a recognised Protection and Indemnity4 (P&I) Club. The details of the P&I Club are important, as it presents a possibility for the insurer to recover a loss. (g) If goods are carried by other types of vessels, such as landing craft, pontoons (barge), or non-merchant vessels (e.g. military vessels), the details of these vessels must also be furnished.",
-                  "textJP": ""
+                  "textJP": "運搬船舶の詳細\n(a) 船舶の構造形式（木造、鋼鉄、ガラス繊維強化プラスチック等）および船齢。(b) 使用する船舶の種類（コンテナ船、ロールオン・ロールオフ船、タグ・バージ、バルクキャリア、タンカーなど）。(c) 船舶が船級を取得しているかどうか。"
                 }
               ]
             },
@@ -5445,7 +5496,7 @@
                 {
                   "num": "",
                   "text": "(a) The length of voyage. The longer the voyage, the longer the cargo on board is exposed to loss of or damage. (b) Weather conditions of the trading areas. 2 The shapes and dimensions of such equipment and machinery do not allow them to be packed in a normal way. 3 These cargoes are not packed, but put into the bulk carrier either by conveyor belts, bucket grabs, or feed system. 4 A Protection and Indemnity (P&I) cover insures the liabilities of a vessel owner or operator against exposure, such as loss of life, personal injury and illness of crew members, passengers, and third-party individuals; damage to cargo on board an insured ship; damage to piers, docks, buoys and fixed or floating objects; damage to other vessels and their cargo; pollution; fines; wreck liabilities; etc. (c) Ports of call and ports of discharge. Certain ports have a reputation for good handling facilities and faster customs clearance. Some are notorious for theft and pilferage. (d) Any transshipments involved? Transshipments will mean additional handling of the cargoes during the voyage, and this increases the risk of loss and/or damage to the cargoes.",
-                  "textJP": ""
+                  "textJP": "予定される航海\n(a) 航海の長さ。航海が長いほど、船上の貨物が滅失・損傷にさらされる期間が長くなります。(b) 取引地域の気象条件。"
                 }
               ]
             },
@@ -5453,17 +5504,17 @@
               "id": "ch5-s4-H6",
               "label": "H6",
               "title": "Other Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "その他の引受情報",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "(a) Consideration must be given if the final destination is some distance inland. The road infrastructure and means of getting the goods to the final destination will have an impact on the condition in which the goods will be delivered. Some inland destinations have the notoriety of having high incidences of theft and/or hijacking, and these must be considered in underwriting the risk. (b) A majority of shipments are carried by vessels that ply regular or scheduled routes. These routes are advertised and are run regularly. They tend to be considered safer because of the regularity of the shipping routes, waters and weather conditions. The port and harbour facilities are known to the master of the vessel, and this aids the smooth loading and discharging of cargoes. In contrast, there are shipments that are carried by chartered vessels. Care must be taken not only in the type of vessel that is used in the charter, but also the experience and reputation of the charterer and the master, officers and crew members who man the vessel. The unfamiliarity of varied routes and voyages, which chartered vessels may be called to make, increase the risk of damage to the ship and, subsequently, to the cargoes. (c) Some vessels may not call directly at the required port of destination. The goods may have to be discharged at an intermediate port of call and transshipped onto another vessel that will bring her to the final destination. The additional handling of cargoes at the transshipment port will increase the risk of loss and/or damage to the cargoes.",
-                  "textJP": ""
+                  "textJP": "その他の引受情報\n(a) 最終目的地が内陸のかなり奥にある場合は考慮が必要です。道路インフラと最終目的地への輸送手段は、商品の到着時の状態に影響します。"
                 },
                 {
                   "num": "4.44",
                   "text": "Note that the underwriter may require other additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者がその他の追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -5471,17 +5522,17 @@
               "id": "ch5-s4-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "4.45",
                   "text": "A Marine Cargo Insurance policy is generally a valued policy as stated in Section 27(3) of the Marine Insurance Act 1906. This means that, in the absence of fraud, the value that has been agreed upon and stated in the policy shall be taken as the value of the cargo for the purpose of settling a claim. This is very different from say, Motor Insurance, where in the event of a total loss, the claim is settled based on the market value of the vehicle at the time of the loss.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険証券は、Marine Insurance Act 1906の第27条(3)に規定されるとおり、一般に評価済み保険証券です。これは、詐欺がない限り、保険証券に合意・記載された価値が、全損の場合の保険者のてん補の基準となることを意味します。"
                 },
                 {
                   "num": "4.46",
                   "text": "If a client has discovered damage or loss to his cargo, he should do the three things as described below. (a) Minimise The Loss & Prevent Further Losses Make every effort to reduce the loss or take steps to prevent further loss. This can include rebagging, and/or separating sound cargo from damaged cargo or in some cases, putting a film of oil over damaged machinery to prevent rusting or further rusting of the bare metal surface. Reasonable expenses incurred in taking such steps will be reimbursed in addition to any payment of the claim itself. The insured is expected to do exactly what he would do as if the shipment were uninsured. (b) Notify The Insurer Or Nominated Survey Agent Notify the insurer or its nominated survey agent, so that a survey of the damaged cargo can be arranged promptly. The carrier or its agent should also be informed and invited to attend the survey. As far as possible, the damaged cargoes, packaging and container(s) should be retained in the condition received until after the survey has been conducted, unless retaining them in this condition could result in aggravated damage. (c) File A Claim Against The Carrier File a claim in writing against the carrier (inland, ocean or air) as soon as the loss is known. This can be in any form, but must include the Bill of Lading5/Airway Bill number, name of conveyance, description of the loss or damage, and a document which states that the carrier will be held responsible for the loss or damage. As far as the insured is concerned, the future premium rates charged for his Marine Cargo Insurance would depend on his overall claims experience. Therefore, it is in his best interest that claims be kept to a minimum, or when claims arise, that he immediately informs the insurer, so that the insurer is put in a good position to take action against the carrier to recover part or all of what the insurer has paid him.",
-                  "textJP": ""
+                  "textJP": "顧客が貨物の損傷または滅失を発見した場合、以下の三つの措置を講じるべきです。\n(a) 損害の軽減とさらなる損害の防止：損害を軽減し、さらなる損害を防止するためのあらゆる努力をする。\n(b) 運送人に対する責任の留保：運送人または保管者に対する権利を損なわないよう注意する。\n(c) 保険者への通知：できるだけ早く保険者に損害を通知する。"
                 }
               ]
             },
@@ -5489,17 +5540,17 @@
               "id": "ch5-s4-I1",
               "label": "I1",
               "title": "Claims Documents",
-              "titleJP": "",
+              "titleJP": "請求書類",
               "paragraphs": [
                 {
                   "num": "4.47",
                   "text": "Here are the following claim documents which need to be submitted to the insurer to substantiate a loss under a Marine Cargo Insurance policy:\n▪ whatever document was originally issued to substantiate the insurance placed – this could be the original copy of the policy or certificate of insurance;\n▪ Airway Bill, Bill of Lading, transhipment Bill of Lading or railway freight note, when applicable;\n▪ original shipper’s invoice; 5A bill of lading is the document “issued” by the carrier and given to the shipper in acknowledgement of goods having been loaded on board a vessel. (In reality, it has probably already been prepared by a shipping agent/customs agent based on negotiations for cargo space, and has then been validated by the carrier’s agent.)\n▪ packaging list, weight certificates or other evidence of the nature and conditions of the goods at the time of shipment;\n▪ Port/Airport Authority’s Cargo Irregularity Report or Inward Report – this document would prove that the cargo was damaged during transit, and could give some indication as to which stage of the voyage that the damage occurred;\n▪ copy of the survey/joint survey report and original photographs, where applicable;\n▪ repair/reinstatement invoices;\n▪ original delivery note or other original document of receipt from the forwarder/transporter; and\n▪ statement of claim to the carriers/bailees and their replies.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険証券に基づく損害を立証するために保険者に提出する必要がある請求書類は以下のとおりです：\n▪ 保険の締結を立証するために当初発行された文書\n▪ 請求書、船荷証券、梱包明細書\n▪ 船長のプロテスト証明書\n▪ 調査報告書\n▪ 被保険者のクレームレター"
                 },
                 {
                   "num": "4.48",
                   "text": "Submitting the above-mentioned documents promptly to the insurer will certainly speed up the processing of the claim. In special and complicated cases, other documents may be requested by the insurer as well.",
-                  "textJP": ""
+                  "textJP": "上記の書類を保険者に速やかに提出することで、請求の処理が確実に迅速化されます。特殊かつ複雑な事案では、保険者からその他の書類を要求される場合もあります。"
                 }
               ]
             }
@@ -5516,37 +5567,37 @@
               "id": "ch5-s5-A",
               "label": "A",
               "title": "What Is Marine Hull Insurance?",
-              "titleJP": "",
+              "titleJP": "船体保険とは",
               "paragraphs": [
                 {
                   "num": "5.1",
                   "text": "In an earlier part of this chapter, we discussed the various types of vessels as well as their parts. This is useful to a marine hull insurance underwriter who should recognise the various types of vessels he is asked to insure. He needs to have a good knowledge of the hazards faced by ships, the functions of different ships and how such ships are built to withstand these hazards.",
-                  "textJP": ""
+                  "textJP": "本章の前半で、さまざまな種類の船舶およびその構造部分について議論しました。これは船体保険の引受担当者にとって有用であり、付保を依頼されるさまざまな種類の船舶を認識すべきです。"
                 },
                 {
                   "num": "5.2",
                   "text": "Likewise, a marine hull claims handler or loss adjuster needs to know the types of vessels. Knowing the types of vessels, how they are built , the hazards faced etc. will enable claims practitioners to be more effective in adjusting such losses i.e. reviewing the reasonableness of machinery repairs, hull repairs, grounding damage etc.",
-                  "textJP": ""
+                  "textJP": "同様に、船体保険の請求担当者または損害査定人も船舶の種類を知る必要があります。船舶の種類、建造方法、直面する危険等を知ることにより、請求の実務家はより効果的に対応できます。"
                 },
                 {
                   "num": "5.3",
                   "text": "Now, we shall discuss Marine Hull Insurance.",
-                  "textJP": ""
+                  "textJP": "ここで、船体保険について議論します。"
                 },
                 {
                   "num": "5.4",
                   "text": "Marine Hull Insurance covers the shipowner against the physical loss or damage to a vessel or ship, i.e. the actual hull or the steel plates, as well as the engines and auxiliary machinery, found on board a vessel.",
-                  "textJP": ""
+                  "textJP": "船体保険は、船舶の物的滅失・損傷（すなわち実際の船体または鋼板、ならびに船上にあるエンジンおよび補助機械）に対して船主を補償します。"
                 },
                 {
                   "num": "5.5",
                   "text": "In addition, it also covers some of the liabilities to third parties that he, as a shipowner, can incur resulting from the operation of the vessels, such as liabilities resulting from collision with third-party vessels.",
-                  "textJP": ""
+                  "textJP": "加えて、船主として船舶の運航から生じうる第三者に対する一部の責任（第三者船舶との衝突から生じる責任など）も補償します。"
                 },
                 {
                   "num": "5.6",
                   "text": "Pleasure Craft Insurance, as well as Shipbuilders Risk Insurance, can also be included under the umbrella of Marine Hull Insurance.",
-                  "textJP": ""
+                  "textJP": "プレジャーボート保険および造船者危険保険も、船体保険の傘の下に含めることができます。"
                 }
               ]
             },
@@ -5554,17 +5605,17 @@
               "id": "ch5-s5-B",
               "label": "B",
               "title": "The Need For Marine Hull Insurance",
-              "titleJP": "",
+              "titleJP": "船体保険の必要性",
               "paragraphs": [
                 {
                   "num": "5.7",
                   "text": "There is a need for shipowners to purchase Marine Hull Insurance as such cover affords protection against physical loss or damage to the ship. Having such insurance in place means that the shipowners will have peace of mind, and that their capital can be used for other purposes, such as for expanding their operations and for overseas trade.",
-                  "textJP": ""
+                  "textJP": "船主が船体保険を購入する必要性があるのは、そのような補償が船舶への物的滅失・損傷に対する保護を提供するためです。このような保険があることで、船主は事故や不幸な出来事が発生した場合でも安心できます。"
                 },
                 {
                   "num": "5.8",
                   "text": "On the other hand, banks and/or other financial institutions that provide finance for the purchase of ships may also need to protect the loan against the security of the vessel.",
-                  "textJP": ""
+                  "textJP": "一方、船舶購入のための融資を提供する銀行および/またはその他の金融機関も、船舶を担保とするローンを保護する必要がある場合があります。"
                 }
               ]
             },
@@ -5572,12 +5623,12 @@
               "id": "ch5-s5-C",
               "label": "C",
               "title": "Parties To The Contract",
-              "titleJP": "",
+              "titleJP": "契約の当事者",
               "paragraphs": [
                 {
                   "num": "5.9",
                   "text": "The parties to a Marine Hull Insurance contract will be the insurer and the ship owner. If the ship is chartered, this can then include the demised charterer.",
-                  "textJP": ""
+                  "textJP": "船体保険契約の当事者は、保険者と船主です。船舶が傭船されている場合、裸傭船者も含まれます。"
                 }
               ]
             },
@@ -5585,27 +5636,27 @@
               "id": "ch5-s5-D",
               "label": "D",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "5.10",
                   "text": "Basically, all types of vessels from tug and barges to ocean-going vessels can be insured under a Marine Hull Insurance policy.",
-                  "textJP": ""
+                  "textJP": "基本的に、タグやバージから外航船まで、あらゆる種類の船舶を船体保険証券で付保できます。"
                 },
                 {
                   "num": "5.11",
                   "text": "Unlike a Marine Cargo Insurance policy, there is usually no “All Risks” cover for vessels. Instead, these covers are in the form of “Named Perils”. This means that a Marine Hull Insurance policy will respond only if the loss of and/or damage to the vessel is caused by the perils as specified in the clauses that attach to the policy.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険証券とは異なり、船舶には通常「オールリスク」補償はありません。代わりに「列挙危険方式」で補償されます。つまり、船体保険証券は、損害が保険証券に列挙された危険のいずれかに起因する場合にのみ対応します。"
                 },
                 {
                   "num": "5.12",
                   "text": "A variety of Hull Clauses has been designed to insure vessels. Some of the common clauses are:\n▪ Institute Time Clauses – Hulls 1/10/83 CL.280;\n▪ Institute Time Clauses – Hulls 1/11/95 CL.280-95; and\n▪ International Hull Clauses 1/11/03 CL.601.",
-                  "textJP": ""
+                  "textJP": "船舶を付保するためにさまざまな船体約款が設計されています。一般的な約款には以下があります：\n▪ Institute Time Clauses – Hulls 1/10/83 CL.280\n▪ Institute Time Clauses – Hulls 1/11/95 CL.280-95\n▪ International Hull Clauses (IHC) 01/11/03"
                 },
                 {
                   "num": "5.13",
                   "text": "It is a common practice for Marine Hull Insurance policies to contain deductibles.",
-                  "textJP": ""
+                  "textJP": "船体保険証券に免責金額が含まれるのが一般的です。"
                 }
               ]
             },
@@ -5613,12 +5664,12 @@
               "id": "ch5-s5-E",
               "label": "E",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "5.14",
                   "text": "A Marine Hull Insurance policy can either be a Time Policy or a Voyage Policy. However, most Marine Hull Insurance policies are effected on a time basis and usually for a period of 12 months.",
-                  "textJP": ""
+                  "textJP": "船体保険証券は期間保険証券または航海保険証券のいずれかとすることができます。ただし、ほとんどの船体保険証券は期間ベースで締結され、通常12か月の期間です。"
                 }
               ]
             },
@@ -5626,17 +5677,17 @@
               "id": "ch5-s5-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "5.15",
                   "text": "The general underwriting information to be obtained is described below. (a) The Details and Physical Condition Of The Vessel (i) The physical condition can only be discovered through competent surveys. For small vessels, underwriters may call for a survey to be done before making any underwriting decisions. (ii) The type and the nature of use of the vessel. (iii) Gross register tonnage (GRT), Net register tonnage (NRT), Flag and Classification of the vessel. (b) The Voyage (i) The territorial limits within which a vessel may trade or operate. Some ports of call and some sea-lanes are more hazardous than others. (ii) Proximity of any salvage and/or ship-repairing facilities and the area of operation of the vessel. (c) Ownership & Management (i) Good ownership is reflected in good seaworthy crafts that are properly maintained and well managed. Good ownership and management of the vessel have an impact on the quality of the crew members as well. (d) Previous Claims Experience (i) Past claims history: This can give an indication of the quality of management of the ship owner and, if unchanged, may indicate a continuing claims history. (ii) Comprehensive prior information on claims: This should also be obtained, so that a proper assessment can be made. (e) Valuation Of The Vessel (i) It is important that the sum insured in the policy be reasonably close to the value of the vessel. This is because any claim for partial loss on the hull is payable in full, up to the sum insured, without reference to the actual market value of the vessel. In addition, a low-insured value will also mean that a constructive total loss will be easily reached.",
-                  "textJP": ""
+                  "textJP": "取得すべき一般的な引受情報を以下に説明します。\n(a) 船舶の詳細と物理的状態\n(i) 物理的状態は有資格の検査によってのみ確認できます。\n(ii) 船級協会の分類格付け。\n(b) 船主の詳細：名前、住所、経験、フリートの規模。\n(c) 過去の請求実績。\n(d) 航路と取引地域。"
                 },
                 {
                   "num": "5.16",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -5644,17 +5695,17 @@
               "id": "ch5-s5-G",
               "label": "G",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "5.17",
                   "text": "On the occurrence of any loss, the main objective is to establish whether the event causing the loss will be a peril covered by the policy, which will then determine whether the loss is recoverable from the insurer.",
-                  "textJP": ""
+                  "textJP": "損害が発生した場合、主な目的は損害を引き起こした事象が保険証券でカバーされる危険に該当するかどうかを確認することであり、これにより損害が保険者から回収可能かどうかが決定されます。"
                 },
                 {
                   "num": "5.18",
                   "text": "There are basically two types of losses that occur under a Marine Hull Insurance policy, namely partial loss and total loss, as described below.",
-                  "textJP": ""
+                  "textJP": "船体保険証券の下で発生する損害には基本的に二つの種類があります。すなわち、分損と全損です。"
                 }
               ]
             },
@@ -5662,12 +5713,12 @@
               "id": "ch5-s5-G1",
               "label": "G1",
               "title": "Total Loss",
-              "titleJP": "",
+              "titleJP": "全損",
               "paragraphs": [
                 {
                   "num": "5.19",
                   "text": "For total loss, this is sub-divided into “Actual Total Loss” and “Constructive Total Loss” as described below. (a) Actual Total Loss There is an actual total loss when the subject matter insured, e.g. the hull itself, is destroyed. Examples are the sinking of a vessel without hope of salvage, and the complete destruction of a vessel by fire. Another example of an actual total loss of a vessel is one when a ship is deemed “missing”. In practice, if a ship is posted as missing, a reasonable period of time is allowed to elapse, and if no news is received, an actual total loss may be presumed. (b) Constructive Total Loss A constructive total loss occurs when the vessel is damaged to such an extent by an insured peril that, although it is not an actual total loss, the expenditure required to prevent it from becoming an actual total loss, as well as the estimated cost of repair would be greater than the insured value of the vessel. In such a situation, the insured is entitled to give a Notice of Abandonment to the hull insurers.",
-                  "textJP": ""
+                  "textJP": "全損については、「現実全損」と「推定全損」に細分されます。\n(a) 現実全損：保険の目的物（例：船体自体）が完全に破壊された場合、または修理不能なほど損傷した場合に現実全損があります。\n(b) 推定全損：船舶が放棄されたかどうかにかかわらず、現実全損が不可避であると思われる場合、または船舶の修理費用が修理後の船舶の価値を超える場合に推定全損があります。"
                 }
               ]
             },
@@ -5675,12 +5726,12 @@
               "id": "ch5-s5-G2",
               "label": "G2",
               "title": "Partial Loss",
-              "titleJP": "",
+              "titleJP": "分損",
               "paragraphs": [
                 {
                   "num": "5.20",
                   "text": "Partial loss, or particular average, means any loss that is not a total loss. An example of a partial loss is a ship being damaged by an insured peril and needs to be repaired. This could include damage following a collision or by fire or engine failure. As such, under the Hull Clauses, the replacement of an old part by a new part is payable in full by the insurer, without deducting “new for old”.",
-                  "textJP": ""
+                  "textJP": "分損（単独海損）とは、全損でないあらゆる損害を意味します。分損の例は、被保険危険により船舶が損傷し修理が必要な場合です。これには衝突後の損害や暴風雨による損害が含まれます。"
                 }
               ]
             },
@@ -5688,17 +5739,17 @@
               "id": "ch5-s5-G3",
               "label": "G3",
               "title": "Sue & Labour Charges",
-              "titleJP": "",
+              "titleJP": "救助費用",
               "paragraphs": [
                 {
                   "num": "5.21",
                   "text": "Similar to a Marine Cargo Insurance policy, whenever a claim arises, the insured has the responsibility to take reasonable measures to minimise or avert a loss or prevent further losses and/or damage.",
-                  "textJP": ""
+                  "textJP": "海上貨物保険証券と同様に、請求が発生した場合、被保険者は損害を最小限にし、回避し、またはさらなる滅失・損傷を防止するための合理的な措置を講じる責任があります。"
                 },
                 {
                   "num": "5.22",
                   "text": "Where expenses are incurred by the insured with a view to averting or minimising a loss recoverable under the policy, such expenses are known as Sue and Labour Charges. The insured derives his right to recover these charges from the insurer by reason of the Duty Of Assured (Sue and Labour) Clause in a Marine Hull Insurance policy. 6. BUILDERS’ RISKS INSURANCE",
-                  "textJP": ""
+                  "textJP": "保険証券に基づき回収可能な損害を回避または軽減する目的で被保険者が費用を負担した場合、そのような費用は救助費用（Sue and Labour Charges）として知られています。被保険者はMarine Insurance Act 1906の救助労務条項に基づきこれらの費用を回収する権利を有します。"
                 }
               ]
             },
@@ -5711,27 +5762,27 @@
                 {
                   "num": "6.1",
                   "text": "A Boat or Ship builder may suffer loss of or damage to the hull and machinery of vessels, which it is constructing (including materials in its possession), from a wide variety of causes.",
-                  "textJP": ""
+                  "textJP": "船舶建造者は、建造中の船舶（所持する材料を含む）の船体および機関の滅失・損傷を、さまざまな原因から被る可能性があります。"
                 },
                 {
                   "num": "6.2",
                   "text": "Builders’ Risks Insurance is available for vessels in the course of construction, as well as for single risks or as an open cover.",
-                  "textJP": ""
+                  "textJP": "造船者危険保険は、建造中の船舶、単独リスク、またはオープンカバーとして利用可能です。"
                 },
                 {
                   "num": "6.3",
                   "text": "Subject to the exclusions detailed in the insurer’s policy wording, Builders’ Risks Insurance is typically against all risks of loss of or damage to the subject matter insured caused and discovered during the period of insurance, including latent defect. In case of failure of launch, the policy covers all subsequent expenses incurred while completing the launch.",
-                  "textJP": ""
+                  "textJP": "保険者の保険証券文言に詳述される免責事由を除き、造船者危険保険は通常、保険期間中に発生し発見された保険の目的物のあらゆる滅失・損傷リスクを補償します。"
                 },
                 {
                   "num": "6.4",
                   "text": "Builders’ Risks Insurance policy also covers loss of or damage to the subject matter insured caused and discovered during the period of insurance arising from faulty design of any part or parts thereof, but not including the cost or expenses of repairing, modifying, replacing or renewing such part or parts, nor any cost or expense of betterment or alteration in design.",
-                  "textJP": ""
+                  "textJP": "造船者危険保険証券はまた、保険期間中に発生し発見された、いずれかの部分の設計上の欠陥から生じる保険の目的物の滅失・損傷を補償します。ただし、欠陥のある部分自体の交換・修理費用は含みません。"
                 },
                 {
                   "num": "6.5",
                   "text": "Other items that are specifically covered are as follows:\n▪ items at other premises in the same port (once allocated);\n▪ sea trials (up to 250 miles or 402 km);\n▪ launching failure;\n▪ protection and indemnity;\n▪ collision liability;\n▪ general average;\n▪ salvage; and\n▪ sue and labour expenses.",
-                  "textJP": ""
+                  "textJP": "特に補償されるその他の項目は以下のとおりです：\n▪ 同一港内の他の構内にある物品（一旦割当後）\n▪ 海上試運転（250マイルまたは402kmまで）\n▪ 進水失敗\n▪ P&I（船主責任）\n▪ 衝突責任"
                 }
               ]
             },
@@ -5739,12 +5790,12 @@
               "id": "ch5-s5-B",
               "label": "B",
               "title": "Principal Exclusions",
-              "titleJP": "",
+              "titleJP": "主な免責事由",
               "paragraphs": [
                 {
                   "num": "6.6",
                   "text": "The following risks are principally excluded under a Builder’s Risks Insurance:\n▪ earthquake (but it is quite common to see this exclusion deleted by agreement);\n▪ volcanic eruption;\n▪ cost of renewing faulty welds;\n▪ liability in respect of compensation for employees;\n▪ punitive and exemplary damages; and\n▪ pollution or contamination.",
-                  "textJP": ""
+                  "textJP": "造船者危険保険で主に除外されるリスクは以下のとおりです：\n▪ 地震（ただし合意により削除されることが一般的）\n▪ 火山噴火\n▪ 欠陥溶接のやり直し費用\n▪ 遅延損害\n▪ 通常の摩耗・損耗"
                 }
               ]
             },
@@ -5752,12 +5803,12 @@
               "id": "ch5-s5-C",
               "label": "C",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "Insurers will normally require the following information for underwriting:\n▪ estimated contract value;\n▪ estimated period of construction;\n▪ type of vessel being constructed;\n▪ yard claims history;\n▪ deductible level;\n▪ launch, trials and delivery details; and\n▪ additional covers.",
-                  "textJP": ""
+                  "textJP": "保険者は通常、引受のために以下の情報を求めます：\n▪ 見積契約額\n▪ 見積建造期間\n▪ 建造する船舶の種類\n▪ 造船所の請求履歴\n▪ 免責金額の水準"
                 }
               ]
             }
@@ -5774,22 +5825,22 @@
               "id": "ch5-s7-A",
               "label": "A",
               "title": "What Is Marine Liabilities Insurance?",
-              "titleJP": "",
+              "titleJP": "海上賠償責任保険とは",
               "paragraphs": [
                 {
                   "num": "7.1",
                   "text": "Marine Liabilities Insurance includes, among others:\n▪ Ship Repairer’s Liability Insurance;\n▪ Charterers’ Liability Insurance;\n▪ Port Authorities Liability Insurance;\n▪ Stevedore Liability Insurance; and\n▪ Terminal Operators’ Liability Insurance.",
-                  "textJP": ""
+                  "textJP": "海上賠償責任保険には、とりわけ以下が含まれます：\n▪ 船舶修繕業者賠償責任保険\n▪ 傭船者賠償責任保険\n▪ 港湾局賠償責任保険\n▪ 荷役業者賠償責任保険\n▪ ターミナルオペレーター賠償責任保険"
                 },
                 {
                   "num": "7.2",
                   "text": "In addition to those, there are certain Marine Liabilities covers that can be obtained from Protection and Indemnity Clubs, commonly known as P&I Clubs. These include a wide range of ShipOwner’s Liability covers, such as Collision Liability Insurance, Crew and Cargo Liability Insurance, and Pollution Liability Insurance. A P&I Club is a mutual (i.e. co-operative) insurance association that provides cover for its members who are typically ship owners. There are no shareholders, and the ship owner members of the association insure each other.",
-                  "textJP": ""
+                  "textJP": "これらに加え、Protection and Indemnity Clubs（P&Iクラブ）から取得できる海上賠償責任の補償があります。これには、人身傷害、貨物責任、衝突責任、汚染責任などの広範な船主責任の補償が含まれます。"
                 },
                 {
                   "num": "7.3",
                   "text": "In this section, we will give an overview of the more common types of Marine Liability covers in a local context, namely Ship Repairer’s Liability Insurance, Charterers’ Liability Insurance, Port Authorities Liability Insurance and Stevedores’ Liability Insurance.",
-                  "textJP": ""
+                  "textJP": "このセクションでは、シンガポールの文脈でより一般的な海上賠償責任の種類について概要を述べます。"
                 }
               ]
             },
@@ -5802,7 +5853,7 @@
                 {
                   "num": "7.4",
                   "text": "The term “Ship Repairing” covers an area of activity extending from “wash and brush ups” to major conversions. Regardless of the size of their operations, ship repairers have similar basic responsibilities and incur similar legal liabilities arising from the nature of their operations. The responsibilities and obligations of a ship repairer can be covered under a Ship Repairer’s Liability Insurance policy.",
-                  "textJP": ""
+                  "textJP": "「船舶修繕」という用語は、軽微な補修から大規模な改造まで幅広い活動を対象とします。事業規模にかかわらず、船舶修繕業者は類似の基本的責任を負い、類似の賠償責任リスクを抱えています。"
                 }
               ]
             },
@@ -5810,12 +5861,12 @@
               "id": "ch5-s7-B1",
               "label": "B1",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "7.5",
                   "text": "A Ship Repairer’s Liability Insurance policy covers:\n▪ vessels which are in the care, custody or control of the ship repairer for the purpose of being worked upon against the risks of fire damage, explosion, contact damage and machinery damage;\n▪ cargo and other property aboard a vessel under repair or discharged from a vessel to facilitate repairs against similar risks to the vessel itself, as well as the risks of theft, pilferage and deterioration;\n▪ third-party liabilities, including personal injury and loss of life;\n▪ liability for wreck removal which may arise out of ship repairing activities;\n▪ contractual liability assumed by the ship repairer as hirers of tugs, tenders, or other craft in connection with his ship repair activities;\n▪ liability pertaining to other work undertaken by the ship repairer and which does not fall under the definition of ship repairing; and\n▪ legal liability for detention of a vessel which may arise from the consequences of loss of or damage to that vessel while under repair.",
-                  "textJP": ""
+                  "textJP": "船舶修繕業者賠償責任保険証券は以下を補償します：\n▪ 船舶修繕業者の管理・保管下にある船舶（作業目的）の火災損害、爆発、接触損害等のリスク\n▪ 第三者に対する法的責任"
                 }
               ]
             },
@@ -5823,17 +5874,17 @@
               "id": "ch5-s7-B2",
               "label": "B2",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "7.6",
                   "text": "The general underwriting information to be obtained is as follows:\n▪ number, type, tonnage, etc. of vessels handled per annum;\n▪ gross receipts and/or payroll per annum;\n▪ number of employees;\n▪ whether reconstruction of vessels is carried out and, if so, whether it is major and what percentage of total operations that it comprises;\n▪ whether there is any onshore exposure involved, i.e. fabrication yards, railways, heavy construction/assembly work, etc;\n▪ any “hot work” on tankers and vessels of similar type is being carried out;\n▪ location of yards;\n▪ details of standard contract used by yard;\n▪ details of yard’s facilities, i.e. number of wet/dry docks, piers, wharves, etc;\n▪ limit of liability required; and\n▪ record of past claims or losses.",
-                  "textJP": ""
+                  "textJP": "取得すべき一般的な引受情報は以下のとおりです：\n▪ 年間取扱い船舶の数・種類・トン数等\n▪ 年間売上高および/または人件費\n▪ 従業員数\n▪ 船舶の改造工事を行うかどうか"
                 },
                 {
                   "num": "7.7",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -5846,17 +5897,17 @@
                 {
                   "num": "7.8",
                   "text": "Chartering is the usual method of arranging sea transport for large volumes of bulk commodities, where an entire vessel is chartered to carry a particular cargo shipment.",
-                  "textJP": ""
+                  "textJP": "傭船は、大量のばら積み商品の海上輸送を手配する通常の方法であり、特定の貨物積荷を運搬するために船舶全体を傭船します。"
                 },
                 {
                   "num": "7.9",
                   "text": "A Charterers’ Liability Insurance policy is designed to protect charterers of vessels against various legal and contractual liabilities which can arise from their obligations under a Charter Party (i.e. a contract between the ship owner and the charterer for the use of a vessel).",
-                  "textJP": ""
+                  "textJP": "傭船者賠償責任保険証券は、傭船契約（すなわち船主と傭船者の間の契約）に基づく義務から生じうるさまざまな法的・契約的責任に対して傭船者を保護するよう設計されています。"
                 },
                 {
                   "num": "7.10",
                   "text": "A Charterers’ Liability Insurance policy is not an all-embracing guarantee cover, in the sense, that it does not cover financial/commercial trading risks and also does not cover contractual liabilities, other than in relation to the vessel itself. Nevertheless, it provides valuable protection to the Charterer in respect of unforeseen incidents which may give rise to a liability.",
-                  "textJP": ""
+                  "textJP": "傭船者賠償責任保険証券は包括的な保証ではなく、財務的・商業的取引リスクを補償するものではなく、また船舶に直接関連するもの以外の契約的責任も補償しません。"
                 }
               ]
             },
@@ -5864,17 +5915,17 @@
               "id": "ch5-s7-C1",
               "label": "C1",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "7.11",
                   "text": "Charterer’s Liability Insurance provides protection in respect of three main areas of liability exposure, namely:\n▪ damage to the vessel which can arise in various ways, e.g. from an unsafe or foul berth, from stevedoring damage or from using incorrect bunker fuel;\n▪ liability to third parties other than cargo owners, such as liability for removal of wreck or liability for injury to crew members; and\n▪ damage to cargo which can arise where third-party cargo is being carried.",
-                  "textJP": ""
+                  "textJP": "傭船者賠償責任保険は、三つの主要な責任分野に関する保護を提供します：\n▪ 船舶への損害（不安全なバース、荷役作業等から生じうる）\n▪ 貨物所有者以外の第三者への責任\n▪ 貨物への損害に対する責任"
                 },
                 {
                   "num": "7.12",
                   "text": "Damage to vessel and liability to third parties other than cargo owners are usually the basic covers as provided, whereas cover for damage to cargo is usually issued as an extension with the payment of extra premium.",
-                  "textJP": ""
+                  "textJP": "船舶への損害および貨物所有者以外の第三者への責任は通常、基本補償として提供されますが、貨物への損害の補償は通常、追加保険料の支払いを伴う特約拡張として発行されます。"
                 }
               ]
             },
@@ -5882,17 +5933,17 @@
               "id": "ch5-s7-C2",
               "label": "C2",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "7.13",
                   "text": "The general underwriting information to be obtained is as follows:\n▪ name of vessel(s);\n▪ limit of liability required;\n▪ whether the charter is only for a single voyage, or for a period of time;\n▪ period of charter;\n▪ number of voyages;\n▪ length of contracts;\n▪ type of cargoes carried;\n▪ ports of loading/discharge;\n▪ loading/discharge methods;\n▪ the person responsible for stevedoring;\n▪ whether cargo is owned by the charterer or by third parties;\n▪ Is cover required in respect of Liability to Cargo?\n▪ Is vessel space-chartered? If so, for what percentage of space? and\n▪ details of claims or losses in respect of Charterer’s Liability during the last five years.",
-                  "textJP": ""
+                  "textJP": "取得すべき一般的な引受情報は以下のとおりです：\n▪ 船舶名\n▪ 必要な責任限度額\n▪ 傭船が単一航海か期間傭船か\n▪ 傭船期間\n▪ 貨物の性質"
                 },
                 {
                   "num": "7.14",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -5900,22 +5951,22 @@
               "id": "ch5-s7-D",
               "label": "D",
               "title": "Port Authorities Liability Insurance",
-              "titleJP": "",
+              "titleJP": "港湾局賠償責任保険",
               "paragraphs": [
                 {
                   "num": "7.15",
                   "text": "Port authorities around the world are constituted in a variety of ways. Therefore, the facilities provided, and the responsibilities of any individual port authority will vary widely, depending on the type of port in question.",
-                  "textJP": ""
+                  "textJP": "世界中の港湾局はさまざまな方法で構成されています。したがって、提供される施設と個々の港湾局の責任は、問題となる港の種類によって大きく異なります。"
                 },
                 {
                   "num": "7.16",
                   "text": "The insurance requirements of a port authority controlling a small fishing harbour will obviously differ from a port authority controlling a large commercial harbour.",
-                  "textJP": ""
+                  "textJP": "小規模な漁港を管理する港湾局の保険ニーズは、大規模な商業港を管理する港湾局のそれとは明らかに異なります。"
                 },
                 {
                   "num": "7.17",
                   "text": "A Port Authorities Liability Insurance policy, which covers the responsibilities and risk exposure of a port authority, is mainly arranged by general insurance brokers.",
-                  "textJP": ""
+                  "textJP": "港湾局の責任とリスクエクスポージャーを補償する港湾局賠償責任保険証券は、主に損害保険ブローカーによって手配されます。"
                 }
               ]
             },
@@ -5923,12 +5974,12 @@
               "id": "ch5-s7-D1",
               "label": "D1",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "7.18",
                   "text": "A Port Authorities Liability Insurance policy covers:\n▪ vessels, regardless of whether they are owned by, chartered or operated by the Port Authority, against risk of physical damage;\n▪ property at risk on an “All Risk” basis which includes loss, damage or expense arising from fire, lightning, explosion, aircraft impact, storm, electrical and mechanical breakdown, etc;\n▪ employer’s liability or work injury compensation;\n▪ third-party liabilities, including personal injury and loss of life, and physical damage to property;\n▪ liability for wreck removal which can be incurred by the port authority, following a loss stemming from fault of services or facilities as provided by the port authority; and\n▪ additional expenses incurred to protect the environment or to restore its natural resources, following an incident within the port.",
-                  "textJP": ""
+                  "textJP": "港湾局賠償責任保険証券は以下を補償します：\n▪ 港湾局が所有、傭船、または運営する船舶の物的損害リスク\n▪ 「オールリスク」ベースのリスクにさらされている財物\n▪ 第三者への賠償責任"
                 }
               ]
             },
@@ -5936,17 +5987,17 @@
               "id": "ch5-s7-D2",
               "label": "D2",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "7.19",
                   "text": "The general underwriting information to be obtained is as follows:\n▪ name and address of port authority;\n▪ location of all ports within the port authority’s area of control;\n▪ plans showing details of port authority’s area of control and also relationship to third-party property;\n▪ details of all activities and operations of the port authority including: - whether they own or operate vessels of any kind (e.g. tugs, pilot launches, crane barges, etc.); - whether they handle or store cargo; - whether they are responsible for berthing and unberthing vessels; - whether they are responsible to maintain channels and berth, dredged to certain depth; and - whether they own or operate vehicles.\n▪ details of all contracts entered into by the port authority;\n▪ whether port authority provides bunkering, fuelling or victualling facilities;\n▪ range of numbers, sizes, types, etc. of vessels using the port and type of cargo loaded and discharged and annual tonnage;\n▪ annual revenues and payrolls;\n▪ number of employees on port authority payroll;\n▪ approximate value of cargo in port at any one time;\n▪ types of storage facilities owned or operated by port authority;\n▪ main nationalities of vessels calling at port; and\n▪ claims record for last five years.",
-                  "textJP": ""
+                  "textJP": "取得すべき一般的な引受情報は以下のとおりです：\n▪ 港湾局の名称と住所\n▪ 港湾局の管轄区域内のすべての港の所在地\n▪ 港湾局の施設の詳細を示す図面"
                 },
                 {
                   "num": "7.20",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -5959,22 +6010,22 @@
                 {
                   "num": "7.21",
                   "text": "A stevedores’ primary activity is the loading and unloading of vessels.",
-                  "textJP": ""
+                  "textJP": "荷役業者の主な活動は船舶の積卸しです。"
                 },
                 {
                   "num": "7.22",
                   "text": "Therefore, Stevedores’ Liability Insurance covers against legal liabilities incurred for damage caused to vessels, to cargo being handled, to property (buildings, wharves, etc.) or for third-party death or injury.",
-                  "textJP": ""
+                  "textJP": "したがって、荷役業者賠償責任保険は、船舶、取扱い中の貨物、財物（建物、埠頭等）への損害、または第三者の死亡・傷害について生じた法的責任を補償します。"
                 },
                 {
                   "num": "7.23",
                   "text": "The scope of cover includes indemnification against the legal liabilities and legal defence costs which stevedores may incur as arising out of their cargo handling activities.",
-                  "textJP": ""
+                  "textJP": "補償範囲には、荷役業者が貨物取扱い活動から生じうる法的責任および訴訟防御費用に対するてん補が含まれます。"
                 },
                 {
                   "num": "7.24",
                   "text": "Therefore, Stevedores' Liability Insurance includes cover for liability as a result of:\n▪ cargo lost, damaged, misdirected, delayed or wrongfully delivered;\n▪ ship lost or damaged;\n▪ third-party property damaged; and\n▪ loss of life or bodily injury; where such liability occurs in the course of or arises from its stevedoring operations.",
-                  "textJP": ""
+                  "textJP": "したがって、荷役業者賠償責任保険は以下の結果としての責任を補償します：\n▪ 貨物の滅失、損傷、誤送、遅延、不正な引渡し\n▪ 船舶の滅失・損傷\n▪ 第三者財物の損害\n▪ 人身事故"
                 }
               ]
             },
@@ -5982,12 +6033,12 @@
               "id": "ch5-s7-E1",
               "label": "E1",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "7.25",
                   "text": "The information required by the insurer is as follows:\n▪ nature of services provided to customers;\n▪ professional qualifications or number of years experience of insured’s directors, partners or senior managers;\n▪ number and percentage of own full-time manual employees;\n▪ number and percentage of independent stevedores contracted;\n▪ quality assurance accreditation from any internationally recognised organisation;\n▪ annual turnover;\n▪ cargo/tonnage handled;\n▪ methods of handling bulk cargoes;\n▪ type and packing;\n▪ claims history; and\n▪ trading conditions, i.e. (a) standard contracts? (b) individual user agreements? and (c) no contract?",
-                  "textJP": ""
+                  "textJP": "保険者が求める情報は以下のとおりです：\n▪ 顧客に提供するサービスの性質\n▪ 被保険者の取締役、パートナー、上級管理者の専門資格または経験年数\n▪ 従業員数"
                 }
               ]
             }
@@ -6004,17 +6055,17 @@
               "id": "ch5-s8-A",
               "label": "A",
               "title": "Scope of Coverage",
-              "titleJP": "",
+              "titleJP": "エネルギー保険の補償範囲",
               "paragraphs": [
                 {
                   "num": "8.1",
                   "text": "In the Oil and Gas industry, there are three main activity categories:\n▪ Upstream activities (prospecting, exploration, development and extracting/production)\n▪ Midstream activities (transport from offshore field to marine terminal/refinery/petrochemical plant/gas processing & transmission)\n▪ Downstream activities (refining, petrochemical, processing, marketing & distribution)",
-                  "textJP": ""
+                  "textJP": "石油・ガス産業には三つの主要な活動カテゴリーがあります：\n▪ 上流活動（探鉱、探査、開発、採掘/生産）\n▪ 中流活動（海上油田から海上ターミナルへの輸送）\n▪ 下流活動（精製、流通、小売）"
                 },
                 {
                   "num": "8.2",
                   "text": "Energy Insurance serves to protect upstream, midstream and downstream organizations cum operations against certain risks. These risks include equipment damage, rig physical damage, business interruption, loss of production income, control of well costs etc.",
-                  "textJP": ""
+                  "textJP": "エネルギー保険は、上流、中流、下流の組織・事業活動を特定のリスクから保護します。これらのリスクには機器の損害、リグの物的損害、企業費用利益、生産量の喪失、第三者責任などが含まれます。"
                 }
               ]
             },
@@ -6022,27 +6073,27 @@
               "id": "ch5-s8-B",
               "label": "B",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "8.3",
                   "text": "The type of underwriting information required by insurers depends on the nature of the organisation cum operation involved as well as the types of risk coverage being sought.",
-                  "textJP": ""
+                  "textJP": "保険者が求める引受情報の種類は、関与する組織・事業の性質、および求められるリスク補償の種類によって異なります。"
                 },
                 {
                   "num": "8.4",
                   "text": "Taking Offshore Physical Damage as an example, insurers will require the following information such as ownership / loyalty, record, type of unit, value and age etc.",
-                  "textJP": ""
+                  "textJP": "オフショア物的損害を例にとると、保険者は所有権/信頼性、記録、ユニットの種類、価値、船齢などの情報を求めます。"
                 },
                 {
                   "num": "8.5",
                   "text": "If Contingent Business Interruption cover is required, insurers will wish to know the level of inter-dependence between insured items / units, probability of a total loss to the policy caused by a partial damage to one item only etc.",
-                  "textJP": ""
+                  "textJP": "偶発的企業費用利益補償が必要な場合、保険者は被保険物件/ユニット間の相互依存の程度、一つの物件の部分損害によるポリシー全損の確率などを知りたいと考えます。"
                 },
                 {
                   "num": "8.6",
                   "text": "So, what are the main differences between marine and energy insurance? Energy Insurance involves covering risks of drilling into unknown underground conditions and high-risk operations. The insured objects are stationary while operating while Marine Insurance generally covers the subject matter while it is in transit. There are also tailormade items and parts with long lead time not to mention high values and significant retention/deductible levels involved in Energy Insurance.",
-                  "textJP": ""
+                  "textJP": "では、海上保険とエネルギー保険の主な違いは何でしょうか？エネルギー保険は未知の地下条件への掘削リスクと高リスク作業の補償を含みます。被保険物件は定置型であり、海上保険のように輸送中ではありません。"
                 }
               ]
             }
@@ -6052,12 +6103,12 @@
           "id": "ch5-s9",
           "number": "9",
           "title": "Aviation Insurance",
-          "titleJP": "",
+          "titleJP": "航空保険",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "Aviation Insurance is insurance coverage tailored to the operation of aircraft and the risks involved in aviation. In the aviation market, there is a wide range of insurance coverage available to meet different needs of individuals to international airlines. There is also cover available for ancillary activities like manufacturers and airports.",
-              "textJP": ""
+              "textJP": "航空保険は、航空機の運航および航空に伴うリスクに特化した保険補償です。航空市場では、さまざまなニーズに対応する広範な保険補償が利用可能です。"
             }
           ],
           "subsections": [
@@ -6072,12 +6123,12 @@
               "id": "ch5-s9-A1",
               "label": "A1",
               "title": "Aircraft Hull And Liability Insurance",
-              "titleJP": "",
+              "titleJP": "航空機船体・賠償責任保険",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "The main aim of hull and liability insurance is to cover physical damage or loss to the insured aircraft in addition to liabilities arising in respect of third parties, passengers and their baggage.",
-                  "textJP": ""
+                  "textJP": "船体・賠償責任保険の主な目的は、被保険航空機の物的損害・滅失を補償するとともに、第三者、乗客およびその手荷物に関する賠償責任を補償することです。"
                 }
               ]
             },
@@ -6085,12 +6136,12 @@
               "id": "ch5-s9-A2",
               "label": "A2",
               "title": "Aviation Product Liability",
-              "titleJP": "",
+              "titleJP": "航空製造物責任",
               "paragraphs": [
                 {
                   "num": "9.3",
                   "text": "This type of policy covers liability for any loss, damage or injury to third parties caused by the aircraft or any part thereof, usually resulting from a faulty design or defective materials.",
-                  "textJP": ""
+                  "textJP": "この種の保険証券は、通常、設計上の欠陥または材料の欠陥に起因する、航空機またはその部品による第三者への滅失・損害・傷害に対する責任を補償します。"
                 }
               ]
             },
@@ -6103,7 +6154,7 @@
                 {
                   "num": "9.4",
                   "text": "This cover is required by airport operators. The cover under this policy is divided into three sections:\n▪ Section 1 Airport premises liability;\n▪ Section 2 Hangar keeper’s liability; and\n▪ Section 3 Product liability.",
-                  "textJP": ""
+                  "textJP": "この補償は空港運営者が必要とするものです。この保険証券の補償は三つのセクションに分かれています：\n▪ セクション1：空港施設賠償責任\n▪ セクション2：格納庫保管者賠償責任\n▪ セクション3：製造物責任"
                 }
               ]
             },
@@ -6111,12 +6162,12 @@
               "id": "ch5-s9-A4",
               "label": "A4",
               "title": "War And Allied Risks",
-              "titleJP": "",
+              "titleJP": "戦争・関連リスク",
               "paragraphs": [
                 {
                   "num": "9.5",
                   "text": "A war policy covers war and allied risks excluded under the Hull and Liability Policy.",
-                  "textJP": ""
+                  "textJP": "戦争保険証券は、船体・賠償責任保険証券で除外される戦争および関連リスクを補償します。"
                 }
               ]
             }
