@@ -6,7 +6,7 @@
       "id": "ch1",
       "number": 1,
       "title": "PROPERTY INSURANCE",
-      "titleJP": "",
+      "titleJP": "財物保険",
       "outline": [
         "Introduction",
         "Fire Insurance",
@@ -17,7 +17,16 @@
         "Industrial Special Risks Insurance",
         "Property Terrorism Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "火災保険",
+        "盗難保険",
+        "電子機器保険",
+        "ガラス保険",
+        "企業総合動産保険",
+        "産業総合動産保険",
+        "財物テロリズム保険"
+      ],
       "learningOutcomes": [
         "define property and distinguish tangible property from intangible property, real from personal property, and moveable property from immoveable property",
         "understand the necessity to define the subject matter of insurance in Property Insurance",
@@ -40,28 +49,49 @@
         "understand the policy coverage for Industrial Special Risks Insurance",
         "understand the scope of cover, common policy provisions and conditions, customarily required underwriting information, common exclusions, claim procedures of Property Terrorism Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "火災保険とは何かを理解する",
+        "火災保険の補償範囲を理解する",
+        "火災保険の保険期間、約款条項、引受情報を理解する",
+        "火災保険の免責事由と特約拡張を理解する",
+        "火災保険の保険金請求手続きを理解する",
+        "盗難保険とは何か、およびその必要性を理解する",
+        "盗難保険の補償範囲、保険期間、約款条項、引受情報を理解する",
+        "盗難保険の免責事由、特約拡張、第一損害填補方式を理解する",
+        "盗難保険の保険金請求手続きを理解する",
+        "電子機器保険とは何か、およびその必要性を理解する",
+        "電子機器保険の補償範囲、保険期間、約款条項、引受情報を理解する",
+        "電子機器保険の免責事由、特約拡張、保険金請求手続きを理解する",
+        "ガラス保険とは何か、およびその必要性を理解する",
+        "ガラス保険の補償範囲、保険期間、約款条項、引受情報を理解する",
+        "ガラス保険の免責事由、特約拡張、保険金請求手続きを理解する",
+        "企業総合動産保険とは何か、およびその必要性を理解する",
+        "企業総合動産保険の補償範囲、保険期間、約款条項、引受情報を理解する",
+        "企業総合動産保険の免��事由と保険金請求手続きを理解する",
+        "産業総合動産保険を理解する",
+        "財物テロリズム保険を理解する"
+      ],
       "sections": [
         {
           "id": "ch1-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In law, the word “property” embraces both tangible and intangible property and may refer to either Real Property and/or Personal Property. Tangible property is something one can touch, e.g. a building. Intangible property has no physical existence; e.g. goodwill, patents, copyrights, trademarks, etc. Real Property refers to land and things permanently attached to the land, thus the term “realty”; while Personal Property generally refers to everything else, the items which are moveable and not part of the land.",
-              "textJP": ""
+              "textJP": "法律上、「財物（property）」という用語は有形財産と無形財産の両方を含み、不動産（Real Property）および／または動産（Personal Property）を指します。有形財産とは触れることができるもの（例：建物）です。無形財産は物理的な存在を持たないもの（例：のれん、特許権、著作権、商標権等）です。不動産とは土地および土地に恒久的に付着したものを指し、「不動産（realty）」という用語の由来です。一方、動産とは一般にそれ以外のすべて、すなわち移動可能で土地の一部でない物品を指します。"
             },
             {
               "num": "1.2",
               "text": "In the context of Property Insurance, the word “property” covers every material thing or physical object which may suffer an unexpected loss or damage by an insured peril. The term “property” includes:\n▪ Moveable Property, such as household contents, cash, jewellery, silverware, and cargo being shipped or transported; and\n▪ Immoveable Property, such as buildings, land, swimming pools, and tennis courts.",
-              "textJP": ""
+              "textJP": "財物保険の文脈では、「財物」とは、被保険危険により予期しない損害を被る可能性のあるあらゆる物質的な物または有体物を指します。「財物」には以下が含まれます：\n▪ 動産：家財道具、現金、宝飾品、銀器、輸送中の貨物など\n▪ 不動産：建物、土地、プール、テニスコートなど"
             },
             {
               "num": "1.3",
               "text": "There are many types of policies insuring the different types of property. Some businesses have special requirements, but generally a business will have the following:\n▪ Fire Insurance for buildings, plant, machinery, equipment and stock to protect against fire and special perils;\n▪ Theft Insurance to protect against theft risks;\n▪ Electronic Equipment Insurance and Glass Insurance to guard against the loss of or damage to the more specific assets of the business; and\n▪ All Risks Insurance for all unforeseen and accidental damage to the property subject to exclusions.",
-              "textJP": ""
+              "textJP": "さまざまな種類の財物を付保する多くの種類の保険証券があります。一部の事業には特別な要件がありますが、一般に企業は以下の保険を利用します：\n▪ 火災保険：建物、プラント、機械設備、在庫品を火災および特殊危険から保護\n▪ 盗難保険：盗難リスクからの保護\n▪ 電子機器保険およびガラス保険：事業のより具体的な資産の滅失・損傷に対する保護\n▪ オールリスク保険：免責事由を除く、財物に対するすべての不測かつ偶発的な損害"
             }
           ],
           "subsections": []
@@ -70,39 +100,39 @@
           "id": "ch1-s2",
           "number": "2",
           "title": "Fire Insurance",
-          "titleJP": "",
+          "titleJP": "火災保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s2-A",
               "label": "A",
               "title": "What Is Fire Insurance?",
-              "titleJP": "",
+              "titleJP": "火災保険とは？",
               "paragraphs": [
                 {
                   "num": "2.1",
                   "text": "The basic Fire Insurance policy provides indemnity to the insured in the event of any damage to the property caused by certain perils, with obviously the primary peril being fire.",
-                  "textJP": ""
+                  "textJP": "基本的な火災保険証券は、特定の危険（主に火災）により財物に損害が生じた場合に、被保険者に対して損害てん補を提供します。"
                 },
                 {
                   "num": "2.2",
                   "text": "In Property Insurance, it is imperative to clearly identify and state the subject matter of the intended insurance. The subject matter of insurance is one of the key determinants to the risk assessment – whether to accept, decline and ultimately the determination of its terms, pricing and formation of the insurance contract.",
-                  "textJP": ""
+                  "textJP": "財物保険においては、付保対象となる保険の目的物を明確に特定し記載することが不���欠です。保険の目的物は、リスク評価の主要な決定要素の一つであり、引受の可否、最終的な条件・保険料率の決定、および保険契約の成立に影響します。"
                 },
                 {
                   "num": "2.3",
                   "text": "For the purpose of identification, such description must be an adequate description of the subject matter. This is because insurers do not, in their policies, undertake to indemnify the insured against loss by fire, but only against loss arising from the destruction of the specific object insured. In order to recover under the policy, the insured must show that the property contemplated by the policy is the subject matter of insurance, and that it answers the description of the subject matter contained in the policy under which the claim is made.",
-                  "textJP": ""
+                  "textJP": "特定のためには、当該目的物について適切な記述がなされなけ���ばなりません。これは、保険者がその保険証券において、火災による損害一般に対して被保険者にてん補することを約するのではなく、付保された特定の対象物の滅失から生じる損害に対してのみてん補することを約するためです。保険証券に基づく保険金を受領するためには、被保険者は、当該保険証券が意図する財物が保険の目的物であること、および請求の根拠となる保険証券に記載された目的物の記述に該当することを示さなければなりません。"
                 },
                 {
                   "num": "2.4",
                   "text": "Property owned by and/or under the care, custody or control of many businesses is likely to fall under one or more of the following broad categories of description:\n▪ buildings;\n▪ plant, machinery and equipment;\n▪ stock-in-trade; and\n▪ furniture, fixtures, fittings and “all other contents”.",
-                  "textJP": ""
+                  "textJP": "多くの企業が所有する、および／または管理・保管する財物は、以下の大まかな分類のいずれかに該当する可能性があります：\n▪ 建物\n▪ プラント、機械設備\n▪ 商品在庫\n▪ 什器備品およびその他すべての収容物"
                 },
                 {
                   "num": "2.5",
                   "text": "These properties as mentioned above are subject to fire risk. Normally, a Fire Insurance policy is underwritten on the basis of separate sums insured for each of the above items. The main headings under which the property is insured are always reflected in the schedule of the policy, and a list of such items can run to many pages, depending on the size of the insured company.",
-                  "textJP": ""
+                  "textJP": "上記の財物は火災リスクにさらされています。通常、火災保険��券は上記の各項目ごとに個別の保険金額に基づき引き受けられます。財物が付保される主要な項目は常に保険証券の明細書に記載され、被保険企業の規模によってはそのリストは多くのページにわたることがあります。"
                 }
               ]
             },
@@ -110,17 +140,17 @@
               "id": "ch1-s2-B",
               "label": "B",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "2.6",
                   "text": "A Fire Insurance policy insures property against loss or damage caused by certain perils. The policy covers loss of or damage by fire, lightning or explosion of gas used for lighting or domestic purposes (FLEX Cover).",
-                  "textJP": ""
+                  "textJP": "火災保険証券は、特定の危険による滅失・損害に対して財物を付保します。この保険証券は、火災、落雷、または照明用もしくは家庭用ガスの爆発による滅失・損害を補償します（FLEX補償）。"
                 },
                 {
                   "num": "2.7",
                   "text": "Other common circumstances that are proximately caused by fire are also covered, such as:\n▪ property damaged by water or other extinguishing agents used for extinguishing the fire;\n▪ property damaged by the fire brigade in the execution of its fire-fighting duties, like damaging a door or window to gain access to a fire to put it out;\n▪ property blown up to prevent a fire from spreading; and\n▪ damage caused by falling walls or parts of a building, where there is a fire.",
-                  "textJP": ""
+                  "textJP": "火災が近因となるその他の一般的な状況も補償されます。例えば：\n▪ 消火のために使用された水またはその他の消火剤による財物の損害\n▪ 消防隊が消火活動の遂行において生じさせた財物の損害（火災にアクセスするためにドアや窓を破損する場合など）\n▪ 火災の延焼を防ぐために爆破された財物\n▪ 火災がある場合の、壁や建物の一部の倒壊による損害"
                 }
               ]
             },
@@ -128,12 +158,12 @@
               "id": "ch1-s2-C",
               "label": "C",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "2.8",
                   "text": "Fire Insurance policies provide cover for any property loss or damage by the insured perils (i.e. FLEX), which occurs during the period of insurance (usually 12 months).",
-                  "textJP": ""
+                  "textJP": "火災保険証券は、保険期間中（通常12か月）に発生した被保険危険（すなわちFLEX）による財物の滅失・損害に対する補償を提供します。"
                 }
               ]
             },
@@ -141,17 +171,17 @@
               "id": "ch1-s2-D",
               "label": "D",
               "title": "Policy Provisions & Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "2.9",
                   "text": "A couple of the common provisions and conditions which are specific to a Fire Insurance policy are described below: (a) Fall Or Displacement Under this condition, the insurance ceases to be effective immediately upon any fall or displacement to the building impairing its usefulness, or subjects it to increased risk of fire. However, if the fall or displacement was consequent upon the fire of any of the property insured, then, this condition would not apply; i.e. the insurance would remain effective. (b) Marine Exclusion This condition excludes liability altogether if the damaged property is also covered by a Marine Insurance policy. The main reason for this exclusion is the potential disputes and difficulties that may arise in event of claim, to determine the satisfactory contribution between Fire Insurance and Marine Insurance policies. The range, extent and conditions of cover may vary considerably. For example, there is the possibility that, before the fire, the goods may have sustained undiscovered and undefined damage by sea water, pilferage or any of the other marine perils. It would have been unfair for the fire insurers to bear such losses.",
-                  "textJP": ""
+                  "textJP": "火災保険証券に特有の一般的な約款条項のいくつかを以下に���明します：\n(a) 倒壊または変位\nこの条件の下では、建物の倒壊または変位により建物の有用性が損なわれた場合、または火災リスクが増大した場合、保険の効力は直ちに失われます。ただし、倒壊または変位が被保険財物の火災の結果である場合、この条件は適用されません。すなわち、保険は引き続き有効です。\n(b) 海上保険除外条項\nこの条件は、損害を受けた財物が海上保険証券によっても補償される場合、責任を全面的に免除します。この除外の主な理由は、保険金請求時に火災保険と海上保険の間の適切な分担を決定する上で生じうる紛争や困難です。補償の範囲、程度、条件は大きく異なる場合があります。例えば、火災発生前に、貨物が海水、窃盗またはその他の海上危険により未発見・未確定の損害を受けていた可能性��あります。火災保険者がそのような損害を負担することは不公平でしょう。"
                 },
                 {
                   "num": "2.10",
                   "text": "Note that detailed discussions on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
                 }
               ]
             },
@@ -159,17 +189,17 @@
               "id": "ch1-s2-E",
               "label": "E",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "2.11",
                   "text": "The customarily required underwriting information is as follows:\n▪ construction of the building, trade processes, storage arrangements;\n▪ geographical location of the property;\n▪ description and occupation of the property to be insured;\n▪ types of special peril extensions required for the property to be insured;\n▪ loss history of the previous five years and any termination of cover or nonrenewal by other insurers; and\n▪ sum to be insured for building, plant, machinery, equipment, stocks and other contents.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下のとおりです：\n▪ 建物の構造、業務プロセス、保管状況\n▪ 財物の所在地\n▪ 付保する財物の記述と用途\n▪ 付保する財物に必要な特殊危険の拡張の種類\n▪ 過去5年間の損害履歴および他の保険者による補償の終了または更新拒否\n▪ 建物、プラント、機械設備、在庫品お���びその他の収容物の保険金額"
                 },
                 {
                   "num": "2.12",
                   "text": "Note that the underwriter may require additional information, and that details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -177,12 +207,12 @@
               "id": "ch1-s2-F",
               "label": "F",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "2.13",
                   "text": "The Fire Insurance policy has several exclusions (perils and properties that are not covered by the policy). The main reasons for having exclusions are to enable insurers to avoid paying for catastrophes (for which no cover is ever intended to be provided). Insurers also do not wish to cover property in which its value may be difficult to assess, as well as risks that call for special underwriting considerations, and/or should be more appropriately covered under other policies.",
-                  "textJP": ""
+                  "textJP": "火災保険証券にはいくつかの免責事由（保険証券で補償されない危険および財物）があります。免責事由を設ける主な理由は、保険者が大災害（そもそも補償を意図していないもの）に対する支払いを回避できるようにすることです。また、保険者は、その価値の評価が困難な財物、特別な引受上の考慮が必要なリスク、および／または他の保険証券でより適切に補償されるべきリスクの補償を望みません。"
                 }
               ]
             },
@@ -190,17 +220,17 @@
               "id": "ch1-s2-F1",
               "label": "F1",
               "title": "Risks Excluded",
-              "titleJP": "",
+              "titleJP": "免責となるリスク",
               "paragraphs": [
                 {
                   "num": "2.14",
                   "text": "Other than the usual exclusions that relate to war, nuclear, strike, riot and civil commotion (SRCC) risks, the other common exclusions specific to this class of insurance are as follows:\n▪ loss by theft during or after the occurrence of a fire;\n▪ loss of or damage to property caused by its own fermentation, natural heating or spontaneous combustion, or by its undergoing any heating or drying process. Although the property undergoing fermentation in itself is not covered, any resulting fire damage to other insured property is covered, e.g. a sack of palm oil seeds catches fire on their own spontaneous heating – the damage to the oil seeds itself is not covered, but if the fire spreads and causes damage to nearby property, that property damaged by the fire spread is covered; as well as\n▪ loss or damage caused by: - the burning of property by order of any public authority; and - subterranean fire.",
-                  "textJP": ""
+                  "textJP": "戦争、核、ストライキ、暴動および内乱（SRCC）リスクに関する通常の免責に加え、この保険種目に特有のその他の一般的な免責事由は以下のとおりです：\n▪ 火災中または火災後の盗難による損害\n▪ 財物自体の発酵、自然発熱または自然発火による滅失・損害、または加熱・乾燥工程中の財物。ただし、発酵中の財物自体は補償されませんが、その結果として他の被保険財物に生じた火災損害は補償されます（例：パーム油種子の袋が自然発熱により発火した場合、油種子自体の損害は補償されませんが、火災が延焼して近隣の財物に損害を与えた場合、その延焼による損害は補償されます）\n▪ 以下による損害：公的機関の命令による財物の焼却、および地下火災"
                 },
                 {
                   "num": "2.15",
                   "text": "If the damage occurs from the excluded perils that do not involve fire (e.g. a typhoon blows down a building), the policy also does not cover as such, since this is a Fire Insurance policy covering only fire and lightning damage. Any other perils not specifically excluded here, which results in fire damage, are deemed to be included.",
-                  "textJP": ""
+                  "textJP": "火災を伴わない免責危険から損害が生じた場合（例：台風が建物を倒壊させた場合）、これは火災および落雷��よる損害のみを補償する火災保険証券であるため、保険証券も補償しません。ここで特に除外されていない他の危険で、火災損害をもたらすものは、補償に含まれるとみなされます。"
                 }
               ]
             },
@@ -208,17 +238,17 @@
               "id": "ch1-s2-F2",
               "label": "F2",
               "title": "Items Excluded",
-              "titleJP": "",
+              "titleJP": "免責となる対象物",
               "paragraphs": [
                 {
                   "num": "2.16",
                   "text": "Unless expressly included by endorsements, the following items are generally not covered:\n▪ bullion or unset precious stones;\n▪ any curiosity or work of art exceeding a certain amount (e.g. S$200);\n▪ manuscripts, plans, drawings or designs, patterns, models or moulds;\n▪ securities, obligations or documents of any kind, stamps, coins or cash notes, cheques, books, accounts or other business books, or computer systems records;\n▪ coal, against loss or damage caused by its own spontaneous combustion;\n▪ explosives;\n▪ any loss or damage caused by, or through, or in consequence of the burning, whether accidental or otherwise, of forest, bush, and the clearing of lands by fire; and\n▪ any loss or damage caused by or through explosion; but loss or damage by explosion of gas used as lighting or for domestic purposes in a building in which gas is not generated, and which does not form part of any gas works will be deemed to be a loss by fire within the meaning of the policy as discussed earlier.",
-                  "textJP": ""
+                  "textJP": "裏書により明示的に含まれない限り、以下の項目は一般に補償されません：\n▪ 金地金または未セットの貴石\n▪ 一定額（例：200シンガポールドル）を超える骨董品または美術品\n▪ 原稿、図面、設計図、型紙、模型または鋳型\n▪ 有価証券、債務証書その他あらゆる種類の書類、切手、硬貨、紙幣、小切手、帳簿、会計帳簿その他の業務帳簿、またはコンピュータシステムの記録\n▪ 石炭（自然発火による滅失・損害に対して）\n▪ 爆発物\n▪ 偶発的であるかを問わず、森林、藪の焼却、または焼き畑による土地の開墾に起因する、またはこれを通じて生じた滅失・損害\n▪ 爆発に起因する、またはこれを通じて生じた滅失・損害。ただし、ガスを製造しない建物内で、照明用または家庭用に使用されるガスの爆発による滅失・損害は、前述のとおり保険証券の意味における火災による損害とみな���れます。"
                 },
                 {
                   "num": "2.17",
                   "text": "Note that the exclusions for a Fire Insurance policy vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "火災保険証券の免責事由は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -226,22 +256,22 @@
               "id": "ch1-s2-G",
               "label": "G",
               "title": "Policy Extensions (Special Or Extraneous Perils)",
-              "titleJP": "",
+              "titleJP": "特約拡張（特殊危険）",
               "paragraphs": [
                 {
                   "num": "2.18",
                   "text": "Special Perils (also known as Extraneous Perils or Extended Perils or Extra Perils) are, as the name suggests, additions to the standard cover and are available as an option. These are normally subject to extra premiums payable.",
-                  "textJP": ""
+                  "textJP": "特殊危険（付帯危険、拡張危険、追加危険とも呼ばれます）は、その名のとおり基本補償への追加であり、オプションとして利用できます。通常、追加の保険料の支払いが必要です。"
                 },
                 {
                   "num": "2.19",
                   "text": "These special perils are commonly classified under the following headings: Classification Of Special Perils Examples 1. Perils of a Chemical Nature explosion, spontaneous fermentation, heating or combustion 2. Social Perils riots and strikes, locked-out workers, persons taking part in labour disturbances and malicious damage 3. Perils of Nature earthquake and volcanic eruption, subsidence, hurricane, cyclone, typhoon, windstorm and flood 4. Miscellaneous Perils sprinkler leakage, bursting or overflowing of pipes or water tanks, smoke damage, impact by road vehicles and aircraft",
-                  "textJP": ""
+                  "textJP": "これらの特殊危険は一般に以下の分類に分けられます：\n特殊危険の分類と例\n1. 化学的性質の危険：爆発、自然発酵・発熱・発火\n2. 社会的危険：暴動およびストライキ、ロックアウト労働者、労働紛争参加者および悪意による損害\n3. 自然の危険：地震および火山噴火、地盤沈下、ハリケーン、サイクロン、台風、暴風雨および洪水\n4. その他の危険：スプリンクラー漏水、配管または水槽の破裂・溢水、煙害、車両および航空機の衝突"
                 },
                 {
                   "num": "2.20",
                   "text": "Other common clauses that provide coverage extensions following a covered fire may include Architects, Engineers and Surveyor’s Fees; Removal of Debris; and Public Authorities’ Requirements.",
-                  "textJP": ""
+                  "textJP": "補償される火災後の補償拡張を提供するその他の一般的な条項には、設計士・技術者・測量士費用、残骸撤去費用、および公的機関の要件への対応費用が含まれます。"
                 }
               ]
             },
@@ -249,27 +279,27 @@
               "id": "ch1-s2-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "2.21",
                   "text": "Most policies will contain some conditions specifying the claim procedures in the event of a loss. The purpose is to involve the insurer as soon as possible, so that the insurer can help to mitigate or verify the extent of the loss, and/or to seek the insured’s cooperation in matters such as providing the necessary claim evidence.",
-                  "textJP": ""
+                  "textJP": "ほとんどの保険証券には、損害発生時の保険金請求手続きを定めたいくつかの条件が含まれています。その目的は、保険者をできるだけ早く関与させ、損害の軽減や損害範囲の確認を支援し、必要な請求証拠の提供などの事項について被保険者の協力を求めることです。"
                 },
                 {
                   "num": "2.22",
                   "text": "The insured must:\n▪ notify the insurer immediately after the event giving rise to the claim;\n▪ notify the police immediately in the case of damage by malicious means;\n▪ carry out and permit any reasonable practical actions necessary to prevent further damages; and\n▪ deliver to the insurer at insured’s expense (within a stipulated time or such further time as allowed by the insurer): - full information in writing of damage and amount; - details of other insurance covering the same property; - all evidence and information as may reasonably be required; and - if demanded, a statutory declaration of the truth of the claim or any connected matters.",
-                  "textJP": ""
+                  "textJP": "被保険者は以下を行わなければなりません：\n▪ 請求の原因となった事象の発生後、直ちに保険者に通知すること\n▪ 悪意による損害の場合、直ちに警察に届け出ること\n▪ さらなる損害を防止するために合理的かつ実行可能な措置を講じ、許可すること\n▪ 被保険者の費用負担で、所定の期間内に（または保険者が許可するさらなる期間内に）以下を保険者に提出すること：\n  - 損害の完全な情報と金額の書面\n  - 同一財物を補償する他の保険の詳細\n  - 合理的に要求されうるすべての証拠および情報\n  - 求められた場合、請求またはその関連事項の真実性に関する宣誓供述書"
                 },
                 {
                   "num": "2.23",
                   "text": "No claim shall be payable under this policy, unless the terms of this condition have been complied with.",
-                  "textJP": ""
+                  "textJP": "本条件の条件が遵守され���い限り、本保険証券に基づく���険金は支払われません。"
                 },
                 {
                   "num": "2.24",
                   "text": "The request for a declaration on oath (or in other legal form) of the truth relating to the claim or any information submitted is seldom called for, as it is only required if the insurer finds that the claim is highly suspicious.",
-                  "textJP": ""
+                  "textJP": "請求またはその関連情報の真実性に関する宣誓（またはその他の法的形式）による宣言の要求が行われることは稀であり、保険者が請求に高い疑義を認めた場合にのみ要求されます。"
                 }
               ]
             }
@@ -279,29 +309,29 @@
           "id": "ch1-s3",
           "number": "3",
           "title": "Theft Insurance",
-          "titleJP": "",
+          "titleJP": "盗難保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s3-A",
               "label": "A",
               "title": "What Is Theft Insurance?",
-              "titleJP": "",
+              "titleJP": "盗難保険とは？",
               "paragraphs": [
                 {
                   "num": "3.1",
                   "text": "A basic Theft (or Burglary) Insurance policy insures: “… loss or destruction or damage to property insured as a result of:\n▪ theft or attempted theft involving forcible and violent entry to or exit from the premises, or\n▪ theft following assault or violence or threat thereof to the insured or any director, partner or employee of the insured …”",
-                  "textJP": ""
+                  "textJP": "基本的な盗難（またはBurglary）保険証券は、以下を付保します：「……以下の結果として生じた被保険財物の滅失・毀損・損害：\n▪ 建物への暴力的かつ強制的な侵入もしくは退出を伴う盗難または盗難未遂、または\n▪ 被保険者もしくはその取締役、パートナーまたは従業員に対する暴行もしくは暴力またはその脅迫に続く盗難……」"
                 },
                 {
                   "num": "3.2",
                   "text": "Under Section 378 of the Singapore Penal Code 1871, the legal definition of the term “theft” states that: “Whoever, intending to take dishonestly any movable property out of the possession of any person without that person’s consent, moves that property in order to such taking, is said to commit theft.”",
-                  "textJP": ""
+                  "textJP": "シンガポール刑法1871年第378条に基づく「盗難」の法的定義は以下のとおりです：「何人も、他人の占有する動産を不正に取得する意図をもって、当該他人の同意なくして当該財物を移動させた場合、盗難を犯したものとする。」"
                 },
                 {
                   "num": "3.3",
                   "text": "However, this is a very wide definition, as it does not state the need for an existence of force or violence in committing that act of theft. Simply, it indicates that shoplifting and pilferage are also considered as acts of thefts. However, note that these two acts are not insurable owing to the high risk of easy accomplishment and frequency of occurrences. For this reason, most basic Theft Insurance policies require the evidence of forcible and violent entry to or exit from the insured premises.",
-                  "textJP": ""
+                  "textJP": "しかし、これは非常に広い定義であり、窃盗行為における暴力の存在を求めていません。単純に、万引きやピルファレージ（少額窃盗）も窃盗行為とみなされることを示しています。ただし、これら二つの行為は、その容易さと頻度の高さから付保対象外です。このため、ほとんどの基本的な盗難保険証券は、被保険建物への暴力的かつ強制的な侵入または退出の証拠を要求しています。"
                 }
               ]
             },
@@ -309,27 +339,27 @@
               "id": "ch1-s3-B",
               "label": "B",
               "title": "The Need For Theft Insurance",
-              "titleJP": "",
+              "titleJP": "盗難保険の必要性",
               "paragraphs": [
                 {
                   "num": "3.4",
                   "text": "Theft Insurance policies have the same aim as that of standard Fire Insurance policies in that they intend to provide compensation to the insured in the event of loss of the property insured.",
-                  "textJP": ""
+                  "textJP": "盗難保��証券は、標準的な火災保険証券と同様の目的を持ち、被保険財��の滅失が発生した場合に被保険者に補償を提供することを意図しています。"
                 },
                 {
                   "num": "3.5",
                   "text": "The common descriptions of the property insured are:\n▪ stock-in-trade;\n▪ goods held in trust or on commission; and\n▪ plant, machinery, office equipment, furniture, fixtures and fittings.",
-                  "textJP": ""
+                  "textJP": "被保険財物の一般的な記述は以下のとおりです：\n▪ 商品在庫\n▪ 委託または委任で保管する物品\n▪ プラント、機械設備、事務用機器、什器備品"
                 },
                 {
                   "num": "3.6",
                   "text": "Theft Insurance policy will usually include cover for damage to buildings arising from a theft or attempted theft; e.g. damage to any windows, doors, wall, roof, shutters, locks as a result of the entry into and/or exit from the buildings. This is provided that the insured is not responsible for causing the damage.",
-                  "textJP": ""
+                  "textJP": "盗難保険証券は通常、盗難または盗難未遂に起因する建物の損害の補償も含みます。例えば、建物への侵入および／または退出の結果として生じた窓、ドア、壁、屋根、シャッター、錠の損害です。ただし、被保険者がその損害の原因者ではないことが条件です。"
                 },
                 {
                   "num": "3.7",
                   "text": "Note that theft from domestic premises is usually not insured under a commercial Theft Insurance policy but rather, as part of Householder’s Insurance1. 1 Detailed discussions on the Household Insurance are in the “Personal General Insurance” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "家庭の建物からの盗難は、通常、企業向け盗難保険証券ではなく、住宅保険（Householder's Insurance）の一部として付保されることにご留意ください。"
                 }
               ]
             },
@@ -337,17 +367,17 @@
               "id": "ch1-s3-C",
               "label": "C",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "3.8",
                   "text": "Basically, the insurer’s intention in issuing a Theft Insurance policy is to cover the loss of property resulting from a break-in. Hence, a typical Theft Insurance policy incorporates the following wording: “theft involving entry to or exit from the premises by forcible and violent means”.",
-                  "textJP": ""
+                  "textJP": "基本的に、保険者が盗難保険証券を発行する際の意図は、侵入に起因する財物の滅失を補償することです。そのため、典型的な盗難保険証券には以下の文言が含まれます：「暴力的かつ強制的な手段による建物への侵入または退出を伴う盗難」。"
                 },
                 {
                   "num": "3.9",
                   "text": "The intention of the cover is that “theft” should be accompanied by either forcible and violent entry or exit from a building. “Forcible” on its own means “the mere use of any kind of force”. “Violent” has the notion of aggression and extra force with accompanying damage.",
-                  "textJP": ""
+                  "textJP": "補償の意図は、「盗難」が建物への暴力的かつ強制的な侵入または退出のいずれかを伴うべきであるということです。「強制的（Forcible）」のみでは「何らかの力の行使」を意味します。「暴力的（Violent）」には攻撃性と付随する損害を伴う過度の力という概念があります。"
                 }
               ]
             },
@@ -355,12 +385,12 @@
               "id": "ch1-s3-D",
               "label": "D",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "3.10",
                   "text": "Theft Insurance policies provide cover for any property loss or damage by the insured perils (i.e. theft), which occurs during the period of insurance (usually 12 months).",
-                  "textJP": ""
+                  "textJP": "盗難保険証券は、保険期間中（通常12か月）に発生した被保険危険（すなわち盗難）による財物の滅失・損害に対する補償を提供します。"
                 }
               ]
             },
@@ -368,17 +398,17 @@
               "id": "ch1-s3-E",
               "label": "E",
               "title": "Policy Provisions & Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "3.11",
                   "text": "Some of the common provisions and conditions which are specific to a Theft Insurance policy are described below: (a) Reasonable Precautions The insured shall take all reasonable precautions for the safety of the property insured, such as relating to the selection and supervision of the employees, securing doors, windows and other means of entrance and exit. (b) Alteration No claim shall be payable if there are any material changes made to the premises or in the conditions of the risks, after acceptance. (c) Occupancy The policy shall cease to be in force if the premises are unoccupied for a period longer than the stipulated number of days; usually 30 consecutive days (60 days for some insurers). (d) Burglary Alarm Warranty Some policies incorporate the following conditions:\n▪ the alarm system and other security devices shall be in full operation at all times, and shall be maintained and serviced regularly under a maintenance contract;\n▪ the insured shall notify the insurer and obtain the insurer’s agreement before replacing, extending or modifying the intruder alarm system in the premises.",
-                  "textJP": ""
+                  "textJP": "盗難保険証券に特有の一般的な約款条項のいくつかを以下に説明します：\n(a) 合理的な予防措置\n被保険者は、従業員の選定・監督、ドア・窓その他の出入口の施錠など、被保険財物の安全のために合理的な予防措置を講じなければなりません。\n(b) 変更\n引受後に建物またはリスクの条件に重大な変更が加えられた場合、保険金は支払われません。\n(c) 占有状態\n建物が所定の日数以上（通常30日連続、一部の保険者では60日）にわたり無人となった場合、保険証券は効力を失います。\n(d) 防犯アラーム保証\n一部の保険証券には以下の条件が含まれます：\n▪ 警報システムおよびその他のセキュリティ装置は常時完全に稼働し、保守契約に基づき定期的に保守・点検されなければなりません。\n▪ 被保険者は、建物の侵入警報システムの交換、拡張または変更を行う前に、保険者に通知し同意を得なければなりません。"
                 },
                 {
                   "num": "3.12",
                   "text": "Note that detailed discussions on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
                 }
               ]
             },
@@ -386,32 +416,32 @@
               "id": "ch1-s3-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "3.13",
                   "text": "Shops dealing in wine and spirits, expensive dried foodstuff, such as bird’s nest, shark fins and abalone are of particular attraction to thieves.",
-                  "textJP": ""
+                  "textJP": "酒類、鳥の巣、フカヒレ、アワビなどの高価な乾物を扱う店舗は、窃盗犯にとって特に魅力的なターゲットです。"
                 },
                 {
                   "num": "3.14",
                   "text": "A poor security system in the insured premises can increase the risk of theft as well. Many insurers are concerned about this physical aspect of risk, and very often, risk surveyors are engaged to investigate the effectiveness of the insured’s security system. If the insurer is not satisfied with the security precautions that are in place at the point of application, the insured may be requested to upgrade the security system before the risk can be accepted.",
-                  "textJP": ""
+                  "textJP": "被保険建物のセキュリティシステムが不十分な場合、盗難リスクが増大する可能性があります。多くの保険者はこのリスクの物理的側面に関心を持ち、リスク調査員に被保険者のセキュリティシステムの有効性を調査させることがよくあります。申込時のセキュリティ対策に保険者が満足しない場合、リスクの引受前にセキュリティシステムのアップグレードを求められることがあります。"
                 },
                 {
                   "num": "3.15",
                   "text": "The customarily required underwriting information is as follows:\n▪ type of goods to be insured;\n▪ value of goods to be insured;\n▪ locations where goods are stored;\n▪ maximum amount of risk per location if the goods are stored at different premises;\n▪ types of security measures taken for the premises, e.g. the use of locks, grills, burglar alarms, security guards, etc.; and\n▪ previous claims experience.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下のとおりです：\n▪ 付保する物品の種類\n▪ 付保する物品の価値\n▪ 物品の保管場所\n▪ 物品が異なる建物に保管されている場合の1か所あたりの最大リスク額\n▪ 建物のセキュリティ対策の種類（例：錠、格子、防犯ア���ーム、警備員の使用など）\n▪ 過去の保険金請求の実績"
                 },
                 {
                   "num": "3.16",
                   "text": "The rate of premium varies with the degree of theft hazard. Naturally, the higher the risk associated with the value of the goods, the higher will be the rate of premium.",
-                  "textJP": ""
+                  "textJP": "保険料率は盗難危険の程度によって異なります。当然ながら、物品の価値に関連するリスクが高いほど、保険料率も高くなります。"
                 },
                 {
                   "num": "3.17",
                   "text": "Note that the underwriter may require additional information, and that details of required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -419,17 +449,17 @@
               "id": "ch1-s3-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "3.18",
                   "text": "Other than the usual exclusions that relate to war, nuclear, strike, riot and civil commotion risks, the common exclusions specific to this class of insurance are as follows:\n▪ loss or damage by or consequent upon fire or explosion;\n▪ loss or damage to coin and similarly operated gaming and/or amusement machines;\n▪ damage to plate glass or any decoration or lettering;\n▪ loss of or damage to bonds, bills of exchange, promissory notes, money or securities for money, coins or stamp collections, plans, patterns, models, moulds, designs, documents of title to property, contracts or other documents, business books, manuscripts, livestock, motor vehicles and accessories, unless they are specifically insured;\n▪ loss or damage resulting from collusion with any of the insured’s staff or employees or any person lawfully on the premises (collusion refers to the plotting and agreement between the thief and the employees on how to gain entry and/or get out of the insured’s premises after having stolen goods from the premises); and\n▪ consequential loss of any kind and description.",
-                  "textJP": ""
+                  "textJP": "戦争、核、ストライキ、暴動および内乱リスクに関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n▪ 火災または爆発による、またはこれに起因する滅失・損害\n▪ コイン式ゲーム機および／または娯楽機械の滅失・損害\n▪ 板ガラスまたはその装飾・文字の損害\n▪ 債券、為替手形、約束手形、金銭または金銭に関する有価証券、硬貨もしくは切手のコレクション、図面、型紙、模型、鋳型、設計図、権利証書、契約書その他の書類、業務帳簿、原稿、家畜、自動車およびその付属品の滅失・損害（特に付保されている場合を除く）\n▪ 被保険者のスタッフもしくは従業員または建物に合法的にいる者との共謀による滅失・損害（共謀とは、窃盗犯と従業員が被保険建物への侵入方法および物品を盗んだ後の退出方法について企てを行うこと）\n▪ あらゆる種類の間接損害"
                 },
                 {
                   "num": "3.19",
                   "text": "Note that the exclusions of a Theft Insurance policy vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "盗難保険証券の免責事由は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -437,17 +467,17 @@
               "id": "ch1-s3-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "3.20",
                   "text": "Some common extensions specific to Theft Insurance are described below: (a) Robbery and/or Hold-up A robbery and/or hold-up can be defined as theft accompanied by assault or violence, or the threat of it to the insured or his employees, irrespective of whether there was forcible entry. (b) Full Theft Cover This extension covers loss of or damage to the property insured by theft without violent and forcible entry into the premises. Hence, if the loss occurred when entry/or exit is achieved via an open door and/or window, the loss will be covered.",
-                  "textJP": ""
+                  "textJP": "盗難保険に特有のいくつかの一般的な特約拡張を以下に説明します：\n(a) 強盗および／またはホールドアップ\n強盗および／またはホールドアップとは、強制的な侵入があったか否かにかかわらず、被保険者またはその従業員に対する暴行もしくは暴力またはその脅迫を伴う盗難と定義できます。\n(b) 全盗難補償\nこの特約は、建物への暴力的かつ強制的な侵入を伴わない盗難による被保険財物の滅失・損害を補償します。したがって、開いたドアおよび／または窓を通じて侵入／退出が行���れた場合に生じた損害も補償されます。"
                 },
                 {
                   "num": "3.21",
                   "text": "However, the Full Theft extension does not cover any of the following:\n▪ unexplained loss, mysterious disappearance or loss or shortage while taking inventory or stock;\n▪ loss or damage from infidelity or dishonest acts of the insured or his employees or agents; or\n▪ the first amount of loss shown in the schedule of the policy as the excess.",
-                  "textJP": ""
+                  "textJP": "ただし、全盗難拡張は以下を補償しません：\n▪ 原因不明の滅失、不可解な消失、または棚卸中に発見された滅失・不足\n▪ 被保険者またはその従業員もしくは代理人の不誠実な行為による滅失・損害\n▪ 保険証券の明細書に免責金額として記載された損害の最初の金額"
                 }
               ]
             },
@@ -455,17 +485,17 @@
               "id": "ch1-s3-I",
               "label": "I",
               "title": "First Loss Basis Of Coverage",
-              "titleJP": "",
+              "titleJP": "第一損害填補方式",
               "paragraphs": [
                 {
                   "num": "3.22",
                   "text": "In Theft Insurance, an insured may insure on a First Loss basis. The insured may feel that any loss or damage is unlikely to affect all his property at once, and so he agrees to a limit on the insurer's liability on any single claim to an agreed amount. For example, if the insured’s stocks of laptops are valued at S$500,000, and the value is spread throughout a warehouse, it may be considered unlikely that any theft will cause a claim greater than S$100,000. Therefore, the insured arranges Theft Insurance on the basis of losses up to S$100,000. In other words, the S$100,000 sum insured is on a First Loss basis.",
-                  "textJP": ""
+                  "textJP": "盗難保険において、被保険者は第一損害填補方式で付保することができます。被保険者は、損害がすべての財物に一度に影響する可能性は低いと考え、単一の請求に対する保険者の責任額を合意された金額に制限することに同意します。例��ば、被保険者のラップトップの在庫がS$500,000と評価され、その価値が倉庫全体に分散している場合、いかなる盗難もS$100,000を超える請求を引き起こす可能性は低いと考えられます。そのため、被保険者はS$100,000を限度とする第一損害填補方式で盗難保険���手配します。"
                 },
                 {
                   "num": "3.23",
                   "text": "The above arrangement means that, in the event where all the stock is stolen, the insurer will pay only a maximum of S$100,000 for items worth S$500,000. In other words, the insurer’s liability for the theft loss is limited to the First Loss sum insured, notwithstanding that the actual loss amount may be much greater. In consideration, the insured achieves savings in premium by insuring on a First Loss basis. The condition of average (under-insurance) does not apply in this case.",
-                  "textJP": ""
+                  "textJP": "上記の取り決めは、すべての在庫が盗まれた場合でも、保険者はS$500,000相当の物品に対して最大S$100,000のみを支払うことを意味します。つまり、実際の損害額がそれを大幅に上回る場合であっても、盗難損害に対する保険者の責任は第一損害保険金額に限定されます。その代わり、被保険者は第一損害填補方式で付保することにより保険料の節約を実現します。比例てん補条項（過小付保）はこの場合適用されません。"
                 }
               ]
             },
@@ -473,17 +503,17 @@
               "id": "ch1-s3-J",
               "label": "J",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "3.24",
                   "text": "Upon the happening of any event that may give rise to a claim under the policy, the insured must:\n▪ give immediate notice to the police, and take all practical steps to discover the guilty person(s) and to recover the property lost or stolen; and\n▪ report within seven days (or 14 days for some insurers) of the event supplying detailed particulars, proof and evidence in support of the claim.",
-                  "textJP": ""
+                  "textJP": "保険証券に基づく請求の原因となりうる事象が発生した場合、被保険者は以下を行わなければなりません：\n▪ 直ちに警察に届け出て、犯人を発見し盗まれた財物を回収するためのあらゆる実行可能な措置を講じること\n▪ 事象発生後7日以内（一部の保険者では14日��内）に、請求を裏付ける詳細な明細、証拠および証拠書類を提出して報告すること"
                 },
                 {
                   "num": "3.25",
                   "text": "In the event of a claim being made against the policy, the insured must:\n▪ provide evidence to prove that the loss or damage claimed for has actually arisen from one of the causes insured against, and that the property in respect of which a claim is made is not merely mislaid or missing;\n▪ give all reasonable assistance to the insurer who may at any time at its own expense use all legal means in the name of the insured for recovery of any of the property lost or stolen; and\n▪ not abandon any property to the insurer, although the insurer can be entitled to any property for the loss of which a claim is paid under the policy.",
-                  "textJP": ""
+                  "textJP": "保険証券に基づく請求が行われた場合、被保険者は以下を行わなければなりません：\n▪ 請求される滅失・損害が付保されている原因のいずれかから実際に生じたこと、および請求の対象となる財物が単に紛失または所在不明ではないことを証明する証拠を提出すること\n▪ 保険者に対し合理的な協力を行うこと。保険者は自己の費用負担で、盗難財物の回収のために被保険者の名義であらゆる法的手段を講じることができます\n▪ いかなる財物も保険者に放棄しないこと。ただし、保険者は保険証券に基づき請求が支払われた財物については権利を有します"
                 }
               ]
             }
@@ -493,24 +523,24 @@
           "id": "ch1-s4",
           "number": "4",
           "title": "Electronic Equipment Insurance",
-          "titleJP": "",
+          "titleJP": "電子機器保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s4-A",
               "label": "A",
               "title": "What Is Electronic Equipment Insurance?",
-              "titleJP": "",
+              "titleJP": "電子機器保険とは？",
               "paragraphs": [
                 {
                   "num": "4.1",
                   "text": "An Electronic Equipment Insurance policy (also known as Computer Loss or Damage/Data Processing Equipment Insurance policy) provides an “All Risks” cover for damage to electronic equipment, such as computers and computer related peripherals, data processing equipment, auxiliary equipment, such as uninterrupted power supplies (UPS), air-conditioning system, in the computer or electronic room, data carrying media, telecommunication systems and printing equipment. It can also be extended to cover the cost of reconstructing data files and programs, as well as additional costs incurred when making use of alternative facilities to avoid business interruption after physical loss to insured items.",
-                  "textJP": ""
+                  "textJP": "電子機器保険��券（コンピュータ損害保険／データ処理機器保険とも呼ばれます）は、コンピュータおよびコンピュータ関連周辺機器、データ処理機器、UPS（無停電電源装置）やコンピュ���タ室・電子機器室の空調システムなどの補助機器、データ記録媒体、通信システムおよび印刷機器などの電子機器の損害に対して「オールリスク」補償を提供します。データファイルやプログラムの再構築費用、および被保険物品の物的損害後に事業中断を回避するために代替設備を使用する際に発生する追加費用も補償対象に拡張できます。"
                 },
                 {
                   "num": "4.2",
                   "text": "Such electronic equipment may comprise data processing systems used in research and development, commercial computer centres, administration and industry, medical equipment for diagnostic and therapeutic purposes, telecommunication systems, etc.",
-                  "textJP": ""
+                  "textJP": "このような電子機器には、研究開発、商業コンピュータセンター、管理・産業で使用されるデータ処理システム、診断・治療目的の医療機器、通信システムなどが含まれます。"
                 }
               ]
             },
@@ -518,12 +548,12 @@
               "id": "ch1-s4-B",
               "label": "B",
               "title": "The Need For Electronic Equipment Insurance",
-              "titleJP": "",
+              "titleJP": "電子機器保険の必要性",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "Modern businesses have become more reliant on computers in some form or another. Computers and electronic equipment often entail huge capital investment and are critical to the operation. The equipment is susceptible to damage and a breakdown/disruption of any form can cause a severe impact on the business. For instance, even a partial failure to a computer installation may have far-reaching and damaging effects on the business, as a computer installation is usually the nerve centre of an organisation. Hence, it is of utmost importance that a business purchases adequate insurance cover for the electronic equipment.",
-                  "textJP": ""
+                  "textJP": "現代の企業は何らかの形でコンピュータへの依存度を高めています。コンピュータおよび電子機器は多額の設備投資を伴うことが多く、事業運営にとって不可欠です。��器は損害を受けやすく、いかなる形態の故障・中断も事業に深刻な影響を与える可能性があります。例えば、コンピュータ設備は通常、組織の中枢であるため、その部分的な障害でさえ事業に広範かつ深刻な影響を及ぼす可能性があります。したがって、企業が電子機器について十分な保険を付保することが最も重要です。"
                 }
               ]
             },
@@ -531,17 +561,17 @@
               "id": "ch1-s4-C",
               "label": "C",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "4.4",
                   "text": "Electronic Equipment Insurance is designed to provide an “All Risks” cover catering to the actual repair and/or replacement cost and other financial consequences, following the loss of or damage to the insured electronic equipment (hardware and software2), arising from any accidental cause. “All Risks” means all unforeseen and sudden damage/loss whatsoever, other than those specifically excluded, are included for coverage. 2 Hardware is any electronic, mechanical or electromechanical device, e.g. CPU, disk drive and printer. Software is a set of instructions that tells the computer what to do, e.g. word-processing software. The Electronic Equipment Insurance insures the hardware, as well as the software.",
-                  "textJP": ""
+                  "textJP": "電子機器保険は、あらゆる偶発的原因から生じる被保険電子機器（ハードウェアおよびソフトウェア）の滅失・損害に伴う実際の修理費用および／または交換費用、ならびにその他の財務的影響に対して「オールリスク」補償を提供するよう設計されています。「オールリスク」とは、特に除外されたものを除き、すべての不測かつ突発的な損害・滅失が補償対象に含まれることを意味します。\n※ ハードウェアとは、CPU、ディスクドライブ、プリンタなどの電子的・機械的・電気機械的装置です。ソフトウェアとは、ワープロソフトなど、コンピュータに何をすべきかを指示する命令の集合です。電子機器保険はハードウェアとソフトウェアの両方を付保します。"
                 },
                 {
                   "num": "4.5",
                   "text": "In other words, the basic Electronic Equipment Insurance policy insures against any sudden and unforeseen physical loss or damage to any part of the insured items, from any cause whatsoever other than those specifically excluded. The insurers will pay for all such loss or damage up to an amount not exceeding the sum insured.",
-                  "textJP": ""
+                  "textJP": "つまり、基本的な電子機器保険証券は、特に除外されたものを除き、あらゆる原因による被保険物品のいずれかの部分に対する突発的かつ不測の物的滅失・損害を付保します。保険者は、保険金額を超えない範囲で、そのようなすべての滅失・損害に対して保険金を支払います。"
                 }
               ]
             },
@@ -549,12 +579,12 @@
               "id": "ch1-s4-D",
               "label": "D",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "4.6",
                   "text": "Electronic Equipment Insurance policies provide cover for any insured property lost or damaged which occurs during the period of insurance (usually 12 months).",
-                  "textJP": ""
+                  "textJP": "電子機器保険証券は、保険期間中（通常12か月）に発生した被保険財物の滅失・損害に対する補償を提供します。"
                 }
               ]
             },
@@ -562,12 +592,12 @@
               "id": "ch1-s4-E",
               "label": "E",
               "title": "Policy Provisions & Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "4.7",
                   "text": "Some of the common provisions and conditions which are specific to an Electronic Equipment Insurance policy are described below: (a) Sum Insured It is a common provision that the sum insured must represent the cost of replacing the insured item with new items of the same kind and capacity, i.e. replacement costs, including freight, installation costs and any customs duties and dues. Otherwise, the claim payment shall be subject to average if the sum insured is less than the insured amount required. (b) Basis Of Indemnity Where damage to an insured item can be repaired (i.e. partial loss), the insurer will pay all expenses necessarily and reasonably incurred to repair the equipment, including other charges like dismantling, transport fees, etc. For loss to equipment that is beyond economic repair (i.e. total loss), or if the repair cost equals or exceeds the actual value of the insured item immediately before the occurrence of the damage, the settlement shall be made on the following basis:\n▪ pay the actual value of the item immediately before the occurrence of the loss, i.e. replacement value less depreciation (replacement value will include costs for ordinary freight, installation and customs duties and dues, if any); or\n▪ if the policy was extended to insure the full replacement value of the items, pay the replacement value without deduction for depreciation.",
-                  "textJP": ""
+                  "textJP": "電子機器保険証券に特有の一般的な約款条項のいくつかを以下に説明します：\n(a) 保険金額\n保険金額は、運賃、設置費用および関税・諸費用を含む、同種・同能力の新品の交換費用（すなわち再調達価額）を反映しなければならないのが一般的な規定です。そうでない場合、保険金額が必要額を下回る場合、保険金の支払いは比例てん補条項の適用を受けます。\n(b) てん補の基準\n被保険物品の損害が修理可能な場合（すなわち分損）、保険者は解体費用、運搬費用等のその他の費用を含む、機器の修理に必要かつ合理的に発生したすべての費用を支払います。経済的に修理不能な機器の滅失の場合（すなわち全損）、または修理費用が損害発生直前の被保険物品の実際の価値と同等以上の場合、てん補は以下の基準で行われます：\n▪ 損害発生直前の物品の実際の価値（すなわち再調達価額から減価償却を控除した額。再調達価額には通常の運賃、設置費用および関税・諸費用が含まれます）を支払う。\n▪ 物品の再調達価額全額を付保する特約が付帯されている場合、減価償却を控除せずに再調達価額を支払う。"
                 }
               ]
             },
@@ -575,17 +605,17 @@
               "id": "ch1-s4-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "4.8",
                   "text": "The customarily required underwriting information is described below: (a) General information – This comprises details like name of proposer, address and location of risk, nature of business and the required period of insurance. (b) Declaration of the interests to be insured under the three sections:\n▪ Section 1: Description of electronic equipment to be insured, such as model and type of equipment, and the sums insured.\n▪ Section 2: Description of data media to be insured, such as types of data media, and the sums insured. These may comprise detachable optical, magnetic and electronic storage media.\n▪ Section 3: Extra Expenses, such as rental fees for replacement equipment. (c) Risk-specific information – This includes questions on claims and insurance history, any other insurance covering the same interest, any maintenance contract, any risk aggravating circumstances, etc.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報を以下に説明します：\n(a) 一般情報：申込者名、住所およびリスクの所在地、事業の種類、必要な保険期間などの詳細です。\n(b) 3つのセクションに基づく付保対象の申告：\n▪ セクション1：付保する電子機器の記述（機器のモデル・種類、保険金額など）\n▪ セクション2：付保するデータ媒体の記述（データ媒体の種類、保険金額など。着脱式の光学式、磁気式、電子式記録媒体を含みます）\n▪ セクション3：追加費用（代替機器のレンタル料など）\n(c) リスク固有の情報：請求・保険履歴、同一対象を補償する他の保険、保守契約の有無、リスクを増大させる状況などに関する質問です。"
                 },
                 {
                   "num": "4.9",
                   "text": "Note that the underwriter may require additional information, and that details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -593,17 +623,17 @@
               "id": "ch1-s4-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "4.10",
                   "text": "Other than the usual exclusions that relate to war, riots, strikes, and nuclear risks, the common exclusions specific to this class of insurance are as follows:\n▪ earthquake, volcanic eruption, tsunami, hurricane, cyclone, typhoon or windstorm;\n▪ perils covered under any other type of insurance, such as theft and consequential loss;\n▪ faults or defects existing at the time of commencement of the insurance which were known to the insured;\n▪ failure or interruption of gas, water or electricity service or supply;\n▪ wear and tear as a direct consequence of ordinary use or operation, as well as cavitations, erosion or corrosion (e.g. rust);\n▪ elimination of functional failure, unless such failure caused by an indemnifiable loss of or damage to the insured items;\n▪ maintenance of the insured items, including any parts being replaced in the course of such maintenance;\n▪ fault or defect for which the supplier is responsible either by law or under contract (loss covered by warranty);\n▪ equipment rented or hired for which the original owner is responsible either by law or under a maintenance agreement or contract;\n▪ loss of or damage to parts with short service life (e.g. bulbs, valves, belts, wires, etc., and operating media) and aesthetic defects (e.g. scratches on painted surfaces) are excluded (unless such parts or defects are affected by an indemnifiable loss of or damage to the insured items); and\n▪ wilful act or negligence of the insured or representatives.",
-                  "textJP": ""
+                  "textJP": "戦争、暴動、ストライキ、および核リスクに関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n▪ 地震、火山噴火、津波、ハリケ��ン、サイクロン、台風または暴���雨\n▪ 盗難や間接損害など、他の種類の保険で補償される危険\n▪ 被保険者が知っていた保険開始時に存在する欠陥または瑕疵\n▪ ガス、水道または電力サービスまたは供給の障害または中断\n▪ 通常の使用または運転の直接の結果としての摩耗・損耗、ならびにキャビテーション、浸食または腐食（例：錆）\n▪ てん補対象の滅失・損害によって引き起こされた場合を除く、機能障害の除去\n▪ 被保険物品の保守（当該保守の過程で交換される部品を含む）\n▪ 法律または契約に基づきサプライヤーが責任を負う欠陥・瑕疵���保証で補償される損害）\n▪ 法律または保守契約に基づき原所有者が責任を負うレンタルまたはリースされた機器\n▪ ��寿命部品（例：電球、バルブ、ベルト、ワイヤー等、および消耗品）の滅失・損害および外観上の欠陥（例：塗装面の傷）（てん補対象の滅失・損害によって影響を受けた場合を除く）\n▪ 被保���者またはその代理人の故意の行為または過失"
                 },
                 {
                   "num": "4.11",
                   "text": "Note that the exclusions of an Electronic Equipment Insurance policy vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "電子機器保険証券の免責事由は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -611,17 +641,17 @@
               "id": "ch1-s4-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "4.12",
                   "text": "Some extensions specific to the Electronic Equipment Insurance policy are described below: (a) External Data Media This extends the coverage to any data processing media that is insured, for any sudden and unforeseen loss of or damage to any part of the electronic data processing media as described in the schedule of the policy, from any cause whatsoever, other than those specifically excepted. The exceptions are:\n▪ the deductible as stated in the schedule of the policy to be borne by the insured in any one occurrence;\n▪ any cost arising from false programming, punching, labelling or inserting, unintentional cancelling of information or discarding of data media, and from loss of information caused by magnetic fields; and\n▪ consequential loss of any kind. (b) Increased Cost Of Working This extension insures the additional expenditure incurred for the use of a substitute system to maintain normal business operations during the interruption, caused by any loss of or damage to the insured electronic equipment. However, the insurer shall not be liable for any additional expenses incurred by the insured as a result of:\n▪ restrictions imposed by any government or public authority concerning the reconstruction of operation of the electronic data processing equipment; and\n▪ the repairs or replacements of the damaged/destroyed equipment being delayed because of the insured not having the necessary funds to effect them.",
-                  "textJP": ""
+                  "textJP": "電子機器保険証券に特有のいくつかの特約拡張を以下に説明します：\n(a) 外部データ媒体\nこの特約は、付保されたデータ処理媒体について、特に除外されたものを除き、保険証券の明細書に記載された電子データ処理媒体のいずれかの部分に対するあらゆる原因による突発的かつ不測の滅失・損害に対する補償を拡張します。除外事項は以下のとおりです：\n▪ 保険証券の明細書に記載された免責金額（1事故あたり被保険者が負担）\n▪ 誤ったプログラミング、パンチング、ラベリングまたは挿入、情報の意図しない消去またはデータ媒体の廃棄、および磁場による情報の喪失から生じる費用\n▪ あらゆる種類の間接損害\n(b) 営業費用の増加\nこの特約は、被保険電子機器の滅失・損害による中断期間中、通常の事業運営を維持するための代替システムの使用に要した追加支出を付保します。ただし、以下の結果として被保険者が負担した追加費用については保険者は責任を負いません：\n▪ 電子データ処理機器の再建または運用に関する政府または公的機関による制限\n▪ 被保険者が修理・交換に必要な資金を有しないために損傷・滅失した機器の修理・交換が遅延した場合"
                 },
                 {
                   "num": "4.13",
                   "text": "In addition, excluded perils in the basic policy like earthquake, strike, riot, civil commotion, hurricane, typhoon, etc. may also be “brought back” or included with additional premiums payable.",
-                  "textJP": ""
+                  "textJP": "加えて、地震、ストライキ、暴動、内乱、ハリケーン、台風など、基本保険証券で除外されている危険も、追加保険料の支払いにより補償対象に「復活」させることができます。"
                 }
               ]
             },
@@ -629,12 +659,12 @@
               "id": "ch1-s4-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "4.14",
                   "text": "The claim procedures for Electronic Equipment Insurance are quite similar to those insurance policies which we have covered so far. In the event of any occurrence which may give rise to a claim, the insured shall:\n▪ immediately inform the insurer verbally (telephone) and in writing, giving an indication of the nature and extent of the loss or damage (notice must be given to the insurer within the number of stipulated days);\n▪ take reasonable steps to minimise the extent of loss or damage;\n▪ preserve the damage/affected parts and make them available for inspection by the insurer;\n▪ furnish all necessary information and documents as required by the insurer; and\n▪ inform the police in the case of damage or loss resulting from theft or burglary.",
-                  "textJP": ""
+                  "textJP": "電子機器保険の保険金請求手続きは、これまで取り上げた保険証券と非常に類似しています。請求の原因となりうる事象が発生した場合、被保険者は以下を行わなければなりません：\n▪ 直ちに口頭（電話）および書面で保険者に通知し、滅失・損害の性質と範囲を示すこと（所定の日数以内に保険者に通知しなければなりません）\n▪ 滅失・損害の範囲を最小限にするための合理的な措置を講じること\n▪ 損傷・影響を受けた部品を保存し、保険者の検査のために提供すること\n▪ 保険者が要求するすべての必要な情報および書類を提出すること\n▪ 盗難または侵入による損害・滅失の場合は警察に届け出ること"
                 }
               ]
             }
@@ -644,24 +674,24 @@
           "id": "ch1-s5",
           "number": "5",
           "title": "Glass Insurance",
-          "titleJP": "",
+          "titleJP": "ガラス保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s5-A",
               "label": "A",
               "title": "What Is Glass Insurance?",
-              "titleJP": "",
+              "titleJP": "ガラス保険とは？",
               "paragraphs": [
                 {
                   "num": "5.1",
                   "text": "Glass Insurance is commonly known as Plate Glass Insurance in the market, but this policy is not restricted only to coverage of only plate glass. Glass Insurance policy is issued to cover practically all kinds of fixed glass within the insured’s premises, as reflected in the general description as specified in the schedule of the policy, e.g. “All glass panels, including fittings and fronts contained in or fixed on the insured’s premises.”",
-                  "textJP": ""
+                  "textJP": "ガラス保険は市場では一般に板ガラス保険として知られていますが、この保険証券は板ガラスのみに限定されるものではありません。ガラス保険証券は、保険証券の明細書に記載された一般的な記述に反映されているとおり、被保険者の建物内のほぼすべての種類の固定ガラスを補償するために発行されます。例：「被保険者の建物に含まれる、または固定されたすべてのガラスパネル（取付具および正面を含む）」"
                 },
                 {
                   "num": "5.2",
                   "text": "Although there are many ways in which glass can be damaged without breakage occurring, Glass Insurance covers only the breakage (or destruction) risk. There is, however, an almost unlimited number of breakage causes. Therefore, this insurance is subject to certain exclusions.",
-                  "textJP": ""
+                  "textJP": "ガラスが破損なく損傷する方法は多数あ���ますが、ガラス保険が補償するのは破損（または破壊）リスクのみです。ただし、破損の原因はほぼ無限にあります。そのため、この保険にはいくつかの免責事由があります。"
                 }
               ]
             },
@@ -669,12 +699,12 @@
               "id": "ch1-s5-B",
               "label": "B",
               "title": "The Need For Glass Insurance",
-              "titleJP": "",
+              "titleJP": "ガラス保険の必要性",
               "paragraphs": [
                 {
                   "num": "5.3",
                   "text": "Glass is an integral part of any building nowadays. It is also common to see buildings with “all-glass” structures. Within the building structure, glass is found in most offices, such as glass partitions and glass doors. Glass of many different types is subject to breakage by a variety of causes, which can result in hefty replacement costs.",
-                  "textJP": ""
+                  "textJP": "ガラスは現代のあらゆる建物に不可欠な構成要素です。また、「全面ガ���ス」構造の建物も一般的に見られます。建物の構造内では、ガラスのパーティションやガラスドアなど、ほとんどのオフィスでガラスが使用されています。多くの異なる種類のガラスは、さまざまな原因で破損する可能性があり、多額の交換費用が発生しうるためです。"
                 }
               ]
             },
@@ -682,22 +712,22 @@
               "id": "ch1-s5-C",
               "label": "C",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "5.4",
                   "text": "The Glass Insurance policy insures the glass (including any lettering or logo on the glass) as described in the schedule of the policy and fixed in the insured’s premises, against the destruction or breakage. The insurer shall at its option: (a) replace the broken glass according to the description in the schedule of the policy; or (b) pay the sum equivalent to the value of the broken glass at the time of the destruction or breakage up to, but not exceeding, the value as specified against each item in the schedule of the policy.",
-                  "textJP": ""
+                  "textJP": "ガラス保険証券は、保険証券の明細書に記載され被保険者の建物に固定されたガラス（ガラス上の文字またはロゴを含む）の破壊または破損に対して付保します。保険者はその選択により以下のいずれかを行います：\n(a) 保険証券の明細書の記述に従い、破損したガラスを交換する。\n(b) 破壊または破損時のガラスの価値に相当する金額を、保険証券の明細書の各項目に対して記載された価値を上限として支払う。"
                 },
                 {
                   "num": "5.5",
                   "text": "The replacement value of the glass normally excludes the cost of removal, alteration or replacement of any fittings, fixtures, frames or framework necessary for the reinstatement of the broken glass.",
-                  "textJP": ""
+                  "textJP": "ガラスの再調達価額には、破損したガラスの復旧に必要な取付具、固定具、フレームまたは枠組みの除去、変更または交換の費用は通常含まれません。"
                 },
                 {
                   "num": "5.6",
                   "text": "However, it should be noted that “breakage” does not include scratching or chipping.",
-                  "textJP": ""
+                  "textJP": "ただし、「破損」には傷や欠けは含まれないことにご留意ください。"
                 }
               ]
             },
@@ -705,12 +735,12 @@
               "id": "ch1-s5-D",
               "label": "D",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "5.7",
                   "text": "A Glass Insurance policy provides cover for the insured glass against breakage occurring during the period of insurance (usually 12 months).",
-                  "textJP": ""
+                  "textJP": "ガラス保険証券は、保険期間中（通常12か月）に発生した被保険ガラスの破損に対する補償を提供します。"
                 }
               ]
             },
@@ -718,17 +748,17 @@
               "id": "ch1-s5-E",
               "label": "E",
               "title": "Policy Provisions And Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "5.8",
                   "text": "Some of the common provisions and conditions which are specific to a Glass Insurance policy are described below: (a) Reasonable Precautions The insured shall take all reasonable precautions for the safety of the glass, including salvage glass. (b) Alteration Of Risk No claim shall be recoverable under this policy if, without the consent of the insurer in writing of:\n▪ the alteration of the nature of the business being carried on by the insured;\n▪ the alteration of the property insured;\n▪ the insured premises being occupied by a tenant of the insured; or\n▪ the risk being in any way increased.",
-                  "textJP": ""
+                  "textJP": "ガラス保険証券に特有の一般的な約款条項のいくつかを以下に説明します：\n(a) 合理的な予防措置\n被保険者は、サルベージガラスを含むガラスの安全のために合理的な予防措置を講じなければなりません。\n(b) リスクの変更\n保険者の書面による同意なく以下が行われた場合、本保険証券に基づく請求は認められません：\n▪ 被保険者が行う事業の性質の変更\n▪ 被保険財物の変更\n▪ 被保険建物が被保険者のテナントにより占有されること\n▪ リスクが何らかの方法で増大すること"
                 },
                 {
                   "num": "5.9",
                   "text": "Note that detailed discussions on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
                 }
               ]
             },
@@ -736,17 +766,17 @@
               "id": "ch1-s5-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "5.10",
                   "text": "The customarily required underwriting information is described below: (a) Situation The location of the risk will indicate if there are any adverse features, such as risks located on busy streets and street corners, where there is a greater risk of damage by vehicles or stones thrown up by passing cars. On the other hand, the situation may also show that the premises have better than average protection in that they may be situated in a shopping centre which is closed to the public after business hours. (b) Occupation Obviously, there are some occupations which are more attractive to thieves than others, these raise the risk of smash-and-grab burglaries, such as jewellers and liquor stores. These risks can be reduced in some instances by the removal of goods from the window display after hours, and/or the installation of steel mesh behind the glass. (c) Additional Perils There are some risks that are more susceptible to additional perils, such as proximity to explosive manufacturers. (d) Loss History Questions like previous occurrence of breakages, causes of breakages, declination of risk and previous claims history will provide an indication of any moral hazards and/or adverse features, like disgruntled tenants or customers. (e) Type, Size And Thickness Of Glass All these factors indicate the probability of breakage of the glass.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報を以下に説明します：\n(a) 所在地\nリスクの所在地は、交通量の多い道路や交差点に面しているなど、車両や通りかかる車からの投石による損害リスクが高いなどの不利な特徴があるかを示します。一方、営業時間後は一般公衆に閉鎖されるショッピングセンター内にあるな���、平均以上の保護を示す場合もあります。\n(b) 業種\n宝石商や酒店など、他の業種よりも窃盗犯にとって魅力的な業種があり、強奪のリスクが高まります。営業時間後のショーウィンドウからの商品撤去やガラス背面のスチールメッシュ設置により、リスクを軽減できる場合があります。\n(c) 追加危険\n爆発物製造業者への近接性など、追加危険の影響を受けやすいリスクがあります。\n(d) 損害履歴\n過去の破損発生状況、破損原因、リスク引受拒否、過去の請求履歴などの質問は、道徳的危険や不満を持つテナントや顧客などの不利な特徴の指標を提供します。\n(e) ガラスの種類、サイズ、厚さ\nこれらすべての要素がガラスの破損確率を示します。"
                 },
                 {
                   "num": "5.11",
                   "text": "Note that the underwriter may require additional information, and that details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -754,17 +784,17 @@
               "id": "ch1-s5-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "5.12",
                   "text": "Other than the usual exclusions that relate to war, nuclear, strike, riot and civil commotion risks, the common exclusions specific to this class of insurance are:\n▪ breakage of ornamental glass, silvered glass, bent glass, glass containing embossing or lettering, or other than plain fixed glass (unless specifically provided for);\n▪ breakage of or damage to frames or framework;\n▪ cost of removing or replacing fixtures, fittings or other obstructions;\n▪ breakage arising during (unless it be proved by the insured that such breakage was not caused by) or in consequence of: - fire, lightning, explosion, earthquake; - strike, riot, civil commotion; or - the wilful act or with the connivance of the insured or any employee of the insured; and\n▪ breakage of cracked glass, unless such cracks are specially declared as such, and the insurer has been informed.",
-                  "textJP": ""
+                  "textJP": "戦争、核、ストライキ、暴動および内乱リスクに関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n▪ 装飾ガラス、銀引きガラス、曲げガラス、エンボスまたは文字を含むガラス、または通常の固定平板ガラス以外のガラスの破損（特に付保されている場合を除く）\n▪ フレームまたは枠組みの破損または損害\n▪ 取付具、固定具またはその他の障害物の除去・交換費用\n▪ 以下の期間中に生じた破損（被保険者がそのような破損が原因でないことを証明した場合を除く）、またはその結果として生じた破損：火災、落雷、爆発、地震／ストライキ、暴動、内乱／被保険者またはその従業員の故意の行為もしくは共謀\n▪ ひび割れたガラスの破損（そのようなひび割れが特に申告され、保険者に通知されている場合を除く）"
                 },
                 {
                   "num": "5.13",
                   "text": "Note that the exclusions of a Glass Insurance policy vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "ガラス保険証券の免責事由は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -772,12 +802,12 @@
               "id": "ch1-s5-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "5.14",
                   "text": "The usual extensions to a Glass Insurance policy (additional premiums may be imposed) are:\n▪ the cost of temporary shuttering (e.g. temporary boarding up of windows after breakage);\n▪ replacement of ornamentation and sign-writing;\n▪ removal of debris; and\n▪ replacement of any fittings, frames or framework.",
-                  "textJP": ""
+                  "textJP": "ガラス保険証券の通常の特約拡張（追加保険料が課される場合があります）は以下のとおりです：\n▪ 仮設囲い（例：破損後の窓の仮板張り）の費用\n▪ 装飾および文字の復旧\n▪ 残骸撤去\n▪ 取付具、フレームまたは枠組みの交換"
                 }
               ]
             },
@@ -785,12 +815,12 @@
               "id": "ch1-s5-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "5.15",
                   "text": "The insured must give immediate notice in writing to the insurer on the happening of any event that gives rise to a claim under the policy, stating the full circumstances of the case, and providing evidence as may be required. Unless the insurer receives such notice within a stipulated time, the insurer shall not be liable for the claim. The insured, at his own expense, must also take all feasible steps to ascertain the person who is liable for the breakage.",
-                  "textJP": ""
+                  "textJP": "被保険者は、保険証券に基づく請求の原因となる事象が発生した場合、事案の全状況を記載し、要求される証拠を提供する通知を直ちに書面で保険者に行わなければなりません。保険者が所定の期間内にそのような通知を受領しない限り、保険者は請求に対する責任を負いません。被保険者はまた、自己の費用負担で、破損の責任者を確認するためのすべての実行可能な措置を講じなければなりません。"
                 }
               ]
             }
@@ -800,24 +830,24 @@
           "id": "ch1-s6",
           "number": "6",
           "title": "Commercial Special Risks Insurance",
-          "titleJP": "",
+          "titleJP": "企業総合動産保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s6-A",
               "label": "A",
               "title": "What Is Commercial Special Risks Insurance?",
-              "titleJP": "",
+              "titleJP": "企業総合動産保険とは？",
               "paragraphs": [
                 {
                   "num": "6.1",
                   "text": "The policy is designed to cover items, such as machinery, equipment and other contents and at one time used to be commonly called an “All Risks” Insurance policy.",
-                  "textJP": ""
+                  "textJP": "この保険証券は、機械設備、機器およびその他の収容物などの対象物を補償するよう設計されており、かつては一般に「オールリスク」保険証券と呼ばれていました。"
                 },
                 {
                   "num": "6.2",
                   "text": "The term “All Risks” Insurance is, unfortunately, a misnomer, because it does not cover every conceivable risk of loss or damage as its name implies. Consequently, it is more common these days to refer to it as “Commercial Special Risks” Insurance. The intention of the insurer is to cover anything that is not expressly excluded under the policy, unlike in a “Specified” or “Named Perils” policy where no risk is insured, unless clearly specified.",
-                  "textJP": ""
+                  "textJP": "「オールリスク」保険という用語は、残念ながら誤称です。なぜなら��その名前が示すようにあらゆる想定される滅失・損害リスクを補償するわけではないためです。したがって、最近では「企業総合動産保険（Commercial Special Risks）」と呼ぶのがより一般的です。保険者の意図は、「列挙危険方式（Named Perils）」の保険証券（明確に列挙されない限りリスクが付保されない）とは異なり、保険証券で明示的に除外されていないすべてのリスクを補償することです。"
                 }
               ]
             },
@@ -825,12 +855,12 @@
               "id": "ch1-s6-B",
               "label": "B",
               "title": "The Need For Commercial Special Risks Insurance",
-              "titleJP": "",
+              "titleJP": "企業総合動産保険の必要性",
               "paragraphs": [
                 {
                   "num": "6.3",
                   "text": "Uncertainty of losses is not restricted to events brought about by fire or theft alone, nor is it limited to events happening on the insured’s premises. This has led to the development of this wider form of previously called “All Risks” cover. The Commercial Special Risks Insurance today represents the widest form of cover available for commercial property.",
-                  "textJP": ""
+                  "textJP": "損害の不確実性は、火災や盗難のみによってもたらされる事象に限定されず、被保険者の建物で発生する事象にも限定されません。このことが、かつて「オールリスク」と呼��れた、より広範な補償の発展につながりました。今日の企業総合動産���険は、企業の財物に対して利用可能な最も広範な補償を提供しています。"
                 }
               ]
             },
@@ -838,22 +868,22 @@
               "id": "ch1-s6-C",
               "label": "C",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "6.4",
                   "text": "The Commercial Special Risks Insurance policy states that, if at any time during the period of insurance, the property insured while in the “situation” as described in the schedule of the policy be accidentally, physically lost, destroyed or damaged by any cause other than those excluded, and subject to any other terms and conditions, the insurer agrees to (at its option):\n▪ pay the insured the value of the property at the time of its loss or destruction; or\n▪ pay the amount of the damage; or\n▪ reinstate, repair or replace such property or any part of it.",
-                  "textJP": ""
+                  "textJP": "企業総合動産保険証券は、保険期間中のいつでも、保険証券の明細書に記載された「場所」にある被保険財物が、除外されたもの以外のあらゆる原因により偶発的に物的滅失、破壊または損害を受けた場合、かつその他の条件に従い、保険者は（その選択により）以下のいずれかに同意します：\n▪ 滅失・破壊時の財物の価値を被保険者に支払う\n▪ 損害額を支払う\n▪ 当該財物またはその一部を復旧、修理または交換する"
                 },
                 {
                   "num": "6.5",
                   "text": "The “situation” is usually defined as in the insured’s premises.",
-                  "textJP": ""
+                  "textJP": "「場所」は通常、被保険者の建物と定義されます。"
                 },
                 {
                   "num": "6.6",
                   "text": "Any payment by the insurer in respect of any claim will also reduce the sum insured by that amount, for the remaining period of insurance, unless it is reinstated with the agreement of the insurer.",
-                  "textJP": ""
+                  "textJP": "いかなる請求に対する保険者の支払いも、保険者との合意により保険金額が復元されない限り、保険期間の残期間について保険金額をその支払額だけ減額します。"
                 }
               ]
             },
@@ -861,12 +891,12 @@
               "id": "ch1-s6-D",
               "label": "D",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "Commercial Special Risk Insurance policies provide cover for the sudden and unforeseen loss or damage of property by any cause (other than those excluded) which occurs during the period of insurance (usually 12 months).",
-                  "textJP": ""
+                  "textJP": "企業総合動産保険証券は、保険期間中（通常12か月）に発生したあらゆる原因（除外されたものを除く）による突発的かつ不測の財物の滅失・損害に対する補償を提供します。"
                 }
               ]
             },
@@ -874,17 +904,17 @@
               "id": "ch1-s6-E",
               "label": "E",
               "title": "Policy Provisions And Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "6.8",
                   "text": "Some of the common provisions and conditions which are specific to a Commercial Special Risks Insurance policy are described below: (a) Alteration Of Risk Unless admitted by the insurer in writing, no claim shall be payable in respect of the insured property should there be, after the commencement of the policy, any alteration:\n▪ by removal;\n▪ whereby the risk is increased; or\n▪ whereby the interest of the insured ceases, except by will or operation of law. (b) Excess The policy does not cover the amount of the excess as stated in the schedule of the policy for each and every loss, as ascertained after the application of all other policy terms and conditions, including the condition of average (under-insurance).",
-                  "textJP": ""
+                  "textJP": "企業総合動産保険証券に特有の一般的な約款条項のいくつかを以下に説明します：\n(a) リスクの変更\n保険者が書面で認めた場合を除き、保険証券の開始後に以下の変更が生じた場合、被保険財物に関する請求は認められません：\n▪ 移転\n▪ リスクの増大\n▪ 被保険者の利害関係の消滅（遺言または法の作用による場合を除く）\n(b) 免責金額\n本保険証券は、比例てん補条項（過小付保）を含むその他のすべての約款条項を適用した後に確定される、保険証券の明細書に記載された各損害ごとの免責金額を補償しません。"
                 },
                 {
                   "num": "6.9",
                   "text": "Note that detailed discussions on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
                 }
               ]
             },
@@ -892,22 +922,22 @@
               "id": "ch1-s6-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "6.10",
                   "text": "The customarily required underwriting information is as follows:\n▪ description, location, construction and occupation of property to be insured;\n▪ details of the security features on the property i.e. how is it being protected from intrusion;\n▪ fire extinguishing features on the premises; and\n▪ loss history.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下のとおりです：\n▪ 付保する財物の記述、所在地、構造および用途\n▪ 財物のセキュリティの詳細（侵入からどのように保護されているか）\n▪ 建物の消火設備\n▪ 損害履歴"
                 },
                 {
                   "num": "6.11",
                   "text": "In addition, “management’s attitude” may also be an important key rating factor. For example, some underwriters believe that if a client is not willing to undertake risk improvements, particularly those relating to housekeeping, it is better to decline the proposal, rather than load the rates or apply an excess. Carelessness and inefficiency in management will be considered a moral hazard.",
-                  "textJP": ""
+                  "textJP": "加えて、「経営陣の姿勢」も重要な料率決定要素となり得ます。例えば、一部の引受担当者は、顧客が特に整理整頓に関するリスク改善を行う意思がない場合、料率を加算したり免責金額を適用したりするよりも、申込を拒否する方が良いと考えています。経営における不注意や非効率は道徳的危険とみなされます。"
                 },
                 {
                   "num": "6.12",
                   "text": "Note that the underwriter may require additional information, and that details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -915,22 +945,22 @@
               "id": "ch1-s6-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "6.13",
                   "text": "Being a “Special Risks” policy, the list of exclusions is of particular importance. The excluded perils are mostly uninsurable, difficult to insure, or commonly insured under other forms.",
-                  "textJP": ""
+                  "textJP": "「特別リスク」保険証券であるため、免責事由のリストは特に重要です。除外される危険は、ほ���んどが付保不能であるか、付保が困難であるか、または他の保険形態で一般的に付保されているものです。"
                 },
                 {
                   "num": "6.14",
                   "text": "Other than the usual exclusions that relate to war, nuclear, strike, riot and civil commotion risks, the common exclusions specific to this class of insurance are as follows: (a) loss of or damage to property owing to non-accidental means, such as:\n▪ shortage owing to clerical or accounting error and misfiling, or shortage in supply or delivery to or from the insured,\n▪ mere disappearance or loss discovered during stock-take, unless proven that such loss being due to theft,\n▪ unexplained or mysterious circumstances; (b) “unavoidable” or causes of gradual operating loss, such as scratching, wear and tear, depreciation, moth, mildew, inherent vice, corrosion, rust, dampness, fungus, change in colour, atmospheric conditions, weather (except lightning), etc.; (c) electrical or mechanical breakdown of machinery and equipment; (d) breakage of fragile items, such as glass and china (unless caused by fire or theft); (e) faulty defective design, materials or workmanship; (f) interruption of:\n▪ utilities, such as water, gas and electricity supply,\n▪ fuel systems; (g) loss or damage arising directly from the property undergoing any process, alteration, repair, restoration, testing, renovating, servicing, installation, removal, dismantling, re-erection; (h) damage or loss caused by or arising from:\n▪ pollution or contamination,\n▪ wilful act or wilful negligence by the insured or his representative,\n▪ cessation of work, delay, lack of performance, loss of market or any other consequential or indirect loss; (i) loss of or damage to property:\n▪ in transit,\n▪ not contained within an enclosed building,\n▪ more specifically insured; and (j) requisition or wilful destruction by order of the government or any public authority.",
-                  "textJP": ""
+                  "textJP": "戦争、核、ストライキ、暴動および内乱リスクに関する通常の免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n(a) 非偶発的手段による財物の滅失・損害：\n▪ 事務上または会計上の誤り、誤ファイリングによる不足、または被保険者への供給・配送における不足\n▪ 棚卸中に発見された単なる消失または滅失（盗難によるものと証明された場合を除く）\n▪ 原因不明の状況\n(b) 避けられない原因または漸進的な営業損害の原因：傷、摩耗・損耗、減価償却、虫害、かび、固有の瑕疵、腐食、錆、湿気、真菌、変色、大気条件、気象（落雷を除く）など\n(c) 機械設備の電気的または機械的故障\n(d) ガラスや陶磁器などの壊れやすい物品の破損（火災または盗難による場合を除く）\n(e) 設計、材料または施工上の欠陥・瑕疵\n(f) 以下の中断：\n▪ 水道、ガス、電力供給などの公益事業\n▪ 燃料システム\n(g) 財物が何らかの加工、改造、修理、復旧、試験、改装、保守、設置、撤去、解体、再組立を受けている間に直接生じた滅失・損害\n(h) 以下に起因する、またはこれに基づく損害・滅失：\n▪ 汚染\n▪ 被保険者またはその代理人の故意の行為または故意の過失\n▪ 作業中止、遅延、不履行、市場喪失その他あらゆる間接損害\n(i) 以下の財物の滅失・損害：\n▪ 輸送中の財物\n▪ 閉鎖された建物内にない財物\n▪ より具体的に付保されている財物\n(j) 政府または公的機関の命令による徴用または故意の破壊"
                 },
                 {
                   "num": "6.15",
                   "text": "Note that the exclusions of a Commercial Special Risks Insurance policy may vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "企業総合動産保険証券の免責事由は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -938,12 +968,12 @@
               "id": "ch1-s6-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "6.16",
                   "text": "In the event of any damage or loss, the insured must:\n▪ immediately notify the insurer;\n▪ notify the police immediately if the loss or damage has been caused by malicious persons or thieves;\n▪ take reasonable and practical steps to prevent or mitigate further damage;\n▪ deliver to the insurer, at the insured’s expense and within a stipulated time frame: - full information in writing of the property lost, destroyed or damaged, and the amount of the loss or damage; - details of any other insurance on the same property; and\n▪ submit all proof and supporting documents relating to the claim as may be reasonably required by the insurer.",
-                  "textJP": ""
+                  "textJP": "損害または滅失が発生した場合、被保険者は以下を行わなければなりません：\n▪ 直ちに保険者に通知すること\n▪ 滅失・損害が悪意のある者または窃盗犯による場合、直ちに警察に届け出ること\n▪ さらなる損害を防止または軽減するために合理的かつ実行可能な措置を講じること\n▪ 被保険者の費用負担で、所定の期間内に以下を保険者に提出すること：\n  - 滅失、破壊または損傷した財物の完全な情報および損害額の書面\n  - 同一財物を補償する他の保険の詳細\n▪ 保険者が合理的に要求するすべての証拠および裏付書類を提出すること"
                 }
               ]
             }
@@ -953,22 +983,22 @@
           "id": "ch1-s7",
           "number": "7",
           "title": "Industrial Special Risks Insurance",
-          "titleJP": "",
+          "titleJP": "産業総合動産保険",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "The Industrial “Special Risks” policy provides coverage for any physical accidental loss to property insured at the business premises subject to exclusions. It is a single policy comprising two sections i.e. Section I is the Material Damage section covering accidental and unforeseen damage to the insured’s property at the business premises subject to exclusions while Section II covers loss of income resulting from the disruption of the insured’s business in consequence of an indemnifiable material damage loss under Section I. Section II is also known as the Business Interruption section. The Industrial “Special Risks” policy is commonly used for insuring industrial properties.",
-              "textJP": ""
+              "textJP": "産業「特別リスク」保険証券は、免責事由を除き、事業所における被保険財物に対するあらゆる偶発的な物的滅失に対する補償を提供します。これは、二つのセクションで構成される単一の保険証券です。セクションIは物的損害セクションであり、免責事由を除き、事業所における被保険者の財物に対する偶発的かつ不測の損害を補償します。セクションIIは、セクションIに基づくてん補対象の物的損害の結果として生じた被保険者の事業の中断による収入の損失を補償します。セクションIIは企業費用利益保険セクションとも呼ばれます。産業「特別リスク」保険証券は、産業用財物の付保に一般的に使用されます。"
             },
             {
               "num": "7.2",
               "text": "Much of the coverage, exclusions, etc. for the Material Damage section is similar to those already described in Commercial Special Risks Insurance.",
-              "textJP": ""
+              "textJP": "物的損害セクションの補償、免責事由等の多くは、企業総合動��保険で既に説明したものと類似しています。"
             },
             {
               "num": "7.3",
               "text": "We shall study Business Interruption Insurance in greater detail in the next chapter of this Study Guide.",
-              "textJP": ""
+              "textJP": "企業費用利益保険については、本スタディガイドの次章でより詳細に学びます。"
             }
           ],
           "subsections": []
@@ -977,24 +1007,24 @@
           "id": "ch1-s8",
           "number": "8",
           "title": "Property Terrorism Insurance",
-          "titleJP": "",
+          "titleJP": "財物テロリズム保険",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch1-s8-A",
               "label": "A",
               "title": "Introduction",
-              "titleJP": "",
+              "titleJP": "はじめに",
               "paragraphs": [
                 {
                   "num": "8.1",
                   "text": "There has been an increased awareness of the threat of violent terrorist attacks in the region. The events of 11 September 2001 led to the withdrawal of terrorism cover in many lines of insurance business. While companies in Singapore have not been subject to such attacks, it is prudent for businesses to realise that their operations may be adversely affected by either a direct attack or suffer collateral damage from such an event. In addition, their overseas operations are obviously at risk.",
-                  "textJP": ""
+                  "textJP": "この地域における暴力的なテロ攻撃の脅威に対する認識が高まっています。2001年9月11日の事件により、多くの保険分野でテロ補償が撤回されました。シンガポールの企業はそのような攻撃を受けていませんが、企業は直接的な攻撃またはそのような事象からの付随的損害により事業運営が悪影響を受け��可能性があることを認識することが賢明です。加えて、海外事業が明らかにリスクにさらされています。"
                 },
                 {
                   "num": "8.2",
                   "text": "As most property insurance policies would exclude damage caused by terrorism, it is vital for businesses to take out appropriate insurance to provide cover their properties against such risks. A severe terrorist attack could cause irreparable damage to the organisation.",
-                  "textJP": ""
+                  "textJP": "ほとんどの財物保険証券はテロリズムによる損害を除外しているため、企業がそのようなリスクから財物を保護するための適切な保険に加入することが不可欠です。深刻なテロ攻撃は組織に回復不能な損害を与える可能性があります。"
                 }
               ]
             },
@@ -1002,32 +1032,32 @@
               "id": "ch1-s8-B",
               "label": "B",
               "title": "Scope of coverage",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "8.3",
                   "text": "Property Terrorism insurance covers the insured’s property against damage caused by Acts of Terrorism. In particular, it covers the following risks:\n▪ Sabotage i.e. a deliberate subversion to cause harm or destruction of property and\n▪ Terrorism i.e. the unlawful use of violence against persons or property.",
-                  "textJP": ""
+                  "textJP": "財物テロリズム保険は、テロ行為による損害に対して被保険者の財物を補償します。特に以下のリスクを補償します：\n▪ 破壊工作（Sabotage）：財物の危害または破壊を引き起こすための故意の妨害行為\n▪ テロリズム（Terrorism）：人または財物に対する不法な暴力の行使"
                 },
                 {
                   "num": "8.4",
                   "text": "More specifically, Property Terrorism Insurance insures buildings and contents against physical loss or physical damage by an Act or series of Acts of Terrorism and/or Sabotage, occurring during the period of insurance.",
-                  "textJP": ""
+                  "textJP": "より具体的には、財物テロリズム保険は、保険期間中に発生したテロ行為および／または破壊工作による建物および収容物の物的滅失または物的損害を付保します。"
                 },
                 {
                   "num": "8.5",
                   "text": "Insurers usually define an “Act of Terrorism” as an act, including the use of force or violence, of any person or group(s) of persons, whether acting alone or on behalf of or in connection with any organisation(s), committed for political, religious or ideological purposes including the intention to influence any government and/or to put the public in fear for such purposes.",
-                  "textJP": ""
+                  "textJP": "保険者は通常「テロ行為」を以下のように定義します：政治的、宗教的またはイデオロギー的目的（政府に影響を与え、および／またはそのような目的のために公衆に恐怖を与える意図を含む）のために行われる、単独でまたは組織と関連して行動するいかなる者または集団の、暴力の行使を含む行為���"
                 },
                 {
                   "num": "8.6",
                   "text": "As for an “Act of Sabotage”, insurers define it as an act or series of acts of deliberate subversion by any person or group(s) of persons, whether acting alone or on behalf of or in connection with any organisation(s), committed for political, religious or ideological purposes including the intention to influence any government and/or to put the public in fear for such purposes. Subversion is the act of trying to destroy or damage an established system or government3.",
-                  "textJP": ""
+                  "textJP": "「破壊工作行為」について、保険者は以下のように定義します：政治的、宗教的またはイデオロギー的目的（政府に影響を与え、および／またはそのような目的のために公衆に恐怖を与える意図を含む）のために行われる、単独でまたは組織と関連して行動するいかなる者または集団による故意の妨害行為またはその連続行為。妨害（Subversion）とは、確立されたシステムまたは政府を破壊または損傷しようとする行為です。"
                 },
                 {
                   "num": "8.7",
                   "text": "The reader will note that the intention to influence any government and/or to put the public in fear for such purposes is a common element in both definitions above. 3 Source: dictionary.cambrige.org",
-                  "textJP": ""
+                  "textJP": "上記の両定義において、「政府に影響を与え、および／またはそのような目的のために公衆に恐怖を与える意図」が共通の要素であることにご留意ください。"
                 }
               ]
             },
@@ -1035,12 +1065,12 @@
               "id": "ch1-s8-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "8.8",
                   "text": "A Property Terrorism Insurance policy contains numerous exclusions. Some examples include: (i) All losses or damage caused by nuclear detonation, reaction, nuclear radiation or radioactive contamination. (ii) Loss or damage occasioned directly or indirectly by war, invasion or warlike operations (whether war be declared or not), hostile acts of sovereign or government entities, civil war, rebellion, revolution, insurrection, civil commotion assuming the proportions of or amounting to an uprising, military or usurped power or martial law or confiscation by order of any Government or public authority. (iii) Loss by seizure or illegal occupation. (iv) Loss or damage caused by confiscation, requisition, detention, legal or illegal occupation, embargo, quarantine, or any result of any order of public or government authority which deprives the Assured of the use or value of its property, nor for loss or damage arising from acts of contraband or illegal transportation or illegal trade. (v) Loss or damage directly or indirectly arising from or in consequence of the discharge of pollutants or contaminants, which pollutants and contaminants shall include but not be limited to any solid, liquid, gaseous or thermal irritant, contaminant of toxic or hazardous substance or any substance the presence, existence or release of which endanger the health, safety or welfare of persons or the environment.",
-                  "textJP": ""
+                  "textJP": "財物テロリズム保険証券には多数の免責事由が含まれています。いくつかの例を示します：\n(i) 核爆発、核反応、核放射線または放射性汚染に起因するすべての滅失・損害\n(ii) 戦争、侵略、戦争類似行為（宣戦布告の有無を問わず）、主権国家または政府機関の敵対行為、内戦、反乱、革命、暴動、蜂起の規模に達する内乱、軍事力もしくは僭称権力、戒厳令、または政府もしくは公的機関の命令による没収に直接または間接に起因する滅失・損害\n(iii) 押収または不法占拠による損害\n(iv) 没収、徴用、拘留、合法もしくは不法な占拠、禁輸、検疫、またはいかなる公的もしくは政府機関の命令による、被保険者のその財物の使用もしくは価値の剥奪に起因する滅失・損害、ならびに密輸���不法輸送もしくは不法取引に起因する滅失・損害\n(v) 汚染物質の排出に直接または間接に起因する、またはその結果として生じる滅失・損害"
                 }
               ]
             },
@@ -1048,22 +1078,22 @@
               "id": "ch1-s8-D",
               "label": "D",
               "title": "Occurrence",
-              "titleJP": "",
+              "titleJP": "事故の発生",
               "paragraphs": [
                 {
                   "num": "8.9",
                   "text": "As for “occurring during the period of insurance”, insurers define “Occurrence” as any one loss and/or series of losses arising out of and directly occasioned by one Act or series of Acts of Terrorism for the same purpose or cause.",
-                  "textJP": ""
+                  "textJP": "「保険期間中に発生」に関して、保険者は「事故の発生（Occurrence）」を、同一の目的または原因のための一つのテロ行為またはその連続行為に起因し、これにより直接もたらされた一つの損害および／またはその連続損害と定義しています。"
                 },
                 {
                   "num": "8.10",
                   "text": "The duration and extent of any one “Occurrence” shall be limited to all losses sustained by the insured at the property insured during any period of 72 consecutive hours arising out of the same purpose or cause. However, insurer also state that no such period of 72 consecutive hours may extend beyond the expiration of the policy unless the insured shall first sustain direct physical damage by an Act of Terrorism prior to the expiration of the policy and within said period of 72 consecutive hours.",
-                  "textJP": ""
+                  "textJP": "一つの「事故の発生」の期間と範囲は、同一の目的または原因に起因する連続72���間の期間中に被保険者が被保険財物において被った全損害に限定されるものとします。ただし、保険者は、被保険者が保険証券の満期前かつ当該連続72時間の期間内にテロ行為による直接の物的損害を最初に被った場合を除き、連続72時間の期間は保険証券の満期を超えて延長されないと規定しています。"
                 },
                 {
                   "num": "8.11",
                   "text": "Insurers also make it clear that any period of 72 consecutive hours shall not commence prior to the attachment or inception of the policy.",
-                  "textJP": ""
+                  "textJP": "保険者はまた、連続72時間の期間は保険証券の開始または発効前に遡って開始してはならないことを明確にしています。"
                 }
               ]
             },
@@ -1071,12 +1101,12 @@
               "id": "ch1-s8-E",
               "label": "E",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "(a) Notification Insurers stipulate that the insured, upon knowledge of any occurrence likely to give rise to a claim, shall give immediate written advice thereof to the insurers. (b) Proof of Loss Insurers require the insured to render a signed and sworn proof of loss within sixty (60) days after the occurrence of a loss (stating the time, place and cause of loss, the interest of the insured and all others in the property, the sound value thereof and the amount of loss or damage thereto. (c) Subrogation If the insurer becomes liable for any payment under the Policy in respect of loss or damage, the Underwriters shall be subrogated, to the extent of such payment, to all the rights and remedies of the insured against any party in respect of such loss or damage and shall be entitled at their own expense to sue in the name of the insured. (d) Salvage and Recoveries If any salvages, recoveries and payments are recovered or received after a loss settlement, they shall be treated as if they have been received before the loss settlement.",
-                  "textJP": ""
+                  "textJP": "(a) 通知\n保険者は、被保険者が請求の原因となりうる事象を認識した場合、直ちに書面で保険者に��知しなければならないと規定しています。\n(b) 損害証明\n保険者は、被保険者が損害発生後60日以内に、損害の時期、場所および原因、被保険者およびその他の者の財物に対する利害関係、当該財物の健全な価値、ならびにこれに対する滅失・損��額を記載した、署名・宣誓済みの損��証明書を提出することを求めます。\n(c) 代位\n保険者が本保険証券に基づき滅失・損害について支払責任を負う場合、保険者は当該支払額の範囲で、当該滅失・損害に関する被保険者のあらゆる第三者に対する権利および救済手段に代位し、自己の費用負担で被保険者の名義で訴訟を提起する権利を有し��す。\n(d) 残存物および回収金\n損害精算後に残存物、回収金または支払金が回収または受領された場合、それらは損害精算前に受領されたものとして扱われます。"
                 }
               ]
             },
@@ -1084,12 +1114,12 @@
               "id": "ch1-s8-F",
               "label": "F",
               "title": "Conditions",
-              "titleJP": "",
+              "titleJP": "条件",
               "paragraphs": [
                 {
                   "num": "8.12",
                   "text": "Most of the policy conditions are similar to those found in other Property Insurance policies.",
-                  "textJP": ""
+                  "textJP": "ほとんどの約款条項は、他の財��保険証券に見られるものと類似しています。"
                 }
               ]
             },
@@ -1097,12 +1127,12 @@
               "id": "ch1-s8-F1",
               "label": "F1",
               "title": "Due Diligence",
-              "titleJP": "",
+              "titleJP": "善管注意義務",
               "paragraphs": [
                 {
                   "num": "8.13",
                   "text": "Just like most general insurance policies, the insured is required to act as if uninsured.",
-                  "textJP": ""
+                  "textJP": "��とんどの損���保険証券と同様に、被保険者は保険に加入していないかのように行動することが求められます。"
                 }
               ]
             },
@@ -1110,12 +1140,12 @@
               "id": "ch1-s8-F2",
               "label": "F2",
               "title": "Maintenance",
-              "titleJP": "",
+              "titleJP": "保全義務",
               "paragraphs": [
                 {
                   "num": "8.14",
                   "text": "Insurers require that any protection provided for the safety of the insured property shall be maintained in good order throughout the period of the policy and shall be in use at all relevant times.",
-                  "textJP": ""
+                  "textJP": "保険者は、被保険財物の安全のために提供される保護措置が保険証券期間を通じて良好な状態に維持され、関連するすべての時点で使用中であることを求めています。"
                 }
               ]
             },
@@ -1123,12 +1153,12 @@
               "id": "ch1-s8-F3",
               "label": "F3",
               "title": "Average",
-              "titleJP": "",
+              "titleJP": "比例てん補",
               "paragraphs": [
                 {
                   "num": "8.15",
                   "text": "In the event of any under-insurance at the time of the loss and where there is a partial loss, the insurer will penalise the insured and pay less than indemnity by applying the average clause in the policy.",
-                  "textJP": ""
+                  "textJP": "損害発生時に過小付保があり、かつ分損が生じた場合、保険者は保険証券の比例てん補条項を適用してペナルティを課し、損害てん補額より少ない金額を支払います。"
                 }
               ]
             },
@@ -1136,12 +1166,12 @@
               "id": "ch1-s8-F4",
               "label": "F4",
               "title": "Inspection and Audit",
-              "titleJP": "",
+              "titleJP": "検��・監査",
               "paragraphs": [
                 {
                   "num": "8.16",
                   "text": "This condition states that the insurer shall be permitted but not obligated to inspect the insured’s property at any time.",
-                  "textJP": ""
+                  "textJP": "この条件は、保険者はいつでも被保険者の財物を検査する権利を有するが、その義務を負わないことを定めています。"
                 }
               ]
             },
@@ -1149,12 +1179,12 @@
               "id": "ch1-s8-G",
               "label": "G",
               "title": "Underwriting Information",
-              "titleJP": "",
+              "titleJP": "引受情報",
               "paragraphs": [
                 {
                   "num": "8.17",
                   "text": "Insurers will usually require the following information before they can quote for Terrorism Insurance cover:\n▪ Details of Insured/Location\n▪ Details of Control of Access\n▪ Details of Building Precautions\n▪ Details of Management/Staff Preparation\n▪ Details of Locality − Insurers will be interested to know if any facilities is within say, 500 metres of the building(s) to be insured. Examples of such facilities include Diplomatic Facility or Military Facility.\n▪ Details of Threats or Losses − Details of any threats or losses within the last five years.",
-                  "textJP": ""
+                  "textJP": "保険者は通常、テロリズム保険の見積もりを行う前に以下の情報を求めます：\n▪ 被保険者／所在地の詳細\n▪ アクセス管理の詳細\n▪ 建物の予防措置の詳細\n▪ 経営陣／スタッフの準備状況の詳細\n▪ 立地の詳細——保険者は、付保する建物の500メートル以内にある施設に関心を持ちます。そのような施設の例には、外交施設や軍事施設が含まれます。\n▪ 脅威または損害の詳細——過去5年間の脅威または損害の詳細。"
                 }
               ]
             }
