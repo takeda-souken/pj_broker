@@ -3491,7 +3491,7 @@
       "id": "ch5",
       "number": 5,
       "title": "LAW OF CONTRACT AND AGENCY",
-      "titleJP": "",
+      "titleJP": "契約法と代理法",
       "outline": [
         "Introduction",
         "Contracts",
@@ -3503,7 +3503,16 @@
         "Agents’ Authority",
         "Termination Of Agency"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "契約",
+        "有効な契約の要素",
+        "契約無効事由",
+        "代理法",
+        "代理関係の成立",
+        "代理人の義務と権利",
+        "代理関係の終了"
+      ],
       "learningOutcomes": [
         "define a contract",
         "understand the elements of a valid contract",
@@ -3517,18 +3526,30 @@
         "be aware of the consequences of an agent acting outside his authority",
         "recognise how an agency may be terminated"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "define a contract",
+        "有効な契約の要素を理解する",
+        "understand how the law limits the following persons’ contractual capacity: - minors - persons suffering legal disability - undischarged bankrupts",
+        "explain the six vitiating factors that can render a contract invalid",
+        "understand the nature of law of agency",
+        "define agents, principals and third parties",
+        "know how an agency is created",
+        "know the rights, responsibilities and duties of an agent including the role of agents in claims",
+        "be familiar with the different types of agents’ authority",
+        "be aware of the consequences of an agent acting outside his authority",
+        "recognise how an agency may be terminated"
+      ],
       "sections": [
         {
           "id": "ch5-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In this chapter, we will cover the law of contract as insurance is a form of contract. We will then focus on the law of agency as it is common for insurance agents to be authorised by insurers to act on their behalf e.g. selling or arranging insurance.",
-              "textJP": ""
+              "textJP": "本章では、保険が契約の一形態であることから、契約法について取り上げます。次に、保険代理店が保険者から権限を与えられて保険の販売や手配などの行為を行うことが一般的であるため、代理法に焦点を当てます。"
             }
           ],
           "subsections": []
@@ -3537,27 +3558,27 @@
           "id": "ch5-s2",
           "number": "2",
           "title": "Contracts",
-          "titleJP": "",
+          "titleJP": "契約",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "A general insurance policy is the evidence of an insurance contract between the insurer and the insured. The obligations of the insurer and the rights of the insured are governed by this contract. In order for the contract to be valid, certain conditions must be met. Let us begin by first looking at the meaning of a contract.",
-              "textJP": ""
+              "textJP": "損害保険証券は、保険者と被保険者の間の保険契約の証拠です。保険者の義務と被保険者の権利は、この契約によって規律されます。契約が有効であるためには、一定の条件が満たされなければなりません。まず、契約の意味を見ていきましょう。"
             },
             {
               "num": "2.2",
               "text": "There are several ways of defining a contract. A contract is “an agreement enforceable by law”. It can also be defined as “a legally binding agreement between two or more parties”. The agreement involves a promise or a set of promises to perform one or more acts. The promise may be made by one of the parties to the contract, or by all the parties involved.",
-              "textJP": ""
+              "textJP": "契約にはいくつかの定義方法があります。契約とは「法によって強制しうる合意」です。また、「2以上の当事者間の法的拘束力のある合意」とも定義できます。合意には、1つ以上の行為を実行するという約束が含まれます。約束は契約の当事者の一方によってなされる場合もあれば、関与するすべての当事者によってなされる場合もあります。"
             },
             {
               "num": "2.3",
               "text": "Therefore, a contract is an agreement. However, not all agreements are contracts. For example, an agreement between two friends to dine is not considered a contract, because there is no intention to legally enforce the agreement by one party if the other party fails to turn up. In other words, one party is not going to sue the other for failing to turn up for the dinner. Contracts are only those agreements that give rise to rights which the law will protect, and obligations which the law will enforce. An example is an insurance contract, or the policy which is the evidence of the insurance contract.",
-              "textJP": ""
+              "textJP": "したがって、契約とは合意です。しかし、すべての合意が契約というわけではありません。例えば、2人の友人が食事をするという合意は、一方の当事者が現れなかった場合に他方が合意を法的に強制する意図がないため、契約とはみなされません。言い換えれば、一方の当事者が夕食に現れなかったことを理由に他方を訴えることはありません。契約とは、法律が保護する権利と法律が強制する義務を生じさせる合意のみです。例として、保険契約、すなわち保険契約の証拠である保険証券があります。"
             },
             {
               "num": "2.4",
               "text": "An insurance contract is an agreement, enforceable by law, made between the insured and the insurer. The insured agrees to pay a premium to the insurer. The insurer agrees to indemnify the insured for damage to the subject matter caused by an insured peril covered by the policy.",
-              "textJP": ""
+              "textJP": "保険契約とは、被保険者と保険者の間で締結された、法によって強制しうる合意です。被保険者は保険者に保険料を支払うことに同意します。保険者は、保険証券でカバーされる被保険の危険事故によって対象物に生じた損害について、被保険者に損害をてん補することに同意します。"
             }
           ],
           "subsections": []
@@ -3566,12 +3587,12 @@
           "id": "ch5-s3",
           "number": "3",
           "title": "Elements Of A Valid Contract",
-          "titleJP": "",
+          "titleJP": "有効な契約の要素",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "For a contract to be enforceable, it must meet all the requirements as prescribed by law for the formation of a valid contract, i.e. it must have the elements as described below:",
-              "textJP": ""
+              "textJP": "契約が法的に強制しうるためには、有効な契約の成立のために法律が定めるすべての要件を満たさなければなりません。すなわち、以下に説明する要素を備えていなければなりません。"
             }
           ],
           "subsections": [
@@ -3579,12 +3600,12 @@
               "id": "ch5-s3-A",
               "label": "A",
               "title": "Intention To Create Legal Relationship",
-              "titleJP": "",
+              "titleJP": "法律関係を創設する意思",
               "paragraphs": [
                 {
                   "num": "3.2",
                   "text": "The first requirement of a contract is the intention of all the parties to enter into a legal relationship i.e. they intend to enforce their rights. Without such an intention, the contract cannot come into existence.",
-                  "textJP": ""
+                  "textJP": "契約の第一の要件は、すべての当事者が法律関係に入ること、すなわち自己の権利を強制する意思を有することです。このような意思がなければ、契約は成立しません。"
                 }
               ]
             },
@@ -3592,12 +3613,12 @@
               "id": "ch5-s3-B",
               "label": "B",
               "title": "Offer & Acceptance",
-              "titleJP": "",
+              "titleJP": "申込みと承諾",
               "paragraphs": [
                 {
                   "num": "3.3",
                   "text": "A contract is an agreement, and for the parties to come to an agreement, there must be a “meeting of minds” (“consensus ad idem” in Latin) or mutual agreement between the parties to the contract. (a) Ordinarily, mutual agreement is evidenced by the making of an offer expressed either orally, in writing, or by conduct by one party (the offeror) and the acceptance of the offer by another party (the offeree). The offer must be unconditionally accepted (i.e. unqualified acceptance) to constitute an agreement. If the acceptance is conditional (i.e. new terms are introduced), it is only a counteroffer which is then open to be accepted or rejected by the person who has made the original offer. An offer may be withdrawn by the person making it, before it is accepted by the other party. (b) In the case of general insurance: (i) There is no rule as to which party (the proposer or insurer) makes the offer and which party accepts. Sometimes, the proposal form which is submitted to the insurer will be the offer, and the insurer will accept it, by confirming cover or issuing the policy. In any other case, the insurer may quote a premium based on information supplied in the proposal form and, in doing so, the insurer makes an offer which the proposer may then accept or decline. (ii) Sometimes, an insurance contract is finalised only after lengthy negotiations between the proposer and insurer, often involving a broker or other intermediary. In such case, there may be a long series of offers, rejections and counteroffers, before a firm acceptance is made by one party or the other. (c) Although an insurance contract will normally come into existence once an offer is accepted, the cover may not operate immediately. The parties may agree that the risk will begin to run at some date in the future (as in the case of Travel Insurance). In this case, there is a binding contract to insure, but the risk has not yet been attached. Sometimes, the insurer stipulates that the risk will be in force only if the premium is paid to the insurer (or the intermediary through whom the policy was effected) on or before the inception date or the renewal date of the coverage, e.g. Payment Before Cover Warranty in personal general insurance and bonds.",
-                  "textJP": ""
+                  "textJP": "契約は合意であり、当事者が合意に達するためには、当事者間の「意思の合致」（ラテン語で「consensus ad idem」）または相互の合意がなければなりません。\n(a) 通常、相互の合意は、一方の当事者（申込者）が口頭、書面、または行為によって表明した申込みと、他方の当事者（被申込者）によるその申込みの承諾によって証明されます。合意を構成するためには、申込みは無条件に承諾（すなわち無留保の承諾）されなければなりません。承諾が条件付き（すなわち新たな条件が導入される）の場合、それは反対申込みにすぎず、元の申込みを行った者が承諾または拒絶できる状態に置かれます。申込みは、他方の当事者が承諾する前に、申込みを行った者が撤回することができます。\n(b) 損害保険の場合:\n(i) どちらの当事者（申込者または保険者）が申込みを行い、どちらが承諾するかについての規則はありません。申込書が保険者に提出され、保険者がカバーを確認するか保険証券を発行することでそれを承諾する場合もあります。他の場合には、保険者が申込書に記載された情報に基づいて保険料を提示し、その際に保険者が申込みを行い、申込者がそれを承諾または拒否する場合もあります。\n(ii) 保険契約が、申込者と保険者の間の長期にわたる交渉（しばしばブローカーやその他の仲介者を介して）の後にのみ成立する場合もあります。このような場合、一方の当事者による確定的な承諾がなされるまでに、申込み、拒絶、反対申込みの長い連鎖が続くことがあります。\n(c) 保険契約は通常、申込みが承諾されれば成立しますが、カバーが直ちに開始されるとは限りません。当事者は、リスクが将来のある日付から開始することに合意する場合があります（旅行保険の場合のように）。この場合、付保する拘束力のある契約は存在しますが、リスクはまだ開始されていません。保険者が、カバーの開始日または更新日の当日またはそれ以前に保険料が保険者（または保険証券が締結された仲介者）に支払われた場合にのみリスクが有効であると規定する場合もあります（例：個人向け損害保険およびボンドにおける先払い担保条項）。"
                 }
               ]
             },
@@ -3605,27 +3626,27 @@
               "id": "ch5-s3-C",
               "label": "C",
               "title": "Consideration",
-              "titleJP": "",
+              "titleJP": "約因（Consideration）",
               "paragraphs": [
                 {
                   "num": "3.4",
                   "text": "A contract is ordinarily based on reciprocity. When a party promises to do certain thing(s) under a contract, he is called the promisor. In giving the promise, the promisor must receive something in return, and what he receives for the promise is called consideration.",
-                  "textJP": ""
+                  "textJP": "契約は通常、相互性に基づいています。当事者が契約の下で一定の事項を行うことを約束するとき、その者は約束者と呼ばれます。約束を行うにあたり、約束者は見返りに何かを受け取らなければならず、約束に対して受け取るものを約因と呼びます。"
                 },
                 {
                   "num": "3.5",
                   "text": "Consideration can be in money or monetary worth. It can be a return promise to do certain thing(s), or to abstain from doing certain thing(s), or to forbear some acts. All these shall constitute the consideration.",
-                  "textJP": ""
+                  "textJP": "約因は金銭または金銭的価値を持つものとすることができます。一定の事項を行う、または一定の事項を行うことを控える、または一定の行為を差し控えるという反対約束とすることもできます。これらはすべて約因を構成します。"
                 },
                 {
                   "num": "3.6",
                   "text": "For example, if a person travels in a bus, the fare that he pays is the consideration for the right to travel in the bus. The wages paid to an employee are the consideration for the services rendered by him to the employer.",
-                  "textJP": ""
+                  "textJP": "例えば、バスに乗車する場合、支払う運賃がバスに乗車する権利の約因です。従業員に支払われる賃金は、雇用主に提供されたサービスの約因です。"
                 },
                 {
                   "num": "3.7",
                   "text": "A contract is not enforceable at law, unless a consideration has passed from the promisee to the promisor. In a Personal Accident Insurance contract, the premium paid is the consideration for the promise contained in the policy.",
-                  "textJP": ""
+                  "textJP": "約因が被約束者から約束者に移転していない限り、契約は法的に強制しえません。傷害保険契約では、支払われた保険料が保険証券に含まれる約束の約因です。"
                 }
               ]
             },
@@ -3633,12 +3654,12 @@
               "id": "ch5-s3-D",
               "label": "D",
               "title": "Capacity To Contract",
-              "titleJP": "",
+              "titleJP": "契約能力",
               "paragraphs": [
                 {
                   "num": "3.8",
                   "text": "A person of legal age, without mental or other incapacity, is legally competent to enter into a contract. Such a person is said to have contractual capacity. However, the law limits the capacity of certain persons to do so. The special features of some of the categories of persons are discussed below: (a) Minors (i) Any person who has not attained the age of 18 years is treated as a minor. Under Section 35 of the Civil Law Act 1909, a contract entered into by a minor who has attained the age of 18 years shall have effect as if he were of full age, except as otherwise provided under other written law, and except for certain contracts like the sale and purchase of land. (ii) Section 147(1) of the Insurance Act 1966 also lays down special provisions regarding the capacity of minors to enter into insurance contracts. A minor who is over the age of 10 years, but is under the age of 16 years, has the capacity to enter into a contract of insurance with the consent in writing of his parent or guardian. Therefore, it implies that no such consent is required for a person who is 16 years old or above, and that he may enter the contract of insurance on his own. (iii) However, the law does not appear to give any rights to a minor to assign, mortgage or surrender his insurance policy. Neither does it make any provision for a policy owner, who is still a minor, to effect policy transaction which involves the payment of policy money to him. Neither can the minor give a valid discharge in respect of the policy money payable to him under the policy, where he is the policy owner. Instead, the minor, who is the policy owner, will have to wait until he has attained the age of 18 years, before he can give a valid discharge in terms of the policy money payable to him upon the death of the life insured under the policy. (b) Persons Suffering Legal Disability A contract entered into by a person of unsound mind or a drunkard, will not be binding on him, except if the person, entering into a contract with such person was not aware of his mental state. In other words, a person of unsound mind can void the contract, only if the other party also knows or has reason to believe that he is unsound. (c) Undischarged Bankrupts The Insolvency, Restructuring and Dissolution Act 2018 places restrictions on the rights of undischarged bankrupts to enter into contracts.",
-                  "textJP": ""
+                  "textJP": "法定年齢に達し、精神的またはその他の無能力がない者は、契約を締結する法的能力を有します。このような者は契約能力を有するとされます。しかし、法律は一定の者の契約能力を制限しています。一部のカテゴリーの者の特別な特徴を以下に説明します。\n(a) 未成年者\n(i) 18歳に達していない者は未成年者として扱われます。Civil Law Act 1909（民事法1909年）第35条に基づき、18歳に達した未成年者が締結した契約は、他の成文法に別途定めがある場合および土地の売買などの特定の契約を除き、成年に達した者と同様の効力を有します。\n(ii) Insurance Act 1966第147条(1)は、未成年者が保険契約を締結する能力に関する特別規定も定めています。10歳を超え16歳未満の未成年者は、親または後見人の書面による同意を得て保険契約を締結する能力を有します。したがって、16歳以上の者にはそのような同意は不要であり、自ら保険契約を締結できることが示唆されます。\n(iii) ただし、法律は未成年者に保険証券の譲渡、抵当設定、または解約返戻の権利を明確には付与していません。また、まだ未成年である保険契約者が、保険金の支払いを含む保険証券の取引を行うことについての規定もありません。未成年の保険契約者は保険金に対する有効な免責証書を発行することもできません。代わりに、保険契約者である未成年者は、被保険生命の死亡時に保険証券の下で支払われる保険金に関して有効な免責証書を発行できるようになるために、18歳に達するまで待たなければなりません。\n(b) 法的障害のある者\n心神喪失者または酩酊者が締結した契約は、当該者とは拘束力を持ちません。ただし、当該者と契約を締結した者が、その精神状態を認識していなかった場合を除きます。言い換えれば、心神喪失者は、他方の当事者も心神喪失であることを知っていたか、知るべき理由があった場合にのみ契約を取り消すことができます。\n(c) 免責されていない破産者\nInsolvency, Restructuring and Dissolution Act 2018（倒産・事業再生・清算法2018年）は、免責されていない破産者の契約締結権に制限を課しています。"
                 }
               ]
             }
@@ -3648,17 +3669,17 @@
           "id": "ch5-s4",
           "number": "4",
           "title": "Vitiating Factors",
-          "titleJP": "",
+          "titleJP": "契約無効事由",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "An insurance contract which contains the elements required by law as mentioned above may still be invalid owing to the following reasons:\n▪ misrepresentation;\n▪ duress;\n▪ undue influence;\n▪ illegal contract;\n▪ mistake; and\n▪ non est factum.",
-              "textJP": ""
+              "textJP": "上記の法律が要求する要素を含む保険契約であっても、以下の理由により依然として無効となる場合があります。\n▪ 不実表示\n▪ 強迫\n▪ 不当威圧\n▪ 違法契約\n▪ 錯誤\n▪ 錯誤署名の抗弁（non est factum）"
             },
             {
               "num": "4.2",
               "text": "When a contract is induced by misrepresentation, duress or undue influence, it is voidable at the option by the innocent party. This means that the innocent party has a choice whether to uphold the contract or to call it off. However, a contract which is illegal or formed by mistake is void, which means that the Courts will treat the contract as never having existed.",
-              "textJP": ""
+              "textJP": "不実表示、強迫、または不当威圧によって誘導された契約は、善意の当事者の選択により取消可能です。これは、善意の当事者が契約を維持するか取り消すかの選択権を有することを意味します。しかし、違法または錯誤によって成立した契約は無効であり、裁判所は契約が存在しなかったものとして扱います。"
             }
           ],
           "subsections": [
@@ -3666,12 +3687,12 @@
               "id": "ch5-s4-A",
               "label": "A",
               "title": "Misrepresentation",
-              "titleJP": "",
+              "titleJP": "不実表示",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "A contract is voidable by a party to the contract if he was induced into entering the contract by misrepresentation on the part of the other party. At common law, in order for a contract to be invalidated, it must be shown that the misrepresentation or false statement: (a) was a statement of fact as opposed to a statement of opinion, law or belief. A promise being a statement about the future, is not a statement of fact; (b) was made by a party to the contract. A false statement by a non-party to the contract cannot invalidate a contract; (c) was material, such that it would affect the judgement of a reasonable man or, a prudent insurer in the case of an insurance contract; (d) induced the other party to enter into the contract. The other party must have relied on the false statement in deciding to enter into the contract; or (e) caused some detriment or disadvantage to the party who relied on it. If no detriment is caused to the party relying on the false statement, he may elect to continue with the contract.",
-                  "textJP": ""
+                  "textJP": "契約の当事者は、他方の当事者による不実表示によって契約を締結するよう誘導された場合、契約を取り消すことができます。コモンローの下では、契約を無効にするためには、不実表示または虚偽の声明が以下の要件を満たすことを証明しなければなりません。\n(a) 意見、法律、信条の声明ではなく、事実の声明であること。将来に関する約束は事実の声明ではありません。\n(b) 契約の当事者によってなされたこと。契約の当事者でない者による虚偽の声明は契約を無効にできません。\n(c) 重要であること。すなわち、合理的な人の判断に影響を与えるもの、または保険契約の場合は合理的な保険者の判断に影響を与えるもの。\n(d) 他方の当事者を契約に入るよう誘導したこと。他方の当事者は契約締結の判断において虚偽の声明に依拠したものでなければなりません。\n(e) それに依拠した当事者に何らかの損害または不利益をもたらしたこと。虚偽の声明に依拠した当事者に損害が生じていない場合、当該当事者は契約の継続を選択することができます。"
                 }
               ]
             },
@@ -3679,22 +3700,22 @@
               "id": "ch5-s4-B",
               "label": "B",
               "title": "Duress",
-              "titleJP": "",
+              "titleJP": "強迫",
               "paragraphs": [
                 {
                   "num": "4.4",
                   "text": "A contract is formed by mutual consent of the parties. Both parties must be genuinely willing to enter the contract. Accordingly, if a party is under coercion to consent, the contract may not be valid, as the consent given is not genuine.",
-                  "textJP": ""
+                  "textJP": "契約は当事者の相互の同意によって成立します。両当事者が真に契約を締結する意思がなければなりません。したがって、一方の当事者が同意を強制されている場合、同意が真正でないため、契約は有効でない可能性があります。"
                 },
                 {
                   "num": "4.5",
                   "text": "Traditionally, the Courts have recognised that actual harm or a threat to harm a person or his loved ones will amount to duress which invalidates the contract. Hence, if Andrew points a gun at Bernard’s son forcing Bernard to sign the contract, the contract is invalid. However, the threat must not be so trivial that a person with reasonable courage will not be coerced. For example, a threat to cut one’s hair may not be held as duress which vitiates consent.",
-                  "textJP": ""
+                  "textJP": "伝統的に、裁判所は、人またはその愛する者に対する実際の危害または危害の脅迫が、契約を無効にする強迫に該当することを認めてきました。したがって、AndrewがBernardの息子に銃を向けてBernardに契約への署名を強制した場合、契約は無効です。ただし、脅迫は、合理的な勇気を持つ者が強制されないほど些細なものであってはなりません。例えば、髪を切るという脅迫は、同意を無効にする強迫とはみなされない可能性があります。"
                 },
                 {
                   "num": "4.6",
                   "text": "The threat must be illegal. Hence, if the threat is to prosecute a crime which has been committed or to a civil wrong, it does not amount to duress, and the contract cannot be impeached. However, the contract may be void on the grounds of public policy if it amounts to an agreement which perverts the course of justice.",
-                  "textJP": ""
+                  "textJP": "脅迫は違法でなければなりません。したがって、脅迫が犯罪行為の起訴または民事上の不法行為に対するものである場合、強迫には該当せず、契約を無効にすることはできません。ただし、契約が司法の妨害に該当する合意である場合は、公序良俗を理由に無効となることがあります。"
                 }
               ]
             },
@@ -3702,12 +3723,12 @@
               "id": "ch5-s4-C",
               "label": "C",
               "title": "Undue Influence",
-              "titleJP": "",
+              "titleJP": "不当威圧",
               "paragraphs": [
                 {
                   "num": "4.7",
                   "text": "When there is inequality between the parties to a contract (such as where relations between the parties are such that one of the parties is in a position to dominate the will of the other party), and one of them (i.e. the dominator) takes an unfair advantage of the situation of the other and forces an agreement upon him, the contract may be set aside under the doctrine of undue influence. Undue influence has occurred between:\n▪ Parent and child\n▪ Husband and wife\n▪ Trustee and beneficiary\n▪ Attorney and client\n▪ Pastor and parishioner\n▪ Doctor and patient\n▪ Administrator and legatee\n▪ Guardian and ward\n▪ Fiancé and fiancée",
-                  "textJP": ""
+                  "textJP": "契約の当事者間に不平等がある場合（例えば、当事者間の関係が一方の当事者が他方の意思を支配する立場にある場合）、そのうちの一方（支配者）が他方の状況を不当に利用し、合意を強要した場合、契約は不当威圧の法理に基づいて取り消される可能性があります。不当威圧は以下の関係の間で発生しています。\n▪ 親と子\n▪ 夫と妻\n▪ 受託者と受益者\n▪ 弁護士と依頼者\n▪ 牧師と信者\n▪ 医師と患者\n▪ 遺産管理人と受遺者\n▪ 後見人と被後見人\n▪ 婚約者同士"
                 }
               ]
             },
@@ -3715,22 +3736,22 @@
               "id": "ch5-s4-D",
               "label": "D",
               "title": "Illegal Contract",
-              "titleJP": "",
+              "titleJP": "違法契約",
               "paragraphs": [
                 {
                   "num": "4.8",
                   "text": "It is important to know that certain types of contract are prohibited by statute or at Common Law on the grounds of public policy. No party can enforce such contracts in Courts. They are void and not voidable at the choice of the parties.",
-                  "textJP": ""
+                  "textJP": "制定法またはコモンローにおいて、公序良俗を理由に特定の種類の契約が禁止されていることを知っておくことが重要です。いかなる当事者もそのような契約を裁判所で強制することはできません。それらは取消可能ではなく無効です。"
                 },
                 {
                   "num": "4.9",
                   "text": "Section 5 of the Civil Law Act 1909 provides that all contracts or agreements, whether orally or in writing, by way of gaming or wagering shall be null and void. Accordingly, no one can sue for recovery of the moneys won under such circumstances. Hence, gaming and waging debts are not legal debts. There is nothing to prohibit parties from honouring their words in a game or wager, but the gates of justice will be shut at them.",
-                  "textJP": ""
+                  "textJP": "Civil Law Act 1909第5条は、口頭であれ書面であれ、賭博による契約または合意はすべて無効であると規定しています。したがって、そのような状況下で獲得した金銭の回収を訴えることはできません。したがって、賭博の債務は法的な債務ではありません。当事者がゲームや賭けにおいて約束を守ることを禁止するものは何もありませんが、司法の門は当事者に対して閉ざされます。"
                 },
                 {
                   "num": "4.10",
                   "text": "Similarly, an insurance contract will amount to a wagering contract if the policy owner does not have the insurable interest in the insured subject matter and such policy owner cannot sue the insurer for payment under the policy.",
-                  "textJP": ""
+                  "textJP": "同様に、保険契約者が付保対象物に対する被保険利益を有しない場合、保険契約は賭博契約に該当し、当該保険契約者は保険者に対して保険証券に基づく支払いを訴えることができません。"
                 }
               ]
             },
@@ -3738,12 +3759,12 @@
               "id": "ch5-s4-E",
               "label": "E",
               "title": "Mistake",
-              "titleJP": "",
+              "titleJP": "錯誤",
               "paragraphs": [
                 {
                   "num": "4.11",
                   "text": "Sometimes, parties would reach an agreement without knowing that the facts, which were the very reason for the contract, did not exist, or not knowing the existence of certain facts, the existence of which would have caused the parties to not enter into the contract. In such cases, their consent is mistaken, and the contract is therefore void ab initio (i.e. the contract is treated as if it had not existed at all). For example, a contract for the sale of goods- the goods, without the knowledge of the sellers, have been destroyed at the time when the contract was made.",
-                  "textJP": ""
+                  "textJP": "当事者が、まさに契約の理由となった事実が存在しないことを知らずに、または一定の事実の存在を知っていれば契約を締結しなかったであろう一定の事実の存在を知らずに、合意に達することがあります。このような場合、当事者の同意は錯誤に基づくものであり、契約は当初から無効です（ab initio。すなわち、契約はまったく存在しなかったかのように扱われます）。例えば、物品の売買契約において、売主の知らないうちに契約締結時に物品がすでに滅失していた場合です。"
                 }
               ]
             },
@@ -3751,17 +3772,17 @@
               "id": "ch5-s4-F",
               "label": "F",
               "title": "Non Est Factum",
-              "titleJP": "",
+              "titleJP": "錯誤署名の抗弁（Non Est Factum）",
               "paragraphs": [
                 {
                   "num": "4.12",
                   "text": "The term “non est factum” means “this is not my deed”. As a general rule, if a person who is not under any incapacity signs a contract, he will be bound by the contract whether he has read it or not. However, if he could show that the document which he signed was not the one he intended to sign and the mistake was not due to his carelessness, he might be able to avoid the contract on the ground of non est factum. Fraud is not an element required for the operation of this law. However, it presents itself in most of the cases involving non est factum. If Mrs Chan, an old and illiterate lady, was given a document by her grandson to sign, and told it was for entering a lottery game when it was in fact a guarantee for his debt, she could claim the defence of non est factum to avoid the contract, if she was subsequently sued on the guarantee.",
-                  "textJP": ""
+                  "textJP": "「non est factum」という用語は「これは私の証書ではない」を意味します。一般原則として、無能力状態にない者が契約に署名した場合、読んだかどうかにかかわらず、契約に拘束されます。ただし、署名した文書が署名する意図のあった文書ではなく、かつ錯誤が不注意によるものでないことを示すことができれば、non est factumを理由に契約を回避できる可能性があります。詐欺はこの法理の適用に必要な要素ではありません。ただし、non est factumが関与するほとんどのケースに存在します。高齢で文字の読めないChan夫人が孫から署名する文書を渡され、それが宝くじへの参加のためのものだと言われたが、実際は孫の債務の保証であった場合、保証について訴えられた場合、non est factumの抗弁を主張して契約を回避することができます。"
                 },
                 {
                   "num": "4.13",
                   "text": "The mistake must be a fundamental mistake as to the character or effect of the document. If a party was careless or ignorant as to what he was signing, he could not rely on the defence of non est factum to avoid the contract. Thus, if in the same case, if Mrs Chan had simply signed the document without asking her grandson what it was for, she would be bound by the guarantee.",
-                  "textJP": ""
+                  "textJP": "錯誤は、文書の性格または効果に関する根本的な錯誤でなければなりません。当事者が署名しているものについて不注意または無知であった場合、契約を回避するためにnon est factumの抗弁に依拠することはできません。したがって、同じケースにおいて、Chan夫人が孫にそれが何のためのものかを尋ねることなく文書に署名した場合、彼女は保証に拘束されます。"
                 }
               ]
             }
@@ -3771,12 +3792,12 @@
           "id": "ch5-s5",
           "number": "5",
           "title": "Law Of Agency",
-          "titleJP": "",
+          "titleJP": "代理法",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "Insurance policies are often arranged through an insurance intermediary, namely an agent or a broker. It will therefore be necessary for you to have knowledge of the general principles of agency.",
-              "textJP": ""
+              "textJP": "保険証券は、しばしば代理店やブローカーなどの保険仲介者を通じて手配されます。したがって、代理の一般原則に関する知識を持つことが必要です。"
             }
           ],
           "subsections": [
@@ -3784,12 +3805,12 @@
               "id": "ch5-s5-A",
               "label": "A",
               "title": "Agents, Principals & Third Parties",
-              "titleJP": "",
+              "titleJP": "代理人、本人、第三者",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "There are three parties involved in an agency:",
-                  "textJP": ""
+                  "textJP": "代理関係には3つの当事者が関与しています。"
                 }
               ]
             },
@@ -3797,17 +3818,17 @@
               "id": "ch5-s5-A1",
               "label": "A1",
               "title": "The Agent",
-              "titleJP": "",
+              "titleJP": "代理人",
               "paragraphs": [
                 {
                   "num": "5.3",
                   "text": "Basically, an agent is a person who has the authority or power to act on behalf of his principal. The agent’s acts will be deemed to be acts of his principal and will be binding on his principal. For example, an insurance agent receives his authority from the insurer (the principal) to sell an insurance product. The agent’s act of selling the product will be as if the product was sold by the insurer itself.",
-                  "textJP": ""
+                  "textJP": "基本的に、代理人とは本人に代わって行為する権限または権限を有する者です。代理人の行為は本人の行為とみなされ、本人を拘束します。例えば、保険代理店は保険者（本人）から保険商品を販売する権限を受けます。代理店の販売行為は、あたかも保険者自身が商品を販売したかのようなものとなります。"
                 },
                 {
                   "num": "5.4",
                   "text": "The essence of an agent’s position is that he is only an intermediary. He may not be personally liable to the third party if he has simply acted as an intermediary. If the agent is liable, he may be entitled to an indemnity from the principal.",
-                  "textJP": ""
+                  "textJP": "代理人の立場の本質は、仲介者にすぎないということです。単に仲介者として行為した場合、第三者に対して個人的に責任を負わない場合があります。代理人が責任を負う場合、本人からの損害賠償を受ける権利を有することがあります。"
                 }
               ]
             },
@@ -3815,12 +3836,12 @@
               "id": "ch5-s5-A2",
               "label": "A2",
               "title": "The Principal",
-              "titleJP": "",
+              "titleJP": "本人",
               "paragraphs": [
                 {
                   "num": "5.5",
                   "text": "The principal is the one who gives authority to the agent. The principal might incur a liability to a third party for the agent’s actions so taken on his behalf.",
-                  "textJP": ""
+                  "textJP": "本人とは、代理人に権限を与える者です。本人は、代理人がその代理として行った行為について第三者に対する賠償責任を負う場合があります。"
                 }
               ]
             },
@@ -3828,12 +3849,12 @@
               "id": "ch5-s5-A3",
               "label": "A3",
               "title": "The Third Party",
-              "titleJP": "",
+              "titleJP": "第三者",
               "paragraphs": [
                 {
                   "num": "5.6",
                   "text": "Any person, other than the principal and the agent, may be referred to as a third party in the context of an agency. In the example of the insurance agent above, the customer or policyholder that bought the insurance is the third party.",
-                  "textJP": ""
+                  "textJP": "本人と代理人以外の者は、代理の文脈において第三者と呼ばれます。上の保険代理店の例では、保険を購入した顧客または保険契約者が第三者です。"
                 }
               ]
             }
@@ -3843,12 +3864,12 @@
           "id": "ch5-s6",
           "number": "6",
           "title": "Creation Of An Agency",
-          "titleJP": "",
+          "titleJP": "代理関係の成立",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "The relationship of principal and agent may be created in the following manner: (a) By agreement, whether contractual or not, between the principal and the agent that may be expressed, or implied from the conduct or situation of the parties. (b) By retrospective ratification by the principal, of acts done on his behalf.",
-              "textJP": ""
+              "textJP": "本人と代理人の関係は、以下の方法で成立します。\n(a) 本人と代理人の間の合意（契約の有無を問わず）による場合。これは明示的であるか、当事者の行為または状況から黙示的に導かれるものです。\n(b) 本人に代わってなされた行為の遡及的な追認による場合。"
             }
           ],
           "subsections": [
@@ -3856,32 +3877,32 @@
               "id": "ch5-s6-A",
               "label": "A",
               "title": "Agency By Agreement",
-              "titleJP": "",
+              "titleJP": "合意による代理",
               "paragraphs": [
                 {
                   "num": "6.2",
                   "text": "The basic way by which the agency relationship arises between the agent and principal is by agreement. This agreement does not need to be contractual, although some form of agreement will normally be necessary.",
-                  "textJP": ""
+                  "textJP": "代理人と本人の間の代理関係が生じる基本的な方法は、合意によるものです。この合意は契約上のものである必要はありませんが、通常は何らかの形の合意が必要です。"
                 },
                 {
                   "num": "6.3",
                   "text": "For example, a person may ask a friend or family member to perform certain tasks on his behalf, without any intention to create a contractual relationship with them in respect of such tasks. Nevertheless, the friend or family member who had agreed to the request and performed such tasks would be an agent of that person when performing the requested tasks.",
-                  "textJP": ""
+                  "textJP": "例えば、ある者が友人や家族に一定の業務を自己に代わって行うことを依頼し、そのような業務に関して契約関係を創設する意図がない場合でも、依頼に同意し業務を遂行した友人や家族は、依頼された業務を遂行する際にはその者の代理人となります。"
                 },
                 {
                   "num": "6.4",
                   "text": "It is also possible for an agent to bind his principal with respect to third parties if the principal is, in fact, willing for the agent to do so, even though the agent may not be aware of this.",
-                  "textJP": ""
+                  "textJP": "本人が実際に代理人がそうすることを望んでいる場合、代理人がそのことを認識していなくても、代理人が第三者との関係で本人を拘束することも可能です。"
                 },
                 {
                   "num": "6.5",
                   "text": "For example, a principal grants his agent with a certain authority, but the agent has acted on the principal’s behalf without knowledge of such authority. Nevertheless, the acts may be binding on the principal, as they are within the authority granted to the agent, even though the agent may not be aware that he has that authority when he performs the acts.",
-                  "textJP": ""
+                  "textJP": "例えば、本人が代理人に一定の権限を付与したが、代理人がその権限を知らずに本人に代わって行為した場合。それでもなお、代理人がその行為を行った時点でその権限を有していることを認識していなくても、代理人に付与された権限の範囲内であるため、その行為は本人を拘束する場合があります。"
                 },
                 {
                   "num": "6.6",
                   "text": "The agreement by which the agent is appointed may be express or implied from the conduct or situation of the parties. (a) Express Agreement (i) The simplest and most common way from which an agency arises is by an express agreement, whether written or oral, by the principal, and acceptance by the agent. (ii) In the case of a written agreement, the terms of the agency, such as the duties, authority and power of the agent, the duration of the agency and the remuneration of the agent, will usually be set out expressly in the written agreement. (iii) As mentioned above, an agency may be created formally in writing or verbally. It may also be created by conduct without any formal appointment or contract. However, there are some circumstances, whereby a formal written appointment is essential and/or required by law. For example, under Section 64 of the Insurance Act 1966, the appointment of an insurance agent by an insurance company must be specified in writing as evidenced in an Agency Agreement. (b) Implied Agreement (i) An agreement between the principal and the agent may also be implied from the conduct of the parties, where one party conducts himself in such a way that it is reasonable for the other party to infer from that conduct that an agency relationship has been created between the principal and the agent. This is to be viewed from the perspective of the principal and the agent, namely whether it will be reasonable for the principal and the agent to think that an agency relationship has been created between them.",
-                  "textJP": ""
+                  "textJP": "代理人が任命される合意は、明示的であるか、当事者の行為または状況から黙示的に導かれるものとすることができます。\n(a) 明示的合意\n(i) 代理関係が生じる最も簡単で一般的な方法は、本人による明示的合意（書面または口頭）と代理人による承諾です。\n(ii) 書面による合意の場合、代理人の義務、権限、権能、代理関係の期間、代理人の報酬などの代理関係の条件は、通常、書面の合意に明示的に定められます。\n(iii) 上述のとおり、代理関係は書面で正式に、口頭で、または正式な任命や契約なしに行為によって成立することができます。しかし、正式な書面による任命が不可欠および／または法律で義務付けられている状況もあります。例えば、Insurance Act 1966第64条の下では、保険会社による保険代理店の任命は、代理店契約に証拠づけられた書面で明記されなければなりません。\n(b) 黙示的合意\n(i) 本人と代理人の間の合意は、当事者の行為から黙示的に導かれることもあります。一方の当事者が、他方の当事者が当事者間に代理関係が成立したと推認することが合理的であるような行為を行った場合です。これは本人と代理人の観点から見るべきものです。すなわち、本人と代理人にとって、両者の間に代理関係が成立したと考えることが合理的であるかどうかです。"
                 }
               ]
             },
@@ -3889,27 +3910,27 @@
               "id": "ch5-s6-B",
               "label": "B",
               "title": "Agency By Ratification",
-              "titleJP": "",
+              "titleJP": "追認による代理",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "The relationship of principal and agent may be created under the doctrine of ratification. Under this doctrine, where an act is done purportedly in the name or on behalf of another by a person who has no authority to do that act, the person in whose name or on whose behalf the act is done, may, by ratifying the act, make it valid and effectual as if it had been originally done with his authority. To ratify an act is to sign or give formal consent to, making it officially valid.",
-                  "textJP": ""
+                  "textJP": "本人と代理人の関係は、追認の法理の下でも成立することがあります。この法理の下では、行為を行う権限を有しない者が他の者の名義でまたは代わりに行為を行った場合、その名義でまたは代わりに行為がなされた者は、その行為を追認することにより、元から権限を持って行われたかのように有効にすることができます。行為を追認するとは、署名または正式な同意を与え、公式に有効にすることです。"
                 },
                 {
                   "num": "6.8",
                   "text": "This ratification is done for past acts. It does not matter whether the act was done by an agent who had exceeded his authority, or by a person who had no authority to act for the principal at all.",
-                  "textJP": ""
+                  "textJP": "この追認は過去の行為に対して行われます。行為が権限を超えた代理人によって行われたか、本人のために行為する権限をまったく有しない者によって行われたかは問いません。"
                 },
                 {
                   "num": "6.9",
                   "text": "However, ratification only validates past acts of the agent and only creates an agency in respect of the transaction ratified. It does not, per se, give the agent any authority for future transactions.",
-                  "textJP": ""
+                  "textJP": "ただし、追認は代理人の過去の行為のみを有効にし、追認された取引に関してのみ代理関係を成立させます。それ自体は、代理人に将来の取引についての権限を付与するものではありません。"
                 },
                 {
                   "num": "6.10",
                   "text": "For this doctrine to apply, the following conditions must be satisfied: (a) Only an act that is capable of being done by means of an agent is capable of ratification. As such, void or illegal acts cannot be ratified. (b) Only the person whose name or on whose behalf that the act purported to be done has the power to ratify the act. As such, an undisclosed principal cannot ratify. For example, the undisclosed principal cannot ratify an act if the agent has performed the act on his own behalf and not on behalf of the principal; (c) The principal ratifying the act must have been in existence and competent at the time when the act was done. (d) At the time of ratification, the person ratifying the act should have full knowledge of all the material circumstances in which the act was done, although knowledge of the legal effect of the act might be imputed to him. (e) Ratification is not effective if it prejudices a third party. As such, the ratification should be done within a reasonable time; (f) Ratification must be of the whole contract. As such, the adoption of a part of a transaction will operate as a ratification of the whole. (g) As with the grant of authority by the principal to the agent that may be expressed or implied, the ratification by the principal of the agent’s act retrospectively may also be expressed or implied: (i) An express ratification is a clear manifestation by the principal that he treats the act, which was otherwise unauthorised, as authorised. One example would be that of a shipmaster selling his ship without the authority of the owner. The owner may formally ratify the sale and receive the purchase money with full knowledge of the circumstances in which the ship was sold. (ii) The ratification may be implied, when the conduct of the principal is such as to amount to clear evidence that he adopts or recognises the act in whole or in part. Depending on the circumstances, mere acceptance or inactivity by the principal may be sufficient. For example, Ann receives the rents of a certain property for many years, without the authority of the owner. The owner sues Ann for possession and for an account of the rents and profit. This action by the owner is a sufficient ratification to render Ann, the agent of the owner, from the commencement of receiving the rent.",
-                  "textJP": ""
+                  "textJP": "この法理が適用されるためには、以下の条件が満たされなければなりません。\n(a) 代理人を通じて行うことが可能な行為のみが追認可能です。したがって、無効または違法な行為は追認できません。\n(b) 行為がその名義でまたは代わりになされたと称する者のみが、その行為を追認する権限を有します。したがって、非開示の本人は追認できません。\n(c) 行為を追認する本人は、行為がなされた時点で存在し、能力を有していなければなりません。\n(d) 追認の時点で、行為を追認する者は、行為がなされたすべての重要な状況について完全な知識を有していなければなりません。\n(e) 追認は第三者を害する場合には無効です。したがって、追認は合理的な期間内に行われなければなりません。\n(f) 追認は契約全体についてなされなければなりません。したがって、取引の一部の採用は全体の追認として作用します。\n(g) 本人から代理人への権限の付与と同様に、代理人の行為の本人による遡及的追認も、明示的または黙示的とすることができます。\n(i) 明示的追認とは、本人が他に権限のなかった行為を権限あるものとして扱うことの明確な表示です。\n(ii) 追認は、本人の行為がその行為を全部または一部採用または認識していると判断するのに十分な明確な証拠に相当する場合に、黙示的になされることもあります。"
                 }
               ]
             }
@@ -3919,29 +3940,29 @@
           "id": "ch5-s7",
           "number": "7",
           "title": "Duties And Rights Of An Agent",
-          "titleJP": "",
+          "titleJP": "代理人の義務と権利",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch5-s7-A",
               "label": "A",
               "title": "Duties Of An Agent",
-              "titleJP": "",
+              "titleJP": "代理人の義務",
               "paragraphs": [
                 {
                   "num": "7.1",
                   "text": "An agent owes his principal the following duties: (a) A duty to act in accordance with the terms of the Agency Agreement, but not exceeding his authority. The agent must comply strictly with the terms of what he has agreed to do. He will be in a breach of contract if he exceeds his authority or fails to obey the principal’s instructions. However, he is not under a duty to perform any act which is either illegal or void. (b) A duty to exercise reasonable care and skill in the performance of his duties. (c) A duty to carry out the contract with dispatch. Where no time for performance is stated, the agent must perform the contract within a reasonable time having regard to all the circumstances of the case. (d) A duty to perform personally and not delegate his duties, unless expressly authorised by the principal or implied from the circumstances, trade customs or necessity. (e) Fiduciary duties to act in good faith and not allow personal interest to conflict with those of his principal, including making full disclosure of matters that relate to a possible conflict of interest, and also any information acquired in the course of the agent’s duties that may affect the principal’s position. These fiduciary duties apply whether or not the agency is gratuitous i.e. given or done free of charge. An agent must not, without the knowledge of his principal, accept any profit or benefit from his agency, other than that contemplated by the parties at the time of making the contract of agency. (f) A duty to account to the principal for all moneys received in the course of his agency duties. The agent is also not allowed to accept any bribe or secret profit and must pay over to the principal such bribe and secret profit.",
-                  "textJP": ""
+                  "textJP": "代理人は本人に対して以下の義務を負います。\n(a) 代理店契約の条件に従い、ただし権限を超えずに行為する義務。代理人は合意した内容の条件を厳格に遵守しなければなりません。権限を超えるか、本人の指示に従わない場合は契約違反となります。ただし、違法または無効な行為を行う義務はありません。\n(b) 職務の遂行において合理的な注意と技能を行使する義務。\n(c) 契約を迅速に履行する義務。履行の時期が定められていない場合、代理人は事案のすべての状況を考慮して合理的な期間内に契約を履行しなければなりません。\n(d) 本人から明示的に権限を与えられているか、状況、取引慣行、または必要性から黙示的に権限が認められない限り、自ら職務を遂行し、委任しない義務。\n(e) 善意に基づいて行為し、個人的利益が本人の利益と相反することを許さない受認者としての義務。利益相反の可能性に関連する事項の完全な開示、および代理人の職務の過程で取得した本人の立場に影響しうる情報の開示を含みます。これらの受認者としての義務は、代理関係が無償（無料で行われる）であるかどうかにかかわらず適用されます。代理人は、本人の認識なしに、代理関係の締結時に当事者が想定したもの以外の利益を代理関係から受け取ってはなりません。\n(f) 代理業務の過程で受領したすべての金銭について本人に会計報告する義務。代理人はいかなる賄賂や秘密の利益も受け取ってはならず、そのような賄賂および秘密の利益は本人に引き渡さなければなりません。"
                 },
                 {
                   "num": "7.2",
                   "text": "With regard to (f) above, the agent has a fiduciary duty to account for all moneys in his possession received on behalf of the principal. The principal’s money and property must be kept separate from the agent’s own money.",
-                  "textJP": ""
+                  "textJP": "上記(f)に関して、代理人は本人に代わって受領した所持金すべてについて会計報告する受認者としての義務を有します。本人の金銭および財産は、代理人自身の金銭と分離して保管されなければなりません。"
                 },
                 {
                   "num": "7.3",
                   "text": "In insurance, many insurance agents/brokers are authorised by their principals to collect premium payments, in order to facilitate the application and underwriting processes. In Singapore, the GIA requires that all premiums due from the agents to their principals shown in the monthly statements of accounts (issued by their principals/insurers) shall be paid in full within the credit period allowed by their principals. The credit period shall not exceed 90 days after the close of the month as covered by such a statement of account. According to Regulation 7 (14) of the Insurance (Intermediaries) Regulation, brokers must pay, to the insurer, all premiums received from the policyholder by the 90th day from the date of commencement of cover.",
-                  "textJP": ""
+                  "textJP": "保険においては、多くの保険代理店／ブローカーが申込みおよび引受プロセスを促進するために、本人から保険料の徴収を権限として与えられています。シンガポールでは、GIAは、代理店から本人（保険者）への支払義務がある保険料のうち、月次の計算書（本人／保険者が発行）に記載されたものはすべて、当該計算書の対象月末から90日を超えない信用供与期間内に全額支払われなければならないと定めています。Insurance (Intermediaries) Regulation第7条(14)に基づき、ブローカーは保険契約者から受領したすべての保険料を、カバーの開始日から90日目までに保険者に支払わなければなりません。"
                 }
               ]
             },
@@ -3949,27 +3970,27 @@
               "id": "ch5-s7-B",
               "label": "B",
               "title": "Rights Of An Agent",
-              "titleJP": "",
+              "titleJP": "代理人の権利",
               "paragraphs": [
                 {
                   "num": "7.4",
                   "text": "An agent’s rights and responsibilities are basically governed by the express terms of his Agency Agreement.",
-                  "textJP": ""
+                  "textJP": "代理人の権利と責任は、基本的に代理店契約の明示的条件によって規律されます。"
                 },
                 {
                   "num": "7.5",
                   "text": "However, the law also imposes on the agent special duties of a fiduciary nature, since an agent has been conferred with the authority and power to affect and change the legal position of his principal.",
-                  "textJP": ""
+                  "textJP": "しかし、法律は、代理人に本人の法的地位を変更する権限と権能が付与されているため、代理人に受認者としての特別な義務も課しています。"
                 },
                 {
                   "num": "7.6",
                   "text": "Some of these duties and terms are implied by law and originate from equity. These duties and terms are in addition to the express terms of the Agency Agreement, unless overridden by explicit terms in the Agency Agreement.",
-                  "textJP": ""
+                  "textJP": "これらの義務と条件の一部は法律によって黙示的に課され、衡平法に由来します。これらの義務と条件は、代理店契約の明示的条件によって明示的に否定されない限り、代理店契約の明示的条件に追加されるものです。"
                 },
                 {
                   "num": "7.7",
                   "text": "Generally, the rights of an agent under an Agency Agreement include:",
-                  "textJP": ""
+                  "textJP": "一般に、代理店契約に基づく代理人の権利は以下のとおりです。"
                 }
               ]
             },
@@ -3977,17 +3998,17 @@
               "id": "ch5-s7-B1",
               "label": "B1",
               "title": "Remuneration",
-              "titleJP": "",
+              "titleJP": "報酬",
               "paragraphs": [
                 {
                   "num": "7.8",
                   "text": "The right to remuneration (the right to be paid) either expressly provided under the Agency Agreement or implied from the circumstances. In general, the mere employment of a professional person means that the parties should have the intention of remunerating that person, unless there are circumstances to the contrary.",
-                  "textJP": ""
+                  "textJP": "報酬を受ける権利（支払いを受ける権利）。代理店契約に明示的に規定されるか、状況から黙示的に導かれます。一般に、専門家を雇用するということは、反対の事情がない限り、当事者がその者に報酬を支払う意思を持っていることを意味します。"
                 },
                 {
                   "num": "7.9",
                   "text": "For example, the Agency Agreement expressly provides that the agent is only entitled to his remuneration upon completion of a task, so the agent will not be entitled to any remuneration until the completion of the sale. The agent will also not be entitled to any remuneration for any unauthorised transaction which has not been ratified by the principal, and in cases of misconduct, breach of duty or illegal or void transaction.",
-                  "textJP": ""
+                  "textJP": "例えば、代理店契約が、代理人は業務の完了時にのみ報酬を受ける権利があると明示的に規定している場合、代理人は販売の完了まで報酬を受ける権利がありません。代理人はまた、本人によって追認されていない無権限の取引、および不正行為、義務違反、または違法もしくは無効な取引の場合にも報酬を受ける権利がありません。"
                 }
               ]
             },
@@ -3995,12 +4016,12 @@
               "id": "ch5-s7-B2",
               "label": "B2",
               "title": "Indemnity",
-              "titleJP": "",
+              "titleJP": "損害賠償",
               "paragraphs": [
                 {
                   "num": "7.10",
                   "text": "The right to reimbursement of expenses that have been reasonably incurred and indemnity from liabilities incurred in the course of execution of his authority in the agency, unless the act was not authorised or ratified by the principal, or the agent was in breach of his duty, or the transaction was illegal or void.",
-                  "textJP": ""
+                  "textJP": "代理関係における権限の行使の過程で合理的に発生した費用の償還および負担した賠償責任からの損害賠償を受ける権利。ただし、行為が本人によって権限を与えられたものではないか追認されていない場合、または代理人が義務に違反している場合、または取引が違法もしくは無効な場合を除きます。"
                 }
               ]
             },
@@ -4008,17 +4029,17 @@
               "id": "ch5-s7-B3",
               "label": "B3",
               "title": "Right Of Lien",
-              "titleJP": "",
+              "titleJP": "留置権",
               "paragraphs": [
                 {
                   "num": "7.11",
                   "text": "The right to a lien allows the agent to retain property belonging to the principal as security for commission or money owed by the principal to him – this lien, however, does not come with a general right to sell the retained property.",
-                  "textJP": ""
+                  "textJP": "留置権は、代理人が本人から支払われるべきコミッションまたは金銭の担保として、本人に属する財物を保持することを可能にします。ただし、この留置権には、保持した財物を売却する一般的な権利は伴いません。"
                 },
                 {
                   "num": "7.12",
                   "text": "The application of an agent’s right of lien is more relevant in general insurance. In international commercial Marine Insurance, a broker often advances the premium on behalf of the client. In such a case, the broker has a lien (right to retain) on the policy until the premium is paid. Without the Marine Insurance policy, the insured will not be able to make a claim.",
-                  "textJP": ""
+                  "textJP": "代理人の留置権の適用は、損害保険においてより関連性があります。国際的な商業海上保険では、ブローカーがしばしば顧客に代わって保険料を立て替えます。このような場合、ブローカーは保険料が支払われるまで保険証券に対する留置権（保持する権利）を有します。海上保険証券がなければ、被保険者は保険金請求を行うことができません。"
                 }
               ]
             },
@@ -4026,22 +4047,22 @@
               "id": "ch5-s7-C",
               "label": "C",
               "title": "Role Of Agent In Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求における代理人の役割",
               "paragraphs": [
                 {
                   "num": "7.13",
                   "text": "When the insured advises the agent of an incident which may give rise to a claim under the policy, the agent must inform the insurer without delay. The agent must also give prompt advice to the insured of the insurer’s requirements concerning claim submission, including the provision of information required to establish the nature and true extent of the loss. Information received from the insured must be passed to the insurer without delay.",
-                  "textJP": ""
+                  "textJP": "被保険者が保険証券に基づく保険金請求を生じさせる可能性のある事故について代理人に通知した場合、代理人は遅滞なく保険者に通知しなければなりません。代理人はまた、損失の性質と実際の範囲を立証するために必要な情報の提供を含め、保険金請求の提出に関する保険者の要件について被保険者に迅速に助言しなければなりません。被保険者から受領した情報は遅滞なく保険者に引き渡されなければなりません。"
                 },
                 {
                   "num": "7.14",
                   "text": "The agent must also be careful not to give any indication of acceptance or rejection of the claim, or any admission or denial of fact or liability (unless expressly at the insurer’s written instructions). The agent must make it clear to the insured that all correspondence made relating to the insurer’s investigation and processing of a claim is strictly on a “without prejudice” basis. 8. AGENTS’ AUTHORITY",
-                  "textJP": ""
+                  "textJP": "代理人はまた、保険金請求の受理もしくは拒否、または事実もしくは賠償責任の承認もしくは否認のいかなる表示も行わないよう注意しなければなりません（保険者の書面による明示的な指示がある場合を除きます）。代理人は、保険者の保険金請求の調査および処理に関連するすべての通信が厳格に「権利留保（without prejudice）」ベースであることを被保険者に明確にしなければなりません。\n8. 代理人の権限"
                 },
                 {
                   "num": "8.1",
                   "text": "A principal is bound, not only by acts that are within the actual authority of the agent, but also acts which are within the authority that he appears to have. The former, commonly referred to as “actual authority”, is real in the sense that it was given expressly by the principal or by implication of law. The latter, commonly referred to as “apparent authority”, is where the agent has no real authority to do the act in question, but appears in the eyes of a third party that he has such authority and is able to bind his principal. For example, an insurance agent has been issuing cover notes on behalf of his insurer where in fact he is not authorised to do so. It may appear to the policyholder being the third party that the agent has authority to do so.",
-                  "textJP": ""
+                  "textJP": "本人は、代理人の実際の権限の範囲内にある行為だけでなく、代理人が有しているように見える権限の範囲内にある行為にも拘束されます。前者は一般に「実際の権限」と呼ばれ、本人によって明示的に付与されたか、法律の含意によって付与された点で本物です。後者は一般に「表見的権限」と呼ばれ、代理人が問題の行為を行う真の権限を有していないが、第三者の目にはそのような権限を有しているように見え、本人を拘束することができる場合です。例えば、保険代理店が実際には権限を与えられていないにもかかわらず、保険者に代わってカバーノートを発行してきた場合。第三者である保険契約者にとって、代理店がそうする権限を有しているように見える場合があります。"
                 }
               ]
             },
@@ -4049,12 +4070,12 @@
               "id": "ch5-s7-A",
               "label": "A",
               "title": "Actual Or Express Authority",
-              "titleJP": "",
+              "titleJP": "代理人の権限",
               "paragraphs": [
                 {
                   "num": "8.2",
                   "text": "Actual authority stems from the consent by the principal to the agent that the agent should represent or act for him. This authority given by the principal to the agent: (a) may take the form of oral words or be in writing, commonly referred to as “express authority”. It forms part of the Agency Agreement between the principal and the agent; or (b) may be implied by the law because of the interpretation put by the law on the relationship and dealings of the two parties, commonly referred to as “implied authority”. This includes: (i) incidental authority, which is the implied authority to do whatever is necessarily, or ordinarily incidental to the effective execution of the expressed, authorised authority; (ii) usual authority, which is the implied authority to do whatever an agent of the type concerned usually has authority to do, even though he may not be actually authorised to do so. For example, an insurance agent may be usually authorised to collect premiums. In essence, the law recognises that the agent has been placed in a position which normally carries with it certain authority, and he is implied to have such authority, unless it is withdrawn from him; and (iii) customary authority, which is the implied authority to act in accordance with such applicable business customs as is reasonable. This may include authority implied from the course of dealing between the parties and the circumstances of the case. Again, the authority by an insurance agent to issue Marine cover notes may be deemed as customary in Marine insurance.",
-                  "textJP": ""
+                  "textJP": "本人は、代理人の実際の権限の範囲内にある行為だけでなく、代理人が有しているように見える権限の範囲内にある行為にも拘束されます。前者は一般に「実際の権限」と呼ばれ、本人によって明示的に付与されたか、法律の含意によって付与された点で本物です。後者は一般に「表見的権限」と呼ばれ、代理人が問題の行為を行う真の権限を有していないが、第三者の目にはそのような権限を有しているように見え、本人を拘束することができる場合です。例えば、保険代理店が実際には権限を与えられていないにもかかわらず、保険者に代わってカバーノートを発行してきた場合。第三者である保険契約者にとって、代理店がそうする権限を有しているように見える場合があります。"
                 }
               ]
             },
@@ -4062,22 +4083,22 @@
               "id": "ch5-s7-B",
               "label": "B",
               "title": "Apparent Or Ostensible Authority",
-              "titleJP": "",
+              "titleJP": "実際のまたは明示的権限",
               "paragraphs": [
                 {
                   "num": "8.3",
                   "text": "Apparent authority, also referred to as ostensible authority, stems from a manifestation made by the principal to a third party that the agent has the authority, and that the principal may be bound by the acts of the agent. This may take the form of an express representation. It may be one regarded by the law as a representation that the agent has authority. As such, the principal may be bound, as against a third party, by that agent’s acts within the authority which that agent appears to have. This is so, even though the principal has not in fact given that agent such authority, or has limited that authority by instructions, not made known to the third party.",
-                  "textJP": ""
+                  "textJP": "実際の権限は、本人の代理人に対する、代理人が本人を代表するか本人のために行為すべきであるという同意から生じます。本人から代理人に付与されるこの権限は以下のとおりです。\n(a) 口頭または書面の形態をとることがあり、一般に「明示的権限」と呼ばれます。本人と代理人の間の代理店契約の一部を構成します。\n(b) 二当事者の関係と取引について法律が与える解釈により、法律によって黙示的に認められることがあり、一般に「黙示的権限」と呼ばれます。これには以下が含まれます。\n(i) 付随的権限：明示的に権限を付与された権限の効果的な行使に必然的または通常的に付随するあらゆる事項を行う黙示的権限。\n(ii) 通常の権限：実際には権限を与えられていなくても、当該種類の代理人が通常有する権限を行使する黙示的権限。例えば、保険代理店は通常、保険料を徴収する権限を有しているとされます。\n(iii) 慣行上の権限：合理的な範囲で適用可能な商慣行に従って行為する黙示的権限。これには、当事者間の取引経緯や事案の状況から黙示的に認められる権限が含まれる場合があります。"
                 },
                 {
                   "num": "8.4",
                   "text": "In essence, apparent or ostensible authority is the authority of an agent as it appears to others, and which the principal holds out or permits to be held out, as the authority which his agent is vested with. A third party dealing with the agent will not normally know the exact limit of his authority, and should be able to rely on what appears to be the authority as represented by the principal, even though unknown to such party, it is something different from what the agent on general criteria impliedly have, or even may not have given the prohibition known to the agent by the principal.",
-                  "textJP": ""
+                  "textJP": "本質的に、表見的権限とは、他者に見えるとおりの代理人の権限であり、本人が保持しているか保持することを許可している、代理人に帰属する権限です。代理人と取引する第三者は、通常、代理人の権限の正確な限界を知ることはなく、たとえ当該当事者に知られていないところでは、代理人が一般的基準により黙示的に有するものとは異なっている場合や、本人から代理人に知らされた禁止事項を考慮すると有していない場合であっても、本人が表示した権限に見えるものに依拠できるべきです。"
                 },
                 {
                   "num": "8.5",
                   "text": "This means that a principal is bound not only by acts which are within the actual authority of the agent, but also by acts which are within the authority that they appear to have. A principal may be held liable on the grounds of apparent authority, even if the agent acted fraudulently and for his own benefit.",
-                  "textJP": ""
+                  "textJP": "これは、本人が代理人の実際の権限の範囲内にある行為だけでなく、代理人が有しているように見える権限の範囲内にある行為にも拘束されることを意味します。代理人が詐欺的に自己の利益のために行為した場合であっても、本人は表見的権限を理由に責任を負うことがあります。"
                 }
               ]
             },
@@ -4085,12 +4106,12 @@
               "id": "ch5-s7-C",
               "label": "C",
               "title": "Acts Outside Authority",
-              "titleJP": "",
+              "titleJP": "表見的権限",
               "paragraphs": [
                 {
                   "num": "8.6",
                   "text": "An agent may, at times, carry out certain acts in the course of his business, which do not fall within his authority. For example, Principal B authorises Agent A to buy, on their behalf, a specific quantity of wool and to not exceed a certain purchase price. Agent A enters into a contract with Seller C to purchase a greater quantity of wool and at a higher price than that authorised by Principal",
-                  "textJP": ""
+                  "textJP": "表見的権限は、本人から第三者に対して代理人が権限を有するとの表示がなされ、本人が代理人の行為に拘束される場合に生じます。これは明示的な表示の形態をとることがあります。法律が代理人に権限があるとの表示とみなす場合もあります。したがって、本人は、第三者に対して、代理人が有しているように見える権限の範囲内の代理人の行為に拘束される場合があります。本人が実際にはその代理人にそのような権限を付与していなかったか、第三者に知らされていない指示によってその権限を制限していた場合でも同様です。"
                 }
               ]
             },
@@ -4098,12 +4119,12 @@
               "id": "ch5-s7-B",
               "label": "B",
               "title": "Because of Agent A’s lack of authority, the contract between Agent A and",
-              "titleJP": "",
+              "titleJP": "権限外の行為",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Seller C does not bind Principal B, in addition, it does not create a contract between Agent A and Seller C.",
-                  "textJP": ""
+                  "textJP": "代理人は、業務の過程で、自己の権限の範囲に含まれない一定の行為を行うことがあります。例えば、本人Bは代理人Aに、自己に代わって特定の数量の羊毛を一定の購入価格を超えずに購入するよう権限を付与しました。代理人Aは、本人が権限を付与した量よりも多い量の羊毛を、権限を付与した価格よりも高い価格で売主Cとの契約を締結しました。"
                 }
               ]
             }
@@ -4113,12 +4134,12 @@
           "id": "ch5-s9",
           "number": "9",
           "title": "Termination Of Agency",
-          "titleJP": "",
+          "titleJP": "代理関係の終了",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "In law, the word “agency” is used to connote the relation which exists where one person, namely the agent, has the authority or capacity to create legal relations between his principal and a third party. Given the special relations of the parties, the termination of authority between the principal and the agent may not affect a third party who does not have notice of the termination.",
-              "textJP": ""
+              "textJP": "法律上、「代理」という言葉は、ある者（代理人）が本人と第三者の間に法律関係を創設する権限または能力を有する場合に存在する関係を意味するために使用されます。当事者間の特別な関係を考慮すると、本人と代理人の間の権限の終了は、終了の通知を受けていない第三者に影響を及ぼさない場合があります。"
             }
           ],
           "subsections": [
@@ -4126,12 +4147,12 @@
               "id": "ch5-s9-A",
               "label": "A",
               "title": "Termination Of An Agency By Act or Conduct",
-              "titleJP": "",
+              "titleJP": "行為または行動による代理関係の終了",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "The agency relationship between the principal and the agent may be terminated either by the act or conduct of the parties, or by the operation of law. The act or conduct of the parties may be in the form of an agreement between the parties to dissolve the relationship. It may also be based on the facts of the case. As in the case of the creation of an agency, the agreement to terminate may either be express or implied. The categories are as follows: (a) Withdrawal Or Revocation Of Authority By The Principal (i) The principal may revoke the agent’s authority at any time before the authority is exercised. However, the principal may be in breach of contract if the agency contract requires a period of notice to be given. (ii) The agent cannot force his principal to abide by the contract, since an agency is a contract of personal services, but he can claim damages. (iii) Where the Agency Agreement involves a continuing relationship between the principal and the agent, the revocation by the principal is effective only when the agent has received or has been given notice of such revocation. (b) Renunciation By The Agent Generally, an agent may renounce his authority at any time before completion of the agency. Whether the renunciation by the agent is a breach of contract will depend on the terms of the Agency Agreement between the two parties. (c) Breach By A Party A breach by one party can cause the agency to be terminated by the other party. For example, non-payment for goods that have already been delivered by the agent is a sufficient cause to terminate the agency, since the non-payment by the principal will be a breach of the Agency Agreement.",
-                  "textJP": ""
+                  "textJP": "本人と代理人の間の代理関係は、当事者の行為もしくは行動により、または法律の作用により終了することがあります。当事者の行為または行動は、関係を解消する当事者間の合意の形態をとることがあります。代理関係の成立の場合と同様に、終了の合意も明示的または黙示的のいずれかとすることができます。カテゴリーは以下のとおりです。\n(a) 本人による権限の撤回または取消し\n(i) 本人は、権限が行使される前であればいつでも代理人の権限を取り消すことができます。ただし、代理店契約が通知期間を定めている場合、本人は契約違反となることがあります。\n(ii) 代理関係は個人的なサービスの契約であるため、代理人は本人に契約の遵守を強制することはできませんが、損害賠償を請求することができます。\n(iii) 代理店契約が本人と代理人の間の継続的な関係を含む場合、本人による取消しは、代理人がそのような取消しの通知を受領したか、通知を受けた場合にのみ効力を生じます。\n(b) 代理人による放棄\n一般に、代理人は代理関係の完了前であればいつでも権限を放棄することができます。代理人による放棄が契約違反であるかどうかは、二当事者間の代理店契約の条件に依存します。\n(c) 一方の当事者による違反\n一方の当事者による違反は、他方の当事者によって代理関係を終了させることができます。例えば、代理人がすでに配達した物品に対する未払いは、代理関係を終了させるのに十分な原因です。本人による未払いは代理店契約の違反となるためです。"
                 }
               ]
             },
@@ -4139,12 +4160,12 @@
               "id": "ch5-s9-B",
               "label": "B",
               "title": "Termination Of Agency By Law",
-              "titleJP": "",
+              "titleJP": "法律による代理関係の終了",
               "paragraphs": [
                 {
                   "num": "9.3",
                   "text": "The law, on the other hand, terminates the agency: (a) On the completion of performance of a specific task. The agent’s official authority ends on completion of the performance of the specific task, and his authority to bind the principal terminates automatically. (b) On the expiration of time where a specific period of time was provided. However, it is not necessary that the time be expressly stated, since it may be presumed from the nature of the authority or facts of the case. (c) On the happening of an event which makes the principal incapable of continuing the contract, such as death, bankruptcy or unsoundness of mind of the principal. (d) Generally, as between the principal and the agent, the authority of an agent is terminated by the principal’s death, by the principal becoming incapable by reason of mental illness of managing his affairs, or by the principal’s bankruptcy. A contract made by an agent after the death, incapacitation or bankruptcy of the principal is not binding on the principal’s personal representatives but may be ratified by them if they think fit. As between the principal and a third party dealing with the agent, without knowledge of the condition of the principal, the agent’s authority to bind the principal continues. (e) On the happening of an event which makes the agent incapable of continuing the contract, such as death, bankruptcy or unsoundness of mind of the agent. Generally, the death or incapacity of the agent to manage the principal’s affairs by reason of mental illness terminates the agency. The bankruptcy of an agent will not automatically terminate the authority of the agent. This will depend on the construction of the Agency Agreement, and whether the bankruptcy will prevent the agent from carrying out his duties to the principal. (f) On the frustration of contract, or the happening of an event rendering the continuance of the agency unlawful. This occurs, for example, where the subject matter has already been sold, or the task was impossible to be performed or cannot be performed, because of illegality.",
-                  "textJP": ""
+                  "textJP": "一方、法律は以下の場合に代理関係を終了させます。\n(a) 特定の業務の遂行の完了時。代理人の正式な権限は特定の業務の遂行の完了時に終了し、本人を拘束する権限は自動的に終了します。\n(b) 特定の期間が定められている場合、その期間の満了時。ただし、期間が明示的に定められている必要はなく、権限の性質または事案の事実から推定される場合があります。\n(c) 本人が契約を継続することができなくなる事象の発生時。本人の死亡、破産、または心神喪失などです。\n(d) 一般に、本人と代理人の間では、代理人の権限は本人の死亡、精神疾患による本人の業務管理不能、または本人の破産によって終了します。本人の死亡、無能力化、または破産後に代理人が締結した契約は、本人の相続人を拘束しませんが、適切と判断する場合にはこれを追認することができます。本人と、本人の状態を知らずに代理人と取引する第三者との間では、代理人の本人を拘束する権限は継続します。\n(e) 代理人が契約を継続することができなくなる事象の発生時。代理人の死亡、破産、または心神喪失などです。一般に、代理人の死亡または精神疾患による本人の業務管理不能は代理関係を終了させます。代理人の破産は自動的に代理人の権限を終了させるものではありません。これは代理店契約の解釈、および破産が代理人の本人に対する義務の遂行を妨げるかどうかに依存します。\n(f) 契約の履行不能の場合、または代理関係の継続を違法にする事象の発生時。これは、例えば、対象物がすでに売却されている場合、業務の遂行が不可能である場合、または違法性のために遂行できない場合に発生します。"
                 }
               ]
             },
@@ -4152,22 +4173,22 @@
               "id": "ch5-s9-C",
               "label": "C",
               "title": "Effects Of Termination",
-              "titleJP": "",
+              "titleJP": "終了の効果",
               "paragraphs": [
                 {
                   "num": "9.4",
                   "text": "The termination of the agency contract basically dissolves the relationship between the principal and the agent. However, not all consequences of the relationship will cease. For example, commission already earned by the agent, indemnity vested to the agent, and the right to sue for breaches of contract by the principal or agent remains.",
-                  "textJP": ""
+                  "textJP": "代理関係契約の終了は、基本的に本人と代理人の間の関係を解消します。ただし、関係のすべての結果が消滅するわけではありません。例えば、代理人がすでに獲得したコミッション、代理人に帰属する損害賠償、および本人または代理人による契約違反について訴訟を提起する権利は存続します。"
                 },
                 {
                   "num": "9.5",
                   "text": "For a third party, when the agency is terminated by the act of the principal and agent, only the actual authority of the agent comes to an end, while the apparent or ostensible authority of the agent remains. A third party dealing with the agent will not normally know the exact limit of the agent’s authority. Thus, it will have to rely on what appears to be the authority as represented by the principal. Therefore, the termination of the agency between the principal and the agent will not affect the apparent and ostensible authority of the agent visà- vis the third party, until and unless the third party has notice of such termination or has become aware of circumstances.",
-                  "textJP": ""
+                  "textJP": "第三者については、代理関係が本人と代理人の行為によって終了した場合、代理人の実際の権限のみが終了し、代理人の表見的権限は存続します。代理人と取引する第三者は、通常、代理人の権限の正確な限界を知ることはありません。したがって、本人が表示した権限に見えるものに依拠しなければなりません。そのため、本人と代理人の間の代理関係の終了は、第三者がそのような終了の通知を受けたか、状況を認識するまでは、代理人の第三者に対する表見的権限に影響を及ぼしません。"
                 },
                 {
                   "num": "9.6",
                   "text": "On the other hand, where the agency was involuntarily terminated by operation of law, for example, owing to the death and insanity of the principal or agent, the agency would come to an end, regardless of whether the third party was aware of it.",
-                  "textJP": ""
+                  "textJP": "一方、法律の作用によって代理関係が非自発的に終了した場合（例えば、本人または代理人の死亡および心神喪失のため）、第三者がそのことを認識しているかどうかにかかわらず、代理関係は終了します。"
                 }
               ]
             }
