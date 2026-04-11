@@ -264,7 +264,7 @@
   align-items: flex-start;
   gap: var(--sp-sm);
   width: 100%;
-  padding: var(--sp-xs) var(--sp-sm);
+  padding: var(--sp-xs) 0;
   border: none;
   border-bottom: 1px solid var(--c-border);
   background: none;
