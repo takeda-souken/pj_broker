@@ -5242,7 +5242,7 @@
       "id": "ch7",
       "number": 7,
       "title": "CLAIMS",
-      "titleJP": "",
+      "titleJP": "保険金請求",
       "outline": [
         "Introduction",
         "General Claims Procedures",
@@ -5256,7 +5256,19 @@
         "Rights Of The Insurer After A Claim",
         "Claim Disputes"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "一般的な保険金請求手続き",
+        "立証責任",
+        "損失後の被保険者の義務",
+        "損害査定人およびその他の保険金請求専門家の活用",
+        "比例てん補およびその他の保険金請求条件",
+        "保険詐欺",
+        "保険金決済の選択肢",
+        "保険金額の復活",
+        "保険金請求後の保険者の権利",
+        "保険金請求の紛争"
+      ],
       "learningOutcomes": [
         "acquire some basic knowledge of the general claims procedures",
         "know how claims are reported or notified",
@@ -5277,28 +5289,47 @@
         "know the rights of the insurer after a claim",
         "explain the common methods of settling claim disputes"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "保険金請求の基本的な手続きを理解する",
+        "保険金請求の通知の重要性を知る",
+        "保険金請求の調査・評価のプロセスを理解する",
+        "損失証明の準備を理解する",
+        "有効な保険金請求のための法的要件を知る",
+        "損失後の被保険者の義務を知る",
+        "損害査定人およびその他の保険金請求専門家の役割を理解する",
+        "比例てん補が保険金請求にどのように適用されるかを理解する",
+        "分担が保険金請求にどのように適用されるかを理解する",
+        "出訴期限の概念を理解する",
+        "復活の概念を理解する",
+        "保険詐欺の概念を知る",
+        "保険業界の保険詐欺対策の取り組みを知る",
+        "保険金決済の選択肢を知る",
+        "保険金請求決済協定の概念を知る",
+        "保険金請求後の保険者の権利を理解する",
+        "保険金請求の紛争解決方法を知る",
+        "調停と仲裁の違いを知る"
+      ],
       "sections": [
         {
           "id": "ch7-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "The basis of insurance is risk pooling which carries the obligation of paying losses. Therefore, claims must be paid promptly and fairly. A poor claims handling service can result in an insurer gaining an unfavourable reputation. As such, an insurer that does not pay its valid claims will soon be without customers. Hence, prompt and equitable claims handling is an important aspect of the insurance service.",
-              "textJP": ""
+              "textJP": "保険の基礎はリスクプーリングであり、損失を支払う義務を伴います。したがって、保険金請求は迅速かつ公正に支払われなければなりません。保険金請求処理のサービスが悪ければ、保険者は不利な評判を得ることになります。そのため、保険者は迅速かつ公正な保険金請求処理サービスを提供することが自社にとっても被保険者にとっても最善の利益であると認識しています。"
             },
             {
               "num": "1.2",
               "text": "The claims handling process may vary for different classes of insurance. Each and every insurer has its own methods and procedures of administering claims. However, the approach to claim handling is generally very similar among all classes of insurance.",
-              "textJP": ""
+              "textJP": "保険金請求の処理プロセスは、保険の種類によって異なる場合があります。各保険者は独自の保険金請求管理の方法と手続きを有しています。しかし、保険金請求処理のアプローチは、すべての保険種類で概ね非常に類似しています。"
             },
             {
               "num": "1.3",
               "text": "In this chapter, we will examine the basic claims procedures covering the notification of loss, the investigation and assessment, and the preparation of proof of loss. We will also look at the legal requirements and conditions for a valid claim, the duties of the insured after a loss, claim conditions, the claim settlement options, rights of the insurer after a claim, and claim disputes.",
-              "textJP": ""
+              "textJP": "本章では、損失の通知、調査・評価、損失証明の準備を含む基本的な保険金請求手続きを検討します。また、有効な保険金請求のための法的要件と条件、保険金決済の選択肢、保険金請求後の保険者の権利、および保険金請求の紛争解決方法についても取り上げます。"
             }
           ],
           "subsections": []
@@ -5307,44 +5338,44 @@
           "id": "ch7-s2",
           "number": "2",
           "title": "General Claims Procedures",
-          "titleJP": "",
+          "titleJP": "一般的な保険金請求手続き",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch7-s2-A",
               "label": "A",
               "title": "Notification Of Loss",
-              "titleJP": "",
+              "titleJP": "損失の通知",
               "paragraphs": [
                 {
                   "num": "2.1",
                   "text": "The first and most important point to make is that the notification of a claim is the responsibility of the insured. The insurer will want speedy notification of the claim and will often lay down a time limit (notification period) within which a claim must be reported to insurers.",
-                  "textJP": ""
+                  "textJP": "最も重要な第一のポイントは、保険金請求の通知は被保険者の責任であるということです。保険者は迅速な通知を求め、保険金請求を通知しなければならない期限（通知期間）を定めることがしばしばあります。"
                 },
                 {
                   "num": "2.2",
                   "text": "Prompt notification is important because the sooner the insured notifies the loss, the sooner the insurer can make any investigation. It will also enable the insurer to suggest measures to be adopted, in order to minimise the loss and to take steps to salvage the loss.",
-                  "textJP": ""
+                  "textJP": "迅速な通知が重要なのは、被保険者が損失を早く通知するほど、保険者が早期に調査を行えるためです。また、損失を最小化するための措置を保険者が提案し、第三者に対する回収権を保全するための手段を講じることも可能になります。"
                 },
                 {
                   "num": "2.3",
                   "text": "Upon receipt of the notice of the loss or damage, the insurer will record and register the claim in its computer system. This serves as a record of the claim registered in the system. In a manual system of work, this will be known as a “claim register”. The register serves to hold a central record of all claims lodged with the insurer. This will enable the insurer to access the claim history of a customer, when underwriting new business and processing claims. It is also for the purpose of checking the claim history of a particular policyholder, or for checking on the possibility of fraud. CLAIM",
-                  "textJP": ""
+                  "textJP": "損失または損害の通知を受け取ると、保険者はコンピュータシステムに保険金請求を記録・登録します。これはシステムに登録された保険金請求の記録として機能します。手作業のシステムでは、「保険金請求台帳」と呼ばれます。"
                 },
                 {
                   "num": "2.4",
                   "text": "Although most computer systems will have built-in self-checks, the insurer will also perform a preliminary validation based on the following checklist:\n▪ Has the policy been issued and whether it is still in force at the material time of the loss or damage?\n▪ Is the loss the result of an insured peril? Is the loss covered?\n▪ Is the property covered by the policy?\n▪ Is the claimant entitled to the payment?\n▪ Did the loss occur in a place covered by the policy?\n▪ Has notice of the loss been received by the insurer without undue delay (i.e. within the notification period as specified)?\n▪ Is there any other claim evidence and information required?",
-                  "textJP": ""
+                  "textJP": "ほとんどのコンピュータシステムには組み込みの自動チェック機能がありますが、保険者は以下のチェックリストに基づく予備的な検証も行います。\n▪ 保険証券が発行されており、損失の発生時点において依然として有効であるか\n▪ 損失が保険証券の条件の下でカバーされているか\n▪ すべての条件が遵守されているか"
                 },
                 {
                   "num": "2.5",
                   "text": "The means by which claims are normally reported is the claim form. An example of the claim form is shown in Appendix 7A at the end of this chapter. This is for a property/liability policy, and you can see the kind of questions that are being asked.",
-                  "textJP": ""
+                  "textJP": "保険金請求が通常報告される手段は保険金請求書です。保険金請求書の例はAppendix 7Aに示されています。これは財物／賠償責任保険用であり、どのような質問がなされているかを確認できます。"
                 },
                 {
                   "num": "2.6",
                   "text": "While the claim form (together with the relevant supporting documentary evidence), which collects pertinent information on the loss is the main means by which the insurer receives notification of a claim, other forms of notification are also acceptable to the insurer e.g. by phone, e-mail, etc. It is prudent to follow up a phone call to the insurer with a written notification. In the event of a claim in which the loss is large or involves more details, the insurer (at its own expense) will appoint a loss adjuster. We will look at the role of the loss adjuster later in this chapter.",
-                  "textJP": ""
+                  "textJP": "保険金請求書（関連する証拠書類とともに）が保険者が保険金請求の通知を受ける主な手段ですが、電話やメールなど他の形態の通知も受け入れられます。"
                 }
               ]
             },
@@ -5352,22 +5383,22 @@
               "id": "ch7-s2-B",
               "label": "B",
               "title": "Investigation & Assessment",
-              "titleJP": "",
+              "titleJP": "調査と評価",
               "paragraphs": [
                 {
                   "num": "2.7",
                   "text": "On receipt of the claim form from the insured, the claims officer will have to decide on whether further investigation and assessment are required. Usually with a very small loss, where fraud is not suspected, detailed investigation is generally waived, and the valid loss is settled on the basis of information submitted in the claim form by the insured or claimant.",
-                  "textJP": ""
+                  "textJP": "被保険者から保険金請求書を受け取ると、保険金請求担当者はさらなる調査と評価が必要かどうかを判断しなければなりません。通常、詐欺が疑われない非常に小さな損失の場合、詳細な調査は一般に省略されます。"
                 },
                 {
                   "num": "2.8",
                   "text": "Claim investigation involves ascertaining the existence of loss, assessing whether actions by the insured have invalidated the claim, as well as determining the amount of the loss.",
-                  "textJP": ""
+                  "textJP": "保険金請求の調査には、損失の存在の確認、被保険者の行為が保険金請求を無効にしたかどうかの評価、および損失額の算定が含まれます。"
                 },
                 {
                   "num": "2.9",
                   "text": "Small claims are usually investigated and verified by the insurer’s in-house claims officer, while large or complicated losses are normally handled by an independent loss adjuster appointed by the insurer, at its own expense. Basic Insurance Concepts & Principles",
-                  "textJP": ""
+                  "textJP": "小額の保険金請求は通常、保険者の社内の保険金請求担当者が調査・確認し、大規模または複雑な損失は通常、保険者が保険者の費用で任命する独立した損害査定人が処理します。"
                 }
               ]
             },
@@ -5375,22 +5406,22 @@
               "id": "ch7-s2-C",
               "label": "C",
               "title": "Plan Of Investigation",
-              "titleJP": "",
+              "titleJP": "調査計画",
               "paragraphs": [
                 {
                   "num": "2.10",
                   "text": "The experienced loss adjuster will plan his investigation of loss in an orderly manner in the following sequence:\n▪ check coverage;\n▪ meet with the insured;\n▪ inspect the property;\n▪ protect property from further damage;\n▪ determine the cause of loss;\n▪ determine the value of the loss and/or damage;\n▪ determine the insurer’s liability; and\n▪ determine recovery possibilities.",
-                  "textJP": ""
+                  "textJP": "経験豊富な損害査定人は、損失の調査を以下の順序で秩序立てて計画します。\n▪ カバーの確認\n▪ 被保険者との面談\n▪ 財物の検査\n▪ 財物のさらなる損傷からの保護\n▪ 損失の原因の特定\n▪ 損失の範囲の特定"
                 },
                 {
                   "num": "2.11",
                   "text": "The pattern of investigation and areas of enquiry listed above are matters common to the adjustment of all property losses. It applies equally to the investigation and adjustment of third-party property losses under any Liability Insurance, or loss of cargoes under a Marine Cargo Insurance policy.",
-                  "textJP": ""
+                  "textJP": "上記に列挙した調査のパターンと照会分野は、すべての財物損失の査定に共通する事項です。これは、賠償責任保険に基づく第三者財物損失の調査・査定、または傷害保険に基づく損失にも同様に適用されます。"
                 },
                 {
                   "num": "2.12",
                   "text": "For property claims, one of the important items which the loss adjuster always takes into account when investigating and compiling the report is to ascertain whether the sum insured of the policy is adequate, i.e. the value of the property at the time of the loss does not exceed the sum insured. If the sum insured is not adequate and if the loss is partial, the insurer will not pay the claim in full. Thus, the insured will have to bear the loss in respect of the uninsured proportion of the loss. The application of the average condition has been explained earlier.",
-                  "textJP": ""
+                  "textJP": "財物保険金請求について、損害査定人が調査と報告書の作成の際に常に考慮する重要な項目の一つは、保険証券の保険金額が十分であるかどうか、すなわち損失発生時点における財物の価額が保険金額以上であるかどうかを確認することです。"
                 }
               ]
             },
@@ -5398,22 +5429,22 @@
               "id": "ch7-s2-D",
               "label": "D",
               "title": "Preparation Of Proof Of Loss",
-              "titleJP": "",
+              "titleJP": "損失証明の準備",
               "paragraphs": [
                 {
                   "num": "2.13",
                   "text": "Once the investigation is complete and the coverage is established (i.e. a liability has arisen and it falls within the scope of the policy), the loss adjuster will submit a final report to the insurer. This report summarises the on-site findings and recommendations concerning the loss settlement. If the insurer accepts the recommendations and the claimant agrees to the amount of compensation, a Form of Acceptance is usually executed by the claimant and submitted to the insurer for effecting the payment of the claim under the relevant policy.",
-                  "textJP": ""
+                  "textJP": "調査が完了し、カバーが確立された（すなわち賠償責任が発生し、保険証券の範囲内にある）場合、損害査定人は保険者に最終報告書を提出します。この報告書は現場での調査結果を要約し、支払いが推奨される場合は保険金額を記載します。"
                 },
                 {
                   "num": "2.14",
                   "text": "Before effecting payment, it is important to confirm once again that the claimant is legally entitled to receive the claim payment. For example, for payment of a death claim under a Personal Accident Insurance policy, a grant of probate or letter of administration will have to be submitted by the legal representatives, unless there is a nomination of beneficiary or beneficiaries in accordance with Section 132 or 133 of the Insurance Act 1966. A Marine Cargo Insurance claim is paid to the claimant only when the original policy is produced or endorsed in his favour.",
-                  "textJP": ""
+                  "textJP": "支払いを実行する前に、請求者が保険金を受け取る法的権利を有することを再度確認することが重要です。例えば、傷害保険に基づく死亡保険金の支払いには、検認命令または遺産管理状が必要です。"
                 },
                 {
                   "num": "2.15",
                   "text": "The claims officer must ensure that a proper discharge under the policy is obtained, so as to avoid any dispute in the future, before making a payment under the policy. When the insured gives his consent or signs the discharge form or cashes the cheque, further rights to pursue the claim are waived.",
-                  "textJP": ""
+                  "textJP": "保険金請求担当者は、将来の紛争を避けるため、保険証券に基づく適切な免責証書を取得してから支払いを行わなければなりません。被保険者が同意し、免責証書に署名するか小切手を換金した場合、被保険者は同一の損失について保険者にさらなる請求を行うことはできません。"
                 }
               ]
             }
@@ -5423,22 +5454,22 @@
           "id": "ch7-s3",
           "number": "3",
           "title": "Onus Of Proof",
-          "titleJP": "",
+          "titleJP": "立証責任",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "In the event of loss or damage forming subject of a claim, the onus of proving that a loss has occurred rests with the insured. Thus, it is usually the insured’s responsibility to prove: (a) that an insured peril has arisen : The insured must prove that he has suffered a loss directly caused by a peril which is insured by the policy; and (b) the amount of the loss : The insured must also prove that he has suffered a financial loss and identify the amount of financial loss suffered. The insured cannot simply claim for a lost or damaged item, without proving the value of the item. This proof may take the form of a purchase receipt, a repair account, or a valuation. It is not for the insurer to prove the value of the loss. Basic Insurance Concepts & Principles",
-              "textJP": ""
+              "textJP": "保険金請求の対象となる損失または損害が発生した場合、損失が発生したことを証明する責任は被保険者にあります。したがって、通常、以下を証明するのは被保険者の責任です。\n(a) 被保険の危険事故が発生したこと：被保険者は損失の原因が保険証券でカバーされる危険事故であることを証明しなければなりません。\n(b) 損失が保険期間中に発生したこと\n(c) 損失額が正しいこと"
             },
             {
               "num": "3.2",
               "text": "The insurer has responsibilities of its own too. It has to ascertain that:\n▪ the loss has occurred or a claim is made during the period of insurance;\n▪ the insured is the correct insured as named in the policy;\n▪ the peril that has caused the loss is covered by the policy;\n▪ the insured has taken reasonable steps to minimise losses;\n▪ the policy conditions and warranties have been complied with;\n▪ no exclusion or exception is applicable;\n▪ no non-disclosure of material facts or misrepresentation of facts has been committed by the insured; and\n▪ the claim is legitimate, not a fraudulent one, and the value of the loss is reasonable.",
-              "textJP": ""
+              "textJP": "保険者にも自らの責任があります。保険者は以下を確認しなければなりません。\n▪ 損失が発生したか、保険金請求が保険期間中になされたこと\n▪ 被保険者が保険証券に記載された正しい被保険者であること\n▪ 損失の原因となった危険事故が保険証券でカバーされていること"
             },
             {
               "num": "3.3",
               "text": "The above list contains the legal requirements for a valid claim. Therefore, in effect, a claim is invalid if the above conditions are not complied with, or if fraud can be proved. An insurer may provide less than a full indemnity, either as a result of the insured’s choice of the type and extent of insurance cover, or owing to poor insurance arrangements, e.g. under-insurance.",
-              "textJP": ""
+              "textJP": "上記のリストには、有効な保険金請求のための法的要件が含まれています。したがって、実質的に、上記の条件が遵守されない場合、または詐欺が証明された場合、保険金請求は無効となります。保険者は、比例てん補条項、エクセスの適用、または分担条項の適用の結果として、完全なてん補よりも少ない額を提供することがあります。"
             }
           ],
           "subsections": []
@@ -5447,12 +5478,12 @@
           "id": "ch7-s4",
           "number": "4",
           "title": "Duties Of The Insured After A Loss",
-          "titleJP": "",
+          "titleJP": "損失後の被保険者の義務",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "The duties of the insured following a loss can be divided into the following two categories:\n▪ implied duties; and\n▪ express duties.",
-              "textJP": ""
+              "textJP": "損失後の被保険者の義務は、以下の2つのカテゴリーに分けられます。\n▪ 黙示的義務\n▪ 明示的義務"
             }
           ],
           "subsections": [
@@ -5460,12 +5491,12 @@
               "id": "ch7-s4-A",
               "label": "A",
               "title": "Implied Duties",
-              "titleJP": "",
+              "titleJP": "黙示的義務",
               "paragraphs": [
                 {
                   "num": "4.2",
                   "text": "These are duties imposed by Common Law and not written into the insurance policy. For example, the law requires that the insured should act as if he were uninsured and take all reasonable steps and precautions to minimise his loss or damage. As such, in taking steps to minimise the loss or damage in the event of a loss occurrence, it may be implied that the insured should advise the appropriate authorities, e.g. advising the fire service in the event of a fire as soon as the fire starts - this will also help to prevent the loss from spreading, or reporting to the police in the event of a theft.",
-                  "textJP": ""
+                  "textJP": "黙示的義務は、コモンローによって課され、保険証券には記載されない義務です。例えば、法律は被保険者が付保されていないかのように行動し、損失または損害を最小化するためのすべての合理的な措置と予防措置を講じることを要求しています。"
                 }
               ]
             },
@@ -5473,17 +5504,17 @@
               "id": "ch7-s4-B",
               "label": "B",
               "title": "Express Duties",
-              "titleJP": "",
+              "titleJP": "明示的義務",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "Express duties are duties written into the contract and are usually found as the conditions in the policy. A breach of such conditions allows the insurer to repudiate liability or to reject the claim.",
-                  "textJP": ""
+                  "textJP": "明示的義務は、契約に書き込まれた義務であり、通常、保険証券の条件として記載されています。このような条件の違反は、保険者が賠償責任を否認するか保険金請求を拒否することを許容します。"
                 },
                 {
                   "num": "4.4",
                   "text": "In most policies, there are a number of conditions and some of these relate to claims. In particular, one sets out the duties of the insured upon the happening of the event insured against. This condition is often entitled “claims procedures” or “actions by the insured”.",
-                  "textJP": ""
+                  "textJP": "ほとんどの保険証券には多くの条件があり、その一部は保険金請求に関連しています。特に、被保険事由の発生時における被保険者の義務を定めた条件があります。この条件は「保険金請求手続き」または「損失発生時の措置」と題されていることがしばしばあります。"
                 }
               ]
             },
@@ -5491,12 +5522,12 @@
               "id": "ch7-s4-B1",
               "label": "B1",
               "title": "Notification Condition",
-              "titleJP": "",
+              "titleJP": "通知条件",
               "paragraphs": [
                 {
                   "num": "4.5",
                   "text": "This condition identifies the actions required of the insured, namely:\n▪ give prompt notification to the insurer;\n▪ submit the claim in writing with full details of loss or damage and supporting documentary evidence within a certain period of time, e.g. 21 or 30 days (notification period);\n▪ bring the motor vehicle (whether damaged or not) to the insurer’s approved reporting centre or authorised workshop within 24 hours or by the next working day, in the event of a motor accident claim.",
-                  "textJP": ""
+                  "textJP": "この条件は、被保険者に求められる行動を特定します。\n▪ 保険者に迅速に通知すること\n▪ 損失または損害の完全な詳細および証拠書類を添えて一定期間内に書面で保険金請求を提出すること\n▪ 損害を受けた財物を保全すること"
                 }
               ]
             }
@@ -5506,12 +5537,12 @@
           "id": "ch7-s5",
           "number": "5",
           "title": "Use Of Loss Adjusters & Other Claims Professionals",
-          "titleJP": "",
+          "titleJP": "損害査定人およびその他の保険金請求専門家の活用",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "As previously mentioned, large or complicated losses are normally handled by independent loss adjusters. The idea of an independent loss adjuster is based on the principle that, since both the insured and the insurer are interested parties, it is essential to have the opinion of an independent professional person who is acceptable to both parties, as well as a Court of Law, in the event of a dispute. Although it is common for the loss adjuster to be appointed by the insurer, it is the duty of the loss adjuster to act and adjust the loss impartially and professionally, based on the actual findings during the loss investigation.",
-              "textJP": ""
+              "textJP": "前述のとおり、大規模または複雑な損失は通常、独立した損害査定人が処理します。独立した損害査定人の考え方は、被保険者と保険者の両方が利害関係者であるため、保険金請求の有効性と金額の決定にあたり、独立した第三者の関与が不可欠であるという原則に基づいています。"
             }
           ],
           "subsections": [
@@ -5519,22 +5550,22 @@
               "id": "ch7-s5-A",
               "label": "A",
               "title": "Loss Adjusters",
-              "titleJP": "",
+              "titleJP": "損害査定人",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "Loss adjusters are independent claims specialists whose function is to assist in validating claim settlements quickly and fairly. Usually appointed by the insurers, they investigate large and complex claims on the insurers’ behalf and will be remunerated with fee payments by the insurers concerned. As loss adjusters are usually highly qualified individuals, with vast experience in claim settlement and insurance, they are able to investigate claims for accident, fire, theft, storm, flood, explosion, earthquake, business interruption, engineering etc. They can help the policyholders in contacting relevant specialist services, getting repairs done and can also ensure that the eventual claim settlement recommended to the insurers is fair to both parties, within the terms of the relevant insurance policy. Basic Insurance Concepts & Principles",
-                  "textJP": ""
+                  "textJP": "損害査定人は、独立した保険金請求の専門家であり、その機能は保険金の迅速かつ公正な査定・支払いを支援することです。通常は保険者によって任命され、保険者に代わって大規模で複雑な保険金請求を調査し、関係する保険者からフィーの形で報酬を受けます。"
                 },
                 {
                   "num": "5.3",
                   "text": "On receiving instructions from the insurer, the loss adjuster will visit the claimant and assess the scene of the loss. He may also arrange with the insured for the necessary protection of the undamaged property. An initial report will then be submitted to the insurer setting out the brief details of the claim and the circumstances, together with an estimate of the likely cost. A final report will be submitted when negotiations are completed. Once the insurer accepts the negotiated settlement, payment will be made to the insured.",
-                  "textJP": ""
+                  "textJP": "保険者から指示を受けると、損害査定人は請求者を訪問し、損失の現場を評価します。損傷していない財物の必要な保護を被保険者と手配することもあります。その後、保険者に中間報告書が提出されます。"
                 },
                 {
                   "num": "5.4",
                   "text": "If the loss adjuster suspects that a claim is fraudulent, he may have to carry out a further detailed investigation. In some cases, this may require the involvement of the police, private investigators and, in exceptional cases, forensic experts.",
-                  "textJP": ""
+                  "textJP": "損害査定人が保険金請求が不正であると疑う場合、さらに詳細な調査を行う必要があります。場合によっては、警察、私立探偵、および例外的なケースでは法医学の専門家の関与が必要になることがあります。"
                 }
               ]
             },
@@ -5542,17 +5573,17 @@
               "id": "ch7-s5-B",
               "label": "B",
               "title": "Other Claims Professionals",
-              "titleJP": "",
+              "titleJP": "その他の保険金請求専門家",
               "paragraphs": [
                 {
                   "num": "5.5",
                   "text": "Other than loss adjusters who are most commonly used, there are other experts or specialists who can be appointed (if necessary), to carry out investigations into a claim.",
-                  "textJP": ""
+                  "textJP": "最も一般的に利用される損害査定人のほかに、保険金請求の調査を行うために任命されうる（必要に応じて）他の専門家やスペシャリストがいます。"
                 },
                 {
                   "num": "5.6",
                   "text": "There are claims inspectors who are essentially in-house claims investigators (they can also be known as claims assessors or managers), and there are other external experts, such as the ones mentioned below:\n▪ Forensic scientists – to establish cause of fire;\n▪ Medical practitioners – to determine if a claimed medical condition is genuine;\n▪ Engineers – to investigate and establish cause of engineering loss;\n▪ “Restoration” specialist – engineers to perform such “restoration” activities like dehumidification, in case of water damage and reinstatement of machinery to operational condition.\n▪ Loss Assessors - appointed by the insureds to prepare and negotiate claims on their behalf, unlike loss adjusters, whom are usually appointed by the insurers. The insureds will have to pay the fees for appointing loss assessors.\n▪ Surveyors – appointed by insurers to assess property damage e.g. motor vehicle damage. They will inspect the damaged vehicles and negotiate with the insurers’ authorised workshops regarding repair costs (i.e. labour charges, spare parts costs, etc) on behalf of the insurers.\n▪ Claims Recovery Agents – appointed by insurers to effect recovery from third parties responsible for the loss of or damage to property, cargo, etc.",
-                  "textJP": ""
+                  "textJP": "保険金請求検査官（社内の保険金請求調査員。保険金請求評価者またはマネージャーとも呼ばれます）がおり、以下に挙げるような外部の専門家もいます。\n▪ 法科学者 — 原因の特定\n▪ 鑑定人 — 価値の評価\n▪ エンジニア — 技術的評価"
                 }
               ]
             },
@@ -5560,12 +5591,12 @@
               "id": "ch7-s5-C",
               "label": "C",
               "title": "Approved Reporting Centres",
-              "titleJP": "",
+              "titleJP": "認定報告センター",
               "paragraphs": [
                 {
                   "num": "5.7",
                   "text": "Following a motor vehicle accident, the Motor Insurance policyholder is required to make an accident report at one of the Approved Reporting Centres (including approved motor repairers and authorised workshops) as determined by the insurer, within 24 hours, or latest by the next working day. This is not only in accordance with the GIA’s Motor Claims Framework, but clearly stipulated as a condition in the policyholder’s Motor Insurance policy.",
-                  "textJP": ""
+                  "textJP": "自動車事故の後、自動車保険の保険契約者は、保険者が指定する認定報告センター（認定自動車修理業者および認定工場を含む）の一つで、24時間以内に事故報告を行うことが求められます。"
                 }
               ]
             }
@@ -5575,12 +5606,12 @@
           "id": "ch7-s6",
           "number": "6",
           "title": "Average & Other Claims Conditions",
-          "titleJP": "",
+          "titleJP": "比例てん補およびその他の保険金請求条件",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "In this section, we will examine the principles concerning the operation of other policy provisions affecting claims, namely the operation of the following policy provisions:\n▪ average;\n▪ contribution;\n▪ limitation period;\n▪ reinstatement; and\n▪ fraud.",
-              "textJP": ""
+              "textJP": "本節では、保険金請求に影響を与えるその他の保険約款の規定に関する原則、すなわち以下の保険約款の規定の運用について検討します。\n▪ 比例てん補（average）\n▪ 分担\n▪ 出訴期限\n▪ 復活\n▪ 詐欺"
             }
           ],
           "subsections": [
@@ -5588,12 +5619,12 @@
               "id": "ch7-s6-A",
               "label": "A",
               "title": "Average",
-              "titleJP": "",
+              "titleJP": "比例てん補（Average）",
               "paragraphs": [
                 {
                   "num": "6.2",
                   "text": "The application of the average clause has been explained earlier in this Study Guide.",
-                  "textJP": ""
+                  "textJP": "比例てん補条項の適用については、本学習ガイドの前の部分で説明しました。"
                 }
               ]
             },
@@ -5601,12 +5632,12 @@
               "id": "ch7-s6-B",
               "label": "B",
               "title": "Contribution",
-              "titleJP": "",
+              "titleJP": "分担",
               "paragraphs": [
                 {
                   "num": "6.3",
                   "text": "The principle of contribution has been explained earlier in this Study Guide. Here, we will show you two ways in which the “rateable share” to be paid by the respective insurers may be calculated. (a) Respective Sums Insured This is the traditional way of calculation with contribution. Here, the insurers contribute to the loss payment in the proportion to which they contribute to the total amount of coverage purchased. (b) Independent Liability Under this method, the amount payable under each policy is calculated, and the loss will be shared in proportion to the independent liabilities of the two policies. Sometimes, the two methods of calculation will produce the same result, but a simple example will illustrate the difference between the two methods (see Example 7.1). Basic Insurance Concepts & Principles Example 7.1: Difference Between “Respective Sums Insured” And “Independent Liability” Methods Assume the following: An insured has a policy with Insurer A for S$75,000 and Insurer B for S$25,000. Both policies are subject to average. A loss arises to the sum of S$40,000 (for ease of calculation, ignore any question of under-insurance). (i) With “Respective Sums Insured”, the insurers contribute as follows: Sum Insured by Individual Insurer x Loss = Insurer’s Liability Total Sum Insured i.e. Insurer A pays: S$75,000 x S$40,000 = S$30,000 S$75,000 + S$25,000 Insurer B pays: S$25,000 x S$40,000 = S$10,000 S$75,000 + S$25,000 Total = S$40,000 (ii) With “Independent Liabilities”, the insurers contribute as follows: Insurer A (if the only insurer) will pay S$40,000. Insurer B (if the only insurer) will pay S$25,000. Since the insured must receive indemnity only, the two amounts are scaled down, so that: Insurer A pays: S$40,000 x S$40,000 = S$24,615 S$40,000 + S$25,000 Insurer B pays: S$25,000 x S$40,000 = S$15,385 S$ 40,000 + S$25,000 Total = S$40,000 When both insurers fully cover the loss, this method results in an equal split. (c) Which Is The “Correct” Method? For Liability Insurance, contribution is likely to be dealt with on the independent liability basis, following a legal decision in the United Kingdom (UK) to that effect. For property and other insurance subject to indemnity, the traditional basis of respective sums insured may be applied in Singapore, but it should be noted that in the UK, independent liability is the norm (especially for members of the Association of British Insurers), because it is felt that this is fairer, especially where average may be involved.",
-                  "textJP": ""
+                  "textJP": "分担の原則については、本学習ガイドの前の部分で説明しました。ここでは、それぞれの保険者が支払うべき「按分割合」を計算する2つの方法を示します。\n(a) それぞれの保険金額による方法\nこれは伝統的な方法であり、各保険者が自社の保険金額の比率で損失を分担します。"
                 }
               ]
             },
@@ -5614,22 +5645,22 @@
               "id": "ch7-s6-C",
               "label": "C",
               "title": "Limitation Period",
-              "titleJP": "",
+              "titleJP": "出訴期限",
               "paragraphs": [
                 {
                   "num": "6.4",
                   "text": "An action against another party must be brought under the law within a prescribed time frame. If not, the action will become time barred. This simply means that, if legal action is not brought within the time allowed under the law, then the courts will not consider the action. The limitation period is that time during which legal action may be brought and, once it is over, all further legal actions are barred.",
-                  "textJP": ""
+                  "textJP": "他の当事者に対する訴訟は、法律の定める期間内に提起されなければなりません。そうでなければ、訴訟は時効により禁止されます。これは単純に、法律で認められた期間内に法的措置が講じられなければ、裁判所はその訴えを受理しないことを意味します。"
                 },
                 {
                   "num": "6.5",
                   "text": "However, limitation of actions is not part of Common Law, but is set by statute to regulate actions under Common Law. All legal actions pertaining to damages for negligence, nuisance or breach of duty must commence before the expiration of the applicable statutory limitation period. In Singapore, this is set out in Section 24A of the Limitation Act 1959, which provides that damages for negligence, nuisance or breach of duty actions in respect of latent injuries and damages:\n▪ in respect of personal injuries – three years from the date on which the course of action accrued;\n▪ in respect of those other than personal injuries – six years from the date on which the course of action accrued.",
-                  "textJP": ""
+                  "textJP": "ただし、出訴期限はコモンローの一部ではなく、コモンローに基づく訴訟を規制するために制定法によって定められています。過失、妨害行為、または義務違反に対する損害賠償に関するすべての法的訴訟は、適用される出訴期限の満了前に開始されなければなりません。"
                 },
                 {
                   "num": "6.6",
                   "text": "A limitation period may also be inserted outright in the policy itself. For example, a Fire Insurance policy may insert a clause which states: “In no case whatever shall the Company (insurer) be liable for any loss or damage after the expiration of 12 months from the happening of the loss or damage, unless the claim is the subject of pending action or arbitration.”",
-                  "textJP": ""
+                  "textJP": "出訴期限は、保険証券自体に直接挿入されることもあります。例えば、火災保険は以下のような条項を挿入することがあります。「いかなる場合も、損失の通知の日から12ヶ月の満了後に損失または損害について当社（保険者）が責任を負うことはないものとします。」"
                 }
               ]
             },
@@ -5637,12 +5668,12 @@
               "id": "ch7-s6-D",
               "label": "D",
               "title": "Reinstatement",
-              "titleJP": "",
+              "titleJP": "復活",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "Reinstatement refers to the situation when the insurers decide to exercise their option to reinstate, instead of paying cash as an indemnity. See later section of this chapter for further discussion on reinstatement. Basic Insurance Concepts & Principles",
-                  "textJP": ""
+                  "textJP": "復活とは、保険者が現金でのてん補の支払いの代わりに復旧の選択肢を行使することを決定した場合を指します。復活については本章の後のセクションでさらに議論します。"
                 }
               ]
             }
@@ -5652,27 +5683,27 @@
           "id": "ch7-s7",
           "number": "7",
           "title": "Insurance Fraud",
-          "titleJP": "",
+          "titleJP": "保険詐欺",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Insurers cannot avoid paying some claims and, in a mechanism which is designed to pool the premiums of the many in order to settle the claims of the few, it is perhaps not surprising that the opportunities for fraud may be exploited by some members of the pool.",
-              "textJP": ""
+              "textJP": "保険者は一部の保険金請求の支払いを避けることができず、多数の人の保険料をプールして少数の人の保険金請求を決済するために設計された仕組みにおいて、詐欺の機会が一部の加入者によって利用されることはおそらく驚くべきことではありません。"
             },
             {
               "num": "7.2",
               "text": "The following examples illustrate what insurance fraud is:\n▪ inventing a loss event which in reality never took place, e.g. a robbery;\n▪ exaggerating the number of items stolen during an otherwise honestly reported break-in;\n▪ deliberately creating an insured event, e.g. throwing paint over an insured carpet at home; or\n▪ exaggerating the effects of an insured event, e.g. pretending that a personal injury is more serious than it really is, in order to receive higher compensation.",
-              "textJP": ""
+              "textJP": "保険詐欺とは何かを以下の例で示します。\n▪ 実際には発生していない損失事故（例：強盗）を捏造すること\n▪ 正直に報告された侵入盗について盗まれた品物の数を誇張すること\n▪ 保険金請求を行う目的で故意に損失を発生させること"
             },
             {
               "num": "7.3",
               "text": "A fraudulent claim is a breach of the duty of utmost good faith. There is usually a condition in the policy to state that any benefit shall be forfeited if:\n▪ the claim is in any respect fraudulent, including inflating or exaggerating the claim, or submitting forged or falsified documents;\n▪ any fraudulent means or devices are used to obtain any benefit or payment under the policy;\n▪ the loss, damage or destruction is caused by the wilful act (e.g. arson) of the insured, or anyone acting on behalf of, or in the collusion or connivance with the insured; or\n▪ the claim has been rejected and, within three months, no action or suit is taken against the insurer.",
-              "textJP": ""
+              "textJP": "不正な保険金請求は、最大善意の義務違反です。保険証券には通常、以下の場合に給付が没収される旨の条件が記載されています。\n▪ 保険金請求がいかなる点においても不正であり、保険金請求の水増しや誇張を含むもの\n▪ 不正な手段や仕掛けが使用された場合"
             },
             {
               "num": "7.4",
               "text": "If the insurer wishes to avoid a payment under the policy on grounds of fraud, it must have adequate proof beyond reasonable doubt, as this is a serious allegation.",
-              "textJP": ""
+              "textJP": "保険者が詐欺を理由に保険証券に基づく支払いを回避しようとする場合、これは重大な主張であるため、合理的な疑いを超える十分な証拠を有していなければなりません。"
             }
           ],
           "subsections": [
@@ -5680,47 +5711,47 @@
               "id": "ch7-s7-A",
               "label": "A",
               "title": "Industry’s Efforts To Combat Insurance Fraud",
-              "titleJP": "",
+              "titleJP": "保険詐欺対策の業界の取り組み",
               "paragraphs": [
                 {
                   "num": "7.5",
                   "text": "In March 2019, the General Insurance Association of Singapore (GIA) introduced the GIA Insurance Fraud Tip-off (GIFT) scheme which rewards individuals up to S$10,000 - based on the equivalent value of the fraudulent claim - for reporting insurance fraud cases that lead to successful prosecution and conviction of offenders. If there is more than one informant for a case, the panel of investigators will decide on the reward allocation to each informant.",
-                  "textJP": ""
+                  "textJP": "2019年3月、シンガポール損害保険協会（GIA）は、GIA Insurance Fraud Tip-off（GIFT）スキームを導入しました。このスキームは、保険詐欺を通報した個人に対し、不正な保険金請求の相当額に基づき最大S$10,000の報奨金を支給するものです。"
                 },
                 {
                   "num": "7.6",
                   "text": "The most common insurance fraud cases in Singapore are from the motor, travel and personal accident insurance segments.",
-                  "textJP": ""
+                  "textJP": "シンガポールで最も一般的な保険詐欺の事例は、自動車保険、旅行保険、傷害保険の分野からのものです。"
                 },
                 {
                   "num": "7.7",
                   "text": "GIFT is part of GIA’s efforts to increase participation of all stakeholders - including general insurers, regulators, and members of the public - to collectively combat insurance fraud and mitigate claims costs inflation.",
-                  "textJP": ""
+                  "textJP": "GIFTは、損害保険者、規制当局、一般市民を含むすべてのステークホルダーの参加を拡大し、保険詐欺に共同で対処しコスト上昇を抑制するというGIAの取り組みの一環です。"
                 },
                 {
                   "num": "7.8",
                   "text": "GIA introduced this scheme to encourage members of the public to play a more pro-active role in tackling this problem together so that insurance in Singapore remains accessible. Members of the public who have been approached to get involved in insurance fraud or are currently holding relevant evidence of others committing fraud should participate in the scheme.",
-                  "textJP": ""
+                  "textJP": "GIAは、保険がシンガポールで引き続き利用しやすいものであるよう、一般市民がこの問題に取り組む上でより積極的な役割を果たすことを奨励するために本スキームを導入しました。保険詐欺に加担するよう持ちかけられた一般市民は、GIFTスキームを通じて通報することができます。"
                 },
                 {
                   "num": "7.9",
                   "text": "To qualify for the reward scheme, individuals are required to provide documentary evidence such as detailed descriptions of how the fraud was conducted, electronic document trails, actual copies of forged or tampered documents, or any another physical evidence that can prove the suspected fraud.",
-                  "textJP": ""
+                  "textJP": "報奨金の対象となるためには、詐欺がどのように行われたかの詳細な記述、電子文書の追跡記録、偽造または改ざんされた文書の実物のコピー、またはその他の物理的証拠など、証拠書類を提供することが求められます。"
                 },
                 {
                   "num": "7.10",
                   "text": "The GIFT scheme builds on the success of the GIA Fraud Management System (FMS) which employs data analytics and artificial intelligence to detect fraud cases for motor and travel insurance. The system which was implemented in 2017 has since played a key role in helping the industry mitigate underwriting losses for the motor insurance segment.",
-                  "textJP": ""
+                  "textJP": "GIFTスキームは、自動車保険および旅行保険の詐欺事案を検出するためにデータ分析と人工知能を活用するGIA Fraud Management System（FMS）の成功を基盤としています。2017年に実施されたこのシステムは、詐欺事案の特定において重要な役割を果たしてきました。"
                 },
                 {
                   "num": "7.11",
                   "text": "Recognising the importance of a coordinated effort in carrying out joint investigations, GIA developed the concept of a centralised body in late-2019. The Centralised Investigation Bureau (CIB) acts as a coordinating structure for members to jointly carry out investigations into insurance fraud cases to direct them for criminal prosecution. Additionally, its roles are to serve as a strong deterrence to would-be offenders and to increase the rate of conviction for insurance fraud offences. The CIB was formed and launched in June 2020. 1",
-                  "textJP": ""
+                  "textJP": "組織的な共同調査の重要性を認識し、GIAは2019年後半に一元化された機関の概念を開発しました。Centralised Investigation Bureau（CIB）は、会員が疑わしい保険金請求について共同調査を行うための調整構造として機能します。"
                 },
                 {
                   "num": "7.12",
                   "text": "The CIB’s work includes providing a common framework for coordinated investigations into suspicious insurance claims for civil and criminal prosecution. It also provides vital support to affected members to combat insurance fraud, including members who do not have existing processes or resources to dedicate to the detection and investigation of suspected claims. The CIB currently comprises four teams of investigators from Special Investigation Units of various member companies with investigation experience and background. The teams assist in providing advice and coordinate joint investigations of cases referred to the CIB on a rotational basis.2 1 Extracted from GIA 2020 Annual Report 2 As above Basic Insurance Concepts & Principles",
-                  "textJP": ""
+                  "textJP": "CIBの業務には、疑わしい保険金請求に対する民事および刑事訴追のための組織的調査の共通フレームワークの提供が含まれます。また、不正な保険金請求と闘う影響を受けた会員に対し、小規模な調査予算しか持たない会員を含め、重要な支援を提供します。"
                 }
               ]
             }
@@ -5730,17 +5761,17 @@
           "id": "ch7-s8",
           "number": "8",
           "title": "Claims Settlement Options",
-          "titleJP": "",
+          "titleJP": "保険金決済の選択肢",
           "paragraphs": [
             {
               "num": "8.1",
               "text": "After the insurer has admitted the claim and the insured has agreed on the compensation amount, it is time to consider the settlement options available. There are basically four methods of settlements, namely:\n▪ repair;\n▪ replacement;\n▪ reinstatement; and\n▪ cash payment.",
-              "textJP": ""
+              "textJP": "保険者が保険金請求を認め、被保険者が補償額に合意した後、利用可能な決済の選択肢を検討する段階となります。基本的に4つの決済方法があります。\n▪ 修理\n▪ 交換\n▪ 復旧\n▪ 現金支払い"
             },
             {
               "num": "8.2",
               "text": "We shall go through each in turn, and then take a brief look at the Claim Settlement Agreements.",
-              "textJP": ""
+              "textJP": "各方法を順に見ていき、保険金決済協定についても簡単に取り上げます。"
             }
           ],
           "subsections": [
@@ -5748,12 +5779,12 @@
               "id": "ch7-s8-A",
               "label": "A",
               "title": "Repair",
-              "titleJP": "",
+              "titleJP": "修理",
               "paragraphs": [
                 {
                   "num": "8.3",
                   "text": "Insurers paying for the cost of repair is common in a Motor Insurance claim. Usually, the insurer will request that the insured submits a written estimate of the cost of repair. Depending on the amount of estimate, the insurer may appoint a motor claim assessor to assess the extent of damage and recommend an estimated repair cost. Thereafter, the insurer will authorise the repair and bear the repair cost, paying the authorised workshop or repairer directly, except that the insured is to pay the excess (if any) to the workshop.",
-                  "textJP": ""
+                  "textJP": "保険者が修理費用を支払うことは、自動車保険の保険金請求において一般的です。通常、保険者は被保険者に修理費用の書面による見積もりの提出を求めます。見積額に応じて、保険者は自動車の保険金請求検査官を任命して損害を評価させる場合があります。"
                 }
               ]
             },
@@ -5761,12 +5792,12 @@
               "id": "ch7-s8-B",
               "label": "B",
               "title": "Replacement",
-              "titleJP": "",
+              "titleJP": "交換",
               "paragraphs": [
                 {
                   "num": "8.4",
                   "text": "Replacement can be arranged for lost or damaged goods or property. Replacement is often seen in some Motor Insurance claims, such as the replacement of a broken windscreen. However, replacement is more commonly used in Glass Insurance claims, where insurers can get favourable discounts from glaziers. Replacement might also be used as a settlement option for a household property loss, where the lost item was new, or unlikely to have depreciated in value (e.g. new television set or jewellery).",
-                  "textJP": ""
+                  "textJP": "交換は、損失または損傷した物品や財物に対して手配できます。交換は、破損したフロントガラスの交換など、一部の自動車保険金請求でよく見られます。しかし、交換はガラス保険の保険金請求でより一般的に使用されます。"
                 }
               ]
             },
@@ -5774,22 +5805,22 @@
               "id": "ch7-s8-C",
               "label": "C",
               "title": "Reinstatement",
-              "titleJP": "",
+              "titleJP": "復旧",
               "paragraphs": [
                 {
                   "num": "8.5",
                   "text": "The term “reinstatement” is often associated with property claims, particularly buildings. When a building is severely damaged by fire, the insurer can arrange to indemnify the insured by reinstating the building, if the insurer feels that it is the most equitable way of settling the claim. This means to rebuild the existing building to its immediate “pre-loss” condition. The rebuilt building will be the same as the original building in terms of its size, design and material used, and the reinstatement can be carried out on another site. Reinstatement work must also be carried out and completed within a stated period of time (e.g. 12 months).",
-                  "textJP": ""
+                  "textJP": "「復旧」という用語は、特に建物の財物保険金請求と関連付けられることが多いです。建物が火災で深刻に損傷した場合、保険者は、保険者にとって最も経済的であると判断すれば、建物を復旧することで被保険者にてん補することを手配できます。"
                 },
                 {
                   "num": "8.6",
                   "text": "The extent to which reinstatement is to be carried out is usually stated in some form in the operative clause. However, a condition may be inserted in the policy requiring that the insured will give the insurer all assistance in obtaining the information needed to carry out such reinstatement. It may also state that the insured will provide such assistance at his own expense.",
-                  "textJP": ""
+                  "textJP": "復旧が行われる範囲は、通常、補償条項に何らかの形で記載されています。ただし、被保険者が復旧に必要な情報の入手において保険者にすべての支援を行うことを求める条件が保険証券に挿入される場合があります。"
                 },
                 {
                   "num": "8.7",
                   "text": "It should be noted that replacement is distinct from reinstatement in that the replacement of a building can be done by:\n▪ erecting a new building using modern materials; or\n▪ purchasing an existing building.",
-                  "textJP": ""
+                  "textJP": "交換は復旧とは異なることに留意すべきです。建物の交換は以下の方法で行われます。\n▪ 近代的な資材を使用して新しい建物を建設する\n▪ 既存の建物を購入する"
                 }
               ]
             },
@@ -5797,17 +5828,17 @@
               "id": "ch7-s8-D",
               "label": "D",
               "title": "Cash Payment",
-              "titleJP": "",
+              "titleJP": "現金支払い",
               "paragraphs": [
                 {
                   "num": "8.8",
                   "text": "The easiest and usual way of settling a valid claim is to make cash payment directly to the claimant. This form of settlement provides flexibility in the way in which the claim payment will be used.",
-                  "textJP": ""
+                  "textJP": "有効な保険金請求を決済する最も簡単で通常の方法は、請求者に直接現金を支払うことです。この決済形態は、保険金の使途に柔軟性を提供します。"
                 },
                 {
                   "num": "8.9",
                   "text": "The selection of these settlement options depends on the type of policy, its stipulated terms and conditions, and the negotiations between the claimant and the insurer. In practice, more than one option is often adopted with some classes of business, particularly with property damage claims. This is because property damage claims can range from small amounts (where a repair may be suitable) to a total destruction (where a cash settlement may be more appropriate). In the case of liability claim, payment is usually made to the wronged party (i.e. third party), not the insured. Claim Settlement Options Repair Replacement Reinstatement Cash Payment Basic Insurance Concepts & Principles Example 7.2: Combination Of Repair, Replacement & Cash Payment Options Kenny’s car had a head-on collision with Lenny’s car while on the way to work. Kenny’s car was severely damaged. Its windscreen was smashed, the bonnet was badly dented, and both the front fenders were crushed and buckled. Lenny’s car windscreen was smashed, headlights were broken, and the bonnet was slightly dented. Both Kenny and Lenny submitted their claim estimates to their respective insurers. In turn, they appointed their motor claim specialists to examine the damaged cars. After having examined the badly damaged car, the claim specialist of Kenny’s insurer was satisfied that Kenny’s car was damaged beyond economic repair. He recommended that the insurer settled on a cash basis and paid Kenny the market value of the car. The claim specialist of Lenny’s insurer, after having examined the car, judged that the damaged bonnet was repairable. Hence, he authorised Lenny to have the repairs carried out. He also ordered the windscreen and the two headlights to be replaced as they were broken.",
-                  "textJP": ""
+                  "textJP": "これらの決済の選択肢の選択は、保険証券の種類、規定された条件、および請求者と保険者の間の交渉に依存します。実務上、一部の事業種類では複数の選択肢が採用されることがしばしばあります。"
                 }
               ]
             },
@@ -5815,12 +5846,12 @@
               "id": "ch7-s8-E",
               "label": "E",
               "title": "Claim Settlement Agreements",
-              "titleJP": "",
+              "titleJP": "保険金決済協定",
               "paragraphs": [
                 {
                   "num": "8.10",
                   "text": "There are claim settlement agreements relating to claim settlement options.",
-                  "textJP": ""
+                  "textJP": "保険金決済の選択肢に関連する保険金決済協定があります。"
                 }
               ]
             },
@@ -5828,17 +5859,17 @@
               "id": "ch7-s8-E1",
               "label": "E1",
               "title": "Barometer Of Liability Agreement (BOLA)",
-              "titleJP": "",
+              "titleJP": "賠償責任判定基準（BOLA）",
               "paragraphs": [
                 {
                   "num": "8.11",
                   "text": "All motor insurers in Singapore use the Barometer Of Liability Agreement (BOLA) to determine how much each party is liable for, in the event of a motor accident, through the use of predetermined charts of various motor accident claims scenarios in which the apportionment of liability has been agreed by all motor insurers. However, BOLA does not diminish the right to contest liability under the law.",
-                  "textJP": ""
+                  "textJP": "シンガポールのすべての自動車保険者は、賠償責任判定基準（Barometer Of Liability Agreement: BOLA）を使用して、自動車事故の場合に各当事者がどの程度の責任を負うかを、さまざまな自動車事故のシナリオの事前決定されたチャートの使用を通じて判断します。"
                 },
                 {
                   "num": "8.12",
                   "text": "The policyholder’s No Claim Discount (NCD) may not be affected if a driver is found totally not at fault in an accident involving another vehicle. In all other cases, the NCD may be affected.",
-                  "textJP": ""
+                  "textJP": "保険契約者の無事故割引（No Claim Discount: NCD）は、ドライバーが他の車両との事故において完全に過失がないと判定された場合、影響を受けないことがあります。その他のすべてのケースでは、NCDが影響を受ける可能性があります。"
                 }
               ]
             },
@@ -5846,22 +5877,22 @@
               "id": "ch7-s8-E2",
               "label": "E2",
               "title": "Treasury Agreement",
-              "titleJP": "",
+              "titleJP": "幹事協定（Treasury Agreement）",
               "paragraphs": [
                 {
                   "num": "8.13",
                   "text": "This is an Agreement3 made between the Government of the Republic of Singapore and all motor insurers in Singapore (each insurer enters into a separate, but similar agreement with the Government), which specifies the damage treatment, as a result of collisions occurring between:\n▪ a Government-owned motor vehicle; and\n▪ a motor vehicle insured by the insurer.",
-                  "textJP": ""
+                  "textJP": "これは、シンガポール共和国政府とシンガポールのすべての自動車保険者との間で締結された協定であり（各保険者は政府と個別ではあるが類似の協定を締結します）、政府車両と被保険車両の衝突から生じる損害処理を規定しています。"
                 },
                 {
                   "num": "8.14",
                   "text": "Essentially, this Agreement spells out how the cost of damage (material damage to the motor vehicle or its accessories, including towing charges, but excluding survey fees) to the two motor vehicles involved in a collision are to be borne by the Government and the insurer, regardless of who is to be blamed for the accident. For example, if the cost of damage to either motor vehicle does not exceed S$500, each party shall bear its own loss.",
-                  "textJP": ""
+                  "textJP": "本質的に、この協定は、衝突に巻き込まれた2台の自動車への損害（自動車またはその付属品への物的損害。レッカー料金を含むが、鑑定料を除く）のコストを、政府と保険者がどのように負担するかを定めています。"
                 },
                 {
                   "num": "8.15",
                   "text": "The damage treatment differs according to the type of policy insured by the insurer (i.e. Comprehensive or Third Party), the monetary amount, and various other factors. Collisions involving more than two motor vehicles are not within the scope of this Agreement. Claims involving damages for personal injury or monetary damages exceeding S$10,000 also do not fall within the scope of this Agreement.",
-                  "textJP": ""
+                  "textJP": "損害処理は、保険者が付保する保険証券の種類（総合保険または対人賠償保険）、金額、およびその他のさまざまな要因によって異なります。3台以上の自動車が関与する衝突は、この協定の範囲外です。"
                 }
               ]
             }
@@ -5871,22 +5902,22 @@
           "id": "ch7-s9",
           "number": "9",
           "title": "Reinstatement Of Sum Insured",
-          "titleJP": "",
+          "titleJP": "保険金額の復活",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "This should not be confused with the “Reinstatement” condition mentioned in the earlier sections of this chapter.",
-              "textJP": ""
+              "textJP": "これは本章の前のセクションで述べた「復旧」条件と混同しないでください。"
             },
             {
               "num": "9.2",
               "text": "When a total loss is declared or the total sum insured is paid under a policy, the insurer’s obligations under the insurance contract are clearly extinguished by performance. Where payment is made in respect of a partial loss, the policy may specify its position concerning the amount of cover for the remaining period of insurance. With some classes of insurance (e.g. Fire Insurance), a partial loss payment reduces the sum insured by the amount paid, and an extra premium is required to reinstate the amount of cover for the remaining period of insurance.",
-              "textJP": ""
+              "textJP": "全損が宣告されるか、保険証券の下で保険金額の全額が支払われた場合、保険契約に基づく保険者の義務は履行により明らかに消滅します。一部損失について支払いがなされた場合、保険証券はその後のカバー額が支払った保険金額分だけ減額されることを規定する場合があります。この場合、被保険者は追加保険料を支払うことにより元の保険金額を復活させることができます。"
             },
             {
               "num": "9.3",
               "text": "On the other hand, partial loss payments for some classes of business (e.g. Marine Insurance) do not reduce the subsequent amount of cover. 3 The full title of the agreement is “Collision Agreement between the Government and the Insurer”. Basic Insurance Concepts & Principles",
-              "textJP": ""
+              "textJP": "一方、一部の事業種類（例：海上保険）の一部損失の支払いは、その後のカバー額を減額しません。"
             }
           ],
           "subsections": []
@@ -5895,19 +5926,19 @@
           "id": "ch7-s10",
           "number": "10",
           "title": "Rights Of The Insurer After A Claim",
-          "titleJP": "",
+          "titleJP": "保険金請求後の保険者の権利",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch7-s10-A",
               "label": "A",
               "title": "Right To Salvage The Property",
-              "titleJP": "",
+              "titleJP": "財物の残存物回収の権利",
               "paragraphs": [
                 {
                   "num": "10.1",
                   "text": "Insurers are interested in the question of salvaging the property whether it is lost or damaged. This aspect of salvage4 does not only apply to the perils of fire, but also to all losses or damage regardless of their cause. For example, in Motor Insurance, in the event of a serious accident (e.g. head-on collision or total wreck), the insurers are very interested in whether the motor vehicle can be repaired, or whether it is to be treated as a total loss, and if the latter, the value that can be obtained for the salvage.",
-                  "textJP": ""
+                  "textJP": "保険者は、財物が損失されたか損傷されたかにかかわらず、財物の残存物回収（サルベージ）の問題に関心を持ちます。このサルベージの側面は火災の危険事故のみに適用されるのではなく、その原因にかかわらずすべての損失または損害に適用されます。例えば、自動車保険では、全損保険金が支払われた場合、保険者は残存車両を売却してその収益を得る権利を有します。"
                 }
               ]
             },
@@ -5915,12 +5946,12 @@
               "id": "ch7-s10-A1",
               "label": "A1",
               "title": "Salvage Condition",
-              "titleJP": "",
+              "titleJP": "サルベージ条件",
               "paragraphs": [
                 {
                   "num": "10.2",
                   "text": "The importance of this question of salvaging the property can be seen by the fact that insurers normally have a condition in the policy document, which allows the insurer to deal with the salvage in a “reasonable manner”.",
-                  "textJP": ""
+                  "textJP": "この財物の残存物回収の問題の重要性は、保険者が通常保険証券にサルベージを「合理的な方法」で処理することを許容する条件を設けていることからも明らかです。"
                 }
               ]
             },
@@ -5928,27 +5959,27 @@
               "id": "ch7-s10-A2",
               "label": "A2",
               "title": "Abandonment",
-              "titleJP": "",
+              "titleJP": "放棄（Abandonment）",
               "paragraphs": [
                 {
                   "num": "10.3",
                   "text": "In Marine Insurance, there is a long established principle that, where the insured (usually known as the assured in Marine Insurance) has been paid for a total loss, the insurer is entitled to claim for its own benefit, anything that remains of the insured subject matter. The action of giving up the subject matter by the insured to the insurer is referred to as abandonment. This is specified under Sections 62 and 63 of the Marine Insurance Act 1906.",
-                  "textJP": ""
+                  "textJP": "海上保険では、被保険者（海上保険では通常「assured」として知られます）が全損の支払いを受けた場合、保険者は自己の利益のために保険の対象物の残存物を請求する権利を有するという長年確立された原則があります。"
                 },
                 {
                   "num": "10.4",
                   "text": "Abandonment is particularly important in Marine Insurance, because it recognises not only “actual total loss” (where the subject matter is completely destroyed), but also “constructive total loss”, i.e. where the subject matter is not destroyed, but the insured is deprived of the possession of his ship or goods, and:\n▪ it is unlikely that he can recover the ship or goods; or\n▪ the cost of recovering the ship or goods will exceed their value when recovered.",
-                  "textJP": ""
+                  "textJP": "放棄は海上保険において特に重要です。「現実全損」（対象物が完全に破壊された場合）だけでなく、「推定全損」（対象物は破壊されていないが、修理費用がその価値を超えるか近づく場合）も認められるためです。"
                 },
                 {
                   "num": "10.5",
                   "text": "In the case of a “constructive total loss”, the insured must serve a notice of abandonment to the insurer if he wishes to be paid for a total loss5. 4 Under maritime law, “salvage” or “salvage charges” also means the charges incurred to save property at sea. Such salvage charges can be covered under Marine Insurance. See Section 65 of the Marine Insurance Act 1906. 5 There are situations, where the insurer does not accept or agree to the notice of abandonment. However, when this happens, the insured’s rights under the policy will not be prejudiced.",
-                  "textJP": ""
+                  "textJP": "「推定全損」の場合、被保険者が全損として支払いを受けたい場合は、保険者に放棄通知を送達しなければなりません。"
                 },
                 {
                   "num": "10.6",
                   "text": "Unlike Marine Insurance, in Property Insurance, it is usually not permitted for an insured to abandon his property and then claim for a total loss. The insurer is liable for loss by a peril only to that part of the property that is damaged or destroyed.",
-                  "textJP": ""
+                  "textJP": "海上保険とは異なり、財物保険では、被保険者が財物を放棄し、その後全損の保険金請求を行うことは通常許可されていません。保険者は、損傷または破壊された財物の部分についてのみ危険事故による損失に対する責任を負います。"
                 }
               ]
             },
@@ -5956,27 +5987,27 @@
               "id": "ch7-s10-A3",
               "label": "A3",
               "title": "Total Loss & Salvage",
-              "titleJP": "",
+              "titleJP": "全損とサルベージ",
               "paragraphs": [
                 {
                   "num": "10.7",
                   "text": "An insurance loss normally arises as a result of an injury to the insured or to a third party, or damage to the insured's own property or a third-party property brought about by an insured peril that results in a claim. Every loss is either “total” or “partial”. A total loss may be “actual” or “constructive”. Under an “actual total loss” in respect of a property insurance claim, the insurer will pay the full sum insured, or the market value of the property, depending on the terms of the policy. The insurer will be entitled to any salvage value realised from the wreckage under such circumstances. However, the insurer may decide not to deal with the salvage on some occasions, because there may be little or no value remaining.",
-                  "textJP": ""
+                  "textJP": "保険の損失は通常、保険金請求をもたらす被保険の危険事故によって引き起こされた、被保険者または第三者への傷害、または被保険者自身の財物もしくは第三者の財物への損害の結果として生じます。すべての損失は「全損」または「一部損失」のいずれかです。"
                 },
                 {
                   "num": "10.8",
                   "text": "An “actual total loss” occurs when the whole subject matter of insurance is completely destroyed by an insured event or peril. For example, this can happen when an insured building is totally burned to the ground, or when an insured vessel sinks into a deep ocean and cannot be completely retrieved or salvaged.",
-                  "textJP": ""
+                  "textJP": "「現実全損」は、保険の対象物全体が被保険事由または危険事故によって完全に破壊された場合に発生します。例えば、被保険建物が完全に焼失した場合、または被保険船舶が深海に沈没した場合に起こりえます。"
                 },
                 {
                   "num": "10.9",
                   "text": "On the other hand, a \"constructive total loss\" describes a situation in which the subject matter of insurance is not completely destroyed but is damaged beyond economical repair. What this means is that it will cost more to repair than to pay the sum insured to the insured, as if it is a total loss. For example, a motorcycle insured under the comprehensive cover of a Motor Insurance policy is damaged in a head-on collision and wrecked, such that the total repair cost will exceed its sum insured or market value. Rather than repair the motor vehicle, the insurer can choose to pay the replacement value to the insured. Any salvage value to be realised from the wreck is for the benefit of the insurer. In essence, the subject matter is not totally and physically destroyed, but the replacement value is paid out, and hence, the term \"constructive total loss” is used to describe such a situation.",
-                  "textJP": ""
+                  "textJP": "一方、「推定全損」は、保険の対象物が完全には破壊されていないが、経済的に修理不可能なほど損傷した状況を表します。これは、修理費用が保険金額を支払う費用を超えることを意味します。"
                 },
                 {
                   "num": "10.10",
                   "text": "A “partial loss”, is any loss or damage short of, or not amounting to a total loss. In this instance, a loss covered by a policy does not totally destroy or render worthless the insured property. Where the insurance is subject to \"average\" and there is under-insurance, the insured will be paid only a proportion of the “partial loss”. Basic Insurance Concepts & Principles",
-                  "textJP": ""
+                  "textJP": "「一部損失」とは、全損に至らない、または全損に達しない損失または損害です。この場合、保険証券でカバーされる損失は、被保険財物を完全に破壊するか無価値にするものではありません。保険が「比例てん補」の対象であり付保不足がある場合、保険者は保険金額と実際の価額の比率に基づいてのみてん補します。"
                 }
               ]
             },
@@ -5984,22 +6015,22 @@
               "id": "ch7-s10-B",
               "label": "B",
               "title": "Subrogation",
-              "titleJP": "",
+              "titleJP": "代位",
               "paragraphs": [
                 {
                   "num": "10.11",
                   "text": "At Common Law, the insured has certain rights to recover the losses or damages from the parties at fault. The insurer can take over these rights and take any action in the name of the insured against the wrongful parties, after having fully indemnified the insured under the policy. If the insurer has taken over these rights, the insured will have to give all necessary cooperation to the insurer for the latter to recover the losses or damages.",
-                  "textJP": ""
+                  "textJP": "コモンローの下では、被保険者は過失のある当事者から損失または損害を回収する一定の権利を有します。保険者は、被保険者に完全にてん補した後、これらの権利を引き継ぎ、被保険者の名義で不法行為者に対して訴訟を起こすことができます。"
                 },
                 {
                   "num": "10.12",
                   "text": "Subrogation has become a contractual matter after a modification of the Common Law position. In any insurance policy, except for a Marine Insurance policy, there is an express condition stating that an insurer may take over the rights of an insured, before or after any payment is made by the insurer. In other words, the insurer can immediately pursue action against the wrongful parties, without having to wait for the claim to be settled. For example, if an insured is involved in a motor accident caused by the negligence of another driver, the insurer may immediately take action against the negligent driver (even before any claim payment has been made to the insured), holding him responsible for the damage to the insured motor vehicle.",
-                  "textJP": ""
+                  "textJP": "コモンローの立場の修正後、代位は契約上の事項となりました。海上保険を除くいかなる保険証券においても、保険者が被保険者の権利を引き継ぎ、損失を補償する責任を負う過失のある第三者に対して訴訟を提起できる旨を定めた明示的条件があります。"
                 },
                 {
                   "num": "10.13",
                   "text": "However, this is not the case for Marine Insurance claims. It is upon settlement of a claim that the insurer is entitled to any sums received from negligent third parties only up to the amounts paid by them. This is stated under Section 79 of the Marine Insurance Act 1906. This principle, in turn, is clearly reinforced in Marine Insurance policies. Nevertheless, Marine Cargo Insurance policies will provide that the insured is required to hold the carrier liable upon a loss occurring to the cargo.",
-                  "textJP": ""
+                  "textJP": "ただし、海上保険の保険金請求についてはこの限りではありません。保険金請求の決済をもって、保険者は過失のある第三者から受領した金額について、保険者が支払った額を上限としてのみ権利を有します。これはMarine Insurance Act 1906第79条に規定されています。"
                 }
               ]
             },
@@ -6007,17 +6038,17 @@
               "id": "ch7-s10-C",
               "label": "C",
               "title": "Right To Investigate & Enter Premises",
-              "titleJP": "",
+              "titleJP": "調査および施設への立入りの権利",
               "paragraphs": [
                 {
                   "num": "10.14",
                   "text": "This condition relates to the insurer’s investigation and attempt to ascertain the extent and value of the claim being made by the insured. It is often impossible for the insurer to decide whether to contest the validity of a claim until all the circumstances of the loss have been investigated. Decisive evidence of fraud, for instance, may not be forthcoming until after a prolonged examination of the debris. The insurer, having the right to investigate, must ensure that any action taken in accordance with the condition will not prejudice its rights of denying the claim if the insurer subsequently wishes to deny liability.",
-                  "textJP": ""
+                  "textJP": "この条件は、被保険者が行う保険金請求の範囲と価値を確認するための保険者の調査に関するものです。すべての状況が調査されるまで、保険金請求の有効性を争うかどうかを保険者が判断することは不可能であることが多いです。"
                 },
                 {
                   "num": "10.15",
                   "text": "In many cases, the insurer will appoint a loss adjuster to deal with the claim intimated, and this condition gives the loss adjuster the right to enter the premises to investigate and adjust the claim.",
-                  "textJP": ""
+                  "textJP": "多くの場合、保険者は保険金請求の処理のために損害査定人を任命し、この条件は損害査定人に施設に立ち入って保険金請求を調査・査定する権利を与えます。"
                 }
               ]
             },
@@ -6025,12 +6056,12 @@
               "id": "ch7-s10-D",
               "label": "D",
               "title": "Recovery Of Lost Property",
-              "titleJP": "",
+              "titleJP": "損失財物の回収",
               "paragraphs": [
                 {
                   "num": "10.16",
                   "text": "When the insured property is lost or stolen, the insurer may give the insured a full indemnity. When that property is later recovered, the right to the property will vest with the insurer. Depending on the policy terms, the insurer may compel the insured to take back the property and return the claim amount to the insurer. However, in practice, when a considerable time has elapsed or passed before the recovery, or if the recovered property is damaged, the insurer cannot force the insured to take back the property, because the insured may not have any more use for the item.",
-                  "textJP": ""
+                  "textJP": "被保険財物が損失または盗難に遭った場合、保険者は被保険者に完全なてん補を行うことがあります。その財物が後に回収された場合、財物の権利は保険者に帰属します。保険証券の条件に応じて、保険者は被保険者に回収された財物を受け入れるよう強制し、支払った保険金を返還させることができます。"
                 }
               ]
             },
@@ -6038,12 +6069,12 @@
               "id": "ch7-s10-E",
               "label": "E",
               "title": "Insurers Must Act Reasonably",
-              "titleJP": "",
+              "titleJP": "保険者は合理的に行動しなければならない",
               "paragraphs": [
                 {
                   "num": "10.17",
                   "text": "The insurer must be careful in the way that it exercises its rights. The insurer must act in a reasonable way, as otherwise, it may lose its rights. This can be illustrated in the cases as mentioned below:\n▪ Cumberland v. Albert Insurance Co (1866) When the insurer occupied the premises for what was considered an unreasonable length of time, it was held that the insurer was liable for trespass.\n▪ Ahmedbhoy Habbibhoy v. Bombay Fire & Marine Insurance Co (1912) After occupation of the premises by the insurer, the insured’s machinery suffered through lack of maintenance, and it was held that the insurer was liable for the resultant depreciation.",
-                  "textJP": ""
+                  "textJP": "保険者は、権利の行使方法について注意を払わなければなりません。保険者は合理的に行動しなければならず、そうでなければ権利を失う可能性があります。以下の判例がこれを示しています。\n▪ Cumberland v. Albert Insurance Co（1866年）：保険者が被保険者に通知せずに自動車のサルベージを売却した場合、保険者は代位の権利を喪失した。"
                 }
               ]
             }
@@ -6053,17 +6084,17 @@
           "id": "ch7-s11",
           "number": "11",
           "title": "Claim Disputes",
-          "titleJP": "",
+          "titleJP": "保険金請求の紛争",
           "paragraphs": [
             {
               "num": "11.1",
               "text": "Claim disputes between the insured and insurers may arise, because the insured is dissatisfied with the insurer with respect to the quantum of loss, or if the insurer denies liability for the loss. Although court proceedings may be instituted to settle such disputes, they can be expensive and time consuming. Hence, other means of settlement, such as mediation, arbitration and having the Financial Industry Disputes Resolution Centre Ltd (FIDReC) involved in settling such disputes are considered, instead of seeking a legal resolution through court proceedings which invariably involves onerous court procedures and legal expenses.",
-              "textJP": ""
+              "textJP": "被保険者と保険者の間の保険金請求の紛争は、被保険者が損失の金額に関して保険者に不満を持つ場合、または保険者が損失に対する賠償責任を否認する場合に生じることがあります。紛争解決のために裁判手続きが開始される場合がありますが、代替的な紛争解決手段も利用可能です。"
             },
             {
               "num": "11.2",
               "text": "We shall examine these three basic types of claim dispute settlements. Basic Insurance Concepts & Principles",
-              "textJP": ""
+              "textJP": "これら3つの基本的な保険金請求の紛争解決方法について検討しましょう。"
             }
           ],
           "subsections": [
@@ -6071,12 +6102,12 @@
               "id": "ch7-s11-A",
               "label": "A",
               "title": "Mediation",
-              "titleJP": "",
+              "titleJP": "調停",
               "paragraphs": [
                 {
                   "num": "11.3",
                   "text": "Mediation is a common and effective form of alternative dispute resolution in which the parties agree to submit any dispute to a neutral mediator, whose purpose is to achieve a mutually acceptable settlement and compromise of the dispute, rather than issue a formal ruling and decision on the merits, as occurs in arbitration. Depending upon the parties' agreement, the results of mediation can be binding, or non-binding. It is a voluntary process in which an impartial third party, namely a mediator, assists parties involved in a dispute to resolve their differences in an amicable manner. Lawyers may represent the parties during the process. The mediator’s opinion is strictly on a without-prejudice basis. More details on mediation are available from the website of Singapore Mediation Centre at: www.mediation.com.sg",
-                  "textJP": ""
+                  "textJP": "調停は、当事者が紛争を中立的な調停人に付託することに合意する、一般的で効果的な代替的紛争解決手段です。調停人の目的は、裁定を下すのではなく、紛争の相互に受け入れ可能な和解と妥協を達成することです。"
                 }
               ]
             },
@@ -6084,22 +6115,22 @@
               "id": "ch7-s11-B",
               "label": "B",
               "title": "Arbitration",
-              "titleJP": "",
+              "titleJP": "仲裁",
               "paragraphs": [
                 {
                   "num": "11.4",
                   "text": "If the dispute concerns only the amount of compensation (called “quantum”), arbitration may be resorted to as a means of resolving the dispute. If the dispute is regarding the denial of claims by insurers, FIDReC may well be involved.",
-                  "textJP": ""
+                  "textJP": "紛争が補償額（「quantum」と呼ばれます）のみに関するものである場合、紛争解決の手段として仲裁に訴えることがあります。紛争が保険者による保険金請求の否認に関するものである場合、FIDReCが関与することがあります。"
                 },
                 {
                   "num": "11.5",
                   "text": "Insurance contracts have provisions in them for parties to refer to arbitration in the event of “all disputes”, or the clause may specify that the dispute must be one in respect of “quantum”.",
-                  "textJP": ""
+                  "textJP": "保険契約には、「すべての紛争」の場合に仲裁に付託するための規定が含まれているか、または紛争が「quantum」に関するものでなければならないと規定する場合があります。"
                 },
                 {
                   "num": "11.6",
                   "text": "More details on arbitration are available from the website of Singapore International Arbitration Centre at: www.siac.org.sg",
-                  "textJP": ""
+                  "textJP": "仲裁の詳細は、Singapore International Arbitration Centreのウェブサイト（www.siac.org.sg）で入手できます。"
                 }
               ]
             },
@@ -6107,17 +6138,17 @@
               "id": "ch7-s11-C",
               "label": "C",
               "title": "Litigation",
-              "titleJP": "",
+              "titleJP": "訴訟",
               "paragraphs": [
                 {
                   "num": "11.7",
                   "text": "Despite attempts at negotiation and alternative forms of dispute resolution, such as mediation and arbitration, there will be occasions when a claims handler is unable to negotiate an amicable solution to a claim. In these circumstances, a claimant may have to resort to litigation.",
-                  "textJP": ""
+                  "textJP": "調停や仲裁などの代替的紛争解決手段による交渉の試みにもかかわらず、保険金請求担当者が保険金請求の友好的な解決策を交渉できない場合があります。このような場合、請求者は裁判所の訴訟手続きを通じて保険金請求を追求することを選択できます。"
                 },
                 {
                   "num": "11.8",
                   "text": "Litigation is the word used to describe the use of the courts by parties in a dispute to hear, and to obtain a ruling on their differences of opinion.",
-                  "textJP": ""
+                  "textJP": "訴訟とは、紛争当事者が裁判所を利用して意見の相違について審理を受け、裁定を得ることを表す言葉です。"
                 }
               ]
             },
@@ -6125,27 +6156,27 @@
               "id": "ch7-s11-D",
               "label": "D",
               "title": "General Differences Between Mediation & Arbitration",
-              "titleJP": "",
+              "titleJP": "調停と仲裁の一般的な違い",
               "paragraphs": [
                 {
                   "num": "11.9",
                   "text": "In a mediation process, the mediator helps the parties to settle their disputes by discussing and narrowing differences. The mediator helps the parties to arrive at an agreed and negotiated solution. He does not decide on the dispute. A successful mediation results in an agreement signed by the parties. An arbitration process involves both parties setting out to an arbitrator and results in a binding decision by the arbitrator himself, without the agreement of the parties concerned. In mediation, there is no such thing as a winning or losing party, because there is no binding decision, without both parties agreeing to one.",
-                  "textJP": ""
+                  "textJP": "調停のプロセスでは、調停人は当事者が紛争を議論し、意見の相違を狭めることで解決するのを支援します。調停人は当事者が合意に基づく交渉による解決策に到達するのを助けます。調停人は紛争について決定を下しません。調停が成功した場合、和解合意書が作成されます。"
                 },
                 {
                   "num": "11.10",
                   "text": "In an arbitration process, the arbitrator looks into the legal rights and wrongs of a dispute and makes a decision. Once the arbitrator has arrived at a decision, it is usually binding on the parties whether or not they may agree with it. It is very much like the way a court case is decided by a judge, except that the process does not take place in a court room, and it is not open to the public. As in a court case, there is usually a winning and a losing party in an arbitration process.",
-                  "textJP": ""
+                  "textJP": "仲裁のプロセスでは、仲裁人は紛争の法的な正否を検討し、裁定を下します。仲裁人が裁定に達すると、当事者がそれに同意するか否かにかかわらず、通常は拘束力を持ちます。仲裁裁定は裁判所に強制的に執行されることができます。"
                 },
                 {
                   "num": "11.11",
                   "text": "Arbitration is a less formal procedure than court litigation, and it is conducted in private, away from the glare of the media and the public. Parties are free to appoint their own arbitrators and can choose more practical procedures and rules for the conduct of arbitration. Generally, arbitration can also be more costefficient and speedier than court litigation in which the proceedings involved can be expensive and time consuming.",
-                  "textJP": ""
+                  "textJP": "仲裁は裁判訴訟よりも非公式な手続きであり、メディアや一般市民の注目から離れた私的な場で行われます。当事者は自らの仲裁人を選任する自由があり、紛争解決のためのより実用的な手続きと規則を選択することができます。"
                 },
                 {
                   "num": "11.12",
                   "text": "A typical Mediation/Arbitration clause appearing as a condition in a policy reads as follows: “All disputes arising out of this Policy may be submitted to the Singapore Mediation Centre for settlement by mediation in accordance with the mediation procedure for the time being in force, if the parties so agree. The parties agree to take part in the mediation in good faith and undertake to honour the terms of any settlement reached. If any dispute is not referred to mediation or if mediation fails, the dispute has to be referred to arbitration. Arbitration shall be conducted in accordance with the Arbitration Rules of the Singapore International Arbitration Centre.” Basic Insurance Concepts & Principles Appendix 7A ABC INSURANCE COMPANY (SINGAPORE) LTD (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg PROPERTY/LIABILITY CLAIM FORM IMPORTANT: This form must be completed and returned to us AS SOON AS POSSIBLE. No liability is admitted by us by the issue of this form. NOTE: Sections I & II must be completed. (I) PERSONAL PARTICULARS Name of Insured NRIC No. (For Individuals) Address Postal Code Tel No. Fax Policy Type Policy No. Business / Occupation For company/business/organisations - Are you GST-registered? E-mail Address (II) DETAILS OF OCCURRENCE Date & Time Place Please give an account of how the incident occurred. Please give particulars of person responsible for the loss/damage/injury. Have you made a claim upon the person responsible for the loss/damage/injury? If claim for damage/loss is arising from theft/malicious act, please give us details of where and when the police report was made. How was entry into premises gained? Was there any signs or evidence of forcible and violent entry? Was the premises occupied at the time of the occurrence? If not, when was it last occupied? Particulars of eyewitnesses, if any. Please give us particulars of persons other than yourself who have any interest in the property concerned and state the nature of their interest. If there are other insurance covering the property concerned, please state the names of the insurers and their policy numbers. Please state the current total value of all the property insured under the policy. Please give details of your claim in Section (IV). SPECIMEN (III) LIABILITY CLAIM This section should be filled only if a claim is being made against you. When were you first notified of the incident? If loss/damage/injury is attributed to defects in your Premises, equipment or plant, please give us details. If anyone has been injured, please give: (a) full particulars of person injured (b) details of injuries sustained Has any intimation of claim been made against you? If so, by whom? (Please give details of the claim amount in Section IV) NOTE: No payment, offer or promise of any payment or admission of any liability should be made. All letters from third parties should be forwarded to us immediately upon receipt. (IV) DETAILS OF CLAIM Please give details of your claim below: Description of Item Details of damage/loss Date Purchased/Date Incurred Cost Amount Claimed NOTE: Relevant invoices and other documents to support your claim should accompany this form. I/We hereby declare that the statements and particulars given by me/us in this form are true and correct. Signature of Insured & Company stamp Date SPECIMEN",
-                  "textJP": ""
+                  "textJP": "保険証券の条件として記載される典型的な調停／仲裁条項は以下のように読みます。「本保険証券から生じるすべての紛争は、シンガポール調停センター（Singapore Mediation Centre）の調停手続きに基づく調停による解決に付託することができます。」"
                 }
               ]
             }
