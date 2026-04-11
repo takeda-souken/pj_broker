@@ -6179,7 +6179,7 @@
       "id": "ch6",
       "number": 6,
       "title": "CONSTRUCTION, MACHINERY AND BOND INSURANCE",
-      "titleJP": "",
+      "titleJP": "建設工事保険、機械保険およびボンド",
       "outline": [
         "Introduction",
         "Contractors’ All Risks (CAR) Insurance",
@@ -6244,12 +6244,12 @@
           "id": "ch6-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "In this chapter, we will look at the four types of Construction and Engineering Insurance policies, namely Contractors’ All Risks (CAR), Erection All Risks (EAR), Boiler & Pressure Vessel and Machinery Breakdown including its associated Consequential Loss cover. We will also discuss the insurance of Lifts, Cranes and Handling Equipment as well as Deterioration of Stocks Insurance. In the final part of this chapter, we shall examine Insurance Bonds which is an example of a Pecuniary Insurance. 2. CONTRACTORS’ ALL RISKS (CAR) INSURANCE",
-              "textJP": ""
+              "textJP": "本章では、建設工事保険（CAR）、組立保険（EAR）、ボイラー・圧力容器保険、機械故障保険の4種類の建設・エンジニアリング保険証券、ならびに保険ボンドについて学びます。"
             }
           ],
           "subsections": [
@@ -6262,12 +6262,12 @@
                 {
                   "num": "2.1",
                   "text": "A Contractors’ All Risks (CAR) Insurance policy provides financial security for all parties involved in a construction project during the course of construction. It is a comprehensive policy that covers any sudden and unforeseen physical loss or damage relating to the construction project, subject to a number of exclusions.",
-                  "textJP": ""
+                  "textJP": "建設工事保険（CAR）は、建設プロジェクトの施工中に関与するすべての当事者に対して財務的安全を提供する保険証券です。施工中の建設物やインフラに対するあらゆるリスクの損害を補償する総合保険証券です。"
                 },
                 {
                   "num": "2.2",
                   "text": "Common causes of losses to be indemnified under a CAR Insurance policy include:\n▪ fire, lightning, explosion, aircraft crashing, water from fire extinguishers or other fire-fighting measures;\n▪ flood, inundation, windstorm of any kind;\n▪ theft, burglary; and\n▪ resultant loss or damage owing to bad workmanship, lack of skill, negligence, malicious act, or human error1.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券に基づきてん補されるべき損害の一般的な原因には以下が含まれます：\n▪ 火災、落雷、爆発、航空機の墜落、消火器その他の消火措置からの水\n▪ 洪水、暴風雨、暴風\n▪ 地盤沈下\n▪ 盗難\n▪ 設計、材料または施工上の欠陥"
                 }
               ]
             },
@@ -6280,22 +6280,22 @@
                 {
                   "num": "2.3",
                   "text": "A CAR Insurance contract involves three parties, namely the contractor, the principal and the insurer.",
-                  "textJP": ""
+                  "textJP": "CAR保険契約は三者、すなわち請負業者、発注者、保険者が関与します。"
                 },
                 {
                   "num": "2.4",
                   "text": "The principal is the party who commissions the work, usually by way of a tender. He is usually the owner of the land and/or buildings when completed. Therefore, he is sometimes referred to as the property owner. 1 Direct losses from bad workmanship, lack of skill, negligence, malicious act, or human error are usually not covered under a CAR Insurance policy. However, if bad workmanship, lack of skill, negligence, malicious act, or human error, has resulted in, say, a defective wall, falling and damaging another wall which has been correctly constructed, a CAR Insurance policy will pay for the damage to the latter wall.",
-                  "textJP": ""
+                  "textJP": "発注者とは、通常入札により工事を委託する当事者です。通常、完成時の土地および／または建物の所有者であるため、「施主」と呼ばれることもあります。"
                 },
                 {
                   "num": "2.5",
                   "text": "The contractor is under contract to the principal for the purpose of carrying out the contract works. The contractor will usually employ specialist subcontractors who may or may not have a direct contractual relationship with the principal. Examples of contractors or sub-contractors are builders, roofing subcontractors, lift contractors, etc.",
-                  "textJP": ""
+                  "textJP": "請負業者は、契約工事を遂行するために発注者と契約を締結しています。請負業者は通常、発注者と直接契約がある場合もない場合もある専門下請業者を雇用します。"
                 },
                 {
                   "num": "2.6",
                   "text": "There is a contract between the principal and the contractor for the contract works undertaken. The standard contract conditions will usually require the contractor to arrange for a CAR Insurance policy with an insurer to cover the contract works during the period of construction and maintenance period, so that the interests of the principal, the contractor himself and all sub-contractors are protected. The Principal will also require himself to be added as an insured in the CAR policy to take care of his interests which arises from his potential vicarious liability for the actions of the contractor.",
-                  "textJP": ""
+                  "textJP": "発注者と請負業者の間には、請け負う契約工事に関する契約があります。標準契約条件は通常、請負業者に対してCAR保険証券を手配し、プロジェクトに関与する発注者およびすべての下請業者の利益を補償することを求めます。"
                 }
               ]
             },
@@ -6308,17 +6308,17 @@
                 {
                   "num": "2.7",
                   "text": "Although a CAR Insurance policy is not compulsory by law, it will be prudent to insure all contract works, major or minor, whether it is a civil engineering project, simple retro-fitting work, or a complex property development project.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券は法律で義務付けられていませんが、土木工事プロジェクト、単純な改修工事、または複合的な建設プロジェクトを問わず、すべての契約工事（大小を問わず）に保険を付保することが賢明です。"
                 },
                 {
                   "num": "2.8",
                   "text": "Under the contract, both the principal and contractor shall have responsibilities and obligations towards each other. Generally, the contractor shall be responsible for:\n▪ the care of the works; and\n▪ duty of care to ensure the safety of people or property at the contract site.",
-                  "textJP": ""
+                  "textJP": "契約の下で、発注者と請負業者の両者は互いに責任と義務を負います。一般に、請負業者は以下について責任を負います：\n▪ 工事の管理\n▪ 第三者に対する法的責任"
                 },
                 {
                   "num": "2.9",
                   "text": "In connection with these, it would be prudent on part of the contractor to seek CAR Insurance to insure against potential risk exposures. As far as possible, the CAR Insurance policy should be arranged such that it complements the contract conditions between the principal and the contractor.",
-                  "textJP": ""
+                  "textJP": "これに関連して、請負業者がCAR保険に加入し、潜在的なリスクエクスポージャーに対して付保することは賢明です。"
                 }
               ]
             },
@@ -6326,12 +6326,12 @@
               "id": "ch6-s1-D",
               "label": "D",
               "title": "Types Of Property Insured",
-              "titleJP": "",
+              "titleJP": "付保する財物の種類",
               "paragraphs": [
                 {
                   "num": "2.10",
                   "text": "The nature and types of property construction projects can vary greatly. The subject matter of a CAR Insurance policy can be for projects as follows:\n▪ construction of residential properties, such as houses and apartments;\n▪ construction of industrial and commercial properties, such as factories, warehouses, offices and shopping complexes; and\n▪ construction of infrastructure works, such as roads, bridges, tunnels, MRT tracks, reservoirs, etc.",
-                  "textJP": ""
+                  "textJP": "建設プロジェクトの性質と種類は大きく異なります。CAR保険証券の保険の目的物は以下のようなプロジェクトに対するものです：\n▪ HDB住宅、コンドミニアム等の住宅の建設\n▪ 商業施設の建設\n▪ 道路、橋梁、トンネル等の土木工事"
                 }
               ]
             },
@@ -6339,12 +6339,12 @@
               "id": "ch6-s1-E",
               "label": "E",
               "title": "Types Of CAR Insurance Policies",
-              "titleJP": "",
+              "titleJP": "CAR保険証券の種類",
               "paragraphs": [
                 {
                   "num": "2.11",
                   "text": "There are generally two types of policies in use today, namely a specific project policy and an annual policy as described below:",
-                  "textJP": ""
+                  "textJP": "今日一般に使用されている保険証券には、個別プロジェクト保険証券と年間保険証券の二つの種類があります。"
                 }
               ]
             },
@@ -6352,17 +6352,17 @@
               "id": "ch6-s1-E1",
               "label": "E1",
               "title": "Specific Project Policy",
-              "titleJP": "",
+              "titleJP": "個別プロジェクト保険証券",
               "paragraphs": [
                 {
                   "num": "2.12",
                   "text": "A CAR Insurance policy is usually taken up on a specific project basis. The contract of a specific project usually requires the contractor to arrange for a CAR Insurance policy to cover the contract works during the construction period and the maintenance period.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券は通常、個別プロジェクトベースで取得されます。個別プロジェクトの契約は通常、請負業者に対して契約工事を補償するCAR保険証券の手配を求めます。"
                 },
                 {
                   "num": "2.13",
                   "text": "Contractors can arrange for the CAR Insurance policy to cover their own part of the project or the whole of the project, including all works performed by subcontractors, if they are the main contractor or project manager.",
-                  "textJP": ""
+                  "textJP": "請負業者は、自社のプロジェクト部分のみ、またはプロジェクト全体（元請業者の場合、すべての下請業者の工事を含む）をカバーするCAR保険証券を手配できます。"
                 }
               ]
             },
@@ -6370,17 +6370,17 @@
               "id": "ch6-s1-E2",
               "label": "E2",
               "title": "Annual Policy",
-              "titleJP": "",
+              "titleJP": "年間保険証券",
               "paragraphs": [
                 {
                   "num": "2.14",
                   "text": "Although less common in practice, the contractor may seek to insure his various project works under an annual policy, rather than have each insured under a specific project basis.",
-                  "textJP": ""
+                  "textJP": "実務上は一般的ではありませんが、請負業者は各プロジェクトを個別に付保するのではなく、さまざまなプロジェクト工事を年間保険証券でまとめて付保することもできます。"
                 },
                 {
                   "num": "2.15",
                   "text": "Essentially, an annual policy is designed to cover all works undertaken during a 12-month period. Some insureds may find it potentially more convenient and cost effective to insure on an annual policy basis. This is especially if the characteristic, nature and scope of the various project works are generally the same, each of generally short project duration, singularly low in contract value and performed at same contract sites, or by the same contractors/subcontractors.",
-                  "textJP": ""
+                  "textJP": "基本的に、年間保険証券は12か月の期間中に行われるすべての工事をカバーするよう設計されています。一部の被保険者は年間保険証券で付保することがより便利で費用対効果が高いと感じるかもしれません。"
                 }
               ]
             },
@@ -6388,12 +6388,12 @@
               "id": "ch6-s1-F",
               "label": "F",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "2.16",
                   "text": "CAR Insurance policies are usually written with two sections as described below:\n▪ Section I: Deals with the material damage aspect. This section provides “All Risks” cover on buildings or infrastructure works in the course of construction; and\n▪ Section II: Covers third-party liability arising from the construction project (including property damage, death and bodily injury to persons, i.e. third parties).",
-                  "textJP": ""
+                  "textJP": "CAR保険証券は通常、以下の二つのセクションで構成されます：\n▪ セクションI：物的損害を扱います。建設中の建物やインフラに対する「オールリスク」補償を提供します。\n▪ セクションII：第三者賠償責任を扱います。"
                 }
               ]
             },
@@ -6401,22 +6401,22 @@
               "id": "ch6-s1-F1",
               "label": "F1",
               "title": "Section I – Material Damage",
-              "titleJP": "",
+              "titleJP": "セクションI：物的損害",
               "paragraphs": [
                 {
                   "num": "2.17",
                   "text": "The property insured is set out in the schedule of the policy, and any form of sudden and unforeseen physical loss or damage to the property is covered, subject to a number of exclusions (see later section).",
-                  "textJP": ""
+                  "textJP": "被保険財物は保険証券の明細書に記載され、免責事由を除き、財物に対するあらゆる形態の突発的かつ不測の物的滅失・損害が補償されます。"
                 },
                 {
                   "num": "2.18",
                   "text": "The indemnity may be the repair, reinstatement, or replacement of any property lost or damaged, or a monetary payment equivalent to the cost of repair, reinstatement or replacement. In practice, a monetary payment is the most common mode.",
-                  "textJP": ""
+                  "textJP": "てん補は、滅失・損傷した財物の修理、復旧、交換、または修理・復旧・交換費用に相当する金銭の支払いです。実務上は通常、金銭での精算が行われます。"
                 },
                 {
                   "num": "2.19",
                   "text": "Subject to any individual insurer’s policy wording, the policy may extend to cover the following items:\n▪ contractors’ equipment materials and mobile equipment at site;\n▪ temporary works;\n▪ existing structure or property;\n▪ materials stored at site;\n▪ fabrication at a different site; and\n▪ clearance of debris2.",
-                  "textJP": ""
+                  "textJP": "個別の保険者の保険証券文言に従い、保険証券は以下の項目の補償にも拡張できます：\n▪ 現場の請負業者の機器・材料・移動式機器\n▪ 仮設工事\n▪ 既存構造物（発注者の財物）\n▪ 残骸撤去費用"
                 }
               ]
             },
@@ -6424,17 +6424,17 @@
               "id": "ch6-s1-F2",
               "label": "F2",
               "title": "Exclusions to Section I – Material Damage",
-              "titleJP": "",
+              "titleJP": "セクションI免責事由",
               "paragraphs": [
                 {
                   "num": "2.20",
                   "text": "The following are exclusions applicable to most construction projects. However, they can be covered in the policy by payment of additional premiums:\n▪ deductible to be borne by the insured in any one occurrence;\n▪ consequential loss of any kind or description whatsoever, including any penalty, loss owing to delay, lack of performance, loss of contract;\n▪ loss or damage owing to faulty design; and\n▪ cost of replacement, repair or rectification of defective material and/or workmanship. 2 Clearance of debris includes costs and expenses necessarily and reasonably incurred by the insured in removing debris, shoring up or propping, dismantling and/or demolishing, and clearance or repairing of drains and services, following loss or damage to the property insured by any cause not excluded by the policy.",
-                  "textJP": ""
+                  "textJP": "以下は、ほとんどの建設プロジェクトに適用される免責事由です。ただし、追加保険料の支払いにより保険証券に含めることができます：\n▪ 1事故あたり被保険者が負担する免責金額\n▪ 地震\n▪ ストライキ、暴動、内乱\n▪ 洪水"
                 },
                 {
                   "num": "2.21",
                   "text": "The other exclusions relating to Section I – Material Damage, which cannot be removed even with payment of additional premiums, are:\n▪ wear and tear, corrosion, oxidation, deterioration owing to lack of use and normal atmospheric conditions;\n▪ mechanical and/or electrical breakdown or derangement of construction plant, equipment and construction machinery;\n▪ loss or damage to vehicles licensed for general road use or water borne vessels or aircraft (as these are usually covered under other classes of insurance);\n▪ loss of or damage to files, drawings, accounts, bills, currency, stamps, deeds, evidences of debt, notes, securities, cheques; and\n▪ loss or damage discovered only at the time of tracking an inventory.",
-                  "textJP": ""
+                  "textJP": "セクションI（物的損害）に関するその他の免責事由で、追加保険料の支払いによっても除外を解除できないものは以下のとおりです：\n▪ 保管不良による摩耗・損耗、腐食、酸化、劣化\n▪ 設計上の欠陥（当該欠陥部分自体のみ。結果として他の被保険財物に生じた損害は除外されない）\n▪ 故意の行為または過失\n▪ 棚卸中に発見された原因不明の消失"
                 }
               ]
             },
@@ -6442,17 +6442,17 @@
               "id": "ch6-s1-F3",
               "label": "F3",
               "title": "Section II – Third-Party Liability",
-              "titleJP": "",
+              "titleJP": "セクションII：第三者賠償責任",
               "paragraphs": [
                 {
                   "num": "2.22",
                   "text": "This section will indemnify the insured against any damages which he is legally liable to pay in consequence of:\n▪ accidental bodily injury to or illness of third parties; and\n▪ accidental loss of or damage to property belonging to third parties; occurring in direct connection with the construction or erection of the items insured under Section I of the CAR Insurance policy.",
-                  "textJP": ""
+                  "textJP": "このセクションは、以下の結果として被保険者が法的に支払う義務を負う損害賠償についてて被保険者をてん補します：\n▪ 第三者の偶発的な身体傷害または疾病\n▪ 第三者の財物の偶発的な滅失・損害"
                 },
                 {
                   "num": "2.23",
                   "text": "This section also covers all costs and expenses of litigation recovered by any claimant from the insured or incurred by the insured himself, with the consent of the insurer.",
-                  "textJP": ""
+                  "textJP": "このセクションは、請求者が被保険者から回収した、または被保険者自身が保険者の同意を得て負担した訴訟のすべての費用も補償します。"
                 }
               ]
             },
@@ -6460,17 +6460,17 @@
               "id": "ch6-s1-F4",
               "label": "F4",
               "title": "Exclusions To Section II – Third-Party Liability",
-              "titleJP": "",
+              "titleJP": "セクションII免責事由",
               "paragraphs": [
                 {
                   "num": "2.24",
                   "text": "The exclusions applicable to Section II – Third-Party Liability are as follows:\n▪ deductible to be borne by the insured in any one occurrence;\n▪ expenditure incurred in redoing or repairing or replacing anything covered or coverable under Section I of the CAR Insurance policy;\n▪ injury to any person or damage to any property caused by vibration, removal or weakening of support (unless especially agreed upon by endorsement);\n▪ liability consequent upon bodily injury to or illness of employees or workmen of the contractor(s) or the principal(s), or any other firm connected with the project;\n▪ liability consequent upon loss of or damage to property belonging to or held in care, custody or control of the contractor(s), the principal(s) or any other firm connected with the project;\n▪ any accident caused by vehicles licensed for general road use or by waterborne vessels or aircraft; and\n▪ any agreement by the insured to pay any sum by way of indemnity or otherwise, unless such liability would have attached in the absence of such agreement.",
-                  "textJP": ""
+                  "textJP": "セクションII（第三者賠償責任）に適用される免責事由は以下のとおりです：\n▪ 1事故あたり被保険者が負担する免責金額\n▪ セクションIに基づく被保険財物の損害の是正に要した費用\n▪ 従業員への賠償責任\n▪ 契約により引き受けた責任"
                 },
                 {
                   "num": "2.25",
                   "text": "Some of the above-mentioned exclusions are negotiable. This will be subject to payment of additional premiums, coupled with the insured bearing a higher deductible amounts.",
-                  "textJP": ""
+                  "textJP": "上記の免責事由の一部は交渉可能です。追加保険料の支払い、および被保険者がより高い免責金額を負担することが条件となります。"
                 }
               ]
             },
@@ -6478,22 +6478,22 @@
               "id": "ch6-s1-G",
               "label": "G",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "2.26",
                   "text": "The period of cover is specified in the schedule of the policy, beginning with the date of commencement of the contract works and expiring on the estimated date of completion of the construction period. The period may be shorter or longer than 12 months for a CAR Insurance policy taken up based on a specific project, and 12 months for an annual policy.",
-                  "textJP": ""
+                  "textJP": "補償期間は保険証券の明細書に規定され、契約工事の開始日に始まり、建設期間の見積完了日に満了します。"
                 },
                 {
                   "num": "2.27",
                   "text": "In addition to the construction period, there is often a maintenance period as stipulated in the contract. Often, the maintenance period is for three, six or 12 months commencing from the expiry of the construction period. The contract conditions usually stipulate that the contractor must pay periodic visits to inspect or make adjustments, or to remedy defects which may arise during the maintenance period. As such, insurance coverage during the maintenance period is available with payment of extra premiums.",
-                  "textJP": ""
+                  "textJP": "建設期間に加え、契約に規定された保全期間がしばしばあります。保全期間は通常、建設期間の満了から3か月、6か月、または12か月です。"
                 },
                 {
                   "num": "2.28",
                   "text": "The liability of the insurer commences according to the effective date of the insurance policy and ends when the contract work has been handed over to the principal, or when the insurance cover expires, whichever is earlier.",
-                  "textJP": ""
+                  "textJP": "保険者の責任は保険証券の発効日に従い開始し、契約工事が発注者に引き渡された時、または保険が満了した時のいずれか早い方で終了します。"
                 }
               ]
             },
@@ -6501,17 +6501,17 @@
               "id": "ch6-s1-H",
               "label": "H",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "2.29",
                   "text": "For CAR Insurance policies, it is not the industry practice to use standardised proposal forms as the primary means of obtaining information to assess a risk. Some insurers may have proposal forms for their agents’ usage while some brokers may have their own questionnaires, submission slips etc.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券については、リスク評価のための主要な情報取得手段として標準化された提案書を使用することは業界慣行ではありません。一部の保険者は小規模プロジェクト向けの提案書を持っている場合があります。"
                 },
                 {
                   "num": "2.30",
                   "text": "The customarily required underwriting information is described below:",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報を以下に説明します。"
                 }
               ]
             },
@@ -6524,7 +6524,7 @@
                 {
                   "num": "",
                   "text": "(a) Who is to be insured? All parties involved in the project, i.e. the principal, contractors, sub-contractors, or only one or some of these parties. (b) How long has the insured’s business been established? Brief description of contracts undertaken in the last three years. (c) The previous claims experience of all the parties to the contract, including any liability to third parties.",
-                  "textJP": ""
+                  "textJP": "被保険者\n(a) 誰を被保険者とするか？プロジェクトに関与するすべての当事者（発注者、請負業者、下請業者）か、これらの一部か。(b) 被保険者の事業歴。(c) 類似プロジェクトの経験。"
                 }
               ]
             },
@@ -6537,7 +6537,7 @@
                 {
                   "num": "",
                   "text": "(a) Estimated value of the whole project, including details of any work or materials for which the contractor will be responsible. (b) Sum insured for debris removal. (c) Contract conditions (between the principal and the contractor) under which the work is undertaken and responsibilities of the parties involved are clarified. (d) Estimated period of construction and maintenance period. (e) The amount of indemnity required for any one accident in respect of thirdparty liability.",
-                  "textJP": ""
+                  "textJP": "基本契約の詳細と価額\n(a) 契約工事の総見積価額（請負業者が責任を負う工事・資材の詳細を含む）。(b) 残骸撤去費用の保険金額。(c) 契約条件。"
                 }
               ]
             },
@@ -6550,12 +6550,12 @@
                 {
                   "num": "",
                   "text": "(a) The exact location of the construction site, whether it is located near the sea or a congested area, or whether it is a new MRT line. (b) Full description of the work to be done together with supporting documentary plans, sketches, and so forth. (c) Detailed description of the method of carrying out the work. (d) Any demolition work to be performed. (e) Any piling work to be involved. If piling is involved, information on the piling work, e.g. type, number of piles and penetration depth, are essential information to the insurer. (f) Any blasting to be performed. If so, state the total amount of explosives to be used and the details of the safety precautions to be taken. (g) Any partial handover. The insurer needs to know details of responsibilities for handover work together with values, anticipated handover dates, and so forth. (h) Soil Profile/Summary Report. (i) Proximity of surrounding properties. (j) If a basement is to be constructed, the depth of excavation and the methods used are important considerations. The underwriter will have to consider whether there is a likelihood of damage to the contract work by floods. (k) A plan of the site showing the proposed location of temporary buildings and other storage areas for materials and equipment, together with values and exposure to hazards.",
-                  "textJP": ""
+                  "textJP": "工事と現場\n(a) 建設現場の正確な所在地（海沿いか、密集地区か、新規MRT路線かなど）。(b) 工事の完全な記述（図面を添付）。"
                 },
                 {
                   "num": "2.31",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -6563,12 +6563,12 @@
               "id": "ch6-s1-I",
               "label": "I",
               "title": "Other Types Of Cover Related To Contract Works",
-              "titleJP": "",
+              "titleJP": "建設工事に関連するその他の補償",
               "paragraphs": [
                 {
                   "num": "2.32",
                   "text": "Besides effecting a CAR Insurance policy, there may be other types of related insurance protection which the insured needs to consider, such as:\n▪ Project Professional Indemnity (PI) Cover;\n▪ Work Injury Compensation Cover;\n▪ Construction Business Interruption Cover; and\n▪ Performance Bond.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券の締結に加え、被保険者が検討すべきその他の関連保険保護があります：\n▪ プロジェクト専門職業賠償責任補償\n▪ 労災補償保険\n▪ 建設工事企業費用利益補償"
                 }
               ]
             },
@@ -6576,17 +6576,17 @@
               "id": "ch6-s1-I1",
               "label": "I1",
               "title": "Project Professional Indemnity (PI) Cover",
-              "titleJP": "",
+              "titleJP": "プロジェクト専門職業賠償責任補償",
               "paragraphs": [
                 {
                   "num": "2.33",
                   "text": "Currently, there is a trend in the construction industry to design and build, i.e. a contractor may undertake to carry out all stages of the project from the design onwards, and not just the actual building work. The contractor must recognise that some of the liabilities previously attributable to other firms will now be internal. The principal also has more reasons to claim against the contractor. Previously, where the principal may have claimed against the architect, the surveyor, or engineer, the contractor is now also responsible.",
-                  "textJP": ""
+                  "textJP": "現在、建設業界では設計施工一貫方式のトレンドがあります。すなわち、請負業者が設計段階から実際の建設まで、プロジェクトのすべての段階を引き受けることがあります。"
                 },
                 {
                   "num": "2.34",
                   "text": "The professional risk relating to the design stage is of particular importance. Therefore, the contractor will need to take out Professional Indemnity (PI) Insurance3 to cover these risks. As this kind of PI Insurance is taken out to cover professionals involved in a project, it is commonly called “Project PI Insurance”. Its insurance is the same coverage as that of a standard PI policy, except that it has higher limits and a longer duration of coverage than a standard PI policy. 3 Further discussions on Professional Indemnity Insurance are found in Chapter 3 of this Study Guide.",
-                  "textJP": ""
+                  "textJP": "設計段階に関する専門的リスクは特に重要です。したがって、請負業者はこれらのリスクをカバーするために専門職業賠償責任保険に加入する必要があります。"
                 }
               ]
             },
@@ -6594,12 +6594,12 @@
               "id": "ch6-s1-I2",
               "label": "I2",
               "title": "Work Injury Compensation Cover",
-              "titleJP": "",
+              "titleJP": "労災補償保険",
               "paragraphs": [
                 {
                   "num": "2.35",
                   "text": "As discussed in Chapter 3 of this Study Guide, prior to 1 September 2020, Work Injury Compensation insurance (WICI) could be issued under a “project policy” basis. A project WIC policy refers to the portions of project insurance policies that provide coverage for work injury sustained at a project site, or while doing work for a specific project. MOM has stipulated that from 1 September 2020, employers should not get new project WICI policies. There are Work Injury Compensation claims that are covered under both project WICI policy and employer’s WIC policy. Such duplicate coverage can lead to delays and disputes over who should compensate the injured employee or to reimburse the employer. Companies can potentially reduce insurance premiums by avoiding duplicate coverage. The reader can refer to Chapter 3 of this study guide for more details.",
-                  "textJP": ""
+                  "textJP": "本スタディガイドの第3章で議論したとおり、2020年9月1日以前は、労災補償保険（WICI）を「プロジェクト保険証券」ベースで発行できました。しかし現在、雇用主は独自のWIC保険証券を購入しなければなりません。"
                 }
               ]
             },
@@ -6607,22 +6607,22 @@
               "id": "ch6-s1-I3",
               "label": "I3",
               "title": "Construction Business Interruption Cover",
-              "titleJP": "",
+              "titleJP": "建設工事企業費用利益補償",
               "paragraphs": [
                 {
                   "num": "2.36",
                   "text": "In the event of loss or damage to the contract works, the contractor and or principal may suffer a loss of advance profits4, or incur increased expenditure in order to keep the project going. The contractor may also incur liquidated damages, owing to the delay in completing the contract works.",
-                  "textJP": ""
+                  "textJP": "契約工事の滅失・損傷が発生した場合、請負業者および／または発注者は、開業前利益の喪失を被るか、プロジェクトを続行するための追加支出を負担する可能性があります。"
                 },
                 {
                   "num": "2.37",
                   "text": "It is not only the contractor who is vulnerable to such losses. The principal may also encounter problems arising from the delay in completing the contract works. The principal, who may also be acting as the developer, may be paying interest charges to the bank and will also encounter a delay in receiving rent on the completed building. If the principal is intending to sell the development, he will also suffer a loss of the development profit owing to the delay.",
-                  "textJP": ""
+                  "textJP": "このような損害にさらされるのは請負業者だけではありません。発注者も契約工事の完了遅延に伴う問題に直面する可能性があります。"
                 },
                 {
                   "num": "2.38",
                   "text": "To protect themselves from exposure to business interruption losses, some contractors will take out an Increased Cost Of Working cover5, whereas others will take out a Full Revenue cover.",
-                  "textJP": ""
+                  "textJP": "企業費用利益損害のリスクから身を守るため、一部の請負業者は営業費用増加補償を、他の請負業者は全収益補償を取得します。"
                 }
               ]
             },
@@ -6630,12 +6630,12 @@
               "id": "ch6-s1-I4",
               "label": "I4",
               "title": "Performance Bond",
-              "titleJP": "",
+              "titleJP": "履行保証ボンド",
               "paragraphs": [
                 {
                   "num": "2.39",
                   "text": "A performance bond is often required by the principal e.g. the owner of the land, for large capital projects. Such bonds are required by the principal i.e. it secures payment for the principal in the event the contract is not being fulfilled. In the final part of this chapter, we shall examine Insurance Bonds in greater detail. 4 Loss of advance profits is due to delay in completing the contract works which result in a delay in earning future profits. 5 Further discussions on Business Interruption Insurance are in Chapter 2 of this Study Guide.",
-                  "textJP": ""
+                  "textJP": "履行保証ボンドは、大規模な資本プロジェクトについて、土地の所有者である発注者が要求することが多いです。このボンドは、請負業者が契約義務を履行しない場合に発注者への支払いを確保します。"
                 }
               ]
             }
@@ -6652,17 +6652,17 @@
               "id": "ch6-s3-A",
               "label": "A",
               "title": "What Is Erection All Risks (EAR) Insurance?",
-              "titleJP": "",
+              "titleJP": "組立保険（EAR）とは",
               "paragraphs": [
                 {
                   "num": "3.1",
                   "text": "An Erection All Risks (EAR) Insurance policy is primarily intended to cover risks in the installation and erection of ready-built engineering projects, such as power plants, refrigeration plants, electrical generator stations, overhead gantry cranes, machinery, equipment, other fittings in factories and complexes, etc.",
-                  "textJP": ""
+                  "textJP": "組立保険（EAR）は、発電所、冷凍プラント、電気システムなどの既製エンジニアリングプロジェクトの据付・組立におけるリスクを補償するために主に意図された保険証券です。"
                 },
                 {
                   "num": "3.2",
                   "text": "It provides financial security for all parties involved in an installation and erection project. An EAR Insurance policy is similar to a CAR Insurance policy, except that the subject matter to be insured under an EAR Insurance policy involves more fixing, assembling and installation work, but less of construction work.",
-                  "textJP": ""
+                  "textJP": "組立プロジェクトに関与するすべての当事者に財務的安全を提供します。EAR保険証券はCAR保険証券と類似していますが、保険の目的物が通常、組立・据付が必要な機械・プラント・設備である点が異なります。"
                 }
               ]
             },
@@ -6675,12 +6675,12 @@
                 {
                   "num": "3.3",
                   "text": "An EAR cover is very similar to a CAR cover, in terms of both the perils provided and the markets involved. However, there is one major difference, and this concerns the testing and commissioning risk. In view of the nature of the subject matter, and of the very diverse nature of different risks, the testing and commissioning risk may be either relatively small, or become a major risk for insurers.",
-                  "textJP": ""
+                  "textJP": "EAR補償はCAR補償と、提供される危険と関与する市場の両面で非常に類似しています。しかし、一つの大きな違いがあり、それは試運転リスクに関するものです。"
                 },
                 {
                   "num": "3.4",
                   "text": "Nevertheless, the wording in the main body of an EAR Insurance policy will be very similar to a CAR Insurance policy.",
-                  "textJP": ""
+                  "textJP": "それでも、EAR保険証券の本文の文言はCAR保険証券と非常に類似しています。"
                 }
               ]
             },
@@ -6688,12 +6688,12 @@
               "id": "ch6-s3-C",
               "label": "C",
               "title": "The Need For Erection All Risks (EAR) Insurance",
-              "titleJP": "",
+              "titleJP": "EAR保険の必要性",
               "paragraphs": [
                 {
                   "num": "3.5",
                   "text": "All mechanical or electrical installation and erection projects are formalised by contract between the principal and the contractor. The contract conditions impose an obligation on the contractor, to provide the principal with an indemnity in respect of loss of or damage to the contract works. Therefore, there is a need for the contractor to take out insurance cover for these obligations.",
-                  "textJP": ""
+                  "textJP": "すべての機械的または電気的な据付・組立プロジェクトは、発注者と請負業者の間の契約により正式化されます。契約条件は請負業者に対し、据付期間中の工事のすべてのリスクをカバーする保険の手配義務を課します。"
                 }
               ]
             },
@@ -6701,12 +6701,12 @@
               "id": "ch6-s3-D",
               "label": "D",
               "title": "Parties To The Contract",
-              "titleJP": "",
+              "titleJP": "契約の当事者",
               "paragraphs": [
                 {
                   "num": "3.6",
                   "text": "Like a CAR Insurance policy, an EAR Insurance policy basically involves three parties, namely the contractor, the principal and the insurer. Besides protecting the interests of the principal and the contractor, the EAR Insurance policy may also be extended to protect the interests of any sub-contractors involved.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券と同様に、EAR保険証券も基本的に三者、すなわち請負業者、発注者、保険者が関与します。"
                 }
               ]
             },
@@ -6714,17 +6714,17 @@
               "id": "ch6-s3-E",
               "label": "E",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "3.7",
                   "text": "Similar to a CAR Insurance policy, the scope of cover for an EAR Insurance policy also consists of two sections, namely Section I that deals with the material damage aspect, and Section II that deals with third-party liability arising from the installation and erection project.",
-                  "textJP": ""
+                  "textJP": "CAR保険証券と同様に、EAR保険証券の補償範囲もセクションI（物的損害）とセクションII（第三者賠償責任）の二つのセクションで構成されています。"
                 },
                 {
                   "num": "3.8",
                   "text": "One major difference that distinguishes the two types of policies is the cover for testing and commissioning risk as provided under an EAR Insurance policy.",
-                  "textJP": ""
+                  "textJP": "二つの保険証券を区別する一つの大きな違いは、EAR保険証券に基づく試運転リスクの補償です。"
                 }
               ]
             },
@@ -6732,32 +6732,32 @@
               "id": "ch6-s3-E1",
               "label": "E1",
               "title": "Cover For Testing & Commissioning Risk",
-              "titleJP": "",
+              "titleJP": "試運転リスクの補償",
               "paragraphs": [
                 {
                   "num": "3.9",
                   "text": "Cover for testing and commissioning is to provide for loss, destruction and/or damage to the property insured occurring during testing and commissioning work carried out by the contractor (or sub-contractor) within the terms of the installation or erection contract.",
-                  "textJP": ""
+                  "textJP": "試運転の補償は、請負業者（または下請業者）が行う試運転作業中に被保険財物に生じた滅失・破壊および／または損害に対する補償を提供します。"
                 },
                 {
                   "num": "3.10",
                   "text": "Depending on the nature of the plant, different kinds of work may be necessary, both during and after the installation or erection of the plant. If the plant’s building has few parts within, the testing and commissioning risk is usually minimal. However, the plant presents a totally different risk if there are more parts within and where most parts may be moving and interacting with each other. The risk of breakdown is ever present at the commissioning stage, as well as physical risks, such as fires and/or explosions.",
-                  "textJP": ""
+                  "textJP": "プラントの性質に応じて、プラントの据付・組立中および後にさまざまな種類の作業が必要になる場合があります。"
                 },
                 {
                   "num": "3.11",
                   "text": "The testing and commissioning work may involve:\n▪ testing of various kinds;\n▪ commissioning, i.e. initial operation; maintenance, i.e. rectification of any defect manifested during the maintenance period;\n▪ staff training; and\n▪ operation of the completed works.",
-                  "textJP": ""
+                  "textJP": "試運転作業には以下が含まれます：\n▪ さまざまな種類の試験\n▪ コミッショニング（初期運転）\n▪ 保全（保全期間中に現れた欠陥の是正）"
                 },
                 {
                   "num": "3.12",
                   "text": "The risks are greater during the testing and commissioning period than during the installation and erection period. This is owing to not only the additional perils exposure but also increased risks of fire and explosion. Moreover, the works has become a working unit and the full value of the contract may be at risk at this stage.",
-                  "textJP": ""
+                  "textJP": "試運転期間中のリスクは据付・組立期間中よりも大きくなります。これは追加の危険エクスポージャーだけでなく、全損の可能性の増大によるものです。"
                 },
                 {
                   "num": "3.13",
                   "text": "Cover for testing and commissioning usually ceases upon the satisfactory completion of tests as required under any contract, or when the property insured is put into commercial use or taken over by the principal, whichever occurs first.",
-                  "textJP": ""
+                  "textJP": "試運転の補償は、通常、契約に基づき求められる試験の満足な完了時、または被保険財物が商業使用に供された時もしくは発注者に引き渡された時に終了します。"
                 }
               ]
             },
@@ -6765,17 +6765,17 @@
               "id": "ch6-s3-F",
               "label": "F",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "3.14",
                   "text": "The period of cover is expressed in the schedule of the policy commencing with the start date of installation/erection and expiring on the estimated date of completion of the installation and erection period. Like a CAR Insurance policy, the period may be shorter or longer than 12 months for a specific project policy, and 12 months for an annual policy.",
-                  "textJP": ""
+                  "textJP": "補償期間は保険証券の明細書に表示され、据付・組立の開始日に始まり、据付・組立の見積完了日に満了します。"
                 },
                 {
                   "num": "3.15",
                   "text": "In addition, a testing or commissioning period is further expressed in the schedule of the policy. This is usually specified, such as 30 days of testing/commissioning. This is a period after the installation and erection period during which items, such as installed machinery, are test run.",
-                  "textJP": ""
+                  "textJP": "加えて、試験またはコミッショニング期間が保険証券の明細書にさらに記載されます。通常30日の試験／コミッショニングなどと規定されます。"
                 }
               ]
             },
@@ -6788,7 +6788,7 @@
                 {
                   "num": "3.16",
                   "text": "The extensions for both CAR and EAR Insurance policies are similar. Some of the more common extensions are described below:",
-                  "textJP": ""
+                  "textJP": "CARおよびEAR保険証券の特約拡張は類似しています。より一般的な拡張のいくつかを以下に説明します。"
                 }
               ]
             },
@@ -6796,12 +6796,12 @@
               "id": "ch6-s3-G1",
               "label": "G1",
               "title": "Automatic Reinstatement Clause",
-              "titleJP": "",
+              "titleJP": "自動復元条項",
               "paragraphs": [
                 {
                   "num": "3.17",
                   "text": "The insurer allows the policy sum insured or limits to be automatically reinstated after a loss,as long as the insured pays the appropriate extra premium on the amount of loss.",
-                  "textJP": ""
+                  "textJP": "保険者は、被保険者が損害額に応じた適切な追加保険料を支払う限り、損害後に保険金額または限度額を自動的に復元することを許可します。"
                 }
               ]
             },
@@ -6809,12 +6809,12 @@
               "id": "ch6-s3-G2",
               "label": "G2",
               "title": "Cover For Cross Liability",
-              "titleJP": "",
+              "titleJP": "クロスライアビリティ補償",
               "paragraphs": [
                 {
                   "num": "3.18",
                   "text": "The insurer is willing to cover all insured parties named in the schedule of the policy against third-party liability, as if a separate policy has already been issued to each party. However, the insurers will not pay for:\n▪ loss of or damage to items insured under Section I – Material Damage of the policy; or\n▪ injuries or illnesses of employees or workmen who should have been insured under a Work Injury Compensation Insurance policy.",
-                  "textJP": ""
+                  "textJP": "保険者は、保険証券の明細書に記載されたすべての被保険当事者を、各当事者に個別の保険証券が既に発行されているかのように、第三者賠償責任に対して補償する用意があります。"
                 }
               ]
             },
@@ -6822,12 +6822,12 @@
               "id": "ch6-s3-G3",
               "label": "G3",
               "title": "Maintenance Visits Cover",
-              "titleJP": "",
+              "titleJP": "保全訪問補償",
               "paragraphs": [
                 {
                   "num": "3.19",
                   "text": "With the payment of additional premium, the insurer is willing to extend cover for the maintenance period to cover solely the loss of or damage to the erection or installation works in the course of carrying out the maintenance job.",
-                  "textJP": ""
+                  "textJP": "追加保険料の支払いにより、保険者は保全期間を延長して、請負業者による保全・点検訪問中にのみ、組立・据付工事の滅失・損害を補償する用意があります。"
                 }
               ]
             },
@@ -6835,17 +6835,17 @@
               "id": "ch6-s3-G4",
               "label": "G4",
               "title": "Cover Of Extra Charges For Overtime, Night Work, Work On Public Holidays,",
-              "titleJP": "",
+              "titleJP": "時間外・夜間・祝日作業の追加費用補償",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Express Freight",
-                  "textJP": ""
+                  "textJP": "時間外、夜間、祝日作業の追加費用補償、速達運賃"
                 },
                 {
                   "num": "3.20",
                   "text": "Both the CAR and EAR policies can be extended to cover extra charges for overtime, night work, work on public holidays and express freight (excluding air freight), which are incurred owing to the loss of or damage to the insured items.",
-                  "textJP": ""
+                  "textJP": "CARおよびEAR保険証券は、被保険危険による滅失・損傷に起因して発生する時間外、夜間、祝日作業および速達運賃（航空運賃を除く）の追加費用を補償するよう拡張できます。"
                 }
               ]
             },
@@ -6853,12 +6853,12 @@
               "id": "ch6-s3-G5",
               "label": "G5",
               "title": "Removal Of Support Extension",
-              "titleJP": "",
+              "titleJP": "支持物除去拡張",
               "paragraphs": [
                 {
                   "num": "3.21",
                   "text": "The indemnity granted under Section II – Third-Party’s Liability of the CAR/EAR Insurance policy can be extended to include liability in respect of damage to property, land or building caused by vibration or by removal or weakening of support.",
-                  "textJP": ""
+                  "textJP": "CAR/EAR保険証券のセクションII（第三者賠償責任）に基づくてん補は、振動、支持物の除去または弱体化、または地盤沈下による財物・土地・建物への損害に関する責任を含むよう拡張できます。"
                 }
               ]
             },
@@ -6871,32 +6871,32 @@
                 {
                   "num": "3.22",
                   "text": "The claim handling and settlement procedures for both CAR and EAR Insurance policies are similar.",
-                  "textJP": ""
+                  "textJP": "CARおよびEAR保険証券の保険金請求の処理・精算手続きは類似しています。"
                 },
                 {
                   "num": "3.23",
                   "text": "In the event of a claim, the contractor will inform his insurance agent/broker or notify the insurer directly.",
-                  "textJP": ""
+                  "textJP": "保険金請求が発生した場合、請負業者は保険代理人/ブローカーに通知するか、保険者に直接通知します。"
                 },
                 {
                   "num": "3.24",
                   "text": "The CAR/EAR claim form or the loss adjuster’s report will provide most of the information needed to ascertain whether or not the loss is covered and, if so, the likely claim costs to be incurred.",
-                  "textJP": ""
+                  "textJP": "CAR/EAR請求書または損害査定人の報告書は、損害が補償対象かどうか、また補償される場合の見込請求費用を確認するために必要なほとんどの情報を提供します。"
                 },
                 {
                   "num": "3.25",
                   "text": "If the loss is straightforward, e.g. theft of loose materials on site, the claim procedures will be simple. Where the loss is complex, such as how much time that it will take to effect repair, the insurer will appoint a loss adjuster (or insurer’s own claim specialist) to prepare a report. The insured will need to provide the following information to the loss adjuster: the value of property prior to or after loss; the extent of loss or damage; the cause of loss or damage; the likely cost to repair; any uninsured element (apart from the deductible); the effect of extensive delays to the work; an estimate of any likely loss under business interruption for: - increases in future costs of construction owing to inflation, etc. (if insured); - loss of earning ability at the planned opening time owing to delay in completion (if full revenue cover has been arranged); and details of availability of labour and materials at the later rather than planned dates (this is necessary information as the original schedule has been disrupted).\n▪ details of third-party injury or property damage including vibration or by removal or weakening of support (VRWS) claims (if any).",
-                  "textJP": ""
+                  "textJP": "損害が単純な場合（例：現場の資材の盗難）、請求手続きは簡単です。損害が複雑な場合（修理にどれだけの時間がかかるかなど）、保険者は損害査定人を任命します。"
                 },
                 {
                   "num": "3.26",
                   "text": "The need to establish the real cause of damage in CAR/EAR claims is very important, because the insurer may want to exercise subrogation rights against a supplier of designs, specifications or other materials for the recovery of claim outlay owing to a fault, error, or omission in the services or goods supplied.",
-                  "textJP": ""
+                  "textJP": "CAR/EAR請求において損害の真の原因を特定する必要性は非常に重要です。保険者が設計、仕様書等のサプライヤーに対する代位権を行使したい場合があるためです。"
                 },
                 {
                   "num": "3.27",
                   "text": "The need to assess the effect of delays is also particularly important in CAR/EAR claims, as the later stages of the project works will be disrupted by the delays, and the uncompleted works will need to be re-scheduled.",
-                  "textJP": ""
+                  "textJP": "遅延の影響を評価する必要性もCAR/EAR請求において特に重要です。プロジェクト工事の後半段階が遅延により影響を受け、未完了の工事に追加の保護が必要になるためです。"
                 }
               ]
             }
@@ -6906,27 +6906,27 @@
           "id": "ch6-s4",
           "number": "4",
           "title": "Insurance Of Lifts, Cranes & Handling Equipment",
-          "titleJP": "",
+          "titleJP": "リフト・クレーン・荷役機器の保険",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "As mentioned before, the CAR policy may extend to cover contractors’ equipment materials and mobile equipment at site. However, it is also common to have such equipment covered under a separate insurance policy as described below.",
-              "textJP": ""
+              "textJP": "前述のとおり、CAR保険証券は現場の請負業者の機器・材料・移動式機器の補償に拡張できます。しかし、そのような機器を別個の保険証券でカバーすることも一般的です。"
             },
             {
               "num": "4.2",
               "text": "There are various types of equipment included in this category ranging from common lifting equipment, such as passenger lifts, escalators, and forklifts, to the very large equipment, such as gantry cranes, trucks, mobile cranes, loaders, loading shovels, excavators, etc. The purpose of use and the way these types of equipment operate may differ one from the other, but they have one thing in common, which is that they are used for lifting and lowering loads either stationary at one location or from one place to another.",
-              "textJP": ""
+              "textJP": "このカテゴリーには、旅客用エレベーター、エスカレーター、フォークリフトなどの一般的な荷役機器から、ガントリークレーン等の大型機器まで、さまざまな種類の機器が含まれます。"
             },
             {
               "num": "4.3",
               "text": "This type of equipment can generally be classified into two groups, i.e. Stationary equipment, such as:\n▪ Tower Cranes;\n▪ Conveyer Systems;\n▪ Passenger Lifts;\n▪ Elevators;\n▪ Hoists. Movable equipment, such as:\n▪ Mobile Cranes;\n▪ Gantry Cranes;\n▪ Forklifts;\n▪ Loaders;\n▪ Loading Shovels;\n▪ Excavators.",
-              "textJP": ""
+              "textJP": "この種の機器は一般に二つのグループに分類できます。\n定置型機器：タワークレーン、コンベアシステム、旅客用エレベーター、エレベーター、ホイスト\n移動型機器：移動式クレーン、フォークリフト、ブルドーザー等"
             },
             {
               "num": "4.4",
               "text": "The insurance cover for these types of equipment (with the exception of Passenger Lifts and Elevators) is commonly known as Contractor’s Plant and Equipment (CPE) policy or Heavy Equipment Insurance policy. These policies normally cover all losses arising from any cause whatsoever other than those specifically excluded. One of the main policy exclusions is internal mechanical or electrical breakdown such as rupture, cracking or deformation due to operational failure, strain or other internal failure. Notwithstanding this however, the coverage for internal mechanical or electrical breakdown can be included into the policy by way of endorsement, with the insurer’s agreement.",
-              "textJP": ""
+              "textJP": "これらの種類の機器（旅客用エレベーターとエレベーターを除く）の保険補償は、一般にContractor's Plant and Equipment（CPE）保険または重機保険として知られています。"
             }
           ],
           "subsections": [
@@ -6934,12 +6934,12 @@
               "id": "ch6-s4-A",
               "label": "A",
               "title": "Risk Assessment And Underwriting",
-              "titleJP": "",
+              "titleJP": "リスク評価と引受",
               "paragraphs": [
                 {
                   "num": "4.5",
                   "text": "The main determinants of CPE risk exposure are:\n▪ the operational condition at the worksite where the lifting equipment is used;\n▪ nature and condition of the plant and equipment;\n▪ size and structure of the organisation that owns and / or operates the equipment; and\n▪ loss experience.",
-                  "textJP": ""
+                  "textJP": "CPEリスクエクスポージャーの主な決定要因は以下のとおりです：\n▪ 荷役機器が使用される作業現場の運転条件\n▪ プラントおよび機器の性質と状態\n▪ サイズと構造"
                 }
               ]
             }
@@ -6956,12 +6956,12 @@
               "id": "ch6-s5-A",
               "label": "A",
               "title": "What Is Boiler & Pressure Vessel Insurance?",
-              "titleJP": "",
+              "titleJP": "ボイラー・圧力容器保険とは",
               "paragraphs": [
                 {
                   "num": "5.1",
                   "text": "A Boiler & Pressure Vessel Insurance policy is designed to cover the damage to property and liability of the insured arising from all types of boilers and pressure plants.",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険証券は、あらゆる種類のボイラーおよび圧力プラントから生じる被保険者の財物損害と賠償責任を補償するよう設計されています。"
                 }
               ]
             },
@@ -6969,22 +6969,22 @@
               "id": "ch6-s5-B",
               "label": "B",
               "title": "The Need For Boiler & Pressure Vessel Insurance",
-              "titleJP": "",
+              "titleJP": "ボイラー・圧力容器保険の必要性",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "Boilers are used to produce steam to drive engines, turbines and other heavy machinery, and the heat absorbed by the steam can be used in cooling and heating. However, this same steam can potentially cause great destruction, resulting in substantial loss of lives and money.",
-                  "textJP": ""
+                  "textJP": "ボイラーはエンジン、タービン、その他の重機械を駆動するための蒸気を生産するために使用され、蒸気に吸収された熱は冷却・加熱に使用されます。しかし、この同じ蒸気は潜在的に爆発を引き起こし、財物に多大な損害をもたらす可能性があります。"
                 },
                 {
                   "num": "5.3",
                   "text": "Thus, regulations have been passed for the purpose of ensuring that vessels which operate under pressure and lifting appliances are regularly inspected to meet specified requirements, so as to reduce the risks of accidents.",
-                  "textJP": ""
+                  "textJP": "したがって、圧力下で運転される容器や吊上装置が定期的に検査され、所定の要件を満たすことを確保する規制が制定されています。"
                 },
                 {
                   "num": "5.4",
                   "text": "Despite careful inspection, accidents may still happen owing partly to human error in operating the boilers and partly to unforeseen circumstances. Hence, there is a need for insurance protection against such loss exposure for boilers and pressure plants.",
-                  "textJP": ""
+                  "textJP": "慎重な検査にもかかわらず、ボイラーの操作における人為的ミスや不測の事態により事故が発生する可能性があります。したがって、ボイラーの爆発・崩壊から生じる損害に対する保険保護が必要です。"
                 }
               ]
             },
@@ -6992,12 +6992,12 @@
               "id": "ch6-s5-C",
               "label": "C",
               "title": "Parties To The Contract",
-              "titleJP": "",
+              "titleJP": "契約の当事者",
               "paragraphs": [
                 {
                   "num": "5.5",
                   "text": "In most cases, the parties to a Boiler & Pressure Vessel Insurance contract will be the insurer, as well as the owners/operators of an industrial plant.",
-                  "textJP": ""
+                  "textJP": "ほとんどの場合、ボイラー・圧力容器保険契約の当事者は保険者および工業プラントの所有者/運営者です。"
                 }
               ]
             },
@@ -7005,22 +7005,22 @@
               "id": "ch6-s5-D",
               "label": "D",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "5.6",
                   "text": "There are two aspects to the policy coverage of Boiler & Pressure Vessel Insurance, namely the “material damage” aspect and the “liability of the insured” aspect.",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険の保険証券の補償には二つの側面があります。すなわち「物的損害」と「被保険者の賠償責任」です。"
                 },
                 {
                   "num": "5.7",
                   "text": "The policy provides indemnity against:\n▪ damage to the boiler or other insured items;\n▪ damage to other property of the insured directly owing to explosion and collapse of any insured item;\n▪ liability of the insured at law for damage to property not belonging to the insured; and\n▪ liability of the insured at law in respect of fatal or non-fatal injuries to any persons, other than the insured’s own employees or workers, or members of the insured’s family.",
-                  "textJP": ""
+                  "textJP": "保険証券は以下に対するてん補を提供します：\n▪ ボイラーまたはその他の被保険物件の損害\n▪ 被保険物件の爆発・崩壊に直接起因する被保険者のその他の財物への損害\n▪ 第三者への賠償責任"
                 },
                 {
                   "num": "5.8",
                   "text": "To understand the scope of cover better, it is important to take note of the definitions as described below.",
-                  "textJP": ""
+                  "textJP": "補償範囲をよりよく理解するため、以下の定義にご留意ください。"
                 }
               ]
             },
@@ -7028,12 +7028,12 @@
               "id": "ch6-s5-D1",
               "label": "D1",
               "title": "Definitions",
-              "titleJP": "",
+              "titleJP": "定義",
               "paragraphs": [
                 {
                   "num": "5.9",
                   "text": "The subject matter for Boiler & Pressure Vessel Insurance is the plant or other property belonging to the insured or held by the insured in trust or on commission. (a) Plant It refers to “those parts of the permanent structure which are subject to steam or other fluid pressure, up to and including fittings and direct attachments, subject to such pressure and which are connected to the permanent structure without an intervening valve or cock”. It also means “the metal parts of pressure and water gauges and their connections to the permanent structure even if separated from such structure by valves or cocks”. It does not mean (except where specifically described in the schedule of the policy):\n▪ superheaters or economisers;\n▪ feed circulating supply or delivery piping or anything connected to it. (b) Explosion It means “the sudden and violent rending of the permanent structure of the plant by force of internal steam or fluid pressure (other than pressure of ignited gases) causing bodily displacement of any part of the structure, together with the forcible ejection of its contents.” (c) Collapse It means “the sudden and dangerous distortion (whether or not attended by rupture) of any part of the plant caused by the crushing stress of external steam or other fluid pressure (other than pressure of ignited flue gases).”",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険の保険の目的物は、被保険者に属する、または被保険者が信託もしくは委託で保有するプラントまたはその他の財物です。\n(a) プラント：検査が法律で義務付けられているボイラーおよび圧力容器の部分\n(b) 爆発：密閉容器内部の蒸気・ガス・流体の突然のかつ暴力的な変形\n(c) 崩壊：外部からの圧力による突然のかつ危険な変形"
                 }
               ]
             },
@@ -7041,12 +7041,12 @@
               "id": "ch6-s5-E",
               "label": "E",
               "title": "Period Of Cover",
-              "titleJP": "",
+              "titleJP": "保険期間",
               "paragraphs": [
                 {
                   "num": "5.10",
                   "text": "The period of cover is usually 12 months.",
-                  "textJP": ""
+                  "textJP": "補償期間は通常12か月です。"
                 }
               ]
             },
@@ -7054,17 +7054,17 @@
               "id": "ch6-s5-F",
               "label": "F",
               "title": "Policy Provisions & Conditions",
-              "titleJP": "",
+              "titleJP": "約款条項",
               "paragraphs": [
                 {
                   "num": "5.11",
                   "text": "Some of the common provisions and conditions specific to a Boiler & Pressure Vessel Insurance policy are described below: (a) Alteration To Plant The insured must give notice in writing of any departure from normal working conditions, repair, removal, alteration of, or addition to any item of the plant. If the insurer does not approve, insurance on that item may be cancelled and a proportion of the premium for the unexpired period of insurance returned to the insured. (b) Suspension Of Liability The insurer is not liable for any damaged item of the plant until such an item has been repaired to the satisfaction of the insurer. (c) Right Of Access The insurer shall at all reasonable times have the right of access to the premises of the plant. He is also permitted at all reasonable times during the term of the policy to inspect the plant and also the structures in which it is contained. (d) Limitation Of Loading Boiler and pressure vessels are certified for a stipulated working pressure. The insured will not be covered if, at the time of explosion or collapse, the safety valve load exceeds that of the boiler inspection regulations.",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険証券に特有の一般的な約款条項を以下に説明します：\n(a) プラントの変更：被保険者は、保険証券に記載された条件からの逸脱について書面で通知しなければなりません。\n(b) 検査：被保険者は保険者の検査員が検査目的でプラントに立ち入ることを許可しなければなりません。"
                 },
                 {
                   "num": "5.12",
                   "text": "Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies is in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.",
-                  "textJP": ""
+                  "textJP": "約款条項の詳細な議論は、Singapore College of Insurance Limitedが発行する「Basic Insurance Concepts & Principles」スタディガイドに記載されていますのでご参照ください。"
                 }
               ]
             },
@@ -7072,17 +7072,17 @@
               "id": "ch6-s5-G",
               "label": "G",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "5.13",
                   "text": "The customarily required underwriting information is as follows:\n▪ description of the plant, including its age, type, model, capacity, working pressure, whether a fire-tube or water-tube, the materials used and the method of construction;\n▪ whether the plant is fully attended, partly attended, or unattended;\n▪ whether there is regular maintenance performed;\n▪ the type of fuel used (this information is pertinent to flue gas explosions);\n▪ whether the plant requires certification – if the relevant plant is registered, what is the registered number?\n▪ sum insured for each item;\n▪ public liability considerations;\n▪ exposure to risk of surrounding property; and\n▪ if boilers are used for domestic purposes, is the explosion risk insured by a fire policy?",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下のとおりです：\n▪ プラントの記述（船齢、種類、型式、容量、使用圧力、煙管式か水管式か、材質等）\n▪ 保険者の検査報告\n▪ 過去の請求・事故履歴"
                 },
                 {
                   "num": "5.14",
                   "text": "Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また必要とされる情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -7090,22 +7090,22 @@
               "id": "ch6-s5-H",
               "label": "H",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "5.15",
                   "text": "Other than the usual general exclusions that relate to war, riot, strike and nuclear risks, some common exclusions specific to this class of insurance are as follows: (a) defects owing to wearing away or wasting of the material of the plant by leakage, corrosion, action of fuel or otherwise; (b) slowly developing deformation or distortion of any part of the plant; (c) overheating, cracks, fractures, blisters, laminations, flaws of grooving or failure of joints even when accompanied by leakage. (d) the failure of tubes in boilers or superheaters or economizers (unless such defects result in explosion or collapse); (e) damage to property caused by fire rising from explosion or collapse, or damage to the plant resulting from any extraneous cause; (f) damage or liability caused by or arising out of the wilful act or wilful neglect of the insured; and (g) any test other than test at a pressure not exceeding the maximum pressure permitted by the inspecting authority.",
-                  "textJP": ""
+                  "textJP": "戦争、暴動、ストライキ、核リスクに関する通常の一般免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n(a) 経年変化による欠陥\n(b) 火災、爆発（被保険物件内でないもの）\n(c) 検査員が指摘した欠陥の未修理"
                 },
                 {
                   "num": "5.16",
                   "text": "However, note that explosion or collapse arising from (a), (b) and (c) of the above-mentioned defects is not excluded.",
-                  "textJP": ""
+                  "textJP": "ただし、上記(a)(b)(c)の欠陥から生じる爆発・崩壊は除外されないことにご留意ください。"
                 },
                 {
                   "num": "5.17",
                   "text": "Note that the exclusions of a Boiler & Pressure Vessel Insurance policy may vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険証券の免責事由は保険者によって異なる場合があることにご留意ください。"
                 }
               ]
             },
@@ -7113,17 +7113,17 @@
               "id": "ch6-s5-I",
               "label": "I",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "5.18",
                   "text": "The following risks may be included in the scope of the policy on payment of extra premiums:\n▪ repairs to overheating of tubes;\n▪ repairs to overheating of boilers and fired pressure vessel;\n▪ fuel gas explosion;\n▪ sudden cracking or fracturing of hot water boiler;\n▪ leakage damage arising from the cracking of the heating and hot water boilers; and\n▪ general damage, such as accidental causes to parts of the plant under pressure.",
-                  "textJP": ""
+                  "textJP": "以下のリスクは追加保険料の支払いにより保険証券の範囲に含めることができます：\n▪ 管の過熱修理\n▪ ボイラーおよび燃焼式圧力容器の過熱修理\n▪ ガス燃焼装置の損害"
                 },
                 {
                   "num": "5.19",
                   "text": "Note that the extensions of a Boiler & Pressure Vessel Insurance policy may vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険証券の特約拡張は保険者によって異なる場合があることにご留意ください。"
                 }
               ]
             },
@@ -7131,12 +7131,12 @@
               "id": "ch6-s5-J",
               "label": "J",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "5.20",
                   "text": "The common claim conditions specific to a Boiler & Pressure Vessel Insurance policy are described below:",
-                  "textJP": ""
+                  "textJP": "ボイラー・圧力容器保険証券に特有の一般的な保険金請求条件を以下に説明します。"
                 }
               ]
             },
@@ -7144,12 +7144,12 @@
               "id": "ch6-s5-J1",
               "label": "J1",
               "title": "Notification Of Accident",
-              "titleJP": "",
+              "titleJP": "事故通知",
               "paragraphs": [
                 {
                   "num": "5.21",
                   "text": "The insured must give immediate notice to the insurer of any occurrence of accident. This must be confirmed in writing within a stipulated time of the occurrence. The insured must also notify the insurer, once he knows of any impending prosecution inquest or fatal enquiry relating to such accident.",
-                  "textJP": ""
+                  "textJP": "被保険者は事故の発生を直ちに保険者に通知しなければなりません。これは発生後所定の期間内に書面で確認しなければなりません。"
                 }
               ]
             },
@@ -7157,17 +7157,17 @@
               "id": "ch6-s5-J2",
               "label": "J2",
               "title": "Basis Of Settlement",
-              "titleJP": "",
+              "titleJP": "精算の基準",
               "paragraphs": [
                 {
                   "num": "5.22",
                   "text": "The insurer may, at its option, repair, replace or reinstate, or may pay in cash the amount of the damage. In the event that the insurer decides to repair the damage, he is only liable to repair the damage as may be possible and pay the insured the cost of parts that are not obtainable. In the event that the insurer decides to pay cash for the damage, it is liable to pay, only within the limits of the policy, the reasonable cost of repairing the damage and the cost of parts not being obtainable.",
-                  "textJP": ""
+                  "textJP": "保険者はその選択により、損害を修理、交換、復旧するか、または損害額を現金で支払うことができます。保険者が損害の修理を決定した場合、損害を損害前の状態に復旧する修理にのみ責任を負います。"
                 },
                 {
                   "num": "5.23",
                   "text": "The insured is required to pay extra charges for express delivery and overtime. The insurer is not liable for the cost of any repair undertaken by the insured, without the insurer’s permission in writing.",
-                  "textJP": ""
+                  "textJP": "被保険者は速達・時間外作業の追加費用を負担することが求められます。保険者は、書面による許可なく被保険者が行った修理の費用について責任を負いません。"
                 }
               ]
             }
@@ -7184,12 +7184,12 @@
               "id": "ch6-s6-A",
               "label": "A",
               "title": "What Is Machinery Breakdown Insurance?",
-              "titleJP": "",
+              "titleJP": "機械故障保険とは",
               "paragraphs": [
                 {
                   "num": "6.1",
                   "text": "Machinery Breakdown Insurance is designed to cover expensive plant, machinery and mechanical equipment against unforeseen and sudden damage caused by breakdown.",
-                  "textJP": ""
+                  "textJP": "機械故障保険は、故障による不測かつ突発的な損害に対して、高価なプラント、機械設備および機械装置を補償するよう設計されています。"
                 }
               ]
             },
@@ -7197,12 +7197,12 @@
               "id": "ch6-s6-B",
               "label": "B",
               "title": "The Need For Machinery Breakdown Insurance",
-              "titleJP": "",
+              "titleJP": "機械故障保険の必要性",
               "paragraphs": [
                 {
                   "num": "6.2",
                   "text": "As machinery involves moving parts, such operation presents hazards to life and property. Although there are regulations set up to ensure a certain degree of safety for the use of machinery, as in the case of boilers and pressure vessels, accidents can still occur. In fact, any industrial or manufacturing concern which operates machinery will need the protection of Machinery Breakdown Insurance.",
-                  "textJP": ""
+                  "textJP": "機械は可動部品を含むため、その運転は生命と財産に危険をもたらします。機械使用の安全を確保するための規制はあるものの、故障は依然として発生し、保険が必要です。"
                 }
               ]
             },
@@ -7210,17 +7210,17 @@
               "id": "ch6-s6-C",
               "label": "C",
               "title": "Parties To The Contract",
-              "titleJP": "",
+              "titleJP": "契約の当事者",
               "paragraphs": [
                 {
                   "num": "6.3",
                   "text": "The parties to a Machinery Breakdown Insurance contract will be the insurer, as well as the owners/operators of an industrial or manufacturing enterprise in most cases.",
-                  "textJP": ""
+                  "textJP": "機械故障保険契約の当事者は、ほとんどの場合、保険者および工業・製造企業の所有者/運営者です。"
                 },
                 {
                   "num": "6.4",
                   "text": "Machinery Breakdown Insurance is important not only to large industrial enterprises which operate large units or fully automated production plants, but also to medium and small enterprises, where machinery failure may result in much more serious financial and economic consequences.",
-                  "textJP": ""
+                  "textJP": "機械故障保険は、大型ユニットや全自動生産プラントを運営する大規模工業企業だけでなく、機械が事業運営に不可欠な中小企業にとっても重要です。"
                 }
               ]
             },
@@ -7228,17 +7228,17 @@
               "id": "ch6-s6-D",
               "label": "D",
               "title": "Types Of Property Insured",
-              "titleJP": "",
+              "titleJP": "付保する財物の種類",
               "paragraphs": [
                 {
                   "num": "6.5",
                   "text": "All types of machinery, plant, mechanical equipment and apparatus may be covered under Machinery Breakdown Insurance, such as:\n▪ power generating units, e.g. boilers, turbines and generators;\n▪ power distribution plants, e.g. transformers, high and low tension equipment; and\n▪ production machinery and auxiliary equipment, e.g. machine tools, paper machines, pumps, compressors, tanks, pipes and tubes.",
-                  "textJP": ""
+                  "textJP": "あらゆる種類の機械、プラント、機械装置が機械故障保険の下で補償されます：\n▪ 発電設備（ボイラー、タービン、発電機等）\n▪ 動力伝達装置\n▪ 加工機械\n▪ エアコン・冷凍プラント\n▪ その他の一般機械設備"
                 },
                 {
                   "num": "6.6",
                   "text": "The individual machinery to be insured, as well as its type and model, are to be included in the schedule.",
-                  "textJP": ""
+                  "textJP": "付保する個々の機械およびその種類・型式は明細書に記載されます。"
                 }
               ]
             },
@@ -7246,17 +7246,17 @@
               "id": "ch6-s6-E",
               "label": "E",
               "title": "Scope Of Cover",
-              "titleJP": "",
+              "titleJP": "補償範囲",
               "paragraphs": [
                 {
                   "num": "6.7",
                   "text": "Machinery Breakdown Insurance provides coverage for the insured machinery, while it is:\n▪ working or at rest; or\n▪ being dismantled, moved or re-erected for the purpose of cleaning, repair or installation in another position within the insured premises.",
-                  "textJP": ""
+                  "textJP": "機械故障保険は、被保険機械が以下の状態にある場合の補償を提供します：\n▪ 稼働中または停止中\n▪ 清掃、修理または据付のために分解、移動または再組立中"
                 },
                 {
                   "num": "6.8",
                   "text": "Loss or damage covered under Machinery Breakdown Insurance may be due to any of the following causes: (a) \"internal\" causes such as:\n▪ defective material, design, construction or erection;\n▪ vibration, maladjustment, misalignment, loosening of parts;\n▪ abnormal stresses, fatigue, centrifugal forces, self-heating;\n▪ defective or inadequate lubrication;\n▪ excessive electrical current or voltage;\n▪ failure of insulation, short circuits, open circuits or arcing;\n▪ failure of protecting, measuring or regulating devices;\n▪ failure of or fault in connected machines; and\n▪ water hammer/knocking or overheating, except in the case of boilers or similar machinery when followed by explosion. (b) \"external\" causes such as:\n▪ errors, lack of skills, negligence, or wilful acts of employees or third parties;\n▪ falling, impact, collision or similar occurrence, obstruction or the entry of foreign bodies;\n▪ storm, frost or drifting ice; and\n▪ any other causes not excluded by the policy.",
-                  "textJP": ""
+                  "textJP": "機械故障保険で補償される損害は以下のいずれかの原因による場合があります：\n(a) 「内部」原因：\n▪ 材料、設計、施工または組立の欠陥\n▪ 振動、不整合、過度の応力\n▪ 遠心力\n(b) 「外部」原因：\n▪ オペレーターの不注意\n▪ 電圧サージ\n▪ 異物の吸引"
                 }
               ]
             },
@@ -7264,17 +7264,17 @@
               "id": "ch6-s6-F",
               "label": "F",
               "title": "Underwriting Information Required",
-              "titleJP": "",
+              "titleJP": "引受に必要な情報",
               "paragraphs": [
                 {
                   "num": "6.9",
                   "text": "The customarily required underwriting information is as follows:\n▪ description of the machinery including size, capacity, model, date of manufacture, history of breakdown, and so on;\n▪ the repair facilities;\n▪ the extent of maintenance or servicing;\n▪ the general housekeeping and working environment, including business efficiency;\n▪ the extent of obsolescence, if any;\n▪ the availability of replacement parts, particularly so, if it is of foreign manufacture;\n▪ the territorial location;\n▪ the claims history in relation to the insured machinery; and\n▪ the sums insured.",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下のとおりです：\n▪ 機械の記述（サイズ、容量、型式、製造日、故障履歴等）\n▪ 修理施設の有無\n▪ 保守契約の有無\n▪ 過去の請求履歴"
                 },
                 {
                   "num": "6.10",
                   "text": "Note that the underwriter may ask for additional information, and the details of the information requested may differ from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "引受担当者が追加情報を求める場合があること、また要求される情報の詳細は保険者によって異なることにご留意ください。"
                 }
               ]
             },
@@ -7282,17 +7282,17 @@
               "id": "ch6-s6-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事由",
               "paragraphs": [
                 {
                   "num": "6.11",
                   "text": "Other than the usual general exceptions that relate to war, strike, riot, civil commotion and nuclear risks, some common exclusions specific to this class of insurance are as follows:\n▪ deductible to be borne by the insured in respect of loss of or damage to each item;\n▪ damage owing to fire, direct lightning, explosion, aircraft or other aerial devices or articles dropped therefrom, collapse of buildings, inundation, flood, earthquake, subsidence, landslide, burglary and theft, and consequential loss;\n▪ loss of or damage to exchangeable tools, e.g. dies, moulds, parts which by their use and/or nature suffer a high rate of wear and depreciation, e.g. refractory linings, objects made of glass, ropes, wheels, elevator, conveyor belts, cables other than electrical conductors, brushes, batteries, tyres, lubricants, fuel;\n▪ wear and tear as a direct consequence of ordinary use or operation, such as cavitation, erosion, corrosion, rust, boiler scale;\n▪ consequential loss or liability of any kind or description, any payments over and above the indemnity for material damage as provided under the insurance; and\n▪ loss or damage caused by any fault or defect existing at the time of commencement of the insurance known to the insured.",
-                  "textJP": ""
+                  "textJP": "戦争、ストライキ、暴動、内乱、核リスクに関する通常の一般免責に加え、この保険種目に特有の一般的な免責事由は以下のとおりです：\n▪ 1事故あたりの免責金額\n▪ 火災、爆発\n▪ 盗難\n▪ 消耗品（ベルト、フィルター等）\n▪ 通常の保守・整備\n▪ 付保前に存在する欠陥"
                 },
                 {
                   "num": "6.12",
                   "text": "Note that the exclusions of a Machinery Breakdown Insurance policy may vary from insurer to insurer.",
-                  "textJP": ""
+                  "textJP": "機械故障保険証券の免責事由は保険者によって異なる場合があることにご留意ください。"
                 }
               ]
             },
@@ -7300,12 +7300,12 @@
               "id": "ch6-s6-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "",
+              "titleJP": "特約拡張",
               "paragraphs": [
                 {
                   "num": "6.13",
                   "text": "Examples of some of the many extensions available in Machinery Breakdown Insurance include:\n▪ renewal of refrigerant necessitated by the breakdown of air-conditioning and refrigerant plant;\n▪ damage to goods being lifted;\n▪ deterioration of stock in the refrigerating machinery;\n▪ surrounding property damage; and\n▪ expediting expenses, such as wages for overtime, payment for carriage by express rail, or road transport, or by air freight, for expediting repairs of damage to the insured plant or property.",
-                  "textJP": ""
+                  "textJP": "機械故障保険で利用可能な拡張の例には以下が含まれます：\n▪ エアコン・冷凍プラントの故障に伴う冷媒の交換\n▪ 冷凍品のファンデーションの損害\n▪ 機器のオーバーホール費用"
                 }
               ]
             },
@@ -7313,37 +7313,37 @@
               "id": "ch6-s6-H1",
               "label": "H1",
               "title": "Deterioration Of Stock Insurance",
-              "titleJP": "",
+              "titleJP": "冷蔵品劣化保険",
               "paragraphs": [
                 {
                   "num": "6.14",
                   "text": "It has been mentioned above that deterioration of stock in the refrigerating machinery is one of the extensions available in Machinery Breakdown Insurance. Alternatively, Deterioration of Stock Insurance can also be arranged on an individual policy basis, provided that it is done in conjunction with a Machinery Breakdown cover.",
-                  "textJP": ""
+                  "textJP": "上記のとおり、冷蔵機械内の在庫の劣化は機械故障保険の拡張の一つです。代替的に、冷蔵品劣化保険は独立した保険証券として取得することもできます。"
                 },
                 {
                   "num": "6.15",
                   "text": "Certain types of stocks such as food, pharmaceuticals, wine, etc. need to be stored in refrigerating machinery at a regulated cum controlled temperature.",
-                  "textJP": ""
+                  "textJP": "食品、医薬品、ワインなど特定の種類の在庫は、規制・管理された温度で冷蔵機械に保管する必要があります。"
                 },
                 {
                   "num": "6.16",
                   "text": "The Deterioration of Stock Insurance is designed as a cover against deterioration of stock in cold storage owing to a breakdown of the refrigerating plant/machinery as a result of any material damage to the refrigerant plant, which is indemnifiable under the Machinery Breakdown Insurance. The mechanical damage or failure of electrical supply under certain conditions can cause the rise or fall in temperature, allow unforeseen escape of refrigerant gas, or result in incorrect storage temperature in a controlled environment.",
-                  "textJP": ""
+                  "textJP": "冷蔵品劣化保険は、冷凍プラント/機械の故障（機械故障保険でカバーされる物的損害に起因する）による冷蔵品の劣化に対する補償として設計されています。"
                 },
                 {
                   "num": "6.17",
                   "text": "The event resulting in deterioration of stock in cold storage must always be an indemnifiable breakdown of machinery i.e. loss of or damage to the refrigerating equipment, which is covered under a Machinery Breakdown insurance policy.",
-                  "textJP": ""
+                  "textJP": "冷蔵品の劣化をもたらす事象は、常にてん補対象の機械故障（すなわち機械故障保険でカバーされる冷凍機器の滅失・損傷）でなければなりません。"
                 },
                 {
                   "num": "6.18",
                   "text": "Therefore, a Deterioration of Stock Insurance policy can be taken out only in connection with a Machinery Breakdown cover. Insurers are generally reluctant to offer Deterioration of Stock Insurance on a standalone basis but only in conjunction with a Machinery Breakdown cover as presumably, the underwriters for the latter would have underwritten the risks of the refrigerant plant/machinery before issuing the Machinery Breakdown policy. As discussed above, the event resulting in deterioration of stock in cold storage must always be an indemnifiable breakdown of machinery i.e. loss of or damage to the refrigerating equipment.",
-                  "textJP": ""
+                  "textJP": "したがって、冷蔵品劣化保険証券は機械故障保険と関連してのみ取得できます。保険者は一般に、機械故障保険なしに冷蔵品劣化保険を単独で提供することに消極的です。"
                 },
                 {
                   "num": "6.19",
                   "text": "The common exclusions in a Deterioration of Stock policy include:\n▪ applicable excesses;\n▪ loss due to shrinkage;\n▪ inherent defects or disease;\n▪ natural deterioration/putrefaction;\n▪ improper storage;\n▪ damage to packing material;\n▪ insufficient circulation of air;\n▪ non-uniformity of temperature;\n▪ temporary repair of the refrigeration machinery without the insurer’s consent;\n▪ consequential loss;\n▪ penalties for delay;\n▪ war risks;\n▪ nuclear radioactive contamination;\n▪ wilful act and negligence; and\n▪ fire, lightning, chemical explosion, aircraft damage, theft, collapse of a building, flood, convulsion of nature.",
-                  "textJP": ""
+                  "textJP": "冷蔵品劣化保険証券の一般的な免責事由には以下が含まれます：\n▪ 適用される免責金額\n▪ 収縮による損害\n▪ 固有の欠陥・疾病\n▪ 自然劣化/腐敗\n▪ 不適切な保管"
                 }
               ]
             },
@@ -7351,12 +7351,12 @@
               "id": "ch6-s6-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "保険金請求",
               "paragraphs": [
                 {
                   "num": "6.20",
                   "text": "A few common claim conditions specific to the Machinery Breakdown Insurance are described below: (a) Notice Of Claims In the event of a claim, the insured must take all reasonable steps to minimise loss or damage and preserve any damaged or defective parts for inspection by the surveyor or representative of the insurer. He must also furnish all relevant supporting information and documentary evidence as the insurer may require. Note that there are some insurers who state that they will not be liable for any loss or damage if notice has not been received by them within a specific period (usually 14 days) of its occurrence. (b) Reasonable Precautions The insured has to take all ordinary and reasonable precautions and comply with all reasonable recommendations of the insurer to prevent loss or damage, and to comply with statutory and manufacturer’s recommendations. (c) Inspection The insurer shall have the opportunity to inspect the loss or damage before any repairs or alterations are carried out, except for minor damage to items, where the insurer may let the insured proceed with the repairs without inspection. If repairs are carried out without the insurer’s consent, or if the machinery is being used without proper repairs to the satisfaction of the insurer, the insurer may cease their liability under the policy.",
-                  "textJP": ""
+                  "textJP": "機械故障保険に特有のいくつかの一般的な保険金請求条件を以下に説明します：\n(a) 請求の通知：保険金請求が発生した場合、被保険者は損害を最小限にするためのすべての合理的な措置を講じ、直ちに保険者に通知しなければなりません。\n(b) 精算の基準：保険者はその選択により修理、交換または復旧し、あるいは損害額を現金で支払います。"
                 }
               ]
             }
@@ -7366,22 +7366,22 @@
           "id": "ch6-s7",
           "number": "7",
           "title": "Machinery Breakdown Consequential Loss Insurance",
-          "titleJP": "",
+          "titleJP": "機械故障間接損害保険",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Machinery breakdown leads to an interruption of production and can potentially cause significant loss in terms of reduced turnover or increased costs of working during down time.",
-              "textJP": ""
+              "textJP": "機械故障は生産の中断を引き起こし、ダウンタイム中の売上高の減少や営業費用の増加という形で重大な損害をもたらす可能性があります。"
             },
             {
               "num": "7.2",
               "text": "The cover provided under Machinery Breakdown Consequential Loss Insurance ensures business continuity, in conjunction with a Machinery Breakdown Insurance policy. It gives the insured a peace of mind it seeks in the event of any unforeseen breakdowns that can affect its business.",
-              "textJP": ""
+              "textJP": "機械故障間接損害保険は、機械故障保険証券と連動して事業継続を確保する補償を提供します。保険者が修理を手配し、損害からの復旧を支援する間、被保険者に安心を与えます。"
             },
             {
               "num": "7.3",
               "text": "Machinery Breakdown Loss of Consequential Loss insurance provides coverage against loss of gross profit due to business interruption caused by an accident indemnifiable under Machinery Breakdown Insurance. The loss of gross profit is as a result of reduction in turnover due to decreased in production and increased in cost of working.",
-              "textJP": ""
+              "textJP": "機械故障間接損害保険は、機械故障保険に基づきてん補対象の事故による事業中断に起因する粗利益の喪失に対する補償を提供します。"
             }
           ],
           "subsections": []
@@ -7397,22 +7397,22 @@
               "id": "ch6-s8-A",
               "label": "A",
               "title": "INTRODUCTION",
-              "titleJP": "",
+              "titleJP": "はじめに",
               "paragraphs": [
                 {
                   "num": "8.1",
                   "text": "In Singapore, it is a common practice for owners of projects (both public and private) to require an insurance bond to be furnished by contractors. At times, the requirement for an insurance bond is a contractual requirement which the contractor must fulfil. Insurance bonds not only serve as substitutes for the security deposit6 which the contractors would otherwise have to pay in cash to the project owner, but also guarantee that the contractors would have to adhere to the terms and conditions of the contract which they had entered into with the project owner. These bond sums will usually range from 5% to 10% of the contract value.",
-                  "textJP": ""
+                  "textJP": "シンガポールでは、プロジェクトの所有者（公共・民間を問わず）が請負業者に保険ボンドの提供を求めることが一般的です。保険ボンドの要件は時に法令により定められます。"
                 },
                 {
                   "num": "8.2",
                   "text": "Besides contractors, persons and/or entities applying for licences and permits also use insurance bonds as substitutes for the security (cash) deposit. These will be for licences and/or permits as required by the authorities (e.g. Controller of Immigration, Immigration & Checkpoints Authority). Bonds are also often required by landlords from their tenants in connection with leasing of premises.",
-                  "textJP": ""
+                  "textJP": "請負業者だけでなく、免許や許可の申請者も、保証金（現金）の代替として保険ボンドを使用します。これらは政府機関が要求する免許・許可のためのものです。"
                 },
                 {
                   "num": "8.3",
                   "text": "In this chapter, you will learn about insurance bonds, including their underwriting requirements.",
-                  "textJP": ""
+                  "textJP": "本章では、保険ボンドとその引受要件について学びます。"
                 }
               ]
             },
@@ -7420,27 +7420,27 @@
               "id": "ch6-s8-B",
               "label": "B",
               "title": "What Is An Insurance Bond?",
-              "titleJP": "",
+              "titleJP": "保険ボンドとは",
               "paragraphs": [
                 {
                   "num": "8.4",
                   "text": "A bond is a writing of obligation (sometimes under seal), whereby a person/company undertakes to pay a sum of money or to perform a contract. An insurance bond is a three-party instrument, whereby one party (the insurance company or bank7) guarantees a second party (the principal) financial protection against a third party (the contractor or insurance company’s client) for failing to perform in accordance with the terms and conditions of a contract. In other words, the insurance bond guarantees the fulfilment of a legal obligation on the part of the contractor. Such a relationship is known as suretyship.",
-                  "textJP": ""
+                  "textJP": "ボンドとは、人/会社が金銭の支払いまたは契約の履行を行うことを約する書面の義務です。保険ボンドは三者の証書であり、一方の当事者（保険者）が他の当事者（発注者）に対して、三番目の当事者（請負業者/クライアント）が義務を履行することを保証します。"
                 },
                 {
                   "num": "8.5",
                   "text": "Figure 6.1 illustrates the relationship among the three parties to an insurance bond. 6 A security deposit is the amount of cash deposit that a project owner/government authority requires the contractor/applicant for a licence to place with any of them. This deposit would be forfeited if the contractor/applicant for the licence did not adhere to the terms and conditions of the contract that they had entered into with the project owner/government authority. 7 Other than an insurance company, a bond can also be issued by a bank. The insurance company/bank should be an independent body from the contractor/client, so that it could discharge the obligation irrespective of the financial situation of the contractor/client. Figure 6.1: Parties To An Insurance Bond",
-                  "textJP": ""
+                  "textJP": "図6.1は保険ボンドの三者間の関係を示しています。保証金とは、プロジェクトの所有者/政府当局が請負業者に要求する現金預託金額です。"
                 },
                 {
                   "num": "8.6",
                   "text": "As you can see from Figure 6.1 above, a contract or obligation is formed between the principal and the contractor/client. This forms the basis for the guarantee that the insurer provides.",
-                  "textJP": ""
+                  "textJP": "図6.1に示されるとおり、発注者と請負業者/クライアントの間に契約または義務が形成されます。これが保険者が提供する保証の基礎を形成します。"
                 },
                 {
                   "num": "8.7",
                   "text": "By issuing the bond, the insurance company guarantees the principal that the obligation will be performed by the contractor/client who undertakes the contract/obligation. In the event that the contractor/client fails to meet the obligation or complete the contract in time, the insurance company has to pay the principal for losses incurred up to the amount as specified in the bond, or undertake to complete the project. Upon paying up the bond, the insurance company can seek recovery by way of the counter guarantors of the contractor/client. Let us take a look at Example 6.1 which illustrates how an insurance bond works. Example 6.1: Illustration Of How An Insurance Bond Works Andy Ang, the owner of a fast-food chain, wants to build a new outlet. He engages Bailey Contractor to construct a building. Thus, a contract is formed between Andy and Bailey Contractor. However, Andy has suffered in the past because of defaulting contractors. As such, he wants assurance from Bailey Contractor that, if it defaults, he will not lose money, and that the project will be completed in a timely and efficient manner with the desired quality of work. Therefore, Bailey Contractor purchases a bond from Crown Insurance Company and gives the bond to Andy. The resulting three-party contractual situation is as follows: contract/ obligation issuance of guarantee application of guarantee Insurer Principal Contractor/Client Crown Insurance Company Andy Ang Bailey Contractor In this case, Bailey Contractor is still primarily liable to Andy Ang. Crown Insurance Company will either pay the money due, or ensure performance of the project contract, whichever is necessary, to satisfy Bailey Contractor’s obligation to Andy.",
-                  "textJP": ""
+                  "textJP": "ボンドを発行することにより、保険会社は発注者に対し、契約/義務を引き受ける請負業者/クライアントが義務を履行することを保証します。請負業者が義務を履行しない場合、保険者がボンドに記載された金額まで発注者に支払います。"
                 }
               ]
             }
@@ -7450,12 +7450,12 @@
           "id": "ch6-s9",
           "number": "9",
           "title": "Types Of Bonds",
-          "titleJP": "",
+          "titleJP": "ボンドの種類",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "The types of bonds commonly issued by insurers are:\n▪ Advance Payment Bonds;\n▪ Bid Bonds;\n▪ Credit Bonds\n▪ Security Bonds;\n▪ Licence & Permit Bonds;\n▪ Maintenance Bonds;\n▪ Payment Bonds;\n▪ Performance Bonds;\n▪ Rental Bonds;\n▪ Sub-Contractor Bonds; and\n▪ Supply Bonds.",
-              "textJP": ""
+              "textJP": "保険者が一般に発行するボンドの種類は以下のとおりです：\n▪ 前払金ボンド\n▪ 入札ボンド\n▪ 信用ボンド\n▪ 保証ボンド\n▪ 免許・許可ボンド\n▪ 瑕疵担保ボンド\n▪ 支払ボンド\n▪ 履行ボンド\n▪ 賃借ボンド\n▪ 下請業者ボンド\n▪ 供給ボンド"
             }
           ],
           "subsections": [
@@ -7463,12 +7463,12 @@
               "id": "ch6-s9-A",
               "label": "A",
               "title": "Advance Payment Bonds",
-              "titleJP": "",
+              "titleJP": "前払金ボンド",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "Advance payment bonds are required in cases where funds are advanced by the project owner to the contractor for the purpose of the pre-purchase of equipment, mobilisation of materials or equipment, or pre-work site preparation, etc. It is used to secure the repayment of the advance payment made by the project owner to the contractor.",
-                  "textJP": ""
+                  "textJP": "前払金ボンドは、プロジェクト所有者が請負業者に対し、機器の事前購入、資材・機器の動員、その他の目的のために資金を前渡しする場合に要求されます。"
                 }
               ]
             },
@@ -7476,17 +7476,17 @@
               "id": "ch6-s9-B",
               "label": "B",
               "title": "Bid Bonds",
-              "titleJP": "",
+              "titleJP": "入札ボンド",
               "paragraphs": [
                 {
                   "num": "9.3",
                   "text": "Bid Bonds (also known as Tender Bonds) are usually required by the project owner, when a project is out for tender. The contractor’s tender has to be accompanied by the bid bond. The amount of the bond is usually a percentage (e.g. 5%) of the tendered sum.",
-                  "textJP": ""
+                  "textJP": "入札ボンド（テンダーボンドとも呼ばれます）は、プロジェクトが入札に付される際にプロジェクト所有者が要求するものです。請負業者の入札には入札ボンドを添付しなければなりません。"
                 },
                 {
                   "num": "9.4",
                   "text": "The Bid Bond is an indication of the contractor’s capability and genuine interest to carry out the work being tendered for. It is effectively also a financial fall back, in the event that the successful contracting party is unable to carry out any part of the tender as submitted, and it becomes necessary to place the project, or part of it out for tender again.",
-                  "textJP": ""
+                  "textJP": "入札ボンドは、請負業者の能力と入札対象工事を遂行する真摯な意思の表明です。事実上、落札した請負業者が契約を辞退した場合の財務的な安全網でもあります。"
                 }
               ]
             },
@@ -7494,12 +7494,12 @@
               "id": "ch6-s9-C",
               "label": "C",
               "title": "Credit Bonds",
-              "titleJP": "",
+              "titleJP": "信用ボンド",
               "paragraphs": [
                 {
                   "num": "9.5",
                   "text": "Credit bonds are required in cases, where the owner of the project extends credit to the contractor during the contract term. This bond guarantees the payment of the sum guaranteed by the insurer for the outstanding charges and liabilities incurred by the contractor during the credit period.",
-                  "textJP": ""
+                  "textJP": "信用ボンドは、プロジェクトの所有者が契約期間中に請負業者に対して信用を供与する場合に要求されます。このボンドは、請負業者が債務不履行の場合に保険者が保証する金額の支払いを保証します。"
                 }
               ]
             },
@@ -7507,17 +7507,17 @@
               "id": "ch6-s9-D",
               "label": "D",
               "title": "Security Bonds",
-              "titleJP": "",
+              "titleJP": "保証ボンド",
               "paragraphs": [
                 {
                   "num": "9.6",
                   "text": "Security bonds are usually required in respect of two categories of people. The first category will comprise visiting individuals requiring to remain in Singapore beyond the duration of the standard visitors’ entry passes. This will apply to foreigners coming to Singapore; e.g. to study or seek medical treatments, etc.",
-                  "textJP": ""
+                  "textJP": "保証ボンドは通常、二つのカテゴリーの人に対して要求されます。第一のカテゴリーは、標準ビザの期間を超えてシンガポールに滞在する必要のある訪問者です。"
                 },
                 {
                   "num": "9.7",
                   "text": "The second category refers to employers employing non-professional foreign workers (excluding Malaysians), such as domestic workers, construction workers, or workers in the manufacturing, marine, process or services sector. Such people are subject to Regulation 21 of the Immigration Regulations of the Immigration Act 1959 under which they are required to deposit a sum of S$5,000 per person with the Controller of Immigration. In lieu of the S$5,000 deposit in cash, they are allowed to substitute it with an immigration bond. The immigration bond serves as a guarantee that the foreign person and the employer will both observe the conditions as specified in the Visit Pass/Work Permit, and that, in event of a breach, the Controller of Immigration will turn to the insurer to pay up the S$5,000 deposit.",
-                  "textJP": ""
+                  "textJP": "第二のカテゴリーは、家事労働者、建設労働者、製造・海事・加工業等の労働者などの非専門的外国人労働者（マレーシア人を除く）を雇用する雇用主です。"
                 }
               ]
             },
@@ -7525,12 +7525,12 @@
               "id": "ch6-s9-E",
               "label": "E",
               "title": "Licence & Permit Bonds",
-              "titleJP": "",
+              "titleJP": "免許・許可ボンド",
               "paragraphs": [
                 {
                   "num": "9.8",
                   "text": "A licence and permit bond is required to guarantee that a corporation or individual will operate in accordance with government statutes and regulations, i.e. it guarantees that the client will conduct his business properly and not breach the contract. Examples of this class of bonds are the HDB renovation licence bonds, MDA (Media Development Authority) licensing bonds and travel agency licence bonds.",
-                  "textJP": ""
+                  "textJP": "免許・許可ボンドは、法人または個人が政府の法令・規制に従って運営することを保証するために要求されます。すなわち、クライアントが法律を遵守して事業を行うことを保証します。"
                 }
               ]
             },
@@ -7538,17 +7538,17 @@
               "id": "ch6-s9-F",
               "label": "F",
               "title": "Maintenance Bonds",
-              "titleJP": "",
+              "titleJP": "瑕疵担保ボンド",
               "paragraphs": [
                 {
                   "num": "9.9",
                   "text": "Maintenance bonds may be required by the owner of a project, upon the completion of the project, for protection against defective workmanship and materials during the warranty (also known as latent defects8) period. The purpose of such bond is to protect the owner against the contractor not being able to carry out the rectifications during the period. This is usually six to 12 months from the completion date of the project. 8 Latent defect is a hidden defect which cannot be discovered during inspection before the acceptance that a project has been successfully completed. Bond",
-                  "textJP": ""
+                  "textJP": "瑕疵担保ボンドは、プロジェクト完了時にプロジェクトの所有者が、保証（潜在的欠陥）期間中の施工不良および材料の欠陥に対する保護のために要求する場合があります。"
                 },
                 {
                   "num": "9.10",
                   "text": "In practice, this type of bond is seldom issued, as most performance bonds have a provision that incorporates maintenance periods. This is why performance bonds usually go beyond the project life.",
-                  "textJP": ""
+                  "textJP": "実務上、この種のボンドはほとんど発行されません。ほとんどの履行ボンドには保全期間を組み込む規定があるためです。これが履行ボンドが通常プロジェクトの存続期間を超える理由です。"
                 }
               ]
             },
@@ -7556,12 +7556,12 @@
               "id": "ch6-s9-G",
               "label": "G",
               "title": "Payment Bonds",
-              "titleJP": "",
+              "titleJP": "支払ボンド",
               "paragraphs": [
                 {
                   "num": "9.11",
                   "text": "Payment bonds are required by the owner of a project as a guarantee that the insurer will pay for certain labour, materials and supply bills, as well as subcontractors’ wages in the event that the contractor fails to pay these costs.",
-                  "textJP": ""
+                  "textJP": "支払ボンドは、請負業者が契約義務を履行しない場合に、保険者が特定の労務費、資材費、供給費、下請業者の賃金を支払うことを保証するものとして、プロジェクト所有者が要求します。"
                 }
               ]
             },
@@ -7569,17 +7569,17 @@
               "id": "ch6-s9-H",
               "label": "H",
               "title": "Performance Bonds",
-              "titleJP": "",
+              "titleJP": "履行ボンド",
               "paragraphs": [
                 {
                   "num": "9.12",
                   "text": "Performance bonds are usually required by the project owner after a project has been awarded to a particular contractor.",
-                  "textJP": ""
+                  "textJP": "履行ボンドは、プロジェクトが特定の請負業者に落札された後にプロジェクト所有者が通常要求するものです。"
                 },
                 {
                   "num": "9.13",
                   "text": "It is an indication that the contractor has the necessary skills and capabilities to carry out the required work and comply with the agreed terms and conditions of the contract. It secures payment for the project owner in the event the contract is not being fulfilled.",
-                  "textJP": ""
+                  "textJP": "これは、請負業者が必要な技能と能力を有し、契約の合意された条件を遵守できることの表明です。請負業者が義務を果たさない場合に発注者への支払いを確保します。"
                 }
               ]
             },
@@ -7587,12 +7587,12 @@
               "id": "ch6-s9-I",
               "label": "I",
               "title": "Rental Bonds",
-              "titleJP": "",
+              "titleJP": "賃借ボンド",
               "paragraphs": [
                 {
                   "num": "9.14",
                   "text": "Rental Bonds are typically used by those who rent shop-houses from the Housing and Development Board (HDB)/Jurong Town Corporation (JTC). The HDB and JTC will usually require these tenants to place a rental deposit and reinstatement deposit in cash with them. The reinstatement deposit is only needed if the tenant is making some renovations to the unit he is renting. Instead of having to pay the deposit in cash, the tenant can purchase a Rental Bond and submit it to these statutory boards. This rental bond serves as a guarantee that, in the event the tenant fails to comply with the terms and conditions of the HDB/JTC rental contract, the board can rely on the insurer to pay the deposit.",
-                  "textJP": ""
+                  "textJP": "賃借ボンドは、住宅開発庁（HDB）やジュロンタウンコーポレーション（JTC）から店舗を賃借する者が通常使用します。HDBやJTCはこれらのテナントに保証金の差入れを求めます。"
                 }
               ]
             },
@@ -7600,12 +7600,12 @@
               "id": "ch6-s9-J",
               "label": "J",
               "title": "Sub-Contractor Bonds",
-              "titleJP": "",
+              "titleJP": "下請業者ボンド",
               "paragraphs": [
                 {
                   "num": "9.15",
                   "text": "Sub-contractor bonds are actually performance bonds that the sub-contractor9 is required to purchase according to the terms of the contract with the main contractor. This bond serves the same purpose as that of the performance bond which the owner of the project requires the contractor to purchase, and which is earlier discussed in this chapter. 9 A sub-contractor is an individual or a business firm contracted to perform part or all of the main contractor’s contract.",
-                  "textJP": ""
+                  "textJP": "下請業者ボンドは、実質的に、下請業者が元請業者との契約条件に基づき購入を求められる履行ボンドです。このボンドは履行ボンドと同じ目的を果たします。"
                 }
               ]
             },
@@ -7613,12 +7613,12 @@
               "id": "ch6-s9-K",
               "label": "K",
               "title": "Supply Bonds",
-              "titleJP": "",
+              "titleJP": "供給ボンド",
               "paragraphs": [
                 {
                   "num": "9.16",
                   "text": "The owner of a project requires Supply bonds to ensure that the contractor who has been awarded the contract will supply the goods and services according to the terms of the contract.",
-                  "textJP": ""
+                  "textJP": "供給ボンドは、落札した請負業者が契約条件に従い商品とサービスを供給することを確保するため、プロジェクト所有者が要求します。"
                 }
               ]
             }
@@ -7628,27 +7628,27 @@
           "id": "ch6-s10",
           "number": "10",
           "title": "Why Are Bonds Used?",
-          "titleJP": "",
+          "titleJP": "ボンドが使用される理由",
           "paragraphs": [
             {
               "num": "10.1",
               "text": "Most bonds are required by the owners of a project (principal), or the authorities issuing licences or permits. They are accepted in lieu of the compulsory cash security deposit and, for the reasons (as described below), are actually often preferred by the principal to cash deposits. The risk of non-performance always exists, irrespective of who the contractor/client is. With the bond, the principal is assured that he will be compensated in the event of any non-performance.",
-              "textJP": ""
+              "textJP": "ほとんどのボンドは、プロジェクト所有者（発注者）または免許・許可を発行する当局が要求するものです。義務的な現金保証金の代わりとして受け入れられ、以下の理由で好まれます。"
             },
             {
               "num": "10.2",
               "text": "The fact that the insurer also plays a part in ensuring the compliance with the contract will help to reduce the chances of incompetence, bankruptcy or poor workmanship, causing the project to be abandoned.",
-              "textJP": ""
+              "textJP": "保険者も契約の遵守を確保する役割を果たすという事実は、無能力、破産、施工不良によりプロジェクトが放棄される可能性を低減するのに役立ちます。"
             },
             {
               "num": "10.3",
               "text": "Bonds are subject to stringent underwriting. As such, this provides the principal with some comfort that there is a good chance that the contractor will complete the project.",
-              "textJP": ""
+              "textJP": "ボンドは厳格な引受の対象です。したがって、請負業者がプロジェクトを完了する見込みがあるという一定の安心を発注者に提供します。"
             },
             {
               "num": "10.4",
               "text": "In turn, the contractor/client also tends, for the reason mentioned below, to favour especially insurance bonds:\n▪ It helps with the cash flow. This is because, instead of having to pay a large amount of cash deposit as security with the principal, the contractor/client needs to pay only a small premium for the bond. In this way, its liquidity and working capital are not affected and can be used for other business purposes.",
-              "textJP": ""
+              "textJP": "一方、請負業者/クライアントも、以下の理由から特に保険ボンドを好む傾向があります：\n▪ キャッシュフローに寄与します。多額の現金保証金を差し入れる代わりに、ボンドの保険料を支払うだけで済むためです。"
             }
           ],
           "subsections": []
@@ -7657,12 +7657,12 @@
           "id": "ch6-s11",
           "number": "11",
           "title": "Underwriting Of Bonds",
-          "titleJP": "",
+          "titleJP": "ボンドの引受",
           "paragraphs": [
             {
               "num": "11.1",
               "text": "Like insurance policies, bonds are also subject to underwriting. Usual underwriting practices include:\n▪ hazard identification and evaluation;\n▪ pricing; and\n▪ monitoring the project.",
-              "textJP": ""
+              "textJP": "保険証券と同様に、ボンドも引受の対象です。通常の引受実務には以下が含まれます：\n▪ 危険の識別と評価\n▪ 料率設定\n▪ プロジェクトの監視"
             }
           ],
           "subsections": [
@@ -7670,12 +7670,12 @@
               "id": "ch6-s11-A",
               "label": "A",
               "title": "Hazard Identification And Evaluation",
-              "titleJP": "",
+              "titleJP": "危険の識別と評価",
               "paragraphs": [
                 {
                   "num": "11.2",
                   "text": "When underwriting bonds, underwriters will need the following information to assess the risks:\n▪ details of the contractor/client; and\n▪ the contract document.",
-                  "textJP": ""
+                  "textJP": "ボンドの引受にあたり、引受担当者はリスクを評価するために以下の情報を必要とします：\n▪ 請負業者/クライアントの詳細\n▪ 契約書"
                 }
               ]
             },
@@ -7683,52 +7683,52 @@
               "id": "ch6-s11-B",
               "label": "B",
               "title": "Details Of The Contractor",
-              "titleJP": "",
+              "titleJP": "請負業者の詳細",
               "paragraphs": [
                 {
                   "num": "11.3",
                   "text": "Details of the contractor are an important consideration in the underwriting of a contract bond. This involves evaluating the 3 C’s, i.e. Character, Capacity and Capital of the contractor.",
-                  "textJP": ""
+                  "textJP": "請負業者の詳細は、契約ボンドの引受における重要な考慮事項です。これは請負業者の3C、すなわちCharacter（品性）、Capacity（能力）、Capital（資本）の評価を含みます。"
                 },
                 {
                   "num": "11.4",
                   "text": "The objective of assessing the character of the contractor is to ascertain that the contractor is honourable and dependable i.e. he can be counted on to perform.",
-                  "textJP": ""
+                  "textJP": "請負業者の品性を評価する目的は、請負業者が誠実で信頼できること、すなわち履行が期待できることを確認することです。"
                 },
                 {
                   "num": "11.5",
                   "text": "The general underwriting information is as follows:\n▪ duration that the contractor has been in business;\n▪ contractor’s reputation in the industry;\n▪ experience and reputation of the management and other key personnel;\n▪ track records of successful performance of contracts of a similar nature to the one being applied for;\n▪ information on other types of contracts undertaken; and\n▪ reasons for failure to perform any contracts in the past.",
-                  "textJP": ""
+                  "textJP": "一般的な引受情報は以下のとおりです：\n▪ 請負業者の事業年数\n▪ 業界における評判\n▪ 経営陣およびその他の主要スタッフの経験と評判"
                 },
                 {
                   "num": "11.6",
                   "text": "The objective of assessing the capacity of the contractor is to determine the ability of the contractor to perform an undertaken project successfully.",
-                  "textJP": ""
+                  "textJP": "請負業者の能力を評価する目的は、請負業者がプロジェクトを成功裏に遂行する能力を決定することです。"
                 },
                 {
                   "num": "11.7",
                   "text": "In respect of capacity, the following information is to be obtained:\n▪ plant size and suitability of equipment, including whether they are owned or leased;\n▪ efficiency of the contractor’s management control; and\n▪ details of the contractor’s continuity plan.",
-                  "textJP": ""
+                  "textJP": "能力に関して、以下の情報を取得します：\n▪ プラントの規模と機器の適合性（所有かリースか）\n▪ 請負業者の経営の効率性\n▪ 類似プロジェクトの経験"
                 },
                 {
                   "num": "11.8",
                   "text": "The objective of assessing the contractor’s capital is to find out his financial ability to assume the risks of business activity.",
-                  "textJP": ""
+                  "textJP": "請負業者の資本を評価する目的は、事業活動のリスクを引き受ける財務的能力を確認することです。"
                 },
                 {
                   "num": "11.9",
                   "text": "The customarily required underwriting information is the following audited:\n▪ balance sheets;\n▪ profit and loss accounts; and for the past three years or longer\n▪ cash flow statements.\n▪ Character\n▪ Capacity\n▪ Capital 3 C's",
-                  "textJP": ""
+                  "textJP": "通常求められる引受情報は以下の監査済みの書類です：\n▪ 貸借対照表\n▪ 損益計算書\n▪ キャッシュフロー計算書（過去3年以上）"
                 },
                 {
                   "num": "11.10",
                   "text": "Besides the 3 C’s, underwriters will also take into account other information, such as the strength of counter guarantors. [Counter guarantors are people who guarantee the insurer that they will pay for any losses incurred in the event that a claim is made. In fact, they are paying the insurers after the insurers make payment under the bond should the contractor default. Counter guarantors are typically the owners of the firm and directors, but they can also be third parties.] Hence, this piece of information (the counter guarantor’s financial strength) will enable the underwriter to assess the application. The insurers usually require the counter guarantors to complete a Deed of Indemnity, also known as Letter of Indemnity (see Appendix 6A). Insurers will not release the bond until they have received the duly executed and signed copy of the Deed of Indemnity.",
-                  "textJP": ""
+                  "textJP": "3Cに加え、引受担当者は反対保証人の信用力などその他の情報も考慮します。反対保証人とは、請負業者が債務不履行の場合に保険者に支払いを保証する人です。"
                 },
                 {
                   "num": "11.11",
                   "text": "Some insurers provide questionnaires, which aim to extract the necessary underwriting information for general insurance advisers to get their clients to complete. A sample copy of the questionnaire is available in Appendix 6B.",
-                  "textJP": ""
+                  "textJP": "一部の保険者は、保険ブローカーが顧客に記入してもらうための引受情報を収集する質問票を提供しています。質問票のサンプルはAppendix 6Eに掲載されています。"
                 }
               ]
             },
@@ -7736,17 +7736,17 @@
               "id": "ch6-s11-C",
               "label": "C",
               "title": "The Contract Document",
-              "titleJP": "",
+              "titleJP": "契約書",
               "paragraphs": [
                 {
                   "num": "11.12",
                   "text": "The contract issued by the owner of the project to the contractor allows the underwriter to determine:\n▪ whether the contractor is familiar with the type of work at hand;\n▪ how soon the contract must be completed; and\n▪ the terms and conditions that will influence the underwriter’s decision.",
-                  "textJP": ""
+                  "textJP": "プロジェクト所有者が請負業者に発行する契約書により、引受担当者は以下を判断できます：\n▪ 請負業者が手がける工事の種類に精通しているか\n▪ 契約の完了期限\n▪ ボンドの金額"
                 },
                 {
                   "num": "11.13",
                   "text": "In addition, some information in the contract will also be used in issuing the bond document. As such, the contract needs to be submitted together with the other underwriting documents to the underwriter.",
-                  "textJP": ""
+                  "textJP": "加えて、契約書の一部の情報はボンド書類の発行にも使用されます。したがって、契約書はその他の引受書類とともに引受担当者に提出する必要があります。"
                 }
               ]
             },
@@ -7754,12 +7754,12 @@
               "id": "ch6-s11-D",
               "label": "D",
               "title": "Pricing",
-              "titleJP": "",
+              "titleJP": "料率設定",
               "paragraphs": [
                 {
                   "num": "11.14",
                   "text": "Once an application for a bond is approved, the underwriter will also decide on the premium to be charged. It is a one-time payment subject to charges for extensions. The premium rates for bonds can range from 1% to 3% per annum applied on the bond amount. Normally, the rate of premium charged by insurers is higher than that charged by the banks because of the level of collateral involved. Banks normally require full collateral for the amount of bank guarantee issued, whereas insurers seldom ask for full collateral. The extent of collateral sought by insurers is dependent on their assessment of the contractor’s financials. Note that the premium warranty clause does not apply to bonds, as bonds are irrevocable.",
-                  "textJP": ""
+                  "textJP": "ボンドの申請が承認されると、引受担当者は課すべき保険料も決定します。これは延長に伴う追加費用を除き一括払いです。ボンドの保険料率は、契約額の0.5%から2%以上まで幅があります。"
                 }
               ]
             },
@@ -7767,12 +7767,12 @@
               "id": "ch6-s11-E",
               "label": "E",
               "title": "Monitoring The Project",
-              "titleJP": "",
+              "titleJP": "プロジェクトの監視",
               "paragraphs": [
                 {
                   "num": "11.15",
                   "text": "Underwriters will monitor the contractor’s progress on projects for which they have issued bonds to the contractor, as this information will be used for the future assessment of bond applications from the same contractor.",
-                  "textJP": ""
+                  "textJP": "引受担当者は、ボンドを発行した請負業者のプロジェクトの進捗を監視します。この情報は同じ請負業者からの将来のボンド申請の評価に使用されるためです。"
                 }
               ]
             }
@@ -7782,27 +7782,27 @@
           "id": "ch6-s12",
           "number": "12",
           "title": "General Structure Of A Bond",
-          "titleJP": "",
+          "titleJP": "ボンドの一般的構造",
           "paragraphs": [
             {
               "num": "12.1",
               "text": "The bond wording usually begins with a bond number, this number is essential, and the parties involved need to quote this number in all their correspondence. The first paragraph of the bond serves the same purpose as the insuring clause of an insurance policy, i.e. it states the liability of the surety in the event of any default by the contractor. See Appendix 6C for a specimen of the bond wording.",
-              "textJP": ""
+              "textJP": "ボンドの文言は通常、ボンド番号で始まります。この番号は重要であり、関係者はすべての通信でこの番号を引用する必要があります。ボンドの最初の段落はボンドの発行理由を説明します。"
             },
             {
               "num": "12.2",
               "text": "The first paragraph explains why the bond is required, while the second paragraph is merely a formal way of saying that, if the contractor/client does not perform the duties as prescribed in the contract, the insurer will pay. The wording for the second paragraph differs according to the form of the bond being issued (see later section of this chapter for details).",
-              "textJP": ""
+              "textJP": "最初の段落はなぜボンドが必要かを説明し、第二の段落は請負業者/クライアントが契約に規定された義務を履行しない場合、保険者がボンドに記載された金額まで支払うという趣旨の正式な表現です。"
             },
             {
               "num": "12.3",
               "text": "A fourth paragraph is sometimes added to explain how to report claims, to describe how to terminate the bond, or to set forth other conditions or terms of the bond agreement. The General Insurance Association of Singapore (GIA) strongly encourages its members to adopt the best practice guideline10 to indicate the expiry date and/or latest date by which claims must be made when issuing guarantees. Insurers are also required to state clearly in the bond documents that the maximum claim period permitted is three months after the expiry of the guarantee.",
-              "textJP": ""
+              "textJP": "第四の段落が追加されることもあり、請求の報告方法、ボンドの終了方法、またはその他の条件を説明します。"
             },
             {
               "num": "12.4",
               "text": "The insurer usually issues the bond in duplicates. The original of the bond is meant for the principal, while the duplicate is meant for the contractor/client. Before delivering the bond documents to the contractor/client, the names of the principal and contractor/client, the bond amount, as well as the bond period, should be carefully and thoroughly checked to ensure that they are correctly reflected in the bond.",
-              "textJP": ""
+              "textJP": "保険者は通常、ボンドを二部発行します。原本は発注者向けで、副本は請負業者/クライアント向けです。ボンド書類を引き渡す前に、保険者は保険料が全額支払われていることを確認します。"
             }
           ],
           "subsections": [
@@ -7810,27 +7810,27 @@
               "id": "ch6-s12-A",
               "label": "A",
               "title": "Forms Of Bonds",
-              "titleJP": "",
+              "titleJP": "ボンドの形式",
               "paragraphs": [
                 {
                   "num": "12.5",
                   "text": "Bonds are usually issued in one of the following forms:\n▪ unconditional on demand basis;\n▪ unconditional general indemnity basis; or\n▪ conditional indemnity basis. 10 GIA circular February 2008. The only exception to this practice would be guarantees issued for legal/court cases and for beneficiaries who are overseas and subject to foreign law.",
-                  "textJP": ""
+                  "textJP": "ボンドは通常、以下のいずれかの形式で発行されます：\n▪ 無条件オンデマンドベース\n▪ 無条件一般てん補ベース\n▪ 条件付きてん補ベース"
                 },
                 {
                   "num": "12.6",
                   "text": "When a bond is issued on an “unconditional on demand” basis, the insurer will have to make payment to the principal, once the principal makes a claim on the bond (see Appendix 6C for a sample of this bond). The contractor/client is not allowed to interfere to prevent payment under the bond. One exception to this rule is when the contractor/client obtains an injunction to prevent the insurer from paying out the bond.",
-                  "textJP": ""
+                  "textJP": "ボンドが「無条件オンデマンド」ベースで発行された場合、保険者は発注者がボンドに対して請求を行えば支払わなければなりません。"
                 },
                 {
                   "num": "12.7",
                   "text": "On the other hand, if a bond is issued on an “unconditional general indemnity” basis, the principal cannot call on the bond if the contractor has properly performed in accordance with the terms of the contract. The condition for the bond to be called is that there must be default under the contract, and as a result of this default, the principal must suffer a loss for which the insurer must make payment to the principal. The bond is said to be unconditional in that any subsequent variation to the contract, or any forbearance granted to the contractor by the principal, will not affect the liability of the insurer under the bond.",
-                  "textJP": ""
+                  "textJP": "一方、ボンドが「無条件一般てん補」ベースで発行された場合、請負業者が契約条件に従い適切に履行している限り、発注者はボンドに対して請求できません。"
                 },
                 {
                   "num": "12.8",
                   "text": "As for bonds issued under “conditional indemnity” basis, the insurer has the right to examine any change in or variation to the contract, so as to determine whether the claim is admissible. In the event of any default by the contractor, the insurer has a right to arrange for another contractor to take over and complete the contract if it is economical for the insurer to do so.",
-                  "textJP": ""
+                  "textJP": "「条件付きてん補」ベースで発行されたボンドについては、保険者は契約の変更や修正を審査し、請求が認められるかどうかを判断する権利を有します。"
                 }
               ]
             }
@@ -7840,27 +7840,27 @@
           "id": "ch6-s13",
           "number": "13",
           "title": "Calling (Claiming) On Bonds",
-          "titleJP": "",
+          "titleJP": "ボンドの請求",
           "paragraphs": [
             {
               "num": "13.1",
               "text": "A call or claim on the bond is usually made when the contractor/client is unable to meet any or all of the contractual obligations of the contract that he has entered into. There are many reasons why the contractor/client is unable to perform according to the contract. Some of the common reasons are:\n▪ absence of capital reserve to face unexpected difficulties, such as increase in cost of material or labour;\n▪ contractor/client is not familiar with the local conditions;\n▪ sudden blocking of credit by suppliers and banks;\n▪ over-expansion of operation in relation to contractor/client’s capacity; or\n▪ insufficient precautions to guarantee completion of the project in the event of death or injury to the contractor/client or senior employees.",
-              "textJP": ""
+              "textJP": "ボンドに対する請求は、通常、請負業者/クライアントが締結した契約の義務の全部または一部を履行できない場合に行われます。請負業者が履行できない理由はさまざまです。"
             },
             {
               "num": "13.2",
               "text": "In the event that a bond is called, the insurer will usually deal directly with the principal, i.e. the intermediary will not be involved. For demand bonds, the insurer will usually make the payment to the principal immediately and without any verification. For non-demand bonds (those issued on “unconditional general indemnity” and “conditional indemnity” basis), instead of calling for the bond, the principal may allow another contractor to complete the project. This may be done by way of a Novation Agreement. Similarly, for demand bonds, if the principal allows another contractor to complete the project, it can also be done by way of a Novation Agreement. The Novation Agreement is made among the parties, namely:\n▪ the contractor;\n▪ the new contractor; and\n▪ the owner (principal).",
-              "textJP": ""
+              "textJP": "ボンドが請求された場合、保険者は通常、発注者と直接対応します。すなわち、仲介者は関与しません。デマンドボンドについては、保険者は通常14日以内に発注者に支払いを行います。"
             },
             {
               "num": "13.3",
               "text": "The new contractor is bound by the terms made between the original contractor and the owner. Note that a Novation Agreement cannot be executed once the contract is terminated. Usually though, the owner will require the insurer to issue a new bond for the revised or same sum, once the Novation agreement is executed.",
-              "textJP": ""
+              "textJP": "新しい請負業者は、元の請負業者と所有者の間で定められた条件に拘束されます。契約が終了した後はノベーション契約を締結できないことにご留意ください。"
             },
             {
               "num": "13.4",
               "text": "At the same time, the insurer will look to the contractor for reimbursement of the loss and expenses incurred. It is important that the contractor responds to the insurer’s request for information in a timely manner, as this will help to minimise the cost to all parties involved. Novation Agreement APPENDIX 6A To: ABC INSURANCE COMPANY (SINGAPORE) LIMITED 21 Any Street, ABC Centre, Singapore 654321 Policy No.: Agency: INDEMNITY The Contract:- The Contractor/Sub-Contractor/Employee:- Address:- The Principal/Owner/Developer/Employer:- The Amount Guaranteed: Singapore Dollars S$____________________________________________ In consideration of ABC INSURANCE COMPANY (SINGAPORE) LIMITED, (the Company) having at the request of THE CONTRACTOR agreed to provide an insurance guarantee/performance bond (which shall include guarantees or performance bonds arranged by and at the discretion of ABC INSURANCE COMPANY (SINGAPORE) LIMITED to be issued or provided by any other parties or institutions) for The Sum Guaranteed to THE PRINCIPAL guaranteeing the satisfactory performance completion of The Contract in accordance with terms as may be agreed, (the Undertaking). In consideration of the Company entering into or otherwise accepting liability under the Undertaking, the Sureties agree with the Company as follows:- SPECIMEN 1. Indemnity against liability under the Undertaking The Sureties convenant and undertake jointly and severally to indemnify the Company and irrevocably keep the Company indemnified against all demands, claims, actions, suits, liabilities, losses, costs and expenses whatsoever including all legal costs on a Solicitor and Client basis (Indemnity Basis) and other costs, charges and expenses that the Company may incur in connection with the Undertaking or in enforcing or attempting to enforce the Company’s rights under this indemnity. The Sureties irrevocably convenant and undertake jointly and severally to pay and reimburse such sums to the Company on demand together with interest on such sums from the date when such sums were first paid by the Company until payment of such sums by the Sureties in full, calculated from day to day at the rate of 1.5 per centum per month both before and after any Judgement. 2. Indemnity against Judgment or Order The Sureties agree that if any judgment or order against one or more of the Sureties is given or made for the payment of any amount due under this indemnity and is expressed in a currency other than that in which such amount is payable by the Sureties under this indemnity, the Sureties irrevocably jointly and severally convenant and undertake that they shall indemnify the Company against any loss incurred by the Company as a result of any variation having occurred in rates of exchange between the date as of which such amount is converted into such other currency in or for the purpose of enforcing such judgment or order and the date of actual payment pursuant to it. This clause shall constitute a separate and independent obligation on the part of the Sureties and shall continue in full force and effect notwithstanding any such judgment or order as stated above. 3. Authorisation to make payments The Sureties irrevocably authorise the Company to pay immediately on or to compromise any claim or to otherwise comply with any demand for payment which appears or purports to be made under the Undertaking without any reference to or further authority from all or any of the Sureties and without inquiry into the justification for such claim or demand or into the validity, genuineness or accuracy of any such claim or demand notwithstanding that the validity or amount of such claim or demand shall be disputed by one or more of the Sureties. The Sureties further agree that any such claim or demand on the Company and any payment made by the Company thereon shall be binding on the Sureties and shall, as between the Company and the Sureties, be conclusive evidence that the Company was liable to pay or comply with it and the Sureties liability to indemnify the Company. 4. Notices Any notice, demand or communications given under this indemnity to any party to the indemnity shall be in writing and shall be deemed to be duly served if left at or sent by pre-paid registered first class mail (or by pre-paid registered airmail, if overseas) or, by telefax, telex authenticated by answer back code to the last known address of the addressee. Any notice, demand or communication so sent shall be deemed to be received, if sent by pre-paid registered first class mail, 2 business days after posting (or 5 business days in the case of pre-paid registered airmail) or, if sent by telefax or telex, at the moment of dispatch and if left at the above mentioned last known address, at the time of delivery PROVIDED that if in the case of notices, demands or communications made or given by telex, telefax or delivery, the moment of dispatch or the time of delivery does not occur on a day which is a business day at the place where such notice, demand SPECIMEN or communication is received, such notice demand or communication shall not be deemed to have been received until the first business day afterwards at such place of receipt. In case of the death of any of the Sureties and until receipt by the Company of notice in writing of the Grant of Probate or Letters of Administration of the estate of the deceased, any demand sent as set out above to the last known address of the deceased shall, for all purposes, be deemed a sufficient demand by the Company to the deceased and his personal representatives and shall be as effectual as if the deceased were still living. 5. Effect of other indemnities The Company’s rights under this indemnity shall be in addition to and shall not be in any way prejudiced or affected by any one or more other indemnities, guarantees, securities or other obligations which the Company may now or may subsequently hold whether from one or more of the Sureties or from any other person. The Company may at any time and without reference to the Sureties give time for payment or grant any other indulgence and give up, deal with, vary, exchange or abstain from perfecting or enforcing any other indemnity, guarantee, security or other obligation held by the Company at any time and discharge any party to them or any of them, and realise them or any of them, and compound with, accept compositions from and make any other arrangements with the beneficiary of the Undertaking or any person, as the Company think fit, without affecting the liability of the Sureties under this indemnity. 6. Effect of other means of payment The Company is to be at liberty but not bound to resort for the Company’s own benefit to any other means of payment at any time and in any order the Company may think fit without in consequence diminishing the Sureties’ liability and the Company may enforce their rights under this indemnity either for the payment of the ultimate balance after resorting to other means of payment or for the amount due at any time notwithstanding that other means of payment have not been resorted to and in the latter case without entitling the Sureties to any benefit from such other means of payment so long as any money remains due or owning or payable whether actually or contingently from or by the Sureties to the Company. 7. Modification of the Undertaking The Undertaking may from time to time, without need for the consent or knowledge of the Sureties, be modified or altered. Without prejudice to the generality of the foregoing, the amount of the Undertaking may be increased or decreased or the Undertaking may be renewed or further extended either in accordance with its original terms, or upon request and the agreement thereto of the Company and the beneficiary of the Undertaking. The Sureties liability under this indemnity shall continue to apply to the Undertaking as so modified, altered, renewed or extended from time to time. 8. Joint and several liability of partners Where a Surety is a partnership or otherwise consists of more than one person the liability of that Surety under this indemnity shall be deemed to be the joint and several liability of the partners and any demand for payment made by the Company to any one or more of the persons so jointly and severally liable shall be deemed to be a demand made to all such persons. The Company may release or discharge any one or more of such persons from liability under this indemnity or compound with, accept compositions from or make any other arrangements with any of such persons without in consequence releasing or affecting the Company’s rights and remedies against the other of such persons. SPECIMEN 9. Release and Discharge The Company may release or discharge any one or more of the Sureties from liability under this indemnity or compound with, accept compositions from or make any other arrangements with any one or more of the Sureties without in consequence releasing or affecting the Company’s rights and remedies against any of the remaining Sureties. 10. Invalid Execution If any one or more of the intended Sureties under this indemnity who may have been expressly or impliedly contemplated to be Co-Sureties under this indemnity is not bound by the provisions of this indemnity whether by reason of his, her or their lack of capacity or improper execution of or failure to execute this indemnity or for any other reason whatsoever, the remaining Sureties shall continue to be bound by the provisions of this indemnity as if each of such other intended Sureties whose execution of the indemnity is so invalid, had never been a party thereto. 11. Not to claim in competition Each of the Sureties waive all rights of subrogation and agree not to claim any set off or counterclaim against any other Surety or to claim or prove in competition with the Company in the event of the bankruptcy, liquidation winding up or insolvency of any other Surety or to have any benefit of or share in any guarantee, other indemnity or security now or hereinafter held by the Company until the Company has received a full indemnity in accordance with this indemnity. 12. Effect of delay or omission No delay or omission on the Company’s part in exercising any right, power, privilege or remedy in respect of this indemnity shall impair such right, power, privilege or remedy, or be construed as a waiver of it, nor shall any single or partial exercise of any such right, power, privilege or remedy preclude any further exercise of it or the exercise of any other right, power, privilege or remedy. The rights, powers, privileges and remedies provided in this indemnity are cumulative and not exclusive of any rights, powers, privileges or remedies provided by the law. 13. Governing law and jurisdiction This indemnity shall be governed by and construed in accordance with the law of Singapore and it is irrevocably agreed for the exclusive benefit of the Company that the courts of Singapore are to have jurisdiction to settle any dispute which may arise out of or in connection with this indemnity and that accordingly any suit, action or proceeding arising out of or in connection with this indemnity (in this clause referred to as “proceedings”) may be brought in such courts. Nothing in this clause shall limit the right of the Company to take proceedings against any one or more of the Sureties in any other court of competent jurisdiction, nor shall the taking of proceedings in one or more jurisdictions preclude the taking of proceedings in any other jurisdiction, whether concurrently or not. 14. Severability Notwithstanding that any provisions of this indemnity may prove to be illegal or otherwise unenforceable the remaining provisions of this indemnity shall continue in full force and effect. 15. Interpretation In this indemnity where the context permits the singular includes the plural and vice versa and reference to persons include references to companies. SPECIMEN 16. Headings The headings of each clause of this indemnity are inserted solely for ease of reference and shall not at all affect the interpretation of the clauses. IN WITNESS OF WHICH THE SURETIES HAVE SET THEIR HANDS TO THIS INDEMNITY this day of . The Sureties Signature / Company Stamp & Designation Name: NRIC No.: Tel: Address Signature Name: NRIC No.: Tel: Address Signature Name: NRIC No.: Occupation: Tel: Address Signature Name: NRIC No.: Tel: Address Signature Name: NRIC No.: Occupation: Tel: Address Signature Name: NRIC No.: Tel: Address Signature Name: NRIC No.: Occupation: Tel: Address Signature Name: NRIC No.: Tel: Address The Witness 1. 2. 3. 4. SPECIMEN APPENDIX 6B ABC INSURANCE COMPANY (SINGAPORE) LIMITED (Registration No: 2009-12345-A) 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 E-mail: contactus@abcinco.com.sg Website: www.abcinco.com.sg CONTRACTOR’S QUESTIONNAIRE",
-              "textJP": ""
+              "textJP": "同時に、保険者は請負業者に対し、発生した損害と費用の弁済を求めます。請負業者が保険者の情報提供の要求に適時に対応することが重要です。"
             }
           ],
           "subsections": []
@@ -7874,7 +7874,7 @@
             {
               "num": "",
               "text": "ADDRESS: 2. A Company Date of Registration A Partner Date of Formation An Individual Date of Business Commencement 3. Please attach a list of key personnel. 4. How many years has your organisation been in business under its present business name? 5. How many years’ experience has your organisation had in construction work of a type similar to this contract? (i) as a Main Contractor (ii) as a Sub-Contractor 6. Please attach a complete list of construction projects your organisation has under way as of this date, containing the following details: (a) Owner (b) Type of Work (c) Location of Work (d) Contract Price (e) Uncompleted Portion 7. Please attach a list of bids and tenders pending as of this day, containing the following details: (a) Owner (b) Type of Work (c) Location of Work (d) Bid Date (e) Contract Price SPECIMEN 8. Please attach a complete list of products which you have performed in the past few years and which you feel will qualify you for this work, containing the following details: (a) Owner (b) Type of Work (c) Location of Work (d) Contract Price (e) Acceptance Date 9. Have you ever failed to complete any work awarded to you? If so, when and why? 10. Has any officer or partner of your organisation ever been an officer or partner of some other organisation that failed to complete a construction contract? If so, state name of individual, name of organisation and reason. Name of Individual Name of Organisation Reasons: 11. Has any officer or partner of your organisation ever failed to complete a construction contract handled in his own name? 12. How much construction experience have the principal individuals of your organisation had? Name Present Position/Office Years of Constr. Exp Magnitude Type of Work In what Capacity SPECIMEN 13. Please attach a complete list of equipment that you own, containing the following information: 14. Please list insurance carried by your organisation, including Life insurance on the lives of officers and payable to Company, Partnership or Business: 15. Give name and address of Supply Houses with which you deal: 16. Please indicate at what banks you have established lines of credit; what is the extent and on what basis have they been granted? 17. Please attach: (a) the last three audited Balance Sheets and Profit and Loss Accounts (b) if you are a subsidiary Company, please attach the last three audited Balance Sheets and Profit and Loss Accounts of Parent Company. 18. Deals of Contract for which bond is required: (a) Nature Of Work To Be Done Location of Work SPECIMEN (b) Contract Price Of Your Company Of Any Other Known Tender (c) Financing (i) Who provides the financing? (d) Payment Provisions (i) Progressive Payments (e.g. monthly) (ii) % Retained by the Owner (iii) Advance Payments to be made to the Contractor (iv) Any Other Details (v) Penalties and liquidated damages. (Please attach respective clauses) (vi) Risks excluded according to contract. (Please attach respective clause) (vii) Date of signature of contract: (viii) Date of commencement of work: (ix) Contract period: (x) Maintenance period: (xi) If the contract contains any maintenance and efficiency guarantees, please attach text of respective clauses. SPECIMEN Appendix 6C PPBB01-0000 INSURANCE GUARANTEE FOR SECURITY BOND To: _____________________(Principal) RE: CONTRACT TITLE / PROJECT In consideration of the ____________(Principal) for the Town of _________Singapore (hereinafter called the “Town Council”). Agreeing at the request of __________ (Contractor) of ____________________(hereinafter called the “Contractor”) and ourselves to accept an unconditional guarantee in lieu of the deposit of Singapore Dollars Sum Guarantee ONLY (S$_______________). We, ABC INSURANCE COMPANY (SINGAPORE) LIMITED having its registered office at 21 Any Street, ABC Centre, Singapore 654321 (hereinafter called the “Surety”) HEREBY UNDERTAKE TO PAY AND SATISFY you forthwith without any question or qualification on your first demand to us in writing without any reference to the Contractor and notwithstanding any notice given by the Contractor to the Surety not to pay the sum or sums so demanded to the Town Council. PROVIDED ALWAYS that our liability, hereunder shall be limited to the sum of Singapore Dollars _________________ ONLY (S$__________). This guarantee shall be valid and shall continue and remain in full force and shall take effect from _________day of _______ to ____________day of _______________(Contract Period plus Maintenance Period). This guarantee is conditional upon a claim being made by the Town Council by notice in writing to us and a claim hereunder must be made within three (3) months from the expiry of this guarantee. Thereafter this guarantee shall automatically cease to have any effect whatsoever whether or not it is returned to the Surety for cancellation. The Surety shall not be discharged or released from this guarantee by any arrangement made between the Contractor and the Town Council with or without the consent of the Surety, or by any forbearance whether as to amount, time, performance, or in any other way. Notwithstanding any provision in this guarantee any demand under this guarantee shall be conclusive evidence that the sum or sums demanded is or are due and payable provided that the maximum aggregate liability of the Surety shall not exceed the sum stated above. Dated this the _________day of ________________________ Signed by _____________________ for and on behalf of INSURANCE COMPANY In the presence of:- _________________________________________________ SPECIMEN",
-              "textJP": ""
+              "textJP": "請負業者：日付：\n住所：2. 会社/パートナーシップ/個人 登録日/設立日/事業開始日 3. 主要人員のリストを添付してください。4. 貴社の事業年数。"
             }
           ],
           "subsections": []
