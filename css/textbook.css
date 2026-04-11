@@ -257,11 +257,6 @@
   color: var(--tb-accent, var(--c-accent));
 }
 .tb-related__go--all {
-  width: auto;
-  height: 32px;
-  border-radius: 16px;
-  padding: 0 10px;
-  font-size: 0.7rem;
   font-weight: 600;
 }
 .tb-related__item {
@@ -283,14 +278,15 @@
 }
 .tb-related__go {
   flex-shrink: 0;
-  width: 32px;
-  height: 32px;
+  min-width: 48px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 10px;
   background: var(--c-surface-alt);
   border: 1px solid var(--c-border);
-  border-radius: 50%;
+  border-radius: 14px;
   cursor: pointer;
   font-size: 0.7rem;
   color: var(--tb-accent, var(--c-accent));
