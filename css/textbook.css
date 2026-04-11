@@ -256,18 +256,11 @@
   font-size: 0.85rem;
   color: var(--tb-accent, var(--c-accent));
 }
-.tb-related__practice-all {
-  font-size: 0.75rem;
-  padding: 4px 10px;
-  background: var(--tb-accent, var(--c-accent));
-  color: #fff;
-  border: none;
+.tb-related__go--all {
+  width: auto;
   border-radius: var(--radius);
-  cursor: pointer;
-  white-space: nowrap;
-}
-.tb-related__practice-all:hover {
-  opacity: 0.85;
+  padding: 4px 10px;
+  font-weight: 600;
 }
 .tb-related__item {
   display: flex;

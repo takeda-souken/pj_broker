@@ -98,7 +98,11 @@ function cascadeLangSwitch() {
   // If the page has enough triText spans, CSS handles everything — no re-render
   if (app && app.querySelectorAll('.i18n-en').length >= 3) return;
   // Fallback: re-render for pages still using tr() strings
-  handleRoute();
+  // Preserve scroll position since this is not a route change
+  const scrollY = window.scrollY;
+  handleRoute().then(() => {
+    window.scrollTo({ top: scrollY, behavior: 'instant' });
+  });
 }
 
 export async function initRouter() {

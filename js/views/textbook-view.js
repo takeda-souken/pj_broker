@@ -237,9 +237,9 @@ registerRoute('#textbook', async (app) => {
         `${tr('textbook.relatedQuestions', 'Related Questions')} (${related.length})`));
       const allIds = related.map(q => q.id).join(',');
       headerRow.appendChild(el('button', {
-        className: 'btn btn--sm tb-related__practice-all',
+        className: 'tb-related__go tb-related__go--all',
         onClick: () => { persistState(); navigate(`#quiz?module=${currentModule}&mode=practice&review=${allIds}&from=textbook`); },
-      }, `${tr('textbook.practiceAll', 'Practice All')}`));
+      }, 'All \u25B6'));
       relEl.appendChild(headerRow);
 
       for (const q of related.slice(0, 10)) {
