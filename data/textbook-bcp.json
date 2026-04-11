@@ -1388,7 +1388,7 @@
       "id": "ch3",
       "number": 3,
       "title": "RISKS & INSURANCE",
-      "titleJP": "",
+      "titleJP": "リスクと保険",
       "outline": [
         "Introduction",
         "Types Of Risks",
@@ -1400,7 +1400,17 @@
         "Classification Of General Insurance Products",
         "Individual & Group Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "リスクの種類",
+        "付保適格リスクの特性",
+        "危険事故（ペリル）とハザード",
+        "リスク処理の方法",
+        "リスクに対する態度",
+        "保険の便益",
+        "損害保険商品の分類",
+        "個人保険と団体保険"
+      ],
       "learningOutcomes": [
         "understand the concepts of risk and chance",
         "define what insurance is and understand how insurance works",
@@ -1421,18 +1431,37 @@
         "list the advantages of a compulsory plan",
         "list the advantages of a voluntary plan"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "understand the concepts of risk and chance",
+        "define what insurance is and understand how insurance works",
+        "リスクプーリングの概念を知る",
+        "identify the differences between insurance and gambling",
+        "differentiate the various types of risks",
+        "付保適格リスクの特性を知る",
+        "know the difference between a valued contract, a contract of indemnity and a benefit contract",
+        "understand the meanings of peril and hazard, and distinguish the differences between the two concepts",
+        "understand the difference between a moral hazard and a physical hazard",
+        "be aware of the various methods of handling risks",
+        "understand how attitudes towards risks will affect an individual’s decision in selecting the methods to handle risks",
+        "appreciate the benefits of insurance",
+        "know the major classes of general insurance and the risks that they cover",
+        "compare the differences between Individual Insurance and Group Insurance",
+        "state the characteristics of a Group Insurance policy",
+        "compare the differences between a compulsory and a voluntary plan",
+        "list the advantages of a compulsory plan",
+        "list the advantages of a voluntary plan"
+      ],
       "sections": [
         {
           "id": "ch3-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "To understand the need for insurance, one has to first understand the concept of risk, since insurance serves as a risk transfer mechanism for individuals and organisations. A risk transfer mechanism is a means by which an individual or commercial organisation will pass on (transfer) the risk that it faces to another party. An example of such a mechanism is insurance in which the insurer promises to pay for, repair, replace or reinstate, such as a damaged property, in the event of a peril (e.g. fire) occurring during the period of insurance, provided that the peril is covered within the terms of the insurance policy. We shall look at the definition of “peril” in a later part of this chapter.",
-              "textJP": ""
+              "textJP": "保険の必要性を理解するためには、まずリスクの概念を理解する必要があります。保険は個人および組織にとってのリスク移転メカニズムとして機能するからです。リスク移転メカニズムとは、個人または商業組織が直面するリスクを他の当事者に引き渡す（移転する）手段です。そのようなメカニズムの一例が保険であり、保険者は保険期間中に危険事故（例：火災）が発生した場合に、損傷した財物などの損害を支払い、修理し、交換し、または復旧することを約束します。ただし、当該危険事故が保険契約の条件でカバーされている場合に限ります。「危険事故（ペリル）」の定義については、本章の後半で取り上げます。"
             }
           ],
           "subsections": [
@@ -1440,27 +1469,27 @@
               "id": "ch3-s1-A",
               "label": "A",
               "title": "Risk & Chance",
-              "titleJP": "",
+              "titleJP": "リスクとチャンス",
               "paragraphs": [
                 {
                   "num": "1.2",
                   "text": "To most people, risk implies some form of uncertainty about an outcome in a given situation, and the outcome is normally unfavourable. In contrast, chance implies some doubt about the outcome in a given situation, and the outcome is normally favourable. For example, we may say the risk of an accident, and the chance of passing an examination. In reality, we may use the word “chance” rather loosely to include both unfavourable and favourable outcomes, but we will not use “risk” to refer to a favourable outcome.",
-                  "textJP": ""
+                  "textJP": "ほとんどの人にとって、リスクとは与えられた状況における結果についての何らかの不確実性を意味し、その結果は通常不利なものです。これに対し、チャンスとは与えられた状況における結果についての何らかの疑念を意味し、その結果は通常有利なものです。例えば、事故のリスク、試験に合格するチャンスと言います。実際には、不利な結果と有利な結果の両方を含めて「チャンス」という言葉をかなり緩やかに使うことがありますが、有利な結果を指して「リスク」を使うことはありません。"
                 },
                 {
                   "num": "1.3",
                   "text": "In simple terms, risk may be defined as the possibility of loss. In the context of general insurance, it refers to the possibility of loss to which one’s property or business is exposed. Loss in this context encompasses injury, damage, liability to third parties, expenses and other losses capable of being measured in monetary terms. Risk is the potential that a chosen action or activity (including the choice of inaction) will lead to a loss (an undesirable outcome). Potential losses themselves may also be called \"risks\". Hence, risk can then be defined as the possibility or potential to lose as a result of an occurrence or event.",
-                  "textJP": ""
+                  "textJP": "簡潔に言えば、リスクとは損失の可能性として定義できます。損害保険の文脈では、自己の財産または事業がさらされている損失の可能性を指します。ここでの損失とは、傷害、損害、第三者に対する賠償責任、費用、および金銭的に測定可能なその他の損失を包含します。リスクとは、選択した行為または活動（不作為の選択を含む）が損失（望ましくない結果）につながる可能性です。潜在的な損失自体も「リスク」と呼ばれることがあります。したがって、リスクとは、出来事または事象の結果として損失を被る可能性または潜在性として定義できます。"
                 },
                 {
                   "num": "1.4",
                   "text": "For example, some risks associated with owning a car are:\n▪ accidental injuries to the driver, passengers and/or other road users (cyclists, motorists and pedestrians);\n▪ accidental damage to the car itself, a car belonging to someone else and/or the property of others; and\n▪ theft of the car and/or its fitted accessories.",
-                  "textJP": ""
+                  "textJP": "例えば、自動車を所有することに伴うリスクには以下のものがあります。\n▪ 運転者、同乗者および／またはその他の道路利用者（自転車、自動車の運転者、歩行者）に対する偶発的な傷害\n▪ 自動車自体、他人の自動車および／またはその他の財物に対する偶発的な損害\n▪ 自動車および／またはその付属品の盗難"
                 },
                 {
                   "num": "1.5",
                   "text": "To protect the owner of the car against the financial effects of any loss arising out of the risks of owning a car, he can effect a comprehensive Motor Insurance policy with an insurance company. An unknown loss (the risk of injury, loss or damage) is then transferred to the insurer by paying a fixed premium. For example, in the event of damage to the owner’s car, the insurance company will pay for the cost of repairs if all other terms and conditions of the policy are fully met.",
-                  "textJP": ""
+                  "textJP": "自動車の所有に伴うリスクから生じる損失の経済的影響から所有者を保護するために、所有者は保険会社と総合自動車保険を締結することができます。未知の損失（傷害、損失、損害のリスク）は、確定した保険料を支払うことで保険者に移転されます。例えば、所有者の自動車が損傷した場合、保険契約のその他すべての条件が完全に満たされていれば、保険会社は修理費用を支払います。"
                 }
               ]
             },
@@ -1468,22 +1497,22 @@
               "id": "ch3-s1-B",
               "label": "B",
               "title": "What Is Insurance?",
-              "titleJP": "",
+              "titleJP": "保険とは何か",
               "paragraphs": [
                 {
                   "num": "1.6",
                   "text": "Insurance is an equitable transfer of the risk of a loss, from one entity to another in exchange for a premium payment. It is a form of risk management primarily used to hedge against the risk of a contingent, uncertain loss.",
-                  "textJP": ""
+                  "textJP": "保険とは、保険料の支払いと引き換えに、ある事業体から別の事業体へリスクの公平な移転を行うことです。保険は主として、偶発的で不確実な損失のリスクに対するヘッジとして用いられるリスク管理の一形態です。"
                 },
                 {
                   "num": "1.7",
                   "text": "An insurer or insurance carrier is a company selling the insurance. The insured or policyholder is the person or entity buying the insurance policy. The amount of money to be charged for a certain amount of insurance coverage is called the premium.",
-                  "textJP": ""
+                  "textJP": "保険者または保険会社は、保険を販売する会社です。被保険者または保険契約者は、保険契約を購入する個人または事業体です。一定の保険カバーに対して請求される金額を保険料と呼びます。"
                 },
                 {
                   "num": "1.8",
                   "text": "The transaction involves the insured assuming a guaranteed and known relatively small loss in the form of payment to the insurer, in exchange for the insurer's promise to compensate (indemnify) the insured in case of a financial (personal) loss. The insured receives an official document called the insurance policy (being evidence of the insurance contract between the insured and the insurer) which details the terms, exclusions, conditions and circumstances under which the insured will be financially compensated.",
-                  "textJP": ""
+                  "textJP": "この取引は、被保険者が保険者への支払いという形で保証された既知の比較的少額の損失を引き受けることにより、被保険者が経済的（個人的）損失を被った場合に保険者が被保険者を補償（損害てん補）することを約束するものです。被保険者は、保険証券と呼ばれる公式文書を受け取ります。これは被保険者と保険者の間の保険契約の証拠であり、被保険者が経済的に補償される条件、免責事項、条件および状況を詳述しています。"
                 }
               ]
             },
@@ -1491,17 +1520,17 @@
               "id": "ch3-s1-C",
               "label": "C",
               "title": "How Does Insurance Work?",
-              "titleJP": "",
+              "titleJP": "保険の仕組み",
               "paragraphs": [
                 {
                   "num": "1.9",
                   "text": "Insurance works by spreading the result of a financial loss among many persons, so that the cost to any one person is small. An insurer accepts the risk of financial loss of a large number of people. However, in all probability, only a small percentage of these people will actually suffer an insured financial loss during the period that the insurance is in force. This enables the insurer to use the premiums paid by a very large number of people who buy insurance covers, to pay the claims of a relatively small number of people in the same risk pool. This concept is known as risk pooling, as explained later in this chapter.",
-                  "textJP": ""
+                  "textJP": "保険は、経済的損失の結果を多数の人々に分散させることにより機能し、一人あたりのコストを小さくします。保険者は多数の人々の経済的損失のリスクを引き受けます。しかし、確率的には、これらの人々のうち保険期間中に実際に被保険の経済的損失を被るのは少数のみです。これにより保険者は、保険カバーを購入した非常に多数の人々が支払った保険料を、同じリスクプールに属する比較的少数の人々の保険金請求の支払いに充てることができます。この概念は、本章で後述するリスクプーリングとして知られています。"
                 },
                 {
                   "num": "1.10",
                   "text": "Risk pooling makes it possible for insurers to sell protection against financial losses. This protection is described in the insurance policy, which is a written contractual agreement explaining the benefits payable by the insurer, provided that a particular loss covered by an insured peril occurs. Some insurers sell policies that protect people against the financial losses that occur, when the property is damaged, or their legal liability to compensate third parties because of their acts of negligence. Life and health insurers sell policies that protect people against financial losses that result from personal risks, such as premature death or ill health. General insurers, on the other hand, sell policies that are non-life, e.g. Property and Casualty Insurance, as well as Marine Insurance.",
-                  "textJP": ""
+                  "textJP": "リスクプーリングにより、保険者は経済的損失に対する保護を販売することが可能になります。この保護は保険証券に記述されており、保険証券とは、被保険の危険事故によってカバーされる特定の損失が発生した場合に保険者が支払う給付を説明する書面による契約上の合意です。一部の保険者は、財物が損傷した場合や、過失行為により第三者を補償する法的責任が生じた場合の経済的損失から人々を保護する保険契約を販売しています。生命保険および健康保険の保険者は、早すぎる死亡や健康不良などの人的リスクから生じる経済的損失から人々を保護する保険契約を販売しています。一方、損害保険者は、財物・賠償責任保険や海上保険など、生命保険以外の保険を販売しています。"
                 }
               ]
             },
@@ -1509,47 +1538,47 @@
               "id": "ch3-s1-D",
               "label": "D",
               "title": "Insurance & Gambling",
-              "titleJP": "",
+              "titleJP": "保険とギャンブル",
               "paragraphs": [
                 {
                   "num": "1.11",
                   "text": "Before we proceed further, it is useful to distinguish insurance from gambling, because you may occasionally hear a remark, such as “The insurance company is betting that my house will not burn down, and I am betting that it will”, implying that insurance operates under the same principle as gambling.",
-                  "textJP": ""
+                  "textJP": "先に進む前に、保険とギャンブルを区別しておくことは有益です。なぜなら、「保険会社は私の家が燃えないことに賭けており、私は燃えることに賭けている」といった、保険がギャンブルと同じ原理で運営されていることを暗示する発言を耳にすることがあるからです。"
                 },
                 {
                   "num": "1.12",
                   "text": "It is true that, in both gambling and insurance, money changes hands on the basis of chance events. You pay a premium to insure against losses to your house caused by fire and other insured perils. If no insured loss occurs, the insurance company keeps the premium, and you receive no money. On the other hand, if an insured peril occurs, the insurance company pays for the loss covered by the policy.",
-                  "textJP": ""
+                  "textJP": "確かに、ギャンブルと保険の両方において、偶然の事象に基づいて金銭の授受が行われます。火災やその他の被保険の危険事故による自宅の損失に備えて保険料を支払います。被保険の損失が発生しなければ、保険会社は保険料を保持し、あなたは金銭を受け取りません。一方、被保険の危険事故が発生すれば、保険会社は保険契約でカバーされる損失を支払います。"
                 },
                 {
                   "num": "1.13",
                   "text": "Similarly, if you bet S$200 with Andy that Team A will win its football game against Team B, money will change hands on the basis of what is, to you and Andy, a matter of chance.",
-                  "textJP": ""
+                  "textJP": "同様に、チームAがチームBとのサッカーの試合に勝つことにS$200をAndyと賭けた場合、あなたとAndyにとっては偶然の問題に基づいて金銭の授受が行われます。"
                 },
                 {
                   "num": "1.14",
                   "text": "In spite of the similarity of these insurance and gambling transactions, there are two fundamental differences between them.",
-                  "textJP": ""
+                  "textJP": "これらの保険取引とギャンブル取引の類似性にもかかわらず、両者の間には2つの根本的な違いがあります。"
                 },
                 {
                   "num": "1.15",
                   "text": "First, gambling creates a new speculative risk that has not existed before, i.e. one can either make a profit or loss from the bet; while insurance is a technique for handling an already existing pure risk (speculative risk and pure risk are explained later in this chapter). Therefore, if you bet S$200 on the football game, a new speculative risk is created, but if you pay S$200 to an insurer for Fire Insurance, the risk of fire is already present and is transferred to the insurer by a contract, i.e. the insurance contract as evidenced by a policy document.",
-                  "textJP": ""
+                  "textJP": "第一に、ギャンブルはそれまで存在しなかった新たな投機的リスクを作り出します。すなわち、賭けから利益または損失のいずれかを得る可能性があります。一方、保険は既に存在する純粋リスクを処理するための技術です（投機的リスクと純粋リスクについては本章で後述します）。したがって、サッカーの試合にS$200を賭ければ新たな投機的リスクが生じますが、火災保険のために保険者にS$200を支払えば、火災のリスクは既に存在しており、保険契約（保険証券を証拠とする）によって保険者に移転されます。"
                 },
                 {
                   "num": "1.16",
                   "text": "The second difference between insurance and gambling is that gambling is socially unproductive, since the winner’s gain comes at the expense of a loser. In contrast, insurance is socially productive, since neither the insurer nor the insured is placed in a position, where the gain of the winner comes at the expense of a loser.",
-                  "textJP": ""
+                  "textJP": "保険とギャンブルの第二の違いは、ギャンブルは社会的に非生産的であり、勝者の利得は敗者の犠牲によるものであるということです。これに対し、保険は社会的に生産的であり、保険者も被保険者も、勝者の利得が敗者の犠牲によるという立場に置かれることはありません。"
                 },
                 {
                   "num": "1.17",
                   "text": "Also, both the insurer and the insured have a common interest in the prevention of a loss. Both parties will win if the loss does not occur. Moreover, the gambling transaction never restores the loser to his former financial position. On the other hand, insurance financially restores the insured, in whole or in part, if a loss covered by the policy occurs.",
-                  "textJP": ""
+                  "textJP": "また、保険者と被保険者の両方が損失の防止に共通の利益を有しています。損失が発生しなければ、両当事者ともに利益を得ます。さらに、ギャンブルの取引では敗者を以前の経済的状態に回復させることは決してありません。一方、保険は、保険契約でカバーされる損失が発生した場合、被保険者の経済状態を全部または一部回復させます。"
                 },
                 {
                   "num": "1.18",
                   "text": "In addition, in gambling, the parties involved are aware of when the event will take place, i.e. they will know when a football game will take place. In insurance, both the insured and the insurer will not know if and when a fire will occur.",
-                  "textJP": ""
+                  "textJP": "加えて、ギャンブルでは、関係当事者は事象がいつ発生するかを認識しています。すなわち、サッカーの試合がいつ行われるかを知っています。保険では、被保険者も保険者も火災がいつ発生するかを知ることはできません。"
                 }
               ]
             }
@@ -1559,17 +1588,17 @@
           "id": "ch3-s2",
           "number": "2",
           "title": "Types Of Risks",
-          "titleJP": "",
+          "titleJP": "リスクの種類",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "Now that we are clear what insurance is, and how it is different from gambling, let us proceed to the types of risks that can be insured, since not all risks are insurable.",
-              "textJP": ""
+              "textJP": "保険とは何か、ギャンブルとどう異なるかが明確になったところで、付保可能なリスクの種類に進みましょう。すべてのリスクが付保可能というわけではありません。"
             },
             {
               "num": "2.2",
               "text": "To understand which risks are insurable and which are not, we must first take a look at the various types of risks. These are described below:\n▪ Pure Risk and Speculative Risk;\n▪ Fundamental Risk and Particular Risk; and\n▪ Financial Risk and Non-Financial Risk.",
-              "textJP": ""
+              "textJP": "どのリスクが付保可能でどのリスクがそうでないかを理解するために、まずさまざまな種類のリスクを見てみましょう。以下に説明します。\n▪ 純粋リスクと投機的リスク\n▪ 基本的リスクと個別的リスク\n▪ 経済的リスクと非経済的リスク"
             }
           ],
           "subsections": [
@@ -1577,17 +1606,17 @@
               "id": "ch3-s2-A",
               "label": "A",
               "title": "Pure Risk",
-              "titleJP": "",
+              "titleJP": "純粋リスク",
               "paragraphs": [
                 {
                   "num": "2.3",
                   "text": "A pure risk involves the possibility of a loss only or at best a “no gain” situation.",
-                  "textJP": ""
+                  "textJP": "純粋リスクとは、損失のみの可能性、または最善でも「利得なし」の状況を含むリスクです。"
                 },
                 {
                   "num": "2.4",
                   "text": "A very good example of a pure risk is the risk of collision. If you own a car, it may be damaged in a collision or it may not be. A collision will cause you a financial loss, but the lack of a collision will not result in any gain to you.",
-                  "textJP": ""
+                  "textJP": "純粋リスクの非常に良い例は、衝突のリスクです。自動車を所有している場合、衝突で損傷する可能性もあれば、しない可能性もあります。衝突はあなたに経済的損失をもたらしますが、衝突がないことによって何かの利得が生じるわけではありません。"
                 }
               ]
             },
@@ -1595,32 +1624,32 @@
               "id": "ch3-s2-B",
               "label": "B",
               "title": "Speculative Risk",
-              "titleJP": "",
+              "titleJP": "投機的リスク",
               "paragraphs": [
                 {
                   "num": "2.5",
                   "text": "In contrast to a pure risk, a speculative risk is one that involves the possibility of either a loss or gain.",
-                  "textJP": ""
+                  "textJP": "純粋リスクとは対照的に、投機的リスクとは損失または利得のいずれかの可能性を含むリスクです。"
                 },
                 {
                   "num": "2.6",
                   "text": "Examples of speculative risks are:\n▪ investing in stocks and shares;\n▪ betting on a motorcycle or horse race;\n▪ investing in real estate; or\n▪ venturing into a food or wine business.",
-                  "textJP": ""
+                  "textJP": "投機的リスクの例は以下のとおりです。\n▪ 株式への投資\n▪ オートバイレースや競馬への賭け\n▪ 不動産への投資\n▪ 飲食業やワイン事業への参入"
                 },
                 {
                   "num": "2.7",
                   "text": "In all of these situations, both profits and losses are possible.",
-                  "textJP": ""
+                  "textJP": "これらのすべての状況において、利益と損失の両方が可能です。"
                 },
                 {
                   "num": "2.8",
                   "text": "Normally, insurers will not insure speculative risks, because they are generally created by the persons involved. On the other hand, the car owner does not create the risk by buying a car. The risk of financial loss as a result of a collision exists for anyone who owns a car and that risk can be insured.",
-                  "textJP": ""
+                  "textJP": "通常、保険者は投機的リスクを付保しません。なぜなら、投機的リスクは一般に関与する人々自身が作り出すものだからです。一方、自動車の所有者は自動車を購入することでリスクを作り出すわけではありません。衝突の結果としての経済的損失のリスクは自動車を所有するすべての人に存在し、そのリスクは付保可能です。"
                 },
                 {
                   "num": "2.9",
                   "text": "As such, speculative risks are not insurable, whereas pure risks are. Pure Risk – Insurable Speculative Risk – Not Insurable A “pure” risk does not include the possibility of gain.",
-                  "textJP": ""
+                  "textJP": "したがって、投機的リスクは付保不可能であり、純粋リスクは付保可能です。\n純粋リスク — 付保可能\n投機的リスク — 付保不可能\n「純粋な」リスクは利得の可能性を含みません。"
                 }
               ]
             },
@@ -1628,22 +1657,22 @@
               "id": "ch3-s2-C",
               "label": "C",
               "title": "Fundamental Risk",
-              "titleJP": "",
+              "titleJP": "基本的リスク",
               "paragraphs": [
                 {
                   "num": "2.10",
                   "text": "A fundamental risk is one which affects the entire economy or large numbers of persons or groups within the economy, arising out of social, economic, political or natural causes. Hence, it is widespread in its effect.",
-                  "textJP": ""
+                  "textJP": "基本的リスクとは、社会的、経済的、政治的、または自然的原因から生じる、経済全体または経済内の多数の人々やグループに影響を及ぼすリスクです。したがって、その影響は広範囲に及びます。"
                 },
                 {
                   "num": "2.11",
                   "text": "Examples of fundamental risks are:\n▪ war or nuclear incident;\n▪ epidemic, drought or famine; and\n▪ unemployment, high inflation rate or economic recession.",
-                  "textJP": ""
+                  "textJP": "基本的リスクの例は以下のとおりです。\n▪ 戦争または核事故\n▪ 疫病、干ばつ、飢饉\n▪ 失業、高インフレ率、景気後退"
                 },
                 {
                   "num": "2.12",
                   "text": "Each of the above examples arises from causes outside the control of any one individual, and the effects are widespread. As such, the consequences are normally better addressed via governmental or international relief, rather than commercial insurance (although an individual property owner may insure, for example, against earthquake, flood or thunderstorm).",
-                  "textJP": ""
+                  "textJP": "上記の各例は、いずれも個人の管理の及ばない原因から生じ、影響は広範囲に及びます。したがって、その結果は通常、商業保険よりも政府または国際的な救済によって対処されるのが適切です（ただし、個人の不動産所有者は、例えば地震、洪水、雷雨に対して付保することが可能です）。"
                 }
               ]
             },
@@ -1651,17 +1680,17 @@
               "id": "ch3-s2-D",
               "label": "D",
               "title": "Particular Risk",
-              "titleJP": "",
+              "titleJP": "個別的リスク",
               "paragraphs": [
                 {
                   "num": "2.13",
                   "text": "In contrast to a fundamental risk, a particular risk is one that affects only a single or relatively few individuals, not the entire economy.",
-                  "textJP": ""
+                  "textJP": "基本的リスクとは対照的に、個別的リスクとは、経済全体ではなく、単一または比較的少数の個人にのみ影響を及ぼすリスクです。"
                 },
                 {
                   "num": "2.14",
                   "text": "Examples of particular risks include being:\n▪ robbed while at an alley or in a lift;\n▪ bitten by a stray dog or monkey;\n▪ assaulted when walking in a dark lane; and\n▪ involved in a traffic accident.",
-                  "textJP": ""
+                  "textJP": "個別的リスクの例には以下のものがあります。\n▪ 路地やエレベーター内で強盗に遭うこと\n▪ 野犬や猿に噛まれること\n▪ 暗い小道を歩いているときに暴行を受けること\n▪ 交通事故に巻き込まれること"
                 }
               ]
             },
@@ -1669,22 +1698,22 @@
               "id": "ch3-s2-E",
               "label": "E",
               "title": "Financial Risk",
-              "titleJP": "",
+              "titleJP": "経済的リスク",
               "paragraphs": [
                 {
                   "num": "2.15",
                   "text": "For a risk to be insurable, the outcome must be capable of measurement in monetary terms. Only such risks are insurable as opposed to non-financial risks.",
-                  "textJP": ""
+                  "textJP": "リスクが付保可能であるためには、その結果が金銭的に測定可能でなければなりません。非経済的リスクとは対照的に、そのようなリスクのみが付保可能です。"
                 },
                 {
                   "num": "2.16",
                   "text": "Examples of financial risks are described below:\n▪ Loss of or damage to the hull and machinery of a vessel: The financial value of the risk is the cost of repairing or replacing the different portions of the vessel.\n▪ Damage to fixed glass in a shop front: This risk is measurable since the cost of each piece of glass is known.\n▪ Loss of money through robbery while in transit between the business premises and the bank: The financial value of the risk is the amount of money which has been stolen.",
-                  "textJP": ""
+                  "textJP": "経済的リスクの例を以下に示します。\n▪ 船舶の船体および機械の滅失または損傷：リスクの経済的価値は、船舶の各部分の修理費用または交換費用です。\n▪ 店舗正面の固定ガラスの損傷：各ガラスの費用が既知であるため、このリスクは測定可能です。\n▪ 事業所と銀行の間の輸送中の強盗による金銭の損失：リスクの経済的価値は、盗まれた金銭の額です。"
                 },
                 {
                   "num": "2.17",
                   "text": "One exception to this rule arises when insuring human lives. It is impossible to place a value on one’s own life or on the life of a spouse. Hence, an agreed financial amount is determined at the time of effecting the insurance. INFLATION",
-                  "textJP": ""
+                  "textJP": "この規則の一つの例外は、人の生命を付保する場合に生じます。自分自身の生命や配偶者の生命に金銭的価値を置くことは不可能です。したがって、保険契約締結時に合意された金額が決定されます。"
                 }
               ]
             },
@@ -1692,22 +1721,22 @@
               "id": "ch3-s2-F",
               "label": "F",
               "title": "Non-Financial Risk",
-              "titleJP": "",
+              "titleJP": "非経済的リスク",
               "paragraphs": [
                 {
                   "num": "2.18",
                   "text": "These are risks in which the outcome is not measurable in monetary terms. No accurate value can be placed on the outcome. Such risks usually involve personal decisions, which can produce happy or unhappy emotions, but primarily, they are not concerned with financial implications.",
-                  "textJP": ""
+                  "textJP": "非経済的リスクとは、結果が金銭的に測定できないリスクです。結果に正確な価値を置くことができません。このようなリスクは通常、幸福感や不幸感を生み出す可能性のある個人的な判断を含みますが、主として経済的な影響には関係しません。"
                 },
                 {
                   "num": "2.19",
                   "text": "Examples of non-financial risks are:\n▪ choosing a life partner; and\n▪ selecting the right school for one’s child.",
-                  "textJP": ""
+                  "textJP": "非経済的リスクの例は以下のとおりです。\n▪ 人生のパートナーを選ぶこと\n▪ 子供のために適切な学校を選ぶこと"
                 },
                 {
                   "num": "2.20",
                   "text": "Each of the above examples (some, of course, are more important than others) will involve a degree of uncertainty or risk, and the result may be satisfactory or disappointing. However, such non-financial risks are uninsurable.",
-                  "textJP": ""
+                  "textJP": "上記の各例（もちろん、ある例は他の例よりも重要です）は、ある程度の不確実性またはリスクを含み、結果は満足のいくものであるか失望するものであるかもしれません。しかし、このような非経済的リスクは付保不可能です。"
                 }
               ]
             }
@@ -1717,12 +1746,12 @@
           "id": "ch3-s3",
           "number": "3",
           "title": "Characteristics Of Insurable Risks",
-          "titleJP": "",
+          "titleJP": "付保適格リスクの特性",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "Not every risk is insurable. A risk must usually meet certain requirements in order to be insurable.",
-              "textJP": ""
+              "textJP": "すべてのリスクが付保可能というわけではありません。リスクが付保可能であるためには、通常、一定の要件を満たす必要があります。"
             }
           ],
           "subsections": [
@@ -1730,12 +1759,12 @@
               "id": "ch3-s3-A",
               "label": "A",
               "title": "Large Number Of Insureds",
-              "titleJP": "",
+              "titleJP": "多数の被保険者",
               "paragraphs": [
                 {
                   "num": "3.2",
                   "text": "Firstly, there must be a large number of persons available for insurance having a similar potential for loss. The law of large numbers works only when there are sufficient numbers of potential insureds who have a similar chance for loss, to make the chance of loss predictable.",
-                  "textJP": ""
+                  "textJP": "第一に、同様の損失の可能性を有する多数の人々が保険の対象として利用可能でなければなりません。大数の法則は、損失の可能性が類似する十分な数の潜在的被保険者が存在し、損失の可能性を予測可能にする場合にのみ機能します。"
                 }
               ]
             },
@@ -1743,12 +1772,12 @@
               "id": "ch3-s3-B",
               "label": "B",
               "title": "Accidental Loss",
-              "titleJP": "",
+              "titleJP": "偶発的な損失",
               "paragraphs": [
                 {
                   "num": "3.3",
                   "text": "Secondly, the loss must be accidental in nature. This means that it must generally be fortuitous, unexpected, unforeseeable, and not intentionally or wilfully caused by the insured. For example, the risk of a person being killed in an accident is unpredictable and is beyond the control of that person. Hence, insurance companies can offer Personal Accident Insurance policies to provide protection against financial losses caused by such accidents.",
-                  "textJP": ""
+                  "textJP": "第二に、損失は偶発的な性質のものでなければなりません。これは、損失が一般に偶発的であり、予期せず、予見不可能であり、被保険者によって意図的または故意に引き起こされたものではないことを意味します。例えば、事故で人が死亡するリスクは予測不可能であり、その人の管理の及ばないものです。したがって、保険会社はそのような事故による経済的損失に対する保護を提供する傷害保険を提供することができます。"
                 }
               ]
             },
@@ -1756,17 +1785,17 @@
               "id": "ch3-s3-C",
               "label": "C",
               "title": "Definite Loss",
-              "titleJP": "",
+              "titleJP": "確定的な損失",
               "paragraphs": [
                 {
                   "num": "3.4",
                   "text": "Thirdly, the potential loss must be definite in terms of time and amount. An insurer must be able to know when the loss took place, and how much the claim will be. The insurer’s risk exposures are generally restricted to the period of cover granted to the insured. Therefore, the insurer will be liable to pay only for losses that have occurred, or which have been made during that period of insurance.",
-                  "textJP": ""
+                  "textJP": "第三に、潜在的な損失は、時期および金額の面で確定的でなければなりません。保険者は、損失がいつ発生したか、保険金請求がいくらになるかを知ることができなければなりません。保険者のリスクエクスポージャーは、一般に被保険者に付与されたカバー期間に限定されます。したがって、保険者はその保険期間中に発生した損失、またはその期間中になされた保険金請求に対してのみ支払義務を負います。"
                 },
                 {
                   "num": "3.5",
                   "text": "The amount of claim to be paid depends on the type of insurance contracts issued. Basically, there are three types of insurance contracts, namely contracts of indemnity, valued contracts and benefit contracts. There must be a lot of people sharing risk of loss, in order for the law of large numbers to work.",
-                  "textJP": ""
+                  "textJP": "支払われる保険金額は、発行された保険契約の種類によって異なります。基本的に、保険契約には3つの種類があります。すなわち、損害てん補契約、評価済保険契約、および給付型保険契約です。大数の法則が機能するためには、損失のリスクを分担する多数の人々が必要です。"
                 }
               ]
             },
@@ -1774,17 +1803,17 @@
               "id": "ch3-s3-C1",
               "label": "C1",
               "title": "Contracts Of Indemnity",
-              "titleJP": "",
+              "titleJP": "損害てん補契約",
               "paragraphs": [
                 {
                   "num": "3.6",
                   "text": "General insurance contracts are generally contracts of indemnity, i.e. in accordance with the principle of indemnity, the amount payable to an insured after a loss is based on the amount of the loss actually suffered by him. The insurer calculates the amount to be paid after an occurrence of a loss covered by the policy.",
-                  "textJP": ""
+                  "textJP": "損害保険契約は一般に損害てん補契約です。すなわち、損害てん補の原則に基づき、損失後に被保険者に支払われる金額は、被保険者が実際に被った損失の額に基づきます。保険者は、保険契約でカバーされる損失の発生後に支払うべき金額を算定します。"
                 },
                 {
                   "num": "3.7",
                   "text": "For example, a fire insurer will indemnify the insured based on the actual property damage and loss caused by the insured perils. The insurer will pay only the actual loss incurred, even if the sum insured exceeds the total value of the entire property.",
-                  "textJP": ""
+                  "textJP": "例えば、火災保険者は、被保険の危険事故によって生じた実際の財物の損害および損失に基づいて被保険者に損害をてん補します。保険金額が財物全体の価額を超えていても、保険者は実際に発生した損失のみを支払います。"
                 }
               ]
             },
@@ -1792,27 +1821,27 @@
               "id": "ch3-s3-C2",
               "label": "C2",
               "title": "Valued Contracts",
-              "titleJP": "",
+              "titleJP": "評価済保険契約",
               "paragraphs": [
                 {
                   "num": "3.8",
                   "text": "In a valued contract, the insured and the insurer agree to a specific value for the property, before the insurer issues the policy. If the property is lost or destroyed, the insured will collect the amount that has been agreed upon at the policy inception.",
-                  "textJP": ""
+                  "textJP": "評価済保険契約では、被保険者と保険者は、保険者が保険証券を発行する前に、財物の特定の価額について合意します。財物が滅失または破壊された場合、被保険者は保険契約開始時に合意された金額を受け取ります。"
                 },
                 {
                   "num": "3.9",
                   "text": "Valued policies are commonly issued for items, such as paintings, sculptures, antiques and items of jewellery, where it is difficult to determine the property’s value after having been damaged or destroyed.",
-                  "textJP": ""
+                  "textJP": "評価済保険証券は、絵画、彫刻、骨董品、宝飾品など、損傷または破壊後に財物の価値を決定することが困難な品物に対して一般的に発行されます。"
                 },
                 {
                   "num": "3.10",
                   "text": "In agreeing upon the value of an item or group of items to be insured under a valued contract, the insurer may ask to see the original sales receipt, or may want to have the property appraised by a professional valuer.",
-                  "textJP": ""
+                  "textJP": "評価済保険契約の下で付保される品物または品物群の価額に合意する際、保険者は元の購入領収書の提示を求めるか、専門の鑑定人による財物の評価を求める場合があります。"
                 },
                 {
                   "num": "3.11",
                   "text": "A further example of a valued contract is a Marine Insurance policy, as it is generally issued on an agreed value basis.",
-                  "textJP": ""
+                  "textJP": "評価済保険契約のさらなる例は海上保険証券であり、一般に協定価額ベースで発行されます。"
                 }
               ]
             },
@@ -1820,17 +1849,17 @@
               "id": "ch3-s3-C3",
               "label": "C3",
               "title": "Benefit Contracts",
-              "titleJP": "",
+              "titleJP": "給付型保険契約",
               "paragraphs": [
                 {
                   "num": "3.12",
                   "text": "These are the contracts that pay a sum of money in the event of a contingency, irrespective of whether the insured suffers a financial loss, e.g. in the event of insured’s accidental death or by natural causes, permanent disability or sickness, etc. However, the benefits defined in such policies are not related to the extent of financial loss resulting from the loss of life or health of the insured.",
-                  "textJP": ""
+                  "textJP": "給付型保険契約は、被保険者が経済的損失を被ったかどうかにかかわらず、偶発事故の発生時に一定額の金銭を支払う契約です。例えば、被保険者の偶発的な死亡、自然死、永久障害、疾病等の場合です。ただし、このような保険契約で定義される給付は、被保険者の生命または健康の喪失から生じる経済的損失の程度とは関連しません。"
                 },
                 {
                   "num": "3.13",
                   "text": "Examples of benefit contracts are Personal Accident Insurance (covering accidental death and permanent total disablement), Critical Illness Insurance, Hospital Income Insurance, and most Life Insurance policies, such as Term, Endowment, Whole Life Insurance, etc.",
-                  "textJP": ""
+                  "textJP": "給付型保険契約の例としては、傷害保険（事故死亡および永久完全障害をカバー）、重大疾病保険、入院日額保険、および定期保険、養老保険、終身保険などのほとんどの生命保険契約があります。"
                 }
               ]
             },
@@ -1838,17 +1867,17 @@
               "id": "ch3-s3-D",
               "label": "D",
               "title": "Financial Burden",
-              "titleJP": "",
+              "titleJP": "経済的負担",
               "paragraphs": [
                 {
                   "num": "3.14",
                   "text": "The fourth requirement is that the loss must be large enough to create a financial burden for the individual involved. It is common for people to lose things like umbrellas, key pouches and sunglasses, but such losses are very unlikely to cause much financial burden to the owners. These types of losses are not normally insured, as it would probably cost more to administer the insurance programme than it was to simply buy new umbrellas and key pouches.",
-                  "textJP": ""
+                  "textJP": "第四の要件は、損失が関係する個人にとって経済的負担を生じるほど十分に大きくなければならないことです。人々が傘、キーケース、サングラスなどを失うことはよくありますが、このような損失が所有者に大きな経済的負担をもたらすことはほとんどありません。このような種類の損失は通常付保されません。保険プログラムの管理にかかる費用が、新しい傘やキーケースを単純に購入する費用よりもおそらく高くなるためです。"
                 },
                 {
                   "num": "3.15",
                   "text": "On the other hand, some types of losses could cause financial hardships to most people. For example, a fire gutted a row of residential housing. The resulting home loss would be significant to the residents.",
-                  "textJP": ""
+                  "textJP": "一方で、ほとんどの人々に経済的困難をもたらしうる種類の損失もあります。例えば、火災が住宅一列を焼失した場合。その結果として生じる住居の喪失は、居住者にとって重大なものとなります。"
                 }
               ]
             },
@@ -1856,22 +1885,22 @@
               "id": "ch3-s3-E",
               "label": "E",
               "title": "Affordable Insurance",
-              "titleJP": "",
+              "titleJP": "手頃な保険",
               "paragraphs": [
                 {
                   "num": "3.16",
                   "text": "The fifth requirement for a risk to be insurable is that the insurance must be affordable. This requirement does not relate to the insured’s budget, but rather in relation to the value of the item insured – meaning the cost of the insurance should generally be a small fraction of that item’s value.",
-                  "textJP": ""
+                  "textJP": "リスクが付保可能であるための第五の要件は、保険が手頃な価格であることです。この要件は被保険者の予算ではなく、付保される品物の価値との関連を指します。すなわち、保険のコストは一般にその品物の価値のごく一部であるべきです。"
                 },
                 {
                   "num": "3.17",
                   "text": "Consider this illustration: Brady wants to buy insurance for an antique painting that is valued at S$5,000, and the premium for this coverage is S$4,500 a year. It will not be viable for him to purchase the insurance, because the cost of insurance (i.e. the premium) is almost as much as the value of the painting; the loss of which is uncertain. There is little transfer of risk in this situation.",
-                  "textJP": ""
+                  "textJP": "次の例を考えてみましょう。BradyはS$5,000と評価される骨董品の絵画の保険を購入したいと考えており、このカバーの保険料は年間S$4,500です。保険のコスト（すなわち保険料）が絵画の価値とほぼ同額であり、その損失は不確実であるため、保険を購入することは実行可能ではありません。この状況ではリスクの移転はほとんどありません。"
                 },
                 {
                   "num": "3.18",
                   "text": "Hence, for insurers to offer insurance coverage at an affordable level, it is necessary to have a sufficiently large pool of similar risks to be insured, in order for the law of large numbers to operate properly. Often however, insurers face “anti-selection” or “adverse selection” in that those who seek to purchase insurance for their risks tend to be those risks, where the probability of loss is higher than average. As an example, those people who choose to insure their homes against the risk of flood are more than likely to be those whose homes lie in flood-prone areas. As a result, insurers may be faced with a portfolio of risks that present a higher than average flood exposure, and will have to take suitable measures to address such higher probabilities of loss, i.e. by charging higher rates for flood extension, or by limiting the coverage provided.",
-                  "textJP": ""
+                  "textJP": "したがって、保険者が手頃な水準で保険カバーを提供するためには、大数の法則が適切に機能するよう、付保される同様のリスクの十分に大きなプールが必要です。しかし、保険者はしばしば「逆選択」に直面します。すなわち、リスクに対して保険を購入しようとする人々は、損失の確率が平均よりも高いリスクを持つ傾向があります。例として、洪水のリスクに対して自宅を付保しようとする人々は、洪水が発生しやすい地域に住んでいる可能性が高いです。その結果、保険者は平均よりも高い洪水エクスポージャーを示すリスクのポートフォリオに直面する可能性があり、そのような高い損失確率に対処するための適切な措置を講じる必要があります。すなわち、洪水拡張特約について高い料率を課すか、提供されるカバーを制限することによります。"
                 }
               ]
             },
@@ -1879,12 +1908,12 @@
               "id": "ch3-s3-F",
               "label": "F",
               "title": "Particular Risk",
-              "titleJP": "",
+              "titleJP": "個別的リスク",
               "paragraphs": [
                 {
                   "num": "3.19",
                   "text": "The sixth requirement is that the loss must not routinely happen to a large number of insureds at the same time, i.e. catastrophic or fundamental risks are not insurable. Catastrophic losses can result in a massive and rapid accumulation of losses that can threaten the financial solvency of an insurance company. Examples are property damage caused by war and nuclear risks. In such cases, governments often accept responsibility for these risks. It is not accurate, however, to say that all fundamental risks cannot be insured, but insurers are very selective in the risks of this type that they are prepared to insure. Fundamental risks arising out of some natural causes, such as earthquake, hurricane, typhoon and flood, may be insurable, depending on the geographical location of the property, which is to be insured against these risks.",
-                  "textJP": ""
+                  "textJP": "第六の要件は、損失が多数の被保険者に同時に日常的に発生してはならないということです。すなわち、巨大災害リスクまたは基本的リスクは付保不可能です。巨大災害的損失は、保険会社の財務上の支払能力を脅かしうる大規模かつ急速な損失の蓄積をもたらす可能性があります。例として、戦争および核リスクによる財物の損害があります。このような場合、政府がこれらのリスクに対する責任を引き受けることがしばしばあります。ただし、すべての基本的リスクが付保不可能であるとは言えませんが、保険者はこの種のリスクについて付保する用意があるものを非常に選択的に判断します。地震、ハリケーン、台風、洪水など、自然原因から生じる基本的リスクは、これらのリスクに対して付保される財物の地理的位置によっては、付保可能な場合があります。"
                 }
               ]
             },
@@ -1892,12 +1921,12 @@
               "id": "ch3-s3-G",
               "label": "G",
               "title": "Pure Risk",
-              "titleJP": "",
+              "titleJP": "純粋リスク",
               "paragraphs": [
                 {
                   "num": "3.20",
                   "text": "Finally, the risk to be insured must be a pure risk as opposed to a speculative risk, as explained earlier.",
-                  "textJP": ""
+                  "textJP": "最後に、付保されるリスクは、前述のとおり、投機的リスクではなく純粋リスクでなければなりません。"
                 }
               ]
             }
@@ -1907,12 +1936,12 @@
           "id": "ch3-s4",
           "number": "4",
           "title": "Perils & Hazards",
-          "titleJP": "",
+          "titleJP": "危険事故（ペリル）とハザード",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "The terms, perils and hazards, should not be confused with the concept of risk as discussed earlier.",
-              "textJP": ""
+              "textJP": "危険事故（ペリル）とハザードという用語は、先に議論したリスクの概念と混同してはなりません。"
             }
           ],
           "subsections": [
@@ -1920,12 +1949,12 @@
               "id": "ch3-s4-A",
               "label": "A",
               "title": "Perils",
-              "titleJP": "",
+              "titleJP": "危険事故（ペリル）",
               "paragraphs": [
                 {
                   "num": "4.2",
                   "text": "A peril is defined as an event or occurrence which causes injury, loss or damage. If a house burns down because of a fire, the peril or cause of loss is the fire. If a person’s car is damaged in a collision with another car, the collision is the peril or cause of loss. Some common perils that cause property damage or loss are fire, lightning, windstorm, flood, earthquake, theft and burglary.",
-                  "textJP": ""
+                  "textJP": "危険事故（ペリル）とは、傷害、損失、または損害を引き起こす事象または出来事と定義されます。火災で家屋が焼失した場合、危険事故すなわち損失の原因は火災です。他の自動車との衝突で自分の自動車が損傷した場合、衝突が危険事故すなわち損失の原因です。財物の損害や損失を引き起こす一般的な危険事故には、火災、落雷、暴風雨、洪水、地震、窃盗、強盗があります。"
                 }
               ]
             },
@@ -1933,22 +1962,22 @@
               "id": "ch3-s4-B",
               "label": "B",
               "title": "Hazards",
-              "titleJP": "",
+              "titleJP": "ハザード",
               "paragraphs": [
                 {
                   "num": "4.3",
                   "text": "A hazard is a condition that creates or increases the chance (risk) of loss. On first impression, the distinction between the two may not be that obvious.",
-                  "textJP": ""
+                  "textJP": "ハザードとは、損失の可能性（リスク）を生み出す、または増大させる条件です。一見すると、両者の区別はそれほど明確ではないかもしれません。"
                 },
                 {
                   "num": "4.4",
                   "text": "We will use the examples given in the above section to help you to distinguish the difference between peril and hazard.",
-                  "textJP": ""
+                  "textJP": "上記のセクションで挙げた例を用いて、危険事故（ペリル）とハザードの違いを説明します。"
                 },
                 {
                   "num": "4.5",
                   "text": "Hazards can be sub-divided into moral hazards or physical hazards.",
-                  "textJP": ""
+                  "textJP": "ハザードは、モラルハザードと物理的ハザードに細分されます。"
                 }
               ]
             },
@@ -1956,27 +1985,27 @@
               "id": "ch3-s4-B1",
               "label": "B1",
               "title": "Moral Hazards",
-              "titleJP": "",
+              "titleJP": "モラルハザード",
               "paragraphs": [
                 {
                   "num": "4.6",
                   "text": "Moral hazards arise from the attitude and conduct or behaviour of people. This is a situation, whereby people, through carelessness or by their own irresponsible actions, can increase the possibility of a loss.",
-                  "textJP": ""
+                  "textJP": "モラルハザードは、人々の態度および行為または行動から生じます。これは、人々が不注意または自らの無責任な行動により、損失の可能性を増大させうる状況です。"
                 },
                 {
                   "num": "4.7",
                   "text": "The following examples demonstrate possible moral hazards.\n▪ Charlie feels that insurance protects him, so he leaves his car unlocked whenever he goes fishing.\n▪ A petrol station has an employee who frequently smokes, while working in the compound. The fire that damaged the house. Peril The house was constructed of wood. Hazard The collision that damaged the car. Peril The driver of the car was drunk. Hazard",
-                  "textJP": ""
+                  "textJP": "以下の例は、モラルハザードの可能性を示しています。\n▪ チャーリーは保険が自分を守ってくれると感じているので、釣りに行くたびに車を施錠せずに放置しています。\n▪ ガソリンスタンドの従業員が、構内で作業中に頻繁に喫煙しています。\n家屋を損傷した火災 → 危険事故（ペリル）\n家屋が木造であったこと → ハザード\n自動車を損傷した衝突 → 危険事故（ペリル）\n運転者が飲酒していたこと → ハザード"
                 },
                 {
                   "num": "4.8",
                   "text": "A moral hazard can also involve a situation in which a person engineers a loss on purpose, in order to make a fraudulent claim against an insurance company.",
-                  "textJP": ""
+                  "textJP": "モラルハザードは、保険会社に対して不正な保険金請求を行う目的で、人が故意に損失を企てる状況も含みます。"
                 },
                 {
                   "num": "4.9",
                   "text": "Examples are described below:\n▪ Davy is having some serious business difficulties. So, he plans to burn down his office (an act of arson), in order to make a claim on the Fire Insurance policy.\n▪ Eddy “conveniently” leaves his insured gold chain in a train station, so that someone will take it. He can then file for his loss and claim a new one from the insurer.",
-                  "textJP": ""
+                  "textJP": "例を以下に示します。\n▪ デイビーは深刻な事業上の困難を抱えています。そこで彼は、火災保険の保険金を請求するために事務所に放火することを計画しています（放火行為）。\n▪ エディは被保険の金のチェーンを駅に「都合よく」置き忘れ、誰かに持ち去らせます。そうすれば損失を申告し、保険者から新しいものを請求できます。"
                 }
               ]
             },
@@ -1984,17 +2013,17 @@
               "id": "ch3-s4-B2",
               "label": "B2",
               "title": "Physical Hazards",
-              "titleJP": "",
+              "titleJP": "物理的ハザード",
               "paragraphs": [
                 {
                   "num": "4.10",
                   "text": "A physical hazard arises from the condition, occupancy, or use of the property itself, i.e. it relates to the measurable dimension and physical characteristics of the risk.",
-                  "textJP": ""
+                  "textJP": "物理的ハザードは、財物自体の状態、使用目的、または用途から生じます。すなわち、リスクの測定可能な側面および物理的特性に関連します。"
                 },
                 {
                   "num": "4.11",
                   "text": "Examples are described below:\n▪ Security protection at a jewellery shop: the better the security system, the lower will be the physical hazard level, as it may prevent or minimise a loss.\n▪ The construction of the property: the higher the standard of construction, the lower will be the physical hazard for fire and similar risks, as the building will be more resistant to damage.",
-                  "textJP": ""
+                  "textJP": "例を以下に示します。\n▪ 宝石店のセキュリティ保護：セキュリティシステムが優れているほど、損失を防止または最小化できるため、物理的ハザードのレベルは低くなります。\n▪ 財物の建築構造：建築基準が高いほど、建物が損傷に対してより耐性があるため、火災および同様のリスクに対する物理的ハザードは低くなります。"
                 }
               ]
             }
@@ -2004,12 +2033,12 @@
           "id": "ch3-s5",
           "number": "5",
           "title": "Methods Of Handling Risks",
-          "titleJP": "",
+          "titleJP": "リスク処理の方法",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "Risks are an inevitable part of human life. We have to learn how to handle them. There are four major methods as follows:\n▪ avoidance;\n▪ control;\n▪ retention; and\n▪ transfer.",
-              "textJP": ""
+              "textJP": "リスクは人間の生活の避けられない一部です。私たちはリスクの処理方法を学ばなければなりません。以下の4つの主要な方法があります。\n▪ 回避\n▪ 制御\n▪ 保有\n▪ 移転"
             }
           ],
           "subsections": [
@@ -2017,22 +2046,22 @@
               "id": "ch3-s5-A",
               "label": "A",
               "title": "Avoidance",
-              "titleJP": "",
+              "titleJP": "回避",
               "paragraphs": [
                 {
                   "num": "5.2",
                   "text": "This simply means avoiding the risk.",
-                  "textJP": ""
+                  "textJP": "これは単純にリスクを回避することを意味します。"
                 },
                 {
                   "num": "5.3",
                   "text": "Examples are described below:\n▪ Avoid car collision by never driving a car.\n▪ Eliminate air accident by not travelling in an aircraft.",
-                  "textJP": ""
+                  "textJP": "例を以下に示します。\n▪ 自動車を運転しないことで衝突を回避する。\n▪ 航空機に搭乗しないことで航空事故を排除する。"
                 },
                 {
                   "num": "5.4",
                   "text": "The major advantage of avoidance is that the chance of loss is reduced to zero. However, it may not be possible or practical to avoid risks. For example, it is impossible to avoid the losses resulting from natural catastrophes, such as earthquake and thunderstorm. It is certainly not practical for a regional sales manager of a company to avoid exposure to air accidents, by choosing not to travel by air, to negotiate business deals.",
-                  "textJP": ""
+                  "textJP": "回避の主な利点は、損失の可能性がゼロに低減されることです。しかし、リスクを回避することが可能でない場合や実用的でない場合もあります。例えば、地震や雷雨などの自然災害による損失を回避することは不可能です。商談のために出張する必要がある会社の地域営業マネージャーが、航空機に搭乗しないことで航空事故のリスクを回避することは確かに実用的ではありません。"
                 }
               ]
             },
@@ -2040,17 +2069,17 @@
               "id": "ch3-s5-B",
               "label": "B",
               "title": "Control",
-              "titleJP": "",
+              "titleJP": "制御",
               "paragraphs": [
                 {
                   "num": "5.5",
                   "text": "Fortunately, risk avoidance is not the only method of managing a risk. You can also control the risk to some extent, by reducing both the frequency (loss prevention) and severity (damage reduction) of losses.",
-                  "textJP": ""
+                  "textJP": "幸いなことに、リスクの回避はリスクを管理する唯一の方法ではありません。損失の頻度（損害防止）と深刻度（損害軽減）の両方を低減することにより、リスクをある程度制御することもできます。"
                 },
                 {
                   "num": "5.6",
                   "text": "Examples of:\n▪ Loss prevention – The strict enforcement of safety rules in construction sites forbids workers from smoking in an area where flammable materials are stored.\n▪ Loss reduction – An office has installed a fire sprinkler system, so that a fire can be promptly put out, or placing flammable materials in a separate confined area, etc.",
-                  "textJP": ""
+                  "textJP": "例：\n▪ 損害防止 — 建設現場における安全規則の厳格な施行により、可燃物が保管されている区域での作業員の喫煙を禁止します。\n▪ 損害軽減 — 事務所にスプリンクラーシステムが設置されており、火災を迅速に消火できます。または、可燃物を別の仕切られた区域に配置します。"
                 }
               ]
             },
@@ -2058,27 +2087,27 @@
               "id": "ch3-s5-C",
               "label": "C",
               "title": "Retention",
-              "titleJP": "",
+              "titleJP": "保有",
               "paragraphs": [
                 {
                   "num": "5.7",
                   "text": "In some cases, people simply retain the risk, i.e. if any loss occurs, they will pay for it themselves. Sometimes, people retain only a portion of risk – the portion that remains after other means of managing the risk have been employed.",
-                  "textJP": ""
+                  "textJP": "場合によっては、人々は単にリスクを保有します。すなわち、損失が発生した場合、自ら支払います。リスクの一部のみを保有することもあります。リスクを管理する他の手段が講じられた後に残る部分です。"
                 },
                 {
                   "num": "5.8",
                   "text": "If people are aware of a risk and decide to retain it (or a portion of it), they do so intentionally, and this is called active retention. For example, a motorist may wish to retain the risks of minor accidents to his car, by buying an insurance policy with a deductible (usually known as an excess in Motor Insurance) in exchange for a reduced premium; or a retail shop may deliberately retain the risks of petty theft and shoplifting, by not insuring these risks.",
-                  "textJP": ""
+                  "textJP": "リスクを認識した上でそれを保有（またはその一部を保有）する場合、これは意識的に行われており、能動的保有と呼ばれます。例えば、ドライバーは軽微な事故のリスクを保有するために、減額された保険料と引き換えにディダクティブル（自動車保険では通常エクセスと呼ばれます）付きの保険契約を購入することがあります。また、小売店は万引きや店内窃盗のリスクをこれらのリスクを付保しないことで意図的に保有することがあります。"
                 },
                 {
                   "num": "5.9",
                   "text": "On the other hand, if people are not aware of a risk, they may retain it unintentionally and they may be surprised if a loss occurs – this is called passive retention. Risks can be passively retained because of indifference, ignorance or laziness. For example, a golfer does not know that he runs the risk of lightning strikes while playing golf in bad weather.",
-                  "textJP": ""
+                  "textJP": "一方で、リスクを認識していない場合、意図せずにリスクを保有してしまい、損失が発生した場合に驚くことがあります。これは受動的保有と呼ばれます。無関心、無知、または怠慢のためにリスクが受動的に保有されることがあります。例えば、ゴルファーは悪天候中にゴルフをプレーする際の落雷のリスクを認識していません。"
                 },
                 {
                   "num": "5.10",
                   "text": "Self-insurance is a form of retention measure by which part or all of a given loss exposure is retained by the firm and self-funded when losses occur. This can happen when an organisation decides that it is faced with high-frequency, but low-severity losses. This will mean that the losses are fairly predictable. In such a case, a fund can be created out of which losses will eventually be met. These organisations decide to self-insure, because they feel that they are financially capable to carry such losses, and because the cost to them is lower than commercial premium rates, since they save on the insurers’ administration costs and profits.",
-                  "textJP": ""
+                  "textJP": "自家保険は、企業がある損失エクスポージャーの全部または一部を保有し、損失が発生した際に自己資金で賄う保有手段の一形態です。これは、組織が頻度は高いが深刻度の低い損失に直面していると判断した場合に行われます。これは損失がかなり予測可能であることを意味します。そのような場合、最終的に損失を賄うための基金を設立することができます。これらの組織が自家保険を選択するのは、そのような損失を負担する経済的能力があると感じているためであり、また保険者の管理費用と利益を節約できるため、商業的な保険料率よりもコストが低くなるためです。"
                 }
               ]
             },
@@ -2086,27 +2115,27 @@
               "id": "ch3-s5-D",
               "label": "D",
               "title": "Transfer",
-              "titleJP": "",
+              "titleJP": "移転",
               "paragraphs": [
                 {
                   "num": "5.11",
                   "text": "The final method of managing risk is to transfer it, and the most common method of transferring risk is insurance. By purchasing an insurance policy, the insured transfers certain risks to the insurer. If a loss covered by the insurance policy occurs, the insurer, rather than the insured, pays it.",
-                  "textJP": ""
+                  "textJP": "リスクを管理する最後の方法は移転であり、リスクを移転する最も一般的な方法は保険です。保険契約を購入することにより、被保険者は一定のリスクを保険者に移転します。保険契約でカバーされる損失が発生した場合、被保険者ではなく保険者がそれを支払います。"
                 },
                 {
                   "num": "5.12",
                   "text": "The basic principle of insurance is that the losses of the few are met by the contributions of many. Insurance operates under the law of large numbers.",
-                  "textJP": ""
+                  "textJP": "保険の基本原則は、少数の人の損失が多数の人の拠出金によって賄われるということです。保険は大数の法則の下で運営されます。"
                 },
                 {
                   "num": "5.13",
                   "text": "An insurance company gathers together relatively small contributions (in the form of premiums) from the insureds who want to transfer similar types of risks to the insurer and put these premiums into a pool (the concept of risk pooling as mentioned earlier). The insurer will then compensate the losses of the few out of this pool. Each insured pays an equitable premium proportionate to the risk which he introduces to the pool. In operating the pool, insurers benefit from the law of large numbers, whereby the greater the number of persons insured against a peril, the more the actual loss experience will tend towards the expected loss experience. Risk and uncertainty will diminish, as the number of insured persons gradually increases. Thus, the larger the group insured, the more predictable will be the loss experience for the group as a whole. This then enables the insurer to calculate its likely losses, and thus, to charge a fixed premium, which is sufficient to meet losses and costs of operating and managing the pool, as well as to provide an element of profit for the insurer.",
-                  "textJP": ""
+                  "textJP": "保険会社は、同様の種類のリスクを保険者に移転したい被保険者から比較的少額の拠出金（保険料の形で）を集め、これらの保険料をプール（前述のリスクプーリングの概念）に入れます。保険者はこのプールから少数の人の損失を補償します。各被保険者は、プールに持ち込むリスクに比例した公平な保険料を支払います。プールの運営において、保険者は大数の法則の恩恵を受けます。すなわち、ある危険事故に対して付保される人数が多いほど、実際の損失実績は予想される損失実績に近づく傾向があります。付保される人数が徐々に増えるにつれ、リスクと不確実性は減少します。したがって、付保されるグループが大きいほど、グループ全体の損失実績はより予測可能になります。これにより保険者は、予想される損失を計算し、損失とプールの運営・管理コストを賄い、かつ保険者の利益を確保するのに十分な固定の保険料を設定することができます。"
                 },
                 {
                   "num": "5.14",
                   "text": "Non-insurance transfer refers to methods other than insurance by which a risk and its potential financial consequences can be transferred to another party. Non-insurance transfers are common in the building-construction business. Exposure to loss through contractual liability is of special importance to the contractor. The law generally recognises the right of two parties to agree in writing that one party will assume some liability that otherwise will fall on the other. This is done by inserting a “hold-harmless” clause in a contract by which one party assumes legal liability on behalf of another party. The practice of including “hold-harmless agreements”, in construction contracts, is widely prevalent and accepted.",
-                  "textJP": ""
+                  "textJP": "非保険移転とは、保険以外の方法でリスクとその潜在的な経済的結果を他の当事者に移転する方法を指します。非保険移転は建設業において一般的です。契約上の賠償責任によるエクスポージャーは、請負業者にとって特に重要です。法律は一般に、一方の当事者が他方の当事者に対して本来負うべき賠償責任を引き受けることについて、二当事者が書面で合意する権利を認めています。これは、一方の当事者が他方の当事者に代わって法的賠償責任を引き受ける「免責合意」条項を契約に挿入することによって行われます。建設契約に「免責合意」を含める慣行は、広く普及し受け入れられています。"
                 }
               ]
             }
@@ -2116,32 +2145,32 @@
           "id": "ch3-s6",
           "number": "6",
           "title": "Attitude Towards Risks",
-          "titleJP": "",
+          "titleJP": "リスクに対する態度",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "In the earlier section, we have explored the different methods of handling risks. Although risks may be handled by different methods, the decision on which method that an individual adopts, to some extent, depends on the individual’s attitude towards risks.",
-              "textJP": ""
+              "textJP": "前節では、リスク処理のさまざまな方法について検討しました。リスクはさまざまな方法で処理できますが、どの方法を個人が採用するかは、ある程度その個人のリスクに対する態度に依存します。"
             },
             {
               "num": "6.2",
               "text": "An individual must recognise that risks exist, before he is able to handle them adequately. Every day, we face risks of one kind or another, regardless of the type and nature. Whether or not people are aware of them, they exist. However, some of us may fail to recognise the existence of risks. Others may simply refuse to acknowledge their existence.",
-              "textJP": ""
+              "textJP": "個人はリスクを適切に処理するために、まずリスクが存在することを認識しなければなりません。私たちは毎日、種類や性質を問わず、何らかのリスクに直面しています。人々がリスクを認識しているかどうかにかかわらず、リスクは存在します。しかし、私たちの中にはリスクの存在を認識できない人もいます。また、リスクの存在を認めることを単に拒否する人もいます。"
             },
             {
               "num": "6.3",
               "text": "People have different attitudes towards risks because they view risks differently. People who are risk seeking or risk takers may choose to voluntarily assume risk. For example, a risk taker may choose to take on a hazardous occupation without insurance. He may prefer to retain the occupational risk, rather than to transfer the risk to others.",
-              "textJP": ""
+              "textJP": "人々のリスクに対する態度がさまざまなのは、リスクの見方が異なるためです。リスク選好者またはリスクテイカーは、自発的にリスクを引き受けることを選択するかもしれません。例えば、リスクテイカーは、保険なしで危険な職業に就くことを選択するかもしれません。リスクを他者に移転するよりも、職業上のリスクを保有することを好むかもしれません。"
             },
             {
               "num": "6.4",
               "text": "On the other hand, there are people who are risk averse. This group of people prefers not to venture out of their armchair, as they are afraid of taking risks and may insure any risk in sight. They highly value getting the risk off their hands, so they will rather have the security of the policy coverage. Hence, they are willing to pay to avoid a risky situation.",
-              "textJP": ""
+              "textJP": "一方、リスク回避的な人々もいます。このグループの人々は、リスクを取ることを恐れるため、安楽椅子から冒険に出ることを好みません。目に入るあらゆるリスクに付保するかもしれません。リスクを手放すことを高く評価し、保険契約のカバーの安心を得ることを望みます。したがって、リスクのある状況を回避するために進んで支払います。"
             },
             {
               "num": "6.5",
               "text": "In short, each individual’s response to risky situations is different owing to different perceptions and attitudes towards risks. These differences will affect the individual’s decision in selecting the method(s) to handle risks.",
-              "textJP": ""
+              "textJP": "要するに、リスクのある状況に対する各個人の反応は、リスクに対する認識と態度の違いにより異なります。これらの違いは、リスクを処理する方法を選択する際の個人の判断に影響を与えます。"
             }
           ],
           "subsections": []
@@ -2150,12 +2179,12 @@
           "id": "ch3-s7",
           "number": "7",
           "title": "Benefits Of Insurance",
-          "titleJP": "",
+          "titleJP": "保険の便益",
           "paragraphs": [
             {
               "num": "7.1",
               "text": "Insurance brings many benefits to an individual and to society as a whole. It enables the risks of financial losses to be transferred from the insureds to the insurers as mentioned earlier. A number of other benefits are outlined in the sections below:",
-              "textJP": ""
+              "textJP": "保険は個人および社会全体に多くの便益をもたらします。前述のとおり、経済的損失のリスクを被保険者から保険者に移転することを可能にします。その他の多くの便益を以下のセクションで概説します。"
             }
           ],
           "subsections": [
@@ -2163,22 +2192,22 @@
               "id": "ch3-s7-A",
               "label": "A",
               "title": "Provides Financial Stability",
-              "titleJP": "",
+              "titleJP": "経済的安定の提供",
               "paragraphs": [
                 {
                   "num": "7.2",
                   "text": "In a very obvious and personal way, insurance makes life better. Imagine the financial consequences that people can face without insurance. Let us say, Freddy met with an accident on his way to work this morning and damaged his car extensively. Could he pay a hefty repair bill right now? Or if Gary’s apartment should burn down today, could he easily come up with the thousands of dollars that he would need to rebuild, and buy new furniture and personal effects? It would be tough, if not impossible. It could even be disastrous.",
-                  "textJP": ""
+                  "textJP": "非常に明確かつ個人的な面で、保険は生活をより良くします。保険がなければ人々が直面しうる経済的結果を想像してみてください。例えば、フレディが今朝通勤途中に事故に遭い、車がひどく損傷したとします。高額な修理費用を今すぐ支払えるでしょうか？ あるいは、ゲイリーのアパートが今日焼失した場合、再建し、新しい家具や身の回り品を購入するために必要な何千ドルもの金額をすぐに用意できるでしょうか？ 困難であり、不可能ですらあるかもしれません。壊滅的ですらありえます。"
                 },
                 {
                   "num": "7.3",
                   "text": "With insurance, even when losses occur, people can look at the bright side and get their money back for these losses. So, even if unfortunate events occur, their finances will not be drained, and they and their family’s financial stability will not be undermined. They will be able to keep their present lifestyle and their future plans, such as buying a better car or home, can remain intact.",
-                  "textJP": ""
+                  "textJP": "保険があれば、損失が発生した場合でも、人々は明るい面を見て、これらの損失に対するお金を取り戻すことができます。したがって、不幸な出来事が起きたとしても、財政は枯渇せず、本人と家族の経済的安定が損なわれることはありません。現在のライフスタイルを維持でき、より良い車や家の購入など将来の計画も維持できます。"
                 },
                 {
                   "num": "7.4",
                   "text": "While insurance cannot totally eliminate risks, it will help to mitigate the financial impact or alleviate hardship on the insured if an unfortunate event or incident occurs during the period of insurance covered by the terms of the policy.",
-                  "textJP": ""
+                  "textJP": "保険はリスクを完全に排除することはできませんが、保険契約の条件でカバーされる保険期間中に不幸な出来事や事故が発生した場合、被保険者への経済的影響を軽減し、困難を緩和するのに役立ちます。"
                 }
               ]
             },
@@ -2186,17 +2215,17 @@
               "id": "ch3-s7-B",
               "label": "B",
               "title": "Provides Peace Of Mind",
-              "titleJP": "",
+              "titleJP": "安心の提供",
               "paragraphs": [
                 {
                   "num": "7.5",
                   "text": "People can benefit from insurance even if they do not claim from it. By knowing that insurance exists to meet the financial consequences of certain risks provides peace of mind for an individual. Anxiety is also reduced if an insured knows that insurance is available to indemnify him when a loss occurs.",
-                  "textJP": ""
+                  "textJP": "人々は保険金を請求しなくても保険から恩恵を受けることができます。一定のリスクの経済的結果に対応するための保険が存在することを知っているだけで、個人に安心を提供します。損失が発生した際に損害をてん補してくれる保険があることを知っている被保険者は、不安も軽減されます。"
                 },
                 {
                   "num": "7.6",
                   "text": "The indemnity function of insurance also relieves businesses from the worry and anxiety that they may have on how to meet the cost of risk. Insurance is, thus, a positive stimulus to their activities, and allows them to get on with their own business in the knowledge that they are financially protected against many forms of risk. The entrepreneurs will be more willing to put money into a business venture, as they know that they can transfer some of the risks of being in business to an insurer, and that they will not lose everything, if they fall victim to some risks. As such, with more businessmen willing to invest in business ventures, more jobs are created, there are higher exports and a general increase in wealth for the economy.",
-                  "textJP": ""
+                  "textJP": "保険の損害てん補機能はまた、リスクのコストをどのように賄うかという心配や不安から企業を解放します。したがって、保険は企業の活動に対する積極的な刺激となり、多くのリスクに対して経済的に保護されているという認識の下で自らの事業に専念することを可能にします。起業家は、事業のリスクの一部を保険者に移転でき、あるリスクの犠牲になってもすべてを失うわけではないと知っているため、事業に投資する意欲が高まります。したがって、事業に投資する意欲のある事業者が増えることで、より多くの雇用が創出され、輸出が増加し、経済全体の富が一般的に増加します。"
                 }
               ]
             },
@@ -2204,12 +2233,12 @@
               "id": "ch3-s7-C",
               "label": "C",
               "title": "Stimulates Business Enterprise",
-              "titleJP": "",
+              "titleJP": "ビジネスの促進",
               "paragraphs": [
                 {
                   "num": "7.7",
                   "text": "In the course of their normal operations, business enterprises encounter a wide array of risks, such as a fire occurring in their premises; loss of a shipment of goods at sea; injuries suffered by employees in the course of their work; or potential lawsuits from consumers owing to a product defect. In the absence of insurance to protect them against such business risks, businesses would otherwise have to set aside large sums of money as a contingency, should such potential risks materialise. Hence, instead of having to set aside these contingency funds, businesses need to provide only a budget for a known cost – the premiums for the various types of insurance policies. As such, insurance serves to provide businesses with some level of financial security and certainty, as they can free up their available funds, which can then be deployed to more productive business investments. In this respect, insurance serves an important economic function in helping to stimulate business enterprise.",
-                  "textJP": ""
+                  "textJP": "通常の事業運営の過程で、企業はさまざまなリスクに直面します。例えば、事業所での火災の発生、海上での貨物の損失、就業中の従業員の傷害、製品の欠陥による消費者からの訴訟の可能性などです。このようなビジネスリスクから保護する保険がなければ、企業はそのような潜在的リスクが現実化した場合に備えて、大量の資金を別途確保しなければなりません。したがって、これらの予備資金を確保する代わりに、企業は既知のコスト—さまざまな種類の保険契約の保険料—の予算のみを計上すれば済みます。このように、保険は企業にある程度の経済的安全と確実性を提供する役割を果たします。企業は利用可能な資金を解放し、より生産的な事業投資に充てることができるからです。この点で、保険はビジネスの促進を支援する重要な経済的機能を果たしています。"
                 }
               ]
             },
@@ -2217,12 +2246,12 @@
               "id": "ch3-s7-D",
               "label": "D",
               "title": "Encourages Loss Control",
-              "titleJP": "",
+              "titleJP": "損害防止の奨励",
               "paragraphs": [
                 {
                   "num": "7.8",
                   "text": "Insurers have an interest in reducing the frequency and severity of losses, not only to enhance their own profitability, but also to contribute to a general reduction in the economic waste following a loss. They employ risk surveyors whose primary function is to make visits to premises to be insured for the purpose of assessing the degree of risks that they pose for insurance purposes. They can, from their experience, often suggest ways in which the likelihood of some risks occurring may be reduced. In the course of their work, they may be able to spot some hazards that can pose potential dangers to the lives of employees. In this way, the insured can be advised on how to reduce these hazards, thereby saving the insured costs from paying for any injuries arising from such hazards. POLICY",
-                  "textJP": ""
+                  "textJP": "保険者は、自らの収益性を向上させるだけでなく、損失後の経済的浪費の全般的な削減に貢献するために、損失の頻度と深刻度を低減することに利益を有しています。保険者はリスクサーベイヤーを雇用しており、その主な機能は、保険の目的でリスクの程度を評価するために付保予定の施設を訪問することです。リスクサーベイヤーは経験から、一部のリスクが発生する可能性を低減する方法をしばしば提案できます。業務の過程で、従業員の生命に潜在的な危険をもたらすハザードを発見できることもあります。このようにして、被保険者はこれらのハザードを低減する方法について助言を受けることができ、そのようなハザードから生じる傷害に対する支払コストを節約できます。"
                 }
               ]
             },
@@ -2230,17 +2259,17 @@
               "id": "ch3-s7-E",
               "label": "E",
               "title": "Encourages Investments",
-              "titleJP": "",
+              "titleJP": "投資の奨励",
               "paragraphs": [
                 {
                   "num": "7.9",
                   "text": "Insurers have, at their disposal, large amounts of money. This arises from the fact that, under normal circumstances, there is a time gap between the receipt of a premium and the payment of a claim. The insurers can invest a part of these sums of money in a wide range of financial instruments. By having a spread of investments, the insurance industry helps national and international governments in their borrowing. It also helps industry and commerce, by making various forms of loans available and by purchasing shares which are offered on the open market. Insurers make up part of what are termed as institutional investors; the others include banks, finance companies, building societies, and the Central Provident Fund Board.",
-                  "textJP": ""
+                  "textJP": "保険者は多額の資金を自由に使うことができます。これは、通常の状況下では、保険料の受領と保険金の支払いの間にタイムギャップがあるという事実から生じます。保険者はこれらの資金の一部を幅広い金融商品に投資することができます。投資を分散することにより、保険業界は国内外の政府の借入を支援しています。また、さまざまな形態の融資を行い、公開市場で提供される株式を購入することにより、産業や商業も支援しています。保険者は機関投資家と呼ばれるものの一部を構成しています。他の機関投資家には、銀行、ファイナンス会社、住宅金融組合、中央積立基金委員会があります。"
                 },
                 {
                   "num": "7.10",
                   "text": "Insurers in Singapore can thus also play a useful role in catalysing sustainable and green finance in Singapore and the region by investing in green financial instruments.",
-                  "textJP": ""
+                  "textJP": "シンガポールの保険者はまた、グリーン金融商品に投資することにより、シンガポールおよび地域における持続可能でグリーンな金融の促進において有益な役割を果たすことができます。"
                 }
               ]
             },
@@ -2248,12 +2277,12 @@
               "id": "ch3-s7-F",
               "label": "F",
               "title": "Enhances Provision Of Credit Facilities",
-              "titleJP": "",
+              "titleJP": "信用供与の促進",
               "paragraphs": [
                 {
                   "num": "7.11",
                   "text": "Bankers and other financial institutions require the security of insurance in financing properties and overseas trade. For example, Fire Insurance makes it possible for mortgages on property to be granted, without fear of loss of property by fire. In this case, insurance enhances a borrower’s credit, because it guarantees the value of the borrower’s collateral, or gives greater assurance that the loan will be repaid in the event of an insured peril occurring during the period of insurance.",
-                  "textJP": ""
+                  "textJP": "銀行およびその他の金融機関は、不動産の融資や海外貿易において保険の担保を必要とします。例えば、火災保険により、火災による財物の喪失のおそれなく不動産に対する抵当権を設定することが可能になります。この場合、保険は借入人の信用を向上させます。借入人の担保の価値を保証するか、保険期間中に被保険の危険事故が発生した場合に融資が返済されるという、より大きな保証を与えるからです。"
                 }
               ]
             }
@@ -2263,27 +2292,27 @@
           "id": "ch3-s8",
           "number": "8",
           "title": "Classification Of General Insurance Products",
-          "titleJP": "",
+          "titleJP": "損害保険商品の分類",
           "paragraphs": [
             {
               "num": "8.1",
               "text": "General Insurance products can broadly be classified as:\n▪ Personal General Insurance; and\n▪ Commercial General Insurance.",
-              "textJP": ""
+              "textJP": "損害保険商品は、大きく以下のように分類されます。\n▪ 個人向け損害保険\n▪ 企業向け損害保険"
             },
             {
               "num": "8.2",
               "text": "The difference between them is that individuals purchase Personal General Insurance products to protect themselves against risks that they face in noncommercial situations, as well as to meet statutory requirements, such as purchasing Private Motor Insurance and Foreign Domestic Worker Insurance. Examples of other Personal General Insurance products are Houseowner’s Insurance, Critical Illness Insurance, Personal Liability Insurance, Personal Accident Insurance, etc.",
-              "textJP": ""
+              "textJP": "両者の違いは、個人向け損害保険商品は、個人が非商業的な状況で直面するリスクから自身を保護するため、および自家用自動車保険や外国人家事労働者保険の購入などの法定要件を満たすために購入するものであるということです。その他の個人向け損害保険商品の例としては、住宅所有者保険、重大疾病保険、個人賠償責任保険、傷害保険などがあります。"
             },
             {
               "num": "8.3",
               "text": "On the other hand, Commercial General Insurance products are purchased by business enterprises to protect themselves against risks that arise in the course of their business activities, such as Business Interruption Insurance, Professional Indemnity Insurance, Commercial All Risks Insurance, Industrial All Risks Insurance, Marine Hull Insurance, Aviation Insurance, etc.",
-              "textJP": ""
+              "textJP": "一方、企業向け損害保険商品は、事業活動の過程で生じるリスクから自身を保護するために企業が購入するものです。例えば、事業中断保険、専門職業賠償責任保険、企業オールリスク保険、工業オールリスク保険、船体保険、航空保険などがあります。"
             },
             {
               "num": "8.4",
               "text": "Table 3.1 below illustrates the major classes of general insurance under each line of business and the major risks covered. INSURANCE MORTGAGE POLICY Table 3.1: Classes Of General Insurance Personal lines provide insurance cover for various risks faced by individuals and families. Examples include: Private Motor Car Insurance Insures the risks associated with the ownership of private motor cars Private Motorcycle Insurance Insures the risks associated with the ownership of private motorcycles Houseowner’s Insurance Insures the structure of the building of private homes Householder’s Insurance Insures the household contents of private homes Packaged Household Insurance Insures private home buildings and household contents, but also provides other benefits as well Valuable Articles Insurance Insures the insured’s antiques, paintings, sculptures, ceramics, clocks, and any such items of high monetary value Personal Accident Insurance Insures the risks of accidents resulting in accidental death, permanent disablement or bodily injuries Travel Insurance Insures the risks associated with travelling for business and/or leisure Personal Liability Insurance Provides coverage for legal liability to third parties Foreign Domestic Worker Insurance Insures the risks commonly associated with hiring a foreign domestic worker Golfer’s Insurance Provides comprehensive insurance coverage for golfers Electrical Protection Insurance Covers accidental damage to or theft of the insured’s electrical equipment (such as a camera, notebook or mobile phone) Pet Insurance Covers the insured’s veterinary bill and surgical treatment costs incurred arising from injuries, illnesses, emergencies, specified genetic condition relating to the insured’s pets Personal Mobility Device Insurance Covers a user of a mobility device, such as a bicycle, electric scooter, hoverboard, rollerblade or unicycle, against accidental death, permanent disability, medical expenses against injuries, and third-party liability arising from an accident while riding, mounting or dismounting from such an insured mobility device Personal Lines Financial lines provide insurance cover for various risks faced, which will result in a monetary loss, rather than a physical loss of or damage to the property. Examples include: Card Protection Insurance Covers unauthorised or fraudulent use of the financial card by someone other than the cardholder Extended Warranty Insurance Covers the cost of the insured’s product repair or replacement for a set number of years beyond the manufacturer’s own warranty period Identity Theft Insurance Covers monetary loss suffered as a result of identity fraud Business Interruption/ Consequential Loss Insurance Insures against loss of profit, overheads, wages and extra expenses incurred to minimise disruption and restore normal business condition owing to interruption as a result of fire and other extraneous perils Professional Indemnity Insurance Insures professionals such as lawyers and doctors against professional negligence Directors’ and Officers’ Liability Insurance Insures against wrongful acts committed by the company’s directors or officers Libel and Slander Insurance Insures the damages and costs associated with libel and slander Errors and Omissions Insurance Insures against errors and omissions liability Cyber Risk Insurance Covers a variety of risks resulting from the use of technology within the business, such as electronic fraud and identity theft, computer virus and hacking, and breach of data, among others Contingency Insurance Provides coverage for financial loss resulting from cancellation, abandonment, postponement, interruption, curtailment or relocation of any type of indoor or outdoor event, such as a musical concert or trade show Fidelity Guarantee Insurance Covers employee’s defalcation, forgery or fraudulent acts Crime Insurance Offers a wider coverage alternative compared to the traditional Fidelity Guarantee Insurance Credit Insurance Provides credit risks protection Financial Lines Insurance Bond Provides guarantee for one party’s financial protection against a contractor failing to perform in accordance with the terms and conditions of a contract Health Insurances are purchased to provide benefits following the diagnosis of a critical illness, or to provide cover such as fixed benefits and/or medical expenses incurred by the insured arising out of hospitalisation and/or surgery. Examples include: Hospital Cash (Income) Insurance Provides daily cash benefit for hospitalisation Critical Illness/Dread Disease Insurance Provides cash benefit upon the diagnosis of a specified critical illness/dread disease Hospital & Surgical Insurance Provides inpatient and outpatient benefits as a result of being hospitalised and/ or undergoing surgical operations Property Insurances provide cover for the risks of damage to tangible or physical property, such as buildings, contents and fixtures & fittings. Examples include: Fire Insurance Insures property destroyed or damaged by fire, lightning and other extended extraneous perils, such as explosion, earthquake, flood, typhoon, windstorm, riot and strike Theft/Burglary Insurance Insures the business against theft on a full value or first loss basis Electronic Equipment Insurance Provides a comprehensive cover for damage to electronic equipment, such as computers Glass Insurance Insures all kinds of fixed glass against breakage within the business premises Commercial All Risks Insurance Insures items such as machinery and equipment against unforeseen and sudden damage, subject to exclusions Industrial All Risks Insurance Provides a combination of Material Damage (on all risks basis) coverage and Business Interruption Insurance, covering buildings, plants, machinery, stocks and others Health Property Terrorism Insurance Insures property against physical loss or damage caused by act of terrorism or sabotage as defined in the policy Contractors’ All Risks (CAR) Insurance Covers all insurable loss or damage involved in a construction project Erection All Risks (EAR) Insurance Covers the risks in the installation and erection of ready-built engineering projects, such as power plants Boiler and Pressure Vessel Insurance Covers the risks from using boilers and pressure plants Machinery Breakdown Insurance Covers machinery from unforeseen and sudden damage caused by breakdown Money/Cash In Transit Insurance Covers loss of money and cash belonging to the business Commercial Motor Insurances provide cover for the risks faced by businesses arising from the ownership or use of motor vehicles, including legal liability arising from the use of such vehicles and damage to the vehicles. Examples include: Commercial Motor Insurance Insures the risks associated with the corporate ownership of motor vehicles and commercial vehicles, such as buses, coaches, lorries, taxis, tractors, trucks and vans Motor Trade Insurance Insures the risks of businesses that deal primarily with motor vehicles, such as car dealers and car repairers Liability Insurances provide cover for the legal liability to pay damages, compensation, legal expenses and costs awarded against the insured in favour of another party in respect of death, bodily injury, or loss of or damage to property. Examples include: Work Injury Compensation Insurance Insures the employer’s obligations to their eligible employees under the Work Injury Compensation Act 2019 against certain occupational diseases or accidents arising out of and in the course of employment Public Liability Insurance Insures a business’ legal liability to third parties for injury or property damage Products Liability Insurance Insures against liability arising from defective products Commercial Motor Liability Carriers and Bailees Liability Insurance Insures the insured’s liability for loss of or damage to property held in their custody and control Commercial General Liability Insurance Covers a wide range of legal liability under common law and contract Innkeeper’s Liability Insurance Insures the legal liability of innkeepers arising from loss of guests’ property Marine Insurance covers the loss and damage of ships, cargo and goods in transit. Aviation Insurance covers damage to the aircraft and liability arising from the use of the aircraft. Examples include: Increasingly, insurers are developing green insurance products in response to the need to protect the environment and battle climate change. Green insurance products are those that cover the design, production and use of sustainable products and where certain features promote sustainable or green behaviour.",
-              "textJP": ""
+              "textJP": "以下のTable 3.1は、各事業分野の主要な損害保険の種類とカバーされる主なリスクを示しています。\n\n個人分野（Personal Lines）は、個人および家族が直面するさまざまなリスクに対する保険カバーを提供します。例：\n自家用自動車保険 — 自家用車の所有に伴うリスクを付保\n自家用二輪車保険 — 自家用二輪車の所有に伴うリスクを付保\n住宅所有者保険 — 個人住宅の建物構造を付保\n家財保険 — 個人住宅の家財を付保\nパッケージ家庭保険 — 個人住宅の建物と家財を付保し、その他の給付も提供\n貴重品保険 — 骨董品、絵画、彫刻、陶磁器、時計などの高額品を付保\n傷害保険 — 事故死亡、永久障害、身体傷害のリスクを付保\n旅行保険 — 業務および／またはレジャー目的の旅行に伴うリスクを付保\n個人賠償責任保険 — 第三者に対する法的賠償責任をカバー\n外国人家事労働者保険 — 外国人家事労働者の雇用に一般的に伴うリスクを付保\nゴルファー保険 — ゴルファーに対する総合保険カバーを提供\n電気製品保護保険 — カメラ、ノートPC、携帯電話などの電気製品の偶発的損害または盗難をカバー\nペット保険 — ペットの傷害、疾病、緊急事態、特定の遺伝的疾患に関する獣医料金や手術費用をカバー\nパーソナルモビリティデバイス保険 — 自転車、電動スクーター、ホバーボード、ローラーブレード、一輪車などのモビリティデバイスの利用者の事故死亡、永久障害、傷害に対する医療費、およびそのようなデバイスの乗車中の事故から生じる第三者賠償責任をカバー\n\n金銭損害保険（Financial Lines）は、財物の物理的損失や損害ではなく、金銭的損失をもたらすさまざまなリスクに対する保険カバーを提供します。例：\nカード保護保険 — カード保有者以外の者による金融カードの不正使用をカバー\n延長保証保険 — メーカー保証期間後の一定年数の製品修理または交換費用をカバー\nアイデンティティ盗難保険 — 身元詐欺の結果として生じた金銭的損失をカバー\n事業中断／間接損害保険 — 火災やその他の外的危険事故による中断の結果、利益の損失、経費、賃金、正常な事業状態の回復のための追加費用をカバー\n専門職業賠償責任保険 — 弁護士や医師などの専門家の職業上の過失を付保\n役員賠償責任保険 — 会社の取締役または役員が行った不正行為を付保\n名誉毀損保険 — 文書および口頭の名誉毀損に関する損害賠償と費用を付保\n過誤脱漏保険 — 過誤および脱漏の賠償責任を付保\nサイバーリスク保険 — 電子詐欺、アイデンティティ盗難、コンピュータウイルス、ハッキング、データ漏洩などの、事業におけるテクノロジーの使用から生じるさまざまなリスクをカバー\nコンティンジェンシー保険 — 音楽コンサートや展示会などの屋内外イベントの中止、放棄、延期、中断、短縮、会場変更から生じる経済的損失をカバー\n身元信用保険 — 従業員の横領、偽造、不正行為をカバー\n犯罪保険 — 従来の身元信用保険に比べ、より広いカバーの代替を提供\n信用保険 — 信用リスクの保護を提供\nボンド（保証証券）— 請負業者が契約条件に従って履行しない場合の経済的保護を保証\n\n健康保険は、重大疾病の診断後の給付、または入院および／もしくは手術により被保険者が負担した固定給付および／または医療費のカバーを提供するために購入されます。例：\n入院日額保険 — 入院に対する日額給付を提供\n重大疾病保険 — 特定の重大疾病の診断時に現金給付を提供\n入院・手術保険 — 入院および／または手術の結果としての入院給付および外来給付を提供\n\n財物保険は、建物、内容物、固定設備・備品などの有形財物の損害リスクに対するカバーを提供します。例：\n火災保険 — 火災、落雷およびその他の拡張外的危険事故（爆発、地震、洪水、台風、暴風雨、暴動、ストライキ）によって破壊または損傷した財物を付保\n盗難・強盗保険 — 全額または第一次損失ベースで事業の盗難を付保\n電子機器保険 — コンピュータなどの電子機器の損害に対する包括的カバーを提供\nガラス保険 — 事業所内のあらゆる種類の固定ガラスの破損を付保\n企業オールリスク保険 — 免責事項を条件として、機械・設備などの予期せぬ突然の損害を付保\n工業オールリスク保険 — オールリスクベースの物的損害カバーと事業中断保険の組合せ（建物、プラント、機械、在庫等をカバー）\nテロリズム保険 — 保険契約で定義されるテロまたは破壊行為によって生じた財物の物理的損失または損害を付保\n建設工事保険（CAR）— 建設プロジェクトに伴うすべての付保可能な損失または損害をカバー\n組立保険（EAR）— 発電所などの既製のエンジニアリングプロジェクトの設置・組立に伴うリスクをカバー\nボイラー・圧力容器保険 — ボイラーおよび圧力プラントの使用に伴うリスクをカバー\n機械故障保険 — 故障による機械の予期せぬ突然の損害をカバー\n現金輸送保険 — 事業に属する金銭および現金の輸送中の損失をカバー\n\n企業自動車保険は、自動車の所有または使用から生じるリスク（車両の使用から生じる法的賠償責任および車両の損害を含む）に対するカバーを提供します。例：\n企業自動車保険 — バス、大型バス、トラック、タクシー、トラクター、バンなどの法人所有車両および商用車に伴うリスクを付保\n自動車販売業者保険 — 自動車ディーラーや自動車修理業者など、主として自動車を取り扱う事業のリスクを付保\n\n賠償責任保険は、死亡、身体傷害、または財物の滅失もしくは損害について、被保険者に不利な判決として他の当事者に有利に裁定された損害賠償金、補償金、法的費用を支払う法的賠償責任に対するカバーを提供します。例：\n労災補償保険 — Work Injury Compensation Act 2019に基づく、就業中に生じた一定の職業病または事故に対する雇用者の適格従業員への義務を付保\n公衆賠償責任保険 — 第三者の傷害または財物損害に対する事業の法的賠償責任を付保\n生産物賠償責任保険 — 欠陥製品から生じる賠償責任を付保\n企業自動車賠償責任保険 — 自動車の使用から生じる法的賠償責任を付保\n受託者賠償責任保険 — 被保険者の管理下にある財物の滅失または損害に対する賠償責任を付保\n企業包括賠償責任保険 — コモンローおよび契約に基づく広範な法的賠償責任をカバー\n旅館業者賠償責任保険 — 宿泊客の財物の損失から生じる旅館業者の法的賠償責任を付保\n\n海上保険は、船舶、貨物、輸送中の物品の損失と損害をカバーします。航空保険は、航空機の損害と航空機の使用から生じる賠償責任をカバーします。例：\n海上貨物保険 — 輸送中の貨物を付保\n船体保険 — 船舶の物理的損失または損害を付保\n航空保険 — 航空機の物理的損害および航空機の使用から生じる法的賠償責任を付保\n\n保険者はますます、環境保護と気候変動対策の必要性に応えて、グリーン保険商品を開発しています。グリーン保険商品とは、持続可能な製品の設計、生産、使用をカバーし、持続可能またはグリーンな行動を促進する特徴を有する保険商品です。"
             }
           ],
           "subsections": []
@@ -2292,12 +2321,12 @@
           "id": "ch3-s9",
           "number": "9",
           "title": "Individual & Group Insurance",
-          "titleJP": "",
+          "titleJP": "個人保険と団体保険",
           "paragraphs": [
             {
               "num": "9.1",
               "text": "General Insurance products can be sold on an individual or group basis. Group Insurance provides coverage on each of the individual member of the group, while only the individual who applies for the coverage is covered under Individual Insurance. Table 3.2 shows the differences between them. Marine Cargo Insurance Insures cargo during transit Marine Hull Insurance Insures the physical loss or damage to a vessel or ship Aviation Insurance Insures the physical damage of aircraft and the insured’s legal liability arising from the use of such aircraft Marine & Aviation Green Insurance Table 3.2: Differences Between Individual Insurance & Group Insurance Individual Insurance Group Insurance Only the individual who applies for the coverage is covered. Only members who belong to the group and are actively at work are covered. Each individual insured gets a policy contract. Usually only one master contract (group policy) is issued to the employer or an affiliated organisation. The number of insureds is more than one. An individual insured has the right to select the amount of coverage that he wants. Insured members may or may not have the right to decide on the amount of coverage that they want. In the employer-paid plan/compulsory plan, the amount of coverage is determined by the employer. For Accident and Health Insurance, individual’s health and financial status are evaluated. Group as a whole is evaluated depending on the gender and age distribution of the group, group size, occupation mix, and past claims experience. Coverage continues until the individual or insurer chooses to terminate it. The individual insured’s coverage stops when he leaves the group (such as upon leaving the employment of the employer). However, the plan continues for the remaining members. Cost of coverage is higher owing to individual underwriting and higher administrative costs. Cost of coverage is lower owing to group underwriting and lower administrative costs. Individuals need only be insurable in order to be granted insurance coverage. Members under a group must satisfy the eligibility requirements as stated in the group policy, before they are granted the coverage.",
-              "textJP": ""
+              "textJP": "損害保険商品は、個人ベースまたは団体ベースで販売することができます。団体保険はグループの各個人メンバーにカバーを提供し、個人保険ではカバーを申し込んだ個人のみがカバーされます。Table 3.2は両者の違いを示しています。\n\nTable 3.2: 個人保険と団体保険の違い\n個人保険 | 団体保険\nカバーを申し込んだ個人のみがカバーされます。| グループに所属し、現在就業中のメンバーのみがカバーされます。\n個々の被保険者が保険証券を取得します。| 通常、雇用主または関連組織に1通のマスター契約（団体保険証券）のみが発行されます。被保険者の数は1名以上です。\n個人の被保険者は、希望するカバーの金額を選択する権利を有します。| 被保険メンバーは、カバーの金額を決定する権利を有する場合と有しない場合があります。雇用主負担プラン／強制プランでは、カバーの金額は雇用主が決定します。\n傷害・健康保険の場合、個人の健康状態と経済状態が評価されます。| グループの性別・年齢分布、グループの規模、職種の組合せ、過去の保険金請求実績に応じて、グループ全体が評価されます。\nカバーは、個人または保険者がそれを終了することを選択するまで継続します。| 個人のカバーは、グループを離れた時点（例：雇用主の退職時）で終了します。ただし、残りのメンバーについてはプランが継続します。\n個別の引受審査と高い管理コストのため、カバーのコストが高くなります。| 団体引受審査と低い管理コストのため、カバーのコストが低くなります。\n個人は、保険カバーを付与されるために付保適格であるだけで十分です。| 団体に属するメンバーは、カバーを付与される前に、団体保険証券に記載された適格要件を満たさなければなりません。"
             }
           ],
           "subsections": [
@@ -2305,32 +2334,32 @@
               "id": "ch3-s9-A",
               "label": "A",
               "title": "Group Insurance",
-              "titleJP": "",
+              "titleJP": "団体保険",
               "paragraphs": [
                 {
                   "num": "9.2",
                   "text": "As mentioned, Group Insurance provides coverage to many people under one master policy. The requirement is that several people must first be members of a group, before they become eligible to purchase the insurance. The group must have been formed for some purposes, other than to obtain insurance, such as companies, membership clubs, professional associations, trade unions and uniform groups.",
-                  "textJP": ""
+                  "textJP": "前述のとおり、団体保険は1つのマスターポリシーの下で多数の人々にカバーを提供します。要件は、保険を購入する資格を得る前に、まず数人がグループのメンバーでなければならないことです。グループは、保険の取得以外の目的（企業、会員クラブ、専門職団体、労働組合、制服グループなど）のために結成されたものでなければなりません。"
                 },
                 {
                   "num": "9.3",
                   "text": "The characteristics of Group Insurance include: a) Master Contract – Group Insurance is issued under a single contract called the “master contract” (group policy) which is kept by the policy owner (policyholder). Unlike individual insurance, when an insured member of the contract dies or leaves the group, only this member’s coverage is terminated, provided that the total group size does not fall below a minimum as stipulated by the insurer. The plan itself will still carry on, because it belongs to the holder of the master contract. b) Minimal Underwriting Requirements – This applies more to Group Accident and Health Insurance, where it is generally made available to the participating employees (in active employment) with simpler medical underwriting, if the group size is large. Usually, the underwriter may either require the employee to complete a health declaration form, or waive all underwriting, and rely on the pre-existing condition exclusion clause in the group policy to avoid anti-selection risks. c) Experience Rating – It is usually underwritten based on the past claims experiences of the group to be insured. Such a practice is called experience rating. Some insurers also offer experience refund, i.e. amount returned by an insurer to a group policyholder, when the claims experience of a particular group (or class to which the group belongs) has been more favourable than anticipated. d) Cost Effective – It provides low-cost protection owing to savings in administrative costs, in view that only one group policy document is issued. e) Plan Continuation – The plan is usually renewable by the employer on a yearly basis. As such, at the end of each policy period, the corporate client will need to review the plan to assess the adequacy and comprehensiveness of the coverage. The intermediary will have to advise his client on this aspect. f) Eligibility Requirements – Group policies usually define eligible employees as those employees in a specified class or those in specified classes. For example, most group policies state that an employee must work full-time, in order to be eligible for coverage. Thus, part-time workers may be excluded from the class of eligible employees.",
-                  "textJP": ""
+                  "textJP": "団体保険の特徴は以下のとおりです。\n(a) マスター契約 — 団体保険は、保険契約者が保管する「マスター契約」（団体保険証券）と呼ばれる単一の契約の下で発行されます。個人保険とは異なり、被保険メンバーが死亡またはグループを離れた場合、そのメンバーのカバーのみが終了します。ただし、グループ全体の規模が保険者の定める最低限を下回らないことを条件とします。プラン自体はマスター契約の保有者に帰属するため、継続します。\n(b) 最小限の引受審査要件 — これは主に団体傷害・健康保険に適用され、グループ規模が大きい場合、（現在就業中の）参加従業員に対して簡易な医的引受審査で一般に提供されます。通常、引受担当者は従業員に健康申告書の提出を求めるか、すべての引受審査を免除し、逆選択リスクを回避するため団体保険証券の既往症免責条項に依拠します。\n(c) 経験料率 — 通常、付保されるグループの過去の保険金請求実績に基づいて引き受けられます。このような実務は経験料率と呼ばれます。一部の保険者は経験返戻金も提供します。すなわち、特定のグループ（またはそのグループが属するクラス）の保険金請求実績が予想よりも良好であった場合に保険者から団体保険契約者に返還される金額です。\n(d) コスト効率 — 1つの団体保険証券のみが発行されるため、管理コストの節約により低コストの保護を提供します。\n(e) プランの継続 — プランは通常、雇用主によって年ごとに更新されます。したがって、各保険期間の終了時に、法人顧客はカバーの適切性と包括性を評価するためにプランを見直す必要があります。仲介者はこの点について顧客に助言しなければなりません。\n(f) 適格要件 — 団体保険証券は通常、適格従業員を特定の職種に属する従業員として定義しています。例えば、ほとんどの団体保険証券は、カバーの資格を得るためにフルタイムで勤務していなければならないと規定しています。したがって、パートタイム労働者は適格従業員のクラスから除外される場合があります。"
                 },
                 {
                   "num": "9.4",
                   "text": "In addition, some group policies have an “Actively At Work” clause which requires an employee to be actively at work on the day that the insurance coverage takes effect, in order to be eligible for the cover. For such a group policy, an “Actively At Work” clause will require an employee who can report for work at the place assigned by the employer and can perform all the regular duties of his employment, as expected by the employer. This includes periods when the employee is on leave, but not on medical grounds. If the employee is not actively at work on the eligibility date of insurance cover, he will be eligible only when he returns to active service at work and in good health.",
-                  "textJP": ""
+                  "textJP": "加えて、一部の団体保険証券には「就業中条項」（Actively At Work条項）があり、従業員がカバーの資格を得るためには、保険カバーが発効する日に現在就業中でなければならないことを求めています。このような団体保険証券の就業中条項は、従業員が雇用主の指定する場所で勤務を報告でき、雇用主が期待する通常の業務のすべてを遂行できることを求めます。これには従業員が休暇中の期間も含まれますが、医療上の理由による休暇は含まれません。保険カバーの適格日に就業していない従業員は、現役の勤務に復帰し健康状態が良好となった時点でのみ適格となります。"
                 },
                 {
                   "num": "9.5",
                   "text": "Some employers may also include a probationary period (typically one to six months), which defines how long a new employee must wait, before becoming eligible to enrol in the group insurance plan. Such an arrangement will avoid the administrative work involved with new employees resigning shortly after joining the company. It also helps to reduce the overall premium payable for the group policy.",
-                  "textJP": ""
+                  "textJP": "一部の雇用主は、新規従業員が団体保険プランへの加入資格を得る前に待たなければならない期間を定める試用期間（通常1〜6ヶ月）を設けることもあります。このような取り決めは、入社後まもなく退職する新規従業員に伴う事務作業を回避します。また、団体保険証券全体の支払保険料の削減にも寄与します。"
                 },
                 {
                   "num": "9.6",
                   "text": "An employer or organisation seeking a quotation for a Group Insurance plan must complete a Group Insurance Fact-Finding (GIFF) Form for submission to the insurer. The GIFF does not apply to a Group Travel Insurance proposal.",
-                  "textJP": ""
+                  "textJP": "団体保険プランの見積りを求める雇用主または組織は、保険者への提出のためにGroup Insurance Fact-Finding（GIFF）フォームに記入しなければなりません。GIFFは団体旅行保険の申込には適用されません。"
                 }
               ]
             },
@@ -2338,12 +2367,12 @@
               "id": "ch3-s9-B",
               "label": "B",
               "title": "Compulsory & Voluntary Plans",
-              "titleJP": "",
+              "titleJP": "強制プランと任意プラン",
               "paragraphs": [
                 {
                   "num": "9.7",
                   "text": "Group Insurance policies can be issued on a compulsory or voluntary basis. For a compulsory (non-contributory) plan, all the eligible employees must be covered under the plan, and the premiums have to be paid by the employer. On the other hand, a voluntary (contributory) plan does not require full participation from the employees who are expected to pay part of the premiums. However, the insurer will normally require a minimum number of employees or percentage of participation in the plan. The advantages of both types of plans are described below: (a) Advantages Of Compulsory (Non-Contributory) Plan (i) There is ease of administration, since there is no payroll deduction to monitor. (ii) There is lower cost owing to less administrative work involved and the greater pooling effect of risks as a result of many lives insured. (iii) The employer retains greater control in the benefit structures and coverage provisions. (b) Advantages Of Voluntary (Contributory) Plan (i) Employer\n▪ Participating employees assume part of the costs of the benefits provided under the plan.\n▪ It generates interest and appreciation from the participating employees in the plan. (ii) Employees It gives the participating employees some control over the plan. They can obtain coverage at a lower premium rate than buying it individually.",
-                  "textJP": ""
+                  "textJP": "団体保険証券は、強制ベースまたは任意ベースで発行されます。強制（非拠出）プランでは、すべての適格従業員がプランの下でカバーされなければならず、保険料は雇用主が支払います。一方、任意（拠出）プランでは、保険料の一部を支払うことが期待される従業員の全員参加は求められません。ただし、保険者は通常、最低限の従業員数またはプランへの参加率を求めます。両タイプのプランの利点を以下に示します。\n(a) 強制（非拠出）プランの利点\n(i) 給与控除を監視する必要がないため、管理が容易です。\n(ii) 管理業務が少なく、多数の被保険者によるリスクプーリング効果が大きいため、コストが低くなります。\n(iii) 雇用主が給付構造とカバー内容に対するより大きな管理権を保持します。\n(b) 任意（拠出）プランの利点\n(i) 雇用主にとって\n▪ 参加従業員がプランの下で提供される給付のコストの一部を負担します。\n▪ 参加従業員のプランへの関心と感謝を生み出します。\n(ii) 従業員にとって\n参加従業員にプランに対するある程度の管理権を与えます。個人で購入するよりも低い保険料率でカバーを取得できます。"
                 }
               ]
             }
