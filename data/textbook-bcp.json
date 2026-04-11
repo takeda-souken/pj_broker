@@ -876,14 +876,19 @@
       "id": "ch2",
       "number": 2,
       "title": "THE REGULATORY LANDSCAPE & INDUSTRY FRAMEWORKS",
-      "titleJP": "",
+      "titleJP": "規制の枠組みと業界フレームワーク",
       "outline": [
         "The Role Of The Regulator In Singapore",
         "Nomination Of Beneficiaries For Personal Accident & Health Insurance Policies",
         "Deposit Insurance And Policy Owners’ Protection Scheme Act 2011",
         "Premium Payment Framework"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "シンガポールにおける規制当局の役割",
+        "傷害・健康保険契約における受取人指定",
+        "預金保険および保険契約者保護スキーム法2011",
+        "保険料支払フレームワーク"
+      ],
       "learningOutcomes": [
         "know the role of the Monetary Authority of Singapore (MAS) in insurance regulation",
         "know the nature and the classification of instruments issued by MAS",
@@ -893,28 +898,36 @@
         "describe the purpose of the Policy Owners’ Protection Scheme relating to general insurance policies",
         "understand the Premium Payment Framework jointly issued by the General Insurance Association of Singapore (GIA) and Singapore Insurance Brokers’ Association (SIBA)"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "シンガポール金融管理庁（MAS）の保険規制における役割を知る",
+        "MASが発行する法的文書の性質と分類を知る",
+        "各種保険事業体の免許・認可に関する情報および根拠法を理解する",
+        "リスクベース自己資本（RBC）フレームワークを知る",
+        "傷害保険および健康保険契約における受取人指定で保険契約者が利用できる2つの選択肢を知る",
+        "損害保険契約に関する保険契約者保護スキームの目的を説明する",
+        "シンガポール損害保険協会（GIA）とシンガポール保険ブローカー協会（SIBA）が共同で発行した保険料支払フレームワークを理解する"
+      ],
       "sections": [
         {
           "id": "ch2-s1",
           "number": "1",
           "title": "The Role Of The Regulator In Singapore",
-          "titleJP": "",
+          "titleJP": "シンガポールにおける規制当局の役割",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "The regulator of the insurance industry in Singapore is the Monetary Authority of Singapore (MAS) which is governed by the Monetary Authority of Singapore Act 1970, which confers on it powers to issue legal instruments for regulation and supervision of financial institutions including insurers, reinsurers, insurance brokers etc. In addition, MAS also has frameworks and guidelines in place which cut across various classes of financial institutions.",
-              "textJP": ""
+              "textJP": "シンガポールの保険業界の規制当局は、Monetary Authority of Singapore Act 1970（シンガポール金融管理庁法1970年）に基づくシンガポール金融管理庁（MAS）であり、同法は保険者、再保険者、保険ブローカー等を含む金融機関の規制および監督のための法的文書を発行する権限をMASに付与しています。加えて、MASはさまざまな種類の金融機関に横断的に適用されるフレームワークおよびガイドラインも整備しています。"
             },
             {
               "num": "1.2",
               "text": "The Insurance Department, under the Financial Supervision Group of the MAS, supervises and regulates insurance companies in Singapore, and has as its primary objective the protection of policyholders' interests. The Department adopts a risk-focused approach in the prudential and market conduct supervision of insurance companies. In its standards setting role, the Department works closely with the industry associations to promote the adoption of best practices by the industry.",
-              "textJP": ""
+              "textJP": "MASの金融監督グループに属する保険部門は、シンガポールの保険会社を監督・規制しており、その主な目的は保険契約者の利益の保護です。同部門は、保険会社の健全性および市場行為の監督においてリスク重視のアプローチを採用しています。基準策定の役割において、同部門は業界のベストプラクティスの採用を促進するため業界団体と緊密に連携しています。"
             },
             {
               "num": "1.3",
               "text": "Among the legal instruments adopted by MAS is the Insurance Act 1966 which governs the regulation of insurance business in Singapore, including insurers, insurance intermediaries and related institutions. While this Act is the primary instrument adopted by the MAS in its supervision of the insurance industry, there are other instruments adopted by MAS in this regard. We shall now examine the nature and classification of these instruments.",
-              "textJP": ""
+              "textJP": "MASが採用している法的文書の中でも、Insurance Act 1966（保険法1966年）は、保険者、保険仲介者、および関連機関を含むシンガポールにおける保険事業の規制を統括するものです。この法律はMASの保険業界監督における主要な手段ですが、MASはこの点に関して他の手段も採用しています。以下、これらの手段の性質と分類について検討します。"
             }
           ],
           "subsections": [
@@ -922,12 +935,12 @@
               "id": "ch2-s1-A",
               "label": "A",
               "title": "Legal Instruments",
-              "titleJP": "",
+              "titleJP": "法的文書",
               "paragraphs": [
                 {
                   "num": "1.4",
                   "text": "The various instruments adopted by the MAS can be classified as follows:\n▪ Acts\n▪ Subsidiary Legislation\n▪ Directions\n▪ Directives\n▪ Notices\n▪ Guidelines\n▪ Practice Notes\n▪ Circulars\n▪ Policy Statements",
-                  "textJP": ""
+                  "textJP": "MASが採用しているさまざまな法的文書は、以下のように分類されます。\n▪ 法律（Acts）\n▪ 委任立法（Subsidiary Legislation）\n▪ 指令（Directions）\n▪ 個別指令（Directives）\n▪ 通達（Notices）\n▪ ガイドライン（Guidelines）\n▪ 実務指針（Practice Notes）\n▪ 通知（Circulars）\n▪ 政策声明（Policy Statements）"
                 }
               ]
             },
@@ -935,17 +948,17 @@
               "id": "ch2-s1-A1",
               "label": "A1",
               "title": "Acts",
-              "titleJP": "",
+              "titleJP": "法律（Acts）",
               "paragraphs": [
                 {
                   "num": "1.5",
                   "text": "Acts contain statutory laws under the purview of the MAS passed by Parliament. These have the force of law and are published in the Government Gazette. Besides the Insurance Act 1966, other Acts applicable to the insurance industry include the Financial Advisers Act 2001 which regulates financial advisers and their representatives and supervisors, and for other purposes relating thereto or connected therewith.",
-                  "textJP": ""
+                  "textJP": "法律（Acts）には、MASの所管の下で国会が可決した制定法が含まれます。これらは法的拘束力を持ち、官報（Government Gazette）に公示されます。Insurance Act 1966のほかに、保険業界に適用される他の法律には、ファイナンシャル・アドバイザーおよびその代理人・監督者を規制するFinancial Advisers Act 2001（金融助言法2001年）、ならびにこれに関連するその他の目的のための法律があります。"
                 },
                 {
                   "num": "1.6",
                   "text": "Another example is the Deposit Insurance and Policy Owners' Protection Schemes Act 2011 which reconstitutes the Deposit Insurance Scheme for the purpose of providing limited compensation to insured depositors under certain circumstances. It also establishes a Policy Owners’ Protection Scheme for the purpose of compensating (in part or whole) or otherwise assisting or protecting insured policy owners and beneficiaries under certain circumstances. The Policy Owners’ Protection Scheme shall be discussed in further detail in Section 3 of this chapter.",
-                  "textJP": ""
+                  "textJP": "もう一つの例は、Deposit Insurance and Policy Owners' Protection Schemes Act 2011（預金保険および保険契約者保護スキーム法2011年）です。この法律は、一定の状況下で被保険預金者に対する限定的な補償を提供するための預金保険スキームを再構成するものです。また、一定の状況下で被保険保険契約者および受取人を補償（全額または一部）し、あるいはその他の方法で支援・保護するための保険契約者保護スキームも設立しています。保険契約者保護スキームについては、本章の第3節でさらに詳しく取り上げます。"
                 }
               ]
             },
@@ -953,22 +966,22 @@
               "id": "ch2-s1-A2",
               "label": "A2",
               "title": "Subsidiary Legislation (Which Includes Regulations, Orders, Declarations &",
-              "titleJP": "",
+              "titleJP": "委任立法（規則、命令、宣言および告示を含む）",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Notifications)",
-                  "textJP": ""
+                  "textJP": "告示）"
                 },
                 {
                   "num": "1.7",
                   "text": "Subsidiary legislation is issued under the authority of the relevant Acts and typically provides greater detail of the provisions of an Act, and spells out in greater detail the requirements that financial institutions or other specified persons (for example, financial adviser representatives) have to adhere to.",
-                  "textJP": ""
+                  "textJP": "委任立法は、関連する法律の権限に基づいて発行され、通常、法律の規定をより詳細に説明し、金融機関またはその他の指定された者（例えば、ファイナンシャル・アドバイザーの代理人）が遵守しなければならない要件をより詳細に定めています。"
                 },
                 {
                   "num": "1.8",
                   "text": "Subsidiary legislation has the force of law and may specify that a contravention is a criminal offence. They are also published in the Government Gazette. Examples are the Insurance (Intermediaries) Regulations, Insurance (Lloyd’s Asia Scheme) Regulations, Insurance (Actuaries) Regulations 2013, Insurance (Approved Marine, Aviation and Transit Insurance Brokers and Approved Reinsurance Brokers) Regulations and Insurance (Nomination of Beneficiaries) Regulations 2009.",
-                  "textJP": ""
+                  "textJP": "委任立法は法的拘束力を持ち、違反が刑事犯罪となることを規定する場合があります。これらも官報に公示されます。例として、Insurance (Intermediaries) Regulations、Insurance (Lloyd's Asia Scheme) Regulations、Insurance (Actuaries) Regulations 2013、Insurance (Approved Marine, Aviation and Transit Insurance Brokers and Approved Reinsurance Brokers) Regulations、およびInsurance (Nomination of Beneficiaries) Regulations 2009があります。"
                 }
               ]
             },
@@ -976,17 +989,17 @@
               "id": "ch2-s1-A3",
               "label": "A3",
               "title": "Directions",
-              "titleJP": "",
+              "titleJP": "指令（Directions）",
               "paragraphs": [
                 {
                   "num": "1.9",
                   "text": "In addition, the MAS is empowered to issue Directions, which detail specific instructions to financial institutions or other specified persons to ensure compliance. These Directions have legal effect; meaning that the MAS can specify whether a contravention of a direction is a criminal offence.",
-                  "textJP": ""
+                  "textJP": "加えて、MASは指令（Directions）を発行する権限を有しており、指令はコンプライアンスを確保するために金融機関またはその他の指定された者に対する具体的な指示を詳述するものです。これらの指令は法的効力を有します。すなわち、MASは指令の違反が刑事犯罪となるかどうかを規定することができます。"
                 },
                 {
                   "num": "1.10",
                   "text": "Directions consist of the following:\n▪ Directives - primarily impose legally binding requirements on an individual financial institution or a specified person; and\n▪ Notices - primarily impose legally binding requirements on a specified class of financial institutions or persons. Examples are the Notice No.: MAS 211 on Minimum And Best Practice Training And Competency Standards For Direct General Insurers, MAS 106 Appointment of Director, Chairman, Member of Nominating Committee, and Key Executive Person for Insurers and Notice 502 Minimum Standards and Continuing Professional Development for Insurance Brokers and their Broking Staff.",
-                  "textJP": ""
+                  "textJP": "指令は以下で構成されます。\n▪ 個別指令（Directives）：主として個別の金融機関または指定された者に対し、法的拘束力のある要件を課すもの\n▪ 通達（Notices）：主として指定された種類の金融機関または者に対し、法的拘束力のある要件を課すもの。例として、元受損害保険者に対する最低基準およびベストプラクティスの研修・能力基準に関するMAS通達211号（Notice No.: MAS 211）、保険者の取締役、議長、指名委員会委員および主要経営者の任命に関するMAS 106、ならびに保険ブローカーおよびそのブローキング・スタッフの最低基準および継続的専門能力開発に関する通達502号（Notice 502）があります。"
                 }
               ]
             },
@@ -994,17 +1007,17 @@
               "id": "ch2-s1-A4",
               "label": "A4",
               "title": "Guidelines",
-              "titleJP": "",
+              "titleJP": "ガイドライン（Guidelines）",
               "paragraphs": [
                 {
                   "num": "1.11",
                   "text": "Guidelines set out principles or “best practice standards” that govern the conduct of specified institutions or persons. While contravention of guidelines is not a criminal offence and does not attract civil penalties, specified institutions or persons are encouraged to observe the spirit of these guidelines. The degree of observance with guidelines by an institution or a person may have an impact on the MAS overall risk assessment of that institution or person. Examples are the Technology Risk Management Guidelines for Financial Institutions, and the Guidelines on Standards of Conduct for Insurance Brokers.",
-                  "textJP": ""
+                  "textJP": "ガイドラインは、指定された機関または者の行為を規律する原則または「ベストプラクティス基準」を定めるものです。ガイドラインの違反は刑事犯罪ではなく、民事上の制裁も発生しませんが、指定された機関または者はこれらのガイドラインの趣旨を遵守することが奨励されます。機関または者によるガイドラインの遵守の程度は、MASによるその機関または者の全体的なリスク評価に影響を与える可能性があります。例として、金融機関向けテクノロジーリスク管理ガイドライン、および保険ブローカーの行為基準に関するガイドラインがあります。"
                 },
                 {
                   "num": "1.12",
                   "text": "Another example is the introduction in December 2020 of the MAS Guidelines on Environmental Risk Management for Insurers. These Guidelines aim to enhance the insurance sector’s resilience to and management of environmental risk through setting out sound risk management practices. It applies to all insurers, including insurers carrying on business in Singapore under a foreign insurer scheme established under Part 2A of the Insurance Act 1966. The Guidelines are applicable to insurers’ underwriting and investment activities, and other activities that expose insurers to material environmental risk.",
-                  "textJP": ""
+                  "textJP": "もう一つの例は、2020年12月に導入されたMASの保険者向け環境リスク管理ガイドラインです。このガイドラインは、健全なリスク管理の実務を定めることにより、保険セクターの環境リスクに対するレジリエンスと管理を強化することを目的としています。Insurance Act 1966のPart 2Aに基づく外国保険者スキームの下でシンガポールにおいて事業を行う保険者を含む、すべての保険者に適用されます。このガイドラインは、保険者の引受活動および投資活動、ならびに保険者を重大な環境リスクにさらすその他の活動に適用されます。"
                 }
               ]
             },
@@ -1012,12 +1025,12 @@
               "id": "ch2-s1-A5",
               "label": "A5",
               "title": "Practice Notes",
-              "titleJP": "",
+              "titleJP": "実務指針（Practice Notes）",
               "paragraphs": [
                 {
                   "num": "1.13",
                   "text": "Practice Notes are meant to guide specified institutions or persons on administrative procedures relating to, among others, licensing, reporting and compliance matters. Contravention of a practice note is not a criminal offence, unless a procedure stated in the practice note is also required by an Act or regulation. An example is the Practice Note on Recommendations on Investment Products [FAA PN-02] which provides guidance to financial advisers and their representatives on the assessment they must conduct on a client before recommending any complex investment product to their clients.",
-                  "textJP": ""
+                  "textJP": "実務指針は、免許、報告、およびコンプライアンス事項等に関する行政手続きについて、指定された機関または者を案内することを目的としています。実務指針の違反は、当該実務指針に記載された手続きが法律または規則によっても要求されている場合を除き、刑事犯罪ではありません。例として、投資商品の推奨に関する実務指針[FAA PN-02]があり、これはファイナンシャル・アドバイザーおよびその代理人に対し、複雑な投資商品を顧客に推奨する前に実施しなければならない顧客評価についての指針を提供しています。"
                 }
               ]
             },
@@ -1025,12 +1038,12 @@
               "id": "ch2-s1-A6",
               "label": "A6",
               "title": "Circulars",
-              "titleJP": "",
+              "titleJP": "通知（Circulars）",
               "paragraphs": [
                 {
                   "num": "1.14",
                   "text": "Circulars are documents which are sent to specified persons for their information or are published on the MAS Website for public information. Circulars have no legal effect. Examples are ID 07/20 Issuance of Insurance (Valuation And Capital) (Amendment) Regulations 2020 and New MAS Notice 133 on Valuation and Capital Framework for Insurers.",
-                  "textJP": ""
+                  "textJP": "通知は、情報提供のために指定された者に送付される文書、またはMASウェブサイトで公開される文書です。通知は法的効力を有しません。例として、ID 07/20 Insurance (Valuation And Capital) (Amendment) Regulations 2020の発行およびNew MAS Notice 133 on Valuation and Capital Framework for Insurersがあります。"
                 }
               ]
             },
@@ -1038,12 +1051,12 @@
               "id": "ch2-s1-A7",
               "label": "A7",
               "title": "Policy Statements",
-              "titleJP": "",
+              "titleJP": "政策声明（Policy Statements）",
               "paragraphs": [
                 {
                   "num": "1.15",
                   "text": "Policy statements outline broadly the major policies of the MAS. Details of these instruments relating to the financial services industry can be obtained from the MAS Website at: http://www.mas.gov.sg/",
-                  "textJP": ""
+                  "textJP": "政策声明は、MASの主要な政策を概括的に示すものです。金融サービス業界に関連するこれらの法的文書の詳細は、MASウェブサイト（http://www.mas.gov.sg/）から入手できます。"
                 }
               ]
             },
@@ -1051,17 +1064,17 @@
               "id": "ch2-s1-B",
               "label": "B",
               "title": "Licensing",
-              "titleJP": "",
+              "titleJP": "免許制度",
               "paragraphs": [
                 {
                   "num": "1.16",
                   "text": "Insurers in Singapore comprise licensed insurers, authorised reinsurers, approved marine, aviation and transit (MAT) insurers and foreign insurers. Insurance brokers in Singapore comprise registered insurance brokers, approved MAT insurance brokers and approved reinsurance brokers. The licensing of these entities is governed under the Insurance Act 1966.",
-                  "textJP": ""
+                  "textJP": "シンガポールの保険者は、免許保険者、認可再保険者、認可海上・航空・運送（MAT）保険者、および外国保険者で構成されます。シンガポールの保険ブローカーは、登録保険ブローカー、認可MAT保険ブローカー、および認可再保険ブローカーで構成されます。これらの事業体の免許制度は、Insurance Act 1966の下で統括されています。"
                 },
                 {
                   "num": "1.17",
                   "text": "Refer to the table below for licensing and authorisation information as well as governing Acts for the different types of insurance entities.1 Types of Insurance Entities Governing Act Licensing and Authorisation Licensed insurers Insurance Act Section 11\n▪ Direct insurer\n▪ Reinsurer − Special Purpose Reinsurance Vehicle\n▪ Captive insurer Foreign insurers Insurance Act Part 2A • Lloyd's Asia Scheme\n▪ Lloyd's Scheme Authorised reinsurers Insurance Act Section Authorised reinsurer Approved marine, aviation and transit (MAT) insurers Insurance (Approved Marine, Aviation and Transit Insurers) Regulations regulation 5 Approved MAT insurer Registered insurance brokers Insurance Act Sections 75-76 Registered insurance broker:\n▪ Registered direct insurance broker*\n▪ Registered general reinsurance broker\n▪ Registered life reinsurance broker\n▪ Registered direct insurance broker authorised to place risks with Lloyd's of London under the Lloyd's Sch eme Approved insurance brokers Insurance (Approved Marine, Aviation and Transit Insurance Brokers and Approved Reinsurance Brokers) Regulations regulation 4 Approved insurance brokers:\n▪ Approved MAT insurance broker\n▪ Approved general reinsurance broker\n▪ Approved life rein surance broker 1 Source: https://www.mas.gov.sg/regulation/Insurance/Types-of-Insurers-in-Singapore Types of Insurance Entities Governing Act Licensing and Authorisation Representative office Insurance Act Section Set up insurance representative office General insurance agents Insurance Act Part IIB Division 1 Registration with the General Insurance Association of Singapore (GIA)'s Agents’ Registration Board (ARB)",
-                  "textJP": ""
+                  "textJP": "各種保険事業体の免許・認可に関する情報および根拠法については、以下の表を参照してください。\n\n保険事業体の種類 | 根拠法 | 免許・認可\n免許保険者 | Insurance Act第11条 |\n▪ 元受保険者\n▪ 再保険者（特別目的再保険ビークルを含む）\n▪ キャプティブ保険会社\n外国保険者 | Insurance Act Part 2A |\n▪ ロイズ・アジア・スキーム\n▪ ロイズ・スキーム\n認可再保険者 | Insurance Act | 認可再保険者\n認可MAT保険者 | Insurance (Approved Marine, Aviation and Transit Insurers) Regulations第5条 | 認可MAT保険者\n登録保険ブローカー | Insurance Act第75-76条 |\n▪ 登録ダイレクト保険ブローカー*\n▪ 登録損害再保険ブローカー\n▪ 登録生命再保険ブローカー\n▪ ロイズ・スキームの下でロイズにリスクを付託する権限を有する登録ダイレクト保険ブローカー\n認可保険ブローカー | Insurance (Approved Marine, Aviation and Transit Insurance Brokers and Approved Reinsurance Brokers) Regulations第4条 |\n▪ 認可MAT保険ブローカー\n▪ 認可損害再保険ブローカー\n▪ 認可生命再保険ブローカー\n駐在員事務所 | Insurance Act | 駐在員事務所の設置\n損害保険代理店 | Insurance Act Part IIB Division 1 | シンガポール損害保険協会（GIA）の代理店登録委員会（ARB）への登録"
                 }
               ]
             },
@@ -1069,42 +1082,42 @@
               "id": "ch2-s1-C",
               "label": "C",
               "title": "Risk Based Capital Framework",
-              "titleJP": "",
+              "titleJP": "リスクベース自己資本（RBC）フレームワーク",
               "paragraphs": [
                 {
                   "num": "1.18",
                   "text": "Insurance companies are facing greater challenges in their businesses, particularly in terms of volatility of assets and diversity of insurance risks, as well as keener competition from other financial institutions. While previous statutory solvency frameworks, which relied on undisclosed margins and approximations, had served their purpose well, they were not sufficiently transparent or risk-focused to adequately reflect the true financial conditions of the insurance companies in the new environment. To address these inadequacies, the MAS adopted a risk-based capital (RBC) framework in 2004, which was formulated in close consultation with insurance practitioners and representatives from the actuarial and accounting professions.",
-                  "textJP": ""
+                  "textJP": "保険会社は、特に資産のボラティリティと保険リスクの多様性、および他の金融機関との競争激化の面で、事業においてより大きな課題に直面しています。非開示のマージンと概算に依拠していた従来の法定ソルベンシーの枠組みはその役割を十分に果たしてきたものの、新たな環境において保険会社の真の財務状況を適切に反映するには、十分な透明性とリスクへの焦点を欠いていました。これらの不十分な点に対処するため、MASは2004年にリスクベース自己資本（RBC）フレームワークを採用しました。このフレームワークは、保険実務者およびアクチュアリー・会計専門職の代表者との緊密な協議の下で策定されました。"
                 },
                 {
                   "num": "1.19",
                   "text": "The RBC adopts a risk-focused approach to assessing capital adequacy and seeks to reflect the relevant risks that insurance companies face. In order to align the framework with international standards and best practice, and in light of the evolving market developments, there was a need to enhance its risk sensitivity and coverage. The new RBC framework’s i.e. RBC2’s key objectives are to enhance policyholder protection, observe international standards and best practices and to ensure insurers can perform its economic and social role on a sustainable basis.",
-                  "textJP": ""
+                  "textJP": "RBCは、自己資本の十分性を評価するためのリスク重視のアプローチを採用し、保険会社が直面する関連リスクを反映することを目指しています。このフレームワークを国際基準およびベストプラクティスに適合させ、進展する市場の動向に照らして、リスク感応度とカバレッジを向上させる必要がありました。新しいRBCフレームワーク（RBC2）の主要目的は、保険契約者保護の強化、国際基準およびベストプラクティスの遵守、ならびに保険者が持続可能な基盤の上で経済的・社会的役割を果たせるようにすることです。"
                 },
                 {
                   "num": "1.20",
                   "text": "The minimum capital requirements prescribed under the framework serve as a buffer to absorb losses. The RBC framework also provides clearer information on the financial strength of insurers and facilitates early and effective intervention by MAS, where necessary.",
-                  "textJP": ""
+                  "textJP": "このフレームワークの下で規定される最低自己資本要件は、損失を吸収するためのバッファーとして機能します。RBCフレームワークはまた、保険者の財務健全性に関するより明確な情報を提供し、必要に応じてMASによる早期かつ効果的な介入を促進します。"
                 },
                 {
                   "num": "1.21",
                   "text": "Insurers in Singapore are well-capitalised. The objective of RBC 2 is therefore not to raise the industry’s overall regulatory capital requirements, but to ensure that the framework for assessing capital adequacy is more aligned to an insurer’s business activities and risk profiles.",
-                  "textJP": ""
+                  "textJP": "シンガポールの保険者は十分な自己資本を有しています。したがって、RBC2の目的は業界全体の規制上の自己資本要件を引き上げることではなく、自己資本の十分性を評価するフレームワークが保険者の事業活動およびリスクプロファイルにより適合したものとなるようにすることです。"
                 },
                 {
                   "num": "1.22",
                   "text": "The RBC framework for Singapore insurance companies is risk based and reflects the differences in risk profiles of various insurers. These differences can be based on the type of class and insured, extent of reinsurance, terms and conditions. It then considers the capital adequacy of these insurers. Capital requirements prescribed under the framework are meant to absorb the fluctuations in asset and liabilities.",
-                  "textJP": ""
+                  "textJP": "シンガポールの保険会社向けRBCフレームワークはリスクベースであり、さまざまな保険者のリスクプロファイルの違いを反映しています。これらの違いは、保険の種類と被保険者、再保険の範囲、条件等に基づきます。その上で、これらの保険者の自己資本の十分性を検討します。このフレームワークの下で規定される自己資本要件は、資産と負債の変動を吸収することを目的としています。"
                 },
                 {
                   "num": "1.23",
                   "text": "In February 2020, MAS published a circular informing all licensed insurers about the issuance of the Insurance (Valuation and Capital) (Amendment) Regulations 2020 and of the new MAS Notice 133 on Valuation and Capital Framework for insurers in Singapore.",
-                  "textJP": ""
+                  "textJP": "2020年2月、MASは、Insurance (Valuation and Capital) (Amendment) Regulations 2020の発行および保険者向けの評価・自己資本フレームワークに関する新しいMAS通達133号（MAS Notice 133）について、すべての免許保険者に通知する通知を公表しました。"
                 },
                 {
                   "num": "1.24",
                   "text": "The Regulations and Notice set out requirements under the risk-based capital framework for all licensed insurers, including the way in which assets and liabilities are to be valued. The Insurance (Valuation and Capital) (Amendment) Regulations 2020 and MAS Notice 133 came into effect on March 31, 2020.",
-                  "textJP": ""
+                  "textJP": "この規則および通達は、すべての免許保険者に対するリスクベース自己資本フレームワークの下での要件を定めており、資産および負債の評価方法を含みます。Insurance (Valuation and Capital) (Amendment) Regulations 2020およびMAS通達133号は、2020年3月31日に施行されました。"
                 }
               ]
             }
@@ -1114,57 +1127,57 @@
           "id": "ch2-s2",
           "number": "2",
           "title": "Nomination Of Beneficiaries For Personal Accident & Health",
-          "titleJP": "",
+          "titleJP": "傷害・健康保険契約における受取人指定",
           "paragraphs": [
             {
               "num": "",
               "text": "INSURANCE POLICIES",
-              "textJP": ""
+              "textJP": "保険契約"
             },
             {
               "num": "2.1",
               "text": "When intermediaries arrange personal accident and health insurance policies for the policyholders, the latter need to know that their loved ones will be financially supported in the unfortunate event of their demise or disability. The policyholders need to know who will receive the benefits and how the benefits will be distributed. A knowledge of insurance nomination law will enable intermediaries to give the policyholders the appropriate advice in this regard.",
-              "textJP": ""
+              "textJP": "仲介者が保険契約者のために傷害保険および健康保険契約を手配する際、保険契約者は、不幸にも死亡または障害が発生した場合に大切な人が経済的に支えられることを知る必要があります。保険契約者は、誰が給付金を受け取り、給付金がどのように分配されるかを知る必要があります。保険の受取人指定に関する法律の知識があれば、仲介者は保険契約者にこの点について適切な助言を行うことができます。"
             },
             {
               "num": "2.2",
               "text": "The insurance nomination law, Insurance (Nomination of Beneficiaries) Regulations 2009, under the Insurance Act 1966 came into effect on 1 September 2009. This law gives policy owners two options when nominating beneficiaries under their policies for Life Insurance, Personal Accident (PA) Insurance, as well as Health Insurance (such as Critical Illness Insurance or Dread Disease Insurance, where there is coverage of death benefit). They can choose to make a revocable nomination or a trust nomination, to ensure that the death proceeds under such policies are distributed to their beneficiaries in accordance with their wishes made during their lifetime.",
-              "textJP": ""
+              "textJP": "保険の受取人指定に関する法律であるInsurance (Nomination of Beneficiaries) Regulations 2009は、Insurance Act 1966に基づき、2009年9月1日に施行されました。この法律は、生命保険、傷害保険（PA）、ならびに健康保険（重大疾病保険やドレッド・ディジーズ保険など、死亡給付の補償がある場合）の保険契約の下で受取人を指定する際に、保険契約者に2つの選択肢を与えています。保険契約者は、取消可能指定（revocable nomination）または信託指定（trust nomination）のいずれかを選択し、当該保険契約の死亡保険金が生前の意思に従って受取人に分配されることを確保できます。"
             },
             {
               "num": "2.3",
               "text": "With a revocable nomination in accordance with Section 133 of the Insurance Act 1966, the policy owner continues to retain full ownership of the policy. He retains the right to change, add or remove nominated beneficiaries at any time without the consent of the nominated beneficiaries. The policy owner will receive living benefits, and only death benefits will be paid to the nominated beneficiaries.",
-              "textJP": ""
+              "textJP": "Insurance Act 1966第133条に基づく取消可能指定では、保険契約者は保険契約の完全な所有権を引き続き保持します。保険契約者は、指定受取人の同意なく、いつでも指定受取人の変更、追加、または削除を行う権利を有します。保険契約者は生存給付を受け取り、死亡給付のみが指定受取人に支払われます。"
             },
             {
               "num": "2.4",
               "text": "With a trust nomination, also known as irrevocable nomination, in accordance with Section 132 of the Insurance Act 1966, the policy owner relinquishes all rights to the policy. This means that, while he is still obliged to pay the premiums due, all policy benefits (whether living and/or death) belong to the nominated beneficiaries. The policy owner can regain his rights to own the policy benefits only with the written consent of all nominated beneficiaries. Only a spouse or child of the policy owner is eligible to become a nominated beneficiary in this respect. An advantage of such a nomination is that the policy proceeds are protected from the creditors in the event of bankruptcy. 3. THE POLICY OWNERS’ PROTECTION SCHEME",
-              "textJP": ""
+              "textJP": "Insurance Act 1966第132条に基づく信託指定（取消不能指定とも呼ばれます）では、保険契約者は保険契約に対するすべての権利を放棄します。これは、保険料の支払い義務は引き続き負うものの、すべての保険給付（生存給付および／または死亡給付）が指定受取人に帰属することを意味します。保険契約者は、すべての指定受取人の書面による同意がある場合にのみ、保険給付を受ける権利を回復できます。この場合、保険契約者の配偶者または子のみが指定受取人となる資格を有します。このような指定の利点は、破産の場合に保険金が債権者から保護されることです。\n3. 保険契約者保護スキーム"
             },
             {
               "num": "3.1",
               "text": "The Policy Owners’ Protection Scheme, created by the Deposit Insurance and Policy Owner’ Protection Act 2011, that came into effect on 1 May 2011, is an additional safety net that protects the interests of policy owners or policyholders in the event that an insurer defaults. The scheme encompasses a Policyholders’ Protection Fund (PPF), administered by Singapore Deposit Insurance Corporation Limited (SDIC). SDIC is a company limited by guarantee under the Companies Act 1967. The board of directors is accountable to the Minister in charge of the MAS.",
-              "textJP": ""
+              "textJP": "保険契約者保護スキーム（Policy Owners' Protection Scheme）は、2011年5月1日に施行されたDeposit Insurance and Policy Owners' Protection Act 2011によって創設されたもので、保険者が債務不履行に陥った場合に保険契約者の利益を保護する追加的なセーフティネットです。このスキームには、Singapore Deposit Insurance Corporation Limited（SDIC）が管理する保険契約者保護基金（PPF）が含まれています。SDICはCompanies Act 1967に基づく保証有限責任会社です。取締役会はMAS担当大臣に対して説明責任を負います。"
             },
             {
               "num": "3.2",
               "text": "All insurance companies are regulated entities in Singapore. The scheme provides added assurance that there is compensation available for policy owners, to reduce the financial impact on individuals in the event that an insurer default.",
-              "textJP": ""
+              "textJP": "すべての保険会社はシンガポールにおいて規制対象の事業体です。このスキームは、保険者が債務不履行に陥った場合に個人への経済的影響を軽減するため、保険契約者に対して補償が利用可能であるという追加的な保証を提供します。"
             },
             {
               "num": "3.3",
               "text": "The scheme relating to general insurance provides 100% coverage for the types of general insurance policies covered under the scheme. However, there are also caps, on a per policy basis, for own property damage motor claims (S$50,000) under personal motor insurance policies and property damage claims under personal property insurance (S$300,000). Coverage is automatic, and there is no charge to any policyholder. Levies are paid by the insurers.",
-              "textJP": ""
+              "textJP": "損害保険に関するスキームは、スキームの対象となる種類の損害保険契約について100%の補償を提供します。ただし、個人自動車保険契約に基づく自己所有物損害の保険金請求（S$50,000）および個人財物保険に基づく物的損害の保険金請求（S$300,000）について、契約ごとの上限も設けられています。補償は自動的であり、保険契約者に対する費用負担はありません。賦課金は保険者が支払います。"
             },
             {
               "num": "3.4",
               "text": "All compulsory insurance policies under the Motor Vehicles (Third-Party Risks and Compensation) Act 1960 and Work Injury Compensation Act 2019, and Singapore policies of specified lines issued by registered general insurers that are scheme members are covered under the scheme. A Singapore policy insures risks arising in Singapore, or where the insured is a Singapore resident, or has a permanent establishment in Singapore.",
-              "textJP": ""
+              "textJP": "Motor Vehicles (Third-Party Risks and Compensation) Act 1960（自動車法1960年）およびWork Injury Compensation Act 2019（労災補償法2019年）に基づくすべての強制保険契約、ならびにスキーム会員である登録損害保険者が発行する指定分野のシンガポール保険契約は、このスキームの対象となります。シンガポール保険契約とは、シンガポールにおいて発生するリスクを付保するもの、または被保険者がシンガポール居住者であるか、シンガポールに恒久的施設を有する場合の保険契約です。"
             },
             {
               "num": "3.5",
               "text": "All insurers registered by the MAS that carry out direct general business (other than captive or specialist insurers) are PPF Scheme Members. Details of the scheme and its members are available on the SDIC Website at: http://www.sdic.org.sg",
-              "textJP": ""
+              "textJP": "元受損害保険事業を行うMAS登録保険者（キャプティブ保険者または専門保険者を除く）は、すべてPPFスキームの会員です。スキームおよびその会員の詳細は、SDICウェブサイト（http://www.sdic.org.sg）で確認できます。"
             }
           ],
           "subsections": []
@@ -1173,27 +1186,27 @@
           "id": "ch2-s4",
           "number": "4",
           "title": "Premium Payment Framework",
-          "titleJP": "",
+          "titleJP": "保険料支払フレームワーク",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "In this section, we shall discuss the Premium Payment Framework which establish rules for premium payment management in general insurance. Intermediaries and policyholders need to be aware of the provisions of the Premium Payment Framework as any breach of the premium payment warranties will result in no benefits whatsoever being payable by the insurer. In other words, if policyholders do not pay their general insurance premiums in time, the insurers will not pay any claims in relation to the policies concerned. In addition, the policy coverage will be terminated. Insurance intermediaries therefore need to know the Premium Payment Framework so that they can render the appropriate advice to policyholders.",
-              "textJP": ""
+              "textJP": "本節では、損害保険における保険料支払管理のルールを定める保険料支払フレームワークについて取り上げます。仲介者および保険契約者は、保険料支払担保条項の違反により保険者からの給付が一切支払われなくなるため、保険料支払フレームワークの規定を認識しておく必要があります。言い換えれば、保険契約者が損害保険料を期限内に支払わない場合、保険者は当該保険契約に関する保険金請求を一切支払いません。加えて、保険のカバーは終了します。したがって、保険仲介者は保険契約者に適切な助言を行うため、保険料支払フレームワークを知っておく必要があります。"
             },
             {
               "num": "4.2",
               "text": "The Premium Payment Framework is a code, jointly issued by the General Insurance Association of Singapore (GIA) and the Singapore Insurance Brokers Association (SIBA), that came into effect on 1 September 2016. This single set of code will jointly apply to insurers and intermediaries.",
-              "textJP": ""
+              "textJP": "保険料支払フレームワークは、シンガポール損害保険協会（GIA）とシンガポール保険ブローカー協会（SIBA）が共同で発行した規約であり、2016年9月1日に施行されました。この単一の規約は、保険者と仲介者の両方に共同で適用されます。"
             },
             {
               "num": "4.3",
               "text": "The objectives of the Premium Payment Framework are to:\n▪ improve efficiency in the collection of premiums for general insurance policies; and\n▪ minimise the possibility of disputes between insurers and policyholders.",
-              "textJP": ""
+              "textJP": "保険料支払フレームワークの目的は以下のとおりです。\n▪ 損害保険契約の保険料徴収の効率性を改善すること\n▪ 保険者と保険契約者との間の紛争の可能性を最小化すること"
             },
             {
               "num": "4.4",
               "text": "To facilitate the collection of premiums from policyholders, three types of premium payment warranties are incorporated into policies issued by insurers who are members of GIA:\n▪ Payment Before Cover Warranty;\n▪ Premium Payment Warranty; and\n▪ Premium Instalment Payment Warranty.",
-              "textJP": ""
+              "textJP": "保険契約者からの保険料徴収を促進するため、GIA会員の保険者が発行する保険契約には、以下の3種類の保険料支払担保条項が組み込まれます。\n▪ 先払い担保条項（Payment Before Cover Warranty）\n▪ 保険料支払担保条項（Premium Payment Warranty）\n▪ 保険料分割払い担保条項（Premium Instalment Payment Warranty）"
             }
           ],
           "subsections": [
@@ -1201,22 +1214,22 @@
               "id": "ch2-s4-A",
               "label": "A",
               "title": "Payment Before Cover Warranty",
-              "titleJP": "",
+              "titleJP": "先払い担保条項（Payment Before Cover Warranty）",
               "paragraphs": [
                 {
                   "num": "4.5",
                   "text": "The Payment Before Cover Warranty applies to the following:\n▪ Personal Lines policies; or\n▪ Bonds.",
-                  "textJP": ""
+                  "textJP": "先払い担保条項は、以下に適用されます。\n▪ 個人分野（Personal Lines）の保険契約\n▪ ボンド（保証証券）"
                 },
                 {
                   "num": "4.6",
                   "text": "A Personal Lines policy or a Bond shall not be in force, unless the premium is paid to the insurer or intermediary on or before the date of inception of the policy or Bond.",
-                  "textJP": ""
+                  "textJP": "個人分野の保険契約またはボンドは、保険料が保険契約またはボンドの開始日当日またはそれ以前に保険者または仲介者に支払われない限り、効力を生じません。"
                 },
                 {
                   "num": "4.7",
                   "text": "In the event that the total premium due is not paid to the insurer or the intermediary on or before the inception date or the renewal date of the policy or Bond, then no benefits whatsoever shall be payable by the insurer. Any payment received thereafter shall be of no effect whatsoever, as the cover has not attached.",
-                  "textJP": ""
+                  "textJP": "保険料の全額が保険契約またはボンドの開始日または更新日の当日またはそれ以前に保険者または仲介者に支払われない場合、保険者からの給付は一切支払われません。その後に受領された支払いは、カバーが開始されていないため、一切効力を有しません。"
                 }
               ]
             },
@@ -1224,22 +1237,22 @@
               "id": "ch2-s4-B",
               "label": "B",
               "title": "Premium Payment Warranty",
-              "titleJP": "",
+              "titleJP": "保険料支払担保条項（Premium Payment Warranty）",
               "paragraphs": [
                 {
                   "num": "4.8",
                   "text": "The Premium Payment Warranty applies to policies issued for ALL classes of general insurance relating to commercial lines transacted by insurers or intermediaries.",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項は、保険者または仲介者が取り扱う企業分野（Commercial Lines）の損害保険のすべての種類について発行される保険契約に適用されます。"
                 },
                 {
                   "num": "4.9",
                   "text": "Under the warranty, if the period of insurance is more than 60 days, the policyholder is required to pay the premium due under the policy in full, within 60 days from the date of inception of the policy. If this warranty is not complied with, then the policy is automatically terminated from the expiry of the 60-day period, and the insurer will be entitled to a pro-rata premium for the 60-day period that the insurer has been on risk. If the period of insurance is less than 60 days, then the insured is required to pay the premium due under the policy in full, within the period of insurance.",
-                  "textJP": ""
+                  "textJP": "この担保条項の下で、保険期間が60日を超える場合、保険契約者は保険契約の開始日から60日以内に保険料の全額を支払うことが求められます。この担保条項が遵守されない場合、保険契約は60日の期間の満了と同時に自動的に終了し、保険者はリスクを引き受けていた60日間の按分保険料を受ける権利を有します。保険期間が60日未満の場合、被保険者は保険期間内に保険料の全額を支払うことが求められます。"
                 },
                 {
                   "num": "4.10",
                   "text": "Under the Premium Payment Framework, commercial lines refer to commercial general insurance, but it excludes the following types of policies:\n▪ Marine Cargo\n▪ Marine Hull\n▪ Marine Liabilities\n▪ Aviation\n▪ Bonds\n▪ Trade Credit\n▪ Political Risk\n▪ Global/Regional Programmes",
-                  "textJP": ""
+                  "textJP": "保険料支払フレームワークの下で、企業分野とは企業向け損害保険を指しますが、以下の種類の保険契約は除外されます。\n▪ 海上貨物保険\n▪ 船体保険\n▪ 海上賠償責任保険\n▪ 航空保険\n▪ ボンド（保証証券）\n▪ 貿易信用保険\n▪ 政治リスク保険\n▪ グローバル／リージョナル・プログラム"
                 }
               ]
             },
@@ -1247,27 +1260,27 @@
               "id": "ch2-s4-C",
               "label": "C",
               "title": "Premium Instalment Payment Warranty",
-              "titleJP": "",
+              "titleJP": "保険料分割払い担保条項（Premium Instalment Payment Warranty）",
               "paragraphs": [
                 {
                   "num": "4.11",
                   "text": "The Premium Instalment Payment Warranty also applies to policies issued for all classes of general insurance relating to commercial lines business transacted by insurers or intermediaries.",
-                  "textJP": ""
+                  "textJP": "保険料分割払い担保条項も、保険者または仲介者が取り扱う企業分野の損害保険のすべての種類について発行される保険契約に適用されます。"
                 },
                 {
                   "num": "4.12",
                   "text": "Under this warranty, insurers are at liberty to schedule payments provided that:\n▪ the first instalment must be paid within 60 days from the commencement of the policy; and\n▪ the remaining instalments shall be paid by the subsequent due dates.",
-                  "textJP": ""
+                  "textJP": "この担保条項の下で、保険者は以下の条件を満たすことを条件に、自由に支払いスケジュールを設定することができます。\n▪ 第1回分割払いは、保険契約の開始日から60日以内に支払われなければなりません。\n▪ 残りの分割払いは、その後の支払期日までに支払われなければなりません。"
                 },
                 {
                   "num": "4.13",
                   "text": "There are also provisions (similar to that in the Premium Payment Warranty) in that the automatic termination of the policy applies, and that the insurers are entitled to the pro rata premium if the premiums are not paid within the respective premium due dates.",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項と同様の規定もあり、保険契約の自動終了が適用され、保険料がそれぞれの支払期日までに支払われない場合、保険者は按分保険料を受ける権利を有します。"
                 },
                 {
                   "num": "4.14",
                   "text": "As for other practices relating to the Premium Payment Framework applicable to commercial lines, please refer to Appendix 2A where the complete Premium Payment Framework can be found.",
-                  "textJP": ""
+                  "textJP": "企業分野に適用される保険料支払フレームワークに関するその他の実務については、完全な保険料支払フレームワークが掲載されているAppendix 2Aを参照してください。"
                 }
               ]
             },
@@ -1275,22 +1288,22 @@
               "id": "ch2-s4-D",
               "label": "D",
               "title": "Re-marketing After Cancellation Due To Breach Of Premium Payment",
-              "titleJP": "",
+              "titleJP": "保険料支払担保条項違反による解約後のリマーケティング",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Warranty",
-                  "textJP": ""
+                  "textJP": "担保条項"
                 },
                 {
                   "num": "4.15",
                   "text": "To avoid an abuse of the system by cancelling covers and placing through other intermediaries or with other insurers, all intermediaries and insurers (for direct accounts) shall insert declarations in the quotation slips and insurance policies to the effect that policies applied for have not been in whole or in part terminated by another insurer due to non-payment of premiums in the last 12 months.",
-                  "textJP": ""
+                  "textJP": "カバーを解約し、他の仲介者や他の保険者を通じて付保するという制度の濫用を防止するため、すべての仲介者および保険者（直接契約の場合）は、見積書および保険契約書に、申込対象の保険契約が過去12ヶ月以内に保険料未払いを理由として他の保険者により全部または一部終了されていない旨の宣言を挿入しなければなりません。"
                 },
                 {
                   "num": "4.16",
                   "text": "If the policyholder declares a breach of Premium Payment Warranty in the last 12 months, confirmation must have been first received from the insurer of the previous policy that time on risk premiums have been paid before cover incepts.",
-                  "textJP": ""
+                  "textJP": "保険契約者が過去12ヶ月以内に保険料支払担保条項に違反したことを宣言した場合、カバーの開始前に、前の保険契約の保険者からリスク引受期間保険料が支払済みである旨の確認を受けていなければなりません。"
                 }
               ]
             },
@@ -1298,72 +1311,72 @@
               "id": "ch2-s4-E",
               "label": "E",
               "title": "Suspension And/Or Reinstatement Of Cover If Payment After Breach",
-              "titleJP": "",
+              "titleJP": "違反後の支払いによるカバーの停止および／または復活",
               "paragraphs": [
                 {
                   "num": "4.17",
                   "text": "When premium, including the time on risk premium, is paid by the policyholder after the period or date allowed under the Premium Payment Warranty, insurers will suspend cover from the date of breach to the date of payment.",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項で認められた期間または期日後に保険契約者がリスク引受期間保険料を含む保険料を支払った場合、保険者は違反日から支払日までカバーを停止します。"
                 },
                 {
                   "num": "4.18",
                   "text": "Insurers may reinstate cover from the date of receipt of full payment to the original expiry date. Alternatively, insurers can allow the policy to lapse and issue a fresh replacement policy. Appendix 2A Premium Payment Framework [1 September 2016] 1. Objective of the framework To establish rules for premium payment management in general insurance. 2. Definitions For ease of reference and clarity, the definitions of some important terms used in this paper are given below. Personal Lines Policies issued to any individual. Commercial Lines Policies issued for all classes of general insurance for businesses and commercial establishment (with the exception of marine cargo policies, marine hull policies, marine liabilities policies, aviation policies, bonds, trade credit policies, political risk policies and global/regional programmes). Intermediaries Refers to general insurance agents and insurance brokers as stipulated in the Insurance Act 1966. Global/Regional Programmes Refers to insurance programmes (a) Emanating from Singapore and covering multiple countries (including Singapore) for each programme; or (b) Where a Singapore insurer issues local policies as part of an insurance programme emanating from a country other than Singapore. All Workmen’s Compensation and Motor insurance policies are excluded from this definition, unless the terms of cover and issuance of these policies fall within the control of the Global/Regional Programme. Marine Cargo Policy Means a policy of insurance (a) upon goods, merchandise or property of any description whatever on board vessels; or (b) against transit risks (whether is by sea, inland water or air, or partly one and partly another) including risks incidental to the transit insured from the commencement of the transit to the ultimate destination covered by the insurance. Marine Hull Policy Means a policy of insurance upon vessels or the machinery, tackle, furniture or equipment of vessels. Marine Liabilities Policy Means a policy of insurance (a) against damage arising out of or in connection with the use of vessels or aircraft, including third-party risks; or (b) against risks incidental to the construction, repair or docking of vessels, including third-party risks. 3. Code of Practice for Premium Payment All existing guidelines issued by the General Insurance Association of Singapore (GIA) and the Singapore Insurance Brokers Association (SIBA) to their members will now be codified under this Premium Payment Framework. This single set of code will jointly apply to insurers and intermediaries. 4. Premium Payment Warranty To facilitate the collection of premiums from policyholders, 3 types of premium payment warranty will be incorporated into policies issued:",
-                  "textJP": ""
+                  "textJP": "保険者は、全額受領日から当初の満了日までカバーを復活させることができます。あるいは、保険者は保険契約を失効させ、新たな代替保険契約を発行することもできます。\nAppendix 2A 保険料支払フレームワーク [2016年9月1日]\n1. フレームワークの目的\n損害保険における保険料支払管理のルールを確立すること。\n2. 定義\n参照の容易さと明確さのため、本書で使用される重要な用語の定義を以下に示します。\n個人分野（Personal Lines）：個人に対して発行される保険契約。\n企業分野（Commercial Lines）：企業および商業施設向けの損害保険のすべての種類について発行される保険契約（海上貨物保険、船体保険、海上賠償責任保険、航空保険、ボンド、貿易信用保険、政治リスク保険、およびグローバル／リージョナル・プログラムを除く）。\n仲介者（Intermediaries）：Insurance Act 1966に規定される損害保険代理店および保険ブローカーを指します。\nグローバル／リージョナル・プログラム（Global/Regional Programmes）：(a) シンガポールを起点とし、各プログラムについて複数の国（シンガポールを含む）をカバーする保険プログラム、または (b) シンガポールの保険者がシンガポール以外の国を起点とする保険プログラムの一部としてローカル保険契約を発行する場合を指します。労災保険およびすべての自動車保険契約は、カバーの条件および保険契約の発行がグローバル／リージョナル・プログラムの管理下にある場合を除き、この定義から除外されます。\n海上貨物保険（Marine Cargo Policy）：(a) 船舶に積載された貨物、商品またはあらゆる種類の財産に対する保険契約、または (b) 輸送の開始から保険でカバーされる最終目的地までの輸送リスク（海上、内陸水路、航空、またはこれらの組合せによるかを問わず）に対する保険契約（輸送に付随するリスクを含む）を意味します。\n船体保険（Marine Hull Policy）：船舶またはその機械、艤装品、家具もしくは装備に対する保険契約を意味します。\n海上賠償責任保険（Marine Liabilities Policy）：(a) 船舶または航空機の使用に起因するもしくは関連する損害（第三者リスクを含む）に対する保険契約、または (b) 船舶の建造、修理もしくはドック入れに付随するリスク（第三者リスクを含む）に対する保険契約を意味します。\n3. 保険料支払実務規約\nシンガポール損害保険協会（GIA）およびシンガポール保険ブローカー協会（SIBA）がそれぞれの会員に発行したすべての既存ガイドラインは、本保険料支払フレームワークの下で法典化されます。この単一の規約は、保険者と仲介者の両方に共同で適用されます。\n4. 保険料支払担保条項\n保険契約者からの保険料徴収を促進するため、以下の3種類の保険料支払担保条項が発行される保険契約に組み込まれます。"
                 },
                 {
                   "num": "4.1",
                   "text": "Payment Before Cover Warranty",
-                  "textJP": ""
+                  "textJP": "先払い担保条項（Payment Before Cover Warranty）"
                 },
                 {
                   "num": "4.2",
                   "text": "Premium Payment Warranty",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項（Premium Payment Warranty）"
                 },
                 {
                   "num": "4.3",
                   "text": "Premium Instalment Payment Warranty",
-                  "textJP": ""
+                  "textJP": "保険料分割払い担保条項（Premium Instalment Payment Warranty）"
                 },
                 {
                   "num": "4.1",
                   "text": "Payment Before Cover Warranty The Payment Before Cover Warranty will apply to the following: (a) all Personal Lines policies; or (b) all Bonds The Payment Before Cover Warranty will apply for Bonds as banks or other principal organisations would generally require irrevocable demand bonds and would want to ensure that the Bonds do not carry any written qualification that allows it to be terminated during its currency. A Personal Lines policy or a Bond shall not be in force unless premium is paid to the insurer or intermediary on or before the date of inception of the policy or Bond. 4.1.1 Recommended Endorsement Wordings for Payment Before Cover Warranty (1) The premium due must be paid to the Insurer (or the intermediary through whom this Policy or Bond was effected) on or before the inception date (“the inception date”) or the renewal date of the coverage. Payment shall be deemed to have been effected to the Insurer or the intermediary when one of the following acts takes place: (a) Cash or honoured cheque for the premium is handed over to the Insurer or the intermediary; (b) A credit or debit card transaction for the premium is approved by the issuing bank; (c) A payment through an electronic medium including the internet is approved by the relevant party; (d) A credit in favour of the Insurer or the intermediary is made through an electronic medium including the internet. (2) In the event that the total premium due is not paid to the Insurer (or the intermediary through whom this Policy or Bond was effected) on or before the inception date or the renewal date, then the insurance shall not attach and no benefits whatsoever shall be payable by the Insurer. Any payment received thereafter shall be of no effect whatsoever as cover has not attached. (3) In respect of insurance coverage with Free Look provision, the policyholder may return the original policy document to the Insurer or intermediary within the Free Look period if the policyholder decides to cancel the cover during the Free Look period. In such an event, the policyholder will receive a full refund of the premium paid to the Insurer provided that no claim has been made under the insurance and the cover shall be treated as if never put in place. Free Look provision does not apply to Bond. SPECIMEN 4.1.2 Should there be extenuating circumstances resulting in non-payment of premiums, and thereby a breach of the Warranty, insurers should consider the circumstances on a caseby- case basis and review the cover within a reasonable time to ensure a fair outcome.",
-                  "textJP": ""
+                  "textJP": "先払い担保条項（Payment Before Cover Warranty）\n先払い担保条項は、以下に適用されます。\n(a) すべての個人分野の保険契約\n(b) すべてのボンド（保証証券）\n銀行またはその他の主たる組織は一般に取消不能請求払ボンドを求め、ボンドの有効期間中に終了を許容する書面上の制限を付さないことを確保したいため、先払い担保条項はボンドに適用されます。\n個人分野の保険契約またはボンドは、保険料が保険契約またはボンドの開始日当日またはそれ以前に保険者または仲介者に支払われない限り、効力を生じません。\n4.1.1 先払い担保条項の推奨裏書文言\n(1) 支払保険料は、カバーの開始日（「開始日」）または更新日の当日またはそれ以前に保険者（または本保険契約もしくはボンドが締結された仲介者）に支払われなければなりません。以下のいずれかの行為が行われた場合、保険者または仲介者への支払いがなされたものとみなされます。\n(a) 保険料の現金または決済済み小切手が保険者または仲介者に引き渡された場合\n(b) 保険料のクレジットカードまたはデビットカード取引が発行銀行により承認された場合\n(c) インターネットを含む電子媒体を通じた保険料の支払いが関係当事者により承認された場合\n(d) インターネットを含む電子媒体を通じて保険者または仲介者を受取人とする入金がなされた場合\n(2) 保険料の全額が開始日または更新日の当日またはそれ以前に保険者（または本保険契約もしくはボンドが締結された仲介者）に支払われない場合、保険は開始せず、保険者からの給付は一切支払われません。その後に受領された支払いは、カバーが開始されていないため、一切効力を有しません。\n(3) クーリングオフ期間の規定がある保険カバーについて、保険契約者がクーリングオフ期間中にカバーの解約を決定した場合、保険契約者はクーリングオフ期間内に原本の保険証券を保険者または仲介者に返還することができます。その場合、保険金請求がなされていないことを条件として、保険契約者は保険者に支払った保険料の全額の返金を受け、カバーは当初から設定されなかったものとして扱われます。クーリングオフ期間の規定はボンドには適用されません。\n4.1.2 やむを得ない事情により保険料が未払いとなり、担保条項に違反した場合、保険者は公正な結果を確保するため、個別の事情を考慮し、合理的な期間内にカバーを見直すべきです。"
                 },
                 {
                   "num": "4.2",
                   "text": "Premium Payment Warranty The Premium Payment Warranty will apply to policies issued for ALL classes of general insurance relating to Commercial Lines transacted by insurers or intermediaries. Under the warranty, if the period of insurance is more than 60 days, the policyholder is required to pay the premium due under the policy in full within 60 days from the date of inception of the policy. If this warranty is not complied with, then the policy is automatically terminated from the expiry of the 60-day period and the insurer will be entitled to a pro-rata premium for the 60-day period they have been on risk. If the period of insurance is less than 60 days, then the insured is required to pay the premium due under the policy in full within the period of insurance. 4.2.1 Recommended Endorsement Wording for Premium Payment Warranty (1) Notwithstanding anything herein contained but subject to clause 2 hereof, it is hereby agreed and declared that if the period of insurance is 60 days or more, any premium due must be paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) within 60 days of the inception date of the coverage under the Policy, Renewal Certificate or Cover Note. (2) In the event that any premium due is not paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) within the 60-day period referred to above, then: (a) the cover under the Policy, Renewal Certificate or Cover Note is automatically terminated immediately after the expiry of the said 60- day period; (b) the automatic termination of the cover shall be without prejudice to any liability incurred within the said 60-day period; and (c) the Insurer shall be entitled to a pro-rata time on risk premium subject to a minimum of S$25.00 (3) If the period of insurance is less than 60 days, any premium due must be paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) within the period of insurance. 4.2.2 To bring about greater policyholder awareness and to enhance transparency, the tax invoices issued by insurers and/or debit notes issued by intermediaries must incorporate an Important Notice to highlight the application of the Premium Payment Warranty. If premiums are not received, the insurers (for direct accounts) or the intermediaries must also send a reminder to the policyholders at least 2 weeks before the expiry of the Premium Payment Warranty period.",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項（Premium Payment Warranty）\n保険料支払担保条項は、保険者または仲介者が取り扱う企業分野の損害保険のすべての種類について発行される保険契約に適用されます。この担保条項の下で、保険期間が60日を超える場合、保険契約者は保険契約の開始日から60日以内に保険料の全額を支払うことが求められます。この担保条項が遵守されない場合、保険契約は60日の期間の満了と同時に自動的に終了し、保険者はリスクを引き受けていた60日間の按分保険料を受ける権利を有します。保険期間が60日未満の場合、被保険者は保険期間内に保険料の全額を支払うことが求められます。\n4.2.1 保険料支払担保条項の推奨裏書文言\n(1) 本書に含まれるいかなる規定にもかかわらず、ただし以下の第2項を条件として、保険期間が60日以上の場合、支払保険料は保険契約、更新証書またはカバーノートの下でのカバーの開始日から60日以内に、保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されなければならないことがここに合意され宣言されます。\n(2) 支払保険料が上記の60日の期間内に保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されない場合:\n(a) 保険契約、更新証書またはカバーノートの下でのカバーは、当該60日の期間の満了直後に自動的に終了します。\n(b) カバーの自動終了は、当該60日の期間内に発生した賠償責任を妨げるものではありません。\n(c) 保険者は、最低S$25.00を条件とするリスク引受期間の按分保険料を受ける権利を有します。\n(3) 保険期間が60日未満の場合、支払保険料は保険期間内に保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されなければなりません。\n4.2.2 保険契約者の意識向上と透明性の向上のため、保険者が発行する税務請求書および／または仲介者が発行するデビットノートには、保険料支払担保条項の適用を強調する重要な通知を組み込まなければなりません。保険料が受領されない場合、保険者（直接契約の場合）または仲介者は、保険料支払担保条項の期間の満了の少なくとも2週間前に保険契約者にリマインダーを送付しなければなりません。"
                 },
                 {
                   "num": "4.3",
                   "text": "Premium Instalment Payment Warranty The Premium Instalment Payment Warranty will apply to policies issued for ALL classes of general insurance relating to Commercial Lines business transacted by insurers or intermediaries. Insurers are at liberty to schedule payments provided:\n▪ The 1st instalment must be paid within 60 days from the commencement of the policy; and\n▪ The remaining instalments shall be paid by the subsequent due dates. SPECIMEN 4.3.1 Recommended Endorsement Wordings for Premium Instalment Payment Warranty (1) Notwithstanding anything herein contained but subject to clauses 2 and 3 hereof, it is hereby agreed and declared that: (i) the 1st instalment due must be paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) within 60 days of the inception date of the coverage under the Policy, Renewal Certificate or Cover Note; AND (ii) the 2nd and subsequent instalments, if any, of the total premium due, in such amounts as specified by the Insurer for each instalment, must be paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) on or before the respective due dates as specified by the Insurer. (2) In the event that the 1st instalment is not paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) within the 60- day period referred to above, then: (a) the cover under the Policy, Renewal Certificate or Cover Note is automatically terminated immediately after the expiry of the said 60-day period; (b) the automatic termination of the cover shall be without prejudice to any liability incurred within the said 60-day period; and (c) the Insurer shall be entitled to a pro-rata time on risk premium. (3) In the event that the 2nd or any subsequent instalment of the total premium due is not paid and actually received in full by the Insurer (or the intermediary through whom this Policy was effected) on or before the respective due dates as specified by the Insurer, then: (a) the cover under the Policy, Renewal Certificate or Cover Note is automatically terminated immediately after the respective due date in respect of which the instalment has not been paid; and (b) the automatic termination of the cover shall be without prejudice to any liability incurred within the period before the respective due date in respect of which the instalment has not been paid. 4.3.2 Illustration of Instalment Payment Plan 1ST INSTALMENT MUST BE PAID The remaining instalments (up to insurers to schedule) 60 days Rest of policy periods Date of Inception SPECIMEN 5. Terms of Settlement Between Intermediaries And Insurers Terms of settlement refer to the handing over of payments received by the intermediaries from the policyholders to the insurers. (i) Agents The settlement terms of both Cash Agents and Credit Agents will be governed by their respective Agency Agreements and the General Insurance Agents Registration Regulations (GIARR). (ii) Brokers Regardless of the types of policy, settlement terms of all Brokers are required to comply with the Insurance Broking Premium Accounts requirements established in the Insurance (Intermediaries) Regulations. Pursuant to Regulation 7 (14) of the Insurance (Intermediaries) Regulation, Brokers must pay all premiums received from the policyholder by the 90th day from the date of commencement of cover. The following illustration will help put settlement requirement for Brokers in perspective.",
-                  "textJP": ""
+                  "textJP": "保険料分割払い担保条項（Premium Instalment Payment Warranty）\n保険料分割払い担保条項は、保険者または仲介者が取り扱う企業分野の損害保険のすべての種類について発行される保険契約に適用されます。保険者は以下の条件を満たすことを条件に、自由に支払いスケジュールを設定することができます。\n▪ 第1回分割払いは、保険契約の開始日から60日以内に支払われなければなりません。\n▪ 残りの分割払いは、その後の支払期日までに支払われなければなりません。\n4.3.1 保険料分割払い担保条項の推奨裏書文言\n(1) 本書に含まれるいかなる規定にもかかわらず、ただし以下の第2項および第3項を条件として、以下がここに合意され宣言されます。\n(i) 第1回の支払保険料は、保険契約、更新証書またはカバーノートの下でのカバーの開始日から60日以内に、保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されなければなりません。\n(ii) 支払保険料の総額の第2回以降の分割払い（もしあれば）は、保険者が各分割払いについて指定した金額で、保険者が指定したそれぞれの支払期日の当日またはそれ以前に、保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されなければなりません。\n(2) 第1回の分割払いが上記の60日の期間内に保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されない場合:\n(a) 保険契約、更新証書またはカバーノートの下でのカバーは、当該60日の期間の満了直後に自動的に終了します。\n(b) カバーの自動終了は、当該60日の期間内に発生した賠償責任を妨げるものではありません。\n(c) 保険者はリスク引受期間の按分保険料を受ける権利を有します。\n(3) 支払保険料の総額の第2回以降の分割払いが、保険者が指定したそれぞれの支払期日の当日またはそれ以前に保険者（または本保険契約が締結された仲介者）に全額支払われ、実際に受領されない場合:\n(a) 保険契約、更新証書またはカバーノートの下でのカバーは、分割払いが支払われなかったそれぞれの支払期日の直後に自動的に終了します。\n(b) カバーの自動終了は、分割払いが支払われなかったそれぞれの支払期日前の期間内に発生した賠償責任を妨げるものではありません。\n4.3.2 分割払いスケジュールの例示\n第1回分割払いは支払われなければなりません。残りの分割払い（保険者がスケジュールを設定）は保険期間の残余期間中に支払われます。\n5. 仲介者と保険者の間の決済条件\n決済条件とは、仲介者が保険契約者から受領した支払いを保険者に引き渡すことを指します。\n(i) 代理店\n現金代理店および信用代理店の双方の決済条件は、それぞれの代理店契約および損保代理店登録規則（GIARR）に準拠します。\n(ii) ブローカー\n保険契約の種類にかかわらず、すべてのブローカーの決済条件は、Insurance (Intermediaries) Regulationsに規定される保険ブローキング保険料勘定の要件に従うことが求められます。Insurance (Intermediaries) Regulation第7条(14)に基づき、ブローカーは保険契約者から受領したすべての保険料を、カバーの開始日から90日目までに支払わなければなりません。以下の例示は、ブローカーの決済要件を具体的に示すものです。"
                 },
                 {
                   "num": "5.1",
                   "text": "An Illustration of the Settlement Requirements For Intermediaries and Policyholders Scenario 1 Insurer A: Financial Closing Date - 31 May 2015 Bill date – 27 May 2015 May Jun July Scenario 2 Insurer B: Financial Closing Date - 25 May 2015 Bill date – 27 May 2015 May Jun July 1/5 – Commencement date of policy 27/5 – Billing Date May statement of account will reflect transaction 30/6 – Premium Payment Due Date for insured 30/7 – Premium Payment by Intermediary to Insurer 1/5 – Commencement date of policy 25/5 – Financial Closing Date 27/5 – Billing Date 30/6 – Premium Payment Due Date for insured 30/7 – Premium Payment by Intermediary to Insurer June statement of account will reflect transaction SPECIMEN 6. Recommended Practice Applicable to Commercial Lines Business",
-                  "textJP": ""
+                  "textJP": "仲介者および保険契約者の決済要件の例示\nシナリオ1\n保険者A：会計締切日 - 2015年5月31日\n請求書発行日 - 2015年5月27日\n5/1 - 保険契約の開始日\n5/27 - 請求書発行日（5月の計算書に取引が反映）\n6/30 - 被保険者の保険料支払期限\n7/30 - 仲介者から保険者への保険料支払期限\n\nシナリオ2\n保険者B：会計締切日 - 2015年5月25日\n請求書発行日 - 2015年5月27日\n5/1 - 保険契約の開始日\n5/25 - 会計締切日\n5/27 - 請求書発行日（6月の計算書に取引が反映）\n6/30 - 被保険者の保険料支払期限\n7/30 - 仲介者から保険者への保険料支払期限\n6. 企業分野に適用される推奨実務"
                 },
                 {
                   "num": "6.1",
                   "text": "New or Renewal Policy or Endorsement The following will be adopted for New or Renewal policies or Endorsements where the insurers have yet to receive a complete set of the required information: (i) Intermediaries have to present their closings to insurers on or prior to the inception date. (ii) In the event that intermediaries issue hold covered instructions to insurers, the following shall apply: (A) In respect of new business (i) Where the risk has been bound and the insurers have yet to receive a complete set of the required information, the insurers will proceed to issue the policy based on essential information received from the intermediaries (“the New Policy”). (ii) Insurers are to issue tax invoices and policy documents within 30 days after the inception date of the New Policy. (iii) Upon subsequent receipt of the required information, the insurers shall be entitled to issue endorsements to extend or amend the cover of the New Policy and issue tax invoices for these endorsements accordingly. (B) In respect of renewal business (i) The insurers will proceed to renew based on the essential information received from the intermediaries or expiring sums insured/wageroll/limits (“the Renewal Policy”). (ii) Insurers are to issue tax invoices and policy documents within 30 days after the inception date. (iii) Upon subsequent receipt of further information, the insurers shall be entitled to issue endorsements to extend or amend the cover of the Renewal Policy and issue tax invoices for these endorsements accordingly. (C) Collection of Premium (i) Intermediaries will be given 60 days from inception date of the New Policy, Renewal Policy or their respective endorsements, to collect the premium from their policyholders.",
-                  "textJP": ""
+                  "textJP": "新規・更新保険契約または裏書\n保険者が必要な情報の完全なセットをまだ受領していない場合の新規・更新保険契約または裏書については、以下が採用されます。\n(i) 仲介者は、開始日の当日またはそれ以前に保険者にクロージングを提示しなければなりません。\n(ii) 仲介者が保険者にホールド・カバード指示を発行する場合、以下が適用されます。\n(A) 新規事業について\n(i) リスクが確定したが保険者が必要な情報の完全なセットをまだ受領していない場合、保険者は仲介者から受領した基本情報に基づいて保険契約（「新規保険契約」）を発行します。\n(ii) 保険者は、新規保険契約の開始日から30日以内に税務請求書および保険証券を発行しなければなりません。\n(iii) その後に必要な情報を受領した場合、保険者は新規保険契約のカバーを拡大または変更する裏書を発行し、これらの裏書に対する税務請求書を適宜発行する権利を有します。\n(B) 更新事業について\n(i) 保険者は、仲介者から受領した基本情報または満了する保険金額／賃金台帳／保険金額限度（「更新保険契約」）に基づいて更新します。\n(ii) 保険者は、開始日から30日以内に税務請求書および保険証券を発行しなければなりません。\n(iii) その後に追加情報を受領した場合、保険者は更新保険契約のカバーを拡大または変更する裏書を発行し、これらの裏書に対する税務請求書を適宜発行する権利を有します。\n(C) 保険料の徴収について\n(i) 仲介者には、新規保険契約、更新保険契約またはそれぞれの裏書の開始日から60日以内に、保険契約者から保険料を徴収する猶予が与えられます。"
                 },
                 {
                   "num": "6.2",
                   "text": "Overdue Premiums If the intermediaries are unable to collect the premium from their policyholders within 60 days from inception of the New Policy, Renewal Policy or the applicable endorsement: (i) The policy or endorsement will automatically terminate effective from the 61st day of cover. (ii) The intermediaries must notify the policyholders immediately by fax, email and/or mail, of the cessation of cover, copied to the insurers. (iii) Whether the liability or claims is incurred or not by the insurers within the 60-day period, the policyholders are liable to pay time on risk premiums. (iv) Intermediaries are required to notify the insurers of the policyholders who have breached the Premium Payment Warranty within 5 working days of the breach. (v) If the intermediaries notify the insurers within 5 working days of the breach, the intermediaries will not be liable for the collection of the time on risk premiums. (vi) If the intermediaries do not notify the insurers within 5 working days of the breach, then the intermediaries will be liable for the collection of the time on risk premiums. SPECIMEN",
-                  "textJP": ""
+                  "textJP": "保険料延滞\n仲介者が新規保険契約、更新保険契約またはそれぞれの裏書の開始日から60日以内に保険契約者から保険料を徴収できない場合:\n(i) 保険契約または裏書は、カバーの61日目から自動的に終了します。\n(ii) 仲介者は、カバーの停止についてファクス、電子メールおよび／または郵送により直ちに保険契約者に通知し、そのコピーを保険者に送付しなければなりません。\n(iii) 60日の期間内に保険者が賠償責任または保険金請求を負担したかどうかにかかわらず、保険契約者はリスク引受期間保険料を支払う義務があります。\n(iv) 仲介者は、保険料支払担保条項に違反した保険契約者について、違反から5営業日以内に保険者に通知しなければなりません。\n(v) 仲介者が違反から5営業日以内に保険者に通知した場合、仲介者はリスク引受期間保険料の徴収について責任を負いません。\n(vi) 仲介者が違反から5営業日以内に保険者に通知しない場合、仲介者はリスク引受期間保険料の徴収について責任を負います。"
                 },
                 {
                   "num": "6.3",
                   "text": "Re-marketing after cancellation due to breach of Premium Payment Warranty To avoid an abuse of the system by cancelling covers and placing through other intermediaries or with other insurers, all intermediaries and insurers (for direct accounts) shall insert the following declarations in the quotation slips and insurance policies to the effect that policies applied for have not been in whole or in part terminated by another insurer due to non-payment of premiums in the last 12 months. If they declare a breach of premium payment warranty in the last 12 months, confirmation must have been first received from the insurer of the previous policy that time on risk premiums have been paid before cover incepts. 6.3.1 Recommended Wordings for Declaration in Quotation Slip Quotation Slip Condition Precedent 1. The validity of this Quotation is subject to the condition precedent that: (a) for the risk quoted, the proposed policyholder has never had any insurance terminated in the last twelve (12) months due solely or in part to a breach of any premium payment condition; or (b) if the proposed policyholder has declared that it has breached any premium payment condition in respect of a previous policy taken up with another insurer in the last twelve (12) months: (i) the proposed policyholder has fully paid all outstanding premium for time on risk calculated by the previous insurer based on the customary short period rate in respect of the previous policy; and (ii) a copy of the written confirmation from the previous insurer to this effect is first provided by the proposed policyholder to the Insurer before cover incepts. 6.3.2 Recommended Endorsement Wordings for Policy Insurance Policy Condition Precedent 1. The validity of this Policy is subject to the condition precedent that: (a) for the risk insured, the named policyholder has never had any insurance terminated in the last twelve (12) months due solely or in part to a breach of any premium payment condition; or (b) if the named policyholder has declared that it has breached any premium payment condition in respect of a previous policy taken up with another insurer in the last twelve (12) months: (i) the named policyholder has fully paid all outstanding premium for time on risk calculated by the previous insurer based on the customary short period rate in respect of the previous policy; and (ii) a copy of the written confirmation from the previous insurer to this effect is first provided by the named policyholder to the Insurer before cover incepts. SPECIMEN",
-                  "textJP": ""
+                  "textJP": "保険料支払担保条項違反による解約後のリマーケティング\nカバーを解約し、他の仲介者や他の保険者を通じて付保するという制度の濫用を防止するため、すべての仲介者および保険者（直接契約の場合）は、見積書および保険契約書に、申込対象の保険契約が過去12ヶ月以内に保険料未払いを理由として他の保険者により全部または一部終了されていない旨の以下の宣言を挿入しなければなりません。過去12ヶ月以内に保険料支払担保条項の違反を宣言した場合、カバーの開始前に、前の保険契約の保険者からリスク引受期間保険料が支払済みである旨の確認を受けていなければなりません。\n6.3.1 見積書における宣言の推奨文言\n見積書の先行条件\n1. 本見積りの有効性は、以下の先行条件を条件とします。\n(a) 見積対象のリスクについて、保険申込者は過去12ヶ月以内に保険料支払条件の違反のみまたは一部を理由として保険を終了されたことがないこと。\n(b) 保険申込者が過去12ヶ月以内に他の保険者との前の保険契約について保険料支払条件に違反したことを宣言した場合:\n(i) 保険申込者は、前の保険者が慣行上の短期料率に基づいて計算した前の保険契約のリスク引受期間に対するすべての未払い保険料を全額支払い済みであること。\n(ii) この旨の前の保険者からの書面による確認のコピーが、カバーの開始前に保険申込者から保険者に提供されること。\n6.3.2 保険契約書における裏書の推奨文言\n保険契約の先行条件\n1. 本保険契約の有効性は、以下の先行条件を条件とします。\n(a) 付保対象のリスクについて、記名保険契約者は過去12ヶ月以内に保険料支払条件の違反のみまたは一部を理由として保険を終了されたことがないこと。\n(b) 記名保険契約者が過去12ヶ月以内に他の保険者との前の保険契約について保険料支払条件に違反したことを宣言した場合:\n(i) 記名保険契約者は、前の保険者が慣行上の短期料率に基づいて計算した前の保険契約のリスク引受期間に対するすべての未払い保険料を全額支払い済みであること。\n(ii) この旨の前の保険者からの書面による確認のコピーが、カバーの開始前に記名保険契約者から保険者に提供されること。"
                 },
                 {
                   "num": "6.4",
                   "text": "Suspension and/or Reinstatement of Cover if Payment After Breach When premium (including without limitation, the time on risk premium) is paid by the policyholder after the period or date allowed under the Premium Payment Warranty, cover must be suspended from the date of breach to date of payment. Cover may be reinstated from the date of receipt of full payment to the original expiry date. This would serve to encourage the policyholder to remain with the same insurer. Alternatively, the insurer can allow the policy to lapse and issue a fresh replacement policy. Source: General Insurance Association of Singapore",
-                  "textJP": ""
+                  "textJP": "違反後の支払いによるカバーの停止および／または復活\n保険料支払担保条項で認められた期間または期日後に保険契約者が保険料（リスク引受期間保険料を含むがこれに限定されない）を支払った場合、カバーは違反日から支払日まで停止されなければなりません。カバーは、全額受領日から当初の満了日まで復活させることができます。これは保険契約者が同じ保険者に留まることを奨励するためのものです。あるいは、保険者は保険契約を失効させ、新たな代替保険契約を発行することもできます。\n出典：シンガポール損害保険協会"
                 }
               ]
             }
