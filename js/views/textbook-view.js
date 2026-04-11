@@ -6,7 +6,7 @@ import { registerRoute, navigate } from '../router.js';
 import { el } from '../utils/dom-helpers.js';
 import { loadTextbook, searchTextbook, getRelatedQuestions } from '../data/textbook.js';
 import { loadQuestions } from '../data/questions.js';
-import { triText, tr } from '../utils/i18n.js';
+import { triText, triContent, tr } from '../utils/i18n.js';
 
 const MODULES = ['bcp', 'comgi', 'pgi', 'hi'];
 const MOD_LABELS = { bcp: 'BCP', comgi: 'ComGI', pgi: 'PGI', hi: 'HI' };
@@ -148,7 +148,9 @@ registerRoute('#textbook', async (app) => {
       });
       header.appendChild(el('span', { className: 'tb-chapter__arrow' }, isExpanded ? '\u25BC' : '\u25B6'));
       header.appendChild(el('span', { className: 'tb-chapter__num' }, `Ch ${ch.number}`));
-      header.appendChild(el('span', { className: 'tb-chapter__title' }, ch.title));
+      const chTitle = el('span', { className: 'tb-chapter__title' });
+      chTitle.appendChild(triContent(ch.title, ch.titleJP || null));
+      header.appendChild(chTitle);
       chEl.appendChild(header);
 
       // Sections (only if expanded)
@@ -177,7 +179,9 @@ registerRoute('#textbook', async (app) => {
             },
           });
           secBtn.appendChild(el('span', { className: 'tb-section__num' }, `§${sec.number}`));
-          secBtn.appendChild(el('span', { className: 'tb-section__title' }, sec.title));
+          const secTitle = el('span', { className: 'tb-section__title' });
+          secTitle.appendChild(triContent(sec.title, sec.titleJP || null));
+          secBtn.appendChild(secTitle);
           const paraCount = sec.paragraphs.length + sec.subsections.reduce((n, sub) => n + sub.paragraphs.length, 0);
           secBtn.appendChild(el('span', { className: 'tb-section__count' }, `${paraCount}`));
           secList.appendChild(secBtn);
@@ -204,7 +208,10 @@ registerRoute('#textbook', async (app) => {
     container.appendChild(breadcrumb);
 
     // Section title
-    container.appendChild(el('h2', { className: 'tb-detail__title' }, `${sec.number}. ${sec.title}`));
+    const detailTitle = el('h2', { className: 'tb-detail__title' });
+    detailTitle.appendChild(document.createTextNode(`${sec.number}. `));
+    detailTitle.appendChild(triContent(sec.title, sec.titleJP || null));
+    container.appendChild(detailTitle);
 
     // Section paragraphs
     if (sec.paragraphs.length > 0) {
@@ -218,7 +225,10 @@ registerRoute('#textbook', async (app) => {
     // Subsections
     for (const sub of sec.subsections) {
       const subEl = el('div', { className: 'tb-subsection' });
-      subEl.appendChild(el('h3', { className: 'tb-subsection__title' }, `${sub.label}. ${sub.title}`));
+      const subTitle = el('h3', { className: 'tb-subsection__title' });
+      subTitle.appendChild(document.createTextNode(`${sub.label}. `));
+      subTitle.appendChild(triContent(sub.title, sub.titleJP || null));
+      subEl.appendChild(subTitle);
       for (const p of sub.paragraphs) {
         subEl.appendChild(renderParagraph(p));
       }
@@ -283,20 +293,38 @@ registerRoute('#textbook', async (app) => {
   }
 
   // ── Paragraph renderer ──
+  function renderParaText(text) {
+    const wrap = document.createDocumentFragment();
+    const parts = text.split('\n');
+    for (const part of parts) {
+      if (part.startsWith('\u25AA ')) {
+        wrap.appendChild(el('div', { className: 'tb-para__bullet' }, part.replace('\u25AA ', '')));
+      } else {
+        wrap.appendChild(document.createTextNode(part));
+      }
+    }
+    return wrap;
+  }
+
   function renderParagraph(p) {
     const pEl = el('div', { className: 'tb-para' });
     if (p.num) {
       pEl.appendChild(el('span', { className: 'tb-para__num' }, p.num));
     }
-    // Handle bullet lists in text
-    const parts = p.text.split('\n');
     const textEl = el('div', { className: 'tb-para__text' });
-    for (const part of parts) {
-      if (part.startsWith('\u25AA ')) {
-        textEl.appendChild(el('div', { className: 'tb-para__bullet' }, part.replace('\u25AA ', '')));
-      } else {
-        textEl.appendChild(document.createTextNode(part));
-      }
+    if (p.textJP) {
+      // Bilingual: use triContent-like structure
+      const jaSpan = el('span', { className: 'i18n-ja' });
+      jaSpan.appendChild(renderParaText(p.textJP));
+      textEl.appendChild(jaSpan);
+      const enSpan = el('span', { className: 'i18n-en' });
+      enSpan.appendChild(renderParaText(p.text));
+      textEl.appendChild(enSpan);
+      const subSpan = el('span', { className: 'i18n-sub' });
+      subSpan.appendChild(renderParaText(p.textJP));
+      textEl.appendChild(subSpan);
+    } else {
+      textEl.appendChild(renderParaText(p.text));
     }
     pEl.appendChild(textEl);
     return pEl;

@@ -269,7 +269,7 @@ function parseChapter(lines, chapterNum) {
     if (target.paragraphs.length > 0) {
       target.paragraphs[target.paragraphs.length - 1].text += ' ' + text;
     } else {
-      target.paragraphs.push({ num: '', text });
+      target.paragraphs.push({ num: '', text, textJP: '' });
     }
   }
 
@@ -287,6 +287,7 @@ function parseChapter(lines, chapterNum) {
         id: `ch${chapterNum}-s${sec.number}`,
         number: sec.number,
         title: sec.title,
+        titleJP: '',
         paragraphs: [],
         subsections: [],
       };
@@ -301,6 +302,7 @@ function parseChapter(lines, chapterNum) {
         id: `ch${chapterNum}-s${curSec.number}-${sub.label}`,
         label: sub.label,
         title: sub.title,
+        titleJP: '',
         paragraphs: [],
       };
       continue;
@@ -311,7 +313,7 @@ function parseChapter(lines, chapterNum) {
     if (para) {
       const target = curSub || curSec;
       if (target) {
-        target.paragraphs.push({ num: para.num, text: para.text });
+        target.paragraphs.push({ num: para.num, text: para.text, textJP: '' });
       }
       continue;
     }
@@ -323,7 +325,7 @@ function parseChapter(lines, chapterNum) {
       if (target && target.paragraphs.length > 0) {
         target.paragraphs[target.paragraphs.length - 1].text += '\n▪ ' + itemText;
       } else if (target) {
-        target.paragraphs.push({ num: '', text: '▪ ' + itemText });
+        target.paragraphs.push({ num: '', text: '▪ ' + itemText, textJP: '' });
       }
       continue;
     }
@@ -338,8 +340,11 @@ function parseChapter(lines, chapterNum) {
     id: `ch${chapterNum}`,
     number: chapterNum,
     title,
+    titleJP: '',
     outline,
+    outlineJP: [],
     learningOutcomes,
+    learningOutcomesJP: [],
     sections,
   };
 }

@@ -32,24 +32,24 @@ export function searchTextbook(textbook, query) {
     for (const sec of ch.sections) {
       // Search section paragraphs
       for (const p of sec.paragraphs) {
-        if (p.text.toLowerCase().includes(q)) {
+        if (p.text.toLowerCase().includes(q) || (p.textJP && p.textJP.toLowerCase().includes(q))) {
           results.push({
             chapterId: ch.id, chapterNum: ch.number, chapterTitle: ch.title,
             sectionId: sec.id, sectionNum: sec.number, sectionTitle: sec.title,
             subsection: null,
-            paraNum: p.num, text: p.text,
+            paraNum: p.num, text: p.text, textJP: p.textJP,
           });
         }
       }
       // Search subsection paragraphs
       for (const sub of sec.subsections) {
         for (const p of sub.paragraphs) {
-          if (p.text.toLowerCase().includes(q)) {
+          if (p.text.toLowerCase().includes(q) || (p.textJP && p.textJP.toLowerCase().includes(q))) {
             results.push({
               chapterId: ch.id, chapterNum: ch.number, chapterTitle: ch.title,
               sectionId: sec.id, sectionNum: sec.number, sectionTitle: sec.title,
               subsection: { id: sub.id, label: sub.label, title: sub.title },
-              paraNum: p.num, text: p.text,
+              paraNum: p.num, text: p.text, textJP: p.textJP,
             });
           }
         }
