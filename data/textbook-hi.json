@@ -3531,7 +3531,8 @@
           "paragraphs": [
             {
               "num": "1.1",
-              "text": "Other types of Health Insurance products are covered in this chapter: Hospital Cash Insurance, Maternity Insurance, Medical Expenses Benefits covered in Travel Insurance and Group Dental Care Insurance."
+              "text": "Other types of Health Insurance products are covered in this chapter: Hospital Cash Insurance, Maternity Insurance, Medical Expenses Benefits covered in Travel Insurance and Group Dental Care Insurance.",
+              "textJP": "この章では、その他の種類の健康保険商品について取り上げます：入院日額保険、マタニティ保険、旅行保険に含まれる医療費給付、および団体歯科保険です。"
             }
           ],
           "subsections": []
@@ -3544,27 +3545,33 @@
           "paragraphs": [
             {
               "num": "2.1",
-              "text": "Hospital Cash (also known as Hospital Income) Insurance pays a daily cash benefit if the insured is hospitalised due to an injury or illness. The daily benefit is a fixed dollar amount (e.g. S$200). This benefit is independent of the actual hospitalisation costs. Payment of the benefit is limited to a specified number of days (e.g. 180 days) per hospitalisation in any given year. Some insurers may impose a lifetime limit on the number of days (e.g. 1,000 days) that a person may claim."
+              "text": "Hospital Cash (also known as Hospital Income) Insurance pays a daily cash benefit if the insured is hospitalised due to an injury or illness. The daily benefit is a fixed dollar amount (e.g. S$200). This benefit is independent of the actual hospitalisation costs. Payment of the benefit is limited to a specified number of days (e.g. 180 days) per hospitalisation in any given year. Some insurers may impose a lifetime limit on the number of days (e.g. 1,000 days) that a person may claim.",
+              "textJP": "入院日額（Hospital Income）保険は、被保険者が傷害または疾病により入院した場合に日額の現金給付を支払います。日額給付は固定金額（例：S$200）です。この種の保険は被保険者の入院費用の一部を補填するのに役立ちます。"
             },
             {
               "num": "2.2",
-              "text": "Let us look at Example 7.1 to illustrate the working of this benefit. Example 7.1: Illustration Of The Working Of A Hospital Cash Insurance Policy Illustration of the claims history of Harry who purchased a Hospital Cash Insurance that paid a daily benefit of S$100 up to a period of 180 days per hospitalisation and 1,000 days per lifetime: 2011 – hospitalised for 150 days for car accident injury 2014 – hospitalised for 210 days for complicated heart by-pass surgery 2016 – hospitalised for 170 days for severe osteoporosis 2017 – hospitalised for 190 days for hip replacement 2019 – hospitalised for 200 days for broken thigh bone treatment 2023 – hospitalised for 160 days for varicose vein treatment The total amount that the insurer paid to him to-date worked out to be as follows: 2011 - 150 days 2014 - 180 days 2016 - 170 days 2017 - 180 days 2019 - 180 days 2023 - 140 days (i.e. 1,000 – 860) Total - 1,000 days X S$100 per day = S$100,000"
+              "text": "Let us look at Example 7.1 to illustrate the working of this benefit. Example 7.1: Illustration Of The Working Of A Hospital Cash Insurance Policy Illustration of the claims history of Harry who purchased a Hospital Cash Insurance that paid a daily benefit of S$100 up to a period of 180 days per hospitalisation and 1,000 days per lifetime: 2011 – hospitalised for 150 days for car accident injury 2014 – hospitalised for 210 days for complicated heart by-pass surgery 2016 – hospitalised for 170 days for severe osteoporosis 2017 – hospitalised for 190 days for hip replacement 2019 – hospitalised for 200 days for broken thigh bone treatment 2023 – hospitalised for 160 days for varicose vein treatment The total amount that the insurer paid to him to-date worked out to be as follows: 2011 - 150 days 2014 - 180 days 2016 - 170 days 2017 - 180 days 2019 - 180 days 2023 - 140 days (i.e. 1,000 – 860) Total - 1,000 days X S$100 per day = S$100,000",
+              "textJP": "例題7.1でこの給付の仕組みを説明しましょう。"
             },
             {
               "num": "2.3",
-              "text": "Although Harry had stayed in the hospital for more than 180 days in 2014, 2017 and 2019, the insurer paid him only up to 180 days being the maximum period per hospitalisation. In 2023, though his stay was 160 days, the insurer paid him for the hospital stay of only 140 days because the balance of his lifetime limit was 140 days."
+              "text": "Although Harry had stayed in the hospital for more than 180 days in 2014, 2017 and 2019, the insurer paid him only up to 180 days being the maximum period per hospitalisation. In 2023, though his stay was 160 days, the insurer paid him for the hospital stay of only 140 days because the balance of his lifetime limit was 140 days.",
+              "textJP": "Harryは2014年、2017年、2019年に180日を超えて入院しましたが、保険者は1回の入院あたりの最大期間である180日分のみを支払いました。2023年には、滞在は90日間でしたが、入院日額保険証券の下での生涯の最大入院日数に達していたため、保険者からの支払いはありませんでした。"
             },
             {
               "num": "2.4",
-              "text": "Since he had claimed for the maximum number of hospitalisation days per lifetime, his policy was terminated after he had received the final payment from the insurer."
+              "text": "Since he had claimed for the maximum number of hospitalisation days per lifetime, his policy was terminated after he had received the final payment from the insurer.",
+              "textJP": "生涯の最大入院日数分を請求済みであったため、保険者からの最終支払いを受け取った後、保険証券は終了しました。"
             },
             {
               "num": "2.5",
-              "text": "Hospital Cash Insurance can be issued as a stand-alone policy, as a rider or bundled into other types of insurance, such as Personal Accident Insurance, Travel Insurance, Critical Illness Insurance or Medical Expense Insurance policies. The amount payable under Hospital Cash Insurance is in addition to all other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme) for which the individual is covered."
+              "text": "Hospital Cash Insurance can be issued as a stand-alone policy, as a rider or bundled into other types of insurance, such as Personal Accident Insurance, Travel Insurance, Critical Illness Insurance or Medical Expense Insurance policies. The amount payable under Hospital Cash Insurance is in addition to all other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme) for which the individual is covered.",
+              "textJP": "入院日額保険は、スタンドアローンの保険証券として、ライダーとして、または傷害保険、旅行保険、重大疾病保険もしくは生命保険など他の種類の保険にバンドルして発行できます。"
             },
             {
               "num": "2.6",
-              "text": "This benefit can be issued to cover hospitalisation resulting from:  injury only; or  both injury and illness."
+              "text": "This benefit can be issued to cover hospitalisation resulting from:  injury only; or  both injury and illness.",
+              "textJP": "この給付は以下に起因する入院を補償するために発行できます：\n▪ 傷害のみ\n▪ 傷害および疾病の両方"
             }
           ],
           "subsections": [
@@ -3576,7 +3583,8 @@
               "paragraphs": [
                 {
                   "num": "2.7",
-                  "text": "To claim for a Hospital Cash benefit, the insured must meet the criteria below:"
+                  "text": "To claim for a Hospital Cash benefit, the insured must meet the criteria below:",
+                  "textJP": "入院日額給付を請求するためには、被保険者は以下の基準を満たす必要があります："
                 }
               ]
             },
@@ -3588,7 +3596,8 @@
               "paragraphs": [
                 {
                   "num": "",
-                  "text": "(a) For Injury If the hospitalisation is caused by an accident1 directly and independently of any other cause, there is no waiting period. (b) For Illness If the hospitalisation is due to an illness or disease, it must be contracted or commenced after the policy issuance or when reinstatement has taken effect for a specified period of time. In addition, it must not be an illness that is specifically excluded from the coverage of the policy."
+                  "text": "(a) For Injury If the hospitalisation is caused by an accident1 directly and independently of any other cause, there is no waiting period. (b) For Illness If the hospitalisation is due to an illness or disease, it must be contracted or commenced after the policy issuance or when reinstatement has taken effect for a specified period of time. In addition, it must not be an illness that is specifically excluded from the coverage of the policy.",
+                  "textJP": "(a) 傷害の場合：入院が他の原因から独立して直接的に事故により引き起こされた場合、待機期間はありません。\n(b) 疾病の場合：入院が疾病に起因する場合、待機期間が適用されます。"
                 }
               ]
             },
@@ -3600,7 +3609,8 @@
               "paragraphs": [
                 {
                   "num": "2.8",
-                  "text": "The insured must be confined to a hospital for a specified minimum number of hours. (a) Per Lifetime Limit This is the maximum total number of hospitalisation days the insured can claim per lifetime. (as illustrated in Example 7.1 of this chapter). (b) Expiry Age The insured has not reached the expiry age as stated in the policy. (c) Cause Cause of the injury or illness must not be one of the exclusions as discussed in a later section of this chapter. 1 Accident normally means any event caused by violent, accidental, external and visible means."
+                  "text": "The insured must be confined to a hospital for a specified minimum number of hours. (a) Per Lifetime Limit This is the maximum total number of hospitalisation days the insured can claim per lifetime. (as illustrated in Example 7.1 of this chapter). (b) Expiry Age The insured has not reached the expiry age as stated in the policy. (c) Cause Cause of the injury or illness must not be one of the exclusions as discussed in a later section of this chapter. 1 Accident normally means any event caused by violent, accidental, external and visible means.",
+                  "textJP": "被保険者は所定の最低時間以上入院していなければなりません。\n(a) 生涯限度額：被保険者が生涯で請求できる最大入院日数の合計です。\n(b) 1回の入院あたりの限度額：1回の入院につき支払われる最大日数です。"
                 }
               ]
             },
@@ -3612,7 +3622,8 @@
               "paragraphs": [
                 {
                   "num": "2.9",
-                  "text": "Although Hospital Cash Insurance can be issued as a stand-alone policy or as a rider, it shares the common features as described below: (a) There is a per day hospitalisation benefit. (b) There is a cap on the lifetime coverage. (c) The benefit is a fixed amount throughout the policy term. (d) There is no waiting period for hospitalisation due to an injury. A waiting period is imposed from the date of issue or reinstatement of the policy if the cause of hospitalisation is due to an illness. (e) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including Medishield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (f) The cover expires at a specified age (e.g. 65, 70 or 75 years). (g) The premiums may remain at a consistent level or increase once the insured reaches a higher age-band. (h) It renews on a yearly basis. (i) It usually provides 24-hour, worldwide coverage, although some insurers limit the cover to certain geographical areas. (j) It usually has no cash value. (k) No assignment of the policy is allowed. (l) For a policy free of any claim, a no claim discount may be given at renewal."
+                  "text": "Although Hospital Cash Insurance can be issued as a stand-alone policy or as a rider, it shares the common features as described below: (a) There is a per day hospitalisation benefit. (b) There is a cap on the lifetime coverage. (c) The benefit is a fixed amount throughout the policy term. (d) There is no waiting period for hospitalisation due to an injury. A waiting period is imposed from the date of issue or reinstatement of the policy if the cause of hospitalisation is due to an illness. (e) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including Medishield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (f) The cover expires at a specified age (e.g. 65, 70 or 75 years). (g) The premiums may remain at a consistent level or increase once the insured reaches a higher age-band. (h) It renews on a yearly basis. (i) It usually provides 24-hour, worldwide coverage, although some insurers limit the cover to certain geographical areas. (j) It usually has no cash value. (k) No assignment of the policy is allowed. (l) For a policy free of any claim, a no claim discount may be given at renewal.",
+                  "textJP": "入院日額保険はスタンドアローンの保険証券またはライダーとして発行できますが、以下のような共通の特徴を有しています：\n(a) 入院1日あたりの給付があります\n(b) 入院1回あたりおよび生涯の最大給付日数があります\n(c) 待機期間が適用されます\n(d) 既存の病態は除外されます"
                 }
               ]
             },
@@ -3624,7 +3635,8 @@
               "paragraphs": [
                 {
                   "num": "2.10",
-                  "text": "Hospital Cash Insurance can be issued as a stand-alone policy or as a rider."
+                  "text": "Hospital Cash Insurance can be issued as a stand-alone policy or as a rider.",
+                  "textJP": "入院日額保険はスタンドアローンの保険証券またはライダーとして発行できます。"
                 }
               ]
             },
@@ -3636,15 +3648,18 @@
               "paragraphs": [
                 {
                   "num": "2.11",
-                  "text": "When Hospital Cash Insurance is issued as a stand-alone policy, the daily benefits offered are more attractive and can include: (a) >100% of the daily benefit if the insured stays in a High Dependency Unit (HDU) or Coronary Care Unit (CCU) of a hospital; (b) double or triple payment if the insured stays in the Intensive Care Unit (ICU) of a hospital; (c) triple payment if hospitalisation is due to an accident, or if the insured is hospitalised overseas; (d) get-well benefit; (e) rehabilitation income; (f) free accidental death benefit; and (g) involuntary loss of employment benefit (in excess of 30 days) - waiver of premium (up to six months)."
+                  "text": "When Hospital Cash Insurance is issued as a stand-alone policy, the daily benefits offered are more attractive and can include: (a) >100% of the daily benefit if the insured stays in a High Dependency Unit (HDU) or Coronary Care Unit (CCU) of a hospital; (b) double or triple payment if the insured stays in the Intensive Care Unit (ICU) of a hospital; (c) triple payment if hospitalisation is due to an accident, or if the insured is hospitalised overseas; (d) get-well benefit; (e) rehabilitation income; (f) free accidental death benefit; and (g) involuntary loss of employment benefit (in excess of 30 days) - waiver of premium (up to six months).",
+                  "textJP": "入院日額保険がスタンドアローンの保険証券として発行される場合、提供される日額給付はより魅力的であり、以下を含む場合があります：\n(a) 被保険者がHigh Dependency Unit（HDU）またはIntensive Care Unit（ICU）に滞在する場合、日額給付の100%超\n(b) 入院と退院の間に自宅療養が必要な場合のホームナーシング給付"
                 },
                 {
                   "num": "2.12",
-                  "text": "Premium for a stand-alone policy increases when the insured crosses into the next age-band upon renewal of the policy. For example, from the ages of 21 to 40 years, the insured may need to pay S$21.50 per month for S$100 per day benefit. From the ages of 41 to 50 years, he may need to pay S$33.50 per month, and so on. In other words, the premium increases with age."
+                  "text": "Premium for a stand-alone policy increases when the insured crosses into the next age-band upon renewal of the policy. For example, from the ages of 21 to 40 years, the insured may need to pay S$21.50 per month for S$100 per day benefit. From the ages of 41 to 50 years, he may need to pay S$33.50 per month, and so on. In other words, the premium increases with age.",
+                  "textJP": "スタンドアローンの保険証券の保険料は、被保険者が保険証券の更新時に次の年齢帯に移行すると増加します。"
                 },
                 {
                   "num": "2.13",
-                  "text": "The insured can have a choice of different plans providing varying amounts of benefits, and may include his spouse and children under the cover. The policy is usually automatically renewable on an annual basis up to a specified age (e.g. 65, 70 or 75 years). The coverage is 24-hour, worldwide basis."
+                  "text": "The insured can have a choice of different plans providing varying amounts of benefits, and may include his spouse and children under the cover. The policy is usually automatically renewable on an annual basis up to a specified age (e.g. 65, 70 or 75 years). The coverage is 24-hour, worldwide basis.",
+                  "textJP": "被保険者は異なる金額の給付を提供するさまざまなプランから選択でき、配偶者と子を補償に含めることができます。保険証券は通常、年次更新ベースで自動的に更新されます。"
                 }
               ]
             },
@@ -3656,7 +3671,8 @@
               "paragraphs": [
                 {
                   "num": "2.14",
-                  "text": "Hospital Cash Insurance can also be issued as a rider attached to a basic policy, such as a Life Insurance policy (e.g. Whole Life Insurance, Endowment Insurance or Critical Illness Insurance policy). The rider expires when the insured reaches a specified age (e.g. 65, 70 or 75 years) or on the maturity of the policy, whichever is the earlier. Thus, the term of this rider cannot be longer than that of the basic policy, since the rider cannot stand on its own."
+                  "text": "Hospital Cash Insurance can also be issued as a rider attached to a basic policy, such as a Life Insurance policy (e.g. Whole Life Insurance, Endowment Insurance or Critical Illness Insurance policy). The rider expires when the insured reaches a specified age (e.g. 65, 70 or 75 years) or on the maturity of the policy, whichever is the earlier. Thus, the term of this rider cannot be longer than that of the basic policy, since the rider cannot stand on its own.",
+                  "textJP": "入院日額保険は、生命保険証券（例：終身保険、養老保険、または重大疾病保険証券）などの基本保険証券に付帯するライダーとしても発行できます。"
                 }
               ]
             },
@@ -3668,7 +3684,8 @@
               "paragraphs": [
                 {
                   "num": "2.15",
-                  "text": "Owing to its small premiums, Hospital Cash Insurance policy is not underwritten. Waiting period applies and pre-existing medical conditions are permanently excluded under the policy."
+                  "text": "Owing to its small premiums, Hospital Cash Insurance policy is not underwritten. Waiting period applies and pre-existing medical conditions are permanently excluded under the policy.",
+                  "textJP": "保険料が少額であるため、入院日額保険証券は引受が行われません。待機期間が適用され、既存の病態は保険証券の下で永久的に除外されます。"
                 }
               ]
             },
@@ -3680,7 +3697,8 @@
               "paragraphs": [
                 {
                   "num": "2.16",
-                  "text": "Some common exclusions of a Hospital Cash Insurance policy include: (a) pre-existing medical condition that the insured knew existed or has received treatment and/or medical advice; (b) pre-existing physical defect or infirmity, unless declared to and accepted by the insurer; (c) self-inflicted injuries or suicide, while sane or insane; (d) Human immunodeficiency virus (HIV) or any HIV related illness, including Acquired Immune Deficiency Syndrome (AIDS) or any illness arising from it; (e) sexually transmitted disease; (f) mental/nervous disorder, drug addiction, intoxication, alcoholism, obesity, weight reduction/improvement, bulimia, anorexia nervosa, preventive treatment, such as vaccination or acupuncture; (g) illegal or unlawful act of the insured; (h) pregnancy, miscarriage, childbirth, abortion, birth control or infertility; (i) routine physical assessment or any other medical examination not relating to any health impairment; CLAIM (j) cosmetic or plastic surgery, circumcision, congenital condition, dental work or myopic treatment; (k) war and related operations; (l) nuclear weapons material, ionising or radiation; (m) strike, riot and civil commotion; and (n) participation in hazardous sports like skiing or sky-diving, aerial activities other than air travel as a fare-paying passenger of a licensed aircraft, driving or riding in any kind of race, motor-cycling or pillion riding."
+                  "text": "Some common exclusions of a Hospital Cash Insurance policy include: (a) pre-existing medical condition that the insured knew existed or has received treatment and/or medical advice; (b) pre-existing physical defect or infirmity, unless declared to and accepted by the insurer; (c) self-inflicted injuries or suicide, while sane or insane; (d) Human immunodeficiency virus (HIV) or any HIV related illness, including Acquired Immune Deficiency Syndrome (AIDS) or any illness arising from it; (e) sexually transmitted disease; (f) mental/nervous disorder, drug addiction, intoxication, alcoholism, obesity, weight reduction/improvement, bulimia, anorexia nervosa, preventive treatment, such as vaccination or acupuncture; (g) illegal or unlawful act of the insured; (h) pregnancy, miscarriage, childbirth, abortion, birth control or infertility; (i) routine physical assessment or any other medical examination not relating to any health impairment; CLAIM (j) cosmetic or plastic surgery, circumcision, congenital condition, dental work or myopic treatment; (k) war and related operations; (l) nuclear weapons material, ionising or radiation; (m) strike, riot and civil commotion; and (n) participation in hazardous sports like skiing or sky-diving, aerial activities other than air travel as a fare-paying passenger of a licensed aircraft, driving or riding in any kind of race, motor-cycling or pillion riding.",
+                  "textJP": "入院日額保険証券の一般的な免責事項には以下が含まれます：\n(a) 被保険者が存在を知っていたか、治療および/または医学的助言を受けた既存の病態\n(b) 既存の身体的障害\n(c) 先天性異常\n(d) 美容整形手術"
                 }
               ]
             },
@@ -3692,7 +3710,8 @@
               "paragraphs": [
                 {
                   "num": "2.17",
-                  "text": "A Hospital Cash Insurance cover will terminate when one of the following events occurs: (a) the premium is not paid at the end of the grace period; (b) the insured reaches the expiry age as stated in the policy; (c) the per lifetime limit is reached; (d) the basic policy lapses or matures; or (e) the insured dies."
+                  "text": "A Hospital Cash Insurance cover will terminate when one of the following events occurs: (a) the premium is not paid at the end of the grace period; (b) the insured reaches the expiry age as stated in the policy; (c) the per lifetime limit is reached; (d) the basic policy lapses or matures; or (e) the insured dies.",
+                  "textJP": "入院日額保険の補償は、以下のいずれかの事象が発生した場合に終了します：\n(a) 猶予期間の終了時に保険料が支払われなかった場合\n(b) 被保険者が保険証券に記載された満期年齢に達した場合\n(c) 被保険者が生涯の最大入院日数に達した場合"
                 }
               ]
             },
@@ -3704,11 +3723,13 @@
               "paragraphs": [
                 {
                   "num": "2.18",
-                  "text": "In the event of a claim, the insurer will require submission of the following supporting documents: (a) claim form; and (b) hospital discharge summary and bills."
+                  "text": "In the event of a claim, the insurer will require submission of the following supporting documents: (a) claim form; and (b) hospital discharge summary and bills.",
+                  "textJP": "請求が発生した場合、保険者は以下の裏付け書類の提出を要求します：\n(a) 請求書\n(b) 退院サマリーおよび請求書"
                 },
                 {
                   "num": "2.19",
-                  "text": "These are the usual documents that the insured is required to submit. Note that the insurer reserves the right to call for additional documentary evidence, such as the Attending Physician’s Report and any other relevant supporting documents."
+                  "text": "These are the usual documents that the insured is required to submit. Note that the insurer reserves the right to call for additional documentary evidence, such as the Attending Physician’s Report and any other relevant supporting documents.",
+                  "textJP": "これらは被保険者が通常提出する必要がある書類です。保険者は、主治医の報告書などの追加の書類の提出を要求する権利を留保することにご留意ください。"
                 }
               ]
             }
@@ -3722,7 +3743,8 @@
           "paragraphs": [
             {
               "num": "3.1",
-              "text": "This insurance provides coverage for the mother and baby for the period of pregnancy and may cover up to the end of 3rd policy year, protecting them against complications related to pregnancy and birth. This plan does not cover the usual cost of giving birth where the mother and/or the child do not suffer any complications arising from the pregnancy or birth."
+              "text": "This insurance provides coverage for the mother and baby for the period of pregnancy and may cover up to the end of 3rd policy year, protecting them against complications related to pregnancy and birth. This plan does not cover the usual cost of giving birth where the mother and/or the child do not suffer any complications arising from the pregnancy or birth.",
+              "textJP": "この保険は、妊娠期間中の母子を補償し、第3保険年度の終了まで補償を延長する場合があり、妊娠および出産に関連する合併症から母子を保護します。"
             }
           ],
           "subsections": [
@@ -3734,11 +3756,13 @@
               "paragraphs": [
                 {
                   "num": "3.2",
-                  "text": "The benefits offered by a maternity insurance may include: For the mother:  Medical expenses due to the covered list of complications that arise from the pregnancy;  Death or total & permanent disability benefit; or  Hospitalisation income benefit for each day of hospitalisation due to pregnancy complications. For the newborn:  Medical expenses due to congenital illnesses;  Death benefit;  Hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses;  Outpatient cash benefit for each day of phototherapy machine rented; or  It may cover up to four babies in a single pregnancy. Please refer to Appendix 7A for a sample benefit table."
+                  "text": "The benefits offered by a maternity insurance may include: For the mother:  Medical expenses due to the covered list of complications that arise from the pregnancy;  Death or total & permanent disability benefit; or  Hospitalisation income benefit for each day of hospitalisation due to pregnancy complications. For the newborn:  Medical expenses due to congenital illnesses;  Death benefit;  Hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses;  Outpatient cash benefit for each day of phototherapy machine rented; or  It may cover up to four babies in a single pregnancy. Please refer to Appendix 7A for a sample benefit table.",
+                  "textJP": "マタニティ保険が提供する給付には以下が含まれる場合があります：\n母親向け：\n▪ 補償対象の合併症リストに起因する医療費\n▪ 妊娠合併症による死亡または全部永久障害\n赤ちゃん向け：\n▪ 先天性疾患の入院治療費\n▪ 新生児死亡"
                 },
                 {
                   "num": "3.3",
-                  "text": "Costs of delivery including pre and post hospitalisation bill are excluded."
+                  "text": "Costs of delivery including pre and post hospitalisation bill are excluded.",
+                  "textJP": "入院前後の請求書を含む分娩費用は除外されます。"
                 }
               ]
             },
@@ -3750,11 +3774,13 @@
               "paragraphs": [
                 {
                   "num": "3.4",
-                  "text": "Maternity Insurance has common features as described below: (a) It is a single premium term policy. (b) It protects both mother and child (up to three babies in a single pregnancy) from as early as 13th week of pregnancy. (c) It is valid for three (3) years from the policy start date. (d) It covers for specific types of pregnancy complications and congenital illnesses according to the insurer’s list. (e) It provides a death benefit for both mother and child. (f) It gives a hospital income benefit for each day of hospital stay resulting from the list of covered events. (g) The sum insured is paid in a lump sum upon death, diagnosis of pregnancy complications or congenital illnesses. (h) Other benefits are subject to limits and caps as defined by the insurers. (i) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (j) The cover expires at the end of the policy term. (k) It usually has no cash value. (l) No assignment of the policy is allowed. (m) Coverage will end when all benefits for the insured mother and the insured child end; or at the end of policy term, whichever is earlier. (n) The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investmentlinked plan within 90 days of the child’s birth, without the need for medical underwriting."
+                  "text": "Maternity Insurance has common features as described below: (a) It is a single premium term policy. (b) It protects both mother and child (up to three babies in a single pregnancy) from as early as 13th week of pregnancy. (c) It is valid for three (3) years from the policy start date. (d) It covers for specific types of pregnancy complications and congenital illnesses according to the insurer’s list. (e) It provides a death benefit for both mother and child. (f) It gives a hospital income benefit for each day of hospital stay resulting from the list of covered events. (g) The sum insured is paid in a lump sum upon death, diagnosis of pregnancy complications or congenital illnesses. (h) Other benefits are subject to limits and caps as defined by the insurers. (i) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (j) The cover expires at the end of the policy term. (k) It usually has no cash value. (l) No assignment of the policy is allowed. (m) Coverage will end when all benefits for the insured mother and the insured child end; or at the end of policy term, whichever is earlier. (n) The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investmentlinked plan within 90 days of the child’s birth, without the need for medical underwriting.",
+                  "textJP": "マタニティ保険には以下のような共通の特徴があります：\n(a) 一時払いの定期保険証券です\n(b) 妊娠13週目から母子（単一の妊娠で最大3人の赤ちゃん）を保護します\n(c) 母親の補償は出産後終了します\n(d) 赤ちゃんの補償は通常、保険証券の第3年度末まで継続します"
                 },
                 {
                   "num": "3.5",
-                  "text": "Exclusions Some common exclusions of a Maternity Insurance policy include: (a) Self-inflicted injuries, illnesses, suicide or attempted suicide; (b) misuse of drugs or alcohol; (c) acquired immunodeficiency syndrome (AIDS), AIDS-related complex or infection by human immunodeficiency virus (HIV), resulting from any means; (d) the insured mother carrying three or more babies in a single pregnancy; (e) overseas treatment; (f) abortions which the insured has decided to have, unless medically necessary due to pregnancy complications covered under the pregnancy complications benefit and certified by a doctor; or (g) any unlawful or criminal act or omission."
+                  "text": "Exclusions Some common exclusions of a Maternity Insurance policy include: (a) Self-inflicted injuries, illnesses, suicide or attempted suicide; (b) misuse of drugs or alcohol; (c) acquired immunodeficiency syndrome (AIDS), AIDS-related complex or infection by human immunodeficiency virus (HIV), resulting from any means; (d) the insured mother carrying three or more babies in a single pregnancy; (e) overseas treatment; (f) abortions which the insured has decided to have, unless medically necessary due to pregnancy complications covered under the pregnancy complications benefit and certified by a doctor; or (g) any unlawful or criminal act or omission.",
+                  "textJP": "免責事項\nマタニティ保険証券の一般的な免責事項には以下が含まれます：\n(a) 自傷行為、疾病、自殺または自殺未遂\n(b) 薬物またはアルコールの乱用\n(c) 後天性免疫不全症候群（AIDS）\n(d) 戦争、テロ行為\n(e) 核リスク"
                 }
               ]
             }
@@ -3768,11 +3794,13 @@
           "paragraphs": [
             {
               "num": "4.1",
-              "text": "Travel Insurance can be issued on an individual or group basis to cover any losses, liabilities, medical expenses and other travel inconveniences suffered by an individual while travelling outside Singapore. In this section, we will focus our discussion solely on the medical benefits offered only under a Travel Insurance policy."
+              "text": "Travel Insurance can be issued on an individual or group basis to cover any losses, liabilities, medical expenses and other travel inconveniences suffered by an individual while travelling outside Singapore. In this section, we will focus our discussion solely on the medical benefits offered only under a Travel Insurance policy.",
+              "textJP": "旅行保険は、個人または団体ベースで発行され、シンガポール国外を旅行中に個人が被る損害、責任、医療費およびその他の旅行の不便を補償します。"
             },
             {
               "num": "4.2",
-              "text": "The medical benefits offered by a Travel Insurance policy usually include: (a) medical expenses and other related benefits; (b) hospital confinement allowance; (c) emergency medical evacuation; and (d) repatriation."
+              "text": "The medical benefits offered by a Travel Insurance policy usually include: (a) medical expenses and other related benefits; (b) hospital confinement allowance; (c) emergency medical evacuation; and (d) repatriation.",
+              "textJP": "旅行保険証券が提供する医療給付には通常、以下が含まれます：\n(a) 医療費およびその他の関連給付\n(b) 入院日額手当\n(c) 緊急医療搬送\n(d) 緊急医療送還および遺体送還"
             }
           ],
           "subsections": [
@@ -3784,19 +3812,23 @@
               "paragraphs": [
                 {
                   "num": "4.3",
-                  "text": "Travel Insurance will reimburse most of the non-elective overseas medical and treatment expenses necessarily and reasonably incurred by the insured person for sustaining injury or sickness (as defined in the policy) as follows:  medical expenses, such as clinical, hospital, surgical, nursing, ambulance and medical supply charges, and emergency accidental dental and miscarriage expenses, including any follow-up medical expenses in Singapore incurred within a certain specified period after the insured person returns from his trip; and  expenses incurred for treatment by Traditional Chinese Medicine physician, including acupuncturist, bonesetter, chiropractor, herbalist or physiotherapist, up to a limit as specified by some insurers."
+                  "text": "Travel Insurance will reimburse most of the non-elective overseas medical and treatment expenses necessarily and reasonably incurred by the insured person for sustaining injury or sickness (as defined in the policy) as follows:  medical expenses, such as clinical, hospital, surgical, nursing, ambulance and medical supply charges, and emergency accidental dental and miscarriage expenses, including any follow-up medical expenses in Singapore incurred within a certain specified period after the insured person returns from his trip; and  expenses incurred for treatment by Traditional Chinese Medicine physician, including acupuncturist, bonesetter, chiropractor, herbalist or physiotherapist, up to a limit as specified by some insurers.",
+                  "textJP": "旅行保険は、被保険者が傷害または疾病（保険証券に定義された）を被ったことにより必要かつ合理的に発生した、ほとんどの選択的でない海外医療費および治療費を償還します。"
                 },
                 {
                   "num": "4.4",
-                  "text": "Because there is no age limit to apply for travel insurance policy, insurers set lower benefit limits for children (below age 18) and higher limits for seniors (usually above the age of 70 years) if insured under such a policy."
+                  "text": "Because there is no age limit to apply for travel insurance policy, insurers set lower benefit limits for children (below age 18) and higher limits for seniors (usually above the age of 70 years) if insured under such a policy.",
+                  "textJP": "旅行保険証券の申込に年齢制限がないため、保険者は子供（18歳未満）には低い給付限度額を、高齢者（通常70歳以上）には含まれている場合に高い限度額を設定しています。"
                 },
                 {
                   "num": "4.5",
-                  "text": "Some insurers allow for coverage of pre-existing medical conditions to travel policies with either an extra premium and/or simple health questions. Otherwise, pre-existing conditions are excluded from travel policies."
+                  "text": "Some insurers allow for coverage of pre-existing medical conditions to travel policies with either an extra premium and/or simple health questions. Otherwise, pre-existing conditions are excluded from travel policies.",
+                  "textJP": "一部の保険者は、追加保険料および/または簡単な健康に関する質問により、旅行保険証券に既存の病態の補償を認めています。それ以外の場合、既存の病態は補償から除外されます。"
                 },
                 {
                   "num": "4.6",
-                  "text": "Reimbursement is also made for the following:  reasonable additional accommodation and travelling expenses necessarily incurred by the insured person (and a travel companion if required) to remain in the overseas country of visit for medical treatment on the written advice of a medical practitioner, up to a limit; and  hospital visit – reasonable travel and accommodation expenses necessarily incurred by one relative or friend of the insured person who has been hospitalised overseas for more than five days for example, to visit and stay with him until he is medically fit to return home, up to a limit."
+                  "text": "Reimbursement is also made for the following:  reasonable additional accommodation and travelling expenses necessarily incurred by the insured person (and a travel companion if required) to remain in the overseas country of visit for medical treatment on the written advice of a medical practitioner, up to a limit; and  hospital visit – reasonable travel and accommodation expenses necessarily incurred by one relative or friend of the insured person who has been hospitalised overseas for more than five days for example, to visit and stay with him until he is medically fit to return home, up to a limit.",
+                  "textJP": "以下についても償還が行われます：\n▪ 海外での治療完了を待つために滞在する必要がある場合に被保険者（および必要な場合は旅行の同伴者）が必要かつ発生した合理的な追加の宿泊費および旅費\n▪ 担当医師が推奨する追加の医療処置費用"
                 }
               ]
             },
@@ -3808,15 +3840,18 @@
               "paragraphs": [
                 {
                   "num": "4.7",
-                  "text": "The insured person is entitled to a daily hospital cash benefit when he is hospitalised abroad up to a certain period or up to a certain amount. This is on top of any medical expenses which he has claimed."
+                  "text": "The insured person is entitled to a daily hospital cash benefit when he is hospitalised abroad up to a certain period or up to a certain amount. This is on top of any medical expenses which he has claimed.",
+                  "textJP": "被保険者は、一定期間または一定金額まで、海外で入院した場合に日額の入院現金給付を受ける権利があります。これは請求した医療費に加えて支給されます。"
                 },
                 {
                   "num": "4.8",
-                  "text": "For hospitalisation in Singapore where treatment is sought within a certain period upon return, the limits are generally lower."
+                  "text": "For hospitalisation in Singapore where treatment is sought within a certain period upon return, the limits are generally lower.",
+                  "textJP": "帰国後一定期間内にシンガポールで治療を受けた場合の入院については、限度額は一般に低くなります。"
                 },
                 {
                   "num": "4.9",
-                  "text": "Some insurers provide double benefit for overseas hospitalisation in an Intensive Care Unit due to an accident, for up to a certain period."
+                  "text": "Some insurers provide double benefit for overseas hospitalisation in an Intensive Care Unit due to an accident, for up to a certain period.",
+                  "textJP": "一部の保険者は、事故による集中治療室での海外入院について、一定期間まで2倍の給付を提供しています。"
                 }
               ]
             },
@@ -3828,19 +3863,23 @@
               "paragraphs": [
                 {
                   "num": "4.10",
-                  "text": "This covers the cost of any emergency medical evacuation. Emergency medical evacuation means that, in the event of a critical situation in which the insured person suffers a serious illness or injury abroad, and has to be evacuated to another place to seek emergency medical treatment. This evacuation is because the local medical services are inadequate or unavailable."
+                  "text": "This covers the cost of any emergency medical evacuation. Emergency medical evacuation means that, in the event of a critical situation in which the insured person suffers a serious illness or injury abroad, and has to be evacuated to another place to seek emergency medical treatment. This evacuation is because the local medical services are inadequate or unavailable.",
+                  "textJP": "これは緊急医療搬送の費用を補償します。緊急医療搬送とは、被保険者が重篤な疾病または傷害を被った緊急事態において、適切な医療施設に搬送する必要がある場合を意味します。"
                 },
                 {
                   "num": "4.11",
-                  "text": "The insurer contracts a specialist company to provide emergency medical evacuation. It is a requirement in the policy that the insured person must contact such specialist company which shall then decide whether or not the insured person will require emergency medical evacuation. For this purpose, a 24-hour multilingual helpline or hotline phone number of such a specialist company is specified in the policy."
+                  "text": "The insurer contracts a specialist company to provide emergency medical evacuation. It is a requirement in the policy that the insured person must contact such specialist company which shall then decide whether or not the insured person will require emergency medical evacuation. For this purpose, a 24-hour multilingual helpline or hotline phone number of such a specialist company is specified in the policy.",
+                  "textJP": "保険者は緊急医療搬送を提供する専門会社と契約しています。保険証券では、被保険者がまず当該専門会社に連絡し、搬送の必要性と搬送先を決定してもらうことが要件とされています。"
                 },
                 {
                   "num": "4.12",
-                  "text": "There is a maximum benefit limit payable for the lower coverage plan. However, for the higher coverage plan, the coverage amount is usually unlimited."
+                  "text": "There is a maximum benefit limit payable for the lower coverage plan. However, for the higher coverage plan, the coverage amount is usually unlimited.",
+                  "textJP": "低補償プランでは支払われる最大給付限度額があります。ただし、高補償プランでは、補償額は通常無制限です。"
                 },
                 {
                   "num": "4.13",
-                  "text": "An important aspect of having emergency assistance cover is that it gives further peace of mind to the insured person if he suffers a serious illness or injury in an unfamiliar environment, knowing that help will be on the way with just a phone call away."
+                  "text": "An important aspect of having emergency assistance cover is that it gives further peace of mind to the insured person if he suffers a serious illness or injury in an unfamiliar environment, knowing that help will be on the way with just a phone call away.",
+                  "textJP": "緊急支援補償を持つことの重要な側面は、被保険者が不慣れな環境で重篤な疾病や傷害を被った場合に、専門家の支援が利用可能であることを知ることで、さらなる安心感を与えることです。"
                 }
               ]
             },
@@ -3852,19 +3891,23 @@
               "paragraphs": [
                 {
                   "num": "4.14",
-                  "text": "Travel Insurance covers the expenses incurred in emergency medical repatriation and repatriation of body remains."
+                  "text": "Travel Insurance covers the expenses incurred in emergency medical repatriation and repatriation of body remains.",
+                  "textJP": "旅行保険は、緊急医療送還および遺体送還に発生した費用を補償します。"
                 },
                 {
                   "num": "4.15",
-                  "text": "Emergency medical repatriation occurs when, as a result of an unfortunate illness or accident abroad, the insured has to be repatriated to his country of origin (e.g. return to Singapore). The decision as to whether or not he should be repatriated would strictly rest with the attending medical doctor or the insurer’s contracted specialist company."
+                  "text": "Emergency medical repatriation occurs when, as a result of an unfortunate illness or accident abroad, the insured has to be repatriated to his country of origin (e.g. return to Singapore). The decision as to whether or not he should be repatriated would strictly rest with the attending medical doctor or the insurer’s contracted specialist company.",
+                  "textJP": "緊急医療送還は、海外での不幸な疾病または事故の結果として、被保険者が出身国（例：シンガポールへの帰国）に送還されなければならない場合に発生します。"
                 },
                 {
                   "num": "4.16",
-                  "text": "Repatriation of remains means the transportation of and return of the deceased insured’s mortal remains to his country of origin."
+                  "text": "Repatriation of remains means the transportation of and return of the deceased insured’s mortal remains to his country of origin.",
+                  "textJP": "遺体送還とは、死亡した被保険者の遺体を出身国に輸送し帰還させることを意味します。"
                 },
                 {
                   "num": "4.17",
-                  "text": "There is a maximum benefit limit payable for the lower coverage plan. However, for the higher coverage plan, the coverage amount is usually unlimited."
+                  "text": "There is a maximum benefit limit payable for the lower coverage plan. However, for the higher coverage plan, the coverage amount is usually unlimited.",
+                  "textJP": "低補償プランでは支払われる最大給付限度額があります。ただし、高補償プランでは、補償額は通常無制限です。"
                 }
               ]
             },
@@ -3876,7 +3919,8 @@
               "paragraphs": [
                 {
                   "num": "4.18",
-                  "text": "Travel Insurance usually does not cover any claims directly or indirectly arising from or in connection with: (a) war, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection or military or usurped power; (b) ionising radiation or contamination by radioactivity resulting from any nuclear fuel or the combustion of nuclear fuel waste; (c) participation in civil defence, police, military, naval or air force service or operation, or national service in accordance with the Enlistment Act 1970; (d) self-inflicted injury, suicide or attempted suicide, while sane or insane, mental or physical defect or infirmity, insanity or nervous disorder, intoxication or use of non-prescription drugs; (e) routine health check-up, or cosmetic (aesthetic) or plastic surgery; (f) sexually transmitted disease, AIDS and HIV conditions or AIDS related infections; (g) pregnancy or childbirth or any sickness associated with pregnancy or childbirth; (h) any pre-existing condition (except when the insured has opted to cover) for which the insured person received medical treatment, diagnosis, consultation or prescribed drugs within the 12 (or six) months’ period before the commencement date of the policy period of insurance; (i) driving or riding in any kind of race, engaging in any professional sport, ice or winter sport, mountaineering requiring the use of guides and ropes, or underwater activity involving the use of underwater breathing apparatus; (j) aerial activity other than air travel as a fare-paying passenger in a licensed passenger-carrying aircraft; (k) direct participation in criminal, unlawful or terrorist act, or strike, riot or civil commotion; (l) any event including strike, riot, civil commotion, health threatening situation, natural disaster published by the mass media or through advisory of the authority, unless the policy already issued or the trip already commenced before the date of publication or advisory; or (m) travel booked or undertaken against medical advice, or for the purpose of obtaining or seeking any medical care or treatment abroad."
+                  "text": "Travel Insurance usually does not cover any claims directly or indirectly arising from or in connection with: (a) war, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection or military or usurped power; (b) ionising radiation or contamination by radioactivity resulting from any nuclear fuel or the combustion of nuclear fuel waste; (c) participation in civil defence, police, military, naval or air force service or operation, or national service in accordance with the Enlistment Act 1970; (d) self-inflicted injury, suicide or attempted suicide, while sane or insane, mental or physical defect or infirmity, insanity or nervous disorder, intoxication or use of non-prescription drugs; (e) routine health check-up, or cosmetic (aesthetic) or plastic surgery; (f) sexually transmitted disease, AIDS and HIV conditions or AIDS related infections; (g) pregnancy or childbirth or any sickness associated with pregnancy or childbirth; (h) any pre-existing condition (except when the insured has opted to cover) for which the insured person received medical treatment, diagnosis, consultation or prescribed drugs within the 12 (or six) months’ period before the commencement date of the policy period of insurance; (i) driving or riding in any kind of race, engaging in any professional sport, ice or winter sport, mountaineering requiring the use of guides and ropes, or underwater activity involving the use of underwater breathing apparatus; (j) aerial activity other than air travel as a fare-paying passenger in a licensed passenger-carrying aircraft; (k) direct participation in criminal, unlawful or terrorist act, or strike, riot or civil commotion; (l) any event including strike, riot, civil commotion, health threatening situation, natural disaster published by the mass media or through advisory of the authority, unless the policy already issued or the trip already commenced before the date of publication or advisory; or (m) travel booked or undertaken against medical advice, or for the purpose of obtaining or seeking any medical care or treatment abroad.",
+                  "textJP": "旅行保険は通常、以下に直接的または間接的に起因するまたはこれらに関連する請求を補償しません：\n(a) 戦争、侵略、外国の敵の行為、敵対行為または戦争類似行為\n(b) 自傷行為、自殺または自殺未遂\n(c) 核リスク\n(d) 既存の病態\n(e) 美容整形手術\n(f) エクストリームスポーツまたは危険な活動への参加"
                 }
               ]
             }
@@ -3890,7 +3934,8 @@
           "paragraphs": [
             {
               "num": "5.1",
-              "text": "Group Dental Care Insurance is offered without underwriting and is issued as a rider to a Group Hospital and Surgical Insurance policy. Like all group policies, only employees who are actively at work can be covered under this policy, and it is usually on a non-contributory basis. Coverage is 24-hour, worldwide basis. The policy is usually issued for a period of two years and thereafter, renewable every one or two years, depending on the insurer."
+              "text": "Group Dental Care Insurance is offered without underwriting and is issued as a rider to a Group Hospital and Surgical Insurance policy. Like all group policies, only employees who are actively at work can be covered under this policy, and it is usually on a non-contributory basis. Coverage is 24-hour, worldwide basis. The policy is usually issued for a period of two years and thereafter, renewable every one or two years, depending on the insurer.",
+              "textJP": "団体歯科保険は引受なしで提供され、団体入院・手術保険証券のライダーとして発行されます。すべての団体保険証券と同様に、現に就業中の従業員のみが保険証券の下で補償される資格があります。"
             }
           ],
           "subsections": [
@@ -3902,11 +3947,13 @@
               "paragraphs": [
                 {
                   "num": "5.2",
-                  "text": "The benefits provided are very comprehensive and include dental procedures ranging from simple scaling and polishing to root canal treatment and wisdom tooth extraction. Appendix 7B is a sample of the Schedule of Allowances specifying the benefits/procedures covered and the claimable limits under non-panel and panel dentists."
+                  "text": "The benefits provided are very comprehensive and include dental procedures ranging from simple scaling and polishing to root canal treatment and wisdom tooth extraction. Appendix 7B is a sample of the Schedule of Allowances specifying the benefits/procedures covered and the claimable limits under non-panel and panel dentists.",
+                  "textJP": "提供される給付は非常に包括的であり、簡単なスケーリングおよびポリッシングから根管治療や親知らずの抜歯まで、幅広い歯科処置を含みます。"
                 },
                 {
                   "num": "5.3",
-                  "text": "Instead of setting benefit limits for each treatment/procedure, some insurers set an overall limit that each insured employee may claim during each policy year. Once this limit is reached, the insured employee will have to pay from his own pocket for any treatment/procedure received."
+                  "text": "Instead of setting benefit limits for each treatment/procedure, some insurers set an overall limit that each insured employee may claim during each policy year. Once this limit is reached, the insured employee will have to pay from his own pocket for any treatment/procedure received.",
+                  "textJP": "各治療/処置の給付限度額を設定する代わりに、一部の保険者は各保険年度中に各被保険従業員が請求できる全体的な限度額を設定しています。この限度額に達すると、被保険従業員はその保険年度のそれ以降の歯科処置について請求できなくなります。"
                 }
               ]
             },
@@ -3918,11 +3965,13 @@
               "paragraphs": [
                 {
                   "num": "5.4",
-                  "text": "Most insurers that issue Group Dental Care Insurance policies do not have their own panel of dentists. As such, the insured employees can visit their own dentists for treatments. Insurers who have their own panel of dentists also allow the insured employees to go to their own dentists, but will usually reimburse them up to the maximum limit as stated in the Schedule of Allowances. The employee will have to pay the difference from his own pocket."
+                  "text": "Most insurers that issue Group Dental Care Insurance policies do not have their own panel of dentists. As such, the insured employees can visit their own dentists for treatments. Insurers who have their own panel of dentists also allow the insured employees to go to their own dentists, but will usually reimburse them up to the maximum limit as stated in the Schedule of Allowances. The employee will have to pay the difference from his own pocket.",
+                  "textJP": "団体歯科保険証券を発行するほとんどの保険者は、独自の提携歯科医パネルを持っていません。そのため、被保険従業員は治療のために自分の歯科医を受診できます。"
                 },
                 {
                   "num": "5.5",
-                  "text": "Most insurers also allow the coverage to be extended to cover the insured employee’s family members, namely spouse and children."
+                  "text": "Most insurers also allow the coverage to be extended to cover the insured employee’s family members, namely spouse and children.",
+                  "textJP": "ほとんどの保険者は、被保険従業員の家族（配偶者および子）を含むよう補償の拡張も認めています。"
                 }
               ]
             },
@@ -3934,11 +3983,13 @@
               "paragraphs": [
                 {
                   "num": "5.6",
-                  "text": "Like all other insurance covers, Group Dental Care Insurance policies also impose certain exclusions on the cover provided. Some common exclusions include: (a) dental procedures that are not specified in the Schedule of Allowances; (b) hospital charges; (c) injuries arising directly or indirectly from war (declared or undeclared), revolution, or any warlike operation; (d) medicine given; (e) treatment which is purely cosmetic in nature; (f) treatment resulting from self-inflicted injury, while sane or insane; and (g) replacement of broken, lost or stolen dentures."
+                  "text": "Like all other insurance covers, Group Dental Care Insurance policies also impose certain exclusions on the cover provided. Some common exclusions include: (a) dental procedures that are not specified in the Schedule of Allowances; (b) hospital charges; (c) injuries arising directly or indirectly from war (declared or undeclared), revolution, or any warlike operation; (d) medicine given; (e) treatment which is purely cosmetic in nature; (f) treatment resulting from self-inflicted injury, while sane or insane; and (g) replacement of broken, lost or stolen dentures.",
+                  "textJP": "他のすべての保険補償と同様に、団体歯科保険証券も提供される補償に一定の免責事項を課しています。一般的な免責事項には以下が含まれます：\n(a) 保険証券の給付スケジュールに指定されていない歯科処置\n(b) 美容目的の歯科処置\n(c) 既存の歯科疾患"
                 },
                 {
                   "num": "5.7",
-                  "text": "These are the general exclusions. You need to find out the specific exclusions under your insurer’s policies, as the exclusions vary among the insurers."
+                  "text": "These are the general exclusions. You need to find out the specific exclusions under your insurer’s policies, as the exclusions vary among the insurers.",
+                  "textJP": "これらは一般的な免責事項です。免責事項は保険者によって異なるため、保険者の保険証券に基づく具体的な免責事項を確認する必要があります。"
                 }
               ]
             },
@@ -3950,7 +4001,8 @@
               "paragraphs": [
                 {
                   "num": "5.8",
-                  "text": "All Group Dental Care Insurance policies include this Limitation Clause, to bring to the attention of the insured persons (employees) that the reimbursements under their policies will be reduced by benefits claimable under: (a) the Work Injury Compensation Insurance policy; (b) any government or public programme of dental or medical benefits; or (c) any other group or individual Health or Dental Care Insurance policy."
+                  "text": "All Group Dental Care Insurance policies include this Limitation Clause, to bring to the attention of the insured persons (employees) that the reimbursements under their policies will be reduced by benefits claimable under: (a) the Work Injury Compensation Insurance policy; (b) any government or public programme of dental or medical benefits; or (c) any other group or individual Health or Dental Care Insurance policy.",
+                  "textJP": "すべての団体歯科保険証券にはこの制限条項が含まれており、被保険者（従業員）に対して、保険証券に基づく償還は他のソースから受け取る給付により減額されることを通知しています。"
                 }
               ]
             },
@@ -3962,7 +4014,8 @@
               "paragraphs": [
                 {
                   "num": "5.9",
-                  "text": "Cover for each individual insured employee under a Group Dental Care Insurance policy will automatically terminate on the earliest of the following dates: (a) the date of termination of the insured employee’s active full-time employment with the policy owner (employer); (b) the date of termination of the policy; (c) the date of expiration of the period for which the last premium payment is made in respect of the insured employee’s cover; (d) the date on which the insured employee enters full-time military, naval, air or police service, except during peacetime National Service reservist duty or training in accordance with the Enlistment Act 1970; or (e) the date of expiration of the period within which the insured employee reaches a specified age (e.g. 65 years). CLAIM"
+                  "text": "Cover for each individual insured employee under a Group Dental Care Insurance policy will automatically terminate on the earliest of the following dates: (a) the date of termination of the insured employee’s active full-time employment with the policy owner (employer); (b) the date of termination of the policy; (c) the date of expiration of the period for which the last premium payment is made in respect of the insured employee’s cover; (d) the date on which the insured employee enters full-time military, naval, air or police service, except during peacetime National Service reservist duty or training in accordance with the Enlistment Act 1970; or (e) the date of expiration of the period within which the insured employee reaches a specified age (e.g. 65 years). CLAIM",
+                  "textJP": "団体歯科保険証券に基づく各被保険従業員の補償は、以下の日のうち最も早い日に自動的に終了します：\n(a) 被保険従業員の雇用終了日\n(b) 保険証券の終了日\n(c) 被保険者が保険証券に記載された満期年齢に達した日"
                 }
               ]
             },
@@ -3974,19 +4027,23 @@
               "paragraphs": [
                 {
                   "num": "5.10",
-                  "text": "If the employee seeks treatment at the insurer’s panel of dentists, he only needs to login the app, produce an e-card or his identity card to verify his membership and enjoy cashless facility."
+                  "text": "If the employee seeks treatment at the insurer’s panel of dentists, he only needs to login the app, produce an e-card or his identity card to verify his membership and enjoy cashless facility.",
+                  "textJP": "従業員が保険者の提携歯科医で治療を受ける場合、アプリにログインするか、eカードまたは身分証明書を提示してメンバーシップを確認し、キャッシュレスサービスを享受するだけです。"
                 },
                 {
                   "num": "5.11",
-                  "text": "If the employee decides to use his own dentist, he will have to make the payment to the clinic first, and then file a claim with the following documents to insurer to seek reimbursement. (a) completed claim form; and (b) original receipts and itemised bills."
+                  "text": "If the employee decides to use his own dentist, he will have to make the payment to the clinic first, and then file a claim with the following documents to insurer to seek reimbursement. (a) completed claim form; and (b) original receipts and itemised bills.",
+                  "textJP": "従業員が自分の歯科医を利用することを決めた場合、まず診療所に支払いを行い、その後償還を求めるために以下の書類を保険者に提出して請求を行う必要があります：\n(a) 記入済みの請求書\n(b) 歯科医の領収書原本"
                 },
                 {
                   "num": "5.12",
-                  "text": "Claims need to be submitted within a specific timeframe. APPENDIX 7A ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 SAMPLE MATERNITY INSURANCE BENEFIT TABLE APPENDIX 7B ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 SAMPLE SCHEDULE OF ALLOWANCES UNDER GROUP DENTAL INSURANCE SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Panel Dentist Claim Limit Dentist Claim Limit S$ S$ Examination Initial 15.00 As charged X-Ray Intraoral 12.00 As charged Bitewing 12.00 As charged Panorex 32.00 As charged Test & Laboratory Biopsy & examination of tissue 48.00 As charged Prophylaxis (cleaning, polishing, scaling and fluoride treatment) Routine 40.00 As charged Complex 60.00 As charged Fluoride Treatment Fluoride Application 22.50 As charged Fillings (Silver) – For Posterior Teeth Only Amalgam – one surface 16.00 As charged Amalgam – two surfaces 24.00 As charged Amalgam – three or more surfaces 32.00 As charged Reinforced Pin 9.00 As charged Fillings (Tooth-Coloured Material) – For Anterior Teeth Only One surface 30.00 As charged Two surfaces 40.00 As charged Three or more surfaces 50.00 As charged Gold Inlay Restorations Inlay, gold – one surface 120.00 As charged Inlay, gold – two surfaces 160.00 As charged Inlay, gold – three or more surfaces 200.00 As charged Pulpotomy Pulpotomy 40.00 As charged Pulp cap 20.00 As charged Root Canal Treatment Single root canal filling 150.00 As charged Double root canal filling 220.00 As charged Three or more canals 350.00 As charged Extractions Routine (simple) – each tooth 30.00 As charged SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Dentist Claim Limit S$ Panel Dentist Claim Limit S$ Surgical Extractions Erupted tooth or root 120.00 As charged Soft tissue impaction 160.00 As charged Part bony impaction 250.00 As charged Completely bony impaction 320.00 As charged Oral antral root recovery 144.00 As charged Closure of oral antral fistula 64.00 As charged Removal of labial frenum 40.00 As charged Alveoplasty Per quadrant, in connection with extractions 30.00 As charged Per quadrant, not in connection with extractions 42.00 As charged Complete alveoplasty involving more than one quadrant 160.00 As charged Excision Of Tumour Excision of tumour 76.00 As charged Fracture Of Jaw Simple 500.00 As charged Compound 600.00 As charged Repair Of Prosthetic Appliance Repair of broken complete or partial denture 20.00 As charged Repair denture & replace broken tooth 40.00 As charged Adding tooth to partial denture to replace extracted tooth 27.00 As charged Adding tooth to partial denture plus clasp 54.00 As charged Space Maintainers Fixed band type (uni or bilateral) 135.00 As charged Removal in acrylic (uni or bilateral) 67.00 As charged Periodontal Treatment Root planning per tooth 24.00 As charged Root planning per quadrant 72.00 As charged Miscellaneous Tooth replantation (of patient’s own natural tooth) 144.00 As charged Tooth replantation (of patient’s own natural tooth, metal implant not covered)"
+                  "text": "Claims need to be submitted within a specific timeframe. APPENDIX 7A ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 SAMPLE MATERNITY INSURANCE BENEFIT TABLE APPENDIX 7B ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 SAMPLE SCHEDULE OF ALLOWANCES UNDER GROUP DENTAL INSURANCE SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Panel Dentist Claim Limit Dentist Claim Limit S$ S$ Examination Initial 15.00 As charged X-Ray Intraoral 12.00 As charged Bitewing 12.00 As charged Panorex 32.00 As charged Test & Laboratory Biopsy & examination of tissue 48.00 As charged Prophylaxis (cleaning, polishing, scaling and fluoride treatment) Routine 40.00 As charged Complex 60.00 As charged Fluoride Treatment Fluoride Application 22.50 As charged Fillings (Silver) – For Posterior Teeth Only Amalgam – one surface 16.00 As charged Amalgam – two surfaces 24.00 As charged Amalgam – three or more surfaces 32.00 As charged Reinforced Pin 9.00 As charged Fillings (Tooth-Coloured Material) – For Anterior Teeth Only One surface 30.00 As charged Two surfaces 40.00 As charged Three or more surfaces 50.00 As charged Gold Inlay Restorations Inlay, gold – one surface 120.00 As charged Inlay, gold – two surfaces 160.00 As charged Inlay, gold – three or more surfaces 200.00 As charged Pulpotomy Pulpotomy 40.00 As charged Pulp cap 20.00 As charged Root Canal Treatment Single root canal filling 150.00 As charged Double root canal filling 220.00 As charged Three or more canals 350.00 As charged Extractions Routine (simple) – each tooth 30.00 As charged SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Dentist Claim Limit S$ Panel Dentist Claim Limit S$ Surgical Extractions Erupted tooth or root 120.00 As charged Soft tissue impaction 160.00 As charged Part bony impaction 250.00 As charged Completely bony impaction 320.00 As charged Oral antral root recovery 144.00 As charged Closure of oral antral fistula 64.00 As charged Removal of labial frenum 40.00 As charged Alveoplasty Per quadrant, in connection with extractions 30.00 As charged Per quadrant, not in connection with extractions 42.00 As charged Complete alveoplasty involving more than one quadrant 160.00 As charged Excision Of Tumour Excision of tumour 76.00 As charged Fracture Of Jaw Simple 500.00 As charged Compound 600.00 As charged Repair Of Prosthetic Appliance Repair of broken complete or partial denture 20.00 As charged Repair denture & replace broken tooth 40.00 As charged Adding tooth to partial denture to replace extracted tooth 27.00 As charged Adding tooth to partial denture plus clasp 54.00 As charged Space Maintainers Fixed band type (uni or bilateral) 135.00 As charged Removal in acrylic (uni or bilateral) 67.00 As charged Periodontal Treatment Root planning per tooth 24.00 As charged Root planning per quadrant 72.00 As charged Miscellaneous Tooth replantation (of patient’s own natural tooth) 144.00 As charged Tooth replantation (of patient’s own natural tooth, metal implant not covered)",
+                  "textJP": "請求は所定の期間内に提出する必要があります。"
                 },
                 {
                   "num": "144.00",
-                  "text": "As charged Note: Benefit paid will be “as-charged” if the insured employee visits a dentist within the panel of approved dentists. For any insured employee who visits a dentist outside of the panel of approved dentists, the claim limits are as specified in this Schedule of Allowance. OTHER TYPES OF HEALTH INSURANCE CHAPTER IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS How a Hospital Cash (Income) Insurance policy works?\n▪ Also known as Hospital Income.\n▪ Insurance pays a daily cash benefit to the insured if he is hospitalised as a result of an injury or illness.\n▪ Fixed dollar amount (e.g. S$100) chosen by the insured at the inception of the policy.\n▪ Amount has no direct correlation to the actual amount of medical fees incurred.\n▪ Total amount paid under this policy may be more or less than the actual medical expenses incurred.\n▪ Payment of the benefit is limited to a specified number of days (e.g. 180 days) per hospitalisation. Some insurers may impose a lifetime limit on the number of days (e.g. 1,000 days) that a person may claim.\n▪ Can be issued as a stand-alone policy or as a rider. Conditions to be met before a claim can be admitted under a Hospital Cash Insurance policy\n▪ Waiting period » For injury. » For illness.\n▪ Hospital confinement » Per lifetime limit. » Expiry age. » Cause. Features of a Hospital Cash Insurance policy\n▪ Per day hospitalisation benefit.\n▪ A cap to the maximum amount payable on a single life usually expressed as a maximum number of days.\n▪ Benefit is a fixed amount throughout the policy term as specified at the inception of the policy.\n▪ No waiting period if the cause of hospitalisation is due to an injury. A waiting period is usually imposed from the date of issue or reinstatement of the policy if the cause of hospitalisation is due to an illness.\n▪ Benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including Medishield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers.\n▪ Cover expires at a specified age (e.g. 65, 70 or 75 years).\n▪ Premiums may be level or increased once the insured reaches a higher ageband.\n▪ Yearly renewable.\n▪ Usually provides 24-hour, worldwide coverage, although some insurers limit the cover to certain geographical areas.\n▪ Usually has no cash value.\n▪ No assignment of the policy is allowed.\n▪ For a policy that is in force for a consecutive period of insurance and free of any claim, a premium discount is usually given at renewal. This is usually called a ”No Claim Discount”. A certain percentage (e.g. 25%) will be deducted from the next renewal premium, subject to conditions as imposed by the insurer. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Types of a Hospital Cash Insurance policy\n▪ Stand-alone Hospital Cash Insurance\n▪ Hospital Cash Insurance Riders Common exclusions under a Hospital Cash Insurance policy/rider\n▪ Pre-existing medical condition that the insured knew existed or has received treatment and/or medical advice;\n▪ Pre-existing physical defect or infirmity, unless declared to and accepted by the insurer;\n▪ Self-inflicted injuries or suicide, while sane or insane;\n▪ Human immunodeficiency virus (HIV) or any HIV related illness, including Acquired Immune Deficiency Syndrome (AIDS) or any illness arising from it;\n▪ Sexually transmitted disease;\n▪ Mental/nervous disorder, drug addiction, intoxication, alcoholism, obesity, weight reduction/improvement, bulimia, anorexia nervosa, preventive treatment, such as vaccination or acupuncture;\n▪ Illegal or unlawful act of the insured;\n▪ Pregnancy, miscarriage, childbirth, abortion, birth control or infertility;\n▪ Routine physical or any other medical examination not relating to any health impairment;\n▪ Cosmetic or plastic surgery, circumcision, congenital condition, dental work or myopic treatment;\n▪ War and related operations;\n▪ Nuclear weapons material, ionising or radiation;\n▪ Strike, riot and civil commotion; and\n▪ Participation in hazardous sports like skiing or sky-diving, aerial activities other than air travel as a fare-paying passenger of a licensed aircraft, driving or riding in any kind of race, motor-cycling or pillion riding. Circumstances under which a Hospital Cash Insurance policy/rider will be terminated.\n▪ Premium is not paid at the end of the grace period;\n▪ Insured reaches the expiry age as stated in the policy;\n▪ Per lifetime limit is reached;\n▪ Basic policy lapses or matures; or\n▪ Insured dies Documents that need to be submitted in the event of a claim under a Hospital Cash Insurance policy\n▪ Claim form.\n▪ Hospital discharge summary and bills. Note that the insurer reserves the right to call for additional documentary evidence. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Benefits of Maternity Insurance For the mother:\n▪ Medical expenses due to the covered list of complications that arise from the pregnancy;\n▪ Death or total & permanent disability benefit; or\n▪ Hospitalisation income benefit for each day of hospitalisation due to pregnancy complications For the newborn:\n▪ Medical expenses due to congenital illnesses;\n▪ Death benefit;\n▪ Hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses;\n▪ Outpatient cash benefit for each day of phototherapy machine rented; or\n▪ It may cover up to four babies in a single pregnancy. Features of Maternity Insurance:\n▪ It is a single premium term policy.\n▪ It protects both mother and child (up to four babies in a single pregnancy) from as early as 13th week of pregnancy.\n▪ It is valid for three (3) years from the policy start date.\n▪ It covers for specific types of pregnancy complications and congenital illnesses according to the insurer’s list.\n▪ It provides a death benefit for both mother and child.\n▪ It gives a hospital income benefit for each day of hospital stay resulting from the list of covered events.\n▪ The sum insured is paid in a lump sum upon death, diagnosis of pregnancy complications or congenital illnesses.\n▪ Other benefits are subject to limits and caps as defined by the insurers.\n▪ The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers.\n▪ The cover expires at the end of the policy term.\n▪ It usually has no cash value.\n▪ No assignment of the policy is allowed.\n▪ Coverage will end when all benefits for the insured mother and the insured child end; or at the end of policy term, whichever is earlier.\n▪ The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investment-linked plan within 90 days of the child’s birth, without the need for medical underwriting. When is a Maternity Insurance excluded?:\n▪ Self-inflicted injuries, illnesses, suicide or attempted suicide;\n▪ misuse of drugs or alcohol;\n▪ acquired immunodeficiency syndrome (AIDS), AIDS-related complex or infection by human immunodeficiency virus (HIV), resulting from any means;\n▪ the insured mother carrying three or more babies in a single pregnancy;\n▪ overseas treatment;\n▪ abortions which the insured has decided to have, unless medically necessary due to pregnancy complications covered under the pregnancy complications benefit and certified by a doctor; or\n▪ any unlawful or criminal act or omission. Common medical benefits provided by a Travel Insurance policy\n▪ Medical expenses and other related benefits;\n▪ Hospital confinement allowance;\n▪ Emergency medical evacuation; and\n▪ Repatriation. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Common exclusions for the medical expense benefits under a typical Travel Insurance policy\n▪ War, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection or military or usurped power;\n▪ Ionising radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel;\n▪ Participation in civil defence, police, military, naval or air force service or operation, or national service in accordance with the Enlistment Act 1970;\n▪ Self-inflicted injury, suicide or attempted suicide, while sane or insane, mental or physical defect or infirmity, insanity or nervous disorder, intoxication or use of non-prescription drugs;\n▪ Routine health check-up, or cosmetic (aesthetic) or plastic surgery;\n▪ Sexually transmitted disease, AIDS and HIV conditions or AIDS related infections;\n▪ Pregnancy or childbirth or any sickness associated with pregnancy or childbirth;\n▪ Any pre-existing condition (except for some policies, subject to Section 4.5 above) for which the insured person received medical treatment, diagnosis, consultation or prescribed drugs within the 12 (or six) months’ period before the commencement date of the policy period of insurance;\n▪ Driving or riding in any kind of race, engaging in any professional sport, ice or winter sport, mountaineering requiring the use of guides and ropes, or underwater activity involving the use of underwater breathing apparatus;\n▪ Aerial activity other than air travel as a fare-paying passenger in a licensed passenger-carrying aircraft;\n▪ Direct participation in criminal, unlawful or terrorist act, or strike, riot or civil commotion;\n▪ Any event including strike, riot, civil commotion, health threatening situation, natural disaster published by the mass media or through advisory of the authority, unless the policy already issued or the trip already commenced before the date of publication or advisory; or\n▪ Travel booked or undertaken against medical advice, or for the purpose of obtaining or seeking any medical care or treatment abroad. Note that the exclusions, restrictions and limitations vary from insurer to insurer. How the benefits are paid under Group Dental Insurance?\n▪ Based on a Schedule of Allowances » One of the ways in which the insurer reimburses the insured for dental expenses incurred.\n▪ Basis of reimbursement is based on the limits as specified in the Schedule of Allowances. Limits to the benefits that one is entitled to claim under Group Dental Insurance.\n▪ Some insurers set an overall limit (e.g. S$200) that each insured employee may claim during each policy year. Common exclusions under a Group Dental Insurance policy\n▪ Dental procedures that are not specified in the Schedule of Allowances;\n▪ Hospital charges;\n▪ Injuries arising directly or indirectly from war (declared or undeclared), revolution, or any warlike operation;\n▪ Medicine given;\n▪ Treatment which is purely cosmetic in nature;\n▪ Treatment resulting from self-inflicted injury, while sane or insane; and\n▪ Replacement of broken, lost or stolen dentures. Note that it may vary from insurer to insurer. How the limitation clause of a Group Dental Insurance policy works? Reimbursements under their policies will be reduced by benefits claimable under:\n▪ Work Injury Compensation Insurance policy;\n▪ Any government or public programme of dental or medical benefits; or\n▪ Any other group or individual Health or Dental Care Insurance policy. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Circumstances under which a Group Dental Insurance policy will be terminated\n▪ Date of termination of the insured employee’s active full-time employment with the policy owner (employer);\n▪ Date of termination of the policy;\n▪ Date of expiration of the period for which the last premium payment is made in respect of the insured employee’s cover;\n▪ Date on which the insured employee enters full-time military, naval, air or police service, except during peacetime National Service reservist duty or training in accordance with the Enlistment Act 1970; or\n▪ Date of expiration of the period within which the insured employee reaches a specified age (e.g. 65 years). Earliest of the above dates. Claim procedures for a Group Dental Care Insurance claim For any insurer that has a panel of dentists:\n▪ Insurer will issue a membership card or certificate to every individual insured employee who will need to produce it, whenever he visits the dental clinic for treatment.\n▪ Dental clinic will bill the insurer directly, and the employee need not pay a single cent nor file any claim with the insurer. If the insurer does not have a panel of doctors or the employee decides to use his own dentist:\n▪ Make the payment to the clinic first, and then file a claim with the insurer to seek reimbursement in accordance with the policy. Insurer requires the employer to submit these documents within a specific period (e.g. 21 days from the date of treatment) Types of documents that need to be submitted for a Group Dental Care Insurance claim\n▪ Completed claim form; and\n▪ Original receipts and itemised bills."
+                  "text": "As charged Note: Benefit paid will be “as-charged” if the insured employee visits a dentist within the panel of approved dentists. For any insured employee who visits a dentist outside of the panel of approved dentists, the claim limits are as specified in this Schedule of Allowance. OTHER TYPES OF HEALTH INSURANCE CHAPTER IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS How a Hospital Cash (Income) Insurance policy works?\n▪ Also known as Hospital Income.\n▪ Insurance pays a daily cash benefit to the insured if he is hospitalised as a result of an injury or illness.\n▪ Fixed dollar amount (e.g. S$100) chosen by the insured at the inception of the policy.\n▪ Amount has no direct correlation to the actual amount of medical fees incurred.\n▪ Total amount paid under this policy may be more or less than the actual medical expenses incurred.\n▪ Payment of the benefit is limited to a specified number of days (e.g. 180 days) per hospitalisation. Some insurers may impose a lifetime limit on the number of days (e.g. 1,000 days) that a person may claim.\n▪ Can be issued as a stand-alone policy or as a rider. Conditions to be met before a claim can be admitted under a Hospital Cash Insurance policy\n▪ Waiting period » For injury. » For illness.\n▪ Hospital confinement » Per lifetime limit. » Expiry age. » Cause. Features of a Hospital Cash Insurance policy\n▪ Per day hospitalisation benefit.\n▪ A cap to the maximum amount payable on a single life usually expressed as a maximum number of days.\n▪ Benefit is a fixed amount throughout the policy term as specified at the inception of the policy.\n▪ No waiting period if the cause of hospitalisation is due to an injury. A waiting period is usually imposed from the date of issue or reinstatement of the policy if the cause of hospitalisation is due to an illness.\n▪ Benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including Medishield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers.\n▪ Cover expires at a specified age (e.g. 65, 70 or 75 years).\n▪ Premiums may be level or increased once the insured reaches a higher ageband.\n▪ Yearly renewable.\n▪ Usually provides 24-hour, worldwide coverage, although some insurers limit the cover to certain geographical areas.\n▪ Usually has no cash value.\n▪ No assignment of the policy is allowed.\n▪ For a policy that is in force for a consecutive period of insurance and free of any claim, a premium discount is usually given at renewal. This is usually called a ”No Claim Discount”. A certain percentage (e.g. 25%) will be deducted from the next renewal premium, subject to conditions as imposed by the insurer. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Types of a Hospital Cash Insurance policy\n▪ Stand-alone Hospital Cash Insurance\n▪ Hospital Cash Insurance Riders Common exclusions under a Hospital Cash Insurance policy/rider\n▪ Pre-existing medical condition that the insured knew existed or has received treatment and/or medical advice;\n▪ Pre-existing physical defect or infirmity, unless declared to and accepted by the insurer;\n▪ Self-inflicted injuries or suicide, while sane or insane;\n▪ Human immunodeficiency virus (HIV) or any HIV related illness, including Acquired Immune Deficiency Syndrome (AIDS) or any illness arising from it;\n▪ Sexually transmitted disease;\n▪ Mental/nervous disorder, drug addiction, intoxication, alcoholism, obesity, weight reduction/improvement, bulimia, anorexia nervosa, preventive treatment, such as vaccination or acupuncture;\n▪ Illegal or unlawful act of the insured;\n▪ Pregnancy, miscarriage, childbirth, abortion, birth control or infertility;\n▪ Routine physical or any other medical examination not relating to any health impairment;\n▪ Cosmetic or plastic surgery, circumcision, congenital condition, dental work or myopic treatment;\n▪ War and related operations;\n▪ Nuclear weapons material, ionising or radiation;\n▪ Strike, riot and civil commotion; and\n▪ Participation in hazardous sports like skiing or sky-diving, aerial activities other than air travel as a fare-paying passenger of a licensed aircraft, driving or riding in any kind of race, motor-cycling or pillion riding. Circumstances under which a Hospital Cash Insurance policy/rider will be terminated.\n▪ Premium is not paid at the end of the grace period;\n▪ Insured reaches the expiry age as stated in the policy;\n▪ Per lifetime limit is reached;\n▪ Basic policy lapses or matures; or\n▪ Insured dies Documents that need to be submitted in the event of a claim under a Hospital Cash Insurance policy\n▪ Claim form.\n▪ Hospital discharge summary and bills. Note that the insurer reserves the right to call for additional documentary evidence. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Benefits of Maternity Insurance For the mother:\n▪ Medical expenses due to the covered list of complications that arise from the pregnancy;\n▪ Death or total & permanent disability benefit; or\n▪ Hospitalisation income benefit for each day of hospitalisation due to pregnancy complications For the newborn:\n▪ Medical expenses due to congenital illnesses;\n▪ Death benefit;\n▪ Hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses;\n▪ Outpatient cash benefit for each day of phototherapy machine rented; or\n▪ It may cover up to four babies in a single pregnancy. Features of Maternity Insurance:\n▪ It is a single premium term policy.\n▪ It protects both mother and child (up to four babies in a single pregnancy) from as early as 13th week of pregnancy.\n▪ It is valid for three (3) years from the policy start date.\n▪ It covers for specific types of pregnancy complications and congenital illnesses according to the insurer’s list.\n▪ It provides a death benefit for both mother and child.\n▪ It gives a hospital income benefit for each day of hospital stay resulting from the list of covered events.\n▪ The sum insured is paid in a lump sum upon death, diagnosis of pregnancy complications or congenital illnesses.\n▪ Other benefits are subject to limits and caps as defined by the insurers.\n▪ The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers.\n▪ The cover expires at the end of the policy term.\n▪ It usually has no cash value.\n▪ No assignment of the policy is allowed.\n▪ Coverage will end when all benefits for the insured mother and the insured child end; or at the end of policy term, whichever is earlier.\n▪ The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investment-linked plan within 90 days of the child’s birth, without the need for medical underwriting. When is a Maternity Insurance excluded?:\n▪ Self-inflicted injuries, illnesses, suicide or attempted suicide;\n▪ misuse of drugs or alcohol;\n▪ acquired immunodeficiency syndrome (AIDS), AIDS-related complex or infection by human immunodeficiency virus (HIV), resulting from any means;\n▪ the insured mother carrying three or more babies in a single pregnancy;\n▪ overseas treatment;\n▪ abortions which the insured has decided to have, unless medically necessary due to pregnancy complications covered under the pregnancy complications benefit and certified by a doctor; or\n▪ any unlawful or criminal act or omission. Common medical benefits provided by a Travel Insurance policy\n▪ Medical expenses and other related benefits;\n▪ Hospital confinement allowance;\n▪ Emergency medical evacuation; and\n▪ Repatriation. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Common exclusions for the medical expense benefits under a typical Travel Insurance policy\n▪ War, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection or military or usurped power;\n▪ Ionising radiation or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel;\n▪ Participation in civil defence, police, military, naval or air force service or operation, or national service in accordance with the Enlistment Act 1970;\n▪ Self-inflicted injury, suicide or attempted suicide, while sane or insane, mental or physical defect or infirmity, insanity or nervous disorder, intoxication or use of non-prescription drugs;\n▪ Routine health check-up, or cosmetic (aesthetic) or plastic surgery;\n▪ Sexually transmitted disease, AIDS and HIV conditions or AIDS related infections;\n▪ Pregnancy or childbirth or any sickness associated with pregnancy or childbirth;\n▪ Any pre-existing condition (except for some policies, subject to Section 4.5 above) for which the insured person received medical treatment, diagnosis, consultation or prescribed drugs within the 12 (or six) months’ period before the commencement date of the policy period of insurance;\n▪ Driving or riding in any kind of race, engaging in any professional sport, ice or winter sport, mountaineering requiring the use of guides and ropes, or underwater activity involving the use of underwater breathing apparatus;\n▪ Aerial activity other than air travel as a fare-paying passenger in a licensed passenger-carrying aircraft;\n▪ Direct participation in criminal, unlawful or terrorist act, or strike, riot or civil commotion;\n▪ Any event including strike, riot, civil commotion, health threatening situation, natural disaster published by the mass media or through advisory of the authority, unless the policy already issued or the trip already commenced before the date of publication or advisory; or\n▪ Travel booked or undertaken against medical advice, or for the purpose of obtaining or seeking any medical care or treatment abroad. Note that the exclusions, restrictions and limitations vary from insurer to insurer. How the benefits are paid under Group Dental Insurance?\n▪ Based on a Schedule of Allowances » One of the ways in which the insurer reimburses the insured for dental expenses incurred.\n▪ Basis of reimbursement is based on the limits as specified in the Schedule of Allowances. Limits to the benefits that one is entitled to claim under Group Dental Insurance.\n▪ Some insurers set an overall limit (e.g. S$200) that each insured employee may claim during each policy year. Common exclusions under a Group Dental Insurance policy\n▪ Dental procedures that are not specified in the Schedule of Allowances;\n▪ Hospital charges;\n▪ Injuries arising directly or indirectly from war (declared or undeclared), revolution, or any warlike operation;\n▪ Medicine given;\n▪ Treatment which is purely cosmetic in nature;\n▪ Treatment resulting from self-inflicted injury, while sane or insane; and\n▪ Replacement of broken, lost or stolen dentures. Note that it may vary from insurer to insurer. How the limitation clause of a Group Dental Insurance policy works? Reimbursements under their policies will be reduced by benefits claimable under:\n▪ Work Injury Compensation Insurance policy;\n▪ Any government or public programme of dental or medical benefits; or\n▪ Any other group or individual Health or Dental Care Insurance policy. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Circumstances under which a Group Dental Insurance policy will be terminated\n▪ Date of termination of the insured employee’s active full-time employment with the policy owner (employer);\n▪ Date of termination of the policy;\n▪ Date of expiration of the period for which the last premium payment is made in respect of the insured employee’s cover;\n▪ Date on which the insured employee enters full-time military, naval, air or police service, except during peacetime National Service reservist duty or training in accordance with the Enlistment Act 1970; or\n▪ Date of expiration of the period within which the insured employee reaches a specified age (e.g. 65 years). Earliest of the above dates. Claim procedures for a Group Dental Care Insurance claim For any insurer that has a panel of dentists:\n▪ Insurer will issue a membership card or certificate to every individual insured employee who will need to produce it, whenever he visits the dental clinic for treatment.\n▪ Dental clinic will bill the insurer directly, and the employee need not pay a single cent nor file any claim with the insurer. If the insurer does not have a panel of doctors or the employee decides to use his own dentist:\n▪ Make the payment to the clinic first, and then file a claim with the insurer to seek reimbursement in accordance with the policy. Insurer requires the employer to submit these documents within a specific period (e.g. 21 days from the date of treatment) Types of documents that need to be submitted for a Group Dental Care Insurance claim\n▪ Completed claim form; and\n▪ Original receipts and itemised bills.",
+                  "textJP": "注：被保険従業員が承認された提携歯科医を受診した場合、給付は「実費（as-charged）」で支払われます。提携外の歯科医を受診した被保険従業員については、給付は保険証券の給付スケジュールに記載された限度額を上限として支払われます。"
                 }
               ]
             }
@@ -4032,7 +4089,8 @@
           "paragraphs": [
             {
               "num": "1.1",
-              "text": "Managed Healthcare (MHC) schemes have evolved in the market as a response to increasing medical costs. MHC plans are usually managed or run by insurers as insurance-backed plans. Locally, only group MHC insurance is available. Such policies are often purchased by employers as part of their Employee Benefit package, and as an alternative to Group H&S plans. In this chapter, we will first look at the concept and various models of MHC, before we briefly discuss how MHC insurance works."
+              "text": "Managed Healthcare (MHC) schemes have evolved in the market as a response to increasing medical costs. MHC plans are usually managed or run by insurers as insurance-backed plans. Locally, only group MHC insurance is available. Such policies are often purchased by employers as part of their Employee Benefit package, and as an alternative to Group H&S plans. In this chapter, we will first look at the concept and various models of MHC, before we briefly discuss how MHC insurance works.",
+              "textJP": "マネージドヘルスケア（MHC）スキームは、増加する医療費への対応として市場で発展してきました。MHCプランは通常、保険者により保険付きプランとして管理または運営されます。国内では、団体MHC保険のみが利用可能です。"
             }
           ],
           "subsections": []
@@ -4045,7 +4103,8 @@
           "paragraphs": [
             {
               "num": "2.1",
-              "text": "MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. Such strategies make use of a number of MHC techniques related to how medical care is accessed, provided and paid for."
+              "text": "MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. Such strategies make use of a number of MHC techniques related to how medical care is accessed, provided and paid for.",
+              "textJP": "MHCとは、人々が適切な医療ケアを受けられることを保証しつつ、医療費を抑制するための全体的な戦略を指します。個人が一般開業医（GP）、専門医を受診したり、入院治療を受けたりした場合に、医療費の大部分を支払います。"
             }
           ],
           "subsections": []
@@ -4058,11 +4117,13 @@
           "paragraphs": [
             {
               "num": "3.1",
-              "text": "MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them."
+              "text": "MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them.",
+              "textJP": "MHC提供者は、会員のケアへのアクセス、コスト、品質を管理するためにヘルスケアネットワークを構築します。医師、病院、診療所、薬局、検査機関、X線センターなどの他のヘルスケア提供者と交渉し契約します。"
             },
             {
               "num": "3.2",
-              "text": "MHC contains and controls healthcare expenditure by carefully managing the following three components: (a) accessibility; (b) cost; and (c) quality of care."
+              "text": "MHC contains and controls healthcare expenditure by carefully managing the following three components: (a) accessibility; (b) cost; and (c) quality of care.",
+              "textJP": "MHCは、以下の3つの要素を注意深く管理することにより、ヘルスケア支出を抑制・管理します：\n(a) アクセシビリティ\n(b) コスト\n(c) ケアの品質"
             }
           ],
           "subsections": [
@@ -4074,15 +4135,18 @@
               "paragraphs": [
                 {
                   "num": "3.3",
-                  "text": "In a MHC plan, members are referred to a carefully selected network of healthcare providers. In some MHC plans, a member may be required to receive all his healthcare services from a particular provider within the network. This doctor will be his Primary Care Physician (PCP). In other managed care plans, he may be able to receive care from providers who are not part of the network, but will have to pay a larger share of the cost to receive those services."
+                  "text": "In a MHC plan, members are referred to a carefully selected network of healthcare providers. In some MHC plans, a member may be required to receive all his healthcare services from a particular provider within the network. This doctor will be his Primary Care Physician (PCP). In other managed care plans, he may be able to receive care from providers who are not part of the network, but will have to pay a larger share of the cost to receive those services.",
+                  "textJP": "MHCプランでは、会員は厳選されたヘルスケア提供者のネットワークに紹介されます。一部のMHCプランでは、会員はネットワーク内の特定の提供者からすべてのヘルスケアサービスを受けることが求められる場合があります。この医師がプライマリケア医師（PCP）となります。"
                 },
                 {
                   "num": "3.4",
-                  "text": "As MHC emphasises primary and preventive care to prevent serious health problems, PCPs are the backbone of many MHC plans. PCPs are valued because of their ability to diagnose and treat a broad range of medical conditions. Additionally, as they are familiar with the health conditions and Quality of Care Access ibility Co st circumstances of their patients, PCPs are often better able to ascertain the type of specialty care that members may need."
+                  "text": "As MHC emphasises primary and preventive care to prevent serious health problems, PCPs are the backbone of many MHC plans. PCPs are valued because of their ability to diagnose and treat a broad range of medical conditions. Additionally, as they are familiar with the health conditions and Quality of Care Access ibility Co st circumstances of their patients, PCPs are often better able to ascertain the type of specialty care that members may need.",
+                  "textJP": "MHCは深刻な健康問題を予防するためにプライマリケアと予防ケアを重視しているため、PCPは多くのMHCプランの根幹です。PCPは幅広い疾患を診断・治療する能力があることから重視されています。"
                 },
                 {
                   "num": "3.5",
-                  "text": "PCP is usually a general practitioner who serves as the member’s “personal physician” and acts as the first contact with the MHC. If additional care is needed, the PCP will refer the member to a specialist within the network. Under most MHC plans, a member must obtain a referral from the PCP before seeing a specialist. As such, PCPs are often called “gatekeepers”. As gatekeepers, PCPs co-ordinate and manage all aspects of the members’ care. Members are allowed to change their PCPs."
+                  "text": "PCP is usually a general practitioner who serves as the member’s “personal physician” and acts as the first contact with the MHC. If additional care is needed, the PCP will refer the member to a specialist within the network. Under most MHC plans, a member must obtain a referral from the PCP before seeing a specialist. As such, PCPs are often called “gatekeepers”. As gatekeepers, PCPs co-ordinate and manage all aspects of the members’ care. Members are allowed to change their PCPs.",
+                  "textJP": "PCPは通常、会員の「かかりつけ医」として機能し、MHCへの最初の窓口となる一般開業医です。追加のケアが必要な場合、PCPはネットワーク内の専門医に会員を紹介します。"
                 }
               ]
             },
@@ -4094,19 +4158,23 @@
               "paragraphs": [
                 {
                   "num": "3.6",
-                  "text": "A Managed Healthcare Organisation (MHCO) uses various methods to control the increasing medical care costs. One of which is negotiated provider fees."
+                  "text": "A Managed Healthcare Organisation (MHCO) uses various methods to control the increasing medical care costs. One of which is negotiated provider fees.",
+                  "textJP": "マネージドヘルスケア組織（MHCO）は、増加する医療費を管理するためにさまざまな方法を使用しています。その1つは、交渉による提供者報酬です。"
                 },
                 {
                   "num": "3.7",
-                  "text": "By limiting the number of physicians or hospitals in a provider network, the MHCO can negotiate the physicians’ or hospitals’ fees and reduce the cost for providing medical services to its members. The MHCO is able to achieve this, because physicians, hospitals and other medical service providers are generally willing to reduce their fees, in exchange for the increase in patient volume that a MHC network can provide them."
+                  "text": "By limiting the number of physicians or hospitals in a provider network, the MHCO can negotiate the physicians’ or hospitals’ fees and reduce the cost for providing medical services to its members. The MHCO is able to achieve this, because physicians, hospitals and other medical service providers are generally willing to reduce their fees, in exchange for the increase in patient volume that a MHC network can provide them.",
+                  "textJP": "提供者ネットワーク内の医師または病院の数を制限することにより、MHCOは医師または病院の報酬を交渉し、会員への医療サービス提供のコストを削減できます。"
                 },
                 {
                   "num": "3.8",
-                  "text": "The four common payment methods used by MHCO are as follows: (a) capitation; (b) discounted-fee-for-service; (c) salary; and (d) fee schedule. (a) Capitation Under this method, the MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. (b) Discounted-Fee-For-Service MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. (c) Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. (d) Fee Schedule Under this method, the MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. As this fee structure will result in a smaller reimbursement of fees for physicians who charge higher-than-average fees, it may encourage the provision of unnecessary medical services (e.g. physicians asking patients to go for more tests than necessary or return for follow-up checks)."
+                  "text": "The four common payment methods used by MHCO are as follows: (a) capitation; (b) discounted-fee-for-service; (c) salary; and (d) fee schedule. (a) Capitation Under this method, the MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. (b) Discounted-Fee-For-Service MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. (c) Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. (d) Fee Schedule Under this method, the MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. As this fee structure will result in a smaller reimbursement of fees for physicians who charge higher-than-average fees, it may encourage the provision of unnecessary medical services (e.g. physicians asking patients to go for more tests than necessary or return for follow-up checks).",
+                  "textJP": "MHCOが使用する4つの一般的な支払い方法は以下のとおりです：\n(a) 人頭払い（キャピテーション）——MHCOが提供者に各会員の医療ケアについて固定額を前払い\n(b) 割引出来高払い——提供者が通常の報酬から割引価格でサービスを提供\n(c) 給与制——提供者にMHCOが直接給与を支払い\n(d) 報酬表——各サービスの報酬額を事前に定めた表に基づいて支払い"
                 },
                 {
                   "num": "3.9",
-                  "text": "Other methods used by the MHCO to control medical care costs include Utilisation Management and risk sharing agreements."
+                  "text": "Other methods used by the MHCO to control medical care costs include Utilisation Management and risk sharing agreements.",
+                  "textJP": "MHCOが医療費を管理するために使用するその他の方法には、利用管理とリスク共有契約があります。"
                 }
               ]
             },
@@ -4118,7 +4186,8 @@
               "paragraphs": [
                 {
                   "num": "3.10",
-                  "text": "To ensure that the quality of care is not compromised with the costcontainment effort, members can be assured that the MHCO contracts with only healthcare providers that possess the requisite skills, training and licences. These providers must provide the necessary medical services under prevailing professional standards of care. The MHCO also develops quality assurance programmes usually in co-operation with the providers to guarantee availability, accessibility and continuity of care to its members. In fact, the MHCO places equal importance on the quality of care and cost control because a good reputation is what attracts new members and keeps existing members."
+                  "text": "To ensure that the quality of care is not compromised with the costcontainment effort, members can be assured that the MHCO contracts with only healthcare providers that possess the requisite skills, training and licences. These providers must provide the necessary medical services under prevailing professional standards of care. The MHCO also develops quality assurance programmes usually in co-operation with the providers to guarantee availability, accessibility and continuity of care to its members. In fact, the MHCO places equal importance on the quality of care and cost control because a good reputation is what attracts new members and keeps existing members.",
+                  "textJP": "コスト抑制の取り組みによりケアの品質が損なわれないよう、MHCOは必要なスキル、訓練、ライセンスを有するヘルスケア提供者とのみ契約していることを会員に保証できます。これらの提供者はMHCOが定めた品質基準に従った医療ケアを提供しなければなりません。"
                 }
               ]
             }
@@ -4132,11 +4201,13 @@
           "paragraphs": [
             {
               "num": "4.1",
-              "text": "The three common types are: (a) Health Maintenance Organisation (HMO); (b) Preferred Provider Organisation (PPO); and (c) Point-of-Service (POS) plan."
+              "text": "The three common types are: (a) Health Maintenance Organisation (HMO); (b) Preferred Provider Organisation (PPO); and (c) Point-of-Service (POS) plan.",
+              "textJP": "3つの一般的な種類は以下のとおりです：\n(a) Health Maintenance Organisation（HMO）\n(b) Preferred Provider Organisation（PPO）\n(c) Point-of-Service（POS）プラン"
             },
             {
               "num": "4.2",
-              "text": "Let us look at each of them in turn."
+              "text": "Let us look at each of them in turn.",
+              "textJP": "それぞれを順番に見ていきましょう。"
             }
           ],
           "subsections": [
@@ -4148,19 +4219,23 @@
               "paragraphs": [
                 {
                   "num": "4.3",
-                  "text": "HMO features a network of health care providers that treat a patient population for a prepaid fee."
+                  "text": "HMO features a network of health care providers that treat a patient population for a prepaid fee.",
+                  "textJP": "HMOは、前払い報酬で患者集団を治療するヘルスケア提供者のネットワークを特徴としています。"
                 },
                 {
                   "num": "4.4",
-                  "text": "A member enrolled in a HMO will need to receive most or all of his health care from a network provider. HMOs require that the member chooses a primary care physician (PCP who is most often a family doctor, or paediatrician for children) who is responsible for managing and coordinating all of his health care."
+                  "text": "A member enrolled in a HMO will need to receive most or all of his health care from a network provider. HMOs require that the member chooses a primary care physician (PCP who is most often a family doctor, or paediatrician for children) who is responsible for managing and coordinating all of his health care.",
+                  "textJP": "HMOに加入した会員は、ほとんどまたはすべてのヘルスケアをネットワーク提供者から受ける必要があります。HMOでは、会員が医療ケアの調整と管理を担当するプライマリケア医師（PCP）を選択することが求められます。"
                 },
                 {
                   "num": "4.5",
-                  "text": "If the member needs care from a physician specialist in the network or a diagnostic service such as a laboratory test or X-ray, the PCP will have to provide a referral. If the member does not have a referral or chooses to go to a doctor outside of his health plan’s network, he will most likely have to pay all or most of the costs for that care, unless it was pre-authorised by the HMO, or deemed as an emergency."
+                  "text": "If the member needs care from a physician specialist in the network or a diagnostic service such as a laboratory test or X-ray, the PCP will have to provide a referral. If the member does not have a referral or chooses to go to a doctor outside of his health plan’s network, he will most likely have to pay all or most of the costs for that care, unless it was pre-authorised by the HMO, or deemed as an emergency.",
+                  "textJP": "会員がネットワーク内の専門医によるケアや、検査やX線などの診断サービスを必要とする場合、PCPが紹介状を出す必要があります。紹介状がない場合やネットワーク外の医師を選択した場合、会員は自己負担が必要か、補償されない場合があります。"
                 },
                 {
                   "num": "4.6",
-                  "text": "The HMO is the most restrictive type of health plan, because the member has the least choice in selecting his healthcare provider."
+                  "text": "The HMO is the most restrictive type of health plan, because the member has the least choice in selecting his healthcare provider.",
+                  "textJP": "HMOは最も制限的なタイプの健康プランです。会員がヘルスケア提供者を選択する際の選択肢が最も少ないためです。"
                 }
               ]
             },
@@ -4172,15 +4247,18 @@
               "paragraphs": [
                 {
                   "num": "4.7",
-                  "text": "With an HMO plan, you must always see your PCP first, who will then refer you to an in-network specialist. With a PPO plan, you can see a specialist without a referral."
+                  "text": "With an HMO plan, you must always see your PCP first, who will then refer you to an in-network specialist. With a PPO plan, you can see a specialist without a referral.",
+                  "textJP": "HMOプランでは、常にまずPCPを受診し、PCPがネットワーク内の専門医に紹介します。PPOプランでは、紹介なしで専門医を受診できます。"
                 },
                 {
                   "num": "4.8",
-                  "text": "A Preferred Provider Organisation (PPO) has negotiated contracts with a network of preferred providers from which a member can choose. A member does not need to select a PCP and does not need referrals to see other providers in the network. However, to encourage the use of network providers and/or get a referral for a specialist, PPO offers “richer” benefits to members as financial incentives. These include lower or no deductible, lower or no copayment, and higher benefits. For example, if a member sees a network provider, he will not need to pay for the medical cost. However, if he sees a non-network provider, he may have to pay as much as 50% of the total bill."
+                  "text": "A Preferred Provider Organisation (PPO) has negotiated contracts with a network of preferred providers from which a member can choose. A member does not need to select a PCP and does not need referrals to see other providers in the network. However, to encourage the use of network providers and/or get a referral for a specialist, PPO offers “richer” benefits to members as financial incentives. These include lower or no deductible, lower or no copayment, and higher benefits. For example, if a member sees a network provider, he will not need to pay for the medical cost. However, if he sees a non-network provider, he may have to pay as much as 50% of the total bill.",
+                  "textJP": "Preferred Provider Organisation（PPO）は、会員が選択できる優先提供者のネットワークと交渉契約を結んでいます。会員はPCPを選択する必要がなく、ネットワーク内の他の提供者を受診するための紹介状も必要ありません。"
                 },
                 {
                   "num": "4.9",
-                  "text": "PPOs are less restrictive than HMOs in the choice of healthcare providers. However, they tend to require greater \"out-of-pocket\" payments from the members."
+                  "text": "PPOs are less restrictive than HMOs in the choice of healthcare providers. However, they tend to require greater \"out-of-pocket\" payments from the members.",
+                  "textJP": "PPOはヘルスケア提供者の選択においてHMOよりも制限が少ないです。ただし、会員からのより多くの「自己負担」支払いを必要とする傾向があります。"
                 }
               ]
             },
@@ -4192,19 +4270,23 @@
               "paragraphs": [
                 {
                   "num": "4.10",
-                  "text": "A POS plan is a combination of a HMO and a PPO."
+                  "text": "A POS plan is a combination of a HMO and a PPO.",
+                  "textJP": "POSプランはHMOとPPOの組み合わせです。"
                 },
                 {
                   "num": "4.11",
-                  "text": "A POS plan is like an HMO plan in that it requires a policyholder to choose an in-network PCP and get referrals from that doctor if he wants the plan to cover a specialist’s services."
+                  "text": "A POS plan is like an HMO plan in that it requires a policyholder to choose an in-network PCP and get referrals from that doctor if he wants the plan to cover a specialist’s services.",
+                  "textJP": "POSプランはHMOプランと類似しており、保険契約者がネットワーク内のPCPを選択し、専門医のサービスをプランが補償するためにはその医師からの紹介状が必要です。"
                 },
                 {
                   "num": "4.12",
-                  "text": "A POS plan is also like a PPO plan in that it still provides coverage for out-ofnetwork services, but the policyholder has to pay more for those services than if he uses in-network providers."
+                  "text": "A POS plan is also like a PPO plan in that it still provides coverage for out-ofnetwork services, but the policyholder has to pay more for those services than if he uses in-network providers.",
+                  "textJP": "POSプランはPPOプランとも類似しており、ネットワーク外のサービスも補償しますが、保険契約者はネットワーク内の提供者を利用する場合よりもそれらのサービスに対してより多く支払う必要があります。"
                 },
                 {
                   "num": "4.13",
-                  "text": "The plan is known as point-of-service, because each time a member needs healthcare service (the time or “point” of service), he can decide to stay in the network to allow his PCP to manage his care service, or to go outside the network on his own, without a referral from his PCP."
+                  "text": "The plan is known as point-of-service, because each time a member needs healthcare service (the time or “point” of service), he can decide to stay in the network to allow his PCP to manage his care service, or to go outside the network on his own, without a referral from his PCP.",
+                  "textJP": "このプランがPoint-of-Serviceと呼ばれるのは、会員がヘルスケアサービスを必要とするたびに（サービスの時点または「ポイント」）、ネットワーク内にとどまりPCPにケアを管理してもらうか、自己負担額の増加を伴いネットワーク外に出るかを決定できるためです。"
                 }
               ]
             }
@@ -4218,15 +4300,18 @@
           "paragraphs": [
             {
               "num": "5.1",
-              "text": "As mentioned, MHCOs help to contain the cost of healthcare by managing the access to providers, the cost of providing healthcare, as well as the quality of care. Figure 8.4 illustrates the relationship between the degree of control over the cost and access, and their effects on the purchaser. Figure 8.4: Degree Of Choice Of Providers Versus Degree Of Cost Control"
+              "text": "As mentioned, MHCOs help to contain the cost of healthcare by managing the access to providers, the cost of providing healthcare, as well as the quality of care. Figure 8.4 illustrates the relationship between the degree of control over the cost and access, and their effects on the purchaser. Figure 8.4: Degree Of Choice Of Providers Versus Degree Of Cost Control",
+              "textJP": "前述のとおり、MHCOは提供者へのアクセス、ヘルスケア提供のコスト、ケアの品質を管理することにより、ヘルスケアのコストの抑制に寄与します。"
             },
             {
               "num": "5.2",
-              "text": "Note from Figure 8.4 that the HMO has the greatest cost control, but its members have the lowest degree of choice of providers. The cost saved is passed on to the purchasers who are charged a lower price for participating in the plan. At the other extreme, there is no control over the access to healthcare providers under a traditional Medical Expense Insurance, and no cost control too. As a result, the premium for a traditional Medical Expense Insurance policy is higher as compared to the MHC plan."
+              "text": "Note from Figure 8.4 that the HMO has the greatest cost control, but its members have the lowest degree of choice of providers. The cost saved is passed on to the purchasers who are charged a lower price for participating in the plan. At the other extreme, there is no control over the access to healthcare providers under a traditional Medical Expense Insurance, and no cost control too. As a result, the premium for a traditional Medical Expense Insurance policy is higher as compared to the MHC plan.",
+              "textJP": "HMOはコスト管理が最も高いですが、会員の提供者選択の自由度は最も低いことに留意してください。節約されたコストは、プランへの参加に対してより低い価格を請求される購入者に還元されます。"
             },
             {
               "num": "5.3",
-              "text": "At present, no MHC plan can offer high level of benefits, unlimited access to providers and low cost, all at the same time. The best that any plan can expect to accomplish is two of the three features. Some plans will focus on costs and access, while others will focus on benefits and costs, or access and benefits."
+              "text": "At present, no MHC plan can offer high level of benefits, unlimited access to providers and low cost, all at the same time. The best that any plan can expect to accomplish is two of the three features. Some plans will focus on costs and access, while others will focus on benefits and costs, or access and benefits.",
+              "textJP": "現在のところ、高い給付水準、提供者への無制限のアクセス、低コストのすべてを同時に提供できるMHCプランはありません。いずれのプランも達成できるのは、3つの特徴のうち2つが最善です。"
             }
           ],
           "subsections": []
@@ -4239,7 +4324,8 @@
           "paragraphs": [
             {
               "num": "6.1",
-              "text": "Let us look at an example of an MHC Insurance."
+              "text": "Let us look at an example of an MHC Insurance.",
+              "textJP": "MHC保険の例を見てみましょう。"
             }
           ],
           "subsections": [
@@ -4251,15 +4337,18 @@
               "paragraphs": [
                 {
                   "num": "6.2",
-                  "text": "For fixed annual premiums, insurers offering MHC plans may provide their policy owners with some or all of the coverage as described below: (a) Primary Care – provided by a wide network of general physicians in clinics all over Singapore. It includes consultation, medication, procedures and tests deemed medically necessary. High Low Degree Of Choice of Providers High Cost Control HMO PPO Traditional Medical Expense Insurance POS (b) Specialist Care - provided by a wide network of specialists from different medical specialties. It includes consultation, medication, tests and surgery upon referral from a PCP. (c) Hospital Care – provided for confinement in private, public or community hospitals. Reimbursement for the hospital and surgical expenses will be subject to limits under the insured plan. (d) Emergency Care – provides 24-hour cover for accident and emergency. (e) Preventive Care − provides educational programmes, such as talks, seminars and workshops on nutritional counselling, etc., designed to keep members free from diseases."
+                  "text": "For fixed annual premiums, insurers offering MHC plans may provide their policy owners with some or all of the coverage as described below: (a) Primary Care – provided by a wide network of general physicians in clinics all over Singapore. It includes consultation, medication, procedures and tests deemed medically necessary. High Low Degree Of Choice of Providers High Cost Control HMO PPO Traditional Medical Expense Insurance POS (b) Specialist Care - provided by a wide network of specialists from different medical specialties. It includes consultation, medication, tests and surgery upon referral from a PCP. (c) Hospital Care – provided for confinement in private, public or community hospitals. Reimbursement for the hospital and surgical expenses will be subject to limits under the insured plan. (d) Emergency Care – provides 24-hour cover for accident and emergency. (e) Preventive Care − provides educational programmes, such as talks, seminars and workshops on nutritional counselling, etc., designed to keep members free from diseases.",
+                  "textJP": "固定年間保険料で、MHCプランを提供する保険者は、保険契約者に以下のような補償の一部またはすべてを提供する場合があります：\n(a) プライマリケア——シンガポール全土の診療所の一般医師の広範なネットワークにより提供。コンサルテーション、薬剤、簡単な検査を含む\n(b) 専門医ケア——提携専門医への紹介\n(c) 入院ケア——団体入院・手術保険に基づく入院補償"
                 },
                 {
                   "num": "6.3",
-                  "text": "The benefits offered by the MHCOs may differ, as some may provide only outpatient care, while others may provide the full spectrum of benefits. These benefits can also be extended to dependants."
+                  "text": "The benefits offered by the MHCOs may differ, as some may provide only outpatient care, while others may provide the full spectrum of benefits. These benefits can also be extended to dependants.",
+                  "textJP": "MHCOが提供する給付は異なる場合があり、外来ケアのみを提供するものもあれば、完全な給付を提供するものもあります。これらの給付は扶養家族にも拡張できます。"
                 },
                 {
                   "num": "6.4",
-                  "text": "Like other Health Insurance policies, there is a minimum, as well as a maximum entry age for MHC plans, but it usually varies among insurers."
+                  "text": "Like other Health Insurance policies, there is a minimum, as well as a maximum entry age for MHC plans, but it usually varies among insurers.",
+                  "textJP": "他の健康保険証券と同様に、MHCプランには最低加入年齢と最大加入年齢がありますが、通常、保険者によって異なります。"
                 }
               ]
             },
@@ -4271,7 +4360,8 @@
               "paragraphs": [
                 {
                   "num": "6.5",
-                  "text": "Like Medical Expense Insurance, co-payments such as co-insurance, deductible and pro-ration factors may apply in MHC Insurance."
+                  "text": "Like Medical Expense Insurance, co-payments such as co-insurance, deductible and pro-ration factors may apply in MHC Insurance.",
+                  "textJP": "医療費保険と同様に、MHC保険には共同保険、免責金額、按分係数などの自己負担が適用される場合があります。"
                 }
               ]
             },
@@ -4283,11 +4373,13 @@
               "paragraphs": [
                 {
                   "num": "6.6",
-                  "text": "The common exclusions under MHC Insurance policy include: (a) pre-existing conditions; (b) congenital anomaly, hereditary condition and disorder; (c) mental illness and personality disorder; (d) infertility, sub-fertility, assisted conception treatment; (e) treatment of sexually transmitted disease; (f) Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV); (g) self-inflicted injuries; (h) drug addiction or alcoholism; (i) purchase of eyewear or related eye care items; (j) purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances; (k) private nursing charges; (l) injuries arising from direct participation in strike, riot or civil commotion; (m) injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks; (n) childbirth and abortion or routine ante-natal and post-natal visits; (o) cosmetic surgery (except for treatment necessitated by an accident); (p) general exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans; (q) optional items which are outside the scope of treatment; and (r) reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage."
+                  "text": "The common exclusions under MHC Insurance policy include: (a) pre-existing conditions; (b) congenital anomaly, hereditary condition and disorder; (c) mental illness and personality disorder; (d) infertility, sub-fertility, assisted conception treatment; (e) treatment of sexually transmitted disease; (f) Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV); (g) self-inflicted injuries; (h) drug addiction or alcoholism; (i) purchase of eyewear or related eye care items; (j) purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances; (k) private nursing charges; (l) injuries arising from direct participation in strike, riot or civil commotion; (m) injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks; (n) childbirth and abortion or routine ante-natal and post-natal visits; (o) cosmetic surgery (except for treatment necessitated by an accident); (p) general exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans; (q) optional items which are outside the scope of treatment; and (r) reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage.",
+                  "textJP": "MHC保険証券の一般的な免責事項には以下が含まれます：\n(a) 既存の病態\n(b) 先天性異常、遺伝性疾患\n(c) 精神疾患および人格障害\n(d) 不妊症、不妊補助、補助的受精治療\n(e) 美容整形手術\n(f) 歯科治療（事故による場合を除く）"
                 },
                 {
                   "num": "6.7",
-                  "text": "Note that the exclusions vary from insurer to insurer. Hence, you need to find out what the exclusions of your insurer are and highlight them to your clients."
+                  "text": "Note that the exclusions vary from insurer to insurer. Hence, you need to find out what the exclusions of your insurer are and highlight them to your clients.",
+                  "textJP": "免責事項は保険者によって異なることにご留意ください。したがって、保険者の免責事項を確認し、顧客に強調する必要があります。"
                 }
               ]
             },
@@ -4299,7 +4391,8 @@
               "paragraphs": [
                 {
                   "num": "6.8",
-                  "text": "The underwriting requirements for MHC are discussed in a later chapter of this Study Text. They are similar to those for Medical Expense Insurance cover."
+                  "text": "The underwriting requirements for MHC are discussed in a later chapter of this Study Text. They are similar to those for Medical Expense Insurance cover.",
+                  "textJP": "MHCの引受要件については、本スタディテキストの後の章で説明します。医療費保険の補償の引受要件と類似しています。"
                 }
               ]
             },
@@ -4311,7 +4404,8 @@
               "paragraphs": [
                 {
                   "num": "6.9",
-                  "text": "The procedure for MHC claims is mainly between the MHCO and the providers. Members who use the in-network care are not required to file any claims with the insurer. Only members who use out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include:\n▪ the claimant’s statement; and\n▪ original itemised medical bill."
+                  "text": "The procedure for MHC claims is mainly between the MHCO and the providers. Members who use the in-network care are not required to file any claims with the insurer. Only members who use out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include:\n▪ the claimant’s statement; and\n▪ original itemised medical bill.",
+                  "textJP": "MHC請求の手続きは、主にMHCOと提供者の間で行われます。ネットワーク内のケアを利用する会員は、保険者に請求を提出する必要はありません。ネットワーク外の提供者を利用する会員のみがMHCOに請求を提出する必要があります。"
                 }
               ]
             }
@@ -4325,15 +4419,18 @@
           "paragraphs": [
             {
               "num": "7.1",
-              "text": "The MHC arrangements are not common in Singapore. Employers here either engage MHCO or an insurance company to offer cashless medical services to employees. Such services include cashless outpatient general practitioner (GP) and specialist consultation visits. To ensure the specialist cost is covered, an employee needs to obtain a GP’s referral to see a specialist. The GP acts as a gatekeeper to minimise unnecessary specialist visit."
+              "text": "The MHC arrangements are not common in Singapore. Employers here either engage MHCO or an insurance company to offer cashless medical services to employees. Such services include cashless outpatient general practitioner (GP) and specialist consultation visits. To ensure the specialist cost is covered, an employee needs to obtain a GP’s referral to see a specialist. The GP acts as a gatekeeper to minimise unnecessary specialist visit.",
+              "textJP": "MHCの仕組みはシンガポールでは一般的ではありません。シンガポールの雇用主は、MHCOまたは保険会社に委託して従業員にキャッシュレス医療サービスを提供しています。このようなサービスには、キャッシュレスの外来一般開業医（GP）および専門医のコンサルテーションが含まれます。"
             },
             {
               "num": "7.2",
-              "text": "Employees have to go to the selected panel to enjoy cashless facilities. The cost and quality of care are managed by MHCO or the insurer. If an employee chooses to visit a non-panel clinic, the cost is either not covered or partially covered, subject to co-payments and/or benefit limits."
+              "text": "Employees have to go to the selected panel to enjoy cashless facilities. The cost and quality of care are managed by MHCO or the insurer. If an employee chooses to visit a non-panel clinic, the cost is either not covered or partially covered, subject to co-payments and/or benefit limits.",
+              "textJP": "従業員はキャッシュレスサービスを享受するために、選択されたパネルを受診する必要があります。ケアのコストと品質はMHCOまたは保険者が管理します。従業員がパネル外の診療所を受診した場合、費用は補償されないか、共同負担/免責金額の条件に従い部分的に補償されます。"
             },
             {
               "num": "7.3",
-              "text": "If the arrangement is under an insured scheme, the insurer will also provide an added hospitalisation cover (Group Hospital & Surgical) which may be cashless with the provision of letter of guarantee to the hospital. MANAGED HEALTHCARE CHAPTER IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Managed Healthcare (MHC) MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. How MHC works? MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Capitation MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Discounted-fee-forservice MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Fee schedule MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. Common types of MHC plans\n▪ Health Maintenance Organisation (HMO);\n▪ Preferred Provider Organisation (PPO); and\n▪ Point-of-Service (POS) plan. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Degree of control the Insurers/MHOs have over cost and the choice of providers Some benefits provided under a MHC Insurance policy\n▪ Primary Care.\n▪ Specialist Care.\n▪ Hospital Care.\n▪ Emergency Care.\n▪ Preventive Care. Elements of copayments Like Medical Expense Insurance, co-payments such as co-insurance, deductible and pro-ration factors may apply in MHC Insurance. Common exclusions under a typical MHC Insurance policy\n▪ Pre-existing conditions;\n▪ Congenital anomaly, hereditary condition and disorder;\n▪ Mental illness and personality disorder;\n▪ Infertility, sub-fertility, assisted conception treatment;\n▪ Treatment of sexually transmitted disease;\n▪ Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV);\n▪ Self-inflicted injuries;\n▪ Drug addiction or alcoholism;\n▪ Purchase of eyewear or related eye care items;\n▪ Purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances;\n▪ Private nursing charges;\n▪ Injuries arising from direct participation in strike, riot or civil commotion;\n▪ Injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks;\n▪ Childbirth and abortion or routine ante-natal and post-natal visits;\n▪ Cosmetic surgery (except for treatment necessitated by an accident);\n▪ General exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans;\n▪ Optional items which are outside the scope of treatment; and\n▪ Reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage. Note that the exclusions vary from insurer to insurer. Underwriting requirements for MHC Insurance Similar to those for Medical Expense Insurance cover. Procedures for claims under a MHC Insurance policy\n▪ Mainly between the MHCO and the providers.\n▪ If using out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include: » Claimant’s statement; and » Original itemised medical bill. MHC scheme available in Singapore\n▪ Not common in Singapore.\n▪ Employers either engage MHCO or insurance company to offer cashless medical services to employees. Traditional Medical Expense Insurance PPO POS HMO High High Low Cost Control Degree of Choice of Providers"
+              "text": "If the arrangement is under an insured scheme, the insurer will also provide an added hospitalisation cover (Group Hospital & Surgical) which may be cashless with the provision of letter of guarantee to the hospital. MANAGED HEALTHCARE CHAPTER IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Managed Healthcare (MHC) MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. How MHC works? MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Capitation MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Discounted-fee-forservice MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Fee schedule MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. Common types of MHC plans\n▪ Health Maintenance Organisation (HMO);\n▪ Preferred Provider Organisation (PPO); and\n▪ Point-of-Service (POS) plan. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Degree of control the Insurers/MHOs have over cost and the choice of providers Some benefits provided under a MHC Insurance policy\n▪ Primary Care.\n▪ Specialist Care.\n▪ Hospital Care.\n▪ Emergency Care.\n▪ Preventive Care. Elements of copayments Like Medical Expense Insurance, co-payments such as co-insurance, deductible and pro-ration factors may apply in MHC Insurance. Common exclusions under a typical MHC Insurance policy\n▪ Pre-existing conditions;\n▪ Congenital anomaly, hereditary condition and disorder;\n▪ Mental illness and personality disorder;\n▪ Infertility, sub-fertility, assisted conception treatment;\n▪ Treatment of sexually transmitted disease;\n▪ Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV);\n▪ Self-inflicted injuries;\n▪ Drug addiction or alcoholism;\n▪ Purchase of eyewear or related eye care items;\n▪ Purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances;\n▪ Private nursing charges;\n▪ Injuries arising from direct participation in strike, riot or civil commotion;\n▪ Injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks;\n▪ Childbirth and abortion or routine ante-natal and post-natal visits;\n▪ Cosmetic surgery (except for treatment necessitated by an accident);\n▪ General exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans;\n▪ Optional items which are outside the scope of treatment; and\n▪ Reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage. Note that the exclusions vary from insurer to insurer. Underwriting requirements for MHC Insurance Similar to those for Medical Expense Insurance cover. Procedures for claims under a MHC Insurance policy\n▪ Mainly between the MHCO and the providers.\n▪ If using out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include: » Claimant’s statement; and » Original itemised medical bill. MHC scheme available in Singapore\n▪ Not common in Singapore.\n▪ Employers either engage MHCO or insurance company to offer cashless medical services to employees. Traditional Medical Expense Insurance PPO POS HMO High High Low Cost Control Degree of Choice of Providers",
+              "textJP": "保険付きスキームの場合、保険者は病院への保証状の提供によるキャッシュレスの入院補償（団体入院・手術保険）も追加で提供します。"
             }
           ],
           "subsections": []
