@@ -6188,7 +6188,7 @@
       "id": "ch8",
       "number": 8,
       "title": "REINSURANCE AND CO-INSURANCE",
-      "titleJP": "",
+      "titleJP": "再保険と共同保険",
       "outline": [
         "Introduction",
         "Objectives Of Reinsurance",
@@ -6197,7 +6197,14 @@
         "Settlement Of Claims Under Co-Insurance Policies",
         "Comparison Between Reinsurance & Co-Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "再保険の目的",
+        "再保険の方法",
+        "共同保険",
+        "共同保険における保険金請求の決済",
+        "再保険と共同保険の比較"
+      ],
       "learningOutcomes": [
         "define reinsurance and describe the cedant and the reinsurer",
         "understand the reinsurance transaction process in general",
@@ -6207,48 +6214,56 @@
         "understand how claims are settled under co-insurance",
         "explain the differences between co-insurance and reinsurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "再保険の概念を理解する",
+        "再保険の目的を知る",
+        "再保険の方法（任意再保険と特約再保険）を知る",
+        "比例再保険と非比例再保険の違いを理解する",
+        "共同保険の概念を理解する",
+        "共同保険における保険金請求の決済方法を知る",
+        "再保険と共同保険の違いを知る"
+      ],
       "sections": [
         {
           "id": "ch8-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
               "text": "Reinsurance is an extension of the fundamental concept of insurance, namely the sharing of risks. It is a risk transfer mechanism, whereby the original insurer (called the reinsured, cedant or ceding company) cedes or transfers part of a single risk or several risks to another insurer or insurers. The company that accepts the transfer of risks is known as the reinsurer.",
-              "textJP": ""
+              "textJP": "再保険は、リスクの分担という保険の基本概念の延長です。再保険はリスク移転メカニズムであり、元の保険者（再保険付保者、出再者、出再会社と呼ばれます）が単一のリスクまたは複数のリスクの一部を別の保険者に出再または移転します。リスクの移転を引き受ける会社は再保険者として知られています。"
             },
             {
               "num": "1.2",
               "text": "As we have discussed earlier in this study guide, insurance is “a risk transfer mechanism”. As it can be seen from above, reinsurance is also a risk transfer mechanism. This is because reinsurance is purchased by insurers to protect them against certain types of claims. Reinsurance can be defined as “insurance of risks assumed by an insurer”, or simply put as “insurance of insurance”. It is best thought of as “insurance for insurance companies”, a way for an insurer to protect against catastrophic or extraordinary losses, so for the purposes of this study text we shall define reinsurance as: Reinsurance: “Insurance for insurance companies”.",
-              "textJP": ""
+              "textJP": "本学習ガイドの前の部分で議論したように、保険は「リスク移転メカニズム」です。上記から分かるように、再保険もまたリスク移転メカニズムです。これは、再保険が一定の種類の保険金請求から保険者を保護するために保険者によって購入されるためです。再保険は「保険者が引き受けたリスクの保険」、または簡単に言えば「保険の保険」と定義できます。「保険会社のための保険」と考えるのが最も適切です。保険者が巨大災害的または異常な損失から身を守る方法です。\n再保険：「保険会社のための保険」"
             },
             {
               "num": "1.3",
               "text": "Let us now consider the reinsurance transaction process in following Diagram 8.1: Diagram 8.1: Reinsurance Transaction Process",
-              "textJP": ""
+              "textJP": "ここで、以下のDiagram 8.1の再保険取引プロセスについて考えましょう。\nDiagram 8.1：再保険取引プロセス"
             },
             {
               "num": "1.4",
               "text": "Note: Intermediaries (reinsurance brokers) are usually but not always involved in the process.",
-              "textJP": ""
+              "textJP": "注：仲介者（再保険ブローカー）は通常関与しますが、常にそうとは限りません。"
             },
             {
               "num": "1.5",
               "text": "A contract of reinsurance is strictly between the direct insurer and the reinsurer. The original insured is not a party to any reinsurance agreement that the direct insurer enters into. The direct insurer remains liable to the original insured for the whole risk that is accepted. If the insurer has purchased reinsurance, then the insurer will seek recovery from the reinsurer separately. When an insurer purchases reinsurance we refer to the insurer as the “ceding insurer” because the insurer is passing some of the risk to one or more reinsurers; we might say that the insurer is ceding some of the risk to one or more reinsurers.",
-              "textJP": ""
+              "textJP": "再保険契約は、厳密には元受保険者と再保険者の間の契約です。元の被保険者は、元受保険者が締結する再保険契約の当事者ではありません。元受保険者は、引き受けたリスク全体について元の被保険者に対して責任を負い続けます。保険者が再保険を購入した場合、保険者は再保険者に対して別途回収を求めます。保険者が再保険を購入する場合、保険者を「出再保険者」と呼びます。保険者がリスクの一部を1つ以上の再保険者に移転しているためです。"
             },
             {
               "num": "1.6",
               "text": "There is no communication or any contractual relationship between the original insured and the reinsurer.",
-              "textJP": ""
+              "textJP": "元の被保険者と再保険者の間にはコミュニケーションも契約関係もありません。"
             },
             {
               "num": "1.7",
               "text": "It is also common for reinsurers themselves to transfer risks. In other words, reinsurers also purchase reinsurance. When this happens, the act of the reinsurer passing risks to other reinsurers is called a retrocession. The assuming reinsurer is the retrocessionaire, and the ceding reinsurer is the retrocedent. Diagram 8.2: Retrocession Transaction Process",
-              "textJP": ""
+              "textJP": "再保険者自身がリスクを移転することも一般的です。言い換えれば、再保険者もまた再保険を購入します。これが行われる場合、再保険者が他の再保険者にリスクを移転する行為は再々保険（レトロセッション）と呼ばれます。リスクを引き受ける再保険者は再々保険者（レトロセッショネア）であり、出再する再保険者は再出再者（レトロセデント）です。\nDiagram 8.2：再々保険取引プロセス"
             }
           ],
           "subsections": []
@@ -6257,17 +6272,17 @@
           "id": "ch8-s2",
           "number": "2",
           "title": "Objectives Of Reinsurance",
-          "titleJP": "",
+          "titleJP": "再保険の目的",
           "paragraphs": [
             {
               "num": "2.1",
               "text": "Think about why insurers might want to buy reinsurance. To help you answer this question, think about the reasons you might buy insurance to protect your own possessions. If you owned a business, why would you want to buy insurance?",
-              "textJP": ""
+              "textJP": "保険者がなぜ再保険を購入したいと思うか考えてみましょう。この質問に答えるために、自分の所有物を保護するために保険を購入する理由について考えてみてください。事業を所有していた場合、なぜ保険を購入したいと思いますか？"
             },
             {
               "num": "2.2",
               "text": "If you were sitting on the board of an insurance company then you would be asking yourself the same questions about buying insurance. But, as we have already seen, when an insurer buys insurance this is called “reinsurance”. So, why do insurers buy reinsurance?",
-              "textJP": ""
+              "textJP": "保険会社の取締役会にいるのであれば、保険の購入について同じ質問を自分自身に問いかけるでしょう。しかし、既に見てきたように、保険者が保険を購入する場合、これは「再保険」と呼ばれます。では、なぜ保険者は再保険を購入するのでしょうか？"
             }
           ],
           "subsections": [
@@ -6275,12 +6290,12 @@
               "id": "ch8-s2-A",
               "label": "A",
               "title": "Security & Confidence",
-              "titleJP": "",
+              "titleJP": "安全と信頼",
               "paragraphs": [
                 {
                   "num": "2.3",
                   "text": "Like insurance, reinsurance aims to reduce or eliminate the uncertainty of losses and provides peace of mind, and confidence to the direct insurer.",
-                  "textJP": ""
+                  "textJP": "保険と同様に、再保険は損失の不確実性を低減または排除し、元受保険者に安心と信頼を提供することを目的としています。"
                 }
               ]
             },
@@ -6288,12 +6303,12 @@
               "id": "ch8-s2-B",
               "label": "B",
               "title": "Stability",
-              "titleJP": "",
+              "titleJP": "安定性",
               "paragraphs": [
                 {
                   "num": "2.4",
                   "text": "Reinsurance helps to stabilise the direct insurer’s losses by smoothing the fluctuations of the losses from year to year. The profitability of the direct insurer will then fluctuate less drastically, and this will help to stabilise the direct insurer’s financial performance.",
-                  "textJP": ""
+                  "textJP": "再保険は、年ごとの損失の変動を平準化することにより、元受保険者の損失を安定させるのに役立ちます。元受保険者の収益性の変動はより緩やかになり、元受保険者の財務業績の安定に寄与します。"
                 }
               ]
             },
@@ -6301,12 +6316,12 @@
               "id": "ch8-s2-C",
               "label": "C",
               "title": "Capacity",
-              "titleJP": "",
+              "titleJP": "キャパシティ",
               "paragraphs": [
                 {
                   "num": "2.5",
                   "text": "Owing to its financial limitation, the direct insurer may not be able to accept risks that are beyond its underwriting capacity. By transferring part of the risks to the reinsurer, the direct insurer will be able to increase its capacity to accept more or larger risks for its own portfolio.",
-                  "textJP": ""
+                  "textJP": "財務的な制約のため、元受保険者は引受キャパシティを超えるリスクを引き受けることができない場合があります。リスクの一部を再保険者に移転することにより、元受保険者は自社のポートフォリオに対してより多くのまたはより大きなリスクを引き受けるキャパシティを増加させることができます。"
                 }
               ]
             },
@@ -6314,22 +6329,22 @@
               "id": "ch8-s2-D",
               "label": "D",
               "title": "Catastrophe Protection",
-              "titleJP": "",
+              "titleJP": "巨大災害保護",
               "paragraphs": [
                 {
                   "num": "2.6",
                   "text": "In the event of a catastrophe, which can result in large volumes of claims and expensive individual claims, the financial resources of an insurer may be severely strained. By way of reinsurance, the effects of a catastrophe can be cushioned for the insurer.",
-                  "textJP": ""
+                  "textJP": "巨大災害が発生した場合、大量の保険金請求と高額な個別保険金請求が生じ、保険者の財務資源が深刻に圧迫される可能性があります。再保険により、巨大災害の影響を保険者にとって緩和することができます。"
                 },
                 {
                   "num": "2.7",
                   "text": "In addition, reinsurers and/or reinsurance brokers also provide advisory services to ceding insurance companies by:\n▪ defining their reinsurance needs and devising the most effective reinsurance programme, so as to better plan the capital needs and solvency margin of the ceding insurer;\n▪ supplying a wide array of support services, specifically in terms of technical training, organisation, accounting and information technology for the ceding insurer;\n▪ providing expertise in certain highly specialised areas, such as the analysis of complex risks, risk modelling and risk pricing; and\n▪ enabling ceding insurance companies to build up their business, even if they are temporarily under-capitalised, particularly in order to launch new insurance products that require capacity.",
-                  "textJP": ""
+                  "textJP": "加えて、再保険者および／または再保険ブローカーは、出再保険会社に以下のようなアドバイザリーサービスも提供します。\n▪ 再保険ニーズの定義と最も効果的な再保険プログラムの設計（出再保険者の資本ニーズとソルベンシー・マージンの計画改善のため）\n▪ 出再保険者に対する技術研修、組織、会計、情報技術に関する幅広いサポートサービスの提供\n▪ 複雑なリスクの分析、リスクモデリング、リスクプライシングなどの高度に専門化された分野における専門知識の提供\n▪ 出再保険会社が一時的に資本不足であっても事業を構築できるよう支援すること（特にキャパシティを必要とする新しい保険商品の立ち上げのため）"
                 },
                 {
                   "num": "2.8",
                   "text": "Note: Reinsurance does not discharge the ceding insurance company from its liability to its policyholders.",
-                  "textJP": ""
+                  "textJP": "注：再保険は、出再保険会社の保険契約者に対する責任を免除するものではありません。"
                 }
               ]
             }
@@ -6339,12 +6354,12 @@
           "id": "ch8-s3",
           "number": "3",
           "title": "Methods Of Reinsurance",
-          "titleJP": "",
+          "titleJP": "再保険の方法",
           "paragraphs": [
             {
               "num": "3.1",
               "text": "There are basically two methods of reinsurance, namely facultative and treaty.",
-              "textJP": ""
+              "textJP": "基本的に2つの再保険の方法があります。すなわち、任意再保険と特約再保険です。"
             }
           ],
           "subsections": [
@@ -6352,32 +6367,32 @@
               "id": "ch8-s3-A",
               "label": "A",
               "title": "Facultative Reinsurance",
-              "titleJP": "",
+              "titleJP": "任意再保険（Facultative Reinsurance）",
               "paragraphs": [
                 {
                   "num": "3.2",
                   "text": "Under this arrangement, the ceding insurance company reinsures or cedes each risk or policy on an individual basis. The ceding insurance company is at liberty to decide which risk that it wants to reinsure, how much it wants to be reinsured, and how much it will retain for itself. It also has the freedom to offer reinsurance to any reinsurer that it wishes. Similarly, the reinsurer is under no obligation to underwrite the risk being offered, i.e. it is at liberty to decline the risk, or write a share, if it sees fit.",
-                  "textJP": ""
+                  "textJP": "この取り決めの下では、出再保険会社は各リスクまたは保険契約を個別に出再します。出再保険会社は、どのリスクを出再したいか、どの程度の出再を望むか、自社でどの程度保有するかを自由に決定できます。また、希望する任意の再保険者に再保険を提供する自由も有します。同様に、再保険者は提供されたリスクを引き受ける義務はなく、リスクを辞退するか、適当と判断すればシェアを引き受ける自由があります。"
                 },
                 {
                   "num": "3.3",
                   "text": "To place facultative reinsurance, the ceding insurance company must make available to the reinsurer all the relevant underwriting details. As such, this method of placement is generally time-consuming and costly to administer both for the ceding insurer and reinsurers. It is usually sought for risks that are considered more complex or hazardous and/or those that are beyond the insurer’s financial capacity.",
-                  "textJP": ""
+                  "textJP": "任意再保険を手配するためには、出再保険会社は関連する引受詳細のすべてを再保険者に提供しなければなりません。このため、この手配方法は一般に、出再保険者と再保険者の双方にとって時間とコストがかかります。通常、より複雑または危険なリスク、および／または保険者の財務的キャパシティを超えるリスクについて求められます。"
                 },
                 {
                   "num": "3.4",
                   "text": "Facultative reinsurance may be placed on a proportional basis (also called Proportional Facultative Reinsurance), or on a non-proportional basis (usually known as Facultative Excess of Loss) – see later sections of this chapter.",
-                  "textJP": ""
+                  "textJP": "任意再保険は、比例ベース（比例任意再保険とも呼ばれます）、または非比例ベース（通常、任意超過損害再保険として知られます）で手配されることがあります。本章の後のセクションを参照してください。"
                 },
                 {
                   "num": "3.5",
                   "text": "Let us consider an example. An energy company in Singapore, SG Energy Ltd, wishes to insure its assets. So, SG Energy Ltd approaches its insurance broker and asks the broker to arrange insurance. A local insurer, Insurer X underwrites the risk 100%. However, the risk is very large and so Insurer X arranged facultative reinsurance with 3 different reinsurers. In this example, Insurer X is the ceding insurer. The reinsurers agree to underwrite the following amounts of reinsurance: Reinsurer 1: 25% Reinsurer 2: 15% Reinsurer 3: 10%",
-                  "textJP": ""
+                  "textJP": "例を考えてみましょう。シンガポールのエネルギー会社SG Energy Ltdが資産を付保したいと考えています。SG Energy Ltdは保険ブローカーに依頼し、保険の手配を求めます。地場の保険者であるInsurer Xがリスクの100%を引き受けます。しかし、リスクは非常に大きいため、Insurer Xは3社の再保険者と任意再保険を手配しました。この例では、Insurer Xが出再保険者です。再保険者は以下の額の再保険を引き受けることに合意しました。\nReinsurer 1：25%\nReinsurer 2：15%\nReinsurer 3：10%"
                 },
                 {
                   "num": "3.6",
                   "text": "So, Insurer X will keep 50% of the risk and has arranged facultative reinsurance for 50% of the risk which can be seen in the following Diagram 8.3: Diagram 8.3: Facultative Reinsurance Process",
-                  "textJP": ""
+                  "textJP": "したがって、Insurer Xはリスクの50%を保有し、リスクの50%について任意再保険を手配したことになります。以下のDiagram 8.3に示されています。\nDiagram 8.3：任意再保険プロセス"
                 }
               ]
             },
@@ -6385,22 +6400,22 @@
               "id": "ch8-s3-B",
               "label": "B",
               "title": "Treaty Reinsurance",
-              "titleJP": "",
+              "titleJP": "特約再保険（Treaty Reinsurance）",
               "paragraphs": [
                 {
                   "num": "3.7",
                   "text": "This is an agreement by which one or more reinsurers will automatically accept all reinsurance risks which fall within the pre-determined terms and limits. Most treaties are “blind”. This means that the reinsurers are bound to accept risks, without prior knowledge. The reinsurer cannot decline the risks that fall within the treaty, nor can the insurer select which risks that it can retain for its own account.",
-                  "textJP": ""
+                  "textJP": "これは、1つ以上の再保険者が事前に決定された条件と限度額の範囲内にあるすべての再保険リスクを自動的に引き受ける合意です。ほとんどの特約は「ブラインド」です。これは、再保険者が事前の知識なしにリスクを引き受ける義務があることを意味します。再保険者は特約の範囲内にあるリスクを辞退することはできず、保険者も自社勘定で保有するリスクを選択することはできません。"
                 },
                 {
                   "num": "3.8",
                   "text": "This method of placement is administratively less cumbersome and less costly, as compared to the facultative method.",
-                  "textJP": ""
+                  "textJP": "この手配方法は、任意再保険の方法と比較して、管理上の負担が少なくコストも低くなります。"
                 },
                 {
                   "num": "3.9",
                   "text": "Treaty reinsurance can be divided into two categories called “Proportional Reinsurance” and “Non-Proportional Reinsurance” which we shall now consider:",
-                  "textJP": ""
+                  "textJP": "特約再保険は、「比例再保険」と「非比例再保険」の2つのカテゴリーに分けられます。これから検討しましょう。"
                 }
               ]
             },
@@ -6408,22 +6423,22 @@
               "id": "ch8-s3-B1",
               "label": "B1",
               "title": "Proportional Treaty Reinsurance",
-              "titleJP": "",
+              "titleJP": "比例特約再保険",
               "paragraphs": [
                 {
                   "num": "3.10",
                   "text": "In proportional treaty reinsurance, the ceding insurer agrees to pass x% of all premium relating to a class of business to one or more reinsurers and the reinsurers agree to accept x% of the entire book of business.",
-                  "textJP": ""
+                  "textJP": "比例特約再保険では、出再保険者はある事業種類に関連するすべての保険料のx%を1つ以上の再保険者に移転することに合意し、再保険者は事業全体のx%を引き受けることに合意します。"
                 },
                 {
                   "num": "3.11",
                   "text": "Let us consider an example. Insurer X underwrites property, motor and liability insurance. Insurer X decides to enter into a proportional treaty reinsurance agreement with Reinsurer Y in relation to their motor account. Insurer X agrees to cede 30% of all premium to Reinsurer Y and Reinsurer Y agrees to accept 30% of all premium and pay 30% of all claims.",
-                  "textJP": ""
+                  "textJP": "例を考えてみましょう。Insurer Xは財物保険、自動車保険、賠償責任保険を引き受けています。Insurer Xは自動車保険勘定について、Reinsurer Yと比例特約再保険契約を締結することを決定しました。Insurer Xはすべての保険料の30%をReinsurer Yに出再することに合意し、Reinsurer Yはすべての保険料の30%を引き受け、すべての保険金請求の30%を支払うことに合意しました。"
                 },
                 {
                   "num": "3.12",
                   "text": "There are different types of Proportional Treaty Reinsurance, the most common of which we have described in our example above: this type of Proportional Treaty Reinsurance is called “Quota Share” treaty reinsurance. Diagram 8.4: Proportional Reinsurance: Quota Share Process",
-                  "textJP": ""
+                  "textJP": "比例特約再保険にはさまざまな種類がありますが、上の例で説明した最も一般的なものは「クォータシェア」特約再保険と呼ばれます。\nDiagram 8.4：比例再保険：クォータシェアプロセス"
                 }
               ]
             },
@@ -6431,32 +6446,32 @@
               "id": "ch8-s3-B2",
               "label": "B2",
               "title": "Non-Proportional Treaty Reinsurance",
-              "titleJP": "",
+              "titleJP": "非比例特約再保険",
               "paragraphs": [
                 {
                   "num": "3.13",
                   "text": "Before we consider Non-Proportional Reinsurance let us remind ourselves about an important concept of insurance. It is common within insurance for policyholders to carry an excess. If you own a car and drive on the roads, then you must purchase motor insurance by law. Your motor insurance policy may carry an excess of, say S$500 and this means that if you have a claim then you must pay the first S$500 of each claim. Insurers impose an excess to encourage good risk management; in this example the policyholder has a vested interest in driving carefully and avoiding accidents as he will have to pay the first S$500 himself if he causes an accident.",
-                  "textJP": ""
+                  "textJP": "非比例再保険について検討する前に、保険の重要な概念について思い出しましょう。保険では、保険契約者がエクセスを負担することが一般的です。自動車を所有し公道を走行する場合、法律により自動車保険を購入しなければなりません。自動車保険にはS$500のエクセスが付されていることがあり、これは保険金請求がある場合に各請求の最初のS$500を自己負担しなければならないことを意味します。保険者は良好なリスク管理を奨励するためにエクセスを課しています。"
                 },
                 {
                   "num": "3.14",
                   "text": "Similarly, Insurer X may wish to protect itself against large claims and it might want to purchase reinsurance to help with this. This type of reinsurance is available, but reinsurers will impose an excess to encourage good risk selection on the part of the insurer. Insurance companies purchasing Non-Proportional Reinsurance will need to pay the first S$x themselves. Some larger insurers may pay the first S$50 Million themselves before purchasing Non-Proportional Reinsurance (i.e. their excess is S$50 Million). Smaller insurers may have an excess of S$500,000.",
-                  "textJP": ""
+                  "textJP": "同様に、Insurer Xは大規模な保険金請求から身を守りたいと考え、そのための再保険を購入したいかもしれません。このような再保険は利用可能ですが、再保険者は保険者側の良好なリスク選択を奨励するためにエクセスを課します。非比例再保険を購入する保険会社は、最初のS$xを自己負担しなければなりません。大規模な保険者は非比例再保険を購入する前にS$5,000万を自己負担する場合があり（エクセスがS$5,000万）、小規模な保険者のエクセスはS$500,000の場合があります。"
                 },
                 {
                   "num": "3.15",
                   "text": "Let us imagine that Insurer X wants to protect itself against all claims in excess of S$1 Million. Insurer X is likely to purchase a type of Non-Proportional reinsurance called “Excess of Loss” meaning that the reinsurer(s) pay all amounts above the excess. So, if there is a claim for S$900,000 then insurer X must pay S$900,000. However, if there is a claim in excess of S1 Million then Insurer X pays S$1 Million and the reinsurer(s) pay all amounts above S$1 Million. If there was a valid claim of S$3 Million, then Insurer X would initially pay S$3 Million to the policyholder but could recover S$2 Million from the reinsurer(s).",
-                  "textJP": ""
+                  "textJP": "Insurer XがS$100万を超えるすべての保険金請求から身を守りたいと想像してみましょう。Insurer Xは「超過損害（Excess of Loss）」と呼ばれる非比例再保険を購入する可能性が高いです。これは、再保険者がエクセスを超えるすべての金額を支払うことを意味します。S$90万の保険金請求がある場合、Insurer XはS$90万を支払わなければなりません。しかし、S$100万を超える保険金請求がある場合、Insurer XはS$100万を支払い、再保険者がS$100万を超えるすべての金額を支払います。S$300万の有効な保険金請求があった場合、Insurer Xは当初保険契約者にS$300万を支払いますが、再保険者からS$200万を回収することができます。"
                 },
                 {
                   "num": "3.16",
                   "text": "There are different types of Non-Proportional Reinsurance, the most common of which we have described in our example: “Excess of Loss” reinsurance.",
-                  "textJP": ""
+                  "textJP": "非比例再保険にはさまざまな種類がありますが、上の例で説明した最も一般的なものは「超過損害（Excess of Loss）」再保険です。"
                 },
                 {
                   "num": "3.17",
                   "text": "Let us look at an example where the use of a diagram will help to illustrate the concept. In the example below, Insurer X has selected an excess of S$1 Million in relation to its motor book. Insurer X has received 5 claims which it has paid the amounts stated below: Claim 1: S$400,000 Claim 2: S$1,400,000 Claim 3: S$2,000,000 Claim 4: S$2,500,000 Claim 5: S$3,000,000",
-                  "textJP": ""
+                  "textJP": "図表を用いて概念を説明する例を見てみましょう。以下の例では、Insurer Xは自動車保険勘定についてS$100万のエクセスを選択しました。Insurer Xは以下の金額を支払った5件の保険金請求を受けました。\nClaim 1：S$400,000\nClaim 2：S$1,400,000\nClaim 3：S$2,000,000\nClaim 4：S$2,500,000\nClaim 5：S$3,000,000"
                 }
               ]
             },
@@ -6464,17 +6479,17 @@
               "id": "ch8-s3-B3",
               "label": "B3",
               "title": "Non-Proportional Reinsurance: Excess Of Loss",
-              "titleJP": "",
+              "titleJP": "非比例再保険：超過損害（Excess of Loss）",
               "paragraphs": [
                 {
                   "num": "",
                   "text": "Diagram 8.5: Excess Of Loss",
-                  "textJP": ""
+                  "textJP": "Diagram 8.5：超過損害（Excess of Loss）"
                 },
                 {
                   "num": "3.18",
                   "text": "In these examples, Insurer X is obliged to pay the claims in full, but can they recover anything from their Non-Proportional Excess of Loss reinsurer(s)? The answer is shown in the following table and illustrated by the diagram above. Claim 1 S$400,000 Claim falls within the excess so Insurer X cannot recover anything. Claim 2 S$1,400,000 Claim exceeds the excess of S$1,000,000 by S$400,000 so Insurer X can recover S$400,000. Claim 3 S$2,000,000 Claim exceeds the excess of S$1,000,000 by S$1,000,000 so Insurer X can recover S$1,000,000. Claim 4 S$2,500,000 Claim exceeds the excess of S$1,000,000 by S$1,500,000 so Insurer X can recover S$1,500,000. Claim 5 S$3,000,000 Claim exceeds the excess of S$1m by S$2,000,000 so Insurer X can recover S$2,000,000",
-                  "textJP": ""
+                  "textJP": "これらの例では、Insurer Xは保険金請求を全額支払う義務がありますが、非比例超過損害再保険者から何かを回収できるでしょうか？ 答えは以下の表に示され、上の図で説明されています。\nClaim 1 S$400,000 — 保険金請求はエクセスの範囲内のため、Insurer Xは回収できません。\nClaim 2 S$1,400,000 — 保険金請求がエクセスS$1,000,000をS$400,000超過しているため、Insurer XはS$400,000を回収できます。\nClaim 3 S$2,000,000 — エクセスをS$1,000,000超過しているため、Insurer XはS$1,000,000を回収できます。\nClaim 4 S$2,500,000 — エクセスをS$1,500,000超過しているため、Insurer XはS$1,500,000を回収できます。\nClaim 5 S$3,000,000 — エクセスをS$2,000,000超過しているため、Insurer XはS$2,000,000を回収できます。"
                 }
               ]
             }
@@ -6484,32 +6499,32 @@
           "id": "ch8-s4",
           "number": "4",
           "title": "Co-insurance",
-          "titleJP": "",
+          "titleJP": "共同保険",
           "paragraphs": [
             {
               "num": "4.1",
               "text": "Co-insurance usually occurs when the insurer finds that the sum insured is above its normal acceptance limit or that the broker decides it wants to place the risk with several insurers. Sometimes, the insurance market uses the term “collective policy” to describe a co-insurance policy.",
-              "textJP": ""
+              "textJP": "共同保険は通常、保険者が保険金額が通常の引受限度を超えていると判断した場合、またはブローカーが複数の保険者にリスクを分散して付託することを決定した場合に行われます。保険市場では共同保険証券を「共同保険証券（collective policy）」と呼ぶこともあります。"
             },
             {
               "num": "4.2",
               "text": "Under a co-insurance agreement, rather than each insurer issuing its own policy, one insurance policy will be issued to the policyholder. One insurer is nominated as the “leading office” or “leading insurer” of the panel of insurers covering the risk. Usually, the insurer with the largest percentage of the risk is nominated to be the leading office.",
-              "textJP": ""
+              "textJP": "共同保険の取り決めの下では、各保険者が独自の保険証券を発行するのではなく、1通の保険証券が保険契約者に発行されます。リスクをカバーする保険者パネルの「幹事保険者」として1社の保険者が指名されます。通常、リスクの最大割合を持つ保険者が幹事保険者に指名されます。"
             },
             {
               "num": "4.3",
               "text": "The leading insurer will assume responsibility for all negotiations regarding the insurance cover. This includes the arrangement of any required survey, the calculation of the premium, and the issue of the production of the policy and any subsequent endorsements.",
-              "textJP": ""
+              "textJP": "幹事保険者は、保険カバーに関するすべての交渉について責任を負います。これには、必要な調査の手配、保険料の計算、保険証券の作成・発行、およびその後の裏書が含まれます。"
             },
             {
               "num": "4.4",
               "text": "The panel of insurers will verify that the premium charged and policy terms match those that they would have offered should they have been the leading office.",
-              "textJP": ""
+              "textJP": "保険者パネルは、課される保険料と保険証券の条件が、自社が幹事保険者であった場合に提供したであろうものと一致することを確認します。"
             },
             {
               "num": "4.5",
               "text": "The leading office and panel of insurers will share the premium and any subsequent claims in proportion to their percentage share of the risk.",
-              "textJP": ""
+              "textJP": "幹事保険者と保険者パネルは、リスクの割合に応じて保険料とその後の保険金請求を分担します。"
             }
           ],
           "subsections": [
@@ -6517,72 +6532,72 @@
               "id": "ch8-s4-A",
               "label": "A",
               "title": "Relationships In Shared Insurances",
-              "titleJP": "",
+              "titleJP": "共有保険における関係",
               "paragraphs": [
                 {
                   "num": "4.6",
                   "text": "Insurance, co-insurance, and reinsurance create different relationships between the parties involved in them.",
-                  "textJP": ""
+                  "textJP": "保険、共同保険、再保険は、関係する当事者間に異なる関係を作り出します。"
                 },
                 {
                   "num": "4.7",
                   "text": "Where there is only the involvement of the insured and the insurer there is a direct relationship. Within this relationship the insured must reveal to the insurer all material facts relevant to the risk to allow the insurer to correctly assess the risk and decide whether it is to be accepted, develop the terms and conditions for the risk, and calculate the premium. The insurer also has a duty of disclosure and should advise the proposer if they are unable to underwrite the risk or that there is any other difficulties in providing insurance cover, for example, if the insurer is not authorised to write that class of business.",
-                  "textJP": ""
+                  "textJP": "被保険者と保険者のみが関与する場合、直接的な関係があります。この関係の中で、被保険者はリスクに関連するすべての重要事実を保険者に告知し、保険者がリスクを正しく評価し、引き受けるかどうかを決定し、リスクの条件を策定し、保険料を計算できるようにしなければなりません。保険者にも告知義務があり、リスクを引き受けることができないか、保険カバーの提供に何らかの困難がある場合（例えば、保険者がその事業種類を引き受ける権限がない場合）は申込者に助言すべきです。"
                 },
                 {
                   "num": "4.8",
                   "text": "Under a direct insurer and insured relationship, the insurer is entirely responsible to pay any claim under the insurance arranged.",
-                  "textJP": ""
+                  "textJP": "元受保険者と被保険者の直接的な関係の下では、保険者は手配された保険に基づく保険金請求を全額支払う責任を負います。"
                 },
                 {
                   "num": "4.9",
                   "text": "Under a reinsurance arrangement, the insurer and its reinsurer have a direct relationship. Therefore, under a reinsurance arrangement the insurer must advise the reinsurer of any facts that are relevant to the risk to be reinsured.",
-                  "textJP": ""
+                  "textJP": "再保険の取り決めの下では、保険者とその再保険者は直接的な関係を有します。したがって、再保険の取り決めの下では、保険者は出再されるリスクに関連するあらゆる事実を再保険者に通知しなければなりません。"
                 },
                 {
                   "num": "4.10",
                   "text": "This is to allow the reinsurer to evaluate whether to accept all or part of the risk offered. The reinsurer will make similar decisions on the acceptance of a risk that an insurer would make, including:\n▪ Whether the rates and terms are adequate?\n▪ What acceptance class applies to this risk?\n▪ What limits can be written?",
-                  "textJP": ""
+                  "textJP": "これは、再保険者が提供されたリスクの全部または一部を引き受けるかどうかを評価するためです。再保険者は、保険者が行うのと同様のリスクの引受判断を行います。\n▪ 料率と条件は十分か\n▪ このリスクに適用される引受区分は何か\n▪ どのような限度額を設定できるか"
                 },
                 {
                   "num": "4.11",
                   "text": "The question of the reinsurer’s solvency is key to the insurer as they rely on the solvency of the reinsurer to allow the payment of any future claims. The importance of this issue is that if the reinsurer goes out of business, the reinsurer will be unable to pay their proportion of the claim to the insurer. This would mean that the insurer could have to pay an amount which they had anticipated would be reinsured. As shown in the diagram above, Insurer X expects to collect S$400,000 in respect of claim 2, plus S$1 Million in respect of claim 3, S$1.5 Million in respect of claim 4 and S$2 Million in respect of claim 5. In total, Insurer X expects to recover S$4.9 Million in respect of these claims. However, if the reinsurer goes out of business then Insurer X will be unable to recover this amount of S$4.9 Million.",
-                  "textJP": ""
+                  "textJP": "再保険者の支払能力の問題は、保険者にとって重要です。保険者は将来の保険金請求の支払いを可能にするために再保険者の支払能力に依存しているからです。この問題の重要性は、再保険者が廃業した場合、再保険者は保険者に対するその持分の保険金を支払うことができなくなることです。保険者は再保険されることを見込んでいた金額を支払わなければならなくなる可能性があります。"
                 },
                 {
                   "num": "4.12",
                   "text": "There is no direct relationship between an insured and a reinsurer. The insured has no legal entitlement on any outstanding loss payment due from the reinsurer to the insurer if the insurer goes out of business before a claim is paid. In such a situation, the insured would need to seek recovery of its claim payment as a creditor during the process of winding up the insurer.",
-                  "textJP": ""
+                  "textJP": "被保険者と再保険者の間には直接的な関係はありません。保険者が保険金請求の支払い前に廃業した場合、被保険者は再保険者から保険者への未払い損失金について法的権利を有しません。このような状況では、被保険者は保険者の清算手続き中に債権者として保険金の回収を求めなければなりません。"
                 },
                 {
                   "num": "4.13",
                   "text": "There is a direct relationship between the insured and the co-insurer. In fact, the relationship is no different to that of an insured and insurer. However, the limit of the co-insurers liability to the insured is its percentage of the co-insurance written.",
-                  "textJP": ""
+                  "textJP": "被保険者と共同保険者の間には直接的な関係があります。実際、この関係は被保険者と保険者の関係と何ら異なるものではありません。ただし、被保険者に対する共同保険者の責任の限度は、引き受けた共同保険の割合です。"
                 },
                 {
                   "num": "4.14",
                   "text": "Therefore, if a co-insurer goes out of business and cannot fulfil its claims obligations, then their portion of that policy effectively “dies”, and the remaining co-insurers have no responsibility for the share of that co-insurer. An example will better illustrate this concept.",
-                  "textJP": ""
+                  "textJP": "したがって、共同保険者が廃業し保険金請求の義務を果たせない場合、その保険証券のその持分は実質的に「消滅」し、残りの共同保険者はその共同保険者の持分について責任を負いません。例を挙げて説明します。"
                 },
                 {
                   "num": "4.15",
                   "text": "Example: An insurance broker arranges a policy on behalf of its policyholder, which is co-insured by five insurers. The insurers co-insure in these proportions: Insurer Co-insurance Share Share of Claim of S$1,000,000 A 50% S$500,000 B 30% S$300,000 C 10% S$100,000 D 7% S$ 70,000 E 3% S$ 30,000 Total 100% S$1,000,000",
-                  "textJP": ""
+                  "textJP": "例：保険ブローカーが保険契約者に代わって保険証券を手配し、5社の保険者が共同保険しています。保険者は以下の割合で共同保険します。\n保険者 | 共同保険の割合 | S$1,000,000の保険金請求の持分\nA | 50% | S$500,000\nB | 30% | S$300,000\nC | 10% | S$100,000\nD | 7% | S$70,000\nE | 3% | S$30,000\n合計 | 100% | S$1,000,000"
                 },
                 {
                   "num": "4.16",
                   "text": "This can also be illustrated diagrammatically as follows: Diagram 8.6: Example Of Co-Insurer Proportions",
-                  "textJP": ""
+                  "textJP": "これは以下のように図式的にも示すことができます。\nDiagram 8.6：共同保険者の割合の例"
                 },
                 {
                   "num": "4.17",
                   "text": "If the policyholder has a valid claim in the sum of S$1,000,000, then the amounts recoverable from each insurer are shown in the table above.",
-                  "textJP": ""
+                  "textJP": "保険契約者がS$1,000,000の有効な保険金請求を有する場合、各保険者から回収可能な金額は上の表に示されています。"
                 },
                 {
                   "num": "4.18",
                   "text": "If Insurer C goes out of business before the claim is paid, then the policyholder will be unable to recover that proportion of the claim amounting to S$100,000. In such circumstances the policyholder will only recover S$900,000 rather than the agreed settlement amount of S$1,000,000.",
-                  "textJP": ""
+                  "textJP": "保険金請求が支払われる前にInsurer Cが廃業した場合、保険契約者はS$100,000に相当するその持分の保険金を回収することができなくなります。このような場合、保険契約者は合意された決済額S$1,000,000ではなくS$900,000のみを回収することになります。"
                 }
               ]
             }
@@ -6592,52 +6607,52 @@
           "id": "ch8-s5",
           "number": "5",
           "title": "Settlement Of Claims Under Co-insurance Policies",
-          "titleJP": "",
+          "titleJP": "共同保険における保険金請求の決済",
           "paragraphs": [
             {
               "num": "5.1",
               "text": "At times, owing to the size of the sum insured or complexity of the risk involved, it may be necessary to place insurance with two or more insurers. As this chapter discussed earlier, one method of achieving this is via co-insurance, or issuing a collective policy.",
-              "textJP": ""
+              "textJP": "保険金額の大きさやリスクの複雑さのため、2社以上の保険者に保険を付託する必要がある場合があります。本章で前述したように、これを実現する方法の一つは共同保険、すなわち共同保険証券の発行です。"
             },
             {
               "num": "5.2",
               "text": "Co-insurance is where a substantial insurance is shared among several different insurance companies. A single policy is prepared which shows the different companies, described in the document as co-insurers, and the percentages for each co-insurer’s share of the risk. Each insurer is responsible only for its agreed percentage of any loss and liability is several but not joint. This is in contrast to reinsurance where the insurer is still liable to the insured even if the reinsurer should go into liquidation.",
-              "textJP": ""
+              "textJP": "共同保険とは、大規模な保険がいくつかの異なる保険会社の間で分担されることです。各社の割合を示す単一の保険証券が作成されます。各保険者はその合意された割合の損失についてのみ責任を負い、責任は個別責任であって連帯責任ではありません。これは、再保険者が清算に入ったとしても保険者が被保険者に対して引き続き責任を負う再保険とは対照的です。"
             },
             {
               "num": "5.3",
               "text": "The “leader”, usually the insurer with the largest percentage, assumes responsibility for correspondence, surveys, rating and the preparation of the closing instructions and specification which are despatched to co-insurers. So, in our example above, the leading insurer would be Insurer A.",
-              "textJP": ""
+              "textJP": "「幹事」は通常最大の割合を持つ保険者であり、通信、調査、料率設定、クロージング指示書および仕様書の作成の責任を負い、これらを共同保険者に送付します。上の例では、幹事保険者はInsurer Aとなります。"
             },
             {
               "num": "5.4",
               "text": "The closing instructions carry details of the sum insured and premium to enable the co-insurers to place the insurance on their books.",
-              "textJP": ""
+              "textJP": "クロージング指示書には、共同保険者が自社の帳簿に保険を計上するための保険金額と保険料の詳細が記載されます。"
             },
             {
               "num": "5.5",
               "text": "The co-insurers signify their agreement to the terms of the policy by returning a “signing slip” authorising the leader to sign the policy on their behalf.",
-              "textJP": ""
+              "textJP": "共同保険者は、幹事保険者がその代理として保険証券に署名することを認める「サイニングスリップ」を返送することにより、保険証券の条件への同意を表明します。"
             },
             {
               "num": "5.6",
               "text": "Following a loss, the leader usually appoints a loss adjuster who issue either a preliminary advice or a brief preliminary report to all co-insurers. The loss adjuster will send the final report to the leader for approval when the loss adjustment has been completed. If everything is in order, the leader authorises the loss adjuster to issue copies of the report and apportionment to the coinsurers, and to tell them the date on which they should all simultaneously pay the insured or the intermediary, if one is involved.",
-              "textJP": ""
+              "textJP": "損失の発生後、幹事保険者は通常損害査定人を任命し、損害査定人はすべての共同保険者に予備的通知または簡潔な予備報告書を発行します。損害査定が完了すると、損害査定人は承認のために幹事保険者に最終報告書を送付します。すべてが問題なければ、幹事保険者は損害査定人に報告書と按分表のコピーを共同保険者に発行し、すべての保険者が同時に被保険者または仲介者（関与する場合）に支払うべき日付を通知することを認可します。"
             },
             {
               "num": "5.7",
               "text": "Each co-insurer has a separate contract with the insured. Should a co-insurer disagree with the leader’s recommendations, it may voice its concerns and raise points which it considers relevant.",
-              "textJP": ""
+              "textJP": "各共同保険者は被保険者と個別の契約を有しています。共同保険者が幹事保険者の勧告に同意しない場合、懸念を表明し、関連があると考える点を提起することができます。"
             },
             {
               "num": "5.8",
               "text": "When a claim is agreed, co-insurers usually make their own individual payments at a date specified for payment detailed in the loss adjuster’s report.",
-              "textJP": ""
+              "textJP": "保険金請求が合意されると、共同保険者は通常、損害査定人の報告書に記載された支払日に個別に支払いを行います。"
             },
             {
               "num": "5.9",
               "text": "It is possible that a co-insurer declines to follow the leader’s recommendations for payment of a loss. In this situation, the insured can proceed against the relevant co-insurer to obtain payment. However, where the loss adjusters feel that the loss is not payable or there is some issue with the loss in question, the leader will often seek the views of the co-insurers.",
-              "textJP": ""
+              "textJP": "共同保険者が幹事保険者の損失支払いの勧告に従うことを拒否する可能性があります。このような場合、被保険者は支払いを得るために当該共同保険者に対して訴訟を提起することができます。ただし、損害査定人が損失が支払い不能であるか、問題のある損失であると判断した場合、幹事保険者はしばしば共同保険者の意見を求めます。"
             }
           ],
           "subsections": []
@@ -6646,32 +6661,32 @@
           "id": "ch8-s6",
           "number": "6",
           "title": "Comparison Between Reinsurance & Co-insurance",
-          "titleJP": "",
+          "titleJP": "再保険と共同保険の比較",
           "paragraphs": [
             {
               "num": "6.1",
               "text": "Co-insurance is a method, whereby one insurer (known as the leading office or primary insurer) shares direct responsibility for a risk with one or more insurance companies (known as co-insurers) on a proportional basis. As such, several insurers are usually involved, each taking a stated proportion of the risk, each receiving that proportion of the premiums, and each being responsible for that proportion of any claim made under the policy. The lead insurer administers the co-insurance arrangement.",
-              "textJP": ""
+              "textJP": "共同保険は、1つの保険者（幹事保険者または主保険者と呼ばれます）が1つ以上の保険会社（共同保険者と呼ばれます）と比例ベースでリスクに対する直接的な責任を分担する方法です。したがって、通常、複数の保険者が関与し、各保険者がリスクの所定の割合を引き受け、保険料のその割合を受け取り、保険証券に基づいてなされた保険金請求のその割合について責任を負います。幹事保険者が共同保険の取り決めを管理します。"
             },
             {
               "num": "6.2",
               "text": "Co-insurance is fairly common for large risks. The method of operating coinsurance procedures is straightforward and suitable for many risks. However, there are some drawbacks. The first concern is that, in the event of a large loss, all the co-insurers make their individual payments at different times. This can be cumbersome if many insurance companies are involved.",
-              "textJP": ""
+              "textJP": "共同保険は大規模なリスクについてかなり一般的です。共同保険の手続きの運営方法は簡単明瞭であり、多くのリスクに適しています。しかし、いくつかの欠点があります。第一の懸念は、大規模な損失の場合、すべての共同保険者が異なる時期に個別に支払いを行うことです。多くの保険会社が関与する場合、これは煩雑になりえます。"
             },
             {
               "num": "6.3",
               "text": "The second disadvantage is that a broker, in placing a very large or complicated risk, will need to approach many different insurers to complete the placement. As discussed earlier, the concept of reinsurance is different from the concept of co-insurance. Table 8.1 below summarises the main differences. Table 8.1: Difference Between Reinsurance & Co-insurance Reinsurance Co-insurance\n▪ Reinsurance involves one insurer covering the risk and insuring again (“re-insuring”) part or parts of it with reinsurer(s). As mentioned before, the insurance contract is between the insurer and the insured with the reinsurer(s) not being a party to this insurance contract.\n▪ Co-insurance implies that two or more insurers directly insure the risk, so that the insurers share the risk.\n▪ The reinsurance contract is between the insurer and the reinsurer with the insured not being a party to it. This means that if a reinsurer fails, the insurer is still liable to the insured under the terms of the insurance contract, notwithstanding that the insurer is unable to recover the share of the loss from the reinsurer.\n▪ The insured will have a separate insurance contract with each coinsurer, albeit there is only one insurance policy issued by the leading office, with the identities and respective percentage shares of each co-insurer indicated. Therefore, the insured has a direct relationship with each insurer for its share of the risk. Should any of the coinsurers fail, the other coinsurers are liable to the insured only for their respective proportionate shares of the loss. They are not liable for the failed co-insurer’s share.",
-              "textJP": ""
+              "textJP": "第二の欠点は、ブローカーが非常に大きなまたは複雑なリスクを付託する際に、配分を完了するために多くの異なる保険者に接触する必要があることです。前述のとおり、再保険の概念は共同保険の概念とは異なります。以下のTable 8.1は主な違いを要約しています。\nTable 8.1：再保険と共同保険の違い\n再保険 | 共同保険\n▪ 再保険は、1つの保険者がリスクをカバーし、その一部を再保険者に再保険（「re-insure」）することを含みます。保険契約は保険者と被保険者の間のものであり、再保険者はこの保険契約の当事者ではありません。\n▪ 共同保険は、2つ以上の保険者がリスクを直接付保し、保険者がリスクを分担することを意味します。\n▪ 再保険契約は保険者と再保険者の間のものであり、被保険者はそれの当事者ではありません。これは、再保険者が破綻した場合、保険者は保険契約の条件に基づき被保険者に対して依然として責任を負うことを意味します。再保険者から損失の持分を回収できないにもかかわらずです。\n▪ 被保険者は各共同保険者と個別の保険契約を有します（ただし、幹事保険者が発行する保険証券は1通のみであり、各共同保険者の名称とそれぞれの割合が記載されます）。したがって、被保険者はリスクの持分について各保険者と直接的な関係を有します。共同保険者のいずれかが破綻した場合、他の共同保険者はそれぞれの比例的持分についてのみ被保険者に対して責任を負います。破綻した共同保険者の持分について責任を負うことはありません。"
             },
             {
               "num": "6.4",
               "text": "The following Diagram 8.7 illustrates the difference between co-insurance and reinsurance: Diagram 8.7: Difference Between Co-Insurance And Reinsurance",
-              "textJP": ""
+              "textJP": "以下のDiagram 8.7は、共同保険と再保険の違いを示しています。\nDiagram 8.7：共同保険と再保険の違い"
             },
             {
               "num": "6.5",
               "text": "The diagram above illustrates the difference between co-insurance and reinsurance. You will see that, in each case, the leading office or primary insurer holds 40% of the risks – the difference arises in the relationship among the parties.",
-              "textJP": ""
+              "textJP": "上の図は共同保険と再保険の違いを示しています。いずれの場合も、幹事保険者または主保険者がリスクの40%を保有していることがわかります。違いは当事者間の関係において生じます。"
             }
           ],
           "subsections": []
