@@ -645,7 +645,7 @@
                 {
                   "num": "3.33",
                   "text": "Annual limit, lesser than lifetime limit, is the amount of reimbursable costs payable over an annual period, either a calendar year or a policy year. Simply stated, it is the maximum annual reimbursement for benefits payable by the insurer as stated in the Schedule of Benefits of the policy. Expenses Limits Amount incurred Pro-rated amount Amount covered by insurance Amount not covered by Insurance Daily room, board and medicalrelated services As charged S$4,000 S$1,400 S$1,400 S$2,600 Surgical Benefits As charged S$20,000 S$7,000 S$7,000 S$13,000 Total Bill S$24,000 S$8,400 S$8,400 S$15,600 Annual Deductibles S$3,500 Co-insurance : 10% x (S$8,400 – S$3,500) S$490 Your Out-Of-Pocket Expenditure S$19,590 Insurer Pays S$24,000 – S$19,590 = S$4,410 Lifetime Limit Annual Limit Event Limit THREE MAIN TYPES OF BENEFIT LIMITS",
-                  "textJP": "年間限度額は生涯限度額より少なく、暦年または保険年度にわたる償還可能な費用の支払額です。簡単に言えば、保険証券の給付スケジュールに記載された、保険者が支払う給付の年間の最大償還額です。"
+                  "textJP": "年間限度額は生涯限度額より少なく、暦年または保険年度にわたる償還可能な費用の支払額です。簡単に言えば、保険証券の給付スケジュールに記載された、保険者が支払う給付の年間最大償還額です。\n\n費用項目 | 限度額 | 発生額 | 按分額 | 保険カバー額 | 保険非カバー額\n日額入院費（室料・食事・医療関連サービス） | 実費 | S$4,000 | S$1,400 | S$1,400 | S$2,600\n外科的給付 | 実費 | S$20,000 | S$7,000 | S$7,000 | S$13,000\n合計請求額 | — | S$24,000 | S$8,400 | S$8,400 | S$15,600\n\n年間免責額：S$3,500\n共同保険：10% × (S$8,400 – S$3,500) = S$490\n自己負担額：S$19,590\n保険者支払額：S$24,000 – S$19,590 = S$4,410\n\n給付限度額の3つの主要な種類：生涯限度額（Lifetime Limit）、年間限度額（Annual Limit）、事象限度額（Event Limit）"
                 },
                 {
                   "num": "3.34",
@@ -1410,7 +1410,7 @@
             {
               "num": "1.1",
               "text": "While an individual should plan for his retirement and premature death, it is also critical for one to protect his earning capacity, whether he is an employee or a self-employed individual. This is because he could lose his earning power should he become disabled from an accident or illness and be incapable of paying his living and medical expenses, including the premiums to keep his insurance policies in force. On top of this, his family’s ongoing expenses continue including repayment of any outstanding loans. Expenses may even increase due to his medical treatments or added cost of a caregiver. The family would be financially strained with the incapacity of the breadwinner.",
-              "textJP": "個人は退職や早すぎる死亡に備えて計画を立てるべきですが、従業員であれ自営業者であれ、稼得能力を保護することも重要です。事故や疾病により障害を負い、長期間または永久的に働くことができなくなると、稼得能力を失う可能性があるためです。障害所得保険は、被保険者が障害により働くことができない場合に、所得の一部を代替する定期的な給付を提供します。"
+              "textJP": "個人は退職や早すぎる死亡に備えて計画を立てるべきですが、従業員であれ自営業者であれ、稼得能力を保護することも重要です。事故や疾病により障害を負い、稼得能力を失った場合、生活費や医療費（保険証券を有効に維持するための保険料を含む）を支払うことができなくなる可能性があるためです。これに加えて、未返済のローンの返済を含む家族の継続的な費用も発生し続けます。医療費の増加や介護者の追加費用により、支出がさらに増加する可能性もあります。一家の稼ぎ手の就労不能により、家族は財政的に逼迫することになります。"
             },
             {
               "num": "1.2",
@@ -1429,7 +1429,7 @@
             {
               "num": "2.1",
               "text": "Disability Income Insurance is an income-protection in the event of incapacitation due to accident or illness. It helps replace a portion of lost income when the insured is unable to work. It is subject to certain conditions which will be discussed later on. It is also known as Permanent Health Insurance because the insurer cannot cancel the policy, no matter how many times the insured makes a claim. The policy will continue to pay out until he returns to work, dies, when the benefit period ends or when the policy ends, whichever happens first.",
-              "textJP": "障害所得保険は、事故または疾病による就労不能時の所得保護です。被保険者が働くことができない場合に、失われた所得の一部を代替するのに役立ちます。後に説明する一定の条件が適用されます。Permanent Health Insurance（PHI）とも呼ばれます。"
+              "textJP": "障害所得保険は、事故または疾病による就労不能時の所得保護です。被保険者が働くことができない場合に、失われた所得の一部を代替するのに役立ちます。後に説明する一定の条件が適用されます。保険者が被保険者の請求回数にかかわらず保険証券を解約できないことから、Permanent Health Insurance（PHI: 永続的健康保険）とも呼ばれます。被保険者が職場に復帰するか、死亡するか、給付期間が終了するか、保険証券が終了するかのいずれか早い方が発生するまで、保険証券は給付の支払いを継続します。"
             }
           ],
           "subsections": []
@@ -1448,7 +1448,7 @@
             {
               "num": "3.2",
               "text": "The main difference between Disability Income Insurance and Total and Permanent Disability Benefit lies in the purpose of the insurance and the definition of “disability”. Disability Income Insurance provides an income replacement if the insured cannot work. On the other hand, TPD Benefit serves to accelerate the death benefit payable under a Life Insurance policy, to alleviate the financial burden or hardship of the insured and his dependants. TPD Benefit is payable in one lump sum whereas, Disability Income Insurance benefits are payable on a monthly basis for up to an agreed benefit period. The differences are shown in Table 4.1. Table 4.1: Differences Between Disability Income Insurance & Total And Permanent Disability Benefit Disability Income Insurance Total And Permanent Disability Benefit Disability means the reduced/limited capacity at which the insured can fulfil the duties of his occupation. Disability is defined to be total and permanent, such as loss of limbs or loss of eyesight. It can be purchased as a standalone policy or as a rider. It is embedded into the Life Insurance policies or as a rider. Benefit is payable monthly Benefit is payable in one lump sum Maximum monthly benefit is mostly up to 75% of salary. Sum assured is not pegged to salary. Escalation benefit is available. No escalation of benefit. Partial disability benefit is available. No partial disability benefit Choice of deferred/elimination period is available (e.g. one month, three months, six months, etc.). No deferred period as specified (but usually there is a 6-month waiting period requirement as proof of permanent disability). Available only to someone with earned income/salary. No restriction on non-working people, e.g. children and housewives, as it is bundled with the death benefit under a Life Insurance policy.",
-              "textJP": "障害所得保険とTPD給付の主な違いは、保険の目的と「障害」の定義にあります。障害所得保険は、被保険者が働くことができない場合の所得代替を提供します。一方、TPD給付は被保険者と被保険者の扶養家族に一時金を提供する役割を果たします。"
+              "textJP": "障害所得保険とTPD（全部・永久障害）給付の主な違いは、保険の目的と「障害」の定義にあります。障害所得保険は、被保険者が働くことができない場合の所得代替を提供します。一方、TPD給付は生命保険証券に基づく死亡給付の前倒し支払いとして機能し、被保険者とその扶養家族の財政的負担や困難を軽減します。TPD給付は一時金で支払われるのに対し、障害所得保険の給付は合意された給付期間にわたり月単位で支払われます。\n\n表4.1：障害所得保険とTPD給付の違い\n障害所得保険：障害とは被保険者が自己の職業の職務を遂行する能力の低下/制限を意味する ｜ TPD給付：障害は四肢の喪失や視力の喪失など、全部かつ永久的と定義される\n障害所得保険：スタンドアローンまたはライダーとして購入可能 ｜ TPD給付：生命保険証券に組み込まれるかライダーとして付帯\n障害所得保険：月額で給付支払い ｜ TPD給付：一時金で給付支払い\n障害所得保険：月額給付は給与の最大75%まで ｜ TPD給付：保険金額は給与に連動しない\n障害所得保険：エスカレーション給付あり ｜ TPD給付：給付のエスカレーションなし\n障害所得保険：部分障害給付あり ｜ TPD給付：部分障害給付なし\n障害所得保険：据置/待機期間の選択肢あり ｜ TPD給付：所定の据置期間なし（ただし通常6ヶ月の待機要件あり）\n障害所得保険：稼得所得/給与のある者のみ利用可能 ｜ TPD給付：生命保険の死亡給付にバンドルされるため、無就労者にも制限なし"
             }
           ],
           "subsections": []
@@ -1462,12 +1462,12 @@
             {
               "num": "4.1",
               "text": "Disability Income Insurance policy pays a monthly income to the insured upon his disability. Let us look at how it actually works, using the case of an employed individual. See Example 4.1. Example 4.1: Example Of Computation Of Disability Income Insurance Benefit Tommy Tang, aged 34 years, is an assistant accountant in a finance company. His monthly income is S$6,000. He wishes to purchase a Disability Income Insurance policy to provide maximum coverage. However, the maximum amount of monthly benefit that he can purchase cannot be 100%. Why? Insurers will allow the benefit amount to cover only up to 75% of the insured’s average income over the past 12 months immediately prior to his disability. A ceiling on the income to be covered may also be imposed and a self-employed person may be granted a lower benefit, The purpose of replacing only a certain percentage of the insured’s income is to ensure that the insured will not be better off financially from the benefit which he receives under his Disability Income Insurance policy, so that he will have the incentive to go back to work. Details of his policy are as follows: Male, Age Next Birthday 34 years old Monthly Income S$6,000 Monthly Benefit S$4,500 (75% of his monthly income being the maximum amount as allowed by Alpha Insurance Company and assuming that he has no other disability benefits). Escalation Benefit 5% per year Benefit Period Up to the age of 65 years next birthday Deferred/Elimination Period 6 months Monthly Premium S$125.50",
-              "textJP": "障害所得保険証券は、被保険者の障害に対して月額の所得を支払います。雇用されている個人のケースを使用して、実際の仕組みを見てみましょう。例題4.1を参照してください。"
+              "textJP": "障害所得保険証券は、被保険者の障害に対して月額の所得を支払います。雇用されている個人のケースを使用して、実際の仕組みを見てみましょう。\n\n例題4.1：障害所得保険給付の計算例\nTommy Tang（34歳）は金融会社のアシスタント経理士で、月収はS$6,000です。最大限の補償を提供する障害所得保険証券の購入を希望しています。しかし、購入できる月額給付の最大額は100%ではありません。なぜでしょうか？保険者は、障害発生直前の過去12ヶ月間の被保険者の平均所得の最大75%までしか給付額をカバーすることを認めません。カバーされる所得に上限が課される場合もあり、自営業者にはより低い給付が認められる場合があります。被保険者の所得の一定割合のみを代替する目的は、被保険者が障害所得保険証券で受け取る給付により財政的に有利にならないようにし、職場復帰のインセンティブを持たせるためです。\n\n保険証券の詳細：男性、次の誕生日年齢34歳、月収S$6,000、月額給付S$4,500（月収の75%、Alpha Insurance Companyが許容する最大額、他の障害給付がないと仮定）、エスカレーション給付：年5%、給付期間：次の誕生日年齢65歳まで、据置/待機期間：6ヶ月、月額保険料：S$125.50"
             },
             {
               "num": "4.2",
               "text": "If Tommy becomes disabled (according to the definition of “disability” of the policy) and is out of work, he will receive the benefit amount every month after the Deferred/Elimination Period, as long as he is unable to work. Assuming he is disabled throughout the Benefit Period (30 years) (Benefit period 65 years – Age next birthday 35 years), he would receive a total of S$3,587,695 (S$4,500 x 12 x 66.43881), although he would have paid only five years of premiums amounting to S$7,530 (S$125.50 x 60). Premiums are waived upon disability.",
-              "textJP": "Tommyが障害を負い（保険証券の「障害」の定義に従い）、仕事を休んでいる場合、据置/待機期間の後、働くことができない限り毎月給付額を受け取ります。給付期間（30年間）全体を通じて障害状態であると仮定した場合の計算です。"
+              "textJP": "Tommyが障害を負い（保険証券の「障害」の定義に従い）仕事を休んでいる場合、据置/待機期間の後、働くことができない限り毎月給付額を受け取ります。給付期間（30年間）（給付期間65歳 − 次の誕生日年齢35歳）全体を通じて障害状態であると仮定すると、5年間の保険料S$7,530（S$125.50 × 60回）のみを支払ったにもかかわらず、合計S$3,587,695（S$4,500 × 12 × 66.43881）を受け取ることになります。障害時には保険料が免除されます。"
             }
           ],
           "subsections": []
@@ -1488,7 +1488,7 @@
                 {
                   "num": "5.1",
                   "text": "Disability Income Insurance provides income when an insured is totally disabled and unable to work. “Total Disability” is defined in the policy and may take one of the following forms:\n▪ own occupation disability;\n▪ modified own occupation disability;\n▪ any occupation disability; and\n▪ severe disability 1 66.4388 is the future value annuity interest factor derived from the formula [(1+i)n-1]/i (where i = escalation benefit, n = number of years). Alternatively, you may refer to Table A1 on Future Value Of Annuity Factors at the back of this Study Text.",
-                  "textJP": "障害所得保険は、被保険者が全部障害を負い働くことができない場合に所得を提供します。「全部障害」は保険証券で定義されており、以下のいずれかの形態をとる場合があります：\n▪ 自己職業障害\n▪ 修正自己職業障害\n▪ いかなる職業における障害\n▪ 重度障害"
+                  "textJP": "障害所得保険は、被保険者が全部障害を負い働くことができない場合に所得を提供します。「全部障害」は保険証券で定義されており、以下のいずれかの形態をとる場合があります：\n▪ 自己職業障害（own occupation disability）\n▪ 修正自己職業障害（modified own occupation disability）\n▪ いかなる職業における障害（any occupation disability）\n▪ 重度障害（severe disability）\n\n（注：66.4388は年金終価係数であり、公式 [(1+i)^n-1]/i（i = エスカレーション給付率、n = 年数）から導出されます。本教科書巻末の表A1「年金終価係数表」も参照してください。）"
                 },
                 {
                   "num": "5.2",
@@ -1511,7 +1511,7 @@
                 {
                   "num": "5.4",
                   "text": "This refers to the insured’s own occupation at the time that the disability begins. For example, Penny, a pianist, had an accident which caused the severing of three fingers on her left hand, which, in turn, resulted in her inability to work as a pianist. Thus, she had met the above definition of “disability” and would be able to claim under her Disability Income Insurance policy.",
-                  "textJP": "これは障害が始まった時点での被保険者自身の職業を指します。例えば、ピアニストのPennyは事故で左手の3本の指を切断し、ピアニストとして働くことができなくなりました。したがって、上記の「障害」の定義を満たしました。"
+                  "textJP": "これは障害が始まった時点での被保険者自身の職業を指します。例えば、ピアニストのPennyは事故で左手の3本の指を切断し、ピアニストとして働くことができなくなりました。したがって、上記の「障害」の定義を満たし、障害所得保険証券に基づいて請求することができます。"
                 },
                 {
                   "num": "5.5",
@@ -1588,7 +1588,7 @@
                 {
                   "num": "5.13",
                   "text": "This is when the insured recovers from a total disability and can start to do some duties of his occupation, but at a salary which is at least 25% lower than the pre-disability salary. For example, Walter was paid S$2,500 a month as a warehouse worker. His work involved moving materials both with a mechanical forklift and by hand.",
-                  "textJP": "部分障害とは、被保険者が全部障害から回復し、自己の職業の一部の業務を行うことができるが、障害発生前の給与よりも少なくとも25%低い給与で働く場合です。"
+                  "textJP": "部分障害とは、被保険者が全部障害から回復し、自己の職業の一部の業務を行うことができるが、障害発生前の給与よりも少なくとも25%低い給与で働く場合です。例えば、Walterは倉庫作業員として月額S$2,500を受け取っていました。彼の仕事は、機械式フォークリフトと手作業の両方で資材を運搬することでした。"
                 },
                 {
                   "num": "5.14",
@@ -1616,7 +1616,7 @@
                 {
                   "num": "5.17",
                   "text": "In such a case, the claim will be treated as a continuation of the earlier claim for the purpose of determining the duration of the benefit payment period. Income Before Disability Income = S$2,500 After disability, income was reduced to S$1,800 (being 72% of pre-disability income).",
-                  "textJP": "このような場合、給付支払い期間の期間を決定する目的で、請求は以前の請求の継続として扱われます。"
+                  "textJP": "このような場合、給付支払い期間の期間を決定する目的で、請求は以前の請求の継続として扱われます。\n\n障害前所得 = S$2,500\n障害後、所得はS$1,800に減少（障害前所得の72%）。"
                 }
               ]
             },
@@ -1642,17 +1642,17 @@
                 {
                   "num": "5.19",
                   "text": "A Disability Income Insurance policy will start paying its benefits after the insured has been disabled for a specified period known as the deferred, elimination or pre-benefit period. The condition for a deferred period eliminates costly claims for disabilities which are only short term. Insurers may offer to the insured different deferred/elimination periods (e.g. 45, 90 or 180 days), or by number of months (e.g. three months).",
-                  "textJP": "障害所得保険証券は、被保険者が据置期間、待機期間、または給付前期間として知られる所定の期間にわたって障害を負った後に給付の支払いを開始します。据置期間の条件により、短期間のみの障害に対する高額な請求が排除されます。"
+                  "textJP": "障害所得保険証券は、被保険者が据置期間、待機期間、または給付前期間として知られる所定の期間にわたって障害を負った後に給付の支払いを開始します。据置期間の条件により、短期間のみの障害に対する高額な請求が排除されます。保険者は、被保険者にさまざまな据置/待機期間（例：45日、90日、180日）、または月数（例：3ヶ月）の選択肢を提供する場合があります。"
                 },
                 {
                   "num": "5.20",
                   "text": "Insurers offer these various deferred/elimination periods to meet the different individual’s specific needs. For example, a self-employed person may need a short deferred period, as his income may be immediately affected by his inability to work. An employed person, on the other hand, will usually continue to receive his salary for some specified period (e.g. three or six months). As such, you should advise your prospective client to find out from his employing company or his employment contract to see how long his company will continue to pay him his salary in the event that he is disabled, so that he can select the right deferred period. This will help him to save on the premium, as the longer the deferred period, the cheaper will be the premium, since the duration and frequency of claims are thereby reduced.",
-                  "textJP": "保険者は、個人のさまざまな具体的なニーズに応えるために、これらのさまざまな据置/待機期間を提供しています。例えば、自営業者は所得が働けないことにより直ちに影響を受ける可能性があるため、短い据置期間を必要とする場合があります。一方、雇用されている者は通常、雇用主からの継続的な病気休暇手当があるため、より長い据置期間を選択します。"
+                  "textJP": "保険者は、個人のさまざまな具体的なニーズに応えるために、これらのさまざまな据置/待機期間を提供しています。例えば、自営業者は所得が働けないことにより直ちに影響を受ける可能性があるため、短い据置期間を必要とする場合があります。一方、雇用されている者は通常、所定の期間（例：3ヶ月または6ヶ月）にわたり給与を継続して受け取ります。そのため、見込み顧客に対して、勤務先企業または雇用契約を確認し、障害を負った場合に会社が給与の支払いをどの程度の期間継続するかを確認するよう助言すべきです。これにより適切な据置期間を選択できます。据置期間が長いほど保険料は安くなります。請求の期間と頻度が削減されるためです。"
                 },
                 {
                   "num": "5.21",
                   "text": "You can also advise prospective clients with financial constraints to purchase a policy with a longer deferred period, where the premium is affordable to them, instead of not having the cover at all. = Longer Benefit Premium Period = Shorter Benefit Period = Short Deferred Premium Period = Long Deferred Period Premium Premium",
-                  "textJP": "また、財政的制約のある見込み客には、補償を全く持たないよりも、保険料が手頃なより長い据置期間の保険証券を購入するよう助言することもできます。"
+                  "textJP": "また、財政的制約のある見込み客には、補償を全く持たないよりも、保険料が手頃なより長い据置期間の保険証券を購入するよう助言することもできます。\n\n給付期間が長い = 保険料が高い ｜ 給付期間が短い = 保険料が低い\n据置期間が短い = 保険料が高い ｜ 据置期間が長い = 保険料が低い"
                 }
               ]
             }
@@ -1674,7 +1674,7 @@
                 {
                   "num": "6.1",
                   "text": "To be eligible for the disability income benefit payment, the insured MUST: (a) keep the policy in force; (b) be employed or in in-between jobs when they become disabled; (c) still be disabled after the deferred/elimination period; (d) meet the definition of total or partial disability as stated in the policy; (e) not have reached the expiry age as stated in the policy; (f) not have resided outside Singapore for more than a certain period of time (usually not more than six months); and (g) not have other sources of income (e.g. payment from Work Injury Compensation Insurance), which when totalled up, is more than the benefits due to him under his Disability Income Insurance policy.",
-                  "textJP": "障害所得給付の支払いを受ける資格を得るためには、被保険者は以下を満たす必要があります：\n(a) 保険証券を有効に維持すること\n(b) 障害を負った時点で雇用されているか、転職間であること\n(c) 据置/待機期間後も引き続き障害状態であること\n(d) 保険証券に記載された全部または部分障害の定義を満たすこと\n(e) 障害が保険証券の免責事由に該当しないこと"
+                  "textJP": "障害所得給付の支払いを受ける資格を得るためには、被保険者は以下を満たす必要があります：\n(a) 保険証券を有効に維持すること\n(b) 障害を負った時点で雇用されているか、転職活動中であること\n(c) 据置/待機期間後も引き続き障害状態であること\n(d) 保険証券に記載された全部または部分障害の定義を満たすこと\n(e) 保険証券に記載された満期年齢に達していないこと\n(f) 保険者の事前書面承認なく、1保険年度内にシンガポール国外に所定の日数（通常180日）を超えて居住していないこと\n(g) 労災補償保険からの支払い等、他の所得源との合計が障害所得保険証券に基づく給付額を超えないこと"
                 }
               ]
             },
@@ -1704,12 +1704,12 @@
                 {
                   "num": "6.4",
                   "text": "If the insured’s total disability continues after the expiry of the deferred period, the insurer will pay the monthly benefit at the end of each month. For example, if the policy is issued for a monthly benefit of S$1,000 (as stated in the policy schedule), this will be the amount that the insured will get for that month. If the period of disability is less than one month, the insurer will usually pay a pro-rata amount based on a daily rate of one-thirtieth (1/30) of the disability benefit.",
-                  "textJP": "被保険者の全部障害が据置期間の満了後も継続する場合、保険者は毎月末に月額給付を支払います。"
+                  "textJP": "被保険者の全部障害が据置期間の満了後も継続する場合、保険者は毎月末に月額給付を支払います。例えば、保険証券が月額給付S$1,000（保険証券明細に記載のとおり）で発行されている場合、これが被保険者がその月に受け取る金額となります。障害の期間が1ヶ月未満の場合、保険者は通常、障害給付の30分の1（1/30）の日額に基づく日割り計算額を支払います。"
                 },
                 {
                   "num": "6.5",
                   "text": "The benefit ceases when the insured recovers and returns to work, either fulltime or part-time, and even to a different occupation. 2 A registered medical practitioner is a doctor who is qualified by degree in western medicine and is legally licensed to practice medicine and surgery in the geographical area of his country, but does not refer to a medical practitioner who is the insured himself, as well as his spouse, child or parent of the insured. Income Insurers usually insure up to 75% of income",
-                  "textJP": "被保険者が回復し、フルタイムまたはパートタイムで、異なる職業であっても職場に復帰した場合、給付は終了します。\n2 登録医師とは、西洋医学の学位を有し、被保険者が居住する地域で医療および外科を行う法的ライセンスを持つ医師です。"
+                  "textJP": "被保険者が回復し、フルタイムまたはパートタイムで、異なる職業であっても職場に復帰した場合、給付は終了します。\n\n（注2：登録医師とは、西洋医学の学位を有し、自国の地理的領域で医療および外科を行う法的ライセンスを持つ医師を指しますが、被保険者本人、およびその配偶者、子、親である医師は含みません。）\n\n所得について：保険者は通常、所得の最大75%まで付保します。"
                 }
               ]
             },
@@ -1722,12 +1722,12 @@
                 {
                   "num": "6.6",
                   "text": "Partial Disability Benefit is also known as “Rehabilitation Benefit”. It provides a reduced benefit to the insured if he is able to return to work at a reduced income of 75% of his Pre-disability Earnings, or lower. This applies even though he has not fully recovered. The reduced benefit is computed based on the following formula: Pre-disability Earnings − Present Earnings X Total Disability Benefit Pre-disability Earnings",
-                  "textJP": "部分障害給付は「リハビリテーション給付」とも呼ばれます。被保険者が完全に回復していなくても、障害発生前の稼得額の75%以下の所得で職場に復帰できる場合に、減額された給付を提供します。"
+                  "textJP": "部分障害給付は「リハビリテーション給付」とも呼ばれます。被保険者が完全に回復していなくても、障害発生前の稼得額の75%以下の所得で職場に復帰できる場合に、減額された給付を提供します。減額給付は以下の算式に基づいて計算されます：\n\n(障害前稼得額 − 現在の稼得額) ÷ 障害前稼得額 × 全部障害給付額"
                 },
                 {
                   "num": "6.7",
                   "text": "Example 4.2 shows how the partial disability benefit is arrived at. Example 4.2: Computation Of Partial Disability Benefit Larry, a lecturer who earns S$8,000 a month suffered brain injury in a car accident. This caused him to be totally disabled for two years during which he received S$6,000 (75% of his Pre-disability Earnings) a month from his Disability Income Insurance policy. In the third year, he managed to find a job in a printing firm that paid him S$1,000 a month. In view of this, the insurer reduced the monthly benefit to S$5,250, calculated as follows: S$(8,000 – 1,000) X S$6,000 = S$5,250 S$8,000 Note: You can see that the total monthly benefit and reduced income after the partial disability is S$6,250 (S$5,250 + S$1,000). This is still lower than the original income of S$8,000 a month before the disability.",
-                  "textJP": "例題4.2は部分障害給付の計算方法を示しています。"
+                  "textJP": "例題4.2は部分障害給付の計算方法を示しています。\n\n例題4.2：部分障害給付の計算\n大学講師のLarry（月収S$8,000）は交通事故で脳損傷を負いました。2年間全部障害となり、障害所得保険証券から月額S$6,000（障害前稼得額の75%）を受け取っていました。3年目に印刷会社で月額S$1,000の仕事を見つけました。これを受けて、保険者は月額給付を以下のとおりS$5,250に減額しました：\n\nS$(8,000 − 1,000) ÷ S$8,000 × S$6,000 = S$5,250\n\n注：部分障害後の月額給付と減額所得の合計はS$6,250（S$5,250 + S$1,000）であり、元の所得S$8,000よりも依然として低いことがわかります。"
                 },
                 {
                   "num": "6.8",
@@ -1768,7 +1768,7 @@
                 {
                   "num": "6.12",
                   "text": "This benefit is useful for long-term disabilities. Example 4.3 illustrates how the escalation benefit works. Example 4.3: Illustration Of The Working Of The Escalation Benefit Eddy, an engineer, became disabled on 30 June 2023. He was insured for S$6,000 (75% of his monthly salary of S$8,000) and had opted for a 3% per annum escalation benefit and a 6-month deferred period. The events following his disablement were as follows: Date Event 1-1-2023 Insurer made the first monthly payment of S$6,000 1-2-2023 Insurer made the second monthly payment of S$6,000 1-1-2024 Insurer paid S$6,180 [(S$6,000 + S$6,000 x 3% (escalation benefit)] 1-2-2024 Eddy had since found a job as a clerk which paid him S$2,000 a month. The insurer paid him a partial disability benefit of S$4,635 derived as follows: Pre-Disability Earnings – Present Earnings Disability Pre-Disability Earnings Benefit = S$(8,000 – 2,000) X S$6,180 S$8,000 = S$4,635 Eddy will continue to receive the Disability Income benefit until he dies or when the benefit period expires, depending on which is earlier. Eddy continued to be disabled Insurer continued to pay S$6,000 each month",
-                  "textJP": "この給付は長期障害に有用です。例題4.3はエスカレーション給付の仕組みを示しています。"
+                  "textJP": "この給付は長期障害に有用です。例題4.3はエスカレーション給付の仕組みを示しています。\n\n例題4.3：エスカレーション給付の仕組み\nエンジニアのEddyは2023年6月30日に障害を負いました。月額給与S$8,000の75%であるS$6,000で付保され、年3%のエスカレーション給付と6ヶ月の据置期間を選択していました。障害後の経緯は以下のとおりです：\n\n2024年1月1日：保険者が初回月額給付S$6,000を支払い\n2024年2月1日：保険者が2回目の月額給付S$6,000を支払い\n2025年1月1日：保険者がS$6,180を支払い [S$6,000 + S$6,000 × 3%（エスカレーション給付）]\n2025年2月1日：Eddyはその後、月額S$2,000の事務員の仕事を見つけました。保険者は以下の算式で算出された部分障害給付S$4,635を支払いました：\n(S$8,000 − S$2,000) ÷ S$8,000 × S$6,180 = S$4,635"
                 }
               ]
             },
@@ -1781,7 +1781,7 @@
                 {
                   "num": "6.13",
                   "text": "The premiums due under the Disability Income Insurance policy will be waived during the disability benefit payout period (applicable to both total and partial disability). If the insured has paid the premium annually in advance, the waiver of the premium will effect from the next premium due date, even though the disability benefit payment has started. In other words, the premiums paid will not be refunded.",
-                  "textJP": "障害所得保険証券に基づく保険料は、障害給付の支払い期間中（全部障害と部分障害の両方に適用）免除されます。被保険者が保険料を年払いで前払いしている場合、保険料の免除は次の保険料支払期日から有効になります。"
+                  "textJP": "障害所得保険証券に基づく保険料は、障害給付の支払い期間中（全部障害と部分障害の両方に適用）免除されます。被保険者が保険料を年払いで前払いしている場合、障害給付の支払いが既に開始されていても、保険料の免除は次の保険料支払期日から有効になります。言い換えれば、支払い済みの保険料は返還されません。"
                 }
               ]
             },
@@ -1812,12 +1812,12 @@
                 {
                   "num": "6.16",
                   "text": "In the event of a claim, the disability benefit payable will be reduced by the following sources of income:\n▪ payments from other insurance policies against disability (except the Total and Permanent Disability Benefit under Life Insurance policies), including Work Injury Compensation Insurance; and\n▪ any continuing salary, commission or other incomes derived from the insured’s occupation or business in which he was engaged just before his disability.",
-                  "textJP": "請求が発生した場合、支払われる障害給付は以下の所得源により減額されます：\n▪ 労災補償保険を含む、障害に対する他の保険証券からの支払い（生命保険証券に基づくTPD給付を除く）\n▪ 法定の疾病手当や雇用主からの給与の継続など、障害に起因するその他の所得"
+                  "textJP": "請求が発生した場合、支払われる障害給付は以下の所得源により減額されます：\n▪ 労災補償保険を含む、障害に対する他の保険証券からの支払い（生命保険証券に基づくTPD給付を除く）\n▪ 障害発生直前に被保険者が従事していた職業または事業から得られる継続的な給与、手数料、その他の所得"
                 },
                 {
                   "num": "6.17",
                   "text": "The amount of disability income benefit paid together with any of the above sources of income will at no time be more than the amount of monthly benefit insured under the policy. That is why it is important for the insured to select the right deferred/elimination period, especially if his employer will continue to pay him his salary even after he is disabled. If his employer pays him six months’ salary in the event that he is disabled, and the deferred/elimination period chosen by him is three months, the insurer will not pay him any benefits after his deferred/elimination period has expired, as long as the employer continues to pay him his full salary.",
-                  "textJP": "支払われる障害所得給付の額は、上記のいずれかの所得源と合わせて、いかなる時点でも保険証券に基づいて付保された月額給付の額を超えることはありません。そのため、特に雇用主が病気休暇期間中も従業員の給与を継続する場合、被保険者は適切な据置/待機期間を選択することが重要です。"
+                  "textJP": "支払われる障害所得給付の額は、上記のいずれかの所得源と合わせて、いかなる時点でも保険証券に基づいて付保された月額給付の額を超えることはありません。そのため、特に雇用主が障害後も給与の支払いを継続する場合、被保険者は適切な据置/待機期間を選択することが重要です。雇用主が障害時に6ヶ月間の給与を支払い、被保険者が選択した据置/待機期間が3ヶ月である場合、雇用主が全額給与の支払いを継続している限り、据置/待機期間が満了しても保険者は給付を支払いません。"
                 }
               ]
             }
@@ -1832,7 +1832,7 @@
             {
               "num": "7.1",
               "text": "The features of a typical Disability Income Insurance policy are described below: (a) It can be issued as a stand-alone (for which then, no rider is possible) policy, or as a rider to a basic Life Insurance plan. (b) It provides a regular monthly income during the insured’s total and partial disablement. (c) The premiums are waived during the benefit period. (d) The benefits may be level, or may increase at a given rate. (e) There is a choice of deferred/elimination period. (f) There is a choice of benefit period. (g) There is a choice of escalation benefit (if available). (h) The level premium can be paid on a monthly, quarterly, half-yearly or annual basis, depending on the insurer’s practice. (i) There is payment of partial disability benefits if a person returns to work earning a lower income. (j) There is provision of rehabilitation expense benefit. (k) There is provision of death benefit. (l) There is no restriction on the use of the cash benefits paid. (m) Disability benefit may discontinue if the insured stays outside Singapore for a specified period. (n) The cover will be terminated if the insured resides outside Singapore for more than a continuous specified number of days, within any one policy year, unless the insurer grants the insured the continuity of cover (an additional premium may be charged). (o) The cover will be terminated if the insured is not engaged in any fulltime occupation or profession for a continuous period of a specified number of days, when he is not suffering from a disability (see Section 11 of this chapter for the other causes for the termination of a policy). (p) The policy is usually guaranteed renewable and non-cancellable by the insurer (the insurer has the right to adjust the premium rates if the insured changes his occupation to one which is of a higher risk) (q) There is no surrender value, i.e. the insured cannot return the policy to the insurer for cancellation in exchange for cash payment. (r) Assignment of the policy is not allowed. (s) The policy cannot be written as a third-party policy. (t) The benefits received are non-taxable. (u) The policy will lapse if the premium is not paid within the 30 days’ grace period.",
-              "textJP": "典型的な障害所得保険証券の特徴を以下に説明します：\n(a) スタンドアローンの保険証券として、またはベースの生命保険プランに付帯するライダーとして発行できます。\n(b) 被保険者の全部および部分障害期間中、定期的な月額所得を提供します。"
+              "textJP": "典型的な障害所得保険証券の特徴を以下に説明します：\n(a) スタンドアローンの保険証券（この場合、ライダーの付帯は不可）として、またはベースの生命保険プランに付帯するライダーとして発行できます。\n(b) 被保険者の全部および部分障害期間中、定期的な月額所得を提供します。\n(c) 給付期間中は保険料が免除されます。\n(d) 給付額は一定額とするか、所定の率で増額させることができます。\n(e) 据置/待機期間の選択肢があります。\n(f) 給付期間の選択肢があります。\n(g) エスカレーション給付の選択肢があります（利用可能な場合）。\n(h) 平準保険料は、保険者の慣行に応じて月払い、四半期払い、半年払い、年払いで支払えます。\n(i) 職場に復帰したが所得が低下している場合、部分障害給付が支払われます。\n(j) リハビリテーション費用給付の規定があります。\n(k) 死亡給付の規定があります。\n(l) 支払われる現金給付の使途に制限はありません。\n(m) 被保険者がシンガポール国外に所定の期間滞在した場合、障害給付が中止される場合があります。\n(n) 被保険者が1保険年度内に連続して所定の日数を超えてシンガポール国外に居住した場合、保険者が補償の継続を認めない限り（追加保険料が課される場合あり）、補償は終了します。\n(o) 障害を負っていない状態で、被保険者が連続して所定の日数にわたりフルタイムの職業または専門職に従事していない場合、補償は終了します。\n(p) 保険証券は通常、更新保証かつ保険者による解約不能です（被保険者がより高リスクの職業に変更した場合、保険者は保険料率を調整する権利を有します）。\n(q) 解約返戻金はありません。\n(r) 保険証券の譲渡は認められません。\n(s) 保険証券は第三者名義では契約できません。\n(t) 受け取る給付は非課税です。\n(u) 30日間の猶予期間内に保険料が支払われない場合、保険証券は失効します。"
             }
           ],
           "subsections": []
@@ -1879,7 +1879,7 @@
                 {
                   "num": "8.3",
                   "text": "Proposal form plus:\n▪ Notice of Assessment for the last three years; or\n▪ audited company’s accounts for the last three years; and “large amount” questionnaire if the annual benefit is more than a certain amount (e.g. S$60,000); and\n▪ medical test report (e.g. medical examination report, etc.) based on the age and amount of disability benefit proposed.",
-                  "textJP": "申込書に加えて：\n▪ 過去3年分の納税通知書、または\n▪ 過去3年分の監査済み企業決算書、および年間給付額が一定金額（例：S$60,000）を超える場合は「高額」質問票\n▪ 医療検査報告書（例：健康診断報告書等）"
+                  "textJP": "申込書に加えて：\n▪ 過去3年分の納税通知書（Notice of Assessment）、または\n▪ 過去3年分の監査済み企業決算書\n▪ 年間給付額が一定金額（例：S$60,000）を超える場合は「高額」質問票\n▪ 提案される障害給付の年齢および金額に基づく医療検査報告書（例：健康診断報告書等）"
                 },
                 {
                   "num": "8.4",
@@ -1910,7 +1910,7 @@
                 {
                   "num": "8.6",
                   "text": "Occupation is a crucial underwriting consideration for two reasons. Firstly, some occupations have a higher risk of disability from accidents (e.g. lorry driver, people working on heavy machines in manufacturing unit) or illnesses (people working on tobacco factory) than others. Secondly, it is easier to return to work with some degree of incapacity in some occupations than in others. For example, not only is a manual worker more likely to be disabled than an accountant, but it is also easier for an accountant to continue working with an injury like a broken arm, as opposed to the manual worker. Thus, most insurers have a rating structure depending on the class of occupation. A typical rating structure is as shown in Table 4.2. Proposal Form Table 4.2: Rating Structure Based On The Class Of Occupation Class I Professions and occupations involving indoor work mainly of a sedentary (deskbound) nature, e.g. accountants, doctors, and lawyers. Class II Office-based occupations with significant travelling to sites or production lines, shop-based jobs involving minimal manual work and senior supervisory positions for light manufacturing companies, e.g. insurance representatives, tour guides, and journalists. Class III Occupations involving light skilled manual work, medical related occupations, shop-based occupations involving light manual work, e.g. bakers, deliverymen, and hawkers. Class IV Occupations involving semi-skilled or unskilled manual work of a medium to heavy nature, e.g. bus drivers, commercial airline crew, and armed security guards. Decline (uninsurable) Occupations involving very heavy manual work, highly specialised skills, dangerous conditions or highly variable income, e.g. construction workers, oil riggers, professional divers, timber loggers, musicians, and authors.",
-                  "textJP": "職業は2つの理由から引受上の重要な考慮事項です。第一に、一部の職業は他よりも事故（例：トラック運転手、製造ユニットの重機で作業する者）または疾病（例：タバコ工場で働く者）による障害リスクが高いです。第二に、請求者が実際に働くことができないかどうかを確認することがより困難です。"
+                  "textJP": "職業は2つの理由から引受上の重要な考慮事項です。第一に、一部の職業は他よりも事故（例：トラック運転手、製造ユニットの重機で作業する者）または疾病（例：タバコ工場で働く者）による障害リスクが高いです。第二に、一部の職業では何らかの障害を抱えながら職場に復帰することが他の職業よりも容易です。例えば、肉体労働者は経理士よりも障害を負いやすいだけでなく、腕の骨折のような怪我をした場合に経理士が仕事を続けることは肉体労働者よりもはるかに容易です。そのため、ほとんどの保険者は職業の等級に応じた料率体系を有しています。\n\n表4.2：職業等級に基づく料率体系\nクラスI：主に座業（デスクワーク）の専門職および職業（例：経理士、医師、弁護士）\nクラスII：現場や生産ラインへの頻繁な移動を伴うオフィスベースの職業、軽微な肉体労働を伴う店舗業務、軽製造業の上級監督職（例：保険代理人、ツアーガイド、ジャーナリスト）\nクラスIII：軽度の熟練肉体労働を伴う職業、医療関連職業、軽度の肉体労働を伴う店舗業務（例：パン職人、配送員、屋台経営者）\nクラスIV：中程度から重度の半熟練または非熟練肉体労働を伴う職業（例：バス運転手、民間航空会社の乗務員、武装警備員）\n引受不可（Decline）：非常に重い肉体労働、高度に専門化されたスキル、危険な条件、または大きく変動する所得を伴う職業（例：建設作業員、石油掘削作業員、プロダイバー、木材伐採者、音楽家、作家）"
                 },
                 {
                   "num": "8.7",
@@ -1920,7 +1920,7 @@
                 {
                   "num": "8.8",
                   "text": "It is a key requirement for the insured to inform the insurer in writing of any change in his occupation within a specified timeframe of the change. The insurer reserves the right to impose a loading, reduce the benefit, or exclude any claim arising as a result of his new occupation, especially if it is more hazardous than the previous one. Failure to inform the insurer of the change in occupation entitles the insurer to repudiate any claim made under the policy, or to adjust the benefit payable.",
-                  "textJP": "被保険者は、職業の変更から所定の期間内に、職業の変更を書面で保険者に通知することが重要な要件です。保険者は、新しい職業の結果として生じる請求について、付加料率の課題、給付の減額、または除外する権利を留保します。"
+                  "textJP": "被保険者は、職業の変更から所定の期間内に、職業の変更を書面で保険者に通知することが重要な要件です。保険者は、特に新しい職業が以前の職業よりも危険度が高い場合、新しい職業の結果として生じる請求について、付加料率の賦課、給付の減額、または除外する権利を留保します。職業の変更を保険者に通知しなかった場合、保険者は保険証券に基づくいかなる請求も否認するか、支払い給付額を調整する権利を有します。"
                 }
               ]
             },
@@ -1993,7 +1993,7 @@
             {
               "num": "10.1",
               "text": "Most Disability Income Insurance policies do not pay the disability benefit or waive the premiums if the disability is directly or indirectly due to: (a) self-inflicted injury, while sane or insane; (b) indulgence in alcohol or drug taking, unless taken under the directions of a registered medical practitioner; (c) invasion, strike, riot, civil commotion, war (declared or undeclared) or act of war or warlike operation; (d) illness or injury sustained while the insured is in the service of the armed forces of any country, except for reservist in-camp training during peacetime operation in accordance with the Enlistment Act 1970; (e) pregnancy or childbirth or any complication arising there from. However, the exception is in the case of pregnancy, where the disability continues for more than 90 days after pregnancy termination , the disability will be B E N E F I T P E R I O D deemed to have commenced 90 days after the termination of the pregnancy; (f) participation in any aerial activity, including parachuting and skydiving or travel in any type of aircraft, other than as a fare paying passenger on a regularly scheduled flight of a commercial airline; (g) sexually transmitted disease, or any disability, illness or injury or any condition or complication arising from or caused by (whether directly or indirectly) the human immunodeficiency virus (HIV), including Acquired Immune Deficiency Syndrome (AIDS) and AIDS-related conditions; (h) participation in any professional sports or hazardous sports, including racing of any kind on horse or wheels, mountaineering, rock climbing and scuba diving; and (i) any pre-existing condition (i.e. condition occurring before the payment of the initial payment). The above list of exclusions may differ from insurer to insurer.",
-              "textJP": "ほとんどの障害所得保険証券は、障害が以下に直接的または間接的に起因する場合、障害給付の支払いまたは保険料の免除を行いません：\n(a) 正気であれ心神喪失であれ、自傷行為\n(b) 登録医師の指示に基づいて服用した場合を除く、アルコールまたは薬物の使用\n(c) 戦争、侵略、テロ行為\n(d) 犯罪行為への参加"
+              "textJP": "ほとんどの障害所得保険証券は、障害が以下に直接的または間接的に起因する場合、障害給付の支払いまたは保険料の免除を行いません：\n(a) 正気であれ心神喪失であれ、自傷行為\n(b) 登録医師の指示に基づく場合を除く、アルコールまたは薬物の過剰摂取\n(c) 侵略、ストライキ、暴動、市民騒擾、戦争（宣戦の有無を問わない）または戦争行為もしくは戦争類似行為\n(d) Enlistment Act 1970に基づく平時の予備役訓練を除く、いずれかの国の軍務中に被った疾病または傷害\n(e) 妊娠もしくは出産またはそれらに起因する合併症。ただし、妊娠の場合の例外として、妊娠終了後90日を超えて障害が継続する場合、障害は妊娠終了後90日に開始したものとみなされます\n(f) パラシュート降下やスカイダイビングを含む空中活動への参加、または商業航空会社の定期便の有料乗客以外としてのいかなる種類の航空機での移動\n(g) 性感染症、またはヒト免疫不全ウイルス（HIV）に起因する（直接的または間接的を問わず）いかなる障害、疾病、傷害、状態または合併症（AIDS関連の状態を含む）\n(h) あらゆる種類の馬またはホイールによるレース、登山、ロッククライミング、スキューバダイビングを含む、プロスポーツまたは危険スポーツへの参加\n(i) 既存の病態（初回保険料支払前に存在した状態）\n\n上記の免責事項一覧は保険者により異なる場合があります。"
             }
           ],
           "subsections": []
@@ -2007,7 +2007,7 @@
             {
               "num": "11.1",
               "text": "The Disability Income Insurance policy will terminate upon the occurence of one of the following events: (a) the policy has reached its expiry date; (b) the premiums due are not paid within the grace period; (c) the insured dies; (d) the insured reaches the expiry age as stated in the policy schedule; (e) the insured resides outside Singapore for an aggregate period of more than a specified number of days (e.g. 180 days) within one policy year, without seeking the insurer’s prior written approval for continuation of cover; or (f) the insured is not employed in a full-time occupation or profession continuously for a specified number of days (except if he is disabled).",
-              "textJP": "障害所得保険証券は、以下のいずれかの事象が発生した場合に終了します：\n(a) 保険証券が満期日に達したとき\n(b) 支払期限内に保険料が支払われなかったとき\n(c) 被保険者が死亡したとき\n(d) 被保険者が保険証券の明細に記載された満期年齢に達したとき"
+              "textJP": "障害所得保険証券は、以下のいずれかの事象が発生した場合に終了します：\n(a) 保険証券が満期日に達したとき\n(b) 猶予期間内に保険料が支払われなかったとき\n(c) 被保険者が死亡したとき\n(d) 被保険者が保険証券の明細に記載された満期年齢に達したとき\n(e) 保険者の事前書面承認なく、1保険年度内に所定の日数（例：180日）を超えてシンガポール国外に居住したとき\n(f) 障害でない場合に、連続して所定の日数にわたりフルタイムの職業または専門職に従事していないとき"
             }
           ],
           "subsections": []
@@ -2059,7 +2059,7 @@
             {
               "num": "13.1",
               "text": "The selection process in Group Disability Insurance policies is similar to that for the individual disability plans. As the group must have a Group Term Life Insurance policy before they are eligible for this disability policy, most of the underwriting criteria will have already been met. The additional factors that the underwriters will need to take into consideration are: (a) nature of the company’s business; (b) age of the individual employee; (c) exact nature of work of each employee; (d) salary of each employee; (e) benefit period applied for; (f) benefit amount applied for; and (g) claims experience of the group under the previous Group Disability Income Insurance policy.",
-              "textJP": "団体障害保険証券の選択プロセスは、個人の障害プランと類似しています。グループはこの障害保険証券の適格性を得る前に団体定期生命保険証券を有していなければならないため、引受基準のほとんどは既に満たされています。引受人が追加的に必要とする主な情報は、各従業員の職業、保険期間中の障害の発生回数、および過去の請求経験です。"
+              "textJP": "団体障害保険証券の選択プロセスは、個人の障害プランと類似しています。グループはこの障害保険証券の適格性を得る前に団体定期生命保険証券を有していなければならないため、引受基準のほとんどは既に満たされています。引受人が追加的に考慮する必要のある要素は以下のとおりです：\n(a) 会社の事業の性質\n(b) 個々の従業員の年齢\n(c) 各従業員の具体的な業務内容\n(d) 各従業員の給与\n(e) 申請された給付期間\n(f) 申請された給付額\n(g) 以前の団体障害所得保険証券に基づくグループの請求経験"
             },
             {
               "num": "13.2",
@@ -2090,12 +2090,12 @@
                 {
                   "num": "14.1",
                   "text": "Claims procedures for individual or group disability income are similar. In the event of a claim, the insured must notify the insurer within a specified period of time (e.g. 60 days) from the date of commencement of the disability. Failure to comply with this requirement might cause the claim to be invalidated. However, the insured could avoid this by proving that it was impossible for him to notify the insurer within the specified period, and by demonstrating that he had tried his best to do so.",
-                  "textJP": "個人または団体障害所得に対する請求手続きは類似しています。請求が発生した場合、被保険者は障害の開始日から所定の期間内（例：60日）に保険者に通知しなければなりません。この要件に従わない場合、請求が拒否されるか、給付の支払いが遅延する可能性があります。"
+                  "textJP": "個人または団体障害所得に対する請求手続きは類似しています。請求が発生した場合、被保険者は障害の開始日から所定の期間内（例：60日）に保険者に通知しなければなりません。この要件に従わない場合、請求が無効となる可能性があります。ただし、被保険者は、所定の期間内に保険者に通知することが不可能であったことを証明し、最善を尽くしたことを示すことにより、この事態を回避できます。"
                 },
                 {
                   "num": "14.2",
                   "text": "The documents that the insurer normally asks for are as follows: (a) claim form giving the personal particulars of the insured, as well as details of his occupation and disability; (b) claimant’s statement; (c) Clinical Abstract form (see Appendix 4A); (d) physician’s statement/doctor’s statement to be completed by the insured’s attending physician giving full details of his disability; (e) NRIC or birth certificate for verification of the insured’s age; (f) evidence of earnings in the form of income tax returns (IR8A form), copies of payslips for the 12 months prior to the commencement of disability, and letter from employer to certify that the claimant (insured) is not being paid during the period of disability; (g) letter from company certifying that the insured’s service has been terminated (if available); (h) copies of Medical Certificates; (i) all available Laboratory and Tests results; (j) a copy of the Police Report if the cause of the disability is due to an accident; and (k) a copy of the Incident Report (required to be submitted to the Ministry of Manpower if the incident occurs at the workplace).",
-                  "textJP": "保険者が通常求める書類は以下のとおりです：\n(a) 被保険者の個人情報、職業および障害の詳細を記載した請求書\n(b) 請求者の陳述書\n(c) 臨床要約書（付録4A参照）\n(d) 障害の性質と程度を証明する医師の陳述書/医師の報告書"
+                  "textJP": "保険者が通常求める書類は以下のとおりです：\n(a) 被保険者の個人情報、職業および障害の詳細を記載した請求書\n(b) 請求者の陳述書\n(c) 臨床要約書（Clinical Abstract form）（付録4A参照）\n(d) 被保険者の担当医師が障害の全詳細を記入した医師の陳述書/医師の報告書\n(e) 被保険者の年齢確認のためのNRICまたは出生証明書\n(f) 所得の証拠として、確定申告書（IR8Aフォーム）、障害開始前12ヶ月分の給与明細の写し、および障害期間中に請求者（被保険者）に給与が支払われていないことを証明する雇用主からの書簡\n(g) 被保険者の雇用が終了したことを証明する会社からの書簡（入手可能な場合）\n(h) 診断書の写し\n(i) 入手可能なすべての検査結果\n(j) 障害の原因が事故による場合は警察報告書の写し\n(k) 事故が職場で発生した場合は事故報告書の写し（Ministry of Manpowerへの提出が義務付けられている）"
                 },
                 {
                   "num": "14.3",
@@ -2123,7 +2123,7 @@
                 {
                   "num": "14.6",
                   "text": "If the insured resides outside Singapore while the policy benefits are payable, the insurer may impose some or all of the conditions as specified below: (a) The insurer must be notified of the change of residence within 30 days of the change. (b) The insurer has approved the new country of residence. (c) The insurer has determined that the evidence, which can be submitted to make or support a claim under the policy from the new country of residence, is of similar (or better) standard, in terms of quality and reliability, as compared to that which would be available if the insured were to remain in Singapore. (d) The insurer has determined that the expertise and facilities for the care, treatment and rehabilitation of the insured in the new country of residence are of a similar (or better) standard, as compared to those which would be available in Singapore. (e) The insurer reserves the right to require an independent examination of the insured by its preferred doctor as and when reasonable.",
-                  "textJP": "保険証券の給付が支払われている間に被保険者がシンガポール国外に居住する場合、保険者は以下に指定された条件の一部またはすべてを課す場合があります：\n(a) 居住地の変更から30日以内に保険者に通知すること\n(b) 保険者が新しい居住国を承認していること"
+                  "textJP": "保険証券の給付が支払われている間に被保険者がシンガポール国外に居住する場合、保険者は以下に指定された条件の一部またはすべてを課す場合があります：\n(a) 居住地の変更から30日以内に保険者に通知すること\n(b) 保険者が新しい居住国を承認していること\n(c) 新しい居住国から保険証券に基づく請求を行い、または裏付けるために提出できる証拠が、被保険者がシンガポールに留まっていた場合に利用可能であるものと同等（またはそれ以上）の品質と信頼性の基準であると保険者が判断していること\n(d) 新しい居住国における被保険者のケア、治療、リハビリテーションのための専門知識と設備が、シンガポールで利用可能なものと同等（またはそれ以上）の基準であると保険者が判断していること\n(e) 保険者は、合理的な範囲で、自ら選定した医師による被保険者の独立した診察を求める権利を留保すること"
                 },
                 {
                   "num": "14.7",
@@ -2143,7 +2143,7 @@
             {
               "num": "15.1",
               "text": "Disability Income Insurance policy provides benefits that are not available under other types of policies. The regular monthly income replaces a portion of the insured’s lost income, when he is disabled and unable to work. It helps to ease the financial difficulties that the insured and his family may face in such a situation. The policy also pays a reduced benefit if the insured is able to return to work after a disability, but accepts a lower-paying job. This helps the family maintain a standard of living similar to what they have predisability in addition, since there are no specifications on how the income received should be used, it can be utilized for any purpose, including repaying an outstanding loan.",
-              "textJP": "障害所得保険証券は、他の種類の保険証券では利用できない給付を提供します。定期的な月額所得は、被保険者が障害を負い働くことができない場合に、失われた所得の一部を代替します。被保険者とその家族が直面する可能性のある財政的困難の軽減に役立ちます。"
+              "textJP": "障害所得保険証券は、他の種類の保険証券では利用できない給付を提供します。定期的な月額所得は、被保険者が障害を負い働くことができない場合に、失われた所得の一部を代替します。被保険者とその家族がこのような状況で直面する可能性のある財政的困難の軽減に役立ちます。また、障害後に職場に復帰したが低い給与の仕事を受け入れた場合にも、減額された給付を支払います。これにより、家族は障害前と同様の生活水準を維持できます。さらに、受け取る所得の使途に関する指定がないため、未返済のローンの返済を含む、あらゆる目的に利用できます。"
             },
             {
               "num": "15.2",
@@ -2200,12 +2200,12 @@
             {
               "num": "1.1",
               "text": "Growing old gracefully and leading a healthy, independent lifestyle is the desire of most people. However, age-related illnesses and injuries may prevent them from fulfilling this desire. Chronic medical conditions like diabetes, stroke, hypertension, dementia, Alzheimer’s disease, and the complications that arise from these medical conditions may render the elderly people unable to care for themselves independently. They will need help with Activities of Daily Living (ADLs), such as feeding, bathing, dressing, using the toilet, and moving around. Some may even require special care in a facility, such as a nursing home. The costs of such care can strain one’s financial resources and, therefore, become a financial burden to one’s family.",
-              "textJP": "優雅に老いること、健康で自立した生活を送ることは、ほとんどの人の願いです。しかし、加齢に伴う疾病や傷害がこの願いの実現を妨げる場合があります。糖尿病、脳卒中、高血圧、関節炎などの慢性疾患は、日常生活の最も基本的な動作を行う能力を損なう可能性があります。長期介護（LTC）保険は、自立して生活できなくなった者の介護費用を賄うための資金を提供するのに役立ちます。"
+              "textJP": "優雅に老いること、健康で自立した生活を送ることは、ほとんどの人の願いです。しかし、加齢に伴う疾病や傷害がこの願いの実現を妨げる場合があります。糖尿病、脳卒中、高血圧、認知症、アルツハイマー病などの慢性疾患、およびこれらの疾患から生じる合併症により、高齢者は自立して自己を介護することができなくなる場合があります。食事、入浴、着替え、排泄、移動などの日常生活動作（ADL）について援助が必要になります。中には施設での特別なケアを必要とする場合もあります。長期介護（LTC）保険は、自立して生活できなくなった者の介護費用を賄うための資金を提供するのに役立ちます。"
             },
             {
               "num": "1.2",
               "text": "Singapore’s population is rapidly ageing and by 2025, the nation is expected to attain “super-aged” status. One in four citizens will be aged 65 and above by 2030. An ageing population, coupled with increased longevity, will lead to higher national healthcare and long-term care expenditure, particularly for the elderly. With fewer children to support parents and grandparents, and the increasing numbers of elderly people living alone, more paid help, such as domestic workers, home-based caregivers and nurses, will also be needed. This will be a growing concern for the Government, as it will have to ensure that seniors have adequate protection against the cost of long-term care when such needs arise.",
-              "textJP": "シンガポールの人口は急速に高齢化しており、2025年までに「超高齢」社会の地位に達すると予想されています。2030年までに市民の4人に1人が65歳以上になります。高齢化する人口と長寿の進展により、国家の医療費は増加し、長期介護のための財政支援の必要性が高まります。"
+              "textJP": "シンガポールの人口は急速に高齢化しており、2025年までに「超高齢」社会の地位に達すると予想されています。2030年までに市民の4人に1人が65歳以上になります。高齢化する人口と長寿の進展は、特に高齢者に対する国家の医療費と長期介護費の増大をもたらします。親や祖父母を支える子供が減少し、独居高齢者が増加するなか、家事労働者、在宅介護者、看護師などのより多くの有償の援助も必要になります。政府は少子高齢化に対処する施策の策定を迫られており、これは増大する懸念事項です。"
             },
             {
               "num": "1.3",
@@ -2255,12 +2255,12 @@
                 {
                   "num": "3.1",
                   "text": "Two types of LTC policies are available and they are: (a) “Service-based” policy pays a benefit when an insured needs to use the service which is covered under the policy (e.g. home care or nursing care). Benefits can be paid in two ways:  Reimbursement of the cost incurred in using one of the services covered under the policy, up to the covered amount; or  a pre-agreed insured amount regardless of the actual cost incurred for the services. (b) “Disability-based” policy pays a benefit when an insured:  Is diagnosed to be suffering from advanced dementia (including Alzheimer’s disease;  is assessed to be suffering significant limitations in ADLs; or  is evaluated to have a deterioration or loss of intellectual capacity resulting in a significant reduction in mental and social functioning, thus the need for continuous supervision.",
-                  "textJP": "2種類のLTC保険証券が利用可能です：\n(a) 「サービスベース」の保険証券は、被保険者が保険証券の下で補償されるサービス（例：在宅ケアまたは看護ケア）を利用する必要がある場合に給付を支払います。給付は2つの方法で支払われます：\n▪ 被保険者が実際に発生した費用を保険者に請求する費用償還\n▪ ケアの種類にかかわらず定額の金額を支払う現金給付\n(b) 「所得ベース」の保険証券は、被保険者が保険証券で定義された障害のレベルを満たした場合に月額の所得を支払います。"
+                  "textJP": "2種類のLTC保険証券が利用可能です：\n(a) 「サービスベース」の保険証券は、被保険者が保険証券の下で補償されるサービス（例：在宅ケアまたは看護ケア）を利用する必要がある場合に給付を支払います。給付は2つの方法で支払われます：\n▪ 保険証券の下で補償されるサービスの1つを利用した際に発生した費用を、補償額の上限まで償還\n▪ 実際に発生した費用にかかわらず、事前に合意された保険金額を定額で支払い\n(b) 「障害ベース」の保険証券は、被保険者が以下の場合に給付を支払います：\n▪ 進行性認知症（アルツハイマー病を含む）と診断された場合\n▪ 所定の最低数のADLを遂行できないと認定された場合"
                 },
                 {
                   "num": "3.2",
                   "text": "Benefits are paid monthly (a) to the insured upon being certified by an approved and registered medical practitioner to be unable to perform the specified minimum number of defined ADLs after a prescribed period. Some insurers pay 100% of the LTC monthly benefit if the insured is unable to perform at least the minimum number of ADLs, whereas others pay on a graduated scale. For example, if the insured cannot perform two of the six ADLs, only 50% of the LTC monthly benefit is payable, but if the insured cannot perform four out of the six ADLs, 100% of the LTC monthly benefit will then be payable.",
-                  "textJP": "給付は、承認済みの登録医師により所定のADLの最低数を遂行することができないと証明された被保険者に対して、所定の期間後に月額で支払われます。一部の保険者は、被保険者がADLのうち3つを遂行できない場合にLTC月額給付の100%を支払い、被保険者がADLのうち1つまたは2つを遂行できない場合にLTC月額給付のより低い割合を支払います。"
+                  "textJP": "給付は、(a) 承認済みの登録医師により所定の最低数のADLを遂行することができないと証明された被保険者に対して、所定の期間後に月額で支払われます。一部の保険者は、被保険者が最低数のADLを遂行できない場合にLTC月額給付の100%を支払��ますが、他の保険者は段階的な比率で支払います。例えば、被保険者が6つのADLのうち2つを遂行できない場合はLTC月額給付の50%のみが支払われ、6つのADLのうち4つを遂行できない場合はLTC月額給付の100%が支払われます。"
                 }
               ]
             },
@@ -2291,12 +2291,12 @@
                 {
                   "num": "3.5",
                   "text": "Inability To Perform ADLs (a) One of the key criteria for paying the benefits in LTC policies is the insured’s inability to perform specific essential actions required for an individual to live independently without support. These essential actions are known as “Activities of Daily Living” (ADLs). (b) The definitions of these ADLs are important. Some policies pay the benefits for not being able to perform one out of six ADLs while others require three out of six ADLs to be affected for benefits . Premium for the former is more expensive than the latter. (c) The ADLs are defined as follows:  Washing: the ability to wash in the bath or shower (including getting into and out of the bath or shower) or wash by other means.  Dressing: the ability to put on, or take off, secure and unfasten all garments and, as appropriate, any braces, artificial limbs, or other surgical or medical appliances.  Feeding: the ability to feed oneself after the food has been prepared and made available.  Toileting: the ability to use the lavatory or manage bowel and bladder function through the use of protective undergarments (e.g. diapers) or surgical appliances (e.g. urinary catheters) if appropriate.  Mobility: the ability to move indoors from room to room on level surfaces.  Transferring: the ability to move from a bed to an upright chair or wheelchair, and vice versa. Washing Dressing Feeding Toileting Mobility Transferring (d) Failure to perform any of the above ADLs means that the insured will be unable to perform the task, even with the aid of assistive devices (e.g. wheelchair, clutches) on his own and always require the assistance of another person throughout the entire activity. Washing Dressing Feeding Mobility Toileting Transferring Activities of Daily Living (ADLs)",
-                  "textJP": "ADLの遂行不能\n(a) LTC保険証券で給付を支払うための主要な基準の1つは、被保険者が支援なしで自立して生活するために必要な特定の基本的動作を遂行できないことです。これらの基本的動作は日常生活動作（ADL）として知られ、以下の6つのADLが含まれます：\n▪ 入浴 — 入浴またはシャワーで体を洗う能力\n▪ 着替え — 適切な衣服を着脱する能力\n▪ 食事 — 準備された食事を食べる能力\n▪ 排泄 — トイレの使用を管理する能力\n▪ 移動 — ベッドから椅子へ、また椅子からベッドへ移る能力\n▪ 歩行 — 室内を平坦な面で移動する能力"
+                  "textJP": "ADLの遂行不能\n(a) LTC保険証券で給付を支払うための主要な基準の1つは、被保険者が支援なしで自立して生活するために必要な特定の基本的動作を遂行できないことです。これらの基本的動作は日常生活動作（ADL）として知られています。\n(b) これらのADLの定義は重要です。一部の保険証券は6つのADLのうち1つを遂行できない場合に給付を支払いますが、他の保険証券は6つのADLのうち3つが影響を受ける場合���給付を支払います。前者の保険料は後者より高くなります。\n(c) ADLは以下のように定義されます：\n▪ 入浴（Washing）— 入浴またはシャワーで体を洗う能力（浴槽やシャワーへの出入りを含む）、または他の手段で体を洗う能力\n▪ 着替え（Dressing）— すべての衣服を着脱、留め、外す能力。適切な場合、装具、義肢、その他の外科的または医療的器具を含む\n▪ 移動（Transferring）— ベッドから直立した椅子へ、またはその逆に移る能力\n▪ 歩行（Mobility）— 平坦な面で室内を移動する能力\n▪ 排泄（Toileting）— トイレまたは他の方法を使用して、膀胱および腸の機能を管理する能力\n▪ 食事（Feeding）— 準備された食事を食べる能力"
                 },
                 {
                   "num": "3.6",
                   "text": "Advanced Dementia (a) Advanced dementia means a condition where the insured experiences a deterioration or loss of intellectual capacity or abnormal behaviour, arising from Alzheimer’s disease or irreversible organic disorders excluding neurosis and psychiatric illness. This condition results in significant reduction in mental and social functioning requiring the continual supervision of the insured to prevent the insured from harming others or himself. Advanced dementia is confirmed by clinical assessments accepted standardised questionnaires or tests. (b) The dementia must arise from an organic reason, and that the insured requires continual supervision.",
-                  "textJP": "進行性認知症\n(a) 進行性認知症とは、アルツハイマー病または不可逆的な器質性疾患に起因する知的能力の低下もしくは喪失、または異常行動を被保険者が経験する状態を意味します。神経症および精神疾患は除外されます。"
+                  "textJP": "進行性認知症\n(a) 進行性認知症とは、アルツハイマー病または不可逆的な器質性疾患に起因する知的能力の低下もしくは喪失、または異常行動を被保険者が経験する状態を意味します。神経症および精神疾患は除外されます。この状態は精神的および社会的機能の著しい低下をもたらし、被保険者が他者または自身を傷つけることを防ぐための継続的な監督が必要とされます。進行性認知症は、臨床評価、標準化された質問票または検査により確認されます。\n(b) 認知症は器質的疾患から生じなければなりません。すなわち、脳の物理的変化に起因するものでなければなりません。"
                 }
               ]
             },
@@ -2309,7 +2309,7 @@
                 {
                   "num": "3.7",
                   "text": "Besides the requirement of failure to perform the ADLs, the insured may also need to fulfil a deferred period requirement before being eligible to receive the LTC benefits. Most insurers have a deferred period of 90 days commencing from the first day of any continuous period of inability to perform the ADLs. Many seniors may suffer short periods of dependence after a stay in hospital for an illness or injury, and a deferred period will ensure that short-term claims are avoided and, therefore, reduce the premium.",
-                  "textJP": "ADLの遂行不能の要件に加えて、被保険者はLTC給付を受ける資格を得る前に、据置期間の要件も満たす必要がある場合があります。ほとんどの保険者は、被保険者がADLを遂行できないと最初に判断された日から起算して90日の据置期間を設けています。"
+                  "textJP": "ADLの遂行不能の要件に加えて、被保険者はLTC給付を受ける資格を得る前に、据置期間の要件も満たす必要がある場合があります。ほとんどの保険者は、ADLを遂行できない継続的な期間の初日から起算して90日の据置期間を設けています。多くの高齢者は疾病や傷害で入院した後、短期間の依存状態を経験する場合があり、据置期間を設けることで短期の請求が回避され、結果として保険料の軽減につながります。"
                 }
               ]
             },
@@ -2322,7 +2322,7 @@
                 {
                   "num": "3.8",
                   "text": "LTC policy would not pay if the claim arose from a pre-existing condition that was not disclosed in the proposal form. If disclosed, the insurer may accept the application at standard premium rates, or at sub-standard premium rates, i.e. may charge a higher premium, accept the application with exclusions, or reject the application. The decisions taken regarding applications and the rates of premiums application are largely dependent on the severity of the conditions of the proposer (also called the applicant or the intending insured).",
-                  "textJP": "LTC保険証券は、申込書で開示されなかった既存の病態から請求が生じた場合、支払いを行いません。開示された場合、保険者は標準保険料率で、または標準外の保険料率で申込を引き受けるか、あるいは条件付きで引き受ける場合があります。"
+                  "textJP": "LTC保険証券は、申込書で開示されなかった既存の病態から請求が生じた場合、支払いを行いません。開示された場合、保険者は標準保険料率で申込を引き受けるか、標準外の保険料率（すなわち、より高い保険料を請求する）で引き受けるか、除外条項付きで申込を引き受けるか、または申込を拒否する場合があります。申込および保険料率に関する判断は、申込者（被保険者予定者）の状態の重症度に大きく依存します。"
                 },
                 {
                   "num": "3.9",
@@ -2347,17 +2347,17 @@
             {
               "num": "4.1",
               "text": "Insurers also usually include a death benefit which is payable to the insured’s beneficiaries upon the death of the insured. However, the quantum is small, ranging from an indicative amount of S$5,000 to six times the LTC monthly benefit for example. Upon payment of the death benefit, the cover ceases. Deferred Period usually 90 Days",
-              "textJP": "保険者は通常、被保険者の死亡時に被保険者の受益者に支払われる死亡給付も含めています。ただし、その金額は少額で、例えばS$5,000からLTC月額給付の6倍の範囲です。"
+              "textJP": "保険者は通常、被保険者の死亡時に被保険者の受益者に支払われる死亡給付も含めています。ただし、その金額は少額で、例えばS$5,000からLTC月額給付の6倍の範囲です。死亡給付の支払いにより、補償は終了します。据置期間は通常90日です。"
             },
             {
               "num": "4.2",
               "text": "In addition to LTC and death benefits, some insurers may also package it with other benefits, such as: (a) Extended Care Benefit – an extra specified sum, such as an extra monthly benefit, is payable every three or five years; and (b) Rehabilitation Benefit – a reduced benefit (e.g. 50% of the insured amount) when the insured makes partial recovery (such as if he is unable to do two instead of three ADLs). (c) Dependant care benefit – pays a % of the severe disability benefit for a specific period when the insured has a dependent child at the point of claim. (d) Waiver of premium benefit – premium will be waived after the deferment period when the insured qualifies for the severe disability benefit (inability to do ADLs) claim under the policy.",
-              "textJP": "LTCおよび死亡給付に加えて、一部の保険者は以下のような他の給付とパッケージにする場合もあります：\n(a) 拡張ケア給付 — 3年または5年ごとに追加の月額給付などの追加の所定額が支払われます\n(b) リハビリテーション給付 — 被保険者が障害から回復した場合、リハビリテーション費用の償還が行われます"
+              "textJP": "LTCおよび死亡給付に加えて、一部の保険者は以下のような他の給付とパッケージにする場合もあります：\n(a) 拡張ケア給付（Extended Care Benefit）— 3年または5年ごとに、追加の月額給付などの追加の所定額が支払われます\n(b) リハビリテーション給付（Rehabilitation Benefit）— 被保険者が部分的に回復した場合（例：3つではなく2つのADLを遂行できない場合）に減額された給付（例：保険金額の50%）が支払われます\n(c) 扶養者ケア給付（Dependant Care Benefit）— 請求時点で被保険者に扶養する子がいる場合、重度障害給付の一定割合が所定の期間支払われます\n(d) 保険料免除給付（Waiver of Premium Benefit）— 保険証券に基づく給付が支払われている間、以降の保険料が免除されます"
             },
             {
               "num": "4.3",
               "text": "These benefits are subject to limits on the maximum sum that can be claimed, as well as limits on the benefit payment period. Otherwise, the product will become prohibitively expensive. The main purpose of LTC Insurance is not to fulfil the need of income protection, or for reimbursement of medical expenses, e.g. hospital and surgical bills. Such needs are better met by other policies, such as Disability Income Insurance and/or Hospital and Surgical Insurance.",
-              "textJP": "これらの給付は、請求可能な最大額の限度および給付支払い期間の限度が適用されます。さもなければ、商品は法外に高価になります。LTC保険の主な目的は、被保険者のすべての介護費用を賄うニーズを満たすことではなく、必要な費用の一部を補助するための追加の資金源を提供することです。"
+              "textJP": "これらの給付は、請求可能な最大額の限度および給付支払い期間の限度が適用されます。さもなければ、商品は法外に高価になります。LTC保険の主な目的は、所得保護のニーズを満たすことや、入院費・手術費等の医療費の償還を行うこと���はありません。そのようなニーズは、障害所得保険や入院・手術保険などの他の保険証券によって、より適切に満たされます。"
             }
           ],
           "subsections": []
@@ -2385,7 +2385,7 @@
             {
               "num": "6.1",
               "text": "While most insured individuals prefer the policy benefits to be payable as long as they live, the premiums for such plans may be too expensive for them. Some insurers allow customers to choose the benefit payment term. This means that the benefits will be payable for the chosen period (e.g. 12 years of benefits). The premiums payable for a shorter benefit payment term will be cheaper and more affordable. During the benefit payment period, premiums payable are waived.",
-              "textJP": "ほとんどの被保険者は、生存する限り保険証券の給付が支払われることを望んでいますが、そのようなプランの保険料は高すぎる場合があります。一部の保険者は、顧客が給付支払い期間を選択できるようにしています。これは、給付が所定の期間のみ支払われることを意味します。"
+              "textJP": "ほとんどの被保険者は、生存する限り保険証券の給付が支払われることを望んでいますが、そのようなプランの保険料は高すぎる場合があります。一部の保険者は、顧客が給付支払い期間を選択できるようにしています。これは、給付が選択された期間（例：12年間の給付）のみ支払われることを意味します。より短い給付支払い期間の保険料はより安価で手頃になります。給付支払い期間中は、支払うべき保険料が免除されます。"
             },
             {
               "num": "6.2",
@@ -2416,7 +2416,7 @@
                 {
                   "num": "7.2",
                   "text": "When it was introduced in 2002, ElderShield provided pay-outs of S$300 per month for up to five years upon severe disability. It was subsequently reviewed in 2007 to provide better benefits of S$400 per month for up to six years. The benefits received depends on the scheme the insured joined. Please note that the ElderShield scheme is no longer open for new applications.",
-                  "textJP": "ElderShieldは2002年に導入された当初、重度障害時に月額S$300を最大5年間給付しました。その後2007年に見直され、月額S$400を最大6年間という改善された給付を提供するようになりました。"
+                  "textJP": "ElderShieldは2002年に導入された当初、重度障害時に月額S$300を最大5年間（60ヶ月）給付しました。��の後2007年に見直され、月額S$400を最大6年間（72ヶ月）という改善された給付を提供するようになりまし���。受け取る給付は、被保険者が加入したスキームにより異なります。なお、ElderShieldスキームは現在、新規申込を受け付けていません。"
                 }
               ]
             },
@@ -2480,7 +2480,7 @@
                 {
                   "num": "7.7",
                   "text": "Since 2020, auto-enrolments into ElderShield were discontinued. Singapore Citizens and Singapore Permanent Residents born in 1980 and after were instead enrolled into CareShield Life at age 30. Singapore Citizens and Singapore Permanent Residents born in 1970 to 1979, who were enrolled on ElderShield 400 and did not have any pre-existing disabilities, were also enrolled into CareShield Life and can choose to opt out by 31 December 2023. 1 https://www.cpf.gov.sg/member/healthcare-financing/eldershield",
-                  "textJP": "2020年以降、ElderShieldへの自動加入は中止されました。1980年以降に生まれたシンガポール市民およびシンガポール永住権保持者は、代わりに30歳でCareShield Lifeに加入しました。"
+                  "textJP": "2020年以降、ElderShieldへの自動加入は中止されました。1980年以降に生まれたシンガポール市民およびシンガポール永住権保持者は、代わりに30歳でCareShield Lifeに加入しました。1970年から1979年の間に生まれ、ElderShield 400に加入しており既存の障害がなかったシンガポール市民およびシンガポール永住権保持者もCareShield Lifeに加入し、2023年12月31日までにオプトアウトを選択できました。"
                 },
                 {
                   "num": "7.8",
@@ -2521,7 +2521,7 @@
                 {
                   "num": "7.12",
                   "text": "ElderShield provides the following protection and benefits: (a) Lifetime coverage – The insured continues to be covered for life once he has completed paying all his premiums at age 65. (b) Up to 72 months of cash payouts – The insured stands to receive a monthly cash pay-out for up to five or six years, depending on the plan chosen. With ESH400, he will get S$400 per month for up to 72 months, and with ESH300, he will get S$300 per month for up to 60 months. (c) Fully payable with MediSave – The insured can use his MediSave to pay his ElderShield premiums. Family members can help the insured by paying from their own MediSave or topping up the insured’s account with cash. (d) Worldwide coverage – The insured will remain covered, have the ability to make claims, and receive payouts no matter where he lives in the world. Following the closure of CPF accounts for foreigners from 1 April 2024, the person who loses their SC/PR status will lose their ElderShield coverage.",
-                  "textJP": "ElderShieldは以下の保護と給付を提供します：\n(a) 生涯補償 — 被保険者は65歳ですべての保険料の支払いを完了すると、生涯にわたって補償が継続します。\n(b) 最大72か月の現金給付 — 被保険者は重度障害と判定された場合、月額最大S$400の現金給付を最大72か月間受け取ることができます。"
+                  "textJP": "ElderShieldは以下の保護と給付を提供します：\n(a) 生涯補償 — 被保険者は65歳ですべての保険料の支払いを完了すると、生涯にわたって補償が継続します。\n(b) 最大72ヶ月の現金給付 — 被保険者は、選択したプランに応じて最大5年間または6年間の月額現金給付を受け取ることができます。ESH400では月額S$400を最大72ヶ月間、ESH300では月額S$300を最大60ヶ月間受け取ります。\n(c) MediSaveで全額支払い可能 — 被保険者はMediSaveを使用してElderShieldの保険料を支払うことができます。家族も被保険者のMediSave口座からの保険料支払いを援助できます。\n(d) 追加プランの購入可能 — ElderShield Supplementsにより、被保険者は基本のElderShield保険証券に追加の給付を加えることができます。"
                 }
               ]
             },
@@ -2552,7 +2552,7 @@
                 {
                   "num": "7.15",
                   "text": "One can apply to receive ElderShield payouts if he is determined by an MOHaccredited assessor to be unable to carry out three of the six activities of daily living (ADL) listed below: (a) Washing – The ability to wash in the bath or shower (including getting into and out of the bath or shower) or wash by other means. (b) Dressing – The ability to put on, take off, secure, and unfasten all garments and, as appropriate, any braces, artificial limbs, or other surgical or medical appliances. (c) Feeding – The ability to feed oneself food after it has been prepared and made available. (d) Toileting – The ability to use the toilet or manage bowel and bladder function using protective undergarments, such as diapers or surgical appliances, if appropriate. (e) Mobility – The ability to move indoors from room to room on level surfaces. (f) Transferring – The ability to move from a bed to an upright chair or wheelchair, and vice versa.",
-                  "textJP": "MOH認定評価者により以下の6つの日常生活動作（ADL）のうち3つを遂行することができないと判定された場合、ElderShieldの給付を受けることができます：\n(a) 入浴 — 入浴またはシャワーで体を洗う能力（浴槽やシャワーへの出入りを含む）\n(b) 着替え — 適切な衣服を着脱する能力\n(c) 食事 — 準備された食事を食べる能力\n(d) 排泄 — トイレの使用を管理する能力\n(e) 歩行 — 平坦な面で室内を移動する能力\n(f) 移動 — ベッドから直立した椅子へ、またはその逆に移る能力"
+                  "textJP": "MOH認定評価者により以下の6つの日常生活動作（ADL）のうち3つ以上を遂行することができないと判定された場合、ElderShieldの給付を申請できます：\n(a) 入浴（Washing）— 入浴またはシャワーで体を洗う能力（浴槽やシャワーへの出入りを含む）、または他の手段で体を洗う能力\n(b) 着替え（Dressing）— すべての衣服を着脱、留め、外す能力、および適切な場合、装具、義肢、その他の外科的または医療的器具を含む\n(c) 食事（Feeding）— 準備された食事を食べる能力\n(d) 排泄（Toileting）— トイレまたは他の方法を使用して、膀胱および腸の機能を管理する能力\n(e) 歩行（Mobility）— 平坦な面で室内を移動する能力\n(f) 移動（Transferring）— ベッドから直立した椅子へ、またはその逆に移る能力"
                 }
               ]
             },
@@ -2565,17 +2565,17 @@
                 {
                   "num": "7.16",
                   "text": "To make a claim, one should complete the claim assessment. First, the insured needs to arrange for a disability assessment which can be conducted by any MOH-accredited severe disability assessor. For a list of assessors, please visit this link: https://www.aic.sg/financialassistance/ Documents/Application%20Forms/IDAPE%20Assessor%20List.pdf",
-                  "textJP": "請求を行うには、請求評価を完了する必要があります。まず、被保険者はMOH認定の重度障害評価者により障害評価を手配する必要があります。"
+                  "textJP": "請求を行うには、請求評価を完了する必要があります。まず、被保険者はMOH認定の重度障害評価者による障害評価を手配する必要があります。評価者の一覧については、AICのウェブサイトを参照し���ください。"
                 },
                 {
                   "num": "7.17",
                   "text": "The assessment costs S$100 for a clinic assessment and S$250 for a house call, both of which are payable to the assessor at the time of assessment. The full fee will be reimbursed if the insured is assessed to be severely disabled and will be reimbursed with the first pay out.",
-                  "textJP": "評価費用は、診療所での評価がS$100、訪問診療がS$250で、いずれも評価時に評価者に支払います。被保険者が重度障害と評価された場合は全額が払い戻されます。"
+                  "textJP": "評価費用は、診療所での評価がS$100、訪問診療がS$250で、いずれも評価時に評価者に支払います。被保険者が重度障害と評価された場合は全額が払い戻され、初回の給付とともに償還されます。"
                 },
                 {
                   "num": "7.18",
                   "text": "Next, the insured needs to log in to AIC’s e-Service portal (eFASS) with his Singpass to submit a claim. The insured can access the link: AIC eFinance to learn more about submitting a claim. In the event that the insured is not able to complete it on his own e.g. if he lacks mental capacity, his donee/deputy/immediate family member or caregiver may do so on his behalf. 8. CARESHIELD LIFE2",
-                  "textJP": "次に、被保険者はSingpassでAICのeサービスポータル（eFASS）にログインして請求を提出する必要があります。"
+                  "textJP": "次に、被保険者はSingpassでAICのeサービスポータル（eFASS）にログインして請求を提出する必要があります。請求の提出方法の詳細はAIC eFinanceのリンクから確認できます。被保険者自身で完了できない場合���例：精神的能力を欠く場合）、その受任者/後見人/近親者または介護者が代わりに行うことができます。"
                 },
                 {
                   "num": "8.1",
@@ -2590,12 +2590,12 @@
                 {
                   "num": "8.3",
                   "text": "For a person born in 1979 or earlier: (a) He would be auto enrolled to CareShield Life from 1 December 2021 if he is born between 1970 and 1979, covered under the ElderShield 400 scheme and did not develop severe disability. If he is not auto enrolled, participation in CareShield Life is optional3 and his current ElderShield plans will continue to protect him. (b) He could choose to join CareShield Life if he does not develop severe disability (defined as the inability to perform at least three out of six ADLs). (c) He can enjoy participation incentives of up to S$3,000 if he joins and is covered under CareShield Life by 31 December 2024. The participation incentives will be spread equally over 10 years and will be used to offset premiums payable for each year.",
-                  "textJP": "1979年以前に生まれた者の場合：\n(a) 1970年から1979年の間に生まれ、ElderShield 400スキームに加入しており、重度障害を発症していない場合、2021年12月1日からCareShield Lifeに自動加入されます。"
+                  "textJP": "1979年以前に生まれた者の場合：\n(a) 1970年から1979年の間に生まれ、ElderShield 400スキームに加入しており重度障害を発症していない場合、2021年12月1日からCareShield Lifeに自動加入されました。自動加入されていない場合、CareShield Lifeへの参加は任意であり、現在のElderShieldプランが引き続き補償を提供します。\n(b) 重度障害（6つのADLのうち少なくとも3つを遂行できない状態と定義）を発症していない場合、CareShield Lifeに加入することを選択できます。\n(c) 加入し、2023年末までに補償が開始されている場合、最大S$3,000の参加インセンティブを受けることができます。"
                 },
                 {
                   "num": "8.4",
                   "text": "For a person born in 1980 or later: (a) If he was born between 1980 and 1990, he would have automatically joined CareShield Life in 2020. (b) If he was born after 1990, he will join CareShield Life when he turns 30. (c) Universal coverage – he will be covered even if he has pre-existing medical conditions and/or severe disabilities. (d) Transitional subsidies are available for the first five years from the launch of CareShield Life from 2020 to 2024 to ease the transition into the scheme. 2 https://www.careshieldlife.gov.sg 3 Except foreigners who become Singapore Citizens or Permanent Residents from 1 October 2020 onwards, for whom participation is mandatory unless they have severe disability.",
-                  "textJP": "1980年以降に生まれた者の場合：\n(a) 1980年から1990年の間に生まれた者は2020年にCareShield Lifeに自動加入しました。\n(b) 1990年以降に生まれた者は30歳になった時点でCareShield Lifeに加入します。\n(c) 普遍的な補償 — 生涯にわたって補償されます。"
+                  "textJP": "1980年以降に生まれた者の場合：\n(a) 1980年から1990年の間に生まれた者は2020年にCareShield Lifeに自動加入しました。\n(b) 1990年以降に生まれた者は30歳になった時点でCareShield Lifeに加入します。\n(c) 普遍的な補償 — 既存の疾患や重度障害を有していても補償されます。\n(d) CareShield Lifeの開始から2020年から2024年まで、スキームへの移行を容易にするために最初の5年間は移行補助金が利用可能です。"
                 },
                 {
                   "num": "8.5",
@@ -2646,7 +2646,7 @@
                 {
                   "num": "8.12",
                   "text": "A Singaporean Citizen or a Singapore Permanent Resident is eligible for MediSave Care if he or she is assessed by an MOH-accredited assessor to be unable to perform three or more of the six Activities of Daily Living. 4MediSave balance at point of monthly withdrawal. ElderShield300 ElderShield400 CareShield Life Payout Amount S$300 S$400 Payouts start at S$600 per month in 2020 and increase over time Payout Duration 60 months 72 months For entire duration of disability Government Subsidies and Incentives None Yes, depending on circumstances Payable by MediSave Yes Yes Yes Payout Criteria Unable to perform 3 or more of the 6 activities for daily living (ADLs). MediSave Balance4 Monthly Withdrawal Quantum S$20,000 and above S$200 S$15,000 and above S$150 S$10,000 and above S$100 S$5,000 and above S$50 Below S$5,000 N.A.",
-                  "textJP": "シンガポール市民またはシンガポール永住権保持者は、MOH認定評価者により6つの日常生活動作のうち3つ以上を遂行することができないと評価された場合、MediSave Careの適格性があります。"
+                  "textJP": "シンガポール市民またはシンガポール永住権保持者は、MOH認定評価者により6つの日常生活動作のうち3つ以上を遂行することができないと評価された場合、MediSave Careの適格性があります。\n\nElderShield300 | ElderShield400 | CareShield Lifeの比較：\n給付額：S$300 | S$400 | 2020年に月額S$600から開始し、経時的に増額\n給付期間：60ヶ月 | 72ヶ月 | 障害の全期間\n政府補助金・インセンティブ：なし | あり（状況に応じて） | あり\nMediSaveで支払い可能：はい | はい | はい\n給付基準：6つのADLのうち3つ以上を遂行不能 | 同左 | 同左"
                 }
               ]
             },
@@ -4090,7 +4090,7 @@
             {
               "num": "1.1",
               "text": "Managed Healthcare (MHC) schemes have evolved in the market as a response to increasing medical costs. MHC plans are usually managed or run by insurers as insurance-backed plans. Locally, only group MHC insurance is available. Such policies are often purchased by employers as part of their Employee Benefit package, and as an alternative to Group H&S plans. In this chapter, we will first look at the concept and various models of MHC, before we briefly discuss how MHC insurance works.",
-              "textJP": "マネージドヘルスケア（MHC）スキームは、増加する医療費への対応として市場で発展してきました。MHCプランは通常、保険者により保険付きプランとして管理または運営されます。国内では、団体MHC保険のみが利用可能です。"
+              "textJP": "マネージドヘルスケア（MHC）スキームは、増加する医療費への対応として市場で発展してきました。MHCプランは通常、保険者により保険付きプランとして管理または運営されます。国内では、団体MHC保険のみが利用可能です。このような保険証券は、雇用主が従業員給付パッケージの一部として、また団体入院・手術（H&S）プランの代替として購入することが多いです。本章では、まずMHCの概念と各種モデルを確認し、その後MHC保険の仕組みについて簡潔に説明します。"
             }
           ],
           "subsections": []
@@ -4104,7 +4104,7 @@
             {
               "num": "2.1",
               "text": "MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. Such strategies make use of a number of MHC techniques related to how medical care is accessed, provided and paid for.",
-              "textJP": "MHCとは、人々が適切な医療ケアを受けられることを保証しつつ、医療費を抑制するための全体的な戦略を指します。個人が一般開業医（GP）、専門医を受診したり、入院治療を受けたりした場合に、医療費の大部分を支払います。"
+              "textJP": "MHCとは、人々が適切な医療ケアを受けられることを保証しつつ、医療費を抑制するための全体的な戦略を指します。個人が一般開業医（GP）、専門医を受診したり、入院治療を受けたりした場合に、医療費の大部分を支払います。このような戦略は、医療ケアへのアクセス、提供方法、支払い方法に関連する多数のMHC手法を活用します。"
             }
           ],
           "subsections": []
@@ -4118,7 +4118,7 @@
             {
               "num": "3.1",
               "text": "MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them.",
-              "textJP": "MHC提供者は、会員のケアへのアクセス、コスト、品質を管理するためにヘルスケアネットワークを構築します。医師、病院、診療所、薬局、検査機関、X線センターなどの他のヘルスケア提供者と交渉し契約します。"
+              "textJP": "MHC提供者は、会員のケアへのアクセス、コスト、品質を管理するためにヘルスケアネットワークを構築します。医師、病院、診療所、その他のヘルスケア提供者（薬局、検査機関、X線センター、医療機器業者など）と交渉し契約します。その見返りとして、より多くの患者がこれらの提供者に紹介されます。"
             },
             {
               "num": "3.2",
@@ -4136,17 +4136,17 @@
                 {
                   "num": "3.3",
                   "text": "In a MHC plan, members are referred to a carefully selected network of healthcare providers. In some MHC plans, a member may be required to receive all his healthcare services from a particular provider within the network. This doctor will be his Primary Care Physician (PCP). In other managed care plans, he may be able to receive care from providers who are not part of the network, but will have to pay a larger share of the cost to receive those services.",
-                  "textJP": "MHCプランでは、会員は厳選されたヘルスケア提供者のネットワークに紹介されます。一部のMHCプランでは、会員はネットワーク内の特定の提供者からすべてのヘルスケアサービスを受けることが求められる場合があります。この医師がプライマリケア医師（PCP）となります。"
+                  "textJP": "MHCプランでは、会員は厳選されたヘルスケア提供者のネットワークに紹介されます。一部のMHCプランでは、会員はネットワーク内の特定の提供者からすべてのヘルスケアサービスを受けることが求められる場合があります。この医師がプライマリケア医師（PCP）となります。他のマネージドケアプランでは、ネットワーク外の提供者からケアを受けることも可能ですが、そのサービスに対してより大きな費用負担を支払う必要があります。"
                 },
                 {
                   "num": "3.4",
                   "text": "As MHC emphasises primary and preventive care to prevent serious health problems, PCPs are the backbone of many MHC plans. PCPs are valued because of their ability to diagnose and treat a broad range of medical conditions. Additionally, as they are familiar with the health conditions and Quality of Care Access ibility Co st circumstances of their patients, PCPs are often better able to ascertain the type of specialty care that members may need.",
-                  "textJP": "MHCは深刻な健康問題を予防するためにプライマリケアと予防ケアを重視しているため、PCPは多くのMHCプランの根幹です。PCPは幅広い疾患を診断・治療する能力があることから重視されています。"
+                  "textJP": "MHCは深刻な健康問題を予防するためにプライマリケアと予防ケアを重視しているため、PCPは多くのMHCプランの根幹です。PCPは幅広い疾患を診断・治療する能力があることから重視されています。さらに、患者の健康状態や生活環境に精通しているため、PCPは会員が必要とする専門ケアの種類をより的確に判断できることが多いです。"
                 },
                 {
                   "num": "3.5",
                   "text": "PCP is usually a general practitioner who serves as the member’s “personal physician” and acts as the first contact with the MHC. If additional care is needed, the PCP will refer the member to a specialist within the network. Under most MHC plans, a member must obtain a referral from the PCP before seeing a specialist. As such, PCPs are often called “gatekeepers”. As gatekeepers, PCPs co-ordinate and manage all aspects of the members’ care. Members are allowed to change their PCPs.",
-                  "textJP": "PCPは通常、会員の「かかりつけ医」として機能し、MHCへの最初の窓口となる一般開業医です。追加のケアが必要な場合、PCPはネットワーク内の専門医に会員を紹介します。"
+                  "textJP": "PCPは通常、会員の「かかりつけ医」として機能し、MHCへの最初の窓口となる一般開業医です。追加のケアが必要な場合、PCPはネットワーク内の専門医に会員を紹介します。ほとんどのMHCプランでは、専門医を受診する前にPCPからの紹介状を取得する必要があります。そのため、PCPはしばしば「ゲートキーパー」と呼ばれます。ゲートキーパーとして、PCPは会員のケアのあらゆる側面を��整・管理します。会員はPCPを変更することが認められています。"
                 }
               ]
             },
@@ -4164,12 +4164,12 @@
                 {
                   "num": "3.7",
                   "text": "By limiting the number of physicians or hospitals in a provider network, the MHCO can negotiate the physicians’ or hospitals’ fees and reduce the cost for providing medical services to its members. The MHCO is able to achieve this, because physicians, hospitals and other medical service providers are generally willing to reduce their fees, in exchange for the increase in patient volume that a MHC network can provide them.",
-                  "textJP": "提供者ネットワーク内の医師または病院の数を制限することにより、MHCOは医師または病院の報酬を交渉し、会員への医療サービス提供のコストを削減できます。"
+                  "textJP": "提供者ネットワーク内の医師または病院の数を制限することにより、MHCOは医師または病院の報酬を交渉し、会員への医療サービス提供のコストを削減できます。MHCOがこれを達成できるのは、医師、病院、その他の医療サービス提供者が、MHCネットワークが提供できる患者数の増加と引き換えに、報酬の引き下げに一般的に応じる意思があるためです。"
                 },
                 {
                   "num": "3.8",
                   "text": "The four common payment methods used by MHCO are as follows: (a) capitation; (b) discounted-fee-for-service; (c) salary; and (d) fee schedule. (a) Capitation Under this method, the MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. (b) Discounted-Fee-For-Service MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. (c) Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. (d) Fee Schedule Under this method, the MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. As this fee structure will result in a smaller reimbursement of fees for physicians who charge higher-than-average fees, it may encourage the provision of unnecessary medical services (e.g. physicians asking patients to go for more tests than necessary or return for follow-up checks).",
-                  "textJP": "MHCOが使用する4つの一般的な支払い方法は以下のとおりです：\n(a) 人頭払い（キャピテーション）——MHCOが提供者に各会員の医療ケアについて固定額を前払い\n(b) 割引出来高払い——提供者が通常の報酬から割引価格でサービスを提供\n(c) 給与制——提供者にMHCOが直接給与を支払い\n(d) 報酬表——各サービスの報酬額を事前に定めた表に基づいて支払い"
+                  "textJP": "MHCOが使用する4つの一般的な支払い方法は以下のとおりです：\n(a) 人頭払い（Capitation）——この方法では、MHCOが各会員の医療ケアについて、通常月単位で提供者に固定額を前払いします。会員がどの程度の頻度で診療を受けるか、またはその医療ケアの費用にかかわらず、提供者には毎月同額が支払われます。固定報酬額はすべてのMHCO会員で同一とは限りません。\n(b) 割引出来高払い（Discounted-Fee-For-Service）——MHCOが医師に通常の報酬の一定割合（例：通常報酬の90%）を支払い、医師の報酬を10%割引することを達成します。\n(c) 給与制（Salary）——この��法はスタッフモデルHMO（Health Maintenance Organisation）で使用されます。この方法では、HMOが医師に固定給与を支払います。これらの給与は、同じ分野または専門の地域��医師の平均収入に基づきます。HMOはまた、業績に基づくボーナスやインセンティブ報酬も医師に支払います。\n(d) 報酬表（Fee Schedule）——この方法では、MHCOが対象となる医療処置やサービスに対して償還される金額に上限を設けます。この報酬表の支払い構造を使用する場合、MHCOは各処置について指定された最大許容報酬額を超える支払いを行いません。この報酬体系は、平均より高い報酬を請求する医師の償還額が少なくなるため、不必要な医療サービスの提供（例：医師が患者に必要以上の検査や再診を求める）を助長する可能性があります。"
                 },
                 {
                   "num": "3.9",
@@ -4187,7 +4187,7 @@
                 {
                   "num": "3.10",
                   "text": "To ensure that the quality of care is not compromised with the costcontainment effort, members can be assured that the MHCO contracts with only healthcare providers that possess the requisite skills, training and licences. These providers must provide the necessary medical services under prevailing professional standards of care. The MHCO also develops quality assurance programmes usually in co-operation with the providers to guarantee availability, accessibility and continuity of care to its members. In fact, the MHCO places equal importance on the quality of care and cost control because a good reputation is what attracts new members and keeps existing members.",
-                  "textJP": "コスト抑制の取り組みによりケアの品質が損なわれないよう、MHCOは必要なスキル、訓練、ライセンスを有するヘルスケア提供者とのみ契約していることを会員に保証できます。これらの提供者はMHCOが定めた品質基準に従った医療ケアを提供しなければなりません。"
+                  "textJP": "コスト抑制の取り組みによりケアの品質が損なわれないよう、MHCOは必要なスキル、訓練、ライセンスを有するヘルスケア提供者とのみ契約していることを会員に保証できます。これらの提供者は、現行の専門的なケア基準に基づき必要な医療サービスを��供しなければなりません。MHCOはまた、提供者と協力して品質保証プログラムを開発し、会員へのケアの利用可能性、アクセス性、継続性を保証します。実際、MHCOはケアの品質とコスト管理に等しく重要性を置いています。なぜなら、良い評判が新規会員を惹きつけ、既存会員を維持するものだからです。"
                 }
               ]
             }
@@ -4230,7 +4230,7 @@
                 {
                   "num": "4.5",
                   "text": "If the member needs care from a physician specialist in the network or a diagnostic service such as a laboratory test or X-ray, the PCP will have to provide a referral. If the member does not have a referral or chooses to go to a doctor outside of his health plan’s network, he will most likely have to pay all or most of the costs for that care, unless it was pre-authorised by the HMO, or deemed as an emergency.",
-                  "textJP": "会員がネットワーク内の専門医によるケアや、検査やX線などの診断サービスを必要とする場合、PCPが紹介状を出す必要があります。紹介状がない場合やネットワーク外の医師を選択した場合、会員は自己負担が必要か、補償されない場合があります。"
+                  "textJP": "会員がネットワーク内の専門医によるケアや、検査やX線などの診断サービスを必要とする場合、PCPが紹介状を出す必要があります。紹介状を持っていない場合や、加入する医療プランのネットワーク外の医師を受診することを選択した場合、HMOにより事前承認されているか、または緊急と判断されない限り、そのケアの費用の全部または大部分を自己負担しなければならない可能性が高いです。"
                 },
                 {
                   "num": "4.6",
@@ -4253,7 +4253,7 @@
                 {
                   "num": "4.8",
                   "text": "A Preferred Provider Organisation (PPO) has negotiated contracts with a network of preferred providers from which a member can choose. A member does not need to select a PCP and does not need referrals to see other providers in the network. However, to encourage the use of network providers and/or get a referral for a specialist, PPO offers “richer” benefits to members as financial incentives. These include lower or no deductible, lower or no copayment, and higher benefits. For example, if a member sees a network provider, he will not need to pay for the medical cost. However, if he sees a non-network provider, he may have to pay as much as 50% of the total bill.",
-                  "textJP": "Preferred Provider Organisation（PPO）は、会員が選択できる優先提供者のネットワークと交渉契約を結んでいます。会員はPCPを選択する必要がなく、ネットワーク内の他の提供者を受診するための紹介状も必要ありません。"
+                  "textJP": "Preferred Provider Organisation（PPO）は、会員が���択できる優先提供者のネットワークと交渉契約を結んでいます。会員はPCPを選択する必要がなく、ネットワーク内の他の提供者を受診するための紹介状も必要ありません。しかし、ネットワーク提供者の利用や専門医への紹介を促進するために、PPOは会員に対して経済的インセンティブとして「より手厚い」給付を提供します。これには免責額の引き下げまたは免除、自己負担額の引き下げまたは免除、より高い給付が含まれます。例えば、会員がネットワーク提供者を受診した場合は医療費を支払う必要がありませんが、ネットワーク外の提供者を受診した場合は合計請求額の最大50%を負担しなければならない場合があります。"
                 },
                 {
                   "num": "4.9",
@@ -4301,17 +4301,17 @@
             {
               "num": "5.1",
               "text": "As mentioned, MHCOs help to contain the cost of healthcare by managing the access to providers, the cost of providing healthcare, as well as the quality of care. Figure 8.4 illustrates the relationship between the degree of control over the cost and access, and their effects on the purchaser. Figure 8.4: Degree Of Choice Of Providers Versus Degree Of Cost Control",
-              "textJP": "前述のとおり、MHCOは提供者へのアクセス、ヘルスケア提供のコスト、ケアの品質を管理することにより、ヘルスケアのコストの抑制に寄与します。"
+              "textJP": "前述のとおり、MHCOは提供者へのアクセス、ヘルスケア提供のコスト、ケアの品質を管理することにより、ヘルスケアのコスト抑制に寄与します。図8.4は、コストとアクセスに対する管理の程度と、購入者への影響との関係を示しています���図8.4：提供者の選択の自由度とコスト管理の程度の関係"
             },
             {
               "num": "5.2",
               "text": "Note from Figure 8.4 that the HMO has the greatest cost control, but its members have the lowest degree of choice of providers. The cost saved is passed on to the purchasers who are charged a lower price for participating in the plan. At the other extreme, there is no control over the access to healthcare providers under a traditional Medical Expense Insurance, and no cost control too. As a result, the premium for a traditional Medical Expense Insurance policy is higher as compared to the MHC plan.",
-              "textJP": "HMOはコスト管理が最も高いですが、会員の提供者選択の自由度は最も低いことに留意してください。節約されたコストは、プランへの参加に対してより低い価格を請求される購入者に還元されます。"
+              "textJP": "図8.4から、HMOはコスト管理が最も高いですが、会員の提供者選択の自由度は最も低いことに留意してください。節約されたコストは、プランへの参加に対してより低い価格を請求される購入者に還元されます。一方の極端な例として、従来型の医療費保険ではヘルスケア提供者へのアクセスに対する管理がなく、コスト管理もありません。その結果、従来型の医療費保険証券の保険料は、MHCプランと比較して高くなります。"
             },
             {
               "num": "5.3",
               "text": "At present, no MHC plan can offer high level of benefits, unlimited access to providers and low cost, all at the same time. The best that any plan can expect to accomplish is two of the three features. Some plans will focus on costs and access, while others will focus on benefits and costs, or access and benefits.",
-              "textJP": "現在のところ、高い給付水準、提供者への無制限のアクセス、低コストのすべてを同時に提供できるMHCプランはありません。いずれのプランも達成できるのは、3つの特徴のうち2つが最善です。"
+              "textJP": "現在のところ、高い給付水準、提供者への無制限のアクセス、低コストのすべてを同時に提供できるMHCプランはありません。いずれのプランも達成できるのは、3つの特徴のうち2つが最善です。コストとアクセスに重点を置くプランもあれば、給付とコスト、またはアクセスと給付に重点を置くプラン��あります。"
             }
           ],
           "subsections": []
@@ -4338,7 +4338,7 @@
                 {
                   "num": "6.2",
                   "text": "For fixed annual premiums, insurers offering MHC plans may provide their policy owners with some or all of the coverage as described below: (a) Primary Care – provided by a wide network of general physicians in clinics all over Singapore. It includes consultation, medication, procedures and tests deemed medically necessary. High Low Degree Of Choice of Providers High Cost Control HMO PPO Traditional Medical Expense Insurance POS (b) Specialist Care - provided by a wide network of specialists from different medical specialties. It includes consultation, medication, tests and surgery upon referral from a PCP. (c) Hospital Care – provided for confinement in private, public or community hospitals. Reimbursement for the hospital and surgical expenses will be subject to limits under the insured plan. (d) Emergency Care – provides 24-hour cover for accident and emergency. (e) Preventive Care − provides educational programmes, such as talks, seminars and workshops on nutritional counselling, etc., designed to keep members free from diseases.",
-                  "textJP": "固定年間保険料で、MHCプランを提供する保険者は、保険契約者に以下のような補償の一部またはすべてを提供する場合があります：\n(a) プライマリケア——シンガポール全土の診療所の一般医師の広範なネットワークにより提供。コンサルテーション、薬剤、簡単な検査を含む\n(b) 専門医ケア——提携専門医への紹介\n(c) 入院ケア——団体入院・手術保険に基づく入院補償"
+                  "textJP": "固定年間保険料で、MHCプランを提供する保険者は、保険契約者に以下のような補償の一部またはすべてを提供する場合があります：\n(a) プライマリケア——シンガポール全土の診療所における広範な一般医師ネットワークにより提供されます。医学的に必要と判断される診察、投薬、処置、検査を含みます。\n(b) 専門医ケ���——さまざまな診療科の広範な専門医ネットワークにより提供されます。PCPからの紹介に基づく診察、投薬、検査、手術を含みます。\n(c) 入院ケア——民間、公立、またはコミュニティ病院へ��入院に対して提供されます。入院および手術費用の償還は、加入プランの限度額に従います。\n(d) 救急ケア——事故および緊急時の24時間補償を提供します。\n(e) 予防ケア——栄養カウンセリングに関するセミナーやワークショップなど、会員を疾病から守るための教育プログラムを提供します。"
                 },
                 {
                   "num": "6.3",
@@ -4374,7 +4374,7 @@
                 {
                   "num": "6.6",
                   "text": "The common exclusions under MHC Insurance policy include: (a) pre-existing conditions; (b) congenital anomaly, hereditary condition and disorder; (c) mental illness and personality disorder; (d) infertility, sub-fertility, assisted conception treatment; (e) treatment of sexually transmitted disease; (f) Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV); (g) self-inflicted injuries; (h) drug addiction or alcoholism; (i) purchase of eyewear or related eye care items; (j) purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances; (k) private nursing charges; (l) injuries arising from direct participation in strike, riot or civil commotion; (m) injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks; (n) childbirth and abortion or routine ante-natal and post-natal visits; (o) cosmetic surgery (except for treatment necessitated by an accident); (p) general exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans; (q) optional items which are outside the scope of treatment; and (r) reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage.",
-                  "textJP": "MHC保険証券の一般的な免責事項には以下が含まれます：\n(a) 既存の病態\n(b) 先天性異常、遺伝性疾患\n(c) 精神疾患および人格障害\n(d) 不妊症、不妊補助、補助的受精治療\n(e) 美容整形手術\n(f) 歯科治療（事故による場合を除く）"
+                  "textJP": "MHC保険証券の一般的な免責事項には以下が含まれます：\n(a) 既存の病態\n(b) 先天性異常、遺伝性疾患および障害\n(c) 精神疾患および人格障害\n(d) 不妊症、不妊補助、補助的受精治療\n(e) 性感染症の治療\n(f) 後天性��疫不全症候群（AIDS）、AIDS関連合併症またはヒト免疫不全ウイルス（HIV）感染\n(g) 自傷行為\n(h) 薬物依存症またはアルコー���依存症\n(i) 眼鏡または関連するアイケア用品の購入\n(j) 人工透析機器、人工呼吸器、義肢およびその他の��殊器具の購入\n(k) 民間看護料金\n(l) ストライキ、暴動、または市民騒擾への直接参加から生じる傷害\n(m) 核降下物、戦争（宣戦の有無を問わない）および関連リスクから直接的または間接的に生��る傷害\n(n) 出産および人工妊娠中絶、または定期的な産前・���後検診\n(o) 美容整形手術（事故により必要とされた治療を除く）\n(p) 医療費保険証券に課される一般的な免責事項はMHC保険プランにも適用されます\n(q) 治療範囲外の任意項目\n(r) 労災補償保険およびその他の保険補償による償還\n\n免責事項は保険者により異なることに留意してください。"
                 },
                 {
                   "num": "6.7",
@@ -4405,7 +4405,7 @@
                 {
                   "num": "6.9",
                   "text": "The procedure for MHC claims is mainly between the MHCO and the providers. Members who use the in-network care are not required to file any claims with the insurer. Only members who use out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include:\n▪ the claimant’s statement; and\n▪ original itemised medical bill.",
-                  "textJP": "MHC請求の手続きは、主にMHCOと提供者の間で行われます。ネットワーク内のケアを利用する会員は、保険者に請求を提出する必要はありません。ネットワーク外の提供者を利用する会員のみがMHCOに請求を提出する必要があります。"
+                  "textJP": "MHC請求の手続きは、主にMHCOと提供者の間で行われます。ネットワーク内のケアを利用する会員は、保険者に請求を提出する必要はありません。ネットワーク外の提供者を利用する会員のみがMHCOに請求を提出する必要があります。この場合に提出が求められる関連証拠書類は以下のとおりです：\n▪ 請求者の陳述書\n▪ 原本の明細付き医療費請求書"
                 }
               ]
             }
@@ -4430,7 +4430,7 @@
             {
               "num": "7.3",
               "text": "If the arrangement is under an insured scheme, the insurer will also provide an added hospitalisation cover (Group Hospital & Surgical) which may be cashless with the provision of letter of guarantee to the hospital. MANAGED HEALTHCARE CHAPTER IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Managed Healthcare (MHC) MHC refers to an overall strategy for containing medical care costs, while assuring that people receive appropriate medical care. It will pay for most of the medical bills, when an individual sees a General Practitioner (GP), specialist or receives treatment in a hospital. How MHC works? MHC providers set up a healthcare network to manage the accessibility, cost and quality of care of its members. They negotiate and contract with doctors, hospitals, clinics, and other health care providers, such as pharmacies, laboratories, X-ray centres, and medical equipment vendors, in exchange for more patients directed to them. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Capitation MHCO pre-pays its providers a fixed amount for each member’s medical care usually on a monthly basis. The provider is paid the same amount each month, regardless of how often the member receives medical attention or the cost of that medical attention. The fixed fee may not be the same for all the MHCO members. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Discounted-fee-forservice MHCO pays its physicians a certain percentage of their normal fees (e.g. 90% of the normal fee), thereby achieving a discount of 10% on the physicians’ fees. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Salary This method is used in the Staff Model HMO (Health Maintenance Organisation). Under this method, the HMO compensates the physicians with a fixed salary. These salaries are based on the average earnings of local physicians in the same field or specialty. The HMO also pays the physicians performance-based bonuses or gives incentive payments. Payment methods used by Managed Healthcare Organisations (MHCOs)\n▪ Fee schedule MHCO places caps or limits on the dollar amounts that will be reimbursed for covered medical procedures and services. When using this fee schedule payment structure, the MHCO will pay no more than the specified maximum fee allowed for each procedure. Common types of MHC plans\n▪ Health Maintenance Organisation (HMO);\n▪ Preferred Provider Organisation (PPO); and\n▪ Point-of-Service (POS) plan. IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Degree of control the Insurers/MHOs have over cost and the choice of providers Some benefits provided under a MHC Insurance policy\n▪ Primary Care.\n▪ Specialist Care.\n▪ Hospital Care.\n▪ Emergency Care.\n▪ Preventive Care. Elements of copayments Like Medical Expense Insurance, co-payments such as co-insurance, deductible and pro-ration factors may apply in MHC Insurance. Common exclusions under a typical MHC Insurance policy\n▪ Pre-existing conditions;\n▪ Congenital anomaly, hereditary condition and disorder;\n▪ Mental illness and personality disorder;\n▪ Infertility, sub-fertility, assisted conception treatment;\n▪ Treatment of sexually transmitted disease;\n▪ Acquired lmmune Deficiency Syndrome (AIDS), AIDS related complex or infection by human immunodeficiency virus (HIV);\n▪ Self-inflicted injuries;\n▪ Drug addiction or alcoholism;\n▪ Purchase of eyewear or related eye care items;\n▪ Purchase of kidney dialysis machine, iron-lung, prosthesis and other special appliances;\n▪ Private nursing charges;\n▪ Injuries arising from direct participation in strike, riot or civil commotion;\n▪ Injuries arising directly or indirectly from nuclear fallout, war (whether declared or not declared) and related risks;\n▪ Childbirth and abortion or routine ante-natal and post-natal visits;\n▪ Cosmetic surgery (except for treatment necessitated by an accident);\n▪ General exclusions imposed on Medical Expense Insurance policies are also applicable to MHC Insurance plans;\n▪ Optional items which are outside the scope of treatment; and\n▪ Reimbursements for Work Injury Compensation Insurance and other forms of insurance coverage. Note that the exclusions vary from insurer to insurer. Underwriting requirements for MHC Insurance Similar to those for Medical Expense Insurance cover. Procedures for claims under a MHC Insurance policy\n▪ Mainly between the MHCO and the providers.\n▪ If using out-of-network providers will need to file claims with the MHCO. The relevant supporting documents to be submitted for such a case include: » Claimant’s statement; and » Original itemised medical bill. MHC scheme available in Singapore\n▪ Not common in Singapore.\n▪ Employers either engage MHCO or insurance company to offer cashless medical services to employees. Traditional Medical Expense Insurance PPO POS HMO High High Low Cost Control Degree of Choice of Providers",
-              "textJP": "保険付きスキームの場合、保険者は病院への保証状の提供によるキャッシュレスの入院補償（団体入院・手術保険）も追加で提供します。"
+              "textJP": "保険付きスキームの場合、保険者は病院への保証状（letter of guarantee）の提供により、キャッシュレスとなり得る入院補償（団体入院・手術保険）も追加で提供します。\n\n【マネージドヘルスケア（MHC）章 重要概念・定義】\n\nマネージドヘルスケア（MHC）：人々が��切な医療ケアを受けら���ることを保証しつつ、医療費を抑制するた��の全体的な戦略。GP、専門医の受診や入院治療の際に医療費の大部分を支払います。\n\nMHCの仕組み：MHC提供者がヘルスケアネットワークを構築���、会員のケアへのアクセス、コスト、品質を管理します。医師、病院、診療所、薬局、検査機関、X線センター、医療機器業者と交渉・契約し、より多くの患者��紹介と引き換えにします。\n\nMHCOの支払い方法：\n▪ 人頭払い（Capitation）——各会員について月単位の固定額を前払い。会員の受診頻度や費用にかかわらず毎月同額。\n▪ 割引出来高払い（Discounted-fee-for-service）——通常報酬の一定割合（例：90%）を支払い、割引を達成。\n▪ 給与制（Salary）——スタッフモデルHMOで使用。固定給与＋業績ボーナス。\n▪ 報酬表（Fee schedule）——各処置の償還上限を設定。\n\nMHCプランの一般的な種類：HMO、PPO、POS（Point-of-Service）プラン。\n\nコストと提供者選択の管理の程度：保険者/MHOが持つコストおよび提供者選択に対する管理度合いの関係。\n\nMHC保険の給付：プライマリケア、専門医ケア、入院ケア、救急ケア、予防ケア。\n\n自己負担の要素：医療費保険と同様に、共同保険、免責額、按分率が適用される場合があります。\n\n一般的な免責事項：既存の病態、先天性異常、精神疾患、不妊治療、性感染症、AIDS/HIV、自傷行為、薬物/アルコール依存、眼鏡、透析機器等の購入、民間看護、暴動・戦争関連の傷害、出産・中絶、美容整形（事故を除く）、治療範囲外の項目、労災補償等。免責事項は保険者により異な���ます。\n\nMHC保険の引受要件：医療費保険と類似。\n\nMHC保険の請求手続き：主にMHCOと提供者間で処理。ネットワーク外利用時のみ会員が請求提出（請求者陳述書＋原本明細付き医療費請求書）。\n\nシンガポールでのMHCスキーム：一般的ではなく、雇用主がMHCOまたは保険会社にキャッシュレス医療サービスの提供を委託しています。"
             }
           ],
           "subsections": []
@@ -6425,7 +6425,7 @@
                 {
                   "num": "5.7",
                   "text": "Premiums must be paid before the start of cover. From the second and subsequent years, a Grace Period is given for policy renewal and premium must be paid within the grace period, failing which the policy will be cancelled.",
-                  "textJP": "保険料は補償開始前に支払わなければなりません。2年目以降は、保険契約者が保険料を支払うための猶予期間が設けられています。"
+                  "textJP": "保険料は補償開始前に支払わなければなりません。2年目以降は、保険契約の更新のために猶予期間（Grace Period）が設けられ、保険料はこの猶予期間内に支払わなければなりません。猶予期間内に支払いがなされない場合、保険契約は解約されます。"
                 }
               ]
             },
@@ -6564,7 +6564,7 @@
                 {
                   "num": "5.22",
                   "text": "With a guaranteed renewable policy, the insurer must renew the policy when it is due. However, based on new experience ratings within the insured person’s occupational class, the insurer may increase the premiums for all insured persons in that class of risk.",
-                  "textJP": "更新保証保険証券では、保険者は保険証券が更新期日を迎えた際に更新しなければなりません。ただし、新しい経験データに基づいて保険料を調整できます。"
+                  "textJP": "更新保証保険証券（guaranteed renewable policy）では、保険者は保険証券が更新期日を迎えた際に更新しなければなりません。ただし、被保険者の職業分類における新しい経験料率データに基づき、保険者はその危険区分に属するすべての被保険者の保険料を引き上げることができます。"
                 },
                 {
                   "num": "5.23",
@@ -6755,7 +6755,7 @@
                 {
                   "num": "5.41",
                   "text": "The introduction of the Nomination Of Beneficiaries (NOB) under Part 3C of the Insurance Act 1966 as from 1 September 2009 gives policyowners of Life Insurance policies or A&H Insurance policies with death benefits, a clear and affordable legal means to distribute the policy benefits to their nominees.",
-                  "textJP": "Insurance Act 1966の第3C部に基づく受益者指名（NOB）の導入により、保険契約者は死亡給付を含む保険証券について受益者を指名できるようになりました。"
+                  "textJP": "Insurance Act 1966の第3C部に基づく受益者指名（Nomination Of Beneficiaries: NOB）制度が2009年9月1日から導入され、生命保険証券または死亡給付を含む傷害疾病（A&H）保険証券の保険契約者に対して、保険金を指名された受益者に分配するための明確かつ手頃な法的手段が提供されるようになりました。"
                 },
                 {
                   "num": "5.42",
@@ -7328,7 +7328,7 @@
                 {
                   "num": "3.19",
                   "text": "For voluntary group plans, the extent of participation by employees in the plan is an important parameter in the development of premium rates. If the participation is low, there is a greater chance that a higher-than-normal proportion of individuals with health issues will seek coverage. This is called anti-selection. If the participation level is high, there will likely be a good mix of healthy lives to compensate for anti-selection risk. Thus, many insurers vary premium rates based on the participation level. HEALTH INSURANCE PRICING IMPORTANT CONCEPTS DEFINITIONS/EXPLANATIONS Morbidity Rate Morbidity is the rate at which disease or illness occurs within a group of people over a period of time. Investment income Investment income is the money that is earned, when an insurer invests the premiums which it receives from many insureds (policyowners or policyholders). Operating expenses Operating expenses increase the price of insurance. Insurers collect premiums not only to cover the costs of insurance, but also to cover the. costs of operating the company, such as staff salaries, commissions for sellers, taxes, office rent, advertising, computer systems, supplies, etc. Medical inflation • Consistent upward trend in medical care claim costs experienced by both individual and group plans.\n▪ Rising costs of claims are associated with increases in medical care charges and higher utilisation of services. Impact Of Epidemic/ Pandemic On General Population Given that the world has recently witnessed the profound impact of Covid-19 and the consequences including new vaccination developments and mandatory rules by government, insurers are beginning to take into considerations the change in health of the general demographics and its potential impact on health insurance claims when pricing health insurance. Scope of benefits covered Providing several types of benefits under one policy is another way of producing a product that is appealing to customers. However, this strategy comes with a price – additions of each benefit actually increase the final premium that the insurer charges. Insurer’s profit Insurers enter the market with the primary objective to profit from the business. When pricing a product, insurers add their profit margin into the premium. Modes of premium payment Frequency with which the premiums are payable.\n▪ Annually – once a year;\n▪ Bi-annually – twice a year;\n▪ Quarterly – once every three months; or\n▪ Monthly – once a month. Extent of underwriting Time and effort required to gather medical declaration from the insured person at the point of policy application. Parameters for premium rating\n▪ Age.\n▪ Gender.\n▪ Health status.\n▪ Lifestyle.\n▪ Occupation.\n▪ Persistency.\n▪ Portfolio claims experience.\n▪ Claims-based pricing.\n▪ Group participation level. Please refer to the study text for more details on how premiums can differ based on the parameters stated above CHAPTER",
-                  "textJP": "任意加入の団体プランでは、プランへの従業員の加入率が保険料率の設定において重要なパラメータとなります。加入率が低い場合、健康上の問題を抱える個人の割合が通常より高くなる可能性があります。これを逆選択（anti-selection）と呼びます。加入率が高い場合、逆選択リスクを補う健康な被保険者が十分に揃う可能性が高くなります。そのため、多くの保険者は加入率に基づいて保険料率を変動させています。"
+                  "textJP": "任意加入の団体プランでは、プランへの従業員の加入率が保険料率の設定において重要なパラメータとなります。加入率が低い場合、健康上の問題を抱える個人の割合が通常より高くなる可能性があり、これを逆選択（anti-selection）と呼びます。加入率が高い場合、逆選択リスクを補う健康な被保険者が十分に揃う可能性が高くなります。そのため、多くの保険者は加入率に基づいて保険料率を変動させています。\n\n【医療保険の価格設定における重要概念】\n\n罹患率（Morbidity Rate）：一定期間内に集団内で疾病や病気が発生する割合です。\n\n運用益（Investment income）：保険者が多数の被保険者（保険契約者）から受け取った保険料を投資して得られる収益です。\n\n事業費（Operating expenses）：事業費は保険の価格を引き上げます。保険者は、保険の費用だけでなく、職員の給与、販売員への手数料、税金、事務所賃料、広告、コンピュータシステム、備品等の会社運営費用をカバーするためにも保険料を徴収します。\n\n医療インフレーション（Medical inflation）：個人プランおよび団体プランの両方で経験される医療費請求コストの一貫した上昇傾向です。請求コストの上昇は、医療費の値上げおよびサービス利用率の増加に関連しています。\n\n感染症の流行・パンデミックが一般人口に与える影響：世界がCovid-19の甚大な影響とその結果（新しいワクチン開発や政府による義務的規則を含む）を経験したことを踏まえ、保険者は医療保険の価格設定において、一般人口の健康状態の変化とそれが医療保険請求に与える潜在的影響を考慮し始めています。\n\n給付範囲（Scope of benefits covered）：一つの保険証券で複数の給付を提供することは、顧客にとって魅力的な商品を作る方法の一つです。しかし、この戦略には代償が伴い、各給付の追加は実際に保険者が請求する最終保険料を引き上げます。\n\n保険者の利益（Insurer's profit）：保険者は事業から利益を得ることを主要な目的として市場に参入します。商品の価格設定において、保険者は保険料に利益マージンを加算します。\n\n保険料の支払方法（Modes of premium payment）：保険料の支払頻度として以下があります。\n・年払い（Annually）- 年1回\n・半年払い（Bi-annually）- 年2回\n・四半期払い（Quarterly）- 3ヶ月に1回\n・月払い（Monthly）- 月1回\n\n保険料率設定のパラメータ：年齢、性別、健康状態、生活習慣、職業、継続率、ポートフォリオの請求経験、請求実績に基づく価格設定、団体加入率。各パラメータに基づく保険料の違いの詳細については教科書本文を参照してください。"
                 }
               ]
             }
@@ -8491,7 +8491,7 @@
             {
               "num": "3.1",
               "text": "This Notice comprises the following: Part I – Mandatory Requirements made up of: Division 1: General Requirements For A&H Policies – No direct insurer should use the word “Shield” when naming A&H policy, unless that policy is a Medisave-approved policy. Division 1A: Disclosure Requirements For A&H Policies – This covers the following: (a) General information about the A&H insurance intermediary (including its business name under which it conducts its insurance business, its business address and its telephone number) and status of an A&H insurance representative (including his name, the A&H insurance intermediary or intermediaries for which he acts); (b) Remuneration of the A&H insurance intermediary; (c) Conflict of interest; (d) Disclosure when providing advice, including: (i) nature and objective of the policy; (ii) details of the insurer; (iii) contractual rights and obligations; (iv) benefits of the policy; 13. Notice No: MAS 120 – Disclosure and Advisory Process Requirements for Accident and Health Insurance Products (v) risks of the policy; (vi) provision on free-look period of the policy; (vii) claim on termination; (viii) warnings, exclusions and disclaimers; (e) Provisions and explanations of any benefit illustration, product summary, and group policy under A&H policies; (f) Marketing material; and (g) Telemarking and direct marketing. Division 2: Disclosure Requirements For Life Policies That Contain A&H Benefits – This specifies the regulatory requirements by an A&H insurance intermediary and an A&H insurance representative of a licensed or exempt financial adviser, when providing advice and/or arrange life policies containing A&H benefits. Division 3: Additional Disclosure Requirements For Direct Insurers – This covers: (a) meeting the industry standards on the preparation of a benefit illustration or a product summary in respect of a policy that the direct insurer underwrites; (b) disclosure of relevant information in the respective documents for every Integrated Shield Plan (IP) or non-IP; (c) required font size (Times New Roman 10-point or larger) for product summary, statement, conditional offer letter or termination letter with standardised relevant statement of disclosures for any individual Medical Expense Insurance policy, as well as any A&H policy not being Medisave-approved policy; and (d) disclosing and explaining the policy terms, including any addition, amendment or variation to be made in writing to the policy owner, at least 30 days before taking effect. Division 4: Requirements On Provision Of Advice Relating To A&H Policies – This specifies that an A&H insurance intermediary who provides health policies to policy owners must comply with the requirements relating to the following aspects: (a) Reasonable basis for providing advice; (b) “Know-Your-Client”; (c) Needs analysis; (d) Documentation and record keeping; and (e) Switching of A&H Insurance policies. This Division shall not apply: (i) in circumstances where no recommendation is made, or where only factual information is provided with respect to any health policy; or (ii) to any advice provided in respect of any ElderShield policy. Division 5: Requirements On Provision Of Advice Relating To Life Policies That Contain A&H Benefits – This requires any A&H insurance intermediary or A&H insurance representative who is licensed or exempt financial adviser to comply with requirements relating to recommendations and provisions of advice as set out in the Financial Advisers Act 2001 and its notices issued, including Notice No: MAS 120. Division 6: Offences Relating To This Part – This specifies that any person who fails to comply with any requirement under any relevant paragraph of Notice No: MAS 120 shall be guilty of an offence punishable under Section 142(3) of the Insurance Act 1966. Part II – Non-mandatory Best Practice Standards (1) Information Disclosure & Provision Of Advice – This specifies that an A&H insurance intermediary is expected to meet disclosures of all product and marketing information given to policy owners. (2) Monitoring Of Switching For Long-Term A&H Policies – This requires the A&H insurance intermediary should ensure that the policy owner declares in writing whether he had been advised by the A&H insurance representative to switch policy.",
-              "textJP": "この通達は以下の内容で構成されています。パートI（強制要件）：区分1：A&H保険証券に関する一般要件 – 直接保険者は、当該保険証券がMedisave（メディセーブ）承認保険証券でない限り、A&H保険証券の名称に「Shield」という単語を使用してはなりません。区分1A：A&H保険証券に関する開示要件 – これはA&H保険仲介業者に関する一般情報（業務上の商号、業務所在地等）を含みます。区分2：A&H保険証券に関するアドバイザリー要件 – A&H保険証券および生命保険証券のA&H給付のいずれかを客に推薦する際の要件と、当該保険証券または給付を受け取る客への要件を定めています。パートII（ベストプラクティス基準）はパートIの強制要件を補完するものです。"
+              "textJP": "この通達は以下の内容で構成されています。\n\nパートI — 強制要件（Mandatory Requirements）：\n\n区分1：A&H保険証券に関する一般要件 — 直接保険者は、当該保険証券がMedisave（メディセーブ）承認保険証券でない限り、A&H保険証券の名称に「Shield」という単語を使用してはなりません。\n\n区分1A：A&H保険証券に関する開示要件 — 以下の事項を規定しています：(a) A&H保険仲介業者に関する一般情報（業務上の商号、業務所在地、電話番号）およびA&H保険代理人の地位（氏名、所属する仲介業者）、(b) A&H保険仲介業者の報酬、(c) 利益相反、(d) 助言提供時の開示事項（保険証券の性質と目的、保険者の詳細、契約上の権利義務、給付内容、リスク、クーリングオフ期間の規定、解約時の請求、警告・除外事項・免責条項を含む）、(e) 給付説明書・商品概要・団体保険証券に関する規定と説明、(f) マーケティング資料、(g) テレマーケティングおよびダイレクトマーケティング。\n\n区分2：A&H給付を含む生命保険証券に関する開示要件 — 認可または免除された金融アドバイザーのA&H保険仲介業者およびA&H保険代理人が、A&H給付を含む生命保険証券について助言を提供し、または手配する際の規制要件を規定しています。\n\n区分3：直接保険者に対する追加開示要件 — 以下を規定しています：(a) 直接保険者が引き受ける保険証券の給付説明書または商品概要の作成に関する業界基準の充足、(b) すべてのIntegrated Shield Plan（IP）または非IPに関する関連情報の開示、(c) 個人医療費保険証券およびMedisave非承認のA&H保険証券の商品概要・明細書・条件付き申出書・解約通知に必要なフォントサイズ（Times New Roman 10ポイント以上）と標準化された開示文言、(d) 保険契約条件（追加・修正・変更を含む）を保険契約者に対し発効の少なくとも30日前に書面で開示・説明すること。\n\n区分4：A&H保険証券に関する助言提供の要件 — A&H保険仲介業者が保険契約者に医療保険証券を提供する際に以下の事項を遵守することを規定しています：(a) 助言提供の合理的根拠、(b) 顧客を知る義務（Know-Your-Client）、(c) ニーズ分析、(d) 文書化と記録保管、(e) A&H保険証券の乗換え。本区分は、推奨がなされない場合または事実情報のみが提供される場合、およびElderShield保険証券に関する助言には適用されません。\n\n区分5：A&H給付を含む生命保険証券に関する助言提供の要件 — 認可または免除された金融アドバイザーであるA&H保険仲介業者またはA&H保険代理人は、Financial Advisers Act 2001およびNotice No: MAS 120を含むその通達に定められた推奨および助言提供に関する要件を遵守しなければなりません。\n\n区分6：本パートに関連する違反 — Notice No: MAS 120の関連条項に基づく要件を遵守しない者は、Insurance Act 1966の第142条第3項に基づき処罰される犯罪を犯したものとなります。\n\nパートII — 非強制ベストプラクティス基準：\n(1) 情報開示と助言提供 — A&H保険仲介業者は、保険契約者に提供するすべての商品情報およびマーケティング情報の開示基準を満たすことが求められます。\n(2) 長期A&H保険証券の乗換え監視 — A&H保険仲介業者は、保険契約者がA&H保険代理人から保険証券の乗換えを勧められたかどうかを書面で申告させるべきです。"
             },
             {
               "num": "3.2",
