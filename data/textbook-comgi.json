@@ -2112,7 +2112,24 @@
         "know what Products Liability Insurance is all about",
         "understand the scope of cover, policy provisions and conditions, underwriting information required, exclusions, extensions and claims of Products Liability Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "コモンローおよび制定法に基づく各種賠償責任を特定する",
+        "労災補償保険とは何かを知る",
+        "雇用主の従業員に対する法的責任がどのように生じるかを知る",
+        "コモンローに基づいて雇用主を訴えるために従業員が証明すべき事項を理解する",
+        "Work Injury Compensation Act 2019に基づき「従業員」とみなされる者とみなされない者を特定する",
+        "同法に基づく従業員の「稼得額」の構成を知る",
+        "雇用の過程における事故の性質を知る",
+        "雇用主が同法に基づいて提供すべき給付を知る",
+        "一時的および永久的な就労不能に対して支払われる補償額の算出方法を理解する",
+        "同法に基づく従業員の「親族」の定義を知る",
+        "同法に基づく死亡補償の計算方法を理解する",
+        "労災補償保険の補償範囲、保険証券の規定と条件、必要な引受情報、保険証券その他の書類を理解する",
+        "公衆賠償責任保険とは何かを知る",
+        "公衆賠償責任保険の補償範囲、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "製造物賠償責任保険とは何かを知る",
+        "製造物賠償責任保険の補償範囲、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する"
+      ],
       "sections": [
         {
           "id": "ch3-s1",
@@ -3876,7 +3893,23 @@
         "understand the scope of cover and exclusions of Motor Trade (Internal Risks) Insurance",
         "know what a Combined Road and Internal Risks Insurance is all about"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "シンガポールにおける強制自動車保険に関する法的要件を理解する",
+        "商業用自動車保険の必要性を知る",
+        "シンガポールの保険者が販売する4つの主な商業用自動車保険補償を理解する：法定責任のみ、第三者のみ、第三者・火災・盗難、総合",
+        "商業用自動車保険の各書類の目的と機能を理解する：申込書、保険証書、保険証券、カバーノート",
+        "商業用自動車保険とは何かを知る",
+        "商業用自動車保険の補償範囲、保険証券の規定と条件、免責事項、拡張担保、必要な引受情報、請求手続きを理解する",
+        "Motor Claims Framework（MCF）とは何かを知る",
+        "自動車フリート保険とは何かを知る",
+        "自動車フリートの料率算定方法を理解する",
+        "自動車フリート保険の必要性を理解する",
+        "自動車整備業保険とは何かを知る",
+        "自動車整備業保険の必要性を理解する",
+        "自動車整備業（道路リスク）保険の補償範囲、免責事項、拡張担保を理解する",
+        "自動車整備業（構内リスク）保険の補償範囲と免責事項を理解する",
+        "道路リスクと構内リスクの複合保険とは何かを知る"
+      ],
       "sections": [
         {
           "id": "ch4-s1",
@@ -5008,7 +5041,36 @@
         "know the coverage and underwriting information required for Energy Insurance",
         "know what Aviation Insurance is all about"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "海上貨物保険とは何かを知る",
+        "船舶の種類と運搬する貨物の性質を知る",
+        "船舶の各部を知る",
+        "海上貨物保険の必要性を理解する",
+        "海上貨物保険契約の潜在的な当事者を知る",
+        "以下のインコタームズの目的と機能を知る：FOB、CIF、CFR",
+        "MARフォームに含まれる情報を列挙する",
+        "以下の貨物約款の補償範囲と免責事項を簡潔に説明する：ICC A、ICC B、ICC C",
+        "海上貨物保険証券の各種類を知る：航海保険証券、期間保険証券",
+        "オープンカバーとその仕組みを知る",
+        "海上カバーノートの目的を理解する",
+        "海上貨物保険の引受に必要な一般的な引受情報を簡潔に説明する",
+        "海上貨物保険の請求時に被保険者がとるべき措置を知る",
+        "海上貨物保険の請求時に必要な書類を列挙する",
+        "海上船体保険とは何かを知る",
+        "海上船体保険の必要性を理解する",
+        "海上船体保険契約の当事者を知る",
+        "海上船体保険の補償範囲、補償期間、必要な引受情報を理解する",
+        "以下の意味を知る：現実全損、推定全損、分損、救助費用",
+        "建造リスク保険とは何かを知る",
+        "建造リスク保険の主な免責事項と必要な引受情報を理解する",
+        "海上賠償責任保険を知り、各種海上賠償責任保険を列挙する",
+        "船舶修理業者賠償責任保険の補償範囲と必要な引受情報を知る",
+        "用船者賠償責任保険の補償範囲と必要な引受情報を知る",
+        "港湾当局賠償責任保険の補償範囲と必要な引受情報を知る",
+        "荷役業者賠償責任保険の補償と必要な引受情報を理解する",
+        "エネルギー保険の補償と必要な引受情報を知る",
+        "航空保険とは何かを知る"
+      ],
       "sections": [
         {
           "id": "ch5-s1",
@@ -6195,7 +6257,21 @@
         "General Structure Of A Bond",
         "Calling (Claiming) On Bonds"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "建設工事総合保険（CAR保険）",
+        "組立工事総合保険（EAR保険）",
+        "リフト・クレーン・荷役機器の保険",
+        "ボイラー・圧力容器保険",
+        "機械故障保険",
+        "機械故障利益損失保険",
+        "保険ボンドとは？",
+        "ボンドの種類",
+        "ボンドが使われる理由",
+        "ボンドの引受",
+        "ボンドの一般的な構成",
+        "ボンドの呼出（請求）"
+      ],
       "learningOutcomes": [
         "know what Contractors’ All Risks (CAR) Insurance is all about",
         "know the parties to the CAR Insurance contract",
@@ -6238,7 +6314,48 @@
         "list the possible reasons for the contractor/client not being able to perform in accordance with the contract",
         "explain what a Novation Agreement is and its purpose"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "建設工事総合保険（CAR保険）とは何かを知る",
+        "CAR保険契約の当事者を知る",
+        "CAR保険の必要性を簡潔に説明する",
+        "CAR保険証券に基づいて付保される各種財産を列挙する",
+        "2種類のCAR保険証券を理解する：特定プロジェクト保険証券、年間保険証券",
+        "CAR保険の補償範囲、補償期間、必要な引受情報を理解する",
+        "契約工事に関連するその他の補償を概説する：プロジェクト専門家賠償責任、労災補償保険等",
+        "組立工事総合保険（EAR保険）とは何かを知る",
+        "EAR保険証券とCAR保険証券を区別する",
+        "EAR保険の必要性を簡潔に説明する",
+        "EAR保険契約の当事者を知る",
+        "EAR保険の補償範囲を理解する",
+        "試運転リスクの補償を理解する",
+        "EAR保険の補償期間を知る",
+        "CARおよびEAR保険の拡張担保を簡潔に説明する",
+        "CARおよびEAR保険の請求処理・精算手続きを簡潔に説明する",
+        "リフト・クレーン・荷役機器の保険とは何かを知る",
+        "ボイラー・圧力容器保険とは何かを知る",
+        "ボイラー・圧力容器保険の必要性を簡潔に説明する",
+        "ボイラー・圧力容器保険契約の当事者を知る",
+        "ボイラー・圧力容器保険の補償範囲、補償期間、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "以下の意味を知る：プラント、爆発、崩壊",
+        "機械故障保険とは何かを知る",
+        "機械故障保険の必要性を理解する",
+        "機械故障保険契約の当事者を知る",
+        "機械故障保険証券に基づいて補償される各種財産を列挙する",
+        "機械故障保険の補償範囲、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "在庫品劣化保険の補償と一般的な免責事項を理解する",
+        "機械故障利益損失保険の目的と補償範囲を知る",
+        "保険ボンドとは何かを知る",
+        "ボンドの3当事者間の関係を簡潔に示す",
+        "一般的に発行されるボンドの種類を簡潔に説明する：前払金ボンド、入札ボンド、信用ボンド、保証ボンド等",
+        "発注者と請負業者/顧客がボンドを好む理由を概説する",
+        "ボンドの引受における通常の慣行を列挙する",
+        "ボンドの引受に必要な情報の種類を知る",
+        "ボンドの価格設定方法を理解する",
+        "ボンドの文言の一般的な構成を説明する",
+        "ボンドが発行される各種の形式を説明する",
+        "請負業者/顧客が契約どおりに履行できない理由を列挙する",
+        "ノベーション契約とは何か、およびその目的を説明する"
+      ],
       "sections": [
         {
           "id": "ch6-s1",
@@ -7893,7 +8010,13 @@
         "Credit Insurance",
         "Political Risks Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "身元保証保険",
+        "金銭保険",
+        "信用保険",
+        "政治リスク保険"
+      ],
       "learningOutcomes": [
         "know what Fidelity Guarantee Insurance is all about",
         "realise the need for Fidelity Guarantee Insurance",
@@ -7911,7 +8034,23 @@
         "understand the scope of cover, period of cover, policy provisions and conditions, underwriting information required, exclusions, claim procedures and claim documents of Credit Insurance",
         "know the scope of cover and underwriting information required of Political Risks Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "身元保証保険とは何かを知る",
+        "身元保証保険の必要性を理解する",
+        "身元保証保険契約の当事者を知る",
+        "身元保証保険証券の各種類を知る",
+        "身元保証保険の補償範囲、補償期間、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "犯罪保険の補償と、犯罪保険と身元保証保険の主な違いを理解する",
+        "金銭保険とは何かを知る",
+        "金銭保険の必要性を理解する",
+        "金銭保険の補償範囲、補償期間、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "信用保険とは何かを知る",
+        "信用保険の必要性を理解する",
+        "信用保険契約の当事者を知る",
+        "市場で提供される信用保険証券の種類を列挙する",
+        "信用保険の補償範囲、補償期間、保険証券の規定と条件、必要な引受情報、免責事項、拡張担保、請求条件を理解する",
+        "政治リスク保険の補償範囲と必要な引受情報を知る"
+      ],
       "sections": [
         {
           "id": "ch7-s1",
@@ -8676,7 +8815,14 @@
         "Underwriting Information Required",
         "Claims"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "外国人労働者医療保険",
+        "保証金に対する保険者の保証状",
+        "保険証券の条件",
+        "必要な引受情報",
+        "請求"
+      ],
       "learningOutcomes": [
         "know the employer’s responsibility for employing foreign workers",
         "know the compulsory Medical Insurance coverage provided by the majority of Foreign Worker Medical Insurance policies, and the exclusions applicable",
@@ -8684,7 +8830,13 @@
         "identify the policy conditions and underwriting information required for Foreign Worker Medical Insurance",
         "know the claim procedure of Foreign Worker Medical Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "外国人労働者の雇用に関する雇用主の責任を知る",
+        "外国人労働者医療保険の大半が提供する強制的な医療保険補償とその追加給付を知る",
+        "保証金に対する保険者の保証状の機能を理解する",
+        "外国人労働者医療保険の保険証券の条件と必要な引受情報を特定する",
+        "外国人労働者医療保険の請求手続きを知る"
+      ],
       "sections": [
         {
           "id": "ch8-s1",
@@ -9103,7 +9255,17 @@
         "Claims",
         "Corporate Travel Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "団体傷害保険とは？",
+        "団体定期生命保険との違い",
+        "事故の定義",
+        "補償の範囲",
+        "保険証券の規定と条件",
+        "必要な引受情報",
+        "免責事項",
+        "請求",
+        "企業旅行保険"
+      ],
       "learningOutcomes": [
         "know what Group Personal Accident (GPA) Insurance is all about",
         "understand why GPA Insurance is a benefit policy",
@@ -9113,7 +9275,15 @@
         "understand the various claim documents and procedure of GPA Insurance",
         "know the scope of cover, benefits and exclusions of Corporate Travel Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "団体傷害保険（GPA保険）とは何かを知る",
+        "GPA保険がなぜ給付保険であるかを理解する",
+        "GPA保険と生命保険の主な違いを特定する",
+        "GPA保険証券における「事故」の意味を理解する",
+        "GPA保険の補償範囲、給付（事故死亡、全部永久障害、一時的全部障害、医療費等）、保険証券の規定と条件、必要な引受情報、免責事項を理解する",
+        "GPA保険の各種請求書類と手続きを理解する",
+        "企業旅行保険の補償範囲、給付、免責事項を知る"
+      ],
       "sections": [
         {
           "id": "ch9-s1",

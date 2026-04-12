@@ -1731,7 +1731,16 @@
         "know the basis of claims settlement under a Valuable Articles Insurance policy",
         "understand the common conditions, underwriting considerations, and claims documents of a Valuable Articles Insurance policy"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "財産とは何かを定義する",
+        "利用可能な個人財産保険の種類を知る：建物保険、家財保険、建物・家財総合保険",
+        "保険者が提供するパッケージ型住宅保険証券に基づく一般的な補償セクションを理解する：建物、家財、個人賠償責任等",
+        "パッケージ型住宅保険証券の一般的な免責事項、保険証券の条件、引受上の考慮事項を理解する",
+        "住宅保険証券に基づく請求を裏付けるために被保険者に求められる各種請求書類を論じる",
+        "貴重品保険証券の特徴、補償範囲、免責事項を認識する",
+        "貴重品保険証券に基づく請求精算の基準を知る",
+        "貴重品保険証券の一般的な条件、引受上の考慮事項、請求書類を理解する"
+      ],
       "sections": [
         {
           "id": "ch2-s1",
@@ -2853,7 +2862,17 @@
         "know when PA Insurance terminates",
         "know the various claim documents to be submitted for PA Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "個人傷害（PA）保険の目的とそれが給付保険である理由を理解する",
+        "PA保険と生命保険の主な違いを特定する",
+        "PA保険証券における「事故」の一般的な定義とその法的意義を理解する",
+        "PA保険の補償範囲を理解する",
+        "PA保険に関する地理的制限と年齢制限を知る",
+        "家族PA保険証券の必要性を理解する",
+        "PA保険に適用される免責事項、拡張担保、保険証券の条件、引受上の考慮事項を知る",
+        "PA保険がいつ終了するかを知る",
+        "PA保険の請求に提出すべき各種請求書類を知る"
+      ],
       "sections": [
         {
           "id": "ch3-s1",
@@ -3729,7 +3748,12 @@
         "know the basic sections of cover provided by most Travel Insurance policies including: - Personal Accident Benefits - Medical and Associated Expenses - Other Inconvenience Benefits - Terrorism Cover",
         "know the types of claim documents required from the insured to substantiate a claim under a Travel Insurance policy"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "利用可能な旅行保険補償の種類を知る",
+        "旅行保険の年齢制限、保険提供者、補償範囲、拡張担保、免責事項、保険証券の自動延長、保険証券の条件、引受上の考慮事項を理解する",
+        "大半の旅行保険証券が提供する基本的な補償セクションを知る：傷害給付、医療費、旅行の不便に対する補償、手荷物・個人所持品、個人賠償責任等",
+        "旅行保険証券に基づく請求を裏付けるために被保険者に求められる請求書類の種類を知る"
+      ],
       "sections": [
         {
           "id": "ch4-s1",
@@ -4562,7 +4586,14 @@
         "understand the need for Personal Mobility Insurance",
         "know the claim documents that are required from the insured to substantiate a claim under Personal Liability Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "法律上の賠償責任がどのように生じるかを理解する",
+        "過失の定義とそれがどのように立証されるかを理解する",
+        "無過失責任（絶対責任）と使用者責任の意味を理解する",
+        "個人賠償責任保険の補償範囲、免責事項、拡張担保、保険証券の条件、引受上の考慮事項を理解する",
+        "パーソナルモビリティ保険の必要性を理解する",
+        "個人賠償責任保険に基づく請求を裏付けるために被保険者に求められる請求書類を知る"
+      ],
       "sections": [
         {
           "id": "ch5-s1",
@@ -4992,7 +5023,27 @@
         "know when a Hospital Cash Insurance cover terminates",
         "know the various claim documents of Hospital Cash (Income) Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "重大疾病保険の目的を知る",
+        "重大疾病フレームワーク2019と新しい定義に基づく保険契約者への利点を理解する",
+        "重大疾病保険に基づく給付と給付の支払適格基準を理解する",
+        "重大疾病保険の特徴を説明する",
+        "各種の重大疾病保険の補償とその仕組みを説明する",
+        "前払給付型と追加給付型の重大疾病保険の違いを理解する",
+        "重大疾病保険のその他のバリエーションとそれぞれの利点を説明する",
+        "重大疾病保険に適用される引受上の考慮事項を理解する",
+        "重大疾病保険の補償の十分性を判断するための考慮要因を知る",
+        "重大疾病保険証券の一般的な免責事項を理解する",
+        "重大疾病保険の補償がいつ終了するかを知る",
+        "重大疾病保険の請求に提出すべき書類を説明する",
+        "入院日額（入院所得）保険の目的を知る",
+        "入院日額保険証券の仕組み（給付の計算方法を含む）を理解する",
+        "入院日額保険証券に基づく請求が認められる前に満たすべき条件を知る",
+        "入院日額保険の特徴と種類を理解する",
+        "入院日額保険の引受上の考慮事項と免責事項を理解する",
+        "入院日額保険の補償がいつ終了するかを知る",
+        "入院日額保険の各種請求書類を知る"
+      ],
       "sections": [
         {
           "id": "ch6-s1",
@@ -5975,7 +6026,19 @@
         "understand the underwriting considerations of Golfer’s Insurance",
         "know the types of claim documents that the insured will be required to submit under a Golfer’s Insurance policy"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "外国人家事労働者の雇用に関する法的要件を知る",
+        "外国人家事労働者の雇用に関する保険要件を理解する：保証金、傷害保険、医療保険",
+        "外国人家事労働者保険証券の大半が提供する補償範囲を知る",
+        "保証金に対する保険保証の機能を理解する",
+        "外国人家事労働者保険に適用される免責事項、拡張担保、保険証券の条件、引受上の考慮事項を特定する",
+        "外国人家事労働者保険証券に基づいて被保険者が提出すべき一般的な請求書類を知る",
+        "ゴルファー保険の必要性を理解する",
+        "ゴルファー保険証券が提供する補償範囲を知る",
+        "大半のゴルファー保険証券に適用される一般的な免責事項、拡張担保、保険証券の条件を特定する",
+        "ゴルファー保険の引受上の考慮事項を理解する",
+        "ゴルファー保険証券に基づいて被保険者が提出すべき請求書類の種類を知る"
+      ],
       "sections": [
         {
           "id": "ch7-s1",
