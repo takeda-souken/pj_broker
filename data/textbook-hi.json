@@ -7433,7 +7433,7 @@
                 {
                   "num": "3.4",
                   "text": "The proposal form asked questions on the medical history of the life insured. An underwriter may require more information on the declared medical conditions. For example, if the proposer states that he is receiving treatment for high blood pressure, the underwriter may ask for an attending physician’s statement detailing the blood pressure readings, medication prescribed and the degree of control achieved. The underwriter may also ask for a current blood pressure reading.",
-                  "textJP": "申込書には被保険者の病歴に関する質問があります。引受人は申告された疾患についてさらに情報を要求する場合があります。例えば、申込者が高血圧の治療を受けていると述べた場合、引受人は主治医の報告書（APS）を要求し、治療状況や状態が管理されているかどうかを確認することがあります。"
+                  "textJP": "申込書には被保険者の病歴に関する質問があります。引受人は申告された疾患についてさらに情報を要求する場合があります。例えば、申込者が高血圧の治療を受けていると述べた場合、引受人は血圧の数値、処方された薬、治療のコンプライアンス、および状態が管理されているかどうかの詳細を含む主治医の報告書（APS）を要求する場合があります。"
                 },
                 {
                   "num": "3.5",
@@ -7448,7 +7448,7 @@
                 {
                   "num": "3.7",
                   "text": "Latent complications, or the deterioration of an existing impairment is possible with many conditions. For example, overweight, tiredness and elevated blood pressure, while normally not high risk on its own, are considered indicators of a higher future incidence of cardiovascular impairment or an undetected diabetes where the proposer is already at a prediabetic level.",
-                  "textJP": "多くの疾患では、潜在的な合併症や既存の障害の悪化が起こり得ます。例えば、過体重、疲労、血圧の上昇は、それ自体では通常高リスクではありませんが、将来の心血管障害や未診断の糖尿病の発生率が高いことの指標と考えられます。"
+                  "textJP": "多くの疾患では、潜在的な合併症や既存の障害の悪化が起こり得ます。例えば、過体重、疲労、血圧の上昇は、それ自体では通常高リスクではありませんが、将来の心血管障害や未診断の糖尿病の発生率が高いことの指標と考えられ、申込者は既により高いリスク段階にあるとみなされます。"
                 }
               ]
             },
@@ -7461,7 +7461,7 @@
                 {
                   "num": "3.8",
                   "text": "The life insured’s statements on a proposal form and medical examination results are the first indicators of present physical conditions. Additional tests and studies, e.g. urinalysis, blood studies, fasting glucose, cognitive assessments and electrocardiograms (ECGs), may be required, depending on the age of the life insured and the amount of insurance coverage applied for.",
-                  "textJP": "申込書における被保険者の申告および健康診断の結果は、現在の身体的状態の最初の指標です。年齢や保険金額に応じて、尿検査、血液検査、空腹時血糖、認知評価、心電図（ECG）などの追加検査が必要となる場合があります。"
+                  "textJP": "申込書における被保険者の申告および健康診断の結果は、現在の身体的状態の最初の指標です。被保険者の年齢および付保される保険金額に応じて、尿検査、血液検査、空腹時血糖、認知評価、心電図（ECG）などの追加検査が必要となる場合があります。"
                 }
               ]
             },
@@ -7497,7 +7497,7 @@
                 {
                   "num": "3.12",
                   "text": "To determine whether the Disability Income benefit is justifiable, the underwriter must consider the life insured’s income, both earned and unearned (e.g. from investments), as well as the net worth. A high net worth is significant, even if the proposer’s assets are not producing substantial investment income at the time of underwriting. Assets can be shifted to income generating investments if the insured becomes disabled, and the resulting income combined with disability insurance benefits can lessen the insured’s incentive to return to work.",
-                  "textJP": "障害所得給付が正当であるかどうかを判断するために、引受人は被保険者の勤労所得および不労所得（例：投資からの所得）、ならびに純資産を考慮しなければなりません。申込者の資産が相当な投資収益を生んでいなくても、高い純資産は重要です。"
+                  "textJP": "障害所得給付が正当であるかどうかを判断するために、引受人は被保険者の勤労所得および不労所得（例：投資からの所得）、ならびに純資産を考慮しなければなりません。申込者の資産が引受時点で相当な投資収益を生んでいなくても、高い純資産は重要です。資産はいつでも清算して生活費を賄うことができるためです。引受人は、雇用契約に基づく医療給付や既存の保険補償も考慮します。"
                 }
               ]
             },
@@ -7515,7 +7515,7 @@
                 {
                   "num": "3.14",
                   "text": "Some occupations, such as painters engaged to paint the exterior of tall buildings, or persons working with heavy machinery in manufacturing plants have higher risks of accidental injuries, thereby increasing the probability of disability or hospitalisation. Occupations involving the handling of asbestos products have a higher risk of health hazard over time, as it can lead to asbestosis.1",
-                  "textJP": "高層ビルの外壁塗装に従事する塗装工や、製造工場で重機を扱う者などの一部の職業は、事故による傷害のリスクが高く、障害や入院の可能性が高まります。アスベストや化学物質を扱う職業は、健康上の危険が高いです。"
+                  "textJP": "高層ビルの外壁塗装に従事する塗装工や、製造工場で重機を扱う者などの一部の職業は、事故による傷害のリスクが高く、障害や入院の可能性が高まります。アスベスト製品を扱う職業は、健康上の危険が高いリスクを有し、それにより将来の重大疾病の発生確率が高くなります。"
                 }
               ]
             },
@@ -7528,7 +7528,7 @@
                 {
                   "num": "3.15",
                   "text": "Medical problems tend to increase with age. Hence, the underwriting guidelines call for more requirements on medical examinations/tests and attending physicians’ statements for older proposers. The underwriter may also be investigating the medical histories of older life insureds more thoroughly, because of the increased possibility of related problems that may not be reflected in their proposal forms.",
-                  "textJP": "医学的問題は年齢とともに増加する傾向があります。したがって、引受ガイドラインでは、高齢の申込者に対して健康診断/検査および主治医の報告書の要件がより多く求められます。引受人はまた、高齢の被保険者の病歴をより徹底的に調査する場合があります。"
+                  "textJP": "医学的問題は年齢とともに増加する傾向があります。したがって、引受ガイドラインでは、高齢の申込者に対して健康診断/検査および主治医の報告書の要件がより多く求められます。引受人はまた、関連する問題の可能性が高まることから、高齢の被保険者の病歴をより徹底的に調査する場合があります。"
                 }
               ]
             },
@@ -7554,7 +7554,7 @@
                 {
                   "num": "",
                   "text": "(a) Avocation And Lifestyle Risks Avocation and lifestyle risks are those which are associated with higher probabilities of contracting accidents or illnesses. Engagements in the following activities are considered to be lifestyle risks: (i) drug abuse; (ii) multiple sexual partners; (iii) navigational recreational activity; (iv) hazardous occupations; and (v) hazardous sports, such as motor racing, mountaineering, parachuting and scuba diving. Insurers may require the completion of specially designed questionnaires, such as a supplementary lifestyle questionnaire for underwriting (see Appendix 12A). 1 Asbestosis is a disease caused by the inhalation of asbestos fibres and dust which can lead to respiratory failure and other complications. The incidence of carcinoma (cancer) of the lung is also higher for people exposed to asbestos dust. (b) Habits Smoking, alcohol and drug use by the proposer represent serious risks. Either activity can result in significant health problems or cause serious accidents while driving or engaging in leisure activities. This is also known as the Proximate Cause.",
-                  "textJP": "(a) 趣味およびライフスタイルリスク\n趣味およびライフスタイルリスクは、事故や疾病の発生確率が高いものと関連するリスクです。以下の活動への従事はライフスタイルリスクと考えられます：\n(i) 薬物乱用\n(ii) 複数の性的パートナー\n(iii) 危険な海域での航海\n(iv) スカイダイビング、バンジージャンプ、スキューバダイビングなどの危険なスポーツ\n(b) 喫煙\n喫煙は、がん、心臓病、脳卒中などの多くの疾病のリスクを高めます。"
+                  "textJP": "(a) 趣味およびライフスタイルリスク\n趣味およびライフスタイルリスクは、事故や疾病の発生確率が高いものと関連するリスクです。以下の活動への従事はライフスタイルリスクと考えられます：\n(i) 薬物乱用\n(ii) 複数の性的パートナー\n(iii) 航海のレクリエーション活動\n(iv) 危険な職業活動（例：スカイダイビング、バンジージャンプ、スキューバダイビング）\n\n(b) 喫煙\n喫煙は、がん、心臓病、脳卒中などの多くの疾病のリスク要因として広く認識されています。ほとんどの保険者は喫煙者に非喫煙者よりも高い保険料を課しています。喫煙の定義は保険者によって異なりますが、通常、申込日から12ヶ月以内のたばこ製品の使用が含まれます。一部の保険者はニコチン検査を引受要件として求める場合があります。"
                 }
               ]
             },
@@ -7580,7 +7580,7 @@
                 {
                   "num": "3.18",
                   "text": "When assessing Medical Expense Insurance, the medical history and the current physical condition of the life insured are the basic indicators of the probability of future health problems that may result in medical expenses for hospitalisation and treatment. Those with pre-existing conditions will usually have the condition excluded from coverage by the insurer. For example, the insurer will exclude all conditions relating to the heart for any proposer with hypertension (or high blood pressure).",
-                  "textJP": "医療費保険を評価する際、病歴および被保険者の現在の身体的状態は、入院および治療のための医療費につながる可能性のある将来の健康問題の蓋然性の基本的な指標です。既存の病態を有する者は通常、引受条件に制約が課されます。"
+                  "textJP": "医療費保険を評価する際、病歴および被保険者の現在の身体的状態は、入院および治療のための医療費につながる可能性のある将来の健康問題の蓋然性の基本的な指標です。既存の病態を有する者は通常、その状態が補償から除外されるか、引受時に追加保険料が課されます。補償は保険者のリスク評価に基づいて、保険料が手頃であり、申込者が保険者の引受基準を満たす場合に付与されます。"
                 }
               ]
             },
@@ -7593,7 +7593,7 @@
                 {
                   "num": "3.19",
                   "text": "The size and stability of the life insured’s earnings and his overall financial situation are important factors for underwriting Disability Income Insurance. A minor accident or illness may result in a disability for some people because of the nature of their work. For example, a throat infection may result in a singer having to cancel his show, and thus, disrupting his flow of earnings. To evaluate the occupational risks more accurately, insurers use occupational risk classifications to determine occupational risks and loadings. Details of the various types of occupational risk classifications can be found in Chapter 4 of this Study Text.",
-                  "textJP": "被保険者の稼得額の規模と安定性、および全般的な財務状況は、障害所得保険の引受における重要な要因です。一部の人にとっては、業務の性質上、軽度の事故や疾病が障害につながる可能性があります。例えば、喉の感染症は歌手にとっては障害になり得ますが、会計士にとってはそうではありません。"
+                  "textJP": "被保険者の稼得額の規模と安定性、および全般的な財務状況は、障害所得保険の引受における重要な要因です。一部の人にとっては、業務の性質上、軽度の事故や疾病でも障害につながる可能性があります。例えば、喉の感染症は歌手にとっては公演ができなくなる障害になり得ますが、会計士にとってはそうではなく勤務を継続できます。したがって、引受人は申込者の職業、稼得額の安定性、既存の保険補償を総合的に考慮して、障害所得保険の補償額および条件を評価します。"
                 }
               ]
             },
@@ -7606,7 +7606,7 @@
                 {
                   "num": "3.20",
                   "text": "The two key factors for underwriting Long-Term Care Insurance (LTC) are the detection of any early cognitive impairment and morbidity risk. Cognitive impairment can prolong LTC claims. This is why some insurers require the life insured to undergo cognitive assessment during the underwriting stage. The second factor is assessing the morbidity risk of an individual. This means the chance of a person suffering any physical disability which will affect the individual’s ability to perform his activities of daily living. Some conditions which may not be significant in the assessment of a mortality risk will be critical for a LTC risk. For example, any musculoskeletal condition will be a potential risk for LTC coverage.",
-                  "textJP": "長期介護保険（LTC）の引受における2つの主要な要因は、初期の認知障害の検出と罹患リスクです。認知障害はLTCの請求を長期化させる可能性があります。このため、一部の保険者は引受段階で被保険者に認知評価を受けることを求めます。"
+                  "textJP": "長期介護保険（LTC）の引受における2つの主要な要因は、初期の認知障害の検出と罹患リスクです。認知障害はLTCの請求を長期化させる可能性があります。このため、一部の保険者は引受段階で被保険者に認知評価を受けることを求めます。第2の要因は、申込者が請求を行う確率の観点から罹患リスクを評価することです。年齢、既存の疾病、家族歴、生活習慣などが考慮されます。これらの要因は、保険者がLTC補償に対して適切な保険料を課し、適切な引受条件を設定するのに役立ちます。"
                 }
               ]
             },
@@ -7873,7 +7873,7 @@
                 {
                   "num": "3.51",
                   "text": "Underwriters are particularly concerned about the level of participation in a contributory plan as members’ participation in such a plan is on a voluntary basis. Insurers normally specify a minimum participation level requirement (e.g. between 70% and 90%) of eligible group members. This is to guard against anti-selection by spreading of risk, as well as to reduce administrative costs, across a wide range of expected mortality within such a group.",
-                  "textJP": "引受人は、メンバーの参加が任意である拠出型プランへの参加率に特に関心を持っています。保険者は通常、適格なグループメンバーの最低参加率要件（例：70%〜90%）を指定します。これは、リスクの分散による逆選択を防ぎ、管理コストを削減するためです。"
+                  "textJP": "引受人は、メンバーの参加が任意である拠出型プランへの参加率に特に関心を持っています。保険者は通常、適格なグループメンバーの最低参加率要件（例：70%〜90%）を指定します。これは、リスクの分散による逆選択を防ぎ、管理コストを分散させるためです。参加率が低い場合、保険者はより高い保険料を課すか、申込を拒否する場合があります。"
                 }
               ]
             },
@@ -7986,7 +7986,7 @@
                 {
                   "num": "4.4",
                   "text": "After the policy is issued, the proposal will form a part of the insurance contract and is used as the basis when a claim is filed. If an insurer determines before the end of the contestable period that there has been a false statement or incomplete disclosure of material information on the proposal form, the insurer may reject the claim and rescind the contract. As such, every proposal form is required by the Insurance Act 1966, to include a warning statement, such as the following, to ensure that the duty of good faith is kept by the insured: “Pursuant to Section 23(5) of the Insurance Act 1966, you are to disclose in this proposal form fully and faithfully, all the facts which you know or ought to know, otherwise nothing may be payable under the policy.”",
-                  "textJP": "保険証券が発行された後、申込書は保険契約の一部を構成し、請求が提出された際の基礎として使用されます。保険者が争訟可能期間の終了前に虚偽の申告または不完全な開示があったと判断した場合、保険者は保険証券を無効にする権利を有します。"
+                  "textJP": "保険証券が発行された後、申込書は保険契約の一部を構成し、請求が提出された際の基礎として使用されます。保険者が争訟可能期間（contestable period）の終了前に、申込書における虚偽の申告または重要な情報の不完全な開示があったと判断した場合、保険者は請求を拒否し保険証券を撤回する権利を有します。争訟可能期間は通常、保険証券の発行日から1年または2年です。争訟可能期間の経過後であっても、詐欺による不実申告が立証された場合、保険者は保険証券の無効を求めることができます。"
                 }
               ]
             },
@@ -7999,7 +7999,7 @@
                 {
                   "num": "4.5",
                   "text": "Although the proposal form can vary for each of the Health Insurance products, it generally contains the information as described below: (i) Identities Of The Contract Parties The insurance contract is between the insurer and the proposer. The header of the proposal form has the name of the insurer, its principal place of business and contact details, so the proposer knows to which insurer he is applying for an insurance policy. The questions contained in the “Particulars of Life To Be Insured (the proposed insured) and Particulars of Proposer” sections serve two purposes:  They distinguish the proposer from the proposed insured. Although the proposed insured and the proposer are normally the same person, in the case of a third-party insurance (for example, a mother applying for insurance for a child), they are not the same person.  They provide relevant information to the underwriting department to assess the risk factors, such as occupation, age and gender. The information determines the eligibility of the person applying for coverage, as well as the correct premium to be charged. (ii) Particulars Of Policy Applied For This section indicates the details of the policy that the proposer is applying for, such as the type of plan and sum insured. (iii) Information On Past Applications & Existing Policies This section is meant for the proposer to state the types of policies that he already has or has applied for, but was postponed or rejected. The proposer also needs to indicate whether he is purchasing this policy to replace an existing policy. (iv) Personal Health Details & Habits Of The Proposed Insured This section provides a detailed description of the proposed insured’s medical history, current physical condition, habits in terms of drug taking, alcohol drinking, as well as family history. (v) Declaration The signatures of the proposer and proposed insured are very important, as they serve a number of purposes as follows:  that the proposer/proposed insured has disclosed all material facts truthfully and faithfully in the proposal form;  that the proposer/proposed insured has not withheld any material facts;  that the proposer/proposed insured is aware that the benefits may be lost if material facts are not disclosed; and  that the proposer/proposed insured agrees and authorises the insurer to release to any medical source or insurance office and vice versa, any information concerning him at any time, regardless of whether the proposal is eventually taken up.",
-                  "textJP": "申込書は各健康保険商品により異なりますが、一般に以下の情報が含まれています：\n(i) 契約当事者の身元：保険契約は保険者と申込者の間のものです。ヘッダーセクションには、申込者および被保険者の個人情報が含まれます。\n(ii) 健康に関する質問：被保険者の病歴および現在の健康状態を開示するための質問です。\n(iii) ライフスタイルに関する質問：喫煙、飲酒、危険なスポーツへの参加などに関する質問です。\n(iv) 申告および承認：申込者が提供した情報が真実かつ完全であることの宣言です。"
+                  "textJP": "申込書は各健康保険商品により異なりますが、一般に以下の情報が含まれています：\n(i) 契約当事者の身元：保険契約は保険者と申込者の間のものです。ヘッダーには保険者名、主たる業務所在地、連絡先が記載されます。申込者セクションには、申込者および被保険者の個人情報（氏名、年齢、性別、NRIC番号、婚姻状況、職業、住所等）が含まれます。\n(ii) 健康に関する質問：被保険者の病歴を開示するための質問です。現在の健康状態、過去の入院・手術歴、処方薬、既知の疾病等について尋ねます。\n(iii) ライフスタイルに関する質問：喫煙、飲酒、危険なスポーツ・趣味への参加、海外渡航歴等に関する質問です。\n(iv) 財務情報：年収、雇用状態、既存の保険補償等。障害所得保険の場合、特に詳細な財務情報が必要です。\n(v) 申告および承認：申込者が提供した情報が真実かつ完全であることの宣言、および保険者が引受のために情報を使用することへの同意です。\n(vi) 受益者の指名：死亡給付の受益者の指定です。"
                 },
                 {
                   "num": "4.6",
@@ -8027,7 +8027,7 @@
                 {
                   "num": "4.9",
                   "text": "An insurance representative who lets the underwriter know of special circumstances of the application, or a special problem (could be medical or financial or other relevant information that assist the underwriter in decision making) not otherwise identified will gain the underwriter’s confidence. Often the insurance representative’s remarks may clarify a situation that is questionable or unclear.",
-                  "textJP": "申込の特別な状況や、申込書では特定されない特別な問題（医学的、財務的、またはその他の引受人の意思決定を支援する関連情報）を引受人に知らせる保険担当者は、引受プロセスに貴重な貢献をしています。"
+                  "textJP": "申込の特別な状況や、申込書では特定されない特別な問題（医学的、財務的、またはその他の引受人の意思決定を支援する関連情報）を引受人に知らせる保険担当者は、引受人の信頼を得ることができます。保険担当者の所見は、引受人の決定に影響を与える場合があり、双方にとって有益です。"
                 }
               ]
             },
@@ -8068,7 +8068,7 @@
                 {
                   "num": "4.14",
                   "text": "An APS is a standard pre-printed form for the attending physician to complete according to his personal knowledge of the proposer, based on the proposer’s medical records. This report is usually required, when the underwriter needs to have a better insight into the proposer’s medical history which is not available from the medical examination.",
-                  "textJP": "APSは、主治医が申込者の医療記録に基づいて、申込者に関する個人的な知識に従って記入する標準的な事前印刷書式です。この報告書は通常、引受人が被保険者の病歴をより深く理解する必要がある場合に要求されます。"
+                  "textJP": "APSは、主治医が申込者の医療記録に基づいて、申込者に関する個人的な知識に従って記入する標準的な事前印刷書式です。この報告書は通常、引受人が健康診断からは得られない被保険者の病歴についてより深い洞察を必要とする場合に要求されます。"
                 }
               ]
             },
@@ -8086,7 +8086,7 @@
                 {
                   "num": "4.16",
                   "text": "Examples of such medical questionnaires are for conditions like blood pressure, asthma, ulcers or diabetes. There is also a financial questionnaire which attempts to elicit information about net worth and unearned (passive) income, or develop information on an insurable interest in a special type of business insurance situation. Supplementary questionnaires are also used to obtain information on participation in hazardous activities, such as aviation, scuba diving, and various forms of racing.",
-                  "textJP": "そのような医学的質問票の例としては、血圧、喘息、潰瘍、糖尿病などの状態に関するものがあります。また、純資産や不労（受動的）所得に関する情報を引き出そうとする財務質問票もあります。"
+                  "textJP": "そのような医学的質問票の例としては、血圧、喘息、潰瘍、糖尿病などの状態に関するものがあります。また、純資産や不労（受動的）所得に関する情報を引き出そうとする財務質問票や、特殊なビジネス保険における被保険利益に関する情報を得るための質問票もあります。補足質問票は、付加保険料の理由やその他の制限の説明を得るために使用されることもあります。"
                 }
               ]
             }
@@ -8179,7 +8179,7 @@
                 {
                   "num": "6.4",
                   "text": "Coverage modification may be an exclusion, an extra premium charge, a change in benefits, reducing the benefit-paying period, increasing the deferred period, or a combination of some of these approaches. (i) Specific Exclusions Exclusions are used as a means of issuing coverage to persons who would otherwise be declined. When an exclusion is imposed, an endorsement is issued to state that the insurer will not pay for any claim arising out of the particular excluded risk, such as from a particular medical problem, e.g. back disorder or an unusually hazardous activity (e.g. motor car racing). The endorsement may be worded to exclude coverage for only a specific disorder, such as “hernia”, or it may exclude an entire system or bodily area, such as “disease or disorder of the stomach or intestines.” The actual wording is determined by the nature and severity of the person’s medical history or impairment, as well as by the insurer’s underwriting philosophy. Specific exclusions are commonly used in Medical Expense Insurance. (ii) Extra Premiums Insurers may charge extra premiums to cover the life insured and this is commonly used in the underwriting of Disability Income Insurance and Critical Illness Insurance. However, it is rarely used in Medical Expense Insurance. (iii) Modification Of Benefits Offered Another method of modification is to change the benefits to something other than what the proposer has requested. These include a reduction in the amount of monthly benefit, a longer deferred period, or shorter benefit period on a Disability Income Insurance policy. Sometimes, modifications are used in conjunction with impositions of extra premiums or exclusions. In fact, some insurers will automatically limit the benefit period on a Disability Income proposer who requires a large extra premium. For instance, an insurer may not issue a benefit period of more than five years to any risk requiring an extra premium of over 50%. Benefits may also be reduced, or expense participation (deductible and co-insurance) increased, to counteract the possible over-utilisation of Medical Expense Insurance policies.",
-                  "textJP": "補償の修正は、除外、追加保険料の賦課、給付の変更、給付支払い期間の短縮、据置期間の延長、またはこれらのアプローチの組み合わせです。\n(i) 特定の除外：除外は、補償から特定の状態や活動を除く手段として使用されます。\n(ii) 追加保険料：リスクが高い場合、標準保険料に追加保険料が課されます。\n(iii) 給付の変更：給付額を減額するか、給付の種類を制限します。"
+                  "textJP": "補償の修正は、除外、追加保険料の賦課、給付の変更、給付支払い期間の短縮、据置期間の延長、またはこれらのアプローチの組み合わせです。\n(i) 特定の除外：除外は、そうでなければ拒否される者に補償を発行する手段として使用されます。除外が課された場合、その除外された状態から生じるいかなる請求も補償から除外されますが、他の状態については通常どおり補償されます。\n(ii) 追加保険料（Extra Premium）：引受リスクが標準より高い場合、標準保険料に加えて追加保険料が課されます。追加保険料の額は、リスクの程度に応じて決定されます。\n(iii) 給付の減額（Reduced Benefits）：月額給付の減額、給付支払い期間の短縮、または据置期間の延長などの方法で給付を修正します。\n(iv) 上記の組み合わせ：例えば、特定の疾病を除外しつつ、残りの補償に追加保険料を課すことがあります。"
                 }
               ]
             },
@@ -8192,7 +8192,7 @@
                 {
                   "num": "6.5",
                   "text": "At times, a proposed insured may have just undergone a surgical operation or is going for a surgery. For such a case, the underwriter will normally postpone the proposal for a specified period of time (e.g. six months after the surgical operation). That is, the underwriter is not able to offer any terms at that point in time, but is prepared to reconsider the case at a later date.",
-                  "textJP": "被保険候補者が手術を受けたばかり、または手術を控えている場合があります。このような場合、引受人は通常、所定の期間（例：手術後6か月）申込を保留します。"
+                  "textJP": "被保険候補者が手術を受けたばかり、または手術を控えている場合があります。このような場合、引受人は通常、所定の期間（例：手術後6か月）申込を保留します。すなわち、引受人はその時点ではいかなる条件も提示できませんが、保留期間の経過後に申込を再検討する用意があります。"
                 }
               ]
             },
@@ -8210,7 +8210,7 @@
                 {
                   "num": "6.7",
                   "text": "Hence, it is important for the insurance representative to inform his prospective client that he should apply for Health Insurance when he is healthy, to avoid the risk of being declined later when his health deteriorates or fails. Furthermore, Health Insurance premiums typically increase with age as one gets older.",
-                  "textJP": "したがって、保険担当者は見込み客に対し、後日健康が悪化または低下した場合に拒否されるリスクを避けるため、健康な時に健康保険に申し込むべきであると伝えることが重要です。"
+                  "textJP": "したがって、保険担当者は見込み客に対し、後日健康が悪化した場合に拒否されるリスクを避けるため、健康な時に健康保険に申し込むべきであると伝えることが重要です。さらに、健康保険の保険料は通常、年齢が上がるにつれて増加します。"
                 }
               ]
             }
@@ -8252,7 +8252,7 @@
                 {
                   "num": "",
                   "text": "Full Name as shown on NRIC/Passport/BC* Mr/Mrs/Mdm/Miss/Dr* Sex: M F Address: Tel. No. Home: Office: Ext: Race: Chinese Malay Indian Caucasian Others : Nationality: Place of Birth: *NRIC/Passport No. Date of Birth: / / Age Next Birthday: Marital Status : Single Married Widowed Divorced Present Employment Status: Employed Unemployed Self-employed Name and Address of Company: __________________________________________________________________________________________________________ Position Held: _____________________________________________ Exact Nature of Duties involved: ____________________________________________",
-                  "textJP": "NRIC/パスポート/出生証明書に記載の氏名* 性別：男 女 住所： 電話番号 自宅： 勤務先： 内線： 人種： 国籍： 出生地： *NRIC/パスポート番号 生年月日： 次の誕生日の年齢： 婚姻状況："
+                  "textJP": "NRIC/パスポート/出生証明書に記載の氏名* Mr/Mrs/Mdm/Miss/Dr* 性別：男 女 住所： 電話番号 自宅： 勤務先： 内線： 人種：中国系 マレー系 インド系 白人系 その他： 国籍： 出生地： *NRIC/パスポート番号 生年月日： __ / __ / __ 次の誕生日の年齢： 婚姻状況：独身 既婚 死別 離婚 現在の雇用状況：被雇用 無職 自営業 雇用主の名称："
                 }
               ]
             },
@@ -8304,7 +8304,7 @@
                 {
                   "num": "",
                   "text": "If any of the above answers to question 3, 4 , 5 or 6 is “YES”, please furnish the details below, indicating the question number (You may use a separate sheet of paper, if the space provided is insufficient). Question No. Name of persons to be insured Details of medical condition Date treated / hospitalised Types of treatment Name & address of attending doctor/hospital",
-                  "textJP": "質問3、4、5、6のいずれかの回答が「はい」の場合、以下に詳細を記入してください（質問番号を明記）（スペースが不足する場合は別紙を使用してください）。"
+                  "textJP": "質問3、4、5、6のいずれかの回答が「はい」の場合、以下に詳細を記入してください（質問番号を明記）（スペースが不足する場合は別紙を使用してください）。質問番号 被保険者の氏名 疾患の詳細 治療/入院の日付 治療の種類 主治医の氏名と住所 治療の結果"
                 }
               ]
             },
@@ -8324,7 +8324,7 @@
                 {
                   "num": "",
                   "text": "Data Protection I / We expressly authorise and consent to ABC Life Ltd, its officers, employees and representatives disclosing, at their sole discretion, any and all information relating to me / us, including my / our personal particulars, my / our transactions and dealings and my / our policies of insurance with ABC Life Ltd, to any of the following persons, whether in Singapore or elsewhere: (a) ABC Life Ltd’s holding companies, branches, representative officers, subsidiaries, related corporations or affiliates; (b) any of ABC Life Ltd contractors or third party service providers or distribution partners or professional advisers or representative; (c) any regulatory, supervisory or other authority, court of law, tribunal or person, in any jurisdiction, where such disclosure is required by law, regulation, judgement or order of court or order of any tribunal or as a matter of practice; (d) any actual or potential assignee(s) or transferee(s) of any rights and obligations of ABC Life Ltd under or relating to my / our policy or policies for any purpose connected with the proposed assignment or transfer; and (e) any credit bureau, insurer or representative, for such purpose(s) that ABC Life Ltd in its reasonable opinion considers appropriate including but not limited to the purposes of underwriting, customer servicing, investigation of ABC Life Ltd’s representatives and monitoring undesirable sales practices. Privacy Policy I / We wish to receive information, including marketing materials from ABC Life Ltd. from the following communication channels □ Phone Call □ SMS □ Direct Mail □ Email □ All",
-                  "textJP": "データ保護\nわたくし/わたくしたちは、ABC Life Ltd、その役員、従業員および代表者が、わたくし/わたくしたちに関するすべての情報（個人情報、保険取引の詳細を含む）を、その単独の裁量で開示することに明示的に承認し同意します。"
+                  "textJP": "データ保護\nわたくし/わたくしたちは、ABC Life Ltd、その役員、従業員および代表者が、わたくし/わたくしたちに関するすべての情報（個人情報、保険取引の詳細、保険証券を含む）を、その単独の裁量で以下の者に開示することに明示的に承認し同意します：(a) ABC Life Ltdの関連会社、(b) 仲介業者、(c) 保険者またはその代理人、(d) 信用照会機関、(e) 規制当局、(f) 金融業界の紛争解決機関、(g) 再保険者、(h) 請求調査業者、(i) 医療関係者、(j) その他ABC Life Ltdが必要と判断する者。この同意は保険証券の終了後も継続します。"
                 }
               ]
             },
@@ -8350,7 +8350,7 @@
                 {
                   "num": "",
                   "text": "I/We declare that no material facts, that is, facts likely to influence the assessment and acceptance of this proposal have been withheld and to the best of my/our knowledge and belief the information furnished herein is true and complete and in the case of a life of another the information furnished herein shall be the basis of the contract of assurance. I/We authorise any medical source or insurance office to release to ABC Life Limited and similarly ABC Life Limited to release to any medical source or insurance office, any relevant information concerning me/us at any time, irrespective of whether the proposal is accepted by ABC Life Limited. A photographic copy of this authorisation shall be as valid as the original. I/We understand that any payment made at the time of signing this proposal or thereafter shall be held as a deposit placed with ABC Life Limited until acceptance of this proposal by ABC Life Limited subject to the terms and conditions contained in the receipt issued in respect of the said payment. I/We agree that should I decide to cancel the Policy issued in respect of this proposal within 14 days after receipt of the Policy document, the amount refunded to me/us shall be the premium paid less expenses in underwriting the Policy. However, should the proposal be declined, then I/we shall be entitled to a full refund of the amount paid as premium for this proposal. I/We further understand that the assurance granted shall be subject to the conditions in and endorsed on the Policy issued. If a material fact is not disclosed in this proposal, any policy issued may not be valid. If you are in doubt as to whether a fact is material, you are advised to disclose it. This includes any information that you may have provided to the agent but was not included in the proposal. Please check to ensure you are fully satisfied with the information declared in this proposal. Signature of Proposer & Company’s Stamp (if applicable) Signature of Witness Date: Name: NRIC No. Signature of Life Insured Date: Date: APPENDIX 12C ABC Life Limited 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 SAMPLE GROUP HOSPITAL & SURGICAL INSURANCE PROPOSAL AND HEALTH DECLARATION FORM PURSUANT TO SECTION 23(5) OF THE INSURANCE ACT 1966 AND ANY REPLACEMENT THEREOF, YOU ARE TO DISCLOSE IN THIS PROPOSAL FORM, FULLY AND FAITHFULLY, ALL THE FACTS WHICH YOU KNOW OR OUGHT TO KNOW, OTHERWISE YOU MAY RECEIVE NOTHING FROM THE POLICY",
-                  "textJP": "わたくし/わたくしたちは、重要な事実、すなわちこの申込の評価および引受に影響を与える可能性のある事実を隠匿していないことを宣言し、わたくし/わたくしたちの知識および信念の限りにおいて、ここに記載された情報は真実かつ完全であることを宣言します。"
+                  "textJP": "わたくし/わたくしたちは、重要な事実、すなわちこの申込の評価および引受に影響を与える可能性のある事実を隠匿していないことを宣言し、わたくし/わたくしたちの知識および信念の限りにおいて、ここに記載された情報は真実かつ完全であることを宣言します。他の者の生命に関する場合も同様です。\n\nわたくし/わたくしたちは以下を理解し同意します：\n(a) この申込書および付随する書類が保険契約の基礎を構成すること\n(b) 保険者が本申込を引き受ける義務がないこと\n(c) 保険証券が発行され第1回保険料が受領されるまで保険補償は発生しないこと\n(d) 重要な事実の不開示または不実申告があった場合、保険者が保険証券を無効にする権利を有すること\n(e) 保険者が引受上の理由でいかなる申込も拒否する権利を有すること\n(f) 個人情報の収集、使用、開示に関して同意すること\n\n署名：_______________ 日付：_______________"
                 }
               ]
             },
@@ -8428,7 +8428,7 @@
                 {
                   "num": "",
                   "text": "Sex: Occupation: Date of Birth: Height (Cm) & Weight (Kg): NRIC/Passport/BC No.: Nationality*: Martial Status: Country of Residence**: Notes: * Foreign Nationalities – Please furnish proof of current work permit/employment pass. ** To be completed if you or any of the family members to be insured have any intention of residing outside Singapore for a period of more than 90 days. Acceptance/Terms and Conditions are subject to the Company’s approval. *** Proof of student status is required for insured child(ren) above 18 years old.",
-                  "textJP": "性別： 職業： 生年月日： 身長(cm)・体重(Kg)： NRIC/パスポート/出生証明書番号： 国籍*： 婚姻状況： 居住国**：\n注：* 外国籍——現在のWork Permit/Employment Passの証明を提出してください。** 居住国がシンガポール以外の場合に記入してください。"
+                  "textJP": "性別： 職業： 生年月日： 身長(cm)・体重(Kg)： NRIC/パスポート/出生証明書番号： 国籍*： 婚姻状況： 居住国**：\n注：\n* 外国籍——現在のWork Permit/Employment Passの証明を提出してください。\n** 被保険者またはその家族のいずれかが所定の日数以上シンガポール国外に居住する予定がある場合に記入してください。"
                 }
               ]
             },
