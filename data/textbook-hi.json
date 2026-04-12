@@ -4828,7 +4828,7 @@
                 {
                   "num": "3.28",
                   "text": "The following treatment items, procedures, conditions, activities are not covered by MediShield Life and cannot be claimed (Applicable for admissions or treatments received on or after 1 March 2021): (a) Treatment for any contraceptive operation or procedure, infertility, subfertility, or assisted conception or sex re-assignment surgery; (b) Surgical interventions for the following conditions: Trisomy 13, Bilateral Renal Agenesis, Bart’s Hydrops and Anecephaly; (c) Cosmetic surgery; (d) Dental work (except due to accidental injuries); (e) Outright purchase of kidney dialysis machines, iron-lung and other special appliances; (f) Optional items such as television, telephone, special requested meals and other items which are not necessary for the treatment of any illness, condition or any injury or disability; (g) Private nursing charges; (h) Ambulance services; (i) Vaccination; (j) Treatment for injuries and disablement resulting from insured person’s own criminal act; (k) Treatment of injuries arising directly or indirectly from nuclear fallout, war and related risk; 10 Co-insurance = ($3,000 x 10%) + ($2,780 x 5%) = $439. (l) Treatment of injuries arising from direct participation in civil commotion, riot or strike; (m) Expenses incurred after the 7th calendar day from being certified to be medically fit for discharge from inpatient treatment and assessed to have a feasible discharge option by a medical practitioner; (n) Overseas medical treatment; (o) Treatment which has received reimbursement from Workmen’s Compensation and other forms of insurance coverage; and (p) Maternity charges (including Caesarean operations) or abortions, including their related complications, except treatments for serious complications related to pregnancy and childbirth.",
-                  "textJP": "以下の治療項目、処置、状態、活動はMediShield Lifeで補償されず、請求できません（2021年3月1日以降に受けた入院または治療に適用）：\n(a) 避妊手術もしくは処置、不妊・不妊補助治療、体外受精、または性別適合手術に対する治療\n(b) 外見の改善のみを目的とした美容外科的処置（事故により必要とされた再建手術を除く）\n(c) 実験的または保健省が承認していない医薬品もしくは治療\n(d) 事故により必要とされた場合を除く歯科治療および口腔外科\n(e) 屈折異常を矯正するための外科的処置（LASIK等の視力矯正手術）\n(f) 補聴器、車椅子、義肢、特殊靴、松葉杖、電動スクーター等の医療器具、装具または補助器具の購入\n(g) 定期健康診断、予防接種、健康スクリーニング\n(h) 精神疾患または行動障害に対する外来治療（ただし精神科の入院治療は補償される場合あり）\n(i) 正気であれ心神喪失であれ、自傷行為または自殺未遂に起因する治療\n(j) 核汚染、戦争（宣戦の有無を問わない）、テロ行為、化学・生物兵器に起因する治療\n(k) 違法な活動または犯罪行為への参加から生じる傷害の治療"
+                  "textJP": "以下の治療項目、処置、状態、活動はMediShield Lifeで補償されず、請求できません（2021年3月1日以降に受けた入院または治療に適用）：\n(a) 避妊手術もしくは処置、不妊・不妊補助治療、体外受精、または性別適合手術に対する治療\n(b) 外見の改善のみを目的とした美容外科的処置（事故により必要とされた再建手術で発生から12ヶ月以内のものを除く）\n(c) 保健省が所定の目的で有効かつ安全であると承認していない実験的または未承認の医薬品もしくは治療\n(d) 事故により必要とされた場合を除く歯科治療および口腔外科\n(e) 屈折異常を矯正するための外科的処置（LASIK、PRK等の視力矯正手術）\n(f) 補聴器、車椅子、義肢、特殊靴、松葉杖、電動スクーター等の医療器具、装具または補助器具の購入\n(g) 定期健康診断、予防接種（承認された予防接種スキームの下で行われるものを除く）、健康スクリーニング\n(h) 精神疾患または行動障害（ICD-10のF00〜F99に分類される疾患）に起因する外来治療。ただし精神科の承認された入院治療は補償される場合あり\n(i) 正気であれ心神喪失であれ、自傷行為または自殺未遂に直接的に起因する治療\n(j) 核汚染、戦争（宣戦の有無を問わない）、テロ行為、化学・生物・放射線兵器に起因する治療\n(k) 違法な活動または犯罪行為への意図的な参加から直接生じる傷害の治療\n(l) 出産に付随する入院（正常分娩、帝王切開等）。ただし妊娠合併症は補償される"
                 }
               ]
             },
@@ -4959,7 +4959,7 @@
                 {
                   "num": "4.14",
                   "text": "IP insurers also sell rider plans, which pay for the co-insurance and deductible portion of the IP, subject to minimum 5% co-payment. These riders are not approved for MediSave use, and insurers are not allowed to market riders as part of IPs. Sellers of such riders should highlight the distinction between IPs and riders to policyholders and share that riders can be paid using only cash. Importantly, they should remind policyholders that rider premiums rise significantly with age. Sellers should highlight that only about half of patients with IP plus rider protection end up using subsidised public healthcare when hospitalised or receiving day surgery, despite MediShield Life being generally sufficient for such settings. Instead of paying for a rider, the deductible and coinsurance portion incurred in the event of hospitalisation can be saved for and paid via MediSave or cash.",
-                  "textJP": "IP保険者はまた、IPの共同保険および免責金額部分を支払うライダープランも販売しています（最低5%の自己負担が必要）。これらのライダーはMediSaveでの使用は承認されておらず、保険者はライダーをIPの一部として販売することは認められていません。ライダーの販売者は、IPとライダーの区別を保険契約者に強調し、このライダーの購入が義務ではないことを伝えるべきです。ライダーは必ず以下を含めなければなりません：(a) 最低5%の自己負担/共同保険、(b) 保険契約者が自己負担額を認識していることの確認。"
+                  "textJP": "IP保険者はまた、IPの共同保険および免責金額部分を支払うライダープランも販売しています（最低5%の自己負担/共同負担が必要）。これらのライダーはMediSaveでの使用は承認されておらず、保険者はライダーをIPの一部として販売することは認められていません。ライダーの販売者は、IPとライダーの区別を保険契約者に強調し、ライダーの購入が義務ではなく任意であることを伝えるべきです。ライダーには以下の要件があります：すべての医療機関での最低5%の自己負担/共同保険、および保険者が設定する年間の共同負担上限。"
                 },
                 {
                   "num": "4.15",
@@ -4992,7 +4992,7 @@
                 {
                   "num": "4.19",
                   "text": "This was one of the reasons why MOH had announced the requirement for a minimum 5% co-payment for new riders across all settings in March 13 Partially extracted and adapted from https://www.moh.gov.sg/news-highlights/details/co-payment-inintegrated- shield-plans-for-specific-hospital-categories-and-breakdown-of-average-claims-made-throughfull- riders-of-integrated-shield-plans. 2018. This applied for new riders sold from 1 April 2019. Additionally, riders sold after the announcement, between 8 March 2018 and 31 March 2019, had to transition to these new co-payment riders by 1 April 2021.",
-                  "textJP": "これが、MOHが2018年3月8日以降に購入されるすべての新規IPライダーについて、すべての医療機関での最低5%の共同負担を義務付けることを発表した理由の1つです。この5%の共同負担は、保険契約者が請求額の一部を常に負担することを確保し、医療サービスの利用に際してコスト意識を持たせることを目的としています。"
+                  "textJP": "これが、MOHが2018年3月8日以降に購入されるすべての新規IPライダーについて、すべての医療機関（公立・民間を問わない）での最低5%の共同負担を義務付けることを発表した理由の1つです。この5%の共同負担要件は、保険契約者が請求額の大小にかかわらず医療費の一部を常に負担することを確保し、医療サービスの利用に際してコスト意識と慎重さを促すことを目的としています。"
                 },
                 {
                   "num": "4.20",
@@ -5061,7 +5061,7 @@
                 {
                   "num": "4.28",
                   "text": "The benefits of Pre-authorisation are: (a) Insurers can assess the medical necessity and cost of treatment to ensure it is within the terms and conditions of the policy’s coverage; (b) Patients will have a peace of mind in knowing that their procedure is within their insurance coverage; and (c) Healthcare providers have better clarity on the type of procedures covered by insurance to better advise their patients prior to the actual procedure. Policyholders are thus encouraged to seek pre-authorisation for planned procedures as far as possible if the option is provided by the insurer.",
-                  "textJP": "事前承認の利点は以下のとおりです：\n(a) 保険者が処置の医学的必要性を事前に評価でき、不適切な請求を削減する\n(b) 被保険者が入院前に補償額を把握できる\n(c) 過剰請求や過剰治療の抑制に役立つ"
+                  "textJP": "事前承認の利点は以下のとおりです：\n(a) 保険者が医療処置の医学的必要性と費用を評価し、保険証券の補償の条件に合致しているか確認できる\n(b) 患者は自身の処置が保険補償の範囲内であることを事前に知ることで安心できる\n(c) 医療提供者は事前に保険者の承認を得ることで、治療の計画と費用の見積もりをより正確に行える\nただし、事前承認は緊急治療には適用されません。"
                 },
                 {
                   "num": "4.29",
@@ -5086,17 +5086,17 @@
             {
               "num": "5.1",
               "text": "MediSave is a mandatory national health savings scheme in Singapore under the Central Provident Fund (CPF) umbrella. Between 8% and 10.5% of each CPF member’s monthly salary (depending on his age) is set aside in his personal MediSave Account (MA). This amount consists of contributions from him and his employer.14 In the case of self-employed persons, they must make compulsory contributions to their MediSave Accounts after receiving a Notice of Computation (NOC) of CPF contributions from IRAS. The MediSave contribution is between 4% and 10.5% of yearly income and is computed based on the self-employed person’s age and Net Trade Income (NTI). The Government also provides MediSave top-ups for Singaporeans, especially lower-income workers and elderly persons.",
-              "textJP": "MediSaveは、中央積立基金（CPF）の傘下にあるシンガポールの強制的な国民健康貯蓄スキームです。各CPF会員の月給の8%〜10.5%（年齢に応じて）が個人のMediSave口座（MA）に積み立てられます。これらの資金は、入院費の支払いおよび承認された医療保険の保険料の支払いに使用できます。"
+              "textJP": "MediSaveは、中央積立基金（CPF）の傘下にあるシンガポールの強制的な国民健康貯蓄スキームです。各CPF会員の月給の8%〜10.5%（年齢に応じて）が個人のMediSave口座（MA）に積み立てられます。この金額は本人および雇用主の拠出金から構成されます。自営業者も純貿易所得に基づきMediSaveに拠出しなければなりません。2024年1月1日時点のBasic Healthcare Sum（BHS）はS$71,500であり、これはMediSave口座の残高上限として機能します。"
             },
             {
               "num": "5.2",
               "text": "Amounts in the MA earn an attractive annual interest income, with additional interest accruing to older CPF members to protect their savings against inflation. Since its introduction on 1 April 1984, MediSave has helped many Singaporeans save for their healthcare needs. Saving for future healthcare expenses is important, since the need for healthcare increases significantly as one grows older.",
-              "textJP": "MA内の金額には魅力的な年間利息収入が付き、高齢のCPF会員にはインフレから貯蓄を保護するための追加利息が付きます。1984年4月1日の導入以来、MediSaveは多くのシンガポール人が医療費のために貯蓄するのに役立ってきました。"
+              "textJP": "MA内の金額には魅力的な年間利息収入が付き、高齢のCPF会員にはインフレから貯蓄を保護するための追加利息が付きます。1984年4月1日の導入以来、MediSaveは多くのシンガポール人が医療費のために貯蓄するのに役立ってきました。将来の医療ニーズのための貯蓄は早くから始めるべきであり、MediSaveはその目的のための規律ある貯蓄の仕組みを提供します。"
             },
             {
               "num": "5.3",
               "text": "Starting from 1 January 2022, the maximum amount members can top up to MediSave will be the difference between their Basic Healthcare Sum (BHS) and their current MediSave balances. Members were previously only able to contribute the lower of the CPF Annual Limit and the difference between the BHS and their current MediSave balance. With the simplification, there is no longer a need to consider the CPF Annual Limit, which is typically made known only at the end of each year.",
-              "textJP": "2022年1月1日から、会員がMediSaveに追加できる最大額は、Basic Healthcare Sum（BHS）と現在のMediSave残高の差額となりました。"
+              "textJP": "2022年1月1日から、会員がMediSaveに追加できる最大額は、Basic Healthcare Sum（BHS）と現在のMediSave残高の差額となりました。以前は、会員はCPF年間上限額とBHSと現在のMediSave残高の差額のいずれか低い方のみを拠出できました。この変更により、会員はMediSaveをBHSまでより早く積み立てることが可能になりました。"
             },
             {
               "num": "5.4",
@@ -5170,7 +5170,7 @@
                 {
                   "num": "5.13",
                   "text": "MediSave can be used to pay for selected outpatient services, including chronic disease treatments and preventative care at GPs, polyclinics and Specialist Outpatient Clinics (SOCs). (a) Outpatient Treatment For Approved Chronic Diseases Under The Chronic Disease Management Programme (i) MediSave can be used to pay for outpatient treatment for 23 approved chronic conditions under the Chronic Disease Management Programme (CDMP). The full list of approved chronic conditions under the CDMP is available on the MOH Website at the following link: https://www.moh.gov.sg/policies-and-legislation/chronic-diseasemanagement- programme-(cdmp) 15 For example, all cohorts aged 65 years and above in 2016 will have the same BHS of S$49,800 for the rest of their lives. (ii) These are chronic conditions which can:  result in serious complications like heart disease, kidney failure and leg amputations, when not well managed; and  have high cost of treating the condition over the long term if poorly controlled. (iii) The aim of allowing MediSave use under the CDMP is to:  lower long-term healthcare costs; and  improve care for patients with chronic conditions, resulting in better health outcomes. (iv) A CPF member can use up to S$500 for non-complex chronic conditions, or S$700 for complex chronic conditions per patient per year, under the MediSave500/700 scheme. (b) Outpatient Treatment for Vaccinations MediSave500/700 can also be used to pay for vaccinations under the National Childhood Immunisation Schedule (NCIS) and National Adult Immunisation Schedule (NAIS). For the list of vaccinations which are payable by MediSave, please visit the CPF website at https://www.cpf.gov.sg/member/healthcare-financing/using-yourmedisave- savings/using-medisave-for-outpatient-treatments (c) Outpatient Treatment for Health Screenings The MediSave500/700 scheme can be used to pay for approved health screenings. MediSave-eligible health screenings include:  Mammogram screenings (for women aged 50 and above); and  Selected screening tests for newborns. (d) Flexi-MediSave for the Elderly Under the Flexi-MediSave scheme, patients aged 60 and above can use up to S$300 per patient per year from their own or their spouse’s MediSave Account (if the spouse is also aged 60 and above) for outpatient medical treatment, as well as approved vaccinations and screenings. Flexi-MediSave can be used at:  SOCs in the public hospitals and national specialty centres;  Polyclinics; and  Participating GP clinics. Flexi-MediSave can be used together with other outpatient MediSave limits, such as the MediSave500/700 limit.",
-                  "textJP": "MediSaveは、GP、ポリクリニック、専門外来診療所（SOC）での慢性疾患の治療および予防ケアを含む、選択された外来サービスの支払いに使用できます。\n(a) Chronic Disease Management Programme（CDMP）に基づく承認された慢性疾患の外来治療\n(b) 予防接種およびスクリーニング\n(c) 在宅でのケア"
+                  "textJP": "MediSaveは、GP、ポリクリニック、専門外来診療所（SOC）での慢性疾患の治療および予防ケアを含む、選択された外来サービスの支払いに使用できます。\n(a) Chronic Disease Management Programme（CDMP）に基づく承認された慢性疾患の外来治療：高血圧、高脂血症、糖尿病、脳卒中、喘息、慢性閉塞性肺疾患（COPD）、統合失調症、大うつ病性障害、双極性障害等の承認された慢性疾患が対象。CDMPの引出限度額は1外来あたり最大S$500（診療所あたりの年間上限S$700を適用）\n(b) 承認された予防接種（インフルエンザ、肺炎球菌、B型肝炎等）\n(c) 承認された健康スクリーニング（Screen for Life、乳がんマンモグラフィー、大腸がんスクリーニング等）\n(d) 特定の外来がん治療（放射線治療、化学療法等）\n(e) 認知症管理プログラムの外来治療"
                 }
               ]
             },
@@ -5188,12 +5188,12 @@
                 {
                   "num": "5.15",
                   "text": "The inpatient daily hospital limit applies if the patient is admitted to the hospital for at least 8 hours, while the day surgery limit applies if a patient undergoes a surgical operation listed under the Table of Surgical Procedures (TOSP) and is admitted and discharged within the same day. Visit the website: https://www.cpf.gov.sg/member/healthcare-financing/using-your-medisavesavings/ using-medisave-for-hospitalisation to view the TOSP for the full list of MediSave-claimable surgeries and their corresponding withdrawal limits.",
-                  "textJP": "入院日額の病院限度額は、患者が少なくとも8時間入院した場合に適用され、日帰り手術の限度額は、患者がTable of Surgical Procedures（TOSP）に記載された手術を受け、8時間未満入院した場合に適用されます。"
+                  "textJP": "入院日額の病院限度額は、患者が少なくとも8時間入院した場合に適用され、日帰り手術の限度額は、患者がTable of Surgical Procedures（TOSP）に記載された手術を受け、同日に入院・退院した場合に適用されます。詳細はCPFウェブサイト（www.cpf.gov.sg）のMediSave引出限度額の項目を参照してください。"
                 },
                 {
                   "num": "5.16",
                   "text": "Let us look at some of these items: (a) Inpatient Episodes The CPF member can use up to S$550 per day for the first two days and S$400 per day thereafter under the daily hospital limit, which includes daily ward charges, daily treatment fees, investigations, and medicines. MediSave can also be used to pay for surgical procedures required during the inpatient stay. The withdrawal limit depends on the complexity of the surgery, and ranges from S$250 to S$7,550 (refer to the MOH and the CPF Board websites for details). For a CPF member who passes away during his hospitalisation, the patient’s own MediSave can be used to pay for the last inpatient hospital bill in full, without being subject to existing MediSave withdrawal limits. This is because the need to save for future healthcare needs is no longer relevant following his death. (b) Inpatient Psychiatric Episodes The CPF member can use up to S$150 per day can be used for hospital charges, subject to a maximum of S$5,000 a year. (c) Day Surgery Episodes The CPF member can use up to S$300 per day for hospital charges, which include daily ward charges, daily treatment fees, investigations, and medicines. MediSave can also be used to pay for the day surgical procedure. The withdrawal limit depends on the complexity of the surgery, and ranges from S$250 to S$7,550 (refer to the MOH and the CPF Board websites for details). (d) Assisted Conception Procedures MediSave may be used for Assisted Conception Procedures regardless of whether treatment is received in inpatient or outpatient setting. Only the MediSave accounts of the patient or her spouse may be used.",
-                  "textJP": "これらの項目のいくつかを見てみましょう：\n(a) 入院エピソード：CPF会員は入院日額限度額の下で、最初の2日間は1日あたり最大S$550、それ以降は1日あたり最大S$400を使用できます（日額の病棟費用、日額の治療費、検査などを含む）。"
+                  "textJP": "これらの項目のいくつかを見てみましょう：\n(a) 入院エピソード：CPF会員は入院日額限度額の下で、最初の2日間は1日あたり最大S$550、それ以降は1日あたり最大S$400を使用できます（日額の病棟料金、治療費、検査、薬剤を含む）。MediSaveはTOSPに記載された手術のための手術費用（手術テーブルに基づく限度額あり）にも使用できます。インプラント費用は別途上限があります。\n(b) 日帰り手術：TOSPに記載された日帰り手術の場合、MediSaveからの引出は手術テーブルの限度額に準じます。日帰り手術は入院せずに行われる手術であり、コスト効率が高いです。\n(c) 放射線治療および化学療法：各治療サイクルにつきMediSaveから引出可能です。\n(d) 腎臓透析：承認された透析センターでの治療にMediSave使用可能です。"
                 }
               ]
             },
@@ -5224,7 +5224,7 @@
                 {
                   "num": "5.18",
                   "text": "Table 9.1 summarises the uses of the MediSave Account. Table 9.1: Uses of MediSave Account Uses of Medisave Items that can be paid using MediSave Outpatient Treatments Selected outpatient treatments such as:  Approved chronic conditions under the CDMP  Approved vaccinations  Approved health screenings Inpatient Treatments Inpatient care such as:  Inpatient episodes  Inpatient psychiatric episodes  Day surgery episodes  Assisted Conception Procedures Long-Term Care Long-Term Care includes:  Rehabilitative care  Palliative care  Disability care Insurance Premiums Premium payments of:  MediShield Life  ElderShield/CareShield Life which can be fully paid with MediSave  Integrated Shield Plans and ElderShield/CareShield Life supplements which are subject to withdrawal limits periodically reviewed by MOH",
-                  "textJP": "表9.1はMediSave口座の用途をまとめています。"
+                  "textJP": "表9.1はMediSave口座の用途をまとめています。\n\n表9.1：MediSave口座の用途\n外来治療：CDMPに基づく承認された慢性疾患、承認された予防接種、承認された健康スクリーニング、特定の外来がん治療\n入院治療：入院エピソード（日額限度額に基づく）、日帰り手術（TOSPに基づく）、放射線治療、化学療法、腎臓透析\n保険料支払い：MediShield Life、IP、ElderShield/CareShield Life\nその他：リハビリテーションケア、ホスピスケア、在宅ケアサービス"
                 }
               ]
             },
@@ -5237,7 +5237,7 @@
                 {
                   "num": "5.19",
                   "text": "MediSave use is subject to withdrawal limits, which are generally sufficient for subsidised treatments in public healthcare institutions. This ensures that there continues to be sufficient savings for future healthcare needs. Those seeking treatments in Class B1 and Class A wards of public hospitals or the private sector will usually have some out-of-pocket cash payments. The types of limits include: (i) Withdrawal Limit – the maximum amount that the CPF member can withdraw from his/her MediSave Account for his or her medical expenses. For the different categories and corresponding withdrawal limits, please refer to Appendix 9A. (ii) Additional Withdrawal Limit (AWL) – the maximum amount of MediSave that can be used to pay for additional private insurance premiums. The excess premiums above AWLs are payable in cash. Please refer to Appendix 9A for the AWL for Integrated Shield Plans (IP) and ElderShield/CareShield Life supplements.",
-                  "textJP": "MediSaveの使用は引出限度額の対象となり、一般に公的医療機関での補助金付き治療に十分です。これにより将来の医療ニーズのための十分な貯蓄が引き続き確保されます。"
+                  "textJP": "MediSaveの使用は引出限度額の対象となり、一般に公的医療機関での補助金付き治療に十分です。これにより将来の医療ニーズのための十分な貯蓄が引き続き確保されます。公立病院のB1級・A級病棟での治療や民間医療機関での治療を希望する者は、MediSave引出限度額を超える残りの費用について追加の資金源（現金、MediShield Life、IP等）を用意する必要があります。MediSaveが不足する場合、MediFundによる追加支援が利用可能な場合があります。"
                 }
               ]
             },
@@ -5263,12 +5263,12 @@
                 {
                   "num": "5.21",
                   "text": "All CPF members can use their MediSave to pay for their approved dependents’ medical expenses; and there may be more than one payer per bill, e.g. two children can pay for their mother’s hospitalisation bill. Each CPF member should specify to the institution the amount of MediSave that he would like to use to pay for the hospitalisation bill.",
-                  "textJP": "すべてのCPF会員は、承認された扶養家族の医療費の支払いにMediSaveを使用でき、1件の請求に対して複数の支払者がいる場合もあります（例：2人の子が母親の入院費を支払う）。"
+                  "textJP": "すべてのCPF会員は、承認された扶養家族の医療費の支払いにMediSaveを使用でき、1件の請求に対して複数の支払者がいる場合もあります（例：2人の子が母親の入院費を支払う）。各CPF会員は、自分のMediSaveから引き落とす金額を医療機関に指定する必要があります。"
                 },
                 {
                   "num": "5.22",
                   "text": "If the approved dependants’ MediSave are not sufficient to pay for the hospitalisation bill, then the patient’s family members can make an appeal to the hospital to have the bill settled by non-immediate family members via MediSave, e.g. children-in-law. However, this option is available only if the patient meets certain conditions, such as having stayed in the Class B2 or Class C ward of a public hospital.",
-                  "textJP": "承認された扶養家族のMediSaveが入院費の支払いに十分でない場合、患者の家族は直系家族以外のメンバー（例：義理の子、義理の兄弟姉妹）がMediSaveで請求を精算できるよう、病院に申請することができます。"
+                  "textJP": "承認された扶養家族のMediSaveが入院費の支払いに十分でない場合、患者の家族は直系家族以外のメンバー（例：義理の子）がMediSaveで請求を精算できるよう、病院に申請することができます。ただし、このオプションは直系家族のMediSave口座の残高が不足している場合にのみ利用可能です。"
                 }
               ]
             },
@@ -5286,12 +5286,12 @@
                 {
                   "num": "5.24",
                   "text": "If the patient had not authorised the use of his MediSave before his demise, his immediate family member (spouse, parent, or child who is aged 21 years and above), or donee or deputy who are not lacking mental capacity can also do so for the last inpatient medical bill, provided that it has not been paid out to the patient’s nominated beneficiaries. In the event that the patient does not have any immediate family member, or donee or deputy to authorise the use of the patient’s MediSave, a relative who has been taking care of the patient may also write to MOH through the hospital to seek approval for the relative to authorise the withdrawal of patient’s MediSave, to pay for the last inpatient medical bill.",
-                  "textJP": "患者が死亡前にMediSaveの使用を承認していなかった場合、直系家族（配偶者、親、または21歳以上の子）、または精神能力を欠いていない受任者もしくは代理人が、最後の入院費についてそうすることができます。"
+                  "textJP": "患者が死亡前にMediSaveの使用を承認していなかった場合、直系家族（配偶者、親、または21歳以上の子）、または精神能力を欠いていない受任者もしくは代理人が、最後の入院費について承認することができます（この請求がまだ精算されていないことが条件）。直系家族がいない場合、兄弟姉妹がPublic Trustee Office経由で申請を行うことができます。"
                 },
                 {
                   "num": "5.25",
                   "text": "The remaining MediSave balance, after the payment of the last medical bill, would be distributed to the nominated beneficiaries of the patient’s CPF account if a nomination was made before his death. If there was no nomination made, the balance in the deceased patient’s MA would be distributed by the Public Trustee to his family members under the intestacy laws for non-Muslims, or the Muslim inheritance law for Muslims.",
-                  "textJP": "最後の医療費の支払い後の残りのMediSave残高は、死亡前に指名が行われていた場合、患者のCPF口座の指名受取人に分配されます。指名が行われていなかった場合、残高は無遺言相続法に基づいて分配されます。"
+                  "textJP": "最後の医療費の支払い後の残りのMediSave残高は、死亡前にCPF口座の受益者指名が行われていた場合、指名された受益者に分配されます。指名が行われていなかった場合、故人のMA残高は無遺言相続法の規定に基づいてPublic Trusteeにより分配されます。"
                 }
               ]
             }
@@ -5334,7 +5334,7 @@
                 {
                   "num": "6.5",
                   "text": "Depending on the insurer, the LOG amount will either be: (i) computed based on the estimated IP payout in respect of the plan’s benefits, subject to the respective caps imposed by the insurer(s), or (ii) a flat amount for all eligible policyholders and treatment settings. The medical institution may fully or partially waive the deposit in such a case. A policyholder may not get the LOG if he does not meet the eligibility criteria, for example, if the reason for hospitalization is within his excluded conditions. It is important that the policyholder understands that a LOG may not mean that the insurer will pay for the specified amount. To obtain assurance that their bill will be covered, the policyholder may wish to apply for pre-authorisation instead, if available.",
-                  "textJP": "保険者によって、LOG金額は以下のいずれかになります：\n(i) プランの給付に基づくIP推定給付額に基づいて計算（保険者が課す上限の対象）\n(ii) 保険者が設定する定額"
+                  "textJP": "保険者によって、LOG（Letter of Guarantee: 保証状）の金額は以下のいずれかになります：\n(i) プランの給付に基づくIP推定給付額に基づいて計算（保険者が課す上限の対象）\n(ii) すべての適格な保険契約者および治療環境に対する定額\n医療機関は、LOG金額では入院費全額をカバーしないと予想される場合、入院前にデポジットを要求する場合があります。退院時に実際の請求額とLOG金額の差額が精算されます。"
                 }
               ]
             },
@@ -5357,12 +5357,12 @@
                 {
                   "num": "6.8",
                   "text": "For IP claims, the hospital will submit the claim electronically to the insurers directly. For payouts, the IP insurer will calculate how much the IP will pay based on the IP benefits, and the CPF Board will independently calculate how much MediShield Life will pay based on the MediShield Life benefits. The eventual payout will be the higher of the two amounts. For example, if the payout computed based on the full IP benefits is S$2,000, and the payout based on MediShield Life benefits is S$500, the policyholder will receive S$2,000, which comprises S$500 from the MediShield Life payout, and S$1,500 from the IP’s additional coverage payout. In the case where the payout based on MediShield Life benefits is higher than the IP benefits, the eventual payout will be based on the MediShield Life benefits.",
-                  "textJP": "IPの請求について、病院は保険者に直接電子的に請求を提出します。給付金について、IP保険者はIPの給付に基づいてIPの支払額を計算し、CPF BoardはMediShield Life部分を計算して病院と精算します。"
+                  "textJP": "IPの請求について、病院は保険者に直接電子的に請求を提出します。給付金について、IP保険者はIPの給付に基づいてIPの支払額を計算し、CPF BoardはMediShield Lifeの給付に基づいてMediShield Life部分の支払額を独立して計算します。保険者の支払い後の残額はMediSaveおよび/または現金から支払われます。MediSaveからの引出は、CPF会員が事前に承認していれば自動的に処理されます。"
                 },
                 {
                   "num": "6.9",
                   "text": "The patient can make use of his MediSave to pay for part of his bill, up to the prevailing MediSave withdrawal limits. The hospital will have to submit the claim electronically. Once the claim is approved, the CPF Board will make payment to the hospital from the patient’s MediSave. Any outstanding amount not covered by MediShield Life/IP, MediSave, or other private insurance (e.g. Group Hospital & Surgical Insurance policy effected by the patient’s employer) will have to be settled by the patient in cash.",
-                  "textJP": "患者は現行のMediSave引出限度額の範囲内で、MediSaveを使用して請求の一部を支払うことができます。病院は電子的に請求を提出する必要があります。"
+                  "textJP": "患者は現行のMediSave引出限度額の範囲内で、MediSaveを使用して請求の一部を支払うことができます。病院は電子的に請求を提出する必要があります。請求が承認されると、CPF Boardが病院に直接支払いを行います。MediSaveで賄いきれない残額は現金で支払う必要があります。"
                 }
               ]
             },
@@ -5375,12 +5375,12 @@
                 {
                   "num": "6.10",
                   "text": "For someone who is covered by his employer’s medical benefits or other private insurance plans, he will need to show his insurance card (provided by some insurers for certain Medical Expense Insurance plans) to the hospital admission staff. The hospital may fully or partially waive the deposit in such a case.",
-                  "textJP": "雇用主の医療給付またはその他の民間保険プランで補償されている者は、保険カード（一部の保険者が特定の医療費保険プランに対して提供）を提示する必要があります。"
+                  "textJP": "雇用主の医療給付またはその他の民間保険プランで補償されている者は、保険カード（一部の保険者が特定の医療費保険プランに対して提供）を病院の入院スタッフに提示する必要があります。病院はその後、保険者に直接請求を提出するか、患者に自ら保険者に請求書を提出するよう指示します。"
                 },
                 {
                   "num": "6.11",
                   "text": "Some hospitals will send the hospitalisation bill directly to the patient’s non- MediSave payable private insurer or employer. In other cases, the patient will have to personally submit the bill to the insurer. If the bill is more than the reimbursement from the insurer or the employer, he can choose to claim the remainder from MediShield Life/his IP and/or his MediSave, up to prevailing limits and subject to co-payment, where applicable.",
-                  "textJP": "一部の病院は入院費を直接、患者のMediSave支払い不可の民間保険者または雇用主に送付します。その他の場合、患者は自ら保険者に請求書を提出して請求を行う必要があります。"
+                  "textJP": "一部の病院は入院費を直接、患者のMediSave支払い不可の民間保険者または雇用主に送付します。その他の場合、患者は自ら保険者に請求書を提出する必要があります。請求額が保険の償還額を超える場合、患者は差額を自己負担で支払わなければなりません。保険会社による償還のプロセスには通常、数週間の処理期間がかかります。"
                 },
                 {
                   "num": "6.12",
@@ -5449,7 +5449,7 @@
             {
               "num": "7.2",
               "text": "Unlike MediShield Life, which is compulsory for all, ElderShield is an opt-out scheme. That means that all Singapore Citizens (SCs) and Singapore Permanent Residents (SPRs) can choose to opt-out of the insurance scheme if they wish. For new cohorts born in 1980 and after, they would be enrolled into CareShield Life instead of ElderShield on 1 Oct 2020 or when they turn 30, whichever is later. Those born in 1979 or earlier have the option to join CareShield Life if they do not have severe disability.",
-              "textJP": "すべての者に義務的なMediShield Lifeとは異なり、ElderShieldはオプトアウト方式のスキームです。すなわち、すべてのシンガポール市民（SC）およびシンガポール永住権保持者（SPR）はスキームからオプトアウトすることを選択できます。"
+              "textJP": "すべての者に義務的なMediShield Lifeとは異なり、ElderShieldはオプトアウト方式のスキームです。すなわち、すべてのシンガポール市民（SC）およびシンガポール永住権保持者（SPR）は希望すれば保険スキームからのオプトアウトを選択できます。1980年以降に生まれた新しいコホートについては、2020年10月1日からCareShield Lifeの下で補償されます。"
             },
             {
               "num": "7.3",
@@ -5464,7 +5464,7 @@
             {
               "num": "7.5",
               "text": "The Government had taken over the ElderShield administration from 1 November 2021, and ElderShield had become a closed scheme from 1 August 2021 onwards. New cohorts born in 1980 or later were covered under CareShield Life from 1 Oct 2020 (more details in Section 7 of this Chapter), but SCs and SPRs born in 1979 or earlier could still opt in to the ElderShield scheme up till 1 Aug 2021 if they were below 65. Those born between 1970 and 1979, who were ElderShield400 policyholders, and did not have severe disability, were also automatically enrolled into CareShield Life and could choose to opt out by 31 Dec 2023. Existing ElderShield policyholders can continue to remain covered under the scheme with no changes to their coverage and benefits.",
-              "textJP": "政府は2021年11月1日からElderShieldの管理を引き継ぎ、ElderShieldは2021年8月1日以降、閉鎖スキームとなりました。1980年以降に生まれた新しいコホートはCareShield Lifeの下で補償されます。"
+              "textJP": "政府は2021年11月1日からElderShieldの管理を引き継ぎ、ElderShieldは2021年8月1日以降、閉鎖されたスキームとなりました。1980年以降に生まれた新しいコホートは2020年10月1日からCareShield Lifeの下で補償されます。1970年〜1979年生まれでElderShield 400に加入していた者は、2021年12月1日からCareShield Lifeに自動加入されましたが、2023年12月31日までにオプトアウトを選択できました。ElderShieldはCPFウェブサイトで管理されています。"
             },
             {
               "num": "7.6",
