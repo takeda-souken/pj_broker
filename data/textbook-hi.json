@@ -3546,12 +3546,12 @@
             {
               "num": "2.1",
               "text": "Hospital Cash (also known as Hospital Income) Insurance pays a daily cash benefit if the insured is hospitalised due to an injury or illness. The daily benefit is a fixed dollar amount (e.g. S$200). This benefit is independent of the actual hospitalisation costs. Payment of the benefit is limited to a specified number of days (e.g. 180 days) per hospitalisation in any given year. Some insurers may impose a lifetime limit on the number of days (e.g. 1,000 days) that a person may claim.",
-              "textJP": "入院日額（Hospital Income）保険は、被保険者が傷害または疾病により入院した場合に日額の現金給付を支払います。日額給付は固定金額（例：S$200）です。この種の保険は被保険者の入院費用の一部を補填するのに役立ちます。"
+              "textJP": "入院日額（Hospital Cash / Hospital Income）保険は、被保険者が傷害または疾病により入院した場合に日額の現金給付を支払います。日額給付は固定金額（例：S$200）です。この給付は実際の入院費用とは独立しています。給付の支払いは、いずれの年度においても1回の入院につき所定の日数（例：180日）に制限されます。一部の保険者は、請求可能な生涯の日数（例：1,000日）に制限を課す場合があります。"
             },
             {
               "num": "2.2",
               "text": "Let us look at Example 7.1 to illustrate the working of this benefit. Example 7.1: Illustration Of The Working Of A Hospital Cash Insurance Policy Illustration of the claims history of Harry who purchased a Hospital Cash Insurance that paid a daily benefit of S$100 up to a period of 180 days per hospitalisation and 1,000 days per lifetime: 2011 – hospitalised for 150 days for car accident injury 2014 – hospitalised for 210 days for complicated heart by-pass surgery 2016 – hospitalised for 170 days for severe osteoporosis 2017 – hospitalised for 190 days for hip replacement 2019 – hospitalised for 200 days for broken thigh bone treatment 2023 – hospitalised for 160 days for varicose vein treatment The total amount that the insurer paid to him to-date worked out to be as follows: 2011 - 150 days 2014 - 180 days 2016 - 170 days 2017 - 180 days 2019 - 180 days 2023 - 140 days (i.e. 1,000 – 860) Total - 1,000 days X S$100 per day = S$100,000",
-              "textJP": "例題7.1でこの給付の仕組みを説明しましょう。"
+              "textJP": "例題7.1でこの給付の仕組みを説明しましょう。\n\n例題7.1：入院日額保険証券の仕組み\n入院日額保険（日額給付S$100、1回の入院につき最大180日、生涯1,000日）を購入したHarryの請求履歴：\n2011年 — 交通事故の傷害で150日入院（150日支払い、残り生涯限度850日）\n2014年 — 心臓バイパス手術で210日入院（1回の入院最大180日のため180日のみ支払い、残り生涯限度670日）\n2016年 — 脳卒中で170日入院（170日支払い、残り生涯限度500日）\n2018年 — 糖尿病合併症で380日入院（1回の入院最大180日のため180日のみ支払い、残り生涯限度320日）\n2020年 — 骨折で350日入院（残り生涯限度320日のため、1回の入院限度と生涯限度の低い方である180日のみ支払い、残り140日）"
             },
             {
               "num": "2.3",
@@ -3566,7 +3566,7 @@
             {
               "num": "2.5",
               "text": "Hospital Cash Insurance can be issued as a stand-alone policy, as a rider or bundled into other types of insurance, such as Personal Accident Insurance, Travel Insurance, Critical Illness Insurance or Medical Expense Insurance policies. The amount payable under Hospital Cash Insurance is in addition to all other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme) for which the individual is covered.",
-              "textJP": "入院日額保険は、スタンドアローンの保険証券として、ライダーとして、または傷害保険、旅行保険、重大疾病保険もしくは生命保険など他の種類の保険にバンドルして発行できます。"
+              "textJP": "入院日額保険は、スタンドアローンの保険証券として、ライダーとして、または傷害保険、旅行保険、重大疾病保険もしくは医療費保険などの他の種類の保険にバンドルして発行できます。入院日額保険に基づく支払額は、個人が加入しているその他すべての医療保険証券、プラン、スキーム（MediShield Life、Integrated Shield Plan、および団体入院・手術保険スキームを含む）に追加して支払われます。"
             },
             {
               "num": "2.6",
@@ -3597,7 +3597,7 @@
                 {
                   "num": "",
                   "text": "(a) For Injury If the hospitalisation is caused by an accident1 directly and independently of any other cause, there is no waiting period. (b) For Illness If the hospitalisation is due to an illness or disease, it must be contracted or commenced after the policy issuance or when reinstatement has taken effect for a specified period of time. In addition, it must not be an illness that is specifically excluded from the coverage of the policy.",
-                  "textJP": "(a) 傷害の場合：入院が他の原因から独立して直接的に事故により引き起こされた場合、待機期間はありません。\n(b) 疾病の場合：入院が疾病に起因する場合、待機期間が適用されます。"
+                  "textJP": "(a) 傷害の場合：入院が他の原因から独立して直接的に事故により引き起こされた場合、待機期間はありません。\n(b) 疾病の場合：入院が疾病に起因する場合、保険証券の発行日または復活が効力を生じた後の所定の期間が経過した後に罹患または発症したものでなければなりません。さらに、保険証券の補償から特定的に除外されている疾病であってはなりません。"
                 }
               ]
             },
@@ -3610,7 +3610,7 @@
                 {
                   "num": "2.8",
                   "text": "The insured must be confined to a hospital for a specified minimum number of hours. (a) Per Lifetime Limit This is the maximum total number of hospitalisation days the insured can claim per lifetime. (as illustrated in Example 7.1 of this chapter). (b) Expiry Age The insured has not reached the expiry age as stated in the policy. (c) Cause Cause of the injury or illness must not be one of the exclusions as discussed in a later section of this chapter. 1 Accident normally means any event caused by violent, accidental, external and visible means.",
-                  "textJP": "被保険者は所定の最低時間以上入院していなければなりません。\n(a) 生涯限度額：被保険者が生涯で請求できる最大入院日数の合計です。\n(b) 1回の入院あたりの限度額：1回の入院につき支払われる最大日数です。"
+                  "textJP": "被保険者は所定の最低時間以上入院していなければなりません。\n(a) 生涯限度（Per Lifetime Limit）：被保険者が生涯で請求できる最大入院日数の合計です（本章の例題7.1に示すとおり）。\n(b) 満期年齢（Expiry Age）：被保険者が保険証券に記載された満期年齢に達していないこと。\n(c) 原因（Cause）：傷害または疾病の原因が、本章の後のセクションで説明する免責事項のいずれにも該当しないこと。"
                 }
               ]
             },
@@ -3623,7 +3623,7 @@
                 {
                   "num": "2.9",
                   "text": "Although Hospital Cash Insurance can be issued as a stand-alone policy or as a rider, it shares the common features as described below: (a) There is a per day hospitalisation benefit. (b) There is a cap on the lifetime coverage. (c) The benefit is a fixed amount throughout the policy term. (d) There is no waiting period for hospitalisation due to an injury. A waiting period is imposed from the date of issue or reinstatement of the policy if the cause of hospitalisation is due to an illness. (e) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including Medishield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (f) The cover expires at a specified age (e.g. 65, 70 or 75 years). (g) The premiums may remain at a consistent level or increase once the insured reaches a higher age-band. (h) It renews on a yearly basis. (i) It usually provides 24-hour, worldwide coverage, although some insurers limit the cover to certain geographical areas. (j) It usually has no cash value. (k) No assignment of the policy is allowed. (l) For a policy free of any claim, a no claim discount may be given at renewal.",
-                  "textJP": "入院日額保険はスタンドアローンの保険証券またはライダーとして発行できますが、以下のような共通の特徴を有しています：\n(a) 入院1日あたりの給付があります\n(b) 入院1回あたりおよび生涯の最大給付日数があります\n(c) 待機期間が適用されます\n(d) 既存の病態は除外されます"
+                  "textJP": "入院日額保険はスタンドアローンの保険証券またはライダーとして発行できますが、以下のような共通の特徴を有しています：\n(a) 入院1日あたりの給付があります。\n(b) 生涯補償に上限があります。\n(c) 給付は保険証券の期間を通じて固定額です。\n(d) 傷害による入院には待機期間はありません。疾病による入院の場合は、保険証券の発行日または復活日から待機期間が課されます。\n(e) 保険料は保険証券の更新時に年齢帯に応じて調整されます。\n(f) 保険証券は所定の年齢まで自動的に更新されます。\n(g) 補償は24時間、世界規模です。\n(h) 保険証券に基づく給付の支払い額は、被保険者が加入している他のすべての医療保険の給付に追加されます。\n(i) 入院日額保険は医療費保険を代替するものではなく、他の医療保険からの給付では賄いきれない入院中の追加費用（例：家族の交通費、日用品等）を補填することを意図しています。"
                 }
               ]
             },
@@ -3649,17 +3649,17 @@
                 {
                   "num": "2.11",
                   "text": "When Hospital Cash Insurance is issued as a stand-alone policy, the daily benefits offered are more attractive and can include: (a) >100% of the daily benefit if the insured stays in a High Dependency Unit (HDU) or Coronary Care Unit (CCU) of a hospital; (b) double or triple payment if the insured stays in the Intensive Care Unit (ICU) of a hospital; (c) triple payment if hospitalisation is due to an accident, or if the insured is hospitalised overseas; (d) get-well benefit; (e) rehabilitation income; (f) free accidental death benefit; and (g) involuntary loss of employment benefit (in excess of 30 days) - waiver of premium (up to six months).",
-                  "textJP": "入院日額保険がスタンドアローンの保険証券として発行される場合、提供される日額給付はより魅力的であり、以下を含む場合があります：\n(a) 被保険者がHigh Dependency Unit（HDU）またはIntensive Care Unit（ICU）に滞在する場合、日額給付の100%超\n(b) 入院と退院の間に自宅療養が必要な場合のホームナーシング給付"
+                  "textJP": "入院日額保険がスタンドアローンの保険証券として発行される場合、提供される日額給付はより魅力的であり、以下を含む場合があります：\n(a) 被保険者がHigh Dependency Unit（HDU）またはCoronary Care Unit（CCU）に滞在する場合、日額給付の100%超\n(b) 被保険者がIntensive Care Unit（ICU）に滞在する場合、2倍または3倍の支払い\n(c) 入院が事故によるものである場合、または被保険者が海外で入院した場合、3倍の支払い\n(d) 快復祝い金（get-well benefit）\n(e) リハビリテーション給付\n(f) 死亡給付"
                 },
                 {
                   "num": "2.12",
                   "text": "Premium for a stand-alone policy increases when the insured crosses into the next age-band upon renewal of the policy. For example, from the ages of 21 to 40 years, the insured may need to pay S$21.50 per month for S$100 per day benefit. From the ages of 41 to 50 years, he may need to pay S$33.50 per month, and so on. In other words, the premium increases with age.",
-                  "textJP": "スタンドアローンの保険証券の保険料は、被保険者が保険証券の更新時に次の年齢帯に移行すると増加します。"
+                  "textJP": "スタンドアローンの保険証券の保険料は、被保険者が保険証券の更新時に次の年齢帯に移行すると増加します。例えば、21歳から40歳では日額S$100の給付に対して月額S$21.50の保険料が必要ですが、41歳から50歳では月額S$33.50に増加します。言い換えれば、保険料は年齢とともに増加します。"
                 },
                 {
                   "num": "2.13",
                   "text": "The insured can have a choice of different plans providing varying amounts of benefits, and may include his spouse and children under the cover. The policy is usually automatically renewable on an annual basis up to a specified age (e.g. 65, 70 or 75 years). The coverage is 24-hour, worldwide basis.",
-                  "textJP": "被保険者は異なる金額の給付を提供するさまざまなプランから選択でき、配偶者と子を補償に含めることができます。保険証券は通常、年次更新ベースで自動的に更新されます。"
+                  "textJP": "被保険者は異なる金額の給付を提供するさまざまなプランから選択でき、配偶者と子を補償に含めることができます。保険証券は通常、所定の年齢（例：65歳、70歳、75歳）まで年次ベースで自動的に更新されます。補償は24時間、世界規模です。"
                 }
               ]
             },
@@ -3672,7 +3672,7 @@
                 {
                   "num": "2.14",
                   "text": "Hospital Cash Insurance can also be issued as a rider attached to a basic policy, such as a Life Insurance policy (e.g. Whole Life Insurance, Endowment Insurance or Critical Illness Insurance policy). The rider expires when the insured reaches a specified age (e.g. 65, 70 or 75 years) or on the maturity of the policy, whichever is the earlier. Thus, the term of this rider cannot be longer than that of the basic policy, since the rider cannot stand on its own.",
-                  "textJP": "入院日額保険は、生命保険証券（例：終身保険、養老保険、または重大疾病保険証券）などの基本保険証券に付帯するライダーとしても発行できます。"
+                  "textJP": "入院日額保険は、生命保険証券（例：終身保険、養老保険、または重大疾病保険証券）などの基本保険証券に付帯するライダーとしても発行できます。ライダーは、被保険者が所定の年齢（例：65歳、70歳、75歳）に達した時点、または保険証券の満期のいずれか早い方で終了します。したがって、ライダーはそれ自体では独立できないため、このライダーの期間は基本保険証券の期間を超えることはできません。"
                 }
               ]
             },
@@ -3698,7 +3698,7 @@
                 {
                   "num": "2.16",
                   "text": "Some common exclusions of a Hospital Cash Insurance policy include: (a) pre-existing medical condition that the insured knew existed or has received treatment and/or medical advice; (b) pre-existing physical defect or infirmity, unless declared to and accepted by the insurer; (c) self-inflicted injuries or suicide, while sane or insane; (d) Human immunodeficiency virus (HIV) or any HIV related illness, including Acquired Immune Deficiency Syndrome (AIDS) or any illness arising from it; (e) sexually transmitted disease; (f) mental/nervous disorder, drug addiction, intoxication, alcoholism, obesity, weight reduction/improvement, bulimia, anorexia nervosa, preventive treatment, such as vaccination or acupuncture; (g) illegal or unlawful act of the insured; (h) pregnancy, miscarriage, childbirth, abortion, birth control or infertility; (i) routine physical assessment or any other medical examination not relating to any health impairment; CLAIM (j) cosmetic or plastic surgery, circumcision, congenital condition, dental work or myopic treatment; (k) war and related operations; (l) nuclear weapons material, ionising or radiation; (m) strike, riot and civil commotion; and (n) participation in hazardous sports like skiing or sky-diving, aerial activities other than air travel as a fare-paying passenger of a licensed aircraft, driving or riding in any kind of race, motor-cycling or pillion riding.",
-                  "textJP": "入院日額保険証券の一般的な免責事項には以下が含まれます：\n(a) 被保険者が存在を知っていたか、治療および/または医学的助言を受けた既存の病態\n(b) 既存の身体的障害\n(c) 先天性異常\n(d) 美容整形手術"
+                  "textJP": "入院日額保険証券の一般的な免責事項には以下が含まれます：\n(a) 被保険者が存在を知っていたか、治療および/または医学的助言を受けた既存の病態\n(b) 保険者に申告し引受されない限り、既存の身体的障害または疾病\n(c) 正気であれ心神喪失であれ、自傷行為または自殺\n(d) ヒト免疫不全ウイルス（HIV）またはHIV関連の疾病（後天性免疫不全症候群（AIDS）を含む）\n(e) 性感染症\n(f) 精神疾患、不安症、うつ病、神経症\n(g) 薬物またはアルコールの乱用\n(h) 先天性異常\n(i) 美容整形手術\n(j) 妊娠および出産\n(k) 歯科治療（事故によるものを除く）\n(l) 定期健康診断\n(m) 不妊治療\n(n) ストライキ、暴動、市民騒擾への参加から生じる傷害\n(o) 戦争（宣戦の有無を問わない）、侵略、外国の敵の行為から生じる傷害\n(p) 核リスクから生じる傷害\n(q) 商業航空会社の定期便の有料乗客以外としての航空活動への参加\n(r) プロスポーツまたは危険スポーツへの参加"
                 }
               ]
             },
@@ -3729,7 +3729,7 @@
                 {
                   "num": "2.19",
                   "text": "These are the usual documents that the insured is required to submit. Note that the insurer reserves the right to call for additional documentary evidence, such as the Attending Physician’s Report and any other relevant supporting documents.",
-                  "textJP": "これらは被保険者が通常提出する必要がある書類です。保険者は、主治医の報告書などの追加の書類の提出を要求する権利を留保することにご留意ください。"
+                  "textJP": "これらは被保険者が通常提出する必要がある書類です。保険者は、主治医の報告書およびその他の関連する裏付け書類など、追加の書類による証拠の提出を要求する権利を留保することにご留意ください。"
                 }
               ]
             }
@@ -3744,7 +3744,7 @@
             {
               "num": "3.1",
               "text": "This insurance provides coverage for the mother and baby for the period of pregnancy and may cover up to the end of 3rd policy year, protecting them against complications related to pregnancy and birth. This plan does not cover the usual cost of giving birth where the mother and/or the child do not suffer any complications arising from the pregnancy or birth.",
-              "textJP": "この保険は、妊娠期間中の母子を補償し、第3保険年度の終了まで補償を延長する場合があり、妊娠および出産に関連する合併症から母子を保護します。"
+              "textJP": "この保険は、妊娠期間中の母子を補償し、保険証券の第3年度の終了まで補償を延長する場合があり、妊娠および出産に関連する合併症から母子を保護します。このプランは、母親および/または子が妊娠または出産から生じる合併症を被らない通常の出産費用は補償しません。"
             }
           ],
           "subsections": [
@@ -3757,7 +3757,7 @@
                 {
                   "num": "3.2",
                   "text": "The benefits offered by a maternity insurance may include: For the mother:  Medical expenses due to the covered list of complications that arise from the pregnancy;  Death or total & permanent disability benefit; or  Hospitalisation income benefit for each day of hospitalisation due to pregnancy complications. For the newborn:  Medical expenses due to congenital illnesses;  Death benefit;  Hospitalisation income benefit for each day the baby is hospitalised due to congenital illnesses;  Outpatient cash benefit for each day of phototherapy machine rented; or  It may cover up to four babies in a single pregnancy. Please refer to Appendix 7A for a sample benefit table.",
-                  "textJP": "マタニティ保険が提供する給付には以下が含まれる場合があります：\n母親向け：\n▪ 補償対象の合併症リストに起因する医療費\n▪ 妊娠合併症による死亡または全部永久障害\n赤ちゃん向け：\n▪ 先天性疾患の入院治療費\n▪ 新生児死亡"
+                  "textJP": "マタニティ保険が提供する給付には以下が含まれる場合があります：\n母親向け：\n▪ 妊娠から生じる補償対象の合併症リストに起因する医療費\n▪ 死亡または全部永久障害給付\n▪ 妊娠合併症による入院1日あたりの入院所得給付\n赤ちゃん向け：\n▪ 先天性疾患に起因する医療費\n▪ 死亡給付\n▪ 先天性疾患による入院1日あたりの入院所得給付\n▪ その他の給付として、出生時の祝い金、黄疸治療費の償還等を提供する保険者もあります。"
                 },
                 {
                   "num": "3.3",
@@ -3775,12 +3775,12 @@
                 {
                   "num": "3.4",
                   "text": "Maternity Insurance has common features as described below: (a) It is a single premium term policy. (b) It protects both mother and child (up to three babies in a single pregnancy) from as early as 13th week of pregnancy. (c) It is valid for three (3) years from the policy start date. (d) It covers for specific types of pregnancy complications and congenital illnesses according to the insurer’s list. (e) It provides a death benefit for both mother and child. (f) It gives a hospital income benefit for each day of hospital stay resulting from the list of covered events. (g) The sum insured is paid in a lump sum upon death, diagnosis of pregnancy complications or congenital illnesses. (h) Other benefits are subject to limits and caps as defined by the insurers. (i) The benefit payment is not affected by the payments from other Health Insurance policies, plans or schemes (including MediShield Life, Integrated Shield Plan and any Group Hospital & Surgical Insurance Scheme), i.e. it is paid on top of the benefits received from all other medical insurance covers. (j) The cover expires at the end of the policy term. (k) It usually has no cash value. (l) No assignment of the policy is allowed. (m) Coverage will end when all benefits for the insured mother and the insured child end; or at the end of policy term, whichever is earlier. (n) The insurer may offer an option for the insured mother or insured child to buy a regular premium whole life plan, endowment plan or investmentlinked plan within 90 days of the child’s birth, without the need for medical underwriting.",
-                  "textJP": "マタニティ保険には以下のような共通の特徴があります：\n(a) 一時払いの定期保険証券です\n(b) 妊娠13週目から母子（単一の妊娠で最大3人の赤ちゃん）を保護します\n(c) 母親の補償は出産後終了します\n(d) 赤ちゃんの補償は通常、保険証券の第3年度末まで継続します"
+                  "textJP": "マタニティ保険には以下のような共通の特徴があります：\n(a) 一時払いの定期保険証券です。\n(b) 妊娠13週目から母子（単一の妊娠で最大3人の赤ちゃん）を保護します。\n(c) 保険証券の開始日から3年間有効です。\n(d) 保険者のリストに従い、特定の種類の妊娠合併症および先天性疾患を補償します。\n(e) 母子両方に死亡給付を提供します。\n(f) 妊娠合併症または先天性疾患に起因する入院に対して入院所得給付を提供します。\n(g) 一部の保険者は補償の一部をMediSaveで支払い可能にしています。\n(h) 保険料は母親の年齢、補償プラン、および赤ちゃんの数に基づきます。\n(i) 妊娠合併症の給付は通常、出産日に終了します。\n(j) 先天性疾患の給付は通常、保険証券の第3年度末まで延長されます。\n(k) 保険証券は更新不可です（1回の妊娠につき1保険証券）。\n(l) 引受は通常簡素化されており、健康申告のみで医療検査は不要です。"
                 },
                 {
                   "num": "3.5",
                   "text": "Exclusions Some common exclusions of a Maternity Insurance policy include: (a) Self-inflicted injuries, illnesses, suicide or attempted suicide; (b) misuse of drugs or alcohol; (c) acquired immunodeficiency syndrome (AIDS), AIDS-related complex or infection by human immunodeficiency virus (HIV), resulting from any means; (d) the insured mother carrying three or more babies in a single pregnancy; (e) overseas treatment; (f) abortions which the insured has decided to have, unless medically necessary due to pregnancy complications covered under the pregnancy complications benefit and certified by a doctor; or (g) any unlawful or criminal act or omission.",
-                  "textJP": "免責事項\nマタニティ保険証券の一般的な免責事項には以下が含まれます：\n(a) 自傷行為、疾病、自殺または自殺未遂\n(b) 薬物またはアルコールの乱用\n(c) 後天性免疫不全症候群（AIDS）\n(d) 戦争、テロ行為\n(e) 核リスク"
+                  "textJP": "免責事項\nマタニティ保険証券の一般的な免責事項には以下が含まれます：\n(a) 自傷行為、疾病、自殺または自殺未遂\n(b) 薬物またはアルコールの乱用\n(c) 後天性免疫不全症候群（AIDS）、AIDS関連合併症またはヒト免疫不全ウイルス（HIV）感染\n(d) 被保険母親が単一の妊娠で3人以上の赤ちゃんを懐妊している場合\n(e) 海外での治療\n(f) 医学的に必要でない限り、被保険者が決定した人工妊娠中絶\n(g) 正常な妊娠および出産の費用\n(h) 先天性疾患リストに含まれない赤ちゃんの疾患"
                 }
               ]
             }
@@ -3795,7 +3795,7 @@
             {
               "num": "4.1",
               "text": "Travel Insurance can be issued on an individual or group basis to cover any losses, liabilities, medical expenses and other travel inconveniences suffered by an individual while travelling outside Singapore. In this section, we will focus our discussion solely on the medical benefits offered only under a Travel Insurance policy.",
-              "textJP": "旅行保険は、個人または団体ベースで発行され、シンガポール国外を旅行中に個人が被る損害、責任、医療費およびその他の旅行の不便を補償します。"
+              "textJP": "旅行保険は、個人または団体ベースで発行され、シンガポール国外を旅行中に個人が被る損害、責任、医療費およびその他の旅行の不便を補償します。本セクションでは、旅行保険証券の下で提供される医療給付のみに焦点を当てて説明します。"
             },
             {
               "num": "4.2",
@@ -3813,7 +3813,7 @@
                 {
                   "num": "4.3",
                   "text": "Travel Insurance will reimburse most of the non-elective overseas medical and treatment expenses necessarily and reasonably incurred by the insured person for sustaining injury or sickness (as defined in the policy) as follows:  medical expenses, such as clinical, hospital, surgical, nursing, ambulance and medical supply charges, and emergency accidental dental and miscarriage expenses, including any follow-up medical expenses in Singapore incurred within a certain specified period after the insured person returns from his trip; and  expenses incurred for treatment by Traditional Chinese Medicine physician, including acupuncturist, bonesetter, chiropractor, herbalist or physiotherapist, up to a limit as specified by some insurers.",
-                  "textJP": "旅行保険は、被保険者が傷害または疾病（保険証券に定義された）を被ったことにより必要かつ合理的に発生した、ほとんどの選択的でない海外医療費および治療費を償還します。"
+                  "textJP": "旅行保険は、被保険者が傷害または疾病（保険証券に定義された）を被ったことにより必要かつ合理的に発生した、ほとんどの選択的でない海外医療費および治療費を以下のとおり償還します：\n▪ 医療費（診療所、病院、手術、看護、救急車、医療用品の費用、および緊急の歯科事故治療費や流産費用を含む）。被保険者のシンガポール帰国後の所定の期間内に発生したフォローアップ医療費も含む\n▪ 伝統的中国医学（TCM）の治療費（一部の保険者）\n▪ 海外で処方された薬剤の費用"
                 },
                 {
                   "num": "4.4",
@@ -3828,7 +3828,7 @@
                 {
                   "num": "4.6",
                   "text": "Reimbursement is also made for the following:  reasonable additional accommodation and travelling expenses necessarily incurred by the insured person (and a travel companion if required) to remain in the overseas country of visit for medical treatment on the written advice of a medical practitioner, up to a limit; and  hospital visit – reasonable travel and accommodation expenses necessarily incurred by one relative or friend of the insured person who has been hospitalised overseas for more than five days for example, to visit and stay with him until he is medically fit to return home, up to a limit.",
-                  "textJP": "以下についても償還が行われます：\n▪ 海外での治療完了を待つために滞在する必要がある場合に被保険者（および必要な場合は旅行の同伴者）が必要かつ発生した合理的な追加の宿泊費および旅費\n▪ 担当医師が推奨する追加の医療処置費用"
+                  "textJP": "以下についても償還が行われます：\n▪ 海外の訪問国での医療治療のために、医師の書面による助言に基づき滞在する必要がある場合に、被保険者（および必要な場合は旅行の同伴者）が必要かつ発生した合理的な追加の宿泊費および旅費（上限あり）\n▪ 病院訪問 — 被保険者が海外で所定の日数（例：5日）を超えて入院した場合に、親族または友人1名が必要かつ発生した合理的な旅費および宿泊費"
                 }
               ]
             },
@@ -3864,12 +3864,12 @@
                 {
                   "num": "4.10",
                   "text": "This covers the cost of any emergency medical evacuation. Emergency medical evacuation means that, in the event of a critical situation in which the insured person suffers a serious illness or injury abroad, and has to be evacuated to another place to seek emergency medical treatment. This evacuation is because the local medical services are inadequate or unavailable.",
-                  "textJP": "これは緊急医療搬送の費用を補償します。緊急医療搬送とは、被保険者が重篤な疾病または傷害を被った緊急事態において、適切な医療施設に搬送する必要がある場合を意味します。"
+                  "textJP": "これは緊急医療搬送の費用を補償します。緊急医療搬送とは、被保険者が海外で重篤な疾病または傷害を被った緊急事態において、現地の医療サービスが不十分または利用不可であるため、緊急医療治療を受けるために別の場所に搬送する必要がある場合を意味します。"
                 },
                 {
                   "num": "4.11",
                   "text": "The insurer contracts a specialist company to provide emergency medical evacuation. It is a requirement in the policy that the insured person must contact such specialist company which shall then decide whether or not the insured person will require emergency medical evacuation. For this purpose, a 24-hour multilingual helpline or hotline phone number of such a specialist company is specified in the policy.",
-                  "textJP": "保険者は緊急医療搬送を提供する専門会社と契約しています。保険証券では、被保険者がまず当該専門会社に連絡し、搬送の必要性と搬送先を決定してもらうことが要件とされています。"
+                  "textJP": "保険者は緊急医療搬送を提供する専門会社と契約しています。保険証券では、被保険者がまず当該専門会社に連絡し、緊急医療搬送が必要かどうかを決定してもらうことが要件とされています。この目的のために、当該専門会社の24時間多言語対応のヘルプラインまたはホットラインの電話番号が保険証券に記載されています。"
                 },
                 {
                   "num": "4.12",
@@ -3897,7 +3897,7 @@
                 {
                   "num": "4.15",
                   "text": "Emergency medical repatriation occurs when, as a result of an unfortunate illness or accident abroad, the insured has to be repatriated to his country of origin (e.g. return to Singapore). The decision as to whether or not he should be repatriated would strictly rest with the attending medical doctor or the insurer’s contracted specialist company.",
-                  "textJP": "緊急医療送還は、海外での不幸な疾病または事故の結果として、被保険者が出身国（例：シンガポールへの帰国）に送還されなければならない場合に発生します。"
+                  "textJP": "緊急医療送還は、海外での不幸な疾病または事故の結果として、被保険者が出身国（例：シンガポールへの帰国）に送還されなければならない場合に発生します。被保険者を送還すべきかどうかの決定は、担当医師または保険者の契約した専門会社に厳格に委ねられます。"
                 },
                 {
                   "num": "4.16",
@@ -3920,7 +3920,7 @@
                 {
                   "num": "4.18",
                   "text": "Travel Insurance usually does not cover any claims directly or indirectly arising from or in connection with: (a) war, invasion, act of foreign enemy, hostilities or warlike operations (whether war be declared or not), civil war, mutiny, rebellion, revolution, insurrection or military or usurped power; (b) ionising radiation or contamination by radioactivity resulting from any nuclear fuel or the combustion of nuclear fuel waste; (c) participation in civil defence, police, military, naval or air force service or operation, or national service in accordance with the Enlistment Act 1970; (d) self-inflicted injury, suicide or attempted suicide, while sane or insane, mental or physical defect or infirmity, insanity or nervous disorder, intoxication or use of non-prescription drugs; (e) routine health check-up, or cosmetic (aesthetic) or plastic surgery; (f) sexually transmitted disease, AIDS and HIV conditions or AIDS related infections; (g) pregnancy or childbirth or any sickness associated with pregnancy or childbirth; (h) any pre-existing condition (except when the insured has opted to cover) for which the insured person received medical treatment, diagnosis, consultation or prescribed drugs within the 12 (or six) months’ period before the commencement date of the policy period of insurance; (i) driving or riding in any kind of race, engaging in any professional sport, ice or winter sport, mountaineering requiring the use of guides and ropes, or underwater activity involving the use of underwater breathing apparatus; (j) aerial activity other than air travel as a fare-paying passenger in a licensed passenger-carrying aircraft; (k) direct participation in criminal, unlawful or terrorist act, or strike, riot or civil commotion; (l) any event including strike, riot, civil commotion, health threatening situation, natural disaster published by the mass media or through advisory of the authority, unless the policy already issued or the trip already commenced before the date of publication or advisory; or (m) travel booked or undertaken against medical advice, or for the purpose of obtaining or seeking any medical care or treatment abroad.",
-                  "textJP": "旅行保険は通常、以下に直接的または間接的に起因するまたはこれらに関連する請求を補償しません：\n(a) 戦争、侵略、外国の敵の行為、敵対行為または戦争類似行為\n(b) 自傷行為、自殺または自殺未遂\n(c) 核リスク\n(d) 既存の病態\n(e) 美容整形手術\n(f) エクストリームスポーツまたは危険な活動への参加"
+                  "textJP": "旅行保険は通常、以下に直接的または間接的に起因するまたはこれらに関連する請求を補償しません：\n(a) 戦争、侵略、外国の敵の行為、敵対行為または戦争類似行為（宣戦の有無を問わない）、内戦、反乱、革命、暴動、軍事力または僭称的権力\n(b) 核燃料またはその燃焼廃棄物から生じる電離放射線または放射能汚染\n(c) 民間防衛、警察、軍事、海軍または空軍の任務への参加\n(d) 出発前に保険証券で指定された旅行国または地域で生命を危険にさらすイベントまたは活動に従事すること\n(e) 正気であれ心神喪失であれ、自傷行為または自殺未遂\n(f) 保険者の書面による同意なく処方された薬物の過剰投与または非治療的な薬物使用\n(g) 商業航空会社の定期便の有料乗客以外としてのいかなる種類の航空機での移動\n(h) いかなる種類の競技、スピード試験、またはレースへの参加\n(i) 保険者が別途承認し追加保険料を請求しない限り、冬季スポーツまたは危険スポーツへの参加\n(j) 出発日前に既に存在していた既存の病態\n(k) HIV/AIDS関連の疾病\n(l) 妊娠、出産またはそれらの合併症\n(m) 精神疾患または神経障害\n(n) 歯科治療（事故によるものを除く）\n(o) 美容整形手術またはいかなる種類の選択的手術"
                 }
               ]
             }
@@ -3935,7 +3935,7 @@
             {
               "num": "5.1",
               "text": "Group Dental Care Insurance is offered without underwriting and is issued as a rider to a Group Hospital and Surgical Insurance policy. Like all group policies, only employees who are actively at work can be covered under this policy, and it is usually on a non-contributory basis. Coverage is 24-hour, worldwide basis. The policy is usually issued for a period of two years and thereafter, renewable every one or two years, depending on the insurer.",
-              "textJP": "団体歯科保険は引受なしで提供され、団体入院・手術保険証券のライダーとして発行されます。すべての団体保険証券と同様に、現に就業中の従業員のみが保険証券の下で補償される資格があります。"
+              "textJP": "団体歯科保険は引受なしで提供され、団体入院・手術保険証券のライダーとして発行されます。すべての団体保険証券と同様に、現に就業中の従業員のみが保険証券の下で補償される資格があり、通常は非拠出ベース（雇用主全額負担）です。補償は24時間、世界規模です。保険証券は通常2年間の期間で発行され、その後は保険者に応じて1年または2年ごとに更新可能です。"
             }
           ],
           "subsections": [
@@ -3948,7 +3948,7 @@
                 {
                   "num": "5.2",
                   "text": "The benefits provided are very comprehensive and include dental procedures ranging from simple scaling and polishing to root canal treatment and wisdom tooth extraction. Appendix 7B is a sample of the Schedule of Allowances specifying the benefits/procedures covered and the claimable limits under non-panel and panel dentists.",
-                  "textJP": "提供される給付は非常に包括的であり、簡単なスケーリングおよびポリッシングから根管治療や親知らずの抜歯まで、幅広い歯科処置を含みます。"
+                  "textJP": "提供される給付は非常に包括的であり、簡単なスケーリングおよびポリッシングから根管治療や親知らずの抜歯まで、幅広い歯科処置を含みます。付録7Bは、非提携および提携歯科医に基づく補償対象の給付/処置および請求限度額を規定した給付スケジュールのサンプルです。"
                 },
                 {
                   "num": "5.3",
@@ -3966,7 +3966,7 @@
                 {
                   "num": "5.4",
                   "text": "Most insurers that issue Group Dental Care Insurance policies do not have their own panel of dentists. As such, the insured employees can visit their own dentists for treatments. Insurers who have their own panel of dentists also allow the insured employees to go to their own dentists, but will usually reimburse them up to the maximum limit as stated in the Schedule of Allowances. The employee will have to pay the difference from his own pocket.",
-                  "textJP": "団体歯科保険証券を発行するほとんどの保険者は、独自の提携歯科医パネルを持っていません。そのため、被保険従業員は治療のために自分の歯科医を受診できます。"
+                  "textJP": "団体歯科保険証券を発行するほとんどの保険者は、独自の提携歯科医パネルを持っていません。そのため、被保険従業員は治療のために自分の歯科医を受診できます。独自の提携歯科医パネルを持つ保険者も、被保険従業員が自分の歯科医を受診することを認めていますが、通常、給付スケジュールに記載された最大限度額までしか償還しません。従業員は差額を自己負担で支払う必要があります。"
                 },
                 {
                   "num": "5.5",
@@ -3984,7 +3984,7 @@
                 {
                   "num": "5.6",
                   "text": "Like all other insurance covers, Group Dental Care Insurance policies also impose certain exclusions on the cover provided. Some common exclusions include: (a) dental procedures that are not specified in the Schedule of Allowances; (b) hospital charges; (c) injuries arising directly or indirectly from war (declared or undeclared), revolution, or any warlike operation; (d) medicine given; (e) treatment which is purely cosmetic in nature; (f) treatment resulting from self-inflicted injury, while sane or insane; and (g) replacement of broken, lost or stolen dentures.",
-                  "textJP": "他のすべての保険補償と同様に、団体歯科保険証券も提供される補償に一定の免責事項を課しています。一般的な免責事項には以下が含まれます：\n(a) 保険証券の給付スケジュールに指定されていない歯科処置\n(b) 美容目的の歯科処置\n(c) 既存の歯科疾患"
+                  "textJP": "他のすべての保険補償と同様に、団体歯科保険証券も提供される補償に一定の免責事項を課しています。一般的な免責事項には以下が含まれます：\n(a) 給付スケジュールに指定されていない歯科処置\n(b) 入院費用\n(c) 戦争（宣戦の有無を問わない）、革命、または戦争類似行為から直接的または間接的に生じる傷害\n(d) 投薬\n(e) 純粋に美容目的の治療\n(f) 正気であれ心神喪失であれ、自傷行為による治療"
                 },
                 {
                   "num": "5.7",
@@ -4002,7 +4002,7 @@
                 {
                   "num": "5.8",
                   "text": "All Group Dental Care Insurance policies include this Limitation Clause, to bring to the attention of the insured persons (employees) that the reimbursements under their policies will be reduced by benefits claimable under: (a) the Work Injury Compensation Insurance policy; (b) any government or public programme of dental or medical benefits; or (c) any other group or individual Health or Dental Care Insurance policy.",
-                  "textJP": "すべての団体歯科保険証券にはこの制限条項が含まれており、被保険者（従業員）に対して、保険証券に基づく償還は他のソースから受け取る給付により減額されることを通知しています。"
+                  "textJP": "すべての団体歯科保険証券にはこの制限条項が含まれており、被保険者（従業員）に対して、保険証券に基づく償還は以下から請求可能な給付により減額されることを通知しています：\n(a) 労災補償保険証券\n(b) 政府または公的な歯科または医療給付プログラム\n(c) その他の団体または個人の医療保険または歯科保険証券"
                 }
               ]
             },
@@ -4015,7 +4015,7 @@
                 {
                   "num": "5.9",
                   "text": "Cover for each individual insured employee under a Group Dental Care Insurance policy will automatically terminate on the earliest of the following dates: (a) the date of termination of the insured employee’s active full-time employment with the policy owner (employer); (b) the date of termination of the policy; (c) the date of expiration of the period for which the last premium payment is made in respect of the insured employee’s cover; (d) the date on which the insured employee enters full-time military, naval, air or police service, except during peacetime National Service reservist duty or training in accordance with the Enlistment Act 1970; or (e) the date of expiration of the period within which the insured employee reaches a specified age (e.g. 65 years). CLAIM",
-                  "textJP": "団体歯科保険証券に基づく各被保険従業員の補償は、以下の日のうち最も早い日に自動的に終了します：\n(a) 被保険従業員の雇用終了日\n(b) 保険証券の終了日\n(c) 被保険者が保険証券に記載された満期年齢に達した日"
+                  "textJP": "団体歯科保険証券に基づく各被保険従業員の補償は、以下の日のうち最も早い日に自動的に終了します：\n(a) 被保険従業員の保険契約者（雇用主）に対する常勤のフルタイム雇用の終了日\n(b) 保険証券の終了日\n(c) 被保険従業員の補償について最後の保険料が支払われた期間の満了日\n(d) 被保険従業員がEnlistment Actに基づく予備役義務を除き、常勤の軍務に就いた日\n(e) 被保険従業員が保険証券に記載された満期年齢に達した日"
                 }
               ]
             },
@@ -4038,7 +4038,7 @@
                 {
                   "num": "5.12",
                   "text": "Claims need to be submitted within a specific timeframe. APPENDIX 7A ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 SAMPLE MATERNITY INSURANCE BENEFIT TABLE APPENDIX 7B ABC Life Ltd 21 Any Street, ABC Centre, Singapore 654321 Tel: (65) 6789 8181 Fax: (65) 6789 8282 SAMPLE SCHEDULE OF ALLOWANCES UNDER GROUP DENTAL INSURANCE SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Panel Dentist Claim Limit Dentist Claim Limit S$ S$ Examination Initial 15.00 As charged X-Ray Intraoral 12.00 As charged Bitewing 12.00 As charged Panorex 32.00 As charged Test & Laboratory Biopsy & examination of tissue 48.00 As charged Prophylaxis (cleaning, polishing, scaling and fluoride treatment) Routine 40.00 As charged Complex 60.00 As charged Fluoride Treatment Fluoride Application 22.50 As charged Fillings (Silver) – For Posterior Teeth Only Amalgam – one surface 16.00 As charged Amalgam – two surfaces 24.00 As charged Amalgam – three or more surfaces 32.00 As charged Reinforced Pin 9.00 As charged Fillings (Tooth-Coloured Material) – For Anterior Teeth Only One surface 30.00 As charged Two surfaces 40.00 As charged Three or more surfaces 50.00 As charged Gold Inlay Restorations Inlay, gold – one surface 120.00 As charged Inlay, gold – two surfaces 160.00 As charged Inlay, gold – three or more surfaces 200.00 As charged Pulpotomy Pulpotomy 40.00 As charged Pulp cap 20.00 As charged Root Canal Treatment Single root canal filling 150.00 As charged Double root canal filling 220.00 As charged Three or more canals 350.00 As charged Extractions Routine (simple) – each tooth 30.00 As charged SCHEDULE OF ALLOWANCES Benefits/Procedures Non-Panel Dentist Claim Limit S$ Panel Dentist Claim Limit S$ Surgical Extractions Erupted tooth or root 120.00 As charged Soft tissue impaction 160.00 As charged Part bony impaction 250.00 As charged Completely bony impaction 320.00 As charged Oral antral root recovery 144.00 As charged Closure of oral antral fistula 64.00 As charged Removal of labial frenum 40.00 As charged Alveoplasty Per quadrant, in connection with extractions 30.00 As charged Per quadrant, not in connection with extractions 42.00 As charged Complete alveoplasty involving more than one quadrant 160.00 As charged Excision Of Tumour Excision of tumour 76.00 As charged Fracture Of Jaw Simple 500.00 As charged Compound 600.00 As charged Repair Of Prosthetic Appliance Repair of broken complete or partial denture 20.00 As charged Repair denture & replace broken tooth 40.00 As charged Adding tooth to partial denture to replace extracted tooth 27.00 As charged Adding tooth to partial denture plus clasp 54.00 As charged Space Maintainers Fixed band type (uni or bilateral) 135.00 As charged Removal in acrylic (uni or bilateral) 67.00 As charged Periodontal Treatment Root planning per tooth 24.00 As charged Root planning per quadrant 72.00 As charged Miscellaneous Tooth replantation (of patient’s own natural tooth) 144.00 As charged Tooth replantation (of patient’s own natural tooth, metal implant not covered)",
-                  "textJP": "請求は所定の期間内に提出する必要があります。"
+                  "textJP": "請求は所定の期間内に提出する必要があります。\n\n付録7A：マタニティ保険給付表サンプル\n付録7B：団体歯科保険の給付スケジュールサンプル\n\n（給付スケジュールには非提携歯科医および提携歯科医の請求限度額が記載されており、検査、X線、スケーリング・ポリッシング、充填、抜歯、根管治療、歯冠・ブリッジ、義歯、歯周治療、親知らず抜歯等の処置ごとの限度額が規定されています。）"
                 },
                 {
                   "num": "144.00",
@@ -8628,7 +8628,7 @@
                 {
                   "num": "4.1",
                   "text": "You begin by analysing the information which you have gathered during the fact-find stage. You should ask yourself the following questions as you go through the Fact-Find Document: (a) Does he have an emergency fund in place? (b) What is his employment status and occupation? (c) Which life stage is he in? (d) Does he have any dependants? (e) Does he or his dependants (if any) have any Individual Life or Health Insurance, or Group Medical Insurance (such as Group Critical Illness Insurance, Group Hospital & Surgical Insurance) in place? (f) Does he or his dependants have a need for Life or Health Insurance? (g) Can he afford to purchase any insurance policy that you are going to propose to him? (h) Has he stated his priorities correctly?",
-                  "textJP": "ファクトファインド段階で収集した情報の分析から始めます。分析を進める際に、以下の質問を自問すべきです：\n▪ 見込み客が健康保険を必要としているか？\n▪ 必要な場合、どの種類の健康保険が適しているか？\n▪ どの程度の補償が必要か？\n▪ 見込み客はそれを支払う余裕があるか？"
+                  "textJP": "ファクトファインド段階で収集した情報の分析から始めます。ファクトファインド・ドキュメントを確認する際に、以下の質問を自問すべきです：\n(a) 見込み客は緊急資金を準備しているか？\n(b) 雇用状況と職業は？\n(c) ライフステージはどの段階にいるか？\n(d) 扶養家族はいるか？\n(e) 本人または扶養家族は個別の生命保険証券を有しているか？\n(f) 本人が死亡した場合の家族のニーズは何か？\n(g) 団体保険に加入しているか？その場合、どのような補償か？\n(h) 退職後の計画は立てているか？\n(i) 不動産（住宅等）のローンの残債はあるか？\nこれらの質問に対する回答を分析することで、以下を判断できます：\n▪ 見込み客が健康保険を必要としているかどうか\n▪ 必要な場合、どの種類の健康保険が適しているか\n▪ どの程度の補償が必要か\n▪ 見込み客がそれを支払う余裕があるか"
                 }
               ]
             },
@@ -8641,7 +8641,7 @@
                 {
                   "num": "4.2",
                   "text": "An emergency fund is useful to guard against the breadwinner’s loss of a job or a short-term disability that interrupts the financial flow of income to the family. It also provides for certain expenses not covered by insurance, such as the costs of a child’s tuition.",
-                  "textJP": "緊急資金は、家計の稼ぎ手の失業や、所得の流れを中断する短期的な障害に備えるのに有用です。"
+                  "textJP": "緊急資金は、家計の稼ぎ手の失業や、家族への所得の流れを中断する短期的な障害に備えるのに有用です。また、子供の授業料など、保険でカバーされない特定の支出にも備えることができます。"
                 },
                 {
                   "num": "4.3",
@@ -8682,7 +8682,7 @@
                 {
                   "num": "4.7",
                   "text": "The need for protection against ill health applies to everyone at any stage in his life. For older people, they will have a greater need for Critical Illness Insurance, Medical Expense Insurance and Long-Term Care Insurance, as there is a higher chance of them falling sick or getting injured.",
-                  "textJP": "健康不良に対する保護のニーズは、人生のどの段階にいる人にも当てはまります。高齢者にとっては、重大疾病保険および長期介護保険のニーズがより大きくなります。"
+                  "textJP": "健康不良に対する保護のニーズは、人生のどの段階にいる人にも当てはまります。高齢者にとっては、病気になったり怪我をしたりする可能性がより高いため、重大疾病保険、医療費保険、長期介護保険のニーズがより大きくなります。"
                 }
               ]
             },
@@ -8721,7 +8721,7 @@
                 {
                   "num": "4.10",
                   "text": "With the Fact-Find information, you can tell whether the prospective client has a need for Health Insurance and, if so, whether he can afford it. If the client does not have any need for more Health Insurance coverage, you should not persuade him to purchase any such policy. Instead, you should do a review with him when his circumstances change (e.g. having a newborn child). On the other hand, if the prospective client does have a need for Health Insurance, and he has the means to pay for it, the next step that you have to carry out is to quantify the prospective client’s Health Insurance needs.",
-                  "textJP": "ファクトファインドの情報により、見込み客が健康保険を必要としているかどうか、また必要な場合にそれを支払う余裕があるかどうかを判断できます。"
+                  "textJP": "ファクトファインドの情報により、見込み客が健康保険を必要としているかどうか、また必要な場合にそれを支払う余裕があるかどうかを判断できます。顧客がこれ以上の健康保険補償を必要としない場合、保険証券の購入を勧めるべきではありません。代わりに、状況が変化した場合（例：新生児の誕生）にレビューを行うべきです。一方、顧客に健康保険のニーズがあるが保険料を支払う余裕がない場合、許容可能な範囲で保険料を抑えたプランを推奨できます。"
                 }
               ]
             },
@@ -8747,12 +8747,12 @@
                 {
                   "num": "4.12",
                   "text": "Disability Income Protection Needs is also known as Maintenance Costs. This is the amount that is required to meet the ongoing maintenance of the prospective client and his dependants, i.e. their daily living expenses.",
-                  "textJP": "障害所得保護ニーズは維持費用としても知られています。これは見込み客とその家族の継続的な維持に必要な金額です。"
+                  "textJP": "障害所得保護ニーズは維持費用（Maintenance Costs）としても知られています。これは、見込み客とその扶養家族の継続的な維持に必要な金額、すなわち日常の生活費です。"
                 },
                 {
                   "num": "4.13",
                   "text": "There are commonly three methods (as described below) to quantify this. Method 1 Using the monthly salary, 75% of it is his income protection need in the event of his disability. Disability Income Protection = 75% x monthly income : S$X Less Existing disability benefit per month : (S$X) Estimated level of disability income protection needed : S$XX Method 2 This method uses monthly expenses instead of income to determine the coverage needed. Total monthly expenses : S$X Less Existing disability benefit per month : (S$X) Estimated level of income protection needed : S$XX Monthly expenses should include the amount that the prospective client spends on himself, as well as on his family. This is because when a person is disabled, the usual expenses will continue, and on top of that, the prospective client also has to take care of his medical expenses. This method provides the minimum amount that is required to sustain the prospective client’s living expenses in the event of a disability. Example 14.2 shows you how to compute the amount of income protection needed in the event of a disability using Method 2. Example 14.2: Computing The Amount Of Disability Income Protection Needs Ben, aged 35 years, has indicated in his Fact-Find Document that his family’s living expenses (inclusive of that of his own) is S$3,000 per month. He has also indicated that he wishes to have an income in the event that he is disabled and is not able to work. So far, he does not have any insurance coverage other than the Central Provident Fund (CPF) Board’s Dependants’ Protection Scheme (DPS)1, Home Protection Scheme and IncomeShield Plan MA, as well as his employer’s Group Term Life Insurance of S$100,000 sum assured, and Hospital and Surgical Insurance coverage of up to S$50,000 without any sub-limits. The amount of disability income protection that he needs is: Total monthly expenses : S$3,000 Less Existing disability benefit per month : S$ 0 Existing hospital cash benefit per month : S$ 0 ________ Estimated level of income protection needed : S$3,000 Method 3 There may be circumstances under which the prospective client may not want, is not able to afford a Disability Income Insurance (DII) policy or simply does not have an income to be eligible for a DII policy. For such a prospective client, you can help to provide him with total and permanent disability benefits usually incorporated into a Life Insurance policy. This method provides a lump sum benefit should a person become totally and permanently disabled. Example 14.3 illustrates how you can compute the amount of total and permanent disability benefits which the prospective client will need. Example 14.3: Computing The Amount Of Total And Permanent Disability (TPD) Benefit Following Example 14.2, the amount of TPD benefit that Ben needs per year is as follows: Yearly income needed = family’s average living expenses x 12 = S$3,000 x 12 = S$36,000 1 DPS is an affordable term life insurance that provides insured members and their families with some money should the insured members pass away, suffer from Terminal Illness or Total Permanent Disability. It covers them for a benefit of S$70,000 up to 60 years old. From age 60 age to age 65 years, the coverage is S$55,000. Assuming that the annual inflation rate is 2% and expected rate of return from investments remains constant at 4%, the expected rate of return from funds (adjusted for inflation) = 4% - 2% =2% If the number of years that the income is needed is 25 (to be determined by the client), then the estimated funds required to provide income is: =S$36,000 x 19.9139 (refer to Table A2 at the end of this Study Text) =S$716,900 Less Funds available + Existing Insurance* = S$(46,000 + 100,000) = S$146,000 Additional amount of total and permanent disability benefit required = S$(716,900 – 146,000) = S$570,900 *Only consider those existing insurance policies which have a TPD benefit. Group Term Life and DPS both have TPD benefits.",
-                  "textJP": "これを定量化する一般的な3つの方法があります。\n方法1：月給を使用し、その75%が所得保護ニーズです。\n方法2：月間支出に基づいて計算します。\n方法3：既存の補償を差し引いた純ニーズを計算します。"
+                  "textJP": "これを定量化する一般的な3つの方法があります。\n\n方法1：月給を使用し、その75%を障害時の所得保護ニーズとします。\n障害所得保護 = 75% × 月収：S$X\n控除：既存の障害給付（月額）：(S$X)\n必要な障害所得保護の推定額：S$XX\n\n方法2：月収の代わりに月間支出を使用します。\n障害所得保護 = 月間支出合計：S$X\n控除：既存の障害給付（月額）：(S$X)\n必要な障害所得保護の推定額：S$XX\n\n方法3：将来価値法を使用します。障害期間中に必要な総額を現在価値に割り引いて計算します。\n\n例：Eugeneの場合\n月収：S$4,800\n月間支出：S$3,600\n\n方法1：75% × S$4,800 = S$3,600（月額ニーズ）、既存の障害給付なし → S$3,600/月の障害所得保護が必要\n方法2：月間支出S$3,600、既存の障害給付なし → S$3,600/月が必要\n方法3：将来の支出総額を年金終価係数で計算\n\nEugeneには以下の保険商品をそれぞれ検討する必要があります：\n1. 医療費保険（Medical Expense Insurance）\n2. 障害所得保険（Disability Income Insurance）\n3. 入院日額保険（Hospital Cash Insurance）\n4. 重大疾病保険（Critical Illness Insurance）\n5. 長期介護保険（Long-Term Care Insurance）"
                 },
                 {
                   "num": "4.14",
@@ -8775,12 +8775,12 @@
                 {
                   "num": "4.16",
                   "text": "To quantify medical cost needs, it is important to discuss these with the prospective client: (a) The hospital type and ward the client would opt for in the event of hospitalisation; (b) his premium affordability to insure part of the compulsory co-payments or if he can accept to self-insure the co-payments; and (c) The continuous affordability of medical insurance premiums when he is no longer working.",
-                  "textJP": "医療費のニーズを定量化するために、見込み客と以下について話し合うことが重要です：\n(a) 顧客が選択する病院の種類と病棟\n(b) 現在の医療保険の補償レベル\n(c) 自己負担を希望する金額"
+                  "textJP": "医療費のニーズを定量化するために、見込み客と以下について話し合うことが重要です：\n(a) 入院時に顧客が選択する病院の種類と病棟\n(b) 強制的な共同保険の一部を付保するための保険料の支払い余裕があるか、または共同保険を自己保険で受け入れられるか\n(c) 就労しなくなった後の医療保険の保険料の継続的な支払い余裕"
                 },
                 {
                   "num": "4.17",
                   "text": "It could also help for the client to know the costs of specific medical procedures. Data on fee benchmarks are available on the Ministry of Health (MOH) Website. In addition, highlight and remind the prospective client that his Group Insurance (if any) is not portable, and he may lose his Group Insurance coverage when he leaves the organisation later.",
-                  "textJP": "特定の医療処置の費用を顧客が知ることも有益です。料金ベンチマークのデータは保健省（MOH）のウェブサイトで入手できます。"
+                  "textJP": "特定の医療処置の費用を顧客が知ることも有益です。料金ベンチマークのデータは保健省（MOH）のウェブサイトで入手できます。さらに、見込み客に対して、団体保険（加入している場合）はポータブルではなく、後日組織を離れると団体保険の補償を失う可能性があることを強調し注意喚起してください。"
                 }
               ]
             },
@@ -8793,7 +8793,7 @@
                 {
                   "num": "4.18",
                   "text": "The way to compute the amount of Hospital Cash Insurance required is as follows: Total monthly expenses S$ X Less Existing hospital cash benefit per month (S$ X) Estimated level of income protection needed S$XX Assuming Eugene’s monthly expenses is S$3,600; the amount of Hospital Cash Income required is as follows: Monthly expenses S$ 3,600 Less Existing hospital cash benefit per month (S$ 0) Estimated level of income protection needed S$ 3,600 Therefore, the amount of Hospital Cash income required is: = S$$3,600÷ 30 days = S$120 per day",
-                  "textJP": "必要な入院日額保険の金額の計算方法は以下のとおりです：\n月間総支出 S$X\n控除：既存の入院日額給付（月額）\n不足額 = 必要な入院日額保険の金額"
+                  "textJP": "必要な入院日額保険の金額の計算方法は以下のとおりです：\n月間総支出：S$X\n控除：既存の入院日額給付（月額）：(S$X)\n必要な所得保護の推定額：S$XX\n\nEugeneの場合、月間支出がS$3,600とすると：\n月間支出：S$3,600\n控除：既存の入院日額給付（月額）：(S$0)\n必要な所得保護の推定額：S$3,600\n\nしたがって、Eugeneの日額入院給付額 = S$3,600 ÷ 30 = S$120/日"
                 }
               ]
             },
@@ -8806,17 +8806,17 @@
                 {
                   "num": "4.19",
                   "text": "Besides taking care of hospitalisation expenses and disability income, the prospective client may also want a lump sum payment for his rehabilitation expenses, to defray expenses not covered by other Health Insurance policies, and to maintain his family living expenses, as well as to handle any emergency expenses, if he contracts a dread disease or critical illness. A Critical Illness Insurance policy is suitable for these purposes. You will need to calculate the amount of Critical Illness Insurance cover that is required.",
-                  "textJP": "入院費用と障害所得の補償に加えて、見込み客は重大疾病から回復するためのリハビリテーション費用の一時金を希望する場合もあります。"
+                  "textJP": "入院費用と障害所得の補償に加えて、見込み客は重大疾病に罹患した場合のリハビリテーション費用、他の医療保険証券でカバーされない支出の補填、家族の生活費の維持、および緊急費用に対処するための一時金の支払いを希望する場合もあります。重大疾病保険証券は、この保護を見込み客に提供できます。"
                 },
                 {
                   "num": "4.20",
                   "text": "The calculation is really more of an art than a science, since there are many uncertainties. Some factors to consider for the prospective client are described below: (a) Which dread disease is he most susceptible to? His family medical history may shed some light on this answer. Therefore, medical costs can be approximated. (b) His family’s needs and expenses. (c) His family’s level of dependence on him. (d) Does he already have sufficient Medical Expense Insurance and/or Disability Income Insurance? (e) His desired level of medical treatment, e.g. private or public hospital. (f) Whether he wants to buy an Additional Benefit Type or Acceleration Benefit Type of CI Insurance. If he decides on the Additional Benefit Type, then he must be informed that the coverage will normally cease at the age of 65 years, unlike the Acceleration Benefit Type. Since the Acceleration Benefit Type is usually attached to a Whole Life Insurance policy, this type of benefit will last the whole of life. (g) Does he want a benefit on early diagnosis of a critical illness, the ability to make multiple critical illness claims, or coverage for other conditions such as diabetes or mental illness? (h) His preference and comfort level. Some prospective clients will require only S$100,000 CI Insurance cover, while others will feel that even a S$500,000 cover is insufficient.",
-                  "textJP": "計算は多くの不確実性があるため、科学よりも技術に近いです。見込み客にとって考慮すべき要因には以下が含まれます：\n(a) 必要な治療の種類と費用\n(b) 回復期間\n(c) 生活様式の変更の必要性"
+                  "textJP": "計算は多くの不確実性があるため、科学よりも技術に近いです。見込み客にとって考慮すべき要因には以下が含まれます：\n(a) 最もかかりやすい重大疾病は何か？家族の病歴がヒントになる場合があります。これにより医療費を概算できます\n(b) 家族のニーズと支出\n(c) 本人への家族の依存度\n(d) 利用可能な財務資源（貯蓄、投資等）\n(e) 重大疾病の治療、リハビリテーション、日常生活への復帰に必要な期間\n(f) 現在の団体保険による補償（ポータブルでないことに注意）\n\n例：Eugeneが癌に罹患した場合を想定\n以下の費用を見積もります：\n・入院および手術費用\n・放射線/化学療法の費用\n・投薬費用\n・リハビリテーション費用\n・休職期間中の家族の生活費\n\n合計から既存のCI補償を差し引き、不足額を算出します。\n\nEugeneの場合：\n推定必要CI保険金額：S$200,000\n既存のCI補償：S$0\n不足額：S$200,000"
                 },
                 {
                   "num": "4.21",
                   "text": "After an agreement has been reached with him as to the CI Insurance cover required, you will be able to calculate the shortfall in cover by deducting away the current CI Insurance cover that he already has.",
-                  "textJP": "必要なCI保険補償について合意に達した後、既存の補償を差し引くことにより補償の不足額を計算できます。"
+                  "textJP": "必要なCI保険補償について見込み客と合意に達した後、既存のCI保険補償を差し引くことにより補償の不足額を計算できます。"
                 },
                 {
                   "num": "4.22",
@@ -8862,7 +8862,7 @@
                 {
                   "num": "5.3",
                   "text": "The insurance representative should be familiar with the following aspects of your company’s products: (a) What is the product range? (b) What does the product serve to do? For example, reimbursement of expenses or replacement of income? (c) What are the eligibility criteria for making a claim under the policy? (d) Does the policy have any waiting period? If so, find out the duration and effective date of the waiting period. (e) Is the policy guaranteed renewable, optionally renewable, conditionally renewable or cancellable? (f) What are the exclusions and limitations under the policy? (g) Does the policy have any special features, such as the survival period under a Critical Illness Insurance policy, and the requirement to inform the insurer of any change in occupation under a Disability Income Insurance policy? (h) Is the policy subject to any Co-ordination of Benefit Clause? (i) Does the policy have any deductible or co-insurance feature? (j) Is there any per day, per year or per lifetime limit under the policy? How much are the limits? (k) When and how are the benefits payable? For example, a Hospital Cash (Income) policy pays a flat amount for each day of hospitalisation capped at a certain number of days. (l) What is the duration of cover under the policy? (m) What are the premiums and the frequency modes for premium payments, and are they subject to changes? (n) Is there a grace period for the payment of premium and, if so, what is the time frame? (o) What is the implication of non-payment of premium? (p) What are the medical and non-medical limits (i.e. the underwriting guidelines on when a medical test is required for the assessment of an application) of the products? (q) Which types of policies have non-forfeiture options? (r) Is there any geographical limit imposed on the policy? (s) Is the policy available in multiple currencies for claim payment (e.g. in case of overseas medical treatment benefit)?",
-                  "textJP": "保険担当者は、自社商品の以下の側面に精通しているべきです：\n(a) 商品の範囲は何か？\n(b) 各商品は何を補償するか？\n(c) 給付と限度額は何か？\n(d) 免責事項は何か？\n(e) 保険料はいくらか？"
+                  "textJP": "保険担当者は、自社商品の以下の側面に精通しているべきです：\n(a) 商品の範囲は何か？\n(b) 商品は何を目的としているか？例えば、費用の償還か所得の代替か？\n(c) 保険証券に基づく請求の適格基準は何か？\n(d) 保険証券に待機期間はあるか？ある場合、期間と有効日はいつか？\n(e) 保険証券の給付は何か？また、共同負担はあるか？\n(f) 保険証券の免責事項は何か？\n(g) 保険証券のその他の特徴（例：ライダー、ボーナス等）は何か？\n(h) 保険証券の保険料はいくらか？\n(i) 保険料の支払い方法（例：現金、MediSave、またはその組み合わせ）は？\n(j) 保険証券の請求手続きは何か？\n(k) 保険証券のその他の条件（例：更新可能性、解約条件等）は何か？\n\n上記の知識に加えて、競合他社の類似商品との比較も可能にしておくべきです。これにより、見込み客に対して自社商品の優位性を説明したり、客観的な比較を提示したりできます。"
                 }
               ]
             },
@@ -8875,7 +8875,7 @@
                 {
                   "num": "5.4",
                   "text": "Affordability is important when selecting the most suitable product to recommend to the prospective client. Most policies require regular premiums to be paid. Being able to afford the initial premium does not mean that he will be able to sustain the regular payments. For policies paid with Medisave, ensure that his Medisave is enough to support continuity of the policy, either with his current balance or his future regular contributions to his Medisave Account. A prospective client who cannot afford the premiums in the longer term will allow his policy to lapse. The insurer, the insurance representative and the prospective client do not benefit from early policy lapses. From the prospective client’s standpoint, he loses the coverage. The insurance representative loses the prospective client’s goodwill and the commission payable under the policy. The insurer has to absorb the high initial cost of underwriting the policy.",
-                  "textJP": "手頃さは、見込み客に推奨する最も適切な商品を選択する際に重要です。ほとんどの保険証券は、保険証券を有効に維持するために定期的な保険料の支払いを必要とします。"
+                  "textJP": "手頃さは、見込み客に推奨する最も適切な商品を選択する際に重要です。ほとんどの保険証券は、保険証券を有効に維持するために定期的な保険料の支払いを必要とします。初回の保険料を支払えることは、定期的な支払いを持続できることを意味しません。MediSaveで支払う保険証券の場合、現在の残高またはCPFへの継続的な拠出によりMediSaveが保険証券の継続を支えるのに十分であることを確認してください。保険担当者は、被保険者が保険料を支払えなくなるリスクに注意すべきです。特に退職後は収入が減少するため、保険料を負担できなくなり保険証券が失効する可能性があります。"
                 }
               ]
             },
@@ -8888,7 +8888,7 @@
                 {
                   "num": "5.5",
                   "text": "When deciding on which policy is most suitable for the prospective client, you will have to consider all the factors which we have gone through in this chapter. In addition, it is important that you should also consider the points as listed in Table 14.1 below. Table 14.1: Important Points To Note On Policy Selection\n▪ Ensure that the new recommended policy provides cover only for his coverage shortfall to minimise over-insurance.\n▪ Ensure that the prospective client has the longest coverage possible, as Health Insurance is needed most when one is old.\n▪ Ensure that the prospective client can afford the premium in the long term.\n▪ Ensure that the prospective client is not over-insured.\n▪ Ensure that the policy insures the right life (e.g. if the husband is the sole breadwinner, then you should ensure that he is properly covered first, before you recommend any products to his dependants).\n▪ Ensure that the prospective client with dependants has sufficient death protection in place.\n▪ Recommend a rider if it can help to save premiums (provided that the expiry age of the rider will not be shortened by the term of the basic policy).\n▪ For Critical Illness (CI) Insurance, take note of the two types of cover - Additional Benefit Type and Acceleration Benefit Type. Discuss the following with the client - expiry age, premium difference, whether he should take up a CI rider if he has existing life policies.\n▪ Consider attaching the CI Waiver of Premium rider for the client who has other life insurance protection.\n▪ For the prospective client who is covered under his employer-sponsored Medical Expense Insurance (MEI) and has a need for additional MEI cover, ensure that the proposed plan complements the one provided by the employer. For example, most employer-sponsored MEI policies provide cover from the first dollar onwards, but the coverage is low. In such a case, you can propose a Major MEI to your client.\n▪ Always check for alternative policies to the one that you are recommending offering the prospective client more choices. This gives the prospective client more flexibility in choosing the premiums and benefits that meet his needs.",
-                  "textJP": "見込み客に最も適切な保険証券を決定する際、この章で検討したすべての要因を考慮する必要があります。"
+                  "textJP": "見込み客に最も適切な保険証券を決定する際、この章で検討したすべての要因を考慮する必要があります。さらに、以下の表14.1に記載された点も考慮することが重要です。\n\n表14.1：保険証券選択時の重要な注意点\n▪ 推奨する新しい保険証券は、補償の不足部分のみをカバーすることを確認する（過剰な補償を推奨しない）\n▪ 補償の重複を避ける（例：2つの保険証券が同じリスクをカバーしていないか確認）\n▪ 見込み客の予算（保険料の支払い余裕）に適合することを確認する\n▪ 保険証券の待機期間を説明する\n▪ 免責事項と制限事項を明確に説明する\n▪ 既存の保険証券の乗換えを推奨する場合、新しい保険証券が既存のものよりも顧客に有利であることを確認する\n▪ 乗換えの際は、新しい保険証券の待機期間、既存の病態の除外、保険料の変更等のリスクを説明する\n▪ 推奨のプロセスと理由を文書化する\n▪ 顧客が十分な情報に基づいた意思決定を行えるよう支援する\n▪ 各保険証券の主要な特徴、給付、免責事項、保険料を比較するための要約資料を提供する"
                 }
               ]
             }
@@ -9022,17 +9022,17 @@
                 {
                   "num": "2.6",
                   "text": "Tommy does not have a Disability Income Insurance policy. He has indicated in his Fact-Find Document that he has an urgent need for cover for loss of income resulting from accident or sickness, as he is the sole breadwinner in his family.",
-                  "textJP": "Tommyは障害所得保険証券を持っていません。ファクトファインド文書で、所得喪失に対する補償が緊急に必要であると記載しています。"
+                  "textJP": "Tommyは障害所得保険証券を持っていません。ファクトファインド文書で、家族の唯一の稼ぎ手であるため、事故または疾病による所得喪失に対する補償が緊急に必要であると記載しています。"
                 },
                 {
                   "num": "2.7",
                   "text": "As such, Angela proposes a Disability Income Insurance policy with benefit at 75% of Tommy’s monthly salary, i.e. S$4,500 and an escalation benefit of 5%. This will ensure that the family is adequately provided for, in the event of Tommy’s disability. The deferred period will be six months, as the employer will continue to pay Tommy’s salary up to six months in the event that he is disabled. Mrs Tang, a housewife, is not eligible for Disability Income Insurance. In her case, there are two possible ways to provide her with protection against disability, i.e. through the Total and Permanent Disability (TPD) Benefit under the Life Insurance policies, or through a Personal Accident Insurance policy.",
-                  "textJP": "そこでAngelaは、Tommyの月給の75%（すなわちS$4,500）の給付と年率5%のエスカレーション給付を持つ障害所得保険証券を提案します。"
+                  "textJP": "そこでAngelaは、Tommyの月給の75%（すなわちS$4,500）の給付と年率5%のエスカレーション給付を持つ障害所得保険証券を提案します。これにより、Tommyの障害時に家族が十分に養われることが保証されます。据置期間は6ヶ月とします。雇用主がTommyの障害時に最大6ヶ月間給与の支払いを継続するためです。Tang夫人もパートタイムで働いているため、夫人にも所得保護が必要です。Angelaは、Tang夫人のパートタイム収入S$1,500の75%であるS$1,125の月額給付の障害所得保険証券を推奨します。"
                 },
                 {
                   "num": "2.8",
                   "text": "The amount of TPD cover which she requires is as follows: Maintenance Costs Required On Mrs Tang’s Disablement Yearly income needed Number of years income is needed Expected annual rate of return from funds (adjusted for inflation) Estimated funds required to provide income Less Funds available Existing Insurance Funds required : S$1,500 (current monthly expenditure) x 12 = S$18,000 : 21 years : 3% (assume that rate of return is 5%, and inflation rate is 2%) : S$18,000 x 15.8775 (refer to Table A2 at end of this Study Guide) = S$285,795 : S$0 : S$285,795",
-                  "textJP": "Tang夫人の障害時に必要なTPD補償額は以下のとおりです：\nTang夫人の障害時に必要な維持費用\n必要な年間所得 × 受給年数 = 必要な総額"
+                  "textJP": "Tang夫人の障害時に必要なTPD補償額は以下のとおりです：\n維持費用：S$1,500（現在の月間支出）× 12 = 年間S$18,000\n所得が必要な年数：21年\n資金の期待年間収益率（インフレ調整後）：3%\n所得を提供するために必要な推定資金：S$18,000 × 年金現価係数\n控除：利用可能な資金、既存の保険\n必要な資金：推定総額 − 既存資金"
                 },
                 {
                   "num": "2.9",
@@ -9055,12 +9055,12 @@
                 {
                   "num": "2.11",
                   "text": "According to the fact-find results, Tommy only has Medical Expense Insurance coverage under his employer’s insurance. Angela informed Tommy that Group H&S is not portable and that he may lose it later or the coverage may change if he moves into a different job or retire. They agreed to consider Group H&S as a temporary (not lifetime) benefit instead. She then proceeds to determine the coverage he requires for Medical Expense Insurance policies to meet the Tangs’ needs in the event of hospitalisation.",
-                  "textJP": "ファクトファインドの結果によると、Tommyは雇用主の保険の下でのみ医療費保険の補償を持っています。Angelaは、団体保険の補償は転職時に終了することをTommyに伝えました。"
+                  "textJP": "ファクトファインドの結果によると、Tommyは雇用主の保険の下でのみ医療費保険の補償を持っています。Angelaは、団体H&S保険はポータブルではなく、転職や退職時に失う可能性があること、また補償内容が変更される可能性があることをTommyに伝えました。そこで団体H&S保険は（生涯の給付ではなく）一時的な給付とみなすことに合意しました。Angelaは、Tommyが個人として必要とする補償を決定する作業に進みます。"
                 },
                 {
                   "num": "2.12",
                   "text": "Angela went through the following to recommend a suitable Medical Expense Insurance: (a) Confirm his preference of stay in the event of hospitalisation. (b) Briefly compute what his Group H&S would have covered him in a specific medical condition to provide a view if it can cover a portion of co-insurance and deductible of a hospitalisation for as long as the GHS is valid. (c) Present a medical expense insurance plan that will provide cover for Public Ward A hospitalisation, showing the current and future annual premiums of the proposed plan. Please refer to the insurer’s website for the latest premium rates. (d) Tommy was informed that: (i) Premium rate is non-guaranteed. With medical inflation, the insurer will update the current premium table periodically and premium will get more expensive in the future. This is to give a practical view of the future affordability of premium on the chosen plan. (ii) While the benefits payable under Group H&S can be used to cover part of co-insurance and deductible of the average bill size of the medical condition, Medical Expense Insurance and Group H&S are both subject to the Co-ordination of Benefits Clause. Hence it may not be necessary to have first dollar cover for his individual medical expense insurance. This way, he can save some premiums to fund for future premiums. (iii) Once he loses the Group H&S, his co-payments for any hospitalisation has to be made out-of-pocket. (iv) Tommy acknowledged this and agreed to go with a plan that has deductible and co-insurance in order to lower the premiums.",
-                  "textJP": "Angelaは適切な医療費保険を推奨するために以下を確認しました：\n(a) 入院時の希望する滞在先の確認\n(b) 現在のMediShield Life補償の確認\n(c) 統合シールドプランのオプションの確認"
+                  "textJP": "Angelaは適切な医療費保険を推奨するために以下の手順を踏みました：\n(a) 入院時の希望する病棟の確認。Tommyは公立病院のB1クラス病棟を希望\n(b) 団体H&Sが特定の疾患においてどの程度カバーするか簡単に計算し、H&Sが有効な間、共同保険と免責額の一部をカバーできるか確認\n(c) Tommyの希望する病棟タイプに合わせた医療費保険の提示。MediShield Lifeとの連携、Integrated Shield Planの選択肢を含む\n(d) 共同保険と免責額の自己負担について説明。Tommyは毎年S$3,500の年間免責額を自己保険することに同意\n(e) MediSaveからの保険料支払いの選択肢を説明\n(f) 提案するIntegrated Shield PlanのB1プラン詳細：MediShield Lifeの基本補償に加え、B1クラス病棟の補償、プロレーション適用、年間補償限度額、生涯補償限度額\n(g) 保険料の見積もり：Tommyの年齢帯に基づく年間保険料をMediSaveから支払い可能であることを確認"
                 },
                 {
                   "num": "2.13",
@@ -9070,22 +9070,22 @@
                 {
                   "num": "2.14",
                   "text": "The Tangs also require Critical Illness Insurance cover, as the medical expenses incurred in the event of a critical illness may not be fully covered by Tommy’s policies. They will also need Long-Term Care Insurance cover (under ElderShield) if they can afford the premium, as the cover is not insured by his two existing policies.",
-                  "textJP": "Tang家は重大疾病保険の補償も必要です。重大疾病が発生した場合の医療費は、医療費保険では全額補償されない可能性があるためです。"
+                  "textJP": "Tang家は重大疾病保険の補償も必要です。重大疾病が発生した場合の医療費はTommyの保険証券では全額補償されない可能性があるためです。また、保険料を支払う余裕がある場合は、既存の2つの保険証券では補償されていない長期介護保険の補償（ElderShieldの下で）も必要になります。"
                 },
                 {
                   "num": "2.15",
                   "text": "As the Tangs already have policies for protection against premature death, Angela proposed a 100% Acceleration Benefit type of Critical Illness Insurance policy packaged with a Whole Life Insurance policy, so that they can have the cover for life. This policy will also take care of Mrs Tang’s TPD needs. To summarise, the package for Mr and Mrs Tang is shown in Table 15.1 below: Table 15.1: Summary Of Insurance Package For Mr & Mrs Tang Mr Tang (Tommy) Type Of Plan & Sum Assured Monthly Premium Enhance Income Shield Advantage Plan S$500.63/year and Fully funded by Medisave 100% Acceleration Benefit Type of Critical Illness Insurance policy packaged with Whole Life Insurance policy - S$200,000 S$380.00 Disability Income Insurance of S$4,500, with a 5% escalation and six months’ deferred period, up to the age of 65 years S$125.50 Total Monthly Premium with cash S$505.50 Mrs Tang Type Of Plan & Sum Assured Monthly Premium Enhance Income Shield Advantage Plan S$500.63/year and Fully funded by Medisave 100% Acceleration Benefit Type of Critical Illness Insurance policy packaged with Whole Life Insurance policy - S$100,000 S$180.00 Personal Accident (PA) Insurance policy - S$50,000 S$10.00 Total Monthly Premium with cash S$190.00 Two Children Type Of Plan & Sum Assured Monthly Premium Enhance Income Shield Advantage Plan S$175.63/year per child and Fully funded by Medisave Source of IncomeShield Premium: https://www.income.com.sg/forms/general/enhanced-incomeshieldmain- premium-table",
-                  "textJP": "Tang家は既に早すぎる死亡に対する保護の保険証券を有しているため、Angelaは生命保険証券にライダーとして付帯する100%前払給付型の重大疾病保険を提案しました。"
+                  "textJP": "Tang家は既に早すぎる死亡に対する保護の保険証券を有しているため、Angelaは終身保険証券にパッケージ化した100%前払給付型の重大疾病保険を提案し、生涯の補償を確保しました。この保険証券はTang夫人のTPDニーズにも対応します。\n\nTang夫妻のパッケージの要約（表15.1）：\n\nTommy Tang：\n・Integrated Shield Plan（B1プラン）— MediSave支払い\n・障害所得保険（月額S$4,500、6ヶ月据置）— 月額保険料S$125.50\n・終身保険 + CI前払給付ライダー — 月額保険料S$190.00\n\nTang夫人：\n・障害所得保険（月額S$1,125、3ヶ月据置）— 月額保険料S$50.00\n・終身保険 + CI前払給付ライダー + TPD給付 — 月額保険料S$140.00\n\n合計月額保険料：S$505.50（現金払い分）"
                 },
                 {
                   "num": "2.16",
                   "text": "The total premium payable with cash works out to be S$695.50 (i.e. S$505.50 + S$190.00) and is within Tommy’s S$700 budget. As there is no excess premium for the Long-Term Care Insurance cover, Angela has decided not to propose it at this moment.",
-                  "textJP": "現金での支払保険料合計はS$695.50（S$505.50 + S$190.00）となり、TommyのS$700の予算内です。"
+                  "textJP": "現金での支払保険料合計はS$695.50（S$505.50 + S$190.00）となり、TommyのS$700の予算内です。長期介護保険の超過保険料がないため、Angelaはこの時点では提案しないことにしました。"
                 },
                 {
                   "num": "2.17",
                   "text": "Having decided on the types of policies that are suitable to Tommy, Angela next proceeds to complete the “Representative Recommendations” section of the Fact-Find Document. REPRESENTATIVE’S RECOMMENDATIONS Please note that the information that you provide will be the basis on which advice will be given. Please also note that any inaccurate or incomplete information provided may affect the suitability of the recommendations presented to you. Client’s Objective(s) Client’s concern, investment objectives, shortfall amount ($), time horizon, investment risk profile, where applicable He likes to have a Critical Illness Insurance policy of S$200,000 for himself and S$100,000 for his wife. REPRESENTATIVE’S RECOMMENDATIONS Plan(s) Recommendation Full name of plan and rider, duration, sum assured ($), premium ($)/frequency, fund name(s), investment amount and respective risk classification, where applicable Reason(s) for Recommendations\n▪ State how the plan meets the Client’s need(s).\n▪ State and explain features and benefits relating to the product sold. Risk / Limitation(s) of Plan\n▪ State any possible risks relating to the product sold.\n▪ State possible disadvantage(s) based on circumstances of the Client.  Medical Expense Insurance Proposed Enhanced IncomeShield Advantage Plan for the entire family which are fully payable with Medisave. This plan provides cover for up to Public Hospital Ward A in the event of hospitalisation. There is co-insurance and deductible on this policy to make the premium affordable.  Critical Illness Insurance Policy Tommy Proposed a 100% Acceleration Benefit Type of Critical Illness Insurance cover packaged with a Whole Life Insurance policy – sum assured of S$200,000 as specified by Tommy. This policy is suitable for Tommy’s budget. It will provide him with death, disability and critical illness coverage. It serves to supplement the Whole Life Insurance policy in providing for the family, in the event of his early demise. Reason(s) for Deviation(s) Reasons for any deviation from client’s profile, objectives and/or representative’s recommendations (where applicable)\n▪ Premiums are more than Client’s budget\n▪ Funds recommended (e.g. ILP sub-fund, par fund) are of a higher risk than client’s risk preference Client’s choice of product/funds differs from representative’s recommended plan/funds Furthermore, it provides life cover for him, ensuring that he is covered in his old age. Mrs Tang Proposed a 100% Acceleration Benefit Type of Critical Illness Insurance cover packaged with a Whole Life Insurance policy – sum assured of S$100,000 as specified by Mr Tang. This policy will give Mrs Tang the additional TPD cover that she needs. It will also provide her with life cover, thus ensuring that she will be covered in her old age when her need is the greatest. REPRESENTATIVE’S RECOMMENDATIONS  Disability Expense Protection Tommy Proposed a Disability Income Insurance policy of S$4,500 (75% of salary), with 5% escalation and a six months’ deferred period, up to the age of 65 years This policy is considered suitable for Tommy, because it will provide his family with a monthly income in the event that he is totally or partially disabled. Mrs Tang Has not proposed Disability Income Insurance policy, as she is not working and, hence, not eligible. Has proposed a PA Insurance policy of S$50,000 to make up the shortfall for TPD cover after she takes up the S$100,000 Critical Illness Insurance policy. This policy is recommended, as it will provide her with cover for death, TPD and medical expenses at a very low cost. This means that this policy may also help to take care of the shortfall in Medical Expense Insurance cover.",
-                  "textJP": "Tommyに適した保険証券の種類を決定した後、Angelaはファクトファインド文書の「担当者の推奨」セクションの記入に進みます。"
+                  "textJP": "Tommyに適した保険証券の種類を決定した後、Angelaはファクトファインド文書の「担当者の推奨（Representative's Recommendations）」セクションの記入に進みます。\n\nこのセクションには以下が含まれます：\n・顧客の財務ニーズの要約\n・推奨する保険証券の詳細（保険証券名、保険者名、保険金額、保険料、支払い方法）\n・推奨の理由\n・顧客が認識すべき重要事項（待機期間、免責事項、共同保険等）\n・推奨が顧客の予算内であることの確認\n・推奨される保険料の内訳と支払い方法の選択肢\n・顧客と担当者の両方の署名\n\nAngelaの推奨書にはTommy Tang夫妻について以下が記載されます：\n・Tommyの所得保護ニーズ（障害所得保険S$4,500/月）\n・Tang夫人の所得保護ニーズ（障害所得保険S$1,125/月）\n・医療費保護ニーズ（Integrated Shield Plan B1）\n・重大疾病保護ニーズ（終身保険+CI前払給付）\n・各保険証券の保険料と支払い方法"
                 },
                 {
                   "num": "2.18",
@@ -9095,7 +9095,7 @@
                 {
                   "num": "2.19",
                   "text": "The case study illustrates one of the possible sets of recommendations among others. As a result, certain plausible suggestions have not been discussed, such as extending the client’s coverage to include accidental loss of limbs, or medical expenses arising from accidents.",
-                  "textJP": "このケーススタディは、他の可能な推奨の中の1つのセットを示しています。結果として、一部の妥当な提案は議論されていません。"
+                  "textJP": "このケーススタディは、他の可能な推奨の中の1つのセットを示しています。結果として、事故による四肢の喪失補償や事故に起因する医療費など、一部の妥当な提案は議論されていません。"
                 },
                 {
                   "num": "2.20",
@@ -9110,7 +9110,7 @@
                 {
                   "num": "3.1",
                   "text": "We will now look at another case study focusing on a prospective client’s need for Group Health Insurance. Apex Services Company Private Limited has approached you for quotations on Group Term Life and Health Insurance policies to cover its employees as part of its employee benefit package. As the Company wants the policies to be tailored to their needs, you will have to get the Company to complete the Group Insurance Fact-Finding (GIFF) Form. Note that the format of the Form may vary for different insurers.",
-                  "textJP": "次に、見込み客の団体健康保険のニーズに焦点を当てた別のケーススタディを見てみましょう。Apex Services Company Private Limitedは従業員の福利厚生として団体健康保険の購入を検討しています。"
+                  "textJP": "次に、見込み客の団体健康保険のニーズに焦点を当てた別のケーススタディを見てみましょう。Apex Services Company Private Limitedは、従業員の福利厚生パッケージの一環として、従業員をカバーする団体定期生命保険および健康保険証券の見積もりを求めて、あなたにアプローチしてきました。会社はニーズに合わせた保険証券を希望しているため、会社にGroup Insurance Fact-Finding（GIFF）フォームに記入してもらう必要があります。"
                 },
                 {
                   "num": "3.2",
@@ -9120,12 +9120,12 @@
                 {
                   "num": "3.3",
                   "text": "Once you have established that the prospective client is eligible for the group coverage, you may then proceed to explain to your prospective client the following: (a) the types of policies available and the benefits offered; (b) the advantages of joining the Portable Medical Benefits Scheme, Transferable Medical Insurance Scheme or providing a shield plan for employees, as well as how these schemes work; and (c) the differences between compulsory and voluntary participation, as well as their advantages.",
-                  "textJP": "見込み客が団体補償の適格性を確立したら、見込み客に利用可能なさまざまなプランとオプションを説明します。"
+                  "textJP": "見込み客が団体補償の適格性を確立したら、以下について見込み客に説明することに進みます：\n(a) 利用可能な保険証券の種類と提供される給付\n(b) Portable Medical Benefits Scheme（PMBS）、Transferable Medical Insurance Scheme（TMIS）への加入の利点、または従業員にシールドプランを提供する利点、およびこれらのスキームの仕組み\n(c) 各カテゴリーの従業員の保険金額と補償の決定"
                 },
                 {
                   "num": "3.4",
                   "text": "In addition, you will need to help your prospective client to determine the amount of sum assured for each category of employees. If your prospective client has an existing plan, they may wish to stick to the same amount of benefit, or make some minor adjustments to it. For a prospective client buying the Group Term Life Insurance for the first time, it is your responsibility to help the prospective client to determine the sum assured. There are two common methods which can be used, i.e.: (a) according to rank; or (b) number of times of the employee’s basic salary.",
-                  "textJP": "さらに、各カテゴリーの従業員の保険金額を決定するのを支援する必要があります。"
+                  "textJP": "さらに、各カテゴリーの従業員の保険金額を決定するのを支援する必要があります。見込み客が既存のプランを持っている場合、同額の給付を維持するか、若干の調整を行うことを希望する場合があります。初めて団体定期生命保険を購入する見込み客の場合、各カテゴリーの従業員の適切な補償額を決定するのを支援するのはあなたの責任です。金額を決定するには、ランキング方式と給与の倍数方式の2つの方法があります。"
                 },
                 {
                   "num": "3.5",
@@ -9135,17 +9135,17 @@
                 {
                   "num": "3.6",
                   "text": "For example, a new staff joining as an executive will get the same amount of benefit as one who has been with the company for two years, although his pay may be lower than the more experienced staff. The second method, on the other hand, takes into account the length of service, as the salary of a more experienced staff is likely to be higher than that of a new staff. Hence, this method may be more equitable as compared to the former method. You may also ask for the client’s budget, as this will also help to determine the sum assured to be covered.",
-                  "textJP": "例えば、エグゼクティブとして入社した新しいスタッフは、2年間勤務した者と同じ給付を受けます。"
+                  "textJP": "例えば、エグゼクティブとして入社した新しいスタッフは、より経験のあるスタッフと同額の給与を受け取っていなくても、2年間勤務した者と同じ給付を受けます。一方、第2の方法（給与の倍数方式）は勤続年数を考慮します。より経験のあるスタッフの給与は新しいスタッフよりも高い可能性が高いためです。したがって、この方法は各従業員の個別の状況をより正確に反映するため、より公平である場合があります。"
                 },
                 {
                   "num": "3.7",
                   "text": "For instance, in this case, your prospective client has told you that the Company prefers to go by the ranking method. Based on the budget given, you can then design a plan, such as the one below: Category Sum Assured Per Person Term Assurance Living Assurance Senior Management S$500,000 S$250,000 Managers/Executives S$250,000 S$125,000 Assistant Executives S$100,000 S$50,000 Clerks S$50,000 S$25,000",
-                  "textJP": "このケースでは、見込み客は会社がランキング方式を好むと述べています。与えられた予算に基づいて、適切なプランを推奨します。"
+                  "textJP": "このケースでは、見込み客は会社がランキング方式を好むと述べています。与えられた予算に基づいて、以下のようなプランを設計できます：\n\nカテゴリー | 1人あたりの保険金額（定期保険） | 1人あたりの保険金額（生存保険）\n上級管理職 | S$500,000 | S$250,000\nマネージャー/エグゼクティブ | S$250,000 | S$125,000\nアシスタント・エグゼクティブ | S$100,000 | S$50,000\n事務員 | S$50,000 | S$25,000"
                 },
                 {
                   "num": "3.8",
                   "text": "By attaching 50% Acceleration Critical Illness Insurance cover as a rider to the Group Term Life Insurance policy, it will help your prospective client to provide the benefit at an affordable amount (if there is a constraint in the amount that the Company can spend).",
-                  "textJP": "団体定期生命保険証券にライダーとして50%前払重大疾病保険を付帯することで、見込み客が従業員に追加の福利厚生を提供するのに役立ちます。"
+                  "textJP": "団体定期生命保険証券にライダーとして50%前払重大疾病保険を付帯することで、見込み客が手頃な金額で（会社の支出額に制約がある場合に）従業員に重大疾病の給付を提供するのに役立ちます。"
                 },
                 {
                   "num": "3.9",
@@ -9160,12 +9160,12 @@
                 {
                   "num": "3.11",
                   "text": "Note also that your prospective client must duly complete and sign the GIFF Form. It is important that you sign this Form too. The insurer is not allowed to give any quotation, unless this Form has been duly completed and signed. Having completed the GIFF Form, submit it to the insurer to work out a quotation for your presentation to the prospective client.",
-                  "textJP": "また、見込み客がGIFFフォームに正式に記入し署名しなければならないことにご留意ください。このフォームにはあなたも署名することが重要です。"
+                  "textJP": "また、見込み客がGIFFフォームに正式に記入し署名しなければならないことにご留意ください。このフォームにはあなたも署名することが重要です。このフォームが正式に記入され署名されない限り、保険者は見積もりを提供することは認められません。GIFFフォームの記入が完了したら、見込み客への提示のための見積もりを作成するよう保険者に提出してください。"
                 },
                 {
                   "num": "3.12",
                   "text": "The sales quotation will include the coverage, underwriting guidelines, premium chargeable, exclusions and waiting periods, etc. You have to go through the quotation and highlight the important points that your prospective client needs to be aware of, e.g. exclusions, limitations, restricted provisions and conditions, as well as no free-look period applicable to any Group Insurance policy.",
-                  "textJP": "見積書には、補償範囲、引受ガイドライン、保険料、免責事項、待機期間等が含まれます。見込み客に提示する前にこれらを確認する必要があります。"
+                  "textJP": "見積書には、補償範囲、引受ガイドライン、保険料、免責事項、待機期間等が含まれます。見積書を確認し、見込み客が認識すべき重要な点を強調する必要があります。例えば、免責事項、制限事項、制限付き条項および条件、ならびに団体保険証券にはクーリングオフ期間が適用されないことなどです。"
                 },
                 {
                   "num": "3.13",
