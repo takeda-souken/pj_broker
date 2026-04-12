@@ -14,7 +14,7 @@ def make_dummy(id_str, topic, n):
         "difficulty": 2
     }
 
-DATA = "c:/pj_broker/data"
+DATA = "c:/projects/pjbroker/data"
 
 # === PGI ===
 pgi_topics = [

@@ -1,0 +1,743 @@
+[0] 1.1 [Introduction]
+Both individuals and organisations face the risks of liability losses. A liability loss is the money that the individual or organisation has to pay as a result of a specific legal claim or suit against them. For a claim or suit to succeed, the claima
+
+[1] 1.2 [Introduction]
+Employers have a legal liability towards their employees for injuries sustained, diseases contracted, as well as death at the workplace by virtue of the Work Injury Compensation Act 2019. This is an example of a legal liability arising from statute4.
+
+[2] 1.3 [Introduction]
+On the other hand, liability under Common Law arises when a person commits a tort. A tort is a civil wrong that violates the rights of another. Examples of torts include negligence, intentional torts, strict liability and vicarious liability. Neglige
+
+[3] 1.4 [Introduction]
+Strict liability also known as absolute liability arises from situations involving inherently dangerous activities. For example, the owner of the pet lion is liable for any injury that the lion may inflict on others regardless of the precautions take
+
+[4] 1.5 [Introduction]
+As for liability arising from contract, a manufacturer who supplies defective goods to his purchaser causing the purchaser to suffer losses is said to have breached the legal liability that he owes to the purchaser under the contract. Therefore, he i
+
+[5] 1.6 [Introduction]
+To protect against liability losses, individuals and organisations can purchase Liability Insurance (also known as “Third-party Insurance”) policies. An individual may purchase a Personal Liability Insurance policy,5 while the organisation can purcha
+
+[6] 1.7 [Introduction]
+There are many types of Commercial Liability Insurance policies to cater to the different liability needs of the organisations. In Part I of this chapter, we will discuss Work Injury Compensation Insurance, Public Liability Insurance and Products Lia
+
+[7] 2.1 [Work Injury Compensation Insurance]
+The Work Injury Compensation Act (Cap. 354) [“the repealed Act”] was repealed on 1 September 2020.
+
+[8] 2.2 [Work Injury Compensation Insurance]
+The Work Injury Compensation Act 2019 [“the Act”] or referred to as WICA 2019 in this study text took effect from 1 September 2020. It offers the following benefits for both employees and employers: (i) Influence companies to prevent injuries from ha
+
+[9] 2.3 [Work Injury Compensation Insurance]
+Related subsidiary legislation amendments took effect from January 2020. Enacted in September 2019, the Act WICA 2019 requires all insurers intending to sell Work Injury Compensation (WIC) insurance policies to be designated by the Ministry of Manpow
+
+[10] 2.4 [Work Injury Compensation Insurance]
+The Act holds an employer liable to provide compensation to any employee or his dependants for certain specified occupational diseases, death or personal injury by accident arising out of and in the course of his employment (whether in Singapore or o
+
+[11] 2.5 [Work Injury Compensation Insurance]
+Under the Act, “employee” means an individual who has entered into or works under a contract of service with an employer and — a) includes every employee of the Government in a class or description declared by the President to be employees for the pu
+
+[12] 2.6 [Work Injury Compensation Insurance]
+The Act covers all employees (whether local or foreign employees) who are engaged under a contract of service or apprenticeship, regardless of their level of earnings and whether involving manual or non-manual work, unless exempted. Classes of person
+
+[13] 2.8 [Work Injury Compensation Insurance]
+Every employer is required under the Act to maintain adequate Work Injury Compensation Insurance (WICI) for:
+▪ all employees doing manual work, regardless of salary level; and
+▪ all employees doing non-manual work and earning S$2,600 or less a month 
+
+[14] 2.9 [Work Injury Compensation Insurance]
+Failure to do so is an offence punishable by a maximum fine of S$10,000 and/or imprisonment of up to 12 months. This is specified under Section 25(1) of the Act.
+
+[15] 2.10 [Work Injury Compensation Insurance]
+Previously, employers who bought WICI policies may find some work scenarios that were excluded from coverage. To safeguard employers, a core set of standard terms for Act (WICA 2019)-compliant policies (i.e. an approved Work Injury Compensation Act 2
+
+[16] 2.11 [Work Injury Compensation Insurance]
+WIC Insurance covers the insured employer against any legal liability as required under the Act and provides compensation in accordance with the provisions of the Act. In the approved Work Injury Compensation Act 2019 insurance policy, there is NO co
+
+[17] 2.12 [Work Injury Compensation Insurance]
+Basically, insurers can add benefits (e.g. common law liability) to the policy. Most importantly, these must not deviate from the compulsory terms specified in the WIC Regulations 2020. The insuring or operative clause under the approved Work Injury 
+
+[18] 2.13 [Work Injury Compensation Insurance]
+For issuance or renewal of the Work Permit or S Pass documents for the employment of approved foreign workers in Singapore, the Ministry of Manpower (MOM) requires the employer to provide information on the name of the insurer, policy number, policy 
+
+[19] 2.14 [Work Injury Compensation Insurance]
+Before proceeding to discuss WICI, we will first examine how an employer’s liability towards his employees arises.
+
+[20] 2.15 [Employer’s Legal Liability Towards His Employees]
+An employer’s legal liability towards his employees arises under Common Law, and also in accordance with Section 7(1) of the Act, which states: “Where personal injury is caused to an employee by an accident arising out of and in the course of the emp
+
+[21] 2.16 [Common Law Liability]
+An employer is liable to be sued under Common Law by his employee for negligence leading to an accident which results in the employee being injured. However, for an employee to succeed under Common Law, he has to prove that the employer owes him a du
+
+[22] 2.17 [Common Law Liability]
+As mentioned earlier, in the approved Work Injury Compensation Act 2019 insurance policy, there is NO cover of common law liability that was found in WIC policies issued under the repealed Act. However, as we have already discussed, it is possible fo
+
+[23] 2.18 [Statutory Liability]
+The Act mandates that the employer must provide compensation to his employees for personal injuries, death and certain occupational diseases arising out of and in the course of their employment. It also specifies the types of benefits that the employ
+
+[24] 2.19 [Statutory Liability]
+A claim for compensation under the Act must be made within 1 year from the date of accident.
+
+[25] 2.20 [Statutory Liability]
+An injured employee can claim either compensation under the Act or Common law damages, but not both.
+
+[26] 2.21 [Statutory Liability]
+Before proceeding further, we will look at some important terms. (1) What Constitutes The Earnings Of An Employee? Under the Act, “earnings” means all remuneration payable to an employee in respect of work done under the employee’s contract of servic
+
+[27] 2.22 [Benefits Which An Employer Must Provide Under The Act]
+An employer is required to provide the following benefits for his employees:
+▪ medical expenses;
+▪ medical leave wages (compensation for temporary incapacity);
+▪ lump sum compensation for permanent incapacity; and
+▪ lump sum compensation for death.
+
+[28] 2.23 [Medical Expenses]
+An employer is required to provide medical expenses benefit for medical treatment to an employee who is injured in a work-related accident. Also, an employer is liable to pay medical expenses incurred within a period of one year after the happening o
+
+[29] 2.24 [Medical Expenses]
+Within these limits, employers will be responsible for all the medical expenses incurred for medical treatment considered necessary by any Singaporeregistered medical practitioner or in any approved hospital. Employers are liable to pay such cost of 
+
+[30] 2.25 [Medical Expenses]
+Employers are liable to pay cost of medical treatment received overseas, if the accident happens while the employee is working overseas, and where immediate medical treatment is needed.
+
+[31] 2.26 [Medical Expenses]
+Under Section 5(2) of the First Schedule of the Act: “To avoid doubt, the cost of medical treatment includes, but is not limited to — (a) the charges in connection with an emergency medical transport for the conveyance of an injured employee to recei
+
+[32] 2.27 [Medical Expenses]
+In general, expenses for Traditional Chinese Medicine (TCM) are not eligible.
+
+[33] 2.28 [Medical Leave Wages (Compensation For Temporary Incapacity)]
+An employer is required to provide an employee, who suffers temporary incapacity paid medical leave (Average Monthly Earnings i.e.”AME”) up to a year. For the first 14 days of medical leave (60 days if he is hospitalised), the employer is required to
+
+[34] 2.29 [Medical Leave Wages (Compensation For Temporary Incapacity)]
+Beyond the above-mentioned periods, two-thirds of the employee’s AME is payable up to a period of one year from the date of accident. Public holidays6, rest days and non-working days are excluded from the number of days of medical leave granted to th
+
+[35] 2.30 [Medical Leave Wages (Compensation For Temporary Incapacity)]
+Medical leave and medical expenses are to be paid promptly by the seventh day of the following month, after they are incurred or due for payment.
+
+[36] 2.31 [Medical Leave Wages (Compensation For Temporary Incapacity)]
+Note: This is in line with the requirements as specified in the Employment Act 1968. 6 For public holidays, while these are not granted as paid medical leave under the Work Injury Compensation Act, the employee may be paid for the public holidays as 
+
+[37] 2.32 [Lump Sum Compensation For Permanent Incapacity]
+The Act also mandates that an employer must compensate his employee for permanent incapacity. Permanent total incapacity refers to the injuries that incapacitate an employee from doing all work which he was capable of doing at the time of the acciden
+
+[38] 2.33 [Lump Sum Compensation For Permanent Incapacity]
+Examples are the loss of both hands or feet, total loss of sight, total paralysis, or injuries resulting in being permanently bedridden as specified in the Fourth Schedule of the Act. The lump sum payable for permanent incapacity is subject to the fo
+
+[39] 2.34 [Lump Sum Compensation For Permanent Incapacity]
+The amount of compensation payable is subject to maximum and minimum limits updated with effect from 1 January 2020 as follows: Maximum limit = S$289,000 x (% loss of earning capacity) Minimum limit = S$97,000 x (% loss of earning capacity)
+
+[40] 2.35 [Lump Sum Compensation For Permanent Incapacity]
+If the medical practitioner certifies that the injured employee is suffering from permanent total incapacity (i.e. 100% loss of earning capacity), the employer has to pay an additional compensation of one quarter (i.e. 25%) of the amount awarded for 
+
+[41] 2.36 [Lump Sum Compensation For Permanent Incapacity]
+Note that the percentage of loss of earning capacity (as specified in the Fourth Schedule of the Act) will be determined by the attending medical practitioner.
+
+[42] 2.37 [Lump Sum Compensation For Death]
+When an employee dies in a work-related accident or lacks capacity in relation to the employee’s property and affairs, the employer has to pay compensation to the deceased employee’s relative. A “relative” according to Section 2 of the Act includes: 
+
+[43] 2.38 [Lump Sum Compensation For Death]
+As seen above, the definition of “relative” is very wide under the Act in that the Commissioner is obliged to consider every eligible dependant, and there is no requirement that the dependant must indeed be dependent upon the deceased employee, in or
+
+[44] 2.39 [Lump Sum Compensation For Death]
+The formula for computing the death compensation is as follows: Employee’s monthly earnings x multiplying factor [see Section 1(1) of the First Schedule of the Act]
+
+[45] 2.40 [Lump Sum Compensation For Death]
+Just like permanent incapacity, the death compensation is paid in a lump sum and is subject to a maximum and minimum limit, similarly updated with effect from 1 January 2020 to S$225,000 and S$76,000 respectively.
+
+[46] 2.41 [Lump Sum Compensation For Death]
+Appendix 3B gives an illustration on how to compute the amount of compensation due to an employee for permanent total incapacity.
+
+[47] 2.42 [Lump Sum Compensation For Death]
+The amount that an employer is liable towards their employees can potentially be substantial. This is especially important as an accident may involve a number of employees sustaining serious or fatal injuries. This can have a severe impact on the com
+
+[48] 2.43 [Lump Sum Compensation For Death]
+For details of the Act and its Schedules mentioned above, as well as the Work Injury Compensation Guide, refer to the MOM Website.
+
+[49] 2.44 [Lump Sum Compensation For Death]
+Compensation Limits From 1 January 2020 (a) On 1 January 2020, the maximum and minimum compensation limits for death and total permanent incapacity under WICA were increased. The cap on medical expenses was raised from S$36,000 to S$45,000. The amoun
+
+[50] 2.45 [Scope Of Cover]
+As far as the provisions of the Act is concerned, the employer must insure employees who fall under the mandatory insurance category (i.e. employees who are involved in manual work, regardless of their level of earnings, and employees who are involve
+
+[51] 2.46 [Scope Of Cover]
+The above-mentioned covers are insured under an “annual policy” basis. Prior to 1 September 2020, WICI could also be issued under a “project policy” basis. A project WIC policy refers to the portions of project insurance policies that provide coverag
+
+[52] 2.47 [Scope Of Cover]
+MOM has stipulated that from 1 September 2020, employers should not get new project WIC policies. There are WIC claims that are covered under both project WIC policy and employer’s WIC policy. Such duplicate coverage can lead to delays and disputes o
+
+[53] 2.48 [Scope Of Cover]
+In respect of the above, employers must get WIC insurance for their employees, even if they are covered by project WIC policies. If employees are only covered under a project WIC policy, employers may be charged for non-insurance. This is because pro
+
+[54] 2.49 [Scope Of Cover]
+Notwithstanding the above, insurers can keep their existing project WIC policies. They will be considered double coverage because employers, i.e. subcontractors, must get their own insurance. If there is a claim, it will be made against the employer’
+
+[55] 2.50 [Scope Of Cover]
+Insurers ceased selling new project WIC policies from 1 September 2020. Employers had to buy their own WIC insurance policy. MOM recommended that insurers work with developers to terminate the WIC portion of their existing project policies.
+
+[56] 2.51 [Scope Of Cover]
+For main contractor and developers, they are allowed to keep their existing project WIC policies. They will be considered double coverage as employers, i.e. sub-contractors, must get their own insurance. As mentioned earlier, if there is a claim, it 
+
+[57] 2.52 [Scope Of Cover]
+Main contractor and developers can also buy insurance to cover common law liabilities. Such insurance is not governed under the Act. MOM recommends that they work with their insurers to terminate the WIC portion of their project policies.
+
+[58] 2.53 [Policy Provisions & Conditions]
+In this section, we will examine the provisions and conditions of the approved Work Injury Compensation Act 2019 insurance policy, a specimen copy of which can be found at Appendix 3A of this study guide. From 1 Jan 2022 onwards, all WICI policies ha
+
+[59] 2.54 [Policy Provisions & Conditions]
+The specimen policy wording in Appendix 3A of this study guide is actually derived from the First Schedule of the Work Injury Compensation (Insurance) Regulations 2020. Please refer to Appendix 3A1” First Schedule Of The Work Injury Compensation (Ins
+
+[60] 2.55 [Policy Provisions & Conditions]
+Some of the provisions and conditions of the approved Work Injury Compensation Act 2019 insurance policy are described below:
+
+[61] 2.56 [Jurisdiction Clause]
+The policy is governed by the laws of the Republic of Singapore. As such, judgements which are delivered by or obtained from a court or tribunal of a jurisdiction outside Singapore will result in the insurer not having to pay a claim.
+
+[62] 2.57 [Recovery From Insured]
+The Act requires the insurer to pay WICI claims in certain circumstances notwithstanding that there could be a non-disclosure of a material fact, fraudulent claim or breach of a policy condition. However, the Recovery From Insured Clause provides tha
+
+[63] 2.58 [Insured’s Duty To Ensure Safety At The Workplace]
+This condition of the policy requires the insured (employer) to take all reasonable precautions to prevent accidents and diseases to his employees. It also requires the insured to comply with all statutory obligations and requirements, including thos
+
+[64] 2.59 [Insured To Make No Admission Or Promise]
+This is an important condition. It requires that the insured must not make directly, or through others, any offer, promise or payment, without the consent of the insurer.
+
+[65] 2.60 [Insured To Make No Admission Or Promise]
+This condition helps to prevent the situation, whereby the insurer may be prejudiced by any impulsive or uncontrolled action of the insured.
+
+[66] 2.61 [Change In Nature Of Business, Job Category or Category of Employee]
+This condition requires the insured to notify the insurer immediately if the Nature of the Business or Job Category or Category of Employee as described in the Schedule has changed in such a way as to increase the risk of accident or disease to any e
+
+[67] 2.62 [Change In Nature Of Business, Job Category or Category of Employee]
+The insurer also reserves the right to adjust the premium to an amount reasonably payable for the insured’s risk profile upon the insured’s notification to the insurer of such change.
+
+[68] 2.63 [Premium Adjustment & Declaration Of Earnings]
+How does the insurer compute the premium payable when issuing a Work Injury Compensation Insurance policy? It is based on the total amount of earnings paid by the insured (as well as other employers and known to the insured) to every employee in the 
+
+[69] 2.64 [Premium Adjustment & Declaration Of Earnings]
+However, at the inception or commencement date of the policy, the insured can only declare to the insurer an estimate of the total earnings to be paid by the insured for the policy period. A provisional premium is charged by the insurer based on this
+
+[70] 2.65 [Premium Adjustment & Declaration Of Earnings]
+The insured is required within a month after the end date or termination of the policy, to furnish the insurer an account of all earnings paid by the insured (as well as by other employers and known to the insured) to every employee in the Insured’s 
+
+[71] 2.66 [Premium Adjustment & Declaration Of Earnings]
+Please note the following: (a) An additional premium will be charged, or a refund of premium will be made depending on the difference between the provisional premium and actual premium payable as discussed above. (b) The insured shall keep and mainta
+
+[72] 2.67 [Underinsurance and Average Condition]
+As discussed above, there is an Average provision contained within the Premium Adjustment and Declaration of Earnings Clause of the policy. A separate Average Condition also exists in the insurance policy. The reader would recall that when we discuss
+
+[73] 2.68 [Underinsurance and Average Condition]
+However, under the Recovery From Insured clause, the insurer is entitled to recover such amounts paid from the Insured (the employer). Likewise, the Average condition entitles the insurer to recover the rateable proportion of the liability from the I
+
+[74] 2.69 [No Avoidance of Compulsory Terms]
+This clause makes it clear that no terms of the policy or memorandum or endorsement affects the compulsory terms of the approved Work Injury Compensation Act 2019 insurance policy as provided under section 26 of the Act. In addition, even the policy 
+
+[75] 2.70 [No Avoidance of Compulsory Terms]
+As discussed previously, to safeguard employers, a core set of standard terms for Act (WICA 2019)-compliant policies have been prescribed to ensure adequate coverage. These policies are known as approved policies.
+
+[76] 2.71 [No Avoidance of Compulsory Terms]
+As explained earlier in this chapter, insurers can offer additional coverage, but they cannot reduce the benefits under the approved policy. Even if any term or condition or endorsement in the policy appears to reduce such benefits, this clause makes
+
+[77] 2.72 [No Avoidance of Compulsory Terms]
+Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies are found in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.
+
+[78] 2.73 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ the type and nature of the insured’s business;
+▪ the place of work;
+▪ the kind of machines operated by the employees and how being guarded (if any);
+▪ whether acid, gas, chemicals, ra
+
+[79] 2.74 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[80] 2.75 [Underwriting Information Required]
+Designated WIC insurers are required to share policy and claims data with MOM. The data will be made available to all designated insurers approved by MOM. This is to facilitate information sharing between insurers of their clients’ past claims record
+
+[81] 2.76 [Certificate of Insurance]
+Once an insurer has underwritten and accepted the risk, it will insure the employer under an approved policy. The insurer is required under Section 4 of the Work Injury Compensation (Insurance) Regulations 2020 (“the regulations”) to issue a certific
+
+[82] 2.77 [Exclusions]
+In this section, we will briefly detail the exclusions of the approved Work Injury Compensation Act 2019 insurance policy.
+
+[83] 2.78 [Exclusions]
+The exclusions are:
+▪ any sum which the insured would have been entitled to recover from any party but for an agreement between the insured and such party;
+▪ any claims based upon or arising out of asbestosis and mesothelioma.
+▪ the insured’s liabili
+
+[84] 2.79 [Exclusions]
+While the policy excludes liability arising from nuclear weapons material, ionising radiations or contamination by radioactivity from any nuclear fuel or from any nuclear waste from the combustion of nuclear fuel, it does not exclude any liability re
+
+[85] 2.80 [Additional Benefits]
+We have already learnt that insurers can offer additional coverage, but they cannot reduce the benefits under the approved policy. The additional benefits that insurers could possibly offer to the insured include:
+▪ common law endorsement subject to 
+
+[86] 2.81 [Additional Benefits]
+The above extensions are customarily subject to extra premium consideration.
+
+[87] 2.82 [Claims]
+Under Section 35 of the Act: (a) A claim for compensation under this Act is deemed to be made by an employee when the employer first has notice of an accident giving rise to the employee’s work injury (Section 35(1)), namely when the employee informs
+
+[88] 2.83 [Claims]
+Section 39 of the Act stipulates that: (a) Any employee who has made a deemed claim for a work injury under section 35 and who wishes to claim compensation for permanent incapacity or current incapacity arising from that work injury must make the cla
+
+[89] 2.84 [Claims]
+The accident reporting requirement under the Act is in line with those under the Workplace Safety and Health Act 2006. WICA is intended as a piece of social legislation to provide low cost and expeditious resolution of work-related injury claims. To 
+
+[90] 2.85 [Claims]
+In the event of the occurrence of any accident or any disease mentioned in the Act that may give rise to a claim under the policy, the insured shall give notice of the occurrence to the insurer with full particulars within the time required by the Ac
+
+[91] 2.86 [Claims]
+Employers must report all work-related medical leave or light duties to MOM.
+
+[92] 2.87 [Claims]
+The employer can submit the Incident Report online to MOM using the iReport system on the MOM Website.
+
+[93] 2.88 [Claims]
+In addition, the insured has to give notice or forward to the insurer as soon as possible any letter of claim, writ, summons and process upon receipt. The insured must also notify the insurer immediately of any impending prosecution, inquest or fatal
+
+[94] 2.89 [Claims]
+For WIC policies, the amount of compensation is determined by the MOM (see also Appendix 3B for the illustration of how the computation is done). A Notice of Assessment of compensation must be forwarded to the insurer, employer and employee. The empl
+
+[95] 2.90 [Claims]
+Delay in settling Permanent Incapacity (PI) claims means some injured employees can only receive their compensation after several months, while employers incur higher upkeep and maintenance expenses to look after the injured workers. This causes unce
+
+[96] 2.91 [Claims]
+For cases of fatal or serious injuries, employees or their representatives do not need to file claim applications. Claim processing for these cases will commence once MOM or the insurer is notified of the accidents. Employees who do not wish to make 
+
+[97] 2.92 [Claims]
+The roles played by designated insurers are as follows: (i) Designated WIC insurers process all insured claims – for temporary incapacity, fatal and permanent incapacity. A licensing framework is in place to regulate insurers, to ensure checks and ba
+
+[98] 2.93 [WICA Issues Arising From COVID-198]
+Does Work Injury Compensation Act (WICA) cover diseases due to COVID-19? Would it apply if employees fall sick on a work trip? WICA covers employees who contract diseases from biological agents, including COVID-19, arising from and in the course of w
+
+[99] 2.94 [WICA Issues Arising From COVID-198]
+Are employees covered under the Work Injury Compensation Act (WICA) while working from home? Yes. Employees are covered under WICA wherever they work, including from home. If an employee was injured in the course of working from home, the employer is
+
+[100] 3.1 [Public Liability Insurance]
+The Public Liability Insurance or also commonly known as the General Liability Insurance is designed to indemnify an insured (usually a business) in respect of claims from members of the public or companies who may suffer owing to his negligence or t
+
+[101] 3.2 [Public Liability Insurance]
+Public liability covers the insured’s liability for injury caused to third party individuals or damage to third party properties. It does not cover claims made by the employees, servants or agents of the insured.
+
+[102] 3.3 [Public Liability Insurance]
+The period of insurance for a Public Liability Insurance policy is usually 12 months. 8 Source: https://www.mom.gov.sg/covid-19/frequently-asked-questions#eligible-claims-and-medical-benefits
+
+[103] 3.4 [Public Liability Insurance]
+Example 3.1 illustrates the usefulness of a Public Liability Insurance policy. Example 3.1: When Can A Public Liability Insurance Policy Help? A deliveryman came to Atlantic Bakery Company (ABC) to deliver some goods ordered by ABC. The employee who 
+
+[104] 3.5 [Scope Of Cover]
+The policy (see sample in Appendix 3D) indemnifies the insured against all sums which the insured may become legally liable to pay compensation in respect of:
+▪ bodily injury to or illness of any person; and/or
+▪ loss of or damage to property.
+
+[105] 3.6 [Scope Of Cover]
+The insurer will only indemnify the insured on the condition that the accident occurred:
+▪ during the period of insurance;
+▪ within the places covered under the policy; and
+▪ in the course of work or of the performance of any duties carried out by or
+
+[106] 3.7 [Scope Of Cover]
+The policy also covers all costs and expenses of litigation:
+▪ recovered by any claimant against the insured; and
+▪ incurred with the written consent of the insurer in respect of a claim against the insured for compensation.
+
+[107] 3.8 [Scope Of Cover]
+There are usually two limits of indemnity. Firstly, the limit of indemnity for any one period is usually unlimited in amount, although a limit may be placed on certain hazardous risks such as fire, explosion or pollution. Secondly, the limit of indem
+
+[108] 3.9 [Policy Provisions & Conditions]
+Some of the common provisions and conditions which can be found in a Public Liability Insurance policy are described below.
+
+[109] 3.10 [Limit Of Indemnity Clause]
+This clause states the maximum liability of the insurer in respect of any claim or any series of claims for personal injury and/or property damage caused by or arising out of one occurrence to the amount of indemnity as stated in the policy schedule.
+
+[110] 3.11 [Limit Of Indemnity Clause]
+It also specifies that all personal injury and/or property damage arising out of continuous or repeated exposure to the same general conditions substantially will be considered as one occurrence.
+
+[111] 3.12 [Excess / Deductible]
+An excess is the amount which the insured has to bear for each and every claim that the insured makes under the Public Liability Insurance policy and the insurer is only liable for any claims in excess of the policy excess. A deductible is similar in
+
+[112] 3.13 [Precautions]
+The insured is required to take all reasonable precautions to prevent accidents and must comply with all statutory obligations. The insured has to ensure that the premises and plant are kept in a proper state of maintenance and repair.
+
+[113] 3.14 [Adjustment Of Premium]
+This condition requires the insured to keep accurate records containing all particulars relating to the variables (e.g. payroll, sales, turnover) that are used to calculate the premium. The insured has to furnish the actual amount of the variables wi
+
+[114] 3.15 [Insurer’s Access To The Premises]
+This condition requires the insured to allow the insurer to go to the premises for inspection. It also specifies that, if there is any defect or danger being detected, the insurer will suspend the cover until the insured rectifies the matter to the s
+
+[115] 3.16 [Insured Not To Commit Without The Insurer’s Consent]
+This condition requires that the insured shall not repudiate liability, negotiate or make any admission, offer, promise or payment in connection with any accident, occurrence or claim, without the written consent of the insurer. This condition also p
+
+[116] 3.17 [Change In Nature Of Business]
+This condition requires the insured to keep the insurer informed of any change to its nature of business, as this may increase the risk covered under his policy. The insurer can refuse to pay any claim made under such circumstances if the insurer is 
+
+[117] 3.18 [Change In Nature Of Business]
+Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insurance Limited.
+
+[118] 3.19 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ place of business and how its premises to be used, e.g. office, factory, warehouse, etc.;
+▪ type and nature of business;
+▪ number of employees;
+▪ details of other occupants in the pre
+
+[119] 3.20 [Underwriting Information Required]
+Note that the underwriter may require additional information, and that the details of the required information may differ from insurer to insurer. For example, for complex risks or risks with high indemnity amounts, the insurer may send a risk survey
+
+[120] 3.21 [Exclusions]
+Other than the usual exclusions that relate to war and nuclear risks, and strike, riot and civil commotion, other common exclusions specific to this class of insurance are outlined below.
+▪ liability in respect of loss of or damage to property: - bel
+
+[121] 3.22 [Exclusions]
+Note that the exclusions of a Public Liability Insurance policy may vary from insurer to insurer.
+
+[122] 3.23 [Extensions]
+Most Public Liability insurers allow extensions, such as those mentioned below, to be included so that policy coverage can be enhanced. These extensions may be subject to payment of additional premiums.
+▪ car park
+▪ defective sanitary installation
+▪ 
+
+[123] 3.24 [Extensions]
+A detailed description of the above-mentioned extensions can also be found in Appendix 3E.
+
+[124] 3.25 [Claims]
+In the event of a claim, the insured needs to submit a claim form. In addition, he has to keep the insurer informed of any development in the claim or proceedings instituted against him in connection with the claim.
+
+[125] 3.26 [Claims]
+One important point is that, if the insured has more than one policy covering the same risk, the insurer’s liability may be reduced owing to the application of contribution.
+
+[126] 3.27 [Claims]
+Claims of Liability Insurance are typically long tail claims. They are so called as they may be settled years after the original incident. For example, the degree of severity of a personal injury may be such that the final impact on the life of the p
+
+[127] 3.28 [Claims]
+Another important point is that the Public Liability Insurance policy is on an “Occurrence Basis”. Occurrence based claims refer to those, where the occurrence or event for which indemnity is sought under the policy, must occur within the policy peri
+
+[128] 3.29 [Claims]
+For example, if the damage was caused by the insured on 15 December 2021, but the claim was lodged to the insurer only on 16 January 2022, the claim should be made on the policy covering the period during which the damage was actually done. If the in
+
+[129] 3.30 [Personal Mobility Insurance (Extended For Commercial Use)]
+With effect from 1 December 2020, licensed device-sharing operators providing motorised devices for hire, and all businesses who employ or contract riders using active mobility devices on public paths must ensure that they are covered by third-party 
+
+[130] 3.31 [Personal Mobility Insurance (Extended For Commercial Use)]
+As commercial personal mobility device (PMD) users are exposed to a greater risk compared to personal PMD users due to their higher frequency and time spent on roads, it is mandatory for commercial PMD users to be insured.
+
+[131] 3.32 [Personal Mobility Insurance (Extended For Commercial Use)]
+These changes were announced in February 2020, as part of amendments to the Active Mobility Act to provide victims in any accident greater recourse to compensation.
+
+[132] 3.33 [Personal Mobility Insurance (Extended For Commercial Use)]
+Active mobility devices include bicycles, personal mobility devices (PMDs), power-assisted bicycles (PABs), motorised wheelchairs or mobility scooters.
+
+[133] 3.34 [Personal Mobility Insurance (Extended For Commercial Use)]
+A personal mobility device (PMD) is defined as a vehicle that is designed for use by one person on footpaths only and travelling within the speed limit of not more than 25 km/h; has one or more wheels that operate on single axis; is propelled by an e
+
+[134] 3.35 [Personal Mobility Insurance (Extended For Commercial Use)]
+An LTA approved policy is any third-party liability insurance policy extended to cover commercial use of PMD and meets all the following requirements: (a) A sum insured of at least $200,000 per claim; (b) An excess amount that does not exceed $500 pe
+
+[135] 3.36 [Personal Mobility Insurance (Extended For Commercial Use)]
+In September 2019, a food delivery company in Singapore launched a joint initiative with an insurer to provide third-party liability insurance for active mobility riders, which covers damages incurred which are over $500 and up to $1,000,000. Anythin
+
+[136] 3.37 [Personal Mobility Insurance (Extended For Commercial Use)]
+However, this third-party liability insurance does not cover scenarios such as: (a) Accidentally falling and getting injured while on your bicycle; or (b) PAB exploding while charging it at home.
+
+[137] 3.38 [Personal Mobility Insurance (Extended For Commercial Use)]
+So, what happens if the business fails to ensure that its employees/outworkers are adequately covered by third-party liability insurance? Under Section 58A of the Active Mobility Act 2017, it is an offence for a business to fail to take all reasonabl
+
+[138] 4.1 [Products Liability Insurance]
+Products Liability Insurance is designed to cover legal liability for bodily injury to and/or damage to property of any third-party resulting from the products9 manufactured, retailed, sold, supplied or distributed by an insured. It can be issued as 
+
+[139] 4.2 [Products Liability Insurance]
+The liability of the insured can arise from tort or from contract. Examples include wrong labelling and defective containers.
+
+[140] 4.3 [Products Liability Insurance]
+Under Section 5(1) of the Unfair Contract Terms Act 1977 [UCTA] where goods are of a type ordinarily supplied for consumer use, no contractual term may exclude liability for loss arising out of the goods proving defective or from the negligence of th
+
+[141] 4.4 [Products Liability Insurance]
+Section 5(1) of UCTA states that: “In the case of goods of a type ordinarily supplied for private use or consumption, where loss or damage – (a) arises from the goods proving defective while in consumer use; and (b) results from the negligence of a p
+
+[142] 4.5 [Scope Of Cover]
+The policy indemnifies the insured against all sums which the insured may become legally liable to pay compensation in respect of:
+▪ accidental bodily injury (including death or disease) to any person; and/or
+▪ accidental loss of or damage to materia
+
+[143] 4.6 [Scope Of Cover]
+The insurer will only indemnify the insured on the condition that the accident occurred:
+▪ within the territorial limits as specified in the policy and
+▪ before or during the period of insurance; or
+▪ on or after the retroactive date as stated in the
+
+[144] 4.7 [Scope Of Cover]
+The policy also covers all costs and expenses of litigation:
+▪ recovered by any claimant against the insured; and
+▪ incurred with the written consent of the insurer in respect of a claim against the insured for compensation.
+
+[145] 4.8 [Scope Of Cover]
+Note that the liability of the insurer under a Products Liability Insurance policy is on an aggregate limit basis. This is to say that each claim paid will reduce the limit of liability during the period of insurance. The insurer will be discharged f
+
+[146] 4.9 [Policy Provisions & Conditions]
+The policy provisions and conditions of a Products Liability Insurance policy are generally similar to those of a Public Liability Insurance policy as discussed in the earlier section of this chapter.
+
+[147] 4.10 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ details of the parties whose interest is to be covered;
+▪ nature of business, i.e. manufacturer, distributor, wholesaler, retailer, etc.;
+▪ nature of goods and the purpose for which t
+
+[148] 4.11 [Underwriting Information Required]
+Note that the underwriter may require additional information and the details of the required information may differ from insurer to insurer.
+
+[149] 4.12 [Exclusions]
+Besides the usual exclusions that relate to war, riots, strikes and nuclear risks, the other common exclusions specific to this class of insurance policy are as follows:
+▪ the costs arising out of the recall of any products or part thereof;
+▪ any inj
+
+[150] 4.13 [Exclusions]
+As with the other types of insurance, the exclusions under a Products Liability Insurance policy may also vary from insurer to insurer.
+
+[151] 4.14 [Extensions]
+The policy can be extended to include errors in design or formula, subject to stringent underwriting requirements.
+
+[152] 4.15 [Extensions]
+In addition, the policy can be extended to cover risks owing to deficient advice or instructions given on the use of or storage of the product. Some insurers also offer product recall as an extension or as a standalone cover.
+
+[153] 4.16 [Claims]
+The Products Liability Insurance policy is usually on a “Claims Made Basis”. Claims Made claims refer to those where the claim must be made against the insured within the policy period of insurance, regardless of whether or not the occurrence or even
+
+[154] 4.17 [Claims]
+For example, a damage or injury occurred on 1 December 2021, but a claim was made only on 1 February 2022. In this case, the insurer that issued a policy covering the period of insurance from 1 January 2022 to 31 December 2022 would be responsible fo
+
+[155] 1.1 [Introduction]
+In this part of the chapter, we will discuss other classes of Liability Insurance such as Professional Indemnity Insurance, Directors’ & Officers’ (D&O) Liability Insurance, Libel & Slander Insurance, Errors & Omission (E&O) Insurance and Carriers & 
+
+[156] 2.1 [Professional Indemnity Insurance]
+Professional Indemnity Insurance policy is designed to protect professionals, such as accountants, architects, dentists, doctors, engineers, lawyers, surgeons, and even insurance brokers and financial adviser representatives, against claims which may
+
+[157] 2.2 [Professional Indemnity Insurance]
+Besides arising out of negligence, omission or error in the discharge of their professional duties, there are Professional Indemnity policies that cover “wrongful acts” i.e. wider in that they cover negligence, as well as other acts, errors, omission
+
+[158] 2.3 [Professional Indemnity Insurance]
+As required under Section 77 of the Insurance Act 1966, an insurance broking company, apart from meeting the minimum paid-up share capital requirement, must have in force a Professional Indemnity Insurance policy under which a person is indemnified i
+
+[159] 2.4 [Scope Of Cover]
+The policy covers both actual and alleged negligent acts, errors or omissions. In other words, it is a negligence policy and does not provide cover for claims brought about by wilful, dishonest, fraudulent, criminal or malicious acts or omissions. As
+
+[160] 2.5 [Scope Of Cover]
+In addition, the policy also makes provision for the payment of legal costs and expenses in the defence of a claim. Some policy limits are on a costs inclusive basis while others may be on a costs exclusive basis. If the claim exceeds the limit of th
+
+[161] 2.6 [Scope Of Cover]
+The limit of liability is an aggregate limit for any one period of insurance.
+
+[162] 2.7 [Policy Provisions & Conditions]
+There is no standard policy form available. The policy wording varies from insurer to insurer and also from profession to profession.
+
+[163] 2.8 [Policy Provisions & Conditions]
+Basically, the policy wording is similar to other types of liability policies. This policy sets out:
+▪ how the claim is to be dealt with, e.g. refer to a panel of practitioners;
+▪ the need to seek legal opinions before a claim is defended;
+▪ that the
+
+[164] 2.9 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ the amount of indemnity required;
+▪ details of type of professional services being offered;
+▪ number of partners and practitioners;
+▪ territorial area where the practice is set up, e.
+
+[165] 2.10 [Underwriting Information Required]
+Note that the underwriter may require additional information and the details of the required information may differ from insurer to insurer.
+
+[166] 2.11 [Underwriting Information Required]
+The period of insurance for a Professional Indemnity Insurance policy is usually 12 months.
+
+[167] 2.12 [Exclusions]
+Professional Indemnity Insurance policies carry certain exclusions. Apart from the standard market excluded perils, such as war and nuclear related perils, the main ones are as follows:
+▪ claims that should rightfully fall under a Public Liability In
+
+[168] 2.13 [Extensions]
+Some of the extensions allowed under this class of policy include:
+▪ Libel and Slander;
+▪ Dishonesty of Employees;
+▪ Coverage after closure of business;
+▪ Loss of Documents;
+▪ Infringement Of Intellectual Property Rights;
+▪ Outgoing Principals, Direc
+
+[169] 2.14 [Claims]
+Like Products Liability Insurance, this policy is also issued on a “Claims Made Basis” which means that the insurer will admit a claim that is made during the period of insurance, regardless of when the act of negligence giving rise to the claim has 
+
+[170] 3.1 [Claims]
+Directors’ & Officers’ (D&O) Liability Insurance is designed to indemnify the insured (a corporation or insured person) for the amount that it/he becomes legally bound to pay for claims made against it/him for wrongful act(s) committed or allegedly c
+
+[171] 3.2 [Claims]
+The D&O Liability Insurance policy has three sections nowadays, namely: (a) Side A: Directors’ & Officers’ Cover This pays on behalf of each of the individual directors or officers all losses for which the director or officer is not indemnified by th
+
+[172] 3.3 [Claims]
+The term “wrongful act” includes any actual or alleged negligent act, error, omission, misstatement, misleading statement, neglect or breach of duty by the director or officer acting in his official capacity in the insured corporation. An insured per
+
+[173] 3.4 [Claims]
+Section 172 of the Companies Act 1967 referred to as [CA] in this chapter states that provisions purporting to exempt any director or officer of a company from liability in connection with any negligence, default, breach of duty or breach of trust in
+
+[174] 3.5 [Claims]
+Section 172B of CA allows a company to indemnify a director or officer against liability incurred by the director or officer to a person other than the company, i.e. third parties. Section 172(B)(1)(a) of CA goes on to state that such indemnity canno
+
+[175] 3.6 [Claims]
+However, Section 172A of CA allows a company to purchase and maintain insurance against liability for its directors or officers.
+
+[176] 3.7 [Claims]
+Like Products Liability Insurance and Professional Indemnity Insurance, a D&O Liability Insurance policy is also issued on a “Claims Made Basis”, and the period of insurance is usually 12 months. As such, the insurer will admit a claim that is made d
+
+[177] 3.8 [Claims]
+D&O Liability Insurance is often confused with Professional Indemnity Insurance. The difference is that Professional Indemnity Insurance covers an insured’s liability for breach of professional duty, while D&O Liability Insurance covers the individua
+
+[178] 4.1 [Libel & Slander Insurance]
+Libel & Slander Insurance policies are designed to indemnify the insured against liability at law for damages, claimant’s costs and expenses as well as the insured’s legal costs in respect of claims against the insured for:
+▪ libel (written word of d
+
+[179] 4.2 [Libel & Slander Insurance]
+The policy for the insurance can be issued as a normal stand-alone policy, but more often, it is given as an extension of cover to a Professional Indemnity policy. The period of insurance is usually 12 months. The insurance is normally on a “Claims M
+
+[180] 5.1 [Errors & Omissions (E&o) Insurance]
+Errors & Omissions (E&O) Insurance policies cover persons with E&O liability exposure, as opposed to professional liability exposure. Professional liability tends to apply to professions demanding a very high standard of care, many years of study, an
+
+[181] 5.2 [Errors & Omissions (E&o) Insurance]
+Therefore, E&O Insurance policies will indemnify the insureds against their legal liability to pay damages and claimants’ costs and expenses arising out of neglect, errors or omissions committed or alleged to have been committed by them in their capa
+
+[182] 6.1 [Carriers & Bailees Liability Insurance]
+Bailees Liability Insurance policies are purchased by businesses who have in their care, custody or control of personal property that belongs to someone else either in their premises or when they are in the process of delivering them to their destina
+
+[183] 6.2 [Carriers & Bailees Liability Insurance]
+This policy is also known as Carriers Legal Liability Insurance and is commonly underwritten by the Marine Insurance department of an insurance company. The policy basically covers losses to the clients’ property in the custody of a bailee, as well a
+
+[184] 6.3 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ scope of services offered;
+▪ standard trading condition;
+▪ other transport documents issued;
+▪ turnover;
+▪ claims experience;
+▪ place where goods are stored, palletised, containerised
+
+[185] 6.4 [Underwriting Information Required]
+Note that the underwriter may require additional information and the details of the information requested may vary from insurer to insurer.
+
+[186] 6.5 [Claims]
+This policy may be offered on a “Claims Made Basis” or an “Occurrence Basis”. In either case, it is imperative that the insured must promptly notify the insurer of any and every incident that occurs. So long as this is done, any incident that occurs 
+
+[187] 6.6 [Claims]
+As with the other classes of liability insurance, the insured must file the claim by submitting a completed claim form with relevant supporting documents to the insurer.
+
+[188] 7.1 [Commercial General Liability Insurance]
+As the name implies, this policy covers a wide range of legal liability both under Common Law and Contract. The cover for Common Law Liability includes:
+▪ bodily injury resulting in actual physical damage or loss;
+▪ property damage or loss;
+▪ persona
+
+[189] 7.2 [Commercial General Liability Insurance]
+The cover for Contractual Liability, on the other hand, includes:
+▪ employer’s liability;
+▪ product and services liability;
+▪ tenant liability; and
+▪ liquor liability, etc.
+
+[190] 7.3 [Commercial General Liability Insurance]
+In addition, this policy provides for the payment of medical expenses incurred as a result of bodily injury caused by accidents, subject to the limits as stated in the policy. It usually also offers retroactive cover, i.e. cover extended to a specifi
+
+[191] 7.4 [Commercial General Liability Insurance]
+The policy can be issued either on a “Claims Made Basis” or “Occurrence Basis”. A limit of indemnity is imposed on each specific liability cover, subject to an aggregate limit for the policy period of insurance. Usually, a general policy is issued, a
+
+[192] 7.5 [Commercial General Liability Insurance]
+The territorial limit, as well as jurisdiction, of this policy is usually on a worldwide basis. This policy is usually purchased by multi-national companies and conglomerates, with diversified operations or business interests in various parts of the 
+
+[193] 8.1 [Commercial General Liability Insurance]
+Innkeeper’s Liability Insurance is designed to provide cover for the legal liability of the innkeeper or insured (i.e. the owner or operator of any lodging facility, such as hotel, inn, motel and restaurant) under Section 3 of the Innkeepers Act 1970
+
+[194] 8.2 [Commercial General Liability Insurance]
+Section 3 of the Act limits the innkeeper’s liability for any loss of or damage to goods or property brought to the inn to an amount not exceeding S$500 provided that a Notice of Section 3 of the Act, printed in plain type in English, is displayed in
+
+[195] 8.3 [Commercial General Liability Insurance]
+The Act also grants the innkeeper the right to refuse to receive for safe custody, any goods or property of any guest where the declared value exceeds S$5,000.
+
+[196] 8.4 [Commercial General Liability Insurance]
+However, the limitation does not apply where:
+▪ the goods or property having been stolen, lost or damaged through the wilful act, default or neglect of the innkeeper, or any servant in his employment;
+▪ the goods or property having deposited by or on
+
+[197] 8.5 [Commercial General Liability Insurance]
+According to the Act, the innkeeper is not liable for loss of or damage to any vehicle or any property left therein, or any horse or other live animal, or any gear (e.g. harness) connected with it.
+
+[198] 8.6 [Commercial General Liability Insurance]
+Innkeepers Liability cover is often issued as an extension to the Public Liability Insurance policy if the insured is a hotel. This is to overcome the exclusion in a Public Liability insurance policy which specifically excludes property under the car
+
+[199] 8.7 [Commercial General Liability Insurance]
+When this extension is granted, the insurer usually specifies certain conditions which the insured has to fulfil. Some common conditions include:
+▪ displaying a copy of the Notice stated under Section 3 of the Innkeepers Act 1970 conspicuously in a p
+
+[200] 9.1 [Specialist Liability Risks Insurance]
+New risks arise as a result of constant changes in legislation, environment and market conditions. It is important for underwriters and intermediaries to keep abreast of such new risks and the relevant insurance coverages. In this section, we will br
+
+[201] 9.2 [Environmental Impairment Liability (EIL) Insurance]
+Pollution or Contamination is typically split into three categories:
+▪ Air;
+▪ Water; and
+▪ Land (soil and groundwater).
+
+[202] 9.3 [Environmental Impairment Liability (EIL) Insurance]
+An organisation faces significant liability exposures relating to bodily injury and third-party clean-up costs in the event of a pollution incident. In addition, the costs associated with the first-party clean-up owing to a pollution incident can be 
+
+[203] 9.4 [Coverage]
+The standard coverage of an EIL insurance policy includes:
+▪ First-party and third-party remediation costs (on-site and off-site);
+▪ Third-party bodily injury (on-site and off-site);
+▪ Third-party property damage (on-site and off-site);
+▪ Natural res
+
+[204] 9.5 [Coverage]
+In addition, the insured can effect optional coverage enhancements such as:
+▪ Contractual pollution liabilities e.g. in leases;
+▪ First-party business interruption;
+▪ Pollution losses arising from transported cargo;
+▪ Pollution losses arising from th
+
+[205] 9.6 [Terrorism Liability Insurance]
+The recent acts of terrorism around the world have posed a very serious security concern to governments, the public and organisations. The prevention methods to mitigate and potentially avert such terrorist acts include CCTV, security checks at airpo
+
+[206] 9.7 [Terrorism Liability Insurance]
+A Terrorism Liability Insurance policy indemnifies organisations in respect of their operations, for the liability imposed upon them by law for damages in respect of a claim, arising out of third-party bodily Injury and / or property damage and / or 
+
+[207] 9.8 [Cyber Liability Insurance]
+A Cyber-attack occurs when individuals or whole organizations employ any means that target computer information systems, infrastructures, computer networks, and/or personal computer devices. Such attacks are achieved via various malicious acts origin
+
+[208] 9.9 [Cyber Liability Insurance]
+A Cyber Liability insurance policy in general is designed to cover a wide range of exposure including “third-party” legal liability claims arising out of business use of the Internet or computer system whether for marketing or e-commerce purposes, as
+
+[209] 10.1 [Contingency Insurance]
+A cancellation of an event may result in event organisers facing very serious financial consequences. Consider the following scenarios:
+▪ An international pop star is involved in a car accident just before the start of a world tour and misses a serie
+
+[210] 10.2 [Contingency Insurance]
+One can easily imagine how the above scenarios can leave the organisers and sponsors with significant costs and losses of revenues from the cancellation or abandonment of such events. The organisers will face serious consequences such as contractual 
+
+[211] 10.3 [Contingency Insurance]
+Many events can either be cancelled or abandoned once under way. What are the possible risks or threats that could cause this to happen? The following list is nonexhaustive:
+▪ Venue suffering damage; flood, earthquake and other natural perils;
+▪ Outb
+
+[212] 10.4 [Contingency Insurance]
+Event organisers may have Liability insurance. However, Liability Insurance often do not cover financial exposures, such as contractual liabilities, lost revenues and ticket refunds. This is where Contingency Insurance plays a vital role in covering 
+
+[213] 10.5 [Underwriting Information]
+Insurers will require detailed information. We will not list all such information, but examples include:
+▪ Details of the Proposer including business and track record and the Performer(s) including type of event, experience, scale of production etc.
+
+
+[214] 10.6 [Exclusions]
+There are many exclusions in a Contingency Insurance policy. Examples of such exclusions include:
+▪ The insured’s or any insured person's lack of care, diligence or prudent behaviour, the result of which will increase the risk, and / or likelihood of
+
+[215] 10.7 [Exclusions]
+It should be noted that not all exclusions are cast in stone. It was reported in the press on 3 March 2020 that “global insurers face a hefty bill (billions of dollars!) if the coronavirus outbreak forces the cancellation of the Summer Olympics in To
+
+[216] 10.8 [Claims]
+The insured or policyholder is to notify insurer as soon as possible if an event is threatened or must be cancelled. Insurers will appoint loss adjusters to handle such claims. The loss adjusters can recommend ways to mitigate the financial and reput
+
+[217] 10.9 [Claims]
+In addition, the insured is required to furnish the insurer as much information as possible about the incident and financial implications.
+

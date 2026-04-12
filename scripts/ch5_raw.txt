@@ -1,0 +1,486 @@
+[0] 1.1 [Introduction]
+In this chapter, we will cover the following three types of Marine Insurance which is governed by the Marine Insurance Act 1906 adopted from the English Marine Insurance Act 1906, an Act to codify the law relating to Mar
+
+[1] 1.2 [Introduction]
+We will also touch on Aviation Insurance briefly in this chapter.
+
+[2] 1.3 [Introduction]
+It should be noted that the Marine Insurance Act 1906 uses the term “assured” instead of “insured” (to refer to the policyholder/policy owner) as commonly used in this text.
+
+[3] 1.4 [Introduction]
+Before we study the types of Marine insurance, let us firstly examine the types of vessels as well as the nature of cargoes they carry. We shall also briefly discuss the parts of a vessel.
+
+[4] 2.1 [Types Of Vessels And The Cargoes Carried]
+There are various types of commercial vessels and they come in all shapes and sizes designed to carry a wide variety of cargoes. A study of marine insurance is never complete without first understanding the type of vesse
+
+[5] 2.2 [Types Of Vessels And The Cargoes Carried]
+It is not necessary to know everything about the ships covered by an insurance contract. However, a marine insurance underwriter should recognise the various types of vessels he is asked to insure. He needs to have a goo
+
+[6] 2.3 [Types Of Vessels And The Cargoes Carried]
+The types of vessels commonly insured and their cargoes carried, or usage are shown in the table below. Types of Vessels Cargoes Carried/Usage Dry Cargo Ships They carry traditional dry cargoes or general cargoes Bulk Ca
+
+[7] 3.1 [Parts Of A Vessel]
+While ships may vary in size and types, they all have two points in common.
+
+[8] 3.2 [Parts Of A Vessel]
+Firstly, ships are made of steel and composite material. Secondly, they comprise three main parts:
+▪ Navigation bridge
+▪ Hull
+▪ Engine room
+
+[9] 3.3 [Parts Of A Vessel]
+One can find both the visible and invisible structural parts in a ship. The parts that are visible comprise:
+▪ Rudder
+▪ Anchor
+▪ Bow
+▪ Keel
+▪ Accommodation
+▪ Propeller
+▪ Mast
+▪ Bridge,
+▪ Hatch covers and
+▪ Bow thrusters.
+
+[10] 3.4 [Parts Of A Vessel]
+The invisible but structural part of ship consists of:
+▪ bulkheads
+▪ frames
+▪ cargo holds
+▪ hopper tank
+▪ double bottom
+▪ girders
+▪ cofferdams, side shell etc.
+
+[11] 3.5 [Parts Of A Vessel]
+A virtual reality video of the interior and parts of a vessel can be found at: https://dipen1489.github.io/shipdeck/index.html
+
+[12] 4.1 [What Is Marine Cargo Insurance?]
+Goods of all descriptions are constantly being transported not only from one country to another, but also within a country. The goods may be carried by road, rail, sea or air. They are exposed to hazards normally associa
+
+[13] 4.2 [What Is Marine Cargo Insurance?]
+A Marine Cargo Insurance policy includes cover for land transit commencing from the moment the goods leave the place of storage until they arrive at the final warehouse. For administrative convenience, most insurers cove
+
+[14] 4.3 [What Is Marine Cargo Insurance?]
+For the above reasons, the term “Marine Cargo Insurance” is often loosely used to refer to all forms of Cargo Insurance, regardless of how the cargoes are transported. It is sometimes said that this type of insurance sho
+
+[15] 4.4 [The Need For Marine Cargo Insurance]
+Modern trade and commerce cannot function without Marine Cargo Insurance. The movement of raw materials and manufactured goods between countries and the internal movement within the country itself will involve credit and
+
+[16] 4.5 [Parties To The Contract]
+The parties to a Marine Cargo Insurance contract will involve the insurer and one or more of the following parties:
+▪ importers;
+▪ exporters;
+▪ freight forwarders;
+▪ traders; and/or
+▪ other buyers and sellers engaged in 
+
+[17] 4.6 [Parties To The Contract]
+In a usual sales transaction, it is important that both the seller and the buyer know which party will be effecting insurance on the goods during transit.
+
+[18] 4.7 [Parties To The Contract]
+In today’s transaction, the introduction of a trader/middleman makes the issue of effecting insurance even more complicated. The job of a trader is to buy from one party in order to sell to another. In the process, he ei
+
+[19] 4.8 [Parties To The Contract]
+We will now look at the INCOTERMS as stipulated under the “Terms Of Sale” – a document that shows, among other things, which party should take up the Marine Cargo Insurance cover.
+
+[20] 4.9 [INCOTERMS – Who To Insure?]
+INCOTERMS are key elements of international contracts of sale, since they tell the parties what to do with respect to:
+▪ carriage of the goods from seller to buyer; and
+▪ export and import clearance. They also explain th
+
+[21] 4.10 [INCOTERMS – Who To Insure?]
+INCOTERMS deal with the rights and obligations of the parties to a sale, i.e. the seller or buyer. They show at which stage of the transit that the interest in the cargo lies with the seller, and at which stage that the 
+
+[22] 4.11 [INCOTERMS – Who To Insure?]
+Examples of INCOTERMS are “Ex Works”, “FOB”, “CFR” (formerly known as “C&F”) and “CIF”. From an insurance perspective, the principal difference concerns the time when the risk in the goods has been passed from the seller
+
+[23] 4.12 [INCOTERMS – Who To Insure?]
+We will discuss the meanings of three of the most commonly used terms, namely FOB, CIF and CFR. However, we will concern ourselves only with the insurance implications of these terms of sale. (a) Free On Board (FOB) When
+
+[24] 4.13 [INCOTERMS – Who To Insure?]
+Table 5.1 summarises which party should insure the cargo under the three different trading terms. Table 5.1: The Party To Insure Cargo Under CIF, FOB & CFR Trading Terms CIF FOB CFR Seller/Exporter To Insure ✓ Buyer/Impo
+
+[25] 4.14 [MAR Form]
+The MAR Form which is an abbreviation for “Marine Form” does not have any terms and conditions on it. Rather, it is simply the schedule of the policy which contains the following information:
+
+[26] 4.15 [MAR Form]
+Attached to the MAR Form is one of the following Institute Cargo Clauses (ICC) which specifies the terms and conditions of a Marine Cargo Insurance policy:
+▪ Institute Cargo Clauses A (ICC A);
+▪ Institute Cargo Clauses B
+
+[27] 4.16 [MAR Form]
+The most recent Institute Cargo Clauses are the 2009 version as launched in January 2009 and for the purpose of this text, we shall focus on the 2009 clauses as these are the latest version.
+
+[28] 4.17 [MAR Form]
+It should be noted that, in addition to the above-mentioned three clauses (which will be discussed in greater detail in the following sub-sections), there are various other special clauses for different trades, some of w
+
+[29] 4.18 [Institute Cargo Clauses A (ICC A) 1.1.2009]
+Cover provided under the ICC A is sometimes called the “All Risks” cover, since it covers the goods against all risks of loss and/or damage, subject to specific exclusions as mentioned below. The loss and/or damage to go
+
+[30] 4.19 [Institute Cargo Clauses A (ICC A) 1.1.2009]
+This is the most common cover requested by cargo owners. Where cargo is bought and/or sold under a bank’s letter of credit, it is common that the bank will insist on the “All Risks” cover. Indeed, it is usually impossibl
+
+[31] 4.20 [Institute Cargo Clauses A (ICC A) 1.1.2009]
+The General Exclusion Clause for ICC A 1.1.2009 states that the insurance will not cover loss, damage or expense caused by the following perils:
+▪ wilful misconduct of the insured;
+▪ ordinary leakage, loss of weight or v
+
+[32] 4.21 [Institute Cargo Clauses B & C (ICC B & C) 1.1.2009]
+These are restricted covers. Some call them “Named Perils” covers, because the perils that are covered are specifically stated in the clauses. In order to make a claim under this cover, the onus of proving a loss rests w
+
+[33] 4.22 [Institute Cargo Clauses B & C (ICC B & C) 1.1.2009]
+The following perils are some of the “Named Perils” found under the ICC B and ICC C (ICC C does not cover those perils marked with *):
+▪ fire and explosion;
+▪ stranding, grounding, sinking or capsizing of vessel or craft
+
+[34] 4.23 [Institute Cargo Clauses B & C (ICC B & C) 1.1.2009]
+The general exclusion clause for ICC B and ICC C is very similar to that of the ICC A, with the exception that the ICC A covers malicious damage which is specifically excluded under the ICC B and ICC C. To have a clearer
+
+[35] 5.2 [Institute Cargo Clauses B & C (ICC B & C) 1.1.2009]
+is a summary depicting the types of risks covered by the three Institute Cargo Clauses. Table 5.2: Risks Covered Under The Institute Cargo Clauses (A), (B) & (C) 1.1.2009 Clauses Risks Covered ‘A’ Clauses All Risks of lo
+
+[36] 4.24 [Institute Cargo Clauses B & C (ICC B & C) 1.1.2009]
+Table 5.3 is a summary depicting some of the common exclusions under the three Institute Cargo Clauses. Table 5.3: Common Exclusions Under The Institute Cargo Clauses (A), (B) & (C) 1.1.2009 Clauses General Exclusions ‘A
+
+[37] 4.25 [Types Of Marine Cargo Insurance Policies]
+Generally, there are two basic types of Marine Cargo Insurance policies, namely:
+▪ Voyage Policy; and
+▪ Time Policy.
+
+[38] 4.26 [Voyage Policy]
+This is the most common type of policy for insuring cargoes. The policy provides cover for a voyage, and this is clearly mentioned in the policy where it is stated “from … to …”.
+
+[39] 4.27 [Voyage Policy]
+As provided under the Transit Clause of the ICC 2009 clauses, the cover commences from the time that the goods are first moved in the warehouse or place of storage named in the policy; and terminates when the goods arriv
+
+[40] 4.28 [Voyage Policy]
+There are also various circumstances under which the cover can be terminated, such as:
+▪ if the goods are sold during the course of the voyage;
+▪ if the voyage is terminated owing to a peril insured; or
+▪ if the carrier 
+
+[41] 4.29 [Voyage Policy]
+All these contingencies are taken care of and are clearly spelt out in the Institute Cargo Clauses under the Voyage Policy.
+
+[42] 4.30 [Time Policy]
+This policy is frequently found in the inland transit cover. It is effected when a supplier wants to protect his cargoes, while they are being delivered to his various customers within a specified geographical area. Thes
+
+[43] 4.31 [Time Policy]
+As an alternative, a Time Policy is then issued to cover risks for a period of time, usually 12 months. Essentially, the cover for any voyage commences from the time that it leaves the insured’s/supplier’s premises and t
+
+[44] 4.32 [Time Policy]
+There is also a limit per conveyance for each voyage, and this represents the insurer’s maximum liability for any one accident or occurrence. Premiums can be charged on a monthly basis, following declaration by the insur
+
+[45] 4.33 [Time Policy]
+Time policies are also now used for sea and/or air shipments, where the insured may not require individual policies or certificates of insurance for each sending. Calculation of premium is done as mentioned in the earlie
+
+[46] 4.34 [Open Cover]
+An Open Cover is essentially an agreement between the insured and the insurer to cover all the shipments which fall within the terms and conditions as agreed by both parties. The insured will give the broad perimeters of
+
+[47] 4.35 [Open Cover]
+Terms and conditions together with the rates applicable for each voyage or type of cargo will be agreed upon in advance. Once this is done, it is incorporated into a contract called an Open Cover. At the time that the Op
+
+[48] 4.36 [Open Cover]
+It is obligatory for the insured to declare each and every shipment which falls under the scope of the Open Cover. Declarations of shipments can be made either for each individual shipment as it takes place, or on a mont
+
+[49] 4.37 [Open Cover]
+It is also obligatory for the insurer to accept all declarations made by the insured under the Open Cover and within the terms as specified. For clients that the insurer know very well, they may even be allowed to issue 
+
+[50] 4.38 [Open Cover]
+One of the advantages of having an Open Cover is the automatic protection granted to the insured for shipments that fall under the terms and conditions of the agreement. It also relieves the insured from having to arrang
+
+[51] 4.39 [Marine Cover Note]
+The need for a Marine cover note arises when the insured wishes to effect Marine Cargo Insurance, but he does not have all the details sufficient to issue a policy. For example, when the insured wishes to import goods an
+
+[52] 4.40 [Marine Cover Note]
+The cover note is usually valid for three months. It expires upon full declaration being made or upon expiry of its validity, whichever is earlier.
+
+[53] 4.41 [Underwriting Information Required]
+In accordance with the provision of Section 18 of the Marine Insurance Act 1906, failure to disclose a material fact entitles the insurer to avoid the contract of insurance. Therefore, it is important that clients be adv
+
+[54] 4.42 [Underwriting Information Required]
+In Marine Cargo Insurance, the general information that needs to be gathered by the underwriter from the intending insured for assessing the insurance application is described below.
+
+[55]  [Background Of The Intending Insured]
+(a) The intending insured’s company name and address. (b) The intending insured’s exact nature of business, such as whether the intending insured is in the manufacturing or trading business. Generally, the trading busine
+
+[56]  [Nature Of The Cargo]
+(a) Whether the cargo gives off or absorbs moisture. (b) Susceptibility of the cargo to damage owing to rough handling. Whether the cargo comprises fragile items, such as china or glass, or sensitive machines, such as co
+
+[57] 4.43 [Nature Of The Cargo]
+Note that for bulk oil cargo, bagged cargo and fragile goods, a deductible or excess will usually apply.
+
+[58]  [Details Of Packaging]
+(a) The types of packing or packing material to be used, such as shipment in drums, cartons, wooden crates/cases and bags. Goods are sometimes placed on pallets, as this facilitates easier handling by forklift trucks. (b
+
+[59]  [Details Of The Carrying Vessel]
+(a) A vessel’s structural form, e.g. wooden, steel, or glass-reinforced plastic (GRP); and age. (b) The type of vessel used, e.g. container, roll-on roll-off vessel, tug-barge, bulk carrier and tanker. (c) Whether the ve
+
+[60]  [Voyage Contemplated]
+(a) The length of voyage. The longer the voyage, the longer the cargo on board is exposed to loss of or damage. (b) Weather conditions of the trading areas. 2 The shapes and dimensions of such equipment and machinery do 
+
+[61]  [Other Underwriting Information Required]
+(a) Consideration must be given if the final destination is some distance inland. The road infrastructure and means of getting the goods to the final destination will have an impact on the condition in which the goods wi
+
+[62] 4.44 [Other Underwriting Information Required]
+Note that the underwriter may require other additional information, and the details of the required information may differ from insurer to insurer.
+
+[63] 4.45 [Claims]
+A Marine Cargo Insurance policy is generally a valued policy as stated in Section 27(3) of the Marine Insurance Act 1906. This means that, in the absence of fraud, the value that has been agreed upon and stated in the po
+
+[64] 4.46 [Claims]
+If a client has discovered damage or loss to his cargo, he should do the three things as described below. (a) Minimise The Loss & Prevent Further Losses Make every effort to reduce the loss or take steps to prevent furth
+
+[65] 4.47 [Claims Documents]
+Here are the following claim documents which need to be submitted to the insurer to substantiate a loss under a Marine Cargo Insurance policy:
+▪ whatever document was originally issued to substantiate the insurance place
+
+[66] 4.48 [Claims Documents]
+Submitting the above-mentioned documents promptly to the insurer will certainly speed up the processing of the claim. In special and complicated cases, other documents may be requested by the insurer as well.
+
+[67] 5.1 [What Is Marine Hull Insurance?]
+In an earlier part of this chapter, we discussed the various types of vessels as well as their parts. This is useful to a marine hull insurance underwriter who should recognise the various types of vessels he is asked to
+
+[68] 5.2 [What Is Marine Hull Insurance?]
+Likewise, a marine hull claims handler or loss adjuster needs to know the types of vessels. Knowing the types of vessels, how they are built , the hazards faced etc. will enable claims practitioners to be more effective 
+
+[69] 5.3 [What Is Marine Hull Insurance?]
+Now, we shall discuss Marine Hull Insurance.
+
+[70] 5.4 [What Is Marine Hull Insurance?]
+Marine Hull Insurance covers the shipowner against the physical loss or damage to a vessel or ship, i.e. the actual hull or the steel plates, as well as the engines and auxiliary machinery, found on board a vessel.
+
+[71] 5.5 [What Is Marine Hull Insurance?]
+In addition, it also covers some of the liabilities to third parties that he, as a shipowner, can incur resulting from the operation of the vessels, such as liabilities resulting from collision with third-party vessels.
+
+[72] 5.6 [What Is Marine Hull Insurance?]
+Pleasure Craft Insurance, as well as Shipbuilders Risk Insurance, can also be included under the umbrella of Marine Hull Insurance.
+
+[73] 5.7 [The Need For Marine Hull Insurance]
+There is a need for shipowners to purchase Marine Hull Insurance as such cover affords protection against physical loss or damage to the ship. Having such insurance in place means that the shipowners will have peace of m
+
+[74] 5.8 [The Need For Marine Hull Insurance]
+On the other hand, banks and/or other financial institutions that provide finance for the purchase of ships may also need to protect the loan against the security of the vessel.
+
+[75] 5.9 [Parties To The Contract]
+The parties to a Marine Hull Insurance contract will be the insurer and the ship owner. If the ship is chartered, this can then include the demised charterer.
+
+[76] 5.10 [Scope Of Cover]
+Basically, all types of vessels from tug and barges to ocean-going vessels can be insured under a Marine Hull Insurance policy.
+
+[77] 5.11 [Scope Of Cover]
+Unlike a Marine Cargo Insurance policy, there is usually no “All Risks” cover for vessels. Instead, these covers are in the form of “Named Perils”. This means that a Marine Hull Insurance policy will respond only if the 
+
+[78] 5.12 [Scope Of Cover]
+A variety of Hull Clauses has been designed to insure vessels. Some of the common clauses are:
+▪ Institute Time Clauses – Hulls 1/10/83 CL.280;
+▪ Institute Time Clauses – Hulls 1/11/95 CL.280-95; and
+▪ International Hull
+
+[79] 5.13 [Scope Of Cover]
+It is a common practice for Marine Hull Insurance policies to contain deductibles.
+
+[80] 5.14 [Period Of Cover]
+A Marine Hull Insurance policy can either be a Time Policy or a Voyage Policy. However, most Marine Hull Insurance policies are effected on a time basis and usually for a period of 12 months.
+
+[81] 5.15 [Underwriting Information Required]
+The general underwriting information to be obtained is described below. (a) The Details and Physical Condition Of The Vessel (i) The physical condition can only be discovered through competent surveys. For small vessels,
+
+[82] 5.16 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[83] 5.17 [Claims]
+On the occurrence of any loss, the main objective is to establish whether the event causing the loss will be a peril covered by the policy, which will then determine whether the loss is recoverable from the insurer.
+
+[84] 5.18 [Claims]
+There are basically two types of losses that occur under a Marine Hull Insurance policy, namely partial loss and total loss, as described below.
+
+[85] 5.19 [Total Loss]
+For total loss, this is sub-divided into “Actual Total Loss” and “Constructive Total Loss” as described below. (a) Actual Total Loss There is an actual total loss when the subject matter insured, e.g. the hull itself, is
+
+[86] 5.20 [Partial Loss]
+Partial loss, or particular average, means any loss that is not a total loss. An example of a partial loss is a ship being damaged by an insured peril and needs to be repaired. This could include damage following a colli
+
+[87] 5.21 [Sue & Labour Charges]
+Similar to a Marine Cargo Insurance policy, whenever a claim arises, the insured has the responsibility to take reasonable measures to minimise or avert a loss or prevent further losses and/or damage.
+
+[88] 5.22 [Sue & Labour Charges]
+Where expenses are incurred by the insured with a view to averting or minimising a loss recoverable under the policy, such expenses are known as Sue and Labour Charges. The insured derives his right to recover these char
+
+[89] 6.1 [What Is Builders’ Risks Insurance?]
+A Boat or Ship builder may suffer loss of or damage to the hull and machinery of vessels, which it is constructing (including materials in its possession), from a wide variety of causes.
+
+[90] 6.2 [What Is Builders’ Risks Insurance?]
+Builders’ Risks Insurance is available for vessels in the course of construction, as well as for single risks or as an open cover.
+
+[91] 6.3 [What Is Builders’ Risks Insurance?]
+Subject to the exclusions detailed in the insurer’s policy wording, Builders’ Risks Insurance is typically against all risks of loss of or damage to the subject matter insured caused and discovered during the period of i
+
+[92] 6.4 [What Is Builders’ Risks Insurance?]
+Builders’ Risks Insurance policy also covers loss of or damage to the subject matter insured caused and discovered during the period of insurance arising from faulty design of any part or parts thereof, but not including
+
+[93] 6.5 [What Is Builders’ Risks Insurance?]
+Other items that are specifically covered are as follows:
+▪ items at other premises in the same port (once allocated);
+▪ sea trials (up to 250 miles or 402 km);
+▪ launching failure;
+▪ protection and indemnity;
+▪ collisio
+
+[94] 6.6 [Principal Exclusions]
+The following risks are principally excluded under a Builder’s Risks Insurance:
+▪ earthquake (but it is quite common to see this exclusion deleted by agreement);
+▪ volcanic eruption;
+▪ cost of renewing faulty welds;
+▪ li
+
+[95] 6.7 [Underwriting Information Required]
+Insurers will normally require the following information for underwriting:
+▪ estimated contract value;
+▪ estimated period of construction;
+▪ type of vessel being constructed;
+▪ yard claims history;
+▪ deductible level;
+▪ 
+
+[96] 7.1 [What Is Marine Liabilities Insurance?]
+Marine Liabilities Insurance includes, among others:
+▪ Ship Repairer’s Liability Insurance;
+▪ Charterers’ Liability Insurance;
+▪ Port Authorities Liability Insurance;
+▪ Stevedore Liability Insurance; and
+▪ Terminal Opera
+
+[97] 7.2 [What Is Marine Liabilities Insurance?]
+In addition to those, there are certain Marine Liabilities covers that can be obtained from Protection and Indemnity Clubs, commonly known as P&I Clubs. These include a wide range of ShipOwner’s Liability covers, such as
+
+[98] 7.3 [What Is Marine Liabilities Insurance?]
+In this section, we will give an overview of the more common types of Marine Liability covers in a local context, namely Ship Repairer’s Liability Insurance, Charterers’ Liability Insurance, Port Authorities Liability In
+
+[99] 7.4 [Ship Repairer’s Liability Insurance]
+The term “Ship Repairing” covers an area of activity extending from “wash and brush ups” to major conversions. Regardless of the size of their operations, ship repairers have similar basic responsibilities and incur simi
+
+[100] 7.5 [Scope Of Cover]
+A Ship Repairer’s Liability Insurance policy covers:
+▪ vessels which are in the care, custody or control of the ship repairer for the purpose of being worked upon against the risks of fire damage, explosion, contact dama
+
+[101] 7.6 [Underwriting Information Required]
+The general underwriting information to be obtained is as follows:
+▪ number, type, tonnage, etc. of vessels handled per annum;
+▪ gross receipts and/or payroll per annum;
+▪ number of employees;
+▪ whether reconstruction of
+
+[102] 7.7 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[103] 7.8 [Charterers’ Liability Insurance]
+Chartering is the usual method of arranging sea transport for large volumes of bulk commodities, where an entire vessel is chartered to carry a particular cargo shipment.
+
+[104] 7.9 [Charterers’ Liability Insurance]
+A Charterers’ Liability Insurance policy is designed to protect charterers of vessels against various legal and contractual liabilities which can arise from their obligations under a Charter Party (i.e. a contract betwee
+
+[105] 7.10 [Charterers’ Liability Insurance]
+A Charterers’ Liability Insurance policy is not an all-embracing guarantee cover, in the sense, that it does not cover financial/commercial trading risks and also does not cover contractual liabilities, other than in rel
+
+[106] 7.11 [Scope Of Cover]
+Charterer’s Liability Insurance provides protection in respect of three main areas of liability exposure, namely:
+▪ damage to the vessel which can arise in various ways, e.g. from an unsafe or foul berth, from stevedorin
+
+[107] 7.12 [Scope Of Cover]
+Damage to vessel and liability to third parties other than cargo owners are usually the basic covers as provided, whereas cover for damage to cargo is usually issued as an extension with the payment of extra premium.
+
+[108] 7.13 [Underwriting Information Required]
+The general underwriting information to be obtained is as follows:
+▪ name of vessel(s);
+▪ limit of liability required;
+▪ whether the charter is only for a single voyage, or for a period of time;
+▪ period of charter;
+▪ nu
+
+[109] 7.14 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[110] 7.15 [Port Authorities Liability Insurance]
+Port authorities around the world are constituted in a variety of ways. Therefore, the facilities provided, and the responsibilities of any individual port authority will vary widely, depending on the type of port in que
+
+[111] 7.16 [Port Authorities Liability Insurance]
+The insurance requirements of a port authority controlling a small fishing harbour will obviously differ from a port authority controlling a large commercial harbour.
+
+[112] 7.17 [Port Authorities Liability Insurance]
+A Port Authorities Liability Insurance policy, which covers the responsibilities and risk exposure of a port authority, is mainly arranged by general insurance brokers.
+
+[113] 7.18 [Scope Of Cover]
+A Port Authorities Liability Insurance policy covers:
+▪ vessels, regardless of whether they are owned by, chartered or operated by the Port Authority, against risk of physical damage;
+▪ property at risk on an “All Risk” 
+
+[114] 7.19 [Underwriting Information Required]
+The general underwriting information to be obtained is as follows:
+▪ name and address of port authority;
+▪ location of all ports within the port authority’s area of control;
+▪ plans showing details of port authority’s ar
+
+[115] 7.20 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[116] 7.21 [Stevedores’ Liability Insurance]
+A stevedores’ primary activity is the loading and unloading of vessels.
+
+[117] 7.22 [Stevedores’ Liability Insurance]
+Therefore, Stevedores’ Liability Insurance covers against legal liabilities incurred for damage caused to vessels, to cargo being handled, to property (buildings, wharves, etc.) or for third-party death or injury.
+
+[118] 7.23 [Stevedores’ Liability Insurance]
+The scope of cover includes indemnification against the legal liabilities and legal defence costs which stevedores may incur as arising out of their cargo handling activities.
+
+[119] 7.24 [Stevedores’ Liability Insurance]
+Therefore, Stevedores' Liability Insurance includes cover for liability as a result of:
+▪ cargo lost, damaged, misdirected, delayed or wrongfully delivered;
+▪ ship lost or damaged;
+▪ third-party property damaged; and
+▪ l
+
+[120] 7.25 [Underwriting Information Required]
+The information required by the insurer is as follows:
+▪ nature of services provided to customers;
+▪ professional qualifications or number of years experience of insured’s directors, partners or senior managers;
+▪ number
+
+[121] 8.1 [Scope of Coverage]
+In the Oil and Gas industry, there are three main activity categories:
+▪ Upstream activities (prospecting, exploration, development and extracting/production)
+▪ Midstream activities (transport from offshore field to mari
+
+[122] 8.2 [Scope of Coverage]
+Energy Insurance serves to protect upstream, midstream and downstream organizations cum operations against certain risks. These risks include equipment damage, rig physical damage, business interruption, loss of producti
+
+[123] 8.3 [Underwriting Information Required]
+The type of underwriting information required by insurers depends on the nature of the organisation cum operation involved as well as the types of risk coverage being sought.
+
+[124] 8.4 [Underwriting Information Required]
+Taking Offshore Physical Damage as an example, insurers will require the following information such as ownership / loyalty, record, type of unit, value and age etc.
+
+[125] 8.5 [Underwriting Information Required]
+If Contingent Business Interruption cover is required, insurers will wish to know the level of inter-dependence between insured items / units, probability of a total loss to the policy caused by a partial damage to one i
+
+[126] 8.6 [Underwriting Information Required]
+So, what are the main differences between marine and energy insurance? Energy Insurance involves covering risks of drilling into unknown underground conditions and high-risk operations. The insured objects are stationary
+
+[127] 9.1 [Aviation Insurance]
+Aviation Insurance is insurance coverage tailored to the operation of aircraft and the risks involved in aviation. In the aviation market, there is a wide range of insurance coverage available to meet different needs of 
+
+[128] 9.2 [Aircraft Hull And Liability Insurance]
+The main aim of hull and liability insurance is to cover physical damage or loss to the insured aircraft in addition to liabilities arising in respect of third parties, passengers and their baggage.
+
+[129] 9.3 [Aviation Product Liability]
+This type of policy covers liability for any loss, damage or injury to third parties caused by the aircraft or any part thereof, usually resulting from a faulty design or defective materials.
+
+[130] 9.4 [Airport Owners’ And Operators’ Liability]
+This cover is required by airport operators. The cover under this policy is divided into three sections:
+▪ Section 1 Airport premises liability;
+▪ Section 2 Hangar keeper’s liability; and
+▪ Section 3 Product liability.
+
+[131] 9.5 [War And Allied Risks]
+A war policy covers war and allied risks excluded under the Hull and Liability Policy.
+

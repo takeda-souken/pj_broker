@@ -1,0 +1,247 @@
+[0] 1.1 [Introduction]
+The word “Pecuniary” means “relating to money and pecuniary insurance covers businesses against purely financial losses (e.g. from fraud, legal expenses or business interruption) rather than physical damage to property”.
+
+[1] 2.1 [What Is Fidelity Guarantee Insurance?]
+The word “fidelity”, in its simplest meaning, implies “faithful or loyal performance of a duty”. A lack of fidelity, resulting from dishonesty or disloyalty of employee(s), can be insured against. Insurers use the term “
+
+[2] 2.2 [The Need For Fidelity Guarantee Insurance]
+Employers should consider FG Insurance to guard against any potential exposure to financial loss arising from fraud or dishonest acts committed by their employees. These losses can be potentially huge. Even with the most
+
+[3] 2.3 [Parties To The Contract]
+A FG Insurance policy involves three parties, namely:
+▪ the insurer;
+▪ the insured (the employer); and
+▪ the insured person (the employee).
+
+[4] 2.4 [Scope Of Cover]
+The majority of FG Insurance policies are issued to commercial firms to indemnify the employer (known as the insured under the policy) against direct pecuniary loss that the employer may sustain through acts of dishonest
+
+[5] 2.5 [Scope Of Cover]
+Such acts must have been committed during:
+▪ the period of insurance;
+▪ the uninterrupted continuance of the employment of the defaulting employee; and
+▪ must be in connection with the occupation and duties of the employ
+
+[6] 2.6 [Scope Of Cover]
+In addition, the insurer is not liable, unless such acts are discovered during the “discovery period”. There is no standard definition for “discovery period”, but obviously, it includes discovery during the period of ins
+
+[7] 2.7 [Scope Of Cover]
+The policy will also usually state that, upon discovery of the default/loss, the insured must promptly notify the insurer. The insurer will not be liable for any claim if the loss is not reported within 12 months of disc
+
+[8] 2.8 [Types Of Fidelity Guarantee Insurance Policies]
+As described in Table 7.1 below, there are four forms of FG Insurance policies available in the insurance market. Table 7.1: FG Insurance Policies In Insurance Market Policy Type Description (a) Individual Policy This ty
+
+[9] 2.9 [Period Of Cover]
+This has already been discussed in the above section – the policy operates during the period of insurance (usually 12 months), and for any acts of dishonesty or fraud discovered during the “discovery period”.
+
+[10] 2.10 [Deduction From Loss]
+The employer is obliged to retain money which it may legally control belonging to the defaulting employee (e.g. wages), and such amounts shall be deducted from any amounts payable by the insurer under the policy. This co
+
+[11] 2.11 [Deduction From Loss]
+Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies are in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insu
+
+[12] 2.12 [Underwriting Information Required]
+The customarily required underwriting information is described below.
+
+[13] 2.13 [Employer’s Business]
+The policy pays for loss of cash and stock, the potential risks are associated with the incidence of cash-handling and the value of stock. The larger the amount of cash circulating within the business premises, the great
+
+[14] 2.14 [Classification Of Employees]
+Since the rate varies directly with the loss potential, classification of the employees is essential, as jobs which require frequent cash-handling are of higher risk as compared to other jobs which do not.
+
+[15] 2.15 [Classification Of Employees]
+In practice, one may find the following classification: CLASSIFICATION OF EMPLOYEES Class 1 Not directly involved in the handling of cash or in the immediate control of stock. Class 2 Considerable involvement with cash a
+
+[16] 2.16 [Level Of Indemnity]
+The common type of cover provides for a limit on any employee, but the premium does not increase proportionately as a higher limit is insured. In fact, the premium rate decreases as the limit is increased, since there is
+
+[17] 2.17 [Claims Experience]
+An insured’s claims experience will have an impact on the amount of guarantee and the type of FG Insurance policy chosen.
+
+[18] 2.18 [Claims Experience]
+Note that the underwriter may ask for additional information, and the details of the information requested may differ from insurer to insurer.
+
+[19] 2.19 [Exclusions]
+The common exclusions under a FG Insurance policy are as follows:
+▪ the first amount of loss shown in the schedule of the policy as the excess in respect of any one claim;
+▪ if the nature of the business of the insured i
+
+[20] 2.20 [Exclusions]
+Note that the exclusions of a FG Insurance policy may vary from insurer to insurer.
+
+[21] 2.21 [Extensions]
+Optional extensions vary from insurer to insurer. The list below identifies some of the common ones available as extensions to the basic cover. (a) Auditors’ Fees An auditor may be engaged to substantiate the amount of l
+
+[22] 2.22 [Claims]
+On discovery of any act of default or circumstance which may give rise to a claim, the insured must:
+▪ give immediate notice to the insurer on the extent and circumstances of the loss, together with the name of the emplo
+
+[23] 2.23 [Claims]
+In addition, the insured must permit the insurer to enquire into, investigate, and examine the circumstances of the claim. Some insurers also stipulate as a policy condition that the insured needs to take all steps to ob
+
+[24] 2.24 [Crime Insurance]
+Regardless of size, all organisations are vulnerable to workplace fraud. Fraud can take many forms, including embezzlement, forgery, theft of inventory and other assets, and computer crime. Often, these fraud acts can co
+
+[25] 2.25 [Crime Insurance]
+Besides the traditional FG Insurance as described above, certain insurers now offer a wider form of coverage known as Crime Insurance. Crime Insurance can protect the assets (both financial and non-financial) of an organ
+
+[26] 2.26 [Crime Insurance]
+The Crime Insurance policy can provide coverage such as the following: (a) Employee Theft: Loss of money, securities and other property caused by theft or forgery by an employee; (b) Premises Cover: Loss sustained owing 
+
+[27] 2.27 [Crime Insurance]
+The table below summarises some of the differences between FG Insurance and Crime Insurance. Fidelity Guarantee Insurance Crime Insurance Covers "act" of theft. Covers "conduct" of fraud and dishonesty. The onus is on th
+
+[28] 2.28 [Crime Insurance]
+However, the underwriting information required by the insurer of Crime Insurance is far more extensive than that of FG Insurance. Specific underwriting information required for Crime Insurance includes details of human r
+
+[29] 2.29 [Crime Insurance]
+In addition, the insurer of Crime Insurance requires the intending insured (proposer) to furnish the following certified documents:
+▪ a copy of the internal auditors’ audit plan for the current year;
+▪ a copy of the most
+
+[30] 2.30 [Crime Insurance]
+The insurer can possibly undertake an investigation and inquiry in connection with the completed proposal form that it deems necessary to do so.
+
+[31] 3.1 [What Is Money Insurance?]
+Money Insurance is an important class of Pecuniary Insurance. As its name implies, it is an insurance for “money”. The definition of “money” in this context includes cash, bank and currency notes, cheques, bank drafts, m
+
+[32] 3.2 [The Need For Money Insurance]
+Certain trades handle large volumes of cash transactions, such as money changers, retailers and departmental stores, or store money in various places, such as in the business premises or during transit to or from a bank.
+
+[33] 3.3 [Scope Of Cover]
+Money Insurance is an “All Risks” cover which covers the insured against loss or destruction of or damage to money while:
+▪ in transit in the personal custody of the insured and/or persons authorised by the insured betwe
+
+[34] 3.4 [Scope Of Cover]
+However, for each of the covers, the insurer is liable only up to the amount stated in the schedule of the policy as the limit of liability for any one loss or occurrence.
+
+[35] 3.5 [Period Of Cover]
+Money Insurance policies provide coverage for loss of money which occurs during the period of insurance (usually 12 months).
+
+[36] 3.6 [Policy Provisions & Conditions]
+Some of the common provisions and conditions which are specific to a Money Insurance policy are described below. (a) Reasonable Precautions The insured must act as if uninsured i.e. take all due precautions for the safet
+
+[37] 3.7 [Policy Provisions & Conditions]
+Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies is in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insur
+
+[38] 3.8 [Underwriting Information Required]
+The general underwriting information to be obtained is as follows:
+▪ the amount of money in transit annually and at any one time;
+▪ the method of transporting money (e.g. the use of auxiliary police or security guards);
+
+
+[39] 3.9 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[40] 3.10 [Exclusions]
+Other than the usual exclusions that relate to strike, riot, civil commotion, war and nuclear risks, the common exclusions specific to this class of insurance are as follows:
+▪ loss from an unattended vehicle;
+▪ shortage
+
+[41] 3.11 [Exclusions]
+Note that the exclusions of a Money Insurance policy may vary from insurer to insurer.
+
+[42] 3.12 [Extensions]
+Some common extensions specific to the policy cover are described below. (a) Loss From Locked Vehicles This will be subject to a specified limit. (b) Loss Of Insured’s Money Within The Private Residence Of Employees A su
+
+[43] 3.13 [Claims]
+On discovery of any event which may give rise to a claim under this policy, the insured must:
+▪ give immediate notice to the police and the insurer;
+▪ take all practical steps to discover any guilty person and recover th
+
+[44] 4.1 [What Is Credit Insurance?]
+Credit is the system of buying or selling of goods or services, without immediate payment being made. It is a practice, whereby the purchaser receives the goods or accepts the service, in return for his promise that paym
+
+[45] 4.2 [What Is Credit Insurance?]
+Credit Insurance provides cover to companies or corporations in the event of default in payments by their customers or buyers for the goods or services provided.
+
+[46] 4.3 [The Need For Credit Insurance]
+Credit Insurance deals with the risk to sellers and businesses of non-payment by their buyers and customers. This is to say that, when the time comes for payment to be made, the buyer may be unable to pay. By means of th
+
+[47] 4.4 [Parties To The Contract]
+A Credit Insurance involves two parties, namely:
+▪ the insurer; and
+▪ the insured (the “seller” of the goods or services).
+
+[48] 4.5 [Types Of Credit Insurance Policies]
+There are different types of policies offered by the insurer. The type of policy offered to the insured will depend on the requirements of the insured.
+
+[49] 4.6 [Comprehensive Policy]
+The most common form of Credit Insurance is the Comprehensive policy which generally provides cover on the total business portfolio of the insured. However, exclusion of covers, such as related companies’ sales and cash 
+
+[50] 4.7 [Comprehensive Policy]
+The Comprehensive policy provides credit cover for the insured on his exports (i.e. transactions made with an overseas buyer), as well as his domestic sales (i.e. transactions made with a buyer in Singapore). However, th
+
+[51] 4.8 [Comprehensive Policy]
+The Comprehensive policy covers short-term credit risks of up to 180 days and this is suitable for goods which are sold on a repetitive basis. The other common short-term policies which are available for manufacturers an
+
+[52] 4.9 [Domestic Credit Policy]
+This type of cover is issued to insure credit sales made between a Singapore manufacturer/retailer and his local buyers. The Domestic Credit Insurance insures against the buyer’s insolvency and payment default.
+
+[53] 4.10 [Contracts Policy]
+This type of policy provides coverage against pre-shipment risk of the insured who manufactures goods that are custom-made. The Contracts policy provides indemnity to the insured on the “loss” incurred, in the event that
+
+[54] 4.11 [Annual Aggregate Deductible Policy]
+This policy is usually recommended to large companies, which have its own internal credit management and control. The insured will take a pre-approved amount as an “Annual Aggregate Deductible” for the policy. For exampl
+
+[55] 4.12 [Specific Policy]
+The Specific policy is offered to the insured who sells semi-capital goods with credit terms of one to two years' credit. As its name implies, the Specific policy provides special terms of cover relating to a specific co
+
+[56] 4.13 [Scope Of Cover]
+Most of the Credit Insurance policies provide cover for both commercial and political risks. However, for the short-term transactions, the insured can also request for insurance cover on commercial risks only, if the ins
+
+[57] 4.14 [Scope Of Cover]
+Except for the Domestic Credit Insurance policy, commercial and political risks cover is available under the Comprehensive policy, Contracts policy and Specific policy. Commercial risks relate to the risks of the buyer, 
+
+[58] 4.15 [Scope Of Cover]
+Most Credit Insurance policies do not provide full indemnity. The insured indemnity in general is up to 90% only. The insurer may also reduce the insured indemnity if the insured wants to take a higher retention.
+
+[59] 4.16 [Period Of Cover]
+The period of cover for a Credit Insurance policy is 12 months for the short-term policies, and cover can be renewed or terminated by written notice given to either the insurer or the insured. The period of cover for the
+
+[60] 4.17 [Policy Provisions & Conditions]
+Some of the common provisions and conditions which are specific to a Credit Insurance policy are that the insured is required to:
+▪ exercise reasonable care and prudence in managing the insured risks;
+▪ comply with the t
+
+[61] 4.18 [Policy Provisions & Conditions]
+Note that a detailed discussion on the policy provisions and conditions common to most general insurance policies is in the “Basic Insurance Concepts & Principles” Study Guide, published by the Singapore College of Insur
+
+[62] 4.19 [Underwriting Information Required]
+The customarily required underwriting information is as follows:
+▪ sales turnover;
+▪ countries to be included within insurance coverage;
+▪ credit period offered to buyers;
+▪ profiles of his buyers;
+▪ company’s credit man
+
+[63] 4.20 [Underwriting Information Required]
+Note that the underwriter may require additional information, and the details of the required information may differ from insurer to insurer.
+
+[64] 4.21 [Exclusions]
+Some exclusions specific to this class of insurance are as follows:
+▪ the insured’s failure to comply with the laws and regulations in force in the buyer’s country;
+▪ the insured’s failure or the failure of the insured’s
+
+[65] 4.22 [Exclusions]
+Note that the exclusions of a Credit Insurance policy may vary from insurer to insurer.
+
+[66] 4.23 [Claim Procedure & Documentation]
+The insured is required under the terms of the policy to notify the insurer of any non-payment by his buyer, and take all necessary steps to minimise loss and recover the outstanding debts, including (if necessary) the i
+
+[67] 4.24 [Claim Procedure & Documentation]
+The insured is required to submit details of the outstanding debt (by completing a Claim Form) together with all necessary supporting documents to file his claim. Under the terms of the policy, all valid claims will be p
+
+[68] 5.1 [Scope of coverage]
+Credit Insurance covers non-payment for goods or services. Political Risks Insurance (PRI) covers this as well but also covers the destruction of physical assets.
+
+[69] 5.2 [Scope of coverage]
+PRI can cover the following situation: A company may invest overseas by establishing companies involved in items such as infrastructure, manufacturing facilities, pipelines, power stations etc. There could be investments
+
+[70] 5.3 [Scope of coverage]
+Another situation is where a company has physical assets, equipment, contractors’ plant, construction equipment, consignment stocks held abroad. PRI covers such assets against:
+▪ Confiscation, expropriation, nationalisat
+
+[71] 5.4 [Underwriting Information]
+Insurers require information such as details of the applicant, project details, asset details, project financial structure, loss history, applicant’s relations with host government etc.
+
