@@ -207,7 +207,7 @@
               "id": "ch1-s2-F",
               "label": "F",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.13",
@@ -279,7 +279,7 @@
               "id": "ch1-s2-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "2.21",
@@ -449,7 +449,7 @@
               "id": "ch1-s3-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "3.18",
@@ -467,7 +467,7 @@
               "id": "ch1-s3-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "3.20",
@@ -503,7 +503,7 @@
               "id": "ch1-s3-J",
               "label": "J",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "3.24",
@@ -623,7 +623,7 @@
               "id": "ch1-s4-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.10",
@@ -641,7 +641,7 @@
               "id": "ch1-s4-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "4.12",
@@ -659,7 +659,7 @@
               "id": "ch1-s4-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "4.14",
@@ -784,7 +784,7 @@
               "id": "ch1-s5-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "5.12",
@@ -802,7 +802,7 @@
               "id": "ch1-s5-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "5.14",
@@ -815,7 +815,7 @@
               "id": "ch1-s5-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "5.15",
@@ -945,7 +945,7 @@
               "id": "ch1-s6-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "6.13",
@@ -968,7 +968,7 @@
               "id": "ch1-s6-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "6.16",
@@ -1065,7 +1065,7 @@
               "id": "ch1-s8-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "8.8",
@@ -1101,7 +1101,7 @@
               "id": "ch1-s8-E",
               "label": "E",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "",
@@ -1805,7 +1805,7 @@
           "id": "ch2-s11",
           "number": "11",
           "title": "Exclusions",
-          "titleJP": "免責事由",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "11.1",
@@ -1858,7 +1858,7 @@
           "id": "ch2-s12",
           "number": "12",
           "title": "Extensions",
-          "titleJP": "特約拡張",
+          "titleJP": "拡張担保",
           "paragraphs": [
             {
               "num": "12.1",
@@ -1993,7 +1993,7 @@
           "id": "ch2-s14",
           "number": "14",
           "title": "Claims",
-          "titleJP": "保険金請求",
+          "titleJP": "請求",
           "paragraphs": [
             {
               "num": "14.1",
@@ -2252,7 +2252,7 @@
               "id": "ch3-s2-A",
               "label": "A",
               "title": "Employer’s Legal Liability Towards His Employees",
-              "titleJP": "",
+              "titleJP": "Employer’s Legal Liability Towards His Employees",
               "paragraphs": [
                 {
                   "num": "2.15",
@@ -2563,7 +2563,7 @@
               "id": "ch3-s2-D3",
               "label": "D3",
               "title": "Insured’s Duty To Ensure Safety At The Workplace",
-              "titleJP": "",
+              "titleJP": "Insured’s Duty To Ensure Safety At The Workplace",
               "paragraphs": [
                 {
                   "num": "2.58",
@@ -2722,7 +2722,7 @@
               "id": "ch3-s2-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.77",
@@ -2763,7 +2763,7 @@
               "id": "ch3-s2-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "2.82",
@@ -2972,7 +2972,7 @@
               "id": "ch3-s3-B5",
               "label": "B5",
               "title": "Insurer’s Access To The Premises",
-              "titleJP": "",
+              "titleJP": "Insurer’s Access To The Premises",
               "paragraphs": [
                 {
                   "num": "3.15",
@@ -2985,7 +2985,7 @@
               "id": "ch3-s3-B6",
               "label": "B6",
               "title": "Insured Not To Commit Without The Insurer’s Consent",
-              "titleJP": "",
+              "titleJP": "Insured Not To Commit Without The Insurer’s Consent",
               "paragraphs": [
                 {
                   "num": "3.16",
@@ -3034,7 +3034,7 @@
               "id": "ch3-s3-D",
               "label": "D",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "3.21",
@@ -3052,7 +3052,7 @@
               "id": "ch3-s3-E",
               "label": "E",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "3.23",
@@ -3070,7 +3070,7 @@
               "id": "ch3-s3-F",
               "label": "F",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "3.25",
@@ -3245,7 +3245,7 @@
               "id": "ch3-s4-D",
               "label": "D",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.12",
@@ -3263,7 +3263,7 @@
               "id": "ch3-s4-E",
               "label": "E",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "4.14",
@@ -3281,7 +3281,7 @@
               "id": "ch3-s4-F",
               "label": "F",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "4.16",
@@ -3402,7 +3402,7 @@
               "id": "ch3-s2-D",
               "label": "D",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.12",
@@ -3415,7 +3415,7 @@
               "id": "ch3-s2-E",
               "label": "E",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "2.13",
@@ -3428,7 +3428,7 @@
               "id": "ch3-s2-F",
               "label": "F",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "2.14",
@@ -3557,7 +3557,7 @@
               "id": "ch3-s6-B",
               "label": "B",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "6.5",
@@ -3774,7 +3774,7 @@
               "id": "ch3-s10-B",
               "label": "B",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "10.6",
@@ -3792,7 +3792,7 @@
               "id": "ch3-s10-C",
               "label": "C",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "10.8",
@@ -3992,7 +3992,7 @@
           "id": "ch4-s3",
           "number": "3",
           "title": "Commercial Motor Insurance Documents",
-          "titleJP": "",
+          "titleJP": "Commercial Motor 保険 Documents",
           "paragraphs": [],
           "subsections": [
             {
@@ -4462,7 +4462,7 @@
               "id": "ch4-s5-F",
               "label": "F",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "5.35",
@@ -4710,7 +4710,7 @@
               "id": "ch4-s7-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "7.19",
@@ -4725,7 +4725,7 @@
           "id": "ch4-s8",
           "number": "8",
           "title": "Motor Fleet Insurance",
-          "titleJP": "",
+          "titleJP": "Motor Fleet 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -4813,7 +4813,7 @@
           "id": "ch4-s9",
           "number": "9",
           "title": "Motor Trade Insurance",
-          "titleJP": "",
+          "titleJP": "Motor Trade 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -4846,7 +4846,7 @@
               "id": "ch4-s9-C",
               "label": "C",
               "title": "Motor Trade (Road Risks) Insurance",
-              "titleJP": "",
+              "titleJP": "Motor Trade (Road Risks) 保険",
               "paragraphs": []
             },
             {
@@ -4871,7 +4871,7 @@
               "id": "ch4-s9-C2",
               "label": "C2",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "9.5",
@@ -4884,7 +4884,7 @@
               "id": "ch4-s9-C3",
               "label": "C3",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "9.6",
@@ -4897,7 +4897,7 @@
               "id": "ch4-s9-D",
               "label": "D",
               "title": "Motor Trade (Internal Risks) Insurance",
-              "titleJP": "",
+              "titleJP": "Motor Trade (Internal Risks) 保険",
               "paragraphs": []
             },
             {
@@ -4917,7 +4917,7 @@
               "id": "ch4-s9-D2",
               "label": "D2",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "9.8",
@@ -5163,7 +5163,7 @@
           "id": "ch5-s4",
           "number": "4",
           "title": "Marine Cargo Insurance",
-          "titleJP": "",
+          "titleJP": "Marine Cargo 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -5302,7 +5302,7 @@
               "id": "ch5-s4-D2",
               "label": "D2",
               "title": "Institute Cargo Clauses A (ICC A) 1.1.2009",
-              "titleJP": "協会貨物約款A（ICC A）2009年1月1日",
+              "titleJP": "協会貨物約款（ICC ）2009年1月1日",
               "paragraphs": [
                 {
                   "num": "4.18",
@@ -5496,7 +5496,7 @@
               "id": "ch5-s4-H1",
               "label": "H1",
               "title": "Background Of The Intending Insured",
-              "titleJP": "",
+              "titleJP": "Background Of The Intending Insured",
               "paragraphs": [
                 {
                   "num": "",
@@ -5527,7 +5527,7 @@
               "id": "ch5-s4-H3",
               "label": "H3",
               "title": "Details Of Packaging",
-              "titleJP": "",
+              "titleJP": "Details Of Packaging",
               "paragraphs": [
                 {
                   "num": "",
@@ -5540,7 +5540,7 @@
               "id": "ch5-s4-H4",
               "label": "H4",
               "title": "Details Of The Carrying Vessel",
-              "titleJP": "",
+              "titleJP": "Details Of The Carrying Vessel",
               "paragraphs": [
                 {
                   "num": "",
@@ -5553,7 +5553,7 @@
               "id": "ch5-s4-H5",
               "label": "H5",
               "title": "Voyage Contemplated",
-              "titleJP": "",
+              "titleJP": "Voyage Contemplated",
               "paragraphs": [
                 {
                   "num": "",
@@ -5584,7 +5584,7 @@
               "id": "ch5-s4-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "4.45",
@@ -5622,7 +5622,7 @@
           "id": "ch5-s5",
           "number": "5",
           "title": "Marine Hull Insurance",
-          "titleJP": "",
+          "titleJP": "Marine Hull 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -5757,7 +5757,7 @@
               "id": "ch5-s5-G",
               "label": "G",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "5.17",
@@ -5819,7 +5819,7 @@
               "id": "ch5-s5-A",
               "label": "A",
               "title": "What Is Builders’ Risks Insurance?",
-              "titleJP": "",
+              "titleJP": "Builders’ Risks 保険とは？",
               "paragraphs": [
                 {
                   "num": "6.1",
@@ -5880,7 +5880,7 @@
           "id": "ch5-s7",
           "number": "7",
           "title": "Marine Liabilities Insurance",
-          "titleJP": "",
+          "titleJP": "Marine Liabilities 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -5910,7 +5910,7 @@
               "id": "ch5-s7-B",
               "label": "B",
               "title": "Ship Repairer’s Liability Insurance",
-              "titleJP": "",
+              "titleJP": "Ship Repairer’s Liability 保険",
               "paragraphs": [
                 {
                   "num": "7.4",
@@ -5954,7 +5954,7 @@
               "id": "ch5-s7-C",
               "label": "C",
               "title": "Charterers’ Liability Insurance",
-              "titleJP": "",
+              "titleJP": "Charterers’ Liability 保険",
               "paragraphs": [
                 {
                   "num": "7.8",
@@ -6067,7 +6067,7 @@
               "id": "ch5-s7-E",
               "label": "E",
               "title": "Stevedores’ Liability Insurance",
-              "titleJP": "",
+              "titleJP": "Stevedores’ Liability 保険",
               "paragraphs": [
                 {
                   "num": "7.21",
@@ -6110,7 +6110,7 @@
           "id": "ch5-s8",
           "number": "8",
           "title": "Energy Insurance",
-          "titleJP": "",
+          "titleJP": "Energy 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -6178,7 +6178,7 @@
               "id": "ch5-s9-A",
               "label": "A",
               "title": "Main Lines Of Business",
-              "titleJP": "",
+              "titleJP": "Main Lines Of Business",
               "paragraphs": []
             },
             {
@@ -6211,7 +6211,7 @@
               "id": "ch5-s9-A3",
               "label": "A3",
               "title": "Airport Owners’ And Operators’ Liability",
-              "titleJP": "",
+              "titleJP": "Airport Owners’ And Operators’ Liability",
               "paragraphs": [
                 {
                   "num": "9.4",
@@ -6374,7 +6374,7 @@
               "id": "ch6-s1-A",
               "label": "A",
               "title": "What Is Contractors’ All Risks (CAR) Insurance?",
-              "titleJP": "",
+              "titleJP": "Contractors’ All Risks (CAR) 保険とは？",
               "paragraphs": [
                 {
                   "num": "2.1",
@@ -6392,7 +6392,7 @@
               "id": "ch6-s1-B",
               "label": "B",
               "title": "Parties To A Contractors’ All Risks (CAR) Insurance Contract",
-              "titleJP": "",
+              "titleJP": "Parties Contractors’ All Risks (CAR) 保険 Contract",
               "paragraphs": [
                 {
                   "num": "2.3",
@@ -6420,7 +6420,7 @@
               "id": "ch6-s1-C",
               "label": "C",
               "title": "The Need For Contractors’ All Risks (CAR) Insurance",
-              "titleJP": "",
+              "titleJP": "ニーズ の Contractors’ All Risks (CAR) 保険",
               "paragraphs": [
                 {
                   "num": "2.7",
@@ -6636,7 +6636,7 @@
               "id": "ch6-s1-H1",
               "label": "H1",
               "title": "The Insured",
-              "titleJP": "",
+              "titleJP": "The Insured",
               "paragraphs": [
                 {
                   "num": "",
@@ -6649,7 +6649,7 @@
               "id": "ch6-s1-H2",
               "label": "H2",
               "title": "Basic Contract Details & Values",
-              "titleJP": "",
+              "titleJP": "Basic Contract Details & Values",
               "paragraphs": [
                 {
                   "num": "",
@@ -6662,7 +6662,7 @@
               "id": "ch6-s1-H3",
               "label": "H3",
               "title": "The Work & The Site",
-              "titleJP": "",
+              "titleJP": "The Work & The Site",
               "paragraphs": [
                 {
                   "num": "",
@@ -6762,7 +6762,7 @@
           "id": "ch6-s3",
           "number": "3",
           "title": "Erection All Risks (Ear) Insurance",
-          "titleJP": "",
+          "titleJP": "Erection All Risks (Ear) 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -6787,7 +6787,7 @@
               "id": "ch6-s3-B",
               "label": "B",
               "title": "Erection All Risks (EAR) Insurance Versus Contractors’ All Risk (CAR) Insurance",
-              "titleJP": "",
+              "titleJP": "Erection All Risks (EAR) 保険 対 Contractors’ All リスク (CAR) 保険",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -6900,7 +6900,7 @@
               "id": "ch6-s3-G",
               "label": "G",
               "title": "Extensions For Contractors’ All Risks (CAR)/Erection All Risks (EAR) Insurance",
-              "titleJP": "",
+              "titleJP": "Extensions の Contractors’ All Risks (CAR)/Erection All Risks (EAR) 保険",
               "paragraphs": [
                 {
                   "num": "3.16",
@@ -6983,7 +6983,7 @@
               "id": "ch6-s3-H",
               "label": "H",
               "title": "Contractors’ All Risks (CAR)/Erection All Risks (EAR) Insurance Claims",
-              "titleJP": "",
+              "titleJP": "Contractors’ All Risks (CAR)/Erection All Risks (EAR) 保険 Claims",
               "paragraphs": [
                 {
                   "num": "3.22",
@@ -7066,7 +7066,7 @@
           "id": "ch6-s5",
           "number": "5",
           "title": "Boiler & Pressure Vessel Insurance",
-          "titleJP": "",
+          "titleJP": "Boiler & Pressure Vessel 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -7207,7 +7207,7 @@
               "id": "ch6-s5-H",
               "label": "H",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "5.15",
@@ -7230,7 +7230,7 @@
               "id": "ch6-s5-I",
               "label": "I",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "5.18",
@@ -7248,7 +7248,7 @@
               "id": "ch6-s5-J",
               "label": "J",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "5.20",
@@ -7294,7 +7294,7 @@
           "id": "ch6-s6",
           "number": "6",
           "title": "Machinery Breakdown Insurance",
-          "titleJP": "",
+          "titleJP": "Machinery Breakdown 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -7399,7 +7399,7 @@
               "id": "ch6-s6-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "6.11",
@@ -7417,7 +7417,7 @@
               "id": "ch6-s6-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "6.13",
@@ -7468,7 +7468,7 @@
               "id": "ch6-s6-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "6.20",
@@ -7507,7 +7507,7 @@
           "id": "ch6-s8",
           "number": "8",
           "title": "Insurance Bonds",
-          "titleJP": "",
+          "titleJP": "保険 Bonds",
           "paragraphs": [],
           "subsections": [
             {
@@ -7986,7 +7986,7 @@
           "id": "ch6-s1",
           "number": "1",
           "title": "Contractor: Date:",
-          "titleJP": "",
+          "titleJP": "Contractor: Date:",
           "paragraphs": [
             {
               "num": "",
@@ -8070,7 +8070,7 @@
           "id": "ch7-s2",
           "number": "2",
           "title": "Fidelity Guarantee Insurance",
-          "titleJP": "",
+          "titleJP": "Fidelity Guarantee 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -8170,7 +8170,7 @@
               "id": "ch7-s2-G",
               "label": "G",
               "title": "Policy Provisions And Conditions",
-              "titleJP": "",
+              "titleJP": "保険証券の規定と条件",
               "paragraphs": []
             },
             {
@@ -8208,7 +8208,7 @@
               "id": "ch7-s2-H1",
               "label": "H1",
               "title": "Employer’s Business",
-              "titleJP": "",
+              "titleJP": "Employer’s Business",
               "paragraphs": [
                 {
                   "num": "2.13",
@@ -8270,7 +8270,7 @@
               "id": "ch7-s2-I",
               "label": "I",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.19",
@@ -8288,7 +8288,7 @@
               "id": "ch7-s2-J",
               "label": "J",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "2.21",
@@ -8301,7 +8301,7 @@
               "id": "ch7-s2-K",
               "label": "K",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "2.22",
@@ -8364,7 +8364,7 @@
           "id": "ch7-s3",
           "number": "3",
           "title": "Money Insurance",
-          "titleJP": "",
+          "titleJP": "Money 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -8464,7 +8464,7 @@
               "id": "ch7-s3-G",
               "label": "G",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "3.10",
@@ -8482,7 +8482,7 @@
               "id": "ch7-s3-H",
               "label": "H",
               "title": "Extensions",
-              "titleJP": "特約拡張",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "3.12",
@@ -8495,7 +8495,7 @@
               "id": "ch7-s3-I",
               "label": "I",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "3.13",
@@ -8510,7 +8510,7 @@
           "id": "ch7-s4",
           "number": "4",
           "title": "Credit Insurance",
-          "titleJP": "",
+          "titleJP": "Credit 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -8721,7 +8721,7 @@
               "id": "ch7-s4-I",
               "label": "I",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.21",
@@ -8759,7 +8759,7 @@
           "id": "ch7-s5",
           "number": "5",
           "title": "Political Risks Insurance",
-          "titleJP": "",
+          "titleJP": "Political Risks 保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -8937,7 +8937,7 @@
               "id": "ch8-s2-B",
               "label": "B",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.6",
@@ -9149,7 +9149,7 @@
           "id": "ch8-s6",
           "number": "6",
           "title": "Claims",
-          "titleJP": "保険金請求",
+          "titleJP": "請求",
           "paragraphs": [
             {
               "num": "6.1",
@@ -9167,7 +9167,7 @@
               "id": "ch8-s6-A",
               "label": "A",
               "title": "We hereby declare that all the Applicants for insurance are in good health and free from any physical defects or infirmity",
-              "titleJP": "",
+              "titleJP": "We hereby declare that all Applicants の 保険 are good 医療 と free からの any physical defects または infirmity",
               "paragraphs": [
                 {
                   "num": "",
@@ -9180,7 +9180,7 @@
               "id": "ch8-s6-B",
               "label": "B",
               "title": "We warrant that the informa􀆟on supplied on the Applica􀆟on Form are true and correct and we hereby agree that this",
-              "titleJP": "",
+              "titleJP": "We warrant that the informa􀆟on supplied on the Applica􀆟on Form are true and correct and we hereby agree that this",
               "paragraphs": [
                 {
                   "num": "",
@@ -9193,7 +9193,7 @@
               "id": "ch8-s6-C",
               "label": "C",
               "title": "We understand that this Contract shall not commence un􀆟l this proposal and the applicants named in the Insured",
-              "titleJP": "",
+              "titleJP": "We understand that this Contract shall not commence un􀆟l this proposal and the applicants named in the Insured",
               "paragraphs": [
                 {
                   "num": "",
@@ -9206,14 +9206,14 @@
               "id": "ch8-s6-D",
               "label": "D",
               "title": "We confirm that the terms as stated in this quota􀆟on and its atachments have been explained and accepted by ABC",
-              "titleJP": "",
+              "titleJP": "We confirm that the terms as stated in this quota􀆟on and its atachments have been explained and accepted by ABC",
               "paragraphs": []
             },
             {
               "id": "ch8-s6-E",
               "label": "E",
               "title": "We also confirm that the plan applied for had not been in whole or in part terminated by another insurer due to nonpayment",
-              "titleJP": "",
+              "titleJP": "We also confirm that the plan applied for had not been in whole or in part terminated by another insurer due to nonpayment",
               "paragraphs": [
                 {
                   "num": "",
@@ -9226,7 +9226,7 @@
               "id": "ch8-s6-F",
               "label": "F",
               "title": "We acknowledge, declare and agree that collec􀆟ve consent have been obtained from each of the employees/Group",
-              "titleJP": "",
+              "titleJP": "We acknowledge, declare and agree that collec􀆟ve consent have been obtained from each of the employees/Group",
               "paragraphs": [
                 {
                   "num": "",
@@ -9376,7 +9376,7 @@
           "id": "ch9-s4",
           "number": "4",
           "title": "Scope Of Cover",
-          "titleJP": "",
+          "titleJP": "補償の範囲",
           "paragraphs": [],
           "subsections": [
             {
@@ -9711,7 +9711,7 @@
           "id": "ch9-s7",
           "number": "7",
           "title": "Exclusions",
-          "titleJP": "免責事由",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "7.1",
@@ -9730,7 +9730,7 @@
           "id": "ch9-s8",
           "number": "8",
           "title": "Claims",
-          "titleJP": "保険金請求",
+          "titleJP": "請求",
           "paragraphs": [
             {
               "num": "8.1",
@@ -9769,7 +9769,7 @@
           "id": "ch9-s9",
           "number": "9",
           "title": "Corporate Travel Insurance",
-          "titleJP": "",
+          "titleJP": "Corporate 旅行 保険",
           "paragraphs": [],
           "subsections": [
             {

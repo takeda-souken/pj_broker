@@ -66,7 +66,7 @@
               "id": "ch1-s1-A",
               "label": "A",
               "title": "Healthcare 2020",
-              "titleJP": "",
+              "titleJP": "ヘルスケア2020",
               "paragraphs": [
                 {
                   "num": "3.2",
@@ -84,7 +84,7 @@
               "id": "ch1-s1-B",
               "label": "B",
               "title": "Beyond Healthcare 2020",
-              "titleJP": "",
+              "titleJP": "ヘルスケア2020以降",
               "paragraphs": [
                 {
                   "num": "3.4",
@@ -97,7 +97,7 @@
               "id": "ch1-s1-C",
               "label": "C",
               "title": "Healthier SG",
-              "titleJP": "",
+              "titleJP": "ヘルシアSG",
               "paragraphs": [
                 {
                   "num": "3.5",
@@ -130,7 +130,7 @@
               "id": "ch1-s4-A",
               "label": "A",
               "title": "Primary Healthcare Services and Facilities",
-              "titleJP": "",
+              "titleJP": "プライマリヘルスケアサービスと施設",
               "paragraphs": [
                 {
                   "num": "4.2",
@@ -158,7 +158,7 @@
               "id": "ch1-s4-B",
               "label": "B",
               "title": "Hospital Services",
-              "titleJP": "",
+              "titleJP": "病院サービス",
               "paragraphs": [
                 {
                   "num": "4.6",
@@ -191,7 +191,7 @@
               "id": "ch1-s4-C",
               "label": "C",
               "title": "Intermediate and Long-Term Care Services",
-              "titleJP": "",
+              "titleJP": "中間・長期ケアサービス",
               "paragraphs": [
                 {
                   "num": "4.11",
@@ -204,7 +204,7 @@
               "id": "ch1-s4-D",
               "label": "D",
               "title": "Other Healthcare Services",
-              "titleJP": "",
+              "titleJP": "その他の医療サービス",
               "paragraphs": [
                 {
                   "num": "",
@@ -234,7 +234,7 @@
           "id": "ch1-s5",
           "number": "5",
           "title": "Affordable Care In Singapore",
-          "titleJP": "",
+          "titleJP": "シンガポールにおける手頃な医療",
           "paragraphs": [
             {
               "num": "5.1",
@@ -352,7 +352,7 @@
               "id": "ch2-s2-A",
               "label": "A",
               "title": "What Is Medical Expense Insurance?",
-              "titleJP": "",
+              "titleJP": "医療費保険とは？",
               "paragraphs": [
                 {
                   "num": "2.5",
@@ -365,7 +365,7 @@
               "id": "ch2-s2-A1",
               "label": "A1",
               "title": "What Is Covered Under Medical Expense Insurance?",
-              "titleJP": "",
+              "titleJP": "医療費保険の補償対象は？",
               "paragraphs": [
                 {
                   "num": "2.6",
@@ -388,7 +388,7 @@
               "id": "ch2-s2-A2",
               "label": "A2",
               "title": "Inpatient and Outpatient Expenses",
-              "titleJP": "",
+              "titleJP": "入院費用と外来費用",
               "paragraphs": [
                 {
                   "num": "2.9",
@@ -401,7 +401,7 @@
               "id": "ch2-s2-A3",
               "label": "A3",
               "title": "Major Outpatient Treatment",
-              "titleJP": "",
+              "titleJP": "主要な外来治療",
               "paragraphs": [
                 {
                   "num": "2.10",
@@ -414,7 +414,7 @@
               "id": "ch2-s2-B",
               "label": "B",
               "title": "What Are The Limits On The Covered Expenses?",
-              "titleJP": "",
+              "titleJP": "補償対象費用の限度額は？",
               "paragraphs": [
                 {
                   "num": "2.11",
@@ -452,7 +452,7 @@
               "id": "ch2-s3-A",
               "label": "A",
               "title": "Stand-alone",
-              "titleJP": "",
+              "titleJP": "スタンドアローン",
               "paragraphs": [
                 {
                   "num": "3.2",
@@ -465,7 +465,7 @@
               "id": "ch2-s3-B",
               "label": "B",
               "title": "Choice Of Plans",
-              "titleJP": "",
+              "titleJP": "プランの選択",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -488,7 +488,7 @@
               "id": "ch2-s3-C",
               "label": "C",
               "title": "Family Coverage",
-              "titleJP": "",
+              "titleJP": "家族補償",
               "paragraphs": [
                 {
                   "num": "3.6",
@@ -506,7 +506,7 @@
               "id": "ch2-s3-D",
               "label": "D",
               "title": "Reimbursement Of Expenses",
-              "titleJP": "",
+              "titleJP": "費用の償還",
               "paragraphs": [
                 {
                   "num": "3.8",
@@ -544,7 +544,7 @@
               "id": "ch2-s3-E",
               "label": "E",
               "title": "Expense Participation",
-              "titleJP": "",
+              "titleJP": "費用参加",
               "paragraphs": [
                 {
                   "num": "3.14",
@@ -567,7 +567,7 @@
               "id": "ch2-s3-E1",
               "label": "E1",
               "title": "Deductible",
-              "titleJP": "",
+              "titleJP": "免責額",
               "paragraphs": [
                 {
                   "num": "3.17",
@@ -620,7 +620,7 @@
               "id": "ch2-s3-E2",
               "label": "E2",
               "title": "Co-insurance",
-              "titleJP": "",
+              "titleJP": "共同保険",
               "paragraphs": [
                 {
                   "num": "3.26",
@@ -638,7 +638,7 @@
               "id": "ch2-s3-E3",
               "label": "E3",
               "title": "Pro-ration Factor",
-              "titleJP": "",
+              "titleJP": "按分率",
               "paragraphs": [
                 {
                   "num": "3.28",
@@ -661,7 +661,7 @@
               "id": "ch2-s3-F",
               "label": "F",
               "title": "Benefit Limits",
-              "titleJP": "",
+              "titleJP": "給付限度額",
               "paragraphs": [
                 {
                   "num": "3.31",
@@ -694,7 +694,7 @@
               "id": "ch2-s3-G",
               "label": "G",
               "title": "Covered Charges",
-              "titleJP": "",
+              "titleJP": "補償対象費用",
               "paragraphs": [
                 {
                   "num": "3.36",
@@ -707,7 +707,7 @@
               "id": "ch2-s3-H",
               "label": "H",
               "title": "Geographical Limit",
-              "titleJP": "",
+              "titleJP": "地理的制限",
               "paragraphs": [
                 {
                   "num": "3.37",
@@ -740,7 +740,7 @@
               "id": "ch2-s3-I",
               "label": "I",
               "title": "Waiting Period",
-              "titleJP": "",
+              "titleJP": "待機期間",
               "paragraphs": [
                 {
                   "num": "3.42",
@@ -763,7 +763,7 @@
               "id": "ch2-s3-J",
               "label": "J",
               "title": "Age Limits",
-              "titleJP": "",
+              "titleJP": "年齢制限",
               "paragraphs": [
                 {
                   "num": "3.45",
@@ -776,7 +776,7 @@
               "id": "ch2-s3-K",
               "label": "K",
               "title": "Premiums",
-              "titleJP": "",
+              "titleJP": "保険料",
               "paragraphs": [
                 {
                   "num": "3.46",
@@ -794,7 +794,7 @@
               "id": "ch2-s3-L",
               "label": "L",
               "title": "Renewability",
-              "titleJP": "",
+              "titleJP": "更新可能性",
               "paragraphs": [
                 {
                   "num": "3.48",
@@ -812,7 +812,7 @@
               "id": "ch2-s3-M",
               "label": "M",
               "title": "Exclusions & Limitations",
-              "titleJP": "",
+              "titleJP": "免責事項と制限事項",
               "paragraphs": [
                 {
                   "num": "3.50",
@@ -830,7 +830,7 @@
               "id": "ch2-s3-M1",
               "label": "M1",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "3.52",
@@ -848,7 +848,7 @@
               "id": "ch2-s3-M2",
               "label": "M2",
               "title": "Limitations (Co-ordination Of Benefits)",
-              "titleJP": "",
+              "titleJP": "制限事項（給付の調整）",
               "paragraphs": [
                 {
                   "num": "3.54",
@@ -1012,7 +1012,7 @@
           "id": "ch3-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -1026,7 +1026,7 @@
           "id": "ch3-s2",
           "number": "2",
           "title": "Group Insurance",
-          "titleJP": "",
+          "titleJP": "団体保険",
           "paragraphs": [
             {
               "num": "2.1",
@@ -1050,7 +1050,7 @@
           "id": "ch3-s3",
           "number": "3",
           "title": "Group Hospital & Surgical (Ghs) Insurance",
-          "titleJP": "",
+          "titleJP": "団体入院・手術（GHS）保険",
           "paragraphs": [
             {
               "num": "3.1",
@@ -1063,7 +1063,7 @@
               "id": "ch3-s3-A",
               "label": "A",
               "title": "Compulsory & Voluntary Plans",
-              "titleJP": "",
+              "titleJP": "Compulsory & Voluntary Plans",
               "paragraphs": [
                 {
                   "num": "3.2",
@@ -1076,7 +1076,7 @@
               "id": "ch3-s3-A1",
               "label": "A1",
               "title": "Advantages Of A Compulsory (Non-Contributory) Plan",
-              "titleJP": "",
+              "titleJP": "Advantages Of A Compulsory (Non-Contributory) Plan",
               "paragraphs": [
                 {
                   "num": "",
@@ -1089,7 +1089,7 @@
               "id": "ch3-s3-A2",
               "label": "A2",
               "title": "Advantages Of A Voluntary (Contributory) Plan",
-              "titleJP": "",
+              "titleJP": "Advantages Of A Voluntary (Contributory) Plan",
               "paragraphs": [
                 {
                   "num": "",
@@ -1102,7 +1102,7 @@
               "id": "ch3-s3-B",
               "label": "B",
               "title": "Individual Versus Group Insurance",
-              "titleJP": "",
+              "titleJP": "個人保険と団体保険の比較",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -1127,7 +1127,7 @@
           "id": "ch3-s4",
           "number": "4",
           "title": "Medical Insurance Requirements For Migrant Workers",
-          "titleJP": "",
+          "titleJP": "外国人労働者の医療保険要件",
           "paragraphs": [
             {
               "num": "4.1",
@@ -1156,7 +1156,7 @@
           "id": "ch3-s5",
           "number": "5",
           "title": "Portable Medical Benefits",
-          "titleJP": "",
+          "titleJP": "ポータブル医療給付",
           "paragraphs": [
             {
               "num": "5.1",
@@ -1174,7 +1174,7 @@
               "id": "ch3-s5-A",
               "label": "A",
               "title": "Portable Medical Benefits Scheme (PMBS)",
-              "titleJP": "",
+              "titleJP": "ポータブル医療給付スキーム（PMBS）",
               "paragraphs": [
                 {
                   "num": "5.3",
@@ -1212,7 +1212,7 @@
               "id": "ch3-s5-B",
               "label": "B",
               "title": "Transferable Medical Insurance Scheme (TMIS)",
-              "titleJP": "",
+              "titleJP": "移転可能医療保険スキーム（TMIS）",
               "paragraphs": [
                 {
                   "num": "5.9",
@@ -1235,7 +1235,7 @@
               "id": "ch3-s5-B1",
               "label": "B1",
               "title": "How To Qualify For The TMIS?",
-              "titleJP": "",
+              "titleJP": "How To Qualify For The TMIS?",
               "paragraphs": [
                 {
                   "num": "5.12",
@@ -1248,7 +1248,7 @@
               "id": "ch3-s5-B2",
               "label": "B2",
               "title": "How Can The Two TMIS Features Benefit The Employees?",
-              "titleJP": "",
+              "titleJP": "How Can The Two TMIS Features Benefit The Employees?",
               "paragraphs": [
                 {
                   "num": "5.13",
@@ -1281,7 +1281,7 @@
               "id": "ch3-s5-B3",
               "label": "B3",
               "title": "What Are The Medical Expenses That Qualify Under TMIS Special Benefits?",
-              "titleJP": "",
+              "titleJP": "TMISスペシャル・ベネフィットの対象となる医療費は？",
               "paragraphs": [
                 {
                   "num": "5.18",
@@ -1299,7 +1299,7 @@
               "id": "ch3-s5-B4",
               "label": "B4",
               "title": "Who Are The Employees Eligible For TMIS Benefits?",
-              "titleJP": "",
+              "titleJP": "Who Are The Employees Eligible For TMIS Benefits?",
               "paragraphs": [
                 {
                   "num": "5.20",
@@ -1312,7 +1312,7 @@
               "id": "ch3-s5-B5",
               "label": "B5",
               "title": "How Are The Claims Paid?",
-              "titleJP": "",
+              "titleJP": "How Are The Claims Paid?",
               "paragraphs": [
                 {
                   "num": "5.21",
@@ -1330,7 +1330,7 @@
               "id": "ch3-s5-B6",
               "label": "B6",
               "title": "How Insurers Verify The Eligibility Of An Employee Under The TMIS?",
-              "titleJP": "",
+              "titleJP": "How Insurers Verify The Eligibility Of An Employee Under The TMIS?",
               "paragraphs": [
                 {
                   "num": "5.23",
@@ -1343,7 +1343,7 @@
               "id": "ch3-s5-B7",
               "label": "B7",
               "title": "Will It Cost More For A Company To Adopt The TMIS?",
-              "titleJP": "",
+              "titleJP": "Will It Cost More For A Company To Adopt The TMIS?",
               "paragraphs": [
                 {
                   "num": "5.24",
@@ -1356,7 +1356,7 @@
               "id": "ch3-s5-C",
               "label": "C",
               "title": "PMBS Versus TMIS",
-              "titleJP": "",
+              "titleJP": "PMBS Versus TMIS",
               "paragraphs": [
                 {
                   "num": "5.25",
@@ -1369,7 +1369,7 @@
               "id": "ch3-s5-D",
               "label": "D",
               "title": "Providing a Shield Plan",
-              "titleJP": "",
+              "titleJP": "Providing a Shield Plan",
               "paragraphs": [
                 {
                   "num": "5.26",
@@ -1387,7 +1387,7 @@
               "id": "ch3-s5-E",
               "label": "E",
               "title": "Ad-hoc Contributions To Employees' MediSave Accounts",
-              "titleJP": "",
+              "titleJP": "Ad-hoc Contributions To Employees' MediSave Accounts",
               "paragraphs": [
                 {
                   "num": "5.28",
@@ -1494,7 +1494,7 @@
           "id": "ch4-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -1513,7 +1513,7 @@
           "id": "ch4-s2",
           "number": "2",
           "title": "What Is Disability Income Insurance?",
-          "titleJP": "",
+          "titleJP": "障害所得保険とは？",
           "paragraphs": [
             {
               "num": "2.1",
@@ -1527,7 +1527,7 @@
           "id": "ch4-s3",
           "number": "3",
           "title": "Disability Income Insurance & Total And Permanent Disability",
-          "titleJP": "",
+          "titleJP": "障害所得保険と全部永久障害",
           "paragraphs": [
             {
               "num": "3.1",
@@ -1546,7 +1546,7 @@
           "id": "ch4-s4",
           "number": "4",
           "title": "Computation Of Disability Income Insurance Benefit",
-          "titleJP": "",
+          "titleJP": "障害所得保険給付の計算",
           "paragraphs": [
             {
               "num": "4.1",
@@ -1565,14 +1565,14 @@
           "id": "ch4-s5",
           "number": "5",
           "title": "Definitions",
-          "titleJP": "",
+          "titleJP": "定義",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s5-A",
               "label": "A",
               "title": "Total Disability",
-              "titleJP": "",
+              "titleJP": "全部障害",
               "paragraphs": [
                 {
                   "num": "5.1",
@@ -1590,7 +1590,7 @@
               "id": "ch4-s5-A1",
               "label": "A1",
               "title": "Own Occupation",
-              "titleJP": "",
+              "titleJP": "Own Occupation",
               "paragraphs": [
                 {
                   "num": "5.3",
@@ -1613,7 +1613,7 @@
               "id": "ch4-s5-A2",
               "label": "A2",
               "title": "Modified Own Occupation",
-              "titleJP": "",
+              "titleJP": "Modified Own Occupation",
               "paragraphs": [
                 {
                   "num": "5.6",
@@ -1631,7 +1631,7 @@
               "id": "ch4-s5-A3",
               "label": "A3",
               "title": "Any Occupation",
-              "titleJP": "",
+              "titleJP": "Any Occupation",
               "paragraphs": [
                 {
                   "num": "5.8",
@@ -1654,7 +1654,7 @@
               "id": "ch4-s5-A4",
               "label": "A4",
               "title": "Severe Disability",
-              "titleJP": "",
+              "titleJP": "Severe Disability",
               "paragraphs": [
                 {
                   "num": "5.11",
@@ -1672,7 +1672,7 @@
               "id": "ch4-s5-B",
               "label": "B",
               "title": "Partial Disability",
-              "titleJP": "",
+              "titleJP": "部分障害",
               "paragraphs": [
                 {
                   "num": "5.13",
@@ -1695,7 +1695,7 @@
               "id": "ch4-s5-C",
               "label": "C",
               "title": "Recurrent Disability (Linked Claims)",
-              "titleJP": "",
+              "titleJP": "再発障害（連結請求）",
               "paragraphs": [
                 {
                   "num": "5.16",
@@ -1713,7 +1713,7 @@
               "id": "ch4-s5-D",
               "label": "D",
               "title": "Benefit Period",
-              "titleJP": "",
+              "titleJP": "給付期間",
               "paragraphs": [
                 {
                   "num": "5.18",
@@ -1726,7 +1726,7 @@
               "id": "ch4-s5-E",
               "label": "E",
               "title": "Deferred/Elimination Period",
-              "titleJP": "",
+              "titleJP": "据置/待機期間",
               "paragraphs": [
                 {
                   "num": "5.19",
@@ -1751,14 +1751,14 @@
           "id": "ch4-s6",
           "number": "6",
           "title": "Benefits Offered Under Disability Income Insurance",
-          "titleJP": "",
+          "titleJP": "障害所得保険に基づく給付",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s6-A",
               "label": "A",
               "title": "Eligibility Criteria For Payment Of Disability Income Insurance Benefit",
-              "titleJP": "",
+              "titleJP": "障害所得保険給付の支払適格基準",
               "paragraphs": [
                 {
                   "num": "6.1",
@@ -1771,14 +1771,14 @@
               "id": "ch4-s6-B",
               "label": "B",
               "title": "Types Of Benefits Offered",
-              "titleJP": "",
+              "titleJP": "Types Of Benefits Offered",
               "paragraphs": []
             },
             {
               "id": "ch4-s6-B1",
               "label": "B1",
               "title": "Total Disability Benefit",
-              "titleJP": "",
+              "titleJP": "全部障害給付",
               "paragraphs": [
                 {
                   "num": "6.2",
@@ -1806,7 +1806,7 @@
               "id": "ch4-s6-B2",
               "label": "B2",
               "title": "Partial Disability Benefit",
-              "titleJP": "",
+              "titleJP": "部分障害給付",
               "paragraphs": [
                 {
                   "num": "6.6",
@@ -1829,7 +1829,7 @@
               "id": "ch4-s6-B3",
               "label": "B3",
               "title": "Rehabilitation Expense Benefit",
-              "titleJP": "",
+              "titleJP": "リハビリテーション費用給付",
               "paragraphs": [
                 {
                   "num": "6.9",
@@ -1847,7 +1847,7 @@
               "id": "ch4-s6-B4",
               "label": "B4",
               "title": "Escalation Benefit",
-              "titleJP": "",
+              "titleJP": "エスカレーション給付",
               "paragraphs": [
                 {
                   "num": "6.11",
@@ -1865,7 +1865,7 @@
               "id": "ch4-s6-B5",
               "label": "B5",
               "title": "Waiver Of Premium Benefit",
-              "titleJP": "",
+              "titleJP": "保険料免除給付",
               "paragraphs": [
                 {
                   "num": "6.13",
@@ -1878,7 +1878,7 @@
               "id": "ch4-s6-B6",
               "label": "B6",
               "title": "Death Benefit",
-              "titleJP": "",
+              "titleJP": "死亡給付",
               "paragraphs": [
                 {
                   "num": "6.14",
@@ -1891,7 +1891,7 @@
               "id": "ch4-s6-C",
               "label": "C",
               "title": "Limitation Of Disability Benefit Clause",
-              "titleJP": "",
+              "titleJP": "障害給付制限条項",
               "paragraphs": [
                 {
                   "num": "6.15",
@@ -1916,7 +1916,7 @@
           "id": "ch4-s7",
           "number": "7",
           "title": "Features Of A Disability Income Insurance Policy",
-          "titleJP": "",
+          "titleJP": "障害所得保険証券の特徴",
           "paragraphs": [
             {
               "num": "7.1",
@@ -1930,14 +1930,14 @@
           "id": "ch4-s8",
           "number": "8",
           "title": "Underwriting",
-          "titleJP": "",
+          "titleJP": "引受",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s8-A",
               "label": "A",
               "title": "Underwriting Requirements",
-              "titleJP": "",
+              "titleJP": "Underwriting Requirements",
               "paragraphs": [
                 {
                   "num": "8.1",
@@ -1950,7 +1950,7 @@
               "id": "ch4-s8-A1",
               "label": "A1",
               "title": "Individual (Salaried Employee)",
-              "titleJP": "",
+              "titleJP": "Individual (Salaried Employee)",
               "paragraphs": [
                 {
                   "num": "8.2",
@@ -1963,7 +1963,7 @@
               "id": "ch4-s8-A2",
               "label": "A2",
               "title": "Self-employed Person",
-              "titleJP": "",
+              "titleJP": "Self-employed Person",
               "paragraphs": [
                 {
                   "num": "8.3",
@@ -1981,7 +1981,7 @@
               "id": "ch4-s8-B",
               "label": "B",
               "title": "Underwriting Considerations",
-              "titleJP": "",
+              "titleJP": "Underwriting Considerations",
               "paragraphs": [
                 {
                   "num": "8.5",
@@ -1994,7 +1994,7 @@
               "id": "ch4-s8-B1",
               "label": "B1",
               "title": "Occupation",
-              "titleJP": "",
+              "titleJP": "Occupation",
               "paragraphs": [
                 {
                   "num": "8.6",
@@ -2017,7 +2017,7 @@
               "id": "ch4-s8-B2",
               "label": "B2",
               "title": "Benefit Amount",
-              "titleJP": "",
+              "titleJP": "Benefit Amount",
               "paragraphs": [
                 {
                   "num": "8.9",
@@ -2030,7 +2030,7 @@
               "id": "ch4-s8-B3",
               "label": "B3",
               "title": "Benefit Period",
-              "titleJP": "",
+              "titleJP": "給付期間",
               "paragraphs": [
                 {
                   "num": "8.10",
@@ -2043,7 +2043,7 @@
               "id": "ch4-s8-B4",
               "label": "B4",
               "title": "Deferred/Elimination Period",
-              "titleJP": "",
+              "titleJP": "据置/待機期間",
               "paragraphs": [
                 {
                   "num": "8.11",
@@ -2058,7 +2058,7 @@
           "id": "ch4-s9",
           "number": "9",
           "title": "Cessation Of Benefits",
-          "titleJP": "",
+          "titleJP": "給付の終了",
           "paragraphs": [
             {
               "num": "9.1",
@@ -2077,7 +2077,7 @@
           "id": "ch4-s10",
           "number": "10",
           "title": "Exclusions",
-          "titleJP": "",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "10.1",
@@ -2091,7 +2091,7 @@
           "id": "ch4-s11",
           "number": "11",
           "title": "Termination Of Cover",
-          "titleJP": "",
+          "titleJP": "補償の終了",
           "paragraphs": [
             {
               "num": "11.1",
@@ -2105,7 +2105,7 @@
           "id": "ch4-s12",
           "number": "12",
           "title": "Group Disability Income Insurance",
-          "titleJP": "",
+          "titleJP": "団体障害所得保険",
           "paragraphs": [
             {
               "num": "12.1",
@@ -2123,7 +2123,7 @@
               "id": "ch4-s12-A",
               "label": "A",
               "title": "Coverage Provided By Group Disability Income Insurance",
-              "titleJP": "",
+              "titleJP": "団体障害所得保険の補償",
               "paragraphs": [
                 {
                   "num": "12.3",
@@ -2138,7 +2138,7 @@
           "id": "ch4-s13",
           "number": "13",
           "title": "General Underwriting Principles For Group Disability Income",
-          "titleJP": "",
+          "titleJP": "General Underwriting Principles For Group Disability Income",
           "paragraphs": [
             {
               "num": "",
@@ -2167,14 +2167,14 @@
           "id": "ch4-s14",
           "number": "14",
           "title": "Disability Income Claims",
-          "titleJP": "",
+          "titleJP": "障害所得の請求",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch4-s14-A",
               "label": "A",
               "title": "Claims Procedure For Disability Income Policy",
-              "titleJP": "",
+              "titleJP": "Claims Procedure For Disability Income Policy",
               "paragraphs": [
                 {
                   "num": "14.1",
@@ -2207,7 +2207,7 @@
               "id": "ch4-s14-B",
               "label": "B",
               "title": "Foreign Residency During Claims Period",
-              "titleJP": "",
+              "titleJP": "Foreign Residency During Claims Period",
               "paragraphs": [
                 {
                   "num": "14.6",
@@ -2227,7 +2227,7 @@
           "id": "ch4-s15",
           "number": "15",
           "title": "Conclusion",
-          "titleJP": "",
+          "titleJP": "結論",
           "paragraphs": [
             {
               "num": "15.1",
@@ -2310,7 +2310,7 @@
           "id": "ch5-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -2334,7 +2334,7 @@
           "id": "ch5-s2",
           "number": "2",
           "title": "What Is Long-term Care (Ltc) Insurance?",
-          "titleJP": "",
+          "titleJP": "長期介護（LTC）保険とは？",
           "paragraphs": [
             {
               "num": "2.1",
@@ -2358,14 +2358,14 @@
           "id": "ch5-s3",
           "number": "3",
           "title": "Benefits Offered Under Ltc Insurance",
-          "titleJP": "",
+          "titleJP": "LTC保険に基づく給付",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch5-s3-A",
               "label": "A",
               "title": "Types Of LTC Policies",
-              "titleJP": "",
+              "titleJP": "Types Of LTC Policies",
               "paragraphs": [
                 {
                   "num": "3.1",
@@ -2383,7 +2383,7 @@
               "id": "ch5-s3-B",
               "label": "B",
               "title": "Eligibility Criteria For Payment Of LTC Benefits",
-              "titleJP": "",
+              "titleJP": "Eligibility Criteria For Payment Of LTC Benefits",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -2401,7 +2401,7 @@
               "id": "ch5-s3-B1",
               "label": "B1",
               "title": "Inability To Perform Activities Of Daily Living (ADLs) Or Advanced Dementia",
-              "titleJP": "",
+              "titleJP": "日常生活動作（ADL）の遂行不能または進行性認知症",
               "paragraphs": [
                 {
                   "num": "3.5",
@@ -2419,7 +2419,7 @@
               "id": "ch5-s3-B2",
               "label": "B2",
               "title": "Meets The Deferred Period Requirement",
-              "titleJP": "",
+              "titleJP": "据置期間の要件を満たす",
               "paragraphs": [
                 {
                   "num": "3.7",
@@ -2432,7 +2432,7 @@
               "id": "ch5-s3-B3",
               "label": "B3",
               "title": "Does Not Cover Pre-existing Conditions",
-              "titleJP": "",
+              "titleJP": "Does Not Cover Pre-existing Conditions",
               "paragraphs": [
                 {
                   "num": "3.8",
@@ -2457,7 +2457,7 @@
           "id": "ch5-s4",
           "number": "4",
           "title": "Other Benefits Provided Under Ltc Insurance",
-          "titleJP": "",
+          "titleJP": "LTC保険に基づくその他の給付",
           "paragraphs": [
             {
               "num": "4.1",
@@ -2481,7 +2481,7 @@
           "id": "ch5-s5",
           "number": "5",
           "title": "Maximum Benefit",
-          "titleJP": "",
+          "titleJP": "最大給付額",
           "paragraphs": [
             {
               "num": "5.1",
@@ -2495,7 +2495,7 @@
           "id": "ch5-s6",
           "number": "6",
           "title": "Benefit Payment Term",
-          "titleJP": "",
+          "titleJP": "給付支払い期間",
           "paragraphs": [
             {
               "num": "6.1",
@@ -2513,7 +2513,7 @@
               "id": "ch5-s6-A",
               "label": "A",
               "title": "What is ElderShield?",
-              "titleJP": "",
+              "titleJP": "ElderShieldとは？",
               "paragraphs": [
                 {
                   "num": "7.1",
@@ -2526,7 +2526,7 @@
               "id": "ch5-s6-A1",
               "label": "A1",
               "title": "Overview",
-              "titleJP": "",
+              "titleJP": "Overview",
               "paragraphs": [
                 {
                   "num": "7.2",
@@ -2539,7 +2539,7 @@
               "id": "ch5-s6-A2",
               "label": "A2",
               "title": "Monthly payouts",
-              "titleJP": "",
+              "titleJP": "Monthly payouts",
               "paragraphs": [
                 {
                   "num": "7.3",
@@ -2552,7 +2552,7 @@
               "id": "ch5-s6-A3",
               "label": "A3",
               "title": "Fixed premiums",
-              "titleJP": "",
+              "titleJP": "Fixed premiums",
               "paragraphs": [
                 {
                   "num": "7.4",
@@ -2565,7 +2565,7 @@
               "id": "ch5-s6-A4",
               "label": "A4",
               "title": "Government administration of ElderShield",
-              "titleJP": "",
+              "titleJP": "Government administration of ElderShield",
               "paragraphs": [
                 {
                   "num": "7.5",
@@ -2578,14 +2578,14 @@
               "id": "ch5-s6-B",
               "label": "B",
               "title": "The Persons Covered Under ElderShield",
-              "titleJP": "",
+              "titleJP": "The Persons Covered Under ElderShield",
               "paragraphs": []
             },
             {
               "id": "ch5-s6-B1",
               "label": "B1",
               "title": "The Persons Enrolled",
-              "titleJP": "",
+              "titleJP": "The Persons Enrolled",
               "paragraphs": [
                 {
                   "num": "7.6",
@@ -2613,7 +2613,7 @@
               "id": "ch5-s6-B2",
               "label": "B2",
               "title": "Checking on ElderShield Coverage",
-              "titleJP": "",
+              "titleJP": "Checking on ElderShield Coverage",
               "paragraphs": [
                 {
                   "num": "7.10",
@@ -2631,7 +2631,7 @@
               "id": "ch5-s6-B3",
               "label": "B3",
               "title": "Protection Afforded Under ElderShield",
-              "titleJP": "",
+              "titleJP": "Protection Afforded Under ElderShield",
               "paragraphs": [
                 {
                   "num": "7.12",
@@ -2644,7 +2644,7 @@
               "id": "ch5-s6-B4",
               "label": "B4",
               "title": "Premiums of ElderShield",
-              "titleJP": "",
+              "titleJP": "Premiums of ElderShield",
               "paragraphs": [
                 {
                   "num": "7.13",
@@ -2662,7 +2662,7 @@
               "id": "ch5-s6-B5",
               "label": "B5",
               "title": "When The Insured Is Eligible to Claim",
-              "titleJP": "",
+              "titleJP": "When The Insured Is Eligible to Claim",
               "paragraphs": [
                 {
                   "num": "7.15",
@@ -2675,7 +2675,7 @@
               "id": "ch5-s6-B6",
               "label": "B6",
               "title": "Making A Claim",
-              "titleJP": "",
+              "titleJP": "Making A Claim",
               "paragraphs": [
                 {
                   "num": "7.16",
@@ -2733,7 +2733,7 @@
               "id": "ch5-s6-A",
               "label": "A",
               "title": "A Comparison Between CareShield Life And ElderShield",
-              "titleJP": "",
+              "titleJP": "A Comparison Between CareShield Life And ElderShield",
               "paragraphs": [
                 {
                   "num": "8.9",
@@ -2746,7 +2746,7 @@
               "id": "ch5-s6-B",
               "label": "B",
               "title": "MEDISAVE CARE",
-              "titleJP": "",
+              "titleJP": "MEDISAVE CARE",
               "paragraphs": [
                 {
                   "num": "8.10",
@@ -2769,7 +2769,7 @@
               "id": "ch5-s6-C",
               "label": "C",
               "title": "OTHER LONG-TERM CARE FINANCING SCHEMES AND SUBSIDIES",
-              "titleJP": "",
+              "titleJP": "OTHER LONG-TERM CARE FINANCING SCHEMES AND SUBSIDIES",
               "paragraphs": [
                 {
                   "num": "8.13",
@@ -2782,7 +2782,7 @@
               "id": "ch5-s6-C1",
               "label": "C1",
               "title": "Interim Disability Assistance Programme for the Elderly (IDAPE)",
-              "titleJP": "",
+              "titleJP": "高齢者暫定障害支援プログラム（IDAPE）",
               "paragraphs": [
                 {
                   "num": "8.14",
@@ -2795,7 +2795,7 @@
               "id": "ch5-s6-C2",
               "label": "C2",
               "title": "ElderFund",
-              "titleJP": "",
+              "titleJP": "ElderFund",
               "paragraphs": [
                 {
                   "num": "8.15",
@@ -2808,7 +2808,7 @@
               "id": "ch5-s6-C3",
               "label": "C3",
               "title": "Pioneer Disability Assistance Scheme (PioneerDAS)",
-              "titleJP": "",
+              "titleJP": "Pioneer Disability Assistance Scheme (PioneerDAS)",
               "paragraphs": [
                 {
                   "num": "8.16",
@@ -2821,7 +2821,7 @@
               "id": "ch5-s6-C4",
               "label": "C4",
               "title": "Seniors Mobility and Enabling Fund (SMF)",
-              "titleJP": "",
+              "titleJP": "Seniors Mobility and Enabling Fund (SMF)",
               "paragraphs": [
                 {
                   "num": "8.17",
@@ -2834,7 +2834,7 @@
               "id": "ch5-s6-C5",
               "label": "C5",
               "title": "Home Caregiving Grant (HCG)",
-              "titleJP": "",
+              "titleJP": "Home Caregiving Grant (HCG)",
               "paragraphs": [
                 {
                   "num": "8.18",
@@ -2847,7 +2847,7 @@
               "id": "ch5-s6-C6",
               "label": "C6",
               "title": "Migrant Domestic Worker Levy Concession for Persons with Disabilities [MDW",
-              "titleJP": "",
+              "titleJP": "Migrant Domestic Worker Levy Concession for Persons with Disabilities [MDW",
               "paragraphs": [
                 {
                   "num": "",
@@ -2865,7 +2865,7 @@
               "id": "ch5-s6-C7",
               "label": "C7",
               "title": "Caregivers Training Grant (CTG)",
-              "titleJP": "",
+              "titleJP": "Caregivers Training Grant (CTG)",
               "paragraphs": [
                 {
                   "num": "8.20",
@@ -2940,7 +2940,7 @@
           "id": "ch6-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -2954,7 +2954,7 @@
           "id": "ch6-s2",
           "number": "2",
           "title": "Critical Illness (Ci) Insurance",
-          "titleJP": "",
+          "titleJP": "重大疾病（CI）保険",
           "paragraphs": [
             {
               "num": "2.1",
@@ -3078,14 +3078,14 @@
           "id": "ch6-s4",
           "number": "4",
           "title": "Benefits Offered Under Critical Illness Insurance",
-          "titleJP": "",
+          "titleJP": "重大疾病保険に基づく給付",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch6-s4-A",
               "label": "A",
               "title": "Eligibility Criteria For Payment Of Critical Illness Benefit",
-              "titleJP": "",
+              "titleJP": "Eligibility Criteria For Payment Of Critical Illness Benefit",
               "paragraphs": [
                 {
                   "num": "4.1",
@@ -3098,7 +3098,7 @@
               "id": "ch6-s4-B",
               "label": "B",
               "title": "Features Of CI Insurance",
-              "titleJP": "",
+              "titleJP": "CI保険の特徴",
               "paragraphs": [
                 {
                   "num": "4.2",
@@ -3111,7 +3111,7 @@
               "id": "ch6-s4-C",
               "label": "C",
               "title": "Types Of CI Insurance Covers",
-              "titleJP": "",
+              "titleJP": "CI保険の補償の種類",
               "paragraphs": [
                 {
                   "num": "4.3",
@@ -3129,7 +3129,7 @@
               "id": "ch6-s4-C1",
               "label": "C1",
               "title": "Acceleration Benefit Critical Illness (CI) Insurance Cover",
-              "titleJP": "",
+              "titleJP": "前払給付型重大疾病（CI）保険",
               "paragraphs": [
                 {
                   "num": "4.5",
@@ -3172,7 +3172,7 @@
               "id": "ch6-s4-C2",
               "label": "C2",
               "title": "Additional Benefit Critical Illness (CI) Insurance Cover",
-              "titleJP": "",
+              "titleJP": "追加給付型重大疾病（CI）保険",
               "paragraphs": [
                 {
                   "num": "4.12",
@@ -3207,7 +3207,7 @@
           "id": "ch6-s5",
           "number": "5",
           "title": "Variations Of Critical Illness Insurance",
-          "titleJP": "",
+          "titleJP": "重大疾病保険のバリエーション",
           "paragraphs": [
             {
               "num": "5.1",
@@ -3235,7 +3235,7 @@
               "id": "ch6-s5-A",
               "label": "A",
               "title": "Severity-Based Critical Illness (CI) Insurance Plan (Early Pay CI)",
-              "titleJP": "",
+              "titleJP": "重症度ベース重大疾病（CI）保険プラン（早期支払CI）",
               "paragraphs": [
                 {
                   "num": "5.5",
@@ -3263,7 +3263,7 @@
               "id": "ch6-s5-A1",
               "label": "A1",
               "title": "The Advantages of Severity-Based Cover",
-              "titleJP": "",
+              "titleJP": "The Advantages of Severity-Based Cover",
               "paragraphs": [
                 {
                   "num": "5.9",
@@ -3286,7 +3286,7 @@
               "id": "ch6-s5-A2",
               "label": "A2",
               "title": "Premium and Other Considerations",
-              "titleJP": "",
+              "titleJP": "Premium and Other Considerations",
               "paragraphs": [
                 {
                   "num": "5.12",
@@ -3304,7 +3304,7 @@
               "id": "ch6-s5-B",
               "label": "B",
               "title": "Multiple Pay Critical Illness (CI) Insurance Plan",
-              "titleJP": "",
+              "titleJP": "マルチペイ重大疾病（CI）保険プラン",
               "paragraphs": [
                 {
                   "num": "5.14",
@@ -3337,7 +3337,7 @@
               "id": "ch6-s5-C",
               "label": "C",
               "title": "Critical Illness Plans Covering Mental Illnesses",
-              "titleJP": "",
+              "titleJP": "Critical Illness Plans Covering Mental Illnesses",
               "paragraphs": [
                 {
                   "num": "5.19",
@@ -3355,7 +3355,7 @@
               "id": "ch6-s5-D",
               "label": "D",
               "title": "Insurance Covering Diabetes",
-              "titleJP": "",
+              "titleJP": "糖尿病を補償する保険",
               "paragraphs": [
                 {
                   "num": "5.21",
@@ -3378,7 +3378,7 @@
               "id": "ch6-s5-E",
               "label": "E",
               "title": "Combination of CI Cover",
-              "titleJP": "",
+              "titleJP": "Combination of CI Cover",
               "paragraphs": [
                 {
                   "num": "5.24",
@@ -3393,14 +3393,14 @@
           "id": "ch6-s6",
           "number": "6",
           "title": "Underwriting",
-          "titleJP": "",
+          "titleJP": "引受",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch6-s6-A",
               "label": "A",
               "title": "Underwriting Requirements",
-              "titleJP": "",
+              "titleJP": "Underwriting Requirements",
               "paragraphs": [
                 {
                   "num": "6.1",
@@ -3413,7 +3413,7 @@
               "id": "ch6-s6-B",
               "label": "B",
               "title": "Underwriting Considerations",
-              "titleJP": "",
+              "titleJP": "Underwriting Considerations",
               "paragraphs": [
                 {
                   "num": "6.2",
@@ -3438,7 +3438,7 @@
           "id": "ch6-s7",
           "number": "7",
           "title": "Factors To Consider In Determining Adequacy Of Critical Illness",
-          "titleJP": "",
+          "titleJP": "Factors To Consider In Determining Adequacy Of Critical Illness",
           "paragraphs": [
             {
               "num": "",
@@ -3466,7 +3466,7 @@
               "id": "ch6-s7-A",
               "label": "A",
               "title": "Minimum Four Years Of Income, After Taking Into Account Debt",
-              "titleJP": "",
+              "titleJP": "Minimum Four Years Of Income, After Taking Into Account Debt",
               "paragraphs": [
                 {
                   "num": "7.4",
@@ -3489,7 +3489,7 @@
               "id": "ch6-s7-B",
               "label": "B",
               "title": "Recovery Expenses",
-              "titleJP": "",
+              "titleJP": "Recovery Expenses",
               "paragraphs": [
                 {
                   "num": "7.7",
@@ -3512,7 +3512,7 @@
               "id": "ch6-s7-C",
               "label": "C",
               "title": "Providing For Dependents",
-              "titleJP": "",
+              "titleJP": "Providing For Dependents",
               "paragraphs": [
                 {
                   "num": "7.10",
@@ -3537,7 +3537,7 @@
           "id": "ch6-s8",
           "number": "8",
           "title": "Exclusions",
-          "titleJP": "",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "8.1",
@@ -3556,7 +3556,7 @@
           "id": "ch6-s9",
           "number": "9",
           "title": "Termination Of Cover",
-          "titleJP": "",
+          "titleJP": "補償の終了",
           "paragraphs": [
             {
               "num": "9.1",
@@ -3570,7 +3570,7 @@
           "id": "ch6-s10",
           "number": "10",
           "title": "Claims",
-          "titleJP": "",
+          "titleJP": "請求",
           "paragraphs": [
             {
               "num": "10.1",
@@ -3594,7 +3594,7 @@
           "id": "ch6-s11",
           "number": "11",
           "title": "Group Critical Illness (Ci) Insurance Policy",
-          "titleJP": "",
+          "titleJP": "団体重大疾病（CI）保険証券",
           "paragraphs": [
             {
               "num": "11.1",
@@ -3607,7 +3607,7 @@
               "id": "ch6-s11-A",
               "label": "A",
               "title": "Infection with the Human Immunodeficiency Virus (HIV) through a blood",
-              "titleJP": "",
+              "titleJP": "Infection with the Human Immunodeficiency Virus (HIV) through a blood",
               "paragraphs": [
                 {
                   "num": "",
@@ -3620,7 +3620,7 @@
               "id": "ch6-s11-B",
               "label": "B",
               "title": "Infection with the Human Immunodeficiency Virus (HIV) which resulted from an",
-              "titleJP": "",
+              "titleJP": "Infection with the Human Immunodeficiency Virus (HIV) which resulted from an",
               "paragraphs": [
                 {
                   "num": "",
@@ -3685,7 +3685,7 @@
           "id": "ch7-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -3699,7 +3699,7 @@
           "id": "ch7-s2",
           "number": "2",
           "title": "Hospital Cash (Income) Insurance",
-          "titleJP": "",
+          "titleJP": "入院日額（入院所得）保険",
           "paragraphs": [
             {
               "num": "2.1",
@@ -3737,7 +3737,7 @@
               "id": "ch7-s2-A",
               "label": "A",
               "title": "Conditions To Be Met Before A Claim Can Be Admitted",
-              "titleJP": "",
+              "titleJP": "Conditions To Be Met Before A Claim Can Be Admitted",
               "paragraphs": [
                 {
                   "num": "2.7",
@@ -3750,7 +3750,7 @@
               "id": "ch7-s2-A1",
               "label": "A1",
               "title": "Waiting Period",
-              "titleJP": "",
+              "titleJP": "待機期間",
               "paragraphs": [
                 {
                   "num": "",
@@ -3763,7 +3763,7 @@
               "id": "ch7-s2-A2",
               "label": "A2",
               "title": "Hospital Confinement",
-              "titleJP": "",
+              "titleJP": "Hospital Confinement",
               "paragraphs": [
                 {
                   "num": "2.8",
@@ -3776,7 +3776,7 @@
               "id": "ch7-s2-B",
               "label": "B",
               "title": "Features Of Hospital Cash Insurance",
-              "titleJP": "",
+              "titleJP": "入院日額保険の特徴",
               "paragraphs": [
                 {
                   "num": "2.9",
@@ -3789,7 +3789,7 @@
               "id": "ch7-s2-C",
               "label": "C",
               "title": "Types Of Hospital Cash Insurance",
-              "titleJP": "",
+              "titleJP": "入院日額保険の種類",
               "paragraphs": [
                 {
                   "num": "2.10",
@@ -3802,7 +3802,7 @@
               "id": "ch7-s2-C1",
               "label": "C1",
               "title": "Stand-alone Hospital Cash Insurance",
-              "titleJP": "",
+              "titleJP": "スタンドアローン入院日額保険",
               "paragraphs": [
                 {
                   "num": "2.11",
@@ -3825,7 +3825,7 @@
               "id": "ch7-s2-C2",
               "label": "C2",
               "title": "Hospital Cash Insurance Riders",
-              "titleJP": "",
+              "titleJP": "入院日額保険ライダー",
               "paragraphs": [
                 {
                   "num": "2.14",
@@ -3838,7 +3838,7 @@
               "id": "ch7-s2-D",
               "label": "D",
               "title": "Underwriting",
-              "titleJP": "",
+              "titleJP": "引受",
               "paragraphs": [
                 {
                   "num": "2.15",
@@ -3851,7 +3851,7 @@
               "id": "ch7-s2-E",
               "label": "E",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "2.16",
@@ -3864,7 +3864,7 @@
               "id": "ch7-s2-F",
               "label": "F",
               "title": "Termination Of Cover",
-              "titleJP": "",
+              "titleJP": "補償の終了",
               "paragraphs": [
                 {
                   "num": "2.17",
@@ -3877,7 +3877,7 @@
               "id": "ch7-s2-G",
               "label": "G",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "2.18",
@@ -3897,7 +3897,7 @@
           "id": "ch7-s3",
           "number": "3",
           "title": "Maternity Insurance",
-          "titleJP": "",
+          "titleJP": "マタニティ保険",
           "paragraphs": [
             {
               "num": "3.1",
@@ -3910,7 +3910,7 @@
               "id": "ch7-s3-A",
               "label": "A",
               "title": "Benefits Of Maternity Insurance",
-              "titleJP": "",
+              "titleJP": "マタニティ保険の給付",
               "paragraphs": [
                 {
                   "num": "3.2",
@@ -3928,7 +3928,7 @@
               "id": "ch7-s3-B",
               "label": "B",
               "title": "Features Of Maternity Insurance",
-              "titleJP": "",
+              "titleJP": "マタニティ保険の特徴",
               "paragraphs": [
                 {
                   "num": "3.4",
@@ -3948,7 +3948,7 @@
           "id": "ch7-s4",
           "number": "4",
           "title": "Medical Benefits Under Travel Insurance",
-          "titleJP": "",
+          "titleJP": "旅行保険に基づく医療給付",
           "paragraphs": [
             {
               "num": "4.1",
@@ -3966,7 +3966,7 @@
               "id": "ch7-s4-A",
               "label": "A",
               "title": "Medical Expenses & Other Related Benefits",
-              "titleJP": "",
+              "titleJP": "Medical Expenses & Other Related Benefits",
               "paragraphs": [
                 {
                   "num": "4.3",
@@ -3994,7 +3994,7 @@
               "id": "ch7-s4-B",
               "label": "B",
               "title": "Hospital Confinement Allowance",
-              "titleJP": "",
+              "titleJP": "Hospital Confinement Allowance",
               "paragraphs": [
                 {
                   "num": "4.7",
@@ -4017,7 +4017,7 @@
               "id": "ch7-s4-C",
               "label": "C",
               "title": "Emergency Medical Evacuation",
-              "titleJP": "",
+              "titleJP": "Emergency Medical Evacuation",
               "paragraphs": [
                 {
                   "num": "4.10",
@@ -4045,7 +4045,7 @@
               "id": "ch7-s4-D",
               "label": "D",
               "title": "Repatriation",
-              "titleJP": "",
+              "titleJP": "Repatriation",
               "paragraphs": [
                 {
                   "num": "4.14",
@@ -4073,7 +4073,7 @@
               "id": "ch7-s4-E",
               "label": "E",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.18",
@@ -4088,7 +4088,7 @@
           "id": "ch7-s5",
           "number": "5",
           "title": "Group Dental Care Insurance",
-          "titleJP": "",
+          "titleJP": "団体歯科保険",
           "paragraphs": [
             {
               "num": "5.1",
@@ -4101,7 +4101,7 @@
               "id": "ch7-s5-A",
               "label": "A",
               "title": "Benefits Offered",
-              "titleJP": "",
+              "titleJP": "Benefits Offered",
               "paragraphs": [
                 {
                   "num": "5.2",
@@ -4119,7 +4119,7 @@
               "id": "ch7-s5-B",
               "label": "B",
               "title": "Flexibility",
-              "titleJP": "",
+              "titleJP": "Flexibility",
               "paragraphs": [
                 {
                   "num": "5.4",
@@ -4137,7 +4137,7 @@
               "id": "ch7-s5-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "5.6",
@@ -4155,7 +4155,7 @@
               "id": "ch7-s5-D",
               "label": "D",
               "title": "Limitation Clause",
-              "titleJP": "",
+              "titleJP": "Limitation Clause",
               "paragraphs": [
                 {
                   "num": "5.8",
@@ -4168,7 +4168,7 @@
               "id": "ch7-s5-E",
               "label": "E",
               "title": "Termination Of Cover",
-              "titleJP": "",
+              "titleJP": "補償の終了",
               "paragraphs": [
                 {
                   "num": "5.9",
@@ -4181,7 +4181,7 @@
               "id": "ch7-s5-F",
               "label": "F",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "5.10",
@@ -4263,7 +4263,7 @@
           "id": "ch8-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -4277,7 +4277,7 @@
           "id": "ch8-s2",
           "number": "2",
           "title": "What Is Managed Healthcare (Mhc)?",
-          "titleJP": "",
+          "titleJP": "マネージドヘルスケア（MHC）とは？",
           "paragraphs": [
             {
               "num": "2.1",
@@ -4291,7 +4291,7 @@
           "id": "ch8-s3",
           "number": "3",
           "title": "How Does Mhc Work?",
-          "titleJP": "",
+          "titleJP": "MHCの仕組み",
           "paragraphs": [
             {
               "num": "3.1",
@@ -4309,7 +4309,7 @@
               "id": "ch8-s3-A",
               "label": "A",
               "title": "Accessibility",
-              "titleJP": "",
+              "titleJP": "Accessibility",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -4332,7 +4332,7 @@
               "id": "ch8-s3-B",
               "label": "B",
               "title": "Cost",
-              "titleJP": "",
+              "titleJP": "Cost",
               "paragraphs": [
                 {
                   "num": "3.6",
@@ -4360,7 +4360,7 @@
               "id": "ch8-s3-C",
               "label": "C",
               "title": "Quality Of Care",
-              "titleJP": "",
+              "titleJP": "Quality Of Care",
               "paragraphs": [
                 {
                   "num": "3.10",
@@ -4375,7 +4375,7 @@
           "id": "ch8-s4",
           "number": "4",
           "title": "What Are The Common Types Of Mhc Plans?",
-          "titleJP": "",
+          "titleJP": "MHCプランの一般的な種類は？",
           "paragraphs": [
             {
               "num": "4.1",
@@ -4393,7 +4393,7 @@
               "id": "ch8-s4-A",
               "label": "A",
               "title": "Health Maintenance Organisation (HMO)",
-              "titleJP": "",
+              "titleJP": "Health Maintenance Organisation (HMO)",
               "paragraphs": [
                 {
                   "num": "4.3",
@@ -4421,7 +4421,7 @@
               "id": "ch8-s4-B",
               "label": "B",
               "title": "Preferred Provider Organisations (PPOs)",
-              "titleJP": "",
+              "titleJP": "Preferred Provider Organisations (PPOs)",
               "paragraphs": [
                 {
                   "num": "4.7",
@@ -4444,7 +4444,7 @@
               "id": "ch8-s4-C",
               "label": "C",
               "title": "Point-of-Service (POS) Plan",
-              "titleJP": "",
+              "titleJP": "Point-of-Service (POS) Plan",
               "paragraphs": [
                 {
                   "num": "4.10",
@@ -4474,7 +4474,7 @@
           "id": "ch8-s5",
           "number": "5",
           "title": "Choice Of Providers Versus Cost Control",
-          "titleJP": "",
+          "titleJP": "提供者の選択とコスト管理",
           "paragraphs": [
             {
               "num": "5.1",
@@ -4498,7 +4498,7 @@
           "id": "ch8-s6",
           "number": "6",
           "title": "Managed Healthcare (Mhc) Insurance",
-          "titleJP": "",
+          "titleJP": "マネージドヘルスケア（MHC）保険",
           "paragraphs": [
             {
               "num": "6.1",
@@ -4511,7 +4511,7 @@
               "id": "ch8-s6-A",
               "label": "A",
               "title": "Benefits Offered",
-              "titleJP": "",
+              "titleJP": "Benefits Offered",
               "paragraphs": [
                 {
                   "num": "6.2",
@@ -4534,7 +4534,7 @@
               "id": "ch8-s6-B",
               "label": "B",
               "title": "Co-payments",
-              "titleJP": "",
+              "titleJP": "Co-payments",
               "paragraphs": [
                 {
                   "num": "6.5",
@@ -4547,7 +4547,7 @@
               "id": "ch8-s6-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "6.6",
@@ -4565,7 +4565,7 @@
               "id": "ch8-s6-D",
               "label": "D",
               "title": "Underwriting",
-              "titleJP": "",
+              "titleJP": "引受",
               "paragraphs": [
                 {
                   "num": "6.8",
@@ -4578,7 +4578,7 @@
               "id": "ch8-s6-E",
               "label": "E",
               "title": "Claims",
-              "titleJP": "",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "6.9",
@@ -4593,7 +4593,7 @@
           "id": "ch8-s7",
           "number": "7",
           "title": "Mhc Model In Singapore",
-          "titleJP": "",
+          "titleJP": "シンガポールにおけるMHCモデル",
           "paragraphs": [
             {
               "num": "7.1",
@@ -4643,7 +4643,7 @@
           "id": "ch9-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -4662,7 +4662,7 @@
           "id": "ch9-s2",
           "number": "2",
           "title": "Healthcare Subsidies",
-          "titleJP": "",
+          "titleJP": "医療費補助金",
           "paragraphs": [
             {
               "num": "2.1",
@@ -4680,14 +4680,14 @@
               "id": "ch9-s2-A",
               "label": "A",
               "title": "Public Hospitals",
-              "titleJP": "",
+              "titleJP": "Public Hospitals",
               "paragraphs": []
             },
             {
               "id": "ch9-s2-A1",
               "label": "A1",
               "title": "Inpatient",
-              "titleJP": "",
+              "titleJP": "入院",
               "paragraphs": [
                 {
                   "num": "2.3",
@@ -4715,7 +4715,7 @@
               "id": "ch9-s2-A2",
               "label": "A2",
               "title": "Specialist Outpatient Clinics (SOCs)",
-              "titleJP": "",
+              "titleJP": "専門外来診療所（SOC）",
               "paragraphs": [
                 {
                   "num": "2.7",
@@ -4738,7 +4738,7 @@
               "id": "ch9-s2-A3",
               "label": "A3",
               "title": "Other Services",
-              "titleJP": "",
+              "titleJP": "Other Services",
               "paragraphs": [
                 {
                   "num": "2.10",
@@ -4751,7 +4751,7 @@
               "id": "ch9-s2-B",
               "label": "B",
               "title": "Other Healthcare Services",
-              "titleJP": "",
+              "titleJP": "その他の医療サービス",
               "paragraphs": [
                 {
                   "num": "2.11",
@@ -4764,7 +4764,7 @@
               "id": "ch9-s2-B1",
               "label": "B1",
               "title": "Community Health Assist Scheme (CHAS)",
-              "titleJP": "",
+              "titleJP": "Community Health Assist Scheme (CHAS)",
               "paragraphs": [
                 {
                   "num": "2.12",
@@ -4809,7 +4809,7 @@
           "id": "ch9-s3",
           "number": "3",
           "title": "Medishield Life",
-          "titleJP": "",
+          "titleJP": "MediShield Life",
           "paragraphs": [
             {
               "num": "3.1",
@@ -4832,7 +4832,7 @@
               "id": "ch9-s3-A",
               "label": "A",
               "title": "MediShield Life Premiums",
-              "titleJP": "",
+              "titleJP": "MediShield Life Premiums",
               "paragraphs": [
                 {
                   "num": "3.4",
@@ -4855,7 +4855,7 @@
               "id": "ch9-s3-B",
               "label": "B",
               "title": "MediShield Life Subsidies",
-              "titleJP": "",
+              "titleJP": "MediShield Life Subsidies",
               "paragraphs": [
                 {
                   "num": "3.7",
@@ -4868,7 +4868,7 @@
               "id": "ch9-s3-B1",
               "label": "B1",
               "title": "Premium Subsidies for the lower- to middle- income",
-              "titleJP": "",
+              "titleJP": "低〜中所得者向け保険料補助金",
               "paragraphs": [
                 {
                   "num": "3.8",
@@ -4886,7 +4886,7 @@
               "id": "ch9-s3-B2",
               "label": "B2",
               "title": "Pioneer Generation Premium Subsidies and MediSave top-ups",
-              "titleJP": "",
+              "titleJP": "パイオニア世代保険料補助金とMediSaveトップアップ",
               "paragraphs": [
                 {
                   "num": "3.10",
@@ -4919,7 +4919,7 @@
               "id": "ch9-s3-B3",
               "label": "B3",
               "title": "Merdeka Generation Premium Subsidies and MediSave top-ups",
-              "titleJP": "",
+              "titleJP": "ムルデカ世代保険料補助金とMediSaveトップアップ",
               "paragraphs": [
                 {
                   "num": "3.15",
@@ -4942,7 +4942,7 @@
               "id": "ch9-s3-B4",
               "label": "B4",
               "title": "Additional Premium Support",
-              "titleJP": "",
+              "titleJP": "Additional Premium Support",
               "paragraphs": [
                 {
                   "num": "3.18",
@@ -4955,7 +4955,7 @@
               "id": "ch9-s3-C",
               "label": "C",
               "title": "MediShield Life Benefits",
-              "titleJP": "",
+              "titleJP": "MediShield Life Benefits",
               "paragraphs": [
                 {
                   "num": "3.19",
@@ -4968,7 +4968,7 @@
               "id": "ch9-s3-D",
               "label": "D",
               "title": "How Are MediShield Life Claim Payouts Computed?",
-              "titleJP": "",
+              "titleJP": "How Are MediShield Life Claim Payouts Computed?",
               "paragraphs": [
                 {
                   "num": "3.20",
@@ -5021,7 +5021,7 @@
               "id": "ch9-s3-E",
               "label": "E",
               "title": "MediShield Life Fund",
-              "titleJP": "",
+              "titleJP": "MediShield Life Fund",
               "paragraphs": [
                 {
                   "num": "3.29",
@@ -5049,7 +5049,7 @@
               "id": "ch9-s3-A",
               "label": "A",
               "title": "Integrated Structure of IPs",
-              "titleJP": "",
+              "titleJP": "Integrated Structure of IPs",
               "paragraphs": [
                 {
                   "num": "4.4",
@@ -5062,7 +5062,7 @@
               "id": "ch9-s3-A1",
               "label": "A1",
               "title": "Coverage",
-              "titleJP": "",
+              "titleJP": "補償",
               "paragraphs": [
                 {
                   "num": "4.5",
@@ -5075,7 +5075,7 @@
               "id": "ch9-s3-A2",
               "label": "A2",
               "title": "Premiums & MediShield Life Subsidies",
-              "titleJP": "",
+              "titleJP": "Premiums & MediShield Life Subsidies",
               "paragraphs": [
                 {
                   "num": "4.6",
@@ -5098,7 +5098,7 @@
               "id": "ch9-s3-B",
               "label": "B",
               "title": "Standard IP",
-              "titleJP": "",
+              "titleJP": "Standard IP",
               "paragraphs": [
                 {
                   "num": "4.9",
@@ -5126,7 +5126,7 @@
               "id": "ch9-s3-C",
               "label": "C",
               "title": "MediSave Use For IP Premiums",
-              "titleJP": "",
+              "titleJP": "MediSave Use For IP Premiums",
               "paragraphs": [
                 {
                   "num": "4.13",
@@ -5139,7 +5139,7 @@
               "id": "ch9-s3-D",
               "label": "D",
               "title": "Riders",
-              "titleJP": "",
+              "titleJP": "Riders",
               "paragraphs": [
                 {
                   "num": "4.14",
@@ -5162,7 +5162,7 @@
               "id": "ch9-s3-D1",
               "label": "D1",
               "title": "The Principle Underlying the Need For Co-Payments13",
-              "titleJP": "",
+              "titleJP": "The Principle Underlying the Need For Co-Payments13",
               "paragraphs": [
                 {
                   "num": "4.17",
@@ -5195,7 +5195,7 @@
               "id": "ch9-s3-E",
               "label": "E",
               "title": "Terminating or Switching IP/Switching Insurer",
-              "titleJP": "",
+              "titleJP": "Terminating or Switching IP/Switching Insurer",
               "paragraphs": [
                 {
                   "num": "4.22",
@@ -5223,7 +5223,7 @@
               "id": "ch9-s3-F",
               "label": "F",
               "title": "Risk-Loading by Private Insurers",
-              "titleJP": "",
+              "titleJP": "民間保険者によるリスクロード",
               "paragraphs": [
                 {
                   "num": "4.26",
@@ -5236,7 +5236,7 @@
               "id": "ch9-s3-G",
               "label": "G",
               "title": "Pre-Authorisation for IP",
-              "titleJP": "",
+              "titleJP": "IPの事前承認",
               "paragraphs": [
                 {
                   "num": "4.27",
@@ -5266,7 +5266,7 @@
           "id": "ch9-s5",
           "number": "5",
           "title": "Medisave",
-          "titleJP": "",
+          "titleJP": "MediSave",
           "paragraphs": [
             {
               "num": "5.1",
@@ -5299,7 +5299,7 @@
               "id": "ch9-s5-A",
               "label": "A",
               "title": "Basic Healthcare Sum",
-              "titleJP": "",
+              "titleJP": "Basic Healthcare Sum",
               "paragraphs": [
                 {
                   "num": "5.6",
@@ -5332,7 +5332,7 @@
               "id": "ch9-s5-B",
               "label": "B",
               "title": "Uses Of MediSave",
-              "titleJP": "",
+              "titleJP": "Uses Of MediSave",
               "paragraphs": [
                 {
                   "num": "5.11",
@@ -5350,7 +5350,7 @@
               "id": "ch9-s5-B1",
               "label": "B1",
               "title": "Outpatient Treatments",
-              "titleJP": "",
+              "titleJP": "外来治療",
               "paragraphs": [
                 {
                   "num": "5.13",
@@ -5363,7 +5363,7 @@
               "id": "ch9-s5-B2",
               "label": "B2",
               "title": "Inpatient Treatments",
-              "titleJP": "",
+              "titleJP": "入院治療",
               "paragraphs": [
                 {
                   "num": "5.14",
@@ -5386,7 +5386,7 @@
               "id": "ch9-s5-B3",
               "label": "B3",
               "title": "Long-Term Care",
-              "titleJP": "",
+              "titleJP": "長期介護",
               "paragraphs": [
                 {
                   "num": "",
@@ -5399,7 +5399,7 @@
               "id": "ch9-s5-B4",
               "label": "B4",
               "title": "Insurance Premiums",
-              "titleJP": "",
+              "titleJP": "保険料",
               "paragraphs": [
                 {
                   "num": "5.17",
@@ -5417,7 +5417,7 @@
               "id": "ch9-s5-C",
               "label": "C",
               "title": "How Much MediSave Can Be Used?",
-              "titleJP": "",
+              "titleJP": "How Much MediSave Can Be Used?",
               "paragraphs": [
                 {
                   "num": "5.19",
@@ -5430,7 +5430,7 @@
               "id": "ch9-s5-C1",
               "label": "C1",
               "title": "Where Can MediSave Be Used?",
-              "titleJP": "",
+              "titleJP": "Where Can MediSave Be Used?",
               "paragraphs": [
                 {
                   "num": "5.20",
@@ -5443,7 +5443,7 @@
               "id": "ch9-s5-C2",
               "label": "C2",
               "title": "Whose MediSave Can Be Used?",
-              "titleJP": "",
+              "titleJP": "Whose MediSave Can Be Used?",
               "paragraphs": [
                 {
                   "num": "5.21",
@@ -5461,7 +5461,7 @@
               "id": "ch9-s5-C3",
               "label": "C3",
               "title": "Distribution Of MediSave Upon Demise",
-              "titleJP": "",
+              "titleJP": "Distribution Of MediSave Upon Demise",
               "paragraphs": [
                 {
                   "num": "5.23",
@@ -5486,7 +5486,7 @@
           "id": "ch9-s6",
           "number": "6",
           "title": "Claiming From Medishield Life/ip & Medisave",
-          "titleJP": "",
+          "titleJP": "Claiming From Medishield Life/ip & Medisave",
           "paragraphs": [
             {
               "num": "6.1",
@@ -5499,7 +5499,7 @@
               "id": "ch9-s6-A",
               "label": "A",
               "title": "Letter of Guarantee",
-              "titleJP": "",
+              "titleJP": "保証状",
               "paragraphs": [
                 {
                   "num": "6.2",
@@ -5527,7 +5527,7 @@
               "id": "ch9-s6-B",
               "label": "B",
               "title": "Claims process",
-              "titleJP": "",
+              "titleJP": "Claims process",
               "paragraphs": [
                 {
                   "num": "6.6",
@@ -5555,7 +5555,7 @@
               "id": "ch9-s6-C",
               "label": "C",
               "title": "Claiming From Non-MediSave payable Private Insurance",
-              "titleJP": "",
+              "titleJP": "MediSave非対応の民間保険からの請求",
               "paragraphs": [
                 {
                   "num": "6.10",
@@ -5583,7 +5583,7 @@
               "id": "ch9-s6-A",
               "label": "A",
               "title": "Details of Hospitalisation",
-              "titleJP": "",
+              "titleJP": "Details of Hospitalisation",
               "paragraphs": [
                 {
                   "num": "",
@@ -5596,7 +5596,7 @@
               "id": "ch9-s6-B",
               "label": "B",
               "title": "Best Estimated Costs",
-              "titleJP": "",
+              "titleJP": "Best Estimated Costs",
               "paragraphs": [
                 {
                   "num": "",
@@ -5609,7 +5609,7 @@
               "id": "ch9-s6-C",
               "label": "C",
               "title": "Principal Doctor’s Declaration & Signature",
-              "titleJP": "",
+              "titleJP": "Principal Doctor’s Declaration & Signature",
               "paragraphs": [
                 {
                   "num": "",
@@ -5624,7 +5624,7 @@
           "id": "ch9-s7",
           "number": "7",
           "title": "Eldershield & Eldershield Supplements",
-          "titleJP": "",
+          "titleJP": "ElderShieldとElderShieldサプリメント",
           "paragraphs": [
             {
               "num": "7.1",
@@ -5667,14 +5667,14 @@
               "id": "ch9-s7-A",
               "label": "A",
               "title": "Eligibility Criteria For Payment Of ElderShield Benefits",
-              "titleJP": "",
+              "titleJP": "Eligibility Criteria For Payment Of ElderShield Benefits",
               "paragraphs": []
             },
             {
               "id": "ch9-s7-A1",
               "label": "A1",
               "title": "Meets The Waiting Period Requirement",
-              "titleJP": "",
+              "titleJP": "Meets The Waiting Period Requirement",
               "paragraphs": [
                 {
                   "num": "7.8",
@@ -5687,7 +5687,7 @@
               "id": "ch9-s7-A2",
               "label": "A2",
               "title": "Unable To Perform The Specified Number Of Activities Of Daily Living As",
-              "titleJP": "",
+              "titleJP": "所定の数の日常生活動作を遂行できない場合",
               "paragraphs": [
                 {
                   "num": "",
@@ -5710,7 +5710,7 @@
               "id": "ch9-s7-A3",
               "label": "A3",
               "title": "Meets The Deferment Period Requirement",
-              "titleJP": "",
+              "titleJP": "Meets The Deferment Period Requirement",
               "paragraphs": [
                 {
                   "num": "7.11",
@@ -5728,7 +5728,7 @@
               "id": "ch9-s7-B",
               "label": "B",
               "title": "How To Make A Claim Under ElderShield?",
-              "titleJP": "",
+              "titleJP": "How To Make A Claim Under ElderShield?",
               "paragraphs": [
                 {
                   "num": "7.13",
@@ -5751,7 +5751,7 @@
               "id": "ch9-s7-C",
               "label": "C",
               "title": "How Are ElderShield Benefits Paid?",
-              "titleJP": "",
+              "titleJP": "How Are ElderShield Benefits Paid?",
               "paragraphs": [
                 {
                   "num": "7.16",
@@ -5764,7 +5764,7 @@
               "id": "ch9-s7-D",
               "label": "D",
               "title": "Non-Forfeiture Feature",
-              "titleJP": "",
+              "titleJP": "Non-Forfeiture Feature",
               "paragraphs": [
                 {
                   "num": "7.17",
@@ -5782,7 +5782,7 @@
               "id": "ch9-s7-E",
               "label": "E",
               "title": "Other Key Features Of ElderShield",
-              "titleJP": "",
+              "titleJP": "ElderShieldのその他の主な特徴",
               "paragraphs": [
                 {
                   "num": "7.19",
@@ -5795,7 +5795,7 @@
               "id": "ch9-s7-F",
               "label": "F",
               "title": "Exclusions",
-              "titleJP": "",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "7.20",
@@ -5813,7 +5813,7 @@
               "id": "ch9-s7-G",
               "label": "G",
               "title": "Termination Of Cover",
-              "titleJP": "",
+              "titleJP": "補償の終了",
               "paragraphs": [
                 {
                   "num": "7.22",
@@ -5826,7 +5826,7 @@
               "id": "ch9-s7-H",
               "label": "H",
               "title": "Government Administration of ElderShield",
-              "titleJP": "",
+              "titleJP": "Government Administration of ElderShield",
               "paragraphs": [
                 {
                   "num": "7.23",
@@ -5851,7 +5851,7 @@
           "id": "ch9-s8",
           "number": "8",
           "title": "Careshield Life And Supplements",
-          "titleJP": "",
+          "titleJP": "CareShield Lifeとサプリメント",
           "paragraphs": [
             {
               "num": "8.1",
@@ -5899,7 +5899,7 @@
               "id": "ch9-s8-A",
               "label": "A",
               "title": "Coverage",
-              "titleJP": "",
+              "titleJP": "補償",
               "paragraphs": [
                 {
                   "num": "8.9",
@@ -5917,7 +5917,7 @@
               "id": "ch9-s8-B",
               "label": "B",
               "title": "Benefits Under CareShield Life",
-              "titleJP": "",
+              "titleJP": "Benefits Under CareShield Life",
               "paragraphs": [
                 {
                   "num": "8.11",
@@ -5935,7 +5935,7 @@
               "id": "ch9-s8-C",
               "label": "C",
               "title": "CareShield Life Premiums",
-              "titleJP": "",
+              "titleJP": "CareShield Life Premiums",
               "paragraphs": [
                 {
                   "num": "8.13",
@@ -5968,7 +5968,7 @@
               "id": "ch9-s8-D",
               "label": "D",
               "title": "Pioneer and Merdeka Generation Incentives",
-              "titleJP": "",
+              "titleJP": "パイオニア世代・ムルデカ世代インセンティブ",
               "paragraphs": [
                 {
                   "num": "8.18",
@@ -5991,7 +5991,7 @@
               "id": "ch9-s8-E",
               "label": "E",
               "title": "Eligibility Criteria for Payment of CareShield Life Benefits",
-              "titleJP": "",
+              "titleJP": "Eligibility Criteria for Payment of CareShield Life Benefits",
               "paragraphs": [
                 {
                   "num": "8.21",
@@ -6004,7 +6004,7 @@
               "id": "ch9-s8-E1",
               "label": "E1",
               "title": "Unable To Perform The Specified Number Of Activities Of Daily Living As",
-              "titleJP": "",
+              "titleJP": "所定の数の日常生活動作を遂行できない場合",
               "paragraphs": [
                 {
                   "num": "",
@@ -6022,7 +6022,7 @@
               "id": "ch9-s8-E2",
               "label": "E2",
               "title": "Meets The Deferment Period Requirement",
-              "titleJP": "",
+              "titleJP": "Meets The Deferment Period Requirement",
               "paragraphs": [
                 {
                   "num": "8.23",
@@ -6035,7 +6035,7 @@
               "id": "ch9-s8-F",
               "label": "F",
               "title": "How to Make a Claim Under CareShield Life?",
-              "titleJP": "",
+              "titleJP": "How to Make a Claim Under CareShield Life?",
               "paragraphs": [
                 {
                   "num": "8.24",
@@ -6058,7 +6058,7 @@
               "id": "ch9-s8-G",
               "label": "G",
               "title": "Other Key Features of CareShield Life",
-              "titleJP": "",
+              "titleJP": "CareShield Lifeのその他の主な特徴",
               "paragraphs": [
                 {
                   "num": "8.27",
@@ -6073,7 +6073,7 @@
           "id": "ch9-s9",
           "number": "9",
           "title": "Other Healthcare Financing Schemes Set Up By The Singapore",
-          "titleJP": "",
+          "titleJP": "Other Healthcare Financing Schemes Set Up By The Singapore",
           "paragraphs": [
             {
               "num": "",
@@ -6091,7 +6091,7 @@
               "id": "ch9-s9-A",
               "label": "A",
               "title": "Pioneer Generation Package",
-              "titleJP": "",
+              "titleJP": "パイオニア世代パッケージ",
               "paragraphs": [
                 {
                   "num": "9.2",
@@ -6114,7 +6114,7 @@
               "id": "ch9-s9-A1",
               "label": "A1",
               "title": "Outpatient Care",
-              "titleJP": "",
+              "titleJP": "外来ケア",
               "paragraphs": [
                 {
                   "num": "",
@@ -6127,7 +6127,7 @@
               "id": "ch9-s9-A2",
               "label": "A2",
               "title": "MediShield Life",
-              "titleJP": "",
+              "titleJP": "MediShield Life",
               "paragraphs": [
                 {
                   "num": "9.5",
@@ -6140,7 +6140,7 @@
               "id": "ch9-s9-A3",
               "label": "A3",
               "title": "MediSave Top-ups",
-              "titleJP": "",
+              "titleJP": "MediSave Top-ups",
               "paragraphs": [
                 {
                   "num": "9.6",
@@ -6153,7 +6153,7 @@
               "id": "ch9-s9-A4",
               "label": "A4",
               "title": "Pioneer Generation Disability Assistance Scheme",
-              "titleJP": "",
+              "titleJP": "パイオニア世代障害支援スキーム",
               "paragraphs": [
                 {
                   "num": "9.7",
@@ -6171,7 +6171,7 @@
               "id": "ch9-s9-A5",
               "label": "A5",
               "title": "CareShield Life",
-              "titleJP": "",
+              "titleJP": "CareShield Life",
               "paragraphs": [
                 {
                   "num": "9.9",
@@ -6184,7 +6184,7 @@
               "id": "ch9-s9-B",
               "label": "B",
               "title": "Merdeka Generation Package",
-              "titleJP": "",
+              "titleJP": "ムルデカ世代パッケージ",
               "paragraphs": [
                 {
                   "num": "9.10",
@@ -6212,7 +6212,7 @@
               "id": "ch9-s9-B1",
               "label": "B1",
               "title": "Passion Silver Card Top-Ups",
-              "titleJP": "",
+              "titleJP": "Passion Silver Card Top-Ups",
               "paragraphs": [
                 {
                   "num": "9.14",
@@ -6225,7 +6225,7 @@
               "id": "ch9-s9-B2",
               "label": "B2",
               "title": "MediSave Top-Ups",
-              "titleJP": "",
+              "titleJP": "MediSave Top-Ups",
               "paragraphs": [
                 {
                   "num": "9.15",
@@ -6238,7 +6238,7 @@
               "id": "ch9-s9-B3",
               "label": "B3",
               "title": "Outpatient Care",
-              "titleJP": "",
+              "titleJP": "外来ケア",
               "paragraphs": [
                 {
                   "num": "",
@@ -6251,7 +6251,7 @@
               "id": "ch9-s9-B4",
               "label": "B4",
               "title": "MediShield Life",
-              "titleJP": "",
+              "titleJP": "MediShield Life",
               "paragraphs": [
                 {
                   "num": "9.16",
@@ -6264,7 +6264,7 @@
               "id": "ch9-s9-B5",
               "label": "B5",
               "title": "CareShield Life",
-              "titleJP": "",
+              "titleJP": "CareShield Life",
               "paragraphs": [
                 {
                   "num": "9.17",
@@ -6277,7 +6277,7 @@
               "id": "ch9-s9-C",
               "label": "C",
               "title": "Majulah Package",
-              "titleJP": "",
+              "titleJP": "マジュラ・パッケージ",
               "paragraphs": [
                 {
                   "num": "9.18",
@@ -6300,7 +6300,7 @@
               "id": "ch9-s9-C1",
               "label": "C1",
               "title": "Earn and Save Bonus",
-              "titleJP": "",
+              "titleJP": "Earn and Save Bonus",
               "paragraphs": [
                 {
                   "num": "9.21",
@@ -6313,7 +6313,7 @@
               "id": "ch9-s9-C2",
               "label": "C2",
               "title": "Retirement Savings Bonus",
-              "titleJP": "",
+              "titleJP": "Retirement Savings Bonus",
               "paragraphs": [
                 {
                   "num": "9.22",
@@ -6326,7 +6326,7 @@
               "id": "ch9-s9-C3",
               "label": "C3",
               "title": "MediSave Bonus",
-              "titleJP": "",
+              "titleJP": "MediSave Bonus",
               "paragraphs": [
                 {
                   "num": "9.23",
@@ -6339,7 +6339,7 @@
               "id": "ch9-s9-D",
               "label": "D",
               "title": "Interim Disability Assistance Programme for The Elderly (IDAPE)",
-              "titleJP": "",
+              "titleJP": "Interim Disability Assistance Programme for The Elderly (IDAPE)",
               "paragraphs": [
                 {
                   "num": "9.24",
@@ -6372,7 +6372,7 @@
               "id": "ch9-s9-E",
               "label": "E",
               "title": "ElderFund",
-              "titleJP": "",
+              "titleJP": "ElderFund",
               "paragraphs": [
                 {
                   "num": "9.29",
@@ -6385,7 +6385,7 @@
               "id": "ch9-s9-E",
               "label": "E",
               "title": "MediFund",
-              "titleJP": "",
+              "titleJP": "MediFund",
               "paragraphs": [
                 {
                   "num": "9.30",
@@ -6476,7 +6476,7 @@
           "id": "ch10-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -6495,7 +6495,7 @@
           "id": "ch10-s2",
           "number": "2",
           "title": "Sections Of A Policy Contract",
-          "titleJP": "",
+          "titleJP": "保険証券契約のセクション",
           "paragraphs": [
             {
               "num": "2.1",
@@ -6514,7 +6514,7 @@
           "id": "ch10-s3",
           "number": "3",
           "title": "Policy Schedule",
-          "titleJP": "",
+          "titleJP": "保険証券明細",
           "paragraphs": [
             {
               "num": "3.1",
@@ -6538,14 +6538,14 @@
           "id": "ch10-s4",
           "number": "4",
           "title": "Insuring Clause & Definitions",
-          "titleJP": "",
+          "titleJP": "付保条項と定義",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch10-s4-A",
               "label": "A",
               "title": "Insuring Clause",
-              "titleJP": "",
+              "titleJP": "Insuring Clause",
               "paragraphs": [
                 {
                   "num": "4.1",
@@ -6558,7 +6558,7 @@
               "id": "ch10-s4-B",
               "label": "B",
               "title": "Definitions",
-              "titleJP": "",
+              "titleJP": "定義",
               "paragraphs": [
                 {
                   "num": "4.2",
@@ -6573,7 +6573,7 @@
           "id": "ch10-s5",
           "number": "5",
           "title": "General Conditions",
-          "titleJP": "",
+          "titleJP": "一般条件",
           "paragraphs": [
             {
               "num": "5.1",
@@ -6586,7 +6586,7 @@
               "id": "ch10-s5-A",
               "label": "A",
               "title": "Entire Contract Clause",
-              "titleJP": "",
+              "titleJP": "Entire Contract Clause",
               "paragraphs": [
                 {
                   "num": "5.2",
@@ -6604,7 +6604,7 @@
               "id": "ch10-s5-B",
               "label": "B",
               "title": "Effective Date Of Cover",
-              "titleJP": "",
+              "titleJP": "Effective Date Of Cover",
               "paragraphs": [
                 {
                   "num": "5.4",
@@ -6627,7 +6627,7 @@
               "id": "ch10-s5-C",
               "label": "C",
               "title": "Premium Clauses",
-              "titleJP": "",
+              "titleJP": "Premium Clauses",
               "paragraphs": [
                 {
                   "num": "5.7",
@@ -6640,7 +6640,7 @@
               "id": "ch10-s5-D",
               "label": "D",
               "title": "Free-look Period",
-              "titleJP": "",
+              "titleJP": "クーリングオフ期間",
               "paragraphs": [
                 {
                   "num": "5.8",
@@ -6653,7 +6653,7 @@
               "id": "ch10-s5-E",
               "label": "E",
               "title": "Actively At Work",
-              "titleJP": "",
+              "titleJP": "Actively At Work",
               "paragraphs": [
                 {
                   "num": "5.9",
@@ -6666,7 +6666,7 @@
               "id": "ch10-s5-F",
               "label": "F",
               "title": "Termination Of Cover",
-              "titleJP": "",
+              "titleJP": "補償の終了",
               "paragraphs": [
                 {
                   "num": "5.10",
@@ -6684,7 +6684,7 @@
               "id": "ch10-s5-G",
               "label": "G",
               "title": "Overseas Treatment",
-              "titleJP": "",
+              "titleJP": "Overseas Treatment",
               "paragraphs": [
                 {
                   "num": "5.12",
@@ -6707,7 +6707,7 @@
               "id": "ch10-s5-H",
               "label": "H",
               "title": "Renewal",
-              "titleJP": "",
+              "titleJP": "Renewal",
               "paragraphs": [
                 {
                   "num": "5.15",
@@ -6725,7 +6725,7 @@
               "id": "ch10-s5-H1",
               "label": "H1",
               "title": "Cancellable Policy",
-              "titleJP": "",
+              "titleJP": "Cancellable Policy",
               "paragraphs": [
                 {
                   "num": "5.17",
@@ -6738,7 +6738,7 @@
               "id": "ch10-s5-H2",
               "label": "H2",
               "title": "Optionally & Conditionally Renewable Policies",
-              "titleJP": "",
+              "titleJP": "Optionally & Conditionally Renewable Policies",
               "paragraphs": [
                 {
                   "num": "5.18",
@@ -6751,7 +6751,7 @@
               "id": "ch10-s5-H3",
               "label": "H3",
               "title": "Guaranteed Renewable Policy",
-              "titleJP": "",
+              "titleJP": "Guaranteed Renewable Policy",
               "paragraphs": [
                 {
                   "num": "5.19",
@@ -6789,7 +6789,7 @@
               "id": "ch10-s5-H4",
               "label": "H4",
               "title": "Non-renewable",
-              "titleJP": "",
+              "titleJP": "Non-renewable",
               "paragraphs": [
                 {
                   "num": "5.25",
@@ -6807,7 +6807,7 @@
               "id": "ch10-s5-I",
               "label": "I",
               "title": "Misstatement Of Age Or Gender",
-              "titleJP": "",
+              "titleJP": "Misstatement Of Age Or Gender",
               "paragraphs": [
                 {
                   "num": "5.27",
@@ -6820,7 +6820,7 @@
               "id": "ch10-s5-J",
               "label": "J",
               "title": "Grace Period",
-              "titleJP": "",
+              "titleJP": "猶予期間",
               "paragraphs": [
                 {
                   "num": "5.28",
@@ -6833,7 +6833,7 @@
               "id": "ch10-s5-K",
               "label": "K",
               "title": "Reinstatement",
-              "titleJP": "",
+              "titleJP": "復活",
               "paragraphs": [
                 {
                   "num": "5.29",
@@ -6846,7 +6846,7 @@
               "id": "ch10-s5-L",
               "label": "L",
               "title": "Incontestability",
-              "titleJP": "",
+              "titleJP": "Incontestability",
               "paragraphs": [
                 {
                   "num": "5.30",
@@ -6859,7 +6859,7 @@
               "id": "ch10-s5-M",
               "label": "M",
               "title": "Change Of Occupation",
-              "titleJP": "",
+              "titleJP": "Change Of Occupation",
               "paragraphs": [
                 {
                   "num": "5.31",
@@ -6872,7 +6872,7 @@
               "id": "ch10-s5-N",
               "label": "N",
               "title": "Co-ordination Of Benefits",
-              "titleJP": "",
+              "titleJP": "給付の調整",
               "paragraphs": [
                 {
                   "num": "5.32",
@@ -6890,7 +6890,7 @@
               "id": "ch10-s5-O",
               "label": "O",
               "title": "Cancellation",
-              "titleJP": "",
+              "titleJP": "Cancellation",
               "paragraphs": [
                 {
                   "num": "5.34",
@@ -6908,7 +6908,7 @@
               "id": "ch10-s5-P",
               "label": "P",
               "title": "Change Of Plan",
-              "titleJP": "",
+              "titleJP": "Change Of Plan",
               "paragraphs": [
                 {
                   "num": "5.36",
@@ -6926,7 +6926,7 @@
               "id": "ch10-s5-Q",
               "label": "Q",
               "title": "Currency",
-              "titleJP": "",
+              "titleJP": "Currency",
               "paragraphs": [
                 {
                   "num": "5.38",
@@ -6939,7 +6939,7 @@
               "id": "ch10-s5-R",
               "label": "R",
               "title": "Last Payer Status",
-              "titleJP": "",
+              "titleJP": "Last Payer Status",
               "paragraphs": [
                 {
                   "num": "5.39",
@@ -6957,7 +6957,7 @@
               "id": "ch10-s5-S",
               "label": "S",
               "title": "Nomination Of Beneficiaries",
-              "titleJP": "",
+              "titleJP": "受益者指名",
               "paragraphs": [
                 {
                   "num": "5.41",
@@ -6975,7 +6975,7 @@
               "id": "ch10-s5-T",
               "label": "T",
               "title": "Policy Owners’ Protection Scheme",
-              "titleJP": "",
+              "titleJP": "Policy Owners’ Protection Scheme",
               "paragraphs": [
                 {
                   "num": "5.43",
@@ -7000,7 +7000,7 @@
           "id": "ch10-s6",
           "number": "6",
           "title": "Benefit Provisions",
-          "titleJP": "",
+          "titleJP": "給付規定",
           "paragraphs": [
             {
               "num": "6.1",
@@ -7023,7 +7023,7 @@
               "id": "ch10-s6-A",
               "label": "A",
               "title": "Hospital And Surgical Benefits",
-              "titleJP": "",
+              "titleJP": "入院・手術給付",
               "paragraphs": [
                 {
                   "num": "",
@@ -7038,7 +7038,7 @@
           "id": "ch10-s7",
           "number": "7",
           "title": "Exclusions",
-          "titleJP": "",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "7.1",
@@ -7062,7 +7062,7 @@
           "id": "ch10-s8",
           "number": "8",
           "title": "Claim Conditions",
-          "titleJP": "",
+          "titleJP": "請求条件",
           "paragraphs": [
             {
               "num": "8.1",
@@ -7075,7 +7075,7 @@
               "id": "ch10-s8-A",
               "label": "A",
               "title": "Notification Of Claim Condition",
-              "titleJP": "",
+              "titleJP": "請求通知条件",
               "paragraphs": [
                 {
                   "num": "8.2",
@@ -7088,7 +7088,7 @@
               "id": "ch10-s8-B",
               "label": "B",
               "title": "Submission Of Claim",
-              "titleJP": "",
+              "titleJP": "Submission Of Claim",
               "paragraphs": [
                 {
                   "num": "8.3",
@@ -7101,7 +7101,7 @@
               "id": "ch10-s8-C",
               "label": "C",
               "title": "Right To Examine",
-              "titleJP": "",
+              "titleJP": "Right To Examine",
               "paragraphs": [
                 {
                   "num": "8.4",
@@ -7114,7 +7114,7 @@
               "id": "ch10-s8-D",
               "label": "D",
               "title": "Mediation/Arbitration & Legal Action Provision",
-              "titleJP": "",
+              "titleJP": "Mediation/Arbitration & Legal Action Provision",
               "paragraphs": [
                 {
                   "num": "8.5",
@@ -7144,7 +7144,7 @@
           "id": "ch10-s9",
           "number": "9",
           "title": "Endorsements",
-          "titleJP": "",
+          "titleJP": "裏書",
           "paragraphs": [
             {
               "num": "9.1",
@@ -7173,7 +7173,7 @@
           "id": "ch10-s10",
           "number": "10",
           "title": "Conclusion",
-          "titleJP": "",
+          "titleJP": "結論",
           "paragraphs": [
             {
               "num": "10.1",
@@ -7213,7 +7213,7 @@
           "id": "ch11-s2",
           "number": "2",
           "title": "Key Factors Used In Premium Computation",
-          "titleJP": "保険料計算に用いられる主要な要素",
+          "titleJP": "保険料計算に使用される主要な要因",
           "paragraphs": [
             {
               "num": "2.1",
@@ -7239,7 +7239,7 @@
               "id": "ch11-s2-B",
               "label": "B",
               "title": "Investment Income",
-              "titleJP": "運用収益",
+              "titleJP": "運用益",
               "paragraphs": [
                 {
                   "num": "2.3",
@@ -7262,7 +7262,7 @@
               "id": "ch11-s2-C",
               "label": "C",
               "title": "Operating Expenses",
-              "titleJP": "営業費用",
+              "titleJP": "事業費",
               "paragraphs": [
                 {
                   "num": "2.6",
@@ -7275,7 +7275,7 @@
               "id": "ch11-s2-D",
               "label": "D",
               "title": "Medical Inflation",
-              "titleJP": "医療インフレ",
+              "titleJP": "医療インフレーション",
               "paragraphs": [
                 {
                   "num": "2.7",
@@ -7375,7 +7375,7 @@
           "id": "ch11-s3",
           "number": "3",
           "title": "Parameters For Premium Rating",
-          "titleJP": "保険料算定のパラメータ",
+          "titleJP": "保険料率設定のパラメータ",
           "paragraphs": [
             {
               "num": "3.1",
@@ -7602,7 +7602,7 @@
           "id": "ch12-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -7616,7 +7616,7 @@
           "id": "ch12-s2",
           "number": "2",
           "title": "What Is Underwriting?",
-          "titleJP": "",
+          "titleJP": "引受とは？",
           "paragraphs": [
             {
               "num": "2.1",
@@ -7630,7 +7630,7 @@
           "id": "ch12-s3",
           "number": "3",
           "title": "Factors That Affect Risk",
-          "titleJP": "",
+          "titleJP": "リスクに影響する要因",
           "paragraphs": [
             {
               "num": "3.1",
@@ -7648,7 +7648,7 @@
               "id": "ch12-s3-A",
               "label": "A",
               "title": "Medical Factors",
-              "titleJP": "",
+              "titleJP": "Medical Factors",
               "paragraphs": [
                 {
                   "num": "3.3",
@@ -7661,7 +7661,7 @@
               "id": "ch12-s3-A1",
               "label": "A1",
               "title": "Medical History",
-              "titleJP": "",
+              "titleJP": "Medical History",
               "paragraphs": [
                 {
                   "num": "3.4",
@@ -7689,7 +7689,7 @@
               "id": "ch12-s3-A2",
               "label": "A2",
               "title": "Current Physical Conditions",
-              "titleJP": "",
+              "titleJP": "Current Physical Conditions",
               "paragraphs": [
                 {
                   "num": "3.8",
@@ -7702,7 +7702,7 @@
               "id": "ch12-s3-B",
               "label": "B",
               "title": "Non-medical Factors",
-              "titleJP": "",
+              "titleJP": "Non-medical Factors",
               "paragraphs": [
                 {
                   "num": "3.9",
@@ -7715,7 +7715,7 @@
               "id": "ch12-s3-B1",
               "label": "B1",
               "title": "Financial Factor",
-              "titleJP": "",
+              "titleJP": "Financial Factor",
               "paragraphs": [
                 {
                   "num": "3.10",
@@ -7738,7 +7738,7 @@
               "id": "ch12-s3-B2",
               "label": "B2",
               "title": "Occupational Factor",
-              "titleJP": "",
+              "titleJP": "Occupational Factor",
               "paragraphs": [
                 {
                   "num": "3.13",
@@ -7756,7 +7756,7 @@
               "id": "ch12-s3-B3",
               "label": "B3",
               "title": "Age Factor",
-              "titleJP": "",
+              "titleJP": "Age Factor",
               "paragraphs": [
                 {
                   "num": "3.15",
@@ -7769,7 +7769,7 @@
               "id": "ch12-s3-B4",
               "label": "B4",
               "title": "Residency Factor",
-              "titleJP": "",
+              "titleJP": "Residency Factor",
               "paragraphs": [
                 {
                   "num": "3.16",
@@ -7782,7 +7782,7 @@
               "id": "ch12-s3-B5",
               "label": "B5",
               "title": "Additional Underwriting Considerations",
-              "titleJP": "",
+              "titleJP": "Additional Underwriting Considerations",
               "paragraphs": [
                 {
                   "num": "",
@@ -7795,7 +7795,7 @@
               "id": "ch12-s3-C",
               "label": "C",
               "title": "Factors That Are More Important For Different Health Insurance",
-              "titleJP": "",
+              "titleJP": "各種医療保険により重要な要因",
               "paragraphs": [
                 {
                   "num": "3.17",
@@ -7808,7 +7808,7 @@
               "id": "ch12-s3-C1",
               "label": "C1",
               "title": "Medical Expense Insurance",
-              "titleJP": "",
+              "titleJP": "医療費保険",
               "paragraphs": [
                 {
                   "num": "3.18",
@@ -7821,7 +7821,7 @@
               "id": "ch12-s3-C2",
               "label": "C2",
               "title": "Disability Income Insurance",
-              "titleJP": "",
+              "titleJP": "障害所得保険",
               "paragraphs": [
                 {
                   "num": "3.19",
@@ -7834,7 +7834,7 @@
               "id": "ch12-s3-C3",
               "label": "C3",
               "title": "Long-Term Care Insurance",
-              "titleJP": "",
+              "titleJP": "長期介護保険",
               "paragraphs": [
                 {
                   "num": "3.20",
@@ -7847,7 +7847,7 @@
               "id": "ch12-s3-C4",
               "label": "C4",
               "title": "Critical Illness Insurance",
-              "titleJP": "",
+              "titleJP": "重大疾病保険",
               "paragraphs": [
                 {
                   "num": "3.21",
@@ -7865,7 +7865,7 @@
               "id": "ch12-s3-C5",
               "label": "C5",
               "title": "Managed Healthcare",
-              "titleJP": "",
+              "titleJP": "マネージドヘルスケア",
               "paragraphs": [
                 {
                   "num": "3.23",
@@ -7883,7 +7883,7 @@
               "id": "ch12-s3-D",
               "label": "D",
               "title": "Types Of Underwriting Methods For Health Insurance",
-              "titleJP": "",
+              "titleJP": "医療保険の引受方法の種類",
               "paragraphs": [
                 {
                   "num": "3.25",
@@ -7896,7 +7896,7 @@
               "id": "ch12-s3-D1",
               "label": "D1",
               "title": "Full Medical Underwriting",
-              "titleJP": "",
+              "titleJP": "Full Medical Underwriting",
               "paragraphs": [
                 {
                   "num": "3.26",
@@ -7924,7 +7924,7 @@
               "id": "ch12-s3-D2",
               "label": "D2",
               "title": "Moratorium Underwriting (Used for Medical Expense Insurance)",
-              "titleJP": "",
+              "titleJP": "モラトリアム引受（医療費保険に使用）",
               "paragraphs": [
                 {
                   "num": "3.30",
@@ -7962,7 +7962,7 @@
               "id": "ch12-s3-D3",
               "label": "D3",
               "title": "Simplified Issuance Offer (SIO)",
-              "titleJP": "",
+              "titleJP": "Simplified Issuance Offer (SIO)",
               "paragraphs": [
                 {
                   "num": "3.36",
@@ -7985,7 +7985,7 @@
               "id": "ch12-s3-D4",
               "label": "D4",
               "title": "Guaranteed Issuance Offer (GIO)",
-              "titleJP": "",
+              "titleJP": "Guaranteed Issuance Offer (GIO)",
               "paragraphs": [
                 {
                   "num": "3.39",
@@ -8008,7 +8008,7 @@
               "id": "ch12-s3-E",
               "label": "E",
               "title": "Group Underwriting",
-              "titleJP": "",
+              "titleJP": "Group Underwriting",
               "paragraphs": [
                 {
                   "num": "3.42",
@@ -8021,7 +8021,7 @@
               "id": "ch12-s3-E1",
               "label": "E1",
               "title": "Reason For Existence",
-              "titleJP": "",
+              "titleJP": "Reason For Existence",
               "paragraphs": [
                 {
                   "num": "3.43",
@@ -8044,7 +8044,7 @@
               "id": "ch12-s3-E2",
               "label": "E2",
               "title": "Group Stability",
-              "titleJP": "",
+              "titleJP": "Group Stability",
               "paragraphs": [
                 {
                   "num": "3.46",
@@ -8062,7 +8062,7 @@
               "id": "ch12-s3-E3",
               "label": "E3",
               "title": "Group Size",
-              "titleJP": "",
+              "titleJP": "Group Size",
               "paragraphs": [
                 {
                   "num": "3.48",
@@ -8075,7 +8075,7 @@
               "id": "ch12-s3-E4",
               "label": "E4",
               "title": "Company‘s Nature Of Business",
-              "titleJP": "",
+              "titleJP": "Company‘s Nature Of Business",
               "paragraphs": [
                 {
                   "num": "3.49",
@@ -8088,7 +8088,7 @@
               "id": "ch12-s3-E5",
               "label": "E5",
               "title": "Employee Classes",
-              "titleJP": "",
+              "titleJP": "Employee Classes",
               "paragraphs": [
                 {
                   "num": "3.50",
@@ -8101,7 +8101,7 @@
               "id": "ch12-s3-E6",
               "label": "E6",
               "title": "Level Of Participation",
-              "titleJP": "",
+              "titleJP": "Level Of Participation",
               "paragraphs": [
                 {
                   "num": "3.51",
@@ -8114,7 +8114,7 @@
               "id": "ch12-s3-E7",
               "label": "E7",
               "title": "Age & Gender of The Group",
-              "titleJP": "",
+              "titleJP": "Age & Gender of The Group",
               "paragraphs": [
                 {
                   "num": "3.52",
@@ -8132,7 +8132,7 @@
               "id": "ch12-s3-E8",
               "label": "E8",
               "title": "Expected Persistency",
-              "titleJP": "",
+              "titleJP": "Expected Persistency",
               "paragraphs": [
                 {
                   "num": "3.54",
@@ -8145,7 +8145,7 @@
               "id": "ch12-s3-E9",
               "label": "E9",
               "title": "Past Claims Experience",
-              "titleJP": "",
+              "titleJP": "Past Claims Experience",
               "paragraphs": [
                 {
                   "num": "3.55",
@@ -8158,7 +8158,7 @@
               "id": "ch12-s3-E10",
               "label": "E10",
               "title": "Medical Inflation",
-              "titleJP": "",
+              "titleJP": "医療インフレーション",
               "paragraphs": [
                 {
                   "num": "3.56",
@@ -8176,7 +8176,7 @@
               "id": "ch12-s3-E11",
               "label": "E11",
               "title": "Medical Utilisation Rate & Trend",
-              "titleJP": "",
+              "titleJP": "Medical Utilisation Rate & Trend",
               "paragraphs": [
                 {
                   "num": "3.58",
@@ -8191,7 +8191,7 @@
           "id": "ch12-s4",
           "number": "4",
           "title": "Sources Of Underwriting Information",
-          "titleJP": "",
+          "titleJP": "引受情報の入手元",
           "paragraphs": [
             {
               "num": "4.1",
@@ -8209,7 +8209,7 @@
               "id": "ch12-s4-A",
               "label": "A",
               "title": "Proposal Form",
-              "titleJP": "",
+              "titleJP": "申込書",
               "paragraphs": [
                 {
                   "num": "4.3",
@@ -8227,7 +8227,7 @@
               "id": "ch12-s4-A1",
               "label": "A1",
               "title": "Sections Of A Proposal Form",
-              "titleJP": "",
+              "titleJP": "申込書のセクション",
               "paragraphs": [
                 {
                   "num": "4.5",
@@ -8250,7 +8250,7 @@
               "id": "ch12-s4-B",
               "label": "B",
               "title": "The Agent’s Statement",
-              "titleJP": "",
+              "titleJP": "The Agent’s Statement",
               "paragraphs": [
                 {
                   "num": "4.8",
@@ -8268,7 +8268,7 @@
               "id": "ch12-s4-C",
               "label": "C",
               "title": "Medical Examinations/Tests",
-              "titleJP": "",
+              "titleJP": "Medical Examinations/Tests",
               "paragraphs": [
                 {
                   "num": "4.10",
@@ -8296,7 +8296,7 @@
               "id": "ch12-s4-D",
               "label": "D",
               "title": "Attending Physician’s Statement (APS)",
-              "titleJP": "",
+              "titleJP": "Attending Physician’s Statement (APS)",
               "paragraphs": [
                 {
                   "num": "4.14",
@@ -8309,7 +8309,7 @@
               "id": "ch12-s4-E",
               "label": "E",
               "title": "Supplementary Questionnaires",
-              "titleJP": "",
+              "titleJP": "Supplementary Questionnaires",
               "paragraphs": [
                 {
                   "num": "4.15",
@@ -8329,7 +8329,7 @@
           "id": "ch12-s5",
           "number": "5",
           "title": "How An Insurance Representative Can Help In The Underwriting",
-          "titleJP": "",
+          "titleJP": "保険担当者が引受プロセスを支援する方法",
           "paragraphs": [
             {
               "num": "",
@@ -8368,7 +8368,7 @@
           "id": "ch12-s6",
           "number": "6",
           "title": "Final Underwriting Decision",
-          "titleJP": "",
+          "titleJP": "最終的な引受判断",
           "paragraphs": [
             {
               "num": "6.1",
@@ -8381,7 +8381,7 @@
               "id": "ch12-s6-A",
               "label": "A",
               "title": "Standard Risks",
-              "titleJP": "",
+              "titleJP": "Standard Risks",
               "paragraphs": [
                 {
                   "num": "6.2",
@@ -8394,7 +8394,7 @@
               "id": "ch12-s6-B",
               "label": "B",
               "title": "Sub-standard Risks",
-              "titleJP": "",
+              "titleJP": "Sub-standard Risks",
               "paragraphs": [
                 {
                   "num": "6.3",
@@ -8407,7 +8407,7 @@
               "id": "ch12-s6-B1",
               "label": "B1",
               "title": "Modifications Of Cover",
-              "titleJP": "",
+              "titleJP": "Modifications Of Cover",
               "paragraphs": [
                 {
                   "num": "6.4",
@@ -8420,7 +8420,7 @@
               "id": "ch12-s6-B2",
               "label": "B2",
               "title": "Postponement",
-              "titleJP": "",
+              "titleJP": "Postponement",
               "paragraphs": [
                 {
                   "num": "6.5",
@@ -8433,7 +8433,7 @@
               "id": "ch12-s6-B3",
               "label": "B3",
               "title": "Decline",
-              "titleJP": "",
+              "titleJP": "Decline",
               "paragraphs": [
                 {
                   "num": "6.6",
@@ -8453,7 +8453,7 @@
           "id": "ch12-s7",
           "number": "7",
           "title": "Commencement Of Risk",
-          "titleJP": "",
+          "titleJP": "リスクの開始",
           "paragraphs": [
             {
               "num": "7.1",
@@ -8467,7 +8467,7 @@
           "id": "ch12-s8",
           "number": "8",
           "title": "Conclusion",
-          "titleJP": "",
+          "titleJP": "結論",
           "paragraphs": [
             {
               "num": "8.1",
@@ -8480,7 +8480,7 @@
               "id": "ch12-s8-A",
               "label": "A",
               "title": "PARTICULARS OF PROPOSER (Proposer can be a company / firm / individual)",
-              "titleJP": "",
+              "titleJP": "PARTICULARS OF PROPOSER (Proposer can be a company / firm / individual)",
               "paragraphs": [
                 {
                   "num": "",
@@ -8493,7 +8493,7 @@
               "id": "ch12-s8-B",
               "label": "B",
               "title": "PLAN PROPOSED",
-              "titleJP": "",
+              "titleJP": "PLAN PROPOSED",
               "paragraphs": [
                 {
                   "num": "",
@@ -8506,7 +8506,7 @@
               "id": "ch12-s8-C",
               "label": "C",
               "title": "PARTICULARS OF PERSONS TO BE INSURED",
-              "titleJP": "",
+              "titleJP": "PARTICULARS OF PERSONS TO BE INSURED",
               "paragraphs": [
                 {
                   "num": "",
@@ -8519,7 +8519,7 @@
               "id": "ch12-s8-D",
               "label": "D",
               "title": "ADDRESS OF PERSON(S) TO BE INSURED (To be completed if it differs from above)",
-              "titleJP": "",
+              "titleJP": "ADDRESS OF PERSON(S) TO BE INSURED (To be completed if it differs from above)",
               "paragraphs": [
                 {
                   "num": "",
@@ -8532,7 +8532,7 @@
               "id": "ch12-s8-E",
               "label": "E",
               "title": "HEALTH DECLARATION",
-              "titleJP": "",
+              "titleJP": "HEALTH DECLARATION",
               "paragraphs": [
                 {
                   "num": "",
@@ -8545,14 +8545,14 @@
               "id": "ch12-s8-F",
               "label": "F",
               "title": "SOURCE OF WEALTH/FUNDS",
-              "titleJP": "",
+              "titleJP": "SOURCE OF WEALTH/FUNDS",
               "paragraphs": []
             },
             {
               "id": "ch12-s8-G",
               "label": "G",
               "title": "PERSONAL DATA PROTECTION AND CONSENT",
-              "titleJP": "",
+              "titleJP": "PERSONAL DATA PROTECTION AND CONSENT",
               "paragraphs": [
                 {
                   "num": "",
@@ -8565,7 +8565,7 @@
               "id": "ch12-s8-H",
               "label": "H",
               "title": "ELECTRONIC DOCUMENTS",
-              "titleJP": "",
+              "titleJP": "ELECTRONIC DOCUMENTS",
               "paragraphs": [
                 {
                   "num": "",
@@ -8578,7 +8578,7 @@
               "id": "ch12-s8-I",
               "label": "I",
               "title": "DECLARATION",
-              "titleJP": "",
+              "titleJP": "DECLARATION",
               "paragraphs": [
                 {
                   "num": "",
@@ -8591,7 +8591,7 @@
               "id": "ch12-s8-A",
               "label": "A",
               "title": "GENERAL INFORMATION",
-              "titleJP": "",
+              "titleJP": "GENERAL INFORMATION",
               "paragraphs": [
                 {
                   "num": "",
@@ -8604,7 +8604,7 @@
               "id": "ch12-s8-B",
               "label": "B",
               "title": "ELIGIBILITY",
-              "titleJP": "",
+              "titleJP": "ELIGIBILITY",
               "paragraphs": [
                 {
                   "num": "",
@@ -8617,7 +8617,7 @@
               "id": "ch12-s8-C",
               "label": "C",
               "title": "PLAN TO BE INSURED (Please tick the plan applicable)",
-              "titleJP": "",
+              "titleJP": "PLAN TO BE INSURED (Please tick the plan applicable)",
               "paragraphs": [
                 {
                   "num": "",
@@ -8630,7 +8630,7 @@
               "id": "ch12-s8-D",
               "label": "D",
               "title": "GROUP MAJOR MEDICAL – (OPTIONAL)",
-              "titleJP": "",
+              "titleJP": "GROUP MAJOR MEDICAL – (OPTIONAL)",
               "paragraphs": [
                 {
                   "num": "",
@@ -8643,7 +8643,7 @@
               "id": "ch12-s8-E",
               "label": "E",
               "title": "GROUP OUT-PATIENT CANCER TREATMENT AND KIDNEY DIALYSIS – (OPTIONAL)",
-              "titleJP": "",
+              "titleJP": "GROUP OUT-PATIENT CANCER TREATMENT AND KIDNEY DIALYSIS – (OPTIONAL)",
               "paragraphs": [
                 {
                   "num": "",
@@ -8656,7 +8656,7 @@
               "id": "ch12-s8-F",
               "label": "F",
               "title": "Name of Insured Employee: Spouse (if insured) Child(ren)***if insured",
-              "titleJP": "",
+              "titleJP": "Name of Insured Employee: Spouse (if insured) Child(ren)***if insured",
               "paragraphs": [
                 {
                   "num": "",
@@ -8669,7 +8669,7 @@
               "id": "ch12-s8-G",
               "label": "G",
               "title": "HEALTH STATEMENT – To be completed by each insured employee",
-              "titleJP": "",
+              "titleJP": "HEALTH STATEMENT – To be completed by each insured employee",
               "paragraphs": [
                 {
                   "num": "",
@@ -8712,7 +8712,7 @@
           "id": "ch13-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "背景",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -8804,7 +8804,7 @@
           "id": "ch14-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -8818,7 +8818,7 @@
           "id": "ch14-s2",
           "number": "2",
           "title": "Needs Selling Versus Product Selling",
-          "titleJP": "",
+          "titleJP": "ニーズセリングとプロダクトセリング",
           "paragraphs": [
             {
               "num": "2.1",
@@ -8842,7 +8842,7 @@
           "id": "ch14-s3",
           "number": "3",
           "title": "What Is Fact-finding?",
-          "titleJP": "",
+          "titleJP": "ファクトファインディングとは？",
           "paragraphs": [
             {
               "num": "3.1",
@@ -8855,7 +8855,7 @@
               "id": "ch14-s3-A",
               "label": "A",
               "title": "Common Sections Of The Fact-Find Document",
-              "titleJP": "",
+              "titleJP": "ファクトファインド・ドキュメントの共通セクション",
               "paragraphs": [
                 {
                   "num": "3.2",
@@ -8880,14 +8880,14 @@
           "id": "ch14-s4",
           "number": "4",
           "title": "Identifying & Quantifying Needs",
-          "titleJP": "",
+          "titleJP": "ニーズの特定と定量化",
           "paragraphs": [],
           "subsections": [
             {
               "id": "ch14-s4-A",
               "label": "A",
               "title": "Identifying Needs",
-              "titleJP": "",
+              "titleJP": "Identifying Needs",
               "paragraphs": [
                 {
                   "num": "4.1",
@@ -8900,7 +8900,7 @@
               "id": "ch14-s4-A1",
               "label": "A1",
               "title": "Emergency Fund",
-              "titleJP": "",
+              "titleJP": "Emergency Fund",
               "paragraphs": [
                 {
                   "num": "4.2",
@@ -8918,7 +8918,7 @@
               "id": "ch14-s4-A2",
               "label": "A2",
               "title": "Employment Status & Occupation",
-              "titleJP": "",
+              "titleJP": "Employment Status & Occupation",
               "paragraphs": [
                 {
                   "num": "4.4",
@@ -8931,7 +8931,7 @@
               "id": "ch14-s4-A3",
               "label": "A3",
               "title": "Life Stages",
-              "titleJP": "",
+              "titleJP": "Life Stages",
               "paragraphs": [
                 {
                   "num": "4.5",
@@ -8954,7 +8954,7 @@
               "id": "ch14-s4-A4",
               "label": "A4",
               "title": "Dependants",
-              "titleJP": "",
+              "titleJP": "Dependants",
               "paragraphs": [
                 {
                   "num": "4.8",
@@ -8967,7 +8967,7 @@
               "id": "ch14-s4-A5",
               "label": "A5",
               "title": "Existing Insurance Policies",
-              "titleJP": "",
+              "titleJP": "既存の保険証券",
               "paragraphs": [
                 {
                   "num": "4.9",
@@ -8980,7 +8980,7 @@
               "id": "ch14-s4-A6",
               "label": "A6",
               "title": "Need For Health Insurance",
-              "titleJP": "",
+              "titleJP": "医療保険の必要性",
               "paragraphs": [
                 {
                   "num": "4.10",
@@ -8993,7 +8993,7 @@
               "id": "ch14-s4-B",
               "label": "B",
               "title": "Quantifying Needs",
-              "titleJP": "",
+              "titleJP": "Quantifying Needs",
               "paragraphs": [
                 {
                   "num": "4.11",
@@ -9006,7 +9006,7 @@
               "id": "ch14-s4-B1",
               "label": "B1",
               "title": "Disability Income Protection Needs",
-              "titleJP": "",
+              "titleJP": "Disability Income Protection Needs",
               "paragraphs": [
                 {
                   "num": "4.12",
@@ -9029,7 +9029,7 @@
               "id": "ch14-s4-B2",
               "label": "B2",
               "title": "Medical Costs",
-              "titleJP": "",
+              "titleJP": "Medical Costs",
               "paragraphs": [
                 {
                   "num": "4.15",
@@ -9052,7 +9052,7 @@
               "id": "ch14-s4-B3",
               "label": "B3",
               "title": "Hospital Cash Insurance",
-              "titleJP": "",
+              "titleJP": "入院日額保険",
               "paragraphs": [
                 {
                   "num": "4.18",
@@ -9065,7 +9065,7 @@
               "id": "ch14-s4-B4",
               "label": "B4",
               "title": "Critical Illness Insurance",
-              "titleJP": "",
+              "titleJP": "重大疾病保険",
               "paragraphs": [
                 {
                   "num": "4.19",
@@ -9095,7 +9095,7 @@
           "id": "ch14-s5",
           "number": "5",
           "title": "Product Recommendations",
-          "titleJP": "",
+          "titleJP": "商品の推奨",
           "paragraphs": [
             {
               "num": "5.1",
@@ -9108,7 +9108,7 @@
               "id": "ch14-s5-A",
               "label": "A",
               "title": "Product Suitability",
-              "titleJP": "",
+              "titleJP": "Product Suitability",
               "paragraphs": [
                 {
                   "num": "5.2",
@@ -9121,7 +9121,7 @@
               "id": "ch14-s5-A1",
               "label": "A1",
               "title": "Good Product Knowledge",
-              "titleJP": "",
+              "titleJP": "Good Product Knowledge",
               "paragraphs": [
                 {
                   "num": "5.3",
@@ -9134,7 +9134,7 @@
               "id": "ch14-s5-B",
               "label": "B",
               "title": "Affordability",
-              "titleJP": "",
+              "titleJP": "Affordability",
               "paragraphs": [
                 {
                   "num": "5.4",
@@ -9147,7 +9147,7 @@
               "id": "ch14-s5-C",
               "label": "C",
               "title": "Important Points To Note On Policy Selection",
-              "titleJP": "",
+              "titleJP": "Important Points To Note On Policy Selection",
               "paragraphs": [
                 {
                   "num": "5.5",
@@ -9162,7 +9162,7 @@
           "id": "ch14-s6",
           "number": "6",
           "title": "Presenting Your Recommendations",
-          "titleJP": "",
+          "titleJP": "推奨の提示",
           "paragraphs": [
             {
               "num": "6.1",
@@ -9191,7 +9191,7 @@
           "id": "ch14-s7",
           "number": "7",
           "title": "Periodic Client Review",
-          "titleJP": "",
+          "titleJP": "定期的な顧客レビュー",
           "paragraphs": [
             {
               "num": "7.1",
@@ -9244,7 +9244,7 @@
           "id": "ch15-s1",
           "number": "1",
           "title": "Introduction",
-          "titleJP": "",
+          "titleJP": "はじめに",
           "paragraphs": [
             {
               "num": "1.1",
@@ -9282,7 +9282,7 @@
               "id": "ch15-s1-A",
               "label": "A",
               "title": "Maintenance Costs",
-              "titleJP": "",
+              "titleJP": "Maintenance Costs",
               "paragraphs": [
                 {
                   "num": "2.5",
@@ -9315,7 +9315,7 @@
               "id": "ch15-s1-B",
               "label": "B",
               "title": "Medical Costs",
-              "titleJP": "",
+              "titleJP": "Medical Costs",
               "paragraphs": [
                 {
                   "num": "2.10",

@@ -786,7 +786,7 @@
               "id": "ch1-s5-F",
               "label": "F",
               "title": "Extensions",
-              "titleJP": "拡張特約",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "5.50",
@@ -1389,7 +1389,7 @@
               "id": "ch1-s8-A",
               "label": "A",
               "title": "Motor Insurers’ Bureau Of Singapore (MIB)",
-              "titleJP": "",
+              "titleJP": "Motor Insurers’ Bureau Of Singapore (MIB)",
               "paragraphs": [
                 {
                   "num": "8.1",
@@ -1514,7 +1514,7 @@
               "id": "ch1-s8-C3",
               "label": "C3",
               "title": "FIDReC’s Dispute Resolution Process",
-              "titleJP": "",
+              "titleJP": "FIDReC’s Dispute Resolution Process",
               "paragraphs": [
                 {
                   "num": "8.18",
@@ -1984,7 +1984,7 @@
               "id": "ch2-s4-A2",
               "label": "A2",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.13",
@@ -2119,7 +2119,7 @@
               "id": "ch2-s4-B2",
               "label": "B2",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.32",
@@ -2285,7 +2285,7 @@
               "id": "ch2-s4-C4",
               "label": "C4",
               "title": "Domestic Servant’s Property",
-              "titleJP": "",
+              "titleJP": "Domestic Servant’s Property",
               "paragraphs": [
                 {
                   "num": "4.54",
@@ -2451,7 +2451,7 @@
               "id": "ch2-s5-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "5.8",
@@ -2792,7 +2792,7 @@
               "id": "ch2-s14-A",
               "label": "A",
               "title": "Loss or damage to data or software, in particular any detrimental change in data, software or computer programs that is caused by a",
-              "titleJP": "",
+              "titleJP": "Loss or damage to data or software, in particular any detrimental change in data, software or computer programs that is caused by a",
               "paragraphs": [
                 {
                   "num": "",
@@ -2805,7 +2805,7 @@
               "id": "ch2-s14-B",
               "label": "B",
               "title": "Loss or damage resulting from an impairment in the function, availability, range of use or accessibility of data, software or computer",
-              "titleJP": "",
+              "titleJP": "Loss or damage resulting from an impairment in the function, availability, range of use or accessibility of data, software or computer",
               "paragraphs": [
                 {
                   "num": "",
@@ -3270,7 +3270,7 @@
           "id": "ch3-s7",
           "number": "7",
           "title": "Exclusions",
-          "titleJP": "免責事由",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "7.1",
@@ -3289,7 +3289,7 @@
           "id": "ch3-s8",
           "number": "8",
           "title": "Extensions",
-          "titleJP": "拡張特約",
+          "titleJP": "拡張担保",
           "paragraphs": [
             {
               "num": "8.1",
@@ -4834,7 +4834,7 @@
               "id": "ch5-s4-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "4.11",
@@ -4847,7 +4847,7 @@
               "id": "ch5-s4-D",
               "label": "D",
               "title": "Extensions",
-              "titleJP": "拡張特約",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "4.12",
@@ -4891,7 +4891,7 @@
               "id": "ch5-s4-E2",
               "label": "E2",
               "title": "Insurer’s Rights",
-              "titleJP": "",
+              "titleJP": "Insurer’s Rights",
               "paragraphs": [
                 {
                   "num": "4.16",
@@ -5234,7 +5234,7 @@
           "id": "ch6-s4",
           "number": "4",
           "title": "Benefits Offered Under Critical Illness Insurance",
-          "titleJP": "重疾病保険の給付",
+          "titleJP": "重大疾病保険に基づく給付",
           "paragraphs": [],
           "subsections": [
             {
@@ -5288,7 +5288,7 @@
               "id": "ch6-s6-A",
               "label": "A",
               "title": "Acceleration Benefit Critical Illness (CI) Insurance Cover",
-              "titleJP": "前払給付型重疾病保険",
+              "titleJP": "前払給付型重大疾病（CI）保険",
               "paragraphs": [
                 {
                   "num": "6.3",
@@ -5341,7 +5341,7 @@
               "id": "ch6-s6-B",
               "label": "B",
               "title": "Additional Benefit Critical Illness (CI) Insurance Cover",
-              "titleJP": "追加給付型重疾病保険",
+              "titleJP": "追加給付型重大疾病（CI）保険",
               "paragraphs": [
                 {
                   "num": "6.12",
@@ -5376,7 +5376,7 @@
           "id": "ch6-s7",
           "number": "7",
           "title": "Variations Of Critical Illness Insurance",
-          "titleJP": "重疾病保険のバリエーション",
+          "titleJP": "重大疾病保険のバリエーション",
           "paragraphs": [
             {
               "num": "7.1",
@@ -5414,7 +5414,7 @@
               "id": "ch6-s7-A",
               "label": "A",
               "title": "Severity-Based Critical Illness (CI) Insurance Plan (Early Pay CI)",
-              "titleJP": "重症度連動型重疾病保険（早期給付型CI）",
+              "titleJP": "重症度ベース重大疾病（CI）保険プラン（早期支払CI）",
               "paragraphs": [
                 {
                   "num": "7.7",
@@ -5483,7 +5483,7 @@
               "id": "ch6-s7-B",
               "label": "B",
               "title": "Multiple Pay Critical Illness (CI) Insurance Plan",
-              "titleJP": "複数回給付型重疾病保険",
+              "titleJP": "マルチペイ重大疾病（CI）保険プラン",
               "paragraphs": [
                 {
                   "num": "7.16",
@@ -5614,7 +5614,7 @@
               "id": "ch6-s9-A",
               "label": "A",
               "title": "Life Insurance Association’s (LIA) Recommended Amount",
-              "titleJP": "",
+              "titleJP": "Life 保険 Association’s (LIA) Recommended Amount",
               "paragraphs": [
                 {
                   "num": "9.5",
@@ -5728,7 +5728,7 @@
           "id": "ch6-s10",
           "number": "10",
           "title": "Exclusions",
-          "titleJP": "免責事由",
+          "titleJP": "免責事項",
           "paragraphs": [
             {
               "num": "10.1",
@@ -5761,7 +5761,7 @@
           "id": "ch6-s12",
           "number": "12",
           "title": "Claims",
-          "titleJP": "保険金請求",
+          "titleJP": "請求",
           "paragraphs": [
             {
               "num": "12.1",
@@ -5790,7 +5790,7 @@
           "id": "ch6-s13",
           "number": "13",
           "title": "Hospital Cash (Income) Insurance",
-          "titleJP": "入院日額（所得）保険",
+          "titleJP": "入院日額（入院所得）保険",
           "paragraphs": [],
           "subsections": [
             {
@@ -5900,7 +5900,7 @@
               "id": "ch6-s13-D1",
               "label": "D1",
               "title": "Stand-alone Hospital Cash Insurance",
-              "titleJP": "単独型入院日額保険",
+              "titleJP": "スタンドアローン入院日額保険",
               "paragraphs": [
                 {
                   "num": "13.11",
@@ -5923,7 +5923,7 @@
               "id": "ch6-s13-D2",
               "label": "D2",
               "title": "Hospital Cash Insurance Riders",
-              "titleJP": "入院日額保険の特約",
+              "titleJP": "入院日額保険ライダー",
               "paragraphs": [
                 {
                   "num": "13.14",
@@ -5949,7 +5949,7 @@
               "id": "ch6-s13-F",
               "label": "F",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "13.16",
@@ -5980,7 +5980,7 @@
               "id": "ch6-s13-H",
               "label": "H",
               "title": "Claims",
-              "titleJP": "保険金請求",
+              "titleJP": "請求",
               "paragraphs": [
                 {
                   "num": "13.19",
@@ -6481,7 +6481,7 @@
               "id": "ch7-s2-E",
               "label": "E",
               "title": "Extensions",
-              "titleJP": "拡張特約",
+              "titleJP": "拡張担保",
               "paragraphs": [
                 {
                   "num": "2.60",
@@ -6525,7 +6525,7 @@
               "id": "ch7-s2-E3",
               "label": "E3",
               "title": "Foreign Domestic Worker’s Liability",
-              "titleJP": "",
+              "titleJP": "Foreign Domestic Worker’s Liability",
               "paragraphs": [
                 {
                   "num": "2.64",
@@ -6543,7 +6543,7 @@
               "id": "ch7-s2-E4",
               "label": "E4",
               "title": "Foreign Domestic Worker’s Belongings",
-              "titleJP": "",
+              "titleJP": "Foreign Domestic Worker’s Belongings",
               "paragraphs": [
                 {
                   "num": "2.66",
@@ -6817,7 +6817,7 @@
               "id": "ch7-s2-C",
               "label": "C",
               "title": "Exclusions",
-              "titleJP": "免責事由",
+              "titleJP": "免責事項",
               "paragraphs": [
                 {
                   "num": "3.22",
