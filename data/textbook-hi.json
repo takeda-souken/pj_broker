@@ -14,14 +14,25 @@
         "Healthcare System in Singapore",
         "Affordable Care In Singapore"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "シンガポール政府の医療哲学",
+        "シンガポールの医療制度の変革",
+        "シンガポールの医療制度",
+        "シンガポールにおける手頃な医療"
+      ],
       "learningOutcomes": [
         "understand the Singapore Government’s healthcare philosophy",
         "know the transformation of Singapore’s healthcare system",
         "understand the differences between primary healthcare services, hospital services, and Intermediate and Long-term care services",
         "know the other healthcare services provided – dental, traditional and complementary medicine and support services"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "シンガポール政府の医療哲学を理解する",
+        "シンガポールの医療制度の変革を知る",
+        "プライマリヘルスケアサービス、病院サービス、および中間・長期ケアサービスの違いを理解する",
+        "提供されるその他の医療サービス（歯科、伝統・補完医療、サポートサービス）を知る"
+      ],
       "sections": [
         {
           "id": "ch1-s1",
@@ -260,7 +271,16 @@
         "Claims",
         "Notice NO.: MAS 117 - Training and Competency Requirements – Health Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "医療保険",
+        "医療費保険の主な特徴",
+        "引受",
+        "医療費補助金レベル",
+        "補償の終了",
+        "請求",
+        "MAS通達第117号 — 研修・能力要件：医療保険"
+      ],
       "learningOutcomes": [
         "describe the three categories of Health Insurance",
         "know the types of coverage provided under a Medical Expense Insurance policy",
@@ -273,7 +293,18 @@
         "know the documents to be furnished in the event of a claim",
         "know the training and competency requirements for health insurance as stated in Notice No.: MAS 117 - Training and Competency Requirements - Health Insurance."
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "医療保険の3つのカテゴリーを説明する",
+        "医療費保険に基づく補償の種類を知る",
+        "医療費保険に基づいて保険者が提供するさまざまな給付を理解する",
+        "医療費保険の主な特徴を説明する：スタンドアローンまたはライダー、プランの選択、家族補償、費用の償還、費用参加（免責額・共同保険・按分率）、給付限度額、補償対象の費用、地理的制限、待機期間、年齢制限、保険料、更新可能性",
+        "医療費保険に基づく一般的な免責事項と制限事項（給付の調整）を知る",
+        "個人および団体の引受情報の入手元を知る",
+        "市民と非市民の補助金区分の根拠を知る",
+        "医療費保険に基づく被保険者の補償がいつ終了するかを知る",
+        "請求時に提出すべき書類を知る",
+        "MAS通達第117号に記載された医療保険の研修・能力要件を知る"
+      ],
       "sections": [
         {
           "id": "ch2-s1",
@@ -933,7 +964,13 @@
         "Medical Insurance Requirements for Migrant Workers",
         "Portable Medical Benefits"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "団体保険",
+        "団体入院・手術（GHS）保険",
+        "外国人労働者の医療保険要件",
+        "ポータブル医療給付"
+      ],
       "learningOutcomes": [
         "know the criteria for a group to be eligible for Group Insurance cover",
         "state the characteristics of a Group Insurance policy",
@@ -952,7 +989,24 @@
         "understand tax deductions with Shield Plan provision",
         "understand tax deductions for ad-hoc MediSave contributions"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "団体保険の適格基準を知る",
+        "団体保険証券の特徴を述べる",
+        "外国人労働者の医療保険要件を理解する",
+        "強制加入プランと任意加入プランの違いを説明する",
+        "強制加入プランと任意加入プランの利点を列挙する",
+        "個人医療費保険とGHS保険の違いを理解する",
+        "外国人労働者の医療保険の仕組みを知る",
+        "雇用主が税額控除の資格を得て従業員の医療給付を維持するための3つの選択肢を理解する",
+        "ポータブル医療給付スキーム（PMBS）の仕組みを知る",
+        "移転可能医療保険スキーム（TMIS）の仕組みを理解する",
+        "雇用主がTMISの適格性を得るための基準を知る",
+        "TMISの2つの主な特徴を説明する：継続給付、移転給付",
+        "TMISスペシャル・ベネフィットの対象となる医療費を列挙する",
+        "PMBSとTMISの違いを述べる",
+        "シールドプラン提供による税額控除を理解する",
+        "臨時MediSave拠出による税額控除を理解する"
+      ],
       "sections": [
         {
           "id": "ch3-s1",
@@ -1378,7 +1432,23 @@
         "Disability Income Claims",
         "Conclusion"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "障害所得保険とは？",
+        "障害所得保険と全部永久障害",
+        "障害所得保険給付の計算",
+        "定義",
+        "障害所得保険に基づく給付",
+        "障害所得保険証券の特徴",
+        "引受",
+        "給付の終了",
+        "免責事項",
+        "補償の終了",
+        "団体障害所得保険",
+        "団体障害所得保険の一般的な引受原則",
+        "障害所得の請求",
+        "結論"
+      ],
       "learningOutcomes": [
         "describe what Disability Income Insurance is",
         "differentiate between Disability Income Insurance and Total and Permanent Disability Benefit",
@@ -1399,7 +1469,26 @@
         "understand the coverage and features of Group Disability Income Insurance",
         "know the general underwriting principles and claims procedures for both Individual and Group Disability Income Insurance"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "障害所得保険とは何かを説明する",
+        "障害所得保険と全部永久障害（TPD）給付の違いを説明する",
+        "障害所得保険の仕組みを理解する",
+        "全部障害、部分障害、再発障害（連結請求）、給付期間、据置/待機期間を簡潔に説明する",
+        "「自己職業」「修正自己職業」「いかなる職業」「重度障害」の定義の違いを知る",
+        "障害所得保険給付の支払適格基準を列挙する",
+        "障害所得保険が提供する給付の種類を説明する：全部障害給付、部分障害給付、リハビリテーション費用給付、エスカレーション給付、保険料免除給付、死亡給付",
+        "部分障害給付の計算方法を知る",
+        "エスカレーション給付の仕組みを知る",
+        "障害給付の制限条項の仕組みを説明する",
+        "障害所得保険の特徴を列挙する",
+        "個人従業員および自営業者の障害所得保険の引受に必要な書類を列挙する",
+        "障害所得保険の引受上の考慮事項を簡潔に説明する：職業、給付額、給付期間、据置/待機期間",
+        "障害所得保険証券に基づく給付の支払いが終了する時期を知る",
+        "障害所得保険に一般的に見られる免責事項を列挙する",
+        "障害所得保険証券が終了する事象を列挙する",
+        "団体障害所得保険の補償と特徴を理解する",
+        "個人および団体の障害所得保険の一般的な引受原則と請求手続きを知る"
+      ],
       "sections": [
         {
           "id": "ch4-s1",
@@ -2170,7 +2259,16 @@
         "ElderShield",
         "CareShield Life"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "長期介護（LTC）保険とは？",
+        "LTC保険に基づく給付",
+        "LTC保険に基づくその他の給付",
+        "最大給付額",
+        "給付支払い期間",
+        "ElderShield",
+        "CareShield Life"
+      ],
       "learningOutcomes": [
         "explain Long-Term Care (LTC) Insurance",
         "know the types of LTC Insurance",
@@ -2189,7 +2287,24 @@
         "know the differences between ElderShield and CareShield Life",
         "explain the features of MediSave Care"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "長期介護（LTC）保険を説明する",
+        "LTC保険の種類を知る",
+        "LTC保険に基づく給付を知る",
+        "LTC給付の支払適格基準を知る",
+        "日常生活動作（ADL）とは何か、およびLTC保険の給付支払いとの関係を知る",
+        "LTC保険に基づくその他の給付を知る",
+        "LTC保険の最大給付額と給付支払い期間を説明する",
+        "ElderShieldとは何かを知る",
+        "ElderShieldの補償対象者を知る",
+        "ElderShieldの補償を確認する方法を知る",
+        "ElderShieldの保護の範囲と保険料を知る",
+        "被保険者がElderShieldに基づいて請求できる条件を説明する",
+        "ElderShieldに基づく請求方法を知る",
+        "CareShield Lifeとは何か、およびより良い保護を提供する仕組みを知る",
+        "ElderShieldとCareShield Lifeの違いを知る",
+        "MediSave Careの特徴を説明する"
+      ],
       "sections": [
         {
           "id": "ch5-s1",
@@ -2781,7 +2896,19 @@
         "Claims",
         "Group Critical Illness (CI) Insurance Policy"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "重大疾病（CI）保険",
+        "LIA重大疾病フレームワーク2019（「CIフレームワーク」）",
+        "重大疾病保険に基づく給付",
+        "重大疾病保険のバリエーション",
+        "引受",
+        "重大疾病保険の補償の十分性を判断するための考慮要因",
+        "免責事項",
+        "補償の終了",
+        "請求",
+        "団体重大疾病（CI）保険証券"
+      ],
       "learningOutcomes": [
         "describe how a Critical Illness Insurance policy works",
         "understand the Critical Illness Framework proposed by the Life Insurance Association",
@@ -2795,7 +2922,19 @@
         "list the documents that the insured has to submit when making a claim and know the claim procedures",
         "know how a Group Critical Illness Insurance policy works"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "重大疾病保険証券の仕組みを説明する",
+        "Life Insurance Associationが提案する重大疾病フレームワークを理解する",
+        "重大疾病保険給付の支払適格基準を知る",
+        "重大疾病保険の特徴を述べる",
+        "2種類の重大疾病保険の概要を説明し、違いを区別する",
+        "重症度ベースの重大疾病保険の利点を知る",
+        "重大疾病保険の最新の市場動向を知り、さまざまな補償を理解する",
+        "重大疾病保険の補償の十分性を判断するための考慮要因を理解する",
+        "重大疾病保険証券の一般的な免責事項を列挙し、補償が終了する状況を知る",
+        "請求時に被保険者が提出すべき書類を列挙し、請求手続きを知る",
+        "団体重大疾病保険証券の仕組みを知る"
+      ],
       "sections": [
         {
           "id": "ch6-s1",
@@ -3506,7 +3645,13 @@
         "Medical Expense Benefits Under Travel Insurance",
         "Group Dental Care Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "入院日額（入院所得）保険",
+        "マタニティ保険",
+        "旅行保険に基づく医療費給付",
+        "団体歯科保険"
+      ],
       "learningOutcomes": [
         "understand how a Hospital Cash (Income) Insurance policy works (whether as a stand-alone policy or as a rider)",
         "briefly explain the conditions to be met before a claim can be admitted under a Hospital Cash Insurance policy",
@@ -3521,7 +3666,20 @@
         "know the circumstances under which a Group Dental Insurance policy will be terminated",
         "know the claim procedures, including the types of documents that need to be submitted for a Group Dental Care Insurance claim"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "入院日額（入院所得）保険証券の仕組みを理解する（スタンドアローンまたはライダーとして）",
+        "入院日額保険に基づく請求が認められる前に満たすべき条件を簡潔に説明する",
+        "入院日額保険証券の特徴と種類を述べる",
+        "入院日額保険証券/ライダーの一般的な免責事項を列挙し、補償が終了する状況を知る",
+        "入院日額保険証券に基づく請求時に提出すべき書類を列挙する",
+        "マタニティ保険の仕組み（特徴、給付、免責事項を含む）を知る",
+        "旅行保険証券に基づいて提供される一般的な医療給付を知る",
+        "典型的な旅行保険証券の医療給付に関する一般的な免責事項を述べる",
+        "団体歯科保険に基づく給付の支払い方法と請求限度額を知る",
+        "団体歯科保険証券の一般的な免責事項を述べ、制限条項の仕組みを理解する",
+        "団体歯科保険証券が終了する状況を知る",
+        "団体歯科保険の請求手続き（提出すべき書類の種類を含む）を知る"
+      ],
       "sections": [
         {
           "id": "ch7-s1",
@@ -4065,7 +4223,15 @@
         "Managed Healthcare (MHC) Insurance",
         "MHC Model In Singapore"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "マネージドヘルスケア（MHC）とは？",
+        "MHCの仕組み",
+        "一般的なMHCプランの種類",
+        "提供者の選択とコスト管理",
+        "マネージドヘルスケア（MHC）保険",
+        "シンガポールにおけるMHCモデル"
+      ],
       "learningOutcomes": [
         "know what MHC is",
         "describe how MHC works",
@@ -4079,7 +4245,19 @@
         "state the procedures for claims under a MHC Insurance policy",
         "have a view of the MHC scheme available locally"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "MHCとは何かを知る",
+        "MHCの仕組みを説明する",
+        "マネージドヘルスケア組織（MHCO）が使用する4つの一般的な支払い方法を列挙し、その仕組みを理解する：人頭払い、割引出来高払い、給与制、報酬表",
+        "3つの一般的なMHCプランの種類を列挙し、それぞれの仕組みを説明する",
+        "保険者/MHOがコストと提供者の選択に対して持つ管理の程度を昇順または降順に並べる",
+        "MHC保険証券に基づいて提供される給付の一部を列挙する",
+        "MHC保険の共同負担の要素を知る",
+        "典型的なMHC保険証券の一般的な免責事項を列挙する",
+        "MHC保険の引受要件を知る",
+        "MHC保険証券に基づく請求手続きを述べる",
+        "国内で利用可能なMHCスキームの概要を把握する"
+      ],
       "sections": [
         {
           "id": "ch8-s1",
@@ -4450,7 +4628,14 @@
         "MediSave",
         "Claiming from MediShield Life/IP & MediSave"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "医療費補助金",
+        "MediShield Life",
+        "統合シールドプラン（IP）",
+        "MediSave",
+        "MediShield Life/IPおよびMediSaveからの請求"
+      ],
       "learningOutcomes": [],
       "learningOutcomesJP": [],
       "sections": [
@@ -6250,7 +6435,18 @@
         "Endorsements",
         "Conclusion"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "保険証券契約のセクション",
+        "保険証券明細",
+        "付保条項と定義",
+        "一般条件",
+        "給付規定",
+        "免責事項",
+        "請求条件",
+        "裏書",
+        "結論"
+      ],
       "learningOutcomes": [
         "list the sections of a Health Insurance policy contract",
         "know the information contained in a Health Insurance policy schedule",
@@ -6263,7 +6459,18 @@
         "explain some of the important general claim conditions commonly found in Health Insurance policies: - notification of claim condition - physical examination provision - mediation/arbitration and legal actions provision",
         "explain what an endorsement is"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "医療保険の保険証券契約のセクションを列挙する",
+        "医療保険の保険証券明細に含まれる情報を知る",
+        "付保条項とは何かを概説する",
+        "医療保険証券に基づく一般的な用語を定義する：被保険者、事故、緊急、病院、補償対象の費用、入院日、登録医師、医学的に必要な治療、入院期間、既存の病態、保険契約者、合理的な費用、待機期間、疾病、入院前給付、保険年度限度額、生涯限度額、免責額と共同保険、按分率",
+        "保険契約者と保険者の権利を概説する一般条件セクションを説明する：全契約条項、補償の発効日、保険料条項、クーリングオフ期間、就業中条項、補償の終了、海外治療、年齢・性別の誤申告、猶予期間、復活、不可争条項、職業変更、給付の調整、解約、プラン変更、通貨、最終支払者ステータス、受益者指名、保険契約者保護スキーム",
+        "医療保険証券が発行される各種の基礎を説明する：解約可能、任意更新、条件付更新、更新保証、非更新",
+        "医療保険証券の給付規定セクションの目的と機能を理解する",
+        "医療保険証券に一般的に見られる免責事項を列挙する",
+        "医療保険証券に一般的に見られる重要な請求条件を説明する：請求通知条件、身体検査規定、調停/仲裁・法的措置規定",
+        "裏書とは何かを説明する"
+      ],
       "sections": [
         {
           "id": "ch10-s1",
@@ -6988,12 +7195,19 @@
         "Key Factors Used In Premium Computation",
         "Parameters For Premium Rating"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "保険料計算に使用される主要な要因",
+        "保険料率設定のパラメータ"
+      ],
       "learningOutcomes": [
         "explain the key factors used in the premium computation: - morbidity rate - investment income - operating expenses - medical inflation - impact of epidemic/pandemic on general population - scope of benefits covered - insurer’s profit - modes of premium payment - extent of underwriting",
         "know the parameters for premium rating: - age - gender - physical condition - occupation - persistency - portfolio claims experience - claims-based pricing - group participation level"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "保険料計算に使用される主要な要因を説明する：罹患率、運用益、事業費、医療インフレーション、感染症の流行/パンデミックの影響、給付範囲、保険者の利益、保険料の支払方法、引受の程度",
+        "保険料率設定のパラメータを知る：年齢、性別、健康状態、職業、継続率、ポートフォリオの請求経験、請求実績に基づく価格設定、団体加入率"
+      ],
       "sections": [
         {
           "id": "ch11-s2",
@@ -7351,7 +7565,16 @@
         "Commencement Of Risk",
         "Conclusion"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "引受とは？",
+        "リスクに影響する要因",
+        "引受情報の入手元",
+        "保険担当者が引受プロセスを支援する方法",
+        "最終的な引受判断",
+        "リスクの開始",
+        "結論"
+      ],
       "learningOutcomes": [
         "explain what underwriting is",
         "explain the underwriting factors that affect a risk: - medical factors - non-medical factors",
@@ -7363,7 +7586,17 @@
         "understand the various terms of acceptance for Health Insurance proposals",
         "know when the risk commences"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "引受とは何かを説明する",
+        "リスクに影響する引受要因を説明する：医学的要因、非医学的要因",
+        "各種医療保険に特に重要な引受要因を知る",
+        "医療費保険の引受方法の種類を知る",
+        "団体保険のさまざまな引受要因を知る",
+        "引受情報の入手元を特定する",
+        "保険担当者が引受プロセスを支援する方法を知る",
+        "医療保険の申込に対するさまざまな引受条件を理解する",
+        "リスクがいつ開始するかを知る"
+      ],
       "sections": [
         {
           "id": "ch12-s1",
@@ -8459,13 +8692,21 @@
         "Scope Of Notice No: MAS 120",
         "Structure Of Notice No: MAS 120"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "MAS通達第120号の範囲",
+        "MAS通達第120号の構成"
+      ],
       "learningOutcomes": [
         "understand the objective of Notice No: MAS 120",
         "know the types of products covered by this Notice and their definitions",
         "understand and explain the mandatory requirements for: - the disclosure requirements for sales of: o A&H policies o life policies that contain A&H benefits - the advisory process requirements in respect of: o know-your-client o needs analysis o documentation and record keeping o switching - the additional disclosure requirements being adhered to by direct insurers  know about the non-mandatory best practice standards on information disclosure, provision of advice, and monitoring of switching for long-term A&H policies under this Notice 13. Notice No: MAS 120 – Disclosure and Advisory Process Requirements for Accident and Health Insurance Products"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "MAS通達第120号の目的を理解する",
+        "この通達の対象となる商品の種類とその定義を知る",
+        "以下の強制要件を理解し説明する：A&H保険証券および生命保険証券のA&H給付の販売に関する開示要件、顧客を知る義務・ニーズ分析・文書化と記録保管・乗換えに関するアドバイザリープロセス要件、直接保険者が遵守すべき追加開示要件、ならびに本通達に基づく非強制ベストプラクティス基準（情報開示・助言提供・長期A&H保険証券の乗換え監視）を知る"
+      ],
       "sections": [
         {
           "id": "ch13-s1",
@@ -8517,7 +8758,15 @@
         "Presenting Your Recommendations",
         "Periodic Client Review"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "ニーズセリングとプロダクトセリング",
+        "ファクトファインディングとは？",
+        "ニーズの特定と定量化",
+        "商品の推奨",
+        "推奨の提示",
+        "定期的な顧客レビュー"
+      ],
       "learningOutcomes": [
         "know how needs selling differs from product selling",
         "explain what fact-finding is",
@@ -8534,7 +8783,22 @@
         "know the systematic process of explaining your recommendations to the prospective client",
         "know when the reviews for prospective client are necessary"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "ニーズセリングとプロダクトセリングの違いを知る",
+        "ファクトファインディングとは何かを説明する",
+        "ファクトファインド・ドキュメントの各セクションが果たす目的を理解する",
+        "見込み客のファクトファインド・ドキュメントを確認しニーズを特定する際に考慮すべきニーズの定量化の質問への回答を知る",
+        "緊急資金の重要性を理解する",
+        "稼得能力を障害と健康不良から保護するニーズが重要となるライフサイクルの段階を知る",
+        "見込み客が以下の既存の保険証券を有している場合の対応を知る：障害所得保険、TPD付き生命保険、医療費保険、重大疾病保険、傷害保険、長期介護保険、MHC保険、入院日額保険、生命保険証券・労災補償保険",
+        "以下の定量化方法を知る：障害所得保護ニーズ、医療費・付随費用、入院日額所得ニーズ、重大疾病保険",
+        "商品推奨前に認識すべき3つの基本原則を列挙する",
+        "保有すべき商品知識の種類を知る",
+        "見込み客に推奨する適切な商品を選択する際に手頃さが重要な要因である理由を理解する",
+        "保険証券選択時に注意すべき重要事項を知る",
+        "見込み客への推奨を説明する体系的なプロセスを知る",
+        "見込み客のレビューが必要となる時期を知る"
+      ],
       "sections": [
         {
           "id": "ch14-s1",
@@ -8964,11 +9228,17 @@
         "Case Study 1 – Individual Health Insurance",
         "Case Study 2 – Group Health Insurance"
       ],
-      "outlineJP": [],
+      "outlineJP": [
+        "はじめに",
+        "ケーススタディ1 — 個人健康保険",
+        "ケーススタディ2 — 団体健康保険"
+      ],
       "learningOutcomes": [
         "apply the principles that you have learnt from the previous chapters so as to carry out a proper needs-based sales advisory process through looking at two case scenarios"
       ],
-      "learningOutcomesJP": [],
+      "learningOutcomesJP": [
+        "前章で学んだ原則を適用し、2つのケースシナリオを通じて適切なニーズベースの販売アドバイザリープロセスを実施する"
+      ],
       "sections": [
         {
           "id": "ch15-s1",
