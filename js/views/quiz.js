@@ -448,6 +448,24 @@ function renderQuestion(app, session, settings, deferredLineIntros = [], midQuiz
           if (tooltip) {
             tag.setAttribute('data-tooltip', tooltip);
             tag.setAttribute('tabindex', '0');
+            // Touch toggle: tap to show/hide tooltip
+            tag.addEventListener('click', (e) => {
+              const wasActive = tag.classList.contains('tooltip-active');
+              // Close all other tooltips first
+              tagsWrap.querySelectorAll('.tooltip-active').forEach(t => t.classList.remove('tooltip-active'));
+              if (!wasActive) {
+                tag.classList.add('tooltip-active');
+                // Close tooltip when tapping outside
+                const closeHandler = (ev) => {
+                  if (!tag.contains(ev.target)) {
+                    tag.classList.remove('tooltip-active');
+                    document.removeEventListener('click', closeHandler, true);
+                  }
+                };
+                // Use setTimeout to avoid the current click triggering the close handler
+                setTimeout(() => document.addEventListener('click', closeHandler, true), 0);
+              }
+            });
           }
           if (BookmarkStore.has(k)) tag.classList.add('keyword-tag--bookmarked');
           tag.addEventListener('click', () => {

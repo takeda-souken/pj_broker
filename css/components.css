@@ -637,14 +637,19 @@
 [data-tooltip]:focus-visible::before {
   opacity: 1;
 }
-/* Dark mode tooltip */
+/* Touch toggle: tap to show/hide on mobile */
+[data-tooltip].tooltip-active::after,
+[data-tooltip].tooltip-active::before {
+  opacity: 1;
+}
+/* Dark mode tooltip — opaque, high-contrast background */
 [data-theme="dark"] [data-tooltip]::after {
-  background: var(--c-surface-alt);
-  color: var(--c-text);
-  border: 1px solid var(--c-border);
+  background: #1a1a2e;
+  color: #f0f0f0;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 [data-theme="dark"] [data-tooltip]::before {
-  border-top-color: var(--c-surface-alt);
+  border-top-color: #1a1a2e;
 }
 
 /* ===== Search Box ===== */

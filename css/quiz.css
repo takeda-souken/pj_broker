@@ -339,27 +339,7 @@ body:has(.exam-timer) #app {
 .btn-bookmark-star--active { color: var(--c-gold); }
 
 /* ===== Tooltip (keyword tooltips) ===== */
-[data-tooltip] { position: relative; }
-[data-tooltip]:hover::after, [data-tooltip]:focus::after {
-  content: attr(data-tooltip);
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--c-surface);
-  color: var(--c-text);
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius);
-  padding: 6px 10px;
-  font-size: 0.75rem;
-  white-space: normal;
-  max-width: 250px;
-  z-index: 100;
-  box-shadow: 0 4px 12px var(--c-shadow);
-  pointer-events: none;
-  opacity: 1;
-  animation: fadeSlideUp 0.2s ease;
-}
+/* Base styles in components.css; quiz.css no longer duplicates them */
 
 /* ===== Supporter Bubble (quiz-specific overrides) ===== */
 /* Base styles in components.css; quiz context just adjusts avatar size */
