@@ -179,6 +179,11 @@ function renderQuestion(app, session, settings, deferredLineIntros = [], midQuiz
   const q = session.current;
   if (!q || session.isFinished || session.isTimeUp) {
     clearSavedSession();
+    // Empty session (0 answered) — don't fire a bogus submit. Just go home.
+    if (session.answers.length === 0) {
+      navigate('#home');
+      return;
+    }
     showResults(app, session, deferredLineIntros, midQuizAchievements);
     return;
   }
@@ -669,6 +674,13 @@ function restoreSession() {
       clearSavedSession();
       return null;
     }
+    // Don't restore expired mock sessions — time limit already passed.
+    // Otherwise renderQuestion's isTimeUp guard fires an empty 0/0 submit.
+    if (data.mode === 'mock' && data.timeLimit != null
+        && Date.now() - data.startTime > data.timeLimit) {
+      clearSavedSession();
+      return null;
+    }
     const session = new QuizSession({
       module: data.module,
       mode: data.mode,
@@ -699,6 +711,12 @@ export function getSavedSessionInfo() {
     if (!raw) return null;
     const data = JSON.parse(raw);
     if (Date.now() - data.savedAt > 24 * 60 * 60 * 1000) {
+      clearSavedSession();
+      return null;
+    }
+    // Hide expired mock sessions — restoring them would fire an empty 0/0 submit
+    if (data.mode === 'mock' && data.timeLimit != null
+        && Date.now() - data.startTime > data.timeLimit) {
       clearSavedSession();
       return null;
     }
