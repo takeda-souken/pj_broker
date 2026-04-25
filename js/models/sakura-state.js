@@ -144,7 +144,9 @@ export class SakuraState {
   /** Check if we're before the arrival date (or arrival date not set) */
   static _isBeforeArrival() {
     const arrivalDate = SettingsStore.get('arrivalDate');
-    if (!arrivalDate) return true; // no date = hasn't arrived yet
+    // arrivalDate未設定 = 「もう着いた扱い」で桜の部屋を開放する
+    // (arrivalDateを入力しないユーザーが永久にjapan固定される穴を埋める)
+    if (!arrivalDate) return false;
     const now = DebugStore.now();
     const arrival = new Date(arrivalDate + 'T00:00:00');
     return now < arrival;
