@@ -2,8 +2,28 @@
  * Hash-based SPA Router
  * Enhanced: lazy route loading (#27) — non-core views imported on first navigation
  */
+import { sendViewLog } from './utils/gas-client.js';
+
 const routes = {};
 let currentCleanup = null;
+
+// View tracking — record screen-by-screen dwell time, sent on leave
+const VIEW_MIN_DURATION_MS = 1000; // skip transient passes shorter than this
+let currentView = null;
+let currentViewEnteredAt = 0;
+let prevView = '';
+
+function viewFromHash(hash) {
+  return (hash || '#home').replace(/^#/, '').split('?')[0] || 'home';
+}
+
+function logViewLeave() {
+  if (!currentView) return;
+  const dur = Date.now() - currentViewEnteredAt;
+  if (dur >= VIEW_MIN_DURATION_MS) {
+    sendViewLog({ view: currentView, prevView, durationMs: dur });
+  }
+}
 
 // Routes loaded lazily on first visit
 const LAZY_ROUTES = {
@@ -39,6 +59,18 @@ async function handleRoute() {
 
   // Legacy redirect: #mrt → #fun
   if (hash === '#mrt') { window.location.hash = '#fun'; return; }
+
+  // ── View tracking: send dwell log only on actual view change ──
+  // (lang-switch re-renders call handleRoute too — must not reset the timer)
+  const newView = viewFromHash(hash);
+  if (currentView !== newView) {
+    if (currentView) {
+      logViewLeave();
+      prevView = currentView;
+    }
+    currentView = newView;
+    currentViewEnteredAt = Date.now();
+  }
 
   // Unlock sakura phase cache when leaving quiz
   if (hash !== '#quiz') {
@@ -117,5 +149,15 @@ export async function initRouter() {
 
   window.addEventListener('hashchange', handleRoute);
   window.addEventListener('lang-mode-changed', () => cascadeLangSwitch());
+
+  // Flush dwell log when tab is hidden (covers tab close / app background)
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      logViewLeave();
+      // Reset entry time so a re-show doesn't double-count the away period
+      currentViewEnteredAt = Date.now();
+    }
+  });
+
   handleRoute();
 }

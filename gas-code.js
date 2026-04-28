@@ -23,6 +23,7 @@ const HEADERS = {
   Feedback: ['timestamp', 'sentAt', 'type', 'module', 'questionId', 'message'],
   SakuraRoom: ['timestamp', 'sentAt', 'conversationId', 'nodeId', 'choiceLabel', 'flags', 'axes'],
   StateSnapshot: ['timestamp', 'sentAt', 'snapshotJson'],
+  ViewLog: ['timestamp', 'sentAt', 'view', 'prevView', 'durationMs'],
 };
 
 // ─── DEV_ prefixed sheets (localhost data isolation) ───

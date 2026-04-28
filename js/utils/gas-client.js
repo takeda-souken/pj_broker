@@ -44,6 +44,7 @@ export async function gasSend(action, payload) {
     const res = await fetch(url, {
       method: 'POST',
       body: JSON.stringify(data),
+      keepalive: true,
     });
     return res.ok;
   } catch {
@@ -106,6 +107,13 @@ export function sendSakuraRoomLog({ conversationId, nodeId, choiceLabel, flags, 
     flags: flags || {},
     axes: axes || {},
   });
+}
+
+/**
+ * Send view-log entry (per screen visit, recorded on leave)
+ */
+export function sendViewLog({ view, prevView, durationMs }) {
+  return gasSend('ViewLog', { view, prevView: prevView || '', durationMs });
 }
 
 // ─── Offline queue ───
